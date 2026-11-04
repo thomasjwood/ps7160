@@ -1,0 +1,1 @@
+Some survey packages are not able to recognize weight variations for subpopulations when testing for statistical significance.  In this data file, that would include state-level analysis. The basic SPSS package (without the additional Complex Samples Module) has this limitation, while SAS, Stata, and most R packages do not. 
