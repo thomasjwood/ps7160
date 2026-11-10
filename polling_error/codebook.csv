@@ -1,0 +1,27 @@
+variable,description
+source,"Where the poll row comes from: ""538 raw-polls (2023 release)"" (1998-2022), ""538 polls pages (archived)"" (2023-24), ""NYT polls files"" (2025-26)"
+poll_id,Poll id in the source (538 numeric ids; NYT uuids)
+question_id,Question id in the source. One question per poll and race: likely voters over registered voters over adults, then the fullest ballot
+cycle,"Election cycle: the even year, pooling the preceding odd year (2023-24 = 2024)"
+type_simple,"Race type: Pres-G (president, general), Pres-P (presidential primary), Sen-G, House-G (district), House-G-US (generic ballot), Gov-G"
+race,Race id (538's for 1998-2022; the NYT results race id or a constructed key for 2023-26)
+location,"State postal code, ""US"" for national, or state-district for House races (e.g. ""NY-3"")"
+pollster,Pollster name
+pollster_rating_id,538 pollster rating id (blank for pollsters 538 never rated; averages weight those by name)
+partisan,"Partisan/internal flag (D, R, I) where the source gives one; blank otherwise"
+polldate,Median field date
+electiondate,Election date
+days,Days from the median field date to the election (0-21)
+samplesize,Sample size
+cand1_name,"Candidate 1: the Democrat when a Democrat and a Republican finished first and second, else the winner"
+cand1_party,Candidate 1's party
+cand1_pct,Candidate 1's share in the poll
+cand1_actual,Candidate 1's share of the vote (percent of all votes cast)
+cand2_name,"Candidate 2: the Republican in Democrat-vs-Republican races, else the runner-up"
+cand2_party,Candidate 2's party
+cand2_pct,Candidate 2's share in the poll
+cand2_actual,Candidate 2's share of the vote
+margin_poll,cand1_pct - cand2_pct
+margin_actual,cand1_actual - cand2_actual
+error,|margin_poll - margin_actual|
+bias,"margin_poll - margin_actual, Democrat-vs-Republican races only (positive = polls overstated the Democrat, i.e. Republicans underrated)"
