@@ -313,10 +313,17 @@ t_cs %>%
   ) %>%
   print
 
+# gzip, so url() %>% readRDS works on the raw GitHub link. Remove any old
+# copy first: gzfile() keeps an existing file's xz compression on overwrite
+if (out_file %>% file.exists) {
+  out_file %>%
+    file.remove
+}
+
 t_cs %>%
   write_rds(
     out_file,
-    compress = "xz"
+    compress = "gz"
   )
 
 # codebook: one row per variable, with value labels and the months asked
