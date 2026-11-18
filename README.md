@@ -102,7 +102,7 @@ Raw-URL reads only work for files under 100 MB.
 | `sca` | Michigan Surveys of Consumers microdata | 1978-2026 |
 | `fedres_scf` | Survey of Consumer Finances full public data (five implicates, labelled) for 2022 and 2025; 2025 summary extract | 2022-2025 |
 | `fanniemae_hspi` | Fannie Mae National Housing Survey | 2016-2017 |
-| `atus` | American Time Use Survey multi-year respondent, activity summary and roster files (2003-2024 and 2003-2025 releases) | 2003-2025 |
+| `atus` | American Time Use Survey multi-year respondent, activity summary, roster and activity (episode-level, `atusact_0325.rds`) files (2003-2024 and 2003-2025 releases) | 2003-2025 |
 | `oecd_trust` | OECD Trust Survey | 2021-2025 |
 | `wvs` | World Values Survey wave 7 and time series | 1981-2022 |
 | `ispp` | ISSP module ZA4747 | |
