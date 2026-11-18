@@ -223,7 +223,7 @@ codebook <- tibble(
 
 # ---- write --------------------------------------------------------------------
 
-write_rds(yrbs, "output/yrbs_national_1991_2025.rds", compress = "xz")
+write_rds(yrbs, "output/yrbs_national_1991_2025.rds", compress = "gz")
 write_dta(yrbs, "output/yrbs_national_1991_2025.dta", version = 15,
           label = "National YRBS 1991-2025 (CDC combined high school file)")
 write_sav(yrbs, "output/yrbs_national_1991_2025.sav", compress = "zsav")
