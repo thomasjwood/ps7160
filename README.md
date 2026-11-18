@@ -39,6 +39,7 @@ Raw-URL reads only work for files under 100 MB.
 | `538_2022`, `538_2022_w7` | 538/Ipsos 2022 panel waves (Roper) | 2022 |
 | `cleaned_polls` | cleaned presidential and state Senate polls | 2016-2026 |
 | `polling_error` | poll-level accuracy data on 538's method | 1998-2026 |
+| `nyt_siena` | NYT Upshot/Siena College microdata from Roper: 94 House-district polls (Oct-Nov 2018) and 25 state and national polls (Sep-Oct 2020), plus the 2019 Commonwealth Fund/NYT/Harvard health survey. One labelled rds per Roper ID, the original .por, the Roper codebook PDF, and `catalog.csv` (ID, field dates, title) | 2018-2020 |
 | `nyt_sienna_xtab_2024` | NYT/Siena crosstabs | 2023-2024 |
 | `monmouth` | Monmouth University polls (Roper) | |
 | `yg_tracker` | YouGov tracker | Jan 2009-Jun 2023 |
