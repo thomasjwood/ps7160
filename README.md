@@ -9,7 +9,7 @@ Raw-URL reads only work for files under 100 MB.
 | folder | what | coverage |
 |---|---|---|
 | `anes` | ANES cumulative file, 2024 time series, 2018 pilot, 2012 turnout extract | 1948-2024 |
-| `cces` | CCES/CES cumulative and 2018 (validated vote), 2020 common content | 2006-2020 |
+| `cces` | CES common content 2018, 2020, 2022, 2024 (validated vote), older cumulative files, and the CES cumulative file 2006-2025 (`ces_cumulative_2006_2025.rds`) with guides | 2006-2025 |
 | `cmps` | Collaborative Multiracial Post-election Survey | 2008-2020 |
 | `vsg` | Democracy Fund VOTER Survey panel | 2011-2020 |
 | `ns_19_21` | Nationscape weekly files | Jul 2019-Jan 2021 |
@@ -19,13 +19,14 @@ Raw-URL reads only work for files under 100 MB.
 | `wev` | West European Voter file | 1961-2020 |
 | `exit_polls` | Election-day polls: CBS/NYT, ABC, NBC, LAT, VNS, NEP, Edison 2020/2022 (national + states), AP VoteCast 2018-2024, harmonized midterm file, NORC Civic Health 2026 | 1972-2026 |
 | `cast_vote_records` | County cast-vote-record files | 2020 |
+| `cps_voting` | CPS November 2024 Voting and Registration Supplement: all basic and supplement items (`cps_nov2024_voting_supplement.rds`), fixed-width layout, Census documentation, prep script. Weights divided by 10,000; nonresponse coded -1/-2/-3/-9 as in the raw file | 2024 |
 
 ## Election returns and context
 
 | folder | what | coverage |
 |---|---|---|
 | `countyvote` | MIT county presidential returns; long county file | 1868-2024 |
-| `statevote` | MIT state presidential returns | 1976-2020 |
+| `statevote` | MIT state presidential returns (1976-2020 and 1976-2024 files) and Senate statewide returns 1976-2024, with codebooks | 1976-2024 |
 | `housevote` | MIT House returns | 1976-2024 |
 | `election_analysis` | election-context files used in class | 2018-2026 |
 | `cmag_pres` | Wesleyan/CMAG presidential advertising | 2000-2020 |
@@ -98,13 +99,13 @@ Raw-URL reads only work for files under 100 MB.
 | `ccam` | Climate Change in the American Mind | 2008-2025 |
 | `fire_nsi`, `fire_student` | FIRE National Speech Index; college student surveys | 2020-2026 |
 | `sca` | Michigan Surveys of Consumers microdata | 1978-2026 |
-| `fedres_scf` | Survey of Consumer Finances | 2022 |
+| `fedres_scf` | Survey of Consumer Finances full public data (five implicates, labelled) for 2022 and 2025; 2025 summary extract | 2022-2025 |
 | `fanniemae_hspi` | Fannie Mae National Housing Survey | 2016-2017 |
 | `atus` | American Time Use Survey | 2003-2024 |
 | `oecd_trust` | OECD Trust Survey | 2021-2025 |
 | `wvs` | World Values Survey wave 7 and time series | 1981-2022 |
 | `ispp` | ISSP module ZA4747 | |
-| `surv_caab_73_20` | placeholder | |
+| `gss` | General Social Survey cumulative file, release 3a (July 2026), with codebook and release notes; recommended weight `wtssps` | 1972-2024 |
 
 ## Course materials
 
