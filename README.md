@@ -8,7 +8,7 @@ Raw-URL reads only work for files under 100 MB.
 
 | folder | what | coverage |
 |---|---|---|
-| `anes` | ANES cumulative file, 2024 time series, 2018 pilot, 2012 turnout extract | 1948-2024 |
+| `anes` | ANES cumulative file, 2024 time series, 2016-2020-2024 panel merged file (May 2026 release, .sav and .rds), 2018 pilot, 2012 turnout extract | 1948-2024 |
 | `cces` | CES common content 2018, 2020, 2022, 2024 (validated vote), older cumulative files, and the CES cumulative file 2006-2025 (`ces_cumulative_2006_2025.rds`) with guides | 2006-2025 |
 | `cmps` | Collaborative Multiracial Post-election Survey | 2008-2020 |
 | `vsg` | Democracy Fund VOTER Survey panel | 2011-2020 |
