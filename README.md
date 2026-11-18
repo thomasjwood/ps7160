@@ -94,6 +94,7 @@ Raw-URL reads only work for files under 100 MB.
 | `scoal` | Survey Center on American Life / AEI American Perspectives Survey | 2019-2024 |
 | `chapman_soaf` | Chapman Survey of American Fears | 2014-2024 |
 | `gen_forward` | GenForward | 2016-2022 |
+| `yrbs` | CDC national Youth Risk Behavior Survey, high school, all 18 waves stacked from the CDC combined (SADC) file with 2025 question numbering (`yrbs_national_1991_2025.rds`/`.sav`, labelled), codebook with years per item, build scripts. Sexual identity 2015-2019 and transgender identity 2023, dropped from CDC's 2025 combined file, restored from the single-year files. Design: `ids = ~psu, strata = ~interaction(year, stratum), weights = ~weight, nest = TRUE` | 1991-2025 |
 | `knight_foundation` | Knight/Gallup trust in media and panels | 2017-2024 |
 | `more_in_common`, `nche`, `reagan_institute`, `making_meaning`, `cms` | single studies | |
 | `kff_stacked` | KFF tracking polls stacked by series | |
