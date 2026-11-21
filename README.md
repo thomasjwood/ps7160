@@ -80,7 +80,7 @@ Raw-URL reads only work for files under 100 MB.
 |---|---|---|
 | `gallup_daily_08_19` | Gallup US Daily | 2008-2019 |
 | `gallup_wellbeing` | Gallup Panel wellbeing monthlies | 2020-2025 |
-| `gallup_wp` | Gallup World Poll by country; `wp_items.csv`; high-income stacked file (`.qs`) | 2006-2021 |
+| `gallup_wp` | Gallup World Poll by country (`ISO3.rds`, 101626 release); pooled all-country files of variables asked in most years (`gallup_world_pooled_06_15.qs2`, `_16_25.qs2`, read with `qs2::qs_read`); `wp_items.csv`; older high-income stacked file (`.qs`, 2006-2021) | 2006-2025 |
 
 ## Social, religion, economics, international
 
