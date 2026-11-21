@@ -1,0 +1,3582 @@
+Data File: RUS (Full Data Codebook)
+
+1) CASEID
+CASEID Serial number
+RANGE: 3 to 11067
+	N	Mean	Std. Deviation
+Total	10241	5467.237	3156.025
+
+
+2) WEIGHT1
+WEIGHT1 Post-stratification weight for general population sample
+RANGE: 0.1104 to 4.1893
+	N	Mean	Std. Deviation
+Total	9900	1	0.846
+
+
+3) WEIGHT2
+WEIGHT2 Post-stratification weight for total qualified respondents
+RANGE: 0.0903 to 4.1837
+	N	Mean	Std. Deviation
+Total	10241	1	0.861
+
+
+4) WEIGHT3
+WEIGHT3 Post-stratification weight for total qualified respondents by science occupation
+RANGE: 0.0987 to 5.2663
+	N	Mean	Std. Deviation
+Total	10241	1	0.859
+
+
+5) TM_START
+TM_START Interview start time (GMT)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	10241	0	0
+
+
+6) TM_FINISH
+TM_FINISH Interview finish time (GMT)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	10241	0	0
+
+
+7) DURATION
+DURATION Interview duration in minutes
+RANGE: 1 to 23412
+	N	Mean	Std. Deviation
+Total	10241	447.267	2102.686
+
+
+8) QFLAG
+QFLAG DATA ONLY: Qualification Flag
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	10241	1	0
+1) Qualified	10241	100.0
+
+
+9) XSCIENCE
+XSCIENCE Sample Group
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	10241	1.033	0.179
+1) General population	9900	96.7
+2) Oversample	341	3.3
+
+
+10) XPRIMELAN
+XPRIMELAN Primary Language
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	10241	4.639	1.003
+1) English proficient	371	3.6
+2) Bilingual	426	4.2
+3) Spanish proficient	466	4.6
+5) Non-Hispanics, not asked	8978	87.7
+
+
+11) XSPANISH
+XSPANISH Spanish Survey Taker
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	10241	1.051	0.22
+1) English	9721	94.9
+2) Spanish	520	5.1
+
+
+12) DEGREE
+DEGREE What is the highest degree that you have earned?
+RANGE: -1 to 10
+	N	Mean	Std. Deviation
+Total	10241	4.476	2.026
+-1) Refused	21	0.2
+1) No high school diploma	588	5.7
+2) GED	551	5.4
+3) High school diploma	3494	34.1
+4) Vocational/technical diploma	725	7.1
+5) Associate degree	1009	9.9
+6) Bachelor's degree	2222	21.7
+7) Master's degree	1105	10.8
+8) Doctorate degree	224	2.2
+9) MD/DVM/DDS/JD	132	1.3
+10) Other	170	1.7
+
+
+13) AREA
+AREA [Ask if DEGREE>5] Which of the following best represents your major or primary area of study for your highest degree?
+RANGE: -1 to 14
+	N	Mean	Std. Deviation
+Total	3853	7.708	3.747
+-1) Refused	4	0.1
+1) Agriculture	29	0.8
+2) Arts (e.g., Fine Art, Theatre)	143	3.7
+3) Biological Sciences (e.g., Biology, Environmental Science)	156	4.0
+4) Business	766	19.9
+5) Computer or information science	235	6.1
+6) Education	485	12.6
+7) Engineering	345	9.0
+8) Humanities (e.g., English, History, Literature)	248	6.4
+9) Math	84	2.2
+10) Physical Sciences (e.g., Chemistry, Geology, Physics)	115	3.0
+11) Health-related (e.g., Nursing, Medicine, Veterinary)	352	9.1
+12) Social Sciences (e.g., Anthropology, Sociology, Psychology)	422	11.0
+13) Technical (e.g., Drafting, Electronics)	35	0.9
+14) Other	434	11.3
+Missing	6388
+
+
+14) SCIOCCUP
+SCIOCCUP Would you say that your current occupation is science-related?
+RANGE: -1 to 2
+	N	Mean	Std. Deviation
+Total	10241	1.822	0.396
+-1) Refused	18	0.2
+1) Yes	1765	17.2
+2) No	8458	82.6
+
+
+15) SCIOCCUP2
+SCIOCCUP2 [Ask if SCIOCCUP=YES] Do you work at a college or university?
+RANGE: -1 to 2
+	N	Mean	Std. Deviation
+Total	1765	1.868	0.407
+-1) Refused	15	0.8
+1) Yes	188	10.7
+2) No	1562	88.5
+Missing	8476
+
+
+16) SCIOCCUP3
+SCIOCCUP3 [Ask if SCIOCCUP=YES and SCIOCCUP =1 (YES) or 2 (NO)] And what is your occupation? [Terminate if xscience = 2 and (SCIOCCUP = No or SCIOCCUP Refused)]
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1700	0	0
+
+
+17) SCIMAG
+SCIMAG In the last month have you read in print or online any science-focused magazines, such as National Geographic, Discover, Smithsonian, Popular Science, or Scientific American?
+RANGE: -1 to 2
+	N	Mean	Std. Deviation
+Total	10241	1.763	0.479
+-1) Refused	83	0.8
+1) Yes	2174	21.2
+2) No	7984	78.0
+
+
+18) SCINEWS
+SCINEWS If you saw a headline on a newspaper or website about a new scientific discovery, how likely are you to read the full story?
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.009	0.889
+-1) Refused	54	0.5
+1) Very likely	2872	28.0
+2) Somewhat likely	4990	48.7
+3) Not very likely	1524	14.9
+4) Not at all likely	801	7.8
+
+
+19) QUEST_PHD
+QUEST_PHD If you had a question about science, how likely would you be to consult the following sources? A book written by a PhD scientist
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.721	1.097
+-1) Refused	208	2.0
+1) Very likely	1047	10.2
+2) Somewhat likely	2771	27.1
+3) Not very likely	3378	33.0
+4) Not at all likely	2837	27.7
+
+
+20) QUEST_WEB
+QUEST_WEB If you had a question about science, how likely would you be to consult the following sources? A general Internet source, such as Wikipedia
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.07	1.062
+-1) Refused	178	1.7
+1) Very likely	3017	29.5
+2) Somewhat likely	4132	40.3
+3) Not very likely	1560	15.2
+4) Not at all likely	1354	13.2
+
+
+21) QUEST_SCI
+QUEST_SCI If you had a question about science, how likely would you be to consult the following sources? A scientific magazine, such as National Geographic, Discover, Smithsonian, Popular Science, or Scientific American
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.379	1.066
+-1) Refused	197	1.9
+1) Very likely	1700	16.6
+2) Somewhat likely	3905	38.1
+3) Not very likely	2706	26.4
+4) Not at all likely	1733	16.9
+
+
+22) QUEST_OCC
+QUEST_OCC If you had a question about science, how likely would you be to consult the following sources? A person working in a scientific occupation
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.49	1.081
+-1) Refused	191	1.9
+1) Very likely	1464	14.3
+2) Somewhat likely	3623	35.4
+3) Not very likely	2875	28.1
+4) Not at all likely	2088	20.4
+
+
+23) QUEST_TEA
+QUEST_TEA If you had a question about science, how likely would you be to consult the following sources? A teacher at a local school or college
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.748	1.073
+-1) Refused	213	2.1
+1) Very likely	865	8.4
+2) Somewhat likely	2783	27.2
+3) Not very likely	3598	35.1
+4) Not at all likely	2782	27.2
+
+
+24) QUEST_FRI
+QUEST_FRI If you had a question about science, how likely would you be to consult the following sources? A friend or family member
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.386	1.022
+-1) Refused	191	1.9
+1) Very likely	1406	13.7
+2) Somewhat likely	4296	41.9
+3) Not very likely	2762	27.0
+4) Not at all likely	1586	15.5
+
+
+25) QUEST_TXT
+QUEST_TXT If you had a question about science, how likely would you be to consult the following sources? A religious text
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	3.209	1.037
+-1) Refused	182	1.8
+1) Very likely	501	4.9
+2) Somewhat likely	1337	13.1
+3) Not very likely	3016	29.5
+4) Not at all likely	5205	50.8
+
+
+26) QUEST_LDR
+QUEST_LDR If you had a question about science, how likely would you be to consult the following sources? A religious leader
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	3.246	1.025
+-1) Refused	197	1.9
+1) Very likely	413	4.0
+2) Somewhat likely	1217	11.9
+3) Not very likely	3065	29.9
+4) Not at all likely	5349	52.2
+
+
+27) QUEST_CON
+QUEST_CON If you had a question about science, how likely would you be to consult the following sources? Other people at your religious congregation
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	3.266	0.999
+-1) Refused	189	1.8
+1) Very likely	322	3.1
+2) Somewhat likely	1258	12.3
+3) Not very likely	3086	30.1
+4) Not at all likely	5386	52.6
+
+
+28) SCIVIEW_1
+SCIVIEW_1 How much do you agree or disagree with the following statements? Overall, modern science does more harm than good.
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	10241	3.457	1.123
+-1) Refused	63	0.6
+1) Strongly agree	532	5.2
+2) Agree	1019	10.0
+3) Neither agree nor disagree	3555	34.7
+4) Disagree	3127	30.5
+5) Strongly disagree	1945	19.0
+
+
+29) SCIVIEW_2
+SCIVIEW_2 How much do you agree or disagree with the following statements? Because of science and technology, there will be more opportunities for the next generation.
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	10241	2.089	0.887
+-1) Refused	65	0.6
+1) Strongly agree	2401	23.4
+2) Agree	4947	48.3
+3) Neither agree nor disagree	2294	22.4
+4) Disagree	388	3.8
+5) Strongly disagree	146	1.4
+
+
+30) SCIVIEW_3
+SCIVIEW_3 How much do you agree or disagree with the following statements? Given enough time, science will be able to provide a natural explanation for everything.
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	10241	3.057	1.123
+-1) Refused	64	0.6
+1) Strongly agree	755	7.4
+2) Agree	2127	20.8
+3) Neither agree nor disagree	3972	38.8
+4) Disagree	2169	21.2
+5) Strongly disagree	1154	11.3
+
+
+31) SCIVIEW_4
+SCIVIEW_4 How much do you agree or disagree with the following statements? Science makes our way of life change too fast.
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	10241	3.075	0.974
+-1) Refused	67	0.7
+1) Strongly agree	424	4.1
+2) Agree	1928	18.8
+3) Neither agree nor disagree	4644	45.3
+4) Disagree	2547	24.9
+5) Strongly disagree	631	6.2
+
+
+32) SCIVIEW_5
+SCIVIEW_5 How much do you agree or disagree with the following statements? Scientists should be open to considering miracles in their theories and explanations.
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	10241	2.796	1.154
+-1) Refused	66	0.6
+1) Strongly agree	1174	11.5
+2) Agree	2834	27.7
+3) Neither agree nor disagree	3882	37.9
+4) Disagree	1218	11.9
+5) Strongly disagree	1067	10.4
+
+
+33) SCIVIEW_6
+SCIVIEW_6 How much do you agree or disagree with the following statements? Scientific research is valuable even when it doesn't provide immediate tangible benefits like new medicines or technologies.
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	10241	2.103	0.853
+-1) Refused	66	0.6
+1) Strongly agree	2183	21.3
+2) Agree	5097	49.8
+3) Neither agree nor disagree	2490	24.3
+4) Disagree	271	2.6
+5) Strongly disagree	134	1.3
+
+
+34) SCIVIEW_7
+SCIVIEW_7 How much do you agree or disagree with the following statements? Science can only truly explain what can be seen and touched.
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	10241	3.069	1.095
+-1) Refused	67	0.7
+1) Strongly agree	631	6.2
+2) Agree	2173	21.2
+3) Neither agree nor disagree	4026	39.3
+4) Disagree	2275	22.2
+5) Strongly disagree	1069	10.4
+
+
+35) SCIFRNDS
+SCIFRNDS Think about your five closest friends. How many would you say work in science-related occupations?
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	1.431	0.724
+-1) Refused	59	0.6
+1) None of them	6704	65.5
+2) One or two of them	2626	25.6
+3) Three or four of them	653	6.4
+4) All of them	199	1.9
+
+
+36) RELFRND_1
+RELFRND_1 Thinking about those same closest five friends, how many would you say are... Evangelical Christians
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	1.54	1.145
+-1) Refused	669	6.5
+1) None of them	5376	52.5
+2) One or two of them	2290	22.4
+3) Three or four of them	1142	11.2
+4) All of them	764	7.5
+
+
+37) RELFRND_2
+RELFRND_2 Thinking about those same closest five friends, how many would you say are... Catholics
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	1.667	1.118
+-1) Refused	760	7.4
+1) None of them	3576	34.9
+2) One or two of them	3994	39.0
+3) Three or four of them	1376	13.4
+4) All of them	535	5.2
+
+
+38) RELFRND_3
+RELFRND_3 Thinking about those same closest five friends, how many would you say are... Jews
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	0.996	0.867
+-1) Refused	1169	11.4
+1) None of them	7084	69.2
+2) One or two of them	1717	16.8
+3) Three or four of them	228	2.2
+4) All of them	43	0.4
+
+
+39) RELFRND_4
+RELFRND_4 Thinking about those same closest five friends, how many would you say are... Muslims
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	0.811	0.741
+-1) Refused	1289	12.6
+1) None of them	8390	81.9
+2) One or two of them	487	4.8
+3) Three or four of them	65	0.6
+4) All of them	10	0.1
+
+
+40) RELFRND_5
+RELFRND_5 Thinking about those same closest five friends, how many would you say are... Buddhists
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	0.815	0.744
+-1) Refused	1289	12.6
+1) None of them	8363	81.7
+2) One or two of them	500	4.9
+3) Three or four of them	86	0.8
+4) All of them	3	0.0
+
+
+41) RELFRND_6
+RELFRND_6 Thinking about those same closest five friends, how many would you say are... Hindus
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	0.778	0.732
+-1) Refused	1345	13.1
+1) None of them	8563	83.6
+2) One or two of them	260	2.5
+3) Three or four of them	61	0.6
+4) All of them	12	0.1
+
+
+42) RELFRND_7
+RELFRND_7 Thinking about those same closest five friends, how many would you say are... Atheists
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	1.071	0.96
+-1) Refused	1223	11.9
+1) None of them	6455	63.0
+2) One or two of them	2050	20.0
+3) Three or four of them	414	4.0
+4) All of them	99	1.0
+
+
+43) RELFRND_8
+RELFRND_8 Thinking about those same closest five friends, how many would you say are... Mainline Protestants
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	1.308	1.057
+-1) Refused	995	9.7
+1) None of them	5522	53.9
+2) One or two of them	2521	24.6
+3) Three or four of them	983	9.6
+4) All of them	220	2.1
+
+
+44) DOV_GROUP1
+DOV_GROUP1 Group 1
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	10241	0.497	0.5
+0) No	5147	50.3
+1) Yes	5094	49.7
+
+
+45) DOV_GROUP2
+DOV_GROUP2 Group2
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	10241	0.503	0.5
+0) No	5094	49.7
+1) Yes	5147	50.3
+
+
+46) DAWKINS
+DAWKINS Have you heard of a scientist named Dr. Richard Dawkins?
+RANGE: -1 to 2
+	N	Mean	Std. Deviation
+Total	5094	1.746	0.475
+-1) Refused	31	0.6
+1) Yes	1201	23.6
+2) No	3862	75.8
+Missing	5147
+
+
+47) DOV_DAWKINS
+DOV_DAWKINS DATA ONLY: ASSIGNING TO RESPONDENTS BASED ON QDAWKINS= NO ASSIGN TO DOV_DAWKINS = 1; IF QDAWKINS = YES ASSIGN TO DOV_DAWKINS = 2
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	3862	1.901	0.299
+1) Dawkins description shown	383	9.9
+2) No Dawkins description shown	3479	90.1
+Missing	6379
+
+
+48) COLLINS
+COLLINS Have you heard of a scientist named Dr. Francis Collins?
+RANGE: -1 to 2
+	N	Mean	Std. Deviation
+Total	5147	1.935	0.307
+-1) Refused	29	0.6
+1) Yes	245	4.8
+2) No	4873	94.7
+Missing	5094
+
+
+49) DOV_COLLINS
+DOV_COLLINS LOGIC: ASSIGN RESPONDENTS BASED ON THEIR RESPONSE TO QCOLLINS. IF QCOLLINS = NO ASSIGN TO DOV_COLLINS = 1; IF QCOLLINS = YES ASSIGN TO DOV_COLLINS = 2.
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	4873	1.905	0.293
+1) Collins description shown	463	9.5
+2) No Collins description shown	4410	90.5
+Missing	5368
+
+
+50) DOV_RELSCI_01_ORDER
+DOV_RELSCI_01_ORDER Which of the following BEST represents your view. 'For me personally, my understanding of science and religion can be described as a relationship of...' Conflict...I consider myself to be on the side of religion
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.511	1.114
+1) 	2494	24.4
+2) 	2600	25.4
+3) 	2570	25.1
+4) 	2577	25.2
+
+
+51) DOV_RELSCI_02_ORDER
+DOV_RELSCI_02_ORDER Which of the following BEST represents your view. 'For me personally, my understanding of science and religion can be described as a relationship of...' Conflict...I consider myself to be on the side of science
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.511	1.121
+1) 	2537	24.8
+2) 	2559	25.0
+3) 	2524	24.6
+4) 	2621	25.6
+
+
+52) DOV_RELSCI_03_ORDER
+DOV_RELSCI_03_ORDER Which of the following BEST represents your view. 'For me personally, my understanding of science and religion can be described as a relationship of...' Independence...they refer to different aspects of reality
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.488	1.125
+1) 	2657	25.9
+2) 	2475	24.2
+3) 	2565	25.0
+4) 	2544	24.8
+
+
+53) DOV_RELSCI_04_ORDER
+DOV_RELSCI_04_ORDER Which of the following BEST represents your view. 'For me personally, my understanding of science and religion can be described as a relationship of...' Collaboration...each can be used to help support the other
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.491	1.112
+1) 	2553	24.9
+2) 	2607	25.5
+3) 	2582	25.2
+4) 	2499	24.4
+
+
+54) RELSCI
+RELSCI. Which of the following BEST represents your view. 'For me personally, my understanding of science and religion can be described as a relationship of...'
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.96	1.09
+-1) Refused	97	0.9
+1) Conflict...I consider myself to be on the side of religion	1337	13.1
+2) Conflict...I consider myself to be on the side of science	1317	12.9
+3) Independence...they refer to different aspects of reality	3522	34.4
+4) Collaboration...each can be used to help support the other	3968	38.7
+
+
+55) SCIVIEW_8
+SCIVIEW_8 How much do you agree or disagree with the following statements? Most scientists are hostile to religion.
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	10241	3.013	0.915
+-1) Refused	76	0.7
+1) Strongly agree	420	4.1
+2) Agree	1826	17.8
+3) Neither agree nor disagree	5193	50.7
+4) Disagree	2351	23.0
+5) Strongly disagree	375	3.7
+
+
+56) SCIVIEW_9
+SCIVIEW_9 How much do you agree or disagree with the following statements? We trust too much in science and not enough in religious faith.
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	10241	3.003	1.126
+-1) Refused	73	0.7
+1) Strongly agree	758	7.4
+2) Agree	2407	23.5
+3) Neither agree nor disagree	3817	37.3
+4) Disagree	2122	20.7
+5) Strongly disagree	1064	10.4
+
+
+57) SCIVIEW_10
+SCIVIEW_10 How much do you agree or disagree with the following statements? The quality of science and mathematics education in American schools is inadequate.
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	10241	2.307	0.989
+-1) Refused	74	0.7
+1) Strongly agree	2078	20.3
+2) Agree	3879	37.9
+3) Neither agree nor disagree	3149	30.7
+4) Disagree	891	8.7
+5) Strongly disagree	170	1.7
+
+
+58) SCIVIEW_11
+SCIVIEW_11 How much do you agree or disagree with the following statements? Scientists should be allowed to do research that causes pain and injury to animals like dogs and chimpanzees if it produces new information about human health problems.
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	10241	3.533	1.148
+-1) Refused	73	0.7
+1) Strongly agree	311	3.0
+2) Agree	1311	12.8
+3) Neither agree nor disagree	3360	32.8
+4) Disagree	2686	26.2
+5) Strongly disagree	2500	24.4
+
+
+59) SCIVIEW_12
+SCIVIEW_12 How much do you agree or disagree with the following statements? Most religious people are hostile to science.
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	10241	3.155	0.974
+-1) Refused	79	0.8
+1) Strongly agree	415	4.1
+2) Agree	1517	14.8
+3) Neither agree nor disagree	4612	45.0
+4) Disagree	2987	29.2
+5) Strongly disagree	631	6.2
+
+
+60) SCIOCC_1
+SCIOCC_1 How scientific do you view each of the following occupations? Biologist
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	1.358	0.745
+-1) Refused	160	1.6
+1) Very scientific	7033	68.7
+2) Somewhat scientific	2346	22.9
+3) A little scientific	462	4.5
+4) Not at all scientific	240	2.3
+
+
+61) SCIOCC_2
+SCIOCC_2 How scientific do you view each of the following occupations? Engineer
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	1.989	0.997
+-1) Refused	203	2.0
+1) Very scientific	3097	30.2
+2) Somewhat scientific	4185	40.9
+3) A little scientific	1921	18.8
+4) Not at all scientific	835	8.2
+
+
+62) SCIOCC_3
+SCIOCC_3 How scientific do you view each of the following occupations? Plumber
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	3.033	1.013
+-1) Refused	218	2.1
+1) Very scientific	362	3.5
+2) Somewhat scientific	1825	17.8
+3) A little scientific	4074	39.8
+4) Not at all scientific	3762	36.7
+
+
+63) SCIOCC_4
+SCIOCC_4 How scientific do you view each of the following occupations? Anthropologist
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	1.852	0.982
+-1) Refused	220	2.1
+1) Very scientific	3866	37.8
+2) Somewhat scientific	3761	36.7
+3) A little scientific	1773	17.3
+4) Not at all scientific	621	6.1
+
+
+64) SCIOCC_5
+SCIOCC_5 How scientific do you view each of the following occupations? TV weather forecaster
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.115	1.012
+-1) Refused	189	1.8
+1) Very scientific	2605	25.4
+2) Somewhat scientific	4078	39.8
+3) A little scientific	2385	23.3
+4) Not at all scientific	984	9.6
+
+
+65) SCIOCC_6
+SCIOCC_6 How scientific do you view each of the following occupations? High school chemistry teacher
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	1.68	0.861
+-1) Refused	190	1.9
+1) Very scientific	4515	44.1
+2) Somewhat scientific	4033	39.4
+3) A little scientific	1198	11.7
+4) Not at all scientific	305	3.0
+
+
+66) SCIOCC_7
+SCIOCC_7 How scientific do you view each of the following occupations? Psychologist
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.388	1.048
+-1) Refused	204	2.0
+1) Very scientific	1649	16.1
+2) Somewhat scientific	3694	36.1
+3) A little scientific	3157	30.8
+4) Not at all scientific	1537	15.0
+
+
+67) SCIOCC_8
+SCIOCC_8 How scientific do you view each of the following occupations? Physician/Doctor
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	1.808	0.965
+-1) Refused	222	2.2
+1) Very scientific	4018	39.2
+2) Somewhat scientific	3870	37.8
+3) A little scientific	1540	15.0
+4) Not at all scientific	591	5.8
+
+
+68) SCIOCC_9
+SCIOCC_9 How scientific do you view each of the following occupations? Pastor, minister or clergyperson
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	3.37	0.96
+-1) Refused	202	2.0
+1) Very scientific	183	1.8
+2) Somewhat scientific	955	9.3
+3) A little scientific	2984	29.1
+4) Not at all scientific	5917	57.8
+
+
+69) SCIOCC_10
+SCIOCC_10 How scientific do you view each of the following occupations? Electrician
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.619	1.067
+-1) Refused	223	2.2
+1) Very scientific	1057	10.3
+2) Somewhat scientific	3121	30.5
+3) A little scientific	3615	35.3
+4) Not at all scientific	2225	21.7
+
+
+70) SCIOCC_11
+SCIOCC_11 How scientific do you view each of the following occupations? Sociologist
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.704	1.078
+-1) Refused	248	2.4
+1) Very scientific	894	8.7
+2) Somewhat scientific	2750	26.9
+3) A little scientific	3846	37.6
+4) Not at all scientific	2503	24.4
+
+
+71) SCIOCC_12
+SCIOCC_12 How scientific do you view each of the following occupations? Physicist
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	1.562	0.986
+-1) Refused	211	2.1
+1) Very scientific	6258	61.1
+2) Somewhat scientific	2042	19.9
+3) A little scientific	1055	10.3
+4) Not at all scientific	675	6.6
+
+
+72) SCIOCC_13
+SCIOCC_13 How scientific do you view each of the following occupations? Nurse
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.192	1.023
+-1) Refused	242	2.4
+1) Very scientific	2031	19.8
+2) Somewhat scientific	4319	42.2
+3) A little scientific	2573	25.1
+4) Not at all scientific	1076	10.5
+
+
+73) DOV_SCIMORAL_A_ORDER
+DOV_SCIMORAL_A_ORDER How morally acceptable do you personally believe each of the following is? Destroying human embryos if doing so helps scientists find cures for diseases.
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	10241	5.497	2.883
+1) 	1035	10.1
+2) 	1024	10.0
+3) 	1032	10.1
+4) 	1012	9.9
+5) 	1046	10.2
+6) 	1022	10.0
+7) 	985	9.6
+8) 	1011	9.9
+9) 	1022	10.0
+10) 	1052	10.3
+
+
+74) DOV_SCIMORAL_B_ORDER
+DOV_SCIMORAL_B_ORDER How morally acceptable do you personally believe each of the following is? Creating a baby that is a clone of another person.
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	10241	5.546	2.891
+1) 	991	9.7
+2) 	1045	10.2
+3) 	1009	9.9
+4) 	1047	10.2
+5) 	981	9.6
+6) 	970	9.5
+7) 	1024	10.0
+8) 	1027	10.0
+9) 	1076	10.5
+10) 	1071	10.5
+
+
+75) DOV_SCIMORAL_C_ORDER
+DOV_SCIMORAL_C_ORDER How morally acceptable do you personally believe each of the following is? Using genetic engineering, that is, changing a person's DNA or genes, to create a baby that is smarter, stronger, or better looking.
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	10241	5.546	2.882
+1) 	1002	9.8
+2) 	980	9.6
+3) 	1057	10.3
+4) 	1029	10.0
+5) 	998	9.7
+6) 	999	9.8
+7) 	1051	10.3
+8) 	1019	10.0
+9) 	1003	9.8
+10) 	1103	10.8
+
+
+76) DOV_SCIMORAL_D_ORDER
+DOV_SCIMORAL_D_ORDER How morally acceptable do you personally believe each of the following is? Medical research that uses stem cells from sources that do NOT involve human embryos.
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	10241	5.458	2.864
+1) 	1058	10.3
+2) 	1020	10.0
+3) 	1047	10.2
+4) 	978	9.5
+5) 	1086	10.6
+6) 	1009	9.9
+7) 	1048	10.2
+8) 	1014	9.9
+9) 	999	9.8
+10) 	982	9.6
+
+
+77) DOV_SCIMORAL_E_ORDER
+DOV_SCIMORAL_E_ORDER How morally acceptable do you personally believe each of the following is? Use of reproductive technologies to identify diseases in utero.
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	10241	5.527	2.894
+1) 	1028	10.0
+2) 	1067	10.4
+3) 	1003	9.8
+4) 	949	9.3
+5) 	986	9.6
+6) 	1046	10.2
+7) 	1016	9.9
+8) 	1032	10.1
+9) 	1075	10.5
+10) 	1039	10.1
+
+
+78) DOV_SCIMORAL_F_ORDER
+DOV_SCIMORAL_F_ORDER How morally acceptable do you personally believe each of the following is? Euthanasia or physician-assisted suicide.
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	10241	5.497	2.862
+1) 	1029	10.0
+2) 	1018	9.9
+3) 	987	9.6
+4) 	1059	10.3
+5) 	1030	10.1
+6) 	1026	10.0
+7) 	1021	10.0
+8) 	1041	10.2
+9) 	1048	10.2
+10) 	982	9.6
+
+
+79) DOV_SCIMORAL_G_ORDER
+DOV_SCIMORAL_G_ORDER How morally acceptable do you personally believe each of the following is? Using in-vitro fertilization.
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	10241	5.486	2.867
+1) 	994	9.7
+2) 	1086	10.6
+3) 	1021	10.0
+4) 	996	9.7
+5) 	1065	10.4
+6) 	1005	9.8
+7) 	1009	9.9
+8) 	1046	10.2
+9) 	1008	9.8
+10) 	1011	9.9
+
+
+80) DOV_SCIMORAL_H_ORDER
+DOV_SCIMORAL_H_ORDER How morally acceptable do you personally believe each of the following is? Having an abortion for any reason.
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	10241	5.482	2.85
+1) 	1048	10.2
+2) 	969	9.5
+3) 	1010	9.9
+4) 	1098	10.7
+5) 	964	9.4
+6) 	1112	10.9
+7) 	1025	10.0
+8) 	1061	10.4
+9) 	962	9.4
+10) 	992	9.7
+
+
+81) DOV_SCIMORAL_I_ORDER
+DOV_SCIMORAL_I_ORDER How morally acceptable do you personally believe each of the following is? Having an abortion if the mother's life is in danger.
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	10241	5.497	2.866
+1) 	1026	10.0
+2) 	1005	9.8
+3) 	1020	10.0
+4) 	1067	10.4
+5) 	1015	9.9
+6) 	1014	9.9
+7) 	1035	10.1
+8) 	1007	9.8
+9) 	1054	10.3
+10) 	998	9.7
+
+
+82) DOV_SCIMORAL_J_ORDER
+DOV_SCIMORAL_J_ORDER How morally acceptable do you personally believe each of the following is? Having an abortion if there is a strong chance of serious defect in the baby.
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	10241	5.464	2.863
+1) 	1030	10.1
+2) 	1027	10.0
+3) 	1055	10.3
+4) 	1006	9.8
+5) 	1070	10.4
+6) 	1038	10.1
+7) 	1027	10.0
+8) 	983	9.6
+9) 	994	9.7
+10) 	1011	9.9
+
+
+83) SCIMORAL_1
+SCIMORAL_1 How morally acceptable do you personally believe each of the following is? Destroying human embryos if doing so helps scientists find cures for diseases.
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	10241	3.538	1.576
+-1) Refused	116	1.1
+1) Always morally acceptable	1018	9.9
+2) Morally acceptable in most cases, with exceptions	2029	19.8
+3) Not a moral issue	1437	14.0
+4) Morally wrong in most cases, with exceptions	2062	20.1
+5) Always morally wrong	2764	27.0
+6) I am not aware of the issue	815	8.0
+
+
+84) SCIMORAL_2
+SCIMORAL_2 How morally acceptable do you personally believe each of the following is? Creating a baby that is a clone of another person.
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	10241	4.285	1.29
+-1) Refused	111	1.1
+1) Always morally acceptable	268	2.6
+2) Morally acceptable in most cases, with exceptions	645	6.3
+3) Not a moral issue	1349	13.2
+4) Morally wrong in most cases, with exceptions	1862	18.2
+5) Always morally wrong	5092	49.7
+6) I am not aware of the issue	914	8.9
+
+
+85) SCIMORAL_3
+SCIMORAL_3 How morally acceptable do you personally believe each of the following is? Using genetic engineering, that is, changing a person's DNA or genes, to create a baby that is smarter, stronger, or better looking.
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	10241	4.15	1.354
+-1) Refused	110	1.1
+1) Always morally acceptable	357	3.5
+2) Morally acceptable in most cases, with exceptions	904	8.8
+3) Not a moral issue	1357	13.3
+4) Morally wrong in most cases, with exceptions	2061	20.1
+5) Always morally wrong	4577	44.7
+6) I am not aware of the issue	875	8.5
+
+
+86) SCIMORAL_4
+SCIMORAL_4 How morally acceptable do you personally believe each of the following is? Medical research that uses stem cells from sources that do NOT involve human embryos.
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	10241	2.565	1.571
+-1) Refused	107	1.0
+1) Always morally acceptable	3018	29.5
+2) Morally acceptable in most cases, with exceptions	2503	24.4
+3) Not a moral issue	2437	23.8
+4) Morally wrong in most cases, with exceptions	706	6.9
+5) Always morally wrong	604	5.9
+6) I am not aware of the issue	866	8.5
+
+
+87) SCIMORAL_5
+SCIMORAL_5 How morally acceptable do you personally believe each of the following is? Use of reproductive technologies to identify diseases in utero.
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	10241	2.723	1.579
+-1) Refused	116	1.1
+1) Always morally acceptable	2278	22.2
+2) Morally acceptable in most cases, with exceptions	2846	27.8
+3) Not a moral issue	2619	25.6
+4) Morally wrong in most cases, with exceptions	835	8.2
+5) Always morally wrong	450	4.4
+6) I am not aware of the issue	1097	10.7
+
+
+88) SCIMORAL_6
+SCIMORAL_6 How morally acceptable do you personally believe each of the following is? Euthanasia or physician-assisted suicide.
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	10241	3.377	1.529
+-1) Refused	114	1.1
+1) Always morally acceptable	913	8.9
+2) Morally acceptable in most cases, with exceptions	2685	26.2
+3) Not a moral issue	1339	13.1
+4) Morally wrong in most cases, with exceptions	2116	20.7
+5) Always morally wrong	2511	24.5
+6) I am not aware of the issue	563	5.5
+
+
+89) SCIMORAL_7
+SCIMORAL_7 How morally acceptable do you personally believe each of the following is? Using in-vitro fertilization.
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	10241	2.578	1.462
+-1) Refused	114	1.1
+1) Always morally acceptable	2528	24.7
+2) Morally acceptable in most cases, with exceptions	2683	26.2
+3) Not a moral issue	2963	28.9
+4) Morally wrong in most cases, with exceptions	725	7.1
+5) Always morally wrong	535	5.2
+6) I am not aware of the issue	693	6.8
+
+
+90) SCIMORAL_8
+SCIMORAL_8 How morally acceptable do you personally believe each of the following is? Having an abortion for any reason.
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	10241	3.477	1.429
+-1) Refused	115	1.1
+1) Always morally acceptable	798	7.8
+2) Morally acceptable in most cases, with exceptions	2068	20.2
+3) Not a moral issue	1409	13.8
+4) Morally wrong in most cases, with exceptions	3099	30.3
+5) Always morally wrong	2347	22.9
+6) I am not aware of the issue	405	4.0
+
+
+91) SCIMORAL_9
+SCIMORAL_9 How morally acceptable do you personally believe each of the following is? Having an abortion if the mother's life is in danger.
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	10241	2.421	1.491
+-1) Refused	116	1.1
+1) Always morally acceptable	3480	34.0
+2) Morally acceptable in most cases, with exceptions	2574	25.1
+3) Not a moral issue	1533	15.0
+4) Morally wrong in most cases, with exceptions	1380	13.5
+5) Always morally wrong	789	7.7
+6) I am not aware of the issue	369	3.6
+
+
+92) SCIMORAL_10
+SCIMORAL_10 How morally acceptable do you personally believe each of the following is? Having an abortion if there is a strong chance of serious defect in the baby.
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	10241	3.063	1.557
+-1) Refused	114	1.1
+1) Always morally acceptable	1733	16.9
+2) Morally acceptable in most cases, with exceptions	2615	25.5
+3) Not a moral issue	1335	13.0
+4) Morally wrong in most cases, with exceptions	2114	20.6
+5) Always morally wrong	1919	18.7
+6) I am not aware of the issue	411	4.0
+
+
+93) SCIPRIO_1
+SCIPRIO_1 Scientists working in universities are involved in many different activities. How important do you think each of the following should be for a scientist in a university? Teaching students
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	1.222	0.624
+-1) Refused	162	1.6
+1) Very important	7960	77.7
+2) Somewhat important	1783	17.4
+3) Not very important	192	1.9
+4) Not important at all	144	1.4
+
+
+94) SCIPRIO_2
+SCIPRIO_2 Scientists working in universities are involved in many different activities. How important do you think each of the following should be for a scientist in a university? Pursuing patents for technologies that can then be sold to companies
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.282	0.939
+-1) Refused	167	1.6
+1) Very important	1545	15.1
+2) Somewhat important	4521	44.1
+3) Not very important	3081	30.1
+4) Not important at all	927	9.1
+
+
+95) SCIPRIO_3
+SCIPRIO_3 Scientists working in universities are involved in many different activities. How important do you think each of the following should be for a scientist in a university? Publishing research findings in academic journals read by other scientists
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	1.57	0.767
+-1) Refused	162	1.6
+1) Very important	4973	48.6
+2) Somewhat important	4263	41.6
+3) Not very important	630	6.2
+4) Not important at all	213	2.1
+
+
+96) SCIPRIO_4
+SCIPRIO_4 Scientists working in universities are involved in many different activities. How important do you think each of the following should be for a scientist in a university? Speaking to and writing for the general public to help them understand science
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	1.6	0.775
+-1) Refused	156	1.5
+1) Very important	4787	46.7
+2) Somewhat important	4352	42.5
+3) Not very important	730	7.1
+4) Not important at all	216	2.1
+
+
+97) RELPERSON
+RELPERSON To what extent do you consider yourself a religious person? Are you very religious, moderately religious, slightly religious, or not religious at all?
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.384	1.039
+-1) Refused	61	0.6
+1) Very religious	2048	20.0
+2) Moderately religious	3871	37.8
+3) Slightly religious	2358	23.0
+4) Not religious at all	1903	18.6
+
+
+98) RELIG
+RELIG Religiously, do you consider yourself to be Protestant, Catholic, Jewish, Mormon, Muslim, not religious, or something else? If more than one, click the one that best describes you:
+RANGE: -1 to 16
+	N	Mean	Std. Deviation
+Total	10241	5.242	5.507
+-1) Refused	70	0.7
+1) Protestant	2432	23.7
+2) Catholic	2437	23.8
+3) Just a Christian	2209	21.6
+4) Jewish	236	2.3
+5) Mormon	178	1.7
+6) Muslim	31	0.3
+7) Eastern Orthodox	38	0.4
+8) Buddhist	85	0.8
+9) Hindu	42	0.4
+10) Sikh	4	0.0
+11) Baha'i	6	0.1
+12) Jain	3	0.0
+13) Not religious/None	656	6.4
+14) Agnostic	417	4.1
+15) Atheist	388	3.8
+16) Something else	1009	9.9
+
+
+99) RELIG2
+RELIG2 What specific religious denomination or tradition do you consider yourself to be? (If you consider yourself to be more than one, answer for the one you attend most.)
+RANGE: -1 to 55
+	N	Mean	Std. Deviation
+Total	5650	24.551	17.085
+-1) Refused	88	1.6
+1) Adventist	39	0.7
+2) Anabaptist	4	0.1
+3) Anglican	14	0.2
+4) Assemblies of God (Assembly of God)	82	1.5
+5) Association of Unity Churches	2	0.0
+6) Baptist	1164	20.6
+7) Bible Church/Believing	149	2.6
+8) Brethren	18	0.3
+9) Charismatic	31	0.5
+10) Christian or just Christian	694	12.3
+11) Christian and Missionary Alliance (CMA)	13	0.2
+12) Christian Science (Christian Scientist)	9	0.2
+13) Church of Christ (Churches of Christ)	117	2.1
+14) Church of God	76	1.3
+15) Church of England	10	0.2
+16) Church of the Nazarene	11	0.2
+17) Calvary Chapel	18	0.3
+18) Congregationalist	31	0.5
+19) Disciples of Christ	15	0.3
+20) Episcopalian	139	2.5
+21) Evangelical	96	1.7
+22) Evangelical Covenant Church	8	0.1
+23) Evangelical United Brethren	5	0.1
+24) Evangelical Free Church	25	0.4
+25) Four Square	13	0.2
+26) Free Methodist Church	11	0.2
+27) Friends	16	0.3
+28) Fundamentalist	5	0.1
+29) Holiness	23	0.4
+30) Independent	95	1.7
+31) Inter-denominational Protestant	15	0.3
+32) Jehovah's Witnesses	114	2.0
+33) Just Protestant	64	1.1
+34) Lutheran	494	8.7
+35) Mennonite	13	0.2
+36) Methodist	549	9.7
+37) Missionary Church	8	0.1
+38) Moravian	3	0.1
+39) Nazarene	30	0.5
+40) Native American	17	0.3
+41) Non-denominational Protestant	252	4.5
+42) Pagan	31	0.5
+43) Pentecostal	143	2.5
+44) Presbyterian	284	5.0
+45) Quaker	6	0.1
+46) Reformed	33	0.6
+47) Salvation Army	5	0.1
+48) Unitarian Universalist	37	0.7
+49) United Church of Christ (UCC)	56	1.0
+50) Unity Church	13	0.2
+51) Vineyard Fellowship	4	0.1
+52) Wesleyan Church	12	0.2
+53) Wiccan	19	0.3
+54) Willow Creek Association church	5	0.1
+55) Other [Specify]	422	7.5
+Missing	4591
+
+
+100) RELIG2_OTH
+RELIG2_oth What specific religious denomination or tradition do you consider yourself to be
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	359	0	0
+
+
+101) RELIG3
+RELIG3 What kind of Anabaptist church is that?
+RANGE: 3 to 13
+	N	Mean	Std. Deviation
+Total	4	7	4.899
+3) Brethren in Christ	2	50.0
+9) Mennonite	1	25.0
+13) Other Anabaptist	1	25.0
+Missing	10237
+
+
+102) RELIG4
+RELIG4 With which Baptist group is your church associated?
+RANGE: -1 to 26
+	N	Mean	Std. Deviation
+Total	1164	15.419	8.146
+-1) Refused	28	2.4
+1) American Baptist Association	67	5.8
+2) American Baptist Churches in the USA (American Baptist Churches USA)	45	3.9
+3) Baptist Bible Fellowship	33	2.8
+4) Baptist Brethren	2	0.2
+5) Baptist General Conference	15	1.3
+6) Baptist Missionary Association	38	3.3
+8) Conservative Baptist Association of America	11	0.9
+9) Free Will Baptist	28	2.4
+10) Fundamentalist Baptist (no denominational ties)	20	1.7
+11) General Association of Regular Baptists (GARB)	5	0.4
+12) General Baptist	59	5.1
+13) Independent Baptist	75	6.4
+14) Just Baptist	158	13.6
+15) Missionary Baptist	66	5.7
+16) National Baptist Convention of America, or USA, Inc.	15	1.3
+17) National Missionary Baptist Convention of America	7	0.6
+18) North American Baptist Conference	8	0.7
+19) Northern Baptist	2	0.2
+20) Primitive Baptist	3	0.3
+21) Progressive National Baptist Convention, Inc.	3	0.3
+22) Reformed Baptist	1	0.1
+23) Southern Baptist (Convention)	360	30.9
+24) United Baptist	12	1.0
+25) United Free Will Baptist	3	0.3
+26) Other Baptist	100	8.6
+Missing	9077
+
+
+103) RELIG5
+RELIG5 With which Methodist group is your church associated?
+RANGE: -1 to 8
+	N	Mean	Std. Deviation
+Total	549	5.634	1.203
+-1) Refused	1	0.2
+1) African Methodist Episcopal (AME)	21	3.8
+2) African Methodist Episcopal (AME) Zion	7	1.3
+3) Christian Methodist Episcopal (CEM)	4	0.7
+4) Free Methodist (Free Methodist Church)	9	1.6
+5) Just Methodist	60	10.9
+6) United Methodist/United Methodist Church	428	78.0
+7) Wesleyan Methodist	9	1.6
+8) Other Methodist	10	1.8
+Missing	9692
+
+
+104) RELIG6
+RELIG6 With which Presbyterian group is your church associated?
+RANGE: -1 to 10
+	N	Mean	Std. Deviation
+Total	284	6.683	2.18
+-1) Refused	4	1.4
+1) Associate Reformed Presbyterian	5	1.8
+2) Bible Presbyterian Church	1	0.4
+3) Cumberland Presbyterian	3	1.1
+4) Evangelical Presbyterian Church (EPC)	7	2.5
+5) Just Presbyterian	95	33.5
+6) Orthodox Presbyterian Church (OPC)	2	0.7
+7) Presbyterian Church in America (PCA)	39	13.7
+8) Presbyterian Church in the USA (PCUSA)	89	31.3
+9) Reformed Presbyterian Churches of North America	4	1.4
+10) Other Presbyterian	35	12.3
+Missing	9957
+
+
+105) RELIG7
+RELIG7 With which Lutheran group is your church associated?
+RANGE: -1 to 9
+	N	Mean	Std. Deviation
+Total	494	4.917	2.691
+-1) Refused	3	0.6
+1) American Lutheran Church	30	6.1
+2) Evangelical Lutheran Church in America	163	33.0
+3) Free Lutheran	3	0.6
+4) Lutheran Brethren	2	0.4
+5) Lutheran Church in America	12	2.4
+6) Just Lutheran	73	14.8
+7) Missouri synod	140	28.3
+8) Wisconsin synod	31	6.3
+9) Other Lutheran	37	7.5
+Missing	9747
+
+
+106) RELIG8
+RELIG8 With which Reformed group is your church associated?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	33	3	1.75
+1) Christian Reformed Church (CRC)	12	36.4
+2) Dutch Reformed	3	9.1
+3) Just Reformed	1	3.0
+4) Reformed Church in America (RCA)	7	21.2
+5) Other Reformed	10	30.3
+Missing	10208
+
+
+107) RELIG9
+RELIG9 With which Congregational group is your church associated? 
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	31	4.387	1.626
+-1) Refused	2	6.5
+3) Congregational Christian Churches	1	3.2
+4) Just Congregational church	10	32.3
+5) United Church of Christ (UCC)	13	41.9
+6) Other Congregational	5	16.1
+Missing	10210
+
+
+108) RELIG10
+RELIG10 When you say you are 'Christian or just Christian', does that mean the church you attend is associated with the Christian Church-Disciples of Christ, some other Christian group, or is the church you attend just Christian?
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	694	1.957	0.53
+-1) Refused	7	1.0
+1) Christian Church-Disciples of Christ	71	10.2
+2) Just Christian	554	79.8
+3) Other Christian group	62	8.9
+Missing	9547
+
+
+109) RELIG11
+RELIG11 With which Church of Christ is your church associated?
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	117	2.65	1.505
+-1) Refused	2	1.7
+1) Church (Churches) of Christ	43	36.8
+2) Church of God in Christ	7	6.0
+3) United Church of Christ (UCC)	8	6.8
+4) Just Church of Christ	54	46.2
+5) Other Church of Christ group	3	2.6
+Missing	10124
+
+
+110) RELIG12
+RELIG12 With which Church of God group is your church associated?
+RANGE: -1 to 12
+	N	Mean	Std. Deviation
+Total	76	6.868	3.771
+-1) Refused	1	1.3
+1) Church of God, General Conference	4	5.3
+2) Church of God, Holiness	4	5.3
+3) Church of God in Christ	11	14.5
+4) Church of God of Anderson, Indiana	10	13.2
+5) Church of God of Cleveland, Tennessee	4	5.3
+7) Church of God of Prophecy	5	6.6
+9) Just Church of God	14	18.4
+10) Pentecostal Church of God	9	11.8
+11) Worldwide Church of God	1	1.3
+12) Other Church of God	13	17.1
+Missing	10165
+
+
+111) RELIG13
+RELIG13 With which Pentecostal group is your church associated?
+RANGE: -1 to 19
+	N	Mean	Std. Deviation
+Total	143	9.79	6.945
+-1) Refused	1	0.7
+1) Apostolic Pentecostal	25	17.5
+2) Assemblies of God (Assembly of God)	19	13.3
+3) Church of God, General Conference	1	0.7
+4) Church of God, Holiness	6	4.2
+5) Church of God in Christ	7	4.9
+6) Church of God in Christ, International	1	0.7
+8) Church of God of Cleveland, Tennessee	6	4.2
+13) Full Gospel	7	4.9
+14) Just Pentecostal	25	17.5
+15) Pentecostal Church of God	9	6.3
+16) Pentecostal Holiness Church	9	6.3
+17) Spanish Pentecostal	1	0.7
+18) United Pentecostal Church International	9	6.3
+19) Other Pentecostal	17	11.9
+Missing	10098
+
+
+112) RELIG14
+RELIG14 With which Jewish group is your synagogue or temple associated?
+RANGE: -1 to 9
+	N	Mean	Std. Deviation
+Total	236	5.602	3.307
+-1) Refused	10	4.2
+1) Conservative Judaism	54	22.9
+2) Haredi Judaism	2	0.8
+3) Hasidic Judaism	6	2.5
+4) Humanistic Judaism	6	2.5
+5) Jewish Renewal	3	1.3
+6) Modern Orthodox	23	9.7
+7) Reconstructionist Judaism	6	2.5
+8) Reform Judaism	97	41.1
+9) Other Jewish [Specify]	29	12.3
+Missing	10005
+
+
+113) RELIG14_OTHER
+RELIG14_Other With which Jewish group is your synagogue or temple associated? (Other Jewish)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	26	0	0
+
+
+114) RELIG15
+RELIG15 With which branch of Islam are you associated?
+RANGE: 2 to 6
+	N	Mean	Std. Deviation
+Total	31	4.903	0.978
+2) Nation of Islam	2	6.5
+3) Shi'a	1	3.2
+4) Sufi	1	3.2
+5) Sunni	21	67.7
+6) Other Muslim [Specify]	6	19.4
+Missing	10210
+
+
+115) RELIG15_OTHER
+RELIG15_Other With which branch of Islam are you associated? (Other Muslim)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	6	0	0
+
+
+116) ATTEND
+ATTEND How often do you attend religious services?
+RANGE: -1 to 9
+	N	Mean	Std. Deviation
+Total	10241	4.241	2.82
+-1) Refused	105	1.0
+1) Never	2094	20.4
+2) Less than once a year	1739	17.0
+3) About once or twice a year	1119	10.9
+4) Several times a year	1048	10.2
+5) About once a month	424	4.1
+6) Two to three times a month	583	5.7
+7) Nearly every week	894	8.7
+8) Every week	1578	15.4
+9) Several times a week	657	6.4
+
+
+117) RELIGKID
+RELIGKID. In what religion were you raised? Were your raised Protestant, Catholic, Jewish, Mormon, Muslim, not religious, or something else? If more than one, click the one that best describes you:
+RANGE: -1 to 16
+	N	Mean	Std. Deviation
+Total	10241	3.885	4.682
+-1) Refused	124	1.2
+1) Protestant	3119	30.5
+2) Catholic	3318	32.4
+3) Just a Christian	1546	15.1
+4) Jewish	261	2.5
+5) Mormon	187	1.8
+6) Muslim	31	0.3
+7) Eastern Orthodox	36	0.4
+8) Buddhist	62	0.6
+9) Hindu	47	0.5
+10) Sikh	7	0.1
+11) Baha'i	4	0.0
+12) Jain	2	0.0
+13) Not religious/None	591	5.8
+14) Agnostic	42	0.4
+15) Atheist	56	0.5
+16) Something else	808	7.9
+
+
+118) RELIGKID2
+RELIGKID2. In what specific religious denomination or tradition were you raised? (If you were raised in more than one, answer for the one you attended most.)
+RANGE: -1 to 55
+	N	Mean	Std. Deviation
+Total	5473	23.473	16.327
+-1) Refused	45	0.8
+1) Adventist	34	0.6
+2) Anabaptist	3	0.1
+3) Anglican	25	0.5
+4) Assemblies of God (Assembly of God)	105	1.9
+5) Association of Unity Churches	1	0.0
+6) Baptist	1508	27.6
+7) Bible Church/Believing	74	1.4
+8) Brethren	29	0.5
+9) Charismatic	7	0.1
+10) Christian or just Christian	354	6.5
+11) Christian and Missionary Alliance (CMA)	11	0.2
+12) Christian Science (Christian Scientist)	15	0.3
+13) Church of Christ (Churches of Christ)	150	2.7
+14) Church of God	67	1.2
+15) Church of England	19	0.3
+16) Church of the Nazarene	18	0.3
+17) Calvary Chapel	5	0.1
+18) Congregationalist	59	1.1
+19) Disciples of Christ	27	0.5
+20) Episcopalian	198	3.6
+21) Evangelical	49	0.9
+22) Evangelical Covenant Church	5	0.1
+23) Evangelical United Brethren	21	0.4
+24) Evangelical Free Church	15	0.3
+25) Four Square	6	0.1
+26) Free Methodist Church	21	0.4
+27) Friends	2	0.0
+28) Fundamentalist	3	0.1
+29) Holiness	18	0.3
+30) Independent	17	0.3
+31) Inter-denominational Protestant	3	0.1
+32) Jehovah's Witnesses	86	1.6
+33) Just Protestant	70	1.3
+34) Lutheran	585	10.7
+35) Mennonite	21	0.4
+36) Methodist	735	13.4
+37) Missionary Church	7	0.1
+38) Moravian	2	0.0
+39) Nazarene	36	0.7
+40) Native American	7	0.1
+41) Non-denominational Protestant	121	2.2
+42) Pagan	4	0.1
+43) Pentecostal	127	2.3
+44) Presbyterian	381	7.0
+45) Quaker	6	0.1
+46) Reformed	31	0.6
+47) Salvation Army	6	0.1
+48) Unitarian Universalist	17	0.3
+49) United Church of Christ (UCC)	70	1.3
+50) Unity Church	5	0.1
+51) Vineyard Fellowship	2	0.0
+52) Wesleyan Church	13	0.2
+53) Wiccan	3	0.1
+55) Other [Specify]	224	4.1
+Missing	4768
+
+
+119) RELIGKID2_OTH
+RELIGKID2_oth In what specific religious denomination or tradition were you raised? (Other)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	178	0	0
+
+
+120) RELIGKID3
+RELIGKID3 With which Anabaptist group was the church in which you were raised associated?
+RANGE: 3 to 13
+	N	Mean	Std. Deviation
+Total	3	9.667	5.774
+3) Brethren in Christ	1	33.3
+13) Other Anabaptist	2	66.7
+Missing	10238
+
+
+121) RELIGKID4
+RELIGKID4 With which Baptist group was the church in which you were raised associated?
+RANGE: -1 to 26
+	N	Mean	Std. Deviation
+Total	1508	15.54	8.003
+-1) Refused	32	2.1
+1) American Baptist Association	87	5.8
+2) American Baptist Churches in the USA (American Baptist Churches USA)	55	3.6
+3) Baptist Bible Fellowship	42	2.8
+4) Baptist Brethren	3	0.2
+5) Baptist General Conference	23	1.5
+6) Baptist Missionary Association	36	2.4
+7) Charismatic Baptist	2	0.1
+8) Conservative Baptist Association of America	13	0.9
+9) Free Will Baptist	28	1.9
+10) Fundamentalist Baptist (no denominational ties)	23	1.5
+11) General Association of Regular Baptists (GARB)	11	0.7
+12) General Baptist	93	6.2
+13) Independent Baptist	61	4.0
+14) Just Baptist	233	15.5
+15) Missionary Baptist	104	6.9
+16) National Baptist Convention of America, or USA, Inc.	15	1.0
+17) National Missionary Baptist Convention of America	7	0.5
+18) North American Baptist Conference	9	0.6
+19) Northern Baptist	12	0.8
+20) Primitive Baptist	8	0.5
+21) Progressive National Baptist Convention, Inc.	4	0.3
+22) Reformed Baptist	2	0.1
+23) Southern Baptist (Convention)	459	30.4
+24) United Baptist	19	1.3
+25) United Free Will Baptist	4	0.3
+26) Other Baptist	123	8.2
+Missing	8733
+
+
+122) RELIGKID5
+RELIGKID5 With which Methodist group was the church in which you were raised associated?
+RANGE: -1 to 8
+	N	Mean	Std. Deviation
+Total	735	5.552	1.198
+-1) Refused	1	0.1
+1) African Methodist Episcopal (AME)	28	3.8
+2) African Methodist Episcopal (AME) Zion	10	1.4
+3) Christian Methodist Episcopal (CEM)	5	0.7
+4) Free Methodist (Free Methodist Church)	12	1.6
+5) Just Methodist	141	19.2
+6) United Methodist/United Methodist Church	510	69.4
+7) Wesleyan Methodist	18	2.4
+8) Other Methodist	10	1.4
+Missing	9506
+
+
+123) RELIGKID6
+RELIGKID6 With which Presbyterian group was the church in which you were raised associated?
+RANGE: -1 to 10
+	N	Mean	Std. Deviation
+Total	381	6.089	2.335
+-1) Refused	11	2.9
+1) Associate Reformed Presbyterian	4	1.0
+2) Bible Presbyterian Church	8	2.1
+3) Cumberland Presbyterian	7	1.8
+4) Evangelical Presbyterian Church (EPC)	6	1.6
+5) Just Presbyterian	179	47.0
+6) Orthodox Presbyterian Church (OPC)	2	0.5
+7) Presbyterian Church in America (PCA)	36	9.4
+8) Presbyterian Church in the USA (PCUSA)	84	22.0
+9) Reformed Presbyterian Churches of North America	5	1.3
+10) Other Presbyterian	39	10.2
+Missing	9860
+
+
+124) RELIGKID7
+RELIGKID7 With which Lutheran group was the church in which you were raised associated?
+RANGE: -1 to 9
+	N	Mean	Std. Deviation
+Total	585	5.362	2.544
+-1) Refused	4	0.7
+1) American Lutheran Church	40	6.8
+2) Evangelical Lutheran Church in America	124	21.2
+3) Free Lutheran	4	0.7
+4) Lutheran Brethren	3	0.5
+5) Lutheran Church in America	28	4.8
+6) Just Lutheran	119	20.3
+7) Missouri Synod	177	30.3
+8) Wisconsin Synod	38	6.5
+9) Other Lutheran	48	8.2
+Missing	9656
+
+
+125) RELIGKID8
+RELIGKID8 With which Reformed group was the church in which you were raised associated?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	31	2.323	1.301
+1) Christian Reformed Church (CRC)	11	35.5
+2) Dutch Reformed	9	29.0
+3) Just Reformed	2	6.5
+4) Reformed Church in America (RCA)	8	25.8
+5) Other Reformed	1	3.2
+Missing	10210
+
+
+126) RELIGKID9
+RELIGKID9 With which Congregational group was the church in which you were raised associated?
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	59	4.034	1.245
+-1) Refused	2	3.4
+3) Congregational Christian Churches	8	13.6
+4) Just Congregational church	35	59.3
+5) United Church of Christ (UCC)	8	13.6
+6) Other Congregational	6	10.2
+Missing	10182
+
+
+127) RELIGKID10
+RELIGKID10 When you say you were raised as a 'Christian or just a Christian,' do you that mean that your church was associated with the Christian Church-Disciples of Christ, some other Christian group, or was the church you attended just Christian?
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	354	1.912	0.477
+-1) Refused	3	0.8
+1) Christian Church-Disciples of Christ	39	11.0
+2) Just Christian	295	83.3
+3) Other Christian group	17	4.8
+Missing	9887
+
+
+128) RELIGKID11
+RELIGKID11 With which Church of Christ was your church associated?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	150	2.873	1.416
+1) Church (Churches) of Christ	49	32.7
+2) Church of God in Christ	6	4.0
+3) United Church of Christ (UCC)	17	11.3
+4) Just Church of Christ	71	47.3
+5) Other Church of Christ group	7	4.7
+Missing	10091
+
+
+129) RELIGKID12
+RELIGKID12 With which Church of God group was your church associated?
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	67	6.552	3.513
+1) Church of God, General Conference	4	6.0
+2) Church of God, Holiness	1	1.5
+3) Church of God in Christ	13	19.4
+4) Church of God of Anderson, Indiana	13	19.4
+5) Church of God of Cleveland, Tennessee	2	3.0
+7) Church of God of Prophecy	2	3.0
+8) Church of God of the Apostolic Faith	1	1.5
+9) Just Church of God	16	23.9
+10) Pentecostal Church of God	6	9.0
+11) Worldwide Church of God	2	3.0
+12) Other Church of God	7	10.4
+Missing	10174
+
+
+130) RELIGKID13
+RELIGKID13 With which Pentecostal group was your church associated?
+RANGE: -1 to 19
+	N	Mean	Std. Deviation
+Total	127	10.472	6.745
+-1) Refused	1	0.8
+1) Apostolic Pentecostal	17	13.4
+2) Assemblies of God (Assembly of God)	13	10.2
+3) Church of God, General Conference	1	0.8
+4) Church of God, Holiness	7	5.5
+5) Church of God in Christ	10	7.9
+6) Church of God in Christ, International	1	0.8
+8) Church of God of Cleveland, Tennessee	2	1.6
+12) Four Square Gospel	1	0.8
+13) Full Gospel	4	3.1
+14) Just Pentecostal	26	20.5
+15) Pentecostal Church of God	9	7.1
+16) Pentecostal Holiness Church	11	8.7
+17) Spanish Pentecostal	2	1.6
+18) United Pentecostal Church International	6	4.7
+19) Other Pentecostal	16	12.6
+Missing	10114
+
+
+131) RELIGKID14
+RELIGKID14 With which Jewish group is your synagogue or temple associated?
+RANGE: -1 to 9
+	N	Mean	Std. Deviation
+Total	261	5.119	3.545
+-1) Refused	12	4.6
+1) Conservative Judaism	82	31.4
+2) Haredi Judaism	3	1.1
+3) Hasidic Judaism	8	3.1
+4) Humanistic Judaism	1	0.4
+5) Jewish Renewal	1	0.4
+6) Modern Orthodox	18	6.9
+7) Reconstructionist Judaism	4	1.5
+8) Reform Judaism	97	37.2
+9) Other Jewish [Specify]	35	13.4
+Missing	9980
+
+
+132) RELIGKID14_OTHER
+RELIGKID14_Other With which Jewish group is your synagogue or temple associated? (Other Jewish)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	32	0	0
+
+
+133) RELIGKID15
+RELIGKID15 With which branch of Islam are you associated?
+RANGE: 2 to 6
+	N	Mean	Std. Deviation
+Total	31	4.71	1.189
+2) Nation of Islam	3	9.7
+3) Shi'a	3	9.7
+5) Sunni	19	61.3
+6) Other Muslim [Specify]	6	19.4
+Missing	10210
+
+
+134) RELIGKID15_OTHER
+RELIGKID15_Other With which branch of Islam are you associated? (Other Muslim)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	6	0	0
+
+
+135) ATTENDKID
+ATTENDKID What about when you were around 11 or 12, how often did you attend religious services then?
+RANGE: -1 to 9
+	N	Mean	Std. Deviation
+Total	10241	5.94	2.611
+-1) Refused	122	1.2
+1) Never	931	9.1
+2) Less than once a year	514	5.0
+3) About once or twice a year	616	6.0
+4) Several times a year	832	8.1
+5) About once a month	430	4.2
+6) Two to three times a month	909	8.9
+7) Nearly every week	1967	19.2
+8) Every week	2831	27.6
+9) Several times a week	1089	10.6
+
+
+136) SACBOOK
+SACBOOK Outside of attending religious services, about how often do you read the Bible, Koran, Torah, or other sacred book?
+RANGE: -1 to 9
+	N	Mean	Std. Deviation
+Total	10241	3.688	2.944
+-1) Refused	180	1.8
+1) Never	3238	31.6
+2) Less than once a year	1702	16.6
+3) About once or twice a year	850	8.3
+4) Several times a year	973	9.5
+5) About once a month	438	4.3
+6) Two to three times a month	515	5.0
+7) Nearly every week	512	5.0
+8) Every week	501	4.9
+9) Several times a week	1332	13.0
+
+
+137) DOV_RELIGINTERP_01_ORDER
+DOV_RELIGINTERP_01_ORDER As you read the statements below, please indicate whether the FIRST statement or the SECOND statement comes closer to your own views even if neither is exactly right: There is only ONE true way to interpret the teachings of my religion
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	8710	1.51	0.5
+1) 	4265	49.0
+2) 	4445	51.0
+Missing	1531
+
+
+138) DOV_RELIGINTERP_02_ORDER
+DOV_RELIGINTERP_02_ORDER As you read the statements below, please indicate whether the FIRST statement or the SECOND statement comes closer to your own views even if neither is exactly right: There is MORE than one way to interpret the teachings of my religion
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	8710	1.49	0.5
+1) 	4445	51.0
+2) 	4265	49.0
+Missing	1531
+
+
+139) RELIGINTERP
+RELIGINTERP As you read the statements below, please indicate whether the FIRST statement or the SECOND statement comes closer to your own views even if neither is exactly right:
+RANGE: -1 to 2
+	N	Mean	Std. Deviation
+Total	8710	1.634	0.577
+-1) Refused	147	1.7
+1) There is only ONE true way to interpret the teachings of my religion.	2744	31.5
+2) There is MORE than one way to interpret the teachings of my religion.	5819	66.8
+Missing	1531
+
+
+140) TRADMOD_1
+TRADMOD_1 Thinking about your religion, to what extent do you agree or disagree with each of the following statements? My church or denomination should preserve its traditional beliefs and practices
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	8277	2.203	1.135
+-1) Refused	217	2.6
+1) Strongly agree	2134	25.8
+2) Agree	2517	30.4
+3) Neither agree nor disagree	2525	30.5
+4) Disagree	714	8.6
+5) Strongly disagree	170	2.1
+Missing	1964
+
+
+141) TRADMOD_2
+TRADMOD_2 Thinking about your religion, to what extent do you agree or disagree with each of the following statements? My church or denomination should adjust traditional beliefs and practices in light of new circumstances
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	8277	2.826	1.331
+-1) Refused	251	3.0
+1) Strongly agree	777	9.4
+2) Agree	2270	27.4
+3) Neither agree nor disagree	2657	32.1
+4) Disagree	1258	15.2
+5) Strongly disagree	1064	12.9
+Missing	1964
+
+
+142) ID_BIB
+ID_BIB How well do the following terms describe your religious identity? Bible-believing
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.709	1.264
+-1) Refused	260	2.5
+1) Not at all	2004	19.6
+2) Not very well	1498	14.6
+3) Somewhat well	2918	28.5
+4) Very well	3561	34.8
+
+
+143) ID_EVAN
+ID_EVAN How well do the following terms describe your religious identity? Evangelical
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	1.827	1.21
+-1) Refused	458	4.5
+1) Not at all	4578	44.7
+2) Not very well	2228	21.8
+3) Somewhat well	1770	17.3
+4) Very well	1207	11.8
+
+
+144) ID_MAIN
+ID_MAIN How well do the following terms describe your religious identity? Mainline Christian
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.005	1.227
+-1) Refused	470	4.6
+1) Not at all	3722	36.3
+2) Not very well	2008	19.6
+3) Somewhat well	2901	28.3
+4) Very well	1140	11.1
+
+
+145) ID_SPIR
+ID_SPIR How well do the following terms describe your religious identity? Spiritual
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.679	1.283
+-1) Refused	409	4.0
+1) Not at all	1711	16.7
+2) Not very well	1372	13.4
+3) Somewhat well	3608	35.2
+4) Very well	3141	30.7
+
+
+146) ID_FUND
+ID_FUND How well do the following terms describe your religious identity? Fundamentalist
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	1.637	1.073
+-1) Refused	477	4.7
+1) Not at all	5008	48.9
+2) Not very well	2593	25.3
+3) Somewhat well	1602	15.6
+4) Very well	561	5.5
+
+
+147) ID_SEEK
+ID_SEEK How well do the following terms describe your religious identity? Seeker
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	1.86	1.208
+-1) Refused	526	5.1
+1) Not at all	4108	40.1
+2) Not very well	2375	23.2
+3) Somewhat well	2209	21.6
+4) Very well	1023	10.0
+
+
+148) ID_CON
+ID_CON How well do the following terms describe your religious identity? Theologically conservative
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	1.829	1.183
+-1) Refused	484	4.7
+1) Not at all	4326	42.2
+2) Not very well	2368	23.1
+3) Somewhat well	2099	20.5
+4) Very well	964	9.4
+
+
+149) ID_LIB
+ID_LIB How well do the following terms describe your religious identity? Theologically liberal
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	1.712	1.107
+-1) Refused	514	5.0
+1) Not at all	4508	44.0
+2) Not very well	2705	26.4
+3) Somewhat well	1932	18.9
+4) Very well	582	5.7
+
+
+150) ID_PENT
+ID_PENT How well do the following terms describe your religious identity? Pentecostal
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	1.409	0.966
+-1) Refused	469	4.6
+1) Not at all	6347	62.0
+2) Not very well	2155	21.0
+3) Somewhat well	840	8.2
+4) Very well	430	4.2
+
+
+151) ID_BORN
+ID_BORN How well do the following terms describe your religious identity? Born-again
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	1.839	1.329
+-1) Refused	453	4.4
+1) Not at all	5348	52.2
+2) Not very well	1314	12.8
+3) Somewhat well	1190	11.6
+4) Very well	1936	18.9
+
+
+152) PRAY
+PRAY About how often do you pray?
+RANGE: -1 to 11
+	N	Mean	Std. Deviation
+Total	10241	7.167	3.823
+-1) Refused	127	1.2
+1) Never	1433	14.0
+2) Less than once a year	473	4.6
+3) About once or twice a year	401	3.9
+4) Several times a year	691	6.7
+5) About once a month	332	3.2
+6) Two to three times a month	469	4.6
+7) Nearly every week	492	4.8
+8) Every week	371	3.6
+9) Several times a week	1054	10.3
+10) Once a day	1570	15.3
+11) Several times a day	2828	27.6
+
+
+153) BIBLE
+BIBLE Which of these statements comes closest to describing your feelings about the Bible?
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	7294	1.906	0.791
+-1) Refused	76	1.0
+1) The Bible is the actual word of God and is to be taken literally, word for word.	1946	26.7
+2) The Bible is the inspired word of God but not everything should be taken literally, word for word.	4045	55.5
+3) The Bible is an ancient book of fables, legends, history and moral precepts recorded by man.	969	13.3
+4) This does not apply to me	258	3.5
+Missing	2947
+
+
+154) RELINFL
+RELINFL At the present time, do you think religion as a whole is increasing its influence on American life or losing its influence?
+RANGE: -1 to 2
+	N	Mean	Std. Deviation
+Total	10241	1.227	0.489
+-1) Refused	109	1.1
+1) Losing its influence	7591	74.1
+2) Increasing its influence	2541	24.8
+
+
+155) RELINFL_1
+RELINFL_1 At the present time, do you think religion as a whole is increasing its influence on American life or losing its influence?
+RANGE: -1 to 2
+	N	Mean	Std. Deviation
+Total	109	-0.404	1.195
+-1) Refused	87	79.8
+1) Losing its influence	1	0.9
+2) Neither increasing nor decreasing its influence	21	19.3
+Missing	10132
+
+
+156) GOODBAD
+GOODBAD All in all, do you think religion [INSERT TEXT OF RESPONSE TO RELINFL OR RELINFL_1] on American life is a good thing or a bad thing?
+RANGE: -1 to 2
+	N	Mean	Std. Deviation
+Total	10154	1.614	0.58
+-1) Refused	168	1.7
+1) Good thing	3411	33.6
+2) Bad thing	6575	64.8
+Missing	87
+
+
+157) GOD
+GOD Which one statement comes closest to your personal beliefs about God?
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	10241	4.841	1.67
+-1) Refused	89	0.9
+1) I don't believe in God	539	5.3
+2) I don't know whether there is a God, and I don't believe there is any way to find out.	776	7.6
+3) I don't believe in a personal God, but do believe in a Higher Power of some kind	959	9.4
+4) I find myself believing in God some of the time, but not at others	432	4.2
+5) While I have doubts, I feel that I do believe in God	1711	16.7
+6) I know God really exists and I have no doubts about it	5735	56.0
+
+
+158) EXP_MIR1
+EXP_MIR1 Have you ever had any of the following experiences? I witnessed a miraculous, physical healing
+RANGE: -1 to 2
+	N	Mean	Std. Deviation
+Total	10241	1.742	0.548
+-1) Refused	186	1.8
+1) Yes	2083	20.3
+2) No	7972	77.8
+
+
+159) EXP_MIR2
+EXP_MIR2 Have you ever had any of the following experiences? I received a miraculous, physical healing
+RANGE: -1 to 2
+	N	Mean	Std. Deviation
+Total	10241	1.792	0.538
+-1) Refused	212	2.1
+1) Yes	1493	14.6
+2) No	8536	83.4
+
+
+160) EXP_CALL
+EXP_CALL Have you ever had any of the following experiences? I felt called by God to do something
+RANGE: -1 to 2
+	N	Mean	Std. Deviation
+Total	10241	1.596	0.602
+-1) Refused	208	2.0
+1) Yes	3513	34.3
+2) No	6520	63.7
+
+
+161) EXP_VOIC
+EXP_VOIC Have you ever had any of the following experiences? I heard the voice of God speaking to me
+RANGE: -1 to 2
+	N	Mean	Std. Deviation
+Total	10241	1.761	0.564
+-1) Refused	233	2.3
+1) Yes	1747	17.1
+2) No	8261	80.7
+
+
+162) EXP_ANG
+EXP_ANG Have you ever had any of the following experiences? I was protected from harm by a guardian angel
+RANGE: -1 to 2
+	N	Mean	Std. Deviation
+Total	10241	1.481	0.612
+-1) Refused	214	2.1
+1) Yes	4675	45.6
+2) No	5352	52.3
+
+
+163) EXP_CONV
+EXP_CONV Have you ever had any of the following experiences? I had a religious conversion experience
+RANGE: -1 to 2
+	N	Mean	Std. Deviation
+Total	10241	1.714	0.593
+-1) Refused	251	2.5
+1) Yes	2177	21.3
+2) No	7813	76.3
+
+
+164) EXP_UNIV
+EXP_UNIV Have you ever had any of the following experiences? I felt one with the universe
+RANGE: -1 to 2
+	N	Mean	Std. Deviation
+Total	10241	1.746	0.579
+-1) Refused	248	2.4
+1) Yes	1857	18.1
+2) No	8136	79.4
+
+
+165) GOD_REM
+GOD_REM Based on your personal understanding, do you think God is... Removed from the affairs of the world
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	9613	3.388	1.339
+-1) Refused	162	1.7
+1) Strongly agree	766	8.0
+2) Agree	1104	11.5
+3) Neither agree nor disagree	3024	31.5
+4) Disagree	2104	21.9
+5) Strongly disagree	2453	25.5
+Missing	628
+
+
+166) GOD_CON1
+GOD_CON1 Based on your personal understanding, do you think God is... Concerned with the well-being of the world
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	9613	2.019	1.139
+-1) Refused	132	1.4
+1) Strongly agree	3718	38.7
+2) Agree	2667	27.7
+3) Neither agree nor disagree	2321	24.1
+4) Disagree	345	3.6
+5) Strongly disagree	430	4.5
+Missing	628
+
+
+167) GOD_CON2
+GOD_CON2 Based on your personal understanding, do you think God is... Concerned with my personal well-being
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	9613	2.057	1.182
+-1) Refused	152	1.6
+1) Strongly agree	3687	38.4
+2) Agree	2451	25.5
+3) Neither agree nor disagree	2434	25.3
+4) Disagree	407	4.2
+5) Strongly disagree	482	5.0
+Missing	628
+
+
+168) GOD_INV1
+GOD_INV1 Based on your personal understanding, do you think God is... Directly involved in the affairs of the world
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	9613	2.49	1.259
+-1) Refused	147	1.5
+1) Strongly agree	2425	25.2
+2) Agree	1889	19.7
+3) Neither agree nor disagree	3410	35.5
+4) Disagree	1061	11.0
+5) Strongly disagree	681	7.1
+Missing	628
+
+
+169) GOD_INV2
+GOD_INV2 Based on your personal understanding, do you think God is... Directly involved in my affairs
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	9613	2.348	1.257
+-1) Refused	154	1.6
+1) Strongly agree	2807	29.2
+2) Agree	2145	22.3
+3) Neither agree nor disagree	3054	31.8
+4) Disagree	794	8.3
+5) Strongly disagree	659	6.9
+Missing	628
+
+
+170) SHARE
+SHARE How often in the past month have you witnessed or shared your faith with strangers?
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	8710	1.662	0.954
+-1) Refused	85	1.0
+1) Not at all	4714	54.1
+2) One or two times	2592	29.8
+3) Three or four times	611	7.0
+4) Five or more times	708	8.1
+Missing	1531
+
+
+171) WORK2
+WORK2 How often has the topic of religion come up at your place of work?
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.881	1.124
+-1) Refused	248	2.4
+1) Very often	745	7.3
+2) Sometimes	2437	23.8
+3) Rarely	3107	30.3
+4) Never	3704	36.2
+
+
+172) WORK3
+WORK3 How often have you felt discriminated against at your place of work because of your religious beliefs?
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	3.623	0.945
+-1) Refused	236	2.3
+1) Very often	129	1.3
+2) Sometimes	626	6.1
+3) Rarely	1043	10.2
+4) Never	8207	80.1
+
+
+173) RLGEXCL
+RLGEXCL Which of the following statements comes closest to your own views:
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.373	0.961
+-1) Refused	174	1.7
+1) There is very little truth in any religion	656	6.4
+2) There are basic truths in many religions	6245	61.0
+3) There is truth only in one religion	1336	13.0
+4) Don't know	1830	17.9
+
+
+174) RELTALK
+RELTALK In the past month, about how often have you talked with people of a different religion about your religious views whatever they may be:
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	1.39	0.761
+-1) Refused	178	1.7
+1) Not at all	6666	65.1
+2) One or two times	2708	26.4
+3) Three or four times	426	4.2
+4) Five or more times	263	2.6
+
+
+175) CONTRAD1
+CONTRAD1 If some scientific discovery appeared to contradict something in the Bible, would you be:
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	8303	2.498	1.438
+-1) Refused	111	1.3
+1) Much more likely to believe the Bible	2678	32.3
+2) Somewhat more likely to believe the Bible	1521	18.3
+3) Somewhat more likely to believe scientific findings	1879	22.6
+4) Much more likely to believe scientific findings	1073	12.9
+5) I don't have a religious text	1041	12.5
+Missing	1938
+
+
+176) TELTEXTSCI
+TELTEXTSCI To what extent do you agree with the following statement, 'Sometimes I have to choose between the teachings of my religious text and scientific findings'?
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	8277	3.39	1.155
+-1) Refused	43	0.5
+1) Strongly agree	379	4.6
+2) Agree	1124	13.6
+3) Neither agree nor disagree	3289	39.7
+4) Disagree	1598	19.3
+5) Strongly disagree	1844	22.3
+Missing	1964
+
+
+177) ORIGINS_1
+ORIGINS_1 Next, we present six theories about the origin and development of the universe and life on Earth. How likely is it that each is true or false? Creationism - God created the universe, the Earth, and all of life within the past 10,000 years.
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	10241	3.177	1.926
+-1) Refused	129	1.3
+1) Definitely false	2837	27.7
+2) Probably false	1340	13.1
+3) Probably true	1328	13.0
+4) Definitely true	2238	21.9
+6) Not at all sure	2369	23.1
+
+
+178) ORIGINS_2
+ORIGINS_2 Next, we present six theories about the origin and development of the universe and life on Earth. How likely is it that each is true or false? Recent Human Creation- God created the universe and the Earth billions of years ago; plants and animals evolved over millions of years from earlier life forms, but God intervened to create humans within the past 10,000 years.
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	10241	3.125	1.98
+-1) Refused	131	1.3
+1) Definitely false	2786	27.2
+2) Probably false	1739	17.0
+3) Probably true	1877	18.3
+4) Definitely true	1006	9.8
+6) Not at all sure	2702	26.4
+
+
+179) ORIGINS_3
+ORIGINS_3 Next, we present six theories about the origin and development of the universe and life on Earth. How likely is it that each is true or false? God-guided Evolution - God created the universe and the Earth billions of years ago; God started and has guided human evolution over millions of years.
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	10241	3.381	1.851
+-1) Refused	136	1.3
+1) Definitely false	1978	19.3
+2) Probably false	1227	12.0
+3) Probably true	2479	24.2
+4) Definitely true	1815	17.7
+6) Not at all sure	2606	25.4
+
+
+180) ORIGINS_4
+ORIGINS_4 Next, we present six theories about the origin and development of the universe and life on Earth. How likely is it that each is true or false? Intelligent Design - the universe and Earth came into being billions of years ago, and humans evolved over millions of years according to the design of an Intelligent Force.
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	10241	3.171	1.996
+-1) Refused	140	1.4
+1) Definitely false	2684	26.2
+2) Probably false	1649	16.1
+3) Probably true	2150	21.0
+4) Definitely true	762	7.4
+6) Not at all sure	2856	27.9
+
+
+181) ORIGINS_5
+ORIGINS_5 Next, we present six theories about the origin and development of the universe and life on Earth. How likely is it that each is true or false? God-initiated Evolution - God created the universe and the Earth billions of years ago; but all life, including humans, evolved over millions of years from earlier life forms due to environmental pressures to adapt and without any guidance from God or an Intelligent Force.
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	10241	2.988	2.032
+-1) Refused	135	1.3
+1) Definitely false	3207	31.3
+2) Probably false	1973	19.3
+3) Probably true	1633	15.9
+4) Definitely true	537	5.2
+6) Not at all sure	2756	26.9
+
+
+182) ORIGINS_6
+ORIGINS_6 Next, we present six theories about the origin and development of the universe and life on Earth. How likely is it that each is true or false? Natural Evolution - the universe and Earth came into being billions of years ago; all life, including humans, evolved over millions of years from earlier life forms due to environmental pressures to adapt; there was no God or Intelligent Force involved in either the creation or evolution of life.
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	10241	2.953	1.998
+-1) Refused	139	1.4
+1) Definitely false	3466	33.8
+2) Probably false	1398	13.7
+3) Probably true	1835	17.9
+4) Definitely true	901	8.8
+5) [ARDA note: unknown label]	3	0.0
+6) Not at all sure	2499	24.4
+
+
+183) CHILDOCC_1
+CHILDOCC_1 How much would you recommend to a child of yours to enter the following occupations as an adult? Biologist
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	1.627	0.815
+-1) Refused	317	3.1
+1) Would recommend strongly	4117	40.2
+2) Would recommend somewhat	4557	44.5
+3) Would not recommend at all	1250	12.2
+
+
+184) CHILDOCC_2
+CHILDOCC_2 How much would you recommend to a child of yours to enter the following occupations as an adult? Engineer
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	1.414	0.739
+-1) Refused	308	3.0
+1) Would recommend strongly	5701	55.7
+2) Would recommend somewhat	3605	35.2
+3) Would not recommend at all	627	6.1
+
+
+185) CHILDOCC_3
+CHILDOCC_3 How much would you recommend to a child of yours to enter the following occupations as an adult? Plumber
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	1.987	0.909
+-1) Refused	347	3.4
+1) Would recommend strongly	2213	21.6
+2) Would recommend somewhat	4560	44.5
+3) Would not recommend at all	3121	30.5
+
+
+186) CHILDOCC_4
+CHILDOCC_4 How much would you recommend to a child of yours to enter the following occupations as an adult? Anthropologist
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	1.919	0.909
+-1) Refused	347	3.4
+1) Would recommend strongly	2594	25.3
+2) Would recommend somewhat	4490	43.8
+3) Would not recommend at all	2810	27.4
+
+
+187) CHILDOCC_5
+CHILDOCC_5 How much would you recommend to a child of yours to enter the following occupations as an adult? TV weather forecaster
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	1.941	0.889
+-1) Refused	337	3.3
+1) Would recommend strongly	2346	22.9
+2) Would recommend somewhat	4804	46.9
+3) Would not recommend at all	2754	26.9
+
+
+188) CHILDOCC_6
+CHILDOCC_6 How much would you recommend to a child of yours to enter the following occupations as an adult? High school chemistry teacher
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	1.788	0.866
+-1) Refused	354	3.5
+1) Would recommend strongly	3037	29.7
+2) Would recommend somewhat	4926	48.1
+3) Would not recommend at all	1924	18.8
+
+
+189) CHILDOCC_7
+CHILDOCC_7 How much would you recommend to a child of yours to enter the following occupations as an adult? Psychologist
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	1.801	0.895
+-1) Refused	368	3.6
+1) Would recommend strongly	3115	30.4
+2) Would recommend somewhat	4573	44.7
+3) Would not recommend at all	2185	21.3
+
+
+190) CHILDOCC_8
+CHILDOCC_8 How much would you recommend to a child of yours to enter the following occupations as an adult? Physician/Doctor
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	1.437	0.774
+-1) Refused	350	3.4
+1) Would recommend strongly	5475	53.5
+2) Would recommend somewhat	3655	35.7
+3) Would not recommend at all	761	7.4
+
+
+191) CHILDOCC_9
+CHILDOCC_9 How much would you recommend to a child of yours to enter the following occupations as an adult? Pastor, minister or clergyperson
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	2.023	0.947
+-1) Refused	344	3.4
+1) Would recommend strongly	2412	23.6
+2) Would recommend somewhat	3801	37.1
+3) Would not recommend at all	3684	36.0
+
+
+192) CHILDOCC_10
+CHILDOCC_10 How much would you recommend to a child of yours to enter the following occupations as an adult? Electrician
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	1.74	0.851
+-1) Refused	362	3.5
+1) Would recommend strongly	3220	31.4
+2) Would recommend somewhat	5019	49.0
+3) Would not recommend at all	1640	16.0
+
+
+193) CHILDOCC_11
+CHILDOCC_11 How much would you recommend to a child of yours to enter the following occupations as an adult? Sociologist
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	1.943	0.918
+-1) Refused	384	3.7
+1) Would recommend strongly	2314	22.6
+2) Would recommend somewhat	4657	45.5
+3) Would not recommend at all	2886	28.2
+
+
+194) CHILDOCC_12
+CHILDOCC_12 How much would you recommend to a child of yours to enter the following occupations as an adult? Physicist
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	1.637	0.855
+-1) Refused	365	3.6
+1) Would recommend strongly	4082	39.9
+2) Would recommend somewhat	4333	42.3
+3) Would not recommend at all	1461	14.3
+
+
+195) CHILDOCC_13
+CHILDOCC_13 How much would you recommend to a child of yours to enter the following occupations as an adult? Nurse
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	1.533	0.805
+-1) Refused	381	3.7
+1) Would recommend strongly	4542	44.4
+2) Would recommend somewhat	4419	43.2
+3) Would not recommend at all	899	8.8
+
+
+196) TEACHALT1
+TEACHALT1 Would you generally favor or oppose teaching creationism instead of evolution in public schools?
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.512	1.245
+-1) Refused	328	3.2
+1) Strongly favor	1847	18.0
+2) Somewhat favor	2829	27.6
+3) Somewhat oppose	2399	23.4
+4) Strongly oppose	2838	27.7
+
+
+197) TEACHALT2
+TEACHALT2 Would you generally favor or oppose teaching creationism along with evolution in public schools?
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.336	1.236
+-1) Refused	441	4.3
+1) Strongly favor	1759	17.2
+2) Somewhat favor	3790	37.0
+3) Somewhat oppose	1982	19.4
+4) Strongly oppose	2269	22.2
+
+
+198) TEACHALT3
+TEACHALT3 Would you generally favor or oppose teaching intelligent design instead of evolution in public schools?
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.72	1.216
+-1) Refused	457	4.5
+1) Strongly favor	738	7.2
+2) Somewhat favor	2630	25.7
+3) Somewhat oppose	3353	32.7
+4) Strongly oppose	3063	29.9
+
+
+199) TEACHALT4
+TEACHALT4 Would you generally favor or oppose teaching intelligent design along with evolution in public schools?
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.512	1.216
+-1) Refused	444	4.3
+1) Strongly favor	1073	10.5
+2) Somewhat favor	3637	35.5
+3) Somewhat oppose	2529	24.7
+4) Strongly oppose	2558	25.0
+
+
+200) NEURO
+NEURO Differences in people's religiosity can be explained by the fact that their brains are wired differently.
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	10241	3.467	1.282
+-1) Refused	243	2.4
+1) Strongly agree	335	3.3
+2) Agree	1052	10.3
+3) Neither agree nor disagree	3791	37.0
+4) Disagree	2164	21.1
+5) Strongly disagree	2656	25.9
+
+
+201) ENVSHOP
+ENVSHOP I think about the effect on the environment when making shopping decisions.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.624	1.046
+-1) Refused	197	1.9
+1) Never	1304	12.7
+2) Rarely	2370	23.1
+3) Occasionally	4452	43.5
+4) Frequently	1918	18.7
+
+
+202) CLIMATE
+CLIMATE Which of the following statements best represent your opinion about climate change?
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	1.767	0.958
+-1) Refused	222	2.2
+1) The climate is changing and human actions are a significant cause of the change	4235	41.4
+2) The climate is changing but human actions are only partly causing the change	3877	37.9
+3) The climate is changing but not because of human actions	1301	12.7
+4) The climate is not changing	606	5.9
+
+
+203) INT_FORP
+INT_FORP Please tell me how interested you are in the following things: Foreign policy
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	2.004	0.833
+-1) Refused	206	2.0
+1) Very interested	2295	22.4
+2) Moderately interested	4788	46.8
+3) Not at all interested	2952	28.8
+
+
+204) INT_SCHO
+INT_SCHO Please tell me how interested you are in the following things: Local school issues
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	1.873	0.829
+-1) Refused	222	2.2
+1) Very interested	2916	28.5
+2) Moderately interested	4820	47.1
+3) Not at all interested	2283	22.3
+
+
+205) INT_ARTS
+INT_ARTS Please tell me how interested you are in the following things: The arts
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	2.082	0.851
+-1) Refused	254	2.5
+1) Very interested	1797	17.5
+2) Moderately interested	4787	46.7
+3) Not at all interested	3403	33.2
+
+
+206) INT_SCI
+INT_SCI Please tell me how interested you are in the following things: New scientific discoveries
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	1.728	0.781
+-1) Refused	241	2.4
+1) Very interested	3452	33.7
+2) Moderately interested	5162	50.4
+3) Not at all interested	1386	13.5
+
+
+207) INT_ECON
+INT_ECON Please tell me how interested you are in the following things: Economic and business issues
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	1.781	0.813
+-1) Refused	248	2.4
+1) Very interested	3262	31.9
+2) Moderately interested	4969	48.5
+3) Not at all interested	1762	17.2
+
+
+208) INT_MED
+INT_MED Please tell me how interested you are in the following things: New medical discoveries
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	1.592	0.759
+-1) Refused	259	2.5
+1) Very interested	4339	42.4
+2) Moderately interested	4705	45.9
+3) Not at all interested	938	9.2
+
+
+209) INT_SPORT
+INT_SPORT Please tell me how interested you are in the following things: Sports and outdoor recreation
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	1.959	0.848
+-1) Refused	221	2.2
+1) Very interested	2573	25.1
+2) Moderately interested	4630	45.2
+3) Not at all interested	2817	27.5
+
+
+210) INT_SPACE
+INT_SPACE Please tell me how interested you are in the following things: Space exploration
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	1.922	0.845
+-1) Refused	265	2.6
+1) Very interested	2500	24.4
+2) Moderately interested	4982	48.6
+3) Not at all interested	2494	24.4
+
+
+211) INT_ENV
+INT_ENV Please tell me how interested you are in the following things: The environment
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	1.702	0.754
+-1) Refused	231	2.3
+1) Very interested	3502	34.2
+2) Moderately interested	5362	52.4
+3) Not at all interested	1146	11.2
+
+
+212) INT_RELI
+INT_RELI Please tell me how interested you are in the following things: Religion
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	1.91	0.879
+-1) Refused	254	2.5
+1) Very interested	2935	28.7
+2) Moderately interested	4280	41.8
+3) Not at all interested	2772	27.1
+
+
+213) PROB_1
+PROB_1 We are faced with many problems in this country, none of which can be solved easily or inexpensively. For each problem below, do you think we're spending too much money on it, too little money, or about the right amount? Space exploration program
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	1.892	0.868
+-1) Refused	274	2.7
+1) Too much	2822	27.6
+2) About the right amount	4606	45.0
+3) Too little	2539	24.8
+
+
+214) PROB_2
+PROB_2 We are faced with many problems in this country, none of which can be solved easily or inexpensively. For each problem below, do you think we're spending too much money on it, too little money, or about the right amount? The military, armaments, and defense
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	1.838	0.902
+-1) Refused	277	2.7
+1) Too much	3469	33.9
+2) About the right amount	3851	37.6
+3) Too little	2644	25.8
+
+
+215) PROB_3
+PROB_3 We are faced with many problems in this country, none of which can be solved easily or inexpensively. For each problem below, do you think we're spending too much money on it, too little money, or about the right amount? Improving the nation's education system
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	2.485	0.861
+-1) Refused	279	2.7
+1) Too much	845	8.3
+2) About the right amount	2466	24.1
+3) Too little	6651	64.9
+
+
+216) PROB_4
+PROB_4 We are faced with many problems in this country, none of which can be solved easily or inexpensively. For each problem below, do you think we're spending too much money on it, too little money, or about the right amount? Improving and protecting the environment
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	2.216	0.878
+-1) Refused	282	2.8
+1) Too much	1388	13.6
+2) About the right amount	4130	40.3
+3) Too little	4441	43.4
+
+
+217) PROB_5
+PROB_5 We are faced with many problems in this country, none of which can be solved easily or inexpensively. For each problem below, do you think we're spending too much money on it, too little money, or about the right amount? Supporting scientific research
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	2.138	0.814
+-1) Refused	295	2.9
+1) Too much	1008	9.8
+2) About the right amount	5628	55.0
+3) Too little	3310	32.3
+
+
+218) PROB_6
+PROB_6 We are faced with many problems in this country, none of which can be solved easily or inexpensively. For each problem below, do you think we're spending too much money on it, too little money, or about the right amount? Improving and protecting the nation's health
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	2.266	0.89
+-1) Refused	303	3.0
+1) Too much	1234	12.0
+2) About the right amount	3833	37.4
+3) Too little	4871	47.6
+
+
+219) CONFID_1
+CONFID_1 I am going to name some institutions in this country. As far as the people running these institutions are concerned, how much confidence do you have? Corporations
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	2.231	0.824
+-1) Refused	315	3.1
+1) A great deal	678	6.6
+2) Some	5259	51.4
+3) Hardly any	3989	39.0
+
+
+220) CONFID_2
+CONFID_2 I am going to name some institutions in this country. As far as the people running these institutions are concerned, how much confidence do you have? Religious organizations and leaders
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	2.093	0.824
+-1) Refused	313	3.1
+1) A great deal	1164	11.4
+2) Some	5704	55.7
+3) Hardly any	3060	29.9
+
+
+221) CONFID_3
+CONFID_3 I am going to name some institutions in this country. As far as the people running these institutions are concerned, how much confidence do you have? The press
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	2.383	0.841
+-1) Refused	338	3.3
+1) A great deal	382	3.7
+2) Some	4200	41.0
+3) Hardly any	5321	52.0
+
+
+222) CONFID_4
+CONFID_4 I am going to name some institutions in this country. As far as the people running these institutions are concerned, how much confidence do you have? Colleges and universities
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	1.961	0.778
+-1) Refused	319	3.1
+1) A great deal	1392	13.6
+2) Some	6585	64.3
+3) Hardly any	1945	19.0
+
+
+223) CONFID_5
+CONFID_5 I am going to name some institutions in this country. As far as the people running these institutions are concerned, how much confidence do you have? The scientific community
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	1.852	0.769
+-1) Refused	328	3.2
+1) A great deal	1932	18.9
+2) Some	6585	64.3
+3) Hardly any	1396	13.6
+
+
+224) CONFID_6
+CONFID_6 I am going to name some institutions in this country. As far as the people running these institutions are concerned, how much confidence do you have? U.S. Congress
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	2.564	0.826
+-1) Refused	324	3.2
+1) A great deal	291	2.8
+2) Some	2583	25.2
+3) Hardly any	7043	68.8
+
+
+225) CONFID_7
+CONFID_7 I am going to name some institutions in this country. As far as the people running these institutions are concerned, how much confidence do you have? The military
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	10241	1.826	0.846
+-1) Refused	345	3.4
+1) A great deal	2633	25.7
+2) Some	5372	52.5
+3) Hardly any	1891	18.5
+
+
+226) IMPORT1
+IMPORT1 There are many issues in society that produce debate. How important are the following debates to you? Debates concerning guns
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	1.82	1.023
+-1) Refused	250	2.4
+1) Very important	4170	40.7
+2) Somewhat important	3522	34.4
+3) Not very important	1521	14.9
+4) Not at all important	778	7.6
+
+
+227) IMPORT2
+IMPORT2 There are many issues in society that produce debate. How important are the following debates to you? Debates concerning healthcare
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	1.479	0.858
+-1) Refused	296	2.9
+1) Very important	5712	55.8
+2) Somewhat important	3298	32.2
+3) Not very important	601	5.9
+4) Not at all important	334	3.3
+
+
+228) IMPORT3
+IMPORT3 There are many issues in society that produce debate. How important are the following debates to you? Debates concerning the relationship between religion and science
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.429	1.061
+-1) Refused	260	2.5
+1) Very important	1464	14.3
+2) Somewhat important	3374	32.9
+3) Not very important	3653	35.7
+4) Not at all important	1490	14.5
+
+
+229) IMPORT4
+IMPORT4 There are many issues in society that produce debate. How important are the following debates to you? Debates concerning abortion
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.108	1.1
+-1) Refused	283	2.8
+1) Very important	2792	27.3
+2) Somewhat important	3623	35.4
+3) Not very important	2335	22.8
+4) Not at all important	1208	11.8
+
+
+230) KIDS
+KIDS How many children have you ever had?
+RANGE: -1 to 99
+	N	Mean	Std. Deviation
+Total	10241	1.665	2.125
+-1) Refused	169	1.7
+0) 	3123	30.5
+1) 	1541	15.0
+2) 	2794	27.3
+3) 	1491	14.6
+4) 	650	6.3
+5) 	261	2.5
+6) 	120	1.2
+7) 	38	0.4
+8) 	27	0.3
+9) 	5	0.0
+10) 	6	0.1
+11) 	4	0.0
+12) 	4	0.0
+13) 	2	0.0
+14) 	1	0.0
+15) 	1	0.0
+21) 	1	0.0
+66) 	1	0.0
+78) 	1	0.0
+99) 	1	0.0
+
+
+231) POLVIEW
+POLVIEW Would you describe your political views as extremely liberal, liberal, slightly liberal, moderate, slightly conservative, conservative or extremely conservative?
+RANGE: -1 to 7
+	N	Mean	Std. Deviation
+Total	10241	3.992	1.747
+-1) Refused	319	3.1
+1) Extremely liberal	320	3.1
+2) Liberal	1500	14.6
+3) Slightly liberal	1114	10.9
+4) Moderate	3306	32.3
+5) Slightly conservative	1213	11.8
+6) Conservative	2032	19.8
+7) Extremely conservative	437	4.3
+
+
+232) PPAGE
+PPAGE Age
+RANGE: 18 to 93
+	N	Mean	Std. Deviation
+Total	10241	49.962	16.643
+18) 	79	0.8
+19) 	79	0.8
+20) 	101	1.0
+21) 	115	1.1
+22) 	114	1.1
+23) 	130	1.3
+24) 	138	1.3
+25) 	146	1.4
+26) 	150	1.5
+27) 	171	1.7
+28) 	155	1.5
+29) 	178	1.7
+30) 	142	1.4
+31) 	147	1.4
+32) 	147	1.4
+33) 	133	1.3
+34) 	137	1.3
+35) 	149	1.5
+36) 	159	1.6
+37) 	150	1.5
+38) 	146	1.4
+39) 	162	1.6
+40) 	145	1.4
+41) 	185	1.8
+42) 	159	1.6
+43) 	209	2.0
+44) 	191	1.9
+45) 	150	1.5
+46) 	138	1.3
+47) 	169	1.7
+48) 	167	1.6
+49) 	189	1.8
+50) 	184	1.8
+51) 	225	2.2
+52) 	199	1.9
+53) 	224	2.2
+54) 	208	2.0
+55) 	261	2.5
+56) 	265	2.6
+57) 	237	2.3
+58) 	249	2.4
+59) 	240	2.3
+60) 	206	2.0
+61) 	216	2.1
+62) 	213	2.1
+63) 	195	1.9
+64) 	181	1.8
+65) 	216	2.1
+66) 	221	2.2
+67) 	177	1.7
+68) 	148	1.4
+69) 	155	1.5
+70) 	142	1.4
+71) 	159	1.6
+72) 	125	1.2
+73) 	101	1.0
+74) 	110	1.1
+75) 	105	1.0
+76) 	80	0.8
+77) 	68	0.7
+78) 	56	0.5
+79) 	51	0.5
+80) 	53	0.5
+81) 	50	0.5
+82) 	35	0.3
+83) 	36	0.4
+84) 	29	0.3
+85) 	29	0.3
+86) 	12	0.1
+87) 	19	0.2
+88) 	8	0.1
+89) 	6	0.1
+90) 	10	0.1
+91) 	2	0.0
+92) 	4	0.0
+93) 	1	0.0
+
+
+233) PPAGECAT
+PPAGECAT Age - 7 Categories
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	10241	4.039	1.678
+1) 18-24	756	7.4
+2) 25-34	1506	14.7
+3) 35-44	1655	16.2
+4) 45-54	1853	18.1
+5) 55-64	2263	22.1
+6) 65-74	1554	15.2
+7) 75+	654	6.4
+
+
+234) PPAGECT4
+PPAGECT4 Age - 4 Categories
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.78	1.051
+1) 18-29	1556	15.2
+2) 30-44	2361	23.1
+3) 45-59	3105	30.3
+4) 60+	3219	31.4
+
+
+235) PPEDUC
+PPEDUC Education (Highest Degree Received)
+RANGE: 1 to 14
+	N	Mean	Std. Deviation
+Total	10241	10.347	2.103
+1) No formal education	23	0.2
+2) First, second, third, or fourth grade	25	0.2
+3) Fifth or sixth grade	100	1.0
+4) Seventh or eighth grade	74	0.7
+5) Ninth grade	94	0.9
+6) 10th grade	146	1.4
+7) 11th grade	155	1.5
+8) 12th grade no diploma	245	2.4
+9) High school graduate - high school diploma or the equivalent (GED)	2855	27.9
+10) Some college, no degree	2041	19.9
+11) Associate degree	885	8.6
+12) Bachelor's degree	2126	20.8
+13) Master's degree	1052	10.3
+14) Professional or doctorate degree	420	4.1
+
+
+236) PPEDUCAT
+PPEDUCAT Education (Categorical)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.904	0.979
+1) Less than high school	862	8.4
+2) High school	2855	27.9
+3) Some college	2926	28.6
+4) Bachelor's degree or higher	3598	35.1
+
+
+237) PPETHM
+PPETHM Race/Ethnicity
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	10241	1.678	1.196
+1) White, non-Hispanic	7231	70.6
+2) Black, non-Hispanic	1009	9.9
+3) Other, non-Hispanic	402	3.9
+4) Hispanic	1263	12.3
+5) Two or more races, non-Hispanic	336	3.3
+
+
+238) PPGENDER
+PPGENDER Gender
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	10241	1.492	0.5
+1) Male	5202	50.8
+2) Female	5039	49.2
+
+
+239) PPHHHEAD
+PPHHHEAD Household Head
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	10241	0.82	0.385
+0) No	1847	18.0
+1) Yes	8394	82.0
+
+
+240) PPHHSIZE
+PPHHSIZE Household Size
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	10241	2.659	1.438
+1) 	1931	18.9
+2) 	4028	39.3
+3) 	1756	17.1
+4) 	1400	13.7
+5) 	674	6.6
+6) 	276	2.7
+7) 	106	1.0
+8) 	39	0.4
+9) 	15	0.1
+10) 	15	0.1
+12) 	1	0.0
+
+
+241) PPHOUSE
+PPHOUSE Housing Type
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	10241	1.562	0.931
+1) A one-family house detached from any other house	7176	70.1
+2) A one-family house attached to one or more houses	831	8.1
+3) A building with two or more apartments	1805	17.6
+4) A mobile home	399	3.9
+5) Boat, RV, van, etc.	30	0.3
+
+
+242) PPINCIMP
+PPINCIMP Household Income
+RANGE: 1 to 19
+	N	Mean	Std. Deviation
+Total	10241	11.497	4.685
+1) Less than $5,000	351	3.4
+2) $5,000 to $7,499	186	1.8
+3) $7,500 to $9,999	213	2.1
+4) $10,000 to $12,499	286	2.8
+5) $12,500 to $14,999	253	2.5
+6) $15,000 to $19,999	383	3.7
+7) $20,000 to $24,999	492	4.8
+8) $25,000 to $29,999	510	5.0
+9) $30,000 to $34,999	486	4.7
+10) $35,000 to $39,999	610	6.0
+11) $40,000 to $49,999	792	7.7
+12) $50,000 to $59,999	879	8.6
+13) $60,000 to $74,999	1013	9.9
+14) $75,000 to $84,999	684	6.7
+15) $85,000 to $99,999	656	6.4
+16) $100,000 to $124,999	1077	10.5
+17) $125,000 to $149,999	555	5.4
+18) $150,000 to $174,999	326	3.2
+19) $175,000 or more	489	4.8
+
+
+243) PPMARIT
+PPMARIT Marital Status
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	10241	2.445	1.858
+1) Married	5794	56.6
+2) Widowed	485	4.7
+3) Divorced	1056	10.3
+4) Separated	165	1.6
+5) Never married	1997	19.5
+6) Living with partner	744	7.3
+
+
+244) PPMSACAT
+PPMSACAT MSA Status
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	10241	0.846	0.361
+0) Non-Metro	1574	15.4
+1) Metro	8667	84.6
+
+
+245) PPREG4
+PPREG4 Region 4 - Based on State of Residence
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.639	1.028
+1) Northeast	1836	17.9
+2) Midwest	2421	23.6
+3) South	3588	35.0
+4) West	2396	23.4
+
+
+246) PPREG9
+PPREG9 Region 9 - Based on State of Residence
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10241	5.151	2.526
+1) New England	504	4.9
+2) Mid-Atlantic	1332	13.0
+3) East-North Central	1629	15.9
+4) West-North Central	792	7.7
+5) South Atlantic	1938	18.9
+6) East-South Central	551	5.4
+7) West-South Central	1099	10.7
+8) Mountain	722	7.1
+9) Pacific	1674	16.3
+
+
+247) PPRENT
+PPRENT Ownership Status of Living Quarters
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	10241	1.304	0.521
+1) Owned or being bought by you or someone in your household	7431	72.6
+2) Rented for cash	2506	24.5
+3) Occupied without payment of cash rent	304	3.0
+
+
+248) PPSTATEN
+PPSTATEN State
+RANGE: 11 to 95
+	N	Mean	Std. Deviation
+Total	10241	55.193	25.534
+11) ME	48	0.5
+12) NH	45	0.4
+13) VT	20	0.2
+14) MA	239	2.3
+15) RI	30	0.3
+16) CT	122	1.2
+21) NY	554	5.4
+22) NJ	284	2.8
+23) PA	494	4.8
+31) OH	437	4.3
+32) IN	206	2.0
+33) IL	398	3.9
+34) MI	324	3.2
+35) WI	264	2.6
+41) MN	225	2.2
+42) IA	121	1.2
+43) MO	215	2.1
+44) ND	17	0.2
+45) SD	43	0.4
+46) NE	78	0.8
+47) KS	93	0.9
+51) DE	34	0.3
+52) MD	191	1.9
+53) DC	30	0.3
+54) VA	270	2.6
+55) WV	66	0.6
+56) NC	308	3.0
+57) SC	130	1.3
+58) GA	275	2.7
+59) FL	634	6.2
+61) KY	134	1.3
+62) TN	206	2.0
+63) AL	143	1.4
+64) MS	68	0.7
+71) AR	85	0.8
+72) LA	102	1.0
+73) OK	115	1.1
+74) TX	797	7.8
+81) MT	33	0.3
+82) ID	51	0.5
+83) WY	12	0.1
+84) CO	145	1.4
+85) NM	64	0.6
+86) AZ	250	2.4
+87) UT	83	0.8
+88) NV	84	0.8
+91) WA	269	2.6
+92) OR	160	1.6
+93) CA	1198	11.7
+94) AK	16	0.2
+95) HI	31	0.3
+
+
+249) PPT01
+PPT01 Presence of Household Members - Children 0-1
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	10241	0.048	0.226
+0) 	9773	95.4
+1) 	442	4.3
+2) 	26	0.3
+
+
+250) PPT25
+PPT25 Presence of Household Members - Children 2-5
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	10241	0.117	0.385
+0) 	9253	90.4
+1) 	791	7.7
+2) 	181	1.8
+3) 	16	0.2
+
+
+251) PPT612
+PPT612 Presence of Household Members - Children 6-12
+RANGE: 0 to 5
+	N	Mean	Std. Deviation
+Total	10241	0.223	0.589
+0) 	8676	84.7
+1) 	993	9.7
+2) 	452	4.4
+3) 	97	0.9
+4) 	21	0.2
+5) 	2	0.0
+
+
+252) PPT1317
+PPT1317 Presence of Household Members - Children 13-17
+RANGE: 0 to 5
+	N	Mean	Std. Deviation
+Total	10241	0.168	0.468
+0) 	8867	86.6
+1) 	1068	10.4
+2) 	270	2.6
+3) 	29	0.3
+4) 	6	0.1
+5) 	1	0.0
+
+
+253) PPT18OV
+PPT18OV Presence of Household Members - Adults 18+
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	10241	2.102	0.904
+1) 	2204	21.5
+2) 	5836	57.0
+3) 	1461	14.3
+4) 	519	5.1
+5) 	160	1.6
+6) 	43	0.4
+7) 	12	0.1
+8) 	4	0.0
+10) 	1	0.0
+12) 	1	0.0
+
+
+254) PPWORK
+PPWORK Current Employment Status
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	10241	2.932	2.192
+1) Working - as a paid employee	5084	49.6
+2) Working - self-employed	760	7.4
+3) Not working - on temporary layoff from a job	68	0.7
+4) Not working - looking for work	709	6.9
+5) Not working - retired	2128	20.8
+6) Not working - disabled	704	6.9
+7) Not working - other	788	7.7
+
+
+255) PPNET
+PPNET HH Internet Access
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	10241	0.841	0.366
+0) No	1630	15.9
+1) Yes	8611	84.1
+
+
+256) PPCM0160
+PPCM0160 Occupation (detailed) in current or main job
+RANGE: -2 to 29
+	N	Mean	Std. Deviation
+Total	10241	7.394	11.166
+-2) Not asked	4378	42.7
+-1) Refused	102	1.0
+1) Management	716	7.0
+2) Business and financial operations	264	2.6
+3) Computer and mathematical	349	3.4
+4) Architecture and engineering	199	1.9
+5) Life, physical, and social sciences	95	0.9
+6) Community and social services	33	0.3
+7) Lawyer, judge	44	0.4
+8) Teacher, except college and university	272	2.7
+9) Teacher, college and university	69	0.7
+10) Other professional	307	3.0
+11) Medical doctor (such as physician, surgeon, dentist, veterinarian)	52	0.5
+12) Other health care practitioner (such as nurse, pharmacist, chiropractor, dietician)	256	2.5
+13) Health technologist or technician (such as paramedic, lab technician)	99	1.0
+14) Health care support (such as nursing aide, orderly, dental assistant)	126	1.2
+15) Protective service	96	0.9
+16) Food preparation and serving	180	1.8
+17) Building and grounds cleaning and maintenance	108	1.1
+18) Personal care and service	101	1.0
+19) Sales representative	183	1.8
+20) Retail sales	261	2.5
+21) Other sales	70	0.7
+22) Office and administrative support	392	3.8
+23) Farming, forestry, and fishing	42	0.4
+24) Construction and extraction	71	0.7
+25) Installation, maintenance, and repair	170	1.7
+26) Precision production (such as machinist, welder, baker, printer, tailor)	127	1.2
+27) Transportation and material moving	147	1.4
+28) Armed services	33	0.3
+29) Other (Please specify)	899	8.8
+
+
+257) I-AGE
+PPAGECT4 Age - 4 Categories (for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.78	1.051
+1) 18-29	1556	15.2
+2) 30-44	2361	23.1
+3) 45-59	3105	30.3
+4) 60+	3219	31.4
+
+
+258) I-EDUC
+PPEDUCAT Education (Categorical) (for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	10241	2.904	0.979
+1) Less than high school	862	8.4
+2) High school	2855	27.9
+3) Some college	2926	28.6
+4) Bachelor's degree or higher	3598	35.1
+
+
+259) I-RACE
+PPETHM Race/Ethnicity (for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	10241	1.678	1.196
+1) White, non-Hispanic	7231	70.6
+2) Black, non-Hispanic	1009	9.9
+3) Other, non-Hispanic	402	3.9
+4) Hispanic	1263	12.3
+5) Two or more races, non-Hispanic	336	3.3
+
+
+260) I-SEX
+PPGENDER Gender (for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	10241	1.492	0.5
+1) Male	5202	50.8
+2) Female	5039	49.2
+
+
+261) I-MARITAL
+PPMARIT Marital Status (for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	10241	2.445	1.858
+1) Married	5794	56.6
+2) Widowed	485	4.7
+3) Divorced	1056	10.3
+4) Separated	165	1.6
+5) Never married	1997	19.5
+6) Living with partner	744	7.3
+
+
+262) I-RELIGION
+RELIG Religiously, do you consider yourself to be Protestant, Catholic, Jewish, Mormon, Muslim, not religious, or something else? If more than one, click the one that best describes you: (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	10171	2.709	1.351
+1) Protestant	2432	23.9
+2) Catholic	2437	24.0
+3) Just a Christian, including Mormon and Eastern Orthodox	2425	23.8
+4) Other (Jewish, Muslim, Buddhist, Hindu, Sikh, Baha'i, Jain)	1416	13.9
+5) Agnostic, atheist, or not religious/none	1461	14.4
+Missing	70
+
+

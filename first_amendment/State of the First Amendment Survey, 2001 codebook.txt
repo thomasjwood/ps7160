@@ -1,0 +1,1166 @@
+Data File: SOFA01 (Full Data Codebook)
+
+1) CASEID
+Sequential record ID
+RANGE: 1 to 1012
+	N	Mean	Std. Deviation
+Total	1012	506.5	292.284
+
+
+2) WGTEDUC
+Education category for weight
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1006	3.267	1.133
+1) Less than high school	58	5.8
+2) High school graduate	215	21.4
+3) Some college	291	28.9
+4) College graduate	284	28.2
+5) Post-graduate	158	15.7
+Missing	6
+
+
+3) WGTSEX
+Gender for weight
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1012	1.541	0.499
+1) Male	465	45.9
+2) Female	547	54.1
+
+
+4) WGTAGE
+Age category for weight
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	855	2.253	0.68
+1) 18-29	117	13.7
+2) 30-59	405	47.4
+3) 60+	333	38.9
+Missing	157
+
+
+5) WGTCLASS
+Weight Class
+RANGE: 111 to 243
+	N	Mean	Std. Deviation
+Total	994	181.106	51.069
+111) Male 18-24 Less than high school/high school grad/some college	49	4.9
+113) Male 18-24 College grad/post grad	7	0.7
+121) Male 25-44 Less than high school/high school grad	46	4.6
+122) Male 25-44 Some college	49	4.9
+123) Male 25-44 College grad/post grad	99	10.0
+131) Male 45-64 Less than high school/high school grad	38	3.8
+132) Male 45-64 Some college	41	4.1
+133) Male 45-64 College grad/post grad	74	7.4
+141) Male 65+ Less than high school/high school grad	14	1.4
+142) Male 65+ Some college	10	1.0
+143) Male 65+ College grad/post grad	30	3.0
+211) Female 18-24 Less than high school/high school grad/some college	45	4.5
+213) Female 18-24 College grad/post grad	16	1.6
+221) Female 25-44 Less than high school/high school grad	54	5.4
+222) Female 25-44 Some college	56	5.6
+223) Female 25-44 College grad/post grad	101	10.2
+231) Female 45-64 Less than high school/high school grad	49	4.9
+232) Female 45-64 Some college	49	4.9
+233) Female 45-64 College grad/post grad	82	8.2
+241) Female 65+ Less than high school/high school grad	29	2.9
+242) Female 65+ Some college	30	3.0
+243) Female 65+ College grad/post grad	26	2.6
+Missing	18
+
+
+6) WEIGHT
+Weight
+RANGE: 0.38 to 2.97
+	N	Mean	Std. Deviation
+Total	1012	1	0.555
+
+
+7) DOB
+In what year were you born?
+RANGE: 1911 to 9999
+	N	Mean	Std. Deviation
+Total	1012	2099.286	1063.697
+1911) 	1	0.1
+1912) 	1	0.1
+1916) 	1	0.1
+1918) 	6	0.6
+1919) 	1	0.1
+1920) 	4	0.4
+1921) 	4	0.4
+1922) 	6	0.6
+1923) 	1	0.1
+1924) 	2	0.2
+1925) 	4	0.4
+1926) 	4	0.4
+1927) 	9	0.9
+1928) 	14	1.4
+1929) 	6	0.6
+1930) 	12	1.2
+1931) 	12	1.2
+1932) 	12	1.2
+1933) 	11	1.1
+1934) 	10	1.0
+1935) 	8	0.8
+1936) 	10	1.0
+1937) 	5	0.5
+1938) 	16	1.6
+1939) 	18	1.8
+1940) 	9	0.9
+1941) 	11	1.1
+1942) 	15	1.5
+1943) 	18	1.8
+1944) 	14	1.4
+1945) 	13	1.3
+1946) 	13	1.3
+1947) 	17	1.7
+1948) 	17	1.7
+1949) 	20	2.0
+1950) 	23	2.3
+1951) 	14	1.4
+1952) 	15	1.5
+1953) 	30	3.0
+1954) 	20	2.0
+1955) 	22	2.2
+1956) 	23	2.3
+1957) 	15	1.5
+1958) 	26	2.6
+1959) 	26	2.6
+1960) 	24	2.4
+1961) 	30	3.0
+1962) 	21	2.1
+1963) 	19	1.9
+1964) 	31	3.1
+1965) 	17	1.7
+1966) 	12	1.2
+1967) 	28	2.8
+1968) 	15	1.5
+1969) 	11	1.1
+1970) 	22	2.2
+1971) 	18	1.8
+1972) 	22	2.2
+1973) 	28	2.8
+1974) 	15	1.5
+1975) 	11	1.1
+1976) 	14	1.4
+1977) 	22	2.2
+1978) 	17	1.7
+1979) 	15	1.5
+1980) 	15	1.5
+1981) 	19	1.9
+1982) 	24	2.4
+1983) 	5	0.5
+9999) 	18	1.8
+
+
+8) EDUC
+What was the last grade of school you completed?  Grade school or less, some high school, high school, some college, college grad, post graduate.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	5.531	7.381
+1) Grade school or less	5	0.5
+2) Some high school	53	5.2
+3) High school	215	21.2
+4) Trade school (volunteered)	18	1.8
+5) Some college	273	27.0
+6) College graduate	284	28.1
+7) Post graduate	158	15.6
+99) Don't know/ refused	6	0.6
+
+
+9) RACE
+Are you White, Black, Hispanic, Asian, or something else?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	3.428	13.963
+1) White	822	81.2
+2) Black	84	8.3
+3) Hispanic	26	2.6
+4) Asian	12	1.2
+5) Bi-Racial (volunteered)	8	0.8
+6) Other	39	3.9
+99) Don't know/ refused	21	2.1
+
+
+10) INCOME
+For classification purposes only, is the total yearly income of all the members of your family now living at home $40,000 or more, or would it be less than $40,000?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	8.183	24.391
+1) Less than $40,000	339	33.5
+2) $40,000 or more	605	59.8
+99) Don't know/Refused	68	6.7
+
+
+11) INCOME2
+And is that...
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	339	11.201	26.911
+1) Under $10,000	31	9.1
+2) $10,000 to less than $20,000	63	18.6
+3) $20,000 to less than $30,000	95	28.0
+4) $30,000 to less than $40,000	121	35.7
+99) Don't know/Refused	29	8.6
+Missing	673
+
+
+12) INCOME3
+And is that...
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	605	8.914	24.332
+1) $40,000 to less than $50,000	151	25.0
+2) $50,000 to less than $75,000	182	30.1
+3) $75,000 to less than $100,000	105	17.4
+4) $100,000 or more	126	20.8
+99) Don't know/Refused	41	6.8
+Missing	407
+
+
+13) RELIGION
+Are you Catholic, Protestant, Jewish, or some other religion?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	5.392	16.423
+1) Catholic	257	25.4
+2) Protestant	366	36.2
+3) Jewish	29	2.9
+4) Other (specify)	239	23.6
+5) None (vol)	91	9.0
+99) Don't know/Refused	30	3.0
+
+
+14) CHRSTYP
+Would you describe yourself as either a fundamentalist or evangelical Christian or would you not describe yourself that way?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	953	5.017	17.25
+1) Fundamentalist/evangelical	195	20.5
+2) Neither fundamentalist nor evangelical	664	69.7
+3) Not sure (volunteered)	63	6.6
+99) Don't know/Refused	31	3.3
+Missing	59
+
+
+15) POLVIEW
+In politics today, are you a Democrat, Republican, Independent, or what?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	3.994	13.536
+1) Democrat	364	36.0
+2) Republican	298	29.4
+3) Independent	247	24.4
+4) No preference (volunteered)	54	5.3
+5) Other (volunteered)	29	2.9
+99) Don't know/Refused	20	2.0
+
+
+16) KIDS18
+Do you have any children under the age of 18?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	2.114	6.847
+1) Yes	370	36.6
+2) No	637	62.9
+99) Don't know/Refused	5	0.5
+
+
+17) KIDS12
+(Follow-up if Yes) Do you have any children under the age of 12?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	370	1.541	5.1
+1) Yes	267	72.2
+2) No	102	27.6
+99) Don't know/Refused	1	0.3
+Missing	642
+
+
+18) KIDS6
+(Follow-up if Yes) Do you have any children under the age of 6?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	267	1.408	0.492
+1) Yes	158	59.2
+2) No	109	40.8
+99) Don't know/Refused	0	0.0
+Missing	745
+
+
+19) SEX
+Respondent's Sex
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1012	1.541	0.499
+1) Male	465	45.9
+2) Female	547	54.1
+
+
+20) GRESTRIC
+As you may know, individuals, businesses and other organizations are currently allowed to contribute as much money as they want to political parties. Would you favor or oppose new federal laws that would limit the amount of money that any individual or group can contribute to political parties? (PROBE: Is that strongly or somewhat?)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	5.313	18.034
+1) Favor strongly	532	52.6
+2) Favor somewhat	190	18.8
+3) Oppose somewhat	115	11.4
+4) Oppose strongly	139	13.7
+99) Don't know/Refused	36	3.6
+
+
+21) DOLIMIT
+Do you agree or disagree with the statement: Limiting the amount of money that individuals or groups can contribute to political parties is a violation of the First Amendment of free speech. (Probe: Is that strongly or mildly?)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	7.752	21.059
+1) Strongly agree	162	16.0
+2) Mildly agree	152	15.0
+3) Mildly disagree	258	25.5
+4) Strongly disagree	389	38.4
+99) Don't know/Refused	51	5.0
+
+
+22) NAMEPUB
+Do you agree or disagree with the statement: Political candidates should be required to both fully and immediately disclose the names of individuals and organizations that make campaign contributions in federal elections. (Probe: Is that strongly or mildly?)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	2.743	11.433
+1) Strongly agree	750	74.1
+2) Mildly agree	153	15.1
+3) Mildly disagree	46	4.5
+4) Strongly disagree	49	4.8
+99) Don't know/Refused	14	1.4
+
+
+23) LIMSPEND
+Do you agree or disagree with the statement: There should be a limit to the amount of money that political parties can spend during a federal election campaign. (Probe: Is that strongly or mildly?)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	4.301	15.72
+1) Strongly agree	616	60.9
+2) Mildly agree	151	14.9
+3) Mildly disagree	110	10.9
+4) Strongly disagree	108	10.7
+99) Don't know/Refused	27	2.7
+
+
+24) FAITHBAS
+Recently, President Bush established the Office of Faith-Based and Community Initiatives, which is encouraging Congress to allow religious groups to apply for government funding for social services such as drug and alcohol abuse counseling, mentoring, help for pregnant teens and feeding the homeless. How much, if any, have you heard about President Bush's new program?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	2.958	4.415
+1) A lot	170	16.8
+2) Some	244	24.1
+3) A little	247	24.4
+4) Nothing	349	34.5
+99) Don't know/Refused	2	0.2
+
+
+25) RELMSG
+Do you favor or oppose allowing religious groups that receive government funding to also include their own religious message along with the program?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	7.292	20.504
+1) Strongly favor	178	17.6
+2) Somewhat favor	260	25.7
+3) Somewhat oppose	174	17.2
+4) Strongly oppose	352	34.8
+99) Don't know/Refused	48	4.7
+
+
+26) RAND2
+Form type
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1012	1.487	0.5
+1) Form A	519	51.3
+2) Form B	493	48.7
+
+
+27) CHRSTAT
+As you may know, the U.S. Constitution provides for the separation of church and state. How concerned are you, if at all, that providing public funding to religious groups for social services violates that constitutional principle?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	519	4.532	13.954
+1) Very concerned	111	21.4
+2) Somewhat concerned	151	29.1
+3) Not too concerned	134	25.8
+4) Not at all concerned	112	21.6
+99) Don't know/Refused	11	2.1
+Missing	493
+
+
+28) CHRSTAT2
+As you may know, the U.S. Constitution provides for the separation of church and state. How concerned are you, if at all, that providing public funding to religious groups for social services violates that constitutional principle?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	493	3.264	8.735
+1) Very concerned	110	22.3
+2) Somewhat concerned	150	30.4
+3) Not too concerned	113	22.9
+4) Not at all concerned	116	23.5
+99) Don't know/Refused	4	0.8
+Missing	519
+
+
+29) INTPROT
+As you may know, courts have traditionally given broad First Amendment protections to books and newspapers that contain material that may be offensive to some people. Do you agree or disagree that material on the Internet should have the same First Amendment protections as printed material such as books and newspapers?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	5.214	18.049
+1) Strongly agree	541	53.5
+2) Mildly agree	247	24.4
+3) Mildly disagree	74	7.3
+4) Strongly disagree	114	11.3
+99) Don't know/Refused	36	3.6
+
+
+30) INTLIBR1
+As you may know, most public libraries have computers that visitors may use to access information on the Internet. I'm going to read you three statements that describe different policies that public libraries might adopt regarding access to Internet sites that contain material that might offend some people. Please tell me which statement comes closest to your own opinion.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	539	3.668	13.132
+1) Public libraries should block access to potentially offensive sites on all computers.	132	24.5
+2) Public libraries should block access to potentially offensive sites in computers used by children.	336	62.3
+3) Public library users should have full access to all Internet sites	61	11.3
+99) Don't know/Refused	10	1.9
+Missing	473
+
+
+31) INTLIBR2
+As you may know, most public libraries have computers that visitors may use to access information on the Internet. I'm going to read you three statements that describe different policies that public libraries might adopt regarding access to Internet sites that contain material that might offend some people. Please tell me which statement comes closest to your own opinion.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	473	3.184	11.77
+1) Public libraries should block access to potentially offensive sites on all computers.	156	33.0
+2) Public libraries should block access to potentially offensive sites in computers used by children.	273	57.7
+3) Public library users should have full access to all Internet sites	37	7.8
+99) Don't know/Refused	7	1.5
+Missing	539
+
+
+32) INTRESP
+There are currently computer programs available that allow Internet users to filter out, or prevent access to, Web sites that may be considered harmful or offensive, especially to children. Do you think parents should assume full responsibility for filtering on-line content that might be harmful or offensive, especially to children, or do you think the government should assume some of the responsibility for filtering on-line content that might be harmful or offensive, especially to children.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	2.096	8.121
+1) Parents should assume full responsibility for filtering on-line content that might be harmful or offensive, especially to children.	695	68.7
+2) The government should assume some of the responsibility for filtering on-line content that might be harmful or offensive, especially to children.	202	20.0
+3) Both (vol)	103	10.2
+4) Neither (vol)	5	0.5
+99) Don't know/Refused	7	0.7
+
+
+33) RALLY
+Any group that wants to should be allowed to hold a rally for a cause or issue even if it may be offensive to others in the community.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	4.143	14.192
+1) Strongly agree	435	43.0
+2) Mildly agree	265	26.2
+3) Mildly disagree	110	10.9
+4) Strongly disagree	180	17.8
+99) Don't know/Refused	22	2.2
+
+
+34) STUNEWS
+Public school students should be allowed to report on controversial issues in their student newspapers without the approval of school authorities.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	4.894	14.404
+1) Strongly agree	210	20.8
+2) Mildly agree	219	21.6
+3) Mildly disagree	212	20.9
+4) Strongly disagree	348	34.4
+99) Don't know/Refused	23	2.3
+
+
+35) STURELAC
+Public school students should be allowed to access Internet sites with religious information while using school computers.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	4.112	14.517
+1) Strongly agree	487	48.1
+2) Mildly agree	258	25.5
+3) Mildly disagree	95	9.4
+4) Strongly disagree	149	14.7
+99) Don't know/Refused	23	2.3
+
+
+36) STURACAC
+Public school students, while using school computers, should be allowed to access Internet sites which contain speech that might be offensive to some racial groups.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	5.766	16.621
+1) Strongly agree	171	16.9
+2) Mildly agree	239	23.6
+3) Mildly disagree	167	16.5
+4) Strongly disagree	404	39.9
+99) Don't know/Refused	31	3.1
+
+
+37) STUSEXAC
+Public school students, while using school computers, should be allowed to access Internet sites that contain educational material about sexual topics.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	4.609	15.077
+1) Strongly agree	381	37.6
+2) Mildly agree	261	25.8
+3) Mildly disagree	94	9.3
+4) Strongly disagree	251	24.8
+99) Don't know/Refused	25	2.5
+
+
+38) STUPOST
+Public schools should be allowed to discipline students who post offensive material on the Internet, even when students are posting such material on their own computers outside of school hours.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	6.852	19.22
+1) Strongly agree	214	21.1
+2) Mildly agree	129	12.7
+3) Mildly disagree	204	20.2
+4) Strongly disagree	423	41.8
+99) Don't know/Refused	42	4.2
+
+
+39) SCH1ST
+Overall, how would you rate the job the American educational system does in teaching students about the First Amendment freedoms?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	10.209	25.506
+1) Excellent	42	4.2
+2) Good	258	25.5
+3) Fair	389	38.4
+4) Poor	246	24.3
+99) Don't know/Refused	77	7.6
+
+
+40) SCHPRINC
+How would you rate the job that public schools have done promoting First Amendment principles through school activities or policies?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	10.108	25.354
+1) Excellent	32	3.2
+2) Good	264	26.1
+3) Fair	415	41.0
+4) Poor	225	22.2
+99) Don't know/Refused	76	7.5
+
+
+41) SCHSPECH
+Overall, do you think that students in public schools have too much freedom to express themselves, too little freedom to express themselves, or about the right amount of freedom to express themselves while at school?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	8.233	23.213
+1) Too much	224	22.1
+2) Too little	208	20.6
+3) Right Amount	518	51.2
+99) Don't know/Refused	62	6.1
+
+
+42) SCHRELIG
+Overall, do you think that students in public schools have too much religious freedom, too little religious freedom, or about the right amount of religious freedom while at school?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	6.624	19.712
+1) Too much	31	3.1
+2) Too little	495	48.9
+3) Right Amount	442	43.7
+99) Don't know/Refused	44	4.3
+
+
+43) SCHPRAY
+Teachers or other public school officials should be allowed to lead prayers in school.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	4.463	13.824
+1) Strongly agree	339	33.5
+2) Mildly agree	170	16.8
+3) Mildly disagree	169	16.7
+4) Strongly disagree	313	30.9
+99) Don't know/Refused	21	2.1
+
+
+44) SCHPRAY2
+Students should be allowed to lead prayers over the public address system at public school-sponsored events such as football games.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	3.715	11.36
+1) Strongly agree	376	37.2
+2) Mildly agree	166	16.4
+3) Mildly disagree	158	15.6
+4) Strongly disagree	298	29.4
+99) Don't know/Refused	14	1.4
+
+
+45) RELVIEW
+Students at public schools should be allowed to express their own religious views in a class discussion as long as their views are relevant to the topic.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	1.944	8.126
+1) Strongly agree	799	79.0
+2) Mildly agree	165	16.3
+3) Mildly disagree	19	1.9
+4) Strongly disagree	22	2.2
+99) Don't know/Refused	7	0.7
+
+
+46) RELIGMAT
+Public school students should be allowed to distribute religious materials at school.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	4.248	11.685
+1) Strongly agree	199	19.7
+2) Mildly agree	179	17.7
+3) Mildly disagree	219	21.6
+4) Strongly disagree	400	39.5
+99) Don't know/Refused	15	1.5
+
+
+47) STUPOST2
+Public school students who have personal web sites on school computers should be allowed to post material on their web sites that others may find offensive.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	6.619	17.78
+1) Strongly agree	97	9.6
+2) Mildly agree	140	13.8
+3) Mildly disagree	199	19.7
+4) Strongly disagree	540	53.4
+99) Don't know/Refused	36	3.6
+
+
+48) STUACINT
+Public school students should be allowed unfiltered access to all Web sites on school computers, even if this means that they occasionally may encounter inappropriate or offensive material.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	5.053	12.316
+1) Strongly agree	54	5.3
+2) Mildly agree	91	9.0
+3) Mildly disagree	205	20.3
+4) Strongly disagree	645	63.7
+99) Don't know/Refused	17	1.7
+
+
+49) PRSGOVT
+Newspapers should be allowed to publish freely without government approval of a story.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	3.633	13.584
+1) Strongly agree	578	57.1
+2) Mildly agree	222	21.9
+3) Mildly disagree	93	9.2
+4) Strongly disagree	99	9.8
+99) Don't know/Refused	20	2.0
+
+
+50) POLPAP1
+Newspapers should be allowed to endorse candidates for public office.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	4.412	14.157
+1) Strongly agree	339	33.5
+2) Mildly agree	274	27.1
+3) Mildly disagree	108	10.7
+4) Strongly disagree	269	26.6
+99) Don't know/Refused	22	2.2
+
+
+51) POLPAP2
+Newspapers should be allowed to criticize public officials.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	2.106	6.896
+1) Strongly agree	626	61.9
+2) Mildly agree	221	21.8
+3) Mildly disagree	72	7.1
+4) Strongly disagree	88	8.7
+99) Don't know/Refused	5	0.5
+
+
+52) PREDWIN
+Television networks should be allowed to project winners of an election while people are still voting.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	3.954	7.411
+1) Strongly agree	92	9.1
+2) Mildly agree	105	10.4
+3) Mildly disagree	131	12.9
+4) Strongly disagree	678	67.0
+99) Don't know/Refused	6	0.6
+
+
+53) EFPRDWIN
+If a news report projected the winner of an election while people were still voting, how do you think this would affect people who had not yet voted?  Do you think they would be more likely to vote, less likely to vote, or do you think it would not affect their decision to vote?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	7.603	22.554
+1) More likely	130	12.8
+2) Less Likely	650	64.2
+3) No effect	174	17.2
+99) Don't know/Refused	58	5.7
+
+
+54) RSTVOTPR
+Do you favor or oppose a law that restricts news organizations from projecting the winner of a presidential election while people are still voting? (PROBE: Is that strongly or somewhat?)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	4.907	15.632
+1) Strongly favor	367	36.3
+2) Somewhat favor	176	17.4
+3) Somewhat oppose	194	19.2
+4) Strongly oppose	248	24.5
+99) Don't know/Refused	27	2.7
+
+
+55) MEDIACHK
+How important, if at all, do you think it is for the government to hold the media in check?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	4.557	14.763
+1) Very important	244	24.1
+2) Somewhat important	434	42.9
+3) Not too important	116	11.5
+4) Not important at all	194	19.2
+99) Don't know/Refused	24	2.4
+
+
+56) GOVTSCHK
+How important, if at all, do you think it is for the media to hold the government in check?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	4.884	17.31
+1) Very important	495	48.9
+2) Somewhat important	343	33.9
+3) Not too import	69	6.8
+4) Not important at all	72	7.1
+99) Don't know/Refused	33	3.3
+
+
+57) PRSFREE
+Some people believe that the media has too much freedom to publish whatever it wants. Others believe there is too much government censorship. Which of these beliefs lies closest to your own?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	6.466	20.677
+1) There is too much media freedom	408	40.3
+2) There is too much government censorship	350	34.6
+3) Neither (vol)	140	13.8
+4) Both (vol)	66	6.5
+99) Don't know/Refused	48	4.7
+
+
+58) COLNEWS1
+Do you favor or oppose allowing student newspapers at public colleges to report on controversial subjects without the approval of school authorities.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	6.492	19.996
+1) Strongly favor	362	35.8
+2) Somewhat favor	244	24.1
+3) Somewhat oppose	179	17.7
+4) Strongly oppose	182	18.0
+99) Don't know/Refused	45	4.4
+
+
+59) COLNEWS2
+Do you favor or oppose allowing student newspapers at public colleges to publish advertisements discussing controversial subjects, even if substantial numbers of students might be offended?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	7.704	22.34
+1) Strongly favor	293	29.0
+2) Somewhat favor	295	29.2
+3) Somewhat oppose	198	19.6
+4) Strongly oppose	169	16.7
+99) Don't know/Refused	57	5.6
+
+
+60) COURTV
+Broadcasters should be allowed to televise the proceedings of the U.S. Supreme Court.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	3.49	12.897
+1) Strongly agree	543	53.7
+2) Mildly agree	251	24.8
+3) Mildly disagree	95	9.4
+4) Strongly disagree	105	10.4
+99) Don't know/Refused	18	1.8
+
+
+61) FLAGBRN
+Some people feel that the U.S. Constitution should be amended to make it illegal to burn or desecrate the American flag as a form of political dissent. Others say that the U.S. Constitution should not be amended to specifically prohibit flag burning or desecration. Do you think the U.S. Constitution should or should not be amended to prohibit burning or desecrating the American Flag?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	3.208	13.266
+1) Should not	620	61.3
+2) Should	373	36.9
+99) Don't know/Refused	19	1.9
+
+
+62) HISFLBRN
+If "should": If an amendment prohibiting burning or desecrating the flag were approved, it would be the first time any of the freedoms in the First Amendment have been amended in over 200 years. Knowing this, would you still support an amendment to prohibit burning or desecrating the flag?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	373	5.078	19.254
+1) Yes	307	82.3
+2) No	51	13.7
+99) Don't know/Refused	15	4.0
+Missing	639
+
+
+63) UNPOPOP
+People should be allowed to express unpopular opinions.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	1.853	7.529
+1) Strongly agree	787	77.8
+2) Mildly agree	180	17.8
+3) Mildly disagree	22	2.2
+4) Strongly disagree	17	1.7
+99) Don't know/Refused	6	0.6
+
+
+64) OFFSPCH
+People should be allowed to say things in public that might be offensive to religious groups.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	4.482	13.817
+1) Strongly agree	286	28.3
+2) Mildly agree	246	24.3
+3) Mildly disagree	157	15.5
+4) Strongly disagree	302	29.8
+99) Don't know/Refused	21	2.1
+
+
+65) OFFSONG
+Musicians should be allowed to sing songs with lyrics that others might find offensive.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	4.298	14.172
+1) Strongly agree	373	36.9
+2) Mildly agree	290	28.7
+3) Mildly disagree	89	8.8
+4) Strongly disagree	238	23.5
+99) Don't know/Refused	22	2.2
+
+
+66) FLGBRN2
+People should be allowed to burn or deface the American flag as a political statement.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	3.7	7.458
+1) Strongly agree	165	16.3
+2) Mildly agree	154	15.2
+3) Mildly disagree	71	7.0
+4) Strongly disagree	616	60.9
+99) Don't know/Refused	6	0.6
+
+
+67) RACSPCH
+People should be allowed to say things in public that might be offensive to racial groups.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	4.51	12.413
+1) Strongly agree	183	18.1
+2) Mildly agree	204	20.2
+3) Mildly disagree	142	14.0
+4) Strongly disagree	466	46.0
+99) Don't know/Refused	17	1.7
+
+
+68) FAVOPRAC
+Would you favor or oppose a law that would make it illegal for people to say things in public that are offensive to racial groups?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	5.602	19.207
+1) Favor	332	32.8
+2) Oppose	639	63.1
+99) Don't know/Refused	41	4.1
+
+
+69) OFFART
+People should be allowed to display in a public place art that has content that might be offensive to others.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	5.781	17.69
+1) Strongly agree	268	26.5
+2) Mildly agree	282	27.9
+3) Mildly disagree	155	15.3
+4) Strongly disagree	272	26.9
+99) Don't know/Refused	35	3.5
+
+
+70) OFFSONG2
+Musicians should be allowed to sing songs in publicly-owned auditoriums even if the songs may offend some members of the community.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	4.756	15.353
+1) Strongly agree	324	32.0
+2) Mildly agree	300	29.6
+3) Mildly disagree	133	13.1
+4) Strongly disagree	229	22.6
+99) Don't know/Refused	26	2.6
+
+
+71) OFFLYRC
+Compact discs which contain content that may offend some members of the community should not be sold to persons under the age of 18.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	3.955	14.853
+1) Strongly agree	632	62.5
+2) Mildly agree	163	16.1
+3) Mildly disagree	104	10.3
+4) Strongly disagree	89	8.8
+99) Don't know/Refused	24	2.4
+
+
+72) SPECRTS
+As you may know the First Amendment is part of the U.S. constitution. Can you name any of the specific rights that are guaranteed by the First Amendment? (PROBE: Are there any others you can name?)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	31.639	44.484
+1) Freedom of the press	55	5.4
+2) Freedom of speech	564	55.7
+3) Freedom of religion	20	2.0
+4) Right to petition	1	0.1
+5) Right of assembly/association	11	1.1
+6) Other (specify)	54	5.3
+99) Don't know/Refused	307	30.3
+
+
+73) SPECRTS2
+As you may know the First Amendment is part of the U.S. constitution. Can you name any of the specific rights that are guaranteed by the First Amendment? (PROBE: Are there any others you can name?)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	439	15.49	32.009
+1) Freedom of the press	69	15.7
+2) Freedom of speech	70	15.9
+3) Freedom of religion	114	26.0
+4) Right to petition	4	0.9
+5) Right of assembly/association	67	15.3
+6) Other (specify)	59	13.4
+99) Don't know/Refused	56	12.8
+Missing	573
+
+
+74) SPECRTS3
+As you may know the First Amendment is part of the U.S. constitution. Can you name any of the specific rights that are guaranteed by the First Amendment? (PROBE: Are there any others you can name?)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	193	22.264	38.125
+1) Freedom of the press	32	16.6
+2) Freedom of speech	13	6.7
+3) Freedom of religion	46	23.8
+4) Right to petition	3	1.6
+5) Right of assembly/association	39	20.2
+6) Other (specify)	22	11.4
+99) Don't know/Refused	38	19.7
+Missing	819
+
+
+75) SPECRTS4
+As you may know the First Amendment is part of the U.S. constitution. Can you name any of the specific rights that are guaranteed by the First Amendment? (PROBE: Are there any others you can name?)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	60	29.35	42.374
+1) Freedom of the press	5	8.3
+2) Freedom of speech	1	1.7
+3) Freedom of religion	9	15.0
+4) Right to petition	8	13.3
+5) Right of assembly/association	15	25.0
+6) Other (specify)	6	10.0
+99) Don't know/Refused	16	26.7
+Missing	952
+
+
+76) SPECRTS5
+As you may know the First Amendment is part of the U.S. constitution. Can you name any of the specific rights that are guaranteed by the First Amendment? (PROBE: Are there any others you can name?)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	11	38.545	47.944
+1) Freedom of the press	1	9.1
+3) Freedom of religion	1	9.1
+4) Right to petition	1	9.1
+5) Right of assembly/association	4	36.4
+99) Don't know/Refused	4	36.4
+Missing	1001
+
+
+77) SPECRTS6
+As you may know the First Amendment is part of the U.S. constitution. Can you name any of the specific rights that are guaranteed by the First Amendment? (PROBE: Are there any others you can name?)
+RANGE: 6 to 99
+	N	Mean	Std. Deviation
+Total	2	52.5	65.761
+6) Other (specify)	1	50.0
+99) Don't know/Refused	1	50.0
+Missing	1010
+
+
+78) FSTOOFAR
+The First Amendment became part of the U.S. Constitution more than 200 years ago. This is what it says: "Congress shall make no law respecting an establishment of religion or prohibiting the free exercise thereof; or of abridging the freedom of speech, or of the press, or the right of the people peaceably to assemble, and to petition the government for a redress of grievances." Based on your own feelings about the First Amendment, please tell me whether you agree or disagree with the following statement: The First Amendment goes too far in the rights it guarantees. (PROBE: Do you agree/disagree strongly or mildly?)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	5.397	15.554
+1) Strongly agree	263	26.0
+2) Mildly agree	86	8.5
+3) Mildly disagree	190	18.8
+4) Strongly disagree	446	44.1
+99) Don't know/Refused	27	2.7
+
+
+79) AMERPRS
+Even though the U.S. Constitution guarantees freedom of the press, government has placed some restrictions on it. Overall, do you think Americans have too much press freedom, too little press freedom, or is the amount of press freedom in America about right?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	4.642	15.357
+1) Too much freedom	355	35.1
+2) Too little freedom	124	12.3
+3) Right amount of freedom	507	50.1
+99) Don't know/Refused	26	2.6
+
+
+80) RSTRPRS
+Overall, do you think the press in America has too much freedom to do what it wants, too little freedom to do what it wants, or is the amount of freedom the press has about right?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	4.798	16.216
+1) Too much freedom	442	43.7
+2) Too little freedom	80	7.9
+3) Right amount of freedom	461	45.6
+99) Don't know/Refused	29	2.9
+
+
+81) RSTSPCH
+Even though the U.S. Constitution guarantees freedom of speech, government has placed some restrictions on it. Overall, do you think Americans have too much freedom to speak freely, too little freedom to speak freely, or is the amount of freedom to speak freely about right?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	4.061	12.059
+1) Too much freedom	115	11.4
+2) Too little freedom	232	22.9
+3) Right amount of freedom	649	64.1
+99) Don't know/Refused	16	1.6
+
+
+82) RSTFRREL
+Even though the U.S. Constitution guarantees freedom of religion, government has placed some restrictions on it. Overall, do you think Americans have too much religious freedom, too little religious freedom, or is the amount of religious freedom about right?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	4.127	12.044
+1) Too much freedom	40	4.0
+2) Too little freedom	315	31.1
+3) Right amount of freedom	641	63.3
+99) Don't know/Refused	16	1.6
+
+
+83) RTOBURN
+To the best of your knowledge, under current law, do Americans have the legal right to burn the American flag as a means of political protest? Yes or no?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1012	4.999	18.069
+1) Yes	457	45.2
+2) No	519	51.3
+99) Don't know/Refused	36	3.6
+
+
+84) TIMEZ
+Time zone
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1012	2.061	0.947
+1) Central	284	28.1
+2) Eastern	522	51.6
+3) Mountain	66	6.5
+4) Pacific	140	13.8
+
+
+85) REG
+Region
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1012	2.563	1.024
+1) North East	202	20.0
+2) North Central	242	23.9
+3) South	364	36.0
+4) West	204	20.2
+
+
+86) TZONE
+Time zone
+RANGE: 3 to 6
+	N	Mean	Std. Deviation
+Total	1012	3.815	1.054
+1) Newfoundland2) Atlantic
+3) Eastern	532	52.6
+4) Central	275	27.2
+5) Mountain	65	6.4
+6) Pacific	140	13.8
+
+
+87) I-GENDER
+Respondent's Sex (for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1012	1.541	0.499
+1) Male	465	45.9
+2) Female	547	54.1
+
+
+88) I-RACE
+Are you White, Black, Hispanic, Asian, or something else? (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	991	1.363	0.963
+1) White	822	82.9
+2) Black	84	8.5
+3) Hispanic	26	2.6
+4) Asian	12	1.2
+5) Other	47	4.7
+Missing	21
+
+
+89) I-INCOME
+For classification purposes only, is the total yearly income of all the members of your family now living at home $40,000 or more, or would it be less than $40,000? (Recoded for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	944	1.641	0.48
+1) Less than $40,000	339	35.9
+2) $40,000 or more	605	64.1
+Missing	68
+
+
+90) I-REGION
+Region (for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1012	2.563	1.024
+1) North East	202	20.0
+2) North Central	242	23.9
+3) South	364	36.0
+4) West	204	20.2
+
+
+91) I-RELIGION
+Are you Catholic, Protestant, Jewish, or some other religion? (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1012	2.635	1.452
+1) Catholic	257	25.4
+2) Protestant	366	36.2
+3) Jewish	29	2.9
+4) Other (specify)	239	23.6
+5) None	91	9.0
+6) Don't know/Refused	30	3.0
+
+
+92) I-EDUC
+What was the last grade of school you completed?  Grade school or less, some high school, high school, some college, college grad, post graduate. (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1006	3.267	1.133
+1) Less than high school	58	5.8
+2) High school graduate	215	21.4
+3) Some college/trade school	291	28.9
+4) College graduate	284	28.2
+5) Post-graduate	158	15.7
+Missing	6
+
+

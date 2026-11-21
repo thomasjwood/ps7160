@@ -1,0 +1,7181 @@
+Data File: NESSP2020 (Full Data Codebook)
+
+1) VERSION
+Dataset version
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	5750	0	0
+
+
+2) CASEID
+Case ID
+RANGE: 1 to 5830
+	N	Mean	Std. Deviation
+Total	5750	2914.703	1682.344
+
+
+3) W2QUAL
+Post-election (W2) case qualification/completion status
+RANGE: -6 to 9
+	N	Mean	Std. Deviation
+Total	5750	0.56	1.993
+-6) Unit nonresponse	421	7.3
+1) Qualified complete	5277	91.8
+9) Invalid complete	52	0.9
+
+
+4) WEIGHT_PRE
+PRE: poststratified (final) weight, pre-election
+RANGE: 0.087323468 to 3.575563245
+	N	Mean	Std. Deviation
+Total	5750	1	0.719
+
+
+5) WEIGHT_PRE_NR
+PRE: interim weight, not post-stratified, pre-election
+RANGE: 220.0627756 to 812946.8356
+	N	Mean	Std. Deviation
+Total	5750	43423.158	52847.919
+
+
+6) WEIGHT_PRE_SPSS
+PRE: weight for frequency weights (scaled by design effect), pre-election
+RANGE: 0.0575636301056 to 2.357011291104
+	N	Mean	Std. Deviation
+Total	5750	0.659	0.474
+
+
+7) WEIGHT_POST
+POST: poststratified (final) weight, post-election
+RANGE: 0.091291644 to 11.8554809
+	N	Mean	Std. Deviation
+Total	5277	1	0.86
+
+
+8) WEIGHT_POST_NR
+POST: interim weight, not post-stratified, post-election
+RANGE: 3727.415659 to 486700.7989
+	N	Mean	Std. Deviation
+Total	5277	42825.252	36520.349
+
+
+9) WEIGHT_POST_SPSS
+POST: weight for frequency weights (scaled by design effect), post-election
+RANGE: 0.0524653078068 to 6.81334487323
+	N	Mean	Std. Deviation
+Total	5277	0.575	0.494
+
+
+10) PROFILE_GENDER
+Respondent gender
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	5750	1.495	0.5
+1) Male	2905	50.5
+2) Female	2845	49.5
+
+
+11) PROFILE_AGE
+Continuous age till 80, then combined to form '80+'
+RANGE: 18 to 80
+	N	Mean	Std. Deviation
+Total	5750	50.496	16.882
+18) 	14	0.2
+19) 	36	0.6
+20) 	30	0.5
+21) 	34	0.6
+22) 	42	0.7
+23) 	62	1.1
+24) 	71	1.2
+25) 	68	1.2
+26) 	73	1.3
+27) 	96	1.7
+28) 	96	1.7
+29) 	78	1.4
+30) 	102	1.8
+31) 	117	2.0
+32) 	121	2.1
+33) 	115	2.0
+34) 	138	2.4
+35) 	122	2.1
+36) 	117	2.0
+37) 	119	2.1
+38) 	117	2.0
+39) 	114	2.0
+40) 	108	1.9
+41) 	92	1.6
+42) 	104	1.8
+43) 	118	2.1
+44) 	91	1.6
+45) 	80	1.4
+46) 	79	1.4
+47) 	78	1.4
+48) 	77	1.3
+49) 	72	1.3
+50) 	72	1.3
+51) 	66	1.1
+52) 	76	1.3
+53) 	92	1.6
+54) 	80	1.4
+55) 	110	1.9
+56) 	104	1.8
+57) 	104	1.8
+58) 	91	1.6
+59) 	105	1.8
+60) 	121	2.1
+61) 	110	1.9
+62) 	128	2.2
+63) 	116	2.0
+64) 	131	2.3
+65) 	104	1.8
+66) 	99	1.7
+67) 	97	1.7
+68) 	108	1.9
+69) 	112	1.9
+70) 	104	1.8
+71) 	101	1.8
+72) 	109	1.9
+73) 	106	1.8
+74) 	77	1.3
+75) 	57	1.0
+76) 	66	1.1
+77) 	55	1.0
+78) 	49	0.9
+79) 	34	0.6
+80) 80 or older	185	3.2
+
+
+12) PROFILE_RACETHNICITY
+Combined Race/Ethnicity
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	5750	1.636	1.07
+1) White, non-Hispanic	3983	69.3
+2) Black, non-Hispanic	611	10.6
+3) Other, non-Hispanic (includes 2+ and Asian NH as defined for RACETHNICITY)	420	7.3
+4) Hispanic	736	12.8
+
+
+13) PROFILE_EDUC5
+5-level education
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.397	1.058
+1) Less than high school	217	3.8
+2) High school graduate or equivalent	824	14.3
+3) Vocational/tech school/some college/associates	2219	38.6
+4) Bachelor's degree	1438	25.0
+5) Post-graduate study/professional degree	1052	18.3
+
+
+14) PROFILE_MARITAL
+Marital status
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	5750	2.549	1.871
+1) Married	3092	53.8
+2) Widowed	223	3.9
+3) Divorced	663	11.5
+4) Separated	132	2.3
+5) Never married	1236	21.5
+6) Living with partner	404	7.0
+
+
+15) PROFILE_EMPLOY
+Current Employment Status
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	5750	2.791	2.145
+1) Working - as a paid employee	2978	51.8
+2) Working - self-employed	503	8.7
+3) Not working - on temporary layoff from a job	42	0.7
+4) Not working - looking for work	281	4.9
+5) Not working - retired	1256	21.8
+6) Not working - disabled	294	5.1
+7) Not working - other	396	6.9
+
+
+16) PROFILE_INCOME
+Household Income
+RANGE: 1 to 18
+	N	Mean	Std. Deviation
+Total	5750	10.363	4.208
+1) Less than $5,000	115	2.0
+2) $5,000 to $9,999	114	2.0
+3) $10,000 to $14,999	190	3.3
+4) $15,000 to $19,999	221	3.8
+5) $20,000 to $24,999	269	4.7
+6) $25,000 to $29,999	278	4.8
+7) $30,000 to $34,999	290	5.0
+8) $35,000 to $39,999	240	4.2
+9) $40,000 to $49,999	512	8.9
+10) $50,000 to $59,999	510	8.9
+11) $60,000 to $74,999	645	11.2
+12) $75,000 to $84,999	287	5.0
+13) $85,000 to $99,999	591	10.3
+14) $100,000 to $124,999	570	9.9
+15) $125,000 to $149,999	361	6.3
+16) $150,000 to $174,999	199	3.5
+17) $175,000 to $199,999	126	2.2
+18) $200,000 or more	232	4.0
+
+
+17) PROFILE_STATE
+State
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	5750	0	0
+
+
+18) PROFILE_REGION4
+4-level region
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	5750	2.671	1.039
+1) Northeast	934	16.2
+2) Midwest	1559	27.1
+3) South	1724	30.0
+4) West	1533	26.7
+
+
+19) PROFILE_REGION9
+9-level-region
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5750	5.23	2.565
+1) New England	299	5.2
+2) Mid-Atlantic	635	11.0
+3) East North Central	994	17.3
+4) West North Central	565	9.8
+5) South Atlantic	858	14.9
+6) East South Central	330	5.7
+7) West South Central	536	9.3
+8) Mountain	560	9.7
+9) Pacific	973	16.9
+
+
+20) PROFILE_METRO
+Metropolitan area flag
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	5750	0.831	0.375
+0) Non-metro Area	970	16.9
+1) Metro area	4780	83.1
+
+
+21) PROFILE_INTERNET
+HH internet access via dial-up, DSL, or cable broadband at home
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	5750	0.903	0.297
+0) Non-internet household	560	9.7
+1) Internet household	5190	90.3
+
+
+22) PROFILE_HOUSING
+Home ownership
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	5750	1.348	0.526
+1) Owned or being bought by you or someone in your household	3890	67.7
+2) Rented for cash	1717	29.9
+3) Occupied without payment of cash rent	143	2.5
+
+
+23) PROFILE_HOME_TYPE
+Type of building of panelists' residence
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	5750	1.611	0.939
+1) A one-family house detached from any other house	3870	67.3
+2) A one-family house attached to one or more houses	462	8.0
+3) A building with 2 or more apartments	1202	20.9
+4) A mobile home or trailer, Boat, RV, van, etc.	216	3.8
+
+
+24) PROFILE_PHONESERVICE
+Telephone service for the household
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.231	0.988
+1) Landline telephone only	250	4.3
+2) Have a landline, but mostly use cellphone	1496	26.0
+3) Have a cellphone, but mostly use landline	729	12.7
+4) Cellphone only	3225	56.1
+5) No telephone service	50	0.9
+
+
+25) PROFILE_HHSIZE
+Household size (including children)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	5750	2.977	1.601
+1) 	973	16.9
+2) 	1955	34.0
+3) 	913	15.9
+4) 	751	13.1
+5) 	455	7.9
+6) 	703	12.2
+
+
+26) PROFILE_HH01
+Number of HH members age 0-1
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	5750	0.006	0.079
+0) Zero	5714	99.4
+1) One or more	36	0.6
+
+
+27) PROFILE_HH25
+Number of HH members age 2-5
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5750	0.129	0.449
+0) Zero	5228	90.9
+1) One	338	5.9
+2) Two	148	2.6
+3) Three or more	36	0.6
+
+
+28) PROFILE_HH612
+Number of HH members age 6-12
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	5750	0.264	0.743
+0) Zero	4922	85.6
+1) One	384	6.7
+2) Two	298	5.2
+3) Three	48	0.8
+4) Four or more	98	1.7
+
+
+29) PROFILE_HH1317
+Number of HH members age 13-17
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	5750	0.202	0.621
+0) Zero	5049	87.8
+1) One	372	6.5
+2) Two	242	4.2
+3) Three	40	0.7
+4) Four or more	47	0.8
+
+
+30) PROFILE_HH18OV
+Number of HH members age 18+
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	5750	2.082	0.972
+1) One	1798	31.3
+2) Two	2379	41.4
+3) Three	874	15.2
+4) Four or more	699	12.2
+
+
+31) PROFILE_GENHEALTH
+Would you say that in general your health is excellent, very good, good, fair, or poor?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.428	1.014
+-7) No answer	2	0.0
+-1) Inapplicable, legitimate skip	10	0.2
+1) Excellent	141	2.5
+2) Very good	800	13.9
+3) Good	2013	35.0
+4) Fair	1964	34.2
+5) Poor	820	14.3
+
+
+32) PROFILE_VETERAN
+Have you ever served on active duty in the U.S. armed forces, military reserves, or National Guard?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	1.879	0.352
+-7) No answer	1	0.0
+-1) Inapplicable, legitimate skip	5	0.1
+1) Yes	672	11.7
+2) No	5072	88.2
+
+
+33) PROFILE_LGBT
+Which of the following best represents how you think of yourself?
+RANGE: -7 to 77
+	N	Mean	Std. Deviation
+Total	5750	2.121	2.832
+-7) No answer	4	0.1
+-1) Inapplicable, legitimate skip	17	0.3
+1) Gay; Lesbian or gay	167	2.9
+2) Straight, that is not gay; Straight, that is, not lesbian or gay	5284	91.9
+3) Bisexual	205	3.6
+4) Something else	51	0.9
+5) I don't know the answer	14	0.2
+77) I don't know the answer You don't know the answer	8	0.1
+
+
+34) PROFILE_RELIG
+What is your present religion, if any?
+RANGE: -7 to 14
+	N	Mean	Std. Deviation
+Total	5750	6.706	5.206
+-7) No answer	1	0.0
+-1) Inapplicable, legitimate skip	16	0.3
+1) Protestant (Baptist, Lutheran, Methodist, non-denominational, etc.)	1610	28.0
+2) Roman Catholic	1118	19.4
+9) Atheist (do not believe in God)	310	5.4
+10) Agnostic (not sure if there is a god)	348	6.1
+11) Nothing in particular	849	14.8
+12) Just Christian	923	16.1
+14) Other (Eastern Orthodox, Hindu, Jewish, Mormon, Muslim, etc.)	575	10.0
+
+
+35) PROFILE_BORN
+Would you describe yourself as a 'born-again' or evangelical Christian, or not?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	0.811	1.293
+-7) No answer	1	0.0
+-1) Inapplicable, legitimate skip	1805	31.4
+1) Yes	1415	24.6
+2) No	2529	44.0
+
+
+36) PROFILE_LANG_OTHER1
+Do you speak a language other than English at home?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	1.735	0.723
+-7) No answer	12	0.2
+-1) Inapplicable, legitimate skip	170	3.0
+1) Yes	908	15.8
+2) No	4660	81.0
+
+
+37) PROFILE_NEWSTV
+Do you happen to watch any TV news program regularly?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	1.305	0.704
+-7) No answer	13	0.2
+-1) Inapplicable, legitimate skip	115	2.0
+1) Yes	3532	61.4
+2) No	2090	36.3
+
+
+38) PROFILE_NEWSRADIO
+Do you listen to news on the radio regularly?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	1.513	0.756
+-7) No answer	16	0.3
+-1) Inapplicable, legitimate skip	116	2.0
+1) Yes	2308	40.1
+2) No	3310	57.6
+
+
+39) PROFILE_NEWSONLINE
+Did you get any news online yesterday?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	1.218	0.646
+-7) No answer	10	0.2
+-1) Inapplicable, legitimate skip	116	2.0
+1) Yes	4057	70.6
+2) No	1567	27.3
+
+
+40) PROFILE_NEWSMOBILE
+Did you get any news on a smartphone, cell phone, tablet or other mobile handheld device yesterday?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	1.257	0.654
+-7) No answer	9	0.2
+-1) Inapplicable, legitimate skip	119	2.1
+1) Yes	3834	66.7
+2) No	1788	31.1
+
+
+41) PROFILE_NEWSKEEPUP
+How much do you enjoy keeping up with the news? Is that a lot, some, not much or not at all?
+RANGE: -7 to 4
+	N	Mean	Std. Deviation
+Total	5750	1.763	0.957
+-7) No answer	4	0.1
+-1) Inapplicable, legitimate skip	120	2.1
+1) A lot	2297	39.9
+2) Some	2278	39.6
+3) Not much	771	13.4
+4) Not at all	280	4.9
+
+
+42) PROFILE_SOCMEDIA1_T
+[Twitter] Have you ever used...
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	1.678	0.628
+-7) No answer	11	0.2
+-1) Inapplicable, legitimate skip	36	0.6
+1) Yes	1647	28.6
+2) No	4056	70.5
+
+
+43) PROFILE_SOCMEDIA1_F
+[Facebook] Have you ever used...
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	1.286	0.534
+-7) No answer	4	0.1
+-1) Inapplicable, legitimate skip	30	0.5
+1) Yes	3981	69.2
+2) No	1735	30.2
+
+
+44) PROFILE_SOCMEDIA1_I
+[Instagram] Have you ever used...
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	1.587	0.656
+-7) No answer	12	0.2
+-1) Inapplicable, legitimate skip	36	0.6
+1) Yes	2158	37.5
+2) No	3544	61.6
+
+
+45) PROFILE_SOCMEDIA1_S
+[Snapchat] Have you ever used...
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	1.708	0.597
+-7) No answer	9	0.2
+-1) Inapplicable, legitimate skip	35	0.6
+1) Yes	1493	26.0
+2) No	4213	73.3
+
+
+46) PROFILE_SOCMEDIA2_T
+[Twitter] Do you currently use...
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	-0.35	1.131
+-7) No answer	8	0.1
+-1) Inapplicable, legitimate skip	4168	72.5
+1) Yes	935	16.3
+2) No	639	11.1
+
+
+47) PROFILE_SOCMEDIA2_F
+[Facebook] Do you currently use...
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	0.408	1.104
+-7) No answer	12	0.2
+-1) Inapplicable, legitimate skip	1928	33.5
+1) Yes	3262	56.7
+2) No	548	9.5
+
+
+48) PROFILE_SOCMEDIA2_I
+[Instagram] Do you currently use...
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	-0.225	1.131
+-7) No answer	13	0.2
+-1) Inapplicable, legitimate skip	3682	64.0
+1) Yes	1633	28.4
+2) No	422	7.3
+
+
+49) PROFILE_SOCMEDIA2_S
+[Snapchat] Do you currently use...
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	-0.429	1.073
+-7) No answer	8	0.1
+-1) Inapplicable, legitimate skip	4336	75.4
+1) Yes	889	15.5
+2) No	517	9.0
+
+
+50) PROFILE_HL032
+Are you now covered by any form of health insurance or health plan?
+RANGE: -1 to 2
+	N	Mean	Std. Deviation
+Total	5750	1.039	0.38
+-1) Inapplicable, legitimate skip	102	1.8
+1) Yes	5218	90.7
+2) No	430	7.5
+
+
+51) W1CONGDIST
+Congressional District, pre-election
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	5750	0	0
+
+
+52) W2CONGDIST
+Congressional District, post-election
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	5750	0	0
+
+
+53) START
+Pre-election questionnaire starting date and time, YYYYMMDDHHMMSS
+RANGE: 20200820152151 to 20200917120245
+	N	Mean	Std. Deviation
+Total	5750	20200842013073.4	36361880.695
+
+
+54) END
+Pre-election questionnaire ending date and time, YYYYMMDDHHMMSS
+RANGE: 20200820153600 to 20200917122400
+	N	Mean	Std. Deviation
+Total	5750	20200844453023	37554545.408
+
+
+55) DURATION
+Time spent in survey, in minutes
+RANGE: 8 to 206
+	N	Mean	Std. Deviation
+Total	5750	26.872	14.579
+
+
+56) SURV_MODE
+Survey interview mode (online or phone)
+RANGE: 2 to 2
+	N	Mean	Std. Deviation
+Total	5750	2	0
+2) Web Interview	5750	100.0
+
+
+57) SURV_LANG
+Survey Interview Language
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	5750	1	0
+1) English	5750	100.0
+
+
+58) DEVICE
+Device
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	5750	0	0
+
+
+59) P_RAND_CONSENT
+DATA ONLY VARIABLE: Random assignment of Facebook consent
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	5750	1.509	0.5
+1) Consent first	2826	49.1
+2) Consent last	2924	50.9
+
+
+60) P_RAND_16
+DATA ONLY VARIABLE: Random assignment of RAND_16
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	5750	1.501	0.5
+1) 	2868	49.9
+2) 	2882	50.1
+
+
+61) P_DEMOCRAT1
+DATA ONLY VARIABLE: Joe Biden
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	5750	0	0
+
+
+62) P_DEMOCRAT2
+DATA ONLY VARIABLE: Bernie Sanders
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	5750	0	0
+
+
+63) P_RAND_EMOTION
+DATA ONLY VARIABLE: Random assignment of RAND_EMOTION
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	5750	0.498	0.5
+0) 	2885	50.2
+1) 	2865	49.8
+
+
+64) P_RAND_LIBCON
+DATA ONLY VARIABLE: Random assignment of RAND_LIBCON
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	5750	0.507	0.5
+0) 	2832	49.3
+1) 	2918	50.7
+
+
+65) P_RAND_PID
+DATA ONLY VARIABLE: Random assignment of RAND_PID
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	5750	1.497	0.5
+1) 	2894	50.3
+2) 	2856	49.7
+
+
+66) P_RAND_STEREO
+DATA ONLY VARIABLE: Random assignment of RAND_STEREO
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	5750	0.501	0.5
+0) 	2869	49.9
+1) 	2881	50.1
+
+
+67) P_RAND_PK
+DATA ONLY VARIABLE: Random assignment of RAND_PK
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	5750	1.494	0.5
+1) 	2907	50.6
+2) 	2843	49.4
+
+
+68) P_RAND_IMPEACH
+DATA ONLY VARIABLE: Random assignment of RAND_IMPEACH
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	5750	0.513	0.5
+0) 	2798	48.7
+1) 	2952	51.3
+
+
+69) FBUSER
+Do you have a Facebook account that you have used in the past month, a Facebook account that you have not used in the past month, or do you not have a Facebook account?
+RANGE: -7 to 3
+	N	Mean	Std. Deviation
+Total	5750	1.635	0.931
+-7) No answer	6	0.1
+1) Have a Facebook account I have used in the past month	3650	63.5
+2) Have a Facebook account but have not used in the past month	486	8.5
+3) Do not have a Facebook account	1608	28.0
+
+
+70) TOTAL_TIME_FBUSER
+[TOTAL TIME] Time spent on FBUSER
+RANGE: 1 to 1176
+	N	Mean	Std. Deviation
+Total	5750	10.725	26.409
+
+
+71) FBCONSENT2
+Do you agree to share this information?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	-0.194	1.16
+-7) No answer	3	0.1
+-1) Inapplicable, legitimate skip	3765	65.5
+1) Yes, I agree to allow Facebook to share this information	1296	22.5
+2) No, I do not agree	686	11.9
+
+
+72) TOTAL_TIME_CONSENT
+[TOTAL TIME] Total time spent on FBCONSENT1 to FBCONSENT3
+RANGE: -1 to 77802
+	N	Mean	Std. Deviation
+Total	5750	378.581	3303.453
+
+
+73) FBCONSENT2_2
+Do you agree to share this information?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	-0.055	1.283
+-7) No answer	3	0.1
+-1) Inapplicable, legitimate skip	3620	63.0
+1) Yes, I agree to allow Facebook to share this information	929	16.2
+2) No, I do not agree	1198	20.8
+
+
+74) TOTAL_TIME_FBCONSENT
+[TOTAL TIME] Total time spent on FBCONSENT1_2 to FBCONSENT3_2
+RANGE: -1 to 24678
+	N	Mean	Std. Deviation
+Total	5750	59.132	667.255
+
+
+75) POLATTREV
+How often do you pay attention to what's going on in government and politics?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.167	1.052
+-7) No answer	4	0.1
+1) Always	1674	29.1
+2) Most of the time	2260	39.3
+3) About half the time	1020	17.7
+4) Some of the time	725	12.6
+5) Never	67	1.2
+
+
+76) TOTAL_TIME_POLATTREV
+[TOTAL TIME] Time spent on POLATTREV to FOLLOWPOLITICS
+RANGE: 1 to 1389
+	N	Mean	Std. Deviation
+Total	5750	8.088	27.962
+
+
+77) TURNOUT16A1
+In 2016, the major candidates for president were Donald Trump for the Republicans and Hillary Clinton for the Democrats. In that election, did you definitely vote, definitely not vote, or are you not completely sure whether you voted?
+RANGE: -7 to 3
+	N	Mean	Std. Deviation
+Total	5750	0.087	1.169
+-7) No answer	7	0.1
+-1) Inapplicable, legitimate skip	2882	50.1
+1) Definitely voted	2344	40.8
+2) Definitely did not vote	465	8.1
+3) Not completely sure	52	0.9
+
+
+78) TURNOUT16A2
+Do you think you probably voted or probably did not vote?
+RANGE: -1 to 2
+	N	Mean	Std. Deviation
+Total	5750	-0.977	0.248
+-1) Inapplicable, legitimate skip	5698	99.1
+1) Probably voted	22	0.4
+2) Probably did not vote	30	0.5
+
+
+79) TURNOUT16B
+In 2016, the major candidates for president were Donald Trump for the Republicans and Hillary Clinton for the Democrats.  We talk to many people who tell us they did not vote. And we talk to a few people who tell us they did vote, who really did not.  We can tell they did not vote by checking official government records.  What about you? If we check the official government voter records, will they show that you did not vote in the 2016 presidential election, or that you voted in this election?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	0.397	1.428
+-7) No answer	1	0.0
+-1) Inapplicable, legitimate skip	2868	49.9
+1) Did not vote	604	10.5
+2) Voted	2277	39.6
+
+
+80) VOTE16
+In the 2016 presidential election, who did you vote for?
+RANGE: -7 to 3
+	N	Mean	Std. Deviation
+Total	5750	1.168	1.292
+-7) No answer	16	0.3
+-1) Inapplicable, legitimate skip	1107	19.3
+1) Donald Trump	1819	31.6
+2) Hillary Clinton	2310	40.2
+3) Someone else	498	8.7
+
+
+81) TOTAL_TIME_TURNOUT
+[TOTAL TIME] Time spent on TURNOUT16A1 to VOTE16
+RANGE: 1 to 25102
+	N	Mean	Std. Deviation
+Total	5750	37.797	420.847
+
+
+82) REG
+Are you now registered to vote, or are you not registered?
+RANGE: -7 to 3
+	N	Mean	Std. Deviation
+Total	5750	1.109	0.434
+-7) No answer	3	0.1
+1) Registered	5248	91.3
+2) Not registered	346	6.0
+3) Not sure	153	2.7
+
+
+83) REGLOC1
+Where are you registered to vote?
+RANGE: -7 to 3
+	N	Mean	Std. Deviation
+Total	5750	0.93	0.798
+-7) No answer	12	0.2
+-1) Inapplicable, legitimate skip	506	8.8
+1) At [P_MAILADDRESS] [P_CITY], [S_STATE] [P_ZIP]	4622	80.4
+2) At another address	515	9.0
+3) Not sure	95	1.7
+
+
+84) REGSTATE
+In what state are you registered to vote now?
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	5750	0	0
+
+
+85) TOTAL_TIME_VOTER
+[TOTAL TIME] Time spent on REG to REGSTATE
+RANGE: 1 to 43775
+	N	Mean	Std. Deviation
+Total	5750	41.222	805.066
+
+
+86) DEMPREF1
+Whether you support a Democrat or not, which one, if any, would you most like to see as the Democratic presidential nominee?
+RANGE: -7 to 3
+	N	Mean	Std. Deviation
+Total	5750	1.995	0.956
+-7) No answer	6	0.1
+1) Joe Biden	2372	41.3
+2) Bernie Sanders	977	17.0
+3) Someone else, or no preference	2395	41.7
+
+
+87) PRIMARY
+In your state's primary election or caucus for the 2020 nomination for president, have you voted already, will you vote, or will you not vote?
+RANGE: -7 to 3
+	N	Mean	Std. Deviation
+Total	5750	1.855	0.772
+-7) No answer	5	0.1
+1) Have voted already	1967	34.2
+2) Will vote	2600	45.2
+3) Will not vote	1178	20.5
+
+
+88) PRIMPARTY
+[Did; Will] you vote in the presidential primary (or caucus) for the Democrats, Republicans, or another party?
+RANGE: -7 to 3
+	N	Mean	Std. Deviation
+Total	5750	0.959	1.197
+-7) No answer	12	0.2
+-1) Inapplicable, legitimate skip	1183	20.6
+1) Democrats	2589	45.0
+2) Republicans	1704	29.6
+3) Another party	262	4.6
+
+
+89) RAN_VOTE2CAND1
+[POSITION 1] DATA ONLY VARIABLE: Randomization of VOTE20CAND response options
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	5750	1.016	2.509
+-1) Inapplicable, legitimate skip	3161	55.0
+1) Joe Biden	447	7.8
+2) Michael Bloomberg	450	7.8
+3) Pete Buttigieg	390	6.8
+4) Amy Klobuchar	453	7.9
+5) Bernie Sanders	418	7.3
+6) Elizabeth Warren	431	7.5
+
+
+90) RAN_VOTE2CAND2
+[POSITION 2] DATA ONLY VARIABLE: Randomization of VOTE20CAND response options
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	5750	0.998	2.484
+-1) Inapplicable, legitimate skip	3161	55.0
+1) Joe Biden	457	7.9
+2) Michael Bloomberg	425	7.4
+3) Pete Buttigieg	454	7.9
+4) Amy Klobuchar	434	7.5
+5) Bernie Sanders	422	7.3
+6) Elizabeth Warren	397	6.9
+
+
+91) RAN_VOTE2CAND3
+[POSITION 3] DATA ONLY VARIABLE: Randomization of VOTE20CAND response options
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	5750	1.031	2.514
+-1) Inapplicable, legitimate skip	3161	55.0
+1) Joe Biden	420	7.3
+2) Michael Bloomberg	407	7.1
+3) Pete Buttigieg	460	8.0
+4) Amy Klobuchar	447	7.8
+5) Bernie Sanders	440	7.7
+6) Elizabeth Warren	415	7.2
+
+
+92) RAN_VOTE2CAND4
+[POSITION 4] DATA ONLY VARIABLE: Randomization of VOTE20CAND response options
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	5750	1.042	2.536
+-1) Inapplicable, legitimate skip	3161	55.0
+1) Joe Biden	416	7.2
+2) Michael Bloomberg	453	7.9
+3) Pete Buttigieg	414	7.2
+4) Amy Klobuchar	415	7.2
+5) Bernie Sanders	419	7.3
+6) Elizabeth Warren	472	8.2
+
+
+93) RAN_VOTE2CAND5
+[POSITION 5] DATA ONLY VARIABLE: Randomization of VOTE20CAND response options
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	5750	1.027	2.516
+-1) Inapplicable, legitimate skip	3161	55.0
+1) Joe Biden	425	7.4
+2) Michael Bloomberg	441	7.7
+3) Pete Buttigieg	439	7.6
+4) Amy Klobuchar	422	7.3
+5) Bernie Sanders	420	7.3
+6) Elizabeth Warren	442	7.7
+
+
+94) RAN_VOTE2CAND6
+[POSITION 6] DATA ONLY VARIABLE: Randomization of VOTE20CAND response options
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	5750	1.043	2.532
+-1) Inapplicable, legitimate skip	3161	55.0
+1) Joe Biden	424	7.4
+2) Michael Bloomberg	413	7.2
+3) Pete Buttigieg	432	7.5
+4) Amy Klobuchar	418	7.3
+5) Bernie Sanders	470	8.2
+6) Elizabeth Warren	432	7.5
+
+
+95) VOTE20CAND
+In the 2020 Democratic primary (or caucus) for president who [did/will] you vote for?
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	0.565	2.227
+-7) No answer	2	0.0
+-1) Inapplicable, legitimate skip	3161	55.0
+1) Joe Biden	1628	28.3
+2) Michael Bloomberg	52	0.9
+3) Pete Buttigieg	88	1.5
+4) Amy Klobuchar	56	1.0
+5) Bernie Sanders	482	8.4
+6) Elizabeth Warren	173	3.0
+7) Someone else	108	1.9
+
+
+96) TOTAL_TIME_PRIMARY
+[TOTAL TIME] Time spent on DEMPREF1 to VOTE20CAND
+RANGE: 1 to 75832
+	N	Mean	Std. Deviation
+Total	5750	110.503	1582.775
+
+
+97) PERCENT20
+What is the percent chance that you will vote in the election for president of the United States in November 2020?
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	89.842	25.543
+-7) No answer	6	0.1
+0) 	239	4.2
+1) 	12	0.2
+2) 	8	0.1
+3) 	1	0.0
+5) 	21	0.4
+6) 	1	0.0
+7) 	2	0.0
+8) 	2	0.0
+10) 	29	0.5
+11) 	1	0.0
+15) 	4	0.1
+20) 	30	0.5
+25) 	18	0.3
+30) 	17	0.3
+35) 	2	0.0
+36) 	1	0.0
+37) 	1	0.0
+40) 	16	0.3
+42) 	1	0.0
+43) 	1	0.0
+44) 	1	0.0
+45) 	5	0.1
+47) 	2	0.0
+50) 	176	3.1
+54) 	1	0.0
+55) 	9	0.2
+59) 	2	0.0
+60) 	33	0.6
+65) 	10	0.2
+66) 	1	0.0
+67) 	4	0.1
+68) 	1	0.0
+69) 	3	0.1
+70) 	33	0.6
+75) 	91	1.6
+76) 	2	0.0
+78) 	2	0.0
+80) 	106	1.8
+81) 	1	0.0
+83) 	1	0.0
+85) 	35	0.6
+86) 	1	0.0
+87) 	2	0.0
+88) 	1	0.0
+89) 	8	0.1
+90) 	140	2.4
+92) 	1	0.0
+95) 	90	1.6
+96) 	1	0.0
+97) 	3	0.1
+98) 	31	0.5
+99) 	185	3.2
+100) 	4355	75.7
+
+
+98) VOTE20D1
+If the 2020 presidential election were between Donald Trump for the Republicans and Joe Biden for the Democrats, for whom would you vote?
+RANGE: -7 to 4
+	N	Mean	Std. Deviation
+Total	5750	1.76	0.885
+-7) No answer	16	0.3
+1) Donald Trump	2122	36.9
+2) Joe Biden	2991	52.0
+3) Someone else	356	6.2
+4) Probably not vote	265	4.6
+
+
+99) VOTEREP
+In the November election for the U.S. House of Representatives, for which candidate will you vote?
+RANGE: -7 to 4
+	N	Mean	Std. Deviation
+Total	5750	1.646	0.951
+-7) No answer	16	0.3
+1) Democratic candidate	2897	50.4
+2) Republican candidate	2187	38.0
+3) Another candidate	293	5.1
+4) Probably not vote	357	6.2
+
+
+100) TOTAL_TIME_VOTING
+[TOTAL TIME] Time spent on PERCENT20 to VOTEREP
+RANGE: 1 to 45149
+	N	Mean	Std. Deviation
+Total	5750	89.716	1326.663
+
+
+101) FTTRUMP
+How would you rate Donald Trump? [INTERFACE: FEELING THERMOMETER WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	37.339	39.443
+
+
+102) FT_ORDER1
+[POSITION 1] DATA ONLY VARIABLE: Randomization of FTDEM to FTIMMIG
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	5750	5.989	3.153
+1) Ftdem	528	9.2
+2) Ftrep	535	9.3
+3) Ftjb	498	8.7
+4) Ftbs	502	8.7
+5) Ftnra	569	9.9
+6) Ftpp	501	8.7
+7) Ftblack	530	9.2
+8) Ftwhite	525	9.1
+9) Fthisp	547	9.5
+10) Ftasians	511	8.9
+11) Ftimmig	504	8.8
+
+
+103) FT_ORDER2
+[POSITION 2] DATA ONLY VARIABLE: Randomization of FTDEM to FTIMMIG
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	5750	5.963	3.204
+1) Ftdem	543	9.4
+2) Ftrep	560	9.7
+3) Ftjb	529	9.2
+4) Ftbs	546	9.5
+5) Ftnra	471	8.2
+6) Ftpp	493	8.6
+7) Ftblack	498	8.7
+8) Ftwhite	528	9.2
+9) Fthisp	530	9.2
+10) Ftasians	512	8.9
+11) Ftimmig	540	9.4
+
+
+104) FT_ORDER3
+[POSITION 3] DATA ONLY VARIABLE: Randomization of FTDEM to FTIMMIG
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	5750	5.979	3.123
+1) Ftdem	523	9.1
+2) Ftrep	512	8.9
+3) Ftjb	491	8.5
+4) Ftbs	549	9.5
+5) Ftnra	525	9.1
+6) Ftpp	553	9.6
+7) Ftblack	558	9.7
+8) Ftwhite	521	9.1
+9) Fthisp	527	9.2
+10) Ftasians	498	8.7
+11) Ftimmig	493	8.6
+
+
+105) FT_ORDER4
+[POSITION 4] DATA ONLY VARIABLE: Randomization of FTDEM to FTIMMIG
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	5750	5.971	3.161
+1) Ftdem	506	8.8
+2) Ftrep	531	9.2
+3) Ftjb	576	10.0
+4) Ftbs	524	9.1
+5) Ftnra	520	9.0
+6) Ftpp	506	8.8
+7) Ftblack	503	8.7
+8) Ftwhite	515	9.0
+9) Fthisp	541	9.4
+10) Ftasians	514	8.9
+11) Ftimmig	514	8.9
+
+
+106) FT_ORDER5
+[POSITION 5] DATA ONLY VARIABLE: Randomization of FTDEM to FTIMMIG
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	5750	5.952	3.169
+1) Ftdem	538	9.4
+2) Ftrep	560	9.7
+3) Ftjb	503	8.7
+4) Ftbs	508	8.8
+5) Ftnra	536	9.3
+6) Ftpp	532	9.3
+7) Ftblack	511	8.9
+8) Ftwhite	516	9.0
+9) Fthisp	511	8.9
+10) Ftasians	536	9.3
+11) Ftimmig	499	8.7
+
+
+107) FT_ORDER6
+[POSITION 6] DATA ONLY VARIABLE: Randomization of FTDEM to FTIMMIG
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	5750	6.048	3.165
+1) Ftdem	504	8.8
+2) Ftrep	504	8.8
+3) Ftjb	538	9.4
+4) Ftbs	532	9.3
+5) Ftnra	511	8.9
+6) Ftpp	503	8.7
+7) Ftblack	527	9.2
+8) Ftwhite	560	9.7
+9) Fthisp	479	8.3
+10) Ftasians	545	9.5
+11) Ftimmig	547	9.5
+
+
+108) FT_ORDER7
+[POSITION 7] DATA ONLY VARIABLE: Randomization of FTDEM to FTIMMIG
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	5750	6.02	3.159
+1) Ftdem	523	9.1
+2) Ftrep	495	8.6
+3) Ftjb	520	9.0
+4) Ftbs	544	9.5
+5) Ftnra	518	9.0
+6) Ftpp	541	9.4
+7) Ftblack	496	8.6
+8) Ftwhite	553	9.6
+9) Fthisp	515	9.0
+10) Ftasians	495	8.6
+11) Ftimmig	550	9.6
+
+
+109) FT_ORDER8
+[POSITION 8] DATA ONLY VARIABLE: Randomization of FTDEM to FTIMMIG
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	5750	6.029	3.189
+1) Ftdem	541	9.4
+2) Ftrep	509	8.9
+3) Ftjb	521	9.1
+4) Ftbs	515	9.0
+5) Ftnra	499	8.7
+6) Ftpp	515	9.0
+7) Ftblack	540	9.4
+8) Ftwhite	509	8.9
+9) Fthisp	504	8.8
+10) Ftasians	554	9.6
+11) Ftimmig	543	9.4
+
+
+110) FT_ORDER9
+[POSITION 9] DATA ONLY VARIABLE: Randomization of FTDEM to FTIMMIG
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	5750	6.058	3.155
+1) Ftdem	504	8.8
+2) Ftrep	505	8.8
+3) Ftjb	512	8.9
+4) Ftbs	526	9.1
+5) Ftnra	508	8.8
+6) Ftpp	546	9.5
+7) Ftblack	557	9.7
+8) Ftwhite	483	8.4
+9) Fthisp	513	8.9
+10) Ftasians	572	9.9
+11) Ftimmig	524	9.1
+
+
+111) FT_ORDER10
+[POSITION 10] DATA ONLY VARIABLE: Randomization of FTDEM to FTIMMIG
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	5750	5.984	3.15
+1) Ftdem	516	9.0
+2) Ftrep	518	9.0
+3) Ftjb	533	9.3
+4) Ftbs	516	9.0
+5) Ftnra	578	10.1
+6) Ftpp	511	8.9
+7) Ftblack	491	8.5
+8) Ftwhite	510	8.9
+9) Fthisp	555	9.7
+10) Ftasians	516	9.0
+11) Ftimmig	506	8.8
+
+
+112) FT_ORDER11
+[POSITION 11] DATA ONLY VARIABLE: Randomization of FTDEM to FTIMMIG
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	5750	6.007	3.156
+1) Ftdem	524	9.1
+2) Ftrep	521	9.1
+3) Ftjb	529	9.2
+4) Ftbs	488	8.5
+5) Ftnra	515	9.0
+6) Ftpp	549	9.5
+7) Ftblack	539	9.4
+8) Ftwhite	530	9.2
+9) Fthisp	528	9.2
+10) Ftasians	497	8.6
+11) Ftimmig	530	9.2
+
+
+113) FTDEM
+How would you rate the Democratic Party? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	48.449	33.499
+
+
+114) FTREP
+How would you rate the Republican Party? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	42.222	32.999
+
+
+115) FTJB
+How would you rate Joe Biden? [INTERFACE: FT WIDGET]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	50.215	34.891
+
+
+116) FTBS
+How would you rate Bernie Sanders? [INTERFACE: FT WIDGET]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	47.79	33.449
+
+
+117) FTNRA
+How would you rate the National Rifle Association (NRA)? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	44.92	35.101
+
+
+118) FTPP
+How would you rate Planned Parenthood? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	56.984	35.145
+
+
+119) FTBLACK
+How would you rate blacks? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	74.872	22.877
+
+
+120) FTWHITE
+How would you rate whites? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	71.257	23.073
+
+
+121) FTHISP
+How would you rate Hispanics? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	75.381	21.808
+
+
+122) FTASIANS
+How would you rate Asians? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	74.311	22.398
+
+
+123) FTIMMIG
+How would you rate immigrants? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	68.662	24.371
+
+
+124) TOTAL_TIME_FT
+[TOTAL TIME] Time spent on FTINTRO to FTIMMIG
+RANGE: 1 to 56982
+	N	Mean	Std. Deviation
+Total	5750	260.138	1465.084
+
+
+125) TPT_D_D
+How do you think the typical Democratic voter would rate the Democratic Party? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	77.512	21.202
+
+
+126) TPT_D_R
+How do you think the typical Democratic voter would rate the Republican Party? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	23.107	23.417
+
+
+127) TPT_D_DT
+How do you think the typical Democratic voter would rate the Donald Trump? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	12.967	19.453
+
+
+128) TPT_R_D
+How do you think the typical Republican voter would rate the Democratic Party? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	18.993	20.152
+
+
+129) TPT_R_R
+How do you think the typical Republican voter would rate the Republican Party? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	79.707	22.453
+
+
+130) TPT_R_DT
+How do you think the typical Republican voter would rate Donald Trump? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	74.455	23.642
+
+
+131) TOTAL_TIME_TPT
+[TOTAL TIME] Time spent on TPTINTRO to TPT_R_DT
+RANGE: 1 to 82084
+	N	Mean	Std. Deviation
+Total	5750	215.568	2085.391
+
+
+132) GE_ORDER1
+[POSITION 1] DATA ONLY VARIABLE: Randomization of GE_HOPEFUL to GE_WORRIED
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	5750	1.251	2.56
+-1) Inapplicable, legitimate skip	2885	50.2
+1) How hopeful do you feel?	451	7.8
+2) How afraid do you feel?	494	8.6
+3) How outraged do you feel?	501	8.7
+4) How angry do you feel?	457	7.9
+5) How happy do you feel?	462	8.0
+6) How worried do you feel?	500	8.7
+
+
+133) GE_ORDER2
+[POSITION 2] DATA ONLY VARIABLE: Randomization of GE_HOPEFUL to GE_WORRIED
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	5750	1.265	2.57
+-1) Inapplicable, legitimate skip	2885	50.2
+1) How hopeful do you feel?	461	8.0
+2) How afraid do you feel?	453	7.9
+3) How outraged do you feel?	480	8.3
+4) How angry do you feel?	490	8.5
+5) How happy do you feel?	496	8.6
+6) How worried do you feel?	485	8.4
+
+
+134) GE_ORDER3
+[POSITION 3] DATA ONLY VARIABLE: Randomization of GE_HOPEFUL to GE_WORRIED
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	5750	1.231	2.542
+-1) Inapplicable, legitimate skip	2885	50.2
+1) How hopeful do you feel?	490	8.5
+2) How afraid do you feel?	465	8.1
+3) How outraged do you feel?	498	8.7
+4) How angry do you feel?	485	8.4
+5) How happy do you feel?	452	7.9
+6) How worried do you feel?	475	8.3
+
+
+135) GE_ORDER4
+[POSITION 4] DATA ONLY VARIABLE: Randomization of GE_HOPEFUL to GE_WORRIED
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	5750	1.248	2.56
+-1) Inapplicable, legitimate skip	2885	50.2
+1) How hopeful do you feel?	493	8.6
+2) How afraid do you feel?	463	8.1
+3) How outraged do you feel?	438	7.6
+4) How angry do you feel?	490	8.5
+5) How happy do you feel?	516	9.0
+6) How worried do you feel?	465	8.1
+
+
+136) GE_ORDER5
+[POSITION 5] DATA ONLY VARIABLE: Randomization of GE_HOPEFUL to GE_WORRIED
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	5750	1.257	2.563
+-1) Inapplicable, legitimate skip	2885	50.2
+1) How hopeful do you feel?	447	7.8
+2) How afraid do you feel?	492	8.6
+3) How outraged do you feel?	481	8.4
+4) How angry do you feel?	469	8.2
+5) How happy do you feel?	492	8.6
+6) How worried do you feel?	484	8.4
+
+
+137) GE_ORDER6
+[POSITION 6] DATA ONLY VARIABLE: Randomization of GE_HOPEFUL to GE_WORRIED
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	5750	1.2	2.519
+-1) Inapplicable, legitimate skip	2885	50.2
+1) How hopeful do you feel?	523	9.1
+2) How afraid do you feel?	498	8.7
+3) How outraged do you feel?	467	8.1
+4) How angry do you feel?	474	8.2
+5) How happy do you feel?	447	7.8
+6) How worried do you feel?	456	7.9
+
+
+138) GEHOPEFUL
+[How hopeful do you feel?] Generally speaking, how do you feel about the way things are going in the country these days?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.807	1.967
+-7) No answer	2	0.0
+-1) Inapplicable, legitimate skip	2885	50.2
+1) Not at all	423	7.4
+2) A little	885	15.4
+3) Somewhat	1006	17.5
+4) Very	415	7.2
+5) Extremely	134	2.3
+
+
+139) GEAFRAID
+[How afraid do you feel?] Generally speaking, how do you feel about the way things are going in the country these days?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.929	2.121
+-7) No answer	2	0.0
+-1) Inapplicable, legitimate skip	2885	50.2
+1) Not at all	419	7.3
+2) A little	695	12.1
+3) Somewhat	875	15.2
+4) Very	564	9.8
+5) Extremely	310	5.4
+
+
+140) GEOUTRAGED
+[How outraged do you feel?] Generally speaking, how do you feel about the way things are going in the country these days?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.173	2.369
+-7) No answer	3	0.1
+-1) Inapplicable, legitimate skip	2885	50.2
+1) Not at all	290	5.0
+2) A little	440	7.7
+3) Somewhat	719	12.5
+4) Very	744	12.9
+5) Extremely	669	11.6
+
+
+141) GEANGRY
+[How angry do you feel?] Generally speaking, how do you feel about the way things are going in the country these days?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.109	2.3
+-7) No answer	4	0.1
+-1) Inapplicable, legitimate skip	2885	50.2
+1) Not at all	276	4.8
+2) A little	502	8.7
+3) Somewhat	833	14.5
+4) Very	737	12.8
+5) Extremely	513	8.9
+
+
+142) GEHAPPY
+[How happy do you feel?] Generally speaking, how do you feel about the way things are going in the country these days?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.766	1.932
+-7) No answer	1	0.0
+-1) Inapplicable, legitimate skip	2885	50.2
+1) Not at all	585	10.2
+2) A little	731	12.7
+3) Somewhat	1042	18.1
+4) Very	404	7.0
+5) Extremely	102	1.8
+
+
+143) GEWORRIED
+[How worried do you feel?] Generally speaking, how do you feel about the way things are going in the country these days?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.149	2.32
+-7) No answer	2	0.0
+-1) Inapplicable, legitimate skip	2885	50.2
+1) Not at all	194	3.4
+2) A little	556	9.7
+3) Somewhat	799	13.9
+4) Very	769	13.4
+5) Extremely	545	9.5
+
+
+144) TOTAL_TIME_GE
+[TOTAL TIME] Time spent on GE_HOPEFUL to GE_WORRIED
+RANGE: -1 to 581
+	N	Mean	Std. Deviation
+Total	5750	16.817	26.815
+
+
+145) APPPRES
+How much do you approve or disapprove of the way Donald Trump is handling his job as president?
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	4.679	2.416
+-7) No answer	4	0.1
+1) Approve extremely strongly	785	13.7
+2) Approve moderately strongly	931	16.2
+3) Approve slightly	506	8.8
+4) Neither approve nor disapprove	289	5.0
+5) Disapprove slightly	246	4.3
+6) Disapprove moderately strongly	542	9.4
+7) Disapprove extremely strongly	2447	42.6
+
+
+146) APPCORONA
+How much do you approve or disapprove of the way Donald Trump is handling the coronavirus pandemic?
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	4.845	2.341
+-7) No answer	3	0.1
+1) Approve extremely strongly	646	11.2
+2) Approve moderately strongly	854	14.9
+3) Approve slightly	484	8.4
+4) Neither approve nor disapprove	409	7.1
+5) Disapprove slightly	278	4.8
+6) Disapprove moderately strongly	486	8.5
+7) Disapprove extremely strongly	2590	45.0
+
+
+147) TOTAL_TIME_TRUMP
+[TOTAL TIME] Time spent on APPRES to APPCORONA
+RANGE: 1 to 18536
+	N	Mean	Std. Deviation
+Total	5750	31.683	370.093
+
+
+148) ECNOW
+How would you rate the state of the economy these days in the United States?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.359	1.118
+-7) No answer	2	0.0
+1) Very good	302	5.3
+2) Good	1085	18.9
+3) Neither good nor bad	1416	24.6
+4) Bad	2115	36.8
+5) Very bad	830	14.4
+
+
+149) ECONNOW
+Would you say that as compared to one year ago, the nation's economy is now better, the same, or worse?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	4.067	1.034
+-7) No answer	6	0.1
+1) Much better	121	2.1
+2) Somewhat better	361	6.3
+3) The same	690	12.0
+4) Somewhat worse	2344	40.8
+5) Much worse	2228	38.7
+
+
+150) ECON12MO
+What about 12 months from now? Compared to now, do you think the nation's economy will be better, the same, or worse in 12 months?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.565	1.163
+-7) No answer	9	0.2
+1) Much better	788	13.7
+2) Somewhat better	2450	42.6
+3) The same	1260	21.9
+4) Somewhat worse	870	15.1
+5) Much worse	373	6.5
+
+
+151) PERSFIN
+How worried are you about your personal financial situation?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.437	1.148
+-7) No answer	2	0.0
+1) Not at all worried	1192	20.7
+2) A little worried	2223	38.7
+3) Moderately worried	1349	23.5
+4) Very worried	578	10.1
+5) Extremely worried	406	7.1
+
+
+152) TOTAL_TIME_ECONOMY
+[TOTAL TIME] Time spent on ECNOW to PERSFIN
+RANGE: 1 to 40272
+	N	Mean	Std. Deviation
+Total	5750	76.674	764.684
+
+
+153) LCSELF
+[You] When it comes to politics, would you describe yourself, and these groups, as liberal, conservative, or neither liberal nor conservative?
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	4.054	1.846
+-7) No answer	11	0.2
+1) Very liberal	523	9.1
+2) Somewhat liberal	771	13.4
+3) Closer to liberals	742	12.9
+4) Neither liberal nor conservative	1507	26.2
+5) Closer to conservatives	745	13.0
+6) Somewhat conservative	813	14.1
+7) Very conservative	638	11.1
+
+
+154) LCD
+[The Democratic Party] When it comes to politics, would you describe yourself, and these groups, as liberal, conservative, or neither liberal nor conservative?
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	2.379	1.512
+-7) No answer	15	0.3
+1) Very liberal	2041	35.5
+2) Somewhat liberal	1379	24.0
+3) Closer to liberals	1019	17.7
+4) Neither liberal nor conservative	854	14.9
+5) Closer to conservatives	238	4.1
+6) Somewhat conservative	108	1.9
+7) Very conservative	96	1.7
+
+
+155) LCR
+[The Republican Party] When it comes to politics, would you describe yourself, and these groups, as liberal, conservative, or neither liberal nor conservative?
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	5.619	1.531
+-7) No answer	10	0.2
+1) Very liberal	99	1.7
+2) Somewhat liberal	139	2.4
+3) Closer to liberals	187	3.3
+4) Neither liberal nor conservative	808	14.1
+5) Closer to conservatives	918	16.0
+6) Somewhat conservative	1505	26.2
+7) Very conservative	2084	36.2
+
+
+156) LCDT
+[Donald Trump] When it comes to politics, would you describe these people as liberal, conservative, or neither liberal nor conservative?
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	2.231	3.409
+-7) No answer	9	0.2
+-1) Inapplicable, legitimate skip	2832	49.3
+1) Very liberal	123	2.1
+2) Somewhat liberal	58	1.0
+3) Closer to liberals	58	1.0
+4) Neither liberal nor conservative	571	9.9
+5) Closer to conservatives	482	8.4
+6) Somewhat conservative	702	12.2
+7) Very conservative	915	15.9
+
+
+157) LCD1
+[Joe Biden] When it comes to politics, would you describe these people as liberal, conservative, or neither liberal nor conservative?
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	0.818	2.062
+-7) No answer	8	0.1
+-1) Inapplicable, legitimate skip	2832	49.3
+1) Very liberal	680	11.8
+2) Somewhat liberal	828	14.4
+3) Closer to liberals	737	12.8
+4) Neither liberal nor conservative	411	7.1
+5) Closer to conservatives	164	2.9
+6) Somewhat conservative	49	0.9
+7) Very conservative	41	0.7
+
+
+158) LCD2
+[Bernie Sanders] When it comes to politics, would you describe these people as liberal, conservative, or neither liberal nor conservative?
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	0.445	1.763
+-7) No answer	8	0.1
+-1) Inapplicable, legitimate skip	2832	49.3
+1) Very liberal	1847	32.1
+2) Somewhat liberal	356	6.2
+3) Closer to liberals	194	3.4
+4) Neither liberal nor conservative	360	6.3
+5) Closer to conservatives	83	1.4
+6) Somewhat conservative	39	0.7
+7) Very conservative	31	0.5
+
+
+159) TOTAL_TIME_PLACEMENTS
+[TOTAL TIME] Time spent on LC_SELF to LC_D2
+RANGE: 1 to 51889
+	N	Mean	Std. Deviation
+Total	5750	83.54	988.298
+
+
+160) DTCARE
+Think about Donald Trump. How well is Donald Trump described by the phrase, 'Donald Trump really cares about people like you'?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.809	1.534
+-7) No answer	10	0.2
+1) Extremely well	674	11.7
+2) Very well	653	11.4
+3) Moderately well	752	13.1
+4) Slightly well	570	9.9
+5) Not well at all	3091	53.8
+
+
+161) DTHONEST
+How well is Donald Trump described by the phrase, 'Donald Trump is honest'?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	4.004	1.405
+-7) No answer	10	0.2
+1) Extremely well	383	6.7
+2) Very well	643	11.2
+3) Moderately well	775	13.5
+4) Slightly well	598	10.4
+5) Not well at all	3341	58.1
+
+
+162) DEM1CARE
+Think about Joe Biden. How well is Joe Biden described by the phrase 'Joe Biden really cares about people like you'?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.364	1.398
+-7) No answer	9	0.2
+1) Extremely well	604	10.5
+2) Very well	1021	17.8
+3) Moderately well	1329	23.1
+4) Slightly well	1160	20.2
+5) Not well at all	1627	28.3
+
+
+163) DEM1HONEST
+How well is Joe Biden described by the phrase, 'Joe Biden is honest'?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.368	1.439
+-7) No answer	11	0.2
+1) Extremely well	637	11.1
+2) Very well	1049	18.2
+3) Moderately well	1218	21.2
+4) Slightly well	1120	19.5
+5) Not well at all	1715	29.8
+
+
+164) TOTAL_TIME_CANDIDATE
+[TOTAL TIME] Time spent on DTCARE to DEM1HONEST
+RANGE: 1 to 66324
+	N	Mean	Std. Deviation
+Total	5750	71.9	970.329
+
+
+165) COVID_FED
+Has the U.S. federal government response to coronavirus been too fast, too slow, or just right?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	4.094	1.097
+-7) No answer	9	0.2
+1) Much too fast	118	2.1
+2) A little too fast	228	4.0
+3) Just right	1227	21.3
+4) A little too slow	1489	25.9
+5) Much too slow	2679	46.6
+
+
+166) COVID_US
+Compared to most other countries, how well has the U.S. been handling coronavirus?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.782	1.364
+-7) No answer	5	0.1
+1) U.S. is handling it a lot better	420	7.3
+2) U.S. is handling it a little better	816	14.2
+3) No difference	812	14.1
+4) U.S. is handling it a little worse	1190	20.7
+5) U.S. is handling it a lot worse	2507	43.6
+
+
+167) COVID_WORK
+Have you lost a job or worked fewer paid hours because of the coronavirus outbreak?
+RANGE: -7 to 3
+	N	Mean	Std. Deviation
+Total	5750	1.394	0.942
+-7) No answer	32	0.6
+1) No change in my work hours (or increased hours)	3913	68.1
+2) Worked fewer paid hours, but did not lose a job	1091	19.0
+3) Lost a job	714	12.4
+
+
+168) COVID_FIN
+How is your personal financial situation now compared to before the coronavirus outbreak?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.687	0.863
+-7) No answer	2	0.0
+1) It is now much worse	513	8.9
+2) It is now a little worse	1552	27.0
+3) It has not changed	3003	52.2
+4) It is now a little better	560	9.7
+5) It is now much better	120	2.1
+
+
+169) COVID_WORRY
+How worried are you about getting sick from the coronavirus disease?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.716	1.224
+-7) No answer	2	0.0
+1) Not at all	971	16.9
+2) A little	1724	30.0
+3) Moderately	1607	27.9
+4) Very	840	14.6
+5) Extremely	606	10.5
+
+
+170) COVID_KNOW
+Do you know someone who has become sick with the coronavirus disease?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	1.441	0.545
+-7) No answer	4	0.1
+1) I know someone with the disease	3177	55.3
+2) I do not know anyone with it	2569	44.7
+
+
+171) TOTAL_TIME_COVID19
+[TOTAL TIME] Time spent on COVID_FED to COVID_KNOW
+RANGE: 1 to 76817
+	N	Mean	Std. Deviation
+Total	5750	139.803	1736.015
+
+
+172) PID7X
+Party ID summary, Pre-election
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	3.777	2.196
+-7) No answer	7	0.1
+1) Strong Dem	1227	21.3
+2) Not very strong Dem	814	14.2
+3) Ind, closer to Dem	782	13.6
+4) Independent	646	11.2
+5) Ind, closer to Rep	642	11.2
+6) Not very strong Rep	651	11.3
+7) Strong Rep	981	17.1
+
+
+173) PID1D
+Generally speaking, do you usually think of yourself as a Democrat, a Republican, an independent, or what?
+RANGE: -7 to 4
+	N	Mean	Std. Deviation
+Total	5750	0.53	1.666
+-7) No answer	3	0.1
+-1) Inapplicable, legitimate skip	2856	49.7
+1) Democrat	1011	17.6
+2) Republican	850	14.8
+3) Independent	904	15.7
+4) Something else	126	2.2
+
+
+174) PID2D
+[PROGRAMMING: if PID2D is displayed, display it on the same screen as PID1D.] What is that?
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	5750	0	0
+
+
+175) PID1R
+Generally speaking, do you usually think of yourself as a Republican, a Democrat, an independent, or what?
+RANGE: -7 to 4
+	N	Mean	Std. Deviation
+Total	5750	0.511	1.669
+-7) No answer	3	0.1
+-1) Inapplicable, legitimate skip	2894	50.3
+1) Democrat	1030	17.9
+2) Republican	784	13.6
+3) Independent	901	15.7
+4) Something else	138	2.4
+
+
+176) PID2R
+[PROGRAMMING: if PID2R is displayed, display it on the same screen as PID1R.] What is that?
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	5750	0	0
+
+
+177) PIDSTR
+Would you call yourself a strong [Democrat/Republican] or a not very strong [Democrat/Republican]?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	0.53	1.225
+-7) No answer	2	0.0
+-1) Inapplicable, legitimate skip	2075	36.1
+1) Strong [Democrat/Republican]	2208	38.4
+2) Not very strong [Democrat/Republican]	1465	25.5
+
+
+178) PIDLEAN
+Do you think of yourself as closer to the Republican Party or to the Democratic Party?
+RANGE: -7 to 3
+	N	Mean	Std. Deviation
+Total	5750	0.075	1.531
+-7) No answer	5	0.1
+-1) Inapplicable, legitimate skip	3675	63.9
+1) Closer to the Republican Party	642	11.2
+2) Closer to the Democratic Party	782	13.6
+3) Neither	646	11.2
+
+
+179) TOTAL_TIME_PARTYID
+[TOTAL TIME] Time spent on PID1D to PIDLEAN
+RANGE: 1 to 41540
+	N	Mean	Std. Deviation
+Total	5750	33.783	673.495
+
+
+180) DSMART
+In general, how smart are people who support Democrats?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.898	2.078
+-7) No answer	11	0.2
+-1) Inapplicable, legitimate skip	2869	49.9
+1) Extremely	243	4.2
+2) Very	860	15.0
+3) Somewhat	1197	20.8
+4) A little	296	5.1
+5) Not at all	274	4.8
+
+
+181) RSMART
+In general, how smart are people who support Republicans?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.033	2.204
+-7) No answer	12	0.2
+-1) Inapplicable, legitimate skip	2869	49.9
+1) Extremely	150	2.6
+2) Very	591	10.3
+3) Somewhat	1305	22.7
+4) A little	471	8.2
+5) Not at all	352	6.1
+
+
+182) ISMART
+In general, how smart are independents?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.823	1.963
+-7) No answer	13	0.2
+-1) Inapplicable, legitimate skip	2869	49.9
+1) Extremely	201	3.5
+2) Very	872	15.2
+3) Somewhat	1507	26.2
+4) A little	211	3.7
+5) Not at all	77	1.3
+
+
+183) DOPEN
+In general, how open-minded are people who support Democrats?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.05	2.247
+-7) No answer	6	0.1
+-1) Inapplicable, legitimate skip	2869	49.9
+1) Extremely	228	4.0
+2) Very	782	13.6
+3) Somewhat	862	15.0
+4) A little	442	7.7
+5) Not at all	561	9.8
+
+
+184) ROPEN
+In general, how open-minded are people who support Republicans?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.296	2.435
+-7) No answer	6	0.1
+-1) Inapplicable, legitimate skip	2869	49.9
+1) Extremely	84	1.5
+2) Very	318	5.5
+3) Somewhat	948	16.5
+4) A little	826	14.4
+5) Not at all	699	12.2
+
+
+185) IOPEN
+In general, how open-minded are independents?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.845	1.977
+-7) No answer	9	0.2
+-1) Inapplicable, legitimate skip	2869	49.9
+1) Extremely	226	3.9
+2) Very	837	14.6
+3) Somewhat	1422	24.7
+4) A little	309	5.4
+5) Not at all	78	1.4
+
+
+186) TOTAL_TIME_STEREOTYPING
+[TOTAL TIME] Time spent on DSMART to IOPEN
+RANGE: -1 to 29147
+	N	Mean	Std. Deviation
+Total	5750	31.602	392.65
+
+
+187) TRUSTVOTE
+How much do you trust that votes are counted accurately in elections for president?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.036	1.26
+-7) No answer	6	0.1
+1) Not at all	764	13.3
+2) A little	1086	18.9
+3) A moderate	1770	30.8
+4) A lot	1367	23.8
+5) A great deal	757	13.2
+
+
+188) CON_FBI
+[The FBI] How much confidence do you have in each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.109	1.114
+-7) No answer	6	0.1
+1) None	447	7.8
+2) A little	1076	18.7
+3) A moderate amount	2110	36.7
+4) A lot	1567	27.3
+5) A great deal	544	9.5
+
+
+189) CON_HOUSE
+[The U.S. House of Representatives] How much confidence do you have in each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.524	1.068
+-7) No answer	5	0.1
+1) None	1038	18.1
+2) A little	1708	29.7
+3) A moderate amount	2106	36.6
+4) A lot	690	12.0
+5) A great deal	203	3.5
+
+
+190) CON_SEN
+[The U.S. Senate] How much confidence do you have in each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.356	0.991
+-7) No answer	4	0.1
+1) None	1166	20.3
+2) A little	2032	35.3
+3) A moderate amount	1965	34.2
+4) A lot	466	8.1
+5) A great deal	117	2.0
+
+
+191) CON_MIL
+[The U.S. military] How much confidence do you have in each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.627	1.143
+-7) No answer	3	0.1
+1) None	273	4.7
+2) A little	614	10.7
+3) A moderate amount	1551	27.0
+4) A lot	1821	31.7
+5) A great deal	1488	25.9
+
+
+192) CON_ELECT
+[The officials who oversee elections] How much confidence do you have in each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.82	1.123
+-7) No answer	8	0.1
+1) None	668	11.6
+2) A little	1458	25.4
+3) A moderate amount	2116	36.8
+4) A lot	1163	20.2
+5) A great deal	337	5.9
+
+
+193) CON_CENSUS
+[U.S. Census Bureau] How much confidence do you have in each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.119	1.093
+-7) No answer	9	0.2
+1) None	354	6.2
+2) A little	1081	18.8
+3) A moderate amount	2241	39.0
+4) A lot	1568	27.3
+5) A great deal	497	8.6
+
+
+194) CON_CDC
+[U.S. Centers for Disease Control] How much confidence do you have in each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.139	1.173
+-7) No answer	7	0.1
+1) None	467	8.1
+2) A little	1122	19.5
+3) A moderate amount	1934	33.6
+4) A lot	1517	26.4
+5) A great deal	703	12.2
+
+
+195) CON_DOJ
+[U.S. Department of Justice] How much confidence do you have in each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.66	1.079
+-7) No answer	5	0.1
+1) None	864	15.0
+2) A little	1545	26.9
+3) A moderate amount	2217	38.6
+4) A lot	871	15.1
+5) A great deal	248	4.3
+
+
+196) TOTAL_TIME_CONFIDENCE
+[TOTAL TIME] Time spent on TRUSTVOTE to CON_DOJ
+RANGE: 1 to 24752
+	N	Mean	Std. Deviation
+Total	5750	94.197	726.756
+
+
+197) TRUSTFOX
+[Fox News] How much do you think political information from each of these sources can be trusted?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.187	1.202
+-7) No answer	4	0.1
+1) Not at all	2135	37.1
+2) A little	1492	25.9
+3) A moderate amount	1261	21.9
+4) A lot	588	10.2
+5) A great deal	270	4.7
+
+
+198) TRUSTMSNBC
+[MSNBC] How much do you think political information from each of these sources can be trusted?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.318	1.177
+-7) No answer	13	0.2
+1) Not at all	1552	27.0
+2) A little	1707	29.7
+3) A moderate amount	1652	28.7
+4) A lot	630	11.0
+5) A great deal	196	3.4
+
+
+199) TRUSTNYT
+[New York Times] How much do you think political information from each of these sources can be trusted?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.531	1.282
+-7) No answer	14	0.2
+1) Not at all	1376	23.9
+2) A little	1451	25.2
+3) A moderate amount	1625	28.3
+4) A lot	924	16.1
+5) A great deal	360	6.3
+
+
+200) TRUSTUSAT
+[USA Today] How much do you think political information from each of these sources can be trusted?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.418	1.096
+-7) No answer	13	0.2
+1) Not at all	1152	20.0
+2) A little	1815	31.6
+3) A moderate amount	1989	34.6
+4) A lot	662	11.5
+5) A great deal	119	2.1
+
+
+201) TRUSTFB
+[Facebook] How much do you think political information from each of these sources can be trusted?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.559	0.837
+-7) No answer	8	0.1
+1) Not at all	3324	57.8
+2) A little	1686	29.3
+3) A moderate amount	635	11.0
+4) A lot	67	1.2
+5) A great deal	30	0.5
+
+
+202) TRUSTTW
+[Twitter posts] How much do you think political information from each of these sources can be trusted?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.558	0.858
+-7) No answer	10	0.2
+1) Not at all	3329	57.9
+2) A little	1670	29.0
+3) A moderate amount	635	11.0
+4) A lot	74	1.3
+5) A great deal	32	0.6
+
+
+203) TOTAL_TIME_TRUST
+[TOTAL TIME] Time spent on TRUST_FOX to TRUST_TW
+RANGE: 1 to 697
+	N	Mean	Std. Deviation
+Total	5750	25.138	29.54
+
+
+204) RAN_IMP1
+[POSITION 1] DATA ONLY VARIABLE: Randomization of IMPORTANCE1 response options
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5750	5.025	2.59
+1) The economy	640	11.1
+2) The environment and climate change	625	10.9
+3) Immigration & border security	631	11.0
+4) Health & health care	634	11.0
+5) Abortion	649	11.3
+6) Guns	627	10.9
+7) Economic inequality	642	11.2
+8) Race relations	642	11.2
+9) Corruption in government	660	11.5
+
+
+205) RAN_IMP2
+[POSITION 2] DATA ONLY VARIABLE: Randomization of IMPORTANCE1 response options
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5750	4.963	2.587
+1) The economy	712	12.4
+2) The environment and climate change	566	9.8
+3) Immigration & border security	647	11.3
+4) Health & health care	646	11.2
+5) Abortion	653	11.4
+6) Guns	647	11.3
+7) Economic inequality	631	11.0
+8) Race relations	626	10.9
+9) Corruption in government	622	10.8
+
+
+206) RAN_IMP3
+[POSITON 3] DATA ONLY VARIABLE: Randomization of IMPORTANCE1 response options
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5750	5.065	2.563
+1) The economy	607	10.6
+2) The environment and climate change	612	10.6
+3) Immigration & border security	644	11.2
+4) Health & health care	601	10.5
+5) Abortion	652	11.3
+6) Guns	662	11.5
+7) Economic inequality	678	11.8
+8) Race relations	670	11.7
+9) Corruption in government	624	10.9
+
+
+207) RAN_IMP4
+[POSITION 4] DATA ONLY VARIABLE: Randomization of IMPORTANCE1 response options
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5750	5.007	2.577
+1) The economy	635	11.0
+2) The environment and climate change	624	10.9
+3) Immigration & border security	656	11.4
+4) Health & health care	640	11.1
+5) Abortion	611	10.6
+6) Guns	679	11.8
+7) Economic inequality	633	11.0
+8) Race relations	630	11.0
+9) Corruption in government	642	11.2
+
+
+208) RAN_IMP5
+[POSITION 5] DATA ONLY VARIABLE: Randomization of IMPORTANCE1 response options
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5750	4.993	2.572
+1) The economy	619	10.8
+2) The environment and climate change	672	11.7
+3) Immigration & border security	619	10.8
+4) Health & health care	654	11.4
+5) Abortion	640	11.1
+6) Guns	638	11.1
+7) Economic inequality	636	11.1
+8) Race relations	654	11.4
+9) Corruption in government	618	10.7
+
+
+209) RAN_IMP6
+[POSITION 6] DATA ONLY VARIABLE: Randomization of IMPORTANCE1 response options
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5750	4.994	2.572
+1) The economy	626	10.9
+2) The environment and climate change	642	11.2
+3) Immigration & border security	639	11.1
+4) Health & health care	645	11.2
+5) Abortion	658	11.4
+6) Guns	673	11.7
+7) Economic inequality	611	10.6
+8) Race relations	598	10.4
+9) Corruption in government	658	11.4
+
+
+210) RAN_IMP7
+[POSITION 7] DATA ONLY VARIABLE: Randomization of IMPORTANCE1 response options
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5750	4.915	2.606
+1) The economy	670	11.7
+2) The environment and climate change	697	12.1
+3) Immigration & border security	661	11.5
+4) Health & health care	639	11.1
+5) Abortion	617	10.7
+6) Guns	574	10.0
+7) Economic inequality	616	10.7
+8) Race relations	664	11.5
+9) Corruption in government	612	10.6
+
+
+211) RAN_IMP8
+[POSITION 8] DATA ONLY VARIABLE: Randomization of IMPORTANCE1 response options
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5750	5.017	2.586
+1) The economy	602	10.5
+2) The environment and climate change	678	11.8
+3) Immigration & border security	640	11.1
+4) Health & health care	655	11.4
+5) Abortion	609	10.6
+6) Guns	604	10.5
+7) Economic inequality	666	11.6
+8) Race relations	644	11.2
+9) Corruption in government	652	11.3
+
+
+212) RAN_IMP9
+[POSITION 9] DATA ONLY VARIABLE: Randomization of IMPORTANCE1 response options
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5750	5.02	2.584
+1) The economy	639	11.1
+2) The environment and climate change	634	11.0
+3) Immigration & border security	613	10.7
+4) Health & health care	636	11.1
+5) Abortion	661	11.5
+6) Guns	646	11.2
+7) Economic inequality	637	11.1
+8) Race relations	622	10.8
+9) Corruption in government	662	11.5
+
+
+213) IMPORTANCE1
+Which of these do you think is the most important political issue facing the United States today?
+RANGE: -7 to 9
+	N	Mean	Std. Deviation
+Total	5750	5.272	3.204
+-7) No answer	17	0.3
+1) The economy	1181	20.5
+2) The environment and climate change	438	7.6
+3) Immigration & border security	264	4.6
+4) Health & health care	889	15.5
+5) Abortion	140	2.4
+6) Guns	86	1.5
+7) Economic inequality	494	8.6
+8) Race relations	816	14.2
+9) Corruption in government	1425	24.8
+
+
+214) TOTAL_TIME_IMPORTANCE1
+[TOTAL TIME] Time spent on IMPORTANCE1
+RANGE: 1 to 1682
+	N	Mean	Std. Deviation
+Total	5750	27.202	48.126
+
+
+215) INTERFERE
+Which of these do you think is most likely to be true?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	1.191	0.809
+-7) No answer	40	0.7
+1) Russia tried to interfere in the 2016 presidential election	4294	74.7
+2) Russia did not try to interfere in the 2016 presidential election	1416	24.6
+
+
+216) INTERFERE_C
+How confident are you about that?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.468	1.272
+-7) No answer	8	0.1
+-1) Inapplicable, legitimate skip	40	0.7
+1) Not at all	285	5.0
+2) A little	840	14.6
+3) Moderately	1637	28.5
+4) Very	1541	26.8
+5) Completely	1399	24.3
+
+
+217) ILLEGAL
+Which of these do you think is most likely to be true?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	1.719	0.839
+-7) No answer	40	0.7
+1) Millions of people voted illegally in the 2016 election	1258	21.9
+2) Very few people voted illegally in the 2016 election	4452	77.4
+
+
+218) ILLEGAL_C
+How confident are you about that?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.348	1.192
+-7) No answer	3	0.1
+-1) Inapplicable, legitimate skip	40	0.7
+1) Not at all	284	4.9
+2) A little	924	16.1
+3) Moderately	1908	33.2
+4) Very	1501	26.1
+5) Completely	1090	19.0
+
+
+219) ACA
+Which of these two statements do you think is most likely to be true about the Affordable Care Act of 2010 (ACA), also known as Obamacare?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	1.212	0.794
+-7) No answer	37	0.6
+1) The ACA increased the number of people with health insurance	4196	73.0
+2) The ACA did not increase the number of people with health insurance	1517	26.4
+
+
+220) ACA_C
+How confident are you about that?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.494	1.205
+-7) No answer	7	0.1
+-1) Inapplicable, legitimate skip	37	0.6
+1) Not at all	212	3.7
+2) A little	771	13.4
+3) Moderately	1764	30.7
+4) Very	1664	28.9
+5) Completely	1295	22.5
+
+
+221) DEPORT
+Whose administration deported more unauthorized immigrants during the first three years?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	1.371	0.879
+-7) No answer	43	0.7
+1) Donald Trump's administration	3230	56.2
+2) Barack Obama's administration	2477	43.1
+
+
+222) DEPORT_C
+How confident are you about that?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.171	1.214
+-7) No answer	6	0.1
+-1) Inapplicable, legitimate skip	43	0.7
+1) Not at all	398	6.9
+2) A little	1055	18.3
+3) Moderately	2005	34.9
+4) Very	1421	24.7
+5) Completely	822	14.3
+
+
+223) TOTAL_TIME_KNOWLEDGE
+[TOTAL TIME] Time spent on INTEFERE to DEPORT_C
+RANGE: 1 to 69075
+	N	Mean	Std. Deviation
+Total	5750	103.857	961.707
+
+
+224) HP_YOU
+[You] Where would you place yourself and the following people on this scale?
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	3.569	2.141
+-7) No answer	23	0.4
+1) Government insurance plan - 1	1333	23.2
+2) 	680	11.8
+3) 	724	12.6
+4) 	1069	18.6
+5) 	712	12.4
+6) 	480	8.3
+7) Paid by individuals - 7	729	12.7
+
+
+225) HP_DT
+[Donald Trump] Where would you place yourself and the following people on this scale?
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	5.662	1.898
+-7) No answer	29	0.5
+1) Government insurance plan - 1	263	4.6
+2) 	119	2.1
+3) 	205	3.6
+4) 	657	11.4
+5) 	673	11.7
+6) 	975	17.0
+7) Paid by individuals - 7	2829	49.2
+
+
+226) HP_D1
+[Joe Biden] Where would you place yourself and the following people on this scale?
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	2.791	1.777
+-7) No answer	28	0.5
+1) Government insurance plan - 1	1555	27.0
+2) 	1122	19.5
+3) 	1219	21.2
+4) 	1051	18.3
+5) 	350	6.1
+6) 	141	2.5
+7) Paid by individuals - 7	284	4.9
+
+
+227) HP_D2
+[Bernie Sanders] Where would you place yourself and the following people on this scale?
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	1.845	1.719
+-7) No answer	25	0.4
+1) Government insurance plan - 1	4020	69.9
+2) 	391	6.8
+3) 	302	5.3
+4) 	540	9.4
+5) 	150	2.6
+6) 	87	1.5
+7) Paid by individuals - 7	235	4.1
+
+
+228) IMMPOL
+Which comes closest to your view about what government policy should be toward unauthorized immigrants now living in the United States?
+RANGE: -7 to 3
+	N	Mean	Std. Deviation
+Total	5750	2.435	0.895
+-7) No answer	17	0.3
+1) Make all unauthorized immigrants felons and send them back to their home country	832	14.5
+2) Have a guest worker program that allows unauthorized immigrants to remain in the United States in order to work, but only for a limited time	1415	24.6
+3) Allow unauthorized immigrants to remain in the United States and eventually qualify for U.S. citizenship, but only if they meet certain conditions	3486	60.6
+
+
+229) GUNDIFF
+Do you think the federal government should make it more difficult for people to buy a gun than it is now, make it easier for people to buy a gun that it is now, or keep these rules about the same as they are now?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.157	1.17
+-7) No answer	11	0.2
+1) Make it much more difficult	2092	36.4
+2) Make it a little more difficult	1297	22.6
+3) Keep these rules about the same	1831	31.8
+4) Make it a little easier	294	5.1
+5) Make it much easier	225	3.9
+
+
+230) TOTAL_TIME_ISSUES
+[TOTAL TIME] Time spent on HP_YOU to GUNDIFF
+RANGE: 1 to 70452
+	N	Mean	Std. Deviation
+Total	5750	277.745	2470.605
+
+
+231) C_SELF
+Climate change refers to a long-term change in Earth's climate due to an increase in average atmospheric temperature. Which of these statements best describes what you think about climate change?
+RANGE: -7 to 4
+	N	Mean	Std. Deviation
+Total	5750	3.116	0.945
+-7) No answer	10	0.2
+1) It is not happening	232	4.0
+2) It is caused mostly by natural events	1024	17.8
+3) It is caused about equally by human activity and natural events	2228	38.7
+4) It is caused mostly by human activity	2256	39.2
+
+
+232) C_DT
+[Donald Trump] What do these people think about climate change? Climate change is...
+RANGE: -7 to 4
+	N	Mean	Std. Deviation
+Total	5750	1.594	1.052
+-7) No answer	29	0.5
+1) It is not happening	3309	57.5
+2) It is caused mostly by natural events	1379	24.0
+3) It is caused about equally by human activity and natural events	829	14.4
+4) It is caused mostly by human activity	204	3.5
+
+
+233) C_D1
+[Joe Biden] What do these people think about climate change? Climate change is...
+RANGE: -7 to 4
+	N	Mean	Std. Deviation
+Total	5750	3.326	1.085
+-7) No answer	30	0.5
+1) It is not happening	250	4.3
+2) It is caused mostly by natural events	354	6.2
+3) It is caused about equally by human activity and natural events	2090	36.3
+4) It is caused mostly by human activity	3026	52.6
+
+
+234) C_D2
+[Bernie Sanders] What do these people think about climate change? Climate change is...
+RANGE: -7 to 4
+	N	Mean	Std. Deviation
+Total	5750	3.478	1.126
+-7) No answer	33	0.6
+1) It is not happening	273	4.7
+2) It is caused mostly by natural events	294	5.1
+3) It is caused about equally by human activity and natural events	1233	21.4
+4) It is caused mostly by human activity	3917	68.1
+
+
+235) TOTAL_TIME_CLIMATE_CHANGE
+[TOTAL TIME] Time spent on C_SELF to C_D2
+RANGE: 1 to 56675
+	N	Mean	Std. Deviation
+Total	5750	74.247	986.073
+
+
+236) D1ELECT
+If the 2020 presidential election were between Donald Trump for the Republicans and Joe Biden for the Democrats, who do you think is more likely to win?
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	3.902	2.007
+-7) No answer	10	0.2
+1) Donald Trump is much more likely to win	1043	18.1
+2) Donald Trump is moderately more likely to win	558	9.7
+3) Donald Trump is a little more likely to win	652	11.3
+4) They have equal chances to win	1072	18.6
+5) Joe Biden is a little more likely to win	994	17.3
+6) Joe Biden is moderately more likely to win	812	14.1
+7) Joe Biden is much more likely to win	609	10.6
+
+
+237) TOTAL_TIME_ELECTABILITY
+[TOTAL TIME] Time spent on D1ELECT
+RANGE: 1 to 36017
+	N	Mean	Std. Deviation
+Total	5750	35.814	686.3
+
+
+238) P1
+[Attended a protest or rally] During the past 12 months, how often did you do each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.25	0.761
+-7) No answer	8	0.1
+1) Never	4860	84.5
+2) Once	448	7.8
+3) A few times	289	5.0
+4) Several times	107	1.9
+5) A lot	38	0.7
+
+
+239) P2
+[Signed an online petition] During the past 12 months, how often did you do each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.931	1.259
+-7) No answer	12	0.2
+1) Never	3063	53.3
+2) Once	810	14.1
+3) A few times	1213	21.1
+4) Several times	396	6.9
+5) A lot	256	4.5
+
+
+240) P3
+[Tried to convince someone to vote (online or offline)] During the past 12 months, how often did you do each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.735	1.189
+-7) No answer	8	0.1
+1) Never	3757	65.3
+2) Once	386	6.7
+3) A few times	1088	18.9
+4) Several times	313	5.4
+5) A lot	198	3.4
+
+
+241) P4
+[Wrote and posted a political message online] During the past 12 months, how often did you do each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.732	1.235
+-7) No answer	7	0.1
+1) Never	3901	67.8
+2) Once	317	5.5
+3) A few times	880	15.3
+4) Several times	394	6.9
+5) A lot	251	4.4
+
+
+242) P5
+[Bought or avoided a product because of the company's social or political values] During the past 12 months, how often did you do each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.285	1.438
+-7) No answer	8	0.1
+1) Never	2698	46.9
+2) Once	396	6.9
+3) A few times	1425	24.8
+4) Several times	683	11.9
+5) A lot	540	9.4
+
+
+243) TOTAL_TIME_PARTICIPATION
+[TOTAL TIME] Time spent on P1 to P5
+RANGE: 1 to 1132
+	N	Mean	Std. Deviation
+Total	5750	29.679	29.556
+
+
+244) RR1
+[Irish, Italian, Jewish and many other minorities overcame prejudice and worked their way up.  Blacks should do the same without any special favors.] How much do you agree or disagree with each of the following statements?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.912	1.536
+-7) No answer	16	0.3
+1) Agree strongly	1259	21.9
+2) Agree somewhat	1163	20.2
+3) Neither agree nor disagree	1214	21.1
+4) Disagree somewhat	863	15.0
+5) Disagree strongly	1235	21.5
+
+
+245) RR2
+[Generations of slavery and discrimination have created conditions that make it difficult for blacks to work their way out of the lower class.] How much do you agree or disagree with each of the following statements?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.704	1.544
+-7) No answer	16	0.3
+1) Agree strongly	1534	26.7
+2) Agree somewhat	1412	24.6
+3) Neither agree nor disagree	909	15.8
+4) Disagree somewhat	819	14.2
+5) Disagree strongly	1060	18.4
+
+
+246) TOTAL_TIME_RACIAL_RESENTMENT
+[TOTAL TIME] Time spent on RR_1 to RR_2
+RANGE: 1 to 1463
+	N	Mean	Std. Deviation
+Total	5750	31.119	42.143
+
+
+247) ND_FD
+[How many of your friends and family are Democrats?] Think about your friends and family. How many are Democrats, and how many are Republicans? Your best guess is fine.
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.987	1.2
+-7) No answer	15	0.3
+1) None or almost none	372	6.5
+2) A few	1669	29.0
+3) About half	1778	30.9
+4) A lot	1345	23.4
+5) All or nearly all	571	9.9
+
+
+248) ND_FR
+[How many of your friends and family are Republicans?] Think about your friends and family. How many are Democrats, and how many are Republicans? Your best guess is fine.
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.763	1.156
+-7) No answer	15	0.3
+1) None or almost none	579	10.1
+2) A few	1835	31.9
+3) About half	1830	31.8
+4) A lot	1204	20.9
+5) All or nearly all	287	5.0
+
+
+249) ND_FBD
+[How many of your Facebook friends are Democrats?] Now think about your Facebook 'friends.' Among your 'friends' on Facebook, how many would you guess are Democrats, and how many are Republicans?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.878	2.101
+-7) No answer	27	0.5
+-1) Inapplicable, legitimate skip	1614	28.1
+1) None or almost none	212	3.7
+2) A few	992	17.3
+3) About half	1497	26.0
+4) A lot	1126	19.6
+5) All or nearly all	282	4.9
+
+
+250) ND_FBR
+[How many of your Facebook friends are Republicans?] Now think about your Facebook 'friends.' Among your 'friends' on Facebook, how many would you guess are Democrats, and how many are Republicans?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.63	1.943
+-7) No answer	27	0.5
+-1) Inapplicable, legitimate skip	1614	28.1
+1) None or almost none	348	6.1
+2) A few	1394	24.2
+3) About half	1551	27.0
+4) A lot	694	12.1
+5) All or nearly all	122	2.1
+
+
+251) TOTAL_TIME_NETWORK
+[TOTAL TIME] Time spent on ND_FD to ND_FBR
+RANGE: 1 to 15514
+	N	Mean	Std. Deviation
+Total	5750	42.248	268.902
+
+
+252) PK_CJUS_CORRECT
+We are interested in how much information about certain subjects gets out to the public. No one knows all the answers to the next few questions.  When you are not sure, please just give your best guess. Please do not look up the answers.  We want to see what people already know or can guess. Political knowledge John Roberts coded.  [ARDA Note: 0 = Not correctly answered, .5 = No label, 1 = Correct]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	5750	0.454	0.397
+0) 	2100	36.5
+0.5) 	2078	36.1
+1) 	1572	27.3
+
+
+253) PK_SPEAKER_CORRECT
+We are interested in how much information about certain subjects gets out to the public. No one knows all the answers to the next few questions.  When you are not sure, please just give your best guess. Please do not look up the answers.  We want to see what people already know or can guess.  Political knowledge Nancy Pelosi coded
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	5750	0.678	0.467
+0) Not correctly answered	1854	32.2
+1) Correct	3896	67.8
+
+
+254) PK_SAMOA_CORRECT
+We are interested in how much information about certain subjects gets out to the public. No one knows all the answers to the next few questions.  When you are not sure, please just give your best guess. Please do not look up the answers.  We want to see what people already know or can guess. Political knowledge Mauga (catch question) coded
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	5750	0.025	0.157
+0) Not correctly answered	5604	97.5
+1) Correct	146	2.5
+
+
+255) PK_CJUS
+What job or political office is now held by [John Roberts/this person]?
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	5750	0	0
+
+
+256) TOTAL_TIME_PK_CJUS
+[TOTAL TIME] Time spent on PK_CJUS
+RANGE: 1 to 956
+	N	Mean	Std. Deviation
+Total	5750	30.045	37.668
+
+
+257) PK_SPEAKER
+What job or political office is now held by [Nancy Pelosi/this person]?
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	5750	0	0
+
+
+258) TOTAL_TIME_PK_SPEAKER
+[TOTAL TIME] Time spent on PK_SPEAKER
+RANGE: 1 to 819
+	N	Mean	Std. Deviation
+Total	5750	24.569	31.947
+
+
+259) PK_SAMOA
+What job or political office is now held by [Lemanu Peleti Mauga/this person]?
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	5750	0	0
+
+
+260) TOTAL_TIME_PK_SAMOA
+[TOTAL TIME] Time spent on PK_SAMOA
+RANGE: 1 to 1790
+	N	Mean	Std. Deviation
+Total	5750	24.027	47.084
+
+
+261) TOTAL_TIME_PK
+[TOTAL TIME] Time spent on PK_INTRO to PK_SAMOA
+RANGE: 1 to 45012
+	N	Mean	Std. Deviation
+Total	5750	150.135	1184.488
+
+
+262) IMPEACH
+When the U.S. House of Representatives conducted hearings to impeach President Trump, how fair was the impeachment process?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.804	2.077
+-7) No answer	13	0.2
+-1) Inapplicable, legitimate skip	2798	48.7
+1) Not at all fair	1064	18.5
+2) A little fair	375	6.5
+3) Moderately fair	620	10.8
+4) Very fair	561	9.8
+5) Extremely fair	319	5.5
+
+
+263) REMOVE
+Do you favor the U.S. Senate's decision in February to allow President Trump to remain in office after he was impeached, or do you think they should have removed the President from office?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	1.49	0.733
+-7) No answer	23	0.4
+1) Favor Senate's decision to let the president stay in office	2725	47.4
+2) They should have removed the President	3002	52.2
+
+
+264) TRIAL
+When the U.S. Senate conducted the trial of President Trump, how fair was the trial process?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.705	1.954
+-7) No answer	17	0.3
+-1) Inapplicable, legitimate skip	2798	48.7
+1) Not at all fair	1029	17.9
+2) A little fair	532	9.3
+3) Moderately fair	790	13.7
+4) Very fair	411	7.1
+5) Extremely fair	173	3.0
+
+
+265) TOTAL_TIME_IMPEACHMENT
+[TOTAL TIME] Time spent on IMPEACH to TRIAL
+RANGE: 1 to 40314
+	N	Mean	Std. Deviation
+Total	5750	58.715	832.37
+
+
+266) DTF_R
+[Respectful] Overall, how well does each of the following describe the political conversations you see on Facebook?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.137	1.635
+-7) No answer	20	0.3
+-1) Inapplicable, legitimate skip	1614	28.1
+1) Not at all	1493	26.0
+2) A little	1277	22.2
+3) Moderately	1172	20.4
+4) Very	144	2.5
+5) Extremely	30	0.5
+
+
+267) DTF_I
+[Informative] Overall, how well does each of the following describe the political conversations you see on Facebook?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.196	1.666
+-7) No answer	19	0.3
+-1) Inapplicable, legitimate skip	1614	28.1
+1) Not at all	1270	22.1
+2) A little	1480	25.7
+3) Moderately	1119	19.5
+4) Very	204	3.5
+5) Extremely	44	0.8
+
+
+268) DTP_I
+[Informative] Overall, how well does each of the following describe your political conversations in person?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.936	1.142
+-7) No answer	23	0.4
+1) Not at all	421	7.3
+2) A little	1142	19.9
+3) Moderately	2589	45.0
+4) Very	1303	22.7
+5) Extremely	272	4.7
+
+
+269) DTP_R
+[Respectful] Overall, how well does each of the following describe your political conversations in person?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.245	1.154
+-7) No answer	22	0.4
+1) Not at all	307	5.3
+2) A little	722	12.6
+3) Moderately	2184	38.0
+4) Very	2068	36.0
+5) Extremely	447	7.8
+
+
+270) TOTAL_TIME_DISCOURSE
+[TOTAL TIME] Time spent on DTF_R to DTP_I
+RANGE: -1 to 24775
+	N	Mean	Std. Deviation
+Total	5750	199.567	755.861
+
+
+271) FB1
+How serious a problem is false information on Facebook?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.814	1.388
+-7) No answer	10	0.2
+-1) Inapplicable, legitimate skip	186	3.2
+1) Not at all	78	1.4
+2) A little	367	6.4
+3) Moderately	1157	20.1
+4) Very	1857	32.3
+5) Extremely	2095	36.4
+
+
+272) FBDT
+[Donald Trump] In the past 7 days, have you read anything on Facebook about a presidential candidate? If so, who?
+RANGE: -1 to 1
+	N	Mean	Std. Deviation
+Total	5750	0.077	0.835
+-1) Inapplicable, legitimate skip	1798	31.3
+0) No	1711	29.8
+1) Yes	2241	39.0
+
+
+273) FBJB
+[Joe Biden] In the past 7 days, have you read anything on Facebook about a presidential candidate? If so, who?
+RANGE: -1 to 1
+	N	Mean	Std. Deviation
+Total	5750	0.057	0.824
+-1) Inapplicable, legitimate skip	1798	31.3
+0) No	1827	31.8
+1) Yes	2125	37.0
+
+
+274) FBBS
+[Bernie Sanders] In the past 7 days, have you read anything on Facebook about a presidential candidate? If so, who?
+RANGE: -1 to 1
+	N	Mean	Std. Deviation
+Total	5750	-0.235	0.579
+-1) Inapplicable, legitimate skip	1798	31.3
+0) No	3503	60.9
+1) Yes	449	7.8
+
+
+275) FBSE
+[Another presidential candidate] In the past 7 days, have you read anything on Facebook about a presidential candidate? If so, who?
+RANGE: -1 to 1
+	N	Mean	Std. Deviation
+Total	5750	-0.275	0.524
+-1) Inapplicable, legitimate skip	1798	31.3
+0) No	3735	65.0
+1) Yes	217	3.8
+
+
+276) FBNONE
+[Did not read anything on Facebook about a presidential candidate] In the past 7 days, have you read anything on Facebook about a presidential candidate? If so, who?
+RANGE: -1 to 1
+	N	Mean	Std. Deviation
+Total	5750	-0.056	0.753
+-1) Inapplicable, legitimate skip	1798	31.3
+0) No	2474	43.0
+1) Yes	1478	25.7
+
+
+277) FBSKP
+[SKIPPED ON WEB] In the past 7 days, have you read anything on Facebook about a presidential candidate? If so, who?
+RANGE: -1 to 1
+	N	Mean	Std. Deviation
+Total	5750	-0.312	0.465
+-1) Inapplicable, legitimate skip	1798	31.3
+0) No	3948	68.7
+1) Yes	4	0.1
+
+
+278) FBFILLER
+How often do you post messages about politics or elections on Facebook?
+RANGE: -7 to 4
+	N	Mean	Std. Deviation
+Total	5750	-0.227	1.194
+-7) No answer	3	0.1
+-1) Inapplicable, legitimate skip	3870	67.3
+1) Never	1366	23.8
+2) Less than one day per week	360	6.3
+3) 1 to 6 days per week	106	1.8
+4) Every day	45	0.8
+
+
+279) TOTAL_TIME_USAGE
+[TOTAL TIME] Time spent on FB1 to FBFILLER
+RANGE: -1 to 871
+	N	Mean	Std. Deviation
+Total	5750	22.95	33.636
+
+
+280) W2START
+Pre-election questionnaire w2starting date and time, YYYYMMDDHHMMSS [Note: -6 = Unit nonresponse]
+RANGE: -6 to 20210101150915
+	N	Mean	Std. Deviation
+Total	5750	18722042257565.8	5262706825999.04
+
+
+281) W2END
+Pre-election questionnaire w2ending date and time, YYYYMMDDHHMMSS [Note: -6 = Unit nonresponse]
+RANGE: -6 to 20210101153600
+	N	Mean	Std. Deviation
+Total	5750	18722044479235.1	5262707450518.64
+
+
+282) W2DURATION
+Time spent in survey, in minutes
+RANGE: -6 to 287
+	N	Mean	Std. Deviation
+Total	5750	25.642	17.649
+
+
+283) W2SURV_MODE
+Survey interview mode (online or phone)
+RANGE: -6 to 2
+	N	Mean	Std. Deviation
+Total	5750	1.414	2.084
+-6) Unit nonresponse	421	7.3
+2) Web Interview	5329	92.7
+
+
+284) W2SURV_LANG
+Survey interview language
+RANGE: -6 to 1
+	N	Mean	Std. Deviation
+Total	5750	0.487	1.824
+-6) Unit nonresponse	421	7.3
+1) English	5329	92.7
+
+
+285) W2DEVICE
+Device
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	5750	0	0
+
+
+286) W2P_FBUSER
+[DATA ONLY VARIABLE: FBUSER status at W1]
+RANGE: -6 to 1
+	N	Mean	Std. Deviation
+Total	5750	0.223	1.803
+-6) Unit nonresponse	421	7.3
+0) Not W1 FB User	1518	26.4
+1) W1 FB User	3811	66.3
+
+
+287) W2P_STAT
+[DATA ONLY VARIABLE: Facebook enrollment status at W1]
+RANGE: -6 to 1
+	N	Mean	Std. Deviation
+Total	5750	-0.094	1.724
+-6) Unit nonresponse	421	7.3
+0) Did not complete FB enrollment	3343	58.1
+1) Completed FB enrollment	1986	34.5
+
+
+288) W2P_RAND_CONSENT
+[DATA ONLY VARIABLE: Random assignment of Facebook consent]
+RANGE: -6 to 2
+	N	Mean	Std. Deviation
+Total	5750	0.962	2.015
+-6) Unit nonresponse	421	7.3
+1) Consent first	2598	45.2
+2) Consent last	2731	47.5
+
+
+289) W2P_RAND_16
+[DATA ONLY VARIABLE: Random assignment of RAND_16]
+RANGE: -6 to 2
+	N	Mean	Std. Deviation
+Total	5750	0.949	2.012
+-6) Unit nonresponse	421	7.3
+1) 	2674	46.5
+2) 	2655	46.2
+
+
+290) W2P_DEMOCRAT1
+[DATA ONLY VARIABLE: Joe Biden]
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	5750	0	0
+
+
+291) W2P_DEMOCRAT2
+[DATA ONLY VARIABLE: Bernie Sanders]
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	5750	0	0
+
+
+292) W2P_RAND_EMOTION
+[DATA ONLY VARIABLE: Random assignment of RAND_EMOTION]
+RANGE: -6 to 1
+	N	Mean	Std. Deviation
+Total	5750	0.024	1.76
+-6) Unit nonresponse	421	7.3
+0) 	2666	46.4
+1) 	2663	46.3
+
+
+293) W2P_RAND_LIBCON
+[DATA ONLY VARIABLE: Random assignment of RAND_LIBCON]
+RANGE: -6 to 1
+	N	Mean	Std. Deviation
+Total	5750	0.031	1.762
+-6) Unit nonresponse	421	7.3
+0) 	2626	45.7
+1) 	2703	47.0
+
+
+294) W2P_RAND_PID
+[DATA ONLY VARIABLE: Random assignment of RAND_PID]
+RANGE: -6 to 2
+	N	Mean	Std. Deviation
+Total	5750	0.947	2.011
+-6) Unit nonresponse	421	7.3
+1) 	2687	46.7
+2) 	2642	45.9
+
+
+295) W2P_RAND_STEREO
+[DATA ONLY VARIABLE: Random assignment of RAND_STEREO]
+RANGE: -6 to 1
+	N	Mean	Std. Deviation
+Total	5750	0.023	1.76
+-6) Unit nonresponse	421	7.3
+0) 	2673	46.5
+1) 	2656	46.2
+
+
+296) W2P_RAND_PK
+[DATA ONLY VARIABLE: Random assignment of RAND_PK]
+RANGE: -6 to 2
+	N	Mean	Std. Deviation
+Total	5750	0.944	2.01
+-6) Unit nonresponse	421	7.3
+1) 	2704	47.0
+2) 	2625	45.7
+
+
+297) W2P_RAND_IMPEACH
+[DATA ONLY VARIABLE: Random assignment of RAND_IMPEACH]
+RANGE: -6 to 1
+	N	Mean	Std. Deviation
+Total	5750	0.036	1.764
+-6) Unit nonresponse	421	7.3
+0) 	2597	45.2
+1) 	2732	47.5
+
+
+298) W2P_RAND_EMP
+[DATA ONLY VARIABLE: Random assignment of RAND_EMP]
+RANGE: -6 to 2
+	N	Mean	Std. Deviation
+Total	5750	0.949	2.012
+-6) Unit nonresponse	421	7.3
+1) 	2677	46.6
+2) 	2652	46.1
+
+
+299) W2FBUSER
+Do you have a Facebook account that you have used in the past month, a Facebook account that you have not used in the past month, or do you not have a Facebook account?
+RANGE: -6 to 3
+	N	Mean	Std. Deviation
+Total	5750	-0.431	2.344
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	3764	65.5
+1) Have a Facebook account I have used in the past month	157	2.7
+2) Have a Facebook account but have not used in the past month	101	1.8
+3) Do not have a Facebook account	1255	21.8
+
+
+300) W2TOTAL_TIME_FBUSER
+[TOTAL TIME] Time spent on W2FBUSER
+RANGE: -6 to 657
+	N	Mean	Std. Deviation
+Total	5750	1.854	13.084
+
+
+301) W2FBCONSENT2
+Do you agree to share this information?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	-1.085	1.718
+-7) No answer	1	0.0
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	4563	79.4
+1) Yes, I agree to allow Facebook to share this information	254	4.4
+2) No, I do not agree	459	8.0
+
+
+302) W2TOTAL_TIME_CONSENT
+[TOTAL TIME] Time spent on W2FBCONSENT1 to W2FBCONSENT3
+RANGE: -6 to 84332
+	N	Mean	Std. Deviation
+Total	5750	155.064	2365.092
+
+
+303) W2FBCONSENT2_2
+Do you agree to share this information?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	-0.776	1.952
+-7) No answer	1	0.0
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	3950	68.7
+1) Yes, I agree to allow Facebook to share this information	320	5.6
+2) No, I do not agree	1006	17.5
+
+
+304) W2TOTAL_TIME_FBCONSENT
+[TOTAL TIME] Total time spent on W2FBCONSENT1_2 to W2FBCONSENT3_2
+RANGE: -6 to 27294
+	N	Mean	Std. Deviation
+Total	5750	20.72	414.835
+
+
+305) W2POLATTREV
+How often do you pay attention to what's going on in government and politics?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.51	2.448
+-7) No answer	3	0.1
+-6) Unit nonresponse	473	8.2
+1) Always	1379	24.0
+2) Most of the time	2274	39.5
+3) About half the time	914	15.9
+4) Some of the time	665	11.6
+5) Never	42	0.7
+
+
+306) W2TOTAL_TIME_POLATTREV
+[TOTAL TIME] Time spent on W2POLATTREV
+RANGE: -6 to 751
+	N	Mean	Std. Deviation
+Total	5750	7.245	20.154
+
+
+307) W2REG
+Are you now registered to vote, or are you not registered?
+RANGE: -7 to 3
+	N	Mean	Std. Deviation
+Total	5750	0.491	1.969
+-7) No answer	1	0.0
+-6) Unit nonresponse	473	8.2
+1) Registered	4964	86.3
+2) Not registered	233	4.1
+3) Not sure	79	1.4
+
+
+308) W2REGLOC1
+Where are you registered to vote?
+RANGE: -7 to 3
+	N	Mean	Std. Deviation
+Total	5750	0.414	2.052
+-7) No answer	15	0.3
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	317	5.5
+1) At [P_MAILADDRESS] [P_CITY],  [S_STATE] [P_ZIP]	4299	74.8
+2) At another address	598	10.4
+3) Not sure	48	0.8
+
+
+309) W2REGSTATE
+In what state are you registered to vote now?
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	5750	0	0
+
+
+310) W2TOTAL_TIME_VOTER
+[TOTAL TIME] Time spent on W2REG to W2REGSTATE
+RANGE: -6 to 48368
+	N	Mean	Std. Deviation
+Total	5750	53.934	1026.87
+
+
+311) W2TURNOUT
+In talking to people about elections, we often find that a lot of people were not able to vote because they weren't registered, they were sick, or they just didn't have time.  Which of the following statements best describes you?
+RANGE: -7 to 4
+	N	Mean	Std. Deviation
+Total	5750	2.904	2.79
+-7) No answer	3	0.1
+-6) Unit nonresponse	473	8.2
+1) I did not vote (in the election this November)	340	5.9
+2) I thought about voting this time, but didn't	212	3.7
+3) I usually vote, but didn't this time	94	1.6
+4) I am sure I voted	4628	80.5
+
+
+312) W2PRESVT
+How about the election for President? Did you vote for a candidate for president?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	0.209	1.97
+-7) No answer	1	0.0
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	649	11.3
+1) Yes, voted for president	4558	79.3
+2) No, didn't vote for president	69	1.2
+
+
+313) W2PRESVTWHO
+[If W2PREVT =1] Who did you vote for?
+RANGE: -7 to 3
+	N	Mean	Std. Deviation
+Total	5750	0.644	2.291
+-7) No answer	25	0.4
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	719	12.5
+1) Donald Trump	1801	31.3
+2) Joe Biden	2561	44.5
+3) Other candidate	171	3.0
+
+
+314) W2PREPREF
+Who, if anyone, did you prefer for President?
+RANGE: -7 to 4
+	N	Mean	Std. Deviation
+Total	5750	-1.029	1.835
+-7) No answer	1	0.0
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	4561	79.3
+1) Donald Trump	240	4.2
+2) Joe Biden	269	4.7
+3) Someone else	114	2.0
+4) No preference	92	1.6
+
+
+315) W2HSVOTE
+How about the election for the U.S. House of Representatives? Did you vote for a candidate for the U.S. House of Representatives?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	0.566	2.012
+-7) No answer	5	0.1
+-6) Unit nonresponse	473	8.2
+1) Yes, voted for U.S. House of Representatives	4419	76.9
+2) No, didn't vote for U.S. House of Representatives	853	14.8
+
+
+316) W2HSWHO
+[If W2HSVOTE = 1] For whom did you vote for the U.S. House of Representatives?
+RANGE: -7 to 3
+	N	Mean	Std. Deviation
+Total	5750	0.46	2.214
+-7) No answer	16	0.3
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	858	14.9
+1) The Democratic candidate	2445	42.5
+2) The Republican candidate	1866	32.5
+3) Another candidate	92	1.6
+
+
+317) W2SENVOTE
+How about the election for the U.S. Senate? Did you vote for a candidate for the U.S. Senate?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	-0.35	2.001
+-7) No answer	5	0.1
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2400	41.7
+1) Yes, voted for U.S. Senate	2483	43.2
+2) No, didn't vote for U.S. Senate	389	6.8
+
+
+318) W2SENWHO
+[If W2SENVOTE=1] For whom did you vote for the U.S. Senate?
+RANGE: -7 to 3
+	N	Mean	Std. Deviation
+Total	5750	-0.349	2.107
+-7) No answer	5	0.1
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2794	48.6
+1) The Democratic candidate	1362	23.7
+2) The Republican candidate	1049	18.2
+3) Another candidate	67	1.2
+
+
+319) W2TOTAL_TIME_TURNOUT
+[TOTAL TIME] Time spent on W2TURNOUT to W2SENWHO
+RANGE: -6 to 56984
+	N	Mean	Std. Deviation
+Total	5750	106.373	1290.03
+
+
+320) W2FT_ORDER1
+[POSITION 1] DATA ONLY VARIABLE: Randomization of W2FTDEM to W2FTFEMINISTS
+RANGE: -6 to 10
+	N	Mean	Std. Deviation
+Total	5750	4.559	4.191
+-6) Unit nonresponse	473	8.2
+1) W2ftdem	549	9.5
+2) W2ftrep	514	8.9
+3) W2ftgay	483	8.4
+4) W2ftsocialists	551	9.6
+5) W2ftcapitalists	529	9.2
+6) W2ftpolice	544	9.5
+7) W2ftjournal	531	9.2
+8) W2fttrans	511	8.9
+9) W2ftcongress	544	9.5
+10) W2ftfeminists	521	9.1
+
+
+321) W2FT_ORDER2
+[POSITION 2] DATA ONLY VARIABLE: Randomization of W2FTDEM to W2FTFEMINISTS
+RANGE: -6 to 10
+	N	Mean	Std. Deviation
+Total	5750	4.588	4.198
+-6) Unit nonresponse	473	8.2
+1) W2ftdem	484	8.4
+2) W2ftrep	536	9.3
+3) W2ftgay	589	10.2
+4) W2ftsocialists	505	8.8
+5) W2ftcapitalists	491	8.5
+6) W2ftpolice	510	8.9
+7) W2ftjournal	560	9.7
+8) W2fttrans	527	9.2
+9) W2ftcongress	525	9.1
+10) W2ftfeminists	550	9.6
+
+
+322) W2FT_ORDER3
+[POSITION 3] DATA ONLY VARIABLE: Randomization of W2FTDEM to W2FTFEMINISTS
+RANGE: -6 to 10
+	N	Mean	Std. Deviation
+Total	5750	4.5	4.155
+-6) Unit nonresponse	473	8.2
+1) W2ftdem	536	9.3
+2) W2ftrep	498	8.7
+3) W2ftgay	536	9.3
+4) W2ftsocialists	559	9.7
+5) W2ftcapitalists	587	10.2
+6) W2ftpolice	535	9.3
+7) W2ftjournal	525	9.1
+8) W2fttrans	500	8.7
+9) W2ftcongress	494	8.6
+10) W2ftfeminists	507	8.8
+
+
+323) W2FT_ORDER4
+[POSITION 4] DATA ONLY VARIABLE: Randomization of W2FTDEM to W2FTFEMINISTS
+RANGE: -6 to 10
+	N	Mean	Std. Deviation
+Total	5750	4.594	4.209
+-6) Unit nonresponse	473	8.2
+1) W2ftdem	518	9.0
+2) W2ftrep	554	9.6
+3) W2ftgay	511	8.9
+4) W2ftsocialists	483	8.4
+5) W2ftcapitalists	516	9.0
+6) W2ftpolice	535	9.3
+7) W2ftjournal	529	9.2
+8) W2fttrans	552	9.6
+9) W2ftcongress	536	9.3
+10) W2ftfeminists	543	9.4
+
+
+324) W2FT_ORDER5
+[POSITION 5] DATA ONLY VARIABLE: Randomization of W2FTDEM to W2FTFEMINISTS
+RANGE: -6 to 10
+	N	Mean	Std. Deviation
+Total	5750	4.594	4.209
+-6) Unit nonresponse	473	8.2
+1) W2ftdem	526	9.1
+2) W2ftrep	529	9.2
+3) W2ftgay	495	8.6
+4) W2ftsocialists	547	9.5
+5) W2ftcapitalists	511	8.9
+6) W2ftpolice	518	9.0
+7) W2ftjournal	510	8.9
+8) W2fttrans	551	9.6
+9) W2ftcongress	547	9.5
+10) W2ftfeminists	543	9.4
+
+
+325) W2FT_ORDER6
+[POSITION 6] DATA ONLY VARIABLE: Randomization of W2FTDEM to W2FTFEMINISTS
+RANGE: -6 to 10
+	N	Mean	Std. Deviation
+Total	5750	4.504	4.173
+-6) Unit nonresponse	473	8.2
+1) W2ftdem	541	9.4
+2) W2ftrep	531	9.2
+3) W2ftgay	552	9.6
+4) W2ftsocialists	518	9.0
+5) W2ftcapitalists	526	9.1
+6) W2ftpolice	540	9.4
+7) W2ftjournal	533	9.3
+8) W2fttrans	525	9.1
+9) W2ftcongress	504	8.8
+10) W2ftfeminists	507	8.8
+
+
+326) W2FT_ORDER7
+[POSITION 7] DATA ONLY VARIABLE: Randomization of W2FTDEM to W2FTFEMINISTS
+RANGE: -6 to 10
+	N	Mean	Std. Deviation
+Total	5750	4.547	4.188
+-6) Unit nonresponse	473	8.2
+1) W2ftdem	525	9.1
+2) W2ftrep	528	9.2
+3) W2ftgay	522	9.1
+4) W2ftsocialists	544	9.5
+5) W2ftcapitalists	553	9.6
+6) W2ftpolice	518	9.0
+7) W2ftjournal	508	8.8
+8) W2fttrans	514	8.9
+9) W2ftcongress	532	9.3
+10) W2ftfeminists	533	9.3
+
+
+327) W2FT_ORDER8
+[POSITION 8] DATA ONLY VARIABLE: Randomization of W2FTDEM to W2FTFEMINISTS
+RANGE: -6 to 10
+	N	Mean	Std. Deviation
+Total	5750	4.546	4.185
+-6) Unit nonresponse	473	8.2
+1) W2ftdem	527	9.2
+2) W2ftrep	537	9.3
+3) W2ftgay	513	8.9
+4) W2ftsocialists	517	9.0
+5) W2ftcapitalists	569	9.9
+6) W2ftpolice	513	8.9
+7) W2ftjournal	529	9.2
+8) W2fttrans	522	9.1
+9) W2ftcongress	530	9.2
+10) W2ftfeminists	520	9.0
+
+
+328) W2FT_ORDER9
+[POSITION 9] DATA ONLY VARIABLE: Randomization of W2FTDEM to W2FTFEMINISTS
+RANGE: -6 to 10
+	N	Mean	Std. Deviation
+Total	5750	4.595	4.215
+-6) Unit nonresponse	473	8.2
+1) W2ftdem	552	9.6
+2) W2ftrep	501	8.7
+3) W2ftgay	505	8.8
+4) W2ftsocialists	529	9.2
+5) W2ftcapitalists	498	8.7
+6) W2ftpolice	551	9.6
+7) W2ftjournal	502	8.7
+8) W2fttrans	525	9.1
+9) W2ftcongress	575	10.0
+10) W2ftfeminists	539	9.4
+
+
+329) W2FT_ORDER10
+[POSITION 10] DATA ONLY VARIABLE: Randomization of W2FTDEM to W2FTFEMINISTS
+RANGE: -6 to 10
+	N	Mean	Std. Deviation
+Total	5750	4.513	4.176
+-6) Unit nonresponse	473	8.2
+1) W2ftdem	519	9.0
+2) W2ftrep	549	9.5
+3) W2ftgay	571	9.9
+4) W2ftsocialists	524	9.1
+5) W2ftcapitalists	497	8.6
+6) W2ftpolice	513	8.9
+7) W2ftjournal	550	9.6
+8) W2fttrans	550	9.6
+9) W2ftcongress	490	8.5
+10) W2ftfeminists	514	8.9
+
+
+330) W2FTDEM
+How would you rate the Democratic Party? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	45.838	34.598
+
+
+331) W2FTREP
+How would you rate the Republican Party? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	39.956	33.623
+
+
+332) W2FTGAY
+How would you rate gays and lesbians? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	59.713	32.631
+
+
+333) W2FTSOCIALISTS
+How would you rate socialists? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	34.424	29.832
+
+
+334) W2FTCAPITALISTS
+How would you rate capitalists? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	48.595	28.984
+
+
+335) W2FTPOLICE
+How would you rate the police? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	62.147	32.418
+
+
+336) W2FTJOURNAL
+How would you rate journalists? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	47.741	31.462
+
+
+337) W2FTTRANS
+How would you rate transgender people? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	54.008	32.617
+
+
+338) W2FTCONGRESS
+How would you rate the U.S. Congress? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	40.133	24.853
+
+
+339) W2FTFEMINISTS
+How would you rate feminists? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	52.038	31.811
+
+
+340) W2TOTAL_TIME_FT
+[TOTAL TIME] Time spent on W2FTDEM to W2FTFEMINISTS
+RANGE: -6 to 68114
+	N	Mean	Std. Deviation
+Total	5750	327.629	2381.668
+
+
+341) W2TPT_D_D
+How do you think the typical Democratic voter would rate the Democratic Party? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	72.583	30.085
+
+
+342) W2TPT_D_R
+How do you think the typical Democratic voter would rate the Republican Party? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	20.451	22.721
+
+
+343) W2TPT_D_DT
+How do you think the typical Democratic voter would rate Donald Trump? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	10.015	17.571
+
+
+344) W2TPT_R_D
+How do you think the typical Republican voter would rate the Democratic Party? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	17.347	20.005
+
+
+345) W2TPT_R_R
+How do you think the typical Republican voter would rate the Republican Party? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	75.198	30.955
+
+
+346) W2TPT_R_DT
+How do you think the typical Republican voter would rate Donald Trump? [INTERFACE: FT WIDGET.]
+RANGE: -7 to 100
+	N	Mean	Std. Deviation
+Total	5750	71.605	30.87
+
+
+347) W2TOTAL_TIME_TPT
+[TOTAL TIME] Time spent on W2TPTINTRO to W2TPT_R_DT
+RANGE: -6 to 46344
+	N	Mean	Std. Deviation
+Total	5750	136.751	1145
+
+
+348) W2GE_ORDER1
+[POSITION 1] DATA ONLY VARIABLE: Randomization of W2GE_HOPEFUL to W2GE_WORRIED. Generally speaking, how do you feel about the way things are going in the country these days?
+RANGE: -6 to 6
+	N	Mean	Std. Deviation
+Total	5750	0.667	3.166
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2641	45.9
+1) How hopeful do you feel?	405	7.0
+2) How afraid do you feel?	459	8.0
+3) How outraged do you feel?	438	7.6
+4) How angry do you feel?	442	7.7
+5) How happy do you feel?	441	7.7
+6) How worried do you feel?	451	7.8
+
+
+349) W2GE_ORDER2
+[POSITION 2] DATA ONLY VARIABLE: Randomization of W2GE_HOPEFUL to W2GE_WORRIED. Generally speaking, how do you feel about the way things are going in the country these days?
+RANGE: -6 to 6
+	N	Mean	Std. Deviation
+Total	5750	0.665	3.167
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2641	45.9
+1) How hopeful do you feel?	426	7.4
+2) How afraid do you feel?	455	7.9
+3) How outraged do you feel?	400	7.0
+4) How angry do you feel?	459	8.0
+5) How happy do you feel?	448	7.8
+6) How worried do you feel?	448	7.8
+
+
+350) W2GE_ORDER3
+[POSITION 3] DATA ONLY VARIABLE: Randomization of W2GE_HOPEFUL to W2GE_WORRIED. Generally speaking, how do you feel about the way things are going in the country these days?
+RANGE: -6 to 6
+	N	Mean	Std. Deviation
+Total	5750	0.657	3.158
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2641	45.9
+1) How hopeful do you feel?	431	7.5
+2) How afraid do you feel?	437	7.6
+3) How outraged do you feel?	444	7.7
+4) How angry do you feel?	448	7.8
+5) How happy do you feel?	431	7.5
+6) How worried do you feel?	445	7.7
+
+
+351) W2GE_ORDER4
+[POSITION 4] DATA ONLY VARIABLE: Randomization of W2GE_HOPEFUL to W2GE_WORRIED. Generally speaking, how do you feel about the way things are going in the country these days?
+RANGE: -6 to 6
+	N	Mean	Std. Deviation
+Total	5750	0.626	3.133
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2641	45.9
+1) How hopeful do you feel?	479	8.3
+2) How afraid do you feel?	419	7.3
+3) How outraged do you feel?	458	8.0
+4) How angry do you feel?	427	7.4
+5) How happy do you feel?	437	7.6
+6) How worried do you feel?	416	7.2
+
+
+352) W2GE_ORDER5
+[POSITION 5] DATA ONLY VARIABLE: Randomization of W2GE_HOPEFUL to W2GE_WORRIED. Generally speaking, how do you feel about the way things are going in the country these days?
+RANGE: -6 to 6
+	N	Mean	Std. Deviation
+Total	5750	0.644	3.147
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2641	45.9
+1) How hopeful do you feel?	444	7.7
+2) How afraid do you feel?	434	7.5
+3) How outraged do you feel?	462	8.0
+4) How angry do you feel?	428	7.4
+5) How happy do you feel?	436	7.6
+6) How worried do you feel?	432	7.5
+
+
+353) W2GE_ORDER6
+[POSITION 6] DATA ONLY VARIABLE: Randomization of W2GE_HOPEFUL to W2GE_WORRIED. Generally speaking, how do you feel about the way things are going in the country these days?
+RANGE: -6 to 6
+	N	Mean	Std. Deviation
+Total	5750	0.651	3.157
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2641	45.9
+1) How hopeful do you feel?	451	7.8
+2) How afraid do you feel?	432	7.5
+3) How outraged do you feel?	434	7.5
+4) How angry do you feel?	432	7.5
+5) How happy do you feel?	443	7.7
+6) How worried do you feel?	444	7.7
+
+
+354) W2GEHOPEFUL
+[How hopeful do you feel?] Generally speaking, how do you feel about the way things are going in the country these days?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.309	2.704
+-7) No answer	2	0.0
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2641	45.9
+1) Not at all	313	5.4
+2) A little	716	12.5
+3) Somewhat	1015	17.7
+4) Very	470	8.2
+5) Extremely	120	2.1
+
+
+355) W2GEAFRAID
+[How afraid do you feel?] Generally speaking, how do you feel about the way things are going in the country these days?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.257	2.688
+-7) No answer	3	0.1
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2641	45.9
+1) Not at all	491	8.5
+2) A little	762	13.3
+3) Somewhat	760	13.2
+4) Very	419	7.3
+5) Extremely	201	3.5
+
+
+356) W2GEOUTRAGED
+[How outraged do you feel?] Generally speaking, how do you feel about the way things are going in the country these days?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.423	2.861
+-7) No answer	2	0.0
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2641	45.9
+1) Not at all	444	7.7
+2) A little	505	8.8
+3) Somewhat	670	11.7
+4) Very	616	10.7
+5) Extremely	399	6.9
+
+
+357) W2GEANGRY
+[How angry do you feel?] Generally speaking, how do you feel about the way things are going in the country these days?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.372	2.802
+-7) No answer	3	0.1
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2641	45.9
+1) Not at all	388	6.7
+2) A little	654	11.4
+3) Somewhat	729	12.7
+4) Very	556	9.7
+5) Extremely	306	5.3
+
+
+358) W2GEHAPPY
+[How happy do you feel?] Generally speaking, how do you feel about the way things are going in the country these days?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.285	2.69
+-7) No answer	4	0.1
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2641	45.9
+1) Not at all	372	6.5
+2) A little	666	11.6
+3) Somewhat	1029	17.9
+4) Very	468	8.1
+5) Extremely	97	1.7
+
+
+359) W2GEWORRIED
+[How worried do you feel?] Generally speaking, how do you feel about the way things are going in the country these days?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.465	2.87
+-7) No answer	3	0.1
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2641	45.9
+1) Not at all	189	3.3
+2) A little	676	11.8
+3) Somewhat	774	13.5
+4) Very	659	11.5
+5) Extremely	335	5.8
+
+
+360) W2TOTAL_TIME_GE
+[TOTAL TIME] Time spent on W2GE_HOPEFUL to W2GE_WORRIED
+RANGE: -6 to 1324
+	N	Mean	Std. Deviation
+Total	5750	15.774	41.851
+
+
+361) W2APPPRES
+How much do you approve or disapprove of the way Donald Trump is handling his job as president
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	3.824	3.752
+-7) No answer	2	0.0
+-6) Unit nonresponse	473	8.2
+1) Approve extremely strongly	753	13.1
+2) Approve moderately strongly	827	14.4
+3) Approve slightly	457	7.9
+4) Neither approve nor disapprove	246	4.3
+5) Disapprove slightly	216	3.8
+6) Disapprove moderately strongly	434	7.5
+7) Disapprove extremely strongly	2342	40.7
+
+
+362) W2APPCORONA
+How much do you approve or disapprove of the way Donald Trump is handling the coronavirus pandemic?
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	4.002	3.748
+-7) No answer	4	0.1
+-6) Unit nonresponse	473	8.2
+1) Approve extremely strongly	571	9.9
+2) Approve moderately strongly	794	13.8
+3) Approve slightly	432	7.5
+4) Neither approve nor disapprove	331	5.8
+5) Disapprove slightly	251	4.4
+6) Disapprove moderately strongly	414	7.2
+7) Disapprove extremely strongly	2480	43.1
+
+
+363) W2TOTAL_TIME_TRUMP
+[TOTAL TIME] Time spent on W2APPRES to W2APPCORONA
+RANGE: -6 to 22224
+	N	Mean	Std. Deviation
+Total	5750	33.615	373.285
+
+
+364) W2ECNOW
+How would you rate the state of the economy these days in the United States?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.398	2.735
+-7) No answer	1	0.0
+-6) Unit nonresponse	473	8.2
+1) Very good	378	6.6
+2) Good	1256	21.8
+3) Neither good nor bad	1373	23.9
+4) Bad	1721	29.9
+5) Very bad	548	9.5
+
+
+365) W2ECONNOW
+Would you say that as compared to one year ago, the nation's economy is now better, the same, or worse?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.038	2.894
+-7) No answer	1	0.0
+-6) Unit nonresponse	473	8.2
+1) Much better	163	2.8
+2) Somewhat better	545	9.5
+3) The same	798	13.9
+4) Somewhat worse	2183	38.0
+5) Much worse	1587	27.6
+
+
+366) W2ECON12MO
+What about 12 months from now? Compared to now, do you think the nation's economy will be better, the same, or worse in 12 months?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.007	2.672
+-7) No answer	13	0.2
+-6) Unit nonresponse	473	8.2
+1) Much better	463	8.1
+2) Somewhat better	2316	40.3
+3) The same	1062	18.5
+4) Somewhat worse	925	16.1
+5) Much worse	498	8.7
+
+
+367) W2PERSFIN
+How worried are you about your personal financial situation?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.707	2.554
+-7) No answer	4	0.1
+-6) Unit nonresponse	473	8.2
+1) Not at all worried	1100	19.1
+2) A little worried	2112	36.7
+3) Moderately worried	1240	21.6
+4) Very worried	465	8.1
+5) Extremely worried	356	6.2
+
+
+368) W2TOTAL_TIME_ECONOMY
+[TOTAL TIME] Time spent on W2ECNOW to W2PERSFIN
+RANGE: -6 to 76887
+	N	Mean	Std. Deviation
+Total	5750	67.983	1072.369
+
+
+369) W2LCSELF
+[You] When it comes to politics, would you describe yourself, and these groups, as liberal, conservative, or neither liberal nor conservative?
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	3.185	3.294
+-7) No answer	13	0.2
+-6) Unit nonresponse	473	8.2
+1) Very liberal	535	9.3
+2) Somewhat liberal	708	12.3
+3) Closer to liberals	738	12.8
+4) Neither liberal nor conservative	1258	21.9
+5) Closer to conservatives	678	11.8
+6) Somewhat conservative	772	13.4
+7) Very conservative	575	10.0
+
+
+370) W2LCD
+[The Democratic Party] When it comes to politics, would you describe yourself, and these groups, as liberal, conservative, or neither liberal nor conservative?
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	1.616	2.65
+-7) No answer	11	0.2
+-6) Unit nonresponse	473	8.2
+1) Very liberal	1837	31.9
+2) Somewhat liberal	1427	24.8
+3) Closer to liberals	1052	18.3
+4) Neither liberal nor conservative	605	10.5
+5) Closer to conservatives	199	3.5
+6) Somewhat conservative	77	1.3
+7) Very conservative	69	1.2
+
+
+371) W2LCR
+[The Republican Party] When it comes to politics, would you describe yourself, and these groups, as liberal, conservative, or neither liberal nor conservative?
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	4.802	3.529
+-7) No answer	9	0.2
+-6) Unit nonresponse	473	8.2
+1) Very liberal	98	1.7
+2) Somewhat liberal	85	1.5
+3) Closer to liberals	163	2.8
+4) Neither liberal nor conservative	538	9.4
+5) Closer to conservatives	748	13.0
+6) Somewhat conservative	1586	27.6
+7) Very conservative	2050	35.7
+
+
+372) W2LCDT
+[Donald Trump] When it comes to politics, would you describe yourself, and these groups, as liberal, conservative, or neither liberal nor conservative?
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	1.616	4.027
+-7) No answer	5	0.1
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2604	45.3
+1) Very liberal	109	1.9
+2) Somewhat liberal	53	0.9
+3) Closer to liberals	68	1.2
+4) Neither liberal nor conservative	419	7.3
+5) Closer to conservatives	391	6.8
+6) Somewhat conservative	679	11.8
+7) Very conservative	949	16.5
+
+
+373) W2LCD1
+[Joe Biden] When it comes to politics, would you describe yourself, and these groups, as liberal, conservative, or neither liberal nor conservative?
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	0.224	2.694
+-7) No answer	5	0.1
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2604	45.3
+1) Very liberal	697	12.1
+2) Somewhat liberal	753	13.1
+3) Closer to liberals	675	11.7
+4) Neither liberal nor conservative	318	5.5
+5) Closer to conservatives	136	2.4
+6) Somewhat conservative	39	0.7
+7) Very conservative	50	0.9
+
+
+374) W2TOTAL_TIME_PLACEMENTS
+[TOTAL TIME] Time spent on W2LC_SELF to W2LC_D2
+RANGE: -6 to 31872
+	N	Mean	Std. Deviation
+Total	5750	74.708	880.685
+
+
+375) W2DTCARE
+Think about Donald Trump. How well is Donald Trump described by the phrase, 'Donald Trump really cares about people like you'?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.003	3.065
+-7) No answer	3	0.1
+-6) Unit nonresponse	473	8.2
+1) Extremely well	681	11.8
+2) Very well	608	10.6
+3) Moderately well	601	10.5
+4) Slightly well	491	8.5
+5) Not well at all	2893	50.3
+
+
+376) W2DTHONEST
+How well is Donald Trump described by the phrase, 'Donald Trump is honest'?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.203	3.051
+-7) No answer	5	0.1
+-6) Unit nonresponse	473	8.2
+1) Extremely well	350	6.1
+2) Very well	567	9.9
+3) Moderately well	717	12.5
+4) Slightly well	532	9.3
+5) Not well at all	3106	54.0
+
+
+377) W2DEM1CARE
+How well is Joe Biden described by the phrase 'Joe Biden really cares about people like you'?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.447	2.865
+-7) No answer	4	0.1
+-6) Unit nonresponse	473	8.2
+1) Extremely well	720	12.5
+2) Very well	1073	18.7
+3) Moderately well	1180	20.5
+4) Slightly well	971	16.9
+5) Not well at all	1329	23.1
+
+
+378) W2DEM1HONEST
+How well is Joe Biden described by the phrase, 'Joe Biden is honest'?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.485	2.905
+-7) No answer	7	0.1
+-6) Unit nonresponse	473	8.2
+1) Extremely well	731	12.7
+2) Very well	1093	19.0
+3) Moderately well	1068	18.6
+4) Slightly well	838	14.6
+5) Not well at all	1540	26.8
+
+
+379) W2TOTAL_TIME_CANDIDATE
+[TOTAL TIME] Time spent on W2DTCARE to W2DEM1HONEST
+RANGE: -6 to 29650
+	N	Mean	Std. Deviation
+Total	5750	52.382	469.187
+
+
+380) W2COVID_FED
+Has the U.S. federal government response to coronavirus been too fast, too slow, or just right?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.281	2.951
+-7) No answer	7	0.1
+-6) Unit nonresponse	473	8.2
+1) Much too fast	62	1.1
+2) A little too fast	161	2.8
+3) Just right	1244	21.6
+4) A little too slow	1376	23.9
+5) Much too slow	2427	42.2
+
+
+381) W2COVID_US
+Compared to most other countries, how well has the U.S. been handling coronavirus?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.918	2.975
+-7) No answer	7	0.1
+-6) Unit nonresponse	473	8.2
+1) U.S. is handling it a lot better	366	6.4
+2) U.S. is handling it a little better	819	14.2
+3) No difference	800	13.9
+4) U.S. is handling it a little worse	1166	20.3
+5) U.S. is handling it a lot worse	2119	36.9
+
+
+382) W2COVID_WORK
+Have you lost a job or worked fewer paid hours because of the coronavirus outbreak?
+RANGE: -7 to 3
+	N	Mean	Std. Deviation
+Total	5750	0.778	2.199
+-7) No answer	23	0.4
+-6) Unit nonresponse	473	8.2
+1) No change in my work hours (or increased hours)	3646	63.4
+2) Worked fewer paid hours, but did not lose a job	996	17.3
+3) Lost a job	612	10.6
+
+
+383) W2COVID_FIN
+How is your personal financial situation now compared to before the coronavirus outbreak?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.997	2.553
+-7) No answer	7	0.1
+-6) Unit nonresponse	473	8.2
+1) It is now much worse	456	7.9
+2) It is now a little worse	1342	23.3
+3) It has not changed	2793	48.6
+4) It is now a little better	544	9.5
+5) It is now much better	135	2.3
+
+
+384) W2COVID_WORRY
+How worried are you about getting sick from the coronavirus disease?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.056	2.68
+-7) No answer	1	0.0
+-6) Unit nonresponse	473	8.2
+1) Not at all	814	14.2
+2) A little	1550	27.0
+3) Moderately	1480	25.7
+4) Very	846	14.7
+5) Extremely	586	10.2
+
+
+385) W2COVID_KNOW
+Do you know someone who has become sick with the coronavirus disease?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	0.681	2.049
+-7) No answer	1	0.0
+-6) Unit nonresponse	473	8.2
+1) I know someone who has had the disease	3790	65.9
+2) I do not know anyone who has had it	1486	25.8
+
+
+386) W2COVID_CONCERN
+How concerned are you about the spread of coronavirus in the United States?
+RANGE: -6 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.771	2.883
+-6) Unit nonresponse	473	8.2
+1) Not at all	340	5.9
+2) Slightly	858	14.9
+3) Moderately	1133	19.7
+4) Very	1413	24.6
+5) Extremely	1533	26.7
+
+
+387) W2COVID_MASKREQ
+Do you favor, oppose, or neither favor nor oppose requiring everyone to wear a mask in public?
+RANGE: -6 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.291	2.53
+-6) Unit nonresponse	473	8.2
+1) Favor strongly	3058	53.2
+2) Favor somewhat	775	13.5
+3) Neither favor nor oppose	601	10.5
+4) Oppose somewhat	366	6.4
+5) Oppose strongly	477	8.3
+
+
+388) W2COVID_K12
+All things considered, what do you think K-12 schools in the area where you live should be providing now?
+RANGE: -7 to 4
+	N	Mean	Std. Deviation
+Total	5750	1.613	2.432
+-7) No answer	7	0.1
+-6) Unit nonresponse	473	8.2
+1) In-person instruction five days a week	1076	18.7
+2) Online instructions five days a week	1623	28.2
+3) A mix of in-person and online instructions	2442	42.5
+4) Something else	129	2.2
+
+
+389) W2COVID_S1
+[The risk that people will get or spread the coronavirus.] In deciding whether schools should be open, how important are each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.274	2.454
+-7) No answer	13	0.2
+-6) Unit nonresponse	473	8.2
+1) Extremely important	2442	42.5
+2) Very important	1369	23.8
+3) Moderately important	877	15.3
+4) A little important	435	7.6
+5) Not at all important	141	2.5
+
+
+390) W2COVID_S2
+[The chance that students will fall behind academically without in-person instruction.] In deciding whether schools should be open, how important are each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.418	2.461
+-7) No answer	10	0.2
+-6) Unit nonresponse	473	8.2
+1) Extremely important	1840	32.0
+2) Very important	1682	29.3
+3) Moderately important	1244	21.6
+4) A little important	382	6.6
+5) Not at all important	119	2.1
+
+
+391) W2COVID_S3
+[Parents not being able to work if their children are at home.] In deciding whether schools should be open, how important are each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.415	2.442
+-7) No answer	8	0.1
+-6) Unit nonresponse	473	8.2
+1) Extremely important	1756	30.5
+2) Very important	1821	31.7
+3) Moderately important	1240	21.6
+4) A little important	347	6.0
+5) Not at all important	105	1.8
+
+
+392) W2COVID_DTH
+In evaluating the U.S. efforts against the coronavirus pandemic, do you consider the number of U.S. deaths from coronavirus so far to be acceptable or unacceptable?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	1.041	2.285
+-7) No answer	46	0.8
+-6) Unit nonresponse	473	8.2
+1) Acceptable	1317	22.9
+2) Unacceptable	3914	68.1
+
+
+393) W2COVID_DTH2A
+Very acceptable or somewhat acceptable?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	-0.791	1.956
+-7) No answer	7	0.1
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	3960	68.9
+1) Very	324	5.6
+2) Somewhat	986	17.1
+
+
+394) W2COVID_DTH2B
+Very unacceptable or somewhat unacceptable?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	0.108	2.108
+-7) No answer	8	0.1
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	1363	23.7
+1) Very	2935	51.0
+2) Somewhat	971	16.9
+
+
+395) W2COVID_NUMBER
+Do you think the true number of deaths from Covid-19 is more, fewer, or the same as the number reported in the news?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.27	2.802
+-7) No answer	5	0.1
+-6) Unit nonresponse	473	8.2
+1) A lot more people have died	787	13.7
+2) Somewhat more people have died	1348	23.4
+3) The news is accurate	1041	18.1
+4) Somewhat fewer people have died	1160	20.2
+5) A lot fewer people have died	936	16.3
+
+
+396) W2COVID_GATHER
+In the past 30 days, how many days have you attended an indoor gathering of 10 or more people?
+RANGE: -7 to 30
+	N	Mean	Std. Deviation
+Total	5750	1.785	5.857
+-7) No answer	20	0.3
+-6) Unit nonresponse	473	8.2
+0) 	3150	54.8
+1) 	506	8.8
+2) 	366	6.4
+3) 	206	3.6
+4) 	209	3.6
+5) 	200	3.5
+6) 	63	1.1
+7) 	29	0.5
+8) 	50	0.9
+9) 	18	0.3
+10) 	121	2.1
+11) 	2	0.0
+12) 	30	0.5
+13) 	6	0.1
+14) 	4	0.1
+15) 	52	0.9
+16) 	7	0.1
+17) 	3	0.1
+20) 	92	1.6
+21) 	1	0.0
+22) 	16	0.3
+23) 	2	0.0
+24) 	11	0.2
+25) 	24	0.4
+26) 	11	0.2
+28) 	6	0.1
+29) 	2	0.0
+30) 	70	1.2
+
+
+397) W2COVID_OUT
+In the past 30 days, how many days have you left your home for any reason?
+RANGE: -7 to 30
+	N	Mean	Std. Deviation
+Total	5750	16.482	11.781
+-7) No answer	17	0.3
+-6) Unit nonresponse	473	8.2
+0) 	82	1.4
+1) 	50	0.9
+2) 	118	2.1
+3) 	131	2.3
+4) 	161	2.8
+5) 	273	4.7
+6) 	141	2.5
+7) 	131	2.3
+8) 	141	2.5
+9) 	28	0.5
+10) 	410	7.1
+11) 	13	0.2
+12) 	130	2.3
+13) 	12	0.2
+14) 	25	0.4
+15) 	354	6.2
+16) 	26	0.5
+17) 	20	0.3
+18) 	34	0.6
+19) 	8	0.1
+20) 	621	10.8
+21) 	13	0.2
+22) 	45	0.8
+23) 	23	0.4
+24) 	56	1.0
+25) 	471	8.2
+26) 	71	1.2
+27) 	55	1.0
+28) 	182	3.2
+29) 	52	0.9
+30) 	1383	24.1
+
+
+398) W2COVID_WEARMASK
+When you leave home, how often do you wear a mask?
+RANGE: -6 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.371	3.075
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	99	1.7
+1) Never	159	2.8
+2) Some of the time	485	8.4
+3) Half the time	213	3.7
+4) Most of the time	1052	18.3
+5) Always	3269	56.9
+
+
+399) W2TOTAL_TIME_COVID19
+[TOTAL TIME] Time spent on W2COVID_FED to W2COVID_WEARMASK
+RANGE: -6 to 73899
+	N	Mean	Std. Deviation
+Total	5750	337.944	1800.916
+
+
+400) W2PID7X
+Party ID summary, Post-election
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	2.988	3.441
+-7) No answer	5	0.1
+-6) Unit nonresponse	473	8.2
+1) Strong Dem	1170	20.3
+2) Not very strong Dem	768	13.4
+3) Ind, closer to Dem	685	11.9
+4) Independent	520	9.0
+5) Ind, closer to Rep	520	9.0
+6) Not very strong to Rep	650	11.3
+7) Strong Rep	959	16.7
+
+
+401) W2PID1D
+Generally speaking, do you usually think of yourself as a Democrat, a Republican, an independent, or what?
+RANGE: -7 to 4
+	N	Mean	Std. Deviation
+Total	5750	-0.033	2.383
+-7) No answer	6	0.1
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2615	45.5
+1) Democrat	960	16.7
+2) Republican	842	14.6
+3) Independent	754	13.1
+4) Something else	100	1.7
+
+
+402) W2PID2D
+[PROGRAMMING: if PID2D is displayed, display it on the same screen as PID1D.] What is that?
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	5750	0	0
+
+
+403) W2PID1R
+Generally speaking, do you usually think of yourself as a Republican, a Democrat, an independent, or what?
+RANGE: -7 to 4
+	N	Mean	Std. Deviation
+Total	5750	-0.05	2.374
+-7) No answer	2	0.0
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2662	46.3
+1) Democrat	979	17.0
+2) Republican	769	13.4
+3) Independent	752	13.1
+4) Something else	113	2.0
+
+
+404) W2PID2R
+[PROGRAMMING: If PID2R is displayed, display it on the same screen as PID1R.] What is that?
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	5750	0	0
+
+
+405) W2PIDSTR
+Would you call yourself a strong [Democrat/Republican] or a not very strong [Democrat/Republican]?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	0.066	2.154
+-7) No answer	3	0.1
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	1727	30.0
+1) Strong [Democrat/Republican]	2129	37.0
+2) Not very strong [Democrat/Republican]	1418	24.7
+
+
+406) W2PIDLEAN
+Do you think of yourself as closer to the Republican Party or to the Democratic Party?
+RANGE: -7 to 3
+	N	Mean	Std. Deviation
+Total	5750	-0.513	2.171
+-7) No answer	2	0.0
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	3550	61.7
+1) Closer to the Republican Party	520	9.0
+2) Closer to the Democratic Party	685	11.9
+3) Neither	520	9.0
+
+
+407) W2TOTAL_TIME_PARTYID
+[TOTAL TIME] Time spent on W2PID1D to W2PIDLEAN
+RANGE: -6 to 22071
+	N	Mean	Std. Deviation
+Total	5750	27.043	418.333
+
+
+408) W2DSMART
+In general, how smart are people who support Democrats?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.295	2.734
+-7) No answer	14	0.2
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2651	46.1
+1) Extremely	226	3.9
+2) Very	839	14.6
+3) Somewhat	1027	17.9
+4) A little	303	5.3
+5) Not at all	217	3.8
+
+
+409) W2RSMART
+In general, how smart are people who support Republicans?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.408	2.824
+-7) No answer	12	0.2
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2651	46.1
+1) Extremely	133	2.3
+2) Very	597	10.4
+3) Somewhat	1185	20.6
+4) A little	458	8.0
+5) Not at all	241	4.2
+
+
+410) W2ISMART
+In general, how smart are independents?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.261	2.658
+-7) No answer	11	0.2
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2651	46.1
+1) Extremely	157	2.7
+2) Very	819	14.2
+3) Somewhat	1355	23.6
+4) A little	215	3.7
+5) Not at all	69	1.2
+
+
+411) W2DOPEN
+In general, how open-minded are people who support Democrats?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.42	2.866
+-7) No answer	9	0.2
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2651	46.1
+1) Extremely	236	4.1
+2) Very	732	12.7
+3) Somewhat	779	13.5
+4) A little	422	7.3
+5) Not at all	448	7.8
+
+
+412) W2ROPEN
+In general, how open-minded are people who support Republicans?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.667	3.053
+-7) No answer	5	0.1
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2651	46.1
+1) Extremely	71	1.2
+2) Very	287	5.0
+3) Somewhat	902	15.7
+4) A little	794	13.8
+5) Not at all	567	9.9
+
+
+413) W2IOPEN
+In general, how open-minded are independents?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.27	2.658
+-7) No answer	6	0.1
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2651	46.1
+1) Extremely	202	3.5
+2) Very	776	13.5
+3) Somewhat	1308	22.7
+4) A little	264	4.6
+5) Not at all	70	1.2
+
+
+414) W2TOTAL_TIME_STEREOTYPING
+[TOTAL TIME] Time spent on W2DSMART to W2IOPEN
+RANGE: -6 to 31725
+	N	Mean	Std. Deviation
+Total	5750	30.948	458.86
+
+
+415) W2TRUSTVOTE
+How much do you trust that votes are counted accurately in elections for president?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.517	2.952
+-7) No answer	4	0.1
+-6) Unit nonresponse	473	8.2
+1) Not at all	1090	19.0
+2) A little	648	11.3
+3) A moderate amount	868	15.1
+4) A lot	986	17.1
+5) A great deal	1681	29.2
+
+
+416) W2C_FBI
+[The FBI] How much confidence do you have in each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.463	2.763
+-7) No answer	5	0.1
+-6) Unit nonresponse	473	8.2
+1) None	399	6.9
+2) A little	886	15.4
+3) A moderate amount	1753	30.5
+4) A lot	1566	27.2
+5) A great deal	668	11.6
+
+
+417) W2C_HOUSE
+[The U.S. House of Representatives] How much confidence do you have in each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.877	2.557
+-7) No answer	4	0.1
+-6) Unit nonresponse	473	8.2
+1) None	786	13.7
+2) A little	1620	28.2
+3) A moderate amount	2001	34.8
+4) A lot	699	12.2
+5) A great deal	167	2.9
+
+
+418) W2C_SEN
+[The U.S. Senate] How much confidence do you have in each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.749	2.506
+-7) No answer	3	0.1
+-6) Unit nonresponse	473	8.2
+1) None	918	16.0
+2) A little	1820	31.7
+3) A moderate amount	1907	33.2
+4) A lot	508	8.8
+5) A great deal	121	2.1
+
+
+419) W2C_MIL
+[The U.S. military] How much confidence do you have in each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.006	2.892
+-7) No answer	3	0.1
+-6) Unit nonresponse	473	8.2
+1) None	174	3.0
+2) A little	409	7.1
+3) A moderate amount	1258	21.9
+4) A lot	1786	31.1
+5) A great deal	1647	28.6
+
+
+420) W2C_ELECT
+[The officials who oversee elections] How much confidence do you have in each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.35	2.802
+-7) No answer	5	0.1
+-6) Unit nonresponse	473	8.2
+1) None	715	12.4
+2) A little	1061	18.5
+3) A moderate amount	1308	22.7
+4) A lot	1313	22.8
+5) A great deal	875	15.2
+
+
+421) W2C_CENSUS
+[U.S. Census Bureau] How much confidence do you have in each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.454	2.75
+-7) No answer	6	0.1
+-6) Unit nonresponse	473	8.2
+1) None	323	5.6
+2) A little	933	16.2
+3) A moderate amount	1907	33.2
+4) A lot	1460	25.4
+5) A great deal	648	11.3
+
+
+422) W2C_CDC
+[U.S. Centers for Disease Control] How much confidence do you have in each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.565	2.807
+-7) No answer	4	0.1
+-6) Unit nonresponse	473	8.2
+1) None	358	6.2
+2) A little	896	15.6
+3) A moderate amount	1588	27.6
+4) A lot	1456	25.3
+5) A great deal	975	17.0
+
+
+423) W2C_DOJ
+[U.S. Department of Justice] How much confidence do you have in each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.081	2.627
+-7) No answer	2	0.0
+-6) Unit nonresponse	473	8.2
+1) None	616	10.7
+2) A little	1363	23.7
+3) A moderate amount	2016	35.1
+4) A lot	974	16.9
+5) A great deal	306	5.3
+
+
+424) W2C_USPS
+[U.S. Postal Service] How much confidence do you have in each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.475	2.744
+-7) No answer	1	0.0
+-6) Unit nonresponse	473	8.2
+1) None	293	5.1
+2) A little	1011	17.6
+3) A moderate amount	1840	32.0
+4) A lot	1417	24.6
+5) A great deal	715	12.4
+
+
+425) W2TOTAL_TIME_CONFIDENCE
+[TOTAL TIME] Time spent on W2TRUSTVOTE to W2CON_DOJ
+RANGE: -6 to 50844
+	N	Mean	Std. Deviation
+Total	5750	87.74	866.956
+
+
+426) W2TRUSTFOX
+[Fox news] How much do you think political information from each of these sources can be trusted?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.456	2.483
+-7) No answer	8	0.1
+-6) Unit nonresponse	473	8.2
+1) Not at all	1844	32.1
+2) A little	1594	27.7
+3) A moderate amount	1254	21.8
+4) A lot	415	7.2
+5) A great deal	162	2.8
+
+
+427) W2TRUSTMSNBC
+[MSNBC] How much do you think political information from each of these sources can be trusted? 
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.717	2.595
+-7) No answer	13	0.2
+-6) Unit nonresponse	473	8.2
+1) Not at all	1387	24.1
+2) A little	1383	24.1
+3) A moderate amount	1550	27.0
+4) A lot	719	12.5
+5) A great deal	225	3.9
+
+
+428) W2TRUSTNYT
+[New York Times] How much do you think political information from each of these sources can be trusted? 
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.959	2.695
+-7) No answer	10	0.2
+-6) Unit nonresponse	473	8.2
+1) Not at all	1178	20.5
+2) A little	1176	20.5
+3) A moderate amount	1451	25.2
+4) A lot	1018	17.7
+5) A great deal	444	7.7
+
+
+429) W2TRUSTUSAT
+[USA Today] How much do you think political information from each of these sources can be trusted? 
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.8	2.579
+-7) No answer	10	0.2
+-6) Unit nonresponse	473	8.2
+1) Not at all	1097	19.1
+2) A little	1418	24.7
+3) A moderate amount	1848	32.1
+4) A lot	738	12.8
+5) A great deal	166	2.9
+
+
+430) W2TRUSTFB
+[Facebook] How much do you think political information from each of these sources can be trusted? 
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.883	2.195
+-7) No answer	5	0.1
+-6) Unit nonresponse	473	8.2
+1) Not at all	3254	56.6
+2) A little	1472	25.6
+3) A moderate amount	458	8.0
+4) A lot	60	1.0
+5) A great deal	28	0.5
+
+
+431) W2TRUSTTW
+[Twitter posts] How much do you think political information from each of these sources can be trusted? 
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.886	2.205
+-7) No answer	7	0.1
+-6) Unit nonresponse	473	8.2
+1) Not at all	3262	56.7
+2) A little	1413	24.6
+3) A moderate amount	507	8.8
+4) A lot	65	1.1
+5) A great deal	23	0.4
+
+
+432) W2TOTAL_TIME_TRUST
+[TOTAL TIME] Time spent on W2TRUST_FOX to W2TRUST_TW
+RANGE: -6 to 1354
+	N	Mean	Std. Deviation
+Total	5750	21.265	35.826
+
+
+433) W2RAN_IMP1
+[POSITION 1] DATA ONLY VARIABLE: Randomization of IMPORTANCE1 response options
+RANGE: -6 to 9
+	N	Mean	Std. Deviation
+Total	5750	4.073	3.906
+-6) Unit nonresponse	473	8.2
+1) The economy	603	10.5
+2) The environment and climate change	578	10.1
+3) Immigration & border security	608	10.6
+4) Health & health care	588	10.2
+5) Abortion	578	10.1
+6) Guns	594	10.3
+7) Economic inequality	558	9.7
+8) Race relations	569	9.9
+9) Corruption in government	601	10.5
+
+
+434) W2RAN_IMP2
+[POSITION 2] DATA ONLY VARIABLE: Randomization of IMPORTANCE1 response options
+RANGE: -6 to 9
+	N	Mean	Std. Deviation
+Total	5750	4.067	3.895
+-6) Unit nonresponse	473	8.2
+1) The economy	566	9.8
+2) The environment and climate change	623	10.8
+3) Immigration & border security	599	10.4
+4) Health & health care	615	10.7
+5) Abortion	567	9.9
+6) Guns	556	9.7
+7) Economic inequality	589	10.2
+8) Race relations	598	10.4
+9) Corruption in government	564	9.8
+
+
+435) W2RAN_IMP3
+[POSITON 3] DATA ONLY VARIABLE: Randomization of IMPORTANCE1 response options
+RANGE: -6 to 9
+	N	Mean	Std. Deviation
+Total	5750	4.101	3.917
+-6) Unit nonresponse	473	8.2
+1) The economy	587	10.2
+2) The environment and climate change	617	10.7
+3) Immigration & border security	579	10.1
+4) Health & health care	568	9.9
+5) Abortion	544	9.5
+6) Guns	571	9.9
+7) Economic inequality	616	10.7
+8) Race relations	624	10.9
+9) Corruption in government	571	9.9
+
+
+436) W2RAN_IMP4
+[POSITION 4] DATA ONLY VARIABLE: Randomization of IMPORTANCE1 response options
+RANGE: -6 to 9
+	N	Mean	Std. Deviation
+Total	5750	4.175	3.938
+-6) Unit nonresponse	473	8.2
+1) The economy	589	10.2
+2) The environment and climate change	579	10.1
+3) Immigration & border security	522	9.1
+4) Health & health care	552	9.6
+5) Abortion	607	10.6
+6) Guns	565	9.8
+7) Economic inequality	629	10.9
+8) Race relations	610	10.6
+9) Corruption in government	624	10.9
+
+
+437) W2RAN_IMP5
+[POSITION 5] DATA ONLY VARIABLE: Randomization of IMPORTANCE1 response options
+RANGE: -6 to 9
+	N	Mean	Std. Deviation
+Total	5750	4.083	3.899
+-6) Unit nonresponse	473	8.2
+1) The economy	602	10.5
+2) The environment and climate change	554	9.6
+3) Immigration & border security	594	10.3
+4) Health & health care	607	10.6
+5) Abortion	604	10.5
+6) Guns	587	10.2
+7) Economic inequality	565	9.8
+8) Race relations	579	10.1
+9) Corruption in government	585	10.2
+
+
+438) W2RAN_IMP6
+[POSITION 6] DATA ONLY VARIABLE: Randomization of IMPORTANCE1 response options
+RANGE: -6 to 9
+	N	Mean	Std. Deviation
+Total	5750	4.089	3.903
+-6) Unit nonresponse	473	8.2
+1) The economy	595	10.3
+2) The environment and climate change	578	10.1
+3) Immigration & border security	583	10.1
+4) Health & health care	596	10.4
+5) Abortion	564	9.8
+6) Guns	628	10.9
+7) Economic inequality	576	10.0
+8) Race relations	567	9.9
+9) Corruption in government	590	10.3
+
+
+439) W2RAN_IMP7
+[POSITION 7] DATA ONLY VARIABLE: Randomization of IMPORTANCE1 response options
+RANGE: -6 to 9
+	N	Mean	Std. Deviation
+Total	5750	4.07	3.882
+-6) Unit nonresponse	473	8.2
+1) The economy	557	9.7
+2) The environment and climate change	613	10.7
+3) Immigration & border security	621	10.8
+4) Health & health care	551	9.6
+5) Abortion	597	10.4
+6) Guns	623	10.8
+7) Economic inequality	605	10.5
+8) Race relations	557	9.7
+9) Corruption in government	553	9.6
+
+
+440) W2RAN_IMP8
+[POSITION 8] DATA ONLY VARIABLE: Randomization of IMPORTANCE1 response options
+RANGE: -6 to 9
+	N	Mean	Std. Deviation
+Total	5750	4.121	3.914
+-6) Unit nonresponse	473	8.2
+1) The economy	614	10.7
+2) The environment and climate change	531	9.2
+3) Immigration & border security	572	9.9
+4) Health & health care	580	10.1
+5) Abortion	621	10.8
+6) Guns	588	10.2
+7) Economic inequality	574	10.0
+8) Race relations	603	10.5
+9) Corruption in government	594	10.3
+
+
+441) W2RAN_IMP9
+[POSITION 9] DATA ONLY VARIABLE: Randomization of IMPORTANCE1 response options
+RANGE: -6 to 9
+	N	Mean	Std. Deviation
+Total	5750	4.078	3.897
+-6) Unit nonresponse	473	8.2
+1) The economy	564	9.8
+2) The environment and climate change	604	10.5
+3) Immigration & border security	599	10.4
+4) Health & health care	620	10.8
+5) Abortion	595	10.3
+6) Guns	565	9.8
+7) Economic inequality	565	9.8
+8) Race relations	570	9.9
+9) Corruption in government	595	10.3
+
+
+442) W2IMPORTANCE1
+Which of these do you think is the most important political issue facing the United States today?
+RANGE: -7 to 9
+	N	Mean	Std. Deviation
+Total	5750	4.033	4.195
+-7) No answer	4	0.1
+-6) Unit nonresponse	473	8.2
+1) The economy	1060	18.4
+2) The environment and climate change	511	8.9
+3) Immigration & border security	229	4.0
+4) Health & health care	1169	20.3
+5) Abortion	162	2.8
+6) Guns	61	1.1
+7) Economic inequality	396	6.9
+8) Race relations	502	8.7
+9) Corruption in government	1183	20.6
+
+
+443) W2TOTAL_TIME_IMPORTANCE1
+[TOTAL TIME] Time spent on W2IMPORTANCE1
+RANGE: -6 to 1671
+	N	Mean	Std. Deviation
+Total	5750	22.021	43.84
+
+
+444) W2INTERFERE
+Which of these do you think is most likely to be true?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	0.63	2.151
+-7) No answer	42	0.7
+-6) Unit nonresponse	473	8.2
+1) Russia tried to interfere in the 2016 presidential election	3715	64.6
+2) Russia did not try to interfere in the 2016 presidential election	1520	26.4
+
+
+445) W2INTERFERE_C
+How confident are you about that?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.688	2.864
+-7) No answer	7	0.1
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	42	0.7
+1) Not at all	222	3.9
+2) A little	769	13.4
+3) Moderately	1544	26.9
+4) Very	1471	25.6
+5) Completely	1222	21.3
+
+
+446) W2ILLEGAL
+Which of these do you think is most likely to be true?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	1.126	2.271
+-7) No answer	35	0.6
+-6) Unit nonresponse	473	8.2
+1) Millions of people voted illegally in the 2016 election	928	16.1
+2) Very few people voted illegally in the 2016 election	4314	75.0
+
+
+447) W2ILLEGAL_C
+How confident are you about that?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.605	2.828
+-7) No answer	8	0.1
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	35	0.6
+1) Not at all	239	4.2
+2) A little	794	13.8
+3) Moderately	1718	29.9
+4) Very	1491	25.9
+5) Completely	992	17.3
+
+
+448) W2ACA
+Which of these do you think is most likely to be true?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	0.591	2.093
+-7) No answer	28	0.5
+-6) Unit nonresponse	473	8.2
+1) The ACA increased the number of people with health insurance	4068	70.7
+2) The ACA did not increase the number of people with health insurance	1181	20.5
+
+
+449) W2ACA_C
+How confident are you about that?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.779	2.865
+-7) No answer	6	0.1
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	28	0.5
+1) Not at all	184	3.2
+2) A little	619	10.8
+3) Moderately	1595	27.7
+4) Very	1546	26.9
+5) Completely	1299	22.6
+
+
+450) W2DEPORT
+Which of these do you think is most likely to be true?
+RANGE: -7 to 2
+	N	Mean	Std. Deviation
+Total	5750	0.832	2.228
+-7) No answer	44	0.8
+-6) Unit nonresponse	473	8.2
+1) Donald Trump's administration	2535	44.1
+2) Barack Obama's administration	2698	46.9
+
+
+451) W2DEPORT_C
+How confident are you about that?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.464	2.787
+-7) No answer	6	0.1
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	44	0.8
+1) Not at all	320	5.6
+2) A little	900	15.7
+3) Moderately	1836	31.9
+4) Very	1392	24.2
+5) Completely	779	13.5
+
+
+452) W2TOTAL_TIME_KNOWLEDGE
+[TOTAL TIME] Time spent on W2INTEFERE to W2DEPORT_C
+RANGE: -6 to 30675
+	N	Mean	Std. Deviation
+Total	5750	121.835	932.444
+
+
+453) W2HP_YOU
+[You] Where would you place yourself and the following people on this scale?
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	2.866	3.321
+-7) No answer	17	0.3
+-6) Unit nonresponse	473	8.2
+1) Government insurance plan - 1	1110	19.3
+2) 	582	10.1
+3) 	687	11.9
+4) 	1072	18.6
+5) 	704	12.2
+6) 	440	7.7
+7) Paid by individuals - 7	665	11.6
+
+
+454) W2HP_DT
+[Donald Trump] Where would you place yourself and the following people on this scale?
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	4.815	3.666
+-7) No answer	19	0.3
+-6) Unit nonresponse	473	8.2
+1) Government insurance plan - 1	233	4.1
+2) 	87	1.5
+3) 	150	2.6
+4) 	521	9.1
+5) 	623	10.8
+6) 	905	15.7
+7) Paid by individuals - 7	2739	47.6
+
+
+455) W2HP_D1
+[Joe Biden] Where would you place yourself and the following people on this scale?
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	1.828	2.836
+-7) No answer	15	0.3
+-6) Unit nonresponse	473	8.2
+1) Government insurance plan - 1	1863	32.4
+2) 	985	17.1
+3) 	1091	19.0
+4) 	772	13.4
+5) 	245	4.3
+6) 	108	1.9
+7) Paid by individuals - 7	198	3.4
+
+
+456) W2IMMPOL
+Which comes closest to your view about what government policy should be toward unauthorized immigrants now living in the United States?
+RANGE: -7 to 3
+	N	Mean	Std. Deviation
+Total	5750	1.767	2.453
+-7) No answer	8	0.1
+-6) Unit nonresponse	473	8.2
+1) Make all unauthorized immigrants felons and send them back to their home country	734	12.8
+2) Have a guest worker program that allows unauthorized immigrants to remain in the United States in order to work, but only for a limited time	1287	22.4
+3) Allow unauthorized immigrants to remain in the United States and eventually qualify for U.S. citizenship, but only if they meet certain conditions	3248	56.5
+
+
+457) W2GUNDIFF
+Do you think the federal government should make it more difficult for people to buy a gun than it is now, make it easier for people to buy a gun than it is now, or keep these rules about the same as they are now?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.517	2.499
+-7) No answer	7	0.1
+-6) Unit nonresponse	473	8.2
+1) Make it much more difficult	1819	31.6
+2) Make it a little more difficult	1216	21.1
+3) Keep these rules about the same	1774	30.9
+4) Make it a little easier	266	4.6
+5) Make it much easier	195	3.4
+
+
+458) W2TOTAL_TIME_ISSUES
+[TOTAL TIME] Time spent on W2HP_YOU to W2GUNDIFF
+RANGE: -6 to 42563
+	N	Mean	Std. Deviation
+Total	5750	169.266	1217.587
+
+
+459) W2C_SELF
+Climate change refers to a long-term change in Earth's climate due to an increase in average atmospheric temperature.  Which of these statements best describes what you think about climate change?
+RANGE: -7 to 4
+	N	Mean	Std. Deviation
+Total	5750	2.376	2.649
+-7) No answer	5	0.1
+-6) Unit nonresponse	473	8.2
+1) It is not happening	194	3.4
+2) It is caused mostly by natural events	946	16.5
+3) It is caused about equally by human activity and natural events	2080	36.2
+4) It is caused mostly by human activity	2052	35.7
+
+
+460) W2C_DT
+[Donald Trump] What do these people think about climate change? Climate change is...
+RANGE: -7 to 4
+	N	Mean	Std. Deviation
+Total	5750	0.947	2.279
+-7) No answer	21	0.4
+-6) Unit nonresponse	473	8.2
+1) Not happening	3046	53.0
+2) Caused mostly by natural events	1380	24.0
+3) Caused about equally by natural events and human activity	698	12.1
+4) Caused mostly by human activity	132	2.3
+
+
+461) W2C_D1
+[Joe Biden] What do these people think about climate change? Climate change is...
+RANGE: -7 to 4
+	N	Mean	Std. Deviation
+Total	5750	2.72	2.768
+-7) No answer	20	0.3
+-6) Unit nonresponse	473	8.2
+1) Not happening	145	2.5
+2) Caused mostly by natural events	228	4.0
+3) Caused about equally by natural events and human activity	1517	26.4
+4) Caused mostly by human activity	3367	58.6
+
+
+462) W2TOTAL_TIME_CLIMATE_CHANGE
+[TOTAL TIME] Time spent on w2C_SELF to w2C_D2
+RANGE: -6 to 63975
+	N	Mean	Std. Deviation
+Total	5750	52.599	875.836
+
+
+463) W2P1
+[Attended a protest or rally] During the past 12 months, how often did you do each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.639	2.103
+-7) No answer	6	0.1
+-6) Unit nonresponse	473	8.2
+1) Never	4500	78.3
+2) Once	390	6.8
+3) A few times	273	4.7
+4) Several times	84	1.5
+5) A lot	24	0.4
+
+
+464) W2P2
+[Signed an online petition] During the past 12 months, how often did you do each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.215	2.45
+-7) No answer	7	0.1
+-6) Unit nonresponse	473	8.2
+1) Never	2975	51.7
+2) Once	759	13.2
+3) A few times	965	16.8
+4) Several times	372	6.5
+5) A lot	199	3.5
+
+
+465) W2P3
+[Tried to convince someone to vote (online or offline)] During the past 12 months, how often did you do each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.173	2.436
+-7) No answer	7	0.1
+-6) Unit nonresponse	473	8.2
+1) Never	3209	55.8
+2) Once	447	7.8
+3) A few times	1102	19.2
+4) Several times	339	5.9
+5) A lot	173	3.0
+
+
+466) W2P4
+[Wrote and posted a political message online] During the past 12 months, how often did you do each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.081	2.421
+-7) No answer	4	0.1
+-6) Unit nonresponse	473	8.2
+1) Never	3634	63.2
+2) Once	307	5.3
+3) A few times	738	12.8
+4) Several times	353	6.1
+5) A lot	241	4.2
+
+
+467) W2P5
+[Bought or avoided a product because of the company's social or political values] During the past 12 months, how often did you do each of the following?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.565	2.637
+-7) No answer	8	0.1
+-6) Unit nonresponse	473	8.2
+1) Never	2502	43.5
+2) Once	389	6.8
+3) A few times	1328	23.1
+4) Several times	624	10.9
+5) A lot	426	7.4
+
+
+468) W2TOTAL_TIME_PARTICIPATION
+[TOTAL TIME] Time spent on PARTICIPATION
+RANGE: -6 to 1207
+	N	Mean	Std. Deviation
+Total	5750	25.294	33.284
+
+
+469) W2RR1
+[Irish, Italian, Jewish and many other minorities overcame prejudice and worked their way up. Blacks should do the same without any special favors.] How much do you agree or disagree with each of the following statements?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.205	2.847
+-7) No answer	10	0.2
+-6) Unit nonresponse	473	8.2
+1) Agree strongly	1122	19.5
+2) Agree somewhat	1066	18.5
+3) Neither agree nor disagree	1122	19.5
+4) Disagree somewhat	818	14.2
+5) Disagree strongly	1139	19.8
+
+
+470) W2RR2
+[Generations of slavery and discrimination have created conditions that make it difficult for blacks to work their way out of the lower class.] How much do you agree or disagree with each of the following statements?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.957	2.776
+-7) No answer	11	0.2
+-6) Unit nonresponse	473	8.2
+1) Agree strongly	1384	24.1
+2) Agree somewhat	1372	23.9
+3) Neither agree nor disagree	864	15.0
+4) Disagree somewhat	782	13.6
+5) Disagree strongly	864	15.0
+
+
+471) W2TOTAL_TIME_RACIAL_RESENTMENT
+[TOTAL TIME] Time spent on W2RR_1 to W2RR_2
+RANGE: -6 to 1405
+	N	Mean	Std. Deviation
+Total	5750	25.92	38.329
+
+
+472) W2ND_FD
+[How many of your friends and family are Democrats?] Think about your friends and family.
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.268	2.733
+-7) No answer	16	0.3
+-6) Unit nonresponse	473	8.2
+1) None or almost none	314	5.5
+2) A few	1477	25.7
+3) About half	1692	29.4
+4) A lot	1245	21.7
+5) All or nearly all	533	9.3
+
+
+473) W2ND_FR
+[How many of your friends and family are Republicans?] Think about your friends and family.
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.087	2.662
+-7) No answer	13	0.2
+-6) Unit nonresponse	473	8.2
+1) None or almost none	492	8.6
+2) A few	1604	27.9
+3) About half	1756	30.5
+4) A lot	1100	19.1
+5) All or nearly all	312	5.4
+
+
+474) W2ND_FBD
+[How many of your Facebook friends are Democrats?] Not thinking about your Facebook 'friends.' Among your 'friends' on Facebook, how many would you guess are Democrats, and how many are Republicans?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.338	2.96
+-7) No answer	34	0.6
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	1255	21.8
+1) None or almost none	297	5.2
+2) A few	971	16.9
+3) About half	1420	24.7
+4) A lot	972	16.9
+5) All or nearly all	328	5.7
+
+
+475) W2ND_FBR
+[How many of your Facebook friends are Republicans?] Not thinking about your Facebook 'friends.' Among your 'friends' on Facebook, how many would you guess are Democrats, and how many are Republicans?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.147	2.843
+-7) No answer	35	0.6
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	1255	21.8
+1) None or almost none	425	7.4
+2) A few	1232	21.4
+3) About half	1436	25.0
+4) A lot	734	12.8
+5) All or nearly all	160	2.8
+
+
+476) W2TOTAL_TIME_NETWORK
+[TOTAL TIME] Time spent on W2ND_FD to W2ND_FBR
+RANGE: -6 to 21935
+	N	Mean	Std. Deviation
+Total	5750	42.794	457.722
+
+
+477) W2PK_CJUS_CORRECT
+W2 We are interested in how much information about certain subjects gets out to the public. No one knows all the answers to the next few questions.  When you are not sure, please just give your best guess.  Please do not look up the answers. We want to see what people already know or can guess. Political knowledge John Roberts coded. [ARDA Note: -6 = Unit nonresponse, 0 = Not correctly answered, .5 = Partly correct, 1= Correct]
+RANGE: -6 to 1
+	N	Mean	Std. Deviation
+Total	5750	-0.038	1.825
+-6) 	473	8.2
+0) 	1689	29.4
+0.5) 	1939	33.7
+1) 	1649	28.7
+
+
+478) W2PK_SPEAKER_CORRECT
+W2 We are interested in how much information about certain subjects gets out to the public. No one knows all the answers to the next few questions.  When you are not sure, please just give your best guess.  Please do not look up the answers. We want to see what people already know or can guess. Political knowledge Nancy Pelosi coded
+RANGE: -6 to 1
+	N	Mean	Std. Deviation
+Total	5750	0.161	1.895
+-6) Unit nonresponse	473	8.2
+0) Not correctly answered	1512	26.3
+1) Correct	3765	65.5
+
+
+479) W2PK_SAMOA_CORRECT
+W2 We are interested in how much information about certain subjects gets out to the public. No one knows all the answers to the next few questions.  When you are not sure, please just give your best guess.  Please do not look up the answers. We want to see what people already know or can guess. Political knowledge Mauga (catch question) coded
+RANGE: -6 to 1
+	N	Mean	Std. Deviation
+Total	5750	-0.468	1.664
+-6) Unit nonresponse	473	8.2
+0) Not correctly answered	5131	89.2
+1) Correct	146	2.5
+
+
+480) W2PK_CJUS
+What job or political office is now held by [John Roberts/this person]?
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	5750	0	0
+
+
+481) W2TOTAL_TIME_PK_CJUS
+[TOTAL TIME] Time spent on W2PK_CJUS
+RANGE: -6 to 1385
+	N	Mean	Std. Deviation
+Total	5750	25.788	46.58
+
+
+482) W2PK_SPEAKER
+What job or political office is now held by [Nancy Pelosi/this person]?
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	5750	0	0
+
+
+483) W2TOTAL_TIME_PK_SPEAKER
+[TOTAL TIME] Time spent on W2PK_SPEAKER
+RANGE: -6 to 687
+	N	Mean	Std. Deviation
+Total	5750	20.066	27.979
+
+
+484) W2PK_SAMOA
+What job or political office is now held by [Lemanu Peleti Mauga/this person]?
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	5750	0	0
+
+
+485) W2TOTAL_TIME_PK_SAMOA
+[TOTAL TIME] Time spent on W2PK_SAMOA
+RANGE: -6 to 1527
+	N	Mean	Std. Deviation
+Total	5750	22.293	53.097
+
+
+486) W2TOTAL_TIME_PK
+[TOTAL TIME] Time spent on W2PK_INTRO to W2PK_SAMOA
+RANGE: -6 to 35472
+	N	Mean	Std. Deviation
+Total	5750	108.762	772.689
+
+
+487) W2DTF_R
+[Respectful] Overall, how well does each of the following describe the political conversations you see on Facebook?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.642	2.511
+-7) No answer	24	0.4
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	1255	21.8
+1) Not at all	1476	25.7
+2) A little	1277	22.2
+3) Moderately	1083	18.8
+4) Very	134	2.3
+5) Extremely	28	0.5
+
+
+488) W2DTF_I
+[Informative] Overall, how well does each of the following describe the political conversations you see on Facebook?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.62	2.488
+-7) No answer	22	0.4
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	1255	21.8
+1) Not at all	1471	25.6
+2) A little	1433	24.9
+3) Moderately	938	16.3
+4) Very	127	2.2
+5) Extremely	31	0.5
+
+
+489) W2DTP_R
+[Respectful] Overall, how well does each of the following describe your political conversations in person?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.564	2.76
+-7) No answer	15	0.3
+-6) Unit nonresponse	473	8.2
+1) Not at all	192	3.3
+2) A little	587	10.2
+3) Moderately	2042	35.5
+4) Very	2011	35.0
+5) Extremely	430	7.5
+
+
+490) W2DTP_I
+[Informative] Overall, how well does each of the following describe your political conversations in person?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.181	2.657
+-7) No answer	15	0.3
+-6) Unit nonresponse	473	8.2
+1) Not at all	352	6.1
+2) A little	1184	20.6
+3) Moderately	2366	41.1
+4) Very	1136	19.8
+5) Extremely	224	3.9
+
+
+491) W2TOTAL_TIME_DISCOURSE
+[TOTAL TIME] Time spent on DTF_R to DTP_I
+RANGE: -6 to 41689
+	N	Mean	Std. Deviation
+Total	5750	67.813	1007.701
+
+
+492) W2EMP_CONCERN1
+How often would you say that you have tender, concerned feelings for people from another racial or ethnic group who are less fortunate than you?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.191	2.589
+-7) No answer	3	0.1
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2618	45.5
+1) Extremely often	459	8.0
+2) Very often	950	16.5
+3) Somewhat often	852	14.8
+4) Not too often	316	5.5
+5) Not often at all	79	1.4
+
+
+493) W2EMP_CONCERN2
+How often would you say that you feel concerned about people from another racial or ethnic group who are less fortunate than you?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.323	2.751
+-7) No answer	10	0.2
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2659	46.2
+1) Extremely often	261	4.5
+2) Very often	688	12.0
+3) Somewhat often	988	17.2
+4) Not too often	529	9.2
+5) Not often at all	142	2.5
+
+
+494) W2EMP_PERSP
+How often would you say you try to better understand people of other racial or ethnic groups by imagining how things look from their perspective?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.835	2.565
+-7) No answer	11	0.2
+-6) Unit nonresponse	473	8.2
+1) Extremely often	763	13.3
+2) Very often	1816	31.6
+3) Somewhat often	1836	31.9
+4) Not too often	690	12.0
+5) Not often at all	161	2.8
+
+
+495) W2EMP_PLACE
+Before criticizing somebody from another racial or ethnic group, how often do you try to imagine how you would feel if you were in their place?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.757	2.569
+-7) No answer	18	0.3
+-6) Unit nonresponse	473	8.2
+1) Extremely often	876	15.2
+2) Very often	1903	33.1
+3) Somewhat often	1714	29.8
+4) Not too often	589	10.2
+5) Not often at all	177	3.1
+
+
+496) W2EMP_ADV1
+When you see someone being taken advantage of due to their race or ethnicity, how often do you feel protective towards them?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.093	2.507
+-7) No answer	7	0.1
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2618	45.5
+1) Extremely often	589	10.2
+2) Very often	1038	18.1
+3) Somewhat often	784	13.6
+4) Not too often	180	3.1
+5) Not often at all	61	1.1
+
+
+497) W2EMP_ADV2
+When you see someone being treated poorly due to their race or ethnicity, how often do you feel protective towards them?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.066	2.499
+-7) No answer	7	0.1
+-6) Unit nonresponse	473	8.2
+-1) Inapplicable, legitimate skip	2659	46.2
+1) Extremely often	602	10.5
+2) Very often	1015	17.7
+3) Somewhat often	735	12.8
+4) Not too often	207	3.6
+5) Not often at all	52	0.9
+
+
+498) W2TOTAL_TIME_W2EMP
+[TOTAL TIME] Time spent on W2EMP_CONCERN1 to W2EMP_ADV2
+RANGE: -6 to 70755
+	N	Mean	Std. Deviation
+Total	5750	91.121	1152.26
+
+
+499) W2W1
+[Women often miss out on good jobs because of discrimination.] How much do you agree or disagree with each of these statements?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.819	2.609
+-7) No answer	6	0.1
+-6) Unit nonresponse	473	8.2
+1) Agree strongly	973	16.9
+2) Agree somewhat	2050	35.7
+3) Neither agree nor disagree	1110	19.3
+4) Disagree somewhat	751	13.1
+5) Disagree strongly	387	6.7
+
+
+500) W2W2
+[When women demand equality these days, they are actually seeking special favors.] How much do you agree or disagree with each of these statements?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.963	2.938
+-7) No answer	5	0.1
+-6) Unit nonresponse	473	8.2
+1) Agree strongly	237	4.1
+2) Agree somewhat	655	11.4
+3) Neither agree nor disagree	1163	20.2
+4) Disagree somewhat	1212	21.1
+5) Disagree strongly	2005	34.9
+
+
+501) W2W3
+[Women who complain about harassment cause more problems than they solve.] How much do you agree or disagree with each of these statements?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.026	2.945
+-7) No answer	6	0.1
+-6) Unit nonresponse	473	8.2
+1) Agree strongly	189	3.3
+2) Agree somewhat	560	9.7
+3) Neither agree nor disagree	1239	21.5
+4) Disagree somewhat	1160	20.2
+5) Disagree strongly	2123	36.9
+
+
+502) W2TOTAL_TIME_W2W
+[TOTAL TIME] Time spent on W2W_W2 to W2W_W3
+RANGE: -6 to 60143
+	N	Mean	Std. Deviation
+Total	5750	64.753	1168.431
+
+
+503) W2OP1
+How often are you a source of advice or information for the people you talk to?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.987	2.575
+-7) No answer	6	0.1
+-6) Unit nonresponse	473	8.2
+1) Never	246	4.3
+2) Some of the time	2362	41.1
+3) About half the time	1527	26.6
+4) Most of the time	924	16.1
+5) Always	212	3.7
+
+
+504) W2OP2
+How often are you a source of advice or information about politics or voting for the people you talk to?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.525	2.44
+-7) No answer	6	0.1
+-6) Unit nonresponse	473	8.2
+1) Never	1120	19.5
+2) Some of the time	2556	44.5
+3) About half the time	1042	18.1
+4) Most of the time	476	8.3
+5) Always	77	1.3
+
+
+505) W2OP3
+Overall, in all of your discussions of politics or voting, which of the following happens most often?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.258	2.705
+-7) No answer	28	0.5
+-6) Unit nonresponse	473	8.2
+1) I give advice or information much more often	246	4.3
+2) I give advice or information somewhat more often	803	14.0
+3) I give and receive advice or information equally	3012	52.4
+4) I receive advice or information somewhat more often	809	14.1
+5) I receive advice or information much more often	379	6.6
+
+
+506) W2TOTAL_TIME_W2OP
+[TOTAL TIME] Time spent on W2OP1 TO W2OP3
+RANGE: -6 to 16022
+	N	Mean	Std. Deviation
+Total	5750	64.206	386.063
+
+
+507) W2RPK1
+Compared to most Americans, how much do you think you know about politics?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.958	2.601
+-7) No answer	4	0.1
+-6) Unit nonresponse	473	8.2
+1) Much more	692	12.0
+2) Slightly more	1671	29.1
+3) About the same	1854	32.2
+4) Slightly less	749	13.0
+5) Much less	307	5.3
+
+
+508) W2RPK2
+Compared to most Republicans, how much do you think you know about politics?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.015	2.649
+-7) No answer	10	0.2
+-6) Unit nonresponse	473	8.2
+1) Much more	740	12.9
+2) Slightly more	1342	23.3
+3) About the same	2052	35.7
+4) Slightly less	748	13.0
+5) Much less	385	6.7
+
+
+509) W2RPK3
+Compared to most Democrats, how much do you think you know about politics?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.021	2.646
+-7) No answer	12	0.2
+-6) Unit nonresponse	473	8.2
+1) Much more	708	12.3
+2) Slightly more	1276	22.2
+3) About the same	2201	38.3
+4) Slightly less	721	12.5
+5) Much less	359	6.2
+
+
+510) W2TOTAL_TIME_W2RPK
+[TOTAL TIME] Time spent on W2RPK1 to W2RPK3
+RANGE: -6 to 27868
+	N	Mean	Std. Deviation
+Total	5750	33.747	384.329
+
+
+511) W2DISCERN
+How confident are you that you can tell if information in the news is true or not true?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.117	2.815
+-7) No answer	7	0.1
+-6) Unit nonresponse	473	8.2
+-5) Interview breakoff (sufficient partial IW)	98	1.7
+1) Not at all	375	6.5
+2) A little	968	16.8
+3) Moderately	2335	40.6
+4) Very	1235	21.5
+5) Extremely	259	4.5
+
+
+512) W2FB1
+How serious a problem is false information on Facebook?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	2.991	3.126
+-7) No answer	10	0.2
+-6) Unit nonresponse	473	8.2
+-5) Interview breakoff (sufficient partial IW)	102	1.8
+1) Not at all	87	1.5
+2) A little	380	6.6
+3) Moderately	987	17.2
+4) Very	1745	30.3
+5) Extremely	1966	34.2
+
+
+513) W2FB2
+How often, if ever, have you shared news or information on Facebook that turned out not to be true?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.239	2.404
+-7) No answer	9	0.2
+-6) Unit nonresponse	473	8.2
+-5) Interview breakoff (sufficient partial IW)	105	1.8
+-1) Inapplicable, legitimate skip	1255	21.8
+1) Never	2429	42.2
+2) Some of the time	1013	17.6
+3) About half the time	312	5.4
+4) Most of the time	105	1.8
+5) Always	49	0.9
+
+
+514) W2FB3
+How often do you visit or use Facebook?
+RANGE: -7 to 7
+	N	Mean	Std. Deviation
+Total	5750	1.44	3.457
+-7) No answer	5	0.1
+-6) Unit nonresponse	473	8.2
+-5) Interview breakoff (sufficient partial IW)	111	1.9
+-1) Inapplicable, legitimate skip	1255	21.8
+1) Many times every day	847	14.7
+2) A few times every day	933	16.2
+3) About once a day	615	10.7
+4) A few times each week	481	8.4
+5) About once a week	253	4.4
+6) Once or twice a month	222	3.9
+7) Less than once a month	555	9.7
+
+
+515) W2FB4
+Think about all the times you use Facebook and look at your News Feed. When you look at your Facebook News Feed, how often, if at all, do you see political news or information, even if you weren't seeking it out?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	1.116	3.032
+-7) No answer	15	0.3
+-6) Unit nonresponse	473	8.2
+-5) Interview breakoff (sufficient partial IW)	119	2.1
+-1) Inapplicable, legitimate skip	1255	21.8
+1) Never	465	8.1
+2) Some of the time	1276	22.2
+3) About half the time	820	14.3
+4) Most of the time	900	15.7
+5) Always	427	7.4
+
+
+516) W2FB5
+Think about all the times you use Facebook and look at your News Feed. When you look at your News Feed, how often, if at all, do you want to find political news or information?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	0.397	2.546
+-7) No answer	10	0.2
+-6) Unit nonresponse	473	8.2
+-5) Interview breakoff (sufficient partial IW)	125	2.2
+-1) Inapplicable, legitimate skip	1255	21.8
+1) Never	1762	30.6
+2) Some of the time	1377	23.9
+3) About half the time	491	8.5
+4) Most of the time	204	3.5
+5) Always	53	0.9
+
+
+517) W2TOTAL_TIME_W2B
+[TOTAL TIME] Time spent on W2DISCERN to W2B5
+RANGE: -6 to 10673
+	N	Mean	Std. Deviation
+Total	5750	59.451	169.164
+
+
+518) W2SERIOUS
+We sometimes find people don't always take surveys seriously, instead giving funny or insincere answers. How often did you give a serious answer to the questions on this survey?
+RANGE: -7 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.493	3.323
+-7) No answer	3	0.1
+-6) Unit nonresponse	473	8.2
+-5) Interview breakoff (sufficient partial IW)	131	2.3
+1) Never	202	3.5
+2) Some of the time	125	2.2
+3) About half the time	236	4.1
+4) Most of the time	460	8.0
+5) Always	4120	71.7
+
+
+519) W2TOTAL_TIME_W2SERIOUS
+[TOTAL TIME] Time spent on all questions on this survey except the W2TOTAL_TIME_ questions
+RANGE: -6 to 1216
+	N	Mean	Std. Deviation
+Total	5750	15.848	32.881
+
+
+520) VOTE20_MATCH
+VOTER MATCH: Voter registration & turnout status, 2020
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	5750	1.411	0.73
+1) Registered and voted	4218	73.4
+2) Registered, did not vote	698	12.1
+3) No match to registered voter file	834	14.5
+
+
+521) AGREE_DOB_MONTH
+VOTER MATCH: DOB Month agreement
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	3804	0.942	0.234
+0) 	222	5.8
+1) 	3582	94.2
+Missing	1946
+
+
+522) AGREE_DOB_YEAR
+VOTER MATCH: DOB Year agreement
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	4594	0.973	0.163
+0) 	125	2.7
+1) 	4469	97.3
+Missing	1156
+
+
+523) AGREE_FIRSTNAME_JW85
+VOTER MATCH: FirstName agreement comparison Jaro-Winkler .85
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	4895	0.982	0.134
+0) 	89	1.8
+1) 	4806	98.2
+Missing	855
+
+
+524) AGREE_FIRSTNAME_JW90
+VOTER MATCH: FirstName agreement comparison Jaro-Winkler .90
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	4806	0.974	0.159
+0) 	125	2.6
+1) 	4681	97.4
+Missing	944
+
+
+525) AGREE_FIRSTNAME_JW95
+VOTER MATCH: FirstName agreement comparison Jaro-Winkler .95
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	4681	0.979	0.142
+0) 	96	2.1
+1) 	4585	97.9
+Missing	1069
+
+
+526) AGREE_FIRSTNAME
+VOTER MATCH: FirstName agreement
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	4585	0.99	0.1
+0) 	46	1.0
+1) 	4539	99.0
+Missing	1165
+
+
+527) AGREE_FIRSTINITIAL
+VOTER MATCH: FirstInitial agreement
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	4916	0.987	0.114
+0) 	65	1.3
+1) 	4851	98.7
+Missing	834
+
+
+528) AGREE_LASTNAME_JW85
+VOTER MATCH: LastName agreement comparison Jaro-Winkler .85
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	4911	0.991	0.092
+0) 	42	0.9
+1) 	4869	99.1
+Missing	839
+
+
+529) AGREE_LASTNAME_JW90
+VOTER MATCH: LastName agreement comparison Jaro-Winkler .85
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	4869	0.999	0.038
+0) 	7	0.1
+1) 	4862	99.9
+Missing	881
+
+
+530) AGREE_LASTNAME_JW95
+VOTER MATCH: LastName agreement comparison Jaro-Winkler .85
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	4862	0.998	0.048
+0) 	11	0.2
+1) 	4851	99.8
+Missing	888
+
+
+531) AGREE_LASTNAME
+VOTER MATCH: LastName agreement
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	4851	0.998	0.048
+0) 	11	0.2
+1) 	4840	99.8
+Missing	899
+
+
+532) AGREE_LASTINITIAL
+VOTER MATCH: LastInitial agreement
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	4916	0.99	0.098
+0) 	48	1.0
+1) 	4868	99.0
+Missing	834
+
+
+533) AW_DOB_MONTH
+VOTER MATCH: Agreement weight DOB_Month
+RANGE: 3.3227316886 to 3.555963248
+	N	Mean	Std. Deviation
+Total	4864	3.53	0.067
+3.3227316886) 	465	9.6
+3.5494532213) 	3014	62.0
+3.555963248) 	1385	28.5
+Missing	886
+
+
+534) AW_DOB_YEAR
+VOTER MATCH: Agreement weight DOB_Year
+RANGE: 5.8176280111 to 5.869094342
+	N	Mean	Std. Deviation
+Total	4451	5.825	0.006
+5.8176280111) 	1385	31.1
+5.8269072771) 	3014	67.7
+5.869094342) 	52	1.2
+Missing	1299
+
+
+535) AW_FIRSTNAME_JW85
+VOTER MATCH: Agreement weight FirstName Jaro-Winkler .85
+RANGE: 2.7535215244 to 6.22535716
+	N	Mean	Std. Deviation
+Total	4916	6.146	0.37
+2.7535215244) 	52	1.1
+5.8211527616) 	465	9.5
+6.2185750306) 	3014	61.3
+6.22535716) 	1385	28.2
+Missing	834
+
+
+536) AW_FIRSTNAME_JW90
+VOTER MATCH: Agreement weight FirstName Jaro-Winkler .90
+RANGE: 0.6104961764 to 0.8114676569
+	N	Mean	Std. Deviation
+Total	4916	0.778	0.058
+0.6104961764) 	52	1.1
+0.6211980581) 	465	9.5
+0.7648501899) 	1385	28.2
+0.8114676569) 	3014	61.3
+Missing	834
+
+
+537) AW_FIRSTNAME_JW95
+VOTER MATCH: Agreement weight FirstName Jaro-Winkler .95
+RANGE: 0.4112863811 to 0.5777242985
+	N	Mean	Std. Deviation
+Total	4916	0.551	0.05
+0.4112863811) 	465	9.5
+0.4287720127) 	52	1.1
+0.5444741081) 	1385	28.2
+0.5777242985) 	3014	61.3
+Missing	834
+
+
+538) AW_FIRSTNAME
+VOTER MATCH: Agreement weight FirstName
+RANGE: 0.0048866516 to 13.070148528
+	N	Mean	Std. Deviation
+Total	4916	3.283	2.638
+
+
+539) AW_FIRSTINITIAL
+VOTER MATCH: Agreement weight FirstInitial
+RANGE: 1.2074710727 to 6.5759650022
+	N	Mean	Std. Deviation
+Total	21	4.144	1.049
+1.2074710727) 	1	4.8
+3.5462315679) 	7	33.3
+3.8539996371) 	1	4.8
+4.0086485744) 	2	9.5
+4.2651537806) 	2	9.5
+4.4081091881) 	1	4.8
+4.5776464939) 	2	9.5
+4.6899039596) 	1	4.8
+4.8363794088) 	1	4.8
+5.2289974391) 	1	4.8
+5.7006835938) 	1	4.8
+6.5759650022) 	1	4.8
+Missing	5729
+
+
+540) AW_LASTNAME_JW85
+VOTER MATCH: Agreement weight LastName Jaro-Winkler .85
+RANGE: 4.3839041293 to 8.083997637
+	N	Mean	Std. Deviation
+Total	4916	7.318	0.956
+4.3839041293) 	465	9.5
+7.4537522644) 	1385	28.2
+7.6953198612) 	3014	61.3
+8.083997637) 	52	1.1
+Missing	834
+
+
+541) AW_LASTNAME_JW90
+VOTER MATCH: Agreement weight LastName Jaro-Winkler .90
+RANGE: 0.7327407859 to 1.0763812177
+	N	Mean	Std. Deviation
+Total	4916	0.838	0.078
+0.7327407859) 	465	9.5
+0.7434864808) 	1385	28.2
+0.8931953795) 	3014	61.3
+1.0763812177) 	52	1.1
+Missing	834
+
+
+542) AW_LASTNAME_JW95
+VOTER MATCH: Agreement weight LastName Jaro-Winkler .95
+RANGE: 0.255866955 to 0.4085666146
+	N	Mean	Std. Deviation
+Total	4916	0.298	0.029
+0.255866955) 	1385	28.2
+0.3092441848) 	3014	61.3
+0.3341996027) 	465	9.5
+0.4085666146) 	52	1.1
+Missing	834
+
+
+543) AW_LASTNAME
+VOTER MATCH: Agreement weight LastName
+RANGE: 0.0030209671 to 11.464085519
+	N	Mean	Std. Deviation
+Total	4916	5.303	2.654
+
+
+544) AW_LASTINITIAL
+VOTER MATCH: Agreement weight LastInitial
+RANGE: 1.2307745479 to 7.7642931789
+	N	Mean	Std. Deviation
+Total	5	5.067	2.545
+1.2307745479) 	1	20.0
+3.9241131321) 	1	20.0
+6.1692465544) 	1	20.0
+6.2464181036) 	1	20.0
+7.7642931789) 	1	20.0
+Missing	5745
+
+
+545) DW_DOB_MONTH
+VOTER MATCH: Disagreement weight DOB_Month
+RANGE: -5.863550752 to -2.502368964
+	N	Mean	Std. Deviation
+Total	4864	-5.3	0.926
+-5.863550752) 	1385	28.5
+-5.473056272) 	3014	62.0
+-2.502368964) 	465	9.6
+Missing	886
+
+
+546) DW_DOB_YEAR
+VOTER MATCH: Disagreement weight DOB_Year
+RANGE: -6.320475787 to -4.622523278
+	N	Mean	Std. Deviation
+Total	4451	-5.008	0.287
+-6.320475787) 	52	1.2
+-5.1620242) 	3014	67.7
+-4.622523278) 	1385	31.1
+Missing	1299
+
+
+547) DW_FIRSTNAME_JW85
+VOTER MATCH: Disagreement weight FirstName Jaro-Winkler .85
+RANGE: -4.473523349 to -2.897269659
+	N	Mean	Std. Deviation
+Total	4916	-3.375	0.315
+-4.473523349) 	52	1.1
+-3.642329268) 	465	9.5
+-3.534651756) 	3014	61.3
+-2.897269659) 	1385	28.2
+Missing	834
+
+
+548) DW_FIRSTNAME_JW90
+VOTER MATCH: Disagreement weight FirstName Jaro-Winkler .90
+RANGE: -10.80211484 to -3.787662625
+	N	Mean	Std. Deviation
+Total	4916	-8.068	2.688
+-10.80211484) 	52	1.1
+-9.805059761) 	3014	61.3
+-9.255249888) 	465	9.5
+-3.787662625) 	1385	28.2
+Missing	834
+
+
+549) DW_FIRSTNAME_JW95
+VOTER MATCH: Disagreement weight FirstName Jaro-Winkler .95
+RANGE: -7.36789006 to -3.639703333
+	N	Mean	Std. Deviation
+Total	4916	-6.274	1.655
+-7.36789006) 	3014	61.3
+-7.046512291) 	52	1.1
+-6.945279464) 	465	9.5
+-3.639703333) 	1385	28.2
+Missing	834
+
+
+550) DW_FIRSTNAME
+VOTER MATCH: Disagreement weight FirstName
+RANGE: -7.370731205 to -0.181564529
+	N	Mean	Std. Deviation
+Total	4916	-5.944	1.249
+
+
+551) DW_FIRSTINITIAL
+VOTER MATCH: Disagreement weight FirstInitial
+RANGE: -4.327597558 to -2.727969944
+	N	Mean	Std. Deviation
+Total	21	-3.383	0.259
+-4.327597558) 	1	4.8
+-3.423677988) 	1	4.8
+-3.413725086) 	1	4.8
+-3.4024802) 	1	4.8
+-3.397408016) 	1	4.8
+-3.393143035) 	2	9.5
+-3.38601061) 	1	4.8
+-3.379277401) 	2	9.5
+-3.365289442) 	2	9.5
+-3.355492137) 	1	4.8
+-3.332309671) 	7	33.3
+-2.727969944) 	1	4.8
+Missing	5729
+
+
+552) DW_LASTNAME_JW85
+VOTER MATCH: Disagreement weight LastName Jaro-Winkler .85
+RANGE: -10.3219136 to -3.851004735
+	N	Mean	Std. Deviation
+Total	4916	-5.269	1.73
+-10.3219136) 	465	9.5
+-5.145881325) 	3014	61.3
+-4.96571283) 	52	1.1
+-3.851004735) 	1385	28.2
+Missing	834
+
+
+553) DW_LASTNAME_JW90
+VOTER MATCH: Disagreement weight LastName Jaro-Winkler .90
+RANGE: -6.420332775 to -5.287210077
+	N	Mean	Std. Deviation
+Total	4916	-5.982	0.439
+-6.420332775) 	465	9.5
+-6.230271086) 	3014	61.3
+-6.193882957) 	52	1.1
+-5.287210077) 	1385	28.2
+Missing	834
+
+
+554) DW_LASTNAME_JW95
+VOTER MATCH: Disagreement weight LastName Jaro-Winkler .95
+RANGE: -5.169618517 to -3.662781954
+	N	Mean	Std. Deviation
+Total	4916	-4.45	0.512
+-5.169618517) 	52	1.1
+-5.145169392) 	465	9.5
+-4.692160621) 	3014	61.3
+-3.662781954) 	1385	28.2
+Missing	834
+
+
+555) DW_LASTNAME
+VOTER MATCH: Disagreement weight LastName
+RANGE: -13.28720164 to -2.998113528
+	N	Mean	Std. Deviation
+Total	4916	-11.117	3.134
+
+
+556) DW_LASTINITIAL
+VOTER MATCH: Disagreement weight LastInitial
+RANGE: -3.827735834 to -3.106040634
+	N	Mean	Std. Deviation
+Total	5	-3.662	0.312
+-3.827735834) 	1	20.0
+-3.816140242) 	1	20.0
+-3.815156929) 	1	20.0
+-3.742723159) 	1	20.0
+-3.106040634) 	1	20.0
+Missing	5745
+
+
+557) VW_DOB_MONTH
+VOTER MATCH: Variable weight DOB_Month
+RANGE: -5.863550752 to 3.555963248
+	N	Mean	Std. Deviation
+Total	4864	2.421	1.943
+-5.863550752) 	21	0.4
+-5.473056272) 	29	0.6
+-2.502368964) 	172	3.5
+0) 	1112	22.9
+3.3227316886) 	202	4.2
+3.5494532213) 	2353	48.4
+3.555963248) 	975	20.0
+Missing	886
+
+
+558) VW_DOB_YEAR
+VOTER MATCH: Variable weight DOB_Year
+RANGE: -5.1620242 to 5.869094342
+	N	Mean	Std. Deviation
+Total	4451	5.103	2.27
+-5.1620242) 	59	1.3
+-4.622523278) 	66	1.5
+0) 	322	7.2
+5.8176280111) 	1200	27.0
+5.8269072771) 	2752	61.8
+5.869094342) 	52	1.2
+Missing	1299
+
+
+559) VW_FIRSTNAME_JW85
+VOTER MATCH: Variable weight FirstName Jaro-Winkler .85
+RANGE: -3.534651756 to 6.22535716
+	N	Mean	Std. Deviation
+Total	4916	5.954	1.321
+-3.534651756) 	1	0.0
+-2.897269659) 	88	1.8
+0) 	21	0.4
+2.7535215244) 	52	1.1
+5.8211527616) 	465	9.5
+6.2185750306) 	3012	61.3
+6.22535716) 	1277	26.0
+Missing	834
+
+
+560) VW_FIRSTNAME_JW90
+VOTER MATCH: Variable weight FirstName Jaro-Winkler .90
+RANGE: -3.787662625 to 0.8114676569
+	N	Mean	Std. Deviation
+Total	4916	0.645	0.728
+-3.787662625) 	125	2.5
+0) 	110	2.2
+0.6104961764) 	52	1.1
+0.6211980581) 	465	9.5
+0.7648501899) 	1152	23.4
+0.8114676569) 	3012	61.3
+Missing	834
+
+
+561) VW_FIRSTNAME_JW95
+VOTER MATCH: Variable weight FirstName Jaro-Winkler .95
+RANGE: -3.639703333 to 0.5777242985
+	N	Mean	Std. Deviation
+Total	4916	0.443	0.59
+-3.639703333) 	96	2.0
+0) 	235	4.8
+0.4112863811) 	465	9.5
+0.4287720127) 	52	1.1
+0.5444741081) 	1056	21.5
+0.5777242985) 	3012	61.3
+Missing	834
+
+
+562) VW_FIRSTNAME
+VOTER MATCH: Variable weight FirstName
+RANGE: -5.342974439 to 13.070148528
+	N	Mean	Std. Deviation
+Total	4916	2.972	2.802
+
+
+563) VW_FIRSTINITIAL
+VOTER MATCH: Variable weight First Initial
+RANGE: -3.423677988 to 6.5759650022
+	N	Mean	Std. Deviation
+Total	21	2.23	3.362
+-3.423677988) 	1	4.8
+-3.397408016) 	1	4.8
+-3.393143035) 	1	4.8
+-3.379277401) 	1	4.8
+-3.365289442) 	1	4.8
+1.2074710727) 	1	4.8
+3.5462315679) 	7	33.3
+3.8539996371) 	1	4.8
+4.0086485744) 	1	4.8
+4.2651537806) 	1	4.8
+4.4081091881) 	1	4.8
+4.5776464939) 	1	4.8
+4.8363794088) 	1	4.8
+5.2289974391) 	1	4.8
+6.5759650022) 	1	4.8
+Missing	5729
+
+
+564) VW_LASTNAME_JW85
+VOTER MATCH: Variable weight Last Name Jaro-Winkler .85
+RANGE: -4.96571283 to 8.083997637
+	N	Mean	Std. Deviation
+Total	4916	7.214	1.424
+-4.96571283) 	1	0.0
+-3.851004735) 	41	0.8
+0) 	5	0.1
+4.3839041293) 	465	9.5
+7.4537522644) 	1339	27.2
+7.6953198612) 	3014	61.3
+8.083997637) 	51	1.0
+Missing	834
+
+
+565) VW_LASTNAME_JW90
+VOTER MATCH: Variable weight Last Name Jaro-Winkler .90
+RANGE: -5.287210077 to 1.0763812177
+	N	Mean	Std. Deviation
+Total	4916	0.822	0.257
+-5.287210077) 	7	0.1
+0) 	47	1.0
+0.7327407859) 	465	9.5
+0.7434864808) 	1332	27.1
+0.8931953795) 	3014	61.3
+1.0763812177) 	51	1.0
+Missing	834
+
+
+566) VW_LASTNAME_JW95
+VOTER MATCH: Variable weight Last Name Jaro-Winkler .95
+RANGE: -3.662781954 to 0.4085666146
+	N	Mean	Std. Deviation
+Total	4916	0.286	0.192
+-3.662781954) 	11	0.2
+0) 	54	1.1
+0.255866955) 	1321	26.9
+0.3092441848) 	3014	61.3
+0.3341996027) 	465	9.5
+0.4085666146) 	51	1.0
+Missing	834
+
+
+567) VW_LASTNAME
+VOTER MATCH: Variable weight Last Name
+RANGE: -6.784371346 to 11.464085519
+	N	Mean	Std. Deviation
+Total	4916	5.217	2.752
+
+
+568) VW_LASTINITIAL
+VOTER MATCH: Variable weight Last Initial
+RANGE: -3.827735834 to 6.2464181036
+	N	Mean	Std. Deviation
+Total	5	2.749	4.209
+-3.827735834) 	1	20.0
+1.2307745479) 	1	20.0
+3.9241131321) 	1	20.0
+6.1692465544) 	1	20.0
+6.2464181036) 	1	20.0
+Missing	5745
+
+
+569) MV_DOB_MONTH
+VOTER MATCH: m-prob DOB Month
+RANGE: 0.8382999785 to 0.9842623789
+	N	Mean	Std. Deviation
+Total	4864	0.967	0.042
+0.8382999785) 	465	9.6
+0.9793695677) 	3014	62.0
+0.9842623789) 	1385	28.5
+Missing	886
+
+
+570) MV_DOB_YEAR
+VOTER MATCH: m-prob DOB Year
+RANGE: 0.9600951914 to 0.9876988549
+	N	Mean	Std. Deviation
+Total	4451	0.969	0.006
+0.9600951914) 	1385	31.1
+0.9725482166) 	3014	67.7
+0.9876988549) 	52	1.2
+Missing	1299
+
+
+571) MV_FIRSTNAME_JW85
+VOTER MATCH: m-prob First Name Jaro-Winkler .85
+RANGE: 0.8673304971 to 0.9614045247
+	N	Mean	Std. Deviation
+Total	4916	0.903	0.023
+0.8673304971) 	1385	28.2
+0.914769318) 	3014	61.3
+0.9212201666) 	465	9.5
+0.9614045247) 	52	1.1
+Missing	834
+
+
+572) MV_FIRSTNAME_JW90
+VOTER MATCH: m-prob First Name Jaro-Winkler .90
+RANGE: 0.9688779898 to 0.9998066891
+	N	Mean	Std. Deviation
+Total	4916	0.991	0.014
+0.9688779898) 	1385	28.2
+0.9994268604) 	465	9.5
+0.9995187968) 	3014	61.3
+0.9998066891) 	52	1.1
+Missing	834
+
+
+573) MV_FIRSTNAME_JW95
+VOTER MATCH: m-prob First Name Jaro-Winkler .95
+RANGE: 0.9733106401 to 0.9980440903
+	N	Mean	Std. Deviation
+Total	4916	0.991	0.011
+0.9733106401) 	1385	28.2
+0.9979748577) 	465	9.5
+0.9979941547) 	3014	61.3
+0.9980440903) 	52	1.1
+Missing	834
+
+
+574) MV_FIRSTNAME
+VOTER MATCH: m-prob First Name
+RANGE: 0.9754067417 to 0.993958585
+	N	Mean	Std. Deviation
+Total	4916	0.988	0.008
+0.9754067417) 	1385	28.2
+0.9924433604) 	3014	61.3
+0.9939115979) 	465	9.5
+0.993958585) 	52	1.1
+Missing	834
+
+
+575) MV_FIRSTINITIAL
+VOTER MATCH: m-prob First Initial
+RANGE: 0.9084375557 to 0.9506923985
+	N	Mean	Std. Deviation
+Total	21	0.91	0.009
+0.9084375557) 	20	95.2
+0.9506923985) 	1	4.8
+Missing	5729
+
+
+576) MV_LASTNAME_JW85
+VOTER MATCH: m-prob Last Name Jaro-Winkler .85
+RANGE: 0.9310682397 to 0.999256134
+	N	Mean	Std. Deviation
+Total	4916	0.963	0.021
+0.9310682397) 	1385	28.2
+0.9681125898) 	52	1.1
+0.9718878455) 	3014	61.3
+0.999256134) 	465	9.5
+Missing	834
+
+
+577) MV_LASTNAME_JW90
+VOTER MATCH: m-prob Last Name Jaro-Winkler .90
+RANGE: 0.9895269424 to 0.9953173175
+	N	Mean	Std. Deviation
+Total	4916	0.993	0.002
+0.9895269424) 	1385	28.2
+0.9927708935) 	52	1.1
+0.9938073829) 	3014	61.3
+0.9953173175) 	465	9.5
+Missing	834
+
+
+578) MV_LASTNAME_JW95
+VOTER MATCH: m-prob Last Name Jaro-Winkler .95
+RANGE: 0.9862595424 to 0.9940228332
+	N	Mean	Std. Deviation
+Total	4916	0.991	0.003
+0.9862595424) 	1385	28.2
+0.9922961853) 	3014	61.3
+0.993001258) 	52	1.1
+0.9940228332) 	465	9.5
+Missing	834
+
+
+579) MV_LASTNAME
+VOTER MATCH: m-prob Last Name
+RANGE: 0.9909560401 to 0.9998999983
+	N	Mean	Std. Deviation
+Total	4916	0.997	0.004
+0.9909560401) 	1385	28.2
+0.9998999983) 	3531	71.8
+Missing	834
+
+
+580) MV_LASTINITIAL
+VOTER MATCH: m-prob Last Initial
+RANGE: 0.9298746176 to 0.9298746176
+	N	Mean	Std. Deviation
+Total	5	0.93	0
+0.9298746176) 	5	100.0
+Missing	5745
+
+
+581) UV_DOB_MONTH
+VOTER MATCH: u-prob DOB Month
+RANGE: 0.0836478369 to 0.0837833164
+	N	Mean	Std. Deviation
+Total	4864	0.084	0
+0.0836478369) 	3014	62.0
+0.0836872472) 	1385	28.5
+0.0837833164) 	465	9.6
+Missing	886
+
+
+582) UV_DOB_YEAR
+VOTER MATCH: u-prob DOB Year
+RANGE: 0.0168986146 to 0.0171331519
+	N	Mean	Std. Deviation
+Total	4451	0.017	0
+0.0168986146) 	52	1.2
+0.0170229081) 	1385	31.1
+0.0171331519) 	3014	67.7
+Missing	1299
+
+
+583) UV_FIRSTNAME_JW85
+VOTER MATCH: u-prob First Name Jaro-Winkler .85
+RANGE: 0.011592187 to 0.1425652201
+	N	Mean	Std. Deviation
+Total	4916	0.014	0.013
+0.011592187) 	1385	28.2
+0.012283835) 	3014	61.3
+0.0162937798) 	465	9.5
+0.1425652201) 	52	1.1
+Missing	834
+
+
+584) UV_FIRSTNAME_JW90
+VOTER MATCH: u-prob First Name Jaro-Winkler .90
+RANGE: 0.5695277099 to 0.6548447888
+	N	Mean	Std. Deviation
+Total	4916	0.578	0.025
+0.5695277099) 	3014	61.3
+0.5701987222) 	1385	28.2
+0.6497581974) 	465	9.5
+0.6548447888) 	52	1.1
+Missing	834
+
+
+585) UV_FIRSTNAME_JW95
+VOTER MATCH: u-prob First Name Jaro-Winkler .95
+RANGE: 0.6673419606 to 0.750429783
+	N	Mean	Std. Deviation
+Total	4916	0.677	0.025
+0.6673419606) 	1385	28.2
+0.6686758753) 	3014	61.3
+0.7414408159) 	52	1.1
+0.750429783) 	465	9.5
+Missing	834
+
+
+586) UV_FIRSTNAME
+VOTER MATCH: u-prob First Name
+RANGE: 0.0001155744 to 0.9721084628
+	N	Mean	Std. Deviation
+Total	4916	0.269	0.282
+
+
+587) UV_FIRSTINITIAL
+VOTER MATCH: u-prob First Initial
+RANGE: 0.009965 to 0.3933779998
+	N	Mean	Std. Deviation
+Total	21	0.069	0.078
+0.009965) 	1	4.8
+0.017467) 	1	4.8
+0.024222) 	1	4.8
+0.031798) 	1	4.8
+0.0351959999) 	1	4.8
+0.0380439999) 	2	9.5
+0.042788) 	1	4.8
+0.0472449999) 	2	9.5
+0.0564379999) 	2	9.5
+0.0628239999) 	1	4.8
+0.0777629998) 	7	33.3
+0.3933779998) 	1	4.8
+Missing	5729
+
+
+588) UV_LASTNAME_JW85
+VOTER MATCH: u-prob Last Name Jaro-Winkler .85
+RANGE: 0.0035677966 to 0.0478619268
+	N	Mean	Std. Deviation
+Total	4916	0.009	0.013
+0.0035677966) 	52	1.1
+0.0046891491) 	3014	61.3
+0.0053110269) 	1385	28.2
+0.0478619268) 	465	9.5
+Missing	834
+
+
+589) UV_LASTNAME_JW90
+VOTER MATCH: u-prob Last Name Jaro-Winkler .90
+RANGE: 0.4707886688 to 0.5989417732
+	N	Mean	Std. Deviation
+Total	4916	0.556	0.029
+0.4707886688) 	52	1.1
+0.5350860357) 	3014	61.3
+0.5910386629) 	1385	28.2
+0.5989417732) 	465	9.5
+Missing	834
+
+
+590) UV_LASTNAME_JW95
+VOTER MATCH: u-prob Last Name Jaro-Winkler .95
+RANGE: 0.7480988596 to 0.8259763066
+	N	Mean	Std. Deviation
+Total	4916	0.806	0.014
+0.7480988596) 	52	1.1
+0.7884828579) 	465	9.5
+0.8008469865) 	3014	61.3
+0.8259763066) 	1385	28.2
+Missing	834
+
+
+591) UV_LASTNAME
+VOTER MATCH: u-prob Last Name
+RANGE: 0.0003539345 to 0.9978084248
+	N	Mean	Std. Deviation
+Total	4916	0.125	0.239
+
+
+592) UV_LASTINITIAL
+VOTER MATCH: u-prob Last Initial
+RANGE: 0.004277 to 0.3962089997
+	N	Mean	Std. Deviation
+Total	5	0.097	0.169
+
+
+593) PW
+VOTER MATCH: pair weight
+RANGE: 10.2136153 to 69.304298417
+	N	Mean	Std. Deviation
+Total	4916	37.705	10.448
+
+
+594) UPROB
+VOTER MATCH: Uprob summary
+RANGE: 0.0001 to 0.0003870676
+	N	Mean	Std. Deviation
+Total	4916	0	0
+0.0001) 	3531	71.8
+0.0003870676) 	1385	28.2
+Missing	834
+
+
+595) PW_ADJ
+VOTER MATCH: Adjusted pair weight
+RANGE: 5.4063718234 to 61.955374995
+	N	Mean	Std. Deviation
+Total	4916	30.357	10.424
+
+
+596) PROBVALID
+VOTER MATCH: Probability of a valid match
+RANGE: 0.9769644454 to 1
+	N	Mean	Std. Deviation
+Total	4916	1	0.001
+
+
+597) I-AGE
+Continuous age till 80, then combined to form '80+' (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	5750	4.012	1.599
+1) 18-24	289	5.0
+2) 25-34	1004	17.5
+3) 35-44	1102	19.2
+4) 45-54	772	13.4
+5) 55-64	1120	19.5
+6) 65 or older	1463	25.4
+
+
+598) I-EDUC
+5-level education (for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	5750	3.397	1.058
+1) Less than high school	217	3.8
+2) High school graduate or equivalent	824	14.3
+3) Vocational/tech school/some college/associates	2219	38.6
+4) Bachelor's degree	1438	25.0
+5) Post-graduate study/professional degree	1052	18.3
+
+
+599) I-RELIGION
+What is your present religion, if any? (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	5733	3.014	1.736
+1) Protestant (Baptist, Lutheran, Methodist, non-denominational, etc.)	1610	28.1
+2) Roman Catholic	1118	19.5
+3) Atheist (do not believe in God) or Agnostic (not sure if there is a god)	658	11.5
+4) Nothing in particular	849	14.8
+5) Just Christian	923	16.1
+6) Other (Eastern Orthodox, Hindu, Jewish, Mormon, Muslim, etc.)	575	10.0
+Missing	17
+
+
+600) I-REGION
+4-level region (for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	5750	2.671	1.039
+1) Northeast	934	16.2
+2) Midwest	1559	27.1
+3) South	1724	30.0
+4) West	1533	26.7
+
+
+601) I-RACE
+Combined Race/Ethnicity (for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	5750	1.636	1.07
+1) White, non-Hispanic	3983	69.3
+2) Black, non-Hispanic	611	10.6
+3) Other, non-Hispanic (includes 2 more races and Asian non-Hispanic)	420	7.3
+4) Hispanic	736	12.8
+
+

@@ -1,0 +1,2265 @@
+Data File: PEWMU17 (Full Data Codebook)
+
+1) RESP
+RESP. Unique respondent identification number.
+RANGE: 80 to 505356
+	N	Mean	Std. Deviation
+Total	1001	261975.471	129116.387
+
+
+2) WEIGHT
+WEIGHT. Main weight, used to estimate the prevalence of attitudes, beliefs, practices, experiences, and demographic characteristics of survey respondents; either this variable or the full set of replicate weights (RPL001-RPL100) should be used in calculating all point estimates. Replicate weights must be used to calculate standard errors.
+RANGE: 53.2766245883738 to 28128.617968044
+	N	Mean	Std. Deviation
+Total	1001	2348.007	3772.841
+
+
+3) INTLANREC
+INTLANEREC. Language in which the interview was conducted.
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1001	1.048	0.214
+1) English	953	95.2
+2) Arabic, Farsi or Urdu	48	4.8
+
+
+4) SAMPLE
+SAMPLE. Sampling frame.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1001	2.782	1.07
+1) Random-digit dial (RDD) landline	102	10.2
+2) RDD cell phone	399	39.9
+3) Flagged landline	115	11.5
+4) Flagged cell phone	385	38.5
+
+
+5) STRATUM
+STRATUM. Sampling stratum based on expected density of Muslims.
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1001	2.162	1.552
+1) Muslim flagged	500	50.0
+2) Very high	232	23.2
+3) High	56	5.6
+4) Medium	96	9.6
+5) Low	54	5.4
+6) Very low	63	6.3
+
+
+6) FORM
+FORM. Randomization assignment for questions only asked of half of the respondents.
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1001	1.494	0.5
+1) Form 1	507	50.6
+2) Form 2	494	49.4
+
+
+7) QA1
+Q.A1. ASK ALL: Do you approve or disapprove of the way Donald Trump is handling his job as president? [IF STILL DEPENDS ENTER AS DON'T KNOW] [RANDOMIZE Q.A1 AND Q.A2]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.731	2.383
+1) Approve	136	13.6
+2) Disapprove	741	74.0
+9) Don't know/refused (VOL.)	124	12.4
+
+
+8) QA2
+Q.A2. ASK ALL: Overall, are you satisfied or dissatisfied with the way things are going in this country today? [RANDOMIZE Q.A1 AND Q.A2]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.246	1.916
+1) Satisfied	251	25.1
+2) Dissatisfied	679	67.8
+9) Don't know/refused (VOL.)	71	7.1
+
+
+9) QA3
+Q.A3. ASK ALL: Overall, are you satisfied or dissatisfied with the way things are going in your life today?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.331	1.109
+1) Satisfied	796	79.5
+2) Dissatisfied	187	18.7
+9) Don't know/refused (VOL.)	18	1.8
+
+
+10) QA5
+Q.A5. ASK ALL: How would you rate your own personal financial situation? Would you say you are in excellent shape, good shape, only fair shape or poor shape financially?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.653	1.116
+1) Excellent shape	101	10.1
+2) Good shape	373	37.3
+3) Only fair shape	359	35.9
+4) Poor shape	156	15.6
+9) Don't know/refused (VOL.)	12	1.2
+
+
+11) QA6
+Q.A6. ASK ALL: Are you a homeowner or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.578	0.548
+1) Yes	429	42.9
+2) No	571	57.0
+9) Don't know/refused (VOL.)	1	0.1
+
+
+12) EDUCREC
+EDUCREC. ASK ALL: What is the highest level of school you have completed or the highest degree you have received? [DO NOT READ] [INTERVIEWER NOTE: Enter code 3-HS grad if respondent completed training that did NOT count toward a degree]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	4.052	1.626
+1) Less than high school or high school incomplete	49	4.9
+2) High school graduate (Grade 12 with diploma or GED certificate)	203	20.3
+3) Some college, no degree (includes some community college)	145	14.5
+4) Two-year associate degree from a college or university	79	7.9
+5) Four-year college or university degree/Bachelor's degree (e.g., BS, BA, AB)	312	31.2
+6) Postgraduate or professional degree, including master's, doctorate, medical or law degree (e.g., MA, MS, PhD, MD, JD, graduate school)	209	20.9
+9) Don't know/refused (VOL.)	4	0.4
+
+
+13) QB1A
+Q.B1a. ASK ALL: Here are some goals that people value in their lives. Please tell me how important each is to you personally. First [INSERT; RANDOMIZE, DO NOT START WITH ITEM b]: Is that one of the most important things in your life, OR is it very important but not one of the most important things, OR somewhat important, or not important? How about [INSERT NEXT ITEM]? [READ AT LEAST TWICE, THEN AS NECESSARY: Is that one of the most important things in your life, OR very important but not one of the most important things, OR somewhat important, or not important?] [INTERVIEWER INSTRUCTION: IF RESPONDENT SAYS 'VERY IMPORTANT,' PROBE WITH 'Is that one of the most important things in your life, OR very important but not one of the most important things?'] a. Being successful in a high-paying career or profession
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.142	1.126
+1) One of the most important things	275	27.5
+2) Very important but not one of the most important things	442	44.2
+3) Somewhat important	206	20.6
+4) Not important	67	6.7
+9) [VOL. DO NOT READ] Don't know/refused	11	1.1
+
+
+14) QB1B
+Q.B1b. ASK ALL: Here are some goals that people value in their lives. Please tell me how important each is to you personally. First [INSERT; RANDOMIZE, DO NOT START WITH ITEM b]: Is that one of the most important things in your life, OR is it very important but not one of the most important things, OR somewhat important, or not important? How about [INSERT NEXT ITEM]? [READ AT LEAST TWICE, THEN AS NECESSARY: Is that one of the most important things in your life, OR very important but not one of the most important things, OR somewhat important, or not important?] [INTERVIEWER INSTRUCTION: IF RESPONDENT SAYS 'VERY IMPORTANT,' PROBE WITH 'Is that one of the most important things in your life, OR very important but not one of the most important things?'] Living a very religious life
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.392	1.415
+1) One of the most important things	288	28.8
+2) Very important but not one of the most important things	297	29.7
+3) Somewhat important	262	26.2
+4) Not important	132	13.2
+9) [VOL. DO NOT READ] Don't know/refused	22	2.2
+
+
+15) QB1C
+Q.B1c. ASK ALL: Here are some goals that people value in their lives. Please tell me how important each is to you personally. First [INSERT; RANDOMIZE, DO NOT START WITH ITEM b]: Is that one of the most important things in your life, OR is it very important but not one of the most important things, OR somewhat important, or not important? How about [INSERT NEXT ITEM]? [READ AT LEAST TWICE, THEN AS NECESSARY: Is that one of the most important things in your life, OR very important but not one of the most important things, OR somewhat important, or not important?] [INTERVIEWER INSTRUCTION: IF RESPONDENT SAYS 'VERY IMPORTANT,' PROBE WITH 'Is that one of the most important things in your life, OR very important but not one of the most important things?'] c. Having lots of free time to relax or do things you want to do
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.433	1.129
+1) One of the most important things	168	16.8
+2) Very important but not one of the most important things	384	38.4
+3) Somewhat important	362	36.2
+4) Not important	74	7.4
+9) [VOL. DO NOT READ] Don't know/refused	13	1.3
+
+
+16) QB1D
+Q.B1d. ASK ALL: Here are some goals that people value in their lives. Please tell me how important each is to you personally. First [INSERT; RANDOMIZE, DO NOT START WITH ITEM b]: Is that one of the most important things in your life, OR is it very important but not one of the most important things, OR somewhat important, or not important? How about [INSERT NEXT ITEM]? [READ AT LEAST TWICE, THEN AS NECESSARY: Is that one of the most important things in your life, OR very important but not one of the most important things, OR somewhat important, or not important?] [INTERVIEWER INSTRUCTION: IF RESPONDENT SAYS 'VERY IMPORTANT,' PROBE WITH 'Is that one of the most important things in your life, OR very important but not one of the most important things?'] d. Being a good parent
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.506	1.172
+1) One of the most important things	687	68.6
+2) Very important but not one of the most important things	250	25.0
+3) Somewhat important	15	1.5
+4) Not important	33	3.3
+9) [VOL. DO NOT READ] Don't know/refused	16	1.6
+
+
+17) QB2A
+Q.B2a. ASK ALL: Here are a few pairs of statements. For each pair, tell me which statement comes closer to your own views - even if neither is exactly right. The first pair is... [READ AND RANDOMIZE ITEMS a-c FIRST, THEN ASK ITEM d LAST; DO NOT RANDOMIZE WITHIN PAIRS]. Next, [NEXT PAIR] a. Number one - immigrants today strengthen the U.S. because of their hard work and talents [OR] Number two - immigrants today are a burden on the U.S. because they take our jobs, housing and health care
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.361	1.345
+1) Statement #1	862	86.1
+2) Statement #2	79	7.9
+3) Neither/both equally (VOL.)	33	3.3
+9) Don't know/refused (VOL.)	27	2.7
+
+
+18) QB2B
+Q.B2b. ASK ALL: Here are a few pairs of statements. For each pair, tell me which statement comes closer to your own views - even if neither is exactly right. The first pair is... [READ AND RANDOMIZE ITEMS a-c FIRST, THEN ASK ITEM d LAST; DO NOT RANDOMIZE WITHIN PAIRS]. Next, [NEXT PAIR] b. Number one - most people who want to get ahead can make it if they're willing to work hard [OR] Number two - hard work and determination are no guarantee of success for most people
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.412	0.991
+1) Statement #1	686	68.5
+2) Statement #2	296	29.6
+3) Neither/both equally (VOL.)	6	0.6
+9) Don't know/refused (VOL.)	13	1.3
+
+
+19) QB2C
+Q.B2c. ASK ALL: Here are a few pairs of statements. For each pair, tell me which statement comes closer to your own views - even if neither is exactly right. The first pair is... [READ AND RANDOMIZE ITEMS a-c FIRST, THEN ASK ITEM d LAST; DO NOT RANDOMIZE WITHIN PAIRS]. Next, [NEXT PAIR] c. Number one - homosexuality should be accepted by society [OR] Number two - homosexuality should be discouraged by society
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.091	2.099
+1) Statement #1	523	52.2
+2) Statement #2	332	33.2
+3) Neither/both equally (VOL.)	68	6.8
+9) Don't know/refused (VOL.)	78	7.8
+
+
+20) QB2D
+Q.B2d. ASK ALL: Here are a few pairs of statements. For each pair, tell me which statement comes closer to your own views - even if neither is exactly right. The first pair is... [READ AND RANDOMIZE ITEMS a-c FIRST, THEN ASK ITEM d LAST; DO NOT RANDOMIZE WITHIN PAIRS]. Next, [NEXT PAIR] d. Number one - our country has made the changes needed to give blacks equal rights with whites [OR] Number two - our country needs to continue making changes to give blacks equal rights with whites
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.056	1.4
+1) Statement #1	218	21.8
+2) Statement #2	719	71.8
+3) Neither/both equally (VOL.)	29	2.9
+9) Don't know/refused (VOL.)	35	3.5
+
+
+21) QB2E
+Q.B2e. ASK IF R SAYS OUR COUNTRY NEEDS TO CONTINUE MAKING CHANGES (QB2d=2): Do you think our country will eventually make the changes needed to give blacks equal rights with whites, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	719	1.74	1.82
+1) Yes, our country will eventually make the changes	467	65.0
+2) No, our country will not make the changes	212	29.5
+9) Don't know/refused (VOL.)	40	5.6
+Missing	282
+
+
+22) QB3
+Q.B3. ASK ALL: If you had to choose, would you rather have a smaller government providing fewer services, or a bigger government providing more services?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.044	1.415
+1) Smaller government, fewer services	245	24.5
+2) Bigger government, more services	677	67.6
+3) Depends (VOL.)	44	4.4
+9) Don't know/refused (VOL.)	35	3.5
+
+
+23) QB5A
+QB5a. How does Donald Trump make you feel? Does he make you feel [INSERT; RANDOMIZE], or not? Does he make you feel [INSERT NEXT ITEM], or not? Does he make you feel [INSERT NEXT ITEM], or not? a. Hopeful
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.222	1.789
+1) Yes	212	21.2
+2) No	727	72.6
+9) Don't know/refused (VOL.)	62	6.2
+
+
+24) QB5B
+QB5b. How does Donald Trump make you feel? Does he make you feel [INSERT; RANDOMIZE], or not? Does he make you feel [INSERT NEXT ITEM], or not? Does he make you feel [INSERT NEXT ITEM], or not? b. Happy
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.306	1.721
+1) Yes	114	11.4
+2) No	827	82.6
+9) Don't know/refused (VOL.)	60	6.0
+
+
+25) QB5C
+QB5c. How does Donald Trump make you feel? Does he make you feel [INSERT; RANDOMIZE], or not? Does he make you feel [INSERT NEXT ITEM], or not? Does he make you feel [INSERT NEXT ITEM], or not? c. Angry
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.724	1.308
+1) Yes	465	46.5
+2) No	509	50.8
+9) Don't know/refused (VOL.)	27	2.7
+
+
+26) QB5D
+QB5d. How does Donald Trump make you feel? Does he make you feel [INSERT; RANDOMIZE], or not? Does he make you feel [INSERT NEXT ITEM], or not? Does he make you feel [INSERT NEXT ITEM], or not? d. Worried
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.407	1.167
+1) Yes	734	73.3
+2) No	247	24.7
+9) Don't know/refused (VOL.)	20	2.0
+
+
+27) QB7A
+Q.B7a. ASK ALL: Just your impression, in the United States today, is there a lot of discrimination against [INSERT; RANDOMIZE, BUT NEVER ASK ITEM a LAST], or not? In the United States today, is there a lot of discrimination against [INSERT NEXT ITEM], or not? How about [INSERT NEXT ITEM]? [REPEAT ONLY AS NECESSARY: In the United States today, is there a lot of discrimination against [INSERT], or not? a. Muslims
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.399	1.236
+1) Yes, there is a lot of discrimination	763	76.2
+2) No, not a lot of discrimination	215	21.5
+9) Don't know/refused (VOL.)	23	2.3
+
+
+28) QB7B
+Q.B7b. ASK ALL: Just your impression, in the United States today, is there a lot of discrimination against [INSERT; RANDOMIZE, BUT NEVER ASK ITEM a LAST], or not? In the United States today, is there a lot of discrimination against [INSERT NEXT ITEM], or not? How about [INSERT NEXT ITEM]? [REPEAT ONLY AS NECESSARY: In the United States today, is there a lot of discrimination against [INSERT], or not? b. Jews
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.352	2.313
+1) Yes, there is a lot of discrimination	376	37.6
+2) No, not a lot of discrimination	521	52.0
+9) Don't know/refused (VOL.)	104	10.4
+
+
+29) QB7C
+Q.B7c. ASK ALL: Just your impression, in the United States today, is there a lot of discrimination against [INSERT; RANDOMIZE, BUT NEVER ASK ITEM a LAST], or not? In the United States today, is there a lot of discrimination against [INSERT NEXT ITEM], or not? How about [INSERT NEXT ITEM]? [REPEAT ONLY AS NECESSARY: In the United States today, is there a lot of discrimination against [INSERT], or not? c. Blacks
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.499	1.429
+1) Yes, there is a lot of discrimination	726	72.5
+2) No, not a lot of discrimination	243	24.3
+9) Don't know/refused (VOL.)	32	3.2
+
+
+30) QB7D
+Q.B7d. ASK ALL: Just your impression, in the United States today, is there a lot of discrimination against [INSERT; RANDOMIZE, BUT NEVER ASK ITEM a LAST], or not? In the United States today, is there a lot of discrimination against [INSERT NEXT ITEM], or not? How about [INSERT NEXT ITEM]? [REPEAT ONLY AS NECESSARY: In the United States today, is there a lot of discrimination against [INSERT], or not? d. Gays and lesbians
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.08	2.288
+1) Yes, there is a lot of discrimination	585	58.4
+2) No, not a lot of discrimination	321	32.1
+9) Don't know/refused (VOL.)	95	9.5
+
+
+31) QB7E
+Q.B7e. ASK ALL: Just your impression, in the United States today, is there a lot of discrimination against [INSERT; RANDOMIZE, BUT NEVER ASK ITEM a LAST], or not? In the United States today, is there a lot of discrimination against [INSERT NEXT ITEM], or not? How about [INSERT NEXT ITEM]? [REPEAT ONLY AS NECESSARY: In the United States today, is there a lot of discrimination against [INSERT], or not? e. Hispanics
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.9	2.071
+1) Yes, there is a lot of discrimination	625	62.4
+2) No, not a lot of discrimination	301	30.1
+9) Don't know/refused (VOL.)	75	7.5
+
+
+32) SEX
+Sex [ENTER RESPONDENT'S SEX:]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1001	1.385	0.487
+1) Male	616	61.5
+2) Female	385	38.5
+
+
+33) QC1OE_1
+QC1oe_1. ASK IF FORM=1. In your own words, what do you think are the most important problems facing Muslims living in the United States today? [COLLAPSED CATEGORIES BASED ON RECORDED VERBATIM RESPONSE. UP TO THREE RESPONSES IN ORDER OF MENTION] 1. First mention
+RANGE: 1 to 999
+	N	Mean	Std. Deviation
+Total	507	44.077	158.327
+1) Stereotyping/generalizing about all Muslims	30	5.9
+2) Viewed as terrorists	29	5.7
+3) Hatred/fear/distrust of Muslims	31	6.1
+4) Discrimination/racism/prejudice	119	23.5
+5) Not treated fairly/harassment	14	2.8
+6) Ignorance/misconceptions of Islam	71	14.0
+7) Religious/cultural problems between Muslims and non-Muslims	10	2.0
+8) Negative media portrayals	25	4.9
+9) Acceptance by society	42	8.3
+10) Problems among Muslims	7	1.4
+11) Fundamentalist/extremist Muslims in other countries	10	2.0
+12) Jobs/financial problems	9	1.8
+13) Lack of representation/community involvement	2	0.4
+14) War/U.S. foreign policy	5	1.0
+15) Trump's attitudes/policies toward Muslims	20	3.9
+97) Other	26	5.1
+98) Uncodeable	3	0.6
+99) No problems	41	8.1
+999) Don't know/refused	13	2.6
+Missing	494
+
+
+34) QC1OE_2
+QC1oe_2. ASK IF FORM=1. In your own words, what do you think are the most important problems facing Muslims living in the United States today? [COLLAPSED CATEGORIES BASED ON RECORDED VERBATIM RESPONSE. UP TO THREE RESPONSES IN ORDER OF MENTION] 2. Second mention
+RANGE: 1 to 15
+	N	Mean	Std. Deviation
+Total	101	6.515	4.041
+1) Stereotyping/generalizing about all Muslims	4	4.0
+2) Viewed as terrorists	18	17.8
+3) Hatred/fear/distrust of Muslims	4	4.0
+4) Discrimination/racism/prejudice	13	12.9
+5) Not treated fairly/harassment	6	5.9
+6) Ignorance/misconceptions of Islam	13	12.9
+7) Religious/cultural problems between Muslims and non-Muslims	2	2.0
+8) Negative media portrayals	15	14.9
+9) Acceptance by society	9	8.9
+11) Fundamentalist/extremist Muslims in other countries	5	5.0
+12) Jobs/financial problems	1	1.0
+14) War/U.S. foreign policy	1	1.0
+15) Trump's attitudes/policies toward Muslims	10	9.9
+Missing	900
+
+
+35) QC1OE_3
+QC1oe_3. ASK IF FORM=1. In your own words, what do you think are the most important problems facing Muslims living in the United States today? [COLLAPSED CATEGORIES BASED ON RECORDED VERBATIM RESPONSE. UP TO THREE RESPONSES IN ORDER OF MENTION] 3. Third mention
+RANGE: 2 to 15
+	N	Mean	Std. Deviation
+Total	11	7.909	4.527
+2) Viewed as terrorists	1	9.1
+3) Hatred/fear/distrust of Muslims	1	9.1
+4) Discrimination/racism/prejudice	1	9.1
+6) Ignorance/misconceptions of Islam	3	27.3
+8) Negative media portrayals	1	9.1
+11) Fundamentalist/extremist Muslims in other countries	2	18.2
+15) Trump's attitudes/policies toward Muslims	2	18.2
+Missing	990
+
+
+36) QC3
+Q.C3. ASK ALL: In recent years, has it become or more difficult to be a Muslim in the U.S., or hasn't it changed very much?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.651	1.257
+1) Has become more difficult to be a Muslim in the U.S.	542	54.1
+2) Hasn't changed very much	404	40.4
+3) Has become easier to be a Muslim in the U.S. (VOL.)	32	3.2
+9) Don't know/refused (VOL.)	23	2.3
+
+
+37) QC6OE_1
+Q.C6oe_1. ASK IF FORM=2 AND SAID 'MORE DIFFICULT' IN Q.C3 (Q.C3=1): And just in your own words, what is the main reason it has become more difficult to be a Muslim in the U.S. in recent years? [COLLAPSED CATEGORIES BASED ON RECORDED VERBATIM RESPONSE. UP TO TWO RESPONSES IN ORDER OF MENTION] 1. First mention
+RANGE: 1 to 999
+	N	Mean	Std. Deviation
+Total	273	22.597	104.817
+1) Stereotyping/generalizing about all Muslims	18	6.6
+2) Viewed as terrorists	15	5.5
+3) Hatred/fear/distrust of Muslims	20	7.3
+4) Discrimination/racism/prejudice	25	9.2
+5) Not treated fairly/harassment	10	3.7
+6) Ignorance/misconceptions of Islam	26	9.5
+7) Religious/cultural problems between Muslims and non-Muslims	1	0.4
+8) Negative media portrayals	35	12.8
+9) Acceptance by society	17	6.2
+10) Problems among Muslims	3	1.1
+11) Fundamentalist/extremist Muslims in other countries	48	17.6
+14) War/U.S. foreign policy	6	2.2
+15) Trump's attitudes/policies toward Muslims	34	12.5
+97) Other	11	4.0
+99) No problems	1	0.4
+999) Don't know/refused	3	1.1
+Missing	728
+
+
+38) QC6OE_2
+Q.C6oe_2. ASK IF FORM=2 AND SAID 'MORE DIFFICULT' IN Q.C3 (Q.C3=1): And just in your own words, what is the main reason it has become more difficult to be a Muslim in the U.S. in recent years? [COLLAPSED CATEGORIES BASED ON RECORDED VERBATIM RESPONSE. UP TO TWO RESPONSES IN ORDER OF MENTION] 2. Second mention
+RANGE: 1 to 15
+	N	Mean	Std. Deviation
+Total	81	7.074	4.593
+1) Stereotyping/generalizing about all Muslims	6	7.4
+2) Viewed as terrorists	13	16.0
+3) Hatred/fear/distrust of Muslims	5	6.2
+4) Discrimination/racism/prejudice	7	8.6
+5) Not treated fairly/harassment	3	3.7
+6) Ignorance/misconceptions of Islam	6	7.4
+8) Negative media portrayals	17	21.0
+9) Acceptance by society	2	2.5
+11) Fundamentalist/extremist Muslims in other countries	9	11.1
+14) War/U.S. foreign policy	1	1.2
+15) Trump's attitudes/policies toward Muslims	12	14.8
+Missing	920
+
+
+39) QC7
+Q.C7. ASK ALL: How many of your close friends are Muslims? Would you say [READ]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.687	0.965
+1) All of them	58	5.8
+2) Most of them	370	37.0
+3) Some of them [OR]	447	44.7
+4) Hardly any of them	111	11.1
+5) [VOL. DO NOT READ] None of them	7	0.7
+9) [VOL. DO NOT READ] Don't know/refused	8	0.8
+
+
+40) QC8
+Q.C8. ASK ALL: On a typical day, is there anything distinctive about your appearance, voice, or clothing that people might associate with being Muslim, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.691	0.88
+1) Yes, there is something distinctive about appearance, voice or clothing that people might associate with being Muslim	379	37.9
+2) No, there is not	612	61.1
+9) Don't know/refused (VOL.)	10	1.0
+
+
+41) QC10
+Q.C10. ASK ALL: Do you think that coverage of Islam (is-LAM) and Muslims by American news organizations is generally fair or unfair?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.122	1.518
+1) Fair	237	23.7
+2) Unfair	651	65.0
+3) Depends (VOL.)	72	7.2
+9) Don't know/refused (VOL.)	41	4.1
+
+
+42) QC11A
+Q.C11a. Do you feel that [INSERT FIRST ITEM; RANDOMIZE a AND b; ALWAYS ASK c after a and b] is generally friendly, neutral, or unfriendly toward Muslim Americans? How about [INSERT NEXT ITEM; REPEAT AS NECESSARY: Is [ITEM] generally friendly, neutral, or unfriendly toward Muslim Americans?] a. The Democratic Party
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.084	1.972
+1) Friendly toward Muslim Americans	477	47.7
+2) Neutral toward Muslim Americans	371	37.1
+3) Unfriendly toward Muslim Americans	85	8.5
+9) Don't know/refused (VOL.)	68	6.8
+
+
+43) QC11B
+Q.C11b. Do you feel that [INSERT FIRST ITEM; RANDOMIZE a AND b; ALWAYS ASK c after a and b] is generally friendly, neutral, or unfriendly toward Muslim Americans? How about [INSERT NEXT ITEM; REPEAT AS NECESSARY: Is [ITEM] generally friendly, neutral, or unfriendly toward Muslim Americans?] b. The Republican Party
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	3.087	1.859
+1) Friendly toward Muslim Americans	95	9.5
+2) Neutral toward Muslim Americans	203	20.3
+3) Unfriendly toward Muslim Americans	623	62.2
+9) Don't know/refused (VOL.)	80	8.0
+
+
+44) QC11C
+Q.C11c. Do you feel that [INSERT FIRST ITEM; RANDOMIZE a AND b; ALWAYS ASK c after a and b] is generally friendly, neutral, or unfriendly toward Muslim Americans? How about [INSERT NEXT ITEM; REPEAT AS NECESSARY: Is [ITEM] generally friendly, neutral, or unfriendly toward Muslim Americans?] c. Donald Trump
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	3.084	1.519
+1) Friendly toward Muslim Americans	65	6.5
+2) Neutral toward Muslim Americans	110	11.0
+3) Unfriendly toward Muslim Americans	772	77.1
+9) Don't know/refused (VOL.)	54	5.4
+
+
+45) QC12
+Q.C12. ASK ALL: And are the American people generally friendly, neutral, or unfriendly toward Muslim Americans?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.705	1.296
+1) Friendly toward Muslim Americans	569	56.8
+2) Neutral toward Muslim Americans	290	29.0
+3) Unfriendly toward Muslim Americans	120	12.0
+9) Don't know/refused (VOL.)	22	2.2
+
+
+46) QC13
+Q.C13. ASK ALL: Generally speaking, how much would you say you have in common with most Americans? Would you say you have a lot in common with most Americans, some in common, not much in common, or nothing at all in common with most Americans?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.461	0.969
+1) A lot in common	688	68.7
+2) Some in common	238	23.8
+3) Not much in common	46	4.6
+4) Nothing at all in common	17	1.7
+5) Depends (VOL.)	4	0.4
+9) Don't know/refused (VOL.)	8	0.8
+
+
+47) QC14
+Q.C14. ASK ALL: Do you think that the American people as a whole see Islam as part of mainstream American society, or don't you think so?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.041	1.674
+1) Yes, the American people as a whole see Islam as part of mainstream American society	331	33.1
+2) No, don't think so	598	59.7
+3) Other/depends (VOL.)	22	2.2
+9) Don't know/refused (VOL.)	50	5.0
+
+
+48) QC15A
+Q.C15a. ASK ALL: Please tell me how important each of the following is to what BEING MUSLIM means to you. First [INSERT; ASK ITEM a FIRST, THEN b, THEN RANDOMIZE]. Is that essential, OR important but NOT essential, OR not an important part of what BEING MUSLIM means to you? Next, [INSERT NEXT ITEM]. [READ FOR SECOND AND THIRD ITEMS, THEN AS NECESSARY: Is that essential, OR important but NOT essential, OR not an important part of what BEING MUSLIM means to you? [INTERVIEWER NOTES: IF RESPONDENT SAYS 'important,' PROBE TO CLARIFY WHETHER THAT'S ESSENTIAL OR IMPORTANT BUT NOT ESSENTIAL; NOTE ALSO THAT THE QUESTION IS ABOUT WHAT IT MEANS TO BE MUSLIM, NOT JUST WHAT'S IMPORTANT TO THE RESPONDENT - EMPHASIZE AS NECESSARY THAT WE ARE INTERESTED IN 'what BEING MUSLIM means to you.'] a. Believing in God
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.266	0.902
+1) Essential part of what BEING MUSLIM means to you	834	83.3
+2) Important but NOT essential	128	12.8
+3) Not an important part of what BEING MUSLIM means to you	29	2.9
+9) Don't know/refused (VOL.)	10	1.0
+
+
+49) QC15B
+Q.C15b. ASK ALL: Please tell me how important each of the following is to what BEING MUSLIM means to you. First [INSERT; ASK ITEM a FIRST, THEN b, THEN RANDOMIZE]. Is that essential, OR important but NOT essential, OR not an important part of what BEING MUSLIM means to you? Next, [INSERT NEXT ITEM]. [READ FOR SECOND AND THIRD ITEMS, THEN AS NECESSARY: Is that essential, OR important but NOT essential, OR not an important part of what BEING MUSLIM means to you? [INTERVIEWER NOTES: IF RESPONDENT SAYS 'important,' PROBE TO CLARIFY WHETHER THAT'S ESSENTIAL OR IMPORTANT BUT NOT ESSENTIAL; NOTE ALSO THAT THE QUESTION IS ABOUT WHAT IT MEANS TO BE MUSLIM, NOT JUST WHAT'S IMPORTANT TO THE RESPONDENT - EMPHASIZE AS NECESSARY THAT WE ARE INTERESTED IN 'what BEING MUSLIM means to you.'] b. Loving the Prophet Muhammad
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.407	1.035
+1) Essential part of what BEING MUSLIM means to you	736	73.5
+2) Important but NOT essential	201	20.1
+3) Not an important part of what BEING MUSLIM means to you	51	5.1
+9) Don't know/refused (VOL.)	13	1.3
+
+
+50) QC15C
+Q.C15c. ASK ALL: Please tell me how important each of the following is to what BEING MUSLIM means to you. First [INSERT; ASK ITEM a FIRST, THEN b, THEN RANDOMIZE]. Is that essential, OR important but NOT essential, OR not an important part of what BEING MUSLIM means to you? Next, [INSERT NEXT ITEM]. [READ FOR SECOND AND THIRD ITEMS, THEN AS NECESSARY: Is that essential, OR important but NOT essential, OR not an important part of what BEING MUSLIM means to you? [INTERVIEWER NOTES: IF RESPONDENT SAYS 'important,' PROBE TO CLARIFY WHETHER THAT'S ESSENTIAL OR IMPORTANT BUT NOT ESSENTIAL; NOTE ALSO THAT THE QUESTION IS ABOUT WHAT IT MEANS TO BE MUSLIM, NOT JUST WHAT'S IMPORTANT TO THE RESPONDENT - EMPHASIZE AS NECESSARY THAT WE ARE INTERESTED IN 'what BEING MUSLIM means to you.'] c. Following the Quran (cur-AHN) and Sunnah (soon-nah)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.583	1.162
+1) Essential part of what BEING MUSLIM means to you	613	61.2
+2) Important but NOT essential	294	29.4
+3) Not an important part of what BEING MUSLIM means to you	77	7.7
+9) Don't know/refused (VOL.)	17	1.7
+
+
+51) QC15D
+Q.C15d. ASK ALL: Please tell me how important each of the following is to what BEING MUSLIM means to you. First [INSERT; ASK ITEM a FIRST, THEN b, THEN RANDOMIZE]. Is that essential, OR important but NOT essential, OR not an important part of what BEING MUSLIM means to you? Next, [INSERT NEXT ITEM]. [READ FOR SECOND AND THIRD ITEMS, THEN AS NECESSARY: Is that essential, OR important but NOT essential, OR not an important part of what BEING MUSLIM means to you? [INTERVIEWER NOTES: IF RESPONDENT SAYS 'important,' PROBE TO CLARIFY WHETHER THAT'S ESSENTIAL OR IMPORTANT BUT NOT ESSENTIAL; NOTE ALSO THAT THE QUESTION IS ABOUT WHAT IT MEANS TO BE MUSLIM, NOT JUST WHAT'S IMPORTANT TO THE RESPONDENT - EMPHASIZE AS NECESSARY THAT WE ARE INTERESTED IN 'what BEING MUSLIM means to you.'] d. Dressing modestly
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.921	1.258
+1) Essential part of what BEING MUSLIM means to you	414	41.4
+2) Important but NOT essential	372	37.2
+3) Not an important part of what BEING MUSLIM means to you	195	19.5
+9) Don't know/refused (VOL.)	20	2.0
+
+
+52) QC15E
+Q.C15e. ASK ALL: Please tell me how important each of the following is to what BEING MUSLIM means to you. First [INSERT; ASK ITEM a FIRST, THEN b, THEN RANDOMIZE]. Is that essential, OR important but NOT essential, OR not an important part of what BEING MUSLIM means to you? Next, [INSERT NEXT ITEM]. [READ FOR SECOND AND THIRD ITEMS, THEN AS NECESSARY: Is that essential, OR important but NOT essential, OR not an important part of what BEING MUSLIM means to you? [INTERVIEWER NOTES: IF RESPONDENT SAYS 'important,' PROBE TO CLARIFY WHETHER THAT'S ESSENTIAL OR IMPORTANT BUT NOT ESSENTIAL; NOTE ALSO THAT THE QUESTION IS ABOUT WHAT IT MEANS TO BE MUSLIM, NOT JUST WHAT'S IMPORTANT TO THE RESPONDENT - EMPHASIZE AS NECESSARY THAT WE ARE INTERESTED IN 'what BEING MUSLIM means to you.'] e. Working for justice and equality in society
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.389	1.065
+1) Essential part of what BEING MUSLIM means to you	745	74.4
+2) Important but NOT essential	213	21.3
+3) Not an important part of what BEING MUSLIM means to you	28	2.8
+9) Don't know/refused (VOL.)	15	1.5
+
+
+53) QC15F
+Q.C15f. ASK ALL: Please tell me how important each of the following is to what BEING MUSLIM means to you. First [INSERT; ASK ITEM a FIRST, THEN b, THEN RANDOMIZE]. Is that essential, OR important but NOT essential, OR not an important part of what BEING MUSLIM means to you? Next, [INSERT NEXT ITEM]. [READ FOR SECOND AND THIRD ITEMS, THEN AS NECESSARY: Is that essential, OR important but NOT essential, OR not an important part of what BEING MUSLIM means to you? [INTERVIEWER NOTES: IF RESPONDENT SAYS 'important,' PROBE TO CLARIFY WHETHER THAT'S ESSENTIAL OR IMPORTANT BUT NOT ESSENTIAL; NOTE ALSO THAT THE QUESTION IS ABOUT WHAT IT MEANS TO BE MUSLIM, NOT JUST WHAT'S IMPORTANT TO THE RESPONDENT - EMPHASIZE AS NECESSARY THAT WE ARE INTERESTED IN 'what BEING MUSLIM means to you.'] f. Eating halal (ha-lal) foods
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.812	1.095
+1) Essential part of what BEING MUSLIM means to you	459	45.9
+2) Important but NOT essential	343	34.3
+3) Not an important part of what BEING MUSLIM means to you	187	18.7
+9) Don't know/refused (VOL.)	12	1.2
+
+
+54) QC15G
+Q.C15g. ASK ALL: Please tell me how important each of the following is to what BEING MUSLIM means to you. First [INSERT; ASK ITEM a FIRST, THEN b, THEN RANDOMIZE]. Is that essential, OR important but NOT essential, OR not an important part of what BEING MUSLIM means to you? Next, [INSERT NEXT ITEM]. [READ FOR SECOND AND THIRD ITEMS, THEN AS NECESSARY: Is that essential, OR important but NOT essential, OR not an important part of what BEING MUSLIM means to you? [INTERVIEWER NOTES: IF RESPONDENT SAYS 'important,' PROBE TO CLARIFY WHETHER THAT'S ESSENTIAL OR IMPORTANT BUT NOT ESSENTIAL; NOTE ALSO THAT THE QUESTION IS ABOUT WHAT IT MEANS TO BE MUSLIM, NOT JUST WHAT'S IMPORTANT TO THE RESPONDENT - EMPHASIZE AS NECESSARY THAT WE ARE INTERESTED IN 'what BEING MUSLIM means to you.'] g. Getting married
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.867	1.023
+1) Essential part of what BEING MUSLIM means to you	389	38.9
+2) Important but NOT essential	416	41.6
+3) Not an important part of what BEING MUSLIM means to you	186	18.6
+9) Don't know/refused (VOL.)	10	1.0
+
+
+55) QC15H
+Q.C15h. ASK ALL: Please tell me how important each of the following is to what BEING MUSLIM means to you. First [INSERT; ASK ITEM a FIRST, THEN b, THEN RANDOMIZE]. Is that essential, OR important but NOT essential, OR not an important part of what BEING MUSLIM means to you? Next, [INSERT NEXT ITEM]. [READ FOR SECOND AND THIRD ITEMS, THEN AS NECESSARY: Is that essential, OR important but NOT essential, OR not an important part of what BEING MUSLIM means to you? [INTERVIEWER NOTES: IF RESPONDENT SAYS 'important,' PROBE TO CLARIFY WHETHER THAT'S ESSENTIAL OR IMPORTANT BUT NOT ESSENTIAL; NOTE ALSO THAT THE QUESTION IS ABOUT WHAT IT MEANS TO BE MUSLIM, NOT JUST WHAT'S IMPORTANT TO THE RESPONDENT - EMPHASIZE AS NECESSARY THAT WE ARE INTERESTED IN 'what BEING MUSLIM means to you.'] h. Working to protect the environment
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.47	0.977
+1) Essential part of what BEING MUSLIM means to you	653	65.2
+2) Important but NOT essential	292	29.2
+3) Not an important part of what BEING MUSLIM means to you	45	4.5
+9) Don't know/refused (VOL.)	11	1.1
+
+
+56) QC16OE_1
+Q.C16oe_1. ASK ALL: And just in your own words, is there anything I haven't mentioned that is an essential part of what being Muslim means to you? [COLLAPSED CATEGORIES BASED ON RECORDED VERBATIM RESPONSE. UP TO THREE RESPONSES IN ORDER OF MENTION. THOSE WHO DID NOT GIVE A RESPONSE WERE NOT CODED] 1. First response
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	513	8.823	21.406
+1) Beliefs and practices	95	18.5
+2) Family	19	3.7
+3) Golden rule/love your neighbor/treat others fairly/be a good example	143	27.9
+4) Be a good person/follow laws of the land	63	12.3
+5) Equality/tolerance	89	17.3
+6) Assimilation/being accepted	18	3.5
+7) Peace	40	7.8
+8) Charity	12	2.3
+9) Critical thinking	6	1.2
+97) Other	17	3.3
+98) Uncodeable	9	1.8
+99) Don't know/refused (VOL.)	2	0.4
+Missing	488
+
+
+57) QC16OE_2
+Q.C16oe_2. ASK ALL: And just in your own words, is there anything I haven't mentioned that is an essential part of what being Muslim means to you? [COLLAPSED CATEOGORIES BASED ON RECORDED VERBATIM RESPONSE. UP TO THREE RESPONSES IN ORDER OF MENTION. THOSE WHO DID NOT GIVE A RESPONSE WERE NOT CODED] 2. Second response
+RANGE: 1 to 97
+	N	Mean	Std. Deviation
+Total	92	5.739	9.847
+1) Beliefs and practices	9	9.8
+2) Family	3	3.3
+3) Golden rule/love your neighbor/treat others fairly/be a good example	13	14.1
+4) Be a good person/follow laws of the land	18	19.6
+5) Equality/tolerance	20	21.7
+6) Assimilation/being accepted	5	5.4
+7) Peace	10	10.9
+8) Charity	12	13.0
+9) Critical thinking	1	1.1
+97) Other	1	1.1
+Missing	909
+
+
+58) QC16OE_3
+Q.C16oe_3. ASK ALL: And just in your own words, is there anything I haven't mentioned that is an essential part of what being Muslim means to you? [COLLAPSED CATEGORIES BASED ON RECORDED VERBATIM RESPONSE. UP TO THREE RESPONSES IN ORDER OF MENTION. THOSE WHO DID NOT GIVE A RESPONSE WERE NOT CODED] 3. Third response
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	8	4.375	2.387
+1) Beliefs and practices	1	12.5
+2) Family	1	12.5
+3) Golden rule/love your neighbor/treat others fairly/be a good example	1	12.5
+4) Be a good person/follow laws of the land	1	12.5
+5) Equality/tolerance	2	25.0
+7) Peace	1	12.5
+8) Charity	1	12.5
+Missing	993
+
+
+59) QC17A
+Q.C17a. As I read a few statements, please tell me if you completely agree, mostly agree, mostly DISagree or completely DISagree with each one. First, [INSERT; RANDOMIZE ITEMS a AND b FIRST, THEN ASK c, THEN ASK d LAST]. Do you completely agree, mostly agree, mostly DISagree or completely DISagree? Next [INSERT NEXT ITEM]. [READ AS NECESSARY: Do you completely agree, mostly agree, mostly DISagree or completely DISagree?] a. I am proud to be Muslim
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.283	0.872
+1) Completely agree	802	80.1
+2) Mostly agree	175	17.5
+3) Mostly disagree	9	0.9
+4) Completely disagree	6	0.6
+9) Don't know/refused (VOL.)	9	0.9
+
+
+60) QC17B
+Q.C17b. As I read a few statements, please tell me if you completely agree, mostly agree, mostly DISagree or completely DISagree with each one. First, [INSERT; RANDOMIZE ITEMS a AND b FIRST, THEN ASK c, THEN ASK d LAST]. Do you completely agree, mostly agree, mostly DISagree or completely DISagree? Next [INSERT NEXT ITEM]. [READ AS NECESSARY: Do you completely agree, mostly agree, mostly DISagree or completely DISagree?] b. I am proud to be an American
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.474	1.241
+1) Completely agree	718	71.7
+2) Mostly agree	231	23.1
+3) Mostly disagree	18	1.8
+4) Completely disagree	13	1.3
+9) Don't know/refused (VOL.)	21	2.1
+
+
+61) QC17C
+Q.C17c. As I read a few statements, please tell me if you completely agree, mostly agree, mostly DISagree or completely DISagree with each one. First, [INSERT; RANDOMIZE ITEMS a AND b FIRST, THEN ASK c, THEN ASK d LAST]. Do you completely agree, mostly agree, mostly DISagree or completely DISagree? Next [INSERT NEXT ITEM]. [READ AS NECESSARY: Do you completely agree, mostly agree, mostly DISagree or completely DISagree?] c. I feel a strong sense of belonging to a global Muslim community or ummah (ooh-mah)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.274	1.746
+1) Completely agree	360	36.0
+2) Mostly agree	367	36.7
+3) Mostly disagree	149	14.9
+4) Completely disagree	78	7.8
+9) Don't know/refused (VOL.)	47	4.7
+
+
+62) QC17D
+Q.C17d. As I read a few statements, please tell me if you completely agree, mostly agree, mostly DISagree or completely DISagree with each one. First, [INSERT; RANDOMIZE ITEMS a AND b FIRST, THEN ASK c, THEN ASK d LAST]. Do you completely agree, mostly agree, mostly DISagree or completely DISagree? Next [INSERT NEXT ITEM]. [READ AS NECESSARY: Do you completely agree, mostly agree, mostly DISagree or completely DISagree?] d. I feel a strong sense of belonging to the Muslim community in the U.S.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.958	1.38
+1) Completely agree	419	41.9
+2) Mostly agree	400	40.0
+3) Mostly disagree	107	10.7
+4) Completely disagree	51	5.1
+9) Don't know/refused (VOL.)	24	2.4
+
+
+63) QC18
+Q.C18. ASK ALL: Do you think there is a natural conflict between the teachings of Islam and democracy, or don't you think so?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.093	1.519
+1) Yes, there is a natural conflict between the teachings of Islam and democracy	208	20.8
+2) No, don't think so	750	74.9
+9) Don't know/refused (VOL.)	43	4.3
+
+
+64) QC19OE_1
+Q.C19oe_1. ASK IF YES IN Q.C18 (Q.C18=1): And just in your own words, why do you think there is a natural conflict between the teachings of Islam and democracy? [COLLAPSED CATEGORIES BASED ON RECORDED RESPONSE.]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	208	27.288	28.498
+1) They can be compatible	11	5.3
+2) The concepts/terms are unrelated to each other	8	3.8
+3) Practical/secular reasons such as war, money, etc.	1	0.5
+10) Americans are unaccepting of difference/discrimination	7	3.4
+11) General public misunderstands Islam/terrorists give Islam a bad name	42	20.2
+13) The U.S. is a Christian nation	4	1.9
+20) They have conflicting principles	76	36.5
+21) All religions incompatible with democracy	13	6.3
+24) Conflict on gender/sexuality	7	3.4
+26) Islam needs to be updated/re-interpreted	8	3.8
+88) Other	16	7.7
+99) Don't know/refused (VOL.)	15	7.2
+Missing	793
+
+
+65) QD1A
+Q.D1a. ASK ALL: Here are a few things that some Muslims in the U.S. have experienced. As I read each one, please tell me whether or not it has happened to you in the past twelve months. First, in the past twelve months, [INSERT; RANDOMIZE; ITEM e ALWAYS IMMEDIATELY FOLLOWS ITEM d; g ALWAYS ASKED LAST] [REPEAT In the past twelve months TWICE, THEN AS NECESSARY] [INSERT NEXT ITEM] a. Have people acted as if they are suspicious of you because you are a Muslim, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.775	0.789
+1) Yes, has happened	281	28.1
+2) No, has not happened	712	71.1
+9) Don't know/refused (VOL.)	8	0.8
+
+
+66) QD1B
+Q.D1b. ASK ALL: Here are a few things that some Muslims in the U.S. have experienced. As I read each one, please tell me whether or not it has happened to you in the past twelve months. First, in the past twelve months, [INSERT; RANDOMIZE; ITEM e ALWAYS IMMEDIATELY FOLLOWS ITEM d; g ALWAYS ASKED LAST] [REPEAT In the past twelve months TWICE, THEN AS NECESSARY] [INSERT NEXT ITEM] b. Has someone expressed support for you because you are a Muslim, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.557	0.867
+1) Yes, has happened	506	50.5
+2) No, has not happened	486	48.6
+9) Don't know/refused (VOL.)	9	0.9
+
+
+67) QD1C
+Q.D1c. ASK ALL: Here are a few things that some Muslims in the U.S. have experienced. As I read each one, please tell me whether or not it has happened to you in the past twelve months. First, in the past twelve months, [INSERT; RANDOMIZE; ITEM e ALWAYS IMMEDIATELY FOLLOWS ITEM d; g ALWAYS ASKED LAST] [REPEAT In the past twelve months TWICE, THEN AS NECESSARY] [INSERT NEXT ITEM] c. Have you been called offensive names because you are a Muslim, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.797	0.467
+1) Yes, has happened	210	21.0
+2) No, has not happened	790	78.9
+9) Don't know/refused (VOL.)	1	0.1
+
+
+68) QD1D
+Q.D1d. ASK ALL: Here are a few things that some Muslims in the U.S. have experienced. As I read each one, please tell me whether or not it has happened to you in the past twelve months. First, in the past twelve months, [INSERT; RANDOMIZE; ITEM e ALWAYS IMMEDIATELY FOLLOWS ITEM d; g ALWAYS ASKED LAST] [REPEAT In the past twelve months TWICE, THEN AS NECESSARY] [INSERT NEXT ITEM] d. Have you been singled out by airport security because you are a Muslim, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.886	0.911
+1) Yes, has happened	205	20.5
+2) No, has not happened	783	78.2
+9) Don't know/refused (VOL.)	13	1.3
+
+
+69) QD1E
+Q.D1e. ASK ALL: Here are a few things that some Muslims in the U.S. have experienced. As I read each one, please tell me whether or not it has happened to you in the past twelve months. First, in the past twelve months, [INSERT; RANDOMIZE; ITEM e ALWAYS IMMEDIATELY FOLLOWS ITEM d; g ALWAYS ASKED LAST] [REPEAT In the past twelve months TWICE, THEN AS NECESSARY] [INSERT NEXT ITEM] e. Have you been singled out by other law enforcement officers because you are a Muslim, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.919	0.361
+1) Yes, has happened	88	8.8
+2) No, has not happened	912	91.1
+9) Don't know/refused (VOL.)	1	0.1
+
+
+70) QD1F
+Q.D1f. ASK ALL: Here are a few things that some Muslims in the U.S. have experienced. As I read each one, please tell me whether or not it has happened to you in the past twelve months. First, in the past twelve months, [INSERT; RANDOMIZE; ITEM e ALWAYS IMMEDIATELY FOLLOWS ITEM d; g ALWAYS ASKED LAST] [REPEAT In the past twelve months TWICE, THEN AS NECESSARY] [INSERT NEXT ITEM] f. Have you been physically threatened or attacked because you are a Muslim, or not?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1001	1.952	0.214
+1) Yes, has happened	48	4.8
+2) No, has not happened	953	95.2
+
+
+71) QD1G
+Q.D1g. ASK ALL: Here are a few things that some Muslims in the U.S. have experienced. As I read each one, please tell me whether or not it has happened to you in the past twelve months. First, in the past twelve months, [INSERT; RANDOMIZE; ITEM e ALWAYS IMMEDIATELY FOLLOWS ITEM d; g ALWAYS ASKED LAST] [REPEAT In the past twelve months TWICE, THEN AS NECESSARY] [INSERT NEXT ITEM] g. Have you seen anti-Muslim graffiti in your local community, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.821	0.609
+1) Yes, has happened	207	20.7
+2) No, has not happened	790	78.9
+9) Don't know/Refused (VOL.)	4	0.4
+
+
+72) QD2
+A.D2. ASK ALL: How WORRIED are you about your telephone calls and e-mails being monitored by the government because of your religion? Are you very worried, somewhat worried, not too worried, or not at all worried?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	3.017	1.206
+1) Very worried	143	14.3
+2) Somewhat worried	200	20.0
+3) Not too worried	185	18.5
+4) Not at all worried	467	46.7
+9) Don't know/refused (VOL.)	6	0.6
+
+
+73) QD3
+Q.D3. ASK ALL: And how LIKELY do you think it is that your telephone calls and e-mails are being monitored by the government? Very likely, somewhat likely, not too likely, or not at all likely?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.537	1.755
+1) Very likely	306	30.6
+2) Somewhat likely	300	30.0
+3) Not too likely	166	16.6
+4) Not at all likely	185	18.5
+9) Don't know/refused (VOL.)	44	4.4
+
+
+74) QE1
+Q.E1. ASK ALL: On average, how often do you attend a mosque or Islamic Center for salah (sal-AH) or Jum'ah (joom-AH) Prayer? [READ]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	3.139	1.662
+1) More than once a week	173	17.3
+2) Once a week for Jum'ah (joom-AH) Prayer	280	28.0
+3) Once or twice a month	136	13.6
+4) A few times a year especially for the Eid (EED)	211	21.1
+5) Seldom	58	5.8
+6) Never	140	14.0
+9) [VOL. DO NOT READ] Don't know/refused	3	0.3
+
+
+75) QE2
+Q.E2. ASK ALL: Overall, are you satisfied or dissatisfied with the quality of mosques available to you where you live?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.591	1.757
+1) Satisfied	781	78.0
+2) Dissatisfied	148	14.8
+3) No mosques nearby (VOL.)	22	2.2
+9) Don't know/refused (VOL.)	50	5.0
+
+
+76) QE3
+Q.E3. ASK ALL: How important is religion in your life - very important, somewhat important, not too important, or not at all important?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.484	0.889
+1) Very important	673	67.2
+2) Somewhat important	226	22.6
+3) Not too important	68	6.8
+4) Not at all important	30	3.0
+9) Don't know/refused (VOL.)	4	0.4
+
+
+77) QE4
+Q.E4. ASK ALL: Concerning daily salah (sal-AH) or prayer, do you, in general, pray all five salah (sal-AH) daily, make some of the five salah (sal-AH) daily, occasionally make salah (sal-AH), only make Eid (EED) prayers or do you never pray?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.317	1.549
+1) Pray all five salah (sal-AH)	422	42.2
+2) Make some of the five salah (sal-AH) daily	193	19.3
+3) Occasionally make salah (sal-AH)	209	20.9
+4) Only make Eid (EED) Prayers	57	5.7
+5) Never pray	106	10.6
+9) Don't know/refused (VOL.)	14	1.4
+
+
+78) QE5
+Q.E5. ASK ALL: Do you fast, that is avoid eating during the daytime, during the holy month of Ramadan (rah-muh-dAHN), or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.239	0.758
+1) Yes, fast	811	81.0
+2) No, don't fast	183	18.3
+9) Don't know/refused (VOL.)	7	0.7
+
+
+79) QE6A
+Q.E6a. ASK ALL: Now I'm going to read you a few pairs of statements. For each pair, tell me which statement comes closer to your own views, even if neither is exactly right. [DO NOT RANDOMIZE PAIRS OR STATEMENTS WITHIN EACH PAIR] a. Number one - there is only ONE true way to interpret the teachings of Islam [OR] Number two - there is MORE than one true way to interpret the teachings of Islam
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.992	1.504
+1) Statement #1	295	29.5
+2) Statement #2	659	65.8
+3) Other (VOL.)	7	0.7
+9) Don't know/refused (VOL.)	40	4.0
+
+
+80) QE6C
+Q.E6c. ASK ALL: Now I'm going to read you a few pairs of statements. For each pair, tell me which statement comes closer to your own views, even if neither is exactly right. [DO NOT RANDOMIZE PAIRS OR STATEMENTS WITHIN EACH PAIR] c. Number one - for me personally, the mosque is central to my spiritual life [OR] Number two - I pursue my spiritual life primarily outside the mosque
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.898	1.132
+1) Statement #1	277	27.7
+2) Statement #2	669	66.8
+3) Other (VOL.)	35	3.5
+9) Don't know/refused (VOL.)	20	2.0
+
+
+81) QE6D
+Q.E6d. ASK ALL: Now I'm going to read you a few pairs of statements. For each pair, tell me which statement comes closer to your own views, even if neither is exactly right. [DO NOT RANDOMIZE PAIRS OR STATEMENTS WITHIN EACH PAIR] d. Number one - traditional understandings of Islam need to be re-interpreted to address today's issues [OR] Number two - traditional understandings of Islam are all we need to address today's issues
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.065	2.201
+1) Statement #1	564	56.3
+2) Statement #2	330	33.0
+3) Other (VOL.)	20	2.0
+9) Don't know/refused (VOL.)	87	8.7
+
+
+82) QE7
+Q.E7. ASK IF FEMALE (SEX=W): When you are out in public, how often do you wear the headcover or hijab (hee-jab)? Do you wear it all the time, most of the time, only some of the time or never?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	385	2.556	1.399
+1) All the time	155	40.3
+2) Most of the time	19	4.9
+3) Only some of the time	58	15.1
+4) Never	152	39.5
+9) Don't know/refused (VOL.)	1	0.3
+Missing	616
+
+
+83) QE8A
+Q.E8a. ASK ALL: Generally speaking, do you think of yourself as a [INSERT; RANDOMIZE], or not? And generally speaking, do you think of yourself as a [INSERT; NEXT ITEM], or not? a. Religious person
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.503	1.122
+1) Yes, think of self as religious person	623	62.2
+2) No, do not	360	36.0
+9) Don't know/refused (VOL.)	18	1.8
+
+
+84) QE8B
+Q.E8b. ASK ALL: Generally speaking, do you think of yourself as a [INSERT; RANDOMIZE], or not? And generally speaking, do you think of yourself as a [INSERT; NEXT ITEM], or not? b. Spiritual person
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.613	1.626
+1) Yes, think of self as spiritual person	688	68.7
+2) No, do not	270	27.0
+9) Don't know/refused (VOL.)	43	4.3
+
+
+85) QE9
+Q.E9. ASK ALL: Have you always been Muslim, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.176	0.56
+1) Yes	846	84.5
+2) No	152	15.2
+9) Don't know/refused (VOL.)	3	0.3
+
+
+86) QE10REC
+Q.E10REC. ASK IF RESPONDENT HAS NOT ALWAYS BEEN A MUSLIM (Q.E9=2): What were you before?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	152	3.809	11.35
+1) Protestant (include Baptist, Lutheran, Methodist, Presbyterian, Episcopalian, Pentecostal, Jehovah's Witness, Church of Christ, etc.)	85	55.9
+2) Roman Catholic	25	16.4
+3) Other religion (SPECIFY)	19	12.5
+9) No religion, not a believer, atheist, or agnostic (VOL.)	21	13.8
+99) Don't know/refused (VOL)	2	1.3
+Missing	849
+
+
+87) QE11REC
+Q.E11REC. ASK IF RESPONDENT HAS NOT ALWAYS BEEN A MUSLIM (Q.E9=2): How old were you when you became Muslim?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	152	3.132	1.38
+1) 0 to 9	3	2.0
+2) 10 to 19	48	31.6
+3) 20 to 29	60	39.5
+4) 30 to 39	29	19.1
+5) 40 to 49	3	2.0
+6) 50 or older	5	3.3
+9) Don't know/refused (VOL.)	4	2.6
+Missing	849
+
+
+88) QE12OE_1
+Q.12oe_1. ASK IF RESPONDENT HAS NOT ALWAYS BEEN A MUSLIM (Q.E9=2): And what was the main reason that you converted to Islam? [COLLAPSED CATEGORIES BASED ON RECORDED VERBATIM RESPONSE.]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	152	8.618	19.794
+1) Marriage/relationship	14	9.2
+2) Family	14	9.2
+3) Preferred beliefs of Islam/like the teachings/doctrine/found more meaning in Islam	37	24.3
+4) Read religious texts (i.e. Quran)/studied Islam	28	18.4
+5) Practices	5	3.3
+6) Searching/seeking for answers/personal spirituality	17	11.2
+7) Islam is the true religion/found truth in Islam	14	9.2
+8) Introduced by a friend/following public leader	9	5.9
+9) Belong to a community	7	4.6
+97) Other	3	2.0
+98) Unclear	2	1.3
+99) No answer	2	1.3
+Missing	849
+
+
+89) QF1
+Q.F1. ASK ALL: How concerned, if at all, are you about extremism in the name of Islam around the WORLD these days? Are you very concerned, somewhat concerned, not too concerned or not at all concerned?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.57	1.255
+1) Very concerned	706	70.5
+2) Somewhat concerned	168	16.8
+3) Not too concerned	58	5.8
+4) Not at all concerned	53	5.3
+9) Don't know/refused (VOL.)	16	1.6
+
+
+90) QF2
+Q.F2. ASK ALL: How concerned, if at all, are you about extremism in the name of Islam in the U.S.? Are you very concerned, somewhat concerned, not too concerned or not at all concerned?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.984	1.519
+1) Very concerned	520	51.9
+2) Somewhat concerned	229	22.9
+3) Not too concerned	130	13.0
+4) Not at all concerned	96	9.6
+9) Don't know/refused (VOL.)	26	2.6
+
+
+91) QF3
+Q.F3. ASK ALL: Some people think targeting and killing civilians can be justified in order to further a political, social or religious cause. Other people believe that, no matter what the reason, this kind of violence can never be justified. Do you personally feel that this kind of violence can often be justified, sometimes be justified, rarely be justified or never be justified?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	3.917	1.131
+1) Can often be justified	32	3.2
+2) Can sometimes be justified	40	4.0
+3) Can rarely be justified	62	6.2
+4) Can never be justified	836	83.5
+9) Don't know/refused (VOL.)	31	3.1
+
+
+92) QF5
+Q.F5. ASK ALL: When law enforcement officers have arrested Muslims in the U.S. suspected of PLOTTING terrorist acts, do you think [READ; RANDOMIZE], OR do you think [INSERT]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	3.406	3.235
+1) They have mostly arrested violent people who posed a real threat to others	394	39.4
+2) They have mostly arrested people who were tricked by law enforcement and did NOT pose a real threat?	270	27.0
+3) Other/depends (VOL.)	93	9.3
+9) Don't know/refused (VOL.)	244	24.4
+
+
+93) QF6
+Q.F6. ASK ALL: In your opinion, how much support for extremism, if any, is there among Muslims living in the U.S.? [READ]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	3.847	1.838
+1) A great deal	45	4.5
+2) A fair amount	94	9.4
+3) Not much [OR]	295	29.5
+4) None at all	474	47.4
+9) [VOL. DO NOT READ] Don't know/refused	93	9.3
+
+
+94) AGEREC
+AGEREC. What is your age?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1001	6.309	8.883
+1) 18 to 19	64	6.4
+2) 20 to 24	135	13.5
+3) 25 to 29	115	11.5
+4) 30 to 34	125	12.5
+5) 35 to 39	90	9.0
+6) 40 to 44	95	9.5
+7) 45 to 49	96	9.6
+8) 50 to 54	77	7.7
+9) 55 to 59	52	5.2
+10) 60 to 64	65	6.5
+11) 65 to 69	30	3.0
+12) 70 or older	49	4.9
+99) Don't know/refused	8	0.8
+
+
+95) RACE_1REC
+RACE_1REC. Which of the following describes your race? You can select as many as apply. White, Black or African American, Asian or Asian American or some other race. [RESPONSES ARE INCLUDED IN ORDER MENTIONED] 1. First response
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.258	1.565
+1) White (e.g., Caucasian, European, Irish, Italian, Arab, Middle Eastern)	375	37.5
+2) Black or African American (e.g., Negro, Kenyan, Nigerian, Haitian)	222	22.2
+3) Asian or Asian-American (e.g., Asian Indian, Chinese, Filipino, Vietnamese or other Asian origin groups)	350	35.0
+4) Some other race	19	1.9
+9) Don't know/refused (e.g., non-race answers like American, Human, purple) (VOL.)	35	3.5
+
+
+96) RACE_2REC
+RACE_2REC. Which of the following describes your race? You can select as many as apply. White, Black or African American, Asian or Asian American or some other race. Second response
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	35	2.8	1.052
+1) White (e.g., Caucasian, European, Irish, Italian, Arab, Middle Eastern)	4	11.4
+2) Black or African American (e.g., Negro, Kenyan, Nigerian, Haitian)	11	31.4
+3) Asian or Asian-American (e.g., Asian Indian, Chinese, Filipino, Vietnamese or other Asian origin groups)	8	22.9
+4) Some other race	12	34.3
+Missing	966
+
+
+97) RACE_3REC
+RACE_3REC. Which of the following describes your race? You can select as many as apply. White, Black or African American, Asian or Asian American or some other race. Third response
+RANGE: 3 to 4
+	N	Mean	Std. Deviation
+Total	5	3.6	0.548
+3) Asian or Asian-American (e.g., Asian Indian, Chinese, Filipino, Vietnamese or other Asian origin groups)	2	40.0
+4) Some other race	3	60.0
+Missing	996
+
+
+98) RACECMB
+RACECMB. Summary race variable. Based on responses to race_1, race_2 and race_3.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.349	1.599
+1) White	355	35.5
+2) Black or African American	214	21.4
+3) Asian or Asian-American	347	34.7
+4) Mixed race	38	3.8
+5) Or some other race	12	1.2
+9) Don't know/refused (VOL.)	35	3.5
+
+
+99) HISP
+HISP. Are you of Hispanic, Latino or Spanish origin, such as Mexican, Puerto Rican or Cuban?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.012	0.616
+1) Yes	37	3.7
+2) No	957	95.6
+9) Don't know/refused (VOL.)	7	0.7
+
+
+100) RACETHN
+RACETHN. Combined RACE and HISP variable
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.386	1.593
+1) White, non-Hispanic	349	34.9
+2) Black, non-Hispanic	208	20.8
+3) Asian, non-Hispanic	344	34.4
+4) Hispanic	37	3.7
+5) Other	31	3.1
+9) Don't know/refused (VOL.)	32	3.2
+
+
+101) QZ1REC
+Q.Z1REC. ASK ALL: Are you Shi'a [PRONOUNCED SHE-uh], Sunni [PRONOUNCED SUE-knee], or another tradition?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.709	1.947
+1) Shi'a	143	14.3
+2) Sunni	625	62.4
+3) Other	43	4.3
+5) Muslim, non-specific (VOL)	130	13.0
+9) Don't know/refused (VOL.)	60	6.0
+
+
+102) RESPONDENT_BIRTHREGION2
+RESPONDENT_BIRTHREGION2. ASK ALL: In what country were you born? [COLLAPSED INTO GEOGRAPHIC REGIONS]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1001	5.829	11.492
+1) U.S. (native born)	356	35.6
+2) Americas (excluding U.S.)	23	2.3
+5) South Asia	245	24.5
+6) Other Asia/Pacific (excluding South Asia)	67	6.7
+7) Europe	30	3.0
+8) MENA (Middle East/North Africa)	185	18.5
+9) Sub-Saharan Africa	80	8.0
+10) Other/undetermined	1	0.1
+99) Don't know/refused	14	1.4
+
+
+103) FATHER_BIRTHREGION2
+FATHER_BIRTHREGION2. ASK IF BORN IN U.S. (RESPONDENT_BIRTHREGION2=1) In what country was your father born? [COLLAPSED INTO GEOGRAPHIC REGIONS]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	356	6.09	15.097
+1) U.S. (native born)	175	49.2
+2) Americas (excluding U.S.)	10	2.8
+5) South Asia	64	18.0
+6) Other Asia/Pacific (excluding South Asia)	8	2.2
+7) Europe	7	2.0
+8) MENA (Middle East/North Africa)	72	20.2
+9) Sub-Saharan Africa	10	2.8
+10) Other/undetermined	1	0.3
+88) Undesignated	1	0.3
+99) Don't know/refused	8	2.2
+Missing	645
+
+
+104) MOTHER_BIRTHREGION2
+MOTHER_BIRTHREGION2. ASK IF BORN IN U.S. (RESPONDENT_BIRTHREGION=1) In what country was your mother born? [COLLAPSED INTO GEOGRAPHIC REGIONS]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	356	5.969	15.928
+1) U.S. (native born)	198	55.6
+2) Americas (excluding U.S.)	9	2.5
+5) South Asia	58	16.3
+6) Other Asia/Pacific (excluding S. Asia)	8	2.2
+7) Europe	5	1.4
+8) MENA (Middle East/North Africa)	55	15.4
+9) Sub-Saharan Africa	13	3.7
+88) Undesignated	1	0.3
+99) Don't know/refused	9	2.5
+Missing	645
+
+
+105) CITIZEN
+CITIZEN. ASK IF RESPONDENT NOT BORN IN US (RESPONDENT_BIRTHREGION2 NOT EQUAL TO 1): Are you currently a citizen of the United States, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	645	1.279	0.798
+1) Yes	500	77.5
+2) No	140	21.7
+9) Don't know/refused (VOL.)	5	0.8
+Missing	356
+
+
+106) QZ2REC
+Q.Z2REC. ASK IF RESPONDENT NOT BORN IN U.S. (RESPONDENT_BIRTHREGION2 EQUALS 2 TO 10): In what year did you come to live in the U.S.? (RECODED)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	631	11.578	18.677
+1) 1900 to 1965	9	1.4
+2) 1966 to 1970	18	2.9
+3) 1971 to 1975	20	3.2
+4) 1976 to 1980	37	5.9
+5) 1981 to 1995	44	7.0
+6) 1986 to 1990	65	10.3
+7) 1991 to 1995	58	9.2
+8) 1996 to 2000	108	17.1
+9) 2001 to 2005	66	10.5
+10) 2006 to 2010	63	10.0
+11) 2011 to 2017	116	18.4
+99) Don't know/refused (VOL.)	27	4.3
+Missing	370
+
+
+107) MARITAL
+MARITAL. Are you currently married, living with a partner, divorced, separated, widowed or have you never been married? [IF R SAYS 'SINGLE,' PROBE TO DETERMINE WHICH CATEGORY IS APPROPRIATE]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.88	2.356
+1) Married	565	56.4
+2) Living with a partner	29	2.9
+3) Divorced	59	5.9
+4) Separated	12	1.2
+5) Widowed	17	1.7
+6) Never been married	307	30.7
+9) Don't Know/refused (VOL.)	12	1.2
+
+
+108) QZ3REC
+Q.Z3REC. ASK IF MARRIED OR PARTNERED (MARITAL=1,2): And what is your [IF MARITAL=1: spouse's/IF MARITAL=2: partner's] religious preference? Muslim, Christian, Jewish, Hindu, Buddhist or something else? [INTERVIEWER INSTRUCTION: DO NOT READ MATERIAL IN PARENTHESES; IF RESPONDENT VOLUNTEERS THAT SPOUSE/PARTNER IS SAME RELIGION AS RESPONDENT, CODE AS 1-MUSLIM]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	594	1.451	1.417
+1) Muslim (includes 'Islam, Islamic, Nation of Islam, etc.')	489	82.3
+2) Christian (includes Protestant, Catholic, etc.)	64	10.8
+3) Other religion	15	2.5
+7) No religion, not a believer, atheist, or agnostic (VOL.)	17	2.9
+9) Don't know/refused (VOL.)	9	1.5
+Missing	407
+
+
+109) INCOME
+INCOME. ASK ALL: Last year, that is in 2016, what was your total family income from all sources, before taxes? Just stop me when I get to the right category. [READ]
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	1001	5.841	2.922
+1) Less than $10,000	91	9.1
+2) 10 to under $20,000	89	8.9
+3) 20 to under $30,000	95	9.5
+4) 30 to under $40,000	84	8.4
+5) 40 to under $50,000	71	7.1
+6) 50 to under $75,000	121	12.1
+7) 75 to under $100,000	97	9.7
+8) 100 to under $150,000 [OR]	93	9.3
+9) $150,000 or more	147	14.7
+10) [VOL. DO NOT READ] Don't know/refused	113	11.3
+
+
+110) REGA
+REGA. ASK IF BORN IN U.S. OR A CITIZEN (RESPONDENT_BIRTHREGION2=1 OR CITIZEN=1): Which of these statements best describes you? [READ IN ORDER] [INSTRUCTION: BE SURE TO CLARIFY WHETHER RESPONDENT IS ABSOLUTELY CERTAIN THEY ARE REGISTERED OR ONLY PROBABLY REGISTERED; IF RESPONDENT VOLUNTEERS THAT THEY ARE IN NORTH DAKOTA AND DON'T HAVE TO REGISTER, PUNCH 1]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	856	1.516	1.358
+1) Are you ABSOLUTELY CERTAIN that you are registered to vote at your current address, [OR]	676	79.0
+2) Are you PROBABLY registered, but there is a chance your registration has lapsed, [OR]	38	4.4
+3) Are you NOT registered to vote at your current address	122	14.3
+9) [VOL. DO NOT READ] Don't know/refused	20	2.3
+Missing	145
+
+
+111) PARTY
+PARTY. ASK ALL: In politics TODAY, do you consider yourself a Republican, Democrat, or independent?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.769	1.474
+1) Republican	59	5.9
+2) Democrat	430	43.0
+3) Independent	407	40.7
+4) No preference (VOL.)	57	5.7
+5) Other party (VOL.)	7	0.7
+9) Don't Know/refused (VOL.)	41	4.1
+
+
+112) PARTYLN
+PARTYLN. ASK IF INDEP/NO PREF/OTHER/DON'T KNOW/REFUSED (PARTY=3,4,5,9): As of today do you lean more toward the Republican Party or more to the Democratic Party?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	512	4.273	3.392
+1) Republican	47	9.2
+2) Democrat	292	57.0
+9) Other/don't know/refused (VOL.)	173	33.8
+Missing	489
+
+
+113) IDEO
+IDEO. ASK ALL: In general, would you describe your political views as... [READ]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	3.759	1.846
+1) Very conservative	25	2.5
+2) Conservative	131	13.1
+3) Moderate	440	44.0
+4) Liberal [OR]	217	21.7
+5) Very liberal	101	10.1
+9) [VOL. DO NOT READ] Don't know/refused	87	8.7
+
+
+114) PVOTE16A
+PVOTE16a. ASK ALL REGISTERED VOTERS (REGA=1): In the 2016 presidential election between Donald Trump and Hillary Clinton, did things come up that kept you from voting, or did you happen to vote?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	676	1.223	0.821
+1) Voted	568	84.0
+2) Did not vote (includes too young to vote)	101	14.9
+3) Don't remember if voted (VOL.)	1	0.1
+9) Refused (VOL.)	6	0.9
+Missing	325
+
+
+115) PVOTE16B
+PVOTE16b. ASK IF VOTED (PVOTE16A=1): Did you vote for Trump, Clinton or someone else?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	568	2.546	1.833
+1) Trump	39	6.9
+2) Clinton	423	74.5
+3) Other candidate	63	11.1
+4) Don't remember which candidate (VOL.)	3	0.5
+9) Refused (VOL.)	40	7.0
+Missing	433
+
+
+116) EMPLOY
+EMPLOY. ASK ALL: Are you now employed full-time, part-time, or not employed? [INTERVIEWER INSTRUCTION: IF RESPONDENT VOLUNTEERS 'retired, student, etc.' PROBE 'just to be clear ...' AND REPEAT QUESTION.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.975	1.347
+1) Full-time	500	50.0
+2) Part-time	146	14.6
+3) Not employed	335	33.5
+9) Don't know/refused (VOL.)	20	2.0
+
+
+117) EMPLOY1
+EMPLOY1. ASK IF NOT EMPLOYED (EMPLOY=3): Are you currently looking for work, or not?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	335	1.615	0.487
+1) Yes, looking for work	129	38.5
+2) No, not looking	206	61.5
+Missing	666
+
+
+118) EMPLOY2
+EMPLOY2. ASK IF PART TIME (EMPLOY=2): Would you prefer to be working full time, or not?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	146	1.418	0.495
+1) Yes, would prefer full time	85	58.2
+2) No, would not	61	41.8
+Missing	855
+
+
+119) PARENT
+PARENT. ASK ALL: Are you the parent or guardian of any children under 18 now living in your household?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.704	1.103
+1) Yes	422	42.2
+2) No	561	56.0
+9) Don't know/refused (VOL.)	18	1.8
+
+
+120) QZ4REC
+Q.Z4REC. ASK ALL: How many adults, age 18 and older, currently live in your household INCLUDING YOURSELF?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1001	2.632	1.462
+1) One adult	159	15.9
+2) Two adults	424	42.4
+3) Three adults	184	18.4
+4) Four or more	206	20.6
+9) Don't know/refused (VOL.)	28	2.8
+
+
+121) CHILDRENREC
+CHILDRENREC. Religion of children in the household
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.711	2.143
+0) No children in the household	444	44.4
+1) One child in the household - child is Muslim	127	12.7
+2) One child in the household - child is not Muslim	22	2.2
+3) More than one child in the household - all children are Muslim	325	32.5
+4) More than one child in the household - some or none of the children are Muslim	36	3.6
+9) Don't know/refused (VOL.)	47	4.7
+
+
+122) FERTREC
+FERTREC. ASK ALL: How many children have you ever had? Please count all your biological children who were born alive at any time in your life. [INTERVIEWER NOTE: IF RESPONDENT ASKS WHETHER ADOPTED CHILDREN OR STEPCHILDREN SHOULD BE INCLUDED, SAY: No, we're asking you to count all your biological children who were born alive at any time in your life.] [RECORD RESPONSE]
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1001	1.862	1.981
+0) None	359	35.9
+1) One	103	10.3
+2) Two	207	20.7
+3) Three	151	15.1
+4) Four or more	147	14.7
+9) Don't know/refused (VOL.)	34	3.4
+
+
+123) RPL001
+Rpl001
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.727	3773.022
+
+
+124) RPL002
+Rpl002
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.858	3772.98
+
+
+125) RPL003
+Rpl003
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.891	3773.032
+
+
+126) RPL004
+Rpl004
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.833	3773.1
+
+
+127) RPL005
+Rpl005
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.834	3773.179
+
+
+128) RPL006
+Rpl006
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.665	3773.346
+
+
+129) RPL007
+Rpl007
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.615	3773.548
+
+
+130) RPL008
+Rpl008
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.455	3773.941
+
+
+131) RPL009
+Rpl009
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2346.409	3774.672
+
+
+132) RPL010
+Rpl010
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2346.712	3776.614
+
+
+133) RPL011
+Rpl011
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2340.975	3778.386
+
+
+134) RPL012
+Rpl012
+RANGE: 0 to 56257.235936
+	N	Mean	Std. Deviation
+Total	1001	2407.147	4134.785
+
+
+135) RPL013
+Rpl013
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.948	3772.886
+
+
+136) RPL014
+Rpl014
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.908	3772.915
+
+
+137) RPL015
+Rpl015
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.875	3772.947
+
+
+138) RPL016
+Rpl016
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.882	3772.968
+
+
+139) RPL017
+Rpl017
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.841	3773.018
+
+
+140) RPL018
+Rpl018
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.522	3773.255
+
+
+141) RPL019
+Rpl019
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2346.73	3773.722
+
+
+142) RPL020
+Rpl020
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2342.808	3772.86
+
+
+143) RPL021
+Rpl021
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2333.015	3772.669
+
+
+144) RPL022
+Rpl022
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2351.362	3789.743
+
+
+145) RPL023
+Rpl023
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.898	3772.991
+
+
+146) RPL024
+Rpl024
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.953	3772.985
+
+
+147) RPL025
+Rpl025
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.94	3773.01
+
+
+148) RPL026
+Rpl026
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.964	3773.017
+
+
+149) RPL027
+Rpl027
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.969	3773.03
+
+
+150) RPL028
+Rpl028
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.933	3773.07
+
+
+151) RPL029
+Rpl029
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.984	3773.064
+
+
+152) RPL030
+Rpl030
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.941	3773.103
+
+
+153) RPL031
+Rpl031
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.958	3773.117
+
+
+154) RPL032
+Rpl032
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.932	3773.156
+
+
+155) RPL033
+Rpl033
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.9	3773.203
+
+
+156) RPL034
+Rpl034
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.956	3773.224
+
+
+157) RPL035
+Rpl035
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.958	3773.262
+
+
+158) RPL036
+Rpl036
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.96	3773.284
+
+
+159) RPL037
+Rpl037
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.967	3773.311
+
+
+160) RPL038
+Rpl038
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.94	3773.36
+
+
+161) RPL039
+Rpl039
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.922	3773.417
+
+
+162) RPL040
+Rpl040
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.949	3773.463
+
+
+163) RPL041
+Rpl041
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.921	3773.515
+
+
+164) RPL042
+Rpl042
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.972	3773.57
+
+
+165) RPL043
+Rpl043
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.95	3773.608
+
+
+166) RPL044
+Rpl044
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.896	3773.672
+
+
+167) RPL045
+Rpl045
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.961	3773.724
+
+
+168) RPL046
+Rpl046
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.929	3773.784
+
+
+169) RPL047
+Rpl047
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.923	3773.856
+
+
+170) RPL048
+Rpl048
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.945	3773.94
+
+
+171) RPL049
+Rpl049
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.869	3774.026
+
+
+172) RPL050
+Rpl050
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.882	3774.12
+
+
+173) RPL051
+Rpl051
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.895	3774.238
+
+
+174) RPL052
+Rpl052
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.864	3774.388
+
+
+175) RPL053
+Rpl053
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.823	3774.564
+
+
+176) RPL054
+Rpl054
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.818	3774.839
+
+
+177) RPL055
+Rpl055
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.824	3775.064
+
+
+178) RPL056
+Rpl056
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.536	3775.534
+
+
+179) RPL057
+Rpl057
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.75	3776.138
+
+
+180) RPL058
+Rpl058
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.559	3777.022
+
+
+181) RPL059
+Rpl059
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.01	3777.846
+
+
+182) RPL060
+Rpl060
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2342.474	3779.47
+
+
+183) RPL061
+Rpl061
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2360.408	3801.553
+
+
+184) RPL062
+Rpl062
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.833	3773.14
+
+
+185) RPL063
+Rpl063
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.811	3773.226
+
+
+186) RPL064
+Rpl064
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.687	3773.389
+
+
+187) RPL065
+Rpl065
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.805	3773.454
+
+
+188) RPL066
+Rpl066
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.827	3773.589
+
+
+189) RPL067
+Rpl067
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.82	3773.712
+
+
+190) RPL068
+Rpl068
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.8	3773.866
+
+
+191) RPL069
+Rpl069
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.826	3774.039
+
+
+192) RPL070
+Rpl070
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.66	3774.389
+
+
+193) RPL071
+Rpl071
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.814	3774.685
+
+
+194) RPL072
+Rpl072
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.745	3775.091
+
+
+195) RPL073
+Rpl073
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.202	3775.748
+
+
+196) RPL074
+Rpl074
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.416	3776.532
+
+
+197) RPL075
+Rpl075
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2345.816	3778.175
+
+
+198) RPL076
+Rpl076
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2348.51	3776.198
+
+
+199) RPL077
+Rpl077
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2345.337	3775.843
+
+
+200) RPL078
+Rpl078
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2344.971	3779.933
+
+
+201) RPL079
+Rpl079
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2344.855	3792.189
+
+
+202) RPL080
+Rpl080
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2368.746	3836.633
+
+
+203) RPL081
+Rpl081
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.06	3777.146
+
+
+204) RPL082
+Rpl082
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2347.362	3778.839
+
+
+205) RPL083
+Rpl083
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2346.526	3781.089
+
+
+206) RPL084
+Rpl084
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2346.752	3784.172
+
+
+207) RPL085
+Rpl085
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2346.68	3790.139
+
+
+208) RPL086
+Rpl086
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2343.846	3797.541
+
+
+209) RPL087
+Rpl087
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2345.335	3813.898
+
+
+210) RPL088
+Rpl088
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2338.772	3829.371
+
+
+211) RPL089
+Rpl089
+RANGE: 0 to 49721.448046
+	N	Mean	Std. Deviation
+Total	1001	2399.594	4144.343
+
+
+212) RPL090
+Rpl090
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2344.631	3784.114
+
+
+213) RPL091
+Rpl091
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2344.319	3794.351
+
+
+214) RPL092
+Rpl092
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2342.544	3814.378
+
+
+215) RPL093
+Rpl093
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2342.973	3850.65
+
+
+216) RPL094
+Rpl094
+RANGE: 0 to 36715.893202
+	N	Mean	Std. Deviation
+Total	1001	2352.504	4012.837
+
+
+217) RPL095
+Rpl095
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2338.145	3787.355
+
+
+218) RPL096
+Rpl096
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2346.407	3833.227
+
+
+219) RPL097
+Rpl097
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2342.952	3844.673
+
+
+220) RPL098
+Rpl098
+RANGE: 0 to 28128.617968
+	N	Mean	Std. Deviation
+Total	1001	2340.011	3887.302
+
+
+221) RPL099
+Rpl099
+RANGE: 0 to 30359.274684
+	N	Mean	Std. Deviation
+Total	1001	2336.514	3986.651
+
+
+222) RPL100
+Rpl0100
+RANGE: 0 to 38698.17618
+	N	Mean	Std. Deviation
+Total	1001	2295.92	4009.522
+
+
+223) I-EMPLOY
+EMPLOY. ASK ALL: Are you now employed full-time, part-time, or not employed? [INTERVIEWER INSTRUCTION: IF RESPONDENT VOLUNTEERS 'retired, student, etc.' PROBE 'just to be clear ...' AND REPEAT QUESTION.] (Recoded for use with online analysis)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	981	1.832	0.908
+1) Full-time	500	51.0
+2) Part-time	146	14.9
+3) Not employed	335	34.1
+Missing	20
+
+
+224) I-EDUC
+EDUCREC. ASK ALL: What is the highest level of school you have completed or the highest degree you have received? (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	997	3.43	1.17
+1) Less than high school (Grades 1-8 or no formal schooling)	49	4.9
+2) High school graduate (Grade 12 with diploma or GED certificate)	203	20.4
+3) Some college, no degree (includes some community college) or Two-year associate degree	224	22.5
+4) Four-year college or university degree/Bachelor's degree	312	31.3
+5) Postgraduate or professional degree, including master's, doctorate, medical or law degree	209	21.0
+Missing	4
+
+
+225) I-POLITICS
+IDEO. ASK ALL: In general, would you describe your political views as... [READ] (Recoded for use with online analysis)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	914	2.177	0.698
+1) Conservative	156	17.1
+2) Moderate	440	48.1
+3) Liberal	318	34.8
+Missing	87
+
+
+226) I-INCOME
+INCOME. ASK ALL: Last year, that is in 2016, what was your total family income from all sources, before taxes? Just stop me when I get to the right category. [READ] (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	888	2.858	1.397
+1) Less than $20,000	180	20.3
+2) 20 to under $50,000	250	28.2
+3) 50 to under $75,000	121	13.6
+4) 75 to under $150,000	190	21.4
+5) $150,000 or more	147	16.6
+Missing	113
+
+
+227) I-MARITAL
+MARITAL. Are you currently married, living with a partner, divorced, separated, widowed or have you never been married? [IF R SAYS 'SINGLE,' PROBE TO DETERMINE WHICH CATEGORY IS APPROPRIATE] (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	989	2.139	1.373
+1) Married	565	57.1
+2) Living with a partner	29	2.9
+3) Divorced, separated or widowed	88	8.9
+4) Never been married	307	31.0
+Missing	12
+
+
+228) I-RACE
+RACETHN. Combined RACE and HISP variable (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	969	2.167	1.063
+1) White, non-Hispanic	349	36.0
+2) Black, non-Hispanic	208	21.5
+3) Asian, non-Hispanic	344	35.5
+4) Hispanic	37	3.8
+5) Other	31	3.2
+Missing	32
+
+

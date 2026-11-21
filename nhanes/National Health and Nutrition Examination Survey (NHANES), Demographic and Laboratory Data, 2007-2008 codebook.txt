@@ -1,0 +1,2170 @@
+Data File: NHANSL08(Full Data Codebook)
+
+1) SEQN
+[Questionnaire: Demographics] Respondent sequence number
+RANGE: 41475 to 51623
+	N	Mean	Std. Deviation
+Total	10149	46549	2929.908
+
+
+2) SDDSRVYR
+Data release number
+RANGE: 5 to 5
+	N	Mean	Std. Deviation
+Total	10149	5	0
+5) NHANES 2007-2008 Public Release	10149	100.0
+
+
+3) RIDSTATR
+Interview and examination status of the sample person
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	10149	1.962	0.192
+1) Interviewed only	387	3.8
+2) Both interviewed and MEC examined	9762	96.2
+
+
+4) RIDEXMON
+Six-month time period
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	9762	1.538	0.499
+1) November 1 through April 30	4507	46.2
+2) May 1 through October 31	5255	53.8
+Missing	387
+
+
+5) RIAGENDR
+Gender
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	10149	1.498	0.5
+1) Male	5096	50.2
+2) Female	5053	49.8
+
+
+6) RIDAGEYR
+Age at screening adjudicated -- recode
+RANGE: 0 to 80
+	N	Mean	Std. Deviation
+Total	10149	32.967	25.484
+
+
+7) RIDAGEMN
+Age in months at screening -- recode [Best age in months at date of screening for individuals under 80 years of age]
+RANGE: 0 to 959
+	N	Mean	Std. Deviation
+Total	9710	375.519	287.602
+
+
+8) RIDAGEEX
+Age in months at exam -- recode [Best age in months at date of screening for individuals under 80 years of age]
+RANGE: 0 to 959
+	N	Mean	Std. Deviation
+Total	9367	377.118	287.057
+
+
+9) RIDRETH1
+Race/Ethnicity -- recode
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	10149	2.766	1.147
+1) Mexican American	2157	21.3
+2) Other Hispanic	1201	11.8
+3) Non-Hispanic white	4115	40.5
+4) Non-Hispanic black	2211	21.8
+5) Other race -- including multi-racial	465	4.6
+
+
+10) DMQMILIT
+Served in the U.S. Armed Forces [Did (you/SP) ever serve in the Armed Forces of the United States?]
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	6371	1.88	0.332
+1) Yes	767	12.0
+2) No	5603	87.9
+7) Refused	1	0.0
+Missing	3778
+
+
+11) DMDBORN2
+Country of birth -- recode [In what country (where you/was SP) born?]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10149	1.418	1.057
+1) Born in 50 U.S. states or Washington, D.C.	8399	82.8
+2) Born in Mexico	730	7.2
+4) Born in other Spanish-speaking country	583	5.7
+5) Born in other non-Spanish speaking country	431	4.2
+7) Refused	5	0.0
+9) Don't know	1	0.0
+
+
+12) DMDCITZN
+Citizenship status [(Are you/Is SP) a citizen of the United States? [Information about citizenship is being collected by the U.S. Public Health Service to perform health related research. Providing this information is voluntary and is collected under the authority of the Public Health Service Act. There will be no effect on pending immigration or citizenship petitions]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10143	1.098	0.334
+1) Citizen by birth or naturalization	9180	90.5
+2) Not a citizen of the U.S.	957	9.4
+7) Refused	4	0.0
+9) Don't know	2	0.0
+Missing	6
+
+
+13) DMDYRSUS
+Length of time in U.S. [Length of time SP has been in the US]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1710	7.624	15.639
+1) Less than one year	78	4.6
+2) 1 yr., less than five years	216	12.6
+3) 5 yrs., less than 10 years	280	16.4
+4) 10 yrs., less than 15 years	189	11.1
+5) 15 yrs., less than 20 years	204	11.9
+6) 20 yrs., less than 30 years	298	17.4
+7) 30 yrs., less than 40 years	178	10.4
+8) 40 yrs., less than 50 years	126	7.4
+9) 50 years or more	85	5.0
+77) Refused	20	1.2
+99) Don't know	36	2.1
+Missing	8439
+
+
+14) DMDEDUC3
+Education level -- Children/Youth 6-19 [SP Interview Version: What is the highest grade or level of school (you have/SP has) completed or the highest degree (you have/s/he has) received?]
+RANGE: 0 to 66
+	N	Mean	Std. Deviation
+Total	2500	6.191	6.464
+0) Never attended/Kindergarten only	229	9.2
+1) First grade	228	9.1
+2) Second grade	219	8.8
+3) Third grade	206	8.2
+4) Fourth grade	214	8.6
+5) Fifth grade	211	8.4
+6) Sixth grade	157	6.3
+7) Seventh grade	160	6.4
+8) Eighth grade	146	5.8
+9) Ninth grade	179	7.2
+10) 10th grade	154	6.2
+11) 11th grade	165	6.6
+12) 12th grade, no diploma	33	1.3
+13) High school graduate	91	3.6
+14) GED or equivalent	9	0.4
+15) More than high school	81	3.2
+55) Less than fifth grade	2	0.1
+66) Less than ninth grade	16	0.6
+Missing	7649
+
+
+15) DMDEDUC2
+Education level -- Adults 20+ [SP Interview Version: What is the highest grade or level of school (you have/SP has) completed or the highest degree (you have/s/he has) received?]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5935	3.18	1.312
+1) Less than ninth grade	811	13.7
+2) Ninth-11th grade (Includes 12th grade with no diploma)	1050	17.7
+3) High school grad/GED or equivalent	1462	24.6
+4) Some college or AA degree	1505	25.4
+5) College graduate or above	1100	18.5
+7) Refused	2	0.0
+9) Don't know	5	0.1
+Missing	4214
+
+
+16) DMDSCHOL
+Now attending school? [Are you/Is SP now...]
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	2270	1.296	0.583
+1) In school	1748	77.0
+2) On vacation from school (between grades)	373	16.4
+3) Neither in school or on vacation from school (between grades)	149	6.6
+Missing	7879
+
+
+17) DMDMARTL
+Marital status
+RANGE: 1 to 77
+	N	Mean	Std. Deviation
+Total	5935	2.476	2.631
+1) Married	3116	52.5
+2) Widowed	562	9.5
+3) Divorced	657	11.1
+4) Separated	203	3.4
+5) Never married	992	16.7
+6) Living with partner	401	6.8
+77) Refused	4	0.1
+Missing	4214
+
+
+18) DMDHHSIZ
+Total number of people in the household
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	10149	3.747	1.738
+1)	867	8.5
+2)	2060	20.3
+3)	1865	18.4
+4)	2104	20.7
+5)	1427	14.1
+6)	891	8.8
+7) Seven or more people in the household	935	9.2
+
+
+19) DMDFMSIZ
+Total number of people in the family
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	10149	3.606	1.783
+1)	1346	13.3
+2)	1893	18.7
+3)	1775	17.5
+4)	2060	20.3
+5)	1392	13.7
+6)	836	8.2
+7) Seven or more people in the family	847	8.3
+
+
+20) INDHHIN2
+Annual household income [Total household income (reported as a range value in dollars)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	10072	10.377	14.545
+1) $0 to $4,999	203	2.0
+2) $5,000 to $9,999	500	5.0
+3) $10,000 to $14,999	772	7.7
+4) $15,000 to $19,999	797	7.9
+5) $20,000 to $24,999	878	8.7
+6) $25,000 to $34,999	1274	12.6
+7) $35,000 to $44,999	943	9.4
+8) $45,000 to $54,999	745	7.4
+9) $55,000 to $64,999	604	6.0
+10) $65,000 to $74,999	535	5.3
+12) Over $20,000	350	3.5
+13) Under $20,000	111	1.1
+14) $75,000 to $99,999	865	8.6
+15) $100,000 and over	1195	11.9
+77) Refused	134	1.3
+99) Don't know	166	1.6
+Missing	77
+
+
+21) INDFMIN2
+Annual family income [Total family income (reported as a range value in dollars)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	10055	10.373	15.123
+1) $0 to $4,999	289	2.9
+2) $5,000 to $9,999	543	5.4
+3) $10,000 to $14,999	805	8.0
+4) $15,000 to $19,999	828	8.2
+5) $20,000 to $24,999	906	9.0
+6) $25,000 to $34,999	1245	12.4
+7) $35,000 to $44,999	889	8.8
+8) $45,000 to $54,999	712	7.1
+9) $55,000 to $64,999	583	5.8
+10) $65,000 to $74,999	499	5.0
+12) Over $20,000	357	3.6
+13) Under $20,000	126	1.3
+14) $75,000 to $99,999	808	8.0
+15) $100,000 and over	1148	11.4
+77) Refused	127	1.3
+99) Don't know	190	1.9
+Missing	94
+
+
+22) INDFMPIR
+Ratio of family income to poverty threshold
+RANGE: 0 to 5
+	N	Mean	Std. Deviation
+Total	9255	2.284	1.584
+
+
+23) RIDEXPRG
+Pregnancy status at exam -- recode [Pregnancy status for females between 20 and 44 years of age at the time of MEC exam]
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1208	1.998	0.305
+1) Yes, positive lab pregnancy test or self-reported pregnant	57	4.7
+2) SP not pregnant at exam	1096	90.7
+3) Cannot ascertain if SP is pregnant at exam	55	4.6
+Missing	8941
+
+
+24) DMDHRGND
+Gender of the household reference person
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	10149	1.492	0.5
+1) Male	5157	50.8
+2) Female	4992	49.2
+
+
+25) DMDHRAGE
+Age in years of the household reference person at the time of household screening. Individuals 80 and over are top-coded at 80 years of age
+RANGE: 18 to 80
+	N	Mean	Std. Deviation
+Total	10149	45.87	16.433
+
+
+26) DMDHRBR2
+Household reference person country of birth [In what country (were you/was NON-SP HEAD) born?]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	9881	1.618	1.206
+1) Born in 50 U.S. states or Washington, D.C.	7178	72.6
+2) Born in Mexico	1277	12.9
+4) Born in other Spanish-speaking country	915	9.3
+5) Born in other non-Spanish speaking country	499	5.1
+7) Refused	4	0.0
+9) Don't know	8	0.1
+Missing	268
+
+
+27) DMDHREDU
+Household reference person education level [What is the highest grade or level of school (you have/NON_SP HEAD has) received?]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	9883	3.203	1.306
+1) Less than ninth grade	1222	12.4
+2) Ninth-11th grade (Includes 12th grade with no diploma)	1811	18.3
+3) High school grad/GED or equivalent	2494	25.2
+4) Some college or AA degree	2559	25.9
+5) College graduate or above	1769	17.9
+7) Refused	4	0.0
+9) Don't know	24	0.2
+Missing	266
+
+
+28) DMDHRMAR
+Household reference person marital status
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	9808	2.519	5.229
+1) Married	5884	60.0
+2) Widowed	628	6.4
+3) Divorced	1050	10.7
+4) Separated	407	4.1
+5) Never married	1224	12.5
+6) Living with partner	574	5.9
+77) Refused	38	0.4
+99) Don't know	3	0.0
+Missing	341
+
+
+29) DMDHSEDU
+Household reference person's spouse education level [What is the highest grade or level of school (you have/NON-SP SPOUSE) has completed or the highest degree (you have/he/she has) received]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5411	3.345	1.354
+1) Less than ninth Grade	649	12.0
+2) Ninth-11th grade (includes 12th grade with no diploma)	812	15.0
+3) High school grad/GED or equivalent	1338	24.7
+4) Some college or AA degree	1336	24.7
+5) College graduate or above	1252	23.1
+7) Refused	3	0.1
+9) Don't know	21	0.4
+Missing	4738
+
+
+30) SIALANG
+Language of the Sample Person Interview Instrument
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	10148	1.154	0.361
+1) English	8588	84.6
+2) Spanish	1560	15.4
+Missing	1
+
+
+31) SIAPROXY
+Was a proxy respondent used in conducting the Sample Person (SP) interview?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	10148	1.639	0.48
+1) Yes	3660	36.1
+2) No	6488	63.9
+Missing	1
+
+
+32) SIAINTRP
+Was an interpreter used to conduct the Sample Person (SP) interview?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	10148	1.987	0.115
+1) Yes	135	1.3
+2) No	10013	98.7
+Missing	1
+
+
+33) FIALANG
+Language of the Family Interview Instrument
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	10021	1.108	0.31
+1) English	8940	89.2
+2) Spanish	1081	10.8
+Missing	128
+
+
+34) FIAPROXY
+Was a proxy respondent used in conducting the Family Interview?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	10021	1.999	0.03
+1) Yes	9	0.1
+2) No	10012	99.9
+Missing	128
+
+
+35) FIAINTRP
+Was an interpreter used to conduct the Family Interview?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	10021	1.989	0.106
+1) Yes	114	1.1
+2) No	9907	98.9
+Missing	128
+
+
+36) MIALANG
+Language of the CAPI MEC Interview Instrument
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	7146	1.109	0.312
+1) English	6367	89.1
+2) Spanish	779	10.9
+Missing	3003
+
+
+37) MIAPROXY
+Was a proxy respondent used in conducting the MEC CAPI Interview?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	7146	1.993	0.082
+1) Yes	48	0.7
+2) No	7098	99.3
+Missing	3003
+
+
+38) MIAINTRP
+Was an interpreter used to conduct the MEC CAPI Interview?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	7146	1.994	0.076
+1) Yes	42	0.6
+2) No	7104	99.4
+Missing	3003
+
+
+39) AIALANG
+Language of the MEC ACASI Interview Instrument
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	7734	1.107	0.309
+1) English	6907	89.3
+2) Spanish	827	10.7
+Missing	2415
+
+
+40) WTINT2YR
+Full sample two year interview weight [Interviewed sample persons]
+RANGE: 2359.373828 to 186295.506645
+	N	Mean	Std. Deviation
+Total	10149	29277.377	26009.698
+
+
+41) WTMEC2YR
+Full sample two year MEC exam weight [Both interviewed and MEC examined sample persons]
+RANGE: 0 to 192770.730057
+	N	Mean	Std. Deviation
+Total	10149	29277.377	26937.236
+
+
+42) SDMVPSU
+Masked variance unit pseudo-PSU variable for variance estimation
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	10149	1.511	0.5
+1)	4963	48.9
+2)	5186	51.1
+
+
+43) SDMVSTRA
+Masked variance unit pseudo-stratum variable for variance estimation
+RANGE: 59 to 74
+	N	Mean	Std. Deviation
+Total	10149	65.513	4.253
+59)	711	7.0
+60)	740	7.3
+61)	852	8.4
+62)	788	7.8
+63)	694	6.8
+64)	689	6.8
+65)	731	7.2
+66)	716	7.1
+67)	797	7.9
+68)	714	7.0
+69)	530	5.2
+70)	541	5.3
+71)	560	5.5
+72)	561	5.5
+73)	267	2.6
+74)	258	2.5
+
+
+44) LBXBCD
+[Laboratory: Blood Cadmium and Lead] Blood cadmium (ug/L)
+RANGE: 0.14 to 8.81
+	N	Mean	Std. Deviation
+Total	8266	0.438	0.568
+
+
+45) LBDBCDSI
+Blood cadmium  (nmol/L)
+RANGE: 1.25 to 78.38
+	N	Mean	Std. Deviation
+Total	8266	3.899	5.048
+
+
+46) LBXBPB
+Blood lead (ug/dL)
+RANGE: 0.18 to 33.1
+	N	Mean	Std. Deviation
+Total	8266	1.699	1.528
+
+
+47) LBDBPBSI
+Blood lead (umol/L)
+RANGE: 0.009 to 1.599
+	N	Mean	Std. Deviation
+Total	8266	0.082	0.074
+
+
+48) LBXTHG
+[Laboratory: Blood Total Mercury and Blood Inorganic Mercury] Mercury, total (ug/L)
+RANGE: 0.2 to 43.9
+	N	Mean	Std. Deviation
+Total	8266	1.173	1.898
+
+
+49) LBDTHGSI
+Mercury, total (umol/L)
+RANGE: 1 to 219.1
+	N	Mean	Std. Deviation
+Total	8266	5.843	9.475
+
+
+50) LBXIHG
+Mercury, inorganic (ug/L)
+RANGE: 0.25 to 14
+	N	Mean	Std. Deviation
+Total	8162	0.318	0.233
+
+
+51) LBDIHGSI
+Mercury, inorganic (nmol/L)
+RANGE: 1.25 to 69.86
+	N	Mean	Std. Deviation
+Total	8162	1.59	1.164
+
+
+52) LBDTHGLC
+Mercury, total comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	8266	0.231	0.421
+0) At or above the detection limit	6358	76.9
+1) Below lower detection limit	1908	23.1
+Missing	1883
+
+
+53) LBXTC
+[Laboratory: Total Cholesterol] Total cholesterol (mg/dL)
+RANGE: 78 to 460
+	N	Mean	Std. Deviation
+Total	7387	186.675	42.151
+
+
+54) LBDTCSI
+Total cholesterol (mmol/L)
+RANGE: 2.02 to 11.9
+	N	Mean	Std. Deviation
+Total	7387	4.827	1.09
+
+
+55) LBXWBCSI
+[Laboratory: Complete Blood Count With 5-Part Differential in Whole Blood] White blood cell count (1000 cells/uL)
+RANGE: 1.5 to 83.2
+	N	Mean	Std. Deviation
+Total	8266	7.311	2.405
+
+
+56) LBXLYPCT
+Lymphocyte percent
+RANGE: 4.9 to 85.5
+	N	Mean	Std. Deviation
+Total	8250	33.704	10.682
+
+
+57) LBXMOPCT
+Monocyte percent
+RANGE: 0.7 to 44.5
+	N	Mean	Std. Deviation
+Total	8250	7.999	2.401
+
+
+58) LBXNEPCT
+Segmented neutrophils percent
+RANGE: 5.3 to 92.1
+	N	Mean	Std. Deviation
+Total	8250	54.587	11.712
+
+
+59) LBXEOPCT
+Eosinophils percent
+RANGE: 0 to 28.5
+	N	Mean	Std. Deviation
+Total	8250	3.063	2.394
+
+
+60) LBXBAPCT
+Basophils percent
+RANGE: 0 to 15.9
+	N	Mean	Std. Deviation
+Total	8250	0.688	0.51
+
+
+61) LBDLYMNO
+Lymphocyte number (1000 cells/uL)
+RANGE: 0.4 to 71.1
+	N	Mean	Std. Deviation
+Total	8249	2.419	1.336
+
+
+62) LBDMONO
+Monocyte number (1000 cells/uL)
+RANGE: 0.1 to 5.5
+	N	Mean	Std. Deviation
+Total	8249	0.567	0.207
+
+
+63) LBDNENO
+Segmented neutrophils num (1000 cell/uL)
+RANGE: 0.2 to 20.5
+	N	Mean	Std. Deviation
+Total	8249	4.059	1.738
+
+
+64) LBDEONO
+Eosinophils number (1000 cells/uL)
+RANGE: 0 to 2.9
+	N	Mean	Std. Deviation
+Total	8249	0.22	0.187
+
+
+65) LBDBANO
+Basophils number (1000 cells/uL)
+RANGE: 0 to 2.1
+	N	Mean	Std. Deviation
+Total	8249	0.041	0.066
+0)	5128	62.2
+0.1)	2952	35.8
+0.2)	121	1.5
+0.3)	26	0.3
+0.4)	12	0.1
+0.5)	2	0.0
+0.6)	4	0.0
+0.7)	1	0.0
+1)	1	0.0
+2)	1	0.0
+2.1)	1	0.0
+Missing	1900
+
+
+66) LBXRBCSI
+Red blood cell count (million cells/uL)
+RANGE: 2.49 to 6.97
+	N	Mean	Std. Deviation
+Total	8267	4.672	0.476
+
+
+67) LBXHGB
+Hemoglobin (g/dL)
+RANGE: 7.5 to 19.7
+	N	Mean	Std. Deviation
+Total	8267	13.901	1.549
+
+
+68) LBXHCT
+Hematocrit, percent
+RANGE: 22.4 to 56.3
+	N	Mean	Std. Deviation
+Total	8267	40.354	4.305
+
+
+69) LBXMCVSI
+Mean cell volume (fL)
+RANGE: 55.9 to 125.3
+	N	Mean	Std. Deviation
+Total	8267	86.552	6.116
+
+
+70) LBXMCHSI
+Mean cell hemoglobin (pg)
+RANGE: 18 to 60.8
+	N	Mean	Std. Deviation
+Total	8267	29.816	2.428
+
+
+71) LBXMC
+Mean cell hemoglobin concentration (g/dL)
+RANGE: 30 to 42.4
+	N	Mean	Std. Deviation
+Total	8267	34.432	0.966
+
+
+72) LBXRDW
+Red cell distribution width, percent
+RANGE: 6.3 to 37.8
+	N	Mean	Std. Deviation
+Total	8267	12.804	1.173
+
+
+73) LBXPLTSI
+Platelet count (1000 cells/uL), percentage SI
+RANGE: 28 to 1000
+	N	Mean	Std. Deviation
+Total	8267	283.01	76.647
+
+
+74) LBXMPSI
+Mean platelet volume (fL)
+RANGE: 5.1 to 12.6
+	N	Mean	Std. Deviation
+Total	8267	7.641	0.854
+
+
+75) LBXCRP
+[Laboratory: C-Reactive Protein] C-reactive protein(mg/dL)
+RANGE: 0.01 to 20
+	N	Mean	Std. Deviation
+Total	6809	0.385	0.813
+
+
+76) PHQ020
+[Laboratory: Fasting Questionnaire] Coffee or tea with cream or sugar? [Include milk or non-dairy creamers. Have you had any of the following since 'today at' or 'yesterday at' fasting time in PHQ010.]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	8832	1.997	0.053
+1) Yes	25	0.3
+2) No	8807	99.7
+Missing	1317
+
+
+77) PHACOFHR
+Coffee/tea fast time (hours) [The time (in hours) since the examinee last drank coffee or tea with cream or sugar.]
+RANGE: 0 to 12
+	N	Mean	Std. Deviation
+Total	25	2.52	2.988
+0)	6	24.0
+1)	8	32.0
+2)	1	4.0
+3)	4	16.0
+4)	2	8.0
+6)	1	4.0
+7)	1	4.0
+8)	1	4.0
+12)	1	4.0
+Missing	10124
+
+
+78) PHACOFMN
+Coffee/tea fast time (minutes) [The time (in minutes) since the examinee last drank coffee or tea with cream or sugar.]
+RANGE: 2 to 58
+	N	Mean	Std. Deviation
+Total	25	28.48	15.698
+2)	1	4.0
+5)	2	8.0
+9)	1	4.0
+11)	1	4.0
+16)	1	4.0
+19)	1	4.0
+23)	2	8.0
+28)	3	12.0
+29)	1	4.0
+30)	3	12.0
+31)	1	4.0
+33)	1	4.0
+37)	2	8.0
+38)	1	4.0
+50)	1	4.0
+56)	2	8.0
+58)	1	4.0
+Missing	10124
+
+
+79) PHQ030
+Alcohol, such as beer, wine, or liquor? [Alcohol, such as beer, wine, or liquor? Have you had any of the following since 'today at' or 'yesterday at' the fasting time in PHQ010.]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	8832	1.999	0.028
+1) Yes	7	0.1
+2) No	8825	99.9
+Missing	1317
+
+
+80) PHAALCHR
+Alcohol fast time (hours) [The time (in hours) the examinee last drank alcohol such as beer, wine, or liquor.]
+RANGE: 1 to 15
+	N	Mean	Std. Deviation
+Total	7	9.571	4.315
+1)	1	14.3
+8)	1	14.3
+10)	1	14.3
+11)	3	42.9
+15)	1	14.3
+Missing	10142
+
+
+81) PHAALCMN
+Alcohol fast time (minutes) [The time (in minutes) the examinee last drank alcohol such as beer, wine, or liquor.]
+RANGE: 3 to 42
+	N	Mean	Std. Deviation
+Total	7	17.286	13.622
+3)	1	14.3
+6)	1	14.3
+8)	1	14.3
+16)	1	14.3
+20)	1	14.3
+26)	1	14.3
+42)	1	14.3
+Missing	10142
+
+
+82) PHQ040
+Gum, mints, lozenges or cough drops [Gum, breath mints, lozenges or cough drops, or other cough or cold remedies? Have you had any of the following since 'today at' or 'yesterday at' the fasting time in PHQ010?]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	8832	1.99	0.099
+1) Yes	88	1.0
+2) No	8744	99.0
+Missing	1317
+
+
+83) PHAGUMHR
+Gum, mints cough drops fast time (hours) [The time (in hours) the examinee last had gum, breath mints, lozenges or cough drops, or other cough or cold remedies.]
+RANGE: 0 to 15
+	N	Mean	Std. Deviation
+Total	88	1.114	2.93
+0)	63	71.6
+1)	10	11.4
+2)	5	5.7
+3)	3	3.4
+4)	1	1.1
+6)	1	1.1
+7)	1	1.1
+9)	1	1.1
+14)	2	2.3
+15)	1	1.1
+Missing	10061
+
+
+84) PHAGUMMN
+Gum, mints, cough fast time (minutes) [The time (in minutes) the examinee last had gum, breath mints, lozenges or cough drops, or other cough or cold remedies.]
+RANGE: 1 to 57
+	N	Mean	Std. Deviation
+Total	88	16.318	14.961
+
+
+85) PHQ050
+Antacids, laxatives, or anti-diarrheals? [Antacids, laxatives, or anti-diarrheals? Have you had any of the following since 'today at' or 'yesterday at' the fasting time in PHQ010.]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	8832	1.999	0.024
+1) Yes	5	0.1
+2) No	8827	99.9
+Missing	1317
+
+
+86) PHAANTHR
+Antacids, laxatives fast time (hours) [The time (in hours) the examinee last had antacids, laxatives or anti-diarrheals.]
+RANGE: 0 to 8
+	N	Mean	Std. Deviation
+Total	5	3	3.391
+0)	1	20.0
+1)	2	40.0
+5)	1	20.0
+8)	1	20.0
+Missing	10144
+
+
+87) PHAANTMN
+Antacids, laxatives fast time (minutes) [The time (in minutes) the examinee last had antacids, laxatives or anti-diarrheals.]
+RANGE: 9 to 30
+	N	Mean	Std. Deviation
+Total	5	20	10.559
+9)	2	40.0
+22)	1	20.0
+30)	2	40.0
+Missing	10144
+
+
+88) PHQ060
+Dietary supplements? [Dietary supplements such as vitamins and minerals? (Include multivitamins and single nutrient supplements.) Have you had any of the following since 'today at' or 'yesterday at' the fasting time in PHQ010.]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	8832	1.998	0.043
+1) Yes	16	0.2
+2) No	8816	99.8
+Missing	1317
+
+
+89) PHASUPHR
+Dietary supplements fast time (hours) [The time (in hours) the examinee last had dietary supplements such as vitamins and minerals.]
+RANGE: 0 to 11
+	N	Mean	Std. Deviation
+Total	16	3.375	3.344
+0)	1	6.3
+1)	5	31.3
+2)	2	12.5
+3)	3	18.8
+4)	2	12.5
+6)	1	6.3
+11)	2	12.5
+Missing	10133
+
+
+90) PHASUPMN
+Dietary supplements fast time (minutes) [The time (in minutes) the examinee last had dietary supplements such as vitamins and minerals.]
+RANGE: 0 to 58
+	N	Mean	Std. Deviation
+Total	16	26	18
+0)	1	6.3
+3)	1	6.3
+4)	1	6.3
+5)	1	6.3
+6)	1	6.3
+22)	2	12.5
+29)	1	6.3
+31)	1	6.3
+32)	1	6.3
+36)	2	12.5
+40)	1	6.3
+44)	1	6.3
+48)	1	6.3
+58)	1	6.3
+Missing	10133
+
+
+91) PHAFSTHR
+Total length of 'food fast,' hours [The time (in hours) between when the examinee last ate or drank anything other than water and the time of the venipuncture.]
+RANGE: 0 to 52
+	N	Mean	Std. Deviation
+Total	8832	6.015	5.255
+0)	950	10.8
+1)	1386	15.7
+2)	1153	13.1
+3)	765	8.7
+4)	472	5.3
+5)	357	4.0
+6)	199	2.3
+7)	97	1.1
+8)	57	0.6
+9)	284	3.2
+10)	582	6.6
+11)	654	7.4
+12)	632	7.2
+13)	501	5.7
+14)	337	3.8
+15)	183	2.1
+16)	99	1.1
+17)	45	0.5
+18)	24	0.3
+19)	16	0.2
+20)	14	0.2
+21)	6	0.1
+22)	4	0.0
+23)	2	0.0
+24)	5	0.1
+25)	1	0.0
+26)	2	0.0
+30)	1	0.0
+32)	1	0.0
+33)	1	0.0
+40)	1	0.0
+52)	1	0.0
+Missing	1317
+
+
+92) PHAFSTMN
+Total length of  'food fast,' minutes [The time (in minutes) between when the examinee last ate or drank anything other than water and the time of the venipuncture.]
+RANGE: 0 to 59
+	N	Mean	Std. Deviation
+Total	8832	29.844	17.367
+
+
+93) PHDSESN
+Session in which SP was examined
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9307	0.713	0.746
+0) Morning	4311	46.3
+1) Afternoon	3356	36.1
+2) Evening	1640	17.6
+Missing	842
+
+
+94) LBXFER
+[Laboratory: Ferritin] Ferritin (ng/mL)
+RANGE: 2 to 420
+	N	Mean	Std. Deviation
+Total	2491	43.322	44.221
+
+
+95) LBDFERSI
+Ferritin (ug/L)
+RANGE: 2 to 420
+	N	Mean	Std. Deviation
+Total	2491	43.322	44.221
+
+
+96) WTSAF2YR
+[Laboratory: Plasma Fasting Glucose and Insulin] Fasting Subsample 2 Year MEC Weight
+RANGE: 0 to 404655.623
+	N	Mean	Std. Deviation
+Total	3315	74986.723	72617.988
+
+
+97) LBXGLU
+Fasting glucose (mg/dL)
+RANGE: 38 to 584
+	N	Mean	Std. Deviation
+Total	3110	109.751	39.622
+
+
+98) LBDGLUSI
+Fasting glucose (mmol/L)
+RANGE: 2.109 to 32.418
+	N	Mean	Std. Deviation
+Total	3110	6.092	2.199
+
+
+99) LBXIN
+Insulin (uU/mL)
+RANGE: 1 to 231.67
+	N	Mean	Std. Deviation
+Total	3071	13.595	12.958
+
+
+100) LBDINSI
+Insulin (pmol/L)
+RANGE: 6 to 1390.02
+	N	Mean	Std. Deviation
+Total	3071	81.573	77.749
+
+
+101) LBXGH
+[Laboratory: Glycohemoglobin] Glycohemoglobin (percent)
+RANGE: 2 to 15.2
+	N	Mean	Std. Deviation
+Total	6427	5.66	1.013
+
+
+102) LBXHA
+[Laboratory: Hepatitis A] Hepatitis A antibody (Anti-HAV)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	2622	1.542	0.499
+1) Positive	1202	45.8
+2) Negative	1419	54.1
+3) Indeterminate	1	0.0
+Missing	7527
+
+
+103) LBXHBS
+[Laboratory: Hepatitis B] Hepatitis B surface antibody
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	7949	1.7	0.458
+1) Positive	2386	30.0
+2) Negative	5563	70.0
+Missing	2200
+
+
+104) LBXHBC
+[Laboratory: Hepatitis B: Core Antibody, Surface Antigen, and Hepatitis D Antibody] Hepatitis B core antibody
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	7410	1.952	0.213
+1) Positive	352	4.8
+2) Negative	7058	95.2
+Missing	2739
+
+
+105) LBDHBG
+Hepatitis B surface antigen
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	7410	1.998	0.045
+1) Positive	15	0.2
+2) Negative	7395	99.8
+Missing	2739
+
+
+106) LBDHD
+Hepatitis D (anti-HDV)
+RANGE: 2 to 2
+	N	Mean	Std. Deviation
+Total	7410	2	0
+2) Negative	7410	100.0
+Missing	2739
+
+
+107) LBDHCV
+[Laboratory: Hepatitis C: Confirmed Antibody, Hepatitis C RNA (HCV-RNA), and Hepatitis HCV Genotype] Hepatitis C antibody (confirmed)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	7410	1.991	0.186
+1) Positive	114	1.5
+2) Negative	7280	98.2
+5) Indeterminate	16	0.2
+Missing	2739
+
+
+108) LBXHCR
+Hepatitis C RNA (HCV-RNA)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	121	1.273	0.447
+1) Positive	88	72.7
+2) Negative	33	27.3
+Missing	10028
+
+
+109) LBXHCG
+Hepatitis HCV genotype
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	88	1.148	0.357
+1) Positive	75	85.2
+2) Negative	13	14.8
+Missing	10061
+
+
+110) LBXHE1
+[Laboratory: Herpes Simplex Virus Type-1 and Type-2] Herpes Simplex Virus I
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	3364	1.396	0.491
+1) Positive	2035	60.5
+2) Negative	1326	39.4
+3) Indeterminate	3	0.1
+Missing	6785
+
+
+111) LBXHE2
+Herpes Simplex Virus II
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	2804	1.787	0.421
+1) Positive	610	21.8
+2) Negative	2181	77.8
+3) Indeterminate	13	0.5
+Missing	7345
+
+
+112) SXQ021
+SXQ021
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3324	1.216	0.57
+1)	2679	80.6
+2)	633	19.0
+7)	6	0.2
+9)	6	0.2
+Missing	6825
+
+
+113) LBDHI
+[Laboratory: HIV Antibody Test] HIV result (western blot)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	2806	1.996	0.071
+1) Positive	12	0.4
+2) Negative	2792	99.5
+3) Indeterminate	2	0.1
+Missing	7343
+
+
+114) WTSOG2YR
+[Laboratory: Two-Hour Oral Glucose Tolerance Test] OGTT Subsample 2 Year MEC Weight
+RANGE: 0 to 486575.123
+	N	Mean	Std. Deviation
+Total	2779	89449.797	79791.135
+
+
+115) GTDSCMMN
+Glucose challenge Administer Time in min
+RANGE: 0 to 10
+	N	Mean	Std. Deviation
+Total	2283	2.559	2.035
+0)	115	5.0
+1)	759	33.2
+2)	559	24.5
+3)	320	14.0
+4)	174	7.6
+5)	127	5.6
+6)	76	3.3
+7)	55	2.4
+8)	57	2.5
+9)	32	1.4
+10)	9	0.4
+Missing	7866
+
+
+116) GTDDR1MN
+Time from fast glucose & challenge (min)
+RANGE: 2 to 103
+	N	Mean	Std. Deviation
+Total	2283	8.817	6.6
+
+
+117) GTDBL2MN
+Time from fasting glucose & OGTT (min)
+RANGE: 103 to 162
+	N	Mean	Std. Deviation
+Total	2249	116.514	8.134
+
+
+118) GTDDR2MN
+Time from glucose challenge & OGTT(min)
+RANGE: 40 to 140
+	N	Mean	Std. Deviation
+Total	2249	107.742	7.819
+
+
+119) GTXDRANK
+Amount of glucose challenge drank
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	2398	1.104	0.442
+1)	2270	94.7
+2)	6	0.3
+3)	122	5.1
+Missing	7751
+
+
+120) GTDCODE
+Incomplete OGTT Comment Code
+RANGE: 0 to 30
+	N	Mean	Std. Deviation
+Total	3315	8.411	12.22
+0) OGTT Complete	2233	67.4
+20) Hemophiliac	4	0.1
+21) Cancer chemotherapy within four weeks	11	0.3
+22) Diabetic on medications	357	10.8
+23) Refused venipuncture	54	1.6
+24) Ill/faint during test	8	0.2
+25) Venipuncture unsuccessful	30	0.9
+26) Currently pregnant	28	0.8
+27) Refused glucose challenge	89	2.7
+28) Fasting less than nine hours	296	8.9
+29) Came late/left early	37	1.1
+30) All remaining reasons	168	5.1
+Missing	6834
+
+
+121) LBXGLT
+Two-hour glucose(OGTT) (mg/dL)
+RANGE: 23 to 468
+	N	Mean	Std. Deviation
+Total	2233	120.553	50.035
+
+
+122) LBDGLTSI
+Two-hour glucose(OGTT) (mmol/L)
+RANGE: 1.277 to 25.979
+	N	Mean	Std. Deviation
+Total	2233	6.692	2.777
+
+
+123) KIQ110
+[Laboratory: Prostate Specific Antigen] Willing to have blood tested for PSA [Are you willing to have your blood tested for PSA?]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1633	1.014	0.118
+1) Yes	1610	98.6
+2) No	23	1.4
+Missing	8516
+
+
+124) KIQ115
+Infection or inflammation of prostate [(Do you/does SP) have an infection or inflammation of the prostate gland at the present time?]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1792	1.989	0.243
+1) Yes	32	1.8
+2) No	1758	98.1
+7) Refused	1	0.1
+9) Don't know	1	0.1
+Missing	8357
+
+
+125) KIQ185
+Rectal exam in the last seven days [(Have you/Has SP) had a rectal exam in the last seven days?]
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1792	1.989	0.167
+1) Yes	25	1.4
+2) No	1766	98.5
+7) Refused	1	0.1
+Missing	8357
+
+
+126) KIQ191
+Prostate biopsy or surgery in last four weeks [(Have you/Has SP) had a prostate biopsy or other prostate surgery in the last four weeks?]
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1792	1.999	0.132
+1) Yes	6	0.3
+2) No	1785	99.6
+7) Refused	1	0.1
+Missing	8357
+
+
+127) KIQ195
+Cystoscopy in the last four weeks [(Have you/Has SP) had a cystoscopy in the last four weeks? (Cystoscopy is an internal examination of the prostate and bladder using a flexible tube-like instrument with a lens inserted through the penis.)]
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1792	1.996	0.144
+1) Yes	12	0.7
+2) No	1779	99.3
+7) Refused	1	0.1
+Missing	8357
+
+
+128) KIQ201
+Diagnosed with prostate cancer [(Have you/Has SP) ever been told by a doctor or health professional that (you/he) had prostate cancer?]
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1792	1.945	0.262
+1) Yes	103	5.7
+2) No	1688	94.2
+7) Refused	1	0.1
+Missing	8357
+
+
+129) KIQ221
+Age at diagnosis of prostate cancer [How old (were you/was SP) when (you were/he was) first told that (you/he) had prostate cancer?]
+RANGE: 45 to 80
+	N	Mean	Std. Deviation
+Total	103	66.068	7.97
+
+
+130) KIQ241
+Ever had prostate surgery [(Have you/Has SP) ever had surgery on (your/his) prostate?]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	103	1.485	0.502
+1) Yes	53	51.5
+2) No	50	48.5
+Missing	10046
+
+
+131) KIQ282
+Surgery for prostate cancer? [(Have you/Has SP) had surgery for prostate cancer?]
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	53	1	0
+1) Yes	53	100.0
+Missing	10096
+
+
+132) KIQ301
+Radiation treatment for prostate cancer [(Have you/Has SP) ever had radiation treatments for prostate cancer?]
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	103	1.583	0.735
+1) Yes	48	46.6
+2) No	54	52.4
+7) Refused	1	1.0
+Missing	10046
+
+
+133) KIQ311
+Taken medicines for prostate cancer [(Have you/Has SP) ever taken prescribed medicines for prostate cancer?]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	103	1.757	0.431
+1) Yes	25	24.3
+2) No	78	75.7
+Missing	10046
+
+
+134) LBXP1
+Total prostate specific antigen (ng/mL)
+RANGE: 0.07 to 64.21
+	N	Mean	Std. Deviation
+Total	1630	1.802	3.055
+
+
+135) LBXP2
+Free prostate specific antigen (ng/mL)
+RANGE: 0.04 to 5.18
+	N	Mean	Std. Deviation
+Total	1630	0.417	0.462
+
+
+136) LBDP3
+Prostate specific antigen ratio (percent)
+RANGE: 4 to 83
+	N	Mean	Std. Deviation
+Total	1630	29.401	11.682
+
+
+137) LBXPS4
+Complex prostate specific antigen (ng/mL)
+RANGE: 0.04 to 42.54
+	N	Mean	Std. Deviation
+Total	1629	1.065	2.091
+
+
+138) LBXCOT
+[Laboratory: Serum Cotinine] Cotinine (ng/mL)
+RANGE: 0.011 to 1438
+	N	Mean	Std. Deviation
+Total	7748	47.32	119.585
+
+
+139) LBXSAL
+[Laboratory: Standard Biochemistry Profile] Albumin (g/dL)
+RANGE: 1.2 to 5.5
+	N	Mean	Std. Deviation
+Total	6377	4.247	0.344
+
+
+140) LBDSALSI
+Albumin (g/L)
+RANGE: 12 to 55
+	N	Mean	Std. Deviation
+Total	6377	42.475	3.441
+
+
+141) LBXSATSI
+Alanine aminotransferase (ALT) (U/L)
+RANGE: 4 to 890
+	N	Mean	Std. Deviation
+Total	6372	25.205	23.476
+
+
+142) LBXSASSI
+Asparate aminotransferase (AST) (U/L)
+RANGE: 8 to 1034
+	N	Mean	Std. Deviation
+Total	6372	26.293	18.903
+
+
+143) LBXSBU
+Blood urea nitrogen (mg/dL)
+RANGE: 2 to 72
+	N	Mean	Std. Deviation
+Total	6375	12.813	5.743
+
+
+144) LBDSBUSI
+Blood urea nitrogen (mmol/L)
+RANGE: 0.71 to 25.7
+	N	Mean	Std. Deviation
+Total	6375	4.575	2.05
+
+
+145) LBXSCH
+Cholesterol (mg/dL)
+RANGE: 74 to 453
+	N	Mean	Std. Deviation
+Total	6375	191.635	42.824
+
+
+146) LBDSCHSI
+Cholesterol (mmol/L)
+RANGE: 1.914 to 11.715
+	N	Mean	Std. Deviation
+Total	6375	4.956	1.107
+
+
+147) LBXSC3SI
+Bicarbonate (mmol/L)
+RANGE: 10 to 40
+	N	Mean	Std. Deviation
+Total	6375	24.859	2.321
+
+
+148) LBXSGTSI
+Gamma-glutamyl transferase (U/L)
+RANGE: 4 to 892
+	N	Mean	Std. Deviation
+Total	6376	29.445	40.01
+
+
+149) LBXSGL
+Glucose, serum (mg/dL)
+RANGE: 33 to 559
+	N	Mean	Std. Deviation
+Total	6377	100.398	38.648
+
+
+150) LBDSGLSI
+Glucose, serum (mmol/L)
+RANGE: 1.83 to 31.03
+	N	Mean	Std. Deviation
+Total	6377	5.573	2.145
+
+
+151) LBXSIR
+Iron, refigerated (ug/dL)
+RANGE: 7 to 387
+	N	Mean	Std. Deviation
+Total	6372	85.041	36.201
+
+
+152) LBDSIRSI
+Iron, refigerated (umol/L)
+RANGE: 1.3 to 69.3
+	N	Mean	Std. Deviation
+Total	6372	15.231	6.484
+
+
+153) LBXSLDSI
+Lactate dehydrogenase LDH (U/L)
+RANGE: 50 to 661
+	N	Mean	Std. Deviation
+Total	6373	133.526	29.266
+
+
+154) LBXSPH
+Phosphorus (mg/dL)
+RANGE: 1.5 to 7.6
+	N	Mean	Std. Deviation
+Total	6377	3.862	0.632
+
+
+155) LBDSPHSI
+Phosphorus (mmol/L)
+RANGE: 0.484 to 2.454
+	N	Mean	Std. Deviation
+Total	6377	1.247	0.204
+
+
+156) LBXSTB
+Total bilirubin (mg/dL)
+RANGE: 0.1 to 4
+	N	Mean	Std. Deviation
+Total	6372	0.775	0.31
+
+
+157) LBDSTBSI
+Bilirubin, total (umol/L)
+RANGE: 1.71 to 68.4
+	N	Mean	Std. Deviation
+Total	6372	13.247	5.306
+
+
+158) LBXSTP
+Total protein (g/dL)
+RANGE: 3.4 to 10.4
+	N	Mean	Std. Deviation
+Total	6369	7.184	0.464
+
+
+159) LBDSTPSI
+Total protein (g/L)
+RANGE: 34 to 104
+	N	Mean	Std. Deviation
+Total	6369	71.84	4.643
+
+
+160) LBXSTR
+Triglycerides (mg/dL)
+RANGE: 16 to 3281
+	N	Mean	Std. Deviation
+Total	6373	152.943	131.909
+
+
+161) LBDSTRSI
+Triglycerides (mmol/L)
+RANGE: 0.181 to 37.042
+	N	Mean	Std. Deviation
+Total	6373	1.727	1.489
+
+
+162) LBXSUA
+Uric acid (mg/dL)
+RANGE: 1.7 to 13.1
+	N	Mean	Std. Deviation
+Total	6375	5.455	1.433
+
+
+163) LBDSUASI
+Uric acid (umol/L)
+RANGE: 101.1 to 779.2
+	N	Mean	Std. Deviation
+Total	6375	324.492	85.222
+
+
+164) LBXSKSI
+Potassium (mmol/L)
+RANGE: 2.5 to 6
+	N	Mean	Std. Deviation
+Total	6374	3.971	0.332
+
+
+165) LBXSCLSI
+Chloride (mmol/L)
+RANGE: 82 to 120
+	N	Mean	Std. Deviation
+Total	6374	104.153	2.884
+
+
+166) LBXSOSSI
+Osmolality (mmol/Kg)
+RANGE: 228 to 321
+	N	Mean	Std. Deviation
+Total	6375	278.163	5.302
+
+
+167) LBXSGB
+Globulin (g/dL)
+RANGE: 1 to 6.5
+	N	Mean	Std. Deviation
+Total	6369	2.937	0.45
+
+
+168) LBDSGBSI
+Globulin (g/L)
+RANGE: 10 to 65
+	N	Mean	Std. Deviation
+Total	6369	29.367	4.503
+
+
+169) LBXATG
+[Laboratory: Thyroid Profile] Thyroglobulin antibodies (IU/mL)
+RANGE: 0.6 to 2391.9
+	N	Mean	Std. Deviation
+Total	6250	12.226	107.576
+
+
+170) LBXT3F
+Triiodothyronine (T3), free  (pg/mL)
+RANGE: 1.8 to 20.7
+	N	Mean	Std. Deviation
+Total	6262	3.239	0.564
+
+
+171) LBXT4F
+Thyroxine, free (ng/dL)
+RANGE: 0.1 to 4.8
+	N	Mean	Std. Deviation
+Total	6264	0.789	0.176
+
+
+172) LBDT4FSI
+Thyroxine, free (pmol/L)
+RANGE: 1.3 to 61.9
+	N	Mean	Std. Deviation
+Total	6264	10.157	2.279
+
+
+173) LBXTGN
+Thyroglobulin (ng/mL)
+RANGE: 0.07 to 4461
+	N	Mean	Std. Deviation
+Total	6262	17.353	72.545
+
+
+174) LBDTGNSI
+Thyroglobulin (ug/L)
+RANGE: 0.07 to 4461
+	N	Mean	Std. Deviation
+Total	6262	17.353	72.545
+
+
+175) LBXTSH1
+Thyroid stimulating hormone (uIU/mL)
+RANGE: 0.002 to 280.76
+	N	Mean	Std. Deviation
+Total	6265	2.082	4.456
+
+
+176) LBDTSH1S
+Thyroid stimulating hormone (mIU/L)
+RANGE: 0.002 to 280.76
+	N	Mean	Std. Deviation
+Total	6265	2.082	4.456
+
+
+177) LBXTPO
+Thyroid peroxidase antibodies (IU/mL)
+RANGE: 0.1 to 2376
+	N	Mean	Std. Deviation
+Total	6214	18.812	90.779
+
+
+178) LBXTT3
+Triiodothyronine (T3), total (ng/dL)
+RANGE: 37 to 707
+	N	Mean	Std. Deviation
+Total	6262	115.248	27.535
+
+
+179) LBDTT3SI
+Triiodothyronine (T3), total (nmol/L)
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	6262	1.813	0.526
+1)	1459	23.3
+2)	4551	72.7
+3)	241	3.8
+4)	5	0.1
+5)	1	0.0
+6)	2	0.0
+9)	1	0.0
+10)	1	0.0
+11)	1	0.0
+Missing	3887
+
+
+180) LBXTT4
+Thyroxine, total (T4) (ug/mL)
+RANGE: 1.5 to 27.6
+	N	Mean	Std. Deviation
+Total	6263	7.834	1.667
+
+
+181) LBXTFR
+[Laboratory: Transferrin Receptor] Transferrin receptor (mg/L)
+RANGE: 1.3 to 23.6
+	N	Mean	Std. Deviation
+Total	2486	3.914	1.798
+
+
+182) WTSA2YR
+[Laboratory: Urinary Total Arsenic and Speciated Arsenics] Environmental A two-year weights [NHANES, Laboraty: Urinary Total Arsenic and Speciated Arsenics section]
+RANGE: 0 to 592551.32789511
+	N	Mean	Std. Deviation
+Total	2720	100141.679	84291.784
+
+
+183) URXUCR
+Urinary creatinine (mg/dL)
+RANGE: 7 to 528
+	N	Mean	Std. Deviation
+Total	2657	123.957	78.288
+
+
+184) URXUAS
+Urinary total arsenic (ug/L)
+RANGE: 0.52 to 1195
+	N	Mean	Std. Deviation
+Total	2605	16.76	44.806
+
+
+185) URDUASLC
+Urinary arsenic comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2605	0.004	0.065
+0) At or above the detection limit	2594	99.6
+1) Below lower detection limit	11	0.4
+Missing	7544
+
+
+186) URXUAS3
+Urinary arsenous acid (ug/L)
+RANGE: 0.85 to 156
+	N	Mean	Std. Deviation
+Total	2561	0.946	3.077
+
+
+187) URDUA3LC
+Urinary arsenous acid comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2561	0.965	0.183
+0) At or above the detection limit	89	3.5
+1) Below lower detection limit	2472	96.5
+Missing	7588
+
+
+188) URXUAS5
+Urinary arsenic acid (ug/L)
+RANGE: 0.71 to 148
+	N	Mean	Std. Deviation
+Total	2561	0.781	2.918
+
+
+189) URDUA5LC
+Urinary arsenic acid comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2561	0.989	0.104
+0) At or above the detection limit	28	1.1
+1) Below lower detection limit	2533	98.9
+Missing	7588
+
+
+190) URXUAB
+Urinary arsenobetaine (ug/L)
+RANGE: 0.28 to 874
+	N	Mean	Std. Deviation
+Total	2561	6.999	32.292
+
+
+191) URDUABLC
+Urinary arsenobetaine comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2561	0.442	0.497
+0) At or above the detection limit	1430	55.8
+1) Below lower detection limit	1131	44.2
+Missing	7588
+
+
+192) URXUAC
+Urinary arsenocholine (ug/L)
+RANGE: 0.42 to 10.9
+	N	Mean	Std. Deviation
+Total	2561	0.44	0.265
+
+
+193) URDUACLC
+Urinary arsenocholine comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2561	0.98	0.138
+0) At or above the detection limit	50	2.0
+1) Below lower detection limit	2511	98.0
+Missing	7588
+
+
+194) URXUDMA
+Urinary dimethylarsonic acid (ug/L)
+RANGE: 1.2 to 270
+	N	Mean	Std. Deviation
+Total	2561	5.472	8.119
+
+
+195) URDUDALC
+Urinary dimethylarsonic acid comment
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2561	0.146	0.353
+0) At or above the detection limit	2188	85.4
+1) Below lower detection limit	373	14.6
+Missing	7588
+
+
+196) URXUMMA
+Urinary monomethylacrsonic acid (ug/L)
+RANGE: 0.64 to 54.2
+	N	Mean	Std. Deviation
+Total	2561	1.004	1.279
+
+
+197) URDUMMAL
+Urinary monomethylacrsonic acid comment
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2561	0.631	0.483
+0) At or above the detection limit	944	36.9
+1) Below lower detection limit	1617	63.1
+Missing	7588
+
+
+198) URXUTM
+Urinary trimethylarsine oxide (ug/L)
+RANGE: 0.71 to 19.6
+	N	Mean	Std. Deviation
+Total	2561	0.724	0.396
+
+
+199) URDUTMLC
+Urinary trimethylarsine oxide comment
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2561	0.994	0.076
+0) At or above the detection limit	15	0.6
+1) Below lower detection limit	2546	99.4
+Missing	7588
+
+
+200) URXUIO
+[Laboratory: Urinary Iodine] Iodine, urine (ug/L)
+RANGE: 2.1 to 762010
+	N	Mean	Std. Deviation
+Total	7506	411.392	9038.029
+
+
+201) URXUHG
+[Laboratory: Urinary Mercury] Mercury, urine (ug/L)
+RANGE: 0.06 to 34.42
+	N	Mean	Std. Deviation
+Total	2634	0.761	1.389
+
+
+202) URXUCL
+[Laboratory: Urinary Chlamydia and Gonorrhea] Urinary chlamydia
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2052	1.974	0.159
+1) Positive	53	2.6
+2) Negative	1999	97.4
+Missing	8097
+
+
+203) URXUGC
+Urinary gonorrhea
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2052	1.999	0.031
+1) Positive	2	0.1
+2) Negative	2050	99.9
+Missing	8097
+
+
+204) URXUMA
+[Laboratory: Urinary Albumin and Urinary Creatinine] Albumin, urine (ug/mL)
+RANGE: 0.21 to 24440
+	N	Mean	Std. Deviation
+Total	7878	48.223	412.706
+
+
+205) URXUMS
+Albumin, urine (mg/L)
+RANGE: 0.21 to 24440
+	N	Mean	Std. Deviation
+Total	7878	48.223	412.706
+
+
+206) URXCRS
+Creatinine, urine (umol/L)
+RANGE: 265 to 64002
+	N	Mean	Std. Deviation
+Total	7878	10988.494	6879.067
+
+
+207) URXUBA
+[Laboratory: Urine Heavy Metals] Barium, urine (ug/L)
+RANGE: 0.08 to 101
+	N	Mean	Std. Deviation
+Total	2627	2.291	3.904
+
+
+208) URDUBALC
+Urinary barium comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2627	0.01	0.097
+0) At or above the detection limit	2602	99.0
+1) Below lower detection limit	25	1.0
+Missing	7522
+
+
+209) URXUBE
+Beryllium, urine (ug/L)
+RANGE: 0.051 to 0.705
+	N	Mean	Std. Deviation
+Total	2627	0.051	0.013
+
+
+210) URDUBELC
+Urinary beryllium comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2627	0.996	0.062
+0) At or above the detection limit	10	0.4
+1) Below lower detection limit	2617	99.6
+Missing	7522
+
+
+211) URXUCD
+Cadmium, urine (ug/L)
+RANGE: 0.03 to 4.72
+	N	Mean	Std. Deviation
+Total	2627	0.333	0.434
+
+
+212) URDUCDLC
+Urinary cadmium comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2627	0.101	0.302
+0) At or above the detection limit	2361	89.9
+1) Below lower detection limit	266	10.1
+Missing	7522
+
+
+213) URXUCO
+Cobalt, urine (ug/L)
+RANGE: 0.029 to 11.9
+	N	Mean	Std. Deviation
+Total	2627	0.516	0.587
+
+
+214) URDUCOLC
+Urinary cobalt (ug/L) comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2627	0.002	0.048
+0) At or above the detection limit	2621	99.8
+1) Below lower detection limit	6	0.2
+Missing	7522
+
+
+215) URXUCS
+Cesium, urine (ug/L)
+RANGE: 0.214 to 92.5
+	N	Mean	Std. Deviation
+Total	2627	5.381	3.877
+
+
+216) URDUCSLC
+Urinary cesium comment code
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	2627	0	0
+0) At or above the detection limit	2627	100.0
+Missing	7522
+
+
+217) URXUMO
+Molybdenum, urine (ug/L)
+RANGE: 0.65 to 827
+	N	Mean	Std. Deviation
+Total	2627	68.138	58.672
+
+
+218) URDUMOLC
+Urinary molybdenum comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2627	0.001	0.028
+0) At or above the detection limit	2625	99.9
+1) Below lower detection limit	2	0.1
+Missing	7522
+
+
+219) URXUPB
+Lead, urine (ug/L)
+RANGE: 0.07 to 52.3
+	N	Mean	Std. Deviation
+Total	2627	0.806	1.374
+
+
+220) URDUPBLC
+Urinary lead comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2627	0.02	0.139
+0) At or above the detection limit	2575	98.0
+1) Below lower detection limit	52	2.0
+Missing	7522
+
+
+221) URXUPT
+Platinum, urine (ug/L)
+RANGE: 0.006 to 7.13
+	N	Mean	Std. Deviation
+Total	2627	0.012	0.155
+
+
+222) URDUPTLC
+Urinary platinum comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2627	0.944	0.229
+0) At or above the detection limit	146	5.6
+1) Below lower detection limit	2481	94.4
+Missing	7522
+
+
+223) URXUSB
+Antimony, urine (ug/L)
+RANGE: 0.023 to 5.59
+	N	Mean	Std. Deviation
+Total	2627	0.094	0.153
+
+
+224) URDUSBLC
+Urinary antimony comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2627	0.191	0.393
+0) At or above the detection limit	2126	80.9
+1) Below lower detection limit	501	19.1
+Missing	7522
+
+
+225) URXUTL
+Thallium, urine (ug/L)
+RANGE: 0.011 to 3.49
+	N	Mean	Std. Deviation
+Total	2627	0.184	0.139
+
+
+226) URDUTLLC
+Urinary thallium comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2627	0.005	0.073
+0) At or above the detection limit	2613	99.5
+1) Below lower detection limit	14	0.5
+Missing	7522
+
+
+227) URXUTU
+Tungsten, urine (ug/L)
+RANGE: 0.015 to 33.07
+	N	Mean	Std. Deviation
+Total	2627	0.201	0.729
+
+
+228) URDUTULC
+Urinary tungsten comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2627	0.072	0.258
+0) At or above the detection limit	2438	92.8
+1) Below lower detection limit	189	7.2
+Missing	7522
+
+
+229) URXUUR
+Uranium, urinary (ug/L)
+RANGE: 0.0012 to 1.412
+	N	Mean	Std. Deviation
+Total	2627	0.014	0.047
+
+
+230) URDUURLC
+Urinary uranium comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2627	0.075	0.263
+0) At or above the detection limit	2430	92.5
+1) Below lower detection limit	197	7.5
+Missing	7522
+
+
+231) URXPREG
+[Laboratory: Urine Pregnancy Test] Pregnancy test result
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1179	1.975	0.267
+1) Positive	57	4.8
+2) Negative	1094	92.8
+3) Not done	28	2.4
+Missing	8970
+
+

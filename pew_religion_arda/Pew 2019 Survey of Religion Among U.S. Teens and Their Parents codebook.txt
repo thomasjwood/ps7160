@@ -1,0 +1,2033 @@
+Data File: RELAMT19 (Full Data Codebook)
+
+1) CASEID
+Unique identifier
+RANGE: 12 to 2679
+	N	Mean	Std. Deviation
+Total	1811	1286.601	756.782
+
+
+2) PARENT_WT
+Weight variable recommended for analysis of parent data to yield nationally representative results for parents of teens ages 13 to 17. See methodology section above for additional detail on how weights were constructed.
+RANGE: 0.1232 to 4.9789
+	N	Mean	Std. Deviation
+Total	1811	1	0.89
+
+
+3) TEEN_WT
+Weight variable recommended for analysis of teen data to yield nationally representative results for teens ages 13 to 17. See methodology section above for additional detail on how weights were constructed.
+RANGE: 0.1345 to 4.7234
+	N	Mean	Std. Deviation
+Total	1811	1	0.919
+
+
+4) XSPANISH
+Language of interview for participating parent
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1811	1.107	0.309
+1) English	1618	89.3
+2) Spanish	193	10.7
+
+
+5) XPPRACEM
+Detailed race variable for participating parent
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1811	1.342	0.985
+1) White	1526	84.3
+2) Black or African American	154	8.5
+3) American Indian or Alaska Native	21	1.2
+4) Asian	62	3.4
+5) Native Hawaiian/Pacific Islander	3	0.2
+6) Two or more races	45	2.5
+
+
+6) PPETHM
+Variable combining race and ethnicity for participating parent
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1811	1.915	1.319
+1) White, non-Hispanic	1150	63.5
+2) Black, non-Hispanic	142	7.8
+3) Other, non-Hispanic	73	4.0
+4) Hispanic	415	22.9
+5) Two or more races, non-Hispanic	31	1.7
+
+
+7) PPAGEREC
+Age of participating parent, recoded into categories
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1811	2.292	0.484
+1) 18-29	9	0.5
+2) 20-49	1280	70.7
+3) 50-64	506	27.9
+4) 65 or older	16	0.9
+
+
+8) PPEDUCAT
+Sample variable showing responses to education level, collapsed into categories, for participating parents
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1811	3.178	0.877
+1) Less than high school	99	5.5
+2) High school	266	14.7
+3) Some college	660	36.4
+4) Bachelor's degree or higher	786	43.4
+
+
+9) PPGENDER
+Gender of participating parent
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1811	1.68	0.466
+1) Male	579	32.0
+2) Female	1232	68.0
+
+
+10) PPINCIMPREC
+Annual household income of participating parent
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1811	2.272	0.762
+1) Less than $30,000	346	19.1
+2) $30,000 to less than $75,000	627	34.6
+3) $75,000 or more	838	46.3
+
+
+11) PPMARIT
+Current marital status of participating parent
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1811	1.689	1.406
+1) Married	1401	77.4
+2) Widowed	28	1.5
+3) Divorced	164	9.1
+4) Separated	48	2.7
+5) Never married	103	5.7
+6) Living with partner	67	3.7
+
+
+12) PPHHSIZEREC
+Household size based on information from participating parent
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1811	2.988	0.927
+1) Two people or fewer	124	6.8
+2) Three people	416	23.0
+3) Four people	628	34.7
+4) Five people or more	643	35.5
+
+
+13) PPMSACAT
+Sample variable to indicate whether the participating parent lives in a metropolitan area
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1811	0.875	0.331
+0) Non-metro	226	12.5
+1) Metro	1585	87.5
+
+
+14) PPREG4
+U.S. Census region based on state of residence of participating parent
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1811	2.685	1.023
+1) Northeast	289	16.0
+2) Midwest	454	25.1
+3) South	606	33.5
+4) West	462	25.5
+
+
+15) DOV_ACSLANG
+Language proficiency for participating parent
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1811	4.296	1.332
+1) English proficient	112	6.2
+2) Bilingual	221	12.2
+3) Spanish proficient	82	4.5
+5) Non-Hispanics, not asked	1396	77.1
+
+
+16) DOV_TACSLANG
+Language proficiency for participating teen
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1811	4.076	1.528
+1) English proficient	192	10.6
+2) Bilingual	296	16.3
+3) Spanish proficient	9	0.5
+5) Non-Hispanics, not asked	1314	72.6
+
+
+17) S1
+Are you the parent, step-parent or foster parent of a child age 13-17 years living in your household?
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1811	1	0
+1) Yes	1811	100.0
+
+
+18) S2
+How many children ages 13-17 are in your household for which you are the parent, step- parent or foster parent? [range 0-12]
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	1811	1.355	0.678
+1) 	1285	71.0
+2) 	436	24.1
+3) 	79	4.4
+4) 	8	0.4
+5) 	1	0.1
+11) 	1	0.1
+12) 	1	0.1
+
+
+19) PTIME
+Thinking about the time you spend with your child who will be completing the survey...Do you think you spend too much time with your child, too little time or about the right amount of time?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.683	3.249
+1) Too much	43	2.4
+2) Too little	680	37.5
+3) Right amount	1086	60.0
+99) Refused	2	0.1
+
+
+20) PMOTHER
+What best describes your relationship to the child who will be completing the survey?[Ask if participating parent is female(PPGENDER=2)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1232	1.811	8.356
+1) Biological mother	1157	93.9
+2) Adoptive mother	41	3.3
+3) Step-mother	16	1.3
+4) Foster mother	2	0.2
+5) Partner of biological or adopted parent	1	0.1
+6) Grandmother	2	0.2
+7) Other	4	0.3
+99) Refused	9	0.7
+Missing	579
+
+
+21) PFATHER
+What best describes your relationship to the child who will be completing the survey? ?[Ask if participating parent is male(PPGENDER=1)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	579	1.349	4.114
+1) Biological father	520	89.8
+2) Adoptive father	24	4.1
+3) Step-father	30	5.2
+5) Partner of biological or adopted parent	2	0.3
+7) Other	2	0.3
+99) Refused	1	0.2
+Missing	1232
+
+
+22) PSPRELAT1
+What best describes your spouse's relationship to the child who will be completing the survey?[Ask if participating parent is married (PPMARIT=1)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1401	1.729	6.929
+1) Biological parent	1209	86.3
+2) Adoptive parent	60	4.3
+3) Step-parent	116	8.3
+4) Foster parent	1	0.1
+6) Other	8	0.6
+99) Refused	7	0.5
+Missing	410
+
+
+23) PSPRELAT2
+What best describes your partner's relationship to the child who will be completing the survey?[Ask if participating parent is living with a partner (PPMARIT=6)]
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	67	1.896	1.293
+1) Biological parent	41	61.2
+2) Adoptive parent	1	1.5
+3) Step-parent	22	32.8
+6) Other	3	4.5
+Missing	1744
+
+
+24) PTACTVA
+In the past 12 months, which of the following activities has this child done when they're not in school, that is after school or on weekends? a. Taken lessons in things like music, dance or art
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.502	8.833
+1) Yes, in the past 12 months	545	30.1
+2) No, not in the past 12 months	1251	69.1
+99) Refused	15	0.8
+
+
+25) PTACTVB
+In the past 12 months, which of the following activities has this child done when they're not in school, that is after school or on weekends? b. Participated in any kind of sports or athletic activities
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.02	7.599
+1) Yes, in the past 12 months	1031	56.9
+2) No, not in the past 12 months	769	42.5
+99) Refused	11	0.6
+
+
+26) PTACTVC
+In the past 12 months, which of the following activities has this child done when they're not in school, that is after school or on weekends? c. Participated in an organization like the scouts
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.66	9.107
+1) Yes, in the past 12 months	356	19.7
+2) No, not in the past 12 months	1439	79.5
+99) Refused	16	0.9
+
+
+27) PTACTVD
+In the past 12 months, which of the following activities has this child done when they're not in school, that is after school or on weekends? d. Done volunteer work
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	1.857	6.073
+1) Yes, in the past 12 months	938	51.8
+2) No, not in the past 12 months	866	47.8
+99) Refused	7	0.4
+
+
+28) PTACTVE
+In the past 12 months, which of the following activities has this child done when they're not in school, that is after school or on weekends? e. Had a part-time job
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.49	8.532
+1) Yes, in the past 12 months	470	26.0
+2) No, not in the past 12 months	1327	73.3
+99) Refused	14	0.8
+
+
+29) PRELIGREC
+What is your present religion, if any?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	4.531	7.37
+1) Protestant	737	40.7
+2) Roman Catholic	498	27.5
+3) Mormon (Church of Jesus Christ of Latter-day Saints or LDS)	51	2.8
+4) Orthodox (such as Greek, Russian, or some other Orthodox church)	8	0.4
+5) Jewish (Judaism)	21	1.2
+6) Muslim (Islam)	14	0.8
+7) Buddhist	8	0.4
+8) Hindu	11	0.6
+9) Atheist (do not believe in God)	55	3.0
+10) Agnostic (not sure if there is a God)	58	3.2
+12) Nothing in particular	291	16.1
+13) Other Christian	34	1.9
+14) Other non-Christian	18	1.0
+99) Don't know/refused	7	0.4
+
+
+30) PBORN
+Would you describe yourself as a born-again or evangelical Christian, or not? [Ask if participating parent is Christian (PRELIGREC=1-4, 13)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1328	2.8	10.97
+1) Yes, born-again or evangelical Christian	587	44.2
+2) No, not born-again or evangelical Christian	724	54.5
+99) Refused	17	1.3
+Missing	483
+
+
+31) PRELTRAD
+Created variable showing participating parent's religious tradition, based on analysis of responses to the following questions: What is your present religion, if any? As far as your present religion, what denomination or church, if any, do you identify with most closely? Would you describe yourself as a born-again or evangelical Christian, or not?
+RANGE: 1100 to 900000
+	N	Mean	Std. Deviation
+Total	1811	32734.76	67418.508
+1100) Theologically evangelical Protestant Churches	441	24.4
+1200) Historic mainline Protestant churches	246	13.6
+1300) Historically Black Protestant churches	71	3.9
+10000) Catholic	498	27.5
+20000) Mormon	51	2.8
+30000) Orthodox Christian	8	0.4
+40001) Jehovah's Witnesses	9	0.5
+40002) Other Christian	4	0.2
+50000) Jewish	21	1.2
+60000) Muslim	14	0.8
+70000) Buddhist	8	0.4
+80000) Hindu	11	0.6
+90001) Other world religions	2	0.1
+90002) Other faiths	16	0.9
+100000) Unaffiliated	404	22.3
+900000) Don't know/refused	7	0.4
+
+
+32) SPRELIGREC
+What is your spouse's/partner's present religion, if any? [Ask if participating parent is married or living with a partner (PPMARIT=1,6)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1468	4.629	5.752
+1) Protestant	539	36.7
+2) Roman Catholic	411	28.0
+3) Mormon (Church of Jesus Christ of Latter-day Saints or LDS)	49	3.3
+4) Orthodox (such as Greek, Russian, or some other Orthodox church)	7	0.5
+5) Jewish (Judaism)	20	1.4
+6) Muslim (Islam)	10	0.7
+7) Buddhist	13	0.9
+8) Hindu	10	0.7
+9) Atheist (do not believe in God)	40	2.7
+10) Agnostic (not sure if there is a God)	43	2.9
+12) Nothing in particular	284	19.3
+13) Other Christian	28	1.9
+14) Other non-Christian	12	0.8
+99) Don't know/refused	2	0.1
+Missing	343
+
+
+33) SPHISP
+Is your spouse/partner of Hispanic, Latino, or Spanish origin, such as Mexican, Puerto Rican or Cuban? [Ask if participating parent is married or living with a partner (PPMARIT=1,6)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1468	1.819	2.575
+1) Yes	363	24.7
+2) No	1104	75.2
+99) Refused	1	0.1
+Missing	343
+
+
+34) SPRACECMB
+Backcoded race variable based on responses to the following question: What is your spouse's/partner's race or origin? [Ask if participating parent is married or living with a partner (PPMARIT=1,6)]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1468	1.484	1.266
+1) White	1199	81.7
+2) Black or African American	88	6.0
+3) Asian or Asian American	63	4.3
+4) Mixed Race	36	2.5
+5) Or some other race	67	4.6
+9) Refused	15	1.0
+Missing	343
+
+
+35) SPRACETHN
+Back-coded race variable combining race and ethnicity for participating parents' spouse/partner, based on responses to SPHISP and SPRACECMB.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1468	1.778	1.136
+1) White, non-Hispanic	923	62.9
+2) Black, non-Hispanic	80	5.4
+3) Hispanic	363	24.7
+4) Other	96	6.5
+9) Don't know/refused	6	0.4
+Missing	343
+
+
+36) SPBORN
+Would your spouse/partner describe themself as a born-again or evangelical Christian, or not? [Ask if participating parent said their spouse/partner is Christian (SPRELIGREC=1-4,13)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1034	2.796	10.872
+1) Yes, born-again or evangelical Christian	438	42.4
+2) No, not born-again or evangelical Christian	583	56.4
+99) Refused	13	1.3
+Missing	777
+
+
+37) SPRELTRAD
+Created variable showing religious tradition of participating parent's spouse/partner, based on analysis of responses to the following questions: What is your spouse's/partner's present religion, if any? As far as your spouse's/partner's present religion, what denomination or church, if any, do they identify with most closely? Would your spouse/partner describe themself as a born-again or evangelical Christian, or not?
+RANGE: 1100 to 900000
+	N	Mean	Std. Deviation
+Total	1468	33612.969	52418.271
+1100) Theologically evangelical Protestant Churches	346	23.6
+1200) Historic mainline Protestant churches	172	11.7
+1300) Historically Black Protestant churches	36	2.5
+10000) Catholic	411	28.0
+20000) Mormon	49	3.3
+30000) Orthodox Christian	7	0.5
+40001) Jehovah's Witnesses	9	0.6
+40002) Other Christian	4	0.3
+50000) Jewish	20	1.4
+60000) Muslim	10	0.7
+70000) Buddhist	13	0.9
+80000) Hindu	10	0.7
+90001) Other world religions	3	0.2
+90002) Other faiths	9	0.6
+100000) Unaffiliated	367	25.0
+900000) Don't know/refused	2	0.1
+Missing	343
+
+
+38) PATTEND
+Aside from weddings and funerals, how often do you attend religious services? [Ask all participating parents]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	4.154	6.915
+1) More than once a week	193	10.7
+2) Once a week	432	23.9
+3) Once or twice a month	168	9.3
+4) A few times a year	326	18.0
+5) Seldom	332	18.3
+6) Never	351	19.4
+99) Refused	9	0.5
+
+
+39) PRELIMP
+How important is religion in your life? [Ask all participating parents]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.31	6.117
+1) Very important	824	45.5
+2) Somewhat important	525	29.0
+3) Not too important	203	11.2
+4) Not at all important	252	13.9
+99) Refused	7	0.4
+
+
+40) PPRAY
+Outside of attending religious services, how often do you pray? [Ask all participating parents]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	3.47	5.469
+1) Several times a day	558	30.8
+2) Once a day	347	19.2
+3) A few times a week	273	15.1
+4) Once a week	43	2.4
+5) A few times a month	159	8.8
+6) Seldom	231	12.8
+7) Never	195	10.8
+99) Refused	5	0.3
+
+
+41) PGOD1
+Do you believe in God or a universal spirit? [Ask all participating parents]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	1.845	8.582
+1) Yes	1638	90.4
+2) No	159	8.8
+99) Refused	14	0.8
+
+
+42) PGOD2
+How certain are you about this belief? [Ask if participating parent gave a response to PGOD1 (PGOD1=1,2)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1797	1.761	6.117
+1) Absolutely certain	1254	69.8
+2) Fairly certain	417	23.2
+3) Not too certain	93	5.2
+4) Not at all certain	26	1.4
+99) Refused	7	0.4
+Missing	14
+
+
+43) PEXCLUS
+Which of the following statements comes closest to your own views about religion? [Ask all participating parents]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.693	8.84
+1) Only one religion is true	603	33.3
+2) Many religions may be true	880	48.6
+3) There is little truth in any religion	223	12.3
+4) There is no truth in any religion	90	5.0
+99) Refused	15	0.8
+
+
+44) KIDTRAIT1A
+How important is it to you that this child... a. Go to college[Ask all participating parents]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	1.904	6.897
+1) Very important	1209	66.8
+2) Somewhat important	463	25.6
+3) Not too important	98	5.4
+4) Not at all important	32	1.8
+99) Refused	9	0.5
+
+
+45) KIDTRAIT1B
+How important is it to you that this child... b. Is financially successful [Ask all participating parents]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	1.92	7.258
+1) Very important	1181	65.2
+2) Somewhat important	563	31.1
+3) Not too important	47	2.6
+4) Not at all important	10	0.6
+99) Refused	10	0.6
+
+
+46) KIDTRAIT1C
+How important is it to you that this child... c. Marries someone who shares your religion [Ask all participating parents; Ask item c if participating parent is affiliated with a religion (PRELTRAD is smaller than 10,0000)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1400	2.443	5.873
+1) Very important	497	35.5
+2) Somewhat important	440	31.4
+3) Not too important	284	20.3
+4) Not at all important	174	12.4
+99) Refused	5	0.4
+Missing	411
+
+
+47) KIDTRAIT1D
+How important is it to you that this child... d. Marries someone who shares your views on religion [Ask all participating parents; Ask item c if participating parent is not affiliated with a religion (PRELTRAD=100,000, 900,000)]
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	411	133.679	1066.883
+1) Very important	39	9.5
+2) Somewhat important	68	16.5
+3) Not too important	133	32.4
+4) Not at all important	161	39.2
+99) Refused	4	1.0
+8888) Undesignated	6	1.5
+Missing	1400
+
+
+48) PTEENRELIG2
+Do you think you and the child who will be taking the survey after you share all the same religious beliefs, some of the same religious beliefs, or do you have quite different religious beliefs? [Ask all participating parents]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.002	6.882
+1) All the same religious beliefs	953	52.6
+2) Some of the same religious beliefs	766	42.3
+3) Quite different religious beliefs	83	4.6
+99) Refused	9	0.5
+
+
+49) PTEENRELIG3OE
+Based on participating parents who said they have some of the same beliefs or quite different beliefs from their teen (PTEENRELIG2=2,3). Backcoded responses to: How are your religious beliefs different from your child's?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	849	48.764	39.424
+1) Teen doesn't follow rules; doesn't pray or pray enough	25	2.9
+2) Teen questions beliefs; doesn't believe (general); has doubts	104	12.2
+3) Teen is atheist or agnostic; doesn't believe in God	38	4.5
+4) Teen opposes religion or organized religion	6	0.7
+6) Teen doesn't like to go to church or participate in religious activities	30	3.5
+7) Teen doesn't care or is uninterested; thinks religion is unimportant; is less committed to faith	24	2.8
+8) Teen leans more liberal on social or political issues (abortion, same-sex marriage, evolution, divorce	7	0.8
+9) Parent is more conservative; less scientific; more religious (general)	47	5.5
+20) Teen attends church more; has stronger beliefs; is more traditional	59	6.9
+30) Teen has different beliefs or views; everyone has different beliefs	50	5.9
+40) Teen has different religion or denomination	23	2.7
+50) Letting teen choose; teen is exploring	50	5.9
+60) Teen is too young, doesn't have life experience; parent's beliefs are more developed	67	7.9
+70) Don't know what teen believes; don't talk to teen about religion	29	3.4
+90) Teen raised in different or multiple religion(s); raised with no religion; not raised as strict	37	4.4
+97) Don't know/refused	143	16.8
+98) They are the same beliefs; not much difference	38	4.5
+99) Other/unclear answer	72	8.5
+Missing	962
+
+
+50) PTEENIMP
+How important do you think religion is in this child's life? [Ask all participating parents]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.431	5.655
+1) Very important	581	32.1
+2) Somewhat important	644	35.6
+3) Not too important	380	21.0
+4) Not at all important	200	11.0
+99) Refused	6	0.3
+
+
+51) PSHARE1
+How important is it to you to raise this child in your religion? [Ask if participating parent is affiliated with a religion (PRELTRAD is smaller than 100,000)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1400	2.159	7.388
+1) Very important	789	56.4
+2) Somewhat important	412	29.4
+3) Not too important	146	10.4
+4) Not at all important	45	3.2
+99) Refused	8	0.6
+Missing	411
+
+
+52) PSHARE2
+How important is it to you to raise this child with your views on religion? [Ask if participating parent is not affiliated with a religion (PRELTRAD=100,000, 900,000)]
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	411	133.516	1066.903
+1) Very important	27	6.6
+2) Somewhat important	120	29.2
+3) Not too important	132	32.1
+4) Not at all important	122	29.7
+99) Refused	4	1.0
+8888) Undesignated	6	1.5
+Missing	1400
+
+
+53) PGODMORAL
+Which of these statements comes closer to your view, even if neither is exactly right? [Ask all participating parents]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.085	7.933
+1) It is NOT necessary to believe in God in order to be moral and have good values	1010	55.8
+2) It is necessary to believe in God in order to be moral and have good values	789	43.6
+99) Refused	12	0.7
+
+
+54) KIDTRAIT2A
+How important is it to you that the child taking this survey after you... a. Be independent [Ask all participating parents]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	1.586	6.504
+1) Very important	1555	85.9
+2) Somewhat important	225	12.4
+3) Not too important	16	0.9
+4) Not at all important	7	0.4
+99) Refused	8	0.4
+
+
+55) KIDTRAIT2B
+How important is it to you that the child taking this survey after you... b. Work hard [Ask all participating parents]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	1.61	6.894
+1) Very important	1598	88.2
+2) Somewhat important	191	10.5
+3) Not too important	8	0.4
+4) Not at all important	5	0.3
+99) Refused	9	0.5
+
+
+56) KIDTRAIT2C
+How important is it to you that the child taking this survey after you... c. Be creative [Ask all participating parents]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	1.589	4.012
+1) Very important	1116	61.6
+2) Somewhat important	617	34.1
+3) Not too important	69	3.8
+4) Not at all important	6	0.3
+99) Refused	3	0.2
+
+
+57) KIDTRAIT2D
+How important is it to you that the child taking this survey after you... d. Help others [Ask all participating parents]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	1.759	7.263
+1) Very important	1443	79.7
+2) Somewhat important	330	18.2
+3) Not too important	20	1.1
+4) Not at all important	8	0.4
+99) Refused	10	0.6
+
+
+58) KIDTRAIT2E
+How important is it to you that the child taking this survey after you... e. Be persistent [Ask all participating parents]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	1.837	7.26
+1) Very important	1301	71.8
+2) Somewhat important	470	26.0
+3) Not too important	25	1.4
+4) Not at all important	5	0.3
+99) Refused	10	0.6
+
+
+59) KIDTRAIT2F
+How important is it to you that the child taking this survey after you... f. Be obedient [Ask all participating parents]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	1.795	4.628
+1) Very important	954	52.7
+2) Somewhat important	684	37.8
+3) Not too important	143	7.9
+4) Not at all important	26	1.4
+99) Refused	4	0.2
+
+
+60) PPARTY
+In politics today, do you consider yourself a... [Ask all participating parents]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	3.226	10.423
+1) Republican	613	33.8
+2) Democrat	557	30.8
+3) Independent	443	24.5
+4) Something else	177	9.8
+99) Refused	21	1.2
+
+
+61) PPARTYLN
+As of today do you lean more to... [Ask if participating parent said independent or something else (PPARTY=3,4) or refused]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	641	14.613	33.248
+1) The Republican Party	257	40.1
+2) The Democratic Party	298	46.5
+99) Refused	86	13.4
+Missing	1170
+
+
+62) PPARTYSUM
+Created variable combining PPARTY and PPARTYLN
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1811	1.852	1.669
+1) Republican/lean Republican	870	48.0
+2) Democrat/lean Democrat	855	47.2
+9) Other/independent/no lean	86	4.7
+
+
+63) PIDEO
+In general, would you describe your political views as... [Ask all participating parents]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	5.145	14.846
+1) Very conservative	152	8.4
+2) Conservative	483	26.7
+3) Moderate	785	43.3
+4) Liberal	246	13.6
+5) Very liberal	101	5.6
+99) Refused	44	2.4
+
+
+64) HOUSEEDUCREC
+What is the highest degree or level of school that anyone in your household, overall, has completed, even if it was by someone other than yourself? Recoded into categories.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	3.775	6.783
+1) Less than high school	72	4.0
+2) High school	225	12.4
+3) Some college	597	33.0
+4) Bachelor's degree or higher	908	50.1
+99) No answer	9	0.5
+
+
+65) S4
+Is the teenage child you have been asked about so far currently available to take the survey? [Ask all participating parents]
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1811	1	0
+1) Yes	1811	100.0
+
+
+66) TEEN_LANG
+Do you prefer to do surveys in English or Spanish? ¿Prefiere llenar sus encuestas en inglés o en español? [Ask all participating teens]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1811	1.051	0.221
+1) English	1718	94.9
+2) Español	93	5.1
+
+
+67) TAGE
+What is your age? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	3.488	6.9
+1) 13	380	21.0
+2) 14	321	17.7
+3) 15	366	20.2
+4) 16	370	20.4
+5) 17	365	20.2
+99) Refused	9	0.5
+
+
+68) TSATISFY
+Overall, are you satisfied or dissatisfied with the way things are going in your life today? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.276	6.471
+1) Very satisfied	441	24.4
+2) Mostly satisfied	1223	67.5
+3) Mostly dissatisfied	114	6.3
+4) Very dissatisfied	25	1.4
+99) Refused	8	0.4
+
+
+69) TFITIN
+In general, which of the following statements comes closest to describing how you see yourself compared with other people your age where you live? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	1.476	4.611
+1) I tend to fit in pretty easily	1337	73.8
+2) I don't fit in very easily	470	26.0
+99) Refused	4	0.2
+
+
+70) TGUIDE1A
+How much, if at all, do you look to each of the following to help you make decisions about what is right and wrong? a. Religious teachings and beliefs [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	3.277	9.377
+1) A lot	411	22.7
+2) Some	647	35.7
+3) Not much	397	21.9
+4) Not at all	339	18.7
+99) Refused	17	0.9
+
+
+71) TGUIDE1B
+How much, if at all, do you look to each of the following to help you make decisions about what is right and wrong? b. Practical experience and common sense [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.195	8.565
+1) A lot	1066	58.9
+2) Some	674	37.2
+3) Not much	52	2.9
+4) Not at all	5	0.3
+99) Refused	14	0.8
+
+
+72) TGUIDE2A
+How much, if at all, do you look to each of the following to help you make decisions about what is right and wrong? a. Parents and other members of your family [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	1.973	7.256
+1) A lot	1104	61.0
+2) Some	624	34.5
+3) Not much	61	3.4
+4) Not at all	12	0.7
+99) Refused	10	0.6
+
+
+73) TGUIDE2B
+How much, if at all, do you look to each of the following to help you make decisions about what is right and wrong? b. Friends [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.504	7.231
+1) A lot	478	26.4
+2) Some	959	53.0
+3) Not much	308	17.0
+4) Not at all	56	3.1
+99) Refused	10	0.6
+
+
+74) TGUIDE2C
+How much, if at all, do you look to each of the following to help you make decisions about what is right and wrong? c. Teachers [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.717	6.852
+1) A lot	265	14.6
+2) Some	981	54.2
+3) Not much	422	23.3
+4) Not at all	134	7.4
+99) Refused	9	0.5
+
+
+75) TGUIDE2D
+How much, if at all, do you look to each of the following to help you make decisions about what is right and wrong? d. Pastors, priests or other religious leaders [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	3.688	8.773
+1) A lot	193	10.7
+2) Some	480	26.5
+3) Not much	451	24.9
+4) Not at all	672	37.1
+99) Refused	15	0.8
+
+
+76) TSCHOOL
+Thinking about school, are you currently... [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	1.605	2.614
+1) Attending a public school	1427	78.8
+2) Attending a charter or magnet school	116	6.4
+3) Attending a religious private school	104	5.7
+4) Attending a nonreligious private school	24	1.3
+5) Home-schooled	112	6.2
+6) Not in school	8	0.4
+7) Other	19	1.0
+99) Refused	1	0.1
+
+
+77) TGRADEREC
+What is your current grade in school? [Ask if participating teen is in school or did not respond to TSCHOOL (TSCHOOL=1-5, 7 or refused)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1803	3.257	8.272
+1) 8th grade or lower	562	31.2
+2) 9th grade	344	19.1
+3) 10th grade	369	20.5
+4) 11th grade	346	19.2
+5) 12th grade	169	9.4
+99) In college/no answer	13	0.7
+Missing	8
+
+
+78) TEXPA
+Now, thinking about some different kinds of experiences, how often would you say you do each of the following? a. Feel a deep sense of spiritual peace and well-being [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	3.453	8.831
+1) At least once a week	455	25.1
+2) Once or twice a month	438	24.2
+3) Several times a year	332	18.3
+4) Seldom	414	22.9
+5) Never	157	8.7
+99) Refused	15	0.8
+
+
+79) TEXPB
+Now, thinking about some different kinds of experiences, how often would you say you do each of the following? b. Feel a deep sense of wonder about the universe [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	3.469	7.903
+1) At least once a week	335	18.5
+2) Once or twice a month	425	23.5
+3) Several times a year	397	21.9
+4) Seldom	492	27.2
+5) Never	150	8.3
+99) Refused	12	0.7
+
+
+80) TEXPC
+Now, thinking about some different kinds of experiences, how often would you say you do each of the following? c. Feel a strong sense of gratitude or thankfulness [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.52	8.261
+1) At least once a week	861	47.5
+2) Once or twice a month	531	29.3
+3) Several times a year	287	15.8
+4) Seldom	102	5.6
+5) Never	17	0.9
+99) Refused	13	0.7
+
+
+81) TEXPD
+Now, thinking about some different kinds of experiences, how often would you say you do each of the following? d. Think about the meaning and purpose of life [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	3.358	8.228
+1) At least once a week	413	22.8
+2) Once or twice a month	434	24.0
+3) Several times a year	401	22.1
+4) Seldom	439	24.2
+5) Never	111	6.1
+99) Refused	13	0.7
+
+
+82) TEXPE
+Now, thinking about some different kinds of experiences, how often would you say you do each of the following? e. Feel a deep sense of spiritual peace and well-being [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	3.331	8.555
+1) At least once a week	535	29.5
+2) Once or twice a month	424	23.4
+3) Several times a year	260	14.4
+4) Seldom	406	22.4
+5) Never	172	9.5
+99) Refused	14	0.8
+
+
+83) TEXPF
+Now, thinking about some different kinds of experiences, how often would you say you do each of the following? f. Feel a deep sense of spiritual peace and well-being [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	4.115	8.761
+1) At least once a week	181	10.0
+2) Once or twice a month	339	18.7
+3) Several times a year	297	16.4
+4) Seldom	677	37.4
+5) Never	302	16.7
+99) Refused	15	0.8
+
+
+84) TRELIGREC
+What is your present religion, if any? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	5.52	8.433
+1) Protestant	647	35.7
+2) Roman Catholic	428	23.6
+3) Mormon (Church of Jesus Christ of Latter-day Saints or LDS)	53	2.9
+4) Orthodox (such as Greek, Russian, or some other Orthodox church)	8	0.4
+5) Jewish (Judaism)	25	1.4
+6) Muslim (Islam)	12	0.7
+7) Buddhist	12	0.7
+8) Hindu	10	0.6
+9) Atheist (do not believe in God)	77	4.3
+10) Agnostic (not sure if there is a God)	74	4.1
+12) Nothing in particular	404	22.3
+13) Other Christian	43	2.4
+14) Other non-Christian	8	0.4
+99) Don't know/refused	10	0.6
+
+
+85) TBORN
+Would you describe yourself as a born-again or evangelical Christian, or not? [Ask if participating teen is Christian (TRELIGREC=1-4,13)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1179	3.564	13.772
+1) Yes, born-again or evangelical Christian	484	41.1
+2) No, not born-again or evangelical Christian	671	56.9
+99) Refused	24	2.0
+Missing	632
+
+
+86) TRELTRAD
+Created variable showing participating teen's religious tradition, based on analysis of responses to the following questions: What is your present religion, if any? What denomination or church, if any, do you identify with most closely? Would you describe yourself as a born-again or evangelical Christian, or not?
+RANGE: 1100 to 900000
+	N	Mean	Std. Deviation
+Total	1811	41740.379	77517.326
+1100) Theologically evangelical Protestant churches	407	22.5
+1200) Historic mainline Protestant churches	208	11.5
+1300) Historically Black Protestant churches	65	3.6
+10000) Catholic	428	23.6
+20000) Mormon	53	2.9
+30000) Orthodox Christian	8	0.4
+40001) Jehovah's Witnesses	8	0.4
+40002) Other Christian	2	0.1
+50000) Jewish	25	1.4
+60000) Muslim	12	0.7
+70000) Buddhist	12	0.7
+80000) Hindu	10	0.6
+90001) Other world religions	1	0.1
+90002) Other faiths	7	0.4
+100000) Unaffiliated	555	30.6
+900000) Don't know/refused	10	0.6
+
+
+87) TATTEND
+Aside from weddings and funerals, how often do you attend religious services? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	4.412	8.234
+1) More than once a week	208	11.5
+2) Once a week	413	22.8
+3) Once or twice a month	177	9.8
+4) A few times a year	296	16.3
+5) Seldom	269	14.9
+6) Never	435	24.0
+99) Refused	13	0.7
+
+
+88) TATTDWTH
+And when you attend religious services, who do you usually attend with? [Ask if participating teen attends services (TATTEND=1-5)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1363	2.891	5.957
+1) Mother	412	30.2
+2) Father	88	6.5
+3) Both parents	700	51.4
+4) I attend alone	32	2.3
+5) Other, please specify	126	9.2
+99) Refused	5	0.4
+Missing	448
+
+
+89) TATTDRSN
+Which statement comes closer to your view, even if neither is exactly right? [Ask if participating teen attends services (TATTEND=1-5)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1363	2.026	6.988
+1) I mainly attend religious services because I want to	644	47.2
+2) I mainly attend religious services because my parents want me to	712	52.2
+99) Refused	7	0.5
+Missing	448
+
+
+90) TRELIMP
+How important is religion in your life? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.851	7.241
+1) Very important	446	24.6
+2) Somewhat important	662	36.6
+3) Not too important	369	20.4
+4) Not at all important	324	17.9
+99) Refused	10	0.6
+
+
+91) TPRAY
+Outside of attending religious services, how often do you pray? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	4.787	7.325
+1) Several times a day	196	10.8
+2) Once a day	308	17.0
+3) A few times a week	285	15.7
+4) Once a week	86	4.7
+5) A few times a month	217	12.0
+6) Seldom	379	20.9
+7) Never	330	18.2
+99) Refused	10	0.6
+
+
+92) TGOD1
+Do you believe in God or a universal spirit? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.219	10.236
+1) Yes	1544	85.3
+2) No	247	13.6
+99) Refused	20	1.1
+
+
+93) TGOD2
+How certain are you about this belief? [Ask if participating teen gave a response to TGOD1 (TGOD=1,2)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1791	1.89	4.053
+1) Absolutely certain	795	44.4
+2) Fairly certain	731	40.8
+3) Not too certain	217	12.1
+4) Not at all certain	45	2.5
+99) Refused	3	0.2
+Missing	20
+
+
+94) TEXCLUS
+Which of the following statements comes closest to your own views about religion? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	3.112	10.425
+1) Only one religion is true	557	30.8
+2) Many religions may be true	839	46.3
+3) There is little truth in any religion	254	14.0
+4) There is no truth in any religion	140	7.7
+99) Refused	21	1.2
+
+
+95) TPRACTICES1
+Have you ever been in a religious education program, such as Sunday school, CCD or Hebrew school? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	1.653	5.147
+1) Yes	1114	61.5
+2) No	692	38.2
+99) Refused	5	0.3
+
+
+96) TPRACTICES2
+How often do you attend such religious education programs? [Ask if participating teen said yes to TPRACTICES1 (TPRACTICES1=1)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1114	2.961	5.155
+1) Often	305	27.4
+2) Sometimes	216	19.4
+3) Rarely	96	8.6
+4) No longer attend but I used to	494	44.3
+99) Refused	3	0.3
+Missing	697
+
+
+97) TPRACTICES3
+Have you ever participated in a religious youth group? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	1.748	5.143
+1) Yes	941	52.0
+2) No	865	47.8
+99) Refused	5	0.3
+
+
+98) TPRACTICES4
+How often do you participate in a religious youth group? [Ask if participating teen said yes to TPRACTICES3 (TPRACTICES3=1)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	941	2.83	6.408
+1) Often	307	32.6
+2) Sometimes	229	24.3
+3) Rarely	102	10.8
+4) No longer attend but I used to	299	31.8
+99) Refused	4	0.4
+Missing	870
+
+
+99) TOBSERV1
+Do you, as a family, ever say grace or a prayer before family meals? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	1.774	5.629
+1) Yes	992	54.8
+2) No	813	44.9
+99) Refused	6	0.3
+
+
+100) TOBSERV2
+How often does your family say grace or a prayer before family meals? [Ask if participating teen said yes to TOBSERV1 (TOBSERV1=1)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	992	1.822	5.398
+1) Often	576	58.1
+2) Sometimes	305	30.7
+3) Rarely	108	10.9
+99) Refused	3	0.3
+Missing	819
+
+
+101) TOBSERV3
+Do you, as a family, ever read religious scriptures such as the Bible, Torah or Quran together? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.311	7.574
+1) Yes	504	27.8
+2) No	1296	71.6
+99) Refused	11	0.6
+
+
+102) TOBSERV4
+How often does your family read religious scriptures such as the Bible, Torah or Quran together? [Ask if participating teen said yes to TOBSERV3 (TOBSERV3=1)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	504	2.101	6.162
+1) Often	216	42.9
+2) Sometimes	213	42.3
+3) Rarely	73	14.5
+99) Refused	2	0.4
+Missing	1307
+
+
+103) TOBSERV5
+Aside from saying grace and reading scriptures, do you ever do any other religious things with your family? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.181	7.587
+1) Yes	739	40.8
+2) No	1061	58.6
+99) Refused	11	0.6
+
+
+104) TENJOY
+How much do you enjoy doing religious things with your family? [Ask if participating teen does religious things with family (TOBSERV1=1 or TOBSERV3=1 or TOBSERV5=1)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1191	2.335	5.666
+1) A lot	298	25.0
+2) Some	630	52.9
+3) Not much	209	17.5
+4) Not at all	50	4.2
+99) Refused	4	0.3
+Missing	620
+
+
+105) TOBLIG
+How much do you do religious things mainly because your parents want you to? [Ask if participating teen does religious things with family (TOBSERV1=1 or TOBSERV3=1 or TOBSERV5=1)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1191	2.767	6.904
+1) A lot	193	16.2
+2) Some	593	49.8
+3) Not much	274	23.0
+4) Not at all	125	10.5
+99) Refused	6	0.5
+Missing	620
+
+
+106) TFAMTALK
+How often, if ever, does your family talk about religion together? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.901	7.569
+1) Often	359	19.8
+2) Sometimes	707	39.0
+3) Rarely	544	30.0
+4) Never	190	10.5
+99) Refused	11	0.6
+
+
+107) TRACESURV21
+How often, if ever, does your family talk to you about CHALLENGES you might face because of your race or ethnicity? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	3.694	9.06
+1) Often	230	12.7
+2) Sometimes	441	24.4
+3) Rarely	503	27.8
+4) Never	621	34.3
+99) Refused	16	0.9
+
+
+108) TRACESURV22
+How often, if ever, does your family talk to you about ADVANTAGES you might have because of your race or ethnicity? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	3.448	7.187
+1) Often	147	8.1
+2) Sometimes	487	26.9
+3) Rarely	535	29.5
+4) Never	632	34.9
+99) Refused	10	0.6
+
+
+109) TPARRELIG1
+Thinking about the parent who took the survey before you, do you think you two share all the same religious beliefs, some of the same religious beliefs, or do you have quite different religious beliefs? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.179	7.597
+1) All the same religious beliefs	887	49.0
+2) Some of the same religious beliefs	769	42.5
+3) Quite different religious beliefs	144	8.0
+99) Refused	11	0.6
+
+
+110) TPARRELIG2
+Does your parent know you have different religious beliefs from them? [Ask if participating teen said they have some of the same beliefs or quite different beliefs from their parent (TPARRELIG1=2,3)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	913	1.968	7.91
+1) Yes	611	66.9
+2) No	296	32.4
+99) Refused	6	0.7
+Missing	898
+
+
+111) TPARRELIG3
+How much conflict, if any, does having different religious beliefs from your parent cause? [Ask if participating teen said they have some of the same beliefs or quite different beliefs from their parent (TPARRELIG1=2,3)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	913	3.669	8.404
+1) A lot	14	1.5
+2) Some	146	16.0
+3) None at all, though they know we have different religious beliefs	633	69.3
+4) My parent does not know that my religious beliefs are different from theirs	113	12.4
+99) Refused	7	0.8
+Missing	898
+
+
+112) TSIMPAR2OE
+Based on participating teens who said they have some of the same beliefs or quite different beliefs from their parent (TPARRELIG1=2,3). Backcoded responses to: How are your religious beliefs different from your parent who took the survey before you?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	913	46.266	41.759
+1) Teen is atheist or agnostic; doesn't believe in God	51	5.6
+2) Teen is uncertain about beliefs; doubts or questions beliefs; doesn't believe (general)	121	13.3
+3) Teen prays less than parent; doesn't like to pray	10	1.1
+4) Teen leans more liberal on social, political or scientific issues (abortion, same-sex marriage, evolution, divorce	24	2.6
+5) Teen doesn't think or care about religion; religion is less important to them	21	2.3
+6) Teen doesn't go or like to go to church; attends less often than parent	52	5.7
+7) Teen sees religion as unnecessary, bad or irrelevant	7	0.8
+8) Teen is open to mixing religions, to different perspectives, to different conceptions of god(s)	23	2.5
+9) Teen is less strict; less conservative; less devout; less religious (general)	58	6.4
+20) Teen attends church more; is stricter in religion; is more religious (general)	74	8.1
+30) Don't know what parent believes; don't talk to parent about religion	16	1.8
+40) Teen and parent have different beliefs or views	54	5.9
+50) Teen and parent have different religion or denomination	31	3.4
+60) Teen was raised in a different religion than parent; raised differently	10	1.1
+70) Teen is similar to one parent but not the other; parents are different from each other	12	1.3
+80) Teen is still learning or figuring things out; parent knows more	30	3.3
+97) Don't know/refused	195	21.4
+98) They are the same beliefs; not much difference	51	5.6
+99) Other/unclear answer	73	8.0
+Missing	898
+
+
+113) TPARIMP
+Thinking about the parent who participated in this survey before you, how important do you think religion is in their life? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.267	5.669
+1) Very important	765	42.2
+2) Somewhat important	581	32.1
+3) Not too important	251	13.9
+4) Not at all important	208	11.5
+99) Refused	6	0.3
+
+
+114) TFRTALK
+How often, if ever, do you talk to your friends about religion? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	3.421	7.177
+1) Often	93	5.1
+2) Sometimes	518	28.6
+3) Rarely	684	37.8
+4) Never	506	27.9
+99) Refused	10	0.6
+
+
+115) TFRSIM
+How many of your close friends share your religion? [Ask if participating teen is affiliated with a religion (TRELTRAD is smaller than 100,000) or refused (TRELTRAD=900,000)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1256	3.416	7.714
+1) All of them	91	7.2
+2) Most of them	374	29.8
+3) Some of them	536	42.7
+4) Hardly any of them	183	14.6
+5) None of them	64	5.1
+99) Refused	8	0.6
+Missing	555
+
+
+116) TFRSEC
+How many of your close friends are also atheist, agnostic or of no particular religion? [Ask if participating teen is not affiliated with a religion (TRELTRAD=100,000)]
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	555	20.932	377.261
+1) All of them	12	2.2
+2) Most of them	85	15.3
+3) Some of them	238	42.9
+4) Hardly any of them	108	19.5
+5) None of them	102	18.4
+99) Refused	9	1.6
+8888) Undesignated	1	0.2
+Missing	1256
+
+
+117) TBULLY1
+How often do you see students in your school being teased or made fun of? [Ask if participating teen attends school, is not home-schooled (TSCHOOL=1-4,7)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1690	2.747	5.819
+1) Often	273	16.2
+2) Sometimes	681	40.3
+3) Rarely	506	29.9
+4) Never	224	13.3
+99) Refused	6	0.4
+Missing	121
+
+
+118) TBULLY1A
+How often do you see students in your school being teased or made fun of because of their religion? [Ask if participating teen attends school, is not home-schooled (TSCHOOL=1-4,7)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1690	3.914	6.601
+1) Often	29	1.7
+2) Sometimes	163	9.6
+3) Rarely	492	29.1
+4) Never	998	59.1
+99) Refused	8	0.5
+Missing	121
+
+
+119) TBULLY2A
+Have you ever been teased or made fun of in school because of your religion? [Ask if participating teen attends school, is not home-schooled and is religiously affiliated or did not answer religion (TRELTRAD is smaller than 100,000 or TRELTRAD=900,000 and TSCHOOL=1-4,7)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	2.165	4.932
+1) Yes	99	8.5
+2) No	1062	91.2
+99) Refused	3	0.3
+Missing	647
+
+
+120) TBULLY2B
+How often have you been teased or made fun of in school because of your religion? [Ask if participating teen said yes to TBULLY2A (TBULLY2A=1)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	99	4.343	13.674
+1) Often	6	6.1
+2) Sometimes	47	47.5
+3) Rarely	44	44.4
+99) Refused	2	2.0
+Missing	1712
+
+
+121) TBULLY3A
+Have you ever been teased or made fun of in school because of your lack of religion? [Ask if participating teen attends school, is not home-schooled, and is religiously unaffiliated (TRELTRAD=100,000 and TSCHOOL=1-4,7)]
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	526	19.034	387.465
+1) Yes	23	4.4
+2) No	501	95.2
+99) Refused	1	0.2
+8888) Undesignated	1	0.2
+Missing	1285
+
+
+122) TBULLY3B
+How often have you been teased or made fun of in school because of your lack of religion? [Ask if participating teen said yest to TBULLY3A (TBULLY3A=1)]
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	23	2	0.798
+1) Often	7	30.4
+2) Sometimes	9	39.1
+3) Rarely	7	30.4
+Missing	1788
+
+
+123) THOSTILE1
+Has a teacher ever been unfriendly to your religious or spiritual views? [Ask if participating teen attends school, is not home-schooled (TSCHOOL=1-4,7)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1690	2.521	7.449
+1) Yes	89	5.3
+2) No	1591	94.1
+99) Refused	10	0.6
+Missing	121
+
+
+124) THOSTILE1BOE
+Based on participating teens who attend school and are not home-schooled. Backcoded responses to: In what ways have teachers been unfriendly to your religious or spiritual views?
+RANGE: 1 to 999
+	N	Mean	Std. Deviation
+Total	1690	947.119	216.064
+1) Teachers challenge students' religious beliefs (including questioning intelligence, making fun)	14	0.8
+2) Students feel judged/dismissed/threatened for religious beliefs	7	0.4
+6) Teachers challenge students' lack of religious beliefs (including questioning intelligence, making fun	2	0.1
+7) Students feel judged/dismissed/threatened for lack of religious beliefs	4	0.2
+11) General feelings of being judged/dismissed/mocked	8	0.5
+16) Teachers show favoritism toward students who share their beliefs	4	0.2
+17) Teachers promote own beliefs in classroom	7	0.4
+18) Students feel teachers are unfair in work assignments/grades due to different beliefs	4	0.2
+19) Teachers don't allow certain religious conversations/practices/expressions	8	0.5
+20) Hold different social views, political or religious beliefs	10	0.6
+96) Teachers haven't been unfriendly	1	0.1
+97) Other	6	0.4
+98) Not interpretable	4	0.2
+99) No answer	10	0.6
+998) No in THOSTILE1, teachers have not been unfriendly to religious or spiritual views	1591	94.1
+999) No answer to whether teachers have been unfriendly to religious or spiritual views	10	0.6
+Missing	121
+
+
+125) THOSTILE2
+Has another student in your school ever been unfriendly to your religious or spiritual views? [Ask if participating teen attends school, is not home-schooled (TSCHOOL=1-4,7)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1690	2.55	7.814
+1) Yes	137	8.1
+2) No	1542	91.2
+99) Refused	11	0.7
+Missing	121
+
+
+126) THOSTILE2BOE
+Based on participating teens who attend school and are not home-schooled. Backcoded responses to: In what ways have other students been unfriendly to your religious or spiritual views?
+RANGE: 1 to 999
+	N	Mean	Std. Deviation
+Total	1690	919.185	265.671
+1) Called wrong/challenged on truth of religious beliefs	18	1.1
+2) Bullied for religious beliefs	31	1.8
+6) Called wrong/challenged on truth of irreligious beliefs	1	0.1
+7) Bullied for lack of religious beliefs	13	0.8
+11) Being mean or made fun of in general (includes offensive/insensitive comments)	29	1.7
+12) Negative or inaccurate comments made about beliefs	1	0.1
+16) No longer friends/distancing/left out due to different beliefs	10	0.6
+17) Other students try to force their views/feel preached to	6	0.4
+97) Other	10	0.6
+98) Not interpretable	4	0.2
+99) No answer	14	0.8
+998) No in THOSTILE2, other students have not been unfriendly to religious or spiritual views	1542	91.2
+999) No answer to whether students have been unfriendly to religious or spiritual views	11	0.7
+Missing	121
+
+
+127) THOSTLE3
+Has a teacher ever said anything about religion that made you feel uncomfortable? [Ask if participating teen attends school, is not home-schooled (TSCHOOL=1-4,7)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1690	2.772	9.113
+1) Yes	150	8.9
+2) No	1525	90.2
+99) Refused	15	0.9
+Missing	121
+
+
+128) THOSTILE3BOE
+Based on participating teens who attend school and are not home-schooled. Backcoded responses to: Can you tell us more about what a teacher said about religion that made you feel uncomfortable?
+RANGE: 1 to 999
+	N	Mean	Std. Deviation
+Total	1690	912.271	275.08
+1) Teachers challenge irreligious beliefs, including making fun	10	0.6
+2) Teachers promote own religious beliefs	16	0.9
+3) Teachers promote religious worldview in context of science, social or political issues	9	0.5
+6) Teachers challenge religious beliefs, including making fun	30	1.8
+7) Teachers promote own irreligious beliefs	2	0.1
+8) Teachers promote secular worldview in context of science, social or political issues	16	0.9
+11) Teachers discuss their own beliefs (religious or irreligious) in general, engage in debates with students	20	1.2
+12) Forced religion (e.g. prayer, music)	5	0.3
+97) Other	12	0.7
+98) Not interpretable	2	0.1
+99) No answer	28	1.7
+998) No in THOSTLE3, a teacher has not said something about religion made me feel uncomfortable	1525	90.2
+999) No answer to whether a teacher has said something about religion that made me feel uncomfortable	15	0.9
+Missing	121
+
+
+129) TINSCHOOL1A
+Now thinking about religious practices in your school, how often do you see other students... Praying before eating lunch? [Ask if participating teen attends school, is not home-schooled (TSCHOOL=1-4,7)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1690	3.987	7.742
+1) Often	80	4.7
+2) Sometimes	204	12.1
+3) Rarely	419	24.8
+4) Never	976	57.8
+99) Refused	11	0.7
+Missing	121
+
+
+130) TINSCHOOL1B
+Now thinking about religious practices in your school, how often do you see other students... Wearing clothing or jewelry with religious symbols? [Ask if participating teen attends school, is not home-schooled (TSCHOOL=1-4,7)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1690	3.017	7.093
+1) Often	258	15.3
+2) Sometimes	662	39.2
+3) Rarely	419	24.8
+4) Never	342	20.2
+99) Refused	9	0.5
+Missing	121
+
+
+131) TINSCHOOL1C
+Now thinking about religious practices in your school, how often do you see other students... Praying before a sporting event? [Ask if participating teen attends school, is not home-schooled (TSCHOOL=1-4,7)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1690	3.261	6.273
+1) Often	231	13.7
+2) Sometimes	451	26.7
+3) Rarely	319	18.9
+4) Never	682	40.4
+99) Refused	7	0.4
+Missing	121
+
+
+132) TINSCHOOL1D
+Now thinking about religious practices in your school, how often do you see other students... Reading a Bible, or other religious scriptures, not as part of a class? [Ask if participating teen attends school, is not home-schooled (TSCHOOL=1-4,7)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1690	4.121	7.359
+1) Often	43	2.5
+2) Sometimes	124	7.3
+3) Rarely	369	21.8
+4) Never	1144	67.7
+99) Refused	10	0.6
+Missing	121
+
+
+133) TINSCHOOL1E
+Now thinking about religious practices in your school, how often do you see other students... Inviting someone to their religious youth group or to attend religious services with them? [Ask if participating teen attends school, is not home-schooled (TSCHOOL=1-4,7)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1690	3.622	6.642
+1) Often	73	4.3
+2) Sometimes	354	20.9
+3) Rarely	472	27.9
+4) Never	783	46.3
+99) Refused	8	0.5
+Missing	121
+
+
+134) TINSCHOOL2A
+Now thinking about your religious practices in school, how often do you... Pray before eating lunch? [Ask if participating teen attends school, is not home-schooled, and is religiously affiliated or did not answer religion (TRELTRAD is smaller than 100,000 or TRELTRAD=900,000 and TSCHOOL=1-4,7)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	3.638	6.347
+1) Often	104	8.9
+2) Sometimes	181	15.5
+3) Rarely	222	19.1
+4) Never	652	56.0
+99) Refused	5	0.4
+Missing	647
+
+
+135) TINSCHOOL2B
+Now thinking about your religious practices in school, how often do you... Wear clothing or jewelry with religious symbols? [Ask if participating teen attends school, is not home-schooled, and is religiously affiliated or did not answer religion (TRELTRAD is smaller than 100,000 or TRELTRAD=900,000 and TSCHOOL=1-4,7)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	3.558	6.949
+1) Often	110	9.5
+2) Sometimes	248	21.3
+3) Rarely	258	22.2
+4) Never	542	46.6
+99) Refused	6	0.5
+Missing	647
+
+
+136) TINSCHOOL2C
+Now thinking about your religious practices in school, how often do you... Leave school during the school day to participate in religious activities or programs? [Ask if participating teen attends school, is not home-schooled, and is religiously affiliated or did not answer religion (TRELTRAD is smaller than 100,000 or TRELTRAD=900,000 and TSCHOOL=1-4,7)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	4.386	8.385
+1) Often	26	2.2
+2) Sometimes	77	6.6
+3) Rarely	174	14.9
+4) Never	878	75.4
+99) Refused	9	0.8
+Missing	647
+
+
+137) TINSCHOOL2D
+Now thinking about your religious practices in school, how often do you... Invite another student to your religious youth group or to attend religious services with you? [Ask if participating teen attends school, is not home-schooled, and is religiously affiliated or did not answer religion (TRELTRAD is smaller than 100,000 or TRELTRAD=900,000 and TSCHOOL=1-4,7)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	3.775	6.917
+1) Often	49	4.2
+2) Sometimes	213	18.3
+3) Rarely	259	22.3
+4) Never	637	54.7
+99) Refused	6	0.5
+Missing	647
+
+
+138) TSCHOOLCLUB
+As far as you know, [IF ATTENDS RELIGIOUS SCHOOL (TSCHOOL=3) INSERT 'not including required school chapel services or meetings,'] do religious support or prayer groups, such as the Fellowship of Christian Athletes, the Muslim Youth of North America, or the Secular Student Association, meet in your school building? [Ask if participating teen attends school, is not home-schooled (TSCHOOL=1-4,7)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1690	2.514	8.171
+1) Yes	296	17.5
+2) No	1382	81.8
+99) Refused	12	0.7
+Missing	121
+
+
+139) TSCHOOLCLUB_B
+In the last year, [IF ATTENDS RELIGIOUS SCHOOL (TSCHOOL=3) INSERT 'not including required school chapel services or meetings'] have you been a part of a religious support or prayer group that meets at school? [Ask if participating teen said yes in TSCHOOLCLUB (TSCHOOLCLUB=1)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	296	2.068	5.67
+1) Yes	77	26.0
+2) No	218	73.6
+99) Refused	1	0.3
+Missing	1515
+
+
+140) TAMNDSEEA
+Have you ever had a teacher do any of the following? Lead a class in prayer [Ask if participating teen attends school, is not home-schooled (TSCHOOL=1-4,7)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1690	2.29	6.247
+1) Yes	189	11.2
+2) No	1494	88.4
+99) Refused	7	0.4
+Missing	121
+
+
+141) TAMNDSEEB
+Have you ever had a teacher do any of the following? Read from the Bible as an example of literature [Ask if participating teen attends school, is not home-schooled (TSCHOOL=1-4,7)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1690	2.391	7.079
+1) Yes	213	12.6
+2) No	1468	86.9
+99) Refused	9	0.5
+Missing	121
+
+
+142) TAMNDAPPA
+[IF TSCHOOL=1-4 OR 7 INSERT 'And'] Do you, personally, feel that it is appropriate or inappropriate for a teacher [IF TSCHOOL=1-4 OR 7 INSERT 'in your school'] to do each of the following? Lead a class in prayer [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.844	11.157
+1) Appropriate	799	44.1
+2) Inappropriate	988	54.6
+99) Refused	24	1.3
+
+
+143) TAMNDAPPB
+[IF TSCHOOL=1-4 OR 7 INSERT 'And'] Do you, personally, feel that it is appropriate or inappropriate for a teacher [IF TSCHOOL=1-4 OR 7 INSERT 'in your school'] to do each of the following? Read from the Bible as an example of literature [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.748	11.401
+1) Appropriate	1071	59.1
+2) Inappropriate	715	39.5
+99) Refused	25	1.4
+
+
+144) TAMNDKNOWA
+And according to rulings by the U.S. Supreme Court, is a public school teacher permitted to do each of the following, or not? Lead a class in prayer [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	3.715	13.385
+1) Yes, permitted	290	16.0
+2) No, not permitted	1486	82.1
+99) Refused	35	1.9
+
+
+145) TAMNDKNOWB
+And according to rulings by the U.S. Supreme Court, is a public school teacher permitted to do each of the following, or not? Read from the Bible as an example of literature [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	3.654	13.971
+1) Yes, permitted	691	38.2
+2) No, not permitted	1082	59.7
+99) Refused	38	2.1
+
+
+146) TINSTRUCT
+Have you ever had a teacher give a lesson on facts about different world religions? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.067	7.934
+1) Yes	1042	57.5
+2) No	757	41.8
+99) Refused	12	0.7
+
+
+147) THOLKNOW2
+When did the Holocaust happen? Between... [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	27.893	41.953
+1) 1890 and 1910	38	2.1
+2) 1910 and 1930	201	11.1
+3) 1930 and 1950	1065	58.8
+4) 1950 and 1970	30	1.7
+98) Not sure	463	25.6
+99) Refused	14	0.8
+
+
+148) THOLKNOW3
+In total, about how many Jews were killed in the Holocaust? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	29.9	42.96
+1) Less than 1 million	72	4.0
+2) Approximately 3 million	298	16.5
+3) Approximately 6 million	705	38.9
+4) More than 12 million	221	12.2
+98) Not sure	503	27.8
+99) Refused	12	0.7
+
+
+149) THOLKNOW4
+What were Nazi-created ghettos? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	29.898	43.031
+1) Places where Jews were killed in gas chambers	181	10.0
+2) Factories where Nazis forced their political opponents to work	39	2.2
+3) Parts of a city or a town where Jews were forced to live	1003	55.4
+4) Housing developments for poor Nazis	72	4.0
+98) Not sure	495	27.3
+99) Refused	21	1.2
+
+
+150) THOLKNOW5
+Which of the following statements best describes how Adolf Hitler became chancellor of Germany? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	34.608	45.115
+1) By violently overthrowing the German government	540	29.8
+2) By hereditary succession	45	2.5
+3) By agreements with neighboring countries	28	1.5
+4) By a democratic political process	590	32.6
+98) Not sure	591	32.6
+99) Refused	17	0.9
+
+
+151) TPARSAME1
+As far as you know, do your parents have the same religion as each other, or do they have different religions from each other? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.579	10.472
+1) My parents both have the same religion	1241	68.5
+2) My parents have different religions	297	16.4
+3) I don't know if my parents have the same or different religions from each other	252	13.9
+99) Refused	21	1.2
+
+
+152) TPARSAME2
+Do you have the same religion as at least one of your parents? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	1.826	8.272
+1) Yes	1577	87.1
+2) No	221	12.2
+99) Refused	13	0.7
+
+
+153) TPARSAME3OE
+Based on teens who said their parents have different religions and that they have the same religion as at least one parent (TPARSAME1=2 and TPARSAME2=1). Backcoded responses to: You told us that your parents have different religions; how did you choose what religion to follow?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	233	24.459	39.59
+1) Teen lives with one parent; was raised by or spent more time with one parent	22	9.4
+2) One parent is religious or cares more (e.g., believes, attends church), one isn't or doesn't care as much	37	15.9
+3) Parents chose what teen would believe; teen was raised in religion	38	16.3
+4) Teen made own decision based on what felt right or made sense	57	24.5
+5) Teen follows both religions; is open to either	12	5.2
+6) Teen hasn't decided yet	6	2.6
+7) Teen chose to follow one parent, no specific reason given	9	3.9
+97) Don't know/refused	23	9.9
+99) Other/unclear answer	29	12.4
+Missing	1578
+
+
+154) TGODMORAL
+Which of these statements comes closer to your view, even if neither is exactly right? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.67	11.177
+1) It is NOT necessary to believe in God in order to be moral and have good values	1115	61.6
+2) It is necessary to believe in God in order to be moral and have good values	672	37.1
+99) Refused	24	1.3
+
+
+155) TSEXASK
+Are you male or female? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.086	7.595
+1) Male	912	50.4
+2) Female	888	49.0
+99) Refused	11	0.6
+
+
+156) THISP
+Are you of Hispanic, Latino, or Spanish origin, such as Mexican, Puerto Rican or Cuban? [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	2.154	6.468
+1) Yes	497	27.4
+2) No	1306	72.1
+99) Refused	8	0.4
+
+
+157) TRACECMB
+Back-coded race variable based on responses to the following question: What is your spouse's/partner's race or origin? [Ask all participating teens]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1811	1.654	1.475
+1) White	1376	76.0
+2) Black or African American	144	8.0
+3) Asian or Asian American	67	3.7
+4) Mixed race	117	6.5
+5) Or some other race	75	4.1
+9) Refused	32	1.8
+
+
+158) TRACETHN
+Backcoded race variable combining race and ethnicity for all participating teens, based on THISP and TRACECMB
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1811	1.931	1.228
+1) White, non-Hispanic	1022	56.4
+2) Black, non-Hispanic	122	6.7
+3) Hispanic	497	27.4
+4) Other	158	8.7
+9) Don't know/refused	12	0.7
+
+
+159) TPARTY
+TPARTY In politics today, do you consider yourself a... [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	6.021	18.4
+1) Republican	459	25.3
+2) Democrat	484	26.7
+3) Independent	455	25.1
+4) Something else	345	19.1
+99) Refused	68	3.8
+
+
+160) TPARTYLN
+As of today do you lean more to... [Ask if participating teen said independent or something else (TPARTY=3,4) or refused]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	868	16.386	35.01
+1) The Republican Party	317	36.5
+2) The Democratic Party	419	48.3
+99) Refused	132	15.2
+Missing	943
+
+
+161) TPARTYSUM
+Created variable combining TPARTY and TPARTYLN
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1811	2.082	1.999
+1) Republican/lean Republican	776	42.8
+2) Democrat/lean Democrat	903	49.9
+9) Other/independent/no lean	132	7.3
+
+
+162) TIDEO
+In general, would you describe your political views as... [Ask all participating teens]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1811	7.965	21.329
+1) Very conservative	129	7.1
+2) Conservative	361	19.9
+3) Moderate	767	42.4
+4) Liberal	334	18.4
+5) Very liberal	126	7.0
+99) Refused	94	5.2
+
+

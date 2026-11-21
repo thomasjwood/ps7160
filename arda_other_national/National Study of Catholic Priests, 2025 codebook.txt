@@ -1,0 +1,1552 @@
+Data File: NSCP25 (Full Data Codebook)
+
+1) ENDDATE
+End Date
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1164	0	0
+
+
+2) SAMPLE_ID
+Sample ID
+RANGE: 12 to 26807
+	N	Mean	Std. Deviation
+Total	1164	13848.3	7881.596
+
+
+3) RESPONSEID
+Response ID
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1164	0	0
+
+
+4) WEIGHT_2025
+Respondent weight, Wave 2 (2025)
+RANGE: 0.663722538451702 to 2.28534457989633
+	N	Mean	Std. Deviation
+Total	1164	1	0.252
+
+
+5) FORM
+Form
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1164	1.494	0.5
+1) 	589	50.6
+2) 	575	49.4
+
+
+6) SURVEY_REGION
+Survey region, sample region
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1164	2.271	1.027
+1) 	310	26.6
+2) 	416	35.7
+3) 	250	21.5
+4) 	188	16.2
+
+
+7) SURVEY_DIO_SIZE
+Survey_dio_size, sample_dio_size
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1164	2.442	1.026
+1) 	266	22.9
+2) 	320	27.5
+3) 	375	32.2
+4) 	203	17.4
+
+
+8) SURVEY_STRATA
+Survey strata, sample strata
+RANGE: 11 to 44
+	N	Mean	Std. Deviation
+Total	1164	25.129	10.136
+11) 	32	2.7
+12) 	102	8.8
+13) 	48	4.1
+14) 	129	11.1
+21) 	108	9.3
+22) 	118	10.1
+23) 	157	13.5
+24) 	34	2.9
+31) 	82	7.0
+32) 	56	4.8
+33) 	86	7.4
+34) 	24	2.1
+41) 	45	3.9
+42) 	44	3.8
+43) 	84	7.2
+44) 	15	1.3
+
+
+9) CONSENT1
+Welcome to the Gallup-Catholic University National Survey of Catholic Priests. Gallup is conducting an important study in partnership with The Catholic University of America to learn more about your well-being and pastoral priorities as a priest, and if anything has changed since the 2022 survey. Your participation is essential to achieving this important mission. Do you agree to participate in the current study?
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1164	1	0
+1) Yes	1164	100.0
+
+
+10) S1
+To ensure we have the correct information, can you please confirm that you are [INSERT NAME FROM SAMPLE]?
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1164	1	0
+1) Yes	1164	100.0
+
+
+11) Q1
+Which of the following characterizes your situation?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1164	1.366	0.482
+1) Diocesan priest	738	63.4
+2) Religious priest	426	36.6
+
+
+12) Q2
+Are you affiliated with [IF '1' IN Q1: the INSERT 'DIO NAME' FROM SAMPLE/IF '2' IN Q1: the INSERT 'R_ORDER_NAME' 'R_ORDER' FROM SAMPLE religious order]?
+RANGE: -98 to 2
+	N	Mean	Std. Deviation
+Total	981	0.599	6.312
+-98) [ARDA note: Unknown label]	4	0.4
+1) Yes	974	99.3
+2) No	3	0.3
+Missing	183
+
+
+13) Q2A
+With which [IF '1' IN Q1: diocese/IF '2' in Q1: religious order] are you currently affiliated? [INSERT TEXT BOX]
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	190	0	0
+
+
+14) SURVEY_R_ORDER_YN
+Religious order priest
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1164	1.631	0.483
+1) Yes, religious order priest	429	36.9
+2) No, not religious order priest	735	63.1
+
+
+15) DIO_NAME
+DIO_NAME
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1117	0	0
+
+
+16) DIO_ABBREV_CLEAN
+SAMPLE_DIO_ABBREV_CLEAN
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1117	0	0
+
+
+17) ORD_NAME
+Order Name
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	429	0	0
+
+
+18) R_ORDER_CLEAN
+SAMPLE_R_ORDER_CLEAN
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	419	0	0
+
+
+19) Q3
+We would like to ask you a series of questions about your life. Overall, how satisfied are you with life as a whole these days?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1164	8.347	4.882
+0) Not satisfied at all	3	0.3
+1) 	4	0.3
+2) 	2	0.2
+3) 	18	1.5
+4) 	13	1.1
+5) 	45	3.9
+6) 	48	4.1
+7) 	159	13.7
+8) 	347	29.8
+9) 	317	27.2
+10) Completely satisfied	205	17.6
+99) No answer	3	0.3
+
+
+20) Q4
+We would like to ask you a series of questions about your life. In general, how happy or unhappy do you usually feel?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1164	7.957	4.074
+0) Extremely unhappy	3	0.3
+2) 	4	0.3
+3) 	17	1.5
+4) 	21	1.8
+5) 	46	4.0
+6) 	77	6.6
+7) 	221	19.0
+8) 	378	32.5
+9) 	292	25.1
+10) Extremely happy	103	8.8
+99) No answer	2	0.2
+
+
+21) Q5
+We would like to ask you a series of questions about your life. In general, how would you rate your physical health? [0 = Poor]
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	1164	7.305	1.628
+1) 	1	0.1
+2) 	11	0.9
+3) 	17	1.5
+4) 	34	2.9
+5) 	99	8.5
+6) 	148	12.7
+7) 	268	23.0
+8) 	306	26.3
+9) 	214	18.4
+10) Excellent	66	5.7
+
+
+22) Q6
+We would like to ask you a series of questions about your life. How would you rate your overall mental health?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1164	8.457	4.043
+0) Poor	2	0.2
+1) 	1	0.1
+2) 	1	0.1
+3) 	8	0.7
+4) 	16	1.4
+5) 	41	3.5
+6) 	46	4.0
+7) 	137	11.8
+8) 	326	28.0
+9) 	333	28.6
+10) Excellent	251	21.6
+99) No answer	2	0.2
+
+
+23) Q7
+We would like to ask you a series of questions about your life. Overall, to what extent do you feel the things you do in your life are worthwhile?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1164	8.87	3.992
+0) Not at all worthwhile	1	0.1
+1) 	2	0.2
+2) 	3	0.3
+3) 	5	0.4
+4) 	7	0.6
+5) 	20	1.7
+6) 	37	3.2
+7) 	87	7.5
+8) 	246	21.1
+9) 	363	31.2
+10) Completely worthwhile	391	33.6
+99) No answer	2	0.2
+
+
+24) Q8
+We would like to ask you a series of questions about your life. I understand my purpose in life.
+RANGE: 0 to 10
+	N	Mean	Std. Deviation
+Total	1164	9.04	1.373
+0) Strongly disagree	2	0.2
+1) 	1	0.1
+2) 	3	0.3
+3) 	7	0.6
+4) 	6	0.5
+5) 	17	1.5
+6) 	23	2.0
+7) 	50	4.3
+8) 	169	14.5
+9) 	314	27.0
+10) Strongly agree	572	49.1
+
+
+25) Q9
+We would like to ask you a series of questions about your life. I always act to promote good in all circumstances, even in difficult and challenging situations.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	8.785	4.749
+0) Not true of me
+1) 	1	0.1
+2) 	1	0.1
+3) 	1	0.1
+4) 	6	0.5
+5) 	11	0.9
+6) 	34	2.9
+7) 	149	12.8
+8) 	315	27.1
+9) 	353	30.3
+10) Completely true of me	290	24.9
+99) No answer	3	0.3
+
+
+26) Q10
+We would like to ask you a series of questions about your life. I am always able to give up some happiness now for greater happiness later.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1164	8.286	4.873
+0) Not true of me	4	0.3
+1) 	1	0.1
+2) 	3	0.3
+3) 	3	0.3
+4) 	19	1.6
+5) 	52	4.5
+6) 	70	6.0
+7) 	190	16.3
+8) 	346	29.7
+9) 	252	21.6
+10) Completely true of me	221	19.0
+99) No answer	3	0.3
+
+
+27) Q11
+We would like to ask you a series of questions about your life. I am content with my friendships and relationships.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1164	8.349	4.913
+0) Strongly disagree	1	0.1
+1) 	2	0.2
+2) 	11	0.9
+3) 	13	1.1
+4) 	19	1.6
+5) 	43	3.7
+6) 	76	6.5
+7) 	161	13.8
+8) 	293	25.2
+9) 	280	24.1
+10) Strongly agree	262	22.5
+99) No answer	3	0.3
+
+
+28) Q12
+We would like to ask you a series of questions about your life. My relationships are as satisfying as I would want them to be.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1164	7.832	4.175
+0) Strongly disagree	6	0.5
+1) 	1	0.1
+2) 	9	0.8
+3) 	18	1.5
+4) 	33	2.8
+5) 	68	5.8
+6) 	92	7.9
+7) 	207	17.8
+8) 	317	27.2
+9) 	273	23.5
+10) Strongly agree	138	11.9
+99) No answer	2	0.2
+
+
+29) Q12A
+DISPLAY IF Q1=1: On the whole, my diocese is flourishing. DISPLAY IF Q1=2: On the whole, my religious order/institute is flourishing.
+RANGE: 0 to 10
+	N	Mean	Std. Deviation
+Total	1164	5.915	2.474
+0) Strongly disagree	51	4.4
+1) 1	22	1.9
+2) 2	44	3.8
+3) 3	80	6.9
+4) 4	93	8.0
+5) 5	173	14.9
+6) 6	166	14.3
+7) 7	199	17.1
+8) 8	177	15.2
+9) 9	97	8.3
+10) Strongly agree	62	5.3
+
+
+30) Q16
+In the next set of questions, we would like to learn about you as a priest in your diocese or religious community. Please indicate your level of agreement or disagreement with each of the following statements: My morale as a priest is good.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	2.045	3.033
+1) Strongly agree	445	38.2
+2) Agree	493	42.4
+3) Neither agree nor disagree	99	8.5
+4) Disagree	77	6.6
+5) Strongly disagree	49	4.2
+99) No answer	1	0.1
+
+
+31) Q21
+In the next set of questions, we would like to learn about you as a priest in your diocese or religious community. Please indicate your level of agreement or disagreement with each of the following statements: I am expected to do too many things that go beyond my calling as a priest.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	3.257	3.064
+1) Strongly agree	108	9.3
+2) Agree	293	25.2
+3) Neither agree nor disagree	222	19.1
+4) Disagree	368	31.6
+5) Strongly disagree	172	14.8
+99) No answer	1	0.1
+
+
+32) Q22
+In the next set of questions, we would like to learn about you as a priest in your diocese or religious community. Please indicate your level of agreement or disagreement with each of the following statements: I am thinking of leaving [IF '1' IN Q.1 DISPLAY: the priesthood/IF '2' IN Q.1, DISPLAY: religious life].
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	4.784	2.85
+1) Strongly agree	7	0.6
+2) Agree	23	2.0
+3) Neither agree nor disagree	50	4.3
+4) Disagree	149	12.8
+5) Strongly disagree	934	80.2
+99) No answer	1	0.1
+
+
+33) Q23A
+During the past 30 days, about how often did you feel each of the following? Joyful
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	2.389	2.914
+1) All of the time	69	5.9
+2) Most of the time	736	63.2
+3) Some of the time	297	25.5
+4) A little of the time	55	4.7
+5) None of the time	6	0.5
+99) No answer	1	0.1
+
+
+34) Q23B
+During the past 30 days, about how often did you feel each of the following? Nervous
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	4.29	5.625
+1) All of the time	6	0.5
+2) Most of the time	37	3.2
+3) Some of the time	274	23.5
+4) A little of the time	519	44.6
+5) None of the time	324	27.8
+99) No answer	4	0.3
+
+
+35) Q23C
+During the past 30 days, about how often did you feel each of the following? Hopeless
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	4.712	3.984
+1) All of the time	6	0.5
+2) Most of the time	20	1.7
+3) Some of the time	83	7.1
+4) A little of the time	273	23.5
+5) None of the time	780	67.0
+99) No answer	2	0.2
+
+
+36) Q23D
+During the past 30 days, about how often did you feel each of the following? A sense of wonder
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	2.818	4.085
+1) All of the time	87	7.5
+2) Most of the time	420	36.1
+3) Some of the time	491	42.2
+4) A little of the time	138	11.9
+5) None of the time	26	2.2
+99) No answer	2	0.2
+
+
+37) Q23E
+During the past 30 days, about how often did you feel each of the following? Restless or fidgety
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	4.255	4.898
+1) All of the time	8	0.7
+2) Most of the time	45	3.9
+3) Some of the time	261	22.4
+4) A little of the time	460	39.5
+5) None of the time	387	33.2
+99) No answer	3	0.3
+
+
+38) Q23F
+During the past 30 days, about how often did you feel each of the following? So depressed that nothing could cheer you up
+RANGE: 2 to 99
+	N	Mean	Std. Deviation
+Total	1164	4.991	4.812
+2) Most of the time	6	0.5
+3) Some of the time	45	3.9
+4) A little of the time	185	15.9
+5) None of the time	925	79.5
+99) No answer	3	0.3
+
+
+39) Q23G
+During the past 30 days, about how often did you feel each of the following? That everything was an effort
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	3.82	4.059
+1) All of the time	12	1.0
+2) Most of the time	120	10.3
+3) Some of the time	341	29.3
+4) A little of the time	471	40.5
+5) None of the time	218	18.7
+99) No answer	2	0.2
+
+
+40) Q23H
+During the past 30 days, about how often did you feel each of the following? Worthless
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	4.782	3.972
+1) All of the time	2	0.2
+2) Most of the time	16	1.4
+3) Some of the time	83	7.1
+4) A little of the time	220	18.9
+5) None of the time	841	72.3
+99) No answer	2	0.2
+
+
+41) Q24
+How much confidence do you, yourself, have in the decision-making and leadership of your diocesan bishop?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	3.562	10.579
+1) A great deal	235	20.2
+2) Quite a lot	390	33.5
+3) Some	355	30.5
+4) Very little	170	14.6
+99) No answer	14	1.2
+
+
+42) Q25
+[IF Q1=2] How much confidence do you, yourself, have in the decision-making and leadership of the superiors of your religious order/institute?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	426	2.826	8.16
+1) A great deal	116	27.2
+2) Quite a lot	166	39.0
+3) Some	105	24.6
+4) Very little	36	8.5
+99) No answer	3	0.7
+Missing	738
+
+
+43) Q26
+How much confidence do you, yourself, have in the decision-making and leadership of U.S. bishops in general?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	3.699	8.454
+1) A great deal	42	3.6
+2) Quite a lot	272	23.4
+3) Some	535	46.0
+4) Very little	306	26.3
+99) No answer	9	0.8
+
+
+44) Q27_1
+How much confidence do you, yourself, have in the decision-making and leadership of Pope Leo XIV?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	2.559	9.011
+1) A great deal	494	42.4
+2) Quite a lot	501	43.0
+3) Some	143	12.3
+4) Very little	16	1.4
+99) No answer	10	0.9
+
+
+45) Q27_2
+Do you think that under Pope Leo XIV, relationships between the Vatican and the US Church will...?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	4.619	7.383
+1) Worsen significantly	2	0.2
+2) Worsen somewhat	31	2.7
+3) Remain the same	202	17.4
+4) Improve somewhat	597	51.3
+5) Improve significantly	325	27.9
+99) No answer	7	0.6
+
+
+46) Q28A
+When it comes to matters of theology, my [IF '1' IN Q.1, DISPLAY: bishop/IF '2' IN Q.1, DISPLAY: major superior] tends to be...
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	3.936	9.323
+1) Much more progressive on theology than I am	40	3.4
+2) Somewhat more progressive on theology than I am	175	15.0
+3) Similar to me	704	60.5
+4) Somewhat more conservative on theology than I am	180	15.5
+5) Much more conservative on theology than I am	54	4.6
+99) No answer	11	0.9
+
+
+47) Q28B
+When it comes to political matters, my [IF '1' IN Q.1, DISPLAY: bishop/IF '2' IN Q.1, DISPLAY: major superior] tends to be...
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	4.14	8.016
+1) Much more progressive politically than I am	67	5.8
+2) Somewhat more progressive politically than I am	144	12.4
+3) Similar to me	551	47.3
+4) Somewhat more conservative politically than I am	139	11.9
+5) Much more conservative politically than I am	67	5.8
+6) Unsure/Don't know	188	16.2
+99) No answer	8	0.7
+
+
+48) Q29_1A
+Please indicate the extent to which you agree with the following statements: I feel that my [IF '1' IN Q.1, DISPLAY: bishop/IF '2' IN Q.1, DISPLAY: major superior] cares about me.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	2.559	7.026
+1) Strongly agree	404	34.7
+2) Agree	456	39.2
+3) Neither agree nor disagree	171	14.7
+4) Disagree	79	6.8
+5) Strongly disagree	48	4.1
+99) No answer	6	0.5
+
+
+49) Q29_1B
+Please indicate the extent to which you agree with the following statements: I can reach my [IF '1' IN Q.1, DISPLAY: bishop/IF '2' IN Q.1, DISPLAY: major superior] if I need to talk to him.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	2.292	7.038
+1) Strongly agree	573	49.2
+2) Agree	388	33.3
+3) Neither agree nor disagree	100	8.6
+4) Disagree	60	5.2
+5) Strongly disagree	37	3.2
+99) No answer	6	0.5
+
+
+50) Q29_1C
+Please indicate the extent to which you agree with the following statements: My relationship with my [IF '1' IN Q.1, DISPLAY: bishop/IF '2' IN Q.1, DISPLAY: major superior] has improved over the past couple of years.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	3.5	9.387
+1) Strongly agree	181	15.5
+2) Agree	330	28.4
+3) Neither agree nor disagree	484	41.6
+4) Disagree	98	8.4
+5) Strongly disagree	60	5.2
+99) No answer	11	0.9
+
+
+51) Q30_1
+How often do you feel that you lack companionship?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	1.901	4.979
+1) Hardly ever	513	44.1
+2) Some of the time	541	46.5
+3) Often	107	9.2
+99) No answer	3	0.3
+
+
+52) Q31_1
+How often do you feel left out?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	1.826	4.982
+1) Hardly ever	585	50.3
+2) Some of the time	484	41.6
+3) Often	92	7.9
+99) No answer	3	0.3
+
+
+53) Q32_1
+How often do you feel isolated from others?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	1.67	4.086
+1) Hardly ever	651	55.9
+2) Some of the time	438	37.6
+3) Often	73	6.3
+99) No answer	2	0.2
+
+
+54) Q33_1A
+Please indicate your agreement or disagreement with the following statements: I have access to mental health counseling if I want it.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1164	1.466	7.026
+0) Disagree	45	3.9
+1) Agree	1113	95.6
+99) No answer	6	0.5
+
+
+55) Q33_1B
+Please indicate your agreement or disagreement with the following statements: I am currently receiving treatment or therapy for a mental health condition.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1164	0.624	7.091
+0) Disagree	1026	88.1
+1) Agree	132	11.3
+99) No answer	6	0.5
+
+
+56) Q33_1C
+Please indicate your agreement or disagreement with the following statements: My relationship with other priests tends to be superficial.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1164	0.662	5.796
+0) Disagree	786	67.5
+1) Agree	374	32.1
+99) No answer	4	0.3
+
+
+57) Q33_1D
+Please indicate your agreement or disagreement with the following statements: I have a close relationship with at least one other priest.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1164	1.253	5.749
+0) Disagree	97	8.3
+1) Agree	1063	91.3
+99) No answer	4	0.3
+
+
+58) Q34_1A
+Please indicate whether you think it is important for the Church in America to prioritize addressing each of the following. Pro-life issues (beginning or end of life)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	1.886	8.103
+1) Yes	1005	86.3
+2) No	55	4.7
+3) Not sure	96	8.2
+99) No answer	8	0.7
+
+
+59) Q34_1B
+Please indicate whether you think it is important for the Church in America to prioritize addressing each of the following. Climate change/ecology
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	2.434	9.022
+1) Yes	627	53.9
+2) No	365	31.4
+3) Not sure	162	13.9
+99) No answer	10	0.9
+
+
+60) Q34_1C
+Please indicate whether you think it is important for the Church in America to prioritize addressing each of the following. Evangelization
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	1.781	8.102
+1) Yes	1083	93.0
+2) No	21	1.8
+3) Not sure	52	4.5
+99) No answer	8	0.7
+
+
+61) Q34_1D
+Please indicate whether you think it is important for the Church in America to prioritize addressing each of the following. Family formation/marriage preparation
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	1.367	4.985
+1) Yes	1085	93.2
+2) No	19	1.6
+3) Not sure	57	4.9
+99) No answer	3	0.3
+
+
+62) Q34_1E
+Please indicate whether you think it is important for the Church in America to prioritize addressing each of the following. Hispanic/Spanish language ministry
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	2.002	8.102
+1) Yes	919	79.0
+2) No	92	7.9
+3) Not sure	145	12.5
+99) No answer	8	0.7
+
+
+63) Q34_1F
+Please indicate whether you think it is important for the Church in America to prioritize addressing each of the following. Immigration/refugee assistance
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	2.036	8.585
+1) Yes	938	80.6
+2) No	110	9.5
+3) Not sure	107	9.2
+99) No answer	9	0.8
+
+
+64) Q34_1G
+Please indicate whether you think it is important for the Church in America to prioritize addressing each of the following. LGBTQ community
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	2.412	8.078
+1) Yes	557	47.9
+2) No	339	29.1
+3) Not sure	260	22.3
+99) No answer	8	0.7
+
+
+65) Q34_1H
+Please indicate whether you think it is important for the Church in America to prioritize addressing each of the following. Poverty/homelessness/food insecurity
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	2.199	9.898
+1) Yes	1010	86.8
+2) No	64	5.5
+3) Not sure	78	6.7
+99) No answer	12	1.0
+
+
+66) Q34_1I
+Please indicate whether you think it is important for the Church in America to prioritize addressing each of the following. Eucharistic devotion
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	1.832	6.425
+1) Yes	839	72.1
+2) No	161	13.8
+3) Not sure	159	13.7
+99) No answer	5	0.4
+
+
+67) Q34_1J
+Please indicate whether you think it is important for the Church in America to prioritize addressing each of the following. Access to Traditional Latin Mass (TLM)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	2.41	6.985
+1) Yes	291	25.0
+2) No	681	58.5
+3) Not sure	186	16.0
+99) No answer	6	0.5
+
+
+68) Q34_1K
+Please indicate whether you think it is important for the Church in America to prioritize addressing each of the following. Racism
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	2.107	8.094
+1) Yes	791	68.0
+2) No	226	19.4
+3) Not sure	139	11.9
+99) No answer	8	0.7
+
+
+69) Q34_1L
+Please indicate whether you think it is important for the Church in America to prioritize addressing each of the following. Social justice
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	2.324	9.892
+1) Yes	904	77.7
+2) No	131	11.3
+3) Not sure	117	10.1
+99) No answer	12	1.0
+
+
+70) Q34_1M
+Please indicate whether you think it is important for the Church in America to prioritize addressing each of the following. Synodality
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	2.179	7.014
+1) Yes	585	50.3
+2) No	362	31.1
+3) Not sure	211	18.1
+99) No answer	6	0.5
+
+
+71) Q34_1N
+Please indicate whether you think it is important for the Church in America to prioritize addressing each of the following. Youth and young adult ministry
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1164	1.439	5.747
+1) Yes	1091	93.7
+2) No	19	1.6
+3) Not sure	50	4.3
+99) No answer	4	0.3
+
+
+72) Q34_1O
+Please indicate whether you think it is important for the Church in America to prioritize addressing each of the following. Artificial intelligence (AI) and emerging technologies
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1085	1.839	5.189
+1) Yes	730	67.3
+2) No	88	8.1
+3) Not sure	264	24.3
+99) No answer	3	0.3
+Missing	79
+
+
+73) Q35_1A
+Please indicate the extent to which you agree with the following statements about the Synod on Synodality. The Synod on Synodality was a waste of time.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1163	3.334	5.795
+1) Strongly agree	245	21.1
+2) Agree	184	15.8
+3) Neither agree nor disagree	277	23.8
+4) Disagree	228	19.6
+5) Strongly disagree	225	19.3
+99) No answer	4	0.3
+Missing	1
+
+
+74) Q35_1B
+Please indicate the extent to which you agree with the following statements about the Synod on Synodality. I felt fully included in the synod process.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1163	3.354	4.129
+1) Strongly agree	71	6.1
+2) Agree	249	21.4
+3) Neither agree nor disagree	422	36.3
+4) Disagree	227	19.5
+5) Strongly disagree	192	16.5
+99) No answer	2	0.2
+Missing	1
+
+
+75) Q35_1C
+Please indicate the extent to which you agree with the following statements about the Synod on Synodality. The synodal process was helpful for my ministry.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1163	3.5	4.139
+1) Strongly agree	77	6.6
+2) Agree	206	17.7
+3) Neither agree nor disagree	382	32.8
+4) Disagree	243	20.9
+5) Strongly disagree	253	21.8
+99) No answer	2	0.2
+Missing	1
+
+
+76) Q36_1
+How much influence do you think women have in the Catholic Church?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1162	3.333	9.373
+1) Women have too much influence in the Catholic Church	39	3.4
+2) Women do not have enough influence in the Catholic Church	591	50.9
+3) Women have about the right amount of influence in the Catholic Church	521	44.8
+99) No answer	11	0.9
+Missing	2
+
+
+77) Q52
+How much time do you typically spend in private prayer daily?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1162	3.898	10.158
+1) 0-15 minutes	90	7.7
+2) 16-30 minutes	300	25.8
+3) 31-60 minutes	484	41.7
+4) More than 60 minutes	275	23.7
+99) No answer	13	1.1
+Missing	2
+
+
+78) Q53A
+To what extent do you agree or disagree with the following statements? It happens more and more often that I talk about my ministry work in a negative way.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1162	4.305	5.649
+1) Strongly agree	18	1.5
+2) Agree	90	7.7
+3) Neither agree nor disagree	162	13.9
+4) Disagree	518	44.6
+5) Strongly disagree	370	31.8
+99) No answer	4	0.3
+Missing	2
+
+
+79) Q53B
+To what extent do you agree or disagree with the following statements? During my ministry work, I often feel emotionally drained.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1162	3.603	4.97
+1) Strongly agree	52	4.5
+2) Agree	237	20.4
+3) Neither agree nor disagree	242	20.8
+4) Disagree	502	43.2
+5) Strongly disagree	126	10.8
+99) No answer	3	0.3
+Missing	2
+
+
+80) Q53C
+To what extent do you agree or disagree with the following statements? I usually feel worn out and weary after my ministry work.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1162	3.572	5.714
+1) Strongly agree	53	4.6
+2) Agree	293	25.2
+3) Neither agree nor disagree	253	21.8
+4) Disagree	438	37.7
+5) Strongly disagree	121	10.4
+99) No answer	4	0.3
+Missing	2
+
+
+81) Q54_1_1
+What is your current position? Select all that apply. - Pastor
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	522	1	0
+1) Pastor	522	100.0
+Missing	642
+
+
+82) Q54_1_2
+What is your current position? Select all that apply. - Assistant Pastor or Parochial Vicar
+RANGE: 2 to 2
+	N	Mean	Std. Deviation
+Total	114	2	0
+2) Assistant Pastor or Parochial Vicar	114	100.0
+Missing	1050
+
+
+83) Q54_1_3
+What is your current position? Select all that apply. - Full-time diocesan or religious community administration
+RANGE: 3 to 3
+	N	Mean	Std. Deviation
+Total	78	3	0
+3) Full-time diocesan or religious community administration	78	100.0
+Missing	1086
+
+
+84) Q54_1_4
+What is your current position? Select all that apply. - Religious community-assigned apostolate
+RANGE: 4 to 4
+	N	Mean	Std. Deviation
+Total	157	4	0
+4) Religious community-assigned apostolate	157	100.0
+Missing	1007
+
+
+85) Q54_1_5
+What is your current position? Select all that apply. - Chaplain
+RANGE: 5 to 5
+	N	Mean	Std. Deviation
+Total	116	5	0
+5) Chaplain	116	100.0
+Missing	1048
+
+
+86) Q54_1_6
+What is your current position? Select all that apply. - Retired
+RANGE: 6 to 6
+	N	Mean	Std. Deviation
+Total	202	6	0
+6) Retired	202	100.0
+Missing	962
+
+
+87) Q54_1_7
+What is your current position? Select all that apply. - Other (please specify)
+RANGE: 7 to 7
+	N	Mean	Std. Deviation
+Total	245	7	0
+7) Other	245	100.0
+Missing	919
+
+
+88) Q54_1_7_TEXT
+What is your current position? Select all that apply. - Other [Text]
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1162	0	0
+
+
+89) Q54_2
+Regardless of your official role, how many parishes do you currently serve regularly by celebrating Mass, administering sacraments, or providing pastoral care at least twice a month?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1083	1.766	6.695
+0) None (I do not regularly serve a parish)	219	20.2
+1) One parish only	470	43.4
+2) Two parishes	219	20.2
+3) Three or more parishes	170	15.7
+99) No answer	5	0.5
+Missing	81
+
+
+90) Q55_1
+Approximately how many households attend your parish?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	903	3.027	11.625
+1) Under 1,000	433	48.0
+2) 1,000-3,000	358	39.6
+3) More than 3,000	99	11.0
+99) No answer	13	1.4
+Missing	261
+
+
+91) Q56_1
+How would you describe the general socioeconomic level of your parish?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	903	3.598	12.416
+1) Low-income parish	115	12.7
+2) Mixed-income or middle-income parish	670	74.2
+3) High-income parish	103	11.4
+99) No answer	15	1.7
+Missing	261
+
+
+92) Q57_1_1
+Please indicate whether your parish has a dedicated ministry for any of the following issues: Pro-Life issues
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	490	1	0
+1) Pro-Life issues	490	100.0
+Missing	674
+
+
+93) Q57_1_2
+Please indicate whether your parish has a dedicated ministry for any of the following issues: Climate change/ecology
+RANGE: 2 to 2
+	N	Mean	Std. Deviation
+Total	79	2	0
+2) Climate change/ecology	79	100.0
+Missing	1085
+
+
+94) Q57_1_3
+Please indicate whether your parish has a dedicated ministry for any of the following issues: Evangelization
+RANGE: 3 to 3
+	N	Mean	Std. Deviation
+Total	438	3	0
+3) Evangelization	438	100.0
+Missing	726
+
+
+95) Q57_1_4
+Please indicate whether your parish has a dedicated ministry for any of the following issues: Food distribution
+RANGE: 4 to 4
+	N	Mean	Std. Deviation
+Total	616	4	0
+4) Food distribution	616	100.0
+Missing	548
+
+
+96) Q57_1_5
+Please indicate whether your parish has a dedicated ministry for any of the following issues: Hispanic/Spanish language ministry
+RANGE: 5 to 5
+	N	Mean	Std. Deviation
+Total	311	5	0
+5) Hispanic/Spanish language ministry	311	100.0
+Missing	853
+
+
+97) Q57_1_6
+Please indicate whether your parish has a dedicated ministry for any of the following issues: Homebound ministry
+RANGE: 6 to 6
+	N	Mean	Std. Deviation
+Total	637	6	0
+6) Homebound ministry	637	100.0
+Missing	527
+
+
+98) Q57_1_7
+Please indicate whether your parish has a dedicated ministry for any of the following issues: Homelessness
+RANGE: 7 to 7
+	N	Mean	Std. Deviation
+Total	218	7	0
+7) Homelessness	218	100.0
+Missing	946
+
+
+99) Q57_1_8
+Please indicate whether your parish has a dedicated ministry for any of the following issues: Immigration/refugee assistance
+RANGE: 8 to 8
+	N	Mean	Std. Deviation
+Total	174	8	0
+8) Immigration/refugee assistance	174	100.0
+Missing	990
+
+
+100) Q57_1_9
+Please indicate whether your parish has a dedicated ministry for any of the following issues: LGBTQ
+RANGE: 9 to 9
+	N	Mean	Std. Deviation
+Total	48	9	0
+9) LGBTQ	48	100.0
+Missing	1116
+
+
+101) Q57_1_10
+Please indicate whether your parish has a dedicated ministry for any of the following issues: People with disabilities
+RANGE: 10 to 10
+	N	Mean	Std. Deviation
+Total	155	10	0
+10) People with disabilities	155	100.0
+Missing	1009
+
+
+102) Q57_1_11
+Please indicate whether your parish has a dedicated ministry for any of the following issues: Social justice
+RANGE: 11 to 11
+	N	Mean	Std. Deviation
+Total	317	11	0
+11) Social justice	317	100.0
+Missing	847
+
+
+103) Q57_1_12
+Please indicate whether your parish has a dedicated ministry for any of the following issues: Youth or young adult ministry
+RANGE: 12 to 12
+	N	Mean	Std. Deviation
+Total	638	12	0
+12) Youth or young adult ministry	638	100.0
+Missing	526
+
+
+104) Q57_1_13
+Please indicate whether your parish has a dedicated ministry for any of the following issues: None of these
+RANGE: 13 to 13
+	N	Mean	Std. Deviation
+Total	33	13	0
+13) None of these	33	100.0
+Missing	1131
+
+
+105) Q58_1A
+Please indicate whether you agree or disagree with the following statements. Women have important decision-making roles in my parish.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	901	3.421	15.481
+0) Disagree	73	8.1
+1) Agree	805	89.3
+99) No answer	23	2.6
+Missing	263
+
+
+106) Q58_1B
+Please indicate whether you agree or disagree with the following statements. My parish has formal or structured ways to regularly gather input from parishioners about their needs and concerns (e.g., surveys, focus groups, listening sessions).
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	901	4.084	18.524
+0) Disagree	455	50.5
+1) Agree	413	45.8
+99) No answer	33	3.7
+Missing	263
+
+
+107) Q58_1C
+Please indicate whether you agree or disagree with the following statements. In my parish, there are decisions about parish life that are made primarily by lay leaders without requiring my final approval.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	901	4.002	18.539
+0) Disagree	529	58.7
+1) Agree	339	37.6
+99) No answer	33	3.7
+Missing	263
+
+
+108) Q58_1D
+Please indicate whether you agree or disagree with the following statements. In the past year, I have changed a parish practice or decision based on lay input.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	901	5.231	20.751
+0) Disagree	304	33.7
+1) Agree	555	61.6
+99) No answer	42	4.7
+Missing	263
+
+
+109) Q58_1E
+Please indicate whether you agree or disagree with the following statements. My parish has a pastoral council or similar body that plays an important role in decision-making.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	901	3.686	16.443
+0) Disagree	128	14.2
+1) Agree	747	82.9
+99) No answer	26	2.9
+Missing	263
+
+
+110) Q58_1F
+Please indicate whether you agree or disagree with the following statements. My parish provides training or support to help lay people take an active role in the Church's mission beyond the parish (e.g., evangelization, outreach, service).
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	901	3.846	17.368
+0) Disagree	278	30.9
+1) Agree	594	65.9
+99) No answer	29	3.2
+Missing	263
+
+
+111) Q58_1G
+Please indicate whether you agree or disagree with the following statements. I intentionally seek out the voices of those who are less involved in parish life to understand their needs/concerns.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	901	4.564	19.282
+0) Disagree	317	35.2
+1) Agree	548	60.8
+99) No answer	36	4.0
+Missing	263
+
+
+112) Q58_1H
+Please indicate whether you agree or disagree with the following statements. I have changed my approach to leadership in response to Pope Francis's call for a synodal Church.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	901	2.919	15.91
+0) Disagree	623	69.1
+1) Agree	254	28.2
+99) No answer	24	2.7
+Missing	263
+
+
+113) Q58_1I
+Please indicate whether you agree or disagree with the following statements. Before making significant decisions in my parish, I always involve parishioners in prayer and reflection.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	901	5.323	20.73
+0) Disagree	221	24.5
+1) Agree	638	70.8
+99) No answer	42	4.7
+Missing	263
+
+
+114) Q58_1K
+Please indicate whether you agree or disagree with the following statements. My parish currently offers the Traditional Latin Mass (TLM).
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	901	2.016	13.856
+0) Disagree	849	94.2
+1) Agree	34	3.8
+99) No answer	18	2.0
+Missing	263
+
+
+115) Q58_1L
+Please indicate whether you agree or disagree with the following statements. I spend too much time on administrative work that impedes my ministry.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	901	3.367	16.825
+0) Disagree	513	56.9
+1) Agree	361	40.1
+99) No answer	27	3.0
+Missing	263
+
+
+116) Q58_1M
+Please indicate whether you agree or disagree with the following statements. I have preached about abortion in my homilies within the past year.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	901	2.229	12.608
+0) Disagree	363	40.3
+1) Agree	523	58.0
+99) No answer	15	1.7
+Missing	263
+
+
+117) Q58_1N
+Please indicate whether you agree or disagree with the following statements. I have preached about immigration in my homilies within the past year.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	901	2.491	13.796
+0) Disagree	421	46.7
+1) Agree	462	51.3
+99) No answer	18	2.0
+Missing	263
+
+
+118) Q58_1O
+Please indicate whether you agree or disagree with the following statements. I have given a blessing to a same-sex couple in a pastoral setting.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	901	1.617	12.244
+0) Disagree	816	90.6
+1) Agree	71	7.9
+99) No answer	14	1.6
+Missing	263
+
+
+119) Q58_1P
+Please indicate whether you agree or disagree with the following statements. My parish participated in the Synod on Synodality.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	901	4.363	18.757
+0) Disagree	302	33.5
+1) Agree	565	62.7
+99) No answer	34	3.8
+Missing	263
+
+
+120) Q58_1Q
+Please indicate whether you agree or disagree with the following statements. [DISPLAY IF Q58_1P=1] The synod process led to helpful changes in our parish.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	565	2.092	13.028
+0) Disagree	363	64.2
+1) Agree	192	34.0
+99) No answer	10	1.8
+Missing	599
+
+
+121) Q58_1R
+Please indicate whether you agree or disagree with the following statements. [DISPLAY IF Q58_1P=1] Our synod process actively sought the voices of people affected by Church crises (e.g., survivors of abuse, those who feel excluded from the Church).
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	565	3.112	15.857
+0) Disagree	277	49.0
+1) Agree	273	48.3
+99) No answer	15	2.7
+Missing	599
+
+
+122) Q73
+Would you describe your views on most matters having to do with theology and doctrines as?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1158	3.501	6.382
+1) Very progressive	92	7.9
+2) Somewhat progressive	265	22.9
+3) Middle-of-the-road	322	27.8
+4) Conservative/orthodox	399	34.5
+5) Very conservative/orthodox	75	6.5
+99) No answer	5	0.4
+Missing	6
+
+
+123) Q74
+Would you describe your views on most matters having to do with political issues as?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1081	3.105	3.082
+1) Very liberal	74	6.8
+2) Somewhat liberal	249	23.0
+3) Moderate	388	35.9
+4) Conservative	323	29.9
+5) Very conservative	46	4.3
+99) No answer	1	0.1
+Missing	83
+
+
+124) Q75
+To what extent are you concerned about the policies of the current political administration in the U.S.?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1158	3.818	4.177
+1) Not at all concerned	88	7.6
+2) Slightly concerned	175	15.1
+3) Moderately concerned	235	20.3
+4) Very concerned	210	18.1
+5) Extremely concerned	448	38.7
+99) No answer	2	0.2
+Missing	6
+
+
+125) Q76_1
+What kind of ongoing formation opportunities are you interested in? Formal education (higher degree studies)
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	233	1	0
+1) Formal education (higher degree studies)	233	100.0
+Missing	931
+
+
+126) Q76_2
+What kind of ongoing formation opportunities are you interested in? Priest convocations/retreats
+RANGE: 2 to 2
+	N	Mean	Std. Deviation
+Total	638	2	0
+2) Priest convocations/retreats	638	100.0
+Missing	526
+
+
+127) Q76_3
+What kind of ongoing formation opportunities are you interested in? Priest fellowship/fraternity groups
+RANGE: 3 to 3
+	N	Mean	Std. Deviation
+Total	560	3	0
+3) Priest fellowship/fraternity groups	560	100.0
+Missing	604
+
+
+128) Q76_4
+What kind of ongoing formation opportunities are you interested in? Leadership training (e.g., conflict management, team buildings)
+RANGE: 4 to 4
+	N	Mean	Std. Deviation
+Total	415	4	0
+4) Leadership training	415	100.0
+Missing	749
+
+
+129) Q76_5
+What kind of ongoing formation opportunities are you interested in? Business and administrative training (e.g., finance, accounting, parish management)
+RANGE: 5 to 5
+	N	Mean	Std. Deviation
+Total	277	5	0
+5) Business and administrative training	277	100.0
+Missing	887
+
+
+130) Q76_6
+What kind of ongoing formation opportunities are you interested in? Mental health and well-being training (e.g., burnout prevention, pastoral care for mental health issues)
+RANGE: 6 to 6
+	N	Mean	Std. Deviation
+Total	389	6	0
+6) Mental health and well-being training	389	100.0
+Missing	775
+
+
+131) Q76_7
+What kind of ongoing formation opportunities are you interested in? Spiritual formation (e.g., spiritual direction training, deepening prayer life)
+RANGE: 7 to 7
+	N	Mean	Std. Deviation
+Total	709	7	0
+7) Spiritual formation	709	100.0
+Missing	455
+
+
+132) Q76_8
+What kind of ongoing formation opportunities are you interested in? Doctrinal and theological continuing education (e.g., Church teaching, moral theology, bioethics, scripture study)
+RANGE: 8 to 8
+	N	Mean	Std. Deviation
+Total	559	8	0
+8) Doctrinal and theological continuing education	559	100.0
+Missing	605
+
+
+133) Q76_9
+What kind of ongoing formation opportunities are you interested in? Intercultural ministry training (e.g., Hispanic ministry, ecumenical/interfaith training)
+RANGE: 9 to 9
+	N	Mean	Std. Deviation
+Total	240	9	0
+9) Intercultural ministry training	240	100.0
+Missing	924
+
+
+134) Q76_10
+What kind of ongoing formation opportunities are you interested in? I do not feel the need for continuing formation at this time.
+RANGE: 10 to 10
+	N	Mean	Std. Deviation
+Total	118	10	0
+10) Do not feel need for continuing formation at this time	118	100.0
+Missing	1046
+
+
+135) Q76_11
+What kind of ongoing formation opportunities are you interested in? Other (please specify)
+RANGE: 11 to 11
+	N	Mean	Std. Deviation
+Total	90	11	0
+11) Other	90	100.0
+Missing	1074
+
+
+136) Q76_11_TEXT
+What kind of ongoing formation opportunities are you interested in? Other (please specify) - Text
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1158	0	0
+
+
+137) Q77
+Is there anything else you would like to share with us? Anything else you wish we had asked?
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1156	0	0
+
+

@@ -1,0 +1,3798 @@
+Data File: ARTS (Full Data Codebook)
+
+1) CASEID
+[SEQUENTIAL RECORD ID]
+RANGE: 1 to 1530
+	N	Mean	Std. Deviation
+Total	1530	765.5	441.817
+
+
+2) WEIGHT
+[WEIGHT]
+RANGE: 100 to 800
+	N	Mean	Std. Deviation
+Total	1530	276.937	168.723
+
+
+3) EMP_STAT
+Are you currently working full-time, part-time, going to school, keeping house, or what?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1530	2.801	2.086
+1) Working Full-Time	720	47.1
+2) Working Part-Time	144	9.4
+3) Unemployed, Laid Off, Looking For Work	60	3.9
+4) Retired	303	19.8
+5) In School	57	3.7
+6) Keeping House	161	10.5
+7) Other	46	3.0
+8) Don't Know, Refused	39	2.5
+
+
+4) EMP_HRS
+[IF WORKING FULL- OR PART-TIME IN VARIABLE EMP_STAT] How many hours do you work in a typical week?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	860	4.974	1.349
+1) 00-09	16	1.9
+2) 10-19	30	3.5
+3) 20-29	70	8.1
+4) 30-39	77	9.0
+5) 40-49	442	51.4
+6) 50-59	134	15.6
+7) 60-69	67	7.8
+8) 70-79	15	1.7
+9) 80 or More Hours	9	1.0
+Missing	670
+
+
+5) EMP_YRS
+[IF WORKING FULL- OR PART-TIME IN VARIABLE EMP_STAT] How long have you been working in your present place of employment?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	864	3.186	1.446
+1) Less Than a Year	144	16.7
+2) 1 to 2 Years	160	18.5
+3) 3 to 5 Years	187	21.6
+4) 6 to 10 Years	146	16.9
+5) More Than 10 Years	218	25.2
+6) Don't Know, Refused	9	1.0
+Missing	666
+
+
+6) EMP_LINE
+[IF WORKING FULL- OR PART-TIME IN VARIABLE EMP_STAT] How many different lines of work have you been in - not counting jobs while you were growing up?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	864	3.134	1.933
+1) One	156	18.1
+2) Two	226	26.2
+3) Three	229	26.5
+4) Four	92	10.6
+5) Five	63	7.3
+6) Six	27	3.1
+7) Seven	14	1.6
+8) Eight or More	43	5.0
+9) Don't Know, Refused	14	1.6
+Missing	666
+
+
+7) EMP_NRGY
+[IF WORKING FULL- OR PART-TIME IN VARIABLE EMP_STAT] Most days, when you get home from work, how much energy do you have left for other things - A lot, a little, hardly any, or none?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	864	2.115	0.82
+1) A Lot	180	20.8
+2) A Little	465	53.8
+3) Hardly Any	165	19.1
+4) None	48	5.6
+5) Don't Know, Refused	6	0.7
+Missing	666
+
+
+8) EMP_PRED
+[IF WORKING FULL- OR PART-TIME IN VARIABLE EMP_STAT] How predictable is your daily work schedule - Would you say very predictable, fairly predictable, or very unpredictable?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	864	2.163	0.985
+1) Very Predictable	241	27.9
+2) Fairly Predictable	356	41.2
+3) Fairly Unpredictable	156	18.1
+4) Very Unpredictable	107	12.4
+5) Don't Know, Refused	4	0.5
+Missing	666
+
+
+9) EMP_CONT
+[IF WORKING FULL- OR PART-TIME IN VARIABLE EMP_STAT] Are the people you have contact with through your work mostly from your own community or from other places?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	864	1.726	0.624
+1) Mostly From Own Community	300	34.7
+2) Mostly From Other Places	520	60.2
+3) Other (Volunteered)	25	2.9
+4) Don't Know, Refused	19	2.2
+Missing	666
+
+
+10) EDUC
+What is the LAST grade or class that you COMPLETED in school?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1530	4.18	1.679
+1) None, or Grade 1-8	59	3.9
+2) High School Incomplete, Grades 9-11	158	10.3
+3) High School Graduate, Grade 12 or GED	491	32.1
+4) Business, Technical or Vocational School	95	6.2
+5) Some College, No 4 Year Degree	356	23.3
+6) College Graduate	231	15.1
+7) Post-Graduate Training or Professional School	128	8.4
+8) Don't Know	3	0.2
+9) Refused	9	0.6
+
+
+11) AGE
+What is your age?
+RANGE: 18 to 99
+	N	Mean	Std. Deviation
+Total	1530	47.501	18.86
+
+
+12) MAR_STAT
+Are you currently married, widowed, divorced, separated, or have you never been married?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1530	2.275	1.637
+1) Married	839	54.8
+2) Widowed	148	9.7
+3) Divorced	161	10.5
+4) Separated	53	3.5
+5) Never Married	323	21.1
+6) Don't Know, Refused	6	0.4
+
+
+13) MAR_DIV
+[IF MARRIED IN VARIABLE MAR_STAT] Have you ever been divorced or separated?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	839	1.775	0.424
+1) Yes	191	22.8
+2) No	646	77.0
+3) Don't Know, Refused	2	0.2
+Missing	691
+
+
+14) SPOU_EMP
+[IF MARRIED IN VARIABLE MAR_STAT] Is your spouse working full-time, part-time, going to school, keeping house, or what?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	839	2.9	2.56
+1) Woking Full-Time	473	56.4
+2) Working Part-Time	72	8.6
+3) With a Job, But Not at Work Because of Temporary Illness, Vacation, or Strike	4	0.5
+4) Unemployed, Laid Off, Looking For Work	5	0.6
+5) Retired	135	16.1
+6) In School	6	0.7
+7) Keeping House	104	12.4
+8) Other	15	1.8
+9) Don't Know, Refused	25	3.0
+Missing	691
+
+
+15) FAM_INC
+Last year, what was your total family income from all sources, before taxes?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1530	4.456	2.39
+1) Less Than $10,000	141	9.2
+2) $10,000 to Under $20,000	216	14.1
+3) $20,000 to Under $30,000	211	13.8
+4) $30,000 to Under $50,000	313	20.5
+5) $50,000 to Under $75,000	250	16.3
+6) $75,000 to Under $100,000	119	7.8
+7) $100,000 to Under $150,000	54	3.5
+8) $150,000 or More	17	1.1
+9) Don't Know, Refused	209	13.7
+
+
+16) NO_KIDS1
+How many children have you ever had?  (Include all that were born alive, including any from a previous marriage.)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1514	3.022	1.756
+1) None	376	24.8
+2) One	232	15.3
+3) Two	392	25.9
+4) Three	259	17.1
+5) Four	127	8.4
+6) Five	68	4.5
+7) Six	19	1.3
+8) Seven	21	1.4
+9) Eight or More	20	1.3
+Missing	16
+
+
+17) NO_KIDS2
+How many children are currently living at home?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1138	2.063	1.205
+1) None	500	43.9
+2) One	271	23.8
+3) Two	221	19.4
+4) Three	108	9.5
+5) Four	22	1.9
+6) Five	13	1.1
+7) Six	1	0.1
+8) Seven	2	0.2
+Missing	392
+
+
+18) RACEHISP
+Are you, yourself, of Hispanic or Latino background, such as Mexican, Puerto Rican, Cuban, or some other Spanish background?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.914	0.296
+1) Yes	138	9.0
+2) No	1385	90.5
+3) Don't Know, Refused	7	0.5
+
+
+19) RACE
+What is your race?  Are you white, black, Asian, or some other race?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	1.363	0.832
+1) White	1202	78.6
+2) Black or African American	209	13.7
+3) Asian	29	1.9
+4) Other or mixed race	72	4.7
+5) Don't Know, Refused	18	1.2
+
+
+20) YOU_BORN
+Were you born in the United States or in another country?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.067	0.255
+1) United States	1430	93.5
+2) Other Country	98	6.4
+3) Don't Know, Refused	2	0.1
+
+
+21) MOM_BORN
+Was your mother born in the United States or in another country?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.128	0.35
+1) United States	1342	87.7
+2) Other Country	180	11.8
+3) Don't Know, Refused	8	0.5
+
+
+22) SEX
+[INTERVIEWER RECORD GENDER:]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1530	1.507	0.5
+1) Male	754	49.3
+2) Female	776	50.7
+
+
+23) HRS_READ
+About how many hours do you spend reading each day, counting newspapers, magazines, and books, but not counting reading you may do at work?
+RANGE: 0 to 6
+	N	Mean	Std. Deviation
+Total	1479	1.802	1.239
+0) None, Do Not Read	72	4.9
+1) One Hour or Less	712	48.1
+2) More Than One Hour to Two Hours	382	25.8
+3) More Than Two Hours to Three Hours	164	11.1
+4) More Than Three Hours to Four Hours	79	5.3
+5) More Than Four Hours to Six Hours	39	2.6
+6) More Than Six Hours	31	2.1
+Missing	51
+
+
+24) HRS_TV
+About how many hours a day do you watch television?
+RANGE: 0 to 6
+	N	Mean	Std. Deviation
+Total	1498	3.027	1.571
+0) None, Do Not Watch	31	2.1
+1) One Hour or Less	245	16.4
+2) More Than One Hour to Two Hours	345	23.0
+3) More Than Two Hours to Three Hours	340	22.7
+4) More Than Three Hours to Four Hours	238	15.9
+5) More Than Four Hours to Six Hours	167	11.1
+6) More Than Six Hours	132	8.8
+Missing	32
+
+
+25) HRS_VOL
+Approximately how many hours do you spend volunteering each week?
+RANGE: 0 to 6
+	N	Mean	Std. Deviation
+Total	1517	1.117	1.838
+0) None, Do Not Volunteer	935	61.6
+1) One Hour or Less	192	12.7
+2) More Than One Hour to Two Hours	127	8.4
+3) More Than Two Hours to Three Hours	62	4.1
+4) More Than Three Hours to Four Hours	48	3.2
+5) More Than Four Hours to Six Hours	47	3.1
+6) More Than Six Hours	106	7.0
+Missing	13
+
+
+26) AD_CLERG
+How much do you personally admire people in each of these lines of work - A great deal, a fair amount, only a little, or none? - Clergy
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	1.729	0.967
+1) A Great Deal	800	52.3
+2) A Fair Amount	487	31.8
+3) Only a Little	138	9.0
+4) None	68	4.4
+5) Don't Know,  Refused	37	2.4
+
+
+27) AD_ARTIS
+How much do you personally admire people in each of these lines of work - A great deal, a fair amount, only a little, or none? - Artists
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.059	0.99
+1) A Great Deal	470	30.7
+2) A Fair Amount	687	44.9
+3) Only a Little	234	15.3
+4) None	90	5.9
+5) Don't Know,  Refused	49	3.2
+
+
+28) AD_SCIEN
+How much do you personally admire people in each of these lines of work - A great deal, a fair amount, only a little, or none? - Scientists
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	1.778	0.976
+1) A Great Deal	737	48.2
+2) A Fair Amount	547	35.8
+3) Only a Little	143	9.3
+4) None	55	3.6
+5) Don't Know,  Refused	48	3.1
+
+
+29) AD_POLIT
+How much do you personally admire people in each of these lines of work - A great deal, a fair amount, only a little, or none? - Politicians
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	3.009	0.913
+1) A Great Deal	86	5.6
+2) A Fair Amount	347	22.7
+3) Only a Little	590	38.6
+4) None	481	31.4
+5) Don't Know,  Refused	26	1.7
+
+
+30) AD_LAWYE
+How much do you personally admire people in each of these lines of work - A great deal, a fair amount, only a little, or none? - Lawyers
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.716	0.977
+1) A Great Deal	165	10.8
+2) A Fair Amount	482	31.5
+3) Only a Little	536	35.0
+4) None	316	20.7
+5) Don't Know,  Refused	31	2.0
+
+
+31) AD_MUSIC
+How much do you personally admire people in each of these lines of work - A great deal, a fair amount, only a little, or none? - Musicians
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	1.835	0.876
+1) A Great Deal	596	39.0
+2) A Fair Amount	697	45.6
+3) Only a Little	161	10.5
+4) None	45	2.9
+5) Don't Know,  Refused	31	2.0
+
+
+32) AD_WRITE
+How much do you personally admire people in each of these lines of work - A great deal, a fair amount, only a little, or none? - Writers
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	1.839	0.952
+1) A Great Deal	648	42.4
+2) A Fair Amount	627	41.0
+3) Only a Little	152	9.9
+4) None	60	3.9
+5) Don't Know,  Refused	43	2.8
+
+
+33) AD_TEACH
+How much do you personally admire people in each of these lines of work - A great deal, a fair amount, only a little, or none? - Teachers
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	1.414	0.707
+1) A Great Deal	1035	67.6
+2) A Fair Amount	401	26.2
+3) Only a Little	62	4.1
+4) None	19	1.2
+5) Don't Know,  Refused	13	0.8
+
+
+34) AD_NURSE
+How much do you personally admire people in each of these lines of work - A great deal, a fair amount, only a little, or none? - Nurses
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	1.358	0.658
+1) A Great Deal	1090	71.2
+2) A Fair Amount	368	24.1
+3) Only a Little	47	3.1
+4) None	14	0.9
+5) Don't Know,  Refused	11	0.7
+
+
+35) RT_MONEY
+Here are some statements.  For each one, please tell me whether you strongly agree, agree somewhat, disagree somewhat, or strongly disagree. - Most artists nowadays will do anything just to make money.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.809	1.115
+1) Strongly Disagree	188	12.3
+2) Disagree	430	28.1
+3) Agree	529	34.6
+4) Strongly Agree	252	16.5
+5) Don't Know, Refused	131	8.6
+
+
+36) RT_EXPRS
+Here are some statements.  For each one, please tell me whether you strongly agree, agree somewhat, disagree somewhat, or strongly disagree. - Most artists are sincerely trying to express something that they feel deep inside themselves.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	3.276	0.884
+1) Strongly Disagree	67	4.4
+2) Disagree	132	8.6
+3) Agree	754	49.3
+4) Strongly Agree	465	30.4
+5) Don't Know, Refused	112	7.3
+
+
+37) RT_DSHON
+Here are some statements.  For each one, please tell me whether you strongly agree, agree somewhat, disagree somewhat, or strongly disagree. - Most of the art one sees in galleries and museums is dishonoring to God.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.499	1.399
+1) Strongly Disagree	427	27.9
+2) Disagree	530	34.6
+3) Agree	216	14.1
+4) Strongly Agree	96	6.3
+5) Don't Know, Refused	261	17.1
+
+
+38) RT_HMYTH
+Here are some statements.  For each one, please tell me whether you strongly agree, agree somewhat, disagree somewhat, or strongly disagree. - Most of the music one hears on the radio these days is harmful to our young people.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.757	1.095
+1) Strongly Disagree	212	13.9
+2) Disagree	435	28.4
+3) Agree	473	30.9
+4) Strongly Agree	333	21.8
+5) Don't Know, Refused	77	5.0
+
+
+39) RT_PAIN
+Here are some statements.  For each one, please tell me whether you strongly agree, agree somewhat, disagree somewhat, or strongly disagree. - Art and music do a good job of expressing the pain that many people experience in their personal lives.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	3.191	0.933
+1) Strongly Disagree	85	5.6
+2) Disagree	179	11.7
+3) Agree	739	48.3
+4) Strongly Agree	413	27.0
+5) Don't Know, Refused	114	7.5
+
+
+40) IMPORTNT
+If we think of the arts as including painting, sculpture, music of all kinds, dance, theater, and creative literature, how important would you say the arts are to you in your own life?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1513	2.636	1.08
+1) Extremely Important	257	17.0
+2) Very Important	408	27.0
+3) Fairly Important	556	36.7
+4) Not Very Important	213	14.1
+5) Not At All Important	79	5.2
+Missing	17
+
+
+41) INT_REL
+Do any of your relatives have a special interest in the arts?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.56	0.539
+1) Yes	707	46.2
+2) No	789	51.6
+3) Don't Know, Refused	34	2.2
+
+
+42) INT_FRND
+Do any of your friends have a special intrest in the arts?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.558	0.549
+1) Yes	718	46.9
+2) No	770	50.3
+3) Don't Know, Refused	42	2.7
+
+
+43) OFT_ATT
+How often, if ever, do you go to church, synagogue, or some other place of worship?  Would you say every week, almost every week, once or twice a month, a few times a year, or never?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1530	2.85	1.556
+1) Every Week	517	33.8
+2) Almost Every Week	144	9.4
+3) Once or Twice a Month	199	13.0
+4) A Few Times a Year	399	26.1
+5) Never	263	17.2
+6) Don't Know, Refused	8	0.5
+
+
+44) REL_PREF
+What is your religious preference? - Protestant, Roman Catholic, Jewish, or some other religion?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1530	2.493	2.469
+1) Protestant	825	53.9
+2) Roman Catholic	394	25.8
+3) Jewish	18	1.2
+4) Mormon	27	1.8
+5) Orthodox Church	9	0.6
+6) Muslim	7	0.5
+7) Other	82	5.4
+8) No Preference, Atheist, Agnostic	133	8.7
+9) Don't Know, Refused	35	2.3
+
+
+45) PROT_A
+[IF PROTESTANT FOR VARIABLE REL_PREF] What specific denomination or faith is that [current religious preference]? (Group A)
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	390	4.49	2.676
+0) Missouri Synod Lutheran	17	4.4
+1) Church of Jesus Christ of Latter-Day Saints (Mormon)	4	1.0
+2) Southern Baptist Convention	145	37.2
+3) American Baptist Convention	26	6.7
+4) National Baptist Convention of America	4	1.0
+5) National Baptist Convention, USA	3	0.8
+6) Other Baptist (specified)	59	15.1
+7) Baptist, Don't Know Denomination	86	22.1
+8) Episcopalian	22	5.6
+9) Evengelical Lutheran Church in America	24	6.2
+Missing	1140
+
+
+46) PROT_B
+[IF PROTESTANT FOR VARIABLE REL_PREF] What specific denomination or faith is that [current religious preference]? (Group B)
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	206	4.568	2.523
+0) Presbyterian Church in America	3	1.5
+1) Other Lutheran (specified)	13	6.3
+2) Lutheran, Don't Know Denomination	18	8.7
+3) United Methodist Church	84	40.8
+4) A.M.E. Zion Church	2	1.0
+5) A.M.E. Church	7	3.4
+6) Other Methodist (specified)	7	3.4
+7) Methodist, Don't Know Denomination	26	12.6
+8) Presbyterian	41	19.9
+9) Presbyterian Church (USA)	5	2.4
+Missing	1324
+
+
+47) PROT_C
+[IF PROTESTANT FOR VARIABLE REL_PREF] What specific denomination or faith is that [current religious preference]? (Group C)
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	175	5.789	3.005
+0) Other Protestant (specified)	17	9.7
+1) Other Presbyterian (specified)	4	2.3
+2) Presbyterian, Don't Know Denomination	5	2.9
+3) United Church of Christ (or Congregationalist or Evangelical and Reformed)	15	8.6
+4) Christian Church (Disciples of Christ)	25	14.3
+5) Church of Nazarene	5	2.9
+6) Assemblies of God	14	8.0
+7) Pentecostal	31	17.7
+8) Fundamentalist	3	1.7
+9) Nondenominational or Independent Church	56	32.0
+Missing	1355
+
+
+48) PROT_D
+[IF PROTESTANT FOR VARIABLE REL_PREF] What specific denomination or faith is that [current religious preference]? (Group D)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	136	2.147	0.715
+1) Protestant Unspecified	26	19.1
+2) None of The Above	64	47.1
+3) Don't Know/Refused	46	33.8
+Missing	1394
+
+
+49) PROT_ID
+[IF PROTESTANT FOR VARIABLE REL_PREF] When it comes to your religious identity, would you say you are a fundamentalist, evangelical, mainline, or liberal Protestant, or do none of these describe you?
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	907	3.691	1.759
+1) Fundamentalist	141	15.5
+2) Evangelical	118	13.0
+3) Mainline	137	15.1
+4) Liberal	173	19.1
+5) None	230	25.4
+6) Other	38	4.2
+7) Don't Know, Refused	70	7.7
+Missing	623
+
+
+50) CATH_ID
+[IF CATHOLIC FOR VARIABLE REL_PREF] When it comes to your religious identity, would you say you are a traditional, moderate, or liberal Catholic, or do none of these describe you?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	394	2.03	1.026
+1) Traditional	155	39.3
+2) Moderate	108	27.4
+3) Liberal	102	25.9
+4) None	25	6.3
+5) Other	1	0.3
+6) Don't Know, Refused	3	0.8
+Missing	1136
+
+
+51) REL_RAIS
+In what religion were you raised?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1530	2.287	2.264
+1) Protestant	813	53.1
+2) Roman Catholic	464	30.3
+3) Jewish	22	1.4
+4) Mormon	28	1.8
+5) Orthodox Church	11	0.7
+6) Muslim	5	0.3
+7) Other	59	3.9
+8) No Preference, Atheist, Agnostic	70	4.6
+9) Don't Know, Refused	58	3.8
+
+
+52) PROTR_A
+[IF PROTESTANT FOR VARIABLE REL_RAIS] What specific denomination or faith is that [in which you were raised]? (Group A)
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	415	4.164	2.675
+0) Missouri Synod Lutheran	20	4.8
+1) Church of Jesus Christ of Latter-Day Saints (Mormon)	4	1.0
+2) Southern Baptist Convention	185	44.6
+3) American Baptist Convention	22	5.3
+4) National Baptist Convention of America	4	1.0
+5) National Baptist Convention, USA	3	0.7
+6) Other Baptist (specified)	45	10.8
+7) Baptist, Don't Know Denomination	91	21.9
+8) Episcopalian	19	4.6
+9) Evengelical Lutheran Church in America	22	5.3
+Missing	1115
+
+
+53) PROTR_B
+[IF PROTESTANT FOR VARIABLE REL_RAIS] What specific denomination or faith is that [in which you were raised]? (Group B)
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	213	4.488	2.604
+0) Presbyterian Church in America	3	1.4
+1) Other Lutheran (specified)	19	8.9
+2) Lutheran, Don't Know Denomination	22	10.3
+3) United Methodist Church	82	38.5
+4) A.M.E. Zion Church	0	0.0
+5) A.M.E. Church	5	2.3
+6) Other Methodist (specified)	4	1.9
+7) Methodist, Don't Know Denomination	32	15.0
+8) Presbyterian	40	18.8
+9) Presbyterian Church (USA)	6	2.8
+Missing	1317
+
+
+54) PROTR_C
+[IF PROTESTANT FOR VARIABLE REL_RAIS] What specific denomination or faith is that [in which you were raised]? (Group C)
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	135	4.867	2.878
+0) Other Protestant (specified)	15	11.1
+1) Other Presbyterian (specified)	4	3.0
+2) Presbyterian, Don't Know Denomination	9	6.7
+3) United Church of Christ (or Congregationalist or Evangelical and Reformed)	17	12.6
+4) Christian Church (Disciples of Christ)	26	19.3
+5) Church of Nazarene	3	2.2
+6) Assemblies of God	10	7.4
+7) Pentecostal	25	18.5
+8) Fundamentalist	4	3.0
+9) Nondenominational or Independent Church	22	16.3
+Missing	1395
+
+
+55) PROTR_D
+[IF PROTESTANT FOR VARIABLE REL_RAIS] What specific denomination or faith is that [in which you were raised]? (Group D)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	109	2.11	0.774
+1) Protestant Unspecified	27	24.8
+2) None of The Above	43	39.4
+3) Don't Know,Refused	39	35.8
+Missing	1421
+
+
+56) ATT_CHLD
+When you were growing up, how often did you attend religious services?  Every week, almost every week, once or twice a month, a few times a year, or never?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1530	1.797	1.228
+1) Every Week	940	61.4
+2) Almost Every Week	255	16.7
+3) Once or Twice a Month	130	8.5
+4) A Few Times a Year	129	8.4
+5) Never	62	4.1
+6) Don't Know, Refused	14	0.9
+
+
+57) MYST_ENC
+When you were growing up, did you ever have a mysterious encounter such as seeing an angel or a spirit?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.87	0.361
+1) Yes	212	13.9
+2) No	1305	85.3
+3) Don't Know, Refused	13	0.8
+
+
+58) SHOP_CH
+As an adult, have you ever shopped around for a church or synagogue - That is, gone to different churches or synagogues or other places of worship in order to compare and decide which one you wanted to attend regularly?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.622	0.497
+1) Yes	588	38.4
+2) NO	933	61.0
+3) Don't Know, Refused	9	0.6
+
+
+59) ATT_SYNA
+Have you ever attended religious services at a synagogue?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.837	0.395
+1) Yes	264	17.3
+2) No	1251	81.8
+3) Don't Know, Refused	15	1.0
+
+
+60) ATT_MOSQ
+Have you ever attended religious services at a mosque?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.97	0.241
+1) Yes	68	4.4
+2) No	1440	94.1
+3) Don't Know, Refused	22	1.4
+
+
+61) ATT_HIND
+Have you ever attended religious services at a Hindu temple?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.988	0.238
+1) Yes	53	3.5
+2) No	1443	94.3
+3) Don't Know, Refused	34	2.2
+
+
+62) KNO_MUSL
+Do you know anyone personally who is Muslim?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.748	0.474
+1) Yes	413	27.0
+2) No	1089	71.2
+3) Don't Know, Refused	28	1.8
+
+
+63) KNO_HNDU
+Do you know anyone personally who is Hindu?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.889	0.389
+1) Yes	210	13.7
+2) No	1280	83.7
+3) Don't Know, Refused	40	2.6
+
+
+64) KNO_BUDH
+Do you know anyone personally who is Buddhist?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.85	0.415
+1) Yes	264	17.3
+2) No	1232	80.5
+3) Don't Know, Refused	34	2.2
+
+
+65) KNO_JEW
+Do you know anyone personally who is Jewish?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.42	0.531
+1) Yes	916	59.9
+2) No	585	38.2
+3) Don't Know, Refused	29	1.9
+
+
+66) REL_SCAL
+On a scale from 1 to 6, where '1' is 'very conservative' and '6' is 'very liberal,' where would you place yourself in terms of your religious views?
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1530	3.722	1.79
+1) 	228	14.9
+2) 	184	12.0
+3) 	288	18.8
+4) 	329	21.5
+5) 	188	12.3
+6) 	213	13.9
+7) 	100	6.5
+
+
+67) POL_SCAL
+On a scale from 1 to 6, where '1' is 'very conservative' and '6' is 'very liberal,' where would you place yourself in terms of your political views?
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1530	3.708	1.793
+1) 	227	14.8
+2) 	196	12.8
+3) 	262	17.1
+4) 	365	23.9
+5) 	195	12.7
+6) 	161	10.5
+7) 	124	8.1
+
+
+68) SP_PRIV
+Do you mostly agree or mostly disagree with each of the following statements? - My religious beliefs are very personal and private.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.297	0.502
+1) Agree	1108	72.4
+2) Disagree	389	25.4
+3) Don't Know, Refused	33	2.2
+
+
+69) SP_NOORG
+Do you mostly agree or mostly disagree with each of the following statements? - My spirituality does not depend on being involved in a religious organization.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.35	0.549
+1) Agree	1050	68.6
+2) Disagree	424	27.7
+3) Don't Know, Refused	56	3.7
+
+
+70) SP_CLERG
+Do you mostly agree or mostly disagree with each of the following statements? - The clergy are generally no more spiritual than other people.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.673	0.636
+1) Agree	642	42.0
+2) Disagree	747	48.8
+3) Don't Know, Refused	141	9.2
+
+
+71) SP_OUTD
+Do you mostly agree or mostly disagree with each of the following statements? - A lot of churches are really out of date.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.77	0.727
+1) Agree	620	40.5
+2) Disagree	642	42.0
+3) Don't Know, Refused	268	17.5
+
+
+72) SP_ALIKE
+Do you mostly agree or mostly disagree with each of the following statements? - All churches are pretty much alike.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.814	0.563
+1) Agree	411	26.9
+2) Disagree	993	64.9
+3) Don't Know, Refused	126	8.2
+
+
+73) SP_NOMAT
+Do you mostly agree or mostly disagree with each of the following statements? - It doesn't matter what you believe, as long as you are a good person.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.429	0.578
+1) Agree	941	61.5
+2) Disagree	521	34.1
+3) Don't Know, Refused	68	4.4
+
+
+74) BRNAGAIN
+Would you say you have been 'born again' or have had a 'born again' experience - That is, a turning point in your life when you committed yourself to Christ?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.595	0.537
+1) Yes	655	42.8
+2) No	839	54.8
+3) Don't Know, Refused	36	2.4
+
+
+75) BIB_INSP
+In your opinion, is each of the following statements about the Bible true or false? - The Bible is the inspired word of God.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.248	0.585
+1) True	1270	83.0
+2) False	141	9.2
+3) Don't Know, Refused	119	7.8
+
+
+76) BIB_LIT
+In your opinion, is each of the following statements about the Bible true or false? - Everything in the Bible should be taken literally, word for word.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.722	0.601
+1) True	548	35.8
+2) False	860	56.2
+3) Don't Know, Refused	122	8.0
+
+
+77) BIB_ERR
+In your opinion, is each of the following statements about the Bible true or false? - The Bible may contain historical or scientific errors.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.597	0.721
+1) True	829	54.2
+2) False	488	31.9
+3) Don't Know, Refused	213	13.9
+
+
+78) BIB_FOLL
+In your opinion, is each of the following statements about the Bible true or false? - The Bible is a detailed book of rules that Christians should try to follow.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.327	0.632
+1) True	1166	76.2
+2) False	227	14.8
+3) Don't Know, Refused	137	9.0
+
+
+79) OFT_READ
+How often do you read the Bible in your daily life when you are at home?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1530	4.768	2.317
+1) Every Day	217	14.2
+2) Nearly Every Day	138	9.0
+3) About Once a Week	187	12.2
+4) Several Times a Month	118	7.7
+5) About Once a Month	83	5.4
+6) Several Times a Year	169	11.0
+7) Hardly Ever or Never	604	39.5
+8) Don't Know, Refused	14	0.9
+
+
+80) OFT_PRAY
+How often do you pray?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1530	2.675	2.31
+1) Every Day	825	53.9
+2) Nearly Every Day	167	10.9
+3) About Once a Week	131	8.6
+4) Several Times a Month	60	3.9
+5) About Once a Month	42	2.7
+6) Several Times a Year	76	5.0
+7) Hardly Ever or Never	198	12.9
+8) Don't Know, Refused	31	2.0
+
+
+81) OFT_MED
+How often do you meditate?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1530	4.505	2.711
+1) Every Day	413	27.0
+2) Nearly Every Day	125	8.2
+3) About Once a Week	123	8.0
+4) Several Times a Month	56	3.7
+5) About Once a Month	43	2.8
+6) Several Times a Year	45	2.9
+7) Hardly Ever or Never	648	42.4
+8) Don't Know, Refused	77	5.0
+
+
+82) PRY_READ
+While you pray or meditate, do you ever read the Bible?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.756	0.627
+1) Yes	533	34.8
+2) No	838	54.8
+3) Don't Know, Refused	159	10.4
+
+
+83) PRY_MED
+While you pray or meditate, do you ever listen to music or sing?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.718	0.646
+1) Yes	595	38.9
+2) No	771	50.4
+3) Don't Know, Refused	164	10.7
+
+
+84) PRY_DEVO
+While you pray or meditate, do you ever read a devotional guide?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.839	0.601
+1) Yes	420	27.5
+2) No	937	61.2
+3) Don't Know, Refused	173	11.3
+
+
+85) PRY_POEM
+While you pray or meditate, do you ever read poetry or literature?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.932	0.537
+1) Yes	276	18.0
+2) No	1082	70.7
+3) Don't Know, Refused	172	11.2
+
+
+86) PRY_CAND
+While you pray or meditate, do you ever light candles?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.94	0.527
+1) Yes	261	17.1
+2) No	1100	71.9
+3) Don't Know, Refused	169	11.0
+
+
+87) PRY_LOOK
+While you pray or meditate, do you ever look at an object, such as a cross or painting?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.914	0.554
+1) Yes	306	20.0
+2) No	1049	68.6
+3) Don't Know, Refused	175	11.4
+
+
+88) INT_RELG
+How interested are you in each of the following - Would you say you are very interested, fairly interested, not very interested, or not at all interested? - Learning about other world religions
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.681	0.997
+1) Very Interested	192	12.5
+2) Fairly Interested	496	32.4
+3) Not Very Interested	460	30.1
+4) Not At All Interested	372	24.3
+5) Don't Know, Refused	10	0.7
+
+
+89) INT_BIBL
+How interested are you in each of the following - Would you say you are very interested, fairly interested, not very interested, or not at all interested? - Learning more about the Bible
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	1.994	1.021
+1) Very Interested	605	39.5
+2) Fairly Interested	514	33.6
+3) Not Very Interested	237	15.5
+4) Not At All Interested	163	10.7
+5) Don't Know, Refused	11	0.7
+
+
+90) INT_HIST
+How interested are you in each of the following - Would you say you are very interested, fairly interested, not very interested, or not at all interested? - Learning more about religious history
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.231	1.034
+1) Very Interested	427	27.9
+2) Fairly Interested	557	36.4
+3) Not Very Interested	330	21.6
+4) Not At All Interested	197	12.9
+5) Don't Know, Refused	19	1.2
+
+
+91) INT_SPIR
+How interested are you in each of the following - Would you say you are very interested, fairly interested, not very interested, or not at all interested? - Learning more about spiritual direction
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.212	1.087
+1) Very Interested	490	32.0
+2) Fairly Interested	482	31.5
+3) Not Very Interested	330	21.6
+4) Not At All Interested	199	13.0
+5) Don't Know, Refused	29	1.9
+
+
+92) INT_ART
+How interested are you in each of the following - Would you say you are very interested, fairly interested, not very interested, or not at all interested? - Learning more about religious art
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.775	0.97
+1) Very Interested	169	11.0
+2) Fairly Interested	405	26.5
+3) Not Very Interested	577	37.7
+4) Not At All Interested	360	23.5
+5) Don't Know, Refused	19	1.2
+
+
+93) INT_MED
+How interested are you in each of the following - Would you say you are very interested, fairly interested, not very interested, or not at all interested? - Learning more about meditation
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.716	1.049
+1) Very Interested	228	14.9
+2) Fairly Interested	415	27.1
+3) Not Very Interested	472	30.8
+4) Not At All Interested	394	25.8
+5) Don't Know, Refused	21	1.4
+
+
+94) IMG_GOD
+Here are some things that people try to imagine.  For each one, is this something that you have spent a lot of time trying to imagine, spent a little time trying to imagine, or have not tried to imagine? - What God is like
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1530	1.719	0.739
+1) A Lot of Time Trying to Imagine	680	44.4
+2) A Little Time Trying to Imagine	613	40.1
+3) Not Tried to Imagine	224	14.6
+4) Don't Know, Refused	13	0.8
+
+
+95) IMG_ANGL
+Here are some things that people try to imagine.  For each one, is this something that you have spent a lot of time trying to imagine, spent a little time trying to imagine, or have not tried to imagine? - What angels are like
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1530	1.924	0.772
+1) A Lot of Time Trying to Imagine	505	33.0
+2) A Little Time Trying to Imagine	649	42.4
+3) Not Tried to Imagine	363	23.7
+4) Don't Know, Refused	13	0.8
+
+
+96) IMG_FEM
+Here are some things that people try to imagine.  For each one, is this something that you have spent a lot of time trying to imagine, spent a little time trying to imagine, or have not tried to imagine? - The feminine characteristics of God
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1530	2.673	0.679
+1) A Lot of Time Trying to Imagine	139	9.1
+2) A Little Time Trying to Imagine	268	17.5
+3) Not Tried to Imagine	1078	70.5
+4) Don't Know, Refused	45	2.9
+
+
+97) IMG_HEVN
+Here are some things that people try to imagine.  For each one, is this something that you have spent a lot of time trying to imagine, spent a little time trying to imagine, or have not tried to imagine? - What heaven is like
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1530	1.658	0.756
+1) A Lot of Time Trying to Imagine	775	50.7
+2) A Little Time Trying to Imagine	518	33.9
+3) Not Tried to Imagine	223	14.6
+4) Don't Know, Refused	14	0.9
+
+
+98) IMG_UNIV
+Here are some things that people try to imagine.  For each one, is this something that you have spent a lot of time trying to imagine, spent a little time trying to imagine, or have not tried to imagine? - How the universe came into existence
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1530	1.825	0.806
+1) A Lot of Time Trying to Imagine	637	41.6
+2) A Little Time Trying to Imagine	539	35.2
+3) Not Tried to Imagine	338	22.1
+4) Don't Know, Refused	16	1.0
+
+
+99) IMG_PLAN
+Here are some things that people try to imagine.  For each one, is this something that you have spent a lot of time trying to imagine, spent a little time trying to imagine, or have not tried to imagine? - If there is life on other planets
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1530	1.971	0.802
+1) A Lot of Time Trying to Imagine	492	32.2
+2) A Little Time Trying to Imagine	612	40.0
+3) Not Tried to Imagine	404	26.4
+4) Don't Know, Refused	22	1.4
+
+
+100) IMG_REAL
+Here are some things that people try to imagine.  For each one, is this something that you have spent a lot of time trying to imagine, spent a little time trying to imagine, or have not tried to imagine? - If there is some other reality beyond the one we know
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1530	2.033	0.855
+1) A Lot of Time Trying to Imagine	501	32.7
+2) A Little Time Trying to Imagine	512	33.5
+3) Not Tried to Imagine	483	31.6
+4) Don't Know, Refused	34	2.2
+
+
+101) ART_GOD
+When you view a fine work of art, does it ever make you feel closer to God?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.784	0.585
+1) Yes	463	30.3
+2) No	935	61.1
+3) Don't Know, Refused	132	8.6
+
+
+102) GRO_SERV
+How important has each of the following been in your efforts to grow spiritually and to develop a closer relationship with God - Very important, fairly important, not very important, or not at all important? - Attending services at your place of worship
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.054	1.135
+1) Very Important	663	43.3
+2) Fairly Important	372	24.3
+3) Not Very Important	275	18.0
+4) Not At All Important	189	12.4
+5) Don't Know, Refused	31	2.0
+
+
+103) GRO_STDY
+How important has each of the following been in your efforts to grow spiritually and to develop a closer relationship with God - very important, fairly important, not very important, or not at all important? - Participating in small Bible study or prayer groups
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.526	1.199
+1) Very Important	424	27.7
+2) Fairly Important	317	20.7
+3) Not Very Important	393	25.7
+4) Not At All Important	352	23.0
+5) Don't Know, Refused	44	2.9
+
+
+104) GRO_CONF
+How important has each of the following been in your efforts to grow spiritually and to develop a closer relationship with God - very important, fairly important, not very important, or not at all important? - Attending seminars, conferences, or retreats
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.895	1.086
+1) Very Important	210	13.7
+2) Fairly Important	310	20.3
+3) Not Very Important	491	32.1
+4) Not At All Important	469	30.7
+5) Don't Know, Refused	50	3.3
+
+
+105) GRO_BIBL
+How important has each of the following been in your efforts to grow spiritually and to develop a closer relationship with God - very important, fairly important, not very important, or not at all important? - Reading the Bible on your own
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.129	1.16
+1) Very Important	611	39.9
+2) Fairly Important	411	26.9
+3) Not Very Important	238	15.6
+4) Not At All Important	239	15.6
+5) Don't Know, Refused	31	2.0
+
+
+106) GRO_MUSI
+How important has each of the following been in your efforts to grow spiritually and to develop a closer relationship with God - Very important, fairly important, not very important, or not at all important? - Listening to music
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.273	1.073
+1) Very Important	423	27.6
+2) Fairly Important	542	35.4
+3) Not Very Important	319	20.8
+4) Not At All Important	216	14.1
+5) Don't Know, Refused	30	2.0
+
+
+107) GRO_SING
+How important has each of the following been in your efforts to grow spiritually and to develop a closer relationship with God - Very important, fairly important, not very important, or not at all important? - Singing or playing a musical instrument
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.848	1.087
+1) Very Important	226	14.8
+2) Fairly Important	318	20.8
+3) Not Very Important	491	32.1
+4) Not At All Important	453	29.6
+5) Don't Know, Refused	42	2.7
+
+
+108) GRO_READ
+How important has each of the following been in your efforts to grow spiritually and to develop a closer relationship with God - Very important, fairly important, not very important, or not at all important? - Reading literature or poetry
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.844	1.037
+1) Very Important	178	11.6
+2) Fairly Important	384	25.1
+3) Not Very Important	510	33.3
+4) Not At All Important	415	27.1
+5) Don't Know, Refused	43	2.8
+
+
+109) IMP_MUS
+Overall, how important would you say music has been to your spiritual life - Very important, fairly important, not very important, or not important at all?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.189	1.052
+1) Very Important	470	30.7
+2) Fairly Important	536	35.0
+3) Not Very Important	313	20.5
+4) Not At All Important	187	12.2
+5) Don't Know, Refused	24	1.6
+
+
+110) IMP_POET
+Overall, how important would you say poetry has been to your spiritual life - Very important, fairly important, not very important, or not important at all?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	3.04	0.961
+1) Very Important	121	7.9
+2) Fairly Important	296	19.3
+3) Not Very Important	532	34.8
+4) Not At All Important	563	36.8
+5) Don't Know, Refused	18	1.2
+
+
+111) IMP_GROW
+How important has it been to you as an adult to grow in your spiritual life?  Would you say extremely important, very important, fairly important, not very important, or not at all important?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1530	2.471	1.287
+1) Extremely Important	428	28.0
+2) Very Important	424	27.7
+3) Fairly Important	359	23.5
+4) Not Very Important	191	12.5
+5) Not At All Important	104	6.8
+6) Don't Know,  Refused	24	1.6
+
+
+112) EFF_SPIR
+How much effort have you devoted to your spiritual life during the past year - Would you say a great deal, a fair amount, only a little, hardly any, or none?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1530	2.458	1.21
+1) A Great Deal	368	24.1
+2) A Fair Amount	521	34.1
+3) Only a Little	336	22.0
+4) Hardly Any	196	12.8
+5) None	96	6.3
+6) Don't Know, Refused	13	0.8
+
+
+113) GDTRUTH
+Here are several pairs of statements.  For each pair, tell me which one comes closest to your own view.
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1455	1.792	0.406
+1) God's Truth Is Fully Revealed Only in The Bible	302	20.8
+2) The Bible is One of The Many Ways in Which God's Truth is Revealed	1153	79.2
+Missing	75
+
+
+114) GDTEACH
+Here are several pairs of statements.  For each pair, tell me which one comes closest to your own view.
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1441	1.627	0.484
+1) Church Doctrines and Teachings are The Best Way to Understand God.	538	37.3
+2) Personal Experience is The Best Way to Understand God.	903	62.7
+Missing	89
+
+
+115) GDNATURE
+Here are several pairs of statements.  For each pair, tell me which one comes closest to your own view.
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1458	1.427	0.495
+1) God's Nature is Fully Revealed to us In Jesus Christ	836	57.3
+2) God's Nature is Ultimately a Mystery	622	42.7
+Missing	72
+
+
+116) GDIMAGE
+Here are several pairs of statements.  For each pair, tell me which one comes closest to your own view.
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1451	1.457	0.498
+1) Pictures and Images Enrich Our Spiritual Lives	788	54.3
+2) Pictures and Images Have no Particular Relationship to Spirituality	663	45.7
+Missing	79
+
+
+117) GDPLSURE
+Here are several pairs of statements.  For each pair, tell me which one comes closest to your own view.
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1451	1.819	0.385
+1) God Above All Wants Us To Avoid Worldly Pleasures	262	18.1
+2) God Above All Wants Us To Enjoy Life	1189	81.9
+Missing	79
+
+
+118) MBRCRCH
+Are you currently a member of a church or synagogue?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.406	0.515
+1) Yes	927	60.6
+2) No	585	38.2
+3) Don't Know, Refused	18	1.2
+
+
+119) CRCHSIZ
+[IF YES TO MBRCRCH] How many people belong to this church or synagogue?  Would you say...(read list)
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	927	4.071	2.049
+1) Fewer Than 100	106	11.4
+2) 100 to Less Than 200	155	16.7
+3) 200 to Less Than 300	120	12.9
+4) 300 to Less Than 500	170	18.3
+5) 500 to Less Than 1,000	138	14.9
+6) 1,000 to Less Than 2,000	92	9.9
+7) 2,000 or More	92	9.9
+8) Don't Know, Refused	54	5.8
+Missing	603
+
+
+120) SATMUSIC
+[IF YES TO MBRCRCH] On a scale from 1 to 5, where '1' means not satistifed and '5' means very satisfied, tell me how satisfied you are with each of the following at your church. - The music
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	927	4.357	0.984
+1) 	16	1.7
+2) 	29	3.1
+3) 	134	14.5
+4) 	202	21.8
+5) 	521	56.2
+6) 	25	2.7
+Missing	603
+
+
+121) SATSERMN
+[IF YES TO MBRCRCH] On a scale from 1 to 5, where '1' means not satistifed and '5' means very satisfied, tell me how satisfied you are with each of the following at your church. - The sermons
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	927	4.293	1.057
+1) 	24	2.6
+2) 	43	4.6
+3) 	126	13.6
+4) 	200	21.6
+5) 	512	55.2
+6) 	22	2.4
+Missing	603
+
+
+122) SATFELL
+[IF YES TO MBRCRCH] On a scale from 1 to 5, where '1' means not satistifed and '5' means very satisfied, tell me how satisfied you are with each of the following at your church. - The fellowship
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	927	4.321	1.03
+1) 	22	2.4
+2) 	31	3.3
+3) 	140	15.1
+4) 	193	20.8
+5) 	516	55.7
+6) 	25	2.7
+Missing	603
+
+
+123) CLSFRND1
+[IF YES TO MBRCRCH] How many people in the congregation are you close personal friends with - Would you say...(read list)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	688	3.308	1.284
+1) None	89	12.9
+2) One or Two	104	15.1
+3) Three or Four	123	17.9
+4) Five to Ten	250	36.3
+5) More Than Ten	122	17.7
+Missing	842
+
+
+124) CLSFRND2
+[IF ANY IN CLSFRND1] Do any of these friends live in your immediate neighborhood?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	838	1.486	0.521
+1) Yes	440	52.5
+2) No	389	46.4
+3) Don't Know, Refused	9	1.1
+Missing	692
+
+
+125) CLSFRND3
+[IF ANY IN CLSFRND1] Do you ever go with any of these friends to plays, art galleries, concerts, or other artistic performances?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	838	1.642	0.556
+1) Yes	333	39.7
+2) No	472	56.3
+3) Don't Know, Refused	33	3.9
+Missing	692
+
+
+126) CLSFRND4
+[IF ANY IN CLSFRND1] Do any of these friends work as artists, musicians, writers, or in arts-related fields?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	838	1.814	0.521
+1) Yes	206	24.6
+2) No	582	69.5
+3) Don't Know,  Refused	50	6.0
+Missing	692
+
+
+127) PCTBLACK
+[IF YES TO MBRCRCH] What percent of the people who attend your congregation are African American?
+RANGE: 0 to 999
+	N	Mean	Std. Deviation
+Total	927	97.902	269.5
+0) 	288	31.1
+1) 	127	13.7
+2) 	54	5.8
+3) 	20	2.2
+4) 	8	0.9
+5) 	90	9.7
+7) 	3	0.3
+8) 	2	0.2
+10) 	69	7.4
+11) 	1	0.1
+12) 	1	0.1
+15) 	5	0.5
+18) 	1	0.1
+20) 	15	1.6
+21) 	1	0.1
+25) 	14	1.5
+26) 	1	0.1
+30) 	5	0.5
+33) 	3	0.3
+40) 	1	0.1
+45) 	1	0.1
+50) 	11	1.2
+70) 	1	0.1
+75) 	5	0.5
+80) 	5	0.5
+82) 	1	0.1
+85) 	3	0.3
+90) 	9	1.0
+92) 	2	0.2
+95) 	6	0.6
+97) 	1	0.1
+98) 	4	0.4
+99) 	6	0.6
+100) 	88	9.5
+999) 	75	8.1
+Missing	603
+
+
+128) PCTASIAN
+[IF YES TO MBRCRCH] What percent of the people who attend your congregation are Asian American?
+RANGE: 0 to 999
+	N	Mean	Std. Deviation
+Total	927	119.195	318.176
+0) 	416	44.9
+1) 	116	12.5
+2) 	54	5.8
+3) 	26	2.8
+4) 	6	0.6
+5) 	78	8.4
+6) 	3	0.3
+7) 	3	0.3
+9) 	1	0.1
+10) 	48	5.2
+11) 	2	0.2
+15) 	10	1.1
+20) 	16	1.7
+21) 	2	0.2
+25) 	10	1.1
+30) 	7	0.8
+33) 	2	0.2
+35) 	1	0.1
+37) 	1	0.1
+40) 	3	0.3
+50) 	7	0.8
+80) 	1	0.1
+90) 	2	0.2
+95) 	1	0.1
+100) 	4	0.4
+999) 	107	11.5
+Missing	603
+
+
+129) PCTHISP
+[IF YES TO MBRCRCH] What percent of the people who attend your congregation are Hispanic?
+RANGE: 0 to 999
+	N	Mean	Std. Deviation
+Total	927	123.228	317.059
+0) 	378	40.8
+1) 	90	9.7
+2) 	48	5.2
+3) 	17	1.8
+4) 	4	0.4
+5) 	64	6.9
+6) 	1	0.1
+7) 	2	0.2
+8) 	5	0.5
+10) 	78	8.4
+11) 	1	0.1
+12) 	1	0.1
+13) 	1	0.1
+14) 	1	0.1
+15) 	11	1.2
+18) 	1	0.1
+20) 	20	2.2
+21) 	1	0.1
+25) 	12	1.3
+27) 	2	0.2
+30) 	12	1.3
+33) 	3	0.3
+35) 	4	0.4
+40) 	8	0.9
+45) 	1	0.1
+50) 	18	1.9
+60) 	7	0.8
+65) 	1	0.1
+70) 	2	0.2
+75) 	1	0.1
+80) 	3	0.3
+85) 	1	0.1
+90) 	6	0.6
+95) 	1	0.1
+97) 	1	0.1
+98) 	1	0.1
+99) 	1	0.1
+100) 	11	1.2
+999) 	107	11.5
+Missing	603
+
+
+130) ARTDEEP
+Do you mostly agree or mostly disagree with each of these statements? Art can help people to deepen their spirituality.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.584	0.727
+1) Mostly Agree	855	55.9
+2) Mostly Disagree	457	29.9
+3) Don't Know, Refused	218	14.2
+
+
+131) ARTAGNST
+Do you mostly agree or mostly disagree with each of these statements?  Religious leaders should speak out strongly against contemporary art.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	2.027	0.568
+1) Mostly Agree	226	14.8
+2) Mostly Disagree	1036	67.7
+3) Don't Know, Refused	268	17.5
+
+
+132) ARTDSTRY
+Do you mostly agree or mostly disagree with each of these statements? Contemporary artists are destroying the moral fabric of our society.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	2.041	0.581
+1) Mostly Agree	228	14.9
+2) Mostly Disagree	1012	66.1
+3) Don't Know, Refused	290	19.0
+
+
+133) ARTKNOW
+Do you mostly agree or mostly disagree with each of these statements? I know a lot about contemporary art.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.935	0.507
+1) Mostly Agree	249	16.3
+2) Mostly Disagree	1131	73.9
+3) Don't Know, Refused	150	9.8
+
+
+134) ARTCREAT
+Do you mostly agree or mostly disagree with each of these statements? Churches should do more to encourage their members' creativity and imagination.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.472	0.71
+1) Mostly Agree	1003	65.6
+2) Mostly Disagree	332	21.7
+3) Don't Know, Refused	195	12.7
+
+
+135) ARTTALNT
+Do you mostly agree or mostly disagree with each of these statements? Churches should encourage the artistic talents of their members.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.386	0.679
+1) Mostly Agree	1111	72.6
+2) Mostly Disagree	248	16.2
+3) Don't Know, Refused	171	11.2
+
+
+136) ARTTEACH
+Do you mostly agree or mostly disagree with each of these statements? Music is an excellent way to teach children about the Bible.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.247	0.579
+1) Mostly Agree	1266	82.7
+2) Mostly Disagree	150	9.8
+3) Don't Know, Refused	114	7.5
+
+
+137) ARTSPRIT
+Do you mostly agree or mostly disagree with each of these statements?  Any art or music can be a way to communicate one's spirituality.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.375	0.655
+1) Mostly Agree	1105	72.2
+2) Mostly Disagree	276	18.0
+3) Don't Know, Refused	149	9.7
+
+
+138) ARTPRMOT
+Do you mostly agree or mostly disagree with each of these statements? Churches should only promote Christian art or music.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.767	0.634
+1) Mostly Agree	527	34.4
+2) Mostly Disagree	833	54.4
+3) Don't Know, Refused	170	11.1
+
+
+139) ARTEXPER
+Do you mostly agree or mostly disagree with each of these statements? Churches should experiment more with new forms of music or art.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.661	0.758
+1) Mostly Agree	787	51.4
+2) Mostly Disagree	475	31.0
+3) Don't Know, Refused	268	17.5
+
+
+140) ARTBIBLE
+Do you mostly agree or mostly disagree with each of these statements? There is a lot of music and poetry in the Bible.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.524	0.776
+1) Mostly Agree	997	65.2
+2) Mostly Disagree	264	17.3
+3) Don't Know, Refused	269	17.6
+
+
+141) ARTCLAS1
+At any time in your life have you ever taken a class in art, art history, or art appreciation?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.496	0.505
+1) Yes	775	50.7
+2) No	751	49.1
+3) Don't Know, Refused	4	0.3
+
+
+142) ARTCLAS2
+[IF YES TO ARTCLAS1] How much of an impact did this class have on you - A large impact, a small impact, or no impact?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	775	1.907	0.687
+1) A Large Impact	219	28.3
+2) A Small Impact	412	53.2
+3) No Impact	141	18.2
+4) Don't Know, Refused	3	0.4
+Missing	755
+
+
+143) ARTCLAS3
+[IF YES TO ARTCLAS1] Did it have affect your religious views in any way?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	775	1.952	0.427
+1) Yes	90	11.6
+2) No	632	81.5
+3) Don't Know, Refused	53	6.8
+Missing	755
+
+
+144) READHIST
+In school or on your own, how much reading have you done about the history of religion in the United States - A great deal, a fair amount, a little, or hardly any?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.865	1.002
+1) A Great Deal	161	10.5
+2) A Fair Amount	382	25.0
+3) A Little	510	33.3
+4) Hardly Any	457	29.9
+5) Don't Know, Refused	20	1.3
+
+
+145) LONELY
+Has there ever been a time in your life when you were ill, lonely, troubled, or getting over the loss of a loved one?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.15	0.38
+1) Yes	1314	85.9
+2) NO	203	13.3
+3) Don't Know, Refused	13	0.8
+
+
+146) LONEMUSI
+[IF YES TO LONELY] Was each of the following very helpful, somewhat helpful, or not helpful during this time? - Music
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1314	1.967	0.878
+1) Very Helpful	487	37.1
+2) Somewhat Helpful	424	32.3
+3) Not Helpful	362	27.5
+4) Don't Know, Refused	41	3.1
+Missing	216
+
+
+147) LONEART
+[IF YES TO LONELY] Was each of the following very helpful, somewhat helpful, or not helpful during this time? - Art
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1314	3.036	0.876
+1) Very Helpful	98	7.5
+2) Somewhat Helpful	187	14.2
+3) Not Helpful	599	45.6
+4) Don't Know, Refused	430	32.7
+Missing	216
+
+
+148) LONELIT
+[IF YES TO LONELY] Was each of the following very helpful, somewhat helpful, or not helpful during this time? - Literature, such as a novel or poetry
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1314	2.407	0.825
+1) Very Helpful	241	18.3
+2) Somewhat Helpful	344	26.2
+3) Not Helpful	682	51.9
+4) Don't Know, Refused	47	3.6
+Missing	216
+
+
+149) LONEBIBL
+[IF YES TO LONELY] Was each of the following very helpful, somewhat helpful, or not helpful during this time? - The Bible
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1314	1.943	0.916
+1) Very Helpful	552	42.0
+2) Somewhat Helpful	324	24.7
+3) Not Helpful	399	30.4
+4) Don't Know, Refused	39	3.0
+Missing	216
+
+
+150) LONEHAND
+[IF YES TO LONELY] Was each of the following very helpful, somewhat helpful, or not helpful during this time? - Doing something with your hands, such as sewing, woodworking, or painting
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1314	1.957	0.886
+1) Very Helpful	516	39.3
+2) Somewhat Helpful	368	28.0
+3) Not Helpful	401	30.5
+4) Don't Know, Refused	29	2.2
+Missing	216
+
+
+151) LONETALK
+[IF YES TO LONELY] Was each of the following very helpful, somewhat helpful, or not helpful during this time? - Talking with friends
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1314	1.373	0.689
+1) Very Helpful	955	72.7
+2) Somewhat Helpful	255	19.4
+3) Not Helpful	77	5.9
+4) Don't Know, Refused	27	2.1
+Missing	216
+
+
+152) EXPDEVEL
+Please tell me if you agree strongly, agree somewhat, disagree somewhat, or disagree strongly with each of these statements. - God wants every person to develop his or her gifts to the fullest possible extent.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	3.714	0.718
+1) Strongly Agree	38	2.5
+2) Agree	35	2.3
+3) Disagree	342	22.4
+4) Strongly Disagree	1026	67.1
+5) Don't Know, Refused	89	5.8
+
+
+153) EXPDEEP
+Please tell me if you agree strongly, agree somewhat, disagree somewhat, or disagree strongly with each of these statements. - Art, music, and literature help us to experience the deeper meaning and purpose of life.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	3.291	0.865
+1) Strongly Agree	53	3.5
+2) Agree	153	10.0
+3) Disagree	722	47.2
+4) Strongly Disagree	500	32.7
+5) Don't Know, Refused	102	6.7
+
+
+154) EXPTRAD
+Please tell me if you agree strongly, agree somewhat, disagree somewhat, or disagree strongly with each of these statements. - Religious traditions are enriched by the art and music that has been a part of these traditions.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	3.318	0.872
+1) Strongly Agree	55	3.6
+2) Agree	131	8.6
+3) Disagree	736	48.1
+4) Strongly Disagree	489	32.0
+5) Don't Know, Refused	119	7.8
+
+
+155) EXPBEAUT
+Please tell me if you agree strongly, agree somewhat, disagree somewhat, or disagree strongly with each of these statements. - A beautiful painting or a beautiful piece of music is pleasing to God.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	3.545	0.97
+1) Strongly Agree	59	3.9
+2) Agree	117	7.6
+3) Disagree	521	34.1
+4) Strongly Disagree	597	39.0
+5) Don't Know, Refused	236	15.4
+
+
+156) EXPMSTRY
+Please tell me if you agree strongly, agree somewhat, disagree somewhat, or disagree strongly with each of these statements. - God is a mystery and can never be understood by humans.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.861	1.206
+1) Strongly Agree	276	18.0
+2) Agree	304	19.9
+3) Disagree	408	26.7
+4) Strongly Disagree	441	28.8
+5) Don't Know, Refused	101	6.6
+
+
+157) EXPRVEAL
+Please tell me if you agree strongly, agree somewhat, disagree somewhat, or disagree strongly with each of these statements. - God has been fully revealed to humans in Jesus Christ.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	3.254	1.054
+1) Strongly Agree	110	7.2
+2) Agree	236	15.4
+3) Disagree	478	31.2
+4) Strongly Disagree	567	37.1
+5) Don't Know, Refused	139	9.1
+
+
+158) EXRELTR
+Please tell me if you agree strongly, agree somewhat, disagree somewhat, or disagree strongly with each of these statements. - All religions contain some truth about God.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	3.329	1.034
+1) Strongly Agree	106	6.9
+2) Agree	155	10.1
+3) Disagree	574	37.5
+4) Strongly Disagree	519	33.9
+5) Don't Know, Refused	176	11.5
+
+
+159) EXPINSID
+Please tell me if you agree strongly, agree somewhat, disagree somewhat, or disagree strongly with each of these statements. - God can only be known as people empty their minds and look inside themselves.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	3.08	1.189
+1) Strongly Agree	171	11.2
+2) Agree	292	19.1
+3) Disagree	530	34.6
+4) Strongly Disagree	318	20.8
+5) Don't Know, Refused	219	14.3
+
+
+160) EXPUNDER
+Please tell me if you agree strongly, agree somewhat, disagree somewhat, or disagree strongly with each of these statements. - Christianity is the best way to understand God.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	3.125	1.123
+1) Strongly Agree	158	10.3
+2) Agree	274	17.9
+3) Disagree	449	29.3
+4) Strongly Disagree	516	33.7
+5) Don't Know, Refused	133	8.7
+
+
+161) EXPDOCTR
+Please tell me if you agree strongly, agree somewhat, disagree somewhat, or disagree strongly with each of these statements. - Religious doctrines get in the way of truly relating to God.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.944	1.166
+1) Strongly Agree	164	10.7
+2) Agree	397	25.9
+3) Disagree	525	34.3
+4) Strongly Disagree	249	16.3
+5) Don't Know, Refused	195	12.7
+
+
+162) EXPRELAT
+Please tell me if you agree strongly, agree somewhat, disagree somewhat, or disagree strongly with each of these statements. - Church teachings are the best way we have of relating to God.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.9	1.052
+1) Strongly Agree	155	10.1
+2) Agree	369	24.1
+3) Disagree	576	37.6
+4) Strongly Disagree	334	21.8
+5) Don't Know, Refused	96	6.3
+
+
+163) EXPCNTMP
+Please tell me if you agree strongly, agree somewhat, disagree somewhat, or disagree strongly with each of these statements. - Most contemporary artists and musicians have no respect for the teachings of the churches.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.678	1.376
+1) Strongly Agree	320	20.9
+2) Agree	534	34.9
+3) Disagree	272	17.8
+4) Strongly Disagree	126	8.2
+5) Don't Know, Refused	278	18.2
+
+
+164) DISGMOVI
+During the past twelve months have you done any of the following? - seen a preview for a movie that disgusted you
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.519	0.557
+1) Yes	782	51.1
+2) No	702	45.9
+3) Don't Know, Refused	46	3.0
+
+
+165) DISGART
+During the past twelve months have you done any of the following? - seen a work of art that disgusted you
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.8	0.469
+1) Yes	352	23.0
+2) No	1132	74.0
+3) Don't Know, Refused	46	3.0
+
+
+166) DISGSONG
+During the past twelve months have you done any of the following? - Heard a song that disgusted you
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.457	0.545
+1) Yes	868	56.7
+2) No	625	40.8
+3) Don't Know, Refused	37	2.4
+
+
+167) DISGSERM
+During the past twelve months have you done any of the following? - Heard a sermon about the dangers of contemporary art or music
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.908	0.365
+1) Yes	178	11.6
+2) No	1314	85.9
+3) Don't Know, Refused	38	2.5
+
+
+168) DISGMAG
+During the past twelve months have you done any of the following? - Read a story about art or music in a religious magazine or newspaper
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.79	0.458
+1) Yes	355	23.2
+2) No	1142	74.6
+3) Don't Know, Refused	33	2.2
+
+
+169) UPLIFT1
+Have there been any times in the past year when you felt especially uplifted by seeing or hearing something beautiful?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.231	0.467
+1) Yes	1208	79.0
+2) No	291	19.0
+3) Don't Know, Refused	31	2.0
+
+
+170) UPLIFT2
+[IF YES TO UPLIFT1] Did you experience this during a religious service?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1208	1.58	0.537
+1) Yes	534	44.2
+2) No	647	53.6
+3) Don't Know, Refused	27	2.2
+Missing	322
+
+
+171) UPLIFT3
+[IF YES TO UPLIFT1] Did you experience this out in nature?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1208	1.345	0.528
+1) Yes	823	68.1
+2) No	353	29.2
+3) Don't Know, Refused	32	2.6
+Missing	322
+
+
+172) UPLIFT4
+[IF YES TO UPLIFT1] Did you experience this listening to music?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1208	1.349	0.529
+1) Yes	819	67.8
+2) No	357	29.6
+3) Don't Know, Refused	32	2.6
+Missing	322
+
+
+173) UPLIFT5
+[IF YES TO UPLIFT1] Did you experience this viewing a work of art?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1208	1.778	0.496
+1) Yes	312	25.8
+2) No	852	70.5
+3) Don't Know, Refused	44	3.6
+Missing	322
+
+
+174) ABSORB1
+Can you think of any times in the past week or so when you have become so absorbed in something that you lost track of time or forgot about yourself?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.415	0.52
+1) Yes	916	59.9
+2) No	593	38.8
+3) Don't Know, Refused	21	1.4
+
+
+175) ABSORB2
+[IF YES TO ABSORB1] Did this happen to you when you were at work?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	916	1.646	0.553
+1) Yes	359	39.2
+2) No	522	57.0
+3) Don't Know, Refused	35	3.8
+Missing	614
+
+
+176) ABSORB3
+[IF YES TO ABSORB1] Did this happen to you when you were daydreaming?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	916	1.588	0.569
+1) Yes	414	45.2
+2) No	465	50.8
+3) Don't Know, Refused	37	4.0
+Missing	614
+
+
+177) ABSORB4
+[IF YES TO ABSORB1] Did this happen to you when you were listening to music?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	916	2.063	0.815
+1) Yes	277	30.2
+2) No	304	33.2
+3) Don't Know, Refused	335	36.6
+Missing	614
+
+
+178) ABSORB5
+[IF YES TO ABSORB1] Did this happen to you when you were working on a hobby or some other personal project?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	916	1.567	0.583
+1) Yes	440	48.0
+2) No	433	47.3
+3) Don't Know, Refused	43	4.7
+Missing	614
+
+
+179) ABSORB6
+[IF YES TO ABSORB1] Did this happen to you when you were praying or meditating?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	916	1.723	0.539
+1) Yes	295	32.2
+2) No	580	63.3
+3) Don't Know, Refused	41	4.5
+Missing	614
+
+
+180) ABSORB7
+[IF YES TO ABSORB1] Did this happen to you when you were reading?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	916	1.598	0.561
+1) Yes	402	43.9
+2) No	480	52.4
+3) Don't Know, Refused	34	3.7
+Missing	614
+
+
+181) ABSORB8
+[IF YES TO ABSORB1] Did this happen to you when you were watching television?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	916	1.709	0.544
+1) Yes	308	33.6
+2) No	567	61.9
+3) Don't Know, Refused	41	4.5
+Missing	614
+
+
+182) INC_SPIR
+In the past five years, has your interest in each of the following been increasing, staying the same, or decreasing? - Spirituality
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1530	1.66	0.67
+1) Increasing	666	43.5
+2) Staying The Same	744	48.6
+3) Decreasing	94	6.1
+4) Don't Know, Refused	26	1.7
+
+
+183) INC_REL
+In the past five years, has your interest in each of the following been increasing, staying the same, or decreasing? - Religion
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1530	1.769	0.681
+1) Increasing	544	35.6
+2) Staying The Same	825	53.9
+3) Decreasing	132	8.6
+4) Don't Know, Refused	29	1.9
+
+
+184) INC_ARTS
+In the past five years, has your interest in each of the following been increasing, staying the same, or decreasing? - The arts
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1530	2.016	0.646
+1) Increasing	254	16.6
+2) Staying The Same	1051	68.7
+3) Decreasing	172	11.2
+4) Don't Know, Refused	53	3.5
+
+
+185) INC_SCI
+In the past five years, has your interest in each of the following been increasing, staying the same, or decreasing? - Science
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1530	1.916	0.678
+1) Increasing	379	24.8
+2) Staying The Same	942	61.6
+3) Decreasing	167	10.9
+4) Don't Know, Refused	42	2.7
+
+
+186) INC_MUSI
+In the past five years, has your interest in each of the following been increasing, staying the same, or decreasing? - Music
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1530	1.729	0.625
+1) Increasing	534	34.9
+2) Staying The Same	904	59.1
+3) Decreasing	64	4.2
+4) Don't Know, Refused	28	1.8
+
+
+187) INC_ORGS
+In the past five years, has your interest in each of the following been increasing, staying the same, or decreasing? - Community organizations
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1530	1.974	0.687
+1) Increasing	339	22.2
+2) Staying The Same	934	61.0
+3) Decreasing	215	14.1
+4) Don't Know, Refused	42	2.7
+
+
+188) INC_POLI
+In the past five years, has your interest in each of the following been increasing, staying the same, or decreasing? - National politics
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1530	2.133	0.803
+1) Increasing	359	23.5
+2) Staying The Same	653	42.7
+3) Decreasing	473	30.9
+4) Don't Know, Refused	45	2.9
+
+
+189) US_FUTUR
+On the whole, how do you feel about the future of our country - Very optimistic, fairly optimistic, fairly pessimistic, or very pessimistic?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.25	1.045
+1) Very Optimistic	348	22.7
+2) Fairly Optimistic	727	47.5
+3) Fairly Pessimistic	249	16.3
+4) Very Pessimistic	137	9.0
+5) Don't Know,  Refused	69	4.5
+
+
+190) PRB_IND
+How serious a problem do you think each of the following is in our society - Extremely serious, serious, a small problem, or not a problem? - Individualism
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.829	1.145
+1) Extremely Serious	203	13.3
+2) Serious	446	29.2
+3) A Small Problem	392	25.6
+4) Not A Problem	388	25.4
+5) Don't Know,  Refused	101	6.6
+
+
+191) PRB_MAT
+How serious a problem do you think each of the following is in our society - Extremely serious, serious, a small problem, or not a problem? - Materialism
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.114	1.064
+1) Extremely Serious	505	33.0
+2) Serious	572	37.4
+3) A Small Problem	284	18.6
+4) Not A Problem	112	7.3
+5) Don't Know,  Refused	57	3.7
+
+
+192) PRB_BRAK
+How serious a problem do you think each of the following is in our society - Extremely serious, serious, a small problem, or not a problem? - The breakdown of community
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	1.946	1.014
+1) Extremely Serious	589	38.5
+2) Serious	619	40.5
+3) A Small Problem	192	12.5
+4) Not A Problem	75	4.9
+5) Don't Know,  Refused	55	3.6
+
+
+193) PRB_CORR
+How serious a problem do you think each of the following is in our society - Extremely serious, serious, a small problem, or not a problem? - Moral corruption
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	1.685	0.936
+1) Extremely Serious	825	53.9
+2) Serious	482	31.5
+3) A Small Problem	144	9.4
+4) Not A Problem	38	2.5
+5) Don't Know,  Refused	41	2.7
+
+
+194) PRB_SELF
+How serious a problem do you think each of the following is in our society - Extremely serious, serious, a small problem, or not a problem? - Selfishness
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	1.941	0.992
+1) Extremely Serious	595	38.9
+2) Serious	588	38.4
+3) A Small Problem	236	15.4
+4) Not A Problem	64	4.2
+5) Don't Know,  Refused	47	3.1
+
+
+195) PRB_TURN
+How serious a problem do you think each of the following is in our society - Extremely serious, serious, a small problem, or not a problem? - People turning away from God
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.101	1.15
+1) Extremely Serious	573	37.5
+2) Serious	515	33.7
+3) A Small Problem	238	15.6
+4) Not A Problem	122	8.0
+5) Don't Know,  Refused	82	5.4
+
+
+196) PRB_POOR
+How serious a problem do you think each of the following is in our society - Extremely serious, serious, a small problem, or not a problem? - The condition of the poor
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	1.729	0.874
+1) Extremely Serious	709	46.3
+2) Serious	626	40.9
+3) A Small Problem	133	8.7
+4) Not A Problem	24	1.6
+5) Don't Know,  Refused	38	2.5
+
+
+197) PRB_MNEY
+How serious a problem do you think each of the following is in our society - Extremely serious, serious, a small problem, or not a problem? - Too much emphasis on money
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	1.835	0.933
+1) Extremely Serious	654	42.7
+2) Serious	600	39.2
+3) A Small Problem	185	12.1
+4) Not A Problem	57	3.7
+5) Don't Know,  Refused	34	2.2
+
+
+198) PRB_RIGD
+How serious a problem do you think each of the following is in our society - Extremely serious, serious, a small problem, or not a problem? - People being too rigid and dogmatic in their thinking
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.252	1.139
+1) Extremely Serious	440	28.8
+2) Serious	570	37.3
+3) A Small Problem	316	20.7
+4) Not A Problem	102	6.7
+5) Don't Know,  Refused	102	6.7
+
+
+199) INV_CHAR
+Do you, yourself, happen to be involved in any charity or social service activities, such as helping the poor, the sick, or the elderly?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	1.653	0.491
+1) Yes	542	35.4
+2) No	977	63.9
+3) Don't Know, Refused	11	0.7
+
+
+200) GIVECONG
+During the last year, approximately how much money did you and the other family members in your household contribute to each of the following? - Your local congregation
+RANGE: 0 to 99998
+	N	Mean	Std. Deviation
+Total	1327	747.879	3222.995
+
+
+201) GIVEREL
+During the last year, approximately how much money did you and the other family members in your household contribute to each of the following? - Other religious organizations, programs, or causes
+RANGE: 0 to 7500
+	N	Mean	Std. Deviation
+Total	1331	103.117	442.693
+
+
+202) GIVEARTS
+During the last year, approximately how much money did you and the other family members in your household contribute to each of the following? - Arts or cultural organizations
+RANGE: 0 to 3000
+	N	Mean	Std. Deviation
+Total	1343	34.454	181.552
+0) 	1135	84.5
+2) 	1	0.1
+3) 	1	0.1
+5) 	2	0.1
+8) 	1	0.1
+10) 	7	0.5
+15) 	2	0.1
+20) 	11	0.8
+25) 	10	0.7
+30) 	3	0.2
+35) 	1	0.1
+40) 	2	0.1
+45) 	1	0.1
+50) 	26	1.9
+65) 	1	0.1
+70) 	1	0.1
+75) 	5	0.4
+80) 	1	0.1
+99) 	1	0.1
+100) 	60	4.5
+120) 	2	0.1
+150) 	9	0.7
+200) 	22	1.6
+250) 	3	0.2
+300) 	6	0.4
+400) 	2	0.1
+500) 	10	0.7
+600) 	4	0.3
+700) 	1	0.1
+1000) 	5	0.4
+1500) 	1	0.1
+2000) 	4	0.3
+2500) 	1	0.1
+3000) 	1	0.1
+Missing	187
+
+
+203) GIVENONR
+During the last year, approximately how much money did you and the other family members in your household contribute to each of the following? - Other nonreligious charities, organizations, or causes
+RANGE: 0 to 9000
+	N	Mean	Std. Deviation
+Total	1360	141.368	495.083
+0) 	679	49.9
+3) 	1	0.1
+5) 	7	0.5
+6) 	1	0.1
+10) 	19	1.4
+12) 	1	0.1
+15) 	6	0.4
+20) 	34	2.5
+25) 	49	3.6
+30) 	16	1.2
+35) 	2	0.1
+40) 	2	0.1
+45) 	1	0.1
+50) 	97	7.1
+52) 	1	0.1
+60) 	4	0.3
+70) 	2	0.1
+75) 	14	1.0
+80) 	1	0.1
+90) 	2	0.1
+99) 	1	0.1
+100) 	135	9.9
+104) 	1	0.1
+110) 	1	0.1
+120) 	4	0.3
+125) 	2	0.1
+150) 	14	1.0
+200) 	91	6.7
+240) 	1	0.1
+250) 	10	0.7
+300) 	34	2.5
+400) 	12	0.9
+500) 	50	3.7
+600) 	4	0.3
+700) 	2	0.1
+720) 	1	0.1
+750) 	1	0.1
+800) 	4	0.3
+1000) 	31	2.3
+1200) 	1	0.1
+1500) 	2	0.1
+2000) 	13	1.0
+3000) 	1	0.1
+4500) 	1	0.1
+5000) 	2	0.1
+9000) 	2	0.1
+Missing	170
+
+
+204) NO_HOMES
+About how many different addresses have you lived at during your lifetime?
+RANGE: 1 to 500
+	N	Mean	Std. Deviation
+Total	1507	9.548	20.127
+1) 	24	1.6
+2) 	100	6.6
+3) 	178	11.8
+4) 	182	12.1
+5) 	183	12.1
+6) 	133	8.8
+7) 	74	4.9
+8) 	107	7.1
+9) 	42	2.8
+10) 	145	9.6
+11) 	12	0.8
+12) 	62	4.1
+13) 	14	0.9
+14) 	12	0.8
+15) 	72	4.8
+16) 	5	0.3
+17) 	6	0.4
+18) 	6	0.4
+19) 	1	0.1
+20) 	61	4.0
+21) 	1	0.1
+22) 	4	0.3
+23) 	4	0.3
+24) 	1	0.1
+25) 	17	1.1
+26) 	1	0.1
+27) 	1	0.1
+28) 	1	0.1
+30) 	22	1.5
+31) 	2	0.1
+32) 	2	0.1
+35) 	2	0.1
+39) 	1	0.1
+40) 	10	0.7
+45) 	1	0.1
+50) 	8	0.5
+60) 	1	0.1
+67) 	1	0.1
+75) 	1	0.1
+80) 	1	0.1
+100) 	4	0.3
+500) 	2	0.1
+Missing	23
+
+
+205) KNO_NBRS
+How many of the people in your neighborhood do you know well?  Would you say... (read list)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1530	3.248	1.232
+1) Almost All of Them	208	13.6
+2) At Least Half	215	14.1
+3) About A Quarter	263	17.2
+4) Only A Few	688	45.0
+5) Nobody	145	9.5
+6) Don't Know, Refused	11	0.7
+
+
+206) PAR_SES
+When you were growing up, were your parents... (read list)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	2.848	0.876
+1) Very Well Off Financially	58	3.8
+2) Fairly Comfortable Financially	528	34.5
+3) A Little Sqeezed Financially	550	35.9
+4) Fairly Hard Up Financially	376	24.6
+5) Don't Know,  Refused	18	1.2
+
+
+207) PAR_DEG
+Did either of your parents have a college degree?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1530	3.469	1.049
+1) Yes, Both	152	9.9
+2) Yes, Father Only	157	10.3
+3) Yes, Mother Only	80	5.2
+4) No, Neither	1103	72.1
+5) Don't Know, Refused	38	2.5
+
+
+208) MUSRADIO
+Here is a list of activities.  Please tell me if you have done each one within the past 12 months. - Listened to music on the radio
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.918	0.274
+0) No	125	8.2
+1) Yes	1405	91.8
+
+
+209) MUSBUY1
+Here is a list of activities.  Please tell me if you have done each one within the past 12 months. - Purchased music on a tape or compact disc
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.681	0.466
+0) No	488	31.9
+1) Yes	1042	68.1
+
+
+210) MUSPLAY
+Here is a list of activities.  Please tell me if you have done each one within the past 12 months. - Played a musical instrument
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.195	0.397
+0) No	1231	80.5
+1) Yes	299	19.5
+
+
+211) MUSOPERA
+Here is a list of activities.  Please tell me if you have done each one within the past 12 months. - Attended a live concert or opera
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.301	0.459
+0) No	1070	69.9
+1) Yes	460	30.1
+
+
+212) MUSGALRY
+Here is a list of activities.  Please tell me if you have done each one within the past 12 months. - Visited an art museum or gallery
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.259	0.438
+0) No	1133	74.1
+1) Yes	397	25.9
+
+
+213) MUSCRAFT
+Here is a list of activities.  Please tell me if you have done each one within the past 12 months. - Made art or craft objects
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.324	0.468
+0) No	1035	67.6
+1) Yes	495	32.4
+
+
+214) MUSNOVEL
+Here is a list of activities.  Please tell me if you have done each one within the past 12 months. - Read a novel
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.499	0.5
+0) No	767	50.1
+1) Yes	763	49.9
+
+
+215) MUSINSP
+Here is a list of activities.  Please tell me if you have done each one within the past 12 months. - Read religious or inspirational literature
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.518	0.5
+0) No	737	48.2
+1) Yes	793	51.8
+
+
+216) MUSPOEM1
+Here is a list of activities.  Please tell me if you have done each one within the past 12 months. - Read poetry
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.297	0.457
+0) No	1076	70.3
+1) Yes	454	29.7
+
+
+217) MUSPOEM2
+Here is a list of activities.  Please tell me if you have done each one within the past 12 months. - Written poetry
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.096	0.295
+0) No	1383	90.4
+1) Yes	147	9.6
+
+
+218) MUSDANCE
+Here is a list of activities.  Please tell me if you have done each one within the past 12 months. - Gone dancing
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.303	0.46
+0) No	1067	69.7
+1) Yes	463	30.3
+
+
+219) MUSMOVIE
+Here is a list of activities.  Please tell me if you have done each one within the past 12 months. - Gone out to see a movie
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.622	0.485
+0) No	579	37.8
+1) Yes	951	62.2
+
+
+220) MUSPHOTO
+Here is a list of activities.  Please tell me if you have done each one within the past 12 months. - Taken photographs
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.653	0.476
+0) No	531	34.7
+1) Yes	999	65.3
+
+
+221) MUSBUY2
+Here is a list of activities.  Please tell me if you have done each one within the past 12 months. - Purchased a painting, sculpture, or craft item
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.339	0.473
+0) No	1012	66.1
+1) Yes	518	33.9
+
+
+222) MUSSCHO
+Here is a list of activities.  Please tell me if you have done each one within the past 12 months. - Gone to a school play or concert
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.36	0.48
+0) No	979	64.0
+1) Yes	551	36.0
+
+
+223) MUSKIDS
+Here is a list of activities.  Please tell me if you have done each one within the past 12 months. - Helped children with art projects or music
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.376	0.484
+0) No	955	62.4
+1) Yes	575	37.6
+
+
+224) MUSNONE
+Here is a list of activities.  Please tell me if you have done each one within the past 12 months. - None of the above
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.018	0.134
+0) No	1502	98.2
+1) Yes	28	1.8
+
+
+225) MUSDK
+Here is a list of activities.  Please tell me if you have done each one within the past 12 months. - Don't Know, Refused
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.002	0.044
+0) No	1527	99.8
+1) Yes	3	0.2
+
+
+226) GR0_LRN
+When you were growing up, did you do any of the following? - Learned to play a musical instrument
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.491	0.5
+0) No	779	50.9
+1) Yes	751	49.1
+
+
+227) GR0_BAND
+When you were growing up, did you do any of the following? - Played in the band or orchestra
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.256	0.437
+0) No	1138	74.4
+1) Yes	392	25.6
+
+
+228) GR0_SNG1
+When you were growing up, did you do any of the following? - Sang in a choir or ensemble at school
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.46	0.499
+0) No	826	54.0
+1) Yes	704	46.0
+
+
+229) GR0_SNG2
+When you were growing up, did you do any of the following? - Sang in a choir or ensemble at church
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.427	0.495
+0) No	877	57.3
+1) Yes	653	42.7
+
+
+230) GR0_PLAY
+When you were growing up, did you do any of the following? - Performed in a school play
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.546	0.498
+0) No	695	45.4
+1) Yes	835	54.6
+
+
+231) GR0_ART
+When you were growing up, did you do any of the following? - Took art classes
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.444	0.497
+0) No	850	55.6
+1) Yes	680	44.4
+
+
+232) GR0_POEM
+When you were growing up, did you do any of the following? - Kept a personal diary or wrote poetry
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.375	0.484
+0) No	956	62.5
+1) Yes	574	37.5
+
+
+233) GR0_NONE
+When you were growing up, did you do any of the following? - None of the above
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.127	0.334
+0) No	1335	87.3
+1) Yes	195	12.7
+
+
+234) GR0_DK
+When you were growing up, did you do any of the following? - Don't Know, Refused
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.012	0.108
+0) No	1512	98.8
+1) Yes	18	1.2
+
+
+235) LK_CLASS
+Here are some types of music.  Which ones do you especially like? - Classical music
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.42	0.494
+0) No	888	58.0
+1) Yes	642	42.0
+
+
+236) LK_GOSPL
+Here are some types of music.  Which ones do you especially like? - Gospel music
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.359	0.48
+0) No	980	64.1
+1) Yes	550	35.9
+
+
+237) LK_CHRST
+Here are some types of music.  Which ones do you especially like? - Christian music
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.329	0.47
+0) No	1026	67.1
+1) Yes	504	32.9
+
+
+238) LK_CNTRY
+Here are some types of music.  Which ones do you especially like? - Country and Western music
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.446	0.497
+0) No	848	55.4
+1) Yes	682	44.6
+
+
+239) LK_CNTMP
+Here are some types of music.  Which ones do you especially like? - Contemporary pop/rock music
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.568	0.496
+0) No	661	43.2
+1) Yes	869	56.8
+
+
+240) LK_JAZZ
+Here are some types of music.  Which ones do you especially like? - Jazz
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.369	0.483
+0) No	966	63.1
+1) Yes	564	36.9
+
+
+241) LK_NONE
+Here are some types of music.  Which ones do you especially like? - None of the above
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.027	0.162
+0) No	1489	97.3
+1) Yes	41	2.7
+
+
+242) LK_DK
+Here are some types of music.  Which ones do you especially like? - Don't Know, Refused
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.027	0.163
+0) No	1488	97.3
+1) Yes	42	2.7
+
+
+243) XPR_WORK
+People express their creativity in different ways.  Which of the activities on this card especially speak to your creativity? - Your work
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.426	0.495
+0) No	878	57.4
+1) Yes	652	42.6
+
+
+244) XPR_COOK
+People express their creativity in different ways.  Which of the activities on this card especially speak to your creativity? - Cooking or entertaining
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.466	0.499
+0) No	817	53.4
+1) Yes	713	46.6
+
+
+245) XPR_DECO
+People express their creativity in different ways.  Which of the activities on this card especially speak to your creativity? - Decorating your home
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.371	0.483
+0) No	963	62.9
+1) Yes	567	37.1
+
+
+246) XPR_CRFT
+People express their creativity in different ways.  Which of the activities on this card especially speak to your creativity? - Engaging in arts and crafts
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.259	0.438
+0) No	1133	74.1
+1) Yes	397	25.9
+
+
+247) XPR_SING
+People express their creativity in different ways.  Which of the activities on this card especially speak to your creativity? - Singing or playing an instrument
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.235	0.424
+0) No	1171	76.5
+1) Yes	359	23.5
+
+
+248) XPR_WRIT
+People express their creativity in different ways.  Which of the activities on this card especially speak to your creativity? - Writing
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.213	0.41
+0) No	1204	78.7
+1) Yes	326	21.3
+
+
+249) XPR_READ
+People express their creativity in different ways.  Which of the activities on this card especially speak to your creativity? - Reading
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.493	0.5
+0) No	776	50.7
+1) Yes	754	49.3
+
+
+250) XPR_GARD
+People express their creativity in different ways.  Which of the activities on this card especially speak to your creativity? - Gardening
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.329	0.47
+0) No	1026	67.1
+1) Yes	504	32.9
+
+
+251) XPR_OTHR
+People express their creativity in different ways.  Which of the activities on this card especially speak to your creativity? - Engaging in some other hobby
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.37	0.483
+0) No	964	63.0
+1) Yes	566	37.0
+
+
+252) XPR_REL
+People express their creativity in different ways.  Which of the activities on this card especially speak to your creativity? - Taking part in religious activities
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.308	0.462
+0) No	1059	69.2
+1) Yes	471	30.8
+
+
+253) XPR_PRAY
+People express their creativity in different ways.  Which of the activities on this card especially speak to your creativity? - Prayer or meditation
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.365	0.482
+0) No	972	63.5
+1) Yes	558	36.5
+
+
+254) XPR_TRIP
+People express their creativity in different ways.  Which of the activities on this card especially speak to your creativity? - Traveling, taking trips, sightseeing
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.519	0.5
+0) No	736	48.1
+1) Yes	794	51.9
+
+
+255) XPR_NATU
+People express their creativity in different ways.  Which of the activities on this card especially speak to your creativity? - Spending time in nature
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.464	0.499
+0) No	820	53.6
+1) Yes	710	46.4
+
+
+256) XPR_SPOR
+People express their creativity in different ways.  Which of the activities on this card especially speak to your creativity? - Participating in sports or physical exercise
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.359	0.48
+0) No	980	64.1
+1) Yes	550	35.9
+
+
+257) XPR_DK
+People express their creativity in different ways.  Which of the activities on this card especially speak to your creativity? - Don't Know, Refused
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.033	0.18
+0) No	1479	96.7
+1) Yes	51	3.3
+
+
+258) SP_BIBLE
+When you were growing up, did any of these have special meaning for you? - A Bible that belonged to you or to your family
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.586	0.493
+0) No	634	41.4
+1) Yes	896	58.6
+
+
+259) SP_HYMNS
+When you were growing up, did any of these have special meaning for you? - Hymns or other religious music
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.487	0.5
+0) No	785	51.3
+1) Yes	745	48.7
+
+
+260) SP_PICT
+When you were growing up, did any of these have special meaning for you? - A religous picture, plaque, or wall-hanging in your home
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.344	0.475
+0) No	1003	65.6
+1) Yes	527	34.4
+
+
+261) SP_ALTAR
+When you were growing up, did any of these have special meaning for you? - A household shrine or altar
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.073	0.261
+0) No	1418	92.7
+1) Yes	112	7.3
+
+
+262) SP_STORY
+When you were growing up, did any of these have special meaning for you? - A Bible story book
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.386	0.487
+0) No	939	61.4
+1) Yes	591	38.6
+
+
+263) SP_CANDL
+When you were growing up, did any of these have special meaning for you? - Religious objects, such as candles or a crucifix
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.284	0.451
+0) No	1096	71.6
+1) Yes	434	28.4
+
+
+264) SP_DK
+When you were growing up, did any of these have special meaning for you? - Don't Know, Refused
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.175	0.38
+0) No	1263	82.5
+1) Yes	267	17.5
+
+
+265) SPO_FAIR
+[IF YES TO MBRCRCH] Within the past year, which of these activities has your congregation sponsored? - An art festival or craft fair
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.212	0.409
+0) No	1206	78.8
+1) Yes	324	21.2
+
+
+266) SPOCHOI1
+[IF YES TO MBRCRCH] Within the past year, which of these activities has your congregation sponsored? - An adult choir
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.44	0.497
+0) No	857	56.0
+1) Yes	673	44.0
+
+
+267) SPOCHOI2
+[IF YES TO MBRCRCH] Within the past year, which of these activities has your congregation sponsored? - A children's choir
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.358	0.479
+0) No	983	64.2
+1) Yes	547	35.8
+
+
+268) SPO_LESS
+[IF YES TO MBRCRCH] Within the past year, which of these activities has your congregation sponsored? - Private music lessons
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.058	0.234
+0) No	1441	94.2
+1) Yes	89	5.8
+
+
+269) SPO_PERF
+[IF YES TO MBRCRCH] Within the past year, which of these activities has your congregation sponsored? - Any musical performance other than during worship services
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.268	0.443
+0) No	1120	73.2
+1) Yes	410	26.8
+
+
+270) SPO_SKIT
+[IF YES TO MBRCRCH] Within the past year, which of these activities has your congregation sponsored? - A drama or skit
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.271	0.444
+0) No	1116	72.9
+1) Yes	414	27.1
+
+
+271) SPO_DANC
+[IF YES TO MBRCRCH] Within the past year, which of these activities has your congregation sponsored? - A liturgical dance performance
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.065	0.246
+0) No	1431	93.5
+1) Yes	99	6.5
+
+
+272) SPO_DISC
+[IF YES TO MBRCRCH] Within the past year, which of these activities has your congregation sponsored? - Any group discussion of art, literature, or poetry
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.122	0.327
+0) No	1344	87.8
+1) Yes	186	12.2
+
+
+273) SPO_DK
+[IF YES TO MBRCRCH] Within the past year, which of these activities has your congregation sponsored? - Don't know, Refused
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.088	0.284
+0) No	1395	91.2
+1) Yes	135	8.8
+
+
+274) SP2_FEST
+[IF YES TO MBRCRCH] Would you like your congregation to sponsor any of these activites? - Art festivals, concerts, or poetry readings
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.181	0.385
+0) No	1253	81.9
+1) Yes	277	18.1
+
+
+275) SP2_DISC
+[IF YES TO MBRCRCH] Would you like your congregation to sponsor any of these activites? - A discussion group for people to share their interests in literature, music, or art
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.145	0.352
+0) No	1308	85.5
+1) Yes	222	14.5
+
+
+276) SP2_CNTP
+[IF YES TO MBRCRCH] Would you like your congregation to sponsor any of these activites? - A worship service that featured contemporary music
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.167	0.373
+0) No	1274	83.3
+1) Yes	256	16.7
+
+
+277) SP2_PRAY
+[IF YES TO MBRCRCH] Would you like your congregation to sponsor any of these activites? - A class to help people deepen their prayer life
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.314	0.464
+0) No	1049	68.6
+1) Yes	481	31.4
+
+
+278) SP2_DANC
+[IF YES TO MBRCRCH] Would you like your congregation to sponsor any of these activites? - Opportunities to explore spirituality through painting, sculpture, or dance
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.097	0.296
+0) No	1382	90.3
+1) Yes	148	9.7
+
+
+279) SP2_SERM
+[IF YES TO MBRCRCH] Would you like your congregation to sponsor any of these activites? - Sermons that incorporated ideas from the arts and literature
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.109	0.312
+0) No	1363	89.1
+1) Yes	167	10.9
+
+
+280) SP2_WRLD
+[IF YES TO MBRCRCH] Would you like your congregation to sponsor any of these activites? - Opportunities for people to examine the teachings of other world religions
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.19	0.392
+0) No	1240	81.0
+1) Yes	290	19.0
+
+
+281) SP2_CONF
+[IF YES TO MBRCRCH] Would you like your congregation to sponsor any of these activites? - More information about spiritual retreats, seminars, and conferences
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.224	0.417
+0) No	1187	77.6
+1) Yes	343	22.4
+
+
+282) SP2_DK
+[IF YES TO MBRCRCH] Would you like your congregation to sponsor any of these activites? - Don't Know, Refused
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.128	0.334
+0) No	1334	87.2
+1) Yes	196	12.8
+
+
+283) HAP_GALL
+Which of these would you like to see happen in the next few years? - Art museums and Galleries sponsoring more exhibits dealing with spirituality
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.261	0.439
+0) No	1131	73.9
+1) Yes	399	26.1
+
+
+284) HAP_ENCO
+Which of these would you like to see happen in the next few years? - Churches doing more to encourage the work of artists, musicians, and writers
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.325	0.468
+0) No	1033	67.5
+1) Yes	497	32.5
+
+
+285) HAP_SPRK
+Which of these would you like to see happen in the next few years? - Art museums and Churches doing more to spark people's imagination
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.421	0.494
+0) No	886	57.9
+1) Yes	644	42.1
+
+
+286) HAP_WRLD
+Which of these would you like to see happen in the next few years? - Efforts to promote understanding among the world's major religions
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.464	0.499
+0) No	820	53.6
+1) Yes	710	46.4
+
+
+287) HAP_PRAY
+Which of these would you like to see happen in the next few years? - More emphasis on prayer and meditation
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.455	0.498
+0) No	834	54.5
+1) Yes	696	45.5
+
+
+288) HAP_DK
+Which of these would you like to see happen in the next few years? - Don't know, Refused
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.137	0.344
+0) No	1321	86.3
+1) Yes	209	13.7
+
+
+289) ME_CREAT
+Which of the statements on the card do you mostly agree with? - I think of myself as a creative person.
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.569	0.495
+0) No	660	43.1
+1) Yes	870	56.9
+
+
+290) ME_BREAK
+Which of the statements on the card do you mostly agree with? - I like to do things my way, even if I sometimes have to break the rules.
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.264	0.441
+0) No	1126	73.6
+1) Yes	404	26.4
+
+
+291) ME_ENERG
+Which of the statements on the card do you mostly agree with? - It energizes me to be around other people.
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.559	0.497
+0) No	674	44.1
+1) Yes	856	55.9
+
+
+292) ME_DRAIN
+Which of the statements on the card do you mostly agree with? - It drains me to be around other people.
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.103	0.304
+0) No	1373	89.7
+1) Yes	157	10.3
+
+
+293) ME_ALONE
+Which of the statements on the card do you mostly agree with? - I prefer to have a lot of quiet time alone, rather than being around other people.
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.348	0.476
+0) No	998	65.2
+1) Yes	532	34.8
+
+
+294) ME_REFLC
+Which of the statements on the card do you mostly agree with? - I like to spend time reflecting on my life and my feelings.
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.399	0.49
+0) No	919	60.1
+1) Yes	611	39.9
+
+
+295) ME_ARTSY
+Which of the statements on the card do you mostly agree with? - I think of myself as an artistic person.
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.243	0.429
+0) No	1158	75.7
+1) Yes	372	24.3
+
+
+296) ME_UNCOM
+Which of the statements on the card do you mostly agree with? - It makes me uncomfortable when people expect me to be creative.
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.168	0.374
+0) No	1273	83.2
+1) Yes	257	16.8
+
+
+297) ME_CLEAR
+Which of the statements on the card do you mostly agree with? - I do better in situations where there are clear standards of right and wrong.
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.431	0.495
+0) No	870	56.9
+1) Yes	660	43.1
+
+
+298) ME_FEEL
+Which of the statements on the card do you mostly agree with? - I often make decisions based on how I feel at the moment.
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.396	0.489
+0) No	924	60.4
+1) Yes	606	39.6
+
+
+299) ME_SUSP
+Which of the statements on the card do you mostly agree with? - I am suspicious of people who claim to know what God thinks.
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.414	0.493
+0) No	897	58.6
+1) Yes	633	41.4
+
+
+300) ME_EXPLR
+Which of the statements on the card do you mostly agree with? - I like to explore new ways of doing things.
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.606	0.489
+0) No	603	39.4
+1) Yes	927	60.6
+
+
+301) ME_DK
+Which of the statements on the card do you mostly agree with? - Don't Know, Refused
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.022	0.145
+0) No	1497	97.8
+1) Yes	33	2.2
+
+
+302) CONFSPOU
+Which of these personal issues have you had to deal with? - Serious conflicts with your spouse or partner
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.348	0.476
+0) No	998	65.2
+1) Yes	532	34.8
+
+
+303) CONFWORK
+Which of these personal issues have you had to deal with? - Serious conflicts at work
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.31	0.463
+0) No	1056	69.0
+1) Yes	474	31.0
+
+
+304) CONFADDC
+Which of these personal issues have you had to deal with? - Overcoming an addiction
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.15	0.357
+0) No	1301	85.0
+1) Yes	229	15.0
+
+
+305) CONFPAIN
+Which of these personal issues have you had to deal with? - Moving past something painful in your upbringing
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.347	0.476
+0) No	999	65.3
+1) Yes	531	34.7
+
+
+306) CONFDOUB
+Which of these personal issues have you had to deal with? - Having serious doubts about the existence of God
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.139	0.346
+0) No	1318	86.1
+1) Yes	212	13.9
+
+
+307) CONFLOVE
+Which of these personal issues have you had to deal with? - Feeling that God did not love you
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.108	0.311
+0) No	1364	89.2
+1) Yes	166	10.8
+
+
+308) CONFPUNI
+Which of these personal issues have you had to deal with? - Feeling that God was punishing you
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.194	0.396
+0) No	1233	80.6
+1) Yes	297	19.4
+
+
+309) CONFORG1
+Which of these personal issues have you had to deal with? - Learning to forgive yourself
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.463	0.499
+0) No	822	53.7
+1) Yes	708	46.3
+
+
+310) CONFORG2
+Which of these personal issues have you had to deal with? - Learning to forgive someone else
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.574	0.495
+0) No	652	42.6
+1) Yes	878	57.4
+
+
+311) CONFNONE
+Which of these personal issues have you had to deal with? - None of these
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.19	0.392
+0) No	1240	81.0
+1) Yes	290	19.0
+
+
+312) CONFDK
+Which of these personal issues have you had to deal with? - Don't know, Refused
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1530	0.012	0.111
+0) No	1511	98.8
+1) Yes	19	1.2
+
+
+313) SAC_NATU
+Have any of these ever made you feel especially close to God or to the sacred? - Being out in nature
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	969	1	0
+1) Yes	969	100.0
+Missing	561
+
+
+314) SAC_MUS1
+Have any of these ever made you feel especially close to God or to the sacred? - Singing or listening to music during a worship service
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	851	1	0
+1) Yes	851	100.0
+Missing	679
+
+
+315) SAC_MUS2
+Have any of these ever made you feel especially close to God or to the sacred? - Singing or listening to religious music other than during a worship service
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	674	1	0
+1) Yes	674	100.0
+Missing	856
+
+
+316) SAC_CONC
+Have any of these ever made you feel especially close to God or to the sacred? - Attending a concert
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	267	1	0
+1) Yes	267	100.0
+Missing	1263
+
+
+317) SAC_PANT
+Have any of these ever made you feel especially close to God or to the sacred? - Looking at a painting or sculpture
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	353	1	0
+1) Yes	353	100.0
+Missing	1177
+
+
+318) SAC_SERM
+Have any of these ever made you feel especially close to God or to the sacred? - Listening to a sermon
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	885	1	0
+1) Yes	885	100.0
+Missing	645
+
+
+319) SAC_FRND
+Have any of these ever made you feel especially close to God or to the sacred? - Being with close friends
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	598	1	0
+1) Yes	598	100.0
+Missing	932
+
+
+320) SAC_POEM
+Have any of these ever made you feel especially close to God or to the sacred? - Reading poetry
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	205	1	0
+1) Yes	205	100.0
+Missing	1325
+
+
+321) SAC_BOOK
+Have any of these ever made you feel especially close to God or to the sacred? - Reading an inspirational book
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	630	1	0
+1) Yes	630	100.0
+Missing	900
+
+
+322) SAC_CRAF
+Have any of these ever made you feel especially close to God or to the sacred? - Doing an artistic craft project
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	153	1	0
+1) Yes	153	100.0
+Missing	1377
+
+
+323) SAC_HELP
+Have any of these ever made you feel especially close to God or to the sacred? - Helping a needy person
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	864	1	0
+1) Yes	864	100.0
+Missing	666
+
+
+324) SAC_DK
+Have any of these ever made you feel especially close to God or to the sacred? - Don't know, Refused
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	147	1	0
+1) Yes	147	100.0
+Missing	1383
+
+
+325) REGION8
+[EIGHT CATEGORY REGION, RECODED VARIABLE]
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1530	4.612	2.075
+1) Northeast	53	3.5
+2) Mid-Atlantic	267	17.5
+3) East Coast	240	15.7
+4) West Coast	114	7.5
+5) Southeast	372	24.3
+6) Southwest	164	10.7
+7) Rocky Mountain	111	7.3
+8) Pacific	209	13.7
+
+
+326) REGION4
+[FOUR CATEGORY REGION, RECODED VARIABLE]
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1530	2.559	1.041
+1) East	320	20.9
+2) Midwest	354	23.1
+3) South	536	35.0
+4) West	320	20.9
+
+
+327) CITYSIZR
+[CITY SIZE, RECODED VARIABLE, CODING UNKNOWN]
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1530	4.473	2.938
+0) 	75	4.9
+1) 	245	16.0
+2) 	338	22.1
+3) 	16	1.0
+4) 	25	1.6
+5) 	118	7.7
+6) 	262	17.1
+7) 	173	11.3
+8) 	101	6.6
+9) 	177	11.6
+
+
+328) CITYSIZ6
+[SIX CATEGORY CITY SIZE, RECODED VARIABLE]
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1530	3.443	1.753
+1) Open Country	338	22.1
+2) Less than 10,000	159	10.4
+3) 10,000 to 24,999	262	17.1
+4) 25,000 to 99,999	274	17.9
+5) 100,000 to 499,999	252	16.5
+6) 500,000 or more	245	16.0
+
+
+329) CITYSIZ3
+[THREE CATEGORY CITY SIZE, RECODED VARIABLE]
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1530	2	0.806
+1) Less than 10,000	497	32.5
+2) 10,000 to 99,999	536	35.0
+3) 100,000 or more	497	32.5
+
+
+330) I-GENDER
+[INTERVIEWER RECORD GENDER:] (for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1530	1.507	0.5
+1) Male	754	49.3
+2) Female	776	50.7
+
+
+331) I-REGION
+[FOUR CATEGORY REGION, RECODED VARIABLE] (for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1530	2.559	1.041
+1) East	320	20.9
+2) Midwest	354	23.1
+3) South	536	35.0
+4) West	320	20.9
+
+
+332) I-RACE
+What is your race?  Are you white, black, Asian, or some other race? (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1512	1.319	0.736
+1) White	1202	79.5
+2) Black or African American	209	13.8
+3) Asian	29	1.9
+4) Other or mixed race	72	4.8
+Missing	18
+
+
+333) I-RELIGION
+What is your religious preference? - Protestant, Roman Catholic, Jewish, or some other religion? (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1495	1.894	1.3
+1) Protestant	825	55.2
+2) Roman Catholic	394	26.4
+3) Jewish	18	1.2
+4) Other	125	8.4
+5) No Preference, Atheist, Agnostic	133	8.9
+Missing	35
+
+

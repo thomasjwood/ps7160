@@ -1,0 +1,1613 @@
+Data File: ISPUAM19 (Full Data Codebook)
+
+1) ID
+ID
+RANGE: 10000017 to 80001111
+	N	Mean	Std. Deviation
+Total	2376	61502940.322	22404850.736
+
+
+2) STUDCODE
+Study Code
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	2376	0	0
+
+
+3) CELL1
+Before we continue, are you driving or doing anything that requires your full attention right now?
+RANGE: 2 to 2
+	N	Mean	Std. Deviation
+Total	447	2	0
+2) No, respondent is not driving/doing something	447	100.0
+Missing	1929
+
+
+4) CELL2
+Could you please tell me if you are under age 18 or 18 or older?
+RANGE: 2 to 2
+	N	Mean	Std. Deviation
+Total	1938	2	0
+2) 18 or older	1938	100.0
+Missing	438
+
+
+5) HH1
+So that I select one person in your household, could you please tell me: How many adults 18 or older live in your household? Please be sure to include yourself.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	334	2.177	1.145
+1) 	91	27.2
+2) 	157	47.0
+3) 	44	13.2
+4) 	31	9.3
+5) 	5	1.5
+6) 	2	0.6
+7) 	3	0.9
+8) 	1	0.3
+Missing	2042
+
+
+6) QNINT1
+Do you use the internet, at least occasionally?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	885	1.185	0.389
+1) Yes	721	81.5
+2) No	164	18.5
+Missing	1491
+
+
+7) QNINT3
+Do you access the internet on a cell phone, tablet or other mobile handheld device, at least occasionally?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	164	1.896	0.306
+1) Yes	17	10.4
+2) No	147	89.6
+Missing	2212
+
+
+8) RELIG
+What is your present religion, if any? Are you Protestant, Roman Catholic, Mormon, Orthodox such as Greek or Russian Orthodox, Jewish, Muslim, Buddhist, Hindu, atheist, agnostic, something else, or nothing in particular? INTERVIEWER NOTE: If respondent volunteers, 'Nothing in particular, none, no religion, etc.' BEFORE REACHING THE END OF THE LIST, PROMPT WITH, 'And would you say that's atheist, agnostic, or just nothing in particular?'
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2376	6.122	4.534
+1) Protestant (Baptist, Methodist, Non-denominational, Lutheran, Presbyterian, Pentecostal, Episcopalian, Reformed, Church of Christ, Jehovah's Witness, etc.)	314	13.2
+2) Catholic/Roman Catholic	245	10.3
+3) Mormon (Church of Jesus Christ of Latter-day Saints/LDS)	22	0.9
+4) Orthodox (Eastern, Greek, Russian, Armenian, etc.)	8	0.3
+5) Jewish/Judaism	415	17.5
+6) Muslim/Islamic	809	34.0
+7) Buddhist	11	0.5
+8) Hindu	4	0.2
+9) Atheist (do not believe in God)	71	3.0
+10) Agnostic (not sure if there is a God)	67	2.8
+11) Something else (please specify)	20	0.8
+12) No Religion/none (Nothing in particular)	181	7.6
+13) Christian	190	8.0
+14) Unitarian (Universalist)	17	0.7
+99) Don't know/Refused	2	0.1
+
+
+9) RELIGOT
+RELIG. SPECIFY OTHER HERE
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	26	0	0
+
+
+10) CHR
+(PN: ASK IF RELIG = 11 OR 99 (SOMETHING ELSE OR DON'T KNOW/REFUSED)), INTERVIEWER NOTE: BEFORE READING THIS QUESTION, If the respondent named a Non-Christian religion in the other specify, such as Native American, Wiccan, Pagan, etc., DO NOT READ, ENTER 'NO'. Do you think of yourself as Christian or not?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	22	1.727	0.456
+1) Yes	6	27.3
+2) No	16	72.7
+Missing	2354
+
+
+11) BORN
+(PN: ASK IF RELIG=01, 13 OR CHR=1) Would you describe yourself as 'born again' or evangelical Christian, or not? [PN: IF GEN POP/OMNI SAMPLE, SKIP TO QSEX], [PN: IF CELL SAMPLE AND RELIG=01,02,03,04,07,08,09,10,11,12,13,14,99 - TERM AS TRELIG], [PN: IF HH1=1 AND RELIG=01,02,03,04,07,08,09,10,11,12,13,14,99 - TERM AS TRELIG]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	510	1.506	0.686
+1) Yes, would	266	52.2
+2) No, would not	242	47.5
+9) Don't know/Refused	2	0.4
+Missing	1866
+
+
+12) RELIG2_01
+(ASK IF HH1=2+, ZZ,DD,RR AND RELIG=01,02,03,04,07,08,09,10,11,12,13,14,99), (ALLOW FOR MULTIPLE RESPONSES) Does anyone in your household consider themselves to be another religion? (IF YES: And which religion or religions would that be?); INTERVIEWER NOTE: If respondent volunteers, 'Nothing in particular, none, no religion, etc.' BEFORE REACHING THE END OF THE LIST, prompt with, 'And would you say that's atheist, agnostic, or just nothing in particular?'
+RANGE: 5 to 6
+	N	Mean	Std. Deviation
+Total	3	5.333	0.577
+5) Jewish/Judaism	2	66.7
+6) Muslim/Islamic	1	33.3
+Missing	2373
+
+
+13) RELIG3
+(ASK IF RELIG2= JUST 06 or JUST 05) May I please speak to that other person now? (IF MORE THAN ONE PERSON AVAILABLE: May I please speak with the youngest person in your household who is available now.), [PN: IF (RELIG=01-04, 07-11,13,14,99 AND RELIG2=1,2,3,4,7,8,9,10,11,12,13,14,99) OR (RELIG3=9) TERMINATE]
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	3	1	0
+1) Qualified respondent is available	3	100.0
+Missing	2373
+
+
+14) RELIG5
+(ASK IF RELIG3=1 OR RELIG4=1) Just to confirm, what is your religion? [PN: If RELIG5=9 - TERMINATE]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	3	1.333	0.577
+1) Jewish	2	66.7
+2) Muslim	1	33.3
+Missing	2373
+
+
+15) SEX
+(RECORD GENDER FOR EVERYONE) Record SEX of Respondent:
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	2376	1.482	0.501
+0) Blank	2	0.1
+1) Male	1226	51.6
+2) Female	1148	48.3
+
+
+16) QN1
+Q1. Overall, are you satisfied or dissatisfied with the way things are going in this country today?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.908	1.114
+0) Blank	2	0.1
+1) Satisfied	558	23.5
+2) Dissatisfied	1767	74.4
+9) Don't know/Refused	49	2.1
+
+
+17) QN2
+Q2. Do you approve or disapprove of the way Donald Trump is handling his job as president? (READ LIST. ENTER ONE ONLY), [INTERVIEWER NOTE: IF Don't Know ENTER AS Don't Know. IF DEPENDS PROBE ONCE WITH: Overall do you approve or disapprove of the way Donald Trump is handling his job as president? IF STILL DEPENDS ENTER AS Don't Know]
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.856	1.162
+0) Blank	2	0.1
+1) Approve	701	29.5
+2) Disapprove	1621	68.2
+9) Don't know/Refused	52	2.2
+
+
+18) QN3
+Q3. Are you legally able to vote in the United States?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.061	0.324
+0) Blank	1	0.0
+1) Yes	2244	94.4
+2) No	129	5.4
+9) Don't know/Refused	2	0.1
+
+
+19) QN4
+Q4. (ASK IF Q3=1) Are you registered to vote at your present address or not?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2244	1.079	0.355
+0) Blank	3	0.1
+1) Yes	2074	92.4
+2) No	165	7.4
+9) Don't know/Refused	2	0.1
+Missing	132
+
+
+20) QN5
+Q5. (ASK IF Q3=1) Did you vote in the November 2018 mid-term elections?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2244	1.162	0.486
+0) Blank	1	0.0
+1) Yes	1907	85.0
+2) No	332	14.8
+9) Don't know/Refused	4	0.2
+Missing	132
+
+
+21) QN6ROT
+QN6ROT
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2376	1.52	0.5
+1) 1-2	1140	48.0
+2) 2-1	1236	52.0
+
+
+22) QN6
+Q6. (ASK IF Q5=1), (PN: ROTATE Republican and Democratic) If you voted for a Member of Congress this November, did you vote for a Republican candidate or the Democratic candidate?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1907	1.576	1.201
+1) Democratic	1181	61.9
+2) Republican	599	31.4
+3) Some other candidate	57	3.0
+4) Didn't vote for a Member of Congress	35	1.8
+9) Don't know/Refused	35	1.8
+Missing	469
+
+
+23) QN7ROT01
+QN7ROT01
+RANGE: 7 to 10
+	N	Mean	Std. Deviation
+Total	2376	8.234	1.108
+7) 	792	33.3
+8) 	688	29.0
+9) 	444	18.7
+10) 	452	19.0
+
+
+24) QN7ROT02
+QN7ROT02
+RANGE: 7 to 10
+	N	Mean	Std. Deviation
+Total	2376	8.858	1.037
+7) 	349	14.7
+8) 	424	17.8
+9) 	819	34.5
+10) 	784	33.0
+
+
+25) QN7ROT03
+QN7ROT03
+RANGE: 7 to 10
+	N	Mean	Std. Deviation
+Total	2376	8.767	1.095
+7) 	435	18.3
+8) 	461	19.4
+9) 	703	29.6
+10) 	777	32.7
+
+
+26) QN7ROT04
+QN7ROT04
+RANGE: 7 to 10
+	N	Mean	Std. Deviation
+Total	2376	8.141	1.049
+7) 	800	33.7
+8) 	803	33.8
+9) 	410	17.3
+10) 	363	15.3
+
+
+27) QN7
+Q7. (ROTATE Q7, Q8, Q9, Q10 - KEEP 9 AND 10 TOGETHER FOR THE ROTATE - BUT THEY CAN ROTATE AMONGST THEMSELVES), (INCLUDE ROTATE IN DATA FILE) How often, if at all, have you personally experienced discrimination in the past year because of your religion? (READ LIST. ENTER ONE ONLY)
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.732	0.991
+0) Blank	4	0.2
+1) Never	1348	56.7
+2) Rarely	484	20.4
+3) Occasionally	371	15.6
+4) Regularly	167	7.0
+9) Don't know/Refused	2	0.1
+
+
+28) QN8
+Q8. (ROTATE Q7, Q8, Q9, Q10 - KEEP 9 AND 10 TOGETHER FOR THE ROTATE - BUT THEY CAN ROTATE AMONGST THEMSELVES), (INCLUDE ROTATE IN DATA FILE) How often, if at all, have you personally experienced discrimination in the past year from another member of your larger faith community because of your sect or denomination?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.836	1.412
+0) Blank	3	0.1
+1) Never	1518	63.9
+2) Rarely	330	13.9
+3) Occasionally	216	9.1
+4) Regularly	73	3.1
+5) I do not have a faith community	220	9.3
+9) Don't know/Refused	16	0.7
+
+
+29) QN9
+Q9. (ROTATE Q7, Q8, Q9, Q10 - KEEP 9 AND 10 TOGETHER FOR THE ROTATE - BUT THEY CAN ROTATE AMONGST THEMSELVES), (INCLUDE ROTATE IN DATA FILE) How often, if at all, have you personally experienced discrimination by someone INSIDE your faith community because of your gender in the past year? (READ LIST. ENTER ONLY ONE)
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.74	1.346
+0) Blank	5	0.2
+1) Never	1636	68.9
+2) Rarely	266	11.2
+3) Occasionally	167	7.0
+4) Regularly	72	3.0
+5) I do not have a faith community	223	9.4
+9) Don't know/Refused	7	0.3
+
+
+30) QN10
+Q10. (ROTATE Q7, Q8, Q9, Q10 - KEEP 9 AND 10 TOGETHER FOR THE ROTATE - BUT THEY CAN ROTATE AMONGST THEMSELVES), (INCLUDE ROTATE IN DATA FILE) How often, if at all, have you personally experienced discrimination by someone OUTSIDE your faith community because of your gender in the past year? (READ LIST. ENTER ONLY ONE)
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.863	1.302
+0) Blank	6	0.3
+1) Never	1393	58.6
+2) Rarely	390	16.4
+3) Occasionally	299	12.6
+4) Regularly	119	5.0
+5) I do not have a faith community	160	6.7
+9) Don't know/Refused	9	0.4
+
+
+31) QN11ROT01
+QN11ROT01
+RANGE: 11 to 12
+	N	Mean	Std. Deviation
+Total	2376	11.514	0.5
+11) 	1155	48.6
+12) 	1221	51.4
+
+
+32) QN11ROT02
+QN11ROT02
+RANGE: 11 to 12
+	N	Mean	Std. Deviation
+Total	2376	11.486	0.5
+11) 	1221	51.4
+12) 	1155	48.6
+
+
+33) QN11
+Q11. (ROTATE Q11 AND Q12. INCLUDE ROTATE IN DATA FILE) How important is religion to your daily life?  Is it...? (READ LIST. ENTER ONE ONLY)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	2376	1.914	1.067
+0) Blank	3	0.1
+1) Very important	1132	47.6
+2) Somewhat important	629	26.5
+3) Not very important	290	12.2
+4) Not at all important	322	13.6
+
+
+34) QN12
+Q12. (ROTATE Q11 AND Q12. INCLUDE ROTATE IN DATA FILE) Aside from weddings and funerals how often do you attend religious services? (READ LIST. ENTER ONE ONLY)
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	3.572	1.686
+0) Blank	1	0.0
+1) More than once a week	299	12.6
+2) Once a week	529	22.3
+3) Once or twice a month	272	11.4
+4) A few times a year	466	19.6
+5) Seldom	418	17.6
+6) Never	386	16.2
+9) Don't know/Refused	5	0.2
+
+
+35) QN13
+Q13. (ASK IF Q12=1,2,3,4,5) Overall, are you satisfied or dissatisfied with the way things are done in your house of worship today?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1984	1.535	1.251
+0) Blank	1	0.1
+1) Satisfied	1446	72.9
+2) Dissatisfied	233	11.7
+3) Do not have a house of worship	267	13.5
+9) Don't know/Refused	37	1.9
+Missing	392
+
+
+36) QN23ROT
+QN14ROT
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2376	1.5	0.5
+1) 	1188	50.0
+2) 	1188	50.0
+
+
+37) QN23
+Q14.  I am going to read you a few statements, please tell me which one comes closer to your point of view?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	2.646	1.053
+0) Blank	7	0.3
+1) Your religion should be the MAIN source of American law	204	8.6
+2) Your religion should be a source of American law but not the only source	647	27.2
+3) Your religion should NOT be a source of American law	1479	62.2
+9) Don't know/Refused	39	1.6
+
+
+38) QN14VARA
+QN14VARA
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	2376	0	0
+
+
+39) QN14A
+Q15A. Now, I will read you a list of statements. Please indicate how much you agree or disagree with the following statements, where 1 means you strongly disagree and 5 means you strongly agree. a. I will take unpopular stands to defend my religious faith. INTERVIEWER NOTE: IF NECESSARY: Would you say you...
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	3.685	1.558
+0) Blank	18	0.8
+1) Strongly disagree	310	13.0
+2) Somewhat disagree	161	6.8
+3) Neither agree or disagree	461	19.4
+4) Somewhat agree	546	23.0
+5) Strongly agree	841	35.4
+9) Don't know/Refused	39	1.6
+
+
+40) QN14B
+Q15B. Now, I will read you a list of statements. Please indicate how much you agree or disagree with the following statements, where 1 means you strongly disagree and 5 means you strongly agree. b. Because of my religious faith, I have meaning and purpose in my life. INTERVIEWER NOTE: IF NECESSARY: Would you say you...
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	3.778	1.5
+0) Blank	21	0.9
+1) Strongly disagree	307	12.9
+2) Somewhat disagree	136	5.7
+3) Neither agree or disagree	376	15.8
+4) Somewhat agree	475	20.0
+5) Strongly agree	1045	44.0
+9) Don't know/Refused	16	0.7
+
+
+41) QN14C
+Q15C. Now, I will read you a list of statements. Please indicate how much you agree or disagree with the following statements, where 1 means you strongly disagree and 5 means you strongly agree. c. Because of my religious faith, I have forgiven people who have hurt me deeply. INTERVIEWER NOTE: IF NECESSARY: Would you say you...
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	3.617	1.532
+0) Blank	17	0.7
+1) Strongly disagree	340	14.3
+2) Somewhat disagree	180	7.6
+3) Neither agree or disagree	424	17.8
+4) Somewhat agree	548	23.1
+5) Strongly agree	843	35.5
+9) Don't know/Refused	24	1.0
+
+
+42) QN15VARA
+QN15VARA
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	2376	0	0
+
+
+43) QN15A
+Q16A. Now, I will read you the names of several groups. For each group you recognize, please tell me if you have a favorable, unfavorable or no opinion of that group. First, Evangelical Christians. INTERVIEWER NOTE: IF NECESSARY: Would you say you have a...
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	2.092	1.063
+0) Blank	16	0.7
+1) Favorable opinion	790	33.2
+2) Unfavorable opinion	663	27.9
+3) No opinion	863	36.3
+4) Not aware	26	1.1
+9) Don't know/Refused	18	0.8
+
+
+44) QN15B
+Q16B. Now, I will read you the names of several groups. For each group you recognize, please tell me if you have a favorable, unfavorable or no opinion of that group. Next, Jews. INTERVIEWER NOTE: IF NECESSARY: Would you say you have a...
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.697	1.032
+0) Blank	12	0.5
+1) Favorable opinion	1503	63.3
+2) Unfavorable opinion	113	4.8
+3) No opinion	734	30.9
+4) Not aware	5	0.2
+9) Don't know/Refused	9	0.4
+
+
+45) QN15C
+Q16C. Now, I will read you the names of several groups. For each group you recognize, please tell me if you have a favorable, unfavorable or no opinion of that group. Next, African Americans.
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.61	0.996
+0) Blank	10	0.4
+1) Favorable opinion	1621	68.2
+2) Unfavorable opinion	82	3.5
+3) No opinion	652	27.4
+4) Not aware	3	0.1
+9) Don't know/Refused	8	0.3
+
+
+46) QN15D
+Q16D. Now, I will read you the names of several groups. For each group you recognize, please tell me if you have a favorable, unfavorable or no opinion of that group. Next, Muslims. INTERVIEWER NOTE: IF NECESSARY: Would you say you have a...
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.783	1.008
+0) Blank	10	0.4
+1) Favorable opinion	1294	54.5
+2) Unfavorable opinion	334	14.1
+3) No opinion	722	30.4
+4) Not aware	7	0.3
+9) Don't know/Refused	9	0.4
+
+
+47) QN15E
+Q16E. Now, I will read you the names of several groups. For each group you recognize, please tell me if you have a favorable, unfavorable or no opinion of that group. Next, Feminists. INTERVIEWER NOTE: IF NECESSARY: Would you say you have a...
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.92	1.073
+0) Blank	21	0.9
+1) Favorable opinion	1065	44.8
+2) Unfavorable opinion	489	20.6
+3) No opinion	760	32.0
+4) Not aware	26	1.1
+9) Don't know/Refused	15	0.6
+
+
+48) QN15F
+Q16F. Now, I will read you the names of several groups. For each group you recognize, please tell me if you have a favorable, unfavorable or no opinion of that group. Next, Gay, Lesbian and Transgender people. INTERVIEWER NOTE: IF NECESSARY: Would you say you have a...
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.921	0.982
+0) Blank	14	0.6
+1) Favorable opinion	1093	46.0
+2) Unfavorable opinion	372	15.7
+3) No opinion	885	37.2
+4) Not aware	7	0.3
+9) Don't know/Refused	5	0.2
+
+
+49) QN19
+Q17. Now onto a different topic: Do you happen to know a Muslim personally, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1566	1.439	0.754
+1) Yes	942	60.2
+2) No	615	39.3
+9) Don't know/Refused	9	0.6
+Missing	810
+
+
+50) QN20
+Q18. (ASK IF Q17=1 OR ASK IF RELIG, RELIG2=06 MUSLIM/ISLAMIC OR RELIG5=2) Are there any Muslims you are close enough friends with that you would call them if you needed help?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1752	1.358	0.651
+0) Blank	2	0.1
+1) Yes	1162	66.3
+2) No	582	33.2
+9) Don't know/Refused	6	0.3
+Missing	624
+
+
+51) QN21
+Q219. On a scale of 1 to 5, where 1 is nothing at all and 5 is a great deal, how much would you say you know about Islam? IF NEEDED: Islam is the religion practiced by Muslims.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2376	3.242	1.273
+1) Nothing at all	233	9.8
+2) 	431	18.1
+3) 	775	32.6
+4) 	418	17.6
+5) A great deal	515	21.7
+9) Don't know/Refused	4	0.2
+
+
+52) QN22VAR
+QN20VAR
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	2376	0	0
+
+
+53) QN22A
+Q20A. Please indicate how much you agree or disagree with the following statements in regards to most Muslims living in the United States. a. Most Muslims living in the United States are more prone to violence than other people. INTERVIEWER NOTE: IF NECESSARY: Would you say you...
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.87	1.408
+0) Blank	5	0.2
+1) Strongly disagree	1453	61.2
+2) Somewhat disagree	303	12.8
+3) Neither agree or disagree	329	13.8
+4) Somewhat agree	142	6.0
+5) Strongly Agree	117	4.9
+9) Don't Know/Refused	27	1.1
+
+
+54) QN22B
+Q20B. Please indicate how much you agree or disagree with the following statements in regards to most Muslims living in the United States. b. Most Muslims living in the United States Discriminate against women. INTERVIEWER NOTE: IF NECESSARY: Would you say you...
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	2.481	1.596
+0) Blank	7	0.3
+1) Strongly disagree	874	36.8
+2) Somewhat disagree	443	18.6
+3) Neither agree or disagree	474	19.9
+4) Somewhat agree	356	15.0
+5) Strongly agree	177	7.4
+9) Don't know/Refused	45	1.9
+
+
+55) QN22C
+Q20C. Please indicate how much you agree or disagree with the following statements in regards to most Muslims living in the United States. c. Most Muslims living in the United States are hostile to the United States. INTERVIEWER NOTE: IF NECESSARY: Would you say you...
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.924	1.52
+0) Blank	9	0.4
+1) Strongly disagree	1424	59.9
+2) Somewhat disagree	316	13.3
+3) Neither agree or disagree	317	13.3
+4) Somewhat agree	157	6.6
+5) Strongly agree	110	4.6
+9) Don't know/Refused	43	1.8
+
+
+56) QN22D
+Q20D. Please indicate how much you agree or disagree with the following statements in regards to most Muslims living in the United States. d. Most Muslims living in the United States are less civilized than other people. INTERVIEWER NOTE: IF NECESSARY: Would you say you...
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.76	1.389
+0) Blank	2	0.1
+1) Strongly disagree	1587	66.8
+2) Somewhat disagree	255	10.7
+3) Neither agree or disagree	297	12.5
+4) Somewhat agree	106	4.5
+5) Strongly agree	98	4.1
+9) Don't know/Refused	31	1.3
+
+
+57) QN22E
+Q20E. Please indicate how much you agree or disagree with the following statements in regards to most Muslims living in the United States. e. Most Muslims living in the United States are partially responsible for acts of violence carried out by other Muslims. INTERVIEWER NOTE: IF NECESSARY: Would you say you...
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.808	1.428
+0) Blank	3	0.1
+1) Strongly disagree	1546	65.1
+2) Somewhat disagree	270	11.4
+3) Neither agree or disagree	280	11.8
+4) Somewhat agree	152	6.4
+5) Strongly agree	91	3.8
+9) Don't know/Refused	34	1.4
+
+
+58) QN24
+Q21. Do you know anyone personally in your faith community who has been the victim of unwanted sexual advances from a faith leader in your religious community?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	2.067	0.727
+0) Blank	3	0.1
+1) Yes	229	9.6
+2) No	1839	77.4
+3) I do not have a faith community	290	12.2
+9) Don't know/Refused	15	0.6
+
+
+59) QN25
+Q22. (ASK IF Q21 = 1) Did this person report the incident to law enforcement?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	229	1.869	1.603
+1) Yes	100	43.7
+2) No	119	52.0
+9) Don't know/Refused	10	4.4
+Missing	2147
+
+
+60) QN26
+Q23. (ASK IF Q21 = 1) Did this person report the incident to a religious or community leader in your faith community?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	229	1.611	1.338
+0) Blank	3	1.3
+1) Yes	131	57.2
+2) No	83	36.2
+3) I do not have a faith community	6	2.6
+9) Don't know/Refused	6	2.6
+Missing	2147
+
+
+61) QN27
+Q24. Do you think what happens to members of your faith community in this country will affect you personally?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.77	1.223
+0) Blank	2	0.1
+1) Yes	1182	49.7
+2) No	816	34.3
+3) I do not have a faith community	332	14.0
+9) Don't know/Refused	44	1.9
+
+
+62) QN28
+Q25. How would you rate your own financial situation today? Would you say it is excellent, good, only fair, or poor?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	2.34	0.971
+0) Blank	1	0.0
+1) Excellent	411	17.3
+2) Good	1031	43.4
+3) Fair	694	29.2
+4) Poor	229	9.6
+9) Don't know/Refused	10	0.4
+
+
+63) QN29ROT
+QN26ROT
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2376	1.496	0.5
+1) 	1198	50.4
+2) 	1178	49.6
+
+
+64) QN29
+Q26. (ROTATE ANSWERS 1 AND 2) In your opinion, which is the bigger cause of poverty today...?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.829	1.452
+0) Blank	10	0.4
+1) That people are not doing enough to help themselves out of poverty	968	40.7
+2) That circumstances beyond their control cause them to be poor	1315	55.3
+9) Don't know/Refused	83	3.5
+
+
+65) QN30
+Q27. Switching gears to some new topics, does a candidate's support of President Trump's travel ban on citizens from five predominantly Muslim countries, a policy sometimes referred to as the 'Muslim ban', increase your support, decrease your support, or not make a difference to your support for this candidate?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	2.233	1.152
+0) Blank	1	0.0
+1) Increase my support	417	17.6
+2) Decrease my support	1256	52.9
+3) Does not make a difference to my support	657	27.7
+9) Don't know/Refused	45	1.9
+
+
+66) QN31
+Q28. Have you met or communicated by email, phone or mail with your Federal elected congressional representative or their staff within the last year? By 'Federal elected representative' we mean your Congress member representing your district or state in Washington, DC.
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.683	0.691
+0) Blank	2	0.1
+1) Yes	826	34.8
+2) No	1537	64.7
+9) Don't know/Refused	11	0.5
+
+
+67) QN32
+Q29. Have you met or communicated by email, phone or mail with your locally elected representatives or their staff within the last year? By 'local' we mean a representative in city or state government, such as a mayor, city council member, state legislator, governor, or their staff?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.651	0.629
+0) Blank	4	0.2
+1) Yes	871	36.7
+2) No	1494	62.9
+9) Don't know/Refused	7	0.3
+
+
+68) QN33
+Q30. Have you ever been put on the spot by someone outside your faith community and asked to explain a controversial verse from your religion's scripture?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.822	0.817
+0) Blank	1	0.0
+1) Yes	809	34.0
+2) No	1245	52.4
+3) I don't have a faith community and/or sacred text	310	13.0
+9) Don't know/Refused	11	0.5
+
+
+69) QN34
+Q31. Do you find some verses of your faith's holy book troubling?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	2.165	1.327
+0) Blank	2	0.1
+1) Yes	688	29.0
+2) No	1267	53.3
+3) I am not familiar with my holy book	84	3.5
+4) I do not consider any book holy	102	4.3
+5) I do not have a holy book	209	8.8
+9) Don't know/Refused	24	1.0
+
+
+70) QN36
+Q32. Now I will ask you some questions about your overall well-being. Have you ever visited a mental health professional (such as a psychiatrist, psychologist, therapist, or someone equivalent)?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.637	0.782
+0) Blank	3	0.1
+1) Yes	969	40.8
+2) No	1388	58.4
+9) Don't know/Refused	16	0.7
+
+
+71) QN37
+Q33. If you had such severe emotional distress that it was affecting your work, daily life, and/or relationships, who would you likely go to first aside from family and friends? (ONLY READ LIST IF RESPONDENT REQUIRES CLARIFICATION. ENTER ONE RESPONSE ONLY)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2376	6.824	18.472
+1) Clergy (Imam, Rabbi, Minister, Priest, etc.)	234	9.8
+2) General mental health professional (psychiatrist, psychologist, therapist, etc.)	835	35.1
+3) Faith-based mental health professional	137	5.8
+4) Primary care or family doctor	678	28.5
+5) I would not go to anyone	327	13.8
+6) I would only go to a family member/friend	72	3.0
+97) Someone else/other	43	1.8
+99) Don't know/Refused	50	2.1
+
+
+72) QN37OT
+Q33OT. If you had such severe emotional distress that it was affecting your work, daily life, and/or relationships, who would you likely go to first aside from family and friends? SPECIFY OTHER HERE
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	123	0	0
+
+
+73) QN39
+Q34. Have you ever tried to do anything to try to kill yourself or make yourself not alive anymore?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.975	0.636
+0) Blank	3	0.1
+1) Yes	165	6.9
+2) No	2192	92.3
+9) Don't know/Refused	16	0.7
+
+
+74) QNZ2
+QZ-2. (READ TO ALL:) And finally, just a few questions for classification purposes only... Are you:
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2376	2.997	1.472
+1) Single, that is never married	487	20.5
+2) Single, living with a partner	131	5.5
+3) Married	1328	55.9
+4) Separated	34	1.4
+5) Widowed	149	6.3
+6) Divorced	239	10.1
+9) Refused	8	0.3
+
+
+75) QNZ3
+Z-3. (IF Z-2 = 2 OR 3) Does your partner or spouse share the same religion as you?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1459	1.247	0.514
+0) Blank	1	0.1
+1) Yes	1111	76.1
+2) No	345	23.6
+9) Don't know/Refused	2	0.1
+Missing	917
+
+
+76) QNZ4
+Z-4. (IF Z-2 = 2 OR 3) Does your partner or spouse share the same race as you?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1459	1.168	0.614
+0) Blank	5	0.3
+1) Yes	1246	85.4
+2) No	202	13.8
+9) Don't know/Refused	6	0.4
+Missing	917
+
+
+77) QNZ5
+Z-5. (IF Z-4=2 ASK) Is your partner or spouse of Hispanic origin or background?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	202	1.817	0.388
+1) Yes	37	18.3
+2) No	165	81.7
+Missing	2174
+
+
+78) QNZ5A
+Z-5a. (IF Z-4=2 ASK) Does your partner or spouse consider themselves to be white, black or African American, Asian, Arab, Native American, Pacific Islander, mixed race or some other race? (ENTER ONE ONLY), (IF RESPONDENT SAYS HISPANIC ASK: Do they consider themselves to be a white Hispanic or a black Hispanic?), (INTERVIEWER NOTE: CODE AS WHITE (1) OR BLACK (2). IF RESPONDENTS REFUSED TO PICK WHITE OR BLACK HISPANIC, RECORD HISPANIC AS 'OTHER,' If 'other' say: 'I'm not referring to their nationality. I just want to know if they consider themselves white or black.' If respondent won't pick one, then enter code for 'OTHER'
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	202	2.906	2.343
+0) Other	7	3.5
+1) White	79	39.1
+2) Black or African American	26	12.9
+3) Asian/Chinese/Japanese/Indian/Pakistani	31	15.3
+4) Native American/American Indian/Alaska Native	11	5.4
+5) Native Hawaiian and Other Pacific Islander	4	2.0
+6) Mixed	23	11.4
+7) Arab	9	4.5
+8) Hispanic Unspecified	10	5.0
+9) Refused	2	1.0
+Missing	2174
+
+
+79) QNZ5AOT
+Z-5a. Does your partner or spouse consider themselves to be white, black or African American, Asian, Arab, Native American, Pacific Islander, mixed race or some other race? SPECIFY OTHER HERE
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	21	0	0
+
+
+80) QNZ6
+Z-6. Including yourself, how many people are there living in your household?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	2.839	1.654
+0) 	9	0.4
+1) 	462	19.4
+2) 	821	34.6
+3) 	369	15.5
+4) 	363	15.3
+5) 	173	7.3
+6) 	95	4.0
+7) 	36	1.5
+8) 	37	1.6
+9) 	11	0.5
+
+
+81) QNZ6A
+Z-6A. How many of these are adults, 18 or older?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1894	2.451	0.999
+0) 	4	0.2
+1) 	90	4.8
+2) 	1234	65.2
+3) 	317	16.7
+4) 	164	8.7
+5) 	56	3.0
+6) 	16	0.8
+7) 	4	0.2
+8) 	8	0.4
+9) 	1	0.1
+Missing	482
+
+
+82) QNZ7
+Z-7. What is your age?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2376	51.015	19.105
+0) 	8	0.3
+18) 	20	0.8
+19) 	19	0.8
+20) 	29	1.2
+21) 	29	1.2
+22) 	26	1.1
+23) 	29	1.2
+24) 	35	1.5
+25) 	39	1.6
+26) 	30	1.3
+27) 	24	1.0
+28) 	29	1.2
+29) 	29	1.2
+30) 	46	1.9
+31) 	26	1.1
+32) 	41	1.7
+33) 	50	2.1
+34) 	44	1.9
+35) 	53	2.2
+36) 	49	2.1
+37) 	34	1.4
+38) 	53	2.2
+39) 	31	1.3
+40) 	41	1.7
+41) 	31	1.3
+42) 	41	1.7
+43) 	42	1.8
+44) 	38	1.6
+45) 	39	1.6
+46) 	30	1.3
+47) 	32	1.3
+48) 	33	1.4
+49) 	38	1.6
+50) 	53	2.2
+51) 	36	1.5
+52) 	41	1.7
+53) 	31	1.3
+54) 	28	1.2
+55) 	34	1.4
+56) 	42	1.8
+57) 	37	1.6
+58) 	37	1.6
+59) 	36	1.5
+60) 	45	1.9
+61) 	39	1.6
+62) 	31	1.3
+63) 	44	1.9
+64) 	44	1.9
+65) 	53	2.2
+66) 	41	1.7
+67) 	43	1.8
+68) 	48	2.0
+69) 	37	1.6
+70) 	55	2.3
+71) 	27	1.1
+72) 	47	2.0
+73) 	29	1.2
+74) 	27	1.1
+75) 	23	1.0
+76) 	22	0.9
+77) 	20	0.8
+78) 	27	1.1
+79) 	20	0.8
+80) 	18	0.8
+81) 	15	0.6
+82) 	12	0.5
+83) 	6	0.3
+84) 	6	0.3
+85) 	4	0.2
+86) 	7	0.3
+87) 	9	0.4
+88) 	3	0.1
+89) 	3	0.1
+90) 	4	0.2
+91) 	2	0.1
+92) 	4	0.2
+93) 	1	0.0
+94) 	2	0.1
+95) 	3	0.1
+96) 	2	0.1
+99) 	40	1.7
+
+
+83) QNZ7A
+Z-7A. Could you please tell me if you are ...? (READ LIST)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	48	4.229	2.486
+1) 18-24	2	4.2
+2) 30-49	9	18.8
+3) 50-64	12	25.0
+4) 65+	14	29.2
+5) 25-29	2	4.2
+9) Refused	9	18.8
+Missing	2328
+
+
+84) QNZ8
+Z-8. What is the last grade of school you completed? (DO NOT READ LIST)
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	3.765	1.195
+0) Blank	1	0.0
+1) Less than high school graduate	59	2.5
+2) High school graduate	319	13.4
+3) Some college (including Associate's degree)	558	23.5
+4) Graduated college (four year/Bachelor's degree)	726	30.6
+5) Graduate school or more	634	26.7
+6) Technical school/Other	70	2.9
+9) Refused	9	0.4
+
+
+85) QNZ8B
+Z-8b. Are you currently a student?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.896	0.375
+0) Blank	1	0.0
+1) Yes	258	10.9
+2) No	2115	89.0
+9) Don't know/Refused	2	0.1
+
+
+86) QNZ9
+Z-9. Is your total annual household income from all sources, and before taxes: (READ LIST)
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2376	10.503	20.985
+0) Blank	19	0.8
+1) Less than $15,000	161	6.8
+2) $15,000 but less than $25,000	168	7.1
+3) $25,000 but less than $30,000	157	6.6
+4) $30,000 but less than $40,000	177	7.4
+5) $40,000 but less than $50,000	180	7.6
+6) $50,000 but less than $75,000	402	16.9
+7) $75,000 but less than $100,000	349	14.7
+8) $100,000 and over	637	26.8
+98) Don't know	45	1.9
+99) Refused	81	3.4
+
+
+87) QNZ10
+Z-10. Are you of Hispanic origin or background?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.95	0.47
+0) Blank	3	0.1
+1) Yes	165	6.9
+2) No	2200	92.6
+8) Don't know	3	0.1
+9) Refused	5	0.2
+
+
+88) QNZ11
+Z-11. Do you consider yourself white, black or African American, Asian, Arab, Native American, Pacific Islander, mixed race or some other race? (ENTER ONE ONLY), (IF RESPONDENT SAYS HISPANIC ASK: Do you consider yourself a white Hispanic or a black Hispanic?), (INTERVIEWER NOTE: CODE AS WHITE (1) OR BLACK (2). IF RESPONDENTS REFUSED TO PICK WHITE OR BLACK HISPANIC, RECORD HISPANIC AS 'OTHER,' If 'other' say: 'I'm not referring to your nationality. I just want to know if you consider yourself white or black.' If respondent won't pick one, then enter code for 'OTHER'
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	2376	0	0
+0) Other	25	1.1
+1) White	1522	64.1
+2) Black or African American	306	12.9
+3) Asian/Chinese/Japanese/Indian/Pakistani	222	9.3
+4) Native American/American Indian/Alaska Native	24	1.0
+5) Native Hawaiian and Other Pacific Islander	5	0.2
+6) Mixed	110	4.6
+7) Arab	107	4.5
+8) Hispanic unspecified	17	0.7
+9) Refused	33	1.4
+
+
+89) QNZ11OT
+Z-11. Do you consider yourself white, black or African American, Asian, Arab, Native American, Pacific Islander, mixed race or some other race? SPECIFY OTHER HERE
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	81	0	0
+
+
+90) QNZ11AROT
+QNZ11AROT
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2376	1.495	0.5
+1) 	1199	50.5
+2) 	1177	49.5
+
+
+91) QNZ11A
+Z-11A. Generally speaking, do you usually think of yourself as: NOTE: If respondent gives answer such as: 'conservative, liberal, vote for best man' Probe: Would that be Republican, Democrat, or independent?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	2.153	1.151
+0) Other	62	2.6
+1) A Republican	520	21.9
+2) A Democrat	1005	42.3
+3) An independent	749	31.5
+8) Don't know	21	0.9
+9) Refused	19	0.8
+
+
+92) QNZ11AOT
+Z-11A. Generally speaking, do you usually think of yourself as:  SPECIFY OTHER HERE
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	63	0	0
+
+
+93) QNZ11C
+Z-11C. (ASK IF Z-11A=3,8,9) Do you think of yourself as closer to the Republican party or to the Democratic party?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	851	2.358	2.185
+0) Blank	10	1.2
+1) Republican	281	33.0
+2) Democrat	464	54.5
+8) Don't know	66	7.8
+9) Refused	30	3.5
+Missing	1525
+
+
+94) QND3ROT
+QND3ROT
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2376	1.503	0.5
+1) 	1182	49.7
+2) 	1194	50.3
+
+
+95) QND3
+D3. Generally speaking, would you describe your political views as ...? (READ LIST. ENTER ONE ONLY)
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	3.221	1.408
+0) Blank	3	0.1
+1) Very conservative	263	11.1
+2) Somewhat conservative	421	17.7
+3) Moderate	778	32.7
+4) Somewhat liberal	500	21.0
+5) Very liberal	363	15.3
+8) Don't know	32	1.3
+9) Refused	16	0.7
+
+
+96) QNZ12
+Z-12. How many telephone numbers, if any, does your household have that I could have reached you on? Not extensions, but different telephone numbers, excluding wireless or cellular phones?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2272	1.376	1.303
+0) Cell phone household only	509	22.4
+1) One	980	43.1
+2) Two	441	19.4
+3) Three	217	9.6
+4) Four or more	101	4.4
+7) Blank	3	0.1
+9) Refused	21	0.9
+Missing	104
+
+
+97) QNL1
+L-1. Now thinking about your telephone use. . . Does anyone in your household including yourself, have a working cell phone?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1877	1.103	0.494
+0) Blank	2	0.1
+1) Yes respondent or someone else has cell phone in household	1714	91.3
+2) No	156	8.3
+9) Refused	5	0.3
+Missing	499
+
+
+98) QNC1
+C1. Now thinking about your telephone use, is there at least one telephone INSIDE your home that is currently working and is not a cell phone?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1990	1.518	0.62
+0) Blank	1	0.1
+1) Yes, has a home telephone	991	49.8
+2) No, no home telephone	993	49.9
+8) Don't know	1	0.1
+9) Refused	4	0.2
+Missing	386
+
+
+99) QNC1A
+C1a. How many different cell phone numbers do you personally answer calls on?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2127	1.325	0.896
+0) 	3	0.1
+1) 	1662	78.1
+2) 	371	17.4
+3) 	45	2.1
+4) 	15	0.7
+5) 	12	0.6
+6) 	2	0.1
+7) 	2	0.1
+8) 	2	0.1
+9) 	13	0.6
+Missing	249
+
+
+100) QNZ13
+Z13. What is your current zip code?
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	2376	0	0
+
+
+101) QNZ13A
+Z13A. In what State do you reside?
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	73	0	0
+
+
+102) COUNTY
+In what County do you reside? (Specify)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	20	0	0
+
+
+103) QNDA1
+DA1. Were you born in the United States, or not?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.217	0.579
+0) Blank	1	0.0
+1) Yes	1908	80.3
+2) No	460	19.4
+9) Don't know/Refused	7	0.3
+
+
+104) QNDA2
+DA2. (ASK IF DA1=2,9) Are you a citizen of the United States, or not?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	468	1.365	1.037
+0) Blank	1	0.2
+1) Yes	344	73.5
+2) No	116	24.8
+9) Don't know/Refused	7	1.5
+Missing	1908
+
+
+105) QNDA3
+DA3. Do you think of yourself as: A. Straight, that is, not lesbian or gay; B. Gay or lesbian; C. Bisexual; or D. something else? (INTERVIEWER NOTE: Please read the letters with the answer categories, so that respondent may use either the letter or words to give their answer. You may use the descriptions below if respondent asks for clarification). IF NEEDED: If respondent asks for explanation of terms used in question: Gay or Lesbian-A person who is primarily attracted to people of the same sex. Straight-A person who is primarily attracted to people of the opposite sex. Bisexual-A person who is attracted to people of either sex. [INTERVIEWER CODING NOTE: If respondent replies that they are 'homosexual,' please code with 'gay or lesbian'. If respondent replies that they are 'heterosexual,' please code with 'straight'.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2376	1.202	0.93
+1) Straight, that is, not lesbian or gay (heterosexual)	2194	92.3
+2) Gay or Lesbian (homosexual)	58	2.4
+3) Bisexual	74	3.1
+4) Something else	25	1.1
+8) Don't know	2	0.1
+9) Refused	23	1.0
+
+
+106) ENDLANG
+ENDLANG
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	2376	0	0
+
+
+107) DATE
+Interview date
+RANGE: 19010818 to 19012800
+	N	Mean	Std. Deviation
+Total	2376	19011867.185	558.047
+
+
+108) SSRSMCODE
+SSRS MATCH CODE
+RANGE: 1000012 to 10005584
+	N	Mean	Std. Deviation
+Total	781	2777666.604	1823997.138
+
+
+109) CENSFIPS
+Census FIPS
+RANGE: 1073 to 55133
+	N	Mean	Std. Deviation
+Total	781	28930.763	14194.216
+
+
+110) MSA
+MSA
+RANGE: 240 to 8960
+	N	Mean	Std. Deviation
+Total	90	4191.344	2417.832
+
+
+111) MSC
+MSC
+RANGE: 0 to 5
+	N	Mean	Std. Deviation
+Total	739	1.996	1.234
+0) Undetermined	34	4.6
+1) Urban-Center City (Metro)	304	41.1
+2) Urban-Center City County (Metro)	154	20.8
+3) Suburban (Metro)	160	21.7
+4) Surburban-Non-Center City (Metro)	52	7.0
+5) Rural- Non-Metro	35	4.7
+Missing	1637
+
+
+112) CENSREG
+CENSUS REGION
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	781	2.207	1.095
+1) Northeast	296	37.9
+2) North Central	134	17.2
+3) South	244	31.2
+4) West	107	13.7
+Missing	1595
+
+
+113) CENSDIV
+CENSUS DIVISION
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	781	4.223	2.427
+1) New England	30	3.8
+2) Mid-Atlantic	266	34.1
+3) East North Central	100	12.8
+4) West North Central	34	4.4
+5) South Atlantic	159	20.4
+6) East South Central	19	2.4
+7) West South Central	66	8.5
+8) Mountain	34	4.4
+9) Pacific	73	9.3
+Missing	1595
+
+
+114) SAMPCASE
+Sample Case ID
+RANGE: 10000003 to 90000860
+	N	Mean	Std. Deviation
+Total	648	56474043.076	29235721.663
+
+
+115) IDENT2
+IDENT2
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	781	3.389	1.025
+1) LL	92	11.8
+3) Prescreened LL	242	31.0
+4) Prescreened Cell	406	52.0
+5) Consumer Cell	41	5.2
+Missing	1595
+
+
+116) IDENT3
+IDENT3
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	781	1.438	0.496
+1) Muslim	439	56.2
+2) Jewish	342	43.8
+Missing	1595
+
+
+117) STATEMRG
+STATE (FROM ZIP CODE MERGE)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	2279	0	0
+
+
+118) REGION
+REGION (FROM ZIP CODE MERGE)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2376	2.447	1.117
+1) Northeast	657	27.7
+2) North Central	486	20.5
+3) South	762	32.1
+4) West	468	19.7
+9) Undetermined	3	0.1
+
+
+119) ID2
+ID 2
+RANGE: 10000017999 to 80001111999
+	N	Mean	Std. Deviation
+Total	2376	61502941312.399	22404850736.831
+
+
+120) QN35
+35. If you were to encounter the Quran in your day to day life, would it be mostly by reading a physical or electronic book or do you more frequently encounter it through the ear as a rhythmic recitation?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	394	1.916	1.148
+0) Blank	1	0.3
+1) A book to be read (physical or electronic)	202	51.3
+2) Verses I listen to or recite (rhythmic recitation)	60	15.2
+3) A book to be read (physical or electronic) AND Verses I listen to or recite (rhythmic recitation) EQUALLY THE SAME	103	26.1
+4) I do not or very rarely interact with the Quran in written or oral form	24	6.1
+5) Some other way of encountering the Quran	2	0.5
+9) Don't know/Refused	2	0.5
+Missing	1982
+
+
+121) QN35OT
+35. If you were to encounter the Quran in your day to day life, would it be mostly by reading a physical or electronic book or do you more frequently encounter it through the ear as a rhythmic recitation? SPECIFY OTHER HERE
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	3	0	0
+
+
+122) METRO
+METRO (FROM ZIP CODE MERGE)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2376	2.584	1.905
+1) Urban-Center City (Metro)	911	38.3
+2) Urban-Center City County (Metro)	431	18.1
+3) Suburban (Metro)	544	22.9
+4) Surburban-Non-Center City (Metro)	143	6.0
+5) Rural- Non-Metro	240	10.1
+9) Undetermined	107	4.5
+
+
+123) DENS18
+18+ DENSITY (FROM ZIP CODE MERGE)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2376	3.669	1.755
+1) 	291	12.2
+2) 	358	15.1
+3) 	392	16.5
+4) 	528	22.2
+5) 	710	29.9
+9) 	97	4.1
+
+
+124) WEIGHT2
+Weight 2
+RANGE: 0.1122 to 6.1472
+	N	Mean	Std. Deviation
+Total	2376	1	0.92
+
+
+125) RELIGION
+Religion
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1227	1.66	0.474
+1) Jewish	417	34.0
+2) Muslim	810	66.0
+Missing	1149
+
+
+126) COLLECTION_METHOD
+Collection Method
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	2376	2.648	1.349
+1) Muslim/Jewish Phone (comes from R1142a, R1142c, R1142j, R1142k)	781	32.9
+2) Muslim Web (comes from R1142v)	383	16.1
+3) Gen Pop Phone (Comes from s8803a, s8803j, s8804a, s8804j)	104	4.4
+4) Gen Pop Web (Comes from r1142w)	1108	46.6
+
+
+127) LL_CELL_WEEB
+LL / Cell / Web
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	2376	2.465	0.758
+1) LL (Comes from r1142a, r1142c and s8803a, s8804a)	386	16.2
+2) Cell (comes from r1142j, r1142k and s8803j, s8804j)	499	21.0
+3) Web (comes from r1142v and r1142w)	1491	62.8
+
+
+128) I-AGE
+Z-7. What is your age? (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2328	3.974	1.658
+1) 18 to 24	187	8.0
+2) 25 to 34	358	15.4
+3) 35 to 44	413	17.7
+4) 45 to 54	361	15.5
+5) 55 to 64	389	16.7
+6) 65+	620	26.6
+Missing	48
+
+
+129) I-EDUC
+Z-8. What is the last grade of school you completed? (DO NOT READ LIST) (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	2366	2.683	1.036
+1) High school graduate or less	378	16.0
+2) Some college (including associate's degree, technical school, other)	628	26.5
+3) Graduated college (four year/bachelor's degree)	726	30.7
+4) Graduate school or more	634	26.8
+Missing	10
+
+
+130) I-INCOME
+Z-9. Is your total annual household income from all sources, and before taxes: (READ LIST) (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2231	3.132	1.521
+1) Less than $30,000	486	21.8
+2) $30,000 but less than $50,000	357	16.0
+3) $50,000 but less than $75,000	402	18.0
+4) $75,000 but less than $100,000	349	15.6
+5) $100,000 and over	637	28.6
+Missing	145
+
+
+131) I-MARITAL
+QZ-2. (READ TO ALL:) And finally, just a few questions for classification purposes only... Are you: (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	2368	2.611	0.897
+1) Single, that is never married	487	20.6
+2) Single, living with a partner	131	5.5
+3) Married	1567	66.2
+4) Divorced/Separated/Widowed	183	7.7
+Missing	8
+
+
+132) I-RELIGION
+What is your present religion, if any? Are you Protestant, Roman Catholic, Mormon, Orthodox such as Greek or Russian Orthodox, Jewish, Muslim, Buddhist, Hindu, atheist, agnostic, something else, or nothing in particular? INTERVIEWER NOTE: If respondent volunteers, 'Nothing in particular, none, no religion, etc.' BEFORE REACHING THE END OF THE LIST, PROMPT WITH, 'And would you say that's atheist, agnostic, or just nothing in particular?' (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2374	3.732	1.779
+1) Christian (including Protestant)	504	21.2
+2) Catholic/Roman Catholic	245	10.3
+3) Something else (including Mormon, Orthodox, Buddhist, Hindu, Unitarian)	82	3.5
+4) Jewish/Judaism	415	17.5
+5) Muslim/Islamic	809	34.1
+6) No religion/Atheist/Other	319	13.4
+Missing	2
+
+
+133) I-SEX
+(RECORD GENDER FOR EVERYONE) Record SEX of Respondent: (Recoded for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2374	1.484	0.5
+1) Male	1226	51.6
+2) Female	1148	48.4
+Missing	2
+
+

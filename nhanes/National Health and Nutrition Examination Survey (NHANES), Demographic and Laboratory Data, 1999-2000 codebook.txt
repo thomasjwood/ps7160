@@ -1,0 +1,7132 @@
+Data File: NHANSL00(Full Data Codebook)
+
+1) SEQN
+[Section 1: Demographics] Respondent sequence number
+RANGE: 1 to 9965
+	N	Mean	Std. Deviation
+Total	9965	4983	2876.792
+
+
+2) SDDSRVYR
+Data release number
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	9965	1	0
+1) NHANES 1999 to 2000 public release	9965	100.0
+
+
+3) RIDSTATR
+Interview and examination status of the sample person
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	9965	1.931	0.253
+1) Interviewed only	683	6.9
+2) Both interviewed and MEC examined	9282	93.1
+
+
+4) RIAGENDR
+Gender of the sample person
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	9965	1.51	0.5
+1) Male	4883	49.0
+2) Female	5082	51.0
+
+
+5) RIDAGEYR
+Best age in years of the sample person at time of household screening. Individuals 85 and over are top-coded at 85 years of age
+RANGE: 0 to 85
+	N	Mean	Std. Deviation
+Total	9965	29.729	24.83
+
+
+6) RIDAGEMN
+Best age in months at date of screening for individuals under 85 years of age
+RANGE: 0 to 1019
+	N	Mean	Std. Deviation
+Total	9792	350.512	287.137
+
+
+7) RIDAGEEX
+Best age in months at date of examination for individuals under 85 years of age at screening
+RANGE: 0 to 1019
+	N	Mean	Std. Deviation
+Total	9141	345.35	283.532
+
+
+8) RIDRETH1
+Recode of reported race and ethnicity information
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	9965	2.561	1.268
+1) Mexican American	3393	34.0
+2) Other Hispanic	589	5.9
+3) Non-Hispanic white	3367	33.8
+4) Non-Hispanic black	2228	22.4
+5) Other race - including multi-racial	388	3.9
+
+
+9) RIDRETH2
+Linked NH3 race and ethnicity recode
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	9965	2.232	1.13
+1) Non-Hispanic white	3423	34.4
+2) Non-Hispanic black	2273	22.8
+3) Mexican American	3393	34.0
+4) Other race - including multi-racial	287	2.9
+5) Other Hispanic	589	5.9
+
+
+10) DMQMILIT
+Did [you/sample person] ever serve in the Armed Forces of the United States?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5731	1.885	0.42
+1) Yes	717	12.5
+2) No	5004	87.3
+7) Refused	5	0.1
+9) Don't know	5	0.1
+Missing	4234
+
+
+11) DMDBORN
+In what country [were you/was sample person] born?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	9954	1.265	0.593
+1) Born in 50 U.S. states or Washington, D.C.	8069	81.1
+2) Born in Mexico	1146	11.5
+3) Born elsewhere	737	7.4
+7) Refused	1	0.0
+9) Don't know	1	0.0
+Missing	11
+
+
+12) DMDCITZN
+[Are you/Is sample person] a citizen of the United States? [Information about citizenship is being collected by the U.S. Public Health Service to perform health related research. Providing this information is voluntary and is collected under the authority of the Public Health Service Act. There will be no effect on pending immigration or citizenship petitions]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	9962	1.166	0.626
+1) Citizen by birth or naturalization	8663	87.0
+2) Not a citizen of the U.S.	1240	12.4
+7) Refused	30	0.3
+9) Don't know	29	0.3
+Missing	3
+
+
+13) DMDYRSUS
+Length of time sample person has been in the U.S.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1898	6.963	14.795
+1) Less than one year	116	6.1
+2) One year, less than five years	341	18.0
+3) Five years, less than 10 years	359	18.9
+4) 10 years, less than 15 years	256	13.5
+5) 15 years, less than 20 years	156	8.2
+6) 20 years, less than 30 years	252	13.3
+7) 30 years, less than 40 years	174	9.2
+8) 40 years, less than 50 years	120	6.3
+9) 50 years or more	63	3.3
+77) Refused	34	1.8
+88) Could not determine	1	0.1
+99) Don't know	26	1.4
+Missing	8067
+
+
+14) DMDEDUC3
+[Education level - children/youth six to 19] (Sample person interview version) What is the highest grade or level of school [you have/sample person has] completed or the highest degree [you have/s/he has] received?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	3527	7.887	8.586
+0) Never attended/Kindergarten	210	6.0
+1) First grade	202	5.7
+2) Second grade	186	5.3
+3) Third grade	186	5.3
+4) Fourth grade	204	5.8
+5) Fifth grade	244	6.9
+6) Sixth grade	318	9.0
+7) Seventh grade	323	9.2
+8) Eighth grade	320	9.1
+9) Ninth grade	309	8.8
+10) 10th grade	307	8.7
+11) 11th grade	281	8.0
+12) 12th grade, no diploma	81	2.3
+13) High school graduate	177	5.0
+14) GED or equivalent	12	0.3
+15) More than high school	108	3.1
+55) Less than fifth grade	3	0.1
+66) Less than ninth grade	53	1.5
+77) Refused	2	0.1
+99) Don't know	1	0.0
+Missing	6438
+
+
+15) DMDEDUC2
+[Education level - adults 20+] (Sample person interview version) What is the highest grade or level of school [you have/sample person has] completed or the highest degree [you have/s/he has] received?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	4878	2.989	1.4
+1) Less than ninth grade	932	19.1
+2) Ninth to 11th grade (includes 12th grade with no diploma)	964	19.8
+3) High school grad/GED or equivalent	1097	22.5
+4) Some college or AA degree	1070	21.9
+5) College graduate or above	793	16.3
+7) Refused	8	0.2
+9) Don't know	14	0.3
+Missing	5087
+
+
+16) DMDEDUC
+(Sample person interview version) What is the highest grade or level of school [you have/sample person has] completed or the highest degree [you have/s/he has] received?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	8406	1.643	0.913
+1) Less than high school	5124	61.0
+2) High school diploma (including GED)	1286	15.3
+3) More than high school	1971	23.4
+7) Refused	10	0.1
+9) Don't know	15	0.2
+Missing	1559
+
+
+17) DMDSCHOL
+[Are you/Is sample person] now in school, on vacation from school (between grades) or neither in school or on vacation from school (between grades)?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3311	1.397	0.681
+1) In school	2348	70.9
+2) On vacation from school (between grades)	618	18.7
+3) Neither in school or on vacation from school (between grades)	344	10.4
+9) Don't know	1	0.0
+Missing	6654
+
+
+18) DMDMARTL
+Marital status
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	6072	3.127	3.598
+1) Married	2485	40.9
+2) Widowed	475	7.8
+3) Divorced	378	6.2
+4) Separated	177	2.9
+5) Never married	2316	38.1
+6) Living with partner	232	3.8
+77) Refused	7	0.1
+99) Don't know	2	0.0
+Missing	3893
+
+
+19) DMDHHSIZ
+Total number of people in the household
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	9965	3.921	1.777
+1)	752	7.5
+2)	1852	18.6
+3)	1717	17.2
+4)	1972	19.8
+5)	1598	16.0
+6)	927	9.3
+7) Seven or more people in the household	1147	11.5
+
+
+20) INDHHINC
+Total household income (reported as a range value in dollars)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8447	7.343	8.667
+1) Zero dollars to $4,999	298	3.5
+2) $5,000 to $9,999	654	7.7
+3) $10,000 to $14,999	843	10.0
+4) $15,000 to $19,999	762	9.0
+5) $20,000 to $24,999	777	9.2
+6) $25,000 to $34,999	1118	13.2
+7) $35,000 to $44,999	804	9.5
+8) $45,000 to $54,999	607	7.2
+9) $55,000 to $64,999	509	6.0
+10) $65,000 to $74,999	371	4.4
+11) $75,000 and over	1255	14.9
+12) Over $20,000	314	3.7
+13) Under $20,000	53	0.6
+77) Refused	41	0.5
+99) Don't know	41	0.5
+Missing	1518
+
+
+21) INDFMINC
+Total family income (reported as a range value in dollars)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	9783	10.68	18.661
+1) Zero dollars to $4,999	569	5.8
+2) $5,000 to $9,999	877	9.0
+3) $10,000 to $14,999	1062	10.9
+4) $15,000 to $19,999	829	8.5
+5) $20,000 to $24,999	844	8.6
+6) $25,000 to $34,999	1077	11.0
+7) $35,000 to $44,999	740	7.6
+8) $45,000 to $54,999	611	6.2
+9) $55,000 to $64,999	451	4.6
+10) $65,000 to $74,999	348	3.6
+11) $75,000 and over	1074	11.0
+12) Over $20,000	404	4.1
+13) Under $20,000	366	3.7
+77) Refused	301	3.1
+99) Don't know	230	2.4
+Missing	182
+
+
+22) INDFMPIR
+Poverty income ratio (PIR) - a ratio of family income to poverty threshold
+RANGE: 0 to 5
+	N	Mean	Std. Deviation
+Total	8482	2.176	1.581
+
+
+23) RIDEXPRG
+Pregnancy status at the time of MEC exam
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1962	1.948	0.512
+1) Yes, positive lab pregnancy test or self-reported pregnant at exam	311	15.9
+2) Sample person not pregnant at exam	1443	73.5
+3) Cannot ascertain if sample person is pregnant at exam	208	10.6
+Missing	8003
+
+
+24) RIDPREG
+Pregnancy status variable based on all source data. Note: This is the previous pregnancy status recode variable. RIDPREG is a more conservative pregnancy status variable. Please review the file documentation
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1829	1.844	0.363
+1) Yes, based on positive lab pregnancy test, self-reported pregnancy status, screener interview data or menstrual period history	285	15.6
+2) Sample person not pregnant	1544	84.4
+Missing	8136
+
+
+25) DMDHRGND
+Gender of the household reference person
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	9953	1.438	0.496
+1) Male	5597	56.2
+2) Female	4356	43.8
+Missing	12
+
+
+26) DMDHRAGE
+Age in years of the household reference person at the time of household screening. Individuals 85 and over are top-coded at 85 years of age
+RANGE: 17 to 85
+	N	Mean	Std. Deviation
+Total	9953	44.874	16.301
+
+
+27) DMDHRBRN
+In what country [were you/was non-sample person head] born?
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	9577	1.432	0.708
+1) Born in 50 U.S. states or Washington, D.C.	6545	68.3
+2) Born in Mexico	1974	20.6
+3) Born elsewhere	1046	10.9
+7) Refused	12	0.1
+Missing	388
+
+
+28) DMDHREDU
+What is the highest grade or level of school [you have/non-sample person head has] received?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	9571	2.973	1.424
+1) Less than ninth grade	1747	18.3
+2) Ninth to 11th grade (includes 12th grade with no diploma)	2100	21.9
+3) High school grad/GED or equivalent	2188	22.9
+4) Some college or AA degree	2026	21.2
+5) College graduate or above	1431	15.0
+7) Refused	13	0.1
+9) Don't know	66	0.7
+Missing	394
+
+
+29) DMDHRMAR
+Marital status of household reference person
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8062	2.532	5.494
+1) Married	4673	58.0
+2) Widowed	577	7.2
+3) Divorced	861	10.7
+4) Separated	538	6.7
+5) Never married	1115	13.8
+6) Living with partner	267	3.3
+77) Refused	18	0.2
+99) Don't know	13	0.2
+Missing	1903
+
+
+30) DMDHSEDU
+What is the highest grade or level of school [you have/non-sample person spouse] has completed or the highest degree [you have/he/she has] received
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3232	2.945	1.423
+1) Less than ninth grade	607	18.8
+2) Ninth to 11th grade (includes 12th grade with no diploma)	729	22.6
+3) High school grad/GED or	728	22.5
+4) Some college or AA degree	661	20.5
+5) College graduate or above	483	14.9
+7) Refused	3	0.1
+9) Don't know	21	0.6
+Missing	6733
+
+
+31) WTINT2YR
+[Full sample two year interview weight] Interviewed sample persons
+RANGE: 974.66525161 to 236864.1359736
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30055.553
+
+
+32) WTINT4YR
+[Full sample four year interview weight] Interviewed sample persons
+RANGE: 620.682382 to 100652.329635
+	N	Mean	Std. Deviation
+Total	9965	13159.422	14070.057
+
+
+33) WTMEC2YR
+[Full sample two year MEC exam weight] Both interviewed and MEC examined sample persons
+RANGE: 0 to 261361.33834188
+	N	Mean	Std. Deviation
+Total	9965	27311.273	32529.222
+
+
+34) WTMEC4YR
+[Full sample four year MEC exam weight] Both interviewed and MEC examined sample persons
+RANGE: 0 to 103831.171049
+	N	Mean	Std. Deviation
+Total	9965	12948.546	14938.06
+
+
+35) SDMVPSU
+Masked variance unit pseudo-PSU variable for variance estimation
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	9965	1.542	0.56
+1)	4884	49.0
+2)	4757	47.7
+3)	324	3.3
+
+
+36) SDMVSTRA
+Masked variance unit pseudo-stratum variable for variance estimation
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	9965	6.678	3.766
+1)	1065	10.7
+2)	694	7.0
+3)	787	7.9
+4)	858	8.6
+5)	749	7.5
+6)	730	7.3
+7)	859	8.6
+8)	749	7.5
+9)	690	6.9
+10)	646	6.5
+11)	737	7.4
+12)	815	8.2
+13)	586	5.9
+
+
+37) SDJ1REPN
+Jack Knife replicate number
+RANGE: 1 to 52
+	N	Mean	Std. Deviation
+Total	9965	26.602	14.884
+
+
+38) DMAETHN
+Logical imputation flag for ethnicity
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	2	1	0
+1) Value imputed	2	100.0
+Missing	9963
+
+
+39) DMARACE
+Logical imputation flag for race recode
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	2	1	0
+1) Value imputed	2	100.0
+Missing	9963
+
+
+40) WTMREP01
+MEC exam weight Jack Knife replicate 01
+RANGE: 0 to 258536.54744909
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33003.855
+
+
+41) WTMREP02
+MEC exam weight Jack Knife replicate 02
+RANGE: 0 to 260734.52776785
+	N	Mean	Std. Deviation
+Total	9965	27311.273	32986.664
+
+
+42) WTMREP03
+MEC exam weight Jack Knife replicate 03
+RANGE: 0 to 261389.69804887
+	N	Mean	Std. Deviation
+Total	9965	27311.273	32558.939
+
+
+43) WTMREP04
+MEC exam weight Jack Knife replicate 04
+RANGE: 0 to 261672.08293433
+	N	Mean	Std. Deviation
+Total	9965	27311.273	32679.747
+
+
+44) WTMREP05
+MEC exam weight Jack Knife replicate 05
+RANGE: 0 to 261039.26427924
+	N	Mean	Std. Deviation
+Total	9965	27311.273	32968.688
+
+
+45) WTMREP06
+MEC exam weight Jack Knife replicate 06
+RANGE: 0 to 262491.48899948
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33072.17
+
+
+46) WTMREP07
+MEC exam weight Jack Knife replicate 07
+RANGE: 0 to 258631.58326608
+	N	Mean	Std. Deviation
+Total	9965	27311.273	32919.806
+
+
+47) WTMREP08
+MEC exam weight Jack Knife replicate 08
+RANGE: 0 to 261427.86998541
+	N	Mean	Std. Deviation
+Total	9965	27311.273	32973.799
+
+
+48) WTMREP09
+MEC exam weight Jack Knife replicate 09
+RANGE: 0 to 263135.14291388
+	N	Mean	Std. Deviation
+Total	9965	27311.273	32975.67
+
+
+49) WTMREP10
+MEC exam weight Jack Knife replicate 10
+RANGE: 0 to 264325.82083615
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33206.571
+
+
+50) WTMREP11
+MEC exam weight Jack Knife replicate 11
+RANGE: 0 to 265082.90501839
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33491.853
+
+
+51) WTMREP12
+MEC exam weight Jack Knife replicate 12
+RANGE: 0 to 261045.28868697
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33121.337
+
+
+52) WTMREP13
+MEC exam weight Jack Knife replicate 13
+RANGE: 0 to 259966.30732701
+	N	Mean	Std. Deviation
+Total	9965	27311.273	32882.912
+
+
+53) WTMREP14
+MEC exam weight Jack Knife replicate 14
+RANGE: 0 to 267824.09333185
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33412.69
+
+
+54) WTMREP15
+MEC exam weight Jack Knife replicate 15
+RANGE: 0 to 264048.81824267
+	N	Mean	Std. Deviation
+Total	9965	27311.273	34147.775
+
+
+55) WTMREP16
+MEC exam weight Jack Knife replicate 16
+RANGE: 0 to 265140.60416543
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33667.956
+
+
+56) WTMREP17
+MEC exam weight Jack Knife replicate 17
+RANGE: 0 to 260425.83848067
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33109.874
+
+
+57) WTMREP18
+MEC exam weight Jack Knife replicate 18
+RANGE: 0 to 261367.45269217
+	N	Mean	Std. Deviation
+Total	9965	27311.273	32794.161
+
+
+58) WTMREP19
+MEC exam weight Jack Knife replicate 19
+RANGE: 0 to 265394.01407777
+	N	Mean	Std. Deviation
+Total	9965	27311.273	32998.502
+
+
+59) WTMREP20
+MEC exam weight Jack Knife replicate 20
+RANGE: 0 to 261809.66638781
+	N	Mean	Std. Deviation
+Total	9965	27311.273	32603.334
+
+
+60) WTMREP21
+MEC exam weight Jack Knife replicate 21
+RANGE: 0 to 261040.57841564
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33058.327
+
+
+61) WTMREP22
+MEC exam weight Jack Knife replicate 22
+RANGE: 0 to 261410.98953655
+	N	Mean	Std. Deviation
+Total	9965	27311.273	32538.448
+
+
+62) WTMREP23
+MEC exam weight Jack Knife replicate 23
+RANGE: 0 to 261818.79012274
+	N	Mean	Std. Deviation
+Total	9965	27311.273	32881.661
+
+
+63) WTMREP24
+MEC exam weight Jack Knife replicate 24
+RANGE: 0 to 262433.25418916
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33035.427
+
+
+64) WTMREP25
+MEC exam weight Jack Knife replicate 25
+RANGE: 0 to 261361.77080255
+	N	Mean	Std. Deviation
+Total	9965	27311.273	32564.267
+
+
+65) WTMREP26
+MEC exam weight Jack Knife replicate 26
+RANGE: 0 to 259973.96855558
+	N	Mean	Std. Deviation
+Total	9965	27311.273	32946.675
+
+
+66) WTMREP27
+MEC exam weight Jack Knife replicate 27
+RANGE: 0 to 260115.66619885
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33828.523
+
+
+67) WTMREP28
+MEC exam weight Jack Knife replicate 28
+RANGE: 0 to 265884.08648384
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33380.464
+
+
+68) WTMREP29
+MEC exam weight Jack Knife replicate 29
+RANGE: 0 to 263108.33394822
+	N	Mean	Std. Deviation
+Total	9965	27311.273	32767.057
+
+
+69) WTMREP30
+MEC exam weight Jack Knife replicate 30
+RANGE: 0 to 261761.84401508
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33371.825
+
+
+70) WTMREP31
+MEC exam weight Jack Knife replicate 31
+RANGE: 0 to 262963.609388
+	N	Mean	Std. Deviation
+Total	9965	27311.273	32664.033
+
+
+71) WTMREP32
+MEC exam weight Jack Knife replicate 32
+RANGE: 0 to 254090.86668593
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33459.967
+
+
+72) WTMREP33
+MEC exam weight Jack Knife replicate 33
+RANGE: 0 to 259603.33497595
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33160.813
+
+
+73) WTMREP34
+MEC exam weight Jack Knife replicate 34
+RANGE: 0 to 261548.40488352
+	N	Mean	Std. Deviation
+Total	9965	27311.273	32738.8
+
+
+74) WTMREP35
+MEC exam weight Jack Knife replicate 35
+RANGE: 0 to 253436.57188172
+	N	Mean	Std. Deviation
+Total	9965	27311.273	32948.245
+
+
+75) WTMREP36
+MEC exam weight Jack Knife replicate 36
+RANGE: 0 to 261427.09527483
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33304.525
+
+
+76) WTMREP37
+MEC exam weight Jack Knife replicate 37
+RANGE: 0 to 262556.46961916
+	N	Mean	Std. Deviation
+Total	9965	27311.273	32622.353
+
+
+77) WTMREP38
+MEC exam weight Jack Knife replicate 38
+RANGE: 0 to 265965.07558105
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33068.763
+
+
+78) WTMREP39
+MEC exam weight Jack Knife replicate 39
+RANGE: 0 to 263382.41329589
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33011.983
+
+
+79) WTMREP40
+MEC exam weight Jack Knife replicate 40
+RANGE: 0 to 262655.33471379
+	N	Mean	Std. Deviation
+Total	9965	27311.273	32644.565
+
+
+80) WTMREP41
+MEC exam weight Jack Knife replicate 41
+RANGE: 0 to 263442.38982173
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33389.127
+
+
+81) WTMREP42
+MEC exam weight Jack Knife replicate 42
+RANGE: 0 to 263487.73528333
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33607.474
+
+
+82) WTMREP43
+MEC exam weight Jack Knife replicate 43
+RANGE: 0 to 263992.07035056
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33143.689
+
+
+83) WTMREP44
+MEC exam weight Jack Knife replicate 44
+RANGE: 0 to 262043.77211297
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33084.214
+
+
+84) WTMREP45
+MEC exam weight Jack Knife replicate 45
+RANGE: 0 to 257748.99082623
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33537.778
+
+
+85) WTMREP46
+MEC exam weight Jack Knife replicate 46
+RANGE: 0 to 266060.30543643
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33378.895
+
+
+86) WTMREP47
+MEC exam weight Jack Knife replicate 47
+RANGE: 0 to 252840.399301
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33171.542
+
+
+87) WTMREP48
+MEC exam weight Jack Knife replicate 48
+RANGE: 0 to 261674.57726029
+	N	Mean	Std. Deviation
+Total	9965	27311.273	32668.098
+
+
+88) WTMREP49
+MEC exam weight Jack Knife replicate 49
+RANGE: 0 to 261134.18335201
+	N	Mean	Std. Deviation
+Total	9965	27311.273	32869.739
+
+
+89) WTMREP50
+MEC exam weight Jack Knife replicate 50
+RANGE: 0 to 261980.54184902
+	N	Mean	Std. Deviation
+Total	9965	27311.273	32918.159
+
+
+90) WTMREP51
+MEC exam weight Jack Knife replicate 51
+RANGE: 0 to 259613.17584415
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33351.986
+
+
+91) WTMREP52
+MEC exam weight Jack Knife replicate 52
+RANGE: 0 to 260463.01834367
+	N	Mean	Std. Deviation
+Total	9965	27311.273	33005.618
+
+
+92) WTIREP01
+Interview weight Jack Knife replicate 01
+RANGE: 0 to 238420.85935955
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30587.591
+
+
+93) WTIREP02
+Interview weight Jack Knife replicate 02
+RANGE: 0 to 237013.98789946
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30489.221
+
+
+94) WTIREP03
+Interview weight Jack Knife replicate 03
+RANGE: 0 to 236865.01183943
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30085.575
+
+
+95) WTIREP04
+Interview weight Jack Knife replicate 04
+RANGE: 0 to 237416.49771395
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30205.369
+
+
+96) WTIREP05
+Interview weight Jack Knife replicate 05
+RANGE: 0 to 237747.75605354
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30518.337
+
+
+97) WTIREP06
+Interview weight Jack Knife replicate 06
+RANGE: 0 to 238188.48457518
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30573.191
+
+
+98) WTIREP07
+Interview weight Jack Knife replicate 07
+RANGE: 0 to 235374.89521257
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30446.051
+
+
+99) WTIREP08
+Interview weight Jack Knife replicate 08
+RANGE: 0 to 237535.86045407
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30500.492
+
+
+100) WTIREP09
+Interview weight Jack Knife replicate 09
+RANGE: 0 to 238836.16706643
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30475.288
+
+
+101) WTIREP10
+Interview weight Jack Knife replicate 10
+RANGE: 0 to 240731.79740751
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30731.749
+
+
+102) WTIREP11
+Interview weight Jack Knife replicate 11
+RANGE: 0 to 240439.93321949
+	N	Mean	Std. Deviation
+Total	9965	27311.273	31039.002
+
+
+103) WTIREP12
+Interview weight Jack Knife replicate 12
+RANGE: 0 to 237833.53131261
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30608.197
+
+
+104) WTIREP13
+Interview weight Jack Knife replicate 13
+RANGE: 0 to 236237.26883595
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30409.771
+
+
+105) WTIREP14
+Interview weight Jack Knife replicate 14
+RANGE: 0 to 242715.02985578
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30932.18
+
+
+106) WTIREP15
+Interview weight Jack Knife replicate 15
+RANGE: 0 to 241151.11464677
+	N	Mean	Std. Deviation
+Total	9965	27311.273	31596.196
+
+
+107) WTIREP16
+Interview weight Jack Knife replicate 16
+RANGE: 0 to 241051.95875525
+	N	Mean	Std. Deviation
+Total	9965	27311.273	31139.159
+
+
+108) WTIREP17
+Interview weight Jack Knife replicate 17
+RANGE: 0 to 237292.10153718
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30602.176
+
+
+109) WTIREP18
+Interview weight Jack Knife replicate 18
+RANGE: 0 to 237121.73258031
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30302.796
+
+
+110) WTIREP19
+Interview weight Jack Knife replicate 19
+RANGE: 0 to 240662.677472
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30552.793
+
+
+111) WTIREP20
+Interview weight Jack Knife replicate 20
+RANGE: 0 to 237367.40897468
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30140.385
+
+
+112) WTIREP21
+Interview weight Jack Knife replicate 21
+RANGE: 0 to 238551.11864631
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30650.663
+
+
+113) WTIREP22
+Interview weight Jack Knife replicate 22
+RANGE: 0 to 236978.52834605
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30065.839
+
+
+114) WTIREP23
+Interview weight Jack Knife replicate 23
+RANGE: 0 to 237791.32809808
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30397.103
+
+
+115) WTIREP24
+Interview weight Jack Knife replicate 24
+RANGE: 0 to 238519.14532264
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30534.263
+
+
+116) WTIREP25
+Interview weight Jack Knife replicate 25
+RANGE: 0 to 236876.34057027
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30090.174
+
+
+117) WTIREP26
+Interview weight Jack Knife replicate 26
+RANGE: 0 to 237924.50943905
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30527.582
+
+
+118) WTIREP27
+Interview weight Jack Knife replicate 27
+RANGE: 0 to 238878.16901687
+	N	Mean	Std. Deviation
+Total	9965	27311.273	31261.871
+
+
+119) WTIREP28
+Interview weight Jack Knife replicate 28
+RANGE: 0 to 241459.37562862
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30882.634
+
+
+120) WTIREP29
+Interview weight Jack Knife replicate 29
+RANGE: 0 to 237716.20457704
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30348.531
+
+
+121) WTIREP30
+Interview weight Jack Knife replicate 30
+RANGE: 0 to 238268.46066404
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30853.127
+
+
+122) WTIREP31
+Interview weight Jack Knife replicate 31
+RANGE: 0 to 238064.69158202
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30189.436
+
+
+123) WTIREP32
+Interview weight Jack Knife replicate 32
+RANGE: 0 to 232851.32046971
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30937.418
+
+
+124) WTIREP33
+Interview weight Jack Knife replicate 33
+RANGE: 0 to 237122.57993537
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30779.346
+
+
+125) WTIREP34
+Interview weight Jack Knife replicate 34
+RANGE: 0 to 237636.68861507
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30267.426
+
+
+126) WTIREP35
+Interview weight Jack Knife replicate 35
+RANGE: 0 to 232641.61454653
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30452.971
+
+
+127) WTIREP36
+Interview weight Jack Knife replicate 36
+RANGE: 0 to 238207.79280635
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30869.262
+
+
+128) WTIREP37
+Interview weight Jack Knife replicate 37
+RANGE: 0 to 237794.97698376
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30144.088
+
+
+129) WTIREP38
+Interview weight Jack Knife replicate 38
+RANGE: 0 to 241173.68942154
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30603.331
+
+
+130) WTIREP39
+Interview weight Jack Knife replicate 39
+RANGE: 0 to 239060.1036925
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30520.943
+
+
+131) WTIREP40
+Interview weight Jack Knife replicate 40
+RANGE: 0 to 237986.3980839
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30156.908
+
+
+132) WTIREP41
+Interview weight Jack Knife replicate 41
+RANGE: 0 to 239760.23486707
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30846.439
+
+
+133) WTIREP42
+Interview weight Jack Knife replicate 42
+RANGE: 0 to 239610.8507113
+	N	Mean	Std. Deviation
+Total	9965	27311.273	31089.475
+
+
+134) WTIREP43
+Interview weight Jack Knife replicate 43
+RANGE: 0 to 239320.70700401
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30665.635
+
+
+135) WTIREP44
+Interview weight Jack Knife replicate 44
+RANGE: 0 to 237571.75150657
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30598.85
+
+
+136) WTIREP45
+Interview weight Jack Knife replicate 45
+RANGE: 0 to 235750.38147329
+	N	Mean	Std. Deviation
+Total	9965	27311.273	31043.6
+
+
+137) WTIREP46
+Interview weight Jack Knife replicate 46
+RANGE: 0 to 241834.32720351
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30849.966
+
+
+138) WTIREP47
+Interview weight Jack Knife replicate 47
+RANGE: 0 to 232738.99202494
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30722.918
+
+
+139) WTIREP48
+Interview weight Jack Knife replicate 48
+RANGE: 0 to 237147.54679428
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30187.296
+
+
+140) WTIREP49
+Interview weight Jack Knife replicate 49
+RANGE: 0 to 237076.10369411
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30384.884
+
+
+141) WTIREP50
+Interview weight Jack Knife replicate 50
+RANGE: 0 to 238360.24084852
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30437.387
+
+
+142) WTIREP51
+Interview weight Jack Knife replicate 51
+RANGE: 0 to 236648.97985775
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30905.476
+
+
+143) WTIREP52
+Interview weight Jack Knife replicate 52
+RANGE: 0 to 236964.16065554
+	N	Mean	Std. Deviation
+Total	9965	27311.273	30506.796
+
+
+144) SSCMVOD
+[Section 2-L: Laboratory: Antibody to Cytomegalovirus IgG (Surplus Sera)] CMV optical density from ELISA
+RANGE: 0.078 to 3.001
+	N	Mean	Std. Deviation
+Total	4656	1.32	1.026
+
+
+145) SSCMV
+CMV specific IgG results
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	4656	1.401	0.49
+1) Positive	2791	59.9
+2) Negative	1865	40.1
+Missing	5309
+
+
+146) SSXHE1
+[Section 3-L: Laboratory: Antibody to Human Herpes Virus One (Surplus Sera)] Herpes I antibody
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1426	1.572	0.496
+1) Positive	612	42.9
+2) Negative	813	57.0
+3) Indeterminate	1	0.1
+Missing	8539
+
+
+147) SSISR
+[Section 4-L: Laboratory: Antibody to Mumps (Surplus Sera)] Specimen index ratio
+RANGE: 0.026 to 8.604
+	N	Mean	Std. Deviation
+Total	4699	2.824	1.329
+
+
+148) SSMUMPS
+Antibody to mumps
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	4699	1.119	0.418
+1) Positive	4306	91.6
+2) Negative	229	4.9
+3) Indeterminate	164	3.5
+Missing	5266
+
+
+149) LBXHBC
+[Section 5-L: Laboratory: Lab 02 Hepatitis] Hepatitis B core antibody
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	7121	1.952	0.213
+1) Positive	339	4.8
+2) Negative	6782	95.2
+Missing	2844
+
+
+150) LBDHBG
+Hepatitis B surface antigen
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	7121	1.998	0.049
+1) Positive	17	0.2
+2) Negative	7104	99.8
+Missing	2844
+
+
+151) LBDHCV
+Hepatitis C antibody (confirmed)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	7128	1.996	0.176
+1) Positive	76	1.1
+2) Negative	7036	98.7
+5) Indeterminate	16	0.2
+Missing	2837
+
+
+152) LBDHD
+Hepatitis D (anti-HDV)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	7121	2	0.021
+1) Positive	3	0.0
+2) Negative	7118	100.0
+Missing	2844
+
+
+153) LBXHA
+[Section 6-L: Laboratory: Lab 02 Hepatitis A Antibody] Hepatitis A antibody (anti-HAV)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	7644	1.54	0.498
+1) Positive	3519	46.0
+2) Negative	4125	54.0
+Missing	2321
+
+
+154) LBXHBS
+[Section 7-L: Laboratory: Lab 02 Hepatitis B Surface Antibody] Hepatitis B surface antibody (anti-HBs)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	7359	1.707	0.455
+1) Positive	2153	29.3
+2) Negative	5206	70.7
+Missing	2606
+
+
+155) LBDHI
+[Section 8-L: Laboratory: Lab 03 Human immunodeficiency Virus] HIV antibody test result
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	2727	1.994	0.085
+1) Positive	18	0.7
+2) Negative	2707	99.3
+3) Indeterminate	2	0.1
+Missing	7238
+
+
+156) LBXCD4
+CD4 counts (cells/mm3)
+RANGE: 5 to 1640
+	N	Mean	Std. Deviation
+Total	41	757.683	456.131
+
+
+157) LBXCD8
+CD8 counts (cells/mm3)
+RANGE: 162 to 1545
+	N	Mean	Std. Deviation
+Total	41	631.634	334.926
+
+
+158) WTSVOC2Y
+[Section 9-L: Laboratory: Lab 04 Volatile Organic Compounds in Blood and Water] [VOC subsample two year MEC weight]
+RANGE: 0 to 992877.35227047
+	N	Mean	Std. Deviation
+Total	851	176556.981	182350.44
+
+
+159) WTSVOC4Y
+[VOC subsample four year MEC weight]
+RANGE: 0 to 306407.42974452
+	N	Mean	Std. Deviation
+Total	851	64006.452	65115.329
+
+
+160) LBXWBF
+[Water Bromoform (ng/ml)] Bromoform result
+RANGE: 0.0327 to 48.3
+	N	Mean	Std. Deviation
+Total	617	1.397	3.208
+
+
+161) LBXWCF
+[Water chloroform (ng/ml)] Chloroform result
+RANGE: 0.1506 to 233
+	N	Mean	Std. Deviation
+Total	630	22.338	29.538
+
+
+162) LBXWBM
+[Water Bromodichloromethane (ng/ml)] Bromodichloromethane result
+RANGE: 0.0785 to 39.3
+	N	Mean	Std. Deviation
+Total	622	7.362	7.561
+
+
+163) LBXWCM
+[Water dibromochloromethane (ng/ml)] Dibromochloromethane result
+RANGE: 0.0785 to 31.7
+	N	Mean	Std. Deviation
+Total	617	4.013	5.363
+
+
+164) LBXWME
+[Water MTBE (ng/ml)] Methyl tert. butyl ether (MTBE) result
+RANGE: 0.0484 to 25.4
+	N	Mean	Std. Deviation
+Total	620	0.29	1.236
+
+
+165) LBXV4C
+[Blood Tetrachloroethene (ng/ml)] Tetrachloroethene result
+RANGE: 0.0144 to 9.7
+	N	Mean	Std. Deviation
+Total	286	0.17	0.72
+
+
+166) LBXVBF
+[Blood Bromoform (pg/ml)] Bromoform result
+RANGE: 0.3543 to 20.3
+	N	Mean	Std. Deviation
+Total	330	1.833	2.458
+
+
+167) LBXVBM
+[Blood Bromodichloromethane (pg/ml)] Bromodichloromethane result
+RANGE: 0.1563 to 47.4
+	N	Mean	Std. Deviation
+Total	354	3.447	5.26
+
+
+168) LBXVBZ
+[Blood benzene (ng/ml)] Benzene result
+RANGE: 0.0323 to 1.69
+	N	Mean	Std. Deviation
+Total	300	0.167	0.192
+
+
+169) LBXVCF
+[Blood chloroform (pg/ml)] Chloroform result
+RANGE: 6.42 to 1570
+	N	Mean	Std. Deviation
+Total	255	62.162	112.659
+
+
+170) LBXVCM
+[Blood Dibromochloromethane (pg/ml)] Dibromochloromethane result
+RANGE: 0.152 to 57
+	N	Mean	Std. Deviation
+Total	350	2.47	4.933
+
+
+171) LBXVCT
+[Blood carbon tetrachloride (ng/ml)] Carbon tetrachloride result
+RANGE: 0.007 to 0.116
+	N	Mean	Std. Deviation
+Total	287	0.014	0.014
+
+
+172) LBXVDB
+[Blood 1,4-Dichlorobenzene (ng/ml)] 1,4-Dichlorobenzene result
+RANGE: 0.026 to 249
+	N	Mean	Std. Deviation
+Total	304	3.399	16.91
+
+
+173) LBXVEB
+[Blood ethylbenzene (ng/ml)] ethylbenzene result
+RANGE: 0.01 to 5.16
+	N	Mean	Std. Deviation
+Total	262	0.094	0.343
+
+
+174) LBXVME
+[Blood MTBE (pg/ml)] Methyl t-Butyl ether (MTBE) result
+RANGE: 0.784 to 6270
+	N	Mean	Std. Deviation
+Total	284	130.228	567.698
+
+
+175) LBXVOX
+[Blood o-Xylene (ng/ml)] o-Xylene result
+RANGE: 0.021 to 6.42
+	N	Mean	Std. Deviation
+Total	309	0.09	0.396
+
+
+176) LBXVST
+[Blood styrene (ng/ml)] Styrene result
+RANGE: 0.0066 to 9.45
+	N	Mean	Std. Deviation
+Total	284	0.095	0.561
+
+
+177) LBXVTC
+[Blood Trichloroethene (ng/ml)] Trichloroethene result
+RANGE: 0.0066 to 0.923
+	N	Mean	Std. Deviation
+Total	303	0.021	0.084
+
+
+178) LBXV3A
+[Blood 1,1,1-Trichloroethene (ng/ml)] 1,1,1-Trichloroethene result
+RANGE: 0.0161 to 4.26
+	N	Mean	Std. Deviation
+Total	286	0.035	0.251
+
+
+179) LBXVTO
+[Blood toluene (ng/ml)] Toluene result
+RANGE: 0.0231 to 10.2
+	N	Mean	Std. Deviation
+Total	304	0.465	0.786
+
+
+180) LBXVXY
+[Blood m-/p-Xylene (ng/ml)] m-/p-Xylene result
+RANGE: 0.0358 to 14.3
+	N	Mean	Std. Deviation
+Total	296	0.315	0.906
+
+
+181) LBDWBFLC
+[Water Bromoform comment code] Bromoform comment
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	617	0.308	0.466
+0) Detectable result	428	69.4
+1) Below detectable limit	188	30.5
+2) Detectable result and exceeds the calibrated range of assay	1	0.2
+Missing	9348
+
+
+182) LBDWCFLC
+[Water chloroform comment code] Chloroform comment
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	630	0.167	0.377
+0) Detectable result	526	83.5
+1) Below detectable limit	103	16.3
+2) Detectable result and exceeds the calibrated range of assay	1	0.2
+Missing	9335
+
+
+183) LBDWBMLC
+[Water Bromodichloromethane comment code] Bromodichloromethane comment
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	622	0.162	0.369
+0) Detectable result	521	83.8
+1) Below detectable limit	101	16.2
+Missing	9343
+
+
+184) LBDWCMLC
+[Water dibromochloromethane comment code]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	617	0.139	0.347
+0) Detectable result	531	86.1
+1) Below detectable limit	86	13.9
+Missing	9348
+
+
+185) LBDWMELC
+[Water MTBE comment code] Methyl tert. butyl ether (MTBE) comment
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	620	0.71	0.454
+0) Detectable result	180	29.0
+1) Below detectable limit	440	71.0
+Missing	9345
+
+
+186) LBDV4CLC
+[Blood Tetrachloroethene comment code] Tetrachloroethene comment
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	286	0.248	0.456
+0) Detectable result	218	76.2
+1) Below detectable limit	65	22.7
+2) Detectable result and exceeds the calibrated range of assay	3	1.0
+Missing	9679
+
+
+187) LBDVBFLC
+[Blood Bromoform comment code] Bromoform comment
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	330	0.239	0.427
+0) Detectable result	251	76.1
+1) Below detectable limit	79	23.9
+Missing	9635
+
+
+188) LBDVBMLC
+[Blood Bromodichloromethane comment code] Bromodichloromethane comment
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	354	0.051	0.22
+0) Detectable result	336	94.9
+1) Below detectable limit	18	5.1
+Missing	9611
+
+
+189) LBDVBZLC
+[Blood benzene comment code] Benzene comment
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	300	0	0
+0) Detectable result	300	100.0
+Missing	9665
+
+
+190) LBDVCFLC
+[Blood chloroform comment code] Chloroform comment
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	255	0.016	0.177
+0) Detectable result	253	99.2
+2) Detectable result and exceeds the calibrated range of assay	2	0.8
+Missing	9710
+
+
+191) LBDVCMLC
+[Blood Dibromochloromethane comment code] Dibromochloromethane comment
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	350	0.134	0.341
+0) Detectable result	303	86.6
+1) Below detectable limit	47	13.4
+Missing	9615
+
+
+192) LBDVCTLC
+[Blood carbon tetrachloride comment code] Carbon tetrachloride comment
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	287	0.697	0.46
+0) Detectable result	87	30.3
+1) Below detectable limit	200	69.7
+Missing	9678
+
+
+193) LBDVDBLC
+[Blood 1,4-Dichlorobenzene comment code] 1,4-Dichlorobenzene comment
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	304	0.224	0.535
+0) Detectable result	253	83.2
+1) Below detectable limit	34	11.2
+2) Detectable result and exceeds the calibrated range of assay	17	5.6
+Missing	9661
+
+
+194) LBDVEBLC
+[Blood ethylbenzene comment code] ethylbenzene comment
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	262	0.107	0.322
+0) Detectable result	235	89.7
+1) Below detectable limit	26	9.9
+2) Detectable result and exceeds the calibrated range of assay	1	0.4
+Missing	9703
+
+
+195) LBDVMELC
+[Blood MTBE comment code] MTBE comment
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	284	0.246	0.648
+0) Detectable result	247	87.0
+1) Below detectable limit	4	1.4
+2) Detectable result and exceeds the calibrated range of assay	33	11.6
+Missing	9681
+
+
+196) LBDVOXLC
+[Blood o-Xylene comment code] o-Xylene comment
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	309	0.421	0.501
+0) Detectable result	180	58.3
+1) Below detectable limit	128	41.4
+2) Detectable result and exceeds the calibrated range of assay	1	0.3
+Missing	9656
+
+
+197) LBDVSTLC
+[Blood styrene comment code] Styrene comment
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	284	0.06	0.252
+0) Detectable result	268	94.4
+1) Below detectable limit	15	5.3
+2) Detectable result and exceeds the calibrated range of assay	1	0.4
+Missing	9681
+
+
+198) LBDVTCLC
+[Blood Trichloroethene comment code] Trichloroethene comment
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	303	0.891	0.322
+0) Detectable result	34	11.2
+1) Below detectable limit	268	88.4
+2) Detectable result and exceeds the calibrated range of assay	1	0.3
+Missing	9662
+
+
+199) LBDV3ALC
+[Blood 1,1,1-Trichloroethene comment code] 1,1,1-Trichloroethene comment
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	286	0.965	0.202
+0) Detectable result	11	3.8
+1) Below detectable limit	274	95.8
+2) Detectable result and exceeds the calibrated range of assay	1	0.3
+Missing	9679
+
+
+200) LBDVTOLC
+[Blood toluene comment code] Toluene comment
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	304	0.053	0.299
+0) Detectable result	294	96.7
+1) Below detectable limit	4	1.3
+2) Detectable result and exceeds the calibrated range of assay	6	2.0
+Missing	9661
+
+
+201) LBDVXYLC
+[Blood m-/p-Xylene comment code] m-/p-Xylene comment
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	296	0.047	0.242
+0) Detectable result	284	95.9
+1) Below detectable limit	10	3.4
+2) Detectable result and exceeds the calibrated range of assay	2	0.7
+Missing	9669
+
+
+202) URXUGC
+[Section 10-L: Laboratory: Lab 05 Chlamydia and Gonorrhea] Gonorrhea, urine. The data for participants 14 to 17 years old can be located in the NCHS Research Data Center
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2042	1.996	0.066
+1) Positive	9	0.4
+2) Negative	2033	99.6
+Missing	7923
+
+
+203) URXUCL
+Chlamydia, urine. The data for participants 14 to 17 years old can be located in the NCHS Research Data Center
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2042	1.956	0.205
+1) Positive	90	4.4
+2) Negative	1952	95.6
+Missing	7923
+
+
+204) LBXBPB
+[Section 11-L: Laboratory: Lab 06 Nutritional Biochemistries] Lead (ug/dL)
+RANGE: 0.2 to 57.1
+	N	Mean	Std. Deviation
+Total	7970	2.232	2.289
+
+
+205) LBDBPBSI
+[Lead (umol/L)]
+RANGE: 0.01 to 2.758
+	N	Mean	Std. Deviation
+Total	7970	0.108	0.111
+
+
+206) LBXBCD
+Cadmium (ug/L)
+RANGE: 0.2 to 8.5
+	N	Mean	Std. Deviation
+Total	7970	0.469	0.402
+
+
+207) LBDBCDSI
+[Cadmium (nmol/L)]
+RANGE: 1.78 to 75.62
+	N	Mean	Std. Deviation
+Total	7970	4.17	3.578
+
+
+208) LBXEPP
+Protoporphyrin (ug/dL RBC)
+RANGE: 18 to 884
+	N	Mean	Std. Deviation
+Total	7985	53.366	26.216
+
+
+209) LBDEPPSI
+[Protoporphyrin (umol/L RBC)]
+RANGE: 0.32 to 15.65
+	N	Mean	Std. Deviation
+Total	7985	0.945	0.464
+
+
+210) LBXIRN
+Iron (ug/dL)
+RANGE: 5 to 292
+	N	Mean	Std. Deviation
+Total	7877	86.101	37.138
+
+
+211) LBDIRNSI
+[Iron (umol/L)]
+RANGE: 0.9 to 52.27
+	N	Mean	Std. Deviation
+Total	7877	15.413	6.648
+
+
+212) LBXTIB
+Total iron binding capacity (ug/dL)
+RANGE: 101 to 761
+	N	Mean	Std. Deviation
+Total	7847	374.822	62.546
+
+
+213) LBDTIBSI
+[TIBC (umol/L)]
+RANGE: 18.08 to 136.22
+	N	Mean	Std. Deviation
+Total	7847	67.094	11.196
+
+
+214) LBXPCT
+Transferrin saturation (%)
+RANGE: 1.1 to 100.9
+	N	Mean	Std. Deviation
+Total	7845	23.661	11.021
+
+
+215) LBXFER
+Ferritin (ng/ml)
+RANGE: 3 to 1822
+	N	Mean	Std. Deviation
+Total	7849	90.031	125.604
+
+
+216) LBDFERSI
+[Ferritin (ug/L)]
+RANGE: 3 to 1822
+	N	Mean	Std. Deviation
+Total	7849	90.031	125.604
+
+
+217) LBXFOL
+Folate, serum (ng/ml)
+RANGE: 1 to 220
+	N	Mean	Std. Deviation
+Total	7526	16.025	9.189
+
+
+218) LBDFOLSI
+[Folate, serum (nmol/L)]
+RANGE: 2.3 to 498.3
+	N	Mean	Std. Deviation
+Total	7526	36.297	20.812
+
+
+219) LBXB12
+Vitamin B12, serum (pg/ml)
+RANGE: 47 to 201810
+	N	Mean	Std. Deviation
+Total	7524	668.553	3192.983
+
+
+220) LBDB12SI
+[Vitamin B12, serum (pmol/L)]
+RANGE: 34.69 to 148935.78
+	N	Mean	Std. Deviation
+Total	7524	493.392	2356.421
+
+
+221) LBXHCY
+Homocysteine (umol/L)
+RANGE: 1.61 to 156.3
+	N	Mean	Std. Deviation
+Total	7599	6.942	4.119
+
+
+222) LBXMMA
+Methylmalonic acid (umol/L)
+RANGE: 0.04 to 35.96
+	N	Mean	Std. Deviation
+Total	7597	0.145	0.43
+
+
+223) LBXTHG
+[Mercury, total (ug/L)]
+RANGE: 0.1 to 38.9
+	N	Mean	Std. Deviation
+Total	2414	1.438	2.316
+
+
+224) LBDTHGSI
+[Mercury, total (umol/L)]
+RANGE: 0.5 to 194.11
+	N	Mean	Std. Deviation
+Total	2414	7.176	11.555
+
+
+225) LBXIHG
+[Mercury, inorganic (ug/L)]
+RANGE: 0.3 to 11.2
+	N	Mean	Std. Deviation
+Total	2391	0.327	0.4
+
+
+226) LBDIHGSI
+[Mercury, inorganic (umol/L)]
+RANGE: 1.5 to 55.89
+	N	Mean	Std. Deviation
+Total	2391	1.635	1.997
+
+
+227) LBXRBF
+Folate, RBC (ng/ml RBC)
+RANGE: 28 to 2352
+	N	Mean	Std. Deviation
+Total	7614	288.519	123.487
+
+
+228) LBDRBFSI
+[Folate, RBC (nmol/L RBC)]
+RANGE: 63.4 to 5327.3
+	N	Mean	Std. Deviation
+Total	7614	653.497	279.698
+
+
+229) LBXCOT
+Cotinine (ng/ml)
+RANGE: 0.035 to 989
+	N	Mean	Std. Deviation
+Total	7284	31.284	86.332
+
+
+230) LBDCOTSI
+[Cotinine (nmol/L)]
+RANGE: 0.199 to 5617.52
+	N	Mean	Std. Deviation
+Total	7284	177.692	490.364
+
+
+231) LBXSEL
+Selenium (ng/ml)
+RANGE: 33 to 180
+	N	Mean	Std. Deviation
+Total	1186	110.861	14.085
+
+
+232) LBDSELSI
+[Selenium (nmol/L)]
+RANGE: 0.42 to 2.29
+	N	Mean	Std. Deviation
+Total	1186	1.408	0.179
+
+
+233) LBXGTC
+Gamma tocopherol (ug/dL)
+RANGE: 7.57 to 2277.4
+	N	Mean	Std. Deviation
+Total	6430	231.651	127.96
+
+
+234) LBDGTCSI
+[Gamma tocopherol (umol/L)]
+RANGE: 0.18 to 54.66
+	N	Mean	Std. Deviation
+Total	6430	5.56	3.071
+
+
+235) LBXRPL
+Retinyl palmitate (ug/dL)
+RANGE: 0.14 to 40
+	N	Mean	Std. Deviation
+Total	5867	1.884	1.979
+
+
+236) LBDRPLSI
+[Retinyl palmitate (umol/L)]
+RANGE: 0.005 to 1.396
+	N	Mean	Std. Deviation
+Total	5867	0.066	0.069
+
+
+237) LBXRST
+Retinyl stearate (ug/dL)
+RANGE: 0.35 to 15
+	N	Mean	Std. Deviation
+Total	4360	0.491	0.606
+
+
+238) LBDRSTSI
+[Retinyl stearate (umol/L)]
+RANGE: 0.012 to 0.524
+	N	Mean	Std. Deviation
+Total	4360	0.017	0.021
+
+
+239) LBXVIA
+Vitamin A (ug/dL)
+RANGE: 6.7 to 223.2
+	N	Mean	Std. Deviation
+Total	7454	50.178	17.327
+
+
+240) LBDVIASI
+[Vitamin A (umol/L)]
+RANGE: 0.23 to 7.79
+	N	Mean	Std. Deviation
+Total	7454	1.752	0.605
+
+
+241) LBXVIE
+Vitamin E (ug/dL)
+RANGE: 120 to 7230.3
+	N	Mean	Std. Deviation
+Total	7401	1069.42	558.988
+
+
+242) LBDVIESI
+[Vitamin E (umol/L)]
+RANGE: 2.79 to 167.89
+	N	Mean	Std. Deviation
+Total	7401	24.832	12.98
+
+
+243) URXUHG
+Mercury, urine (ng/ml)
+RANGE: 0.1 to 68.51
+	N	Mean	Std. Deviation
+Total	1748	1.551	2.959
+
+
+244) WTSHM2YR
+[Section 12-L: Laboratory: Lab 06Hm Heavy Metals (Subsample)] Heavy metal subsample two year MEC weight
+RANGE: 0 to 743254.6001
+	N	Mean	Std. Deviation
+Total	2547	97576.919	111840.122
+
+
+245) WTSHM4YR
+Heavy metal subsample four year weight
+RANGE: 0 to 348772.28063072
+	N	Mean	Std. Deviation
+Total	2547	46317.94	51203.549
+
+
+246) WTSHM01
+Heavy metal MEC weight Jack Knife rep 01
+RANGE: 0 to 761759.97885
+	N	Mean	Std. Deviation
+Total	2547	97607.867	113344.215
+
+
+247) WTSHM02
+Heavy metal MEC weight Jack Knife rep 02
+RANGE: 0 to 760522.71304
+	N	Mean	Std. Deviation
+Total	2547	97563.33	114265.983
+
+
+248) WTSHM03
+Heavy metal MEC weight Jack Knife rep 03
+RANGE: 0 to 743883.96761
+	N	Mean	Std. Deviation
+Total	2547	97577.557	111947.257
+
+
+249) WTSHM04
+Heavy metal MEC weight Jack Knife rep 04
+RANGE: 0 to 754495.23335
+	N	Mean	Std. Deviation
+Total	2547	97556.105	112601.516
+
+
+250) WTSHM05
+Heavy metal MEC weight Jack Knife rep 05
+RANGE: 0 to 744733.37662
+	N	Mean	Std. Deviation
+Total	2547	97550.686	113152.715
+
+
+251) WTSHM06
+Heavy metal MEC weight Jack Knife rep 06
+RANGE: 0 to 767701.61987
+	N	Mean	Std. Deviation
+Total	2547	97568.054	114571.597
+
+
+252) WTSHM07
+Heavy metal MEC weight Jack Knife rep 07
+RANGE: 0 to 776431.8632
+	N	Mean	Std. Deviation
+Total	2547	97572.359	113865.949
+
+
+253) WTSHM08
+Heavy metal MEC weight Jack Knife rep 08
+RANGE: 0 to 748354.62631
+	N	Mean	Std. Deviation
+Total	2547	97584.185	113150.95
+
+
+254) WTSHM09
+Heavy metal MEC weight Jack Knife rep 09
+RANGE: 0 to 752674.93633
+	N	Mean	Std. Deviation
+Total	2547	97602.118	113001.563
+
+
+255) WTSHM10
+Heavy metal MEC weight Jack Knife rep 10
+RANGE: 0 to 749367.24857
+	N	Mean	Std. Deviation
+Total	2547	97613.594	114574.545
+
+
+256) WTSHM11
+Heavy metal MEC weight Jack Knife rep 11
+RANGE: 0 to 769069.91165
+	N	Mean	Std. Deviation
+Total	2547	97571.2	114717.297
+
+
+257) WTSHM12
+Heavy metal MEC weight Jack Knife rep 12
+RANGE: 0 to 745357.83286
+	N	Mean	Std. Deviation
+Total	2547	97564.315	114040.527
+
+
+258) WTSHM13
+Heavy metal MEC weight Jack Knife rep 13
+RANGE: 0 to 751784.51959
+	N	Mean	Std. Deviation
+Total	2547	97579.042	113459.95
+
+
+259) WTSHM14
+Heavy metal MEC weight Jack Knife rep 14
+RANGE: 0 to 756202.15171
+	N	Mean	Std. Deviation
+Total	2547	97590.034	114732.91
+
+
+260) WTSHM15
+Heavy metal MEC weight Jack Knife rep 15
+RANGE: 0 to 779916.28206
+	N	Mean	Std. Deviation
+Total	2547	97559.608	116511.33
+
+
+261) WTSHM16
+Heavy metal MEC weight Jack Knife rep 16
+RANGE: 0 to 770746.65389
+	N	Mean	Std. Deviation
+Total	2547	97614.032	116179.286
+
+
+262) WTSHM17
+Heavy metal MEC weight Jack Knife rep 17
+RANGE: 0 to 745836.15831
+	N	Mean	Std. Deviation
+Total	2547	97558.257	113217.7
+
+
+263) WTSHM18
+Heavy metal MEC weight Jack Knife rep 18
+RANGE: 0 to 752175.24888
+	N	Mean	Std. Deviation
+Total	2547	97565.286	113208.906
+
+
+264) WTSHM19
+Heavy metal MEC weight Jack Knife rep 19
+RANGE: 0 to 767395.16594
+	N	Mean	Std. Deviation
+Total	2547	97603.163	114029.992
+
+
+265) WTSHM20
+Heavy metal MEC weight Jack Knife rep 20
+RANGE: 0 to 742064.47427
+	N	Mean	Std. Deviation
+Total	2547	97599.581	111902.742
+
+
+266) WTSHM21
+Heavy metal MEC weight Jack Knife rep 21
+RANGE: 0 to 753259.44284
+	N	Mean	Std. Deviation
+Total	2547	97562.609	113466.447
+
+
+267) WTSHM22
+Heavy metal MEC weight Jack Knife rep 22
+RANGE: 0 to 724217.90757
+	N	Mean	Std. Deviation
+Total	2547	97593.792	111791.107
+
+
+268) WTSHM23
+Heavy metal MEC weight Jack Knife rep 23
+RANGE: 0 to 738408.76364
+	N	Mean	Std. Deviation
+Total	2547	97588.78	112783.042
+
+
+269) WTSHM24
+Heavy metal MEC weight Jack Knife rep 24
+RANGE: 0 to 751800.87515
+	N	Mean	Std. Deviation
+Total	2547	97581.947	113402.284
+
+
+270) WTSHM25
+Heavy metal MEC weight Jack Knife rep 25
+RANGE: 0 to 744083.626
+	N	Mean	Std. Deviation
+Total	2547	97582.747	111926.662
+
+
+271) WTSHM26
+Heavy metal MEC weight Jack Knife rep 26
+RANGE: 0 to 748647.31638
+	N	Mean	Std. Deviation
+Total	2547	97550.437	113520.771
+
+
+272) WTSHM27
+Heavy metal MEC weight Jack Knife rep 27
+RANGE: 0 to 788279.8898
+	N	Mean	Std. Deviation
+Total	2547	97583.383	116046.451
+
+
+273) WTSHM28
+Heavy metal MEC weight Jack Knife rep 28
+RANGE: 0 to 765101.37455
+	N	Mean	Std. Deviation
+Total	2547	97590.005	114417.651
+
+
+274) WTSHM29
+Heavy metal MEC weight Jack Knife rep 29
+RANGE: 0 to 750138.49717
+	N	Mean	Std. Deviation
+Total	2547	97561.491	112904.128
+
+
+275) WTSHM30
+Heavy metal MEC weight Jack Knife rep 30
+RANGE: 0 to 772537.64587
+	N	Mean	Std. Deviation
+Total	2547	97586.998	115098.593
+
+
+276) WTSHM31
+Heavy metal MEC weight Jack Knife rep 31
+RANGE: 0 to 741848.08305
+	N	Mean	Std. Deviation
+Total	2547	97589.484	111985.408
+
+
+277) WTSHM32
+Heavy metal MEC weight Jack Knife rep 32
+RANGE: 0 to 812354.70857
+	N	Mean	Std. Deviation
+Total	2547	97528.133	115889.054
+
+
+278) WTSHM33
+Heavy metal MEC weight Jack Knife rep 33
+RANGE: 0 to 766491.65606
+	N	Mean	Std. Deviation
+Total	2547	97595.203	113917.524
+
+
+279) WTSHM34
+Heavy metal MEC weight Jack Knife rep 34
+RANGE: 0 to 747676.48994
+	N	Mean	Std. Deviation
+Total	2547	97551.797	112441.926
+
+
+280) WTSHM35
+Heavy metal MEC weight Jack Knife rep 35
+RANGE: 0 to 752432.03502
+	N	Mean	Std. Deviation
+Total	2547	97560.252	112656.325
+
+
+281) WTSHM36
+Heavy metal MEC weight Jack Knife rep 36
+RANGE: 0 to 780501.31715
+	N	Mean	Std. Deviation
+Total	2547	97594.694	115279.216
+
+
+282) WTSHM37
+Heavy metal MEC weight Jack Knife rep 37
+RANGE: 0 to 746102.11584
+	N	Mean	Std. Deviation
+Total	2547	97580.64	111973.47
+
+
+283) WTSHM38
+Heavy metal MEC weight Jack Knife rep 38
+RANGE: 0 to 751521.33526
+	N	Mean	Std. Deviation
+Total	2547	97550.644	113425.048
+
+
+284) WTSHM39
+Heavy metal MEC weight Jack Knife rep 39
+RANGE: 0 to 761331.06594
+	N	Mean	Std. Deviation
+Total	2547	97578.51	113890.042
+
+
+285) WTSHM40
+Heavy metal MEC weight Jack Knife rep 40
+RANGE: 0 to 736874.067
+	N	Mean	Std. Deviation
+Total	2547	97593.837	112359.115
+
+
+286) WTSHM41
+Heavy metal MEC weight Jack Knife rep 41
+RANGE: 0 to 782508.07078
+	N	Mean	Std. Deviation
+Total	2547	97531.808	114419.283
+
+
+287) WTSHM42
+Heavy metal MEC weight Jack Knife rep 42
+RANGE: 0 to 769323.73451
+	N	Mean	Std. Deviation
+Total	2547	97600.991	116271.208
+
+
+288) WTSHM43
+Heavy metal MEC weight Jack Knife rep 43
+RANGE: 0 to 760774.85396
+	N	Mean	Std. Deviation
+Total	2547	97576.511	114074.729
+
+
+289) WTSHM44
+Heavy metal MEC weight Jack Knife rep 44
+RANGE: 0 to 767886.02608
+	N	Mean	Std. Deviation
+Total	2547	97594.441	114331.182
+
+
+290) WTSHM45
+Heavy metal MEC weight Jack Knife rep 45
+RANGE: 0 to 801697.81891
+	N	Mean	Std. Deviation
+Total	2547	97562.837	116580.227
+
+
+291) WTSHM46
+Heavy metal MEC weight Jack Knife rep 46
+RANGE: 0 to 764672.6226
+	N	Mean	Std. Deviation
+Total	2547	97574.886	114274.492
+
+
+292) WTSHM47
+Heavy metal MEC weight Jack Knife rep 47
+RANGE: 0 to 776574.38246
+	N	Mean	Std. Deviation
+Total	2547	97580.242	114213.694
+
+
+293) WTSHM48
+Heavy metal MEC weight Jack Knife rep 48
+RANGE: 0 to 740844.97729
+	N	Mean	Std. Deviation
+Total	2547	97613.083	112552.638
+
+
+294) WTSHM49
+Heavy metal MEC weight Jack Knife rep 49
+RANGE: 0 to 743342.36384
+	N	Mean	Std. Deviation
+Total	2547	97603.167	112778.834
+
+
+295) WTSHM50
+Heavy metal MEC weight Jack Knife rep 50
+RANGE: 0 to 755782.45525
+	N	Mean	Std. Deviation
+Total	2547	97516.629	113056.242
+
+
+296) WTSHM51
+Heavy metal MEC weight Jack Knife rep 51
+RANGE: 0 to 762569.10595
+	N	Mean	Std. Deviation
+Total	2547	97620.365	115027.711
+
+
+297) WTSHM52
+Heavy metal MEC weight Jack Knife rep 52
+RANGE: 0 to 747789.36686
+	N	Mean	Std. Deviation
+Total	2547	97581.392	113325.827
+
+
+298) URXUCR
+Creatinine, urine (mg/dL)
+RANGE: 5 to 614
+	N	Mean	Std. Deviation
+Total	2476	141.733	88.064
+
+
+299) URXUBA
+Barium, urine (ng/ml)
+RANGE: 0.08 to 76.2
+	N	Mean	Std. Deviation
+Total	2180	2.538	4.336
+
+
+300) URXUBE
+Beryllium, urine (ng/ml)
+RANGE: 0.09 to 0.3
+	N	Mean	Std. Deviation
+Total	2465	0.091	0.008
+0.09)	2438	98.9
+0.1)	16	0.6
+0.2)	10	0.4
+0.3)	1	0.0
+Missing	7500
+
+
+301) URDUCD
+Cadmium, urine (ng/ml)
+RANGE: 0 to 12.83475
+	N	Mean	Std. Deviation
+Total	2257	0.374	0.566
+
+
+302) URDUCDLC
+Urinary cadmium comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2465	0.035	0.184
+0) Detectable result	2379	96.5
+1) Below detectable limit	86	3.5
+Missing	7500
+
+
+303) URXUCO
+Cobalt, urine (ng/ml)
+RANGE: 0.05 to 556.6
+	N	Mean	Std. Deviation
+Total	2465	0.824	11.281
+
+
+304) URXUCS
+Cesium, urine (ng/ml)
+RANGE: 0.07 to 229.9
+	N	Mean	Std. Deviation
+Total	2464	5.765	7.916
+
+
+305) URXUMO
+Molybdenum, urine (ng/ml)
+RANGE: 0.6 to 839.5
+	N	Mean	Std. Deviation
+Total	2257	70.412	62.106
+
+
+306) URXUPB
+Lead, urine (ng/ml)
+RANGE: 0.07 to 84.2
+	N	Mean	Std. Deviation
+Total	2465	1.374	2.294
+
+
+307) URXUPT
+Platinum, urine (ng/ml)
+RANGE: 0.03 to 73.43
+	N	Mean	Std. Deviation
+Total	2465	0.061	1.479
+0.03)	2429	98.5
+0.04)	20	0.8
+0.05)	5	0.2
+0.06)	1	0.0
+0.07)	1	0.0
+0.09)	3	0.1
+0.11)	1	0.0
+0.23)	1	0.0
+0.24)	1	0.0
+0.29)	1	0.0
+2.01)	1	0.0
+73.43)	1	0.0
+Missing	7500
+
+
+308) URXUSB
+Antimony, urine (ng/ml)
+RANGE: 0.03 to 5.7
+	N	Mean	Std. Deviation
+Total	2276	0.19	0.244
+
+
+309) URXUTL
+Thallium, urine (ng/ml)
+RANGE: 0.01 to 1.42
+	N	Mean	Std. Deviation
+Total	2413	0.222	0.135
+
+
+310) URXUTU
+Tungsten, urine (ng/ml)
+RANGE: 0.03 to 13.42
+	N	Mean	Std. Deviation
+Total	2338	0.189	0.442
+
+
+311) LBXLA
+[Section 13-L: Laboratory: Lab 07 Latex] Latex (IU/ml)
+RANGE: 0.34 to 93.76
+	N	Mean	Std. Deviation
+Total	4724	0.429	1.473
+
+
+312) LBXLACL
+Latex class
+RANGE: 0 to 5
+	N	Mean	Std. Deviation
+Total	4724	0.097	0.427
+0)	4456	94.3
+1)	107	2.3
+2)	133	2.8
+3)	27	0.6
+5)	1	0.0
+Missing	5241
+
+
+313) LBXHE1
+[Section 14-L: Laboratory: Lab 09 Herpes I and II] Herpes I
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	3628	1.367	0.488
+1) Positive	2305	63.5
+2) Negative	1313	36.2
+3) Indeterminate	10	0.3
+Missing	6337
+
+
+314) LBXHE2
+Herpes II. The data for participants 14 to 17 years old can be located in the NCHS Research Data Center
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	2602	1.809	0.411
+1) Positive	515	19.8
+2) Negative	2068	79.5
+3) Indeterminate	19	0.7
+Missing	7363
+
+
+315) LBXGH
+[Section 15-L: Laboratory: Lab 10 Glycohemoglobin] Glycohemoglobin (%)
+RANGE: 2.5 to 15.1
+	N	Mean	Std. Deviation
+Total	6343	5.412	0.999
+
+
+316) WTSFA2YR
+[Section 16-L: Laboratory: Lab 10Am Plasma Glucose (Subsample)] Fasting subsample two year MEC weight
+RANGE: 0 to 548458.78806564
+	N	Mean	Std. Deviation
+Total	3267	68379.159	82952.246
+
+
+317) WTSFA4YR
+Fasting subsample four year MEC weight
+RANGE: 0 to 225451.11773975
+	N	Mean	Std. Deviation
+Total	3267	31785.478	37123.979
+
+
+318) LBXGLU
+Glucose, plasma (mg/dL)
+RANGE: 56.7 to 587.3
+	N	Mean	Std. Deviation
+Total	3035	99.748	32.185
+
+
+319) LBXGLUSI
+Plasma glucose: SI (mmol/L)
+RANGE: 3.15 to 32.628
+	N	Mean	Std. Deviation
+Total	3035	5.541	1.788
+
+
+320) LBXCPSI
+C-peptide (nmol/L) in SI units
+RANGE: 0.021 to 7.396
+	N	Mean	Std. Deviation
+Total	2985	0.838	0.484
+
+
+321) LBXIN
+Insulin (uU/ml)
+RANGE: 1.77 to 269.08
+	N	Mean	Std. Deviation
+Total	2986	14.162	12.777
+
+
+322) LBXINSI
+Insulin: SI (pmol/L)
+RANGE: 10.62 to 1614.48
+	N	Mean	Std. Deviation
+Total	2986	84.971	76.662
+
+
+323) LBXCRP
+[Section 17-L: Laboratory: Lab 11 C Reactive Protein] C-reactive protein (mg/dL)
+RANGE: 0.01 to 29.6
+	N	Mean	Std. Deviation
+Total	7493	0.376	0.833
+
+
+324) LBXHP1
+Helicobacter pylori (ISR)
+RANGE: 0 to 5.73
+	N	Mean	Std. Deviation
+Total	7493	0.956	1.026
+
+
+325) LBXFB
+Fibrinogen (mg/dL)
+RANGE: 124 to 993
+	N	Mean	Std. Deviation
+Total	2680	371.31	80.593
+
+
+326) LBDFBSI
+Fibrinogen (g/L)
+RANGE: 1.24 to 9.93
+	N	Mean	Std. Deviation
+Total	2680	3.713	0.806
+
+
+327) LBXBAP
+Bone alkaline phosphatase (ug/L)
+RANGE: 2 to 325.5
+	N	Mean	Std. Deviation
+Total	6365	35.396	39.887
+
+
+328) URXNT
+N-telopeptides (NTx) (nmol BCE)
+RANGE: 14 to 46031
+	N	Mean	Std. Deviation
+Total	6721	1542.801	2608.909
+
+
+329) LBXTC
+[Section 18-L: Laboratory: Lab 13 Total Cholesterol] Total cholesterol (mg/dL)
+RANGE: 72 to 575
+	N	Mean	Std. Deviation
+Total	7429	186.956	42.876
+
+
+330) LBDTCSI
+Total cholesterol (mmol/L)
+RANGE: 1.86 to 14.87
+	N	Mean	Std. Deviation
+Total	7429	4.835	1.109
+
+
+331) LBDHDL
+HDL-cholesterol (mg/dL)
+RANGE: 8 to 138
+	N	Mean	Std. Deviation
+Total	7424	50.987	14.08
+
+
+332) LBDHDLSI
+HDL-cholesterol (mmol/L)
+RANGE: 0.21 to 3.58
+	N	Mean	Std. Deviation
+Total	7424	1.318	0.364
+
+
+333) WTSAF2YR
+[Section 19-L: Laboratory: Lab 13Am Triglycerides (Subsample)] Two year AM (three to 11) and fasting (12+) weights
+RANGE: 0 to 548458.78806564
+	N	Mean	Std. Deviation
+Total	3915	66418.115	81337.012
+
+
+334) WTSAF4YR
+Four year AM (three to 11) and fasting (12+) weights
+RANGE: 0 to 232307.26624439
+	N	Mean	Std. Deviation
+Total	3915	30649.837	36034.133
+
+
+335) LBXTR
+Triglyceride (mg/dL)
+RANGE: 21 to 1538
+	N	Mean	Std. Deviation
+Total	3503	123.888	95.425
+
+
+336) LBDTRSI
+Triglyceride (mmol/L)
+RANGE: 0.24 to 17.36
+	N	Mean	Std. Deviation
+Total	3503	1.399	1.077
+
+
+337) LBDLDL
+LDL-cholesterol (mg/dL)
+RANGE: 23 to 320
+	N	Mean	Std. Deviation
+Total	3171	112.293	35.334
+
+
+338) LBDLDLSI
+LDL-cholesterol (mmol/L)
+RANGE: 0.59 to 8.28
+	N	Mean	Std. Deviation
+Total	3171	2.904	0.914
+
+
+339) URXUMA
+[Section 20-L: Laboratory: Lab 16 Urinary Albumin and Creatinine] Albumin, urine (ug/ml)
+RANGE: 0.2 to 16500
+	N	Mean	Std. Deviation
+Total	7606	57.69	420.679
+
+
+340) URXUMASI
+Albumin, urine (mg/L) SI
+RANGE: 0.2 to 16500
+	N	Mean	Std. Deviation
+Total	7606	57.69	420.679
+
+
+341) URXUCRSI
+Creatinine, urine (umol/L)
+RANGE: 177 to 57460
+	N	Mean	Std. Deviation
+Total	7606	12583.806	7761.099
+
+
+342) LBDC1
+[Section 21-L: Laboratory: Lab 17 Cryptosporidium and Toxoplasma] Cryptosporidium (17kDA)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	5090	1.764	0.424
+1) Positive	1199	23.6
+2) Negative	3891	76.4
+Missing	4875
+
+
+343) LBDC2
+Cryptosporidium (27kDA)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	5090	1.321	0.467
+1) Positive	3458	67.9
+2) Negative	1632	32.1
+Missing	4875
+
+
+344) LBXTO1
+Toxoplasma (IgG)
+RANGE: 0 to 240
+	N	Mean	Std. Deviation
+Total	5089	17.013	54.344
+
+
+345) LBXTO2
+Toxoplasma (IgM)
+RANGE: 0 to 9.5
+	N	Mean	Std. Deviation
+Total	667	1.083	1.188
+
+
+346) LBXTO3
+Toxoplasma (dye) Positive greater than or equal to 1:8
+RANGE: 8 to 16000
+	N	Mean	Std. Deviation
+Total	106	686.792	2353.657
+8)	32	30.2
+16)	2	1.9
+32)	8	7.5
+64)	4	3.8
+128)	24	22.6
+256)	7	6.6
+512)	17	16.0
+1024)	4	3.8
+2048)	3	2.8
+4096)	2	1.9
+8000)	1	0.9
+16000)	2	1.9
+Missing	9859
+
+
+347) LBXTO4
+Toxoplasma differential agglutination
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	74		
+
+
+348) LBXTO4IN
+Toxoplasma differential agglutination interpretation
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	74		
+
+
+349) LBXTO5
+Toxoplasma (avidity) IgG
+RANGE: 0.017 to 0.71
+	N	Mean	Std. Deviation
+Total	49	0.53	0.137
+
+
+350) LBXTO5IN
+Toxoplasma (avidity IgG) interpretation
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	49		
+
+
+351) LBXSAL
+[Section 22-L: Laboratory: Lab 18 Biochemistry Profile and Hormones] Albumin (g/dL)
+RANGE: 1.2 to 5.7
+	N	Mean	Std. Deviation
+Total	6230	4.495	0.357
+
+
+352) LBDSALSI
+Albumin (g/L)
+RANGE: 12 to 57
+	N	Mean	Std. Deviation
+Total	6230	44.949	3.566
+
+
+353) LBXSATSI
+[ALT (U/L)] Alanine aminotransferase (U/L)
+RANGE: 4 to 1163
+	N	Mean	Std. Deviation
+Total	6230	24.271	26.82
+
+
+354) LBXSASSI
+[AST (U/L)] Alanine aminotransferase (U/L)
+RANGE: 7 to 827
+	N	Mean	Std. Deviation
+Total	6230	24.582	19.061
+
+
+355) LBXSAPSI
+Alkaline phosphatase (U/L)
+RANGE: 20 to 728
+	N	Mean	Std. Deviation
+Total	6230	112.097	79.372
+
+
+356) LBXSBU
+Blood urea nitrogen (mg/dL)
+RANGE: 3 to 76
+	N	Mean	Std. Deviation
+Total	6230	13.339	5.37
+
+
+357) LBDSBUSI
+Blood urea nitrogen (mmol/L)
+RANGE: 1.1 to 27.1
+	N	Mean	Std. Deviation
+Total	6230	4.764	1.917
+
+
+358) LBXSCA
+Calcium, total (mg/dL)
+RANGE: 7.1 to 13.5
+	N	Mean	Std. Deviation
+Total	6230	9.463	0.421
+
+
+359) LBDSCASI
+Calcium, total (mmol/L)
+RANGE: 1.775 to 3.375
+	N	Mean	Std. Deviation
+Total	6230	2.366	0.105
+
+
+360) LBXSCH
+Cholesterol, total (mg/dL)
+RANGE: 65 to 554
+	N	Mean	Std. Deviation
+Total	6232	185.017	43.032
+
+
+361) LBDSCHSI
+Cholesterol, total (mmol/L)
+RANGE: 1.68 to 14.33
+	N	Mean	Std. Deviation
+Total	6232	4.785	1.113
+
+
+362) LBXSC3SI
+Bicarbonate (mmol/L)
+RANGE: 12 to 38
+	N	Mean	Std. Deviation
+Total	6230	23.672	2.367
+
+
+363) LBXSGTSI
+Gamma glutamyltransferase (U/L)
+RANGE: 3 to 1291
+	N	Mean	Std. Deviation
+Total	6230	27.628	44.028
+
+
+364) LBXSGL
+Glucose (mg/dL)
+RANGE: 41 to 571
+	N	Mean	Std. Deviation
+Total	6230	94.171	32.873
+
+
+365) LBDSGLSI
+Glucose (mmol/L)
+RANGE: 2.276 to 31.696
+	N	Mean	Std. Deviation
+Total	6230	5.227	1.825
+
+
+366) LBXSIR
+Iron (ug/dL)
+RANGE: 8 to 282
+	N	Mean	Std. Deviation
+Total	6230	86.617	35.645
+
+
+367) LBDSIRSI
+Iron (umol/L)
+RANGE: 1.43 to 50.51
+	N	Mean	Std. Deviation
+Total	6230	15.513	6.384
+
+
+368) LBXSLDSI
+Lactate dehydrogenase (U/L)
+RANGE: 45 to 719
+	N	Mean	Std. Deviation
+Total	6230	155.355	34.864
+
+
+369) LBXSPH
+Phosphorus (mg/dL)
+RANGE: 1.7 to 8.1
+	N	Mean	Std. Deviation
+Total	6230	3.635	0.627
+
+
+370) LBDSPHSI
+Phosphorus (mmol/L)
+RANGE: 0.549 to 2.615
+	N	Mean	Std. Deviation
+Total	6230	1.174	0.202
+
+
+371) LBXSTB
+Bilirubin, total (mg/dL)
+RANGE: 0.1 to 4.2
+	N	Mean	Std. Deviation
+Total	6230	0.569	0.307
+
+
+372) LBDSTBSI
+Bilirubin, total (umol/L)
+RANGE: 1.7 to 71.8
+	N	Mean	Std. Deviation
+Total	6230	9.744	5.257
+
+
+373) LBXSTP
+Protein, total (g/dL)
+RANGE: 3.6 to 11
+	N	Mean	Std. Deviation
+Total	6230	7.588	0.476
+
+
+374) LBDSTPSI
+Protein, total (g/L)
+RANGE: 36 to 110
+	N	Mean	Std. Deviation
+Total	6230	75.883	4.763
+
+
+375) LBXSTR
+Triglycerides (mg/dL)
+RANGE: 16 to 2276
+	N	Mean	Std. Deviation
+Total	6232	126.653	102.907
+
+
+376) LBDSTRSI
+Triglycerides (mmol/L)
+RANGE: 0.181 to 25.696
+	N	Mean	Std. Deviation
+Total	6232	1.43	1.162
+
+
+377) LBXSUA
+Uric acid (mg/dL)
+RANGE: 1.6 to 13.7
+	N	Mean	Std. Deviation
+Total	6230	5.21	1.473
+
+
+378) LBDSUASI
+Uric acid (umol/L)
+RANGE: 95.2 to 814.9
+	N	Mean	Std. Deviation
+Total	6230	309.872	87.606
+
+
+379) LBXSCR
+Creatinine (mg/dL)
+RANGE: 0.2 to 11.8
+	N	Mean	Std. Deviation
+Total	6230	0.693	0.486
+
+
+380) LBDSCRSI
+Creatinine (umol/L)
+RANGE: 17.7 to 1043.1
+	N	Mean	Std. Deviation
+Total	6230	61.271	42.961
+
+
+381) LBXSNASI
+Sodium (mmol/L)
+RANGE: 123.4 to 149.6
+	N	Mean	Std. Deviation
+Total	6230	139.333	2.532
+
+
+382) LBXSKSI
+Potassium (mmol/L)
+RANGE: 2.73 to 6.63
+	N	Mean	Std. Deviation
+Total	6230	4.11	0.325
+
+
+383) LBXSCLSI
+Chloride (mmol/L)
+RANGE: 86.1 to 112.6
+	N	Mean	Std. Deviation
+Total	6230	102.317	2.899
+
+
+384) LBXSOSSI
+Osmolality (mOsml/L)
+RANGE: 245 to 307
+	N	Mean	Std. Deviation
+Total	6230	278.231	5.522
+
+
+385) LBXSGB
+Globulin (g/dL)
+RANGE: 1.9 to 7.9
+	N	Mean	Std. Deviation
+Total	6230	3.094	0.439
+
+
+386) LBDSGBSI
+Globulin (g/L)
+RANGE: 19 to 79
+	N	Mean	Std. Deviation
+Total	6230	30.941	4.389
+
+
+387) LBXFSH
+Follicle stimulating hormone (mIU/ml)
+RANGE: 0.14 to 143.39
+	N	Mean	Std. Deviation
+Total	829	29.294	29.967
+
+
+388) LBDFSHSI
+Follicle stimulating hormone (IU/L)
+RANGE: 0.01 to 143.39
+	N	Mean	Std. Deviation
+Total	829	29.294	29.967
+
+
+389) LBXLH
+Luteinizing hormone (mIU/ml)
+RANGE: 0.14 to 132.96
+	N	Mean	Std. Deviation
+Total	820	21.881	21.321
+
+
+390) LBDLHSI
+Luteinizing hormone (IU/L)
+RANGE: 0.14 to 132.96
+	N	Mean	Std. Deviation
+Total	820	21.881	21.321
+
+
+391) WTSTH2YR
+[Section 23-L: Laboratory: Lab 18T4 Thyroid Stimulating Hormone and Thyroxine (Subsample)] Thyroid hormones subsample two year MEC weight
+RANGE: 0 to 935505.32656452
+	N	Mean	Std. Deviation
+Total	2276	98267.052	116053.298
+
+
+392) WTSTH4YR
+Thyroid hormones subsample four year MEC weight
+RANGE: 0 to 345844.28658728
+	N	Mean	Std. Deviation
+Total	2276	45242.592	50864.158
+
+
+393) LBXT4
+Thyroxine (T4) (ug/dL)
+RANGE: 0.4 to 18.5
+	N	Mean	Std. Deviation
+Total	2051	7.722	1.767
+
+
+394) LBDT4SI
+Thyroxine (T4) (nmol/L)
+RANGE: 5.1 to 238.1
+	N	Mean	Std. Deviation
+Total	2051	99.387	22.735
+
+
+395) LBXTSH
+Thyroid stimulating hormone (IU/L)
+RANGE: 0.01 to 81.85
+	N	Mean	Std. Deviation
+Total	2050	1.846	2.358
+
+
+396) LBXME
+[Section 24-L: Laboratory: Lab 19 Measles Rubella and Varicella] Measles
+RANGE: 0 to 29.33
+	N	Mean	Std. Deviation
+Total	5113	10.042	6.902
+
+
+397) LBDRUIU
+[Rubella international units] Rubella units
+RANGE: 1 to 291
+	N	Mean	Std. Deviation
+Total	5113	57.512	39.044
+
+
+398) LBXVAR
+Varicella
+RANGE: 0 to 29.45
+	N	Mean	Std. Deviation
+Total	5113	12.955	6.66
+
+
+399) DCDINDEX
+[Section 25-L: Laboratory: Lab 20 Lead Dust] [Index child for sampling]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1085	1.267	0.443
+1) Primary child	795	73.3
+2) Other household child	290	26.7
+Missing	8880
+
+
+400) DCDSTAT
+[Dust sample status]
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	989	2.614	0.79
+1) Floor only	191	19.3
+3) Floor and window	798	80.7
+Missing	8976
+
+
+401) DCD030
+Room where samples taken. Enter location of sample
+RANGE: 2 to 7
+	N	Mean	Std. Deviation
+Total	989	2.512	1.209
+2) Living room/Family room/Den	823	83.2
+3) Dining room	13	1.3
+4) Kitchen	14	1.4
+5) Bedroom	115	11.6
+7) Another room	24	2.4
+Missing	8976
+
+
+402) DCD070A
+[Room selected was floor carpeted]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	989	1.197	0.398
+1) Yes	794	80.3
+2) No	195	19.7
+Missing	8976
+
+
+403) DCQ070B
+Indicates whether mat was found in room-floor sample
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	989	1.987	0.114
+1) Yes	13	1.3
+2) No	976	98.7
+Missing	8976
+
+
+404) DCQ070C
+Indicates whether area rug was found in room-floor sample
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	989	1.857	0.35
+1) Yes	141	14.3
+2) No	848	85.7
+Missing	8976
+
+
+405) DCQ070D
+If there was wall to wall carpet-floor sample
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	989	1.287	0.453
+1) Yes	705	71.3
+2) No	284	28.7
+Missing	8976
+
+
+406) DCQ090
+Depth of carpeting-floor sample
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	794	1.208	0.496
+1) Low pile	661	83.2
+2) High pile	101	12.7
+3) Not applicable	32	4.0
+Missing	9171
+
+
+407) DCQ160
+Surface condition for floor dust sample
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	284	1.447	0.816
+1) Smooth and cleanable	216	76.1
+2) Not smooth and cleanable	9	3.2
+3) Carpet	59	20.8
+Missing	9681
+
+
+408) DCQ240
+Window sill finished
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	798	1.127	0.333
+1) Yes	697	87.3
+2) No	101	12.7
+Missing	9167
+
+
+409) DCQ250
+Surface condition for sill dust sample
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	798	1.118	0.323
+1) Smooth and cleanable	704	88.2
+2) Not smooth and cleanable	94	11.8
+Missing	9167
+
+
+410) DCQ400
+Interviewer observation: Room cleanliness
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	989	2.096	0.607
+1) Dirtier than average	139	14.1
+2) Average	616	62.3
+3) Cleaner than average	234	23.7
+Missing	8976
+
+
+411) DCQ410
+Interviewer observation: Room clutter
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	989	2.161	0.611
+1) Very cluttered (nothing in place)	118	11.9
+2) Average amount of clutter	594	60.1
+3) Organized (nothing out of place)	277	28.0
+Missing	8976
+
+
+412) LBXDFS
+Floor result in micrograms per square feet by graphite furnace atomic absorption spectrophotometric method
+RANGE: 0.11 to 9.02
+	N	Mean	Std. Deviation
+Total	902	0.987	0.996
+
+
+413) LBXDFSF
+If the floor sample result by the GFAAS method is greater than 5 then it is measured by the FAAS method. Only the FAAS method result is reported. Floor result in micrograms per square feet by flame atomic absorption spectrophotometric method
+RANGE: 0.11 to 102.3
+	N	Mean	Std. Deviation
+Total	87	13.676	16.126
+
+
+414) LBDDWS
+Window result in micrograms per square feet by flame atomic absorption spectrophotometric method
+RANGE: 0.38 to 7650
+	N	Mean	Std. Deviation
+Total	798	88.831	472.461
+
+
+415) LBDDFSLC
+[Lead dust floor (GFAAS) comment code]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	902	0.115	0.32
+0) At or above limit of detection	798	88.5
+1) Below limit of detection	104	11.5
+Missing	9063
+
+
+416) LBDD3LC
+[Lead dust floor (FAAS) comment code]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	87	0.034	0.184
+0) At or above limit of detection	84	96.6
+1) Below limit of detection	3	3.4
+Missing	9878
+
+
+417) LBDDWSLC
+[Lead dust window sill comment code]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	798	0.378	0.485
+0) At or above limit of detection	496	62.2
+1) Below limit of detection	302	37.8
+Missing	9167
+
+
+418) LBXZBZ
+[Section 26-L: Laboratory: Lab 21 Volatile Organic Compounds (Subsample)] Benzene (ug/cubic meter)
+RANGE: 0.72942157 to 119.47
+	N	Mean	Std. Deviation
+Total	647	5.427	8.424
+
+
+419) LBDZBZLC
+[Benzene comment]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	647	0.343	0.475
+0) Result at or above the limit of detection	425	65.7
+1) Result below the limit of detection	222	34.3
+Missing	9318
+
+
+420) LBXZCF
+Chloroform (ug/cubic meter)
+RANGE: 0.20752047 to 53.9
+	N	Mean	Std. Deviation
+Total	651	2.786	4.819
+
+
+421) LBDZCFLC
+[Chloroform comment]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	651	0.197	0.398
+0) Result at or above the limit of detection	523	80.3
+1) Result below the limit of detection	128	19.7
+Missing	9314
+
+
+422) LBXZEB
+Ethylbenzene (ug/cubic meter)
+RANGE: 0.13809094 to 2210.39
+	N	Mean	Std. Deviation
+Total	642	10.745	94.129
+
+
+423) LBDZEBLC
+[Ethylbenzene comment]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	642	0.069	0.253
+0) Result at or above the limit of detection	598	93.1
+1) Result below the limit of detection	44	6.9
+Missing	9323
+
+
+424) LBXZTE
+Tetrachloroethene (ug/cubic meter)
+RANGE: 0.1201773 to 659.13
+	N	Mean	Std. Deviation
+Total	642	5.264	33.648
+
+
+425) LBDZTELC
+[Tetrachloroethene comment]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	642	0.305	0.461
+0) Result at or above the limit of detection	446	69.5
+1) Result below the limit of detection	196	30.5
+Missing	9323
+
+
+426) LBXZTO
+Toluene (ug/cubic meter)
+RANGE: 1.65508429 to 6280.15
+	N	Mean	Std. Deviation
+Total	638	49.309	282.148
+
+
+427) LBDZTOLC
+[Toluene comment]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	638	0.067	0.251
+0) Result at or above the limit of detection	595	93.3
+1) Result below the limit of detection	43	6.7
+Missing	9327
+
+
+428) LBXZTI
+Trichloroethene (ug/cubic meter)
+RANGE: 0.1222065 to 327.28
+	N	Mean	Std. Deviation
+Total	644	4.364	26.516
+
+
+429) LBDZTILC
+[Trichloroethene comment]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	644	0.752	0.432
+0) Result at or above the limit of detection	160	24.8
+1) Result below the limit of detection	484	75.2
+Missing	9321
+
+
+430) LBXZOX
+O-Xylene (ug/cubic meter)
+RANGE: 0.13153425 to 2320.98
+	N	Mean	Std. Deviation
+Total	646	9.628	92.318
+
+
+431) LBDZOXLC
+[O-Xylene comment]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	646	0.068	0.252
+0) Result at or above the limit of detection	602	93.2
+1) Result below the limit of detection	44	6.8
+Missing	9319
+
+
+432) LBXZXY
+M,p-Xylene (ug/cubic meter)
+RANGE: 0.23929117 to 8370.49
+	N	Mean	Std. Deviation
+Total	646	30.121	331.761
+
+
+433) LBDZXYLC
+[M,p-Xylene comment]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	646	0.036	0.185
+0) Result at or above the limit of detection	623	96.4
+1) Result below the limit of detection	23	3.6
+Missing	9319
+
+
+434) LBXZDB
+1,4-dichlorobenzene (ug/cubic meter)
+RANGE: 0.30746294 to 2235.57
+	N	Mean	Std. Deviation
+Total	644	46.369	177.854
+
+
+435) LBDZDBLC
+[1,4-dichlorobenzene comment]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	644	0.318	0.466
+0) Result at or above the limit of detection	439	68.2
+1) Result below the limit of detection	205	31.8
+Missing	9321
+
+
+436) LBXZMB
+MTBE (ug/cubic meter)
+RANGE: 0.36471079 to 181.68
+	N	Mean	Std. Deviation
+Total	644	6.032	16.677
+
+
+437) LBDZMBLC
+[MTBE comment]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	644	0.702	0.458
+0) Result at or above the limit of detection	192	29.8
+1) Result below the limit of detection	452	70.2
+Missing	9321
+
+
+438) LBAVOCSD
+The time (in minutes) between start time of wearing the badge and stop time of wearing the badge
+RANGE: 2049 to 11421.42
+	N	Mean	Std. Deviation
+Total	661	3389.601	661.914
+
+
+439) VTQ015
+Did you wear the exposure monitoring badge at all times since you received the badge?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	635	1.071	0.257
+1) Yes	590	92.9
+2) No	45	7.1
+Missing	9330
+
+
+440) VTQ020
+Approximately what was the number of hours that you did not wear the badge?
+RANGE: 1 to 52
+	N	Mean	Std. Deviation
+Total	45	10.311	13.125
+
+
+441) VTQ030
+I would like to ask you a few questions about your home. Does your home have an attached garage?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	650	1.691	0.463
+1) Yes	201	30.9
+2) No	449	69.1
+Missing	9315
+
+
+442) VTQ040
+Was your home or building originally built less than five years ago?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	650	2.015	1.052
+1) Yes	81	12.5
+2) No	556	85.5
+9) Don't know	13	2.0
+Missing	9315
+
+
+443) VTQ050
+Which one of the following is the best description of the street that you live on? Is it a:
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	650	2.705	0.967
+1) Rural or country road	85	13.1
+2) Dead-end residential street	138	21.2
+3) Through residential street	336	51.7
+4) Commercial street	70	10.8
+5) Major highway	20	3.1
+9) Don't know	1	0.2
+Missing	9315
+
+
+444) VTQ060
+Does your kitchen stove use natural gas, electricity or something else?
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	650	1.549	0.594
+1) Natural gas	317	48.8
+2) Electricity	313	48.2
+3) Something else	19	2.9
+7) Refused	1	0.2
+Missing	9315
+
+
+445) VTQ070
+In the past six months, have any new carpets or rugs been placed in your home or your work area at your workplace or school? Please only consider wall-to-wall carpeting or room-sized rugs
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	650	1.835	0.473
+1) Yes	114	17.5
+2) No	535	82.3
+9) Don't know	1	0.2
+Missing	9315
+
+
+446) VTQ080
+Do you store paints or fuels inside your home? Include your basement (and attached garage)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	650	1.705	0.457
+1) Yes	192	29.5
+2) No	458	70.5
+Missing	9315
+
+
+447) VTQ090
+Now I am going to ask you a few questions about your activities when you used your exposure badge. This covers the time since you received the exposure badge hours ago up until this appointment. During the time you used your exposure badge, about how many hours did you spend indoors at home? Include time spent sleeping
+RANGE: 2 to 70
+	N	Mean	Std. Deviation
+Total	650	32.418	11.344
+
+
+448) VTQ100
+Were any windows open in your home?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	650	1.418	0.574
+1) Yes	385	59.2
+2) No	264	40.6
+9) Don't know	1	0.2
+Missing	9315
+
+
+449) VTQ110
+About how many hours did you spend indoors at work or at school?
+RANGE: 0 to 45
+	N	Mean	Std. Deviation
+Total	650	8.783	8.866
+
+
+450) VTQ120
+About how many hours did you spend outdoors?
+RANGE: 0 to 40
+	N	Mean	Std. Deviation
+Total	650	8.457	7.229
+
+
+451) VTQ130
+Did you pump gas into a car or other motor vehicle yourself?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	650	1.603	0.61
+1) Yes	270	41.5
+2) No	378	58.2
+7) Refused	1	0.2
+9) Don't know	1	0.2
+Missing	9315
+
+
+452) VTQ140
+Did you spend any time at a swimming pool?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	649	1.924	0.264
+1) Yes	49	7.6
+2) No	600	92.4
+Missing	9316
+
+
+453) VTQ150
+Did you visit a dry-cleaning shop or wear clothes that had been dry-cleaned within the last week?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	649	1.867	0.449
+1) Yes	93	14.3
+2) No	555	85.5
+9) Don't know	1	0.2
+Missing	9316
+
+
+454) VTQ160
+Did you spend 10 or more minutes near a wood-burning fire in a fireplace, wood stove or outdoors?
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	649	1.955	0.426
+1) Yes	44	6.8
+2) No	602	92.8
+7) Refused	3	0.5
+Missing	9316
+
+
+455) VTQ170
+Did you spend 10 or more minutes near a person who was smoking a cigarette, cigar or pipe?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	649	1.518	0.5
+1) Yes	313	48.2
+2) No	336	51.8
+Missing	9316
+
+
+456) VTQ180
+Even though you did not use the exposure badge when taking a hot shower, did you take a hot shower for five minutes or longer during this time period?
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	649	1.148	0.415
+1) Yes	558	86.0
+2) No	90	13.9
+7) Refused	1	0.2
+Missing	9316
+
+
+457) VTQ200A
+During the time you used the exposure badge, did you breathe fumes from or use paint? 
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	648	1.89	0.313
+1) Yes	71	11.0
+2) No	577	89.0
+Missing	9317
+
+
+458) VTQ200B
+During the time you used the exposure badge, did you breathe fumes from or use mothballs, moth crystals or moth flakes?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	648	1.965	0.185
+1) Yes	23	3.5
+2) No	625	96.5
+Missing	9317
+
+
+459) VTQ200C
+During the time you used the exposure badge, did you breathe fumes from or use household disinfectant or degreasing cleaners?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	648	1.597	0.491
+1) Yes	261	40.3
+2) No	387	59.7
+Missing	9317
+
+
+460) VTQ200D
+During the time you used the exposure badge, did you breathe fumes from or use furniture polish?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	648	1.867	0.34
+1) Yes	86	13.3
+2) No	562	86.7
+Missing	9317
+
+
+461) VTQ200E
+During the time you used the exposure badge, did you breathe fumes from or use hairspray?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	648	1.63	0.483
+1) Yes	240	37.0
+2) No	408	63.0
+Missing	9317
+
+
+462) VTQ200F
+During the time you used the exposure badge, did you breathe fumes from or use fingernail polish or fingernail polish remover?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	648	1.84	0.367
+1) Yes	104	16.0
+2) No	544	84.0
+Missing	9317
+
+
+463) VTQ200G
+During the time you used the exposure badge, did you breathe fumes from or use diesel fuel or kerosene?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	648	1.907	0.507
+1) Yes	74	11.4
+2) No	572	88.3
+9) Don't know	2	0.3
+Missing	9317
+
+
+464) VTQ200H
+During the time you used the exposure badge, did you breathe fumes from or use gasoline?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	648	1.579	0.646
+1) Yes	287	44.3
+2) No	359	55.4
+9) Don't know	2	0.3
+Missing	9317
+
+
+465) VTQ200I
+During the time you used the exposure badge, did you breathe fumes from or use paint thinner, brush cleaner or furniture stripper?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	648	1.94	0.238
+1) Yes	39	6.0
+2) No	609	94.0
+Missing	9317
+
+
+466) VTQ200J
+During the time you used the exposure badge, did you breathe fumes from or use air fresheners or room deodorizers?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	648	1.514	0.58
+1) Yes	322	49.7
+2) No	325	50.2
+9) Don't know	1	0.2
+Missing	9317
+
+
+467) VTQ200K
+During the time you used the exposure badge, did you breathe fumes from or use dry-cleaning fluid or spot remover?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	648	1.944	0.373
+1) Yes	43	6.6
+2) No	604	93.2
+9) Don't know	1	0.2
+Missing	9317
+
+
+468) VTQ200L
+During the time you used the exposure badge, did you breathe fumes from or use glues or adhesives used for hobbies or crafts?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	648	1.917	0.277
+1) Yes	54	8.3
+2) No	594	91.7
+Missing	9317
+
+
+469) HRQ010
+[Section 27-L: Laboratory: Lab 22 Hair Mercury] Has your hair been given a permanent or been treated with a hair dye or a hair straightener within the last month?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2649	1.745	0.454
+1) Yes	682	25.7
+2) No	1966	74.2
+8) Could not obtain	1	0.0
+Missing	7316
+
+
+470) HRXHG
+Total hair mercury as ug mercury/gram hair (ppm): MQL is detection limit (see documentation for definitions)
+RANGE: 0.01 to 849
+	N	Mean	Std. Deviation
+Total	2567	0.892	18.801
+
+
+471) HRDHGLC
+[HRXHG hair mercury comment - MQL] The comment code associated with the value of the HRXHG variable (see documentation for definitions)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2567	0.124	0.33
+0) Detectable result	2248	87.6
+1) HRXHG is below the MQL (method quantification limit)	319	12.4
+Missing	7398
+
+
+472) HRDHG
+Total hair mercury as ug mercury/gram hair (ppm): MDL is detection limit (see documentation for definitions)
+RANGE: 0.007 to 849
+	N	Mean	Std. Deviation
+Total	2567	0.891	18.801
+
+
+473) HRDHGLC2
+[HRDHG hair mercury comment - MDL] The comment code associated with the value of the HRDHG variable (see documentation for definitions)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2567	0.012	0.107
+0) Detectable result	2537	98.8
+1) HRDHG is below the MDL (method detection limit)	30	1.2
+Missing	7398
+
+
+474) LBXWBCSI
+[Section 28-L: Laboratory: Lab 25 Complete Blood Count] White blood cell count: SI
+RANGE: 2.4 to 20.7
+	N	Mean	Std. Deviation
+Total	7981	7.339	2.201
+
+
+475) LBXLYPCT
+Lymphocyte percent (%)
+RANGE: 4.5 to 78.8
+	N	Mean	Std. Deviation
+Total	7949	32.806	10.36
+
+
+476) LBXMOPCT
+Monocyte percent (%)
+RANGE: 1 to 31.3
+	N	Mean	Std. Deviation
+Total	7949	8.119	2.303
+
+
+477) LBXNEPCT
+Segmented neutrophils percent (%)
+RANGE: 5.3 to 91.3
+	N	Mean	Std. Deviation
+Total	7949	55.431	11.604
+
+
+478) LBXEOPCT
+Eosinophils percent (%)
+RANGE: 0.1 to 57.2
+	N	Mean	Std. Deviation
+Total	7949	3.037	2.619
+
+
+479) LBXBAPCT
+Basophils percent (%)
+RANGE: 0 to 35.4
+	N	Mean	Std. Deviation
+Total	7949	0.647	0.546
+
+
+480) LBDLYMNO
+Lymphocyte number
+RANGE: 0.3 to 16.1
+	N	Mean	Std. Deviation
+Total	7948	2.343	0.95
+
+
+481) LBDMONO
+Monocyte number
+RANGE: 0.1 to 2.2
+	N	Mean	Std. Deviation
+Total	7948	0.578	0.197
+
+
+482) LBDNENO
+Segmented neutrophils number
+RANGE: 0.3 to 15.4
+	N	Mean	Std. Deviation
+Total	7948	4.152	1.788
+
+
+483) LBDEONO
+Eosinophils number
+RANGE: 0 to 4.2
+	N	Mean	Std. Deviation
+Total	7948	0.217	0.203
+
+
+484) LBDBANO
+Basophils number
+RANGE: 0 to 4.5
+	N	Mean	Std. Deviation
+Total	7948	0.038	0.072
+0)	5075	63.9
+0.1)	2807	35.3
+0.2)	42	0.5
+0.3)	14	0.2
+0.4)	6	0.1
+0.5)	1	0.0
+0.6)	2	0.0
+4.5)	1	0.0
+Missing	2017
+
+
+485) LBXRBCSI
+Red cell count SI
+RANGE: 2.28 to 6.89
+	N	Mean	Std. Deviation
+Total	7982	4.685	0.484
+
+
+486) LBXHGB
+Hemoglobin (g/dL)
+RANGE: 7.4 to 19.2
+	N	Mean	Std. Deviation
+Total	7982	13.929	1.475
+
+
+487) LBXHCT
+Hematocrit (%)
+RANGE: 21.3 to 54.9
+	N	Mean	Std. Deviation
+Total	7982	41.187	4.382
+
+
+488) LBXMCVSI
+Mean cell volume (fL)
+RANGE: 51.1 to 120.6
+	N	Mean	Std. Deviation
+Total	7982	88.089	5.875
+
+
+489) LBXMCHSI
+Mean cell hemoglobin (pg)
+RANGE: 15 to 43.9
+	N	Mean	Std. Deviation
+Total	7982	29.799	2.222
+
+
+490) LBXMC
+Mean cell hemoglobin concentration (g/dL)
+RANGE: 29.4 to 38.3
+	N	Mean	Std. Deviation
+Total	7982	33.816	0.795
+
+
+491) LBXRDW
+Red cell distribution width (%)
+RANGE: 10.5 to 28.2
+	N	Mean	Std. Deviation
+Total	7982	12.643	1.066
+
+
+492) LBXPLTSI
+Platelet count (%)
+RANGE: 11 to 708
+	N	Mean	Std. Deviation
+Total	7982	279.975	71.395
+
+
+493) LBXMPSI
+Mean platelet volume (fL)
+RANGE: 5.5 to 13.2
+	N	Mean	Std. Deviation
+Total	7982	8.221	0.89
+
+
+494) WTSPP4YR
+[Section 29-L: Laboratory: Lab 26 Pesticides (Subsample)] PPesticides subsample four year MEC weight [ARDA Note: PPesticides is the spelling in original file, it was kept to reflect the original document.]
+RANGE: 0 to 343500.60404276
+	N	Mean	Std. Deviation
+Total	2125	42987.852	51714.847
+
+
+495) WTSPP2YR
+PPesticides subsample two year MEC weight
+RANGE: 0 to 836356.28269
+	N	Mean	Std. Deviation
+Total	2125	97329.543	120778.383
+
+
+496) WTSPP01
+PPesticides MEC weight Jack Knife rep 01
+RANGE: 0 to 855755.97206
+	N	Mean	Std. Deviation
+Total	2125	97213.867	123368.958
+
+
+497) WTSPP02
+PPesticides MEC weight Jack Knife rep 02
+RANGE: 0 to 831743.14358
+	N	Mean	Std. Deviation
+Total	2125	97352.075	122418.365
+
+
+498) WTSPP03
+PPesticides MEC weight Jack Knife rep 03
+RANGE: 0 to 836447.03376
+	N	Mean	Std. Deviation
+Total	2125	97383.642	120894.28
+
+
+499) WTSPP04
+PPesticides MEC weight Jack Knife rep 04
+RANGE: 0 to 829500.5029
+	N	Mean	Std. Deviation
+Total	2125	97309.675	120954.666
+
+
+500) WTSPP05
+PPesticides MEC weight Jack Knife rep 05
+RANGE: 0 to 830104.86041
+	N	Mean	Std. Deviation
+Total	2125	97238.583	122743.318
+
+
+501) WTSPP06
+PPesticides MEC weight Jack Knife rep 06
+RANGE: 0 to 829473.10524
+	N	Mean	Std. Deviation
+Total	2125	97160.765	123205.77
+
+
+502) WTSPP07
+PPesticides MEC weight Jack Knife rep 07
+RANGE: 0 to 827621.06645
+	N	Mean	Std. Deviation
+Total	2125	97176.522	121036.665
+
+
+503) WTSPP08
+PPesticides MEC weight Jack Knife rep 08
+RANGE: 0 to 833954.90525
+	N	Mean	Std. Deviation
+Total	2125	97195.712	122254.813
+
+
+504) WTSPP09
+PPesticides MEC weight Jack Knife rep 09
+RANGE: 0 to 828875.70018
+	N	Mean	Std. Deviation
+Total	2125	97475.448	122023.596
+
+
+505) WTSPP10
+PPesticides MEC weight Jack Knife rep 10
+RANGE: 0 to 848485.88488
+	N	Mean	Std. Deviation
+Total	2125	97102.091	122872.518
+
+
+506) WTSPP11
+PPesticides MEC weight Jack Knife rep 11
+RANGE: 0 to 848265.29606
+	N	Mean	Std. Deviation
+Total	2125	97256.472	124898.126
+
+
+507) WTSPP12
+PPesticides MEC weight Jack Knife rep 12
+RANGE: 0 to 843176.28246
+	N	Mean	Std. Deviation
+Total	2125	97266.883	122419.96
+
+
+508) WTSPP13
+PPesticides MEC weight Jack Knife rep 13
+RANGE: 0 to 829292.52037
+	N	Mean	Std. Deviation
+Total	2125	97254.407	121937.287
+
+
+509) WTSPP14
+PPesticides MEC weight Jack Knife rep 14
+RANGE: 0 to 857037.09866
+	N	Mean	Std. Deviation
+Total	2125	97361.283	123200.124
+
+
+510) WTSPP15
+PPesticides MEC weight Jack Knife rep 15
+RANGE: 0 to 855518.17111
+	N	Mean	Std. Deviation
+Total	2125	97545.403	127728.46
+
+
+511) WTSPP16
+PPesticides MEC weight Jack Knife rep 16
+RANGE: 0 to 872312.5877
+	N	Mean	Std. Deviation
+Total	2125	97575.734	125570.913
+
+
+512) WTSPP17
+PPesticides MEC weight Jack Knife rep 17
+RANGE: 0 to 843779.71668
+	N	Mean	Std. Deviation
+Total	2125	97365.963	124132.401
+
+
+513) WTSPP18
+PPesticides MEC weight Jack Knife rep 18
+RANGE: 0 to 833762.17409
+	N	Mean	Std. Deviation
+Total	2125	97201.292	121237.189
+
+
+514) WTSPP19
+PPesticides MEC weight Jack Knife rep 19
+RANGE: 0 to 849260.84505
+	N	Mean	Std. Deviation
+Total	2125	97340.413	121696.844
+
+
+515) WTSPP20
+PPesticides MEC weight Jack Knife rep 20
+RANGE: 0 to 837790.93244
+	N	Mean	Std. Deviation
+Total	2125	97374.039	121210.257
+
+
+516) WTSPP21
+PPesticides MEC weight Jack Knife rep 21
+RANGE: 0 to 814446.60466
+	N	Mean	Std. Deviation
+Total	2125	97442.319	122637.806
+
+
+517) WTSPP22
+PPesticides MEC weight Jack Knife rep 22
+RANGE: 0 to 836515.16652
+	N	Mean	Std. Deviation
+Total	2125	97342.185	120818.701
+
+
+518) WTSPP23
+PPesticides MEC weight Jack Knife rep 23
+RANGE: 0 to 837820.12839
+	N	Mean	Std. Deviation
+Total	2125	97490.355	122500.25
+
+
+519) WTSPP24
+PPesticides MEC weight Jack Knife rep 24
+RANGE: 0 to 845035.07849
+	N	Mean	Std. Deviation
+Total	2125	97527.893	123040.661
+
+
+520) WTSPP25
+PPesticides MEC weight Jack Knife rep 25
+RANGE: 0 to 836357.66657
+	N	Mean	Std. Deviation
+Total	2125	97372.521	120911.541
+
+
+521) WTSPP26
+PPesticides MEC weight Jack Knife rep 26
+RANGE: 0 to 831916.69938
+	N	Mean	Std. Deviation
+Total	2125	97367.003	120732.89
+
+
+522) WTSPP27
+PPesticides MEC weight Jack Knife rep 27
+RANGE: 0 to 806358.56522
+	N	Mean	Std. Deviation
+Total	2125	97175.344	126158.48
+
+
+523) WTSPP28
+PPesticides MEC weight Jack Knife rep 28
+RANGE: 0 to 850829.07675
+	N	Mean	Std. Deviation
+Total	2125	97403.023	124060.686
+
+
+524) WTSPP29
+PPesticides MEC weight Jack Knife rep 29
+RANGE: 0 to 841946.66863
+	N	Mean	Std. Deviation
+Total	2125	97424.267	121485.731
+
+
+525) WTSPP30
+PPesticides MEC weight Jack Knife rep 30
+RANGE: 0 to 814079.33489
+	N	Mean	Std. Deviation
+Total	2125	97325.396	122742.295
+
+
+526) WTSPP31
+PPesticides MEC weight Jack Knife rep 31
+RANGE: 0 to 841483.55004
+	N	Mean	Std. Deviation
+Total	2125	97397.365	121490.039
+
+
+527) WTSPP32
+PPesticides MEC weight Jack Knife rep 32
+RANGE: 0 to 774485.02054
+	N	Mean	Std. Deviation
+Total	2125	97127.953	123723.784
+
+
+528) WTSPP33
+PPesticides MEC weight Jack Knife rep 33
+RANGE: 0 to 830730.67192
+	N	Mean	Std. Deviation
+Total	2125	97090.731	123226.665
+
+
+529) WTSPP34
+PPesticides MEC weight Jack Knife rep 34
+RANGE: 0 to 844801.34777
+	N	Mean	Std. Deviation
+Total	2125	97341.817	121588.004
+
+
+530) WTSPP35
+PPesticides MEC weight Jack Knife rep 35
+RANGE: 0 to 810997.03002
+	N	Mean	Std. Deviation
+Total	2125	97105.693	123875.137
+
+
+531) WTSPP36
+PPesticides MEC weight Jack Knife rep 36
+RANGE: 0 to 836566.70488
+	N	Mean	Std. Deviation
+Total	2125	97476.11	122670.617
+
+
+532) WTSPP37
+PPesticides MEC weight Jack Knife rep 37
+RANGE: 0 to 840180.70278
+	N	Mean	Std. Deviation
+Total	2125	97325.954	121744.696
+
+
+533) WTSPP38
+PPesticides MEC weight Jack Knife rep 38
+RANGE: 0 to 848428.5911
+	N	Mean	Std. Deviation
+Total	2125	97556.356	122851.902
+
+
+534) WTSPP39
+PPesticides MEC weight Jack Knife rep 39
+RANGE: 0 to 837556.07428
+	N	Mean	Std. Deviation
+Total	2125	97321.935	122349.543
+
+
+535) WTSPP40
+PPesticides MEC weight Jack Knife rep 40
+RANGE: 0 to 837870.51774
+	N	Mean	Std. Deviation
+Total	2125	97219.822	121074.481
+
+
+536) WTSPP41
+PPesticides MEC weight Jack Knife rep 41
+RANGE: 0 to 845650.07133
+	N	Mean	Std. Deviation
+Total	2125	97078.526	123081.599
+
+
+537) WTSPP42
+PPesticides MEC weight Jack Knife rep 42
+RANGE: 0 to 824716.61144
+	N	Mean	Std. Deviation
+Total	2125	97544.777	124249.188
+
+
+538) WTSPP43
+PPesticides MEC weight Jack Knife rep 43
+RANGE: 0 to 839494.78371
+	N	Mean	Std. Deviation
+Total	2125	97396.446	123483.785
+
+
+539) WTSPP44
+PPesticides MEC weight Jack Knife rep 44
+RANGE: 0 to 825437.88216
+	N	Mean	Std. Deviation
+Total	2125	97098.542	122419.888
+
+
+540) WTSPP45
+PPesticides MEC weight Jack Knife rep 45
+RANGE: 0 to 837684.22019
+	N	Mean	Std. Deviation
+Total	2125	97322.243	124419.872
+
+
+541) WTSPP46
+PPesticides MEC weight Jack Knife rep 46
+RANGE: 0 to 851392.9774
+	N	Mean	Std. Deviation
+Total	2125	97357.054	124116.922
+
+
+542) WTSPP47
+PPesticides MEC weight Jack Knife rep 47
+RANGE: 0 to 809089.27776
+	N	Mean	Std. Deviation
+Total	2125	96849.241	122901.561
+
+
+543) WTSPP48
+PPesticides MEC weight Jack Knife rep 48
+RANGE: 0 to 834741.90146
+	N	Mean	Std. Deviation
+Total	2125	97293.246	121182.663
+
+
+544) WTSPP49
+PPesticides MEC weight Jack Knife rep 49
+RANGE: 0 to 838240.72856
+	N	Mean	Std. Deviation
+Total	2125	97357.911	121760.583
+
+
+545) WTSPP50
+PPesticides MEC weight Jack Knife rep 50
+RANGE: 0 to 835717.9285
+	N	Mean	Std. Deviation
+Total	2125	97339.317	121645.343
+
+
+546) WTSPP51
+PPesticides MEC weight Jack Knife rep 51
+RANGE: 0 to 828166.03094
+	N	Mean	Std. Deviation
+Total	2125	97198.171	122978.796
+
+
+547) WTSPP52
+PPesticides MEC weight Jack Knife rep 52
+RANGE: 0 to 828272.39833
+	N	Mean	Std. Deviation
+Total	2125	97534.926	122587.148
+
+
+548) URXDCB
+2,4-dichlorophenol (ug/L) result
+RANGE: 0.21 to 8200
+	N	Mean	Std. Deviation
+Total	1990	30.056	353.263
+
+
+549) URDDCBLC
+2,4-dichlorophenol comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1990	0.142	0.349
+0)	1708	85.8
+1)	282	14.2
+Missing	7975
+
+
+550) URX1TB
+2,4,5-trichlorophenol (ug/L)
+RANGE: 0.64 to 130
+	N	Mean	Std. Deviation
+Total	1994	3.276	9.224
+
+
+551) URD1TBLC
+2,4,5-trichlorophenol comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1994	0.517	0.5
+0)	964	48.3
+1)	1030	51.7
+Missing	7971
+
+
+552) URX24D
+2,4-D (ug/L)
+RANGE: 0.01 to 25
+	N	Mean	Std. Deviation
+Total	1977	0.293	1.081
+
+
+553) URD24DLC
+2,4-D comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1977	0.439	0.496
+0)	1109	56.1
+1)	868	43.9
+Missing	7988
+
+
+554) URX25T
+2,4,5-T (ug/L)
+RANGE: 0.01 to 2
+	N	Mean	Std. Deviation
+Total	1814	0.057	0.055
+
+
+555) URD25TLC
+2,4,5-T comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1814	0.972	0.164
+0)	50	2.8
+1)	1764	97.2
+Missing	8151
+
+
+556) URX3TB
+2,4,6-trichlorophenol (ug/L)
+RANGE: 0.71 to 1400
+	N	Mean	Std. Deviation
+Total	1989	7.464	34.551
+
+
+557) URD3TBLC
+2,4,6-trichlorophenol comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1989	0.156	0.363
+0)	1678	84.4
+1)	311	15.6
+Missing	7976
+
+
+558) URXALA
+Alachor mercapturate (ug/L)
+RANGE: 0.01 to 3.3
+	N	Mean	Std. Deviation
+Total	1942	0.228	0.278
+
+
+559) URDALALC
+Alachor mercapturate comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1942	0.651	0.477
+0)	677	34.9
+1)	1265	65.1
+Missing	8023
+
+
+560) URXATZ
+Atrazine mercapturate (ug/L)
+RANGE: 0.01 to 0.65
+	N	Mean	Std. Deviation
+Total	1878	0.024	0.043
+
+
+561) URDATZLC
+Atrazine mercapturate comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1878	0.948	0.222
+0)	98	5.2
+1)	1780	94.8
+Missing	8087
+
+
+562) URXCBF
+Carbofuranphenol (ug/L)
+RANGE: 0.14 to 8.4
+	N	Mean	Std. Deviation
+Total	1994	0.284	0.655
+
+
+563) URDCBFLC
+Carbofuranphenol comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1994	0.869	0.337
+0)	261	13.1
+1)	1733	86.9
+Missing	7971
+
+
+564) URXDEE
+DEET (ug/L)
+RANGE: 0.01 to 11
+	N	Mean	Std. Deviation
+Total	1977	0.115	0.458
+
+
+565) URDDEELC
+DEET comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1977	0.814	0.389
+0)	367	18.6
+1)	1610	81.4
+Missing	7988
+
+
+566) URXMAL
+Malathion diacid (ug/L)
+RANGE: 0.01 to 700
+	N	Mean	Std. Deviation
+Total	1920	0.97	16.275
+
+
+567) URDMALLC
+Malathion diacid comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1920	0.481	0.5
+0)	997	51.9
+1)	923	48.1
+Missing	8045
+
+
+568) URXCPM
+3,5,6-trichloropyridinol (ug/L)
+RANGE: 0.28 to 180
+	N	Mean	Std. Deviation
+Total	1994	3.559	7.61
+
+
+569) URDCPMLC
+3,5,6-trichloropyridinol comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1994	0.069	0.254
+0)	1856	93.1
+1)	138	6.9
+Missing	7971
+
+
+570) URXDIZ
+Oxy-pyrimidine (ug/L)
+RANGE: 0.07 to 31.33
+	N	Mean	Std. Deviation
+Total	1842	1.223	1.845
+
+
+571) URDDIZLC
+Oxy-pyrimidine comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1842	0.7	0.458
+0)	552	30.0
+1)	1290	70.0
+Missing	8123
+
+
+572) URXPAR
+Paranitrophenol (ug/L)
+RANGE: 0.28 to 76
+	N	Mean	Std. Deviation
+Total	1989	1.83	5.676
+
+
+573) URDPARLC
+Paranitrophenol comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1989	0.755	0.43
+0)	487	24.5
+1)	1502	75.5
+Missing	7976
+
+
+574) URXPCP
+Pentachlorophenol (ug/L)
+RANGE: 0.35 to 15
+	N	Mean	Std. Deviation
+Total	1994	0.496	0.749
+
+
+575) URDPCPLC
+Pentachlorophenol comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1994	0.894	0.308
+0)	212	10.6
+1)	1782	89.4
+Missing	7971
+
+
+576) URXPPX
+2-Isopropoxyphenol (ug/L)
+RANGE: 0.78 to 180
+	N	Mean	Std. Deviation
+Total	1917	0.93	4.131
+
+
+577) URDPPXLC
+2-Isopropoxyphenol comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1917	0.976	0.153
+0)	46	2.4
+1)	1871	97.6
+Missing	8048
+
+
+578) URXOPP
+O-Phenyl phenol (ug/L)
+RANGE: 0.21 to 57
+	N	Mean	Std. Deviation
+Total	1991	0.876	2.088
+
+
+579) URDOPPLC
+O-Phenyl phenol comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1991	0.349	0.477
+0)	1297	65.1
+1)	694	34.9
+Missing	7974
+
+
+580) URXOP1
+Dimethyl phosphate (ug/L)
+RANGE: 0.41 to 360
+	N	Mean	Std. Deviation
+Total	1949	4.516	13.49
+
+
+581) URXOP2
+Diethylphosphate (ug/L)
+RANGE: 0.14 to 820
+	N	Mean	Std. Deviation
+Total	1949	4.33	21.085
+
+
+582) URXOP3
+Dimethylthiophosphate (ug/L)
+RANGE: 0.13 to 3336
+	N	Mean	Std. Deviation
+Total	1948	24.398	134.883
+
+
+583) URXOP4
+Diethylthiophosphate (ug/L)
+RANGE: 0.06 to 180
+	N	Mean	Std. Deviation
+Total	1949	1.029	5.912
+
+
+584) URXOP5
+Dimethyldithiophosphate (ug/L)
+RANGE: 0.06 to 410
+	N	Mean	Std. Deviation
+Total	1949	5.146	19.141
+
+
+585) URXOP6
+Diethyldithiophosphate (ug/L)
+RANGE: 0.04 to 34
+	N	Mean	Std. Deviation
+Total	1949	0.261	0.963
+
+
+586) URX4FP
+4-fluoro-3-phenoxybenzoic acid (ug/L)
+RANGE: 0.14 to 23.97
+	N	Mean	Std. Deviation
+Total	1949	0.174	0.608
+
+
+587) URD4FPLC
+Fluoro-phenoxybenzoic acid code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1949	0.968	0.177
+0)	63	3.2
+1)	1886	96.8
+Missing	8016
+
+
+588) URXCB3
+Cis-3-(2,2-dibromovinyl)-2,2-dimethylcyclopropane carboxylic acid
+RANGE: 0.07 to 24.57
+	N	Mean	Std. Deviation
+Total	1698	0.1	0.652
+
+
+589) URDCB3LC
+Dibromovinyl-dimethylcyclopropane carboxylic acid code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1698	0.992	0.087
+0)	13	0.8
+1)	1685	99.2
+Missing	8267
+
+
+590) URXCCC
+Cis-3-(2,2-dichlorovinyl)-2,2-dimethylcyclopropane carboxylic acid
+RANGE: 0.07 to 22.93
+	N	Mean	Std. Deviation
+Total	1951	0.329	1.046
+
+
+591) URDCCCLC
+Cis dichlorovinyl-dimethylcyclopropane carboxylic acid code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1951	0.559	0.497
+0)	861	44.1
+1)	1090	55.9
+Missing	8014
+
+
+592) URXTCC
+Trans-3-(2,2-dichlorovinyl)-2,2-dimethylcyclopropane carboxylic acid
+RANGE: 0.28 to 406.34
+	N	Mean	Std. Deviation
+Total	1976	1.308	10.689
+
+
+593) URDTCCLC
+Trans dichlorovinyl-dimethylcyclopropane carboxylic acid code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1976	0.652	0.477
+0)	688	34.8
+1)	1288	65.2
+Missing	7989
+
+
+594) URXOPM
+3-phenoxybenzoic acid (ug/L)
+RANGE: 0.07 to 462.06
+	N	Mean	Std. Deviation
+Total	1998	1.443	11.998
+
+
+595) URDOPMLC
+3-phenoxybenzoic acid comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1998	0.288	0.453
+0)	1423	71.2
+1)	575	28.8
+Missing	7967
+
+
+596) WTSPO4YR
+[Section 30-L: Laboratory: Lab 28 Dioxins (Subsample)] Dioxins subsample four year MEC weight
+RANGE: 0 to 332972.39067037
+	N	Mean	Std. Deviation
+Total	2274	44545.187	51796.531
+
+
+597) WTSPO2YR
+Dioxins subsample two year MEC weight
+RANGE: 0 to 846810.73623
+	N	Mean	Std. Deviation
+Total	2274	98374.565	119469.241
+
+
+598) WTSPO01
+Dioxins MEC weight Jack Knife rep 01
+RANGE: 0 to 855755.97206
+	N	Mean	Std. Deviation
+Total	2274	98261.047	122128.203
+
+
+599) WTSPO02
+Dioxins MEC weight Jack Knife rep 02
+RANGE: 0 to 844779.86997
+	N	Mean	Std. Deviation
+Total	2274	98342.038	120659.103
+
+
+600) WTSPO03
+Dioxins MEC weight Jack Knife rep 03
+RANGE: 0 to 846902.62168
+	N	Mean	Std. Deviation
+Total	2274	98371.868	119595.454
+
+
+601) WTSPO04
+Dioxins MEC weight Jack Knife rep 04
+RANGE: 0 to 842584.10705
+	N	Mean	Std. Deviation
+Total	2274	98374.313	119484.618
+
+
+602) WTSPO05
+Dioxins MEC weight Jack Knife rep 05
+RANGE: 0 to 837936.03834
+	N	Mean	Std. Deviation
+Total	2274	98360.947	121247.304
+
+
+603) WTSPO06
+Dioxins MEC weight Jack Knife rep 06
+RANGE: 0 to 845222.59458
+	N	Mean	Std. Deviation
+Total	2274	98370.435	121793.121
+
+
+604) WTSPO07
+Dioxins MEC weight Jack Knife rep 07
+RANGE: 0 to 822448.43479
+	N	Mean	Std. Deviation
+Total	2274	98378.51	120269.804
+
+
+605) WTSPO08
+Dioxins MEC weight Jack Knife rep 08
+RANGE: 0 to 844412.02005
+	N	Mean	Std. Deviation
+Total	2274	98342.777	120922.142
+
+
+606) WTSPO09
+Dioxins MEC weight Jack Knife rep 09
+RANGE: 0 to 844663.80875
+	N	Mean	Std. Deviation
+Total	2274	98265.464	120859.282
+
+
+607) WTSPO10
+Dioxins MEC weight Jack Knife rep 10
+RANGE: 0 to 859058.91772
+	N	Mean	Std. Deviation
+Total	2274	98323.429	121356.588
+
+
+608) WTSPO11
+Dioxins MEC weight Jack Knife rep 11
+RANGE: 0 to 866821.09941
+	N	Mean	Std. Deviation
+Total	2274	98481.478	122257.955
+
+
+609) WTSPO12
+Dioxins MEC weight Jack Knife rep 12
+RANGE: 0 to 851007.64112
+	N	Mean	Std. Deviation
+Total	2274	98449.821	120982.685
+
+
+610) WTSPO13
+Dioxins MEC weight Jack Knife rep 13
+RANGE: 0 to 839691.17267
+	N	Mean	Std. Deviation
+Total	2274	98294.003	120242.021
+
+
+611) WTSPO14
+Dioxins MEC weight Jack Knife rep 14
+RANGE: 0 to 873106.54426
+	N	Mean	Std. Deviation
+Total	2274	98363.001	122434.726
+
+
+612) WTSPO15
+Dioxins MEC weight Jack Knife rep 15
+RANGE: 0 to 863439.63565
+	N	Mean	Std. Deviation
+Total	2274	98326.287	126390.158
+
+
+613) WTSPO16
+Dioxins MEC weight Jack Knife rep 16
+RANGE: 0 to 874963.99375
+	N	Mean	Std. Deviation
+Total	2274	98375.141	124074.07
+
+
+614) WTSPO17
+Dioxins MEC weight Jack Knife rep 17
+RANGE: 0 to 848988.23345
+	N	Mean	Std. Deviation
+Total	2274	98389.594	123200.386
+
+
+615) WTSPO18
+Dioxins MEC weight Jack Knife rep 18
+RANGE: 0 to 841603.19767
+	N	Mean	Std. Deviation
+Total	2274	98376.609	119683.169
+
+
+616) WTSPO19
+Dioxins MEC weight Jack Knife rep 19
+RANGE: 0 to 843952.96477
+	N	Mean	Std. Deviation
+Total	2274	98409.63	120351.632
+
+
+617) WTSPO20
+Dioxins MEC weight Jack Knife rep 20
+RANGE: 0 to 848263.3191
+	N	Mean	Std. Deviation
+Total	2274	98305.576	119888.565
+
+
+618) WTSPO21
+Dioxins MEC weight Jack Knife rep 21
+RANGE: 0 to 835329.85093
+	N	Mean	Std. Deviation
+Total	2274	98377.757	120763.6
+
+
+619) WTSPO22
+Dioxins MEC weight Jack Knife rep 22
+RANGE: 0 to 846971.6061
+	N	Mean	Std. Deviation
+Total	2274	98333.325	119476.283
+
+
+620) WTSPO23
+Dioxins MEC weight Jack Knife rep 23
+RANGE: 0 to 856147.4437
+	N	Mean	Std. Deviation
+Total	2274	98313.213	121600.853
+
+
+621) WTSPO24
+Dioxins MEC weight Jack Knife rep 24
+RANGE: 0 to 855532.40866
+	N	Mean	Std. Deviation
+Total	2274	98364.325	122028.109
+
+
+622) WTSPO25
+Dioxins MEC weight Jack Knife rep 25
+RANGE: 0 to 846812.1374
+	N	Mean	Std. Deviation
+Total	2274	98413.964	119659.316
+
+
+623) WTSPO26
+Dioxins MEC weight Jack Knife rep 26
+RANGE: 0 to 834516.43906
+	N	Mean	Std. Deviation
+Total	2274	98321.008	120394.399
+
+
+624) WTSPO27
+Dioxins MEC weight Jack Knife rep 27
+RANGE: 0 to 827167.81851
+	N	Mean	Std. Deviation
+Total	2274	98388.787	124939.651
+
+
+625) WTSPO28
+Dioxins MEC weight Jack Knife rep 28
+RANGE: 0 to 866782.12194
+	N	Mean	Std. Deviation
+Total	2274	98330.924	123176.961
+
+
+626) WTSPO29
+Dioxins MEC weight Jack Knife rep 29
+RANGE: 0 to 847208.83531
+	N	Mean	Std. Deviation
+Total	2274	98366.687	119960.345
+
+
+627) WTSPO30
+Dioxins MEC weight Jack Knife rep 30
+RANGE: 0 to 835020.28241
+	N	Mean	Std. Deviation
+Total	2274	98321.609	121339.676
+
+
+628) WTSPO31
+Dioxins MEC weight Jack Knife rep 31
+RANGE: 0 to 852002.09442
+	N	Mean	Std. Deviation
+Total	2274	98393.417	120502.292
+
+
+629) WTSPO32
+Dioxins MEC weight Jack Knife rep 32
+RANGE: 0 to 776846.25536
+	N	Mean	Std. Deviation
+Total	2274	98150.475	122533.698
+
+
+630) WTSPO33
+Dioxins MEC weight Jack Knife rep 33
+RANGE: 0 to 843710.83867
+	N	Mean	Std. Deviation
+Total	2274	98323.681	122139.747
+
+
+631) WTSPO34
+Dioxins MEC weight Jack Knife rep 34
+RANGE: 0 to 852647.79992
+	N	Mean	Std. Deviation
+Total	2274	98333.212	120155.132
+
+
+632) WTSPO35
+Dioxins MEC weight Jack Knife rep 35
+RANGE: 0 to 869287.44155
+	N	Mean	Std. Deviation
+Total	2274	98549.707	121760.69
+
+
+633) WTSPO36
+Dioxins MEC weight Jack Knife rep 36
+RANGE: 0 to 852252.3306
+	N	Mean	Std. Deviation
+Total	2274	98347.653	121805.577
+
+
+634) WTSPO37
+Dioxins MEC weight Jack Knife rep 37
+RANGE: 0 to 850682.96157
+	N	Mean	Std. Deviation
+Total	2274	98340.493	120296.184
+
+
+635) WTSPO38
+Dioxins MEC weight Jack Knife rep 38
+RANGE: 0 to 843109.28959
+	N	Mean	Std. Deviation
+Total	2274	98421.532	120905.679
+
+
+636) WTSPO39
+Dioxins MEC weight Jack Knife rep 39
+RANGE: 0 to 850725.19495
+	N	Mean	Std. Deviation
+Total	2274	98378.759	120972.429
+
+
+637) WTSPO40
+Dioxins MEC weight Jack Knife rep 40
+RANGE: 0 to 851003.28447
+	N	Mean	Std. Deviation
+Total	2274	98336.153	119791.855
+
+
+638) WTSPO41
+Dioxins MEC weight Jack Knife rep 41
+RANGE: 0 to 856187.76692
+	N	Mean	Std. Deviation
+Total	2274	98328.648	121357.068
+
+
+639) WTSPO42
+Dioxins MEC weight Jack Knife rep 42
+RANGE: 0 to 843160.75291
+	N	Mean	Std. Deviation
+Total	2274	98363.923	122857.063
+
+
+640) WTSPO43
+Dioxins MEC weight Jack Knife rep 43
+RANGE: 0 to 850054.46653
+	N	Mean	Std. Deviation
+Total	2274	98283.021	122026.233
+
+
+641) WTSPO44
+Dioxins MEC weight Jack Knife rep 44
+RANGE: 0 to 841160.50848
+	N	Mean	Std. Deviation
+Total	2274	98325.255	121095.212
+
+
+642) WTSPO45
+Dioxins MEC weight Jack Knife rep 45
+RANGE: 0 to 842839.2
+	N	Mean	Std. Deviation
+Total	2274	98348.419	123056.689
+
+
+643) WTSPO46
+Dioxins MEC weight Jack Knife rep 46
+RANGE: 0 to 848732.37434
+	N	Mean	Std. Deviation
+Total	2274	98532.731	123235.322
+
+
+644) WTSPO47
+Dioxins MEC weight Jack Knife rep 47
+RANGE: 0 to 824259.70172
+	N	Mean	Std. Deviation
+Total	2274	98294.097	122216.439
+
+
+645) WTSPO48
+Dioxins MEC weight Jack Knife rep 48
+RANGE: 0 to 847825.63032
+	N	Mean	Std. Deviation
+Total	2274	98475.31	119901.445
+
+
+646) WTSPO49
+Dioxins MEC weight Jack Knife rep 49
+RANGE: 0 to 848686.09589
+	N	Mean	Std. Deviation
+Total	2274	98368.328	120258.612
+
+
+647) WTSPO50
+Dioxins MEC weight Jack Knife rep 50
+RANGE: 0 to 846197.15017
+	N	Mean	Std. Deviation
+Total	2274	98292.967	120336.587
+
+
+648) WTSPO51
+Dioxins MEC weight Jack Knife rep 51
+RANGE: 0 to 841146.68974
+	N	Mean	Std. Deviation
+Total	2274	98459.849	122758.881
+
+
+649) WTSPO52
+Dioxins MEC weight Jack Knife rep 52
+RANGE: 0 to 841295.54925
+	N	Mean	Std. Deviation
+Total	2274	98308.302	121528.813
+
+
+650) LBX028
+PCB28 (ng/g)
+RANGE: 0.035 to 0.424
+	N	Mean	Std. Deviation
+Total	1849	0.066	0.023
+
+
+651) LBX028LA
+PCB28 lipid adjusted (ng/g)
+RANGE: 3.4 to 63.8
+	N	Mean	Std. Deviation
+Total	1849	11.77	4.209
+
+
+652) LBD028LC
+PCB28 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1849	0.981	0.136
+0) Detectable result	35	1.9
+1) Below detectable limit	1814	98.1
+Missing	8116
+
+
+653) LBX052
+PCB52 (ng/g)
+RANGE: 0.013 to 0.282
+	N	Mean	Std. Deviation
+Total	1912	0.025	0.009
+
+
+654) LBX052LA
+PCB52 lipid adjusted (ng/g)
+RANGE: 1.3 to 57.1
+	N	Mean	Std. Deviation
+Total	1912	4.533	2.014
+
+
+655) LBD052LC
+PCB52 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1912	0.984	0.126
+0) Detectable result	31	1.6
+1) Below detectable limit	1881	98.4
+Missing	8053
+
+
+656) LBX066
+PCB66 (ng/g)
+RANGE: 0.013 to 0.918
+	N	Mean	Std. Deviation
+Total	1931	0.027	0.026
+
+
+657) LBX066LA
+PCB66 lipid adjusted (ng/g)
+RANGE: 1.3 to 77.4
+	N	Mean	Std. Deviation
+Total	1931	4.689	3.004
+
+
+658) LBD066LC
+PCB66 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1931	0.971	0.168
+0) Detectable result	56	2.9
+1) Below detectable limit	1875	97.1
+Missing	8034
+
+
+659) LBX074
+PCB74 (ng/g)
+RANGE: 0.015 to 1.149
+	N	Mean	Std. Deviation
+Total	1924	0.062	0.081
+
+
+660) LBX074LA
+PCB74 lipid adjusted (ng/g)
+RANGE: 2 to 108
+	N	Mean	Std. Deviation
+Total	1924	9.953	11.455
+
+
+661) LBD074LC
+PCB74 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1924	0.622	0.485
+0) Detectable result	728	37.8
+1) Below detectable limit	1196	62.2
+Missing	8041
+
+
+662) LBX099
+PCB99 (ng/g)
+RANGE: 0.015 to 1.609
+	N	Mean	Std. Deviation
+Total	1897	0.046	0.065
+
+
+663) LBX099LA
+PCB99 lipid adjusted (ng/g)
+RANGE: 1.7 to 132
+	N	Mean	Std. Deviation
+Total	1897	7.587	8.628
+
+
+664) LBD099LC
+PCB99 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1897	0.697	0.459
+0) Detectable result	574	30.3
+1) Below detectable limit	1323	69.7
+Missing	8068
+
+
+665) LBX101
+PCB101 (ng/g)
+RANGE: 0.028 to 0.791
+	N	Mean	Std. Deviation
+Total	1929	0.053	0.029
+
+
+666) LBX101LA
+PCB101 lipid adjusted (ng/g)
+RANGE: 2.8 to 192
+	N	Mean	Std. Deviation
+Total	1929	9.457	5.995
+
+
+667) LBD101LC
+PCB101 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1929	0.988	0.111
+0) Detectable result	24	1.2
+1) Below detectable limit	1905	98.8
+Missing	8036
+
+
+668) LBX105
+PCB105 (ng/g)
+RANGE: 0.013 to 1.055
+	N	Mean	Std. Deviation
+Total	1915	0.03	0.033
+
+
+669) LBX105LA
+PCB105 lipid adjusted (ng/g)
+RANGE: 1.6 to 89.2
+	N	Mean	Std. Deviation
+Total	1915	5.233	4.087
+
+
+670) LBD105LC
+PCB105 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1915	0.892	0.311
+0) Detectable result	207	10.8
+1) Below detectable limit	1708	89.2
+Missing	8050
+
+
+671) LBX118
+PCB118 (ng/g)
+RANGE: 0.016 to 3.805
+	N	Mean	Std. Deviation
+Total	1926	0.082	0.152
+
+
+672) LBX118LA
+PCB118 lipid adjusted (ng/g)
+RANGE: 2 to 361
+	N	Mean	Std. Deviation
+Total	1926	12.909	20.503
+
+
+673) LBD118LC
+PCB118 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1926	0.598	0.49
+0) Detectable result	774	40.2
+1) Below detectable limit	1152	59.8
+Missing	8039
+
+
+674) LBX128
+PCB128 (ng/g)
+RANGE: 0.013 to 0.133
+	N	Mean	Std. Deviation
+Total	1927	0.025	0.007
+
+
+675) LBX128LA
+PCB128 lipid adjusted (ng/g)
+RANGE: 1.3 to 32.3
+	N	Mean	Std. Deviation
+Total	1927	4.455	1.518
+
+
+676) LBD128LC
+PCB128 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1927	0.994	0.079
+0) Detectable result	12	0.6
+1) Below detectable limit	1915	99.4
+Missing	8038
+
+
+677) LBX138
+PCB138 (ng/g)
+RANGE: 0.045 to 5.562
+	N	Mean	Std. Deviation
+Total	1930	0.169	0.224
+
+
+678) LBX138LA
+PCB138 lipid adjusted (ng/g)
+RANGE: 6.4 to 381
+	N	Mean	Std. Deviation
+Total	1930	27.731	29.929
+
+
+679) LBD138LC
+PCB138 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1930	0.646	0.478
+0) Detectable result	684	35.4
+1) Below detectable limit	1246	64.6
+Missing	8035
+
+
+680) LBX146
+PCB146 (ng/g)
+RANGE: 0.013 to 1.265
+	N	Mean	Std. Deviation
+Total	1923	0.038	0.047
+
+
+681) LBX146LA
+PCB146 lipid adjusted (ng/g)
+RANGE: 1.6 to 86.6
+	N	Mean	Std. Deviation
+Total	1923	6.462	6.052
+
+
+682) LBD146LC
+PCB146 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1923	0.761	0.427
+0) Detectable result	460	23.9
+1) Below detectable limit	1463	76.1
+Missing	8042
+
+
+683) LBX153
+PCB153 (ng/g)
+RANGE: 0.072 to 7.654
+	N	Mean	Std. Deviation
+Total	1926	0.259	0.336
+
+
+684) LBX153LA
+PCB153 lipid adjusted (ng/g)
+RANGE: 8.8 to 524
+	N	Mean	Std. Deviation
+Total	1926	42.046	44.738
+
+
+685) LBD153LC
+PCB153 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1926	0.596	0.491
+0) Detectable result	779	40.4
+1) Below detectable limit	1147	59.6
+Missing	8039
+
+
+686) LBX156
+PCB156 (ng/g)
+RANGE: 0.015 to 0.602
+	N	Mean	Std. Deviation
+Total	1907	0.041	0.038
+
+
+687) LBX156LA
+PCB156 lipid adjusted (ng/g)
+RANGE: 1.6 to 62.1
+	N	Mean	Std. Deviation
+Total	1907	6.825	5.341
+
+
+688) LBD156LC
+PCB156 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1907	0.712	0.453
+0) Detectable result	550	28.8
+1) Below detectable limit	1357	71.2
+Missing	8058
+
+
+689) LBX157
+PCB157 (ng/g)
+RANGE: 0.013 to 0.141
+	N	Mean	Std. Deviation
+Total	1897	0.025	0.006
+
+
+690) LBX157LA
+PCB157 lipid adjusted (ng/g)
+RANGE: 1.3 to 14.5
+	N	Mean	Std. Deviation
+Total	1897	4.489	1.341
+
+
+691) LBD157LC
+PCB157 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1897	0.974	0.159
+0) Detectable result	49	2.6
+1) Below detectable limit	1848	97.4
+Missing	8068
+
+
+692) LBX167
+PCB167 (ng/g)
+RANGE: 0.013 to 0.305
+	N	Mean	Std. Deviation
+Total	1908	0.026	0.01
+
+
+693) LBX167LA
+PCB167 lipid adjusted (ng/g)
+RANGE: 1.3 to 21.3
+	N	Mean	Std. Deviation
+Total	1908	4.618	1.603
+
+
+694) LBD167LC
+PCB167 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1908	0.95	0.219
+0) Detectable result	96	5.0
+1) Below detectable limit	1812	95.0
+Missing	8057
+
+
+695) LBX170
+PCB170 (ng/g)
+RANGE: 0.02 to 1.642
+	N	Mean	Std. Deviation
+Total	1798	0.075	0.089
+
+
+696) LBX170LA
+PCB170 lipid adjusted (ng/g)
+RANGE: 2.7 to 129
+	N	Mean	Std. Deviation
+Total	1798	12.304	12.243
+
+
+697) LBD170LC
+PCB170 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1798	0.62	0.486
+0) Detectable result	684	38.0
+1) Below detectable limit	1114	62.0
+Missing	8167
+
+
+698) LBX172
+PCB172 (ng/g)
+RANGE: 0.013 to 0.26
+	N	Mean	Std. Deviation
+Total	1901	0.026	0.01
+
+
+699) LBX172LA
+PCB172 lipid adjusted (ng/g)
+RANGE: 1.3 to 21.1
+	N	Mean	Std. Deviation
+Total	1901	4.57	1.58
+
+
+700) LBD172LC
+PCB172 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1901	0.962	0.191
+0) Detectable result	72	3.8
+1) Below detectable limit	1829	96.2
+Missing	8064
+
+
+701) LBX177
+PCB177 (ng/g)
+RANGE: 0.002 to 0.456
+	N	Mean	Std. Deviation
+Total	1873	0.027	0.017
+
+
+702) LBX177LA
+PCB177 lipid adjusted (ng/g)
+RANGE: 0.5 to 52.1
+	N	Mean	Std. Deviation
+Total	1873	4.81	2.574
+
+
+703) LBD177LC
+PCB177 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1873	0.932	0.251
+0) Detectable result	127	6.8
+1) Below detectable limit	1746	93.2
+Missing	8092
+
+
+704) LBX178
+PCB178 (ng/g)
+RANGE: 0.013 to 0.477
+	N	Mean	Std. Deviation
+Total	1932	0.028	0.017
+
+
+705) LBX178LA
+PCB178 lipid adjusted (ng/g)
+RANGE: 1.3 to 33.9
+	N	Mean	Std. Deviation
+Total	1932	4.835	2.318
+
+
+706) LBD178LC
+PCB178 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1932	0.914	0.281
+0) Detectable result	167	8.6
+1) Below detectable limit	1765	91.4
+Missing	8033
+
+
+707) LBX180
+PCB180 (ng/g)
+RANGE: 0.037 to 4.119
+	N	Mean	Std. Deviation
+Total	1924	0.177	0.235
+
+
+708) LBX180LA
+PCB180 lipid adjusted (ng/g)
+RANGE: 4.5 to 397
+	N	Mean	Std. Deviation
+Total	1924	28.358	33.04
+
+
+709) LBD180LC
+PCB180 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1924	0.564	0.496
+0) Detectable result	839	43.6
+1) Below detectable limit	1085	56.4
+Missing	8041
+
+
+710) LBX183
+PCB183 (ng/g)
+RANGE: 0.013 to 0.705
+	N	Mean	Std. Deviation
+Total	1928	0.03	0.025
+
+
+711) LBX183LA
+PCB183 lipid adjusted (ng/g)
+RANGE: 1.3 to 51
+	N	Mean	Std. Deviation
+Total	1928	5.217	3.362
+
+
+712) LBD183LC
+PCB183 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1928	0.866	0.341
+0) Detectable result	259	13.4
+1) Below detectable limit	1669	86.6
+Missing	8037
+
+
+713) LBX187
+PCB187 (ng/g)
+RANGE: 0.015 to 2.65
+	N	Mean	Std. Deviation
+Total	1930	0.062	0.102
+
+
+714) LBX187LA
+PCB187 lipid adjusted (ng/g)
+RANGE: 2 to 181
+	N	Mean	Std. Deviation
+Total	1930	9.961	13.348
+
+
+715) LBD187LC
+PCB187 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1930	0.608	0.488
+0) Detectable result	756	39.2
+1) Below detectable limit	1174	60.8
+Missing	8035
+
+
+716) LBXD01
+1,2,3,7,8-Pentachlorodibenzo-p-dioxin (pncdd) (fg/g)
+RANGE: 8.2 to 479.3
+	N	Mean	Std. Deviation
+Total	1915	28.369	27.342
+
+
+717) LBXD01LA
+1,2,3,7,8-Pentachlorodibenzo-p-dioxin (pncdd) lipid adjusted (pg/g)
+RANGE: 1.1 to 34.7
+	N	Mean	Std. Deviation
+Total	1915	4.828	3.79
+
+
+718) LBDD01LC
+1,2,3,7,8-Pentachlorodibenzo-p-dioxin (pncdd) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1915	0.873	0.333
+0) Detectable result	243	12.7
+1) Below detectable limit	1672	87.3
+Missing	8050
+
+
+719) LBXD03
+1,2,3,6,7,8-Hexachlorodibenzo-p-dioxin (hxcdd) (fg/g)
+RANGE: 13.29 to 1811.3
+	N	Mean	Std. Deviation
+Total	1885	134.326	190.191
+
+
+720) LBXD03LA
+1,2,3,6,7,8-Hexachlorodibenzo-p-dioxin (hxcdd) lipid adjusted (pg/g)
+RANGE: 1.8 to 389
+	N	Mean	Std. Deviation
+Total	1885	21.545	28.963
+
+
+721) LBDD03LC
+1,2,3,6,7,8-Hexachlorodibenzo-p-dioxin (hxcdd) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1885	0.6	0.49
+0) Detectable result	754	40.0
+1) Below detectable limit	1131	60.0
+Missing	8080
+
+
+722) LBXD04
+1,2,3,7,8,9-Hexachlorodibenzo-p-dioxin (hxcdd) (fg/g)
+RANGE: 10.54 to 1211.6
+	N	Mean	Std. Deviation
+Total	1870	38.237	42.302
+
+
+723) LBXD04LA
+1,2,3,7,8,9-Hexachlorodibenzo-p-dioxin (hxcdd) lipid adjusted (pg/g)
+RANGE: 1.7 to 260
+	N	Mean	Std. Deviation
+Total	1870	6.601	7.523
+
+
+724) LBDD04LC
+1,2,3,7,8,9-Hexachlorodibenzo-p-dioxin (hxcdd) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1870	0.869	0.338
+0) Detectable result	245	13.1
+1) Below detectable limit	1625	86.9
+Missing	8095
+
+
+725) LBXD05
+1,2,3,4,6,7,8-Heptachlororodibenzo-p-dioxin (hpcdd) (fg/g)
+RANGE: 62.15 to 11493.2
+	N	Mean	Std. Deviation
+Total	1894	290.972	413.498
+
+
+726) LBXD05LA
+1,2,3,4,6,7,8-Heptachlororodibenzo-p-dioxin (hpcdd) lipid adjusted (pg/g)
+RANGE: 7.7 to 2470
+	N	Mean	Std. Deviation
+Total	1894	47.846	72.531
+
+
+727) LBDD05LC
+1,2,3,4,6,7,8-Heptachlororodibenzo-p-dioxin (hpcdd) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1894	0.403	0.491
+0) Detectable result	1130	59.7
+1) Below detectable limit	764	40.3
+Missing	8071
+
+
+728) LBXD07
+1,2,3,4,6,7,8,9-Octachlorodibenzo-p-dioxin (ocdd) (fg/g)
+RANGE: 329.79 to 53248
+	N	Mean	Std. Deviation
+Total	1921	2105.887	3079.634
+
+
+729) LBXD07LA
+1,2,3,4,6,7,8,9-Octachlorodibenzo-p-dioxin (ocdd) lipid adjusted (pg/g)
+RANGE: 44.3 to 11400
+	N	Mean	Std. Deviation
+Total	1921	343.503	484.563
+
+
+730) LBDD07LC
+1,2,3,4,6,7,8,9-Octachlorodibenzo-p-dioxin (ocdd) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1921	0.374	0.484
+0) Detectable result	1203	62.6
+1) Below detectable limit	718	37.4
+Missing	8044
+
+
+731) LBXF01
+2,3,7,8-Tetrachlorodibenzofuran (tcdf) (fg/g)
+RANGE: 8.41 to 273.2
+	N	Mean	Std. Deviation
+Total	1903	18.038	8.275
+
+
+732) LBXF01LA
+2,3,7,8-Tetrachlorodibenzofuran (tcdf) lipid adjusted (pg/g)
+RANGE: 0.8 to 18.7
+	N	Mean	Std. Deviation
+Total	1903	3.208	1.263
+
+
+733) LBDF01LC
+2,3,7,8-Tetrachlorodibenzofuran (tcdf) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1903	0.997	0.051
+0) Detectable result	5	0.3
+1) Below detectable limit	1898	99.7
+Missing	8062
+
+
+734) LBXF02
+1,2,3,7,8-Pentachlorodibenzofuran (pncdf) (fg/g)
+RANGE: 8.06 to 110.9
+	N	Mean	Std. Deviation
+Total	1922	19.598	7.075
+
+
+735) LBXF02LA
+1,2,3,7,8-Pentachlorodibenzofuran (pncdf) lipid adjusted (pg/g)
+RANGE: 1.1 to 15.8
+	N	Mean	Std. Deviation
+Total	1922	3.495	1.402
+
+
+736) LBDF02LC
+1,2,3,7,8-Pentachlorodibenzofuran (pncdf) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1922	0.996	0.06
+0) Detectable result	7	0.4
+1) Below detectable limit	1915	99.6
+Missing	8043
+
+
+737) LBXF03
+2,3,4,7,8-Pentachlorodibenzofuran (pncdf) (fg/g)
+RANGE: 7.71 to 478.7
+	N	Mean	Std. Deviation
+Total	1895	38.095	33.354
+
+
+738) LBXF03LA
+2,3,4,7,8-Pentachlorodibenzofuran (pncdf) lipid adjusted (pg/g)
+RANGE: 1.3 to 47
+	N	Mean	Std. Deviation
+Total	1895	6.319	4.751
+
+
+739) LBDF03LC
+2,3,4,7,8-Pentachlorodibenzofuran (pncdf) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1895	0.604	0.489
+0) Detectable result	751	39.6
+1) Below detectable limit	1144	60.4
+Missing	8070
+
+
+740) LBXF04
+1,2,3,4,7,8-Hexachlorodibenzofuran (hxcdf) (fg/g)
+RANGE: 8.34 to 241.8
+	N	Mean	Std. Deviation
+Total	1890	31.667	24.359
+
+
+741) LBXF04LA
+1,2,3,4,7,8-Hexachlorodibenzofuran (hxcdf) lipid adjusted (pg/g)
+RANGE: 1.3 to 34.6
+	N	Mean	Std. Deviation
+Total	1890	5.336	3.54
+
+
+742) LBDF04LC
+1,2,3,4,7,8-Hexachlorodibenzofuran (hxcdf) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1890	0.628	0.484
+0) Detectable result	704	37.2
+1) Below detectable limit	1186	62.8
+Missing	8075
+
+
+743) LBXF05
+1,2,3,6,7,8-Hexachlorodibenzofuran (hxcdf) (fg/g)
+RANGE: 8.06 to 262.2
+	N	Mean	Std. Deviation
+Total	1898	25.139	17.823
+
+
+744) LBXF05LA
+1,2,3,6,7,8-Hexachlorodibenzofuran (hxcdf) lipid adjusted (pg/g)
+RANGE: 1.1 to 56.3
+	N	Mean	Std. Deviation
+Total	1898	4.327	2.785
+
+
+745) LBDF05LC
+1,2,3,6,7,8-Hexachlorodibenzofuran (hxcdf) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1898	0.787	0.409
+0) Detectable result	404	21.3
+1) Below detectable limit	1494	78.7
+Missing	8067
+
+
+746) LBXF06
+1,2,3,7,8,9-Hexachlorodibenzofuran (hxcdf) (fg/g)
+RANGE: 7 to 269.6
+	N	Mean	Std. Deviation
+Total	1875	18.965	9.676
+
+
+747) LBXF06LA
+1,2,3,7,8,9-Hexachlorodibenzofuran (hxcdf) lipid adjusted (pg/g)
+RANGE: 1 to 38.5
+	N	Mean	Std. Deviation
+Total	1875	3.347	1.613
+
+
+748) LBDF06LC
+1,2,3,7,8,9-Hexachlorodibenzofuran (hxcdf) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1875	0.999	0.033
+0) Detectable result	2	0.1
+1) Below detectable limit	1873	99.9
+Missing	8090
+
+
+749) LBXF07
+2,3,4,6,7,8-Hexchlorodibenzofuran (hxcdf) (fg/g)
+RANGE: 7 to 331.7
+	N	Mean	Std. Deviation
+Total	1884	19.912	11.34
+
+
+750) LBXF07LA
+2,3,4,6,7,8-Hexchlorodibenzofuran (hxcdf) lipid adjusted (pg/g)
+RANGE: 1.1 to 47.4
+	N	Mean	Std. Deviation
+Total	1884	3.507	1.82
+
+
+751) LBDF07LC
+2,3,4,6,7,8-Hexchlorodibenzofuran (tcdf) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1884	0.979	0.144
+0) Detectable result	40	2.1
+1) Below detectable limit	1844	97.9
+Missing	8081
+
+
+752) LBXF08
+1,2,3,4,6,7,8-Heptachlorodibenzofuran (hpcdf) (fg/g)
+RANGE: 9.19 to 1423.5
+	N	Mean	Std. Deviation
+Total	1709	46.1	71.04
+
+
+753) LBXF08LA
+1,2,3,4,6,7,8-Heptachlorodibenzofuran (hpcdf) lipid adjusted (pg/g)
+RANGE: 1.1 to 306
+	N	Mean	Std. Deviation
+Total	1709	8.081	12.714
+
+
+754) LBDF08LC
+1,2,3,4,6,7,8-Heptachlorodibenzofuran (hpcdf) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1709	0.545	0.498
+0) Detectable result	777	45.5
+1) Below detectable limit	932	54.5
+Missing	8256
+
+
+755) LBXF10
+1,2,3,4,6,7,8,9-Octachlorodibenzofuran (ocdf) (fg/g)
+RANGE: 17.54 to 493.7
+	N	Mean	Std. Deviation
+Total	1884	52.831	27.069
+
+
+756) LBXF10LA
+1,2,3,4,6,7,8,9-Octachlorodibenzofuran (ocdf) lipid adjusted (pg/g)
+RANGE: 2.3 to 84
+	N	Mean	Std. Deviation
+Total	1884	9.332	4.749
+
+
+757) LBDF10LC
+1,2,3,4,6,7,8,9-Octachlorodibenzofuran (ocdf) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1884	0.992	0.092
+0) Detectable result	16	0.8
+1) Below detectable limit	1868	99.2
+Missing	8081
+
+
+758) LBXPCB
+3,3',4,4',5-Pentachlorobiphenyl (pncb) (fg/g)
+RANGE: 17.75 to 15118.1
+	N	Mean	Std. Deviation
+Total	1896	170.105	425.426
+
+
+759) LBXPCBLA
+3,3',4,4',5-Pentachlorobiphenyl (pncb) lipid adjusted (pg/g)
+RANGE: 2.3 to 1030
+	N	Mean	Std. Deviation
+Total	1896	26.537	45.317
+
+
+760) LBDPCBLC
+3,3',4,4',5-Pentachlorobiphenyl (pncb) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1896	0.494	0.5
+0) Detectable result	960	50.6
+1) Below detectable limit	936	49.4
+Missing	8069
+
+
+761) LBXTC2
+3,4,4',5-Tetrachlorobiphenyl (tcb) (fg/g)
+RANGE: 48.44 to 971.9
+	N	Mean	Std. Deviation
+Total	1883	101.927	42.319
+
+
+762) LBXTC2LA
+3,4,4',5-Tetrachlorobiphenyl (tcb) lipid adjusted (pg/g)
+RANGE: 5.6 to 113
+	N	Mean	Std. Deviation
+Total	1883	18.136	7.684
+
+
+763) LBDTC2LC
+3,4,4',5-Tetrachlorobiphenyl (tcb) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1883	0.993	0.083
+0) Detectable result	13	0.7
+1) Below detectable limit	1870	99.3
+Missing	8082
+
+
+764) LBXTCD
+2,3,7,8-Tetrachlorodibenzo-p-dioxin (tcdd) (fg/g)
+RANGE: 9.9 to 423.9
+	N	Mean	Std. Deviation
+Total	1898	19.02	12.843
+
+
+765) LBXTCDLA
+2,3,7,8-Tetrachlorodibenzo-p-dioxin (tcdd) lipid adjusted (pg/g)
+RANGE: 1.1 to 42.5
+	N	Mean	Std. Deviation
+Total	1898	3.366	1.662
+
+
+766) LBDTCDLC
+2,3,7,8-Tetrachlorodibenzo-p-dioxin (tcdd) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1898	0.995	0.072
+0) Detectable result	10	0.5
+1) Below detectable limit	1888	99.5
+Missing	8067
+
+
+767) LBDBHC
+Beta-hexachlorocyclohexane (ng/g)
+RANGE: 0.01288 to 6.010452
+	N	Mean	Std. Deviation
+Total	1893	0.157	0.333
+
+
+768) LBDBHCLA
+Beta-hexachlorocyclohexane lipid adjusted (ng/g)
+RANGE: 1.457372 to 766.36
+	N	Mean	Std. Deviation
+Total	1893	24.491	48.904
+
+
+769) LBDBHCLC
+Beta-hexachlorocyclohexane comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1893	0.352	0.478
+0) Detectable result	1226	64.8
+1) Below detectable limit	667	35.2
+Missing	8072
+
+
+770) LBXGHC
+Gamma-hexachlorocyclohexane (ng/g)
+RANGE: 0.015 to 1.314
+	N	Mean	Std. Deviation
+Total	1799	0.031	0.037
+
+
+771) LBXGHCLA
+Gamma-hexachlorocyclohexane lipid adjusted (ng/g)
+RANGE: 1.6 to 296
+	N	Mean	Std. Deviation
+Total	1799	5.666	8.143
+
+
+772) LBDGHCLC
+Gamma-hexachlorocyclohexane comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1799	0.973	0.163
+0) Detectable result	49	2.7
+1) Below detectable limit	1750	97.3
+Missing	8166
+
+
+773) LBXHCB
+Hexachlorobenzene (ng/g)
+RANGE: 0.119 to 1.984
+	N	Mean	Std. Deviation
+Total	1702	0.243	0.109
+
+
+774) LBXHCBLA
+Hexachlorobenzene lipid adjusted (ng/g)
+RANGE: 12.4 to 381
+	N	Mean	Std. Deviation
+Total	1702	43.257	20.541
+
+
+775) LBDHCBLC
+Hexachlorobenzene comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1702	0.982	0.132
+0) Detectable result	30	1.8
+1) Below detectable limit	1672	98.2
+Missing	8263
+
+
+776) LBXHPE
+Heptachlor epoxide (ng/g)
+RANGE: 0.017 to 6.001
+	N	Mean	Std. Deviation
+Total	1589	0.062	0.18
+
+
+777) LBXHPELA
+Heptachlor epoxide lipid adjusted (ng/g)
+RANGE: 2.3 to 912
+	N	Mean	Std. Deviation
+Total	1589	10.221	27.493
+
+
+778) LBDHPELC
+Heptachlor epoxide comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1589	0.666	0.472
+0) Detectable result	531	33.4
+1) Below detectable limit	1058	66.6
+Missing	8376
+
+
+779) LBXHXC
+3,3',4,4',5,5'-hexachlorobiphenyl (hxcb) (fg/g)
+RANGE: 17.75 to 2408.2
+	N	Mean	Std. Deviation
+Total	1888	105.148	122.5
+
+
+780) LBXHXCLA
+3,3',4,4',5,5'-hexachlorobiphenyl (hxcb) lipid adjusted (pg/g)
+RANGE: 2.5 to 517
+	N	Mean	Std. Deviation
+Total	1888	17.134	19.648
+
+
+781) LBDHXCLC
+3,3',4,4',5,5'-hexachlorobiphenyl (hxcb) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1888	0.525	0.499
+0) Detectable result	896	47.5
+1) Below detectable limit	992	52.5
+Missing	8077
+
+
+782) LBXMIR
+Mirex (ng/g)
+RANGE: 0.015 to 1.958
+	N	Mean	Std. Deviation
+Total	1853	0.04	0.092
+
+
+783) LBXMIRLA
+Mirex lipid adjusted (ng/g)
+RANGE: 1.6 to 220
+	N	Mean	Std. Deviation
+Total	1853	6.718	11.674
+
+
+784) LBDMIRLC
+Mirex comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1853	0.913	0.283
+0) Detectable result	162	8.7
+1) Below detectable limit	1691	91.3
+Missing	8112
+
+
+785) LBXODT
+O,p'-DDT (ng/g)
+RANGE: 0.021 to 0.701
+	N	Mean	Std. Deviation
+Total	1669	0.043	0.027
+
+
+786) LBXODTLA
+O,p'-DDT lipid adjusted (ng/g)
+RANGE: 2.2 to 141
+	N	Mean	Std. Deviation
+Total	1669	7.746	5.484
+
+
+787) LBDODTLC
+O,p'-DDT comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1669	0.988	0.109
+0) Detectable result	20	1.2
+1) Below detectable limit	1649	98.8
+Missing	8296
+
+
+788) LBXOXY
+Oxychlordane (ng/g)
+RANGE: 0.019 to 1.436
+	N	Mean	Std. Deviation
+Total	1661	0.102	0.122
+
+
+789) LBXOXYLA
+Oxychlordane lipid adjusted (ng/g)
+RANGE: 2.3 to 218
+	N	Mean	Std. Deviation
+Total	1661	16.128	17.333
+
+
+790) LBDOXYLC
+Oxychlordane comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1661	0.454	0.498
+0) Detectable result	907	54.6
+1) Below detectable limit	754	45.4
+Missing	8304
+
+
+791) LBXPDE
+P,p'-DDE (ng/g)
+RANGE: 0.034 to 173.274
+	N	Mean	Std. Deviation
+Total	1964	4.928	10.481
+
+
+792) LBXPDELA
+P,p'-DDE lipid adjusted (ng/g)
+RANGE: 5.374 to 28100
+	N	Mean	Std. Deviation
+Total	1964	799.236	1722.078
+
+
+793) LBDPDELC
+P,p'-DDE comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1964	0.001	0.032
+0) Detectable result	1962	99.9
+1) Below detectable limit	2	0.1
+Missing	8001
+
+
+794) LBXPDT
+P,p'-DDT (ng/g)
+RANGE: 0.023 to 30.685
+	N	Mean	Std. Deviation
+Total	1679	0.202	1.236
+
+
+795) LBXPDTLA
+P,p'-DDT lipid adjusted (ng/g)
+RANGE: 3.253 to 3610
+	N	Mean	Std. Deviation
+Total	1679	34.443	197.326
+
+
+796) LBDPDTLC
+P,p'-DDT comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1679	0.692	0.462
+0) Detectable result	517	30.8
+1) Below detectable limit	1162	69.2
+Missing	8286
+
+
+797) LBXTNA
+Trans-nonachlor (ng/g)
+RANGE: 0.019 to 3.104
+	N	Mean	Std. Deviation
+Total	1933	0.169	0.223
+
+
+798) LBXTNALA
+Trans-nonachlor lipid adjusted (ng/g)
+RANGE: 2.3 to 331
+	N	Mean	Std. Deviation
+Total	1933	26.297	30.898
+
+
+799) LBDTNALC
+Trans-nonachlor comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1933	0.291	0.454
+0) Detectable result	1371	70.9
+1) Below detectable limit	562	29.1
+Missing	8032
+
+
+800) SEPAH
+[Section 31-L: Laboratory: Perfluorinated Chemicals (Surplus Sera)] Surplus sera 2-(N-ethyl-perfluorooctane sulfonamide) acetate (EPAH) result (ng/ml)
+RANGE: 0.2 to 24.6
+	N	Mean	Std. Deviation
+Total	1591	0.867	1.107
+
+
+801) SMPAH
+Surplus sera 2-(N-methyl-perfluorooctane sulfonamide) acetate (MPAH) result (ng/ml)
+RANGE: 0.2 to 44
+	N	Mean	Std. Deviation
+Total	1591	1.285	1.579
+
+
+802) SPFDE
+Surplus sera perfluorodecanoate (PFDE) result (ng/ml)
+RANGE: 0.2 to 7.8
+	N	Mean	Std. Deviation
+Total	1591	0.287	0.347
+
+
+803) SPFDO
+Surplus sera perfluorododecanoate (PFDO) result (ng/ml)
+RANGE: 0.2 to 1
+	N	Mean	Std. Deviation
+Total	1591	0.201	0.025
+0.2)	1583	99.5
+0.3)	3	0.2
+0.4)	2	0.1
+0.5)	1	0.1
+0.6)	1	0.1
+1)	1	0.1
+Missing	8374
+
+
+804) SPFHP
+Surplus sera perfluoroheptanoate (PFHP) result (ng/ml)
+RANGE: 0.4 to 4.2
+	N	Mean	Std. Deviation
+Total	1591	0.468	0.272
+
+
+805) SPFHS
+Surplus sera perfluorohexane sulfonate (PFHS) result (ng/ml)
+RANGE: 0.1 to 46.5
+	N	Mean	Std. Deviation
+Total	1591	2.888	3.848
+
+
+806) SPFNA
+Surplus sera perfluorononanoate (PFNA) result (ng/ml)
+RANGE: 0.1 to 13.7
+	N	Mean	Std. Deviation
+Total	1591	0.664	0.672
+
+
+807) SPFOA
+Surplus sera perfluorooctanoate (PFOA) result (ng/ml)
+RANGE: 0.1 to 123
+	N	Mean	Std. Deviation
+Total	1591	5.375	4.961
+
+
+808) SPFOS
+Surplus sera perfluorooctane sulfonate (PFOS) result (ng/ml)
+RANGE: 0.3 to 298
+	N	Mean	Std. Deviation
+Total	1591	32.19	21.142
+
+
+809) SPFSA
+Surplus sera perfluorooctane sulfonamide (PFSA) result (ng/ml)
+RANGE: 0.1 to 9.6
+	N	Mean	Std. Deviation
+Total	1591	0.499	0.575
+
+
+810) SPFUA
+Surplus sera perfluoroundecanoate (PFUA) result (ng/ml)
+RANGE: 0.2 to 4
+	N	Mean	Std. Deviation
+Total	1591	0.25	0.232
+
+
+811) PHQ020
+[Section 32-L: Laboratory: Phlebotomy] Have you had any of the following since the fasting time in variable PHQ010. PHQ010: When was the last time you ate or drank anything other than plain water? [Do not include diet soda, black coffee or tea with saccharine or Equal.] (Note: Variable PHQ010 was not released as part of this data set because of disclosure issues). Coffee or tea with cream or sugar? [Include milk or non-dairy creamers]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	8350	1.995	0.072
+1) Yes	44	0.5
+2) No	8306	99.5
+Missing	1615
+
+
+812) PHACOFHR
+Coffee/Tea fast time (hours)
+RANGE: 0 to 15
+	N	Mean	Std. Deviation
+Total	44	6.432	4.134
+
+
+813) PHACOFMN
+Coffee/Tea fast time (minutes)
+RANGE: 2 to 58
+	N	Mean	Std. Deviation
+Total	44	31.477	16.391
+
+
+814) PHQ030
+Have you had any of the following since the fasting time in variable PHQ010. PHQ010: When was the last time you ate or drank anything other than plain water? [Do not include diet soda, black coffee or tea with saccharine or Equal.] (Note: Variable PHQ010 was not released as part of this data set because of disclosure issues). Alcohol, such as beer, wine or liquor?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	8350	1.996	0.063
+1) Yes	33	0.4
+2) No	8317	99.6
+Missing	1615
+
+
+815) PHAALCHR
+Alcohol fast time (hours)
+RANGE: 0 to 17
+	N	Mean	Std. Deviation
+Total	33	10.03	4.959
+
+
+816) PHAALCMN
+Alcohol fast time (minutes)
+RANGE: 3 to 59
+	N	Mean	Std. Deviation
+Total	33	32.485	16.908
+
+
+817) PHQ040
+Have you had any of the following since the fasting time in variable PHQ010. PHQ010: When was the last time you ate or drank anything other than plain water? [Do not include diet soda, black coffee or tea with saccharine or Equal.] (Note: Variable PHQ010 was not released as part of this data set because of disclosure issues). Gum, breath mints, lozenges or cough drops or other cough or cold remedies?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	8350	1.965	0.183
+1) Yes	291	3.5
+2) No	8059	96.5
+Missing	1615
+
+
+818) PHAGUMHR
+Gum, mints, cough drops fast time (hours)
+RANGE: 0 to 17
+	N	Mean	Std. Deviation
+Total	291	2.739	3.608
+
+
+819) PHAGUMMN
+Gum, mints, cough drops fast time (minutes)
+RANGE: 0 to 59
+	N	Mean	Std. Deviation
+Total	291	23.44	17.8
+
+
+820) PHQ050
+Have you had any of the following since the fasting time in variable PHQ010. PHQ010: When was the last time you ate or drank anything other than plain water? [Do not include diet soda, black coffee or tea with saccharine or Equal.] (Note: Variable PHQ010 was not released as part of this data set because of disclosure issues). Antacids, laxatives or anti-diarrheals?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	8350	1.997	0.058
+1) Yes	28	0.3
+2) No	8322	99.7
+Missing	1615
+
+
+821) PHAANTHR
+Antacids, laxatives fast time (hours)
+RANGE: 0 to 16
+	N	Mean	Std. Deviation
+Total	28	6.357	4.817
+
+
+822) PHAANTMN
+Antacids, laxatives fast time (minutes)
+RANGE: 2 to 57
+	N	Mean	Std. Deviation
+Total	28	29.929	16.152
+
+
+823) PHQ060
+Have you had any of the following since the fasting time in variable PHQ010. PHQ010: When was the last time you ate or drank anything other than plain water? [Do not include diet soda, black coffee or tea with saccharine or Equal.] (Note: Variable PHQ010 was not released as part of this data set because of disclosure issues). Dietary supplements, such as vitamins and minerals? [Include multivitamins and single nutrient supplements]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	8350	1.989	0.104
+1) Yes	91	1.1
+2) No	8259	98.9
+Missing	1615
+
+
+824) PHASUPHR
+Dietary supplements fast time (hours)
+RANGE: 0 to 18
+	N	Mean	Std. Deviation
+Total	91	4.593	4.158
+
+
+825) PHASUPMN
+Dietary supplements fast time (minutes)
+RANGE: 0 to 59
+	N	Mean	Std. Deviation
+Total	91	31.857	17.913
+
+
+826) PHAFSTHR
+The time (in hours) between when the examinee last ate or drank anything other than water and the time of the venipuncture
+RANGE: 0 to 46
+	N	Mean	Std. Deviation
+Total	8350	9.05	5.332
+
+
+827) PHAFSTMN
+The time (in minutes) between when the examinee last ate or drank anything other than water and the time of the venipuncture
+RANGE: 0 to 59
+	N	Mean	Std. Deviation
+Total	8350	28.417	17.482
+
+
+828) PHDSESN
+[Session in which sample person was examined]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	8832	0.715	0.756
+0) Morning	4142	46.9
+1) Afternoon	3063	34.7
+2) Evening	1627	18.4
+Missing	1133
+
+
+829) WTSPH4YR
+[Section 33-L: Laboratory: Phpypa Urinary Phthalates (Subsample)] Phthalate subsample four year MEC weight
+RANGE: 0 to 308716.27489015
+	N	Mean	Std. Deviation
+Total	2648	44732.093	46596.901
+
+
+830) WTSPH2YR
+Phthalate subsample two year MEC weight
+RANGE: 0 to 784084.01503
+	N	Mean	Std. Deviation
+Total	2648	93879.723	101897.118
+
+
+831) WTSPH01
+Phthalate MEC weight Jack Knife rep 01
+RANGE: 0 to 765268.18045
+	N	Mean	Std. Deviation
+Total	2648	93888.399	103101.218
+
+
+832) WTSPH02
+Phthalate MEC weight Jack Knife rep 02
+RANGE: 0 to 779596.23803
+	N	Mean	Std. Deviation
+Total	2648	93803.037	103057.783
+
+
+833) WTSPH03
+Phthalate MEC weight Jack Knife rep 03
+RANGE: 0 to 784169.09415
+	N	Mean	Std. Deviation
+Total	2648	93857.981	101979.681
+
+
+834) WTSPH04
+Phthalate MEC weight Jack Knife rep 04
+RANGE: 0 to 792866.41129
+	N	Mean	Std. Deviation
+Total	2648	93836.519	102512.721
+
+
+835) WTSPH05
+Phthalate MEC weight Jack Knife rep 05
+RANGE: 0 to 780507.40019
+	N	Mean	Std. Deviation
+Total	2648	93851.349	103388.582
+
+
+836) WTSPH06
+Phthalate MEC weight Jack Knife rep 06
+RANGE: 0 to 803223.95634
+	N	Mean	Std. Deviation
+Total	2648	93902.202	103394.473
+
+
+837) WTSPH07
+Phthalate MEC weight Jack Knife rep 07
+RANGE: 0 to 768135.8023
+	N	Mean	Std. Deviation
+Total	2648	93862.169	102631.037
+
+
+838) WTSPH08
+Phthalate MEC weight Jack Knife rep 08
+RANGE: 0 to 779055.05256
+	N	Mean	Std. Deviation
+Total	2648	93867.653	103394.826
+
+
+839) WTSPH09
+Phthalate MEC weight Jack Knife rep 09
+RANGE: 0 to 794668.1316
+	N	Mean	Std. Deviation
+Total	2648	93892.276	103876.493
+
+
+840) WTSPH10
+Phthalate MEC weight Jack Knife rep 10
+RANGE: 0 to 789159.75121
+	N	Mean	Std. Deviation
+Total	2648	93865.632	104534.316
+
+
+841) WTSPH11
+Phthalate MEC weight Jack Knife rep 11
+RANGE: 0 to 784645.39885
+	N	Mean	Std. Deviation
+Total	2648	93811.539	106251.293
+
+
+842) WTSPH12
+Phthalate MEC weight Jack Knife rep 12
+RANGE: 0 to 780525.41317
+	N	Mean	Std. Deviation
+Total	2648	93861.381	104211.115
+
+
+843) WTSPH13
+Phthalate MEC weight Jack Knife rep 13
+RANGE: 0 to 774699.59583
+	N	Mean	Std. Deviation
+Total	2648	93813.946	102727.191
+
+
+844) WTSPH14
+Phthalate MEC weight Jack Knife rep 14
+RANGE: 0 to 800794.03906
+	N	Mean	Std. Deviation
+Total	2648	93848.322	104864.422
+
+
+845) WTSPH15
+Phthalate MEC weight Jack Knife rep 15
+RANGE: 0 to 800067.91928
+	N	Mean	Std. Deviation
+Total	2648	93838.733	107550.772
+
+
+846) WTSPH16
+Phthalate MEC weight Jack Knife rep 16
+RANGE: 0 to 771559.15812
+	N	Mean	Std. Deviation
+Total	2648	93856.767	105268.638
+
+
+847) WTSPH17
+Phthalate MEC weight Jack Knife rep 17
+RANGE: 0 to 770860.4819
+	N	Mean	Std. Deviation
+Total	2648	93844.049	103371.171
+
+
+848) WTSPH18
+Phthalate MEC weight Jack Knife rep 18
+RANGE: 0 to 778875.00902
+	N	Mean	Std. Deviation
+Total	2648	93864.761	102567.509
+
+
+849) WTSPH19
+Phthalate MEC weight Jack Knife rep 19
+RANGE: 0 to 806797.8028
+	N	Mean	Std. Deviation
+Total	2648	93836.255	103293.056
+
+
+850) WTSPH20
+Phthalate MEC weight Jack Knife rep 20
+RANGE: 0 to 785428.99916
+	N	Mean	Std. Deviation
+Total	2648	93864.839	102182.611
+
+
+851) WTSPH21
+Phthalate MEC weight Jack Knife rep 21
+RANGE: 0 to 790952.9526
+	N	Mean	Std. Deviation
+Total	2648	93898.742	104134.389
+
+
+852) WTSPH22
+Phthalate MEC weight Jack Knife rep 22
+RANGE: 0 to 784232.96861
+	N	Mean	Std. Deviation
+Total	2648	93848.619	101954.421
+
+
+853) WTSPH23
+Phthalate MEC weight Jack Knife rep 23
+RANGE: 0 to 777601.80666
+	N	Mean	Std. Deviation
+Total	2648	93876.643	102864.963
+
+
+854) WTSPH24
+Phthalate MEC weight Jack Knife rep 24
+RANGE: 0 to 784675.43003
+	N	Mean	Std. Deviation
+Total	2648	93861.169	103916.542
+
+
+855) WTSPH25
+Phthalate MEC weight Jack Knife rep 25
+RANGE: 0 to 784085.31241
+	N	Mean	Std. Deviation
+Total	2648	93873.807	102012.469
+
+
+856) WTSPH26
+Phthalate MEC weight Jack Knife rep 26
+RANGE: 0 to 777322.16598
+	N	Mean	Std. Deviation
+Total	2648	93859.114	103280.422
+
+
+857) WTSPH27
+Phthalate MEC weight Jack Knife rep 27
+RANGE: 0 to 795953.93857
+	N	Mean	Std. Deviation
+Total	2648	93860.225	106254.712
+
+
+858) WTSPH28
+Phthalate MEC weight Jack Knife rep 28
+RANGE: 0 to 800311.10032
+	N	Mean	Std. Deviation
+Total	2648	93877.011	104532.421
+
+
+859) WTSPH29
+Phthalate MEC weight Jack Knife rep 29
+RANGE: 0 to 789325.00184
+	N	Mean	Std. Deviation
+Total	2648	93794.123	102646.133
+
+
+860) WTSPH30
+Phthalate MEC weight Jack Knife rep 30
+RANGE: 0 to 806226.47957
+	N	Mean	Std. Deviation
+Total	2648	93847.209	105793.114
+
+
+861) WTSPH31
+Phthalate MEC weight Jack Knife rep 31
+RANGE: 0 to 788890.82816
+	N	Mean	Std. Deviation
+Total	2648	93860.214	102437.722
+
+
+862) WTSPH32
+Phthalate MEC weight Jack Knife rep 32
+RANGE: 0 to 752108.96539
+	N	Mean	Std. Deviation
+Total	2648	93871.737	105007.123
+
+
+863) WTSPH33
+Phthalate MEC weight Jack Knife rep 33
+RANGE: 0 to 778810.00493
+	N	Mean	Std. Deviation
+Total	2648	93890.609	103973.591
+
+
+864) WTSPH34
+Phthalate MEC weight Jack Knife rep 34
+RANGE: 0 to 784645.21465
+	N	Mean	Std. Deviation
+Total	2648	93864.102	102794.133
+
+
+865) WTSPH35
+Phthalate MEC weight Jack Knife rep 35
+RANGE: 0 to 742569.15561
+	N	Mean	Std. Deviation
+Total	2648	93887.504	103264.809
+
+
+866) WTSPH36
+Phthalate MEC weight Jack Knife rep 36
+RANGE: 0 to 779052.74392
+	N	Mean	Std. Deviation
+Total	2648	93859.279	104217.316
+
+
+867) WTSPH37
+Phthalate MEC weight Jack Knife rep 37
+RANGE: 0 to 785043.84416
+	N	Mean	Std. Deviation
+Total	2648	93840.674	102038.878
+
+
+868) WTSPH38
+Phthalate MEC weight Jack Knife rep 38
+RANGE: 0 to 813853.13128
+	N	Mean	Std. Deviation
+Total	2648	93829.161	103776.623
+
+
+869) WTSPH39
+Phthalate MEC weight Jack Knife rep 39
+RANGE: 0 to 787513.41575
+	N	Mean	Std. Deviation
+Total	2648	93873.609	103846.895
+
+
+870) WTSPH40
+Phthalate MEC weight Jack Knife rep 40
+RANGE: 0 to 787966.00414
+	N	Mean	Std. Deviation
+Total	2648	93876.265	102299.941
+
+
+871) WTSPH41
+Phthalate MEC weight Jack Knife rep 41
+RANGE: 0 to 811402.56065
+	N	Mean	Std. Deviation
+Total	2648	93845.333	105925.448
+
+
+872) WTSPH42
+Phthalate MEC weight Jack Knife rep 42
+RANGE: 0 to 785193.45114
+	N	Mean	Std. Deviation
+Total	2648	93876.384	105116.632
+
+
+873) WTSPH43
+Phthalate MEC weight Jack Knife rep 43
+RANGE: 0 to 789336.29035
+	N	Mean	Std. Deviation
+Total	2648	93843.227	103742.393
+
+
+874) WTSPH44
+Phthalate MEC weight Jack Knife rep 44
+RANGE: 0 to 786131.31634
+	N	Mean	Std. Deviation
+Total	2648	93831.929	103466.602
+
+
+875) WTSPH45
+Phthalate MEC weight Jack Knife rep 45
+RANGE: 0 to 717399.16182
+	N	Mean	Std. Deviation
+Total	2648	93826.626	104747.263
+
+
+876) WTSPH46
+Phthalate MEC weight Jack Knife rep 46
+RANGE: 0 to 803502.12242
+	N	Mean	Std. Deviation
+Total	2648	93833.479	105005.881
+
+
+877) WTSPH47
+Phthalate MEC weight Jack Knife rep 47
+RANGE: 0 to 748407.58193
+	N	Mean	Std. Deviation
+Total	2648	93878.331	104060.113
+
+
+878) WTSPH48
+Phthalate MEC weight Jack Knife rep 48
+RANGE: 0 to 785023.73178
+	N	Mean	Std. Deviation
+Total	2648	93884.519	102298.253
+
+
+879) WTSPH49
+Phthalate MEC weight Jack Knife rep 49
+RANGE: 0 to 780791.20822
+	N	Mean	Std. Deviation
+Total	2648	93852.125	102431.598
+
+
+880) WTSPH50
+Phthalate MEC weight Jack Knife rep 50
+RANGE: 0 to 775462.40387
+	N	Mean	Std. Deviation
+Total	2648	93830.165	102945.854
+
+
+881) WTSPH51
+Phthalate MEC weight Jack Knife rep 51
+RANGE: 0 to 771051.13226
+	N	Mean	Std. Deviation
+Total	2648	93885.492	104287.008
+
+
+882) WTSPH52
+Phthalate MEC weight Jack Knife rep 52
+RANGE: 0 to 783993.68521
+	N	Mean	Std. Deviation
+Total	2648	93877.166	103855.738
+
+
+883) URXMBP
+Mono-n-butyl phthalate (ng/ml)
+RANGE: 0.6 to 1192.9
+	N	Mean	Std. Deviation
+Total	2541	49.187	68.571
+
+
+884) URXMCP
+Mono-cyclohexyl phthalate (ng/ml)
+RANGE: 0.6 to 65.6
+	N	Mean	Std. Deviation
+Total	2541	0.818	2.13
+
+
+885) URXMEP
+Monoethyl phthalate (ng/ml)
+RANGE: 1.3 to 39938
+	N	Mean	Std. Deviation
+Total	2536	650.418	1876.218
+
+
+886) URXMHP
+Mono-(2-ethyl)-hexyl phthalate (ng/ml)
+RANGE: 0.8 to 615.6
+	N	Mean	Std. Deviation
+Total	2541	8.043	22.762
+
+
+887) URXMNP
+Mono-isononyl phthalate (ng/ml)
+RANGE: 0.6 to 295.2
+	N	Mean	Std. Deviation
+Total	2541	1.635	9.381
+
+
+888) URXMOP
+Mono-n-octyl phthalate (ng/ml)
+RANGE: 0.6 to 37.7
+	N	Mean	Std. Deviation
+Total	2541	0.959	1.748
+
+
+889) URXMZP
+Mono-benzyl phthalate (ng/ml)
+RANGE: 0.6 to 1921
+	N	Mean	Std. Deviation
+Total	2541	37.242	84.133
+
+
+890) URXDAZ
+Daidzein (ng/ml)
+RANGE: 0.35 to 46000
+	N	Mean	Std. Deviation
+Total	2553	343.893	1356.618
+
+
+891) URXDMA
+O-Desmethylangolensin (O-DMA) (ng/ml)
+RANGE: 0.14 to 8500
+	N	Mean	Std. Deviation
+Total	2271	50.574	280.043
+
+
+892) URXEQU
+Equol (ng/ml)
+RANGE: 2.12 to 3700
+	N	Mean	Std. Deviation
+Total	2182	25.999	168.016
+
+
+893) URXETD
+Enterodiol (ng/ml)
+RANGE: 0.57 to 18000
+	N	Mean	Std. Deviation
+Total	2527	79.504	420.828
+
+
+894) URXETL
+Enterolactone (ng/ml)
+RANGE: 0.42 to 22640
+	N	Mean	Std. Deviation
+Total	2548	687.889	1256.54
+
+
+895) URXGNS
+Genistein (ng/ml)
+RANGE: 0.21 to 24800
+	N	Mean	Std. Deviation
+Total	2557	151.699	661.607
+
+
+896) URXP09
+3-fluoranthene (ng/L)
+RANGE: 2.5 to 5489.5
+	N	Mean	Std. Deviation
+Total	2236	42.058	181.594
+
+
+897) URDP09LC
+3-fluoranthene comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2236	0.284	0.451
+0) Detectable results	1600	71.6
+1) Below detectable limit	636	28.4
+Missing	7729
+
+
+898) SSTFR
+[Section 34-L: Laboratory: Serum Transferrin and Receptor (Surplus Sera)] Serum transferrin receptor (mg/l)
+RANGE: 1.4 to 9
+	N	Mean	Std. Deviation
+Total	280	3.39	1.225
+
+
+899) SSFER
+Serum ferritin (ng/ml)
+RANGE: 4 to 314
+	N	Mean	Std. Deviation
+Total	279	34.014	37.467
+
+
+900) SSCYPC
+[Section 35-L: Laboratory: Surplus Sera Cystatin C] Cystatin C (mg/L)
+RANGE: 0.47 to 7.15
+	N	Mean	Std. Deviation
+Total	2714	0.979	0.52
+
+
+901) WTSCY4YR
+Surplus sera cystatin 1999 to 2002 weights
+RANGE: 0 to 418199.98089862
+	N	Mean	Std. Deviation
+Total	2752	39156.57	57082.185
+
+
+902) URXPREG
+[Section 36-L: Laboratory: Urine Collection (Pregnancy)] Pregnancy test result
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1800	1.844	0.363
+1) Positive	281	15.6
+2) Negative	1519	84.4
+Missing	8165
+
+
+903) VARICELL
+[Section 37-L: Laboratory: Varicella Zoster Virus Antibody (Surplus Sera)] Varicella antibody
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	265	1.615	0.605
+1) Positive	119	44.9
+2) Negative	129	48.7
+3) Equivocal	17	6.4
+Missing	9700
+
+

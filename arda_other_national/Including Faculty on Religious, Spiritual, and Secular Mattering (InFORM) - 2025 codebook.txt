@@ -1,0 +1,5104 @@
+Data File: INFORM (Full Data Codebook)
+
+1) ID
+Response ID
+RANGE: 1 to 1048
+	N	Mean	Std. Deviation
+Total	1048	524.5	302.676
+
+
+2) CAMPAIGN
+Distribution campaign in survey platform
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.012	0.111
+0) National	1035	98.8
+1) Oversample	13	1.2
+
+
+3) PWEIGHT_NORM_FT
+Normalized probability sampling weight for full-time faculty only
+RANGE: 0 to 4.91219212531943
+	N	Mean	Std. Deviation
+Total	1048	0.932	0.966
+
+
+4) REGION
+The generated variables below (REGION, DITYPE, and DITYPERELIG) were informed by the following question: At what institution are you currently employed? If you work at more than one institution, please indicate the institution where you do most of your work. For deidentification purposes, responses to this question are not included. Primary institution region
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1031	2.532	1.102
+1) Northeast	253	24.5
+2) Midwest	221	21.4
+3) South	313	30.4
+4) West	244	23.7
+Missing	17
+
+
+5) DITYPE
+At what institution are you currently employed? If you work at more than one institution, please indicate the institution where you do most of your work. For deidentification purposes, responses to this question are not included. Institution type
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1031	2.018	0.819
+1) Public	336	32.6
+2) Private Nonsectarian	340	33.0
+3) Private Sectarian	355	34.4
+Missing	17
+
+
+6) DITYPERELIG
+At what institution are you currently employed? If you work at more than one institution, please indicate the institution where you do most of your work. For deidentification purposes, responses to this question are not included. Institution type with religious affiliation
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1031	2.659	1.863
+1) Public	336	32.6
+2) Private Nonsectarian	340	33.0
+3) Private Catholic	111	10.8
+4) Private Evangelical	53	5.1
+6) Private Protestant	157	15.2
+7) Private Other	34	3.3
+Missing	17
+
+
+7) US_WORK
+Do you currently work at a college or university in the United States of America?
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1048	1	0
+1) Yes	1048	100.0
+
+
+8) WORKPLACE_NUM
+At how many colleges or universities in the US do you currently work?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1040	1.137	0.471
+1) 	943	90.7
+2) 	61	5.9
+3) 	27	2.6
+4) 	9	0.9
+Missing	8
+
+
+9) TENURE_STATUS
+What is your tenure status as a full-time faculty member at a US college or university?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	972	2.03	0.682
+1) Tenure-Track, but Not Tenured	212	21.8
+2) Tenured	519	53.4
+3) Not Tenure-Track	241	24.8
+Missing	76
+
+
+10) FTPT_ACADEMIC_RANK
+What is your academic rank as a faculty member at a US college or university? (full-time and part-time faculty combined)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1047	2.333	0.998
+1) Assistant Professor	269	25.7
+2) Associate Professor	296	28.3
+3) Professor	346	33.0
+4) Other (e.g., Instructor, Lecturer, Adjunct, Teaching Faculty)	136	13.0
+Missing	1
+
+
+11) FTPT_TITLE
+What is your title as a faculty member at a US college or university? Additional title descriptors beyond academic_rank for full-time faculty and more detail on part-time faculty titles.
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	261	3.513	1.874
+1) Visiting or Adjunct Professor	46	17.6
+2) Clinical or Teaching Professor	29	11.1
+3) Lecturer/Instructor	83	31.8
+4) Department Chair	28	10.7
+5) Program Director	26	10.0
+6) Endowed and Distinguished/Named Professorship	21	8.0
+7) Other (e.g., Researcher, Doctor, Faculty, Program Coordinator/Administrator, Dean, Provost)	28	10.7
+Missing	787
+
+
+12) FTPT_ACAD_AREA
+In what academic area is your primary faculty department or center housed?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1042	3.022	1.423
+1) Arts and Humanities	225	21.6
+2) Business	163	15.6
+3) Education	223	21.4
+4) Science, Technology, Engineering, Mathematics	226	21.7
+5) Social Science	205	19.7
+Missing	6
+
+
+13) FTPT_ACAD_DEPT
+In what academic department or center is your primary faculty appointment?
+RANGE: 1 to 14
+	N	Mean	Std. Deviation
+Total	1040	7.066	3.673
+1) Arts and Humanities (Fine Arts; General Studies and Humanities; English Language and Literature/Letters; Foreign Languages, Literatures, and Linguistics)	107	10.3
+2) Communication (Communication/Journalism; Communication Technologies and Support)	20	1.9
+3) History & Area/Ethnic Studies (Area/Ethnic/Cultural/Gender Studies; History)	41	3.9
+4) Philosophy	15	1.4
+5) Education	223	21.4
+6) Business	146	14.0
+7) Science (Agriculture; Biological and Biomedical Sciences; Natural Resources and Conservation; Physical Sciences)	109	10.5
+8) Engineering & Architecture (Engineering; Engineering Technologies/Technicians; Architecture/Related Services)	43	4.1
+9) Health (Family/Consumer/Human Sciences; Health Professions and Clinical Sciences)	33	3.2
+10) Technology (Computer and Information Sciences; Science Technologies/Technicians)	22	2.1
+11) Math (Math & Statistics)	31	3.0
+12) Social Sciences (Social Sciences; Psychology; Public Administration and Social Services)	202	19.4
+13) Religious (Theology; Religious Vocations; Religious Studies)	33	3.2
+14) Other (Security and Protective Services; Construction Trades; Legal Professions and Studies; Multi/Interdisciplinary Studies; Transportation and Materials Moving)	15	1.4
+Missing	8
+
+
+14) TEACH
+Do you currently engage in any teaching activities at a college or university in the US?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.99	0.097
+0) No	10	1.0
+1) Yes	1038	99.0
+
+
+15) TEACH_A
+Synchronously online: In my current role, I teach (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1038	0.213	0.41
+0) Unchecked	817	78.7
+1) Checked	221	21.3
+Missing	10
+
+
+16) TEACH_B
+Asynchronously online: In my current role, I teach (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1038	0.297	0.457
+0) Unchecked	730	70.3
+1) Checked	308	29.7
+Missing	10
+
+
+17) TEACH_C
+In-person: In my current role, I teach (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1038	0.911	0.284
+0) Unchecked	92	8.9
+1) Checked	946	91.1
+Missing	10
+
+
+18) TEACH_D
+Hybrid: In my current role, I teach (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1038	0.196	0.397
+0) Unchecked	835	80.4
+1) Checked	203	19.6
+Missing	10
+
+
+19) TEACH_YEARS_CAT5
+For how many years have you been teaching college students? Please enter a whole number.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1029	3.503	1.414
+1) 1 to 4 years	103	10.0
+2) 5 to 9 years	201	19.5
+3) 10 to 14 years	189	18.4
+4) 15 to 19 years	147	14.3
+5) 20+ years	389	37.8
+Missing	19
+
+
+20) SCHOLAR
+Do you currently engage in any scholarly activities at a college or university in the US?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.859	0.348
+0) No	148	14.1
+1) Yes	900	85.9
+
+
+21) SCHOLAR_A
+Online (e.g., Zoom interviews, virtual focus groups, online surveys): In my current role, I conduct my scholarship (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	900	0.65	0.477
+0) Unchecked	315	35.0
+1) Checked	585	65.0
+Missing	148
+
+
+22) SCHOLAR_B
+In-person (e.g., interviews, observations, paper surveys): In my current role, I conduct my scholarship (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	900	0.801	0.399
+0) Unchecked	179	19.9
+1) Checked	721	80.1
+Missing	148
+
+
+23) SERVICE
+Do you currently engage in any service activities at a college or university in the US?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.93	0.255
+0) No	73	7.0
+1) Yes	975	93.0
+
+
+24) SERVICE_A
+Institution/departmental committees: What type of service activities do you typically engage in? (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	975	0.904	0.295
+0) Unchecked	94	9.6
+1) Checked	881	90.4
+Missing	73
+
+
+25) SERVICE_B
+Program Director/Chair: What type of service activities do you typically engage in? (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	975	0.393	0.489
+0) Unchecked	592	60.7
+1) Checked	383	39.3
+Missing	73
+
+
+26) SERVICE_C
+Advising graduate students: What type of service activities do you typically engage in? (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	975	0.48	0.5
+0) Unchecked	507	52.0
+1) Checked	468	48.0
+Missing	73
+
+
+27) SERVICE_D
+Advising undergraduate students: What type of service activities do you typically engage in? (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	975	0.661	0.474
+0) Unchecked	331	33.9
+1) Checked	644	66.1
+Missing	73
+
+
+28) SERVICE_E
+Advising student organizations: What type of service activities do you typically engage in? (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	975	0.316	0.465
+0) Unchecked	667	68.4
+1) Checked	308	31.6
+Missing	73
+
+
+29) SERVICE_F
+Professional organizations (national, state, local, or international): What type of service activities do you typically engage in? (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	975	0.509	0.5
+0) Unchecked	479	49.1
+1) Checked	496	50.9
+Missing	73
+
+
+30) SERVICE_G
+State- or Community-level advocacy or engagement: What type of service activities do you typically engage in? (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	975	0.169	0.375
+0) Unchecked	810	83.1
+1) Checked	165	16.9
+Missing	73
+
+
+31) SERVICE_H
+Federal-level advocacy: What type of service activities do you typically engage in? (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	975	0.078	0.268
+0) Unchecked	899	92.2
+1) Checked	76	7.8
+Missing	73
+
+
+32) SERVICE_I
+Editorship (journal, book, etc.): What type of service activities do you typically engage in? (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	975	0.246	0.431
+0) Unchecked	735	75.4
+1) Checked	240	24.6
+Missing	73
+
+
+33) SERVICE_J
+Peer reviews (journal, conference, grants, etc.): What type of service activities do you typically engage in? (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	975	0.698	0.459
+0) Unchecked	294	30.2
+1) Checked	681	69.8
+Missing	73
+
+
+34) SERVICE_K
+Another - Write In: What type of service activities do you typically engage in? (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	975	0.114	0.318
+0) Unchecked	864	88.6
+1) Checked	111	11.4
+Missing	73
+
+
+35) SERVICE_M
+Leadership (institutional, community, state, national, or professional organization): What type of service activities do you typically engage in? (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.026	0.159
+0) Unchecked	1021	97.4
+1) Checked	27	2.6
+
+
+36) SERVICE_N
+Other (e.g., media, faculty representative) - Wrote In: What type of service activities do you typically engage in? (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	975	0.015	0.123
+0) Unchecked	960	98.5
+1) Checked	15	1.5
+Missing	73
+
+
+37) RSSI_A
+Agnosticism: Regarding your current religious, secular, or spiritual perspective, with which of the following descriptors do you most closely identify?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.15	0.357
+0) Unchecked	891	85.0
+1) Checked	157	15.0
+
+
+38) RSSI_B
+Atheism: Regarding your current religious, secular, or spiritual perspective, with which of the following descriptors do you most closely identify?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.141	0.348
+0) Unchecked	900	85.9
+1) Checked	148	14.1
+
+
+39) RSSI_C
+Buddhism: Regarding your current religious, secular, or spiritual perspective, with which of the following descriptors do you most closely identify?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.036	0.187
+0) Unchecked	1010	96.4
+1) Checked	38	3.6
+
+
+40) RSSI_D
+Christianity, Church of Jesus Christ of Latter-day Saints (Mormon): Regarding your current religious, secular, or spiritual perspective, with which of the following descriptors do you most closely identify?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.033	0.18
+0) Unchecked	1013	96.7
+1) Checked	35	3.3
+
+
+41) RSSI_E
+Christianity, Protestant: Regarding your current religious, secular, or spiritual perspective, with which of the following descriptors do you most closely identify?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.228	0.42
+0) Unchecked	809	77.2
+1) Checked	239	22.8
+
+
+42) RSSI_F
+Christianity, Orthodox: Regarding your current religious, secular, or spiritual perspective, with which of the following descriptors do you most closely identify?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.012	0.111
+0) Unchecked	1035	98.8
+1) Checked	13	1.2
+
+
+43) RSSI_G
+Christianity, Roman Catholic: Regarding your current religious, secular, or spiritual perspective, with which of the following descriptors do you most closely identify?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.159	0.366
+0) Unchecked	881	84.1
+1) Checked	167	15.9
+
+
+44) RSSI_H
+Christianity, Evangelical: Regarding your current religious, secular, or spiritual perspective, with which of the following descriptors do you most closely identify?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.074	0.263
+0) Unchecked	970	92.6
+1) Checked	78	7.4
+
+
+45) RSSI_I
+Christianity, Other: Regarding your current religious, secular, or spiritual perspective, with which of the following descriptors do you most closely identify?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.087	0.282
+0) Unchecked	957	91.3
+1) Checked	91	8.7
+
+
+46) RSSI_J
+Confucianism: Regarding your current religious, secular, or spiritual perspective, with which of the following descriptors do you most closely identify?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.004	0.062
+0) Unchecked	1044	99.6
+1) Checked	4	0.4
+
+
+47) RSSI_K
+Daoism: Regarding your current religious, secular, or spiritual perspective, with which of the following descriptors do you most closely identify?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.004	0.062
+0) Unchecked	1044	99.6
+1) Checked	4	0.4
+
+
+48) RSSI_L
+Hinduism: Regarding your current religious, secular, or spiritual perspective, with which of the following descriptors do you most closely identify?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.01	0.102
+0) Unchecked	1037	99.0
+1) Checked	11	1.0
+
+
+49) RSSI_M
+To protect the confidentiality of respondents and for low response categories to the rssi series, variable RSSI_M, RSSI_S, and RSSI_X, were generated, combining the religions noted. Dharmic Religions (Sikhism, Jainism): Regarding your current religious, secular, or spiritual perspective, with which of the following descriptors do you most closely identify?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.002	0.044
+0) Unchecked	1046	99.8
+1) Checked	2	0.2
+
+
+50) RSSI_N
+Judaism: Regarding your current religious, secular, or spiritual perspective, with which of the following descriptors do you most closely identify?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.086	0.28
+0) Unchecked	958	91.4
+1) Checked	90	8.6
+
+
+51) RSSI_O
+Islam: Regarding your current religious, secular, or spiritual perspective, with which of the following descriptors do you most closely identify?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.028	0.164
+0) Unchecked	1019	97.2
+1) Checked	29	2.8
+
+
+52) RSSI_P
+Indigenous/Native American: Regarding your current religious, secular, or spiritual perspective, with which of the following descriptors do you most closely identify?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.004	0.062
+0) Unchecked	1044	99.6
+1) Checked	4	0.4
+
+
+53) RSSI_Q
+Nonreligious: Regarding your current religious, secular, or spiritual perspective, with which of the following descriptors do you most closely identify?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.042	0.201
+0) Unchecked	1004	95.8
+1) Checked	44	4.2
+
+
+54) RSSI_R
+None: Regarding your current religious, secular, or spiritual perspective, with which of the following descriptors do you most closely identify?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.012	0.111
+0) Unchecked	1035	98.8
+1) Checked	13	1.2
+
+
+55) RSSI_S
+To protect the confidentiality of respondents and for low response categories to the rssi series, variable RSSI_M, RSSI_S, and RSSI_X, were generated, combining the religions noted. Paganism and Wiccanism: Regarding your current religious, secular, or spiritual perspective, with which of the following descriptors do you most closely identify?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.01	0.097
+0) Unchecked	1038	99.0
+1) Checked	10	1.0
+
+
+56) RSSI_T
+Secular Humanism: Regarding your current religious, secular, or spiritual perspective, with which of the following descriptors do you most closely identify?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.02	0.14
+0) Unchecked	1027	98.0
+1) Checked	21	2.0
+
+
+57) RSSI_U
+Spiritual: Regarding your current religious, secular, or spiritual perspective, with which of the following descriptors do you most closely identify?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.035	0.185
+0) Unchecked	1011	96.5
+1) Checked	37	3.5
+
+
+58) RSSI_V
+Unitarian Universalism: Regarding your current religious, secular, or spiritual perspective, with which of the following descriptors do you most closely identify?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.017	0.13
+0) Unchecked	1030	98.3
+1) Checked	18	1.7
+
+
+59) RSSI_W
+Zoroastrianism: Regarding your current religious, secular, or spiritual perspective, with which of the following descriptors do you most closely identify?
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1048	0	0
+0) Unchecked	1048	100.0
+
+
+60) RSSI_X
+To protect the confidentiality of respondents and for low response categories to the rssi series, variable RSSI_M, RSSI_S, and RSSI_X, were generated, combining the religions noted. Other RSSI with three or less responses (e.g., Baha'i, Deism, Jainism, Sikhism): Regarding your current religious, secular, or spiritual perspective, with which of the following descriptors do you most closely identify?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.005	0.069
+0) Unchecked	1043	99.5
+1) Checked	5	0.5
+
+
+61) RSSI_PNR
+I prefer not to respond: Regarding your current religious, secular, or spiritual perspective, with which of the following descriptors do you most closely identify?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.023	0.15
+0) Unchecked	1024	97.7
+1) Checked	24	2.3
+
+
+62) RS_PERCEP
+How do you currently perceive yourself religiously and spiritually?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1037	2.19	1.246
+1) Both religious and spiritual	504	48.6
+2) Religious, but not spiritual	53	5.1
+3) Spiritual, but not religious	259	25.0
+4) Neither spiritual nor religious	221	21.3
+Missing	11
+
+
+63) BORN_AGAIN
+Do you consider yourself a born again follower of Jesus?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1046	1.002	2.354
+0) No	682	65.2
+1) Yes	272	26.0
+8) I don't know	52	5.0
+9) I prefer not to respond	40	3.8
+Missing	2
+
+
+64) RSSI_INFL_A
+My identity is informed by my spiritual and/or religious beliefs.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1046	3.429	1.41
+1) Strongly disagree	166	15.9
+2) Disagree	122	11.7
+3) Neither agree nor disagree	146	14.0
+4) Agree	321	30.7
+5) Strongly agree	291	27.8
+Missing	2
+
+
+65) RSSI_INFL_B
+My spiritual and/or religious beliefs provide me with strength.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1048	3.523	1.415
+1) Strongly disagree	170	16.2
+2) Disagree	86	8.2
+3) Neither agree nor disagree	140	13.4
+4) Agree	330	31.5
+5) Strongly agree	322	30.7
+
+
+66) RSSI_INFL_C
+I derive meaning and purpose in my life because of my spiritual and/or religious beliefs.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1044	3.447	1.461
+1) Strongly disagree	185	17.7
+2) Disagree	102	9.8
+3) Neither agree nor disagree	145	13.9
+4) Agree	285	27.3
+5) Strongly agree	327	31.3
+Missing	4
+
+
+67) RSSI_INFL_D
+My spiritual and/or religious beliefs are one of the most important aspects of my life.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1047	3.236	1.497
+1) Strongly disagree	214	20.4
+2) Disagree	142	13.6
+3) Neither agree nor disagree	168	16.0
+4) Agree	229	21.9
+5) Strongly agree	294	28.1
+Missing	1
+
+
+68) RSSI_INFL_E
+I set personal goals based on my spiritual and/or religious beliefs.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1047	3.194	1.383
+1) Strongly disagree	184	17.6
+2) Disagree	155	14.8
+3) Neither agree nor disagree	194	18.5
+4) Agree	302	28.8
+5) Strongly agree	212	20.2
+Missing	1
+
+
+69) RSSI_INFL_F
+My spiritual and/or religious beliefs inform my whole approach to life.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1048	3.345	1.437
+1) Strongly disagree	191	18.2
+2) Disagree	113	10.8
+3) Neither agree nor disagree	163	15.6
+4) Agree	305	29.1
+5) Strongly agree	276	26.3
+
+
+70) RSSI_INFL_G
+I find my spiritual and/or religious beliefs to be personally helpful.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1047	3.649	1.356
+1) Strongly disagree	148	14.1
+2) Disagree	60	5.7
+3) Neither agree nor disagree	142	13.6
+4) Agree	358	34.2
+5) Strongly agree	339	32.4
+Missing	1
+
+
+71) RSSI_INFL_H
+I gain spiritual strength by trusting in a higher power.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1046	3.233	1.558
+1) Strongly disagree	247	23.6
+2) Disagree	116	11.1
+3) Neither agree nor disagree	146	14.0
+4) Agree	220	21.0
+5) Strongly agree	317	30.3
+Missing	2
+
+
+72) RSSI_INFL_I
+I am supported by my spiritual and/or religious beliefs.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1043	3.5	1.369
+1) Strongly disagree	159	15.2
+2) Disagree	75	7.2
+3) Neither agree nor disagree	189	18.1
+4) Agree	326	31.3
+5) Strongly agree	294	28.2
+Missing	5
+
+
+73) RSSI_INFL_J
+I am guided in my life choices by my spiritual and/or religious beliefs.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1048	3.499	1.405
+1) Strongly disagree	164	15.6
+2) Disagree	100	9.5
+3) Neither agree nor disagree	143	13.6
+4) Agree	331	31.6
+5) Strongly agree	310	29.6
+
+
+74) WVIEW_INFL_A
+Gender Identity: Please rank the top three elements that are most influential to your worldview as it relates to your life in general.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.705	0.796
+1) Ranked First	62	5.9
+2) Ranked Second	37	3.5
+3) Ranked Third	49	4.7
+4) Unranked	900	85.9
+
+
+75) WVIEW_INFL_B
+Cultural Background and Traditions: Please rank the top three elements that are most influential to your worldview as it relates to your life in general.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.207	1.058
+1) Ranked First	114	10.9
+2) Ranked Second	158	15.1
+3) Ranked Third	173	16.5
+4) Unranked	603	57.5
+
+
+76) WVIEW_INFL_C
+Family Background and Traditions: Please rank the top three elements that are most influential to your worldview as it relates to your life in general.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	2.815	1.21
+1) Ranked First	216	20.6
+2) Ranked Second	234	22.3
+3) Ranked Third	126	12.0
+4) Unranked	472	45.0
+
+
+77) WVIEW_INFL_D
+Nonreligious Beliefs/Perspectives: Please rank the top three elements that are most influential to your worldview as it relates to your life in general.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.378	1.049
+1) Ranked First	118	11.3
+2) Ranked Second	99	9.4
+3) Ranked Third	100	9.5
+4) Unranked	731	69.8
+
+
+78) WVIEW_INFL_E
+Philosophical Tradition (for example, existentialism, humanism, rationalism, feminism, Marxism, etc.): Please rank the top three elements that are most influential to your worldview as it relates to your life in general.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.444	1
+1) Ranked First	99	9.4
+2) Ranked Second	97	9.3
+3) Ranked Third	92	8.8
+4) Unranked	760	72.5
+
+
+79) WVIEW_INFL_F
+Political Views: Please rank the top three elements that are most influential to your worldview as it relates to your life in general.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.482	0.903
+1) Ranked First	62	5.9
+2) Ranked Second	110	10.5
+3) Ranked Third	137	13.1
+4) Unranked	739	70.5
+
+
+80) WVIEW_INFL_G
+Racial/Ethnic Identity: Please rank the top three elements that are most influential to your worldview as it relates to your life in general.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.832	0.587
+1) Ranked First	25	2.4
+2) Ranked Second	32	3.1
+3) Ranked Third	37	3.5
+4) Unranked	954	91.0
+
+
+81) WVIEW_INFL_H
+Religious Beliefs/Faith: Please rank the top three elements that are most influential to your worldview as it relates to your life in general.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.005	1.278
+1) Ranked First	246	23.5
+2) Ranked Second	114	10.9
+3) Ranked Third	77	7.3
+4) Unranked	611	58.3
+
+
+82) WVIEW_INFL_I
+Sexual Orientation: Please rank the top three elements that are most influential to your worldview as it relates to your life in general.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.944	0.335
+1) Ranked First	7	0.7
+2) Ranked Second	10	1.0
+3) Ranked Third	18	1.7
+4) Unranked	1013	96.7
+
+
+83) WVIEW_INFL_J
+Social Class and/or Socioeconomic Background: Please rank the top three elements that are most influential to your worldview as it relates to your life in general.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.505	0.861
+1) Ranked First	51	4.9
+2) Ranked Second	104	9.9
+3) Ranked Third	158	15.1
+4) Unranked	735	70.1
+
+
+84) WVIEW_INFL_K
+Other: Please rank the top three elements that are most influential to your worldview as it relates to your life in general.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.903	0.441
+1) Ranked First	14	1.3
+2) Ranked Second	14	1.3
+3) Ranked Third	32	3.1
+4) Unranked	988	94.3
+
+
+85) WVIEW_TEACH_A
+Gender Identity: Please rank the top three elements that are most influential to your worldview as it relates to your teaching activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.792	0.66
+1) Ranked First	39	3.7
+2) Ranked Second	25	2.4
+3) Ranked Third	51	4.9
+4) Unranked	933	89.0
+
+
+86) WVIEW_TEACH_B
+Cultural Background and Traditions: Please rank the top three elements that are most influential to your worldview as it relates to your teaching activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.123	1.103
+1) Ranked First	133	12.7
+2) Ranked Second	181	17.3
+3) Ranked Third	158	15.1
+4) Unranked	576	55.0
+
+
+87) WVIEW_TEACH_C
+Family Background and Traditions: Please rank the top three elements that are most influential to your worldview as it relates to your teaching activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.694	0.746
+1) Ranked First	36	3.4
+2) Ranked Second	72	6.9
+3) Ranked Third	69	6.6
+4) Unranked	871	83.1
+
+
+88) WVIEW_TEACH_D
+Nonreligious Beliefs/Perspectives: Please rank the top three elements that are most influential to your worldview as it relates to your teaching activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	2.744	1.29
+1) Ranked First	286	27.3
+2) Ranked Second	181	17.3
+3) Ranked Third	96	9.2
+4) Unranked	485	46.3
+
+
+89) WVIEW_TEACH_E
+Philosophical Tradition (for example, existentialism, humanism, rationalism, feminism, Marxism, etc.): Please rank the top three elements that are most influential to your worldview as it relates to your teaching activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	2.931	1.237
+1) Ranked First	221	21.1
+2) Ranked Second	177	16.9
+3) Ranked Third	103	9.8
+4) Unranked	547	52.2
+
+
+90) WVIEW_TEACH_F
+Political Views: Please rank the top three elements that are most influential to your worldview as it relates to your teaching activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.772	0.614
+1) Ranked First	18	1.7
+2) Ranked Second	51	4.9
+3) Ranked Third	83	7.9
+4) Unranked	896	85.5
+
+
+91) WVIEW_TEACH_G
+Racial/Ethnic Identity: Please rank the top three elements that are most influential to your worldview as it relates to your teaching activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.803	0.612
+1) Ranked First	23	2.2
+2) Ranked Second	44	4.2
+3) Ranked Third	49	4.7
+4) Unranked	932	88.9
+
+
+92) WVIEW_TEACH_H
+Religious Beliefs/Faith: Please rank the top three elements that are most influential to your worldview as it relates to your teaching activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.466	1.004
+1) Ranked First	106	10.1
+2) Ranked Second	79	7.5
+3) Ranked Third	84	8.0
+4) Unranked	779	74.3
+
+
+93) WVIEW_TEACH_I
+Sexual Orientation: Please rank the top three elements that are most influential to your worldview as it relates to your teaching activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.968	0.271
+1) Ranked First	6	0.6
+2) Ranked Second	4	0.4
+3) Ranked Third	8	0.8
+4) Unranked	1030	98.3
+
+
+94) WVIEW_TEACH_J
+Social Class and/or Socioeconomic Background: Please rank the top three elements that are most influential to your worldview as it relates to your teaching activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.518	0.883
+1) Ranked First	60	5.7
+2) Ranked Second	97	9.3
+3) Ranked Third	131	12.5
+4) Unranked	760	72.5
+
+
+95) WVIEW_TEACH_K
+Other: Please rank the top three elements that are most influential to your worldview as it relates to your teaching activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.569	0.897
+1) Ranked First	77	7.3
+2) Ranked Second	62	5.9
+3) Ranked Third	97	9.3
+4) Unranked	812	77.5
+
+
+96) WVIEW_SCHOLAR_A
+Gender Identity: Please rank the top three elements that are most influential to your worldview as it relates to your scholarly activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.805	0.65
+1) Ranked First	35	3.3
+2) Ranked Second	34	3.2
+3) Ranked Third	31	3.0
+4) Unranked	948	90.5
+
+
+97) WVIEW_SCHOLAR_B
+Cultural Background and Traditions: Please rank the top three elements that are most influential to your worldview as it relates to your scholarly activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.313	1.02
+1) Ranked First	96	9.2
+2) Ranked Second	144	13.7
+3) Ranked Third	144	13.7
+4) Unranked	664	63.4
+
+
+98) WVIEW_SCHOLAR_C
+Family Background and Traditions: Please rank the top three elements that are most influential to your worldview as it relates to your scholarly activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.784	0.619
+1) Ranked First	21	2.0
+2) Ranked Second	49	4.7
+3) Ranked Third	65	6.2
+4) Unranked	913	87.1
+
+
+99) WVIEW_SCHOLAR_D
+Nonreligious Beliefs/Perspectives: Please rank the top three elements that are most influential to your worldview as it relates to your scholarly activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	2.944	1.251
+1) Ranked First	227	21.7
+2) Ranked Second	169	16.1
+3) Ranked Third	88	8.4
+4) Unranked	564	53.8
+
+
+100) WVIEW_SCHOLAR_E
+Philosophical Tradition (for example, existentialism, humanism, rationalism, feminism, Marxism, etc.): Please rank the top three elements that are most influential to your worldview as it relates to your scholarly activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	2.937	1.255
+1) Ranked First	233	22.2
+2) Ranked Second	161	15.4
+3) Ranked Third	93	8.9
+4) Unranked	561	53.5
+
+
+101) WVIEW_SCHOLAR_F
+Political Views: Please rank the top three elements that are most influential to your worldview as it relates to your scholarly activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.742	0.672
+1) Ranked First	27	2.6
+2) Ranked Second	55	5.2
+3) Ranked Third	79	7.5
+4) Unranked	887	84.6
+
+
+102) WVIEW_SCHOLAR_G
+Racial/Ethnic Identity: Please rank the top three elements that are most influential to your worldview as it relates to your scholarly activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.821	0.621
+1) Ranked First	31	3.0
+2) Ranked Second	32	3.1
+3) Ranked Third	31	3.0
+4) Unranked	954	91.0
+
+
+103) WVIEW_SCHOLAR_H
+Religious Beliefs/Faith: Please rank the top three elements that are most influential to your worldview as it relates to your scholarly activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.638	0.863
+1) Ranked First	74	7.1
+2) Ranked Second	47	4.5
+3) Ranked Third	63	6.0
+4) Unranked	864	82.4
+
+
+104) WVIEW_SCHOLAR_I
+Sexual Orientation: Please rank the top three elements that are most influential to your worldview as it relates to your scholarly activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.963	0.279
+1) Ranked First	6	0.6
+2) Ranked Second	4	0.4
+3) Ranked Third	13	1.2
+4) Unranked	1025	97.8
+
+
+105) WVIEW_SCHOLAR_J
+Social Class and/or Socioeconomic Background: Please rank the top three elements that are most influential to your worldview as it relates to your scholarly activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.633	0.791
+1) Ranked First	40	3.8
+2) Ranked Second	86	8.2
+3) Ranked Third	93	8.9
+4) Unranked	829	79.1
+
+
+106) WVIEW_SCHOLAR_K
+Other: Please rank the top three elements that are most influential to your worldview as it relates to your scholarly activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.581	0.901
+1) Ranked First	81	7.7
+2) Ranked Second	54	5.2
+3) Ranked Third	88	8.4
+4) Unranked	825	78.7
+
+
+107) WVIEW_SERVE_A
+Gender Identity: Please rank the top three elements that are most influential to your worldview as it relates to your service activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.752	0.739
+1) Ranked First	52	5.0
+2) Ranked Second	32	3.1
+3) Ranked Third	40	3.8
+4) Unranked	924	88.2
+
+
+108) WVIEW_SERVE_B
+Cultural Background and Traditions: Please rank the top three elements that are most influential to your worldview as it relates to your service activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.219	1.078
+1) Ranked First	125	11.9
+2) Ranked Second	144	13.7
+3) Ranked Third	156	14.9
+4) Unranked	623	59.4
+
+
+109) WVIEW_SERVE_C
+Family Background and Traditions: Please rank the top three elements that are most influential to your worldview as it relates to your service activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.56	0.881
+1) Ranked First	59	5.6
+2) Ranked Second	100	9.5
+3) Ranked Third	84	8.0
+4) Unranked	805	76.8
+
+
+110) WVIEW_SERVE_D
+Nonreligious Beliefs/Perspectives: Please rank the top three elements that are most influential to your worldview as it relates to your service activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	2.936	1.256
+1) Ranked First	233	22.2
+2) Ranked Second	162	15.5
+3) Ranked Third	92	8.8
+4) Unranked	561	53.5
+
+
+111) WVIEW_SERVE_E
+Philosophical Tradition (for example, existentialism, humanism, rationalism, feminism, Marxism, etc.): Please rank the top three elements that are most influential to your worldview as it relates to your service activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.294	1.092
+1) Ranked First	127	12.1
+2) Ranked Second	134	12.8
+3) Ranked Third	91	8.7
+4) Unranked	696	66.4
+
+
+112) WVIEW_SERVE_F
+Political Views: Please rank the top three elements that are most influential to your worldview as it relates to your service activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.692	0.731
+1) Ranked First	34	3.2
+2) Ranked Second	66	6.3
+3) Ranked Third	89	8.5
+4) Unranked	859	82.0
+
+
+113) WVIEW_SERVE_G
+Racial/Ethnic Identity: Please rank the top three elements that are most influential to your worldview as it relates to your service activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.804	0.636
+1) Ranked First	32	3.1
+2) Ranked Second	33	3.1
+3) Ranked Third	43	4.1
+4) Unranked	940	89.7
+
+
+114) WVIEW_SERVE_H
+Religious Beliefs/Faith: Please rank the top three elements that are most influential to your worldview as it relates to your service activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.358	1.101
+1) Ranked First	143	13.6
+2) Ranked Second	85	8.1
+3) Ranked Third	74	7.1
+4) Unranked	746	71.2
+
+
+115) WVIEW_SERVE_I
+Sexual Orientation: Please rank the top three elements that are most influential to your worldview as it relates to your service activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.956	0.318
+1) Ranked First	8	0.8
+2) Ranked Second	7	0.7
+3) Ranked Third	8	0.8
+4) Unranked	1025	97.8
+
+
+116) WVIEW_SERVE_J
+Social Class and/or Socioeconomic Background: Please rank the top three elements that are most influential to your worldview as it relates to your service activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.559	0.847
+1) Ranked First	50	4.8
+2) Ranked Second	96	9.2
+3) Ranked Third	120	11.5
+4) Unranked	782	74.6
+
+
+117) WVIEW_SERVE_K
+Other: Please rank the top three elements that are most influential to your worldview as it relates to your service activities.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1048	3.584	0.909
+1) Ranked First	84	8.0
+2) Ranked Second	53	5.1
+3) Ranked Third	78	7.4
+4) Unranked	833	79.5
+
+
+118) COURSE_CONTENT
+To what extent are religious, secular, and spiritual perspectives related to the courses you teach?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1035	2.3	0.736
+1) Religious, secular, and spiritual perspectives are directly related to the courses I teach	171	16.5
+2) Religious, secular, and spiritual perspectives are indirectly related to the courses I teach	382	36.9
+3) Religious, secular, and spiritual perspectives are unrelated to the courses I teach	482	46.6
+Missing	13
+
+
+119) RSSI_TEACH_1_A
+Teach a religion course specifically designed to enhance knowledge of different religious traditions: Please indicate how often you generally participate in the following activities in your capacities as a course instructor:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1034	1.173	0.509
+1) Never	915	88.5
+2) Sometimes	59	5.7
+3) Frequently	60	5.8
+Missing	14
+
+
+120) RSSI_TEACH_1_B
+Teach a course on campus specifically designed to discuss interfaith engagement: Please indicate how often you generally participate in the following activities in your capacities as a course instructor:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1035	1.127	0.408
+1) Never	933	90.1
+2) Sometimes	73	7.1
+3) Frequently	29	2.8
+Missing	13
+
+
+121) RSSI_TEACH_1_C
+Discuss shared values between religious, secular, and spiritual traditions in your courses: Please indicate how often you generally participate in the following activities in your capacities as a course instructor:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1036	1.593	0.688
+1) Never	542	52.3
+2) Sometimes	374	36.1
+3) Frequently	120	11.6
+Missing	12
+
+
+122) RSSI_TEACH_1_D
+Discuss religious, secular, and spiritual diversity in your courses: Please indicate how often you generally participate in the following activities in your capacities as a course instructor:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1033	1.677	0.69
+1) Never	467	45.2
+2) Sometimes	433	41.9
+3) Frequently	133	12.9
+Missing	15
+
+
+123) RSSI_TEACH_1_E
+Use a case study as a way to examine religious, secular, and spiritual diversity in the world: Please indicate how often you generally participate in the following activities in your capacities as a course instructor:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1030	1.443	0.645
+1) Never	661	64.2
+2) Sometimes	282	27.4
+3) Frequently	87	8.4
+Missing	18
+
+
+124) RSSI_TEACH_1_F
+Facilitate contemplative practices (e.g., meditation, prayer, moment of silence) in the classroom: Please indicate how often you generally participate in the following activities in your capacities as a course instructor:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1035	1.34	0.595
+1) Never	750	72.5
+2) Sometimes	218	21.1
+3) Frequently	67	6.5
+Missing	13
+
+
+125) RSSI_TEACH_1_G
+Discuss interfaith cooperation in your courses: Please indicate how often you generally participate in the following activities in your capacities as a course instructor:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1032	1.36	0.574
+1) Never	711	68.9
+2) Sometimes	270	26.2
+3) Frequently	51	4.9
+Missing	16
+
+
+126) RSSI_TEACH_1_H
+Visit a religious space off campus as part of a class: Please indicate how often you generally participate in the following activities in your capacities as a course instructor:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1033	1.153	0.413
+1) Never	896	86.7
+2) Sometimes	116	11.2
+3) Frequently	21	2.0
+Missing	15
+
+
+127) RSSI_TEACH_1_I
+Discuss religious or spiritual topics with other faculty: Please indicate how often you generally participate in the following activities in your capacities as a course instructor:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1033	1.632	0.646
+1) Never	475	46.0
+2) Sometimes	463	44.8
+3) Frequently	95	9.2
+Missing	15
+
+
+128) RSSI_TEACH_1_J
+Discuss religious or spiritual topics with students: Please indicate how often you generally participate in the following activities in your capacities as a course instructor:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1034	1.646	0.678
+1) Never	485	46.9
+2) Sometimes	430	41.6
+3) Frequently	119	11.5
+Missing	14
+
+
+129) RSSI_TEACH_1_K
+Discuss your personal religious, secular, and spiritual beliefs in class: Please indicate how often you generally participate in the following activities in your capacities as a course instructor:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1033	1.431	0.592
+1) Never	642	62.1
+2) Sometimes	337	32.6
+3) Frequently	54	5.2
+Missing	15
+
+
+130) RSSI_TEACH_1_L
+Discuss students' religious, secular, and spiritual beliefs in class: Please indicate how often you generally participate in the following activities in your capacities as a course instructor:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1033	1.471	0.633
+1) Never	624	60.4
+2) Sometimes	331	32.0
+3) Frequently	78	7.6
+Missing	15
+
+
+131) RSSI_TEACH_1_M
+Reflect on why interfaith cooperation is relevant to your discipline: Please indicate how often you generally participate in the following activities in your capacities as a course instructor:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1032	1.395	0.616
+1) Never	696	67.4
+2) Sometimes	264	25.6
+3) Frequently	72	7.0
+Missing	16
+
+
+132) RSSI_TEACH_2_A
+Taught a course where you expressed politically conservative views: Please indicate how often you generally participated in the following activities in your capacities as a course instructor:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1030	1.293	0.521
+1) Never	761	73.9
+2) Sometimes	236	22.9
+3) Frequently	33	3.2
+Missing	18
+
+
+133) RSSI_TEACH_2_B
+Taught a course where you expressed politically liberal views: Please indicate how often you generally participated in the following activities in your capacities as a course instructor:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1034	1.59	0.666
+1) Never	528	51.1
+2) Sometimes	402	38.9
+3) Frequently	104	10.1
+Missing	14
+
+
+134) RSSI_TEACH_2_C
+Taught a course where students expressed politically conservative views: Please indicate how often you generally participated in the following activities in your capacities as a course instructor:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1032	1.759	0.64
+1) Never	366	35.5
+2) Sometimes	549	53.2
+3) Frequently	117	11.3
+Missing	16
+
+
+135) RSSI_TEACH_2_D
+Taught a course where students expressed politically liberal views: Please indicate how often you generally participated in the following activities in your capacities as a course instructor:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1035	1.948	0.699
+1) Never	281	27.1
+2) Sometimes	527	50.9
+3) Frequently	227	21.9
+Missing	13
+
+
+136) RSSI_TEACH_3_A
+I am confident in my ability to address religious and spiritual topics with students in the classroom if they arise.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1035	3.574	1.062
+1) Strongly disagree	48	4.6
+2) Disagree	130	12.6
+3) Neither agree nor disagree	220	21.3
+4) Agree	454	43.9
+5) Strongly agree	183	17.7
+Missing	13
+
+
+137) RSSI_TEACH_3_B
+I can recognize when religious, secular, and spiritual beliefs influence my interactions with students.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1034	3.804	0.84
+1) Strongly disagree	23	2.2
+2) Disagree	44	4.3
+3) Neither agree nor disagree	216	20.9
+4) Agree	581	56.2
+5) Strongly agree	170	16.4
+Missing	14
+
+
+138) RSSI_TEACH_3_C
+I am confident in my ability to address religious and spiritual topics with students outside of the classroom if they arise (e.g., office hours, on-campus programs).
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1036	3.725	1.021
+1) Strongly disagree	43	4.2
+2) Disagree	89	8.6
+3) Neither agree nor disagree	196	18.9
+4) Agree	490	47.3
+5) Strongly agree	218	21.0
+Missing	12
+
+
+139) RSSI_TEACH_3_D
+I can recognize when religious, secular, and spiritual beliefs impact my interactions with other faculty.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1032	3.759	0.868
+1) Strongly disagree	31	3.0
+2) Disagree	40	3.9
+3) Neither agree nor disagree	237	23.0
+4) Agree	563	54.6
+5) Strongly agree	161	15.6
+Missing	16
+
+
+140) RSSI_TEACH_3_E
+I am confident in my ability to address religious and spiritual topics with faculty colleagues if they arise.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1034	3.632	1.024
+1) Strongly disagree	43	4.2
+2) Disagree	107	10.3
+3) Neither agree nor disagree	222	21.5
+4) Agree	477	46.1
+5) Strongly agree	185	17.9
+Missing	14
+
+
+141) RSSI_TEACH_3_F
+I am confident in my ability to address conflicts related to religion and spirituality if they arise in the classroom.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1033	3.459	1.079
+1) Strongly disagree	56	5.4
+2) Disagree	148	14.3
+3) Neither agree nor disagree	252	24.4
+4) Agree	420	40.7
+5) Strongly agree	157	15.2
+Missing	15
+
+
+142) RSSI_TEACH_3_G
+I am confident addressing issues relating to Antisemitism in the classroom.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1033	3.465	1.133
+1) Strongly disagree	70	6.8
+2) Disagree	147	14.2
+3) Neither agree nor disagree	226	21.9
+4) Agree	413	40.0
+5) Strongly agree	177	17.1
+Missing	15
+
+
+143) RSSI_TEACH_3_H
+I am confident addressing issues relating to Islamophobia in the classroom.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1035	3.38	1.127
+1) Strongly disagree	75	7.2
+2) Disagree	165	15.9
+3) Neither agree nor disagree	232	22.4
+4) Agree	418	40.4
+5) Strongly agree	145	14.0
+Missing	13
+
+
+144) RSSI_TEACH_3_I
+I am confident addressing competing views of Israel and Palestine in the classroom.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1032	2.901	1.228
+1) Strongly disagree	158	15.3
+2) Disagree	252	24.4
+3) Neither agree nor disagree	263	25.5
+4) Agree	252	24.4
+5) Strongly agree	107	10.4
+Missing	16
+
+
+145) RSSI_TEACH_4_A
+I make my classes welcoming for students of all religious, spiritual, and secular identities.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1034	4.452	0.669
+1) Strongly disagree	3	0.3
+2) Disagree	6	0.6
+3) Neither agree nor disagree	67	6.5
+4) Agree	403	39.0
+5) Strongly agree	555	53.7
+Missing	14
+
+
+146) RSSI_TEACH_4_B
+I make my research team a welcoming space for students of all religious, spiritual, and secular identities.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1028	4.151	0.844
+1) Strongly disagree	5	0.5
+2) Disagree	9	0.9
+3) Neither agree nor disagree	243	23.6
+4) Agree	340	33.1
+5) Strongly agree	431	41.9
+Missing	20
+
+
+147) RSSI_TEACH_4_C
+I seek to advance a culture of religious, spiritual, and secular inclusion in my program or department.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1036	3.711	1.098
+1) Strongly disagree	57	5.5
+2) Disagree	69	6.7
+3) Neither agree nor disagree	267	25.8
+4) Agree	366	35.3
+5) Strongly agree	277	26.7
+Missing	12
+
+
+148) RSSI_TEACH_4_D
+I respond constructively in situations where religious prejudice, discrimination, or micro-aggression are present.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1034	3.908	0.803
+1) Strongly disagree	7	0.7
+2) Disagree	30	2.9
+3) Neither agree nor disagree	253	24.5
+4) Agree	505	48.8
+5) Strongly agree	239	23.1
+Missing	14
+
+
+149) RSSI_TEACH_5_A
+Shapes my perspective on religion at the university: My religious, spiritual, or secular identity and background:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1032	3.482	1.123
+1) Strongly disagree	81	7.8
+2) Disagree	102	9.9
+3) Neither agree nor disagree	264	25.6
+4) Agree	409	39.6
+5) Strongly agree	176	17.1
+Missing	16
+
+
+150) RSSI_TEACH_5_B
+Shapes my perspective on the place of religion in the classroom. My religious, spiritual, or secular identity and background:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1032	3.463	1.108
+1) Strongly disagree	83	8.0
+2) Disagree	92	8.9
+3) Neither agree nor disagree	284	27.5
+4) Agree	410	39.7
+5) Strongly agree	163	15.8
+Missing	16
+
+
+151) RSSI_TEACH_5_C
+Inspires my positive attitude toward students who hold similar religious, spiritual, or secular identities. My religious, spiritual, or secular identity and background:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1030	3.404	1.053
+1) Strongly disagree	66	6.4
+2) Disagree	102	9.9
+3) Neither agree nor disagree	358	34.8
+4) Agree	358	34.8
+5) Strongly agree	146	14.2
+Missing	18
+
+
+152) RSSI_TEACH_5_D
+Inspires my positive attitude toward other faculty who hold similar religious, spiritual, or secular identities. My religious, spiritual, or secular identity and background:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1033	3.451	1.057
+1) Strongly disagree	65	6.3
+2) Disagree	94	9.1
+3) Neither agree nor disagree	344	33.3
+4) Agree	370	35.8
+5) Strongly agree	160	15.5
+Missing	15
+
+
+153) RSSI_TEACH_5_E
+Makes it challenging to be empathetic to students from other religious, spiritual, or secular identities. My religious, spiritual, or secular identity and background:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1028	1.694	0.893
+1) Strongly disagree	534	51.9
+2) Disagree	339	33.0
+3) Neither agree nor disagree	108	10.5
+4) Agree	30	2.9
+5) Strongly agree	17	1.7
+Missing	20
+
+
+154) RSSI_TEACH_5_F
+Makes it difficult to respect other religious, spiritual, or secular worldviews. My religious, spiritual, or secular identity and background:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1033	1.688	0.9
+1) Strongly disagree	545	52.8
+2) Disagree	334	32.3
+3) Neither agree nor disagree	100	9.7
+4) Agree	39	3.8
+5) Strongly agree	15	1.5
+Missing	15
+
+
+155) RSSI_TEACH_5_G
+Inspires my positive attitude toward students who hold religious, spiritual, or secular identities different from my own. My religious, spiritual, or secular identity and background:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1033	3.627	1.04
+1) Strongly disagree	56	5.4
+2) Disagree	64	6.2
+3) Neither agree nor disagree	294	28.5
+4) Agree	414	40.1
+5) Strongly agree	205	19.8
+Missing	15
+
+
+156) RSSI_BIAS_A
+I can recognize when I have biases toward people from different religious, spiritual, and secular backgrounds.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1033	3.857	0.692
+1) Strongly disagree	7	0.7
+2) Disagree	29	2.8
+3) Neither agree nor disagree	203	19.7
+4) Agree	660	63.9
+5) Strongly agree	134	13.0
+Missing	15
+
+
+157) RSSI_BIAS_B
+I can recognize when my biases impact my relationships and interactions with students.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1031	3.828	0.712
+1) Strongly disagree	7	0.7
+2) Disagree	30	2.9
+3) Neither agree nor disagree	233	22.6
+4) Agree	624	60.5
+5) Strongly agree	137	13.3
+Missing	17
+
+
+158) RSSI_BIAS_C
+I can recognize when my biases impact my relationships and interactions with colleagues.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1034	3.82	0.699
+1) Strongly disagree	8	0.8
+2) Disagree	26	2.5
+3) Neither agree nor disagree	236	22.8
+4) Agree	638	61.7
+5) Strongly agree	126	12.2
+Missing	14
+
+
+159) RSSI_BIAS_E
+I can recognize when my biases impact my relationships and interactions with administration (e.g., deans, provosts).
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1032	3.749	0.758
+1) Strongly disagree	9	0.9
+2) Disagree	39	3.8
+3) Neither agree nor disagree	287	27.8
+4) Agree	564	54.7
+5) Strongly agree	133	12.9
+Missing	16
+
+
+160) RSSI_SCHOLAR_1_A
+Ask research questions that center religion or spirituality: Please indicate how often you participate in the following activities in your capacities as a scholar:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	896	1.405	0.66
+1) Never	620	69.2
+2) Sometimes	189	21.1
+3) Frequently	87	9.7
+Missing	152
+
+
+161) RSSI_SCHOLAR_1_B
+Research a topic directly related to religion or spirituality: Please indicate how often you participate in the following activities in your capacities as a scholar:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	897	1.479	0.701
+1) Never	575	64.1
+2) Sometimes	214	23.9
+3) Frequently	108	12.0
+Missing	151
+
+
+162) RSSI_SCHOLAR_1_D
+Research a topic with implications for religion or spirituality: Please indicate how often you participate in the following activities in your capacities as a scholar:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	896	1.556	0.708
+1) Never	512	57.1
+2) Sometimes	270	30.1
+3) Frequently	114	12.7
+Missing	152
+
+
+163) RSSI_SCHOLAR_1_E
+Select a research topic because of your religious, secular, or spiritual identity: Please indicate how often you participate in the following activities in your capacities as a scholar:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	894	1.409	0.621
+1) Never	592	66.2
+2) Sometimes	238	26.6
+3) Frequently	64	7.2
+Missing	154
+
+
+164) RSSI_SCHOLAR_1_F
+Apply for grants from explicitly religious or spiritual organizations: Please indicate how often you participate in the following activities in your capacities as a scholar:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	899	1.19	0.461
+1) Never	754	83.9
+2) Sometimes	119	13.2
+3) Frequently	26	2.9
+Missing	149
+
+
+165) RSSI_SCHOLAR_1_G
+Read others' scholarship (i.e., peer-reviewed journal articles, book chapters, monographs, etc.) related to religion or spirituality: Please indicate how often you participate in the following activities in your capacities as a scholar:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	899	1.7	0.678
+1) Never	382	42.5
+2) Sometimes	405	45.1
+3) Frequently	112	12.5
+Missing	149
+
+
+166) RSSI_SCHOLAR_1_H
+Select research methods because of your religious, secular, or spiritual identity: Please indicate how often you participate in the following activities in your capacities as a scholar:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	899	1.242	0.535
+1) Never	727	80.9
+2) Sometimes	126	14.0
+3) Frequently	46	5.1
+Missing	149
+
+
+167) RSSI_SCHOLAR_1_I
+Reflect on how your religious, secular, or spiritual identity informs your research methods: Please indicate how often you participate in the following activities in your capacities as a scholar:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	896	1.512	0.667
+1) Never	524	58.5
+2) Sometimes	285	31.8
+3) Frequently	87	9.7
+Missing	152
+
+
+168) RSSI_SCHOLAR_1_J
+Reflect on how your religious, secular, or spiritual identity informs your interpretation of research results: Please indicate how often you participate in the following activities in your capacities as a scholar:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	897	1.545	0.68
+1) Never	504	56.2
+2) Sometimes	297	33.1
+3) Frequently	96	10.7
+Missing	151
+
+
+169) RSSI_SCHOLAR_2_A
+Discuss the religious and spiritual implications of your scholarship in your written work: Please indicate how often you participate in the following activities in your capacities as a scholar:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	890	1.344	0.586
+1) Never	636	71.5
+2) Sometimes	202	22.7
+3) Frequently	52	5.8
+Missing	158
+
+
+170) RSSI_SCHOLAR_2_B
+Publicly comment on the religious and spiritual implications of your scholarship: Please indicate how often you participate in the following activities in your capacities as a scholar:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	892	1.307	0.568
+1) Never	667	74.8
+2) Sometimes	176	19.7
+3) Frequently	49	5.5
+Missing	156
+
+
+171) RSSI_SCHOLAR_2_C
+Research a topic indirectly related to religion or spirituality: Please indicate how often you participate in the following activities in your capacities as a scholar:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	891	1.613	0.68
+1) Never	445	49.9
+2) Sometimes	346	38.8
+3) Frequently	100	11.2
+Missing	157
+
+
+172) RSSI_SCHOLAR_2_D
+Discuss the religious or spiritual implications of your scholarship in your presented work: Please indicate how often you participate in the following activities in your capacities as a scholar:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	892	1.382	0.609
+1) Never	611	68.5
+2) Sometimes	221	24.8
+3) Frequently	60	6.7
+Missing	156
+
+
+173) RSSI_SCHOLAR_2_E
+Reflect on how your religious, secular, or spiritual identity informs your peer review of colleagues' scholarship: Please indicate how often you participate in the following activities in your capacities as a scholar:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	893	1.366	0.571
+1) Never	608	68.1
+2) Sometimes	243	27.2
+3) Frequently	42	4.7
+Missing	155
+
+
+174) RSSI_SCHOLAR_2_F
+Reject colleagues' scholarship through peer review because it addresses religious or spiritual topics: Please indicate how often you participate in the following activities in your capacities as a scholar:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	893	1.087	0.343
+1) Never	832	93.2
+2) Sometimes	44	4.9
+3) Frequently	17	1.9
+Missing	155
+
+
+175) RSSI_SCHOLAR_2_G
+Accept colleagues' scholarship through peer review because it addresses religious or spiritual topics: Please indicate how often you participate in the following activities in your capacities as a scholar:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	890	1.284	0.546
+1) Never	679	76.3
+2) Sometimes	169	19.0
+3) Frequently	42	4.7
+Missing	158
+
+
+176) RSSI_SCHOLAR_3_A
+Publicly comment on religious or spiritual implications of others' scholarship: Please indicate how often you participate in the following activities in your capacities as a scholar:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	894	1.235	0.508
+1) Never	719	80.4
+2) Sometimes	140	15.7
+3) Frequently	35	3.9
+Missing	154
+
+
+177) RSSI_SCHOLAR_3_B
+Recruit doctoral students from different religious, secular, and spiritual identities to contribute to research projects: Please indicate how often you participate in the following activities in your capacities as a scholar:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	881	1.477	0.72
+1) Never	579	65.7
+2) Sometimes	184	20.9
+3) Frequently	118	13.4
+Missing	167
+
+
+178) RSSI_SCHOLAR_3_C
+Discuss the religious or spiritual implications of your scholarship with graduate students: Please indicate how often you participate in the following activities in your capacities as a scholar:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	888	1.295	0.536
+1) Never	661	74.4
+2) Sometimes	192	21.6
+3) Frequently	35	3.9
+Missing	160
+
+
+179) RSSI_SCHOLAR_3_D
+Privately discuss the religious or spiritual implications of your scholarship with colleagues: Please indicate how often you participate in the following activities in your capacities as a scholar:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	896	1.485	0.623
+1) Never	523	58.4
+2) Sometimes	311	34.7
+3) Frequently	62	6.9
+Missing	152
+
+
+180) RSSI_SCHOLAR_3_E
+Connect with colleagues in other disciplines who study topics directly related to religion and spirituality: Please indicate how often you participate in the following activities in your capacities as a scholar:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	895	1.531	0.648
+1) Never	496	55.4
+2) Sometimes	323	36.1
+3) Frequently	76	8.5
+Missing	153
+
+
+181) RSSI_SCHOLAR_3_F
+Connect with colleagues in other disciplines who study topics indirectly related to religion and spirituality: Please indicate how often you participate in the following activities in your capacities as a scholar:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	897	1.556	0.637
+1) Never	469	52.3
+2) Sometimes	357	39.8
+3) Frequently	71	7.9
+Missing	151
+
+
+182) RSSI_SCHOLAR_3_G
+Engage in multidisciplinary work that includes topics related to religion and spirituality: Please indicate how often you participate in the following activities in your capacities as a scholar:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	894	1.502	0.647
+1) Never	520	58.2
+2) Sometimes	299	33.4
+3) Frequently	75	8.4
+Missing	154
+
+
+183) RSSI_SCHOLAR_3_H
+Recruit colleagues from different religious, secular, and spiritual identities to collaborate on research projects: Please indicate how often you participate in the following activities in your capacities as a scholar:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	888	1.633	0.725
+1) Never	456	51.4
+2) Sometimes	302	34.0
+3) Frequently	130	14.6
+Missing	160
+
+
+184) RSSI_SCHOLAR_4_A
+Research questions asked: To what extent does your religious, secular, or spiritual identity inform the following aspects of your scholarly activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	895	1.417	0.6
+1) To no extent	574	64.1
+2) To some extent	269	30.1
+3) To great extent	52	5.8
+Missing	153
+
+
+185) RSSI_SCHOLAR_4_B
+Topics explored: To what extent does your religious, secular, or spiritual identity inform the following aspects of your scholarly activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	900	1.479	0.624
+1) To no extent	532	59.1
+2) To some extent	305	33.9
+3) To great extent	63	7.0
+Missing	148
+
+
+186) RSSI_SCHOLAR_4_C
+Grant-seeking: To what extent does your religious, secular, or spiritual identity inform the following aspects of your scholarly activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	897	1.208	0.484
+1) To no extent	741	82.6
+2) To some extent	125	13.9
+3) To great extent	31	3.5
+Missing	151
+
+
+187) RSSI_SCHOLAR_4_D
+Determining which scholarship to read: To what extent does your religious, secular, or spiritual identity inform the following aspects of your scholarly activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	897	1.334	0.567
+1) To no extent	641	71.5
+2) To some extent	212	23.6
+3) To great extent	44	4.9
+Missing	151
+
+
+188) RSSI_SCHOLAR_4_E
+Methods used: To what extent does your religious, secular, or spiritual identity inform the following aspects of your scholarly activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	896	1.221	0.494
+1) To no extent	730	81.5
+2) To some extent	134	15.0
+3) To great extent	32	3.6
+Missing	152
+
+
+189) RSSI_SCHOLAR_4_F
+Discussion of results: To what extent does your religious, secular, or spiritual identity inform the following aspects of your scholarly activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	893	1.237	0.485
+1) To no extent	705	78.9
+2) To some extent	164	18.4
+3) To great extent	24	2.7
+Missing	155
+
+
+190) RSSI_SCHOLAR_4_G
+Selection of results presented: To what extent does your religious, secular, or spiritual identity inform the following aspects of your scholarly activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	896	1.134	0.378
+1) To no extent	788	87.9
+2) To some extent	96	10.7
+3) To great extent	12	1.3
+Missing	152
+
+
+191) RSSI_SCHOLAR_4_H
+Implications of work: To what extent does your religious, secular, or spiritual identity inform the following aspects of your scholarly activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	896	1.384	0.592
+1) To no extent	603	67.3
+2) To some extent	242	27.0
+3) To great extent	51	5.7
+Missing	152
+
+
+192) RSSI_SCHOLAR_4_I
+Conferences attended: To what extent does your religious, secular, or spiritual identity inform the following aspects of your scholarly activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	899	1.296	0.558
+1) To no extent	679	75.5
+2) To some extent	174	19.4
+3) To great extent	46	5.1
+Missing	149
+
+
+193) RSSI_SCHOLAR_4_J
+Journals selected for peer-reviewed manuscripts: To what extent does your religious, secular, or spiritual identity inform the following aspects of your scholarly activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	896	1.203	0.49
+1) To no extent	749	83.6
+2) To some extent	112	12.5
+3) To great extent	35	3.9
+Missing	152
+
+
+194) RSSI_SCHOLAR_4_K
+Peer-review decision-making: To what extent does your religious, secular, or spiritual identity inform the following aspects of your scholarly activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	895	1.142	0.411
+1) To no extent	789	88.2
+2) To some extent	85	9.5
+3) To great extent	21	2.3
+Missing	153
+
+
+195) RSSI_SCHOLAR_4_L
+Recruitment of graduate students: To what extent does your religious, secular, or spiritual identity inform the following aspects of your scholarly activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	889	1.165	0.451
+1) To no extent	771	86.7
+2) To some extent	89	10.0
+3) To great extent	29	3.3
+Missing	159
+
+
+196) RSSI_SCHOLAR_4_M
+Mentoring of graduate students: To what extent does your religious, secular, or spiritual identity inform the following aspects of your scholarly activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	885	1.279	0.559
+1) To no extent	687	77.6
+2) To some extent	149	16.8
+3) To great extent	49	5.5
+Missing	163
+
+
+197) RSSI_SCHOLAR_4_N
+Collaboration with colleagues: To what extent does your religious, secular, or spiritual identity inform the following aspects of your scholarly activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	897	1.348	0.574
+1) To no extent	631	70.3
+2) To some extent	220	24.5
+3) To great extent	46	5.1
+Missing	151
+
+
+198) RSSI_SERVE_1_A
+Review curriculum changes that include religious or spiritual courses: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	974	1.361	0.583
+1) Never	675	69.3
+2) Sometimes	246	25.3
+3) Frequently	53	5.4
+Missing	74
+
+
+199) RSSI_SERVE_1_B
+Review individual courses that include religious or spiritual topics: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	973	1.359	0.586
+1) Never	679	69.8
+2) Sometimes	239	24.6
+3) Frequently	55	5.7
+Missing	75
+
+
+200) RSSI_SERVE_1_C
+Review general education course requirements that include religious or spiritual courses: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	974	1.342	0.573
+1) Never	691	70.9
+2) Sometimes	233	23.9
+3) Frequently	50	5.1
+Missing	74
+
+
+201) RSSI_SERVE_1_D
+Participate in program accreditation efforts related to religious or spiritual courses or topics: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	971	1.2	0.473
+1) Never	808	83.2
+2) Sometimes	132	13.6
+3) Frequently	31	3.2
+Missing	77
+
+
+202) RSSI_SERVE_1_E
+Participate in institution-wide accreditation efforts related to religious and spiritual courses or topics: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	969	1.218	0.486
+1) Never	790	81.5
+2) Sometimes	147	15.2
+3) Frequently	32	3.3
+Missing	79
+
+
+203) RSSI_SERVE_1_F
+Participate in hiring campus administrators who will focus on religious and spiritual aspects of campus life: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	971	1.187	0.452
+1) Never	814	83.8
+2) Sometimes	132	13.6
+3) Frequently	25	2.6
+Missing	77
+
+
+204) RSSI_SERVE_1_G
+Participate in strategic planning efforts that include religious and spiritual aspects of campus life: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	973	1.332	0.572
+1) Never	701	72.0
+2) Sometimes	221	22.7
+3) Frequently	51	5.2
+Missing	75
+
+
+205) RSSI_SERVE_2_A
+Participate in mission, vision, and goals oversight: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	969	1.698	0.667
+1) Never	406	41.9
+2) Sometimes	450	46.4
+3) Frequently	113	11.7
+Missing	79
+
+
+206) RSSI_SERVE_2_B
+Participate in religious, secular, and spiritual diversity campus climate assessment efforts: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	973	1.358	0.536
+1) Never	653	67.1
+2) Sometimes	292	30.0
+3) Frequently	28	2.9
+Missing	75
+
+
+207) RSSI_SERVE_2_C
+Participate in academic appeals processes for students seeking accommodations for religious and spiritual reasons: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	974	1.181	0.428
+1) Never	815	83.7
+2) Sometimes	142	14.6
+3) Frequently	17	1.7
+Missing	74
+
+
+208) RSSI_SERVE_2_D
+Draft policies for academic religious accommodations: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	973	1.137	0.383
+1) Never	854	87.8
+2) Sometimes	105	10.8
+3) Frequently	14	1.4
+Missing	75
+
+
+209) RSSI_SERVE_2_F
+Participate in an institutional religious, secular, and spiritual diversity council or committee: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	974	1.234	0.493
+1) Never	777	79.8
+2) Sometimes	166	17.0
+3) Frequently	31	3.2
+Missing	74
+
+
+210) RSSI_SERVE_2_G
+Participate in campus-wide events on religious, secular, or spiritual topics: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	971	1.587	0.625
+1) Never	473	48.7
+2) Sometimes	426	43.9
+3) Frequently	72	7.4
+Missing	77
+
+
+211) RSSI_SERVE_2_H
+Collaborate with staff whose work centers religious, secular, and spiritual aspects of campus life: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	969	1.524	0.626
+1) Never	530	54.7
+2) Sometimes	370	38.2
+3) Frequently	69	7.1
+Missing	79
+
+
+212) RSSI_SERVE_3_A
+Participate in a professional association committee directly related to religious or spiritual topics: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	972	1.222	0.523
+1) Never	805	82.8
+2) Sometimes	118	12.1
+3) Frequently	49	5.0
+Missing	76
+
+
+213) RSSI_SERVE_3_B
+Participate in a professional association committee indirectly related to religious or spiritual topics: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	974	1.273	0.53
+1) Never	748	76.8
+2) Sometimes	186	19.1
+3) Frequently	40	4.1
+Missing	74
+
+
+214) RSSI_SERVE_3_C
+Edit a journal directly related to religious or spiritual topics: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	971	1.123	0.404
+1) Never	879	90.5
+2) Sometimes	65	6.7
+3) Frequently	27	2.8
+Missing	77
+
+
+215) RSSI_SERVE_3_D
+Edit a journal indirectly related to religious or spiritual topics: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	973	1.153	0.426
+1) Never	849	87.3
+2) Sometimes	99	10.2
+3) Frequently	25	2.6
+Missing	75
+
+
+216) RSSI_SERVE_4_A
+Advise student clubs and/or organizations related to religion or spirituality: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	970	1.19	0.473
+1) Never	820	84.5
+2) Sometimes	116	12.0
+3) Frequently	34	3.5
+Missing	78
+
+
+217) RSSI_SERVE_4_B
+Advise student clubs and/or organizations related to philosophy: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	970	1.2	0.46
+1) Never	801	82.6
+2) Sometimes	144	14.8
+3) Frequently	25	2.6
+Missing	78
+
+
+218) RSSI_SERVE_4_C
+Advise student clubs and/or organizations related to politics: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	970	1.211	0.495
+1) Never	803	82.8
+2) Sometimes	129	13.3
+3) Frequently	38	3.9
+Missing	78
+
+
+219) RSSI_SERVE_4_D
+Advise undergraduate students on topics related to religion or spirituality: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	971	1.333	0.569
+1) Never	697	71.8
+2) Sometimes	225	23.2
+3) Frequently	49	5.0
+Missing	77
+
+
+220) RSSI_SERVE_4_E
+Advise undergraduate students on selecting courses related to religion or spirituality: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	964	1.364	0.588
+1) Never	668	69.3
+2) Sometimes	241	25.0
+3) Frequently	55	5.7
+Missing	84
+
+
+221) RSSI_SERVE_4_F
+Participate in master's project committees on religious or spiritual topics: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	965	1.158	0.415
+1) Never	832	86.2
+2) Sometimes	114	11.8
+3) Frequently	19	2.0
+Missing	83
+
+
+222) RSSI_SERVE_4_G
+Participate in doctoral project committees on religious or spiritual topics: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	967	1.23	0.5
+1) Never	780	80.7
+2) Sometimes	152	15.7
+3) Frequently	35	3.6
+Missing	81
+
+
+223) RSSI_SERVE_4_H
+Advise master's students on topics related to religion or spirituality: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	966	1.198	0.468
+1) Never	804	83.2
+2) Sometimes	133	13.8
+3) Frequently	29	3.0
+Missing	82
+
+
+224) RSSI_SERVE_4_I
+Advise master's students on selecting courses related to religion or spirituality: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	962	1.134	0.389
+1) Never	850	88.4
+2) Sometimes	95	9.9
+3) Frequently	17	1.8
+Missing	86
+
+
+225) RSSI_SERVE_5_A
+Oversee an extension project directly related to religious or spiritual topics: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	971	1.117	0.356
+1) Never	868	89.4
+2) Sometimes	92	9.5
+3) Frequently	11	1.1
+Missing	77
+
+
+226) RSSI_SERVE_5_B
+Consult on a project directly related to religious or spiritual topics: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	970	1.222	0.487
+1) Never	786	81.0
+2) Sometimes	153	15.8
+3) Frequently	31	3.2
+Missing	78
+
+
+227) RSSI_SERVE_5_C
+Consult on a project indirectly related to religious or spiritual topics: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	964	1.295	0.518
+1) Never	709	73.5
+2) Sometimes	226	23.4
+3) Frequently	29	3.0
+Missing	84
+
+
+228) RSSI_SERVE_5_D
+Provide expertise on religious or spiritual topics to local government officials: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	971	1.078	0.318
+1) Never	909	93.6
+2) Sometimes	48	4.9
+3) Frequently	14	1.4
+Missing	77
+
+
+229) RSSI_SERVE_5_E
+Provide expertise on religious or spiritual topics to state government officials: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	968	1.073	0.311
+1) Never	911	94.1
+2) Sometimes	43	4.4
+3) Frequently	14	1.4
+Missing	80
+
+
+230) RSSI_SERVE_5_F
+Provide expertise on religious or spiritual topics to federal government officials: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	968	1.068	0.311
+1) Never	918	94.8
+2) Sometimes	34	3.5
+3) Frequently	16	1.7
+Missing	80
+
+
+231) RSSI_SERVE_6_A
+Oversee a service-learning project directly related to religious or spiritual topics: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	971	1.175	0.438
+1) Never	824	84.9
+2) Sometimes	124	12.8
+3) Frequently	23	2.4
+Missing	77
+
+
+232) RSSI_SERVE_6_B
+Participate in a service-learning project with students directly related to religious or spiritual topics: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	973	1.214	0.464
+1) Never	788	81.0
+2) Sometimes	162	16.6
+3) Frequently	23	2.4
+Missing	75
+
+
+233) RSSI_SERVE_6_C
+Oversee a community-based action research project directly related to religious or spiritual topics: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	972	1.128	0.388
+1) Never	867	89.2
+2) Sometimes	86	8.8
+3) Frequently	19	2.0
+Missing	76
+
+
+234) RSSI_SERVE_6_D
+Participate in a community-based action research project directly related to religious or spiritual topics: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	971	1.186	0.449
+1) Never	814	83.8
+2) Sometimes	133	13.7
+3) Frequently	24	2.5
+Missing	77
+
+
+235) RSSI_SERVE_6_E
+Participate in community and civic service directly related to religious or spiritual topics: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	967	1.438	0.64
+1) Never	622	64.3
+2) Sometimes	266	27.5
+3) Frequently	79	8.2
+Missing	81
+
+
+236) RSSI_SERVE_6_F
+Participate in community and civic service organized by your own religious, secular, or spiritual identity group: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	972	1.553	0.702
+1) Never	553	56.9
+2) Sometimes	300	30.9
+3) Frequently	119	12.2
+Missing	76
+
+
+237) RSSI_SERVE_6_G
+Participate in community and civic service organized by a religious, secular, or spiritual identity group other than your own: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	972	1.432	0.576
+1) Never	594	61.1
+2) Sometimes	336	34.6
+3) Frequently	42	4.3
+Missing	76
+
+
+238) RSSI_SERVE_6_H
+Participate in community and civic service organized by an interfaith group: The items below reflect your participation in various activities related to faculty service activities. Please indicate how often you participate in the following activities in your capacities as an institutional citizen:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	973	1.417	0.569
+1) Never	606	62.3
+2) Sometimes	328	33.7
+3) Frequently	39	4.0
+Missing	75
+
+
+239) RSSI_SERVE_7_A
+Academic oversight: To what extent does your religious, secular, or spiritual identity inform the following aspects of your service activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	969	1.328	0.584
+1) To no extent	709	73.2
+2) To some extent	202	20.8
+3) To great extent	58	6.0
+Missing	79
+
+
+240) RSSI_SERVE_7_B
+Mentoring master's students: To what extent does your religious, secular, or spiritual identity inform the following aspects of your service activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	957	1.276	0.561
+1) To no extent	748	78.2
+2) To some extent	154	16.1
+3) To great extent	55	5.7
+Missing	91
+
+
+241) RSSI_SERVE_7_C
+Advising student clubs and/or organizations: To what extent does your religious, secular, or spiritual identity inform the following aspects of your service activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	972	1.358	0.593
+1) To no extent	683	70.3
+2) To some extent	230	23.7
+3) To great extent	59	6.1
+Missing	76
+
+
+242) RSSI_SERVE_7_D
+Mentoring undergraduate students: To what extent does your religious, secular, or spiritual identity inform the following aspects of your service activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	968	1.491	0.646
+1) To no extent	574	59.3
+2) To some extent	313	32.3
+3) To great extent	81	8.4
+Missing	80
+
+
+243) RSSI_SERVE_7_E
+Association engagement: To what extent does your religious, secular, or spiritual identity inform the following aspects of your service activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	971	1.337	0.561
+1) To no extent	688	70.9
+2) To some extent	239	24.6
+3) To great extent	44	4.5
+Missing	77
+
+
+244) RSSI_SERVE_7_F
+Community and civic service: To what extent does your religious, secular, or spiritual identity inform the following aspects of your service activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	970	1.638	0.686
+1) To no extent	467	48.1
+2) To some extent	387	39.9
+3) To great extent	116	12.0
+Missing	78
+
+
+245) RSSI_SERVE_7_G
+Community-based action research: To what extent does your religious, secular, or spiritual identity inform the following aspects of your service activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	964	1.279	0.526
+1) To no extent	731	75.8
+2) To some extent	197	20.4
+3) To great extent	36	3.7
+Missing	84
+
+
+246) RSSI_SERVE_7_H
+Consulting: To what extent does your religious, secular, or spiritual identity inform the following aspects of your service activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	969	1.307	0.56
+1) To no extent	721	74.4
+2) To some extent	199	20.5
+3) To great extent	49	5.1
+Missing	79
+
+
+247) RSSI_SERVE_7_J
+Graduate student committee participation: To what extent does your religious, secular, or spiritual identity inform the following aspects of your service activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	958	1.224	0.506
+1) To no extent	782	81.6
+2) To some extent	137	14.3
+3) To great extent	39	4.1
+Missing	90
+
+
+248) RSSI_SERVE_7_K
+Institutional governance: To what extent does your religious, secular, or spiritual identity inform the following aspects of your service activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	970	1.36	0.595
+1) To no extent	681	70.2
+2) To some extent	229	23.6
+3) To great extent	60	6.2
+Missing	78
+
+
+249) RSSI_SERVE_7_L
+Institutional support: To what extent does your religious, secular, or spiritual identity inform the following aspects of your service activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	969	1.352	0.59
+1) To no extent	686	70.8
+2) To some extent	225	23.2
+3) To great extent	58	6.0
+Missing	79
+
+
+250) RSSI_SERVE_7_M
+Involvement in federal, state, or local government affairs: To what extent does your religious, secular, or spiritual identity inform the following aspects of your service activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	966	1.267	0.52
+1) To no extent	744	77.0
+2) To some extent	186	19.3
+3) To great extent	36	3.7
+Missing	82
+
+
+251) RSSI_SERVE_7_N
+Service learning: To what extent does your religious, secular, or spiritual identity inform the following aspects of your service activities?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	969	1.359	0.569
+1) To no extent	666	68.7
+2) To some extent	258	26.6
+3) To great extent	45	4.6
+Missing	79
+
+
+252) OUTCLASS_A
+Utilized a multi-faith space on campus: Please indicate whether you participated in any of the following activities while employed at your college or university (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.161	0.368
+0) Unchecked	879	83.9
+1) Checked	169	16.1
+
+
+253) OUTCLASS_B
+Attended religious services within your own religious tradition: Please indicate whether you participated in any of the following activities while employed at your college or university (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.466	0.499
+0) Unchecked	560	53.4
+1) Checked	488	46.6
+
+
+254) OUTCLASS_C
+Attended religious services for a religious tradition that is not your own: Please indicate whether you participated in any of the following activities while employed at your college or university (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.34	0.474
+0) Unchecked	692	66.0
+1) Checked	356	34.0
+
+
+255) OUTCLASS_D
+Participated in community service: Please indicate whether you participated in any of the following activities while employed at your college or university (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.607	0.489
+0) Unchecked	412	39.3
+1) Checked	636	60.7
+
+
+256) OUTCLASS_E
+Participated in an interfaith activity (dialogue, reflection, etc.): Please indicate whether you participated in any of the following activities while employed at your college or university (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.22	0.415
+0) Unchecked	817	78.0
+1) Checked	231	22.0
+
+
+257) OUTCLASS_F
+Served in a campus leadership role: Please indicate whether you participated in any of the following activities while employed at your college or university (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.45	0.498
+0) Unchecked	576	55.0
+1) Checked	472	45.0
+
+
+258) OUTCLASS_G
+Participated in multicultural campus activities: Please indicate whether you participated in any of the following activities while employed at your college or university (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.551	0.498
+0) Unchecked	471	44.9
+1) Checked	577	55.1
+
+
+259) OUTCLASS_H
+Participated as a leader in a religious, secular, or spiritual community off-campus: Please indicate whether you participated in any of the following activities while employed at your college or university (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.178	0.383
+0) Unchecked	861	82.2
+1) Checked	187	17.8
+
+
+260) OUTCLASS_I
+Participated in a campus interfaith group council: Please indicate whether you participated in any of the following activities while employed at your college or university (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.031	0.175
+0) Unchecked	1015	96.9
+1) Checked	33	3.1
+
+
+261) OUTCLASS_J
+Attended an interfaith prayer vigil/memorial on campus: Please indicate whether you participated in any of the following activities while employed at your college or university (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.22	0.415
+0) Unchecked	817	78.0
+1) Checked	231	22.0
+
+
+262) OUTCLASS_K
+Participated in an interfaith dialogue on campus: Please indicate whether you participated in any of the following activities while employed at your college or university (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.151	0.358
+0) Unchecked	890	84.9
+1) Checked	158	15.1
+
+
+263) OUTCLASS_L
+Attended a formal debate on campus between people with different religious, secular, or spiritual beliefs: Please indicate whether you participated in any of the following activities while employed at your college or university (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.123	0.329
+0) Unchecked	919	87.7
+1) Checked	129	12.3
+
+
+264) OUTCLASS_M
+Attended a lecture or panel discussing religious diversity or interfaith cooperation: Please indicate whether you participated in any of the following activities while employed at your college or university (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.319	0.466
+0) Unchecked	714	68.1
+1) Checked	334	31.9
+
+
+265) OUTCLASS_N
+Participated in interfaith or religious diversity training on campus: Please indicate whether you participated in any of the following activities while employed at your college or university (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.133	0.339
+0) Unchecked	909	86.7
+1) Checked	139	13.3
+
+
+266) OUTCLASS_O
+Participated in the leadership of my campus' interfaith initiatives: Please indicate whether you participated in any of the following activities while employed at your college or university (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.039	0.194
+0) Unchecked	1007	96.1
+1) Checked	41	3.9
+
+
+267) OUTCLASS_P
+Had conversations with people of diverse religious, secular, or spiritual perspectives about the values you have I common: Please indicate whether you participated in any of the following activities while employed at your college or university (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.534	0.499
+0) Unchecked	488	46.6
+1) Checked	560	53.4
+
+
+268) OUTCLASS_Q
+Attended an off-campus event designed to promote interfaith cooperation: Please indicate whether you participated in any of the following activities while employed at your college or university (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.177	0.381
+0) Unchecked	863	82.3
+1) Checked	185	17.7
+
+
+269) OUTCLASS_R
+None of the above: Please indicate whether you participated in any of the following activities while employed at your college or university (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.099	0.299
+0) Unchecked	944	90.1
+1) Checked	104	9.9
+
+
+270) LEARN_A
+Atheism: I have spent time learning about the following religious, secular, and spiritual traditions (this can include history, values, politics, communication styles, beliefs, and practices):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.511	0.5
+0) Unchecked	512	48.9
+1) Checked	536	51.1
+
+
+271) LEARN_B
+Buddhism: I have spent time learning about the following religious, secular, and spiritual traditions (this can include history, values, politics, communication styles, beliefs, and practices):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.542	0.498
+0) Unchecked	480	45.8
+1) Checked	568	54.2
+
+
+272) LEARN_C
+Christianity, Catholic: I have spent time learning about the following religious, secular, and spiritual traditions (this can include history, values, politics, communication styles, beliefs, and practices):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.737	0.441
+0) Unchecked	276	26.3
+1) Checked	772	73.7
+
+
+273) LEARN_D
+Christianity, Evangelical: I have spent time learning about the following religious, secular, and spiritual traditions (this can include history, values, politics, communication styles, beliefs, and practices):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.555	0.497
+0) Unchecked	466	44.5
+1) Checked	582	55.5
+
+
+274) LEARN_E
+Hinduism: I have spent time learning about the following religious, secular, and spiritual traditions (this can include history, values, politics, communication styles, beliefs, and practices):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.418	0.493
+0) Unchecked	610	58.2
+1) Checked	438	41.8
+
+
+275) LEARN_F
+Judaism: I have spent time learning about the following religious, secular, and spiritual traditions (this can include history, values, politics, communication styles, beliefs, and practices):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.733	0.443
+0) Unchecked	280	26.7
+1) Checked	768	73.3
+
+
+276) LEARN_G
+Christianity, Church of Jesus Christ of Latter-day Saints (Mormon): I have spent time learning about the following religious, secular, and spiritual traditions (this can include history, values, politics, communication styles, beliefs, and practices):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.496	0.5
+0) Unchecked	528	50.4
+1) Checked	520	49.6
+
+
+277) LEARN_H
+Islam: I have spent time learning about the following religious, secular, and spiritual traditions (this can include history, values, politics, communication styles, beliefs, and practices):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.673	0.469
+0) Unchecked	343	32.7
+1) Checked	705	67.3
+
+
+278) LEARN_I
+Christianity, Protestant: I have spent time learning about the following religious, secular, and spiritual traditions (this can include history, values, politics, communication styles, beliefs, and practices):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.659	0.474
+0) Unchecked	357	34.1
+1) Checked	691	65.9
+
+
+279) LEARN_J
+Christianity, Other: I have spent time learning about the following religious, secular, and spiritual traditions (this can include history, values, politics, communication styles, beliefs, and practices):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.373	0.484
+0) Unchecked	657	62.7
+1) Checked	391	37.3
+
+
+280) LEARN_K
+Indigenous, Native American, Native African - Wrote In: I have spent time learning about the following religious, secular, and spiritual traditions (this can include history, values, politics, communication styles, beliefs, and practices):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.029	0.167
+0) Unchecked	1018	97.1
+1) Checked	30	2.9
+
+
+281) LEARN_L
+Sikhism - Wrote In: I have spent time learning about the following religious, secular, and spiritual traditions (this can include history, values, politics, communication styles, beliefs, and practices):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.021	0.143
+0) Unchecked	1026	97.9
+1) Checked	22	2.1
+
+
+282) LEARN_M
+Baha'i - Wrote In: I have spent time learning about the following religious, secular, and spiritual traditions (this can include history, values, politics, communication styles, beliefs, and practices):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.011	0.106
+0) Unchecked	1036	98.9
+1) Checked	12	1.1
+
+
+283) LEARN_N
+Other (e.g., Daoism, Confucianism, Zoroastrianism, Jainism, Shintoism, Paganism, etc.): I have spent time learning about the following religious, secular, and spiritual traditions (this can include history, values, politics, communication styles, beliefs, and practices):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.042	0.201
+0) Unchecked	1004	95.8
+1) Checked	44	4.2
+
+
+284) SWDIV_B
+This campus is a welcoming place for people of different religious, secular, and spiritual identities: Please indicate the extent to which you agree with each of the statements below based on your perceptions or experiences while you've been employed at your college/university:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1046	3.685	1.014
+1) Strongly disagree	32	3.1
+2) Disagree	116	11.1
+3) Neither agree nor disagree	214	20.5
+4) Agree	472	45.1
+5) Strongly agree	212	20.3
+Missing	2
+
+
+285) SWDIV_C
+I am satisfied with the degree of religious, secular, and spiritual diversity on this campus: Please indicate the extent to which you agree with each of the statements below based on your perceptions or experiences while you've been employed at your college/university:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1046	3.487	1.017
+1) Strongly disagree	37	3.5
+2) Disagree	142	13.6
+3) Neither agree nor disagree	299	28.6
+4) Agree	411	39.3
+5) Strongly agree	157	15.0
+Missing	2
+
+
+286) SWDIV_D
+My department/program includes people of diverse religious, secular, and spiritual identities: Please indicate the extent to which you agree with each of the statements below based on your perceptions or experiences while you've been employed at your college/university:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1043	3.787	1.003
+1) Strongly disagree	30	2.9
+2) Disagree	97	9.3
+3) Neither agree nor disagree	188	18.0
+4) Agree	478	45.8
+5) Strongly agree	250	24.0
+Missing	5
+
+
+287) SWDIV_E
+My department/program is a welcoming place for people of different religious, secular, and spiritual identities: Please indicate the extent to which you agree with each of the statements below based on your perceptions or experiences while you've been employed at your college/university:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1042	3.985	0.906
+1) Strongly disagree	19	1.8
+2) Disagree	57	5.5
+3) Neither agree nor disagree	150	14.4
+4) Agree	511	49.0
+5) Strongly agree	305	29.3
+Missing	6
+
+
+288) SWDIV_F
+I am satisfied with the degree of religious, secular, and spiritual diversity in my department/program: Please indicate the extent to which you agree with each of the statements below based on your perceptions or experiences while you've been employed at your college/university:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1045	3.572	0.982
+1) Strongly disagree	28	2.7
+2) Disagree	113	10.8
+3) Neither agree nor disagree	315	30.1
+4) Agree	411	39.3
+5) Strongly agree	178	17.0
+Missing	3
+
+
+289) WELCAM_A
+Atheists: This campus is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1030	3.783	0.96
+1) Strongly disagree	25	2.4
+2) Disagree	72	7.0
+3) Neither agree nor disagree	244	23.7
+4) Agree	449	43.6
+5) Strongly agree	240	23.3
+Missing	18
+
+
+290) WELCAM_B
+Buddhists: This campus is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1023	3.688	0.915
+1) Strongly disagree	18	1.8
+2) Disagree	63	6.2
+3) Neither agree nor disagree	340	33.2
+4) Agree	401	39.2
+5) Strongly agree	201	19.6
+Missing	25
+
+
+291) WELCAM_G
+Christians, Latter-day Saints (Mormons): This campus is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1028	3.656	0.909
+1) Strongly disagree	16	1.6
+2) Disagree	73	7.1
+3) Neither agree nor disagree	347	33.8
+4) Agree	405	39.4
+5) Strongly agree	187	18.2
+Missing	20
+
+
+292) WELCAM_P
+Christians, Protestant: This campus is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1030	4.111	0.809
+1) Strongly disagree	10	1.0
+2) Disagree	26	2.5
+3) Neither agree nor disagree	148	14.4
+4) Agree	502	48.7
+5) Strongly agree	344	33.4
+Missing	18
+
+
+293) WELCAM_C
+Christians, Catholic: This campus is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1027	4.089	0.804
+1) Strongly disagree	9	0.9
+2) Disagree	25	2.4
+3) Neither agree nor disagree	161	15.7
+4) Agree	503	49.0
+5) Strongly agree	329	32.0
+Missing	21
+
+
+294) WELCAM_D
+Christians, Evangelical: This campus is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1025	3.904	0.922
+1) Strongly disagree	14	1.4
+2) Disagree	63	6.1
+3) Neither agree nor disagree	216	21.1
+4) Agree	446	43.5
+5) Strongly agree	286	27.9
+Missing	23
+
+
+295) WELCAM_Q
+Christians, Other: This campus is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1016	3.981	0.825
+1) Strongly disagree	8	0.8
+2) Disagree	30	3.0
+3) Neither agree nor disagree	217	21.4
+4) Agree	479	47.1
+5) Strongly agree	282	27.8
+Missing	32
+
+
+296) WELCAM_E
+Hindus: This campus is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1022	3.664	0.918
+1) Strongly disagree	17	1.7
+2) Disagree	74	7.2
+3) Neither agree nor disagree	335	32.8
+4) Agree	405	39.6
+5) Strongly agree	191	18.7
+Missing	26
+
+
+297) WELCAM_F
+Jews: This campus is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1029	3.688	0.957
+1) Strongly disagree	17	1.7
+2) Disagree	106	10.3
+3) Neither agree nor disagree	261	25.4
+4) Agree	442	43.0
+5) Strongly agree	203	19.7
+Missing	19
+
+
+298) WELCAM_H
+Muslims: This campus is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1030	3.523	1.032
+1) Strongly disagree	33	3.2
+2) Disagree	147	14.3
+3) Neither agree nor disagree	271	26.3
+4) Agree	406	39.4
+5) Strongly agree	173	16.8
+Missing	18
+
+
+299) WELCAM_I
+Politically-liberal people: This campus is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1034	4.045	0.893
+1) Strongly disagree	14	1.4
+2) Disagree	56	5.4
+3) Neither agree nor disagree	137	13.2
+4) Agree	489	47.3
+5) Strongly agree	338	32.7
+Missing	14
+
+
+300) WELCAM_J
+Politically-conservative people: This campus is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1027	3.61	1.061
+1) Strongly disagree	41	4.0
+2) Disagree	134	13.0
+3) Neither agree nor disagree	208	20.3
+4) Agree	446	43.4
+5) Strongly agree	198	19.3
+Missing	21
+
+
+301) WELCAM_K
+Gay, lesbian, and bisexual people: This campus is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1032	3.866	1.016
+1) Strongly disagree	30	2.9
+2) Disagree	84	8.1
+3) Neither agree nor disagree	178	17.2
+4) Agree	442	42.8
+5) Strongly agree	298	28.9
+Missing	16
+
+
+302) WELCAM_L
+Transgender people: This campus is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1031	3.645	1.143
+1) Strongly disagree	63	6.1
+2) Disagree	109	10.6
+3) Neither agree nor disagree	216	21.0
+4) Agree	386	37.4
+5) Strongly agree	257	24.9
+Missing	17
+
+
+303) WELCAM_M
+People of different socioeconomic backgrounds: This campus is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1034	3.723	1.03
+1) Strongly disagree	19	1.8
+2) Disagree	137	13.2
+3) Neither agree nor disagree	205	19.8
+4) Agree	423	40.9
+5) Strongly agree	250	24.2
+Missing	14
+
+
+304) WELCAM_N
+People of different races and ethnicities: This campus is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1028	3.864	0.988
+1) Strongly disagree	20	1.9
+2) Disagree	94	9.1
+3) Neither agree nor disagree	179	17.4
+4) Agree	448	43.6
+5) Strongly agree	287	27.9
+Missing	20
+
+
+305) WELCAM_O
+People of different countries: This campus is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1029	4.012	0.896
+1) Strongly disagree	11	1.1
+2) Disagree	62	6.0
+3) Neither agree nor disagree	155	15.1
+4) Agree	477	46.4
+5) Strongly agree	324	31.5
+Missing	19
+
+
+306) WELDEPT_A
+Atheists: This department/program is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1029	4.047	0.878
+1) Strongly disagree	15	1.5
+2) Disagree	32	3.1
+3) Neither agree nor disagree	187	18.2
+4) Agree	451	43.8
+5) Strongly agree	344	33.4
+Missing	19
+
+
+307) WELDEPT_B
+Buddhists: This department/program is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1024	3.947	0.881
+1) Strongly disagree	13	1.3
+2) Disagree	32	3.1
+3) Neither agree nor disagree	251	24.5
+4) Agree	428	41.8
+5) Strongly agree	300	29.3
+Missing	24
+
+
+308) WELDEPT_G
+Christians, Latter-day Saints (Mormons): This department/program is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1027	3.889	0.913
+1) Strongly disagree	16	1.6
+2) Disagree	40	3.9
+3) Neither agree nor disagree	275	26.8
+4) Agree	407	39.6
+5) Strongly agree	289	28.1
+Missing	21
+
+
+309) WELDEPT_P
+Christians, Protestant: This department/program is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1027	4.151	0.791
+1) Strongly disagree	8	0.8
+2) Disagree	22	2.1
+3) Neither agree nor disagree	141	13.7
+4) Agree	492	47.9
+5) Strongly agree	364	35.4
+Missing	21
+
+
+310) WELDEPT_C
+Christians, Catholic: This department/program is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1025	4.139	0.82
+1) Strongly disagree	13	1.3
+2) Disagree	19	1.9
+3) Neither agree nor disagree	148	14.4
+4) Agree	478	46.6
+5) Strongly agree	367	35.8
+Missing	23
+
+
+311) WELDEPT_D
+Christians, Evangelical: This department/program is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1022	3.998	0.905
+1) Strongly disagree	15	1.5
+2) Disagree	39	3.8
+3) Neither agree nor disagree	212	20.7
+4) Agree	423	41.4
+5) Strongly agree	333	32.6
+Missing	26
+
+
+312) WELDEPT_Q
+Christians, Other: This department/program is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1022	4.065	0.831
+1) Strongly disagree	11	1.1
+2) Disagree	18	1.8
+3) Neither agree nor disagree	202	19.8
+4) Agree	454	44.4
+5) Strongly agree	337	33.0
+Missing	26
+
+
+313) WELDEPT_E
+Hindus: This department/program is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1025	3.948	0.884
+1) Strongly disagree	14	1.4
+2) Disagree	35	3.4
+3) Neither agree nor disagree	239	23.3
+4) Agree	439	42.8
+5) Strongly agree	298	29.1
+Missing	23
+
+
+314) WELDEPT_F
+Jews: This department/program is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1028	4.021	0.862
+1) Strongly disagree	12	1.2
+2) Disagree	36	3.5
+3) Neither agree nor disagree	191	18.6
+4) Agree	468	45.5
+5) Strongly agree	321	31.2
+Missing	20
+
+
+315) WELDEPT_H
+Muslims: This department/program is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1026	3.958	0.897
+1) Strongly disagree	15	1.5
+2) Disagree	42	4.1
+3) Neither agree nor disagree	219	21.3
+4) Agree	445	43.4
+5) Strongly agree	305	29.7
+Missing	22
+
+
+316) WELDEPT_I
+Politically-liberal people: This department/program is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1033	4.258	0.756
+1) Strongly disagree	8	0.8
+2) Disagree	14	1.4
+3) Neither agree nor disagree	106	10.3
+4) Agree	480	46.5
+5) Strongly agree	425	41.1
+Missing	15
+
+
+317) WELDEPT_J
+Politically-conservative people: This department/program is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1030	3.603	1.106
+1) Strongly disagree	51	5.0
+2) Disagree	124	12.0
+3) Neither agree nor disagree	237	23.0
+4) Agree	389	37.8
+5) Strongly agree	229	22.2
+Missing	18
+
+
+318) WELDEPT_K
+Gay, lesbian, and bisexual people: This department/program is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1031	4.169	0.884
+1) Strongly disagree	20	1.9
+2) Disagree	31	3.0
+3) Neither agree nor disagree	117	11.3
+4) Agree	450	43.6
+5) Strongly agree	413	40.1
+Missing	17
+
+
+319) WELDEPT_L
+Transgender people: This department/program is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1028	4.033	0.937
+1) Strongly disagree	22	2.1
+2) Disagree	39	3.8
+3) Neither agree nor disagree	185	18.0
+4) Agree	419	40.8
+5) Strongly agree	363	35.3
+Missing	20
+
+
+320) WELDEPT_M
+People of different socioeconomic backgrounds: This department/program is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1031	4.101	0.894
+1) Strongly disagree	16	1.6
+2) Disagree	43	4.2
+3) Neither agree nor disagree	140	13.6
+4) Agree	454	44.0
+5) Strongly agree	378	36.7
+Missing	17
+
+
+321) WELDEPT_N
+People of different races and ethnicities: This department/program is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1030	4.202	0.846
+1) Strongly disagree	14	1.4
+2) Disagree	30	2.9
+3) Neither agree nor disagree	111	10.8
+4) Agree	454	44.1
+5) Strongly agree	421	40.9
+Missing	18
+
+
+322) WELDEPT_O
+People of different countries: This department/program is a welcoming place for:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1025	4.241	0.819
+1) Strongly disagree	13	1.3
+2) Disagree	24	2.3
+3) Neither agree nor disagree	100	9.8
+4) Agree	454	44.3
+5) Strongly agree	434	42.3
+Missing	23
+
+
+323) DIVISIVE_A
+There is a great deal of conflict among people of different religious, secular, or spiritual perspectives in my department/program: Please indicate the extent to which you agree with each of the statements below based on your perceptions or experiences while you've been employed at your college/university:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1044	1.659	0.89
+1) Strongly disagree	573	54.9
+2) Disagree	321	30.7
+3) Neither agree nor disagree	95	9.1
+4) Agree	43	4.1
+5) Strongly agree	12	1.1
+Missing	4
+
+
+324) DIVISIVE_B
+People of different religious, secular, or spiritual perspectives quarrel with one another in my department/program: Please indicate the extent to which you agree with each of the statements below based on your perceptions or experiences while you've been employed at your college/university:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1040	1.729	0.942
+1) Strongly disagree	542	52.1
+2) Disagree	320	30.8
+3) Neither agree nor disagree	112	10.8
+4) Agree	50	4.8
+5) Strongly agree	16	1.5
+Missing	8
+
+
+325) DIVISIVE_C
+Religious, secular, and spiritual differences create a sense of division in my department/program: Please indicate the extent to which you agree with each of the statements below based on your perceptions or experiences while you've been employed at your college/university:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1041	1.826	0.964
+1) Strongly disagree	481	46.2
+2) Disagree	353	33.9
+3) Neither agree nor disagree	129	12.4
+4) Agree	63	6.1
+5) Strongly agree	15	1.4
+Missing	7
+
+
+326) DIVISIVE_D
+People in my department/program interact most often with others of their same religious, secular, or spiritual identity: Please indicate the extent to which you agree with each of the statements below based on your perceptions or experiences while you've been employed at your college/university:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1039	2.676	1.169
+1) Strongly disagree	205	19.7
+2) Disagree	256	24.6
+3) Neither agree nor disagree	310	29.8
+4) Agree	207	19.9
+5) Strongly agree	61	5.9
+Missing	9
+
+
+327) SPACE_A
+This department/program is a safe place for me to express my religious, secular, or spiritual identity: Please indicate the extent to which you agree with each of the statements below based on your perceptions or experiences while you've been employed at your college/university:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1042	3.607	1.04
+1) Strongly disagree	41	3.9
+2) Disagree	103	9.9
+3) Neither agree nor disagree	294	28.2
+4) Agree	391	37.5
+5) Strongly agree	213	20.4
+Missing	6
+
+
+328) SPACE_B
+Faculty and staff in my department/program accommodate my needs with regard to celebrating holidays and other important observances connected to my religious, secular, or spiritual identity: Please indicate the extent to which you agree with each of the statements below based on your perceptions or experiences while you've been employed at your college/university:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1038	3.879	0.901
+1) Strongly disagree	14	1.3
+2) Disagree	36	3.5
+3) Neither agree nor disagree	300	28.9
+4) Agree	400	38.5
+5) Strongly agree	288	27.7
+Missing	10
+
+
+329) SPACE_C
+My classes are safe places for me to express my religious, secular, or spiritual identity: Please indicate the extent to which you agree with each of the statements below based on your perceptions or experiences while you've been employed at your college/university:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1042	3.235	1.087
+1) Strongly disagree	70	6.7
+2) Disagree	170	16.3
+3) Neither agree nor disagree	388	37.2
+4) Agree	273	26.2
+5) Strongly agree	141	13.5
+Missing	6
+
+
+330) DISCRIM_A
+Religious, secular, or spiritual identity: While you have been employed at your college or university, how often have you felt that people on campus used their religious, secular, or spiritual perspective to justify treating you in a discriminatory manner on the basis of your...
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1040	1.436	1.088
+1) Never	830	79.8
+2) Less than once a year	102	9.8
+3) Once a year	41	3.9
+4) Once a semester	29	2.8
+5) Once a month	19	1.8
+6) Once a week	8	0.8
+7) More than once a week	11	1.1
+Missing	8
+
+
+331) DISCRIM_B
+Gender identity: While you have been employed at your college or university, how often have you felt that people on campus used their religious, secular, or spiritual perspective to justify treating you in a discriminatory manner on the basis of your...
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1042	1.518	1.173
+1) Never	813	78.0
+2) Less than once a year	90	8.6
+3) Once a year	43	4.1
+4) Once a semester	44	4.2
+5) Once a month	31	3.0
+6) Once a week	18	1.7
+7) More than once a week	3	0.3
+Missing	6
+
+
+332) DISCRIM_C
+Sexual orientation: While you have been employed at your college or university, how often have you felt that people on campus used their religious, secular, or spiritual perspective to justify treating you in a discriminatory manner on the basis of your...
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1042	1.235	0.882
+1) Never	946	90.8
+2) Less than once a year	38	3.6
+3) Once a year	14	1.3
+4) Once a semester	17	1.6
+5) Once a month	11	1.1
+6) Once a week	12	1.2
+7) More than once a week	4	0.4
+Missing	6
+
+
+333) DISCRIM_D
+Race or ethnicity: While you have been employed at your college or university, how often have you felt that people on campus used their religious, secular, or spiritual perspective to justify treating you in a discriminatory manner on the basis of your...
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1042	1.497	1.184
+1) Never	829	79.6
+2) Less than once a year	83	8.0
+3) Once a year	38	3.6
+4) Once a semester	39	3.7
+5) Once a month	30	2.9
+6) Once a week	16	1.5
+7) More than once a week	7	0.7
+Missing	6
+
+
+334) COERCIVE_A
+Change your religious, secular, or spiritual perspective: While you have been employed at your college or university, how often have you felt pressured by others to:
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1041	1.32	1.021
+1) Never	911	87.5
+2) Less than once a year	48	4.6
+3) Once a year	25	2.4
+4) Once a semester	23	2.2
+5) Once a month	15	1.4
+6) Once a week	8	0.8
+7) More than once a week	11	1.1
+Missing	7
+
+
+335) COERCIVE_B
+Listen to others' religious, secular, or spiritual perspectives when you didn't want to hear about them: While you have been employed at your college or university, how often have you felt pressured by others to:
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1041	1.857	1.501
+1) Never	705	67.7
+2) Less than once a year	102	9.8
+3) Once a year	65	6.2
+4) Once a semester	76	7.3
+5) Once a month	49	4.7
+6) Once a week	28	2.7
+7) More than once a week	16	1.5
+Missing	7
+
+
+336) COERCIVE_C
+Keep your religious, secular, or spiritual identity to yourself: While you have been employed at your college or university, how often have you felt pressured by others to:
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1038	1.971	1.73
+1) Never	715	68.9
+2) Less than once a year	76	7.3
+3) Once a year	56	5.4
+4) Once a semester	67	6.5
+5) Once a month	46	4.4
+6) Once a week	33	3.2
+7) More than once a week	45	4.3
+Missing	10
+
+
+337) COERCIVE_D
+Separate your academic experience from your personal religious, secular, or spiritual identity: While you have been employed at your college or university, how often have you felt pressured by others to:
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1035	1.892	1.669
+1) Never	736	71.1
+2) Less than once a year	74	7.1
+3) Once a year	49	4.7
+4) Once a semester	60	5.8
+5) Once a month	46	4.4
+6) Once a week	33	3.2
+7) More than once a week	37	3.6
+Missing	13
+
+
+338) PROVDIV_A
+Had faculty discussions that challenged you to rethink your assumptions about another religious, secular, or spiritual identity: While you have been employed at your college or university, how often have you:
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1033	2.022	1.31
+1) Never	530	51.3
+2) Less than once a year	199	19.3
+3) Once a year	128	12.4
+4) Once a semester	121	11.7
+5) Once a month	41	4.0
+6) Once a week	10	1.0
+7) More than once a week	4	0.4
+Missing	15
+
+
+339) PROVDIV_B
+Had class discussions that challenged you to rethink your assumptions about another religious, secular, or spiritual identity: While you have been employed at your college or university, how often have you:
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1035	2.049	1.354
+1) Never	536	51.8
+2) Less than once a year	179	17.3
+3) Once a year	137	13.2
+4) Once a semester	127	12.3
+5) Once a month	36	3.5
+6) Once a week	12	1.2
+7) More than once a week	8	0.8
+Missing	13
+
+
+340) PROVDIV_C
+Felt challenged to rethink your assumptions about someone else's religious, secular, or spiritual identity after they explained their religious, secular, or spiritual identity to you: While you have been employed at your college or university, how often have you:
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1035	2.153	1.341
+1) Never	474	45.8
+2) Less than once a year	213	20.6
+3) Once a year	142	13.7
+4) Once a semester	150	14.5
+5) Once a month	39	3.8
+6) Once a week	12	1.2
+7) More than once a week	5	0.5
+Missing	13
+
+
+341) PROVDIV_D
+Had a discussion with someone of another religious, secular, or spiritual identity that had a positive influence on your perceptions of that identity: While you have been employed at your college or university, how often have you:
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1038	2.81	1.584
+1) Never	310	29.9
+2) Less than once a year	171	16.5
+3) Once a year	181	17.4
+4) Once a semester	236	22.7
+5) Once a month	83	8.0
+6) Once a week	36	3.5
+7) More than once a week	21	2.0
+Missing	10
+
+
+342) PROVDIV_E
+Heard critical comments from others about your religious, secular, or spiritual identity that made you question your perspective: While you have been employed at your college or university, how often have you:
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1036	1.713	1.246
+1) Never	693	66.9
+2) Less than once a year	141	13.6
+3) Once a year	82	7.9
+4) Once a semester	73	7.0
+5) Once a month	26	2.5
+6) Once a week	15	1.4
+7) More than once a week	6	0.6
+Missing	12
+
+
+343) PROVDIV_F
+Had a discussion with someone that made you feel like you did not know enough about your own religious, secular, or spiritual identity: While you have been employed at your college or university, how often have you:
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1035	1.818	1.248
+1) Never	622	60.1
+2) Less than once a year	179	17.3
+3) Once a year	107	10.3
+4) Once a semester	71	6.9
+5) Once a month	43	4.2
+6) Once a week	9	0.9
+7) More than once a week	4	0.4
+Missing	13
+
+
+344) PROVDIV_G
+Had a discussion with someone from your own religious, secular, or spiritual identity with whom you disagree: While you have been employed at your college or university, how often have you:
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1032	2.715	1.758
+1) Never	380	36.8
+2) Less than once a year	187	18.1
+3) Once a year	116	11.2
+4) Once a semester	161	15.6
+5) Once a month	107	10.4
+6) Once a week	46	4.5
+7) More than once a week	35	3.4
+Missing	16
+
+
+345) INSENSIT_A
+Faculty in your department: On this campus, how often have you heard/read insensitive comments about your religious, secular, or spiritual identity from:
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1040	1.495	1.119
+1) Never	801	77.0
+2) Less than once a year	108	10.4
+3) Once a year	52	5.0
+4) Once a semester	39	3.8
+5) Once a month	21	2.0
+6) Once a week	12	1.2
+7) More than once a week	7	0.7
+Missing	8
+
+
+346) INSENSIT_B
+Faculty outside your department: On this campus, how often have you heard/read insensitive comments about your religious, secular, or spiritual identity from:
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1039	1.652	1.241
+1) Never	743	71.5
+2) Less than once a year	107	10.3
+3) Once a year	76	7.3
+4) Once a semester	59	5.7
+5) Once a month	34	3.3
+6) Once a week	15	1.4
+7) More than once a week	5	0.5
+Missing	9
+
+
+347) INSENSIT_C
+Campus staff: On this campus, how often have you heard/read insensitive comments about your religious, secular, or spiritual identity from:
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1038	1.384	1.002
+1) Never	858	82.7
+2) Less than once a year	73	7.0
+3) Once a year	42	4.0
+4) Once a semester	35	3.4
+5) Once a month	16	1.5
+6) Once a week	11	1.1
+7) More than once a week	3	0.3
+Missing	10
+
+
+348) INSENSIT_D
+Administrators: On this campus, how often have you heard/read insensitive comments about your religious, secular, or spiritual identity from:
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1035	1.477	1.114
+1) Never	816	78.8
+2) Less than once a year	85	8.2
+3) Once a year	56	5.4
+4) Once a semester	40	3.9
+5) Once a month	21	2.0
+6) Once a week	9	0.9
+7) More than once a week	8	0.8
+Missing	13
+
+
+349) INSENSIT_E
+Students in your classes: On this campus, how often have you heard/read insensitive comments about your religious, secular, or spiritual identity from:
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1034	1.695	1.229
+1) Never	702	67.9
+2) Less than once a year	137	13.2
+3) Once a year	68	6.6
+4) Once a semester	83	8.0
+5) Once a month	28	2.7
+6) Once a week	11	1.1
+7) More than once a week	5	0.5
+Missing	14
+
+
+350) INSENSIT_F
+Students outside your classes: On this campus, how often have you heard/read insensitive comments about your religious, secular, or spiritual identity from:
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1034	1.624	1.256
+1) Never	758	73.3
+2) Less than once a year	110	10.6
+3) Once a year	47	4.5
+4) Once a semester	66	6.4
+5) Once a month	28	2.7
+6) Once a week	19	1.8
+7) More than once a week	6	0.6
+Missing	14
+
+
+351) NEGINT_A
+Felt silenced from sharing your own experiences with prejudice and discrimination: Regarding your interactions with people whose religious, secular, or spiritual identities differ from yours, how often have you:
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1036	1.693	1.335
+1) Never	738	71.2
+2) Less than once a year	107	10.3
+3) Once a year	68	6.6
+4) Once a semester	60	5.8
+5) Once a month	34	3.3
+6) Once a week	15	1.4
+7) More than once a week	14	1.4
+Missing	12
+
+
+352) NEGINT_B
+Had guarded, cautious interactions: Regarding your interactions with people whose religious, secular, or spiritual identities differ from yours, how often have you:
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1037	2.405	1.624
+1) Never	453	43.7
+2) Less than once a year	186	17.9
+3) Once a year	132	12.7
+4) Once a semester	136	13.1
+5) Once a month	76	7.3
+6) Once a week	29	2.8
+7) More than once a week	25	2.4
+Missing	11
+
+
+353) NEGINT_C
+Had tense, somewhat hostile interactions: Regarding your interactions with people whose religious, secular, or spiritual identities differ from yours, how often have you:
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1038	1.455	0.995
+1) Never	788	75.9
+2) Less than once a year	137	13.2
+3) Once a year	46	4.4
+4) Once a semester	37	3.6
+5) Once a month	18	1.7
+6) Once a week	12	1.2
+Missing	10
+
+
+354) NEGINT_D
+Had hurtful, hostile interactions: Regarding your interactions with people whose religious, secular, or spiritual identities differ from yours, how often have you:
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1038	1.35	0.898
+1) Never	844	81.3
+2) Less than once a year	108	10.4
+3) Once a year	37	3.6
+4) Once a semester	28	2.7
+5) Once a month	9	0.9
+6) Once a week	11	1.1
+7) More than once a week	1	0.1
+Missing	10
+
+
+355) ONEFRIEND_A
+Atheist: I have at least one friend who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.779	0.415
+0) Unchecked	232	22.1
+1) Checked	816	77.9
+
+
+356) ONEFRIEND_B
+Agnostic: I have at least one friend who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.73	0.444
+0) Unchecked	283	27.0
+1) Checked	765	73.0
+
+
+357) ONEFRIEND_C
+Buddhist: I have at least one friend who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.441	0.497
+0) Unchecked	586	55.9
+1) Checked	462	44.1
+
+
+358) ONEFRIEND_H
+Christian, Latter-day Saint (Mormon): I have at least one friend who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.423	0.494
+0) Unchecked	605	57.7
+1) Checked	443	42.3
+
+
+359) ONEFRIEND_O
+Christian, Protestant: I have at least one friend who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.834	0.372
+0) Unchecked	174	16.6
+1) Checked	874	83.4
+
+
+360) ONEFRIEND_D
+Christian, Catholic: I have at least one friend who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.891	0.312
+0) Unchecked	114	10.9
+1) Checked	934	89.1
+
+
+361) ONEFRIEND_E
+Christian, Evangelical: I have at least one friend who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.573	0.495
+0) Unchecked	448	42.7
+1) Checked	600	57.3
+
+
+362) ONEFRIEND_P
+Christian, Other: I have at least one friend who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.414	0.493
+0) Unchecked	614	58.6
+1) Checked	434	41.4
+
+
+363) ONEFRIEND_F
+Hindu: I have at least one friend who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.469	0.499
+0) Unchecked	556	53.1
+1) Checked	492	46.9
+
+
+364) ONEFRIEND_Q
+Indigenous/Native American: I have at least one friend who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.334	0.472
+0) Unchecked	698	66.6
+1) Checked	350	33.4
+
+
+365) ONEFRIEND_G
+Jewish: I have at least one friend who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.816	0.388
+0) Unchecked	193	18.4
+1) Checked	855	81.6
+
+
+366) ONEFRIEND_I
+Muslim: I have at least one friend who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.646	0.478
+0) Unchecked	371	35.4
+1) Checked	677	64.6
+
+
+367) ONEFRIEND_J
+Multifaith: I have at least one friend who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.28	0.449
+0) Unchecked	755	72.0
+1) Checked	293	28.0
+
+
+368) ONEFRIEND_K
+Spiritual, but not religious: I have at least one friend who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.781	0.413
+0) Unchecked	229	21.9
+1) Checked	819	78.1
+
+
+369) ONEFRIEND_L
+Different sexuality: I have at least one friend who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.842	0.365
+0) Unchecked	166	15.8
+1) Checked	882	84.2
+
+
+370) ONEFRIEND_M
+Different racial background: I have at least one friend who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.888	0.315
+0) Unchecked	117	11.2
+1) Checked	931	88.8
+
+
+371) ONEFRIEND_N
+Different from me politically: I have at least one friend who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.829	0.377
+0) Unchecked	179	17.1
+1) Checked	869	82.9
+
+
+372) ONEFACULTY_A
+Atheist: I have at least one faculty colleague on campus who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.596	0.491
+0) Unchecked	423	40.4
+1) Checked	625	59.6
+
+
+373) ONEFACULTY_B
+Agnostic: I have at least one faculty colleague on campus who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.553	0.497
+0) Unchecked	468	44.7
+1) Checked	580	55.3
+
+
+374) ONEFACULTY_C
+Buddhist: I have at least one faculty colleague on campus who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.277	0.448
+0) Unchecked	758	72.3
+1) Checked	290	27.7
+
+
+375) ONEFACULTY_H
+Christian, Latter-day Saint (Mormon): I have at least one faculty colleague on campus who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.209	0.407
+0) Unchecked	829	79.1
+1) Checked	219	20.9
+
+
+376) ONEFACULTY_O
+Christian, Protestant: I have at least one faculty colleague on campus who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.729	0.445
+0) Unchecked	284	27.1
+1) Checked	764	72.9
+
+
+377) ONEFACULTY_D
+Christian, Catholic: I have at least one faculty colleague on campus who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.744	0.436
+0) Unchecked	268	25.6
+1) Checked	780	74.4
+
+
+378) ONEFACULTY_E
+Christian, Evangelical: I have at least one faculty colleague on campus who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.418	0.493
+0) Unchecked	610	58.2
+1) Checked	438	41.8
+
+
+379) ONEFACULTY_P
+Christian, Other: I have at least one faculty colleague on campus who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.344	0.475
+0) Unchecked	688	65.6
+1) Checked	360	34.4
+
+
+380) ONEFACULTY_F
+Hindu: I have at least one faculty colleague on campus who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.351	0.478
+0) Unchecked	680	64.9
+1) Checked	368	35.1
+
+
+381) ONEFACULTY_Q
+Indigenous/Native American: I have at least one faculty colleague on campus who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.217	0.412
+0) Unchecked	821	78.3
+1) Checked	227	21.7
+
+
+382) ONEFACULTY_G
+Jewish: I have at least one faculty colleague on campus who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.65	0.477
+0) Unchecked	367	35.0
+1) Checked	681	65.0
+
+
+383) ONEFACULTY_I
+Muslim: I have at least one faculty colleague on campus who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.514	0.5
+0) Unchecked	509	48.6
+1) Checked	539	51.4
+
+
+384) ONEFACULTY_J
+Multifaith: I have at least one faculty colleague on campus who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.219	0.414
+0) Unchecked	818	78.1
+1) Checked	230	21.9
+
+
+385) ONEFACULTY_K
+Spiritual, but not religious: I have at least one faculty colleague on campus who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.581	0.494
+0) Unchecked	439	41.9
+1) Checked	609	58.1
+
+
+386) ONEFACULTY_L
+Different racial background: I have at least one faculty colleague on campus who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.853	0.354
+0) Unchecked	154	14.7
+1) Checked	894	85.3
+
+
+387) ONEFACULTY_M
+Different sexual orientation: I have at least one faculty colleague on campus who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.729	0.445
+0) Unchecked	284	27.1
+1) Checked	764	72.9
+
+
+388) ONEFACULTY_N
+Different from me politically: I have at least one faculty colleague on campus who is (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.8	0.4
+0) Unchecked	210	20.0
+1) Checked	838	80.0
+
+
+389) PRESSURE_A
+Felt pressured by people of your own religious, secular, or spiritual identity not to engage with people of other beliefs: While you have been employed at your college or university, how often have you:
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1040	1.227	0.802
+1) Never	928	89.2
+2) Less than once a year	55	5.3
+3) Once a year	22	2.1
+4) Once a semester	19	1.8
+5) Once a month	4	0.4
+6) Once a week	8	0.8
+7) More than once a week	4	0.4
+Missing	8
+
+
+390) PRESSURE_B
+Stayed quiet rather than voicing your honest perspective to avoid conflict during challenging conversations: While you have been employed at your college or university, how often have you:
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1041	2.811	1.704
+1) Never	361	34.7
+2) Less than once a year	154	14.8
+3) Once a year	127	12.2
+4) Once a semester	206	19.8
+5) Once a month	129	12.4
+6) Once a week	41	3.9
+7) More than once a week	23	2.2
+Missing	7
+
+
+391) PRESSURE_C
+Worried about building relationships with people of other beliefs because of how people of your religious, secular, or spiritual community might perceive you: While you have been employed at your college or university, how often have you:
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1039	1.39	1.034
+1) Never	859	82.7
+2) Less than once a year	79	7.6
+3) Once a year	32	3.1
+4) Once a semester	36	3.5
+5) Once a month	16	1.5
+6) Once a week	12	1.2
+7) More than once a week	5	0.5
+Missing	9
+
+
+392) SINCESTART_A
+Had a significant disagreement with a colleague about religion: Please indicate whether you have experienced the following since starting in your faculty role (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.118	0.323
+0) Unchecked	924	88.2
+1) Checked	124	11.8
+
+
+393) SINCESTART_B
+Had a significant disagreement with a colleague about politics: Please indicate whether you have experienced the following since starting in your faculty role (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.322	0.467
+0) Unchecked	711	67.8
+1) Checked	337	32.2
+
+
+394) SINCESTART_C
+Stayed close to someone I care about even though our religious, secular, or spiritual perspectives were incompatible: Please indicate whether you have experienced the following since starting in your faculty role (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.567	0.496
+0) Unchecked	454	43.3
+1) Checked	594	56.7
+
+
+395) SINCESTART_D
+Initiated a conversation with someone of a different religious, secular, or spiritual perspective to learn about the person's beliefs and values: Please indicate whether you have experienced the following since starting in your faculty role (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.52	0.5
+0) Unchecked	503	48.0
+1) Checked	545	52.0
+
+
+396) SINCESTART_E
+Spent my free time with someone of a different religious, secular, or spiritual perspective: Please indicate whether you have experienced the following since starting in your faculty role (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.737	0.441
+0) Unchecked	276	26.3
+1) Checked	772	73.7
+
+
+397) SINCESTART_F
+Spoke up in defense of someone with a different religious, secular, or spiritual perspective: Please indicate whether you have experienced the following since starting in your faculty role (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.475	0.5
+0) Unchecked	550	52.5
+1) Checked	498	47.5
+
+
+398) SINCESTART_G
+None of the above: Please indicate whether you have experienced the following since starting in your faculty role (check all that apply):
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1048	0.104	0.305
+0) Unchecked	939	89.6
+1) Checked	109	10.4
+
+
+399) RACE_DEI
+Racial diversity, equity and inclusion (DEI): My institution should focus on improving:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1039	3.544	1.196
+1) Strongly disagree	94	9.0
+2) Disagree	86	8.3
+3) Neither agree nor disagree	266	25.6
+4) Agree	347	33.4
+5) Strongly agree	246	23.7
+Missing	9
+
+
+400) RELIG_DEI
+Religious diversity, equity, and inclusion (DEI): My institution should focus on improving:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1036	3.313	1.122
+1) Strongly disagree	92	8.9
+2) Disagree	116	11.2
+3) Neither agree nor disagree	352	34.0
+4) Agree	328	31.7
+5) Strongly agree	148	14.3
+Missing	12
+
+
+401) GEND_DEI
+Gender-based diversity, equity, and inclusion (DEI): My institution should focus on improving:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1034	3.353	1.163
+1) Strongly disagree	103	10.0
+2) Disagree	101	9.8
+3) Neither agree nor disagree	329	31.8
+4) Agree	330	31.9
+5) Strongly agree	171	16.5
+Missing	14
+
+
+402) DISAB_DEI
+Disability-based diversity, equity, and inclusion (DEI): My institution should focus on improving:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1036	3.567	1.158
+1) Strongly disagree	83	8.0
+2) Disagree	80	7.7
+3) Neither agree nor disagree	278	26.8
+4) Agree	357	34.5
+5) Strongly agree	238	23.0
+Missing	12
+
+
+403) SEX_DEI
+Sexuality-based diversity, equity, and inclusion (DEI): My institution should focus on improving:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1035	3.311	1.177
+1) Strongly disagree	105	10.1
+2) Disagree	115	11.1
+3) Neither agree nor disagree	343	33.1
+4) Agree	297	28.7
+5) Strongly agree	175	16.9
+Missing	13
+
+
+404) ECON_DEI
+Economic diversity, equity, and inclusion (DEI): My institution should focus on improving:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1034	3.699	1.131
+1) Strongly disagree	72	7.0
+2) Disagree	69	6.7
+3) Neither agree nor disagree	224	21.7
+4) Agree	402	38.9
+5) Strongly agree	267	25.8
+Missing	14
+
+
+405) POLITIC_DEI
+Political diversity, equity, and inclusion (DEI): My institution should focus on improving:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1034	3.336	1.119
+1) Strongly disagree	91	8.8
+2) Disagree	110	10.6
+3) Neither agree nor disagree	342	33.1
+4) Agree	343	33.2
+5) Strongly agree	148	14.3
+Missing	14
+
+
+406) RACE_DIV
+Racial diversity on campus: Institutional leadership is committed to supporting and promoting:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1036	3.802	1.004
+1) Strongly disagree	31	3.0
+2) Disagree	94	9.1
+3) Neither agree nor disagree	176	17.0
+4) Agree	483	46.6
+5) Strongly agree	252	24.3
+Missing	12
+
+
+407) RELIG_DIV
+Religious diversity on campus: Institutional leadership is committed to supporting and promoting:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1035	3.258	1.056
+1) Strongly disagree	72	7.0
+2) Disagree	154	14.9
+3) Neither agree nor disagree	352	34.0
+4) Agree	349	33.7
+5) Strongly agree	108	10.4
+Missing	13
+
+
+408) GEND_DIV
+Gender diversity on campus: Institutional leadership is committed to supporting and promoting:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1035	3.675	0.987
+1) Strongly disagree	40	3.9
+2) Disagree	81	7.8
+3) Neither agree nor disagree	243	23.5
+4) Agree	482	46.6
+5) Strongly agree	189	18.3
+Missing	13
+
+
+409) DISAB_DIV
+Disability diversity on campus: Institutional leadership is committed to supporting and promoting:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1033	3.5	0.993
+1) Strongly disagree	31	3.0
+2) Disagree	137	13.3
+3) Neither agree nor disagree	300	29.0
+4) Agree	415	40.2
+5) Strongly agree	150	14.5
+Missing	15
+
+
+410) SEX_DIV
+Sexual diversity on campus: Institutional leadership is committed to supporting and promoting:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1036	3.524	1.071
+1) Strongly disagree	66	6.4
+2) Disagree	95	9.2
+3) Neither agree nor disagree	276	26.6
+4) Agree	428	41.3
+5) Strongly agree	171	16.5
+Missing	12
+
+
+411) ECON_DIV
+Economic diversity on campus: Institutional leadership is committed to supporting and promoting:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1034	3.522	1.03
+1) Strongly disagree	39	3.8
+2) Disagree	136	13.2
+3) Neither agree nor disagree	271	26.2
+4) Agree	422	40.8
+5) Strongly agree	166	16.1
+Missing	14
+
+
+412) POLITIC_DIV
+Political diversity on campus: Institutional leadership is committed to supporting and promoting:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1035	3.125	1.051
+1) Strongly disagree	85	8.2
+2) Disagree	172	16.6
+3) Neither agree nor disagree	395	38.2
+4) Agree	295	28.5
+5) Strongly agree	88	8.5
+Missing	13
+
+
+413) RACE_DEPT
+Racial diversity in the department: My colleagues are committed to supporting and promoting:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1038	3.943	0.927
+1) Strongly disagree	21	2.0
+2) Disagree	53	5.1
+3) Neither agree nor disagree	192	18.5
+4) Agree	470	45.3
+5) Strongly agree	302	29.1
+Missing	10
+
+
+414) RELIG_DEPT
+Religious diversity in the department: My colleagues are committed to supporting and promoting:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1039	3.359	1.003
+1) Strongly disagree	50	4.8
+2) Disagree	112	10.8
+3) Neither agree nor disagree	433	41.7
+4) Agree	303	29.2
+5) Strongly agree	141	13.6
+Missing	9
+
+
+415) GEND_DEPT
+Gender diversity in the department: My colleagues are committed to supporting and promoting:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1040	3.9	0.891
+1) Strongly disagree	23	2.2
+2) Disagree	37	3.6
+3) Neither agree nor disagree	221	21.3
+4) Agree	499	48.0
+5) Strongly agree	260	25.0
+Missing	8
+
+
+416) DISAB_DEPT
+Disability diversity in the department: My colleagues are committed to supporting and promoting:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1039	3.587	0.98
+1) Strongly disagree	31	3.0
+2) Disagree	79	7.6
+3) Neither agree nor disagree	379	36.5
+4) Agree	349	33.6
+5) Strongly agree	201	19.3
+Missing	9
+
+
+417) SEX_DEPT
+Sexuality diversity in the department: My colleagues are committed to supporting and promoting:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1040	3.712	0.993
+1) Strongly disagree	36	3.5
+2) Disagree	53	5.1
+3) Neither agree nor disagree	331	31.8
+4) Agree	375	36.1
+5) Strongly agree	245	23.6
+Missing	8
+
+
+418) ECON_DEPT
+Economic diversity in the department: My colleagues are committed to supporting and promoting:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1037	3.57	0.971
+1) Strongly disagree	30	2.9
+2) Disagree	80	7.7
+3) Neither agree nor disagree	387	37.3
+4) Agree	349	33.7
+5) Strongly agree	191	18.4
+Missing	11
+
+
+419) POLITIC_DEPT
+Political diversity in the department: My colleagues are committed to supporting and promoting:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1038	3.137	1.056
+1) Strongly disagree	77	7.4
+2) Disagree	173	16.7
+3) Neither agree nor disagree	432	41.6
+4) Agree	243	23.4
+5) Strongly agree	113	10.9
+Missing	10
+
+
+420) PS_IDENTITY
+Colleges and universities should continue to offer identity-specific organizations and programming.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1036	3.658	1.111
+1) Strongly disagree	68	6.6
+2) Disagree	81	7.8
+3) Neither agree nor disagree	225	21.7
+4) Agree	425	41.0
+5) Strongly agree	237	22.9
+Missing	12
+
+
+421) PS_SUCCESS
+Campus diversity programs support student success.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1036	3.916	1.029
+1) Strongly disagree	38	3.7
+2) Disagree	57	5.5
+3) Neither agree nor disagree	196	18.9
+4) Agree	408	39.4
+5) Strongly agree	337	32.5
+Missing	12
+
+
+422) PS_ANTISEM
+Campus diversity programs should address issues relating to Antisemitism on campus.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1036	3.947	0.891
+1) Strongly disagree	29	2.8
+2) Disagree	25	2.4
+3) Neither agree nor disagree	191	18.4
+4) Agree	518	50.0
+5) Strongly agree	273	26.4
+Missing	12
+
+
+423) PS_ISLAMO
+Campus diversity programs should address issues relating to Islamophobia on campus.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1036	3.901	0.963
+1) Strongly disagree	37	3.6
+2) Disagree	37	3.6
+3) Neither agree nor disagree	204	19.7
+4) Agree	472	45.6
+5) Strongly agree	286	27.6
+Missing	12
+
+
+424) PS_EVANG
+Campus diversity programs should support evangelical students on campus.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1036	3.419	1.024
+1) Strongly disagree	57	5.5
+2) Disagree	106	10.2
+3) Neither agree nor disagree	359	34.7
+4) Agree	374	36.1
+5) Strongly agree	140	13.5
+Missing	12
+
+
+425) PS_POLCON
+Campus diversity programs should support politically conservative students on campus.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1036	3.478	1.034
+1) Strongly disagree	63	6.1
+2) Disagree	88	8.5
+3) Neither agree nor disagree	323	31.2
+4) Agree	415	40.1
+5) Strongly agree	147	14.2
+Missing	12
+
+
+426) PS_SERV_RSSI
+Campus diversity programs should serve people of all religious, secular, and spiritual identities.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1035	4.214	0.84
+1) Strongly disagree	17	1.6
+2) Disagree	16	1.5
+3) Neither agree nor disagree	128	12.4
+4) Agree	441	42.6
+5) Strongly agree	433	41.8
+Missing	13
+
+
+427) PS_BAN_HARM
+Banning campus diversity programs will negatively impact many students.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1036	3.829	1.18
+1) Strongly disagree	63	6.1
+2) Disagree	91	8.8
+3) Neither agree nor disagree	173	16.7
+4) Agree	342	33.0
+5) Strongly agree	367	35.4
+Missing	12
+
+
+428) PS_GEN
+Programming and support for students should be general instead of targeting specific identities.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1032	2.994	1.195
+1) Strongly disagree	106	10.3
+2) Disagree	288	27.9
+3) Neither agree nor disagree	277	26.8
+4) Agree	228	22.1
+5) Strongly agree	133	12.9
+Missing	16
+
+
+429) PS_HARM
+Diversity programs generally do more harm than good on college and university campuses.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1034	2.292	1.206
+1) Strongly disagree	334	32.3
+2) Disagree	309	29.9
+3) Neither agree nor disagree	211	20.4
+4) Agree	115	11.1
+5) Strongly agree	65	6.3
+Missing	14
+
+
+430) PS_BAN_JUST
+The current efforts to ban campus diversity programs are well justified.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1037	2.125	1.194
+1) Strongly disagree	419	40.4
+2) Disagree	275	26.5
+3) Neither agree nor disagree	194	18.7
+4) Agree	92	8.9
+5) Strongly agree	57	5.5
+Missing	11
+
+
+431) PS_TOO_FAR
+The promotion of diversity, equity, and inclusion on college and university campuses has gone too far.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1039	2.606	1.373
+1) Strongly disagree	295	28.4
+2) Disagree	253	24.4
+3) Neither agree nor disagree	183	17.6
+4) Agree	182	17.5
+5) Strongly agree	126	12.1
+Missing	9
+
+
+432) PS_NORSSI
+Campuses should not concern themselves with religious, secular, and spiritual diversity.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1033	2.306	1.123
+1) Strongly disagree	268	25.9
+2) Disagree	395	38.2
+3) Neither agree nor disagree	215	20.8
+4) Agree	96	9.3
+5) Strongly agree	59	5.7
+Missing	15
+
+
+433) PS_SPRT_RSSI
+Colleges and universities should provide support for students of all religious, secular, and spiritual identities and backgrounds.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1036	4.333	0.789
+1) Strongly disagree	14	1.4
+2) Disagree	14	1.4
+3) Neither agree nor disagree	81	7.8
+4) Agree	431	41.6
+5) Strongly agree	496	47.9
+Missing	12
+
+
+434) LEGIS_PASS
+Has legislation been passed in your institution's state banning or limiting DEI in higher education?
+RANGE: 0 to 8
+	N	Mean	Std. Deviation
+Total	1042	2.08	3.249
+0) No	541	51.9
+1) Yes	263	25.2
+8) I do not know	238	22.8
+Missing	6
+
+
+435) FIRST_AMEND_A
+I am aware of my rights and responsibilities around the First Amendment of the U.S. Constitution: The First Amendment protects freedom of speech, freedom of religion, freedom of the press, freedom of assembly, and freedom to petition:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1040	4.133	0.831
+1) Strongly disagree	10	1.0
+2) Disagree	43	4.1
+3) Neither agree nor disagree	110	10.6
+4) Agree	513	49.3
+5) Strongly agree	364	35.0
+Missing	8
+
+
+436) FIRST_AMEND_B
+My institution provides me with my constitutionally-mandated First Amendment rights: The First Amendment protects freedom of speech, freedom of religion, freedom of the press, freedom of assembly, and freedom to petition:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1038	3.812	0.949
+1) Strongly disagree	21	2.0
+2) Disagree	75	7.2
+3) Neither agree nor disagree	232	22.4
+4) Agree	460	44.3
+5) Strongly agree	250	24.1
+Missing	10
+
+
+437) FIRST_AMEND_C
+The First Amendment is relevant to my job as a faculty member: The First Amendment protects freedom of speech, freedom of religion, freedom of the press, freedom of assembly, and freedom to petition:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1036	4.041	0.968
+1) Strongly disagree	26	2.5
+2) Disagree	51	4.9
+3) Neither agree nor disagree	156	15.1
+4) Agree	425	41.0
+5) Strongly agree	378	36.5
+Missing	12
+
+
+438) FIRST_AMEND_D
+The First Amendment is relevant to my research engagement: The First Amendment protects freedom of speech, freedom of religion, freedom of the press, freedom of assembly, and freedom to petition:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1040	3.464	1.244
+1) Strongly disagree	92	8.8
+2) Disagree	144	13.8
+3) Neither agree nor disagree	247	23.8
+4) Agree	303	29.1
+5) Strongly agree	254	24.4
+Missing	8
+
+
+439) GENDER
+How do you describe your gender? (check all that apply) (Note: Generated variable. To protect the confidentiality of respondents, these responses have been collapsed into three categories.)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1026	1.486	0.529
+1) Man	542	52.8
+2) Woman	469	45.7
+3) Other	15	1.5
+Missing	22
+
+
+440) GENDER_BIN
+Binary gender (Census labels) (Note: Generated variable.)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1011	1.464	0.499
+1) Man	542	53.6
+2) Woman	469	46.4
+Missing	37
+
+
+441) SEX_ORIENT_BIN
+How do you describe your sexual identity? (forced binary) (Note: Generated variable. To protect the confidentiality of respondents, these responses have been collapsed into two categories.)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	988	1.118	0.323
+1) Heterosexual	871	88.2
+2) Other	117	11.8
+Missing	60
+
+
+442) POL_LEAN
+How would you describe your political affiliation?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1044	4.042	1.69
+1) Very conservative	19	1.8
+2) Conservative	97	9.3
+3) Moderate	304	29.1
+4) Liberal	329	31.5
+5) Very liberal	219	21.0
+9) I prefer not to respond	76	7.3
+Missing	4
+
+
+443) RACE_AGG
+Please select an option or options that best describes your race or ethnicity: Respondent's race (aggregate) (Note: Generated variable. Participants identifying as two or more races or ethnicities were coded as 9. All American Indian or Alaskan Native and Native Hawaiian or other Pacific Islander participants identified as two or more races/ethnicities.)
+RANGE: 2 to 10
+	N	Mean	Std. Deviation
+Total	1048	5.871	1.584
+2) Black or African American	56	5.3
+3) Hispanic or Latina/o/x	29	2.8
+4) Asian	92	8.8
+6) White	738	70.4
+7) Middle Eastern or North African	31	3.0
+8) Another race/ethnicity (wrote in)	5	0.5
+9) Two or more races/ethnicities	69	6.6
+10) I prefer not to respond	28	2.7
+
+
+444) RACE_WGT
+5-category race: Black, Hispanic, Asian, White, 2 plus (Note: Generated variable. Participants identifying as Middle Eastern or North American, another race/ethnicity, and those who preferred not to respond were recoded as missing.)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	984	3.747	0.855
+1) Black or African American	56	5.7
+2) Hispanic or Latina/o/x	29	2.9
+3) Asian	92	9.3
+4) White	738	75.0
+5) Two or more races/ethnicities	69	7.0
+Missing	64
+
+
+445) AGE
+What is your age? (categorical age; entered whole number) (Note: Generated variable. Whole numbers were coded into these ranges.)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	994	2.997	1.144
+1) 25 to 34	84	8.5
+2) 35 to 44	284	28.6
+3) 45 to 54	292	29.4
+4) 55 to 64	219	22.0
+5) 65+	115	11.6
+Missing	54
+
+
+446) MILITARY_VET
+Are you a military veteran or service member?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1035	0.157	1.052
+0) No	984	95.1
+1) Yes	37	3.6
+9) I prefer not to respond	14	1.4
+Missing	13
+
+
+447) I-AGE
+What is your age? (categorical age; entered whole number) (for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	994	2.997	1.144
+1) 25 to 34	84	8.5
+2) 35 to 44	284	28.6
+3) 45 to 54	292	29.4
+4) 55 to 64	219	22.0
+5) 65 or older	115	11.6
+Missing	54
+
+
+448) I-GENDER
+How do you describe your gender? (check all that apply) (Recoded for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1011	1.464	0.499
+1) Man	542	53.6
+2) Woman	469	46.4
+Missing	37
+
+
+449) I-RACE
+Please select an option or options that best describes your race or ethnicity: Respondent's race (aggregate) (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1020	3.864	1.001
+1) Black or African American	56	5.5
+2) Hispanic or Latina/o/x	29	2.8
+3) Asian	92	9.0
+4) White	738	72.4
+5) Middle Eastern or North African	31	3.0
+6) Another race/ethnicity or two or more races/ethnicities	74	7.3
+Missing	28
+
+
+450) I-POLITICS
+How would you describe your political affiliation? (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	968	3.653	0.999
+1) Very conservative	19	2.0
+2) Conservative	97	10.0
+3) Moderate	304	31.4
+4) Liberal	329	34.0
+5) Very liberal	219	22.6
+Missing	80
+
+

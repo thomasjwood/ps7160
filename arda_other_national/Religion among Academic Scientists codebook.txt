@@ -1,0 +1,2707 @@
+Data File: RAAS(Full Data Codebook)
+
+1) RESP
+Respondent number
+RANGE: 8 to 51926
+	N	Mean	Std. Deviation
+Total	1868	47701.103	12525.787
+
+
+2) STATUS
+Type of complete
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1868	1	0
+1) Complete	1868	100.0
+
+
+3) FPROJ
+Study or Project number
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1868	1.935	0.246
+1) 3472	121	6.5
+2) 3472a	1747	93.5
+
+
+4) TIMEZONE
+Time zone
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	121	2.033	1.271
+1) Eastern	62	51.2
+2) Central	26	21.5
+4) Pacific	33	27.3
+Missing	1747
+
+
+5) ODOW
+Original interviewer day of week
+RANGE: 2 to 6
+	N	Mean	Std. Deviation
+Total	121	3.983	1.072
+2) Monday	18	14.9
+3) Tuesday	10	8.3
+4) Wednesday	55	45.5
+5) Thursday	32	26.4
+6) Friday	6	5.0
+Missing	1747
+
+
+6) CDOW
+Current interviewer day of the week
+RANGE: 2 to 6
+	N	Mean	Std. Deviation
+Total	121	3.959	1.128
+2) Monday	21	17.4
+3) Tuesday	10	8.3
+4) Wednesday	49	40.5
+5) Thursday	35	28.9
+6) Friday	6	5.0
+Missing	1747
+
+
+7) DPQUOTA
+Quota cells
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	121	1	0
+1) Total completes	121	100.0
+Missing	1747
+
+
+8) DISPO
+Disposition of interview
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	121	1	0
+1) Proceed with interview/Completed interview	121	100.0
+Missing	1747
+
+
+9) ISMSSMP
+Date sample was loaded
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	121	1	0
+1) Friday, May 27 12:51 2005	121	100.0
+Missing	1747
+
+
+10) QPDATE
+Programming date
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	121	1.876	0.331
+1) Tuesday, May 31 15:24:02 EDT	15	12.4
+2) Wednesday, June 1 11:49:51 EDT	106	87.6
+Missing	1747
+
+
+11) QPRUN
+Number of updates to program
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	121	1.876	0.331
+1) 25 2  2	15	12.4
+2)	106	87.6
+Missing	1747
+
+
+12) QTZ
+Time zone
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	121	2.058	0.699
+1) C	26	21.5
+2) E	62	51.2
+3) P	33	27.3
+Missing	1747
+
+
+13) QMARKET
+Sample type
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1868	1.881	0.324
+1) Medical sample	222	11.9
+2) University sample	1646	88.1
+
+
+14) INT1
+Answering the questions for the survey will take only a few minutes of your time. Your name, answers and university affiliation will all be kept strictly confidential.
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	121	1.008	0.091
+1) Continue with interview	120	99.2
+2) Respondent didn't receive letter	1	0.8
+Missing	1747
+
+
+15) FULLADRA
+Did we get all the addresses asked for?
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1	1	
+1) Yes	1	100.0
+Missing	1867
+
+
+16) INT2
+May I continue with the interview?
+RANGE: 2 to 2
+	N	Mean	Std. Deviation
+Total	1	2	
+2) Do not send letter, proceed with interview	1	100.0
+Missing	1867
+
+
+17) FDOW
+Day of week - end
+RANGE: 2 to 6
+	N	Mean	Std. Deviation
+Total	121	3.959	1.128
+2) Monday	21	17.4
+3) Tuesday	10	8.3
+4) Wednesday	49	40.5
+5) Thursday	35	28.9
+6) Friday	6	5.0
+Missing	1747
+
+
+18) UP1
+[Interviewer: select response]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	106	1.028	0.167
+1) Continue	103	97.2
+2) Update phone	3	2.8
+Missing	1762
+
+
+19) VERSION
+Version of survey (web or phone)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1868	1.935	0.246
+1) Phone	121	6.5
+2) Web	1747	93.5
+
+
+20) SEX
+What is your gender?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1868	1.281	0.48
+1) Male	1371	73.4
+2) Female	470	25.2
+3) No answer	27	1.4
+
+
+21) MEDRANK
+Which one of the following best describes your academic rank? (Medical School Sample)
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	222	2.991	1.707
+1) Assistant Professor	70	31.5
+2) Associate Professor, with tenure	23	10.4
+3) Professor, with tenure	23	10.4
+4) Clinical Appointment, please specify (See MEDCNCL)	75	33.8
+5) Other, please specify (See MEDELSE) (Something Else)	18	8.1
+6) No answer - web	2	0.9
+7) Associate Professor, without tenure	11	5.0
+Missing	1646
+
+
+22) MEDCNCL
+Verbatim response if MEDRANK=4 'Clinical Appointment'
+RANGE: 1 to 46
+	N	Mean	Std. Deviation
+Total	74	25	12.152
+1) Ass. clinical Professor	1	1.4
+2) Assistant clinical professor	1	1.4
+3) Assistant Clinical Professor	2	2.7
+4) Assistant in Pediatrics	1	1.4
+5) Assistant professor	1	1.4
+6) Assistant Professor	1	1.4
+7) Associate	1	1.4
+8) Associate clinical professor	1	1.4
+9) Associate Clinical Professor	2	2.7
+10) Associate Clinical Professor of Pediatrics and Medicine	1	1.4
+11) Associate clinical professor of Pediatrics  UCSF	1	1.4
+12) Associate in Clinical Pediatrics	1	1.4
+13) Associate professor	1	1.4
+14) Associate Professor	2	2.7
+15) Associate Professor -Clinical Appoitnment	1	1.4
+16) Associate Professor (5 yr term appointment)	1	1.4
+17) Associate Professor of Clinical Pediatrics	2	2.7
+18) Associate Professor of Clinical Pediatrics (as opposed to Clinical Assoc Prof who is not full time)	1	1.4
+19) Associate Staff	1	1.4
+20) Clinical Professor	1	1.4
+21) Clinical assistant professor	3	4.1
+22) Clinical Assistant Professor	2	2.7
+23) Clinical associate	1	1.4
+24) Clinical Associate	3	4.1
+25) Clinical Associate in Pediatrics	1	1.4
+26) Clinical instructor	4	5.4
+27) Clinical Instructor	6	8.1
+28) Clinical instructor II	1	1.4
+29) Clinical Instructor II	1	1.4
+30) Clinical Lecturer	1	1.4
+31) Clinical Professor	1	1.4
+32) Clinical staff	1	1.4
+33) Instructor	5	6.8
+34) Instructor	2	2.7
+35) Instructor in medicine	1	1.4
+36) Instructor in Pediatrics	3	4.1
+37) Pediatrician	1	1.4
+38) Prof of clinical x	1	1.4
+39) Professor	2	2.7
+40) Professor	2	2.7
+41) Professor of Clinical Pediatrics/Neonatology	1	1.4
+42) Professor of Clinical Pediatrics	3	4.1
+43) Professor of Pediatrics	1	1.4
+44) Staff Pediatrician; instructor	1	1.4
+45) Staff physician	1	1.4
+46) Voluntary clinical instructor	1	1.4
+Missing	1794
+
+
+23) MEDELSE
+Verbatim response if MEDRANK=5 'Something Else' [other?]
+RANGE: 1 to 23
+	N	Mean	Std. Deviation
+Total	30	10.6	6.636
+1) Assoc Prof no tenure, tenure at Prof	1	3.3
+2) Assoc prof, medical center line	1	3.3
+3) Associate Professor (non tenure track)	1	3.3
+4) Associate Professor without tenure	6	20.0
+5) Associate Professor, no tenure	1	3.3
+6) Associate Professor, not tenured	1	3.3
+7) Associate Professor, without tenure	1	3.3
+8) Clinical instructor	1	3.3
+9) Instructor	1	3.3
+10) Instructor	2	6.7
+11) Instructor in Pediatrics	1	3.3
+12) Lecturer	2	6.7
+13) Lecturer (pre-assistant professor)	1	3.3
+14) Professor Emeritus	1	3.3
+15) Professor no tenure	1	3.3
+16) Professor of Clinical Pediatrics	1	3.3
+17) Professor without tenure (no medical school faculty have tenure here)	1	3.3
+18) Professor, academic clinical track	1	3.3
+19) Professor, w/o tenure	1	3.3
+20) Research associate	1	3.3
+21) Research associate/acting instructor	1	3.3
+22) Trainee	1	3.3
+23) Will be full professor in 8/05	1	3.3
+Missing	1838
+
+
+24) UNIVRANK
+Which one of the following best describes your academic rank (University Sample)
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1646	2.457	0.988
+1) Assistant Professor	380	23.1
+2) Associate Professor, with tenure	241	14.6
+3) Professor, with tenure	986	59.9
+5) Other, please specify (See UNIVELSE)	24	1.5
+6) No answer - web	1	0.1
+7) Associate Professor, without tenure	14	0.9
+Missing	222
+
+
+25) UNIVELSE
+Verbatim response if UNIVRANK=5 'Something else' [other?]
+RANGE: 1 to 35
+	N	Mean	Std. Deviation
+Total	42	17	9.793
+1) Adjunct prof. & director of undergrad programs (officially an administrative position)	1	2.4
+2) Assistant professor, will be promoted to associate with tenure in July	1	2.4
+3) Associate Professor (July 1, 2005), non-tenure	1	2.4
+4) Associate Professor (Teaching)	1	2.4
+5) Associate professor without tenure	1	2.4
+6) Associate Professor without tenure	2	4.8
+7) Associate Professor, not tenured yet	1	2.4
+8) Associate Professor, untenured	1	2.4
+9) Associate professor, without tenure	1	2.4
+10) Associate Professor, without tenure	5	11.9
+11) Associate without tenure	1	2.4
+12) Associate, without tenure	1	2.4
+13) Asst Prof (tenure-track) but was awarded promotion and tenure for next year	1	2.4
+14) Dean of Biological Sciences	1	2.4
+15) Dean, College of Letters and Science	1	2.4
+16) Department Chair, Tenured Professor	1	2.4
+17) Director of Undergrad Studies; Adjunct; Associate Member of the Graduate Faculty	1	2.4
+18) Distinguished Professor	2	4.8
+19) Distinguished professor, dean	1	2.4
+20) Emeritus professor	2	4.8
+21) Half-time prof/no tenure	1	2.4
+22) I am now a full time administrator	1	2.4
+23) Institute Professor	1	2.4
+24) Professor Emeritus	1	2.4
+25) Professor and Provost	1	2.4
+26) Professor Emeritus	1	2.4
+27) Professor in the Graduate School - Active Emeritus	1	2.4
+28) Professor in the Graduate School, emeritus	1	2.4
+29) Professor on phased retirement plan	1	2.4
+30) Professor retired	1	2.4
+31) Professor, somewhat retired	1	2.4
+32) Professor, with tenure, emeritus	1	2.4
+33) Professor, without tenure	1	2.4
+34) Professor Emeritus	1	2.4
+35) Retired	1	2.4
+Missing	1826
+
+
+26) MEDSPEC
+Which of the following comes closest to your main specialty? (Medical School Sample)
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	222	1.73	1.117
+1) General Pediatrics	116	52.3
+2) Pediatric Oncology/Hematology	74	33.3
+3) Other, please specify (See MEDOTHR)	26	11.7
+7) Internal Medicine and Pediatrics	6	2.7
+Missing	1646
+
+
+27) MEDOTHR
+Verbatim response if MEDSPEC=3 'Other'
+RANGE: 1 to 28
+	N	Mean	Std. Deviation
+Total	34	14.235	8.25
+1) Adolescent medicine	1	2.9
+2) Adolescent medicine	1	2.9
+3) Adolescent Medicine	3	8.8
+4) Developmental and behavioral pediatrics	1	2.9
+5) Developmental-Behavioral Pediatrics	1	2.9
+6) Family Practice	1	2.9
+7) General Pediatrician who specializes in care of HIV-infected children	1	2.9
+8) GI/Nutrition	1	2.9
+9) Infectious disease	1	2.9
+10) Internal Medicine and Pediatrics combined	1	2.9
+11) Internal Medicine-Pediatrics	2	5.9
+12) Internal medicine/pediatrics	1	2.9
+13) Internal Medicine/Pediatrics	1	2.9
+14) Med/peds	1	2.9
+15) Medicine/Pediatrics	2	5.9
+16) Neonatologist	1	2.9
+17) Neonatology	1	2.9
+18) Neonatology	1	2.9
+19) Pedi Rheumatology	1	2.9
+20) Pediatric Cardiology	1	2.9
+21) Pediatric critical care medicine	1	2.9
+22) Pediatric Emergency Medicine	1	2.9
+23) Pediatric Infectious Diseases	3	8.8
+24) Pediatric Neurology/Neuro Oncology	1	2.9
+25) Pediatric Oncology	1	2.9
+26) Pediatric Pulmonology	1	2.9
+27) Pediatric-internal med	1	2.9
+28) PEDIATRIC/NEUROLOGY	1	2.9
+Missing	1834
+
+
+28) GRADYEAR
+In what year did you complete your post-graduate training? (Medical School Sample)
+RANGE: 997 to 2004
+	N	Mean	Std. Deviation
+Total	222	1972.815	132.842
+997) No answer- web	4	1.8
+1953)	1	0.5
+1956)	1	0.5
+1963)	1	0.5
+1967)	1	0.5
+1969)	1	0.5
+1971)	1	0.5
+1972)	3	1.4
+1973)	4	1.8
+1974)	5	2.3
+1975)	5	2.3
+1976)	2	0.9
+1977)	2	0.9
+1978)	3	1.4
+1979)	1	0.5
+1980)	4	1.8
+1981)	5	2.3
+1982)	5	2.3
+1983)	3	1.4
+1984)	4	1.8
+1985)	7	3.2
+1986)	10	4.5
+1987)	4	1.8
+1988)	5	2.3
+1989)	4	1.8
+1990)	8	3.6
+1991)	6	2.7
+1992)	9	4.1
+1993)	7	3.2
+1994)	10	4.5
+1995)	9	4.1
+1996)	11	5.0
+1997)	16	7.2
+1998)	8	3.6
+1999)	11	5.0
+2000)	5	2.3
+2001)	9	4.1
+2002)	9	4.1
+2003)	13	5.9
+2004)	5	2.3
+Missing	1646
+
+
+29) ACADSPEC
+Which one of the following comes closest to your main academic field... (University Sample)
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	1646	3.99	2.047
+1) Physics	241	14.6
+2) Chemistry	214	13.0
+3) Biology	289	17.6
+4) Sociology	228	13.9
+5) Economics	207	12.6
+6) Political science	225	13.7
+7) Psychology	205	12.5
+8) Other, please specify (See ACADOTHR)	36	2.2
+11) No answer - web	1	0.1
+Missing	222
+
+
+30) ACADOTHR
+Verbatim response if ACADSPEC=8 'Other'
+RANGE: 1 to 39
+	N	Mean	Std. Deviation
+Total	53	19.528	11.335
+1) A MIXTURE OF PHYSICS, CHEMISTRY AND BIOLOGY	1	1.9
+2) Anthropology	1	1.9
+3) Applied mathematics	1	1.9
+4) Astromnomy	1	1.9
+5) Astronomy	2	3.8
+6) Astronomy	3	5.7
+7) Astrophysics	1	1.9
+8) Biochemistry	2	3.8
+9) Biochemistry	4	7.5
+10) Biochemistry or biophysics	1	1.9
+11) Biochemistry/Biophysics	1	1.9
+12) Bioinformatics	1	1.9
+13) Biological psychology, neuroscience	1	1.9
+14) Biophysics	1	1.9
+15) Cell Biology	1	1.9
+16) Chemical Biology and Genomics	1	1.9
+17) COMPUTER SCIENCE - PSYCOLOGY	1	1.9
+18) Demography/sociology	1	1.9
+19) Environmental Sciences	1	1.9
+20) GEOLOGIST IN BIOLOGY DEPT	1	1.9
+21) Microbiology	1	1.9
+22) Microbiology	1	1.9
+23) Molecular and Cellular Biology	1	1.9
+24) Molecular biology	2	3.8
+25) Molecular Biology	1	1.9
+26) Nanoscience	1	1.9
+27) Neuro Science	1	1.9
+28) Neuroscience	2	3.8
+29) Neuroscience	5	9.4
+30) Neuroscience (or Biological Psychology)	1	1.9
+31) Oceanography/ Environmental Biology	1	1.9
+32) Political economy	1	1.9
+33) Public policy	1	1.9
+34) Public policy studies	1	1.9
+35) Social Psychology	2	3.8
+36) Social sciences	1	1.9
+37) Statistics	1	1.9
+38) Survey methodology	1	1.9
+39) While Econ is my home unit I now do Ed Tech	1	1.9
+Missing	1815
+
+
+31) NUMBOOKS
+In your entire academic career, about how many scholarly books or monographs have you published or edited, alone or in collaboration? (University Sample)
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1646	2.035	1.173
+1) None	570	34.6
+2) 1-5	754	45.8
+3) 6-10	165	10.0
+4) 11-15	47	2.9
+5) More than 15	97	5.9
+8) No answer	13	0.8
+Missing	222
+
+
+32) NUMARTC
+In your entire academic career, about how many articles have you published in academic or professional journals?
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	1868	4.774	2.394
+1) None	48	2.6
+2) 1-10	285	15.3
+3) 11-30	427	22.9
+4) 31-50	265	14.2
+5) 51-70	198	10.6
+6) 71-90	125	6.7
+7) 91-110	114	6.1
+8) 111-120	245	13.1
+9) 201 or more	157	8.4
+12) No answer - web	4	0.2
+
+
+33) SPRTPRSN
+To what extent do you consider yourself a spiritual person? Are you a very spiritual, moderately spiritual, slightly spiritual, or not at all spiritual?
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1868	3.077	1.354
+1) Very spiritual	162	8.7
+2) Moderately spiritual	503	26.9
+3) Slightly spiritual	563	30.1
+4) Not at all spiritual	528	28.3
+5) No answer (VOL) Don't know	2	0.1
+6) (VOL) Refused-phone	2	0.1
+7) No answer-web	108	5.8
+
+
+34) MEDITAT
+In the past six months have you engaged in any of the following? Private meditation
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1868	0.546	1.576
+0) No, not mentioned	1313	70.3
+1) Yes, mentioned	497	26.6
+9) No answer-web	58	3.1
+
+
+35) PRAYER
+In the past six months have you engaged in any of the following? Private prayer
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1868	0.565	1.576
+0) No, not mentioned	1276	68.3
+1) Yes, mentioned	534	28.6
+9) No answer-web	58	3.1
+
+
+36) YOGA
+In the past six months have you engaged in any of the following? Yoga
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1868	0.419	1.575
+0) No, not mentioned	1550	83.0
+1) Yes, mentioned	260	13.9
+9) No answer-web	58	3.1
+
+
+37) RELAX
+In the past six months have you engaged in any of the following? Relaxation techniques
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1868	0.567	1.576
+0) No, not mentioned	1272	68.1
+1) Yes, mentioned	538	28.8
+9) No answer-web	58	3.1
+
+
+38) SACRED
+In the past six months have you engaged in any of the following? Reading a sacred text
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1868	0.529	1.577
+0) No, not mentioned	1344	71.9
+1) Yes, mentioned	466	24.9
+9) No answer-web	58	3.1
+
+
+39) OTHREXER
+In the past six months have you engaged in any of the following? Other spiritual exercises (Specify-See EXEROPEN)
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1868	0.346	1.569
+0) No, not mentioned	1686	90.3
+1) Yes, mentioned	124	6.6
+9) No answer-web	58	3.1
+
+
+40) EXERNONE
+In the past six months have you engaged in any of the following? I do not engage in any of these
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1868	0.634	1.571
+0) No, not mentioned	1148	61.5
+1) Yes, mentioned	662	35.4
+9) No answer-web	58	3.1
+
+
+41) EXEROPEN
+Verbatim response if OTHREXER=1
+RANGE: 1 to 143
+	N	Mean	Std. Deviation
+Total	146	72.075	41.544
+1) A long run alone is a spiritual activity for me.	1	0.7
+2) All of the above	1	0.7
+3) Attending class on Jewish belief and practice	1	0.7
+4) Attend church	1	0.7
+5) Attend church regularly	1	0.7
+6) Attend classical Mass	1	0.7
+7) Attend Friends meeting	1	0.7
+8) Attend Mass	1	0.7
+9) Attend mass irregularly	1	0.7
+10) Attend temple	1	0.7
+11) Attended church	1	0.7
+12) Attended mass	1	0.7
+13) Attended organized religious services	1	0.7
+14) Attended services	1	0.7
+15) Attending a church service	1	0.7
+16) Attending church	2	1.4
+17) Attending church every Sunday	1	0.7
+18) Attending church regularly	1	0.7
+19) Attending church, service	1	0.7
+20) Attending mass	1	0.7
+21) Attending mass	1	0.7
+22) Attending place of worship	1	0.7
+23) Attending religious services	1	0.7
+24) Attending religious services in the community	1	0.7
+25) Attend church	1	0.7
+26) Bible study	1	0.7
+27) Brewing beer	1	0.7
+28) Chanting	1	0.7
+29) Choir\sacred music	1	0.7
+30) Church attendance	1	0.7
+31) Church attendance, prayer with family and children, singing hymns	1	0.7
+32) Church Attendance, Sacraments	1	0.7
+33) Church services	1	0.7
+34) Church Sunday services and other discussions	1	0.7
+35) Church-related charities	1	0.7
+36) Collective rituals	1	0.7
+37) Communing with nature	1	0.7
+38) Consider what constitutes moral behavior	1	0.7
+39) Constant contemplation on the origin of life	1	0.7
+40) Daily devotions	1	0.7
+41) Engaged Buddhist practice	1	0.7
+42) Enjoying nature	1	0.7
+43) Enjoying nature and family	1	0.7
+44) Enjoying the outdoors; being with people	1	0.7
+45) Enrolling my children in Hebrew school.	1	0.7
+46) Exercise	1	0.7
+47) Experienced nature	1	0.7
+48) Fasting	1	0.7
+49) Focused self observation	1	0.7
+50) Go to church	1	0.7
+51) Going to a house of worship	1	0.7
+52) Going to a house of worship and prayer	1	0.7
+53) Going to mass	1	0.7
+54) Going to religious services	1	0.7
+55) Grappling with how an atheist can live an ethical life	1	0.7
+56) Group Bible study	1	0.7
+57) Group meditation	1	0.7
+58) Group meditation	1	0.7
+59) Group prayer	1	0.7
+60) Group Prayer	1	0.7
+61) Group prayer, family prayer	1	0.7
+62) Group prayer, Liturgy of the Hours	1	0.7
+63) Kung Fu	1	0.7
+64) Healing	1	0.7
+65) HIKING	1	0.7
+66) Hiking in the bits of wilderness we still have	1	0.7
+67) Hiking, sailing	1	0.7
+68) Hiking, skiing, walking in mountains	1	0.7
+69) I am a pantheist of sorts and revel in nature	1	0.7
+70) I cook as a form of Zen	1	0.7
+71) I find spirituality in human culture, so for me some literature qualifies	1	0.7
+72) I belong to the Roman catholic church	1	0.7
+73) Intense physical exercise yields some similar effects	1	0.7
+74) Jewish Holidays	1	0.7
+75) Jogging and thinking	1	0.7
+76) Journaling	1	0.7
+77) Learning	1	0.7
+78) Martial arts	1	0.7
+79) Meditation and prayer with a group	1	0.7
+80) Meditation practice with groups	1	0.7
+81) Meditation retreats	2	1.4
+82) Meeting with a community of faith	1	0.7
+83) Music and walking are, to me, spiritual exercises	1	0.7
+84) Native American ceremonies	1	0.7
+85) Nature	1	0.7
+86) Nature appreciation	1	0.7
+87) Nature walks, kayaking	1	0.7
+88) Observing Passover seder ritual	1	0.7
+89) Paneurythmics	1	0.7
+90) Participation in religious services	1	0.7
+91) Philosophical reading, thought, and writing on ethics	1	0.7
+92) Playing music	1	0.7
+93) Playing my guitar, doing my scientific work	1	0.7
+94) Playing organ	1	0.7
+95) Pondering the wonders of nature and the universe	1	0.7
+96) Pottery	1	0.7
+97) Prayer in a congregation	1	0.7
+98) Prayer in synagogue	1	0.7
+99) Public prayer	1	0.7
+100) Public prayer at a house of worship	1	0.7
+101) Public prayer, such as attending mass	1	0.7
+102) Quaker meeting for worship	1	0.7
+103) Quaker worship	1	0.7
+104) Read books on Taoism and Buddhism	1	0.7
+105) Reading books by spiritual leaders	1	0.7
+106) Reading books on New Age spirituality	1	0.7
+107) Reading non-sacred spiritual text	1	0.7
+108) Reading non-sacred texts	1	0.7
+109) Reading texts about spiritual traditions (e.g. Buddhism)	1	0.7
+110) Readings focused on mind-body-spirit	1	0.7
+111) Reflection	1	0.7
+112) Regular attendance at church services	1	0.7
+113) Regular church attendance	1	0.7
+114) Religious services and rituals	1	0.7
+115) Restoration ecology	1	0.7
+116) Running	1	0.7
+117) Running, breath work	1	0.7
+118) Singing religious choral works	1	0.7
+119) Singing, dancing, community activities	1	0.7
+120) Soccer	1	0.7
+121) Solo hiking/climbing	1	0.7
+122) Spiritual direction counselling	1	0.7
+123) Spiritual walks in natural areas	1	0.7
+124) Study Group in the church	1	0.7
+125) Synagogue	1	0.7
+126) Talking to trees and flowers to be in touch with the earth	1	0.7
+127) Teaching, advising, talking, helping	1	0.7
+128) Teaching, research, music, art, hiking, interactions with people	1	0.7
+129) Theoretical physics	1	0.7
+130) Thinking	2	1.4
+131) Thinking about science	1	0.7
+132) Various	1	0.7
+133) Visualization, IChiang	1	0.7
+134) Walking alone in nature	1	0.7
+135) Walking and observing	1	0.7
+136) Walks in the woods	1	0.7
+137) Walks in the woods, boats on water	1	0.7
+138) Weekly religious services	1	0.7
+139) Weekly services	1	0.7
+140) Wilderness experiences	1	0.7
+141) Worship in church	1	0.7
+142) Worship services, life-group, bible study	1	0.7
+143) Yoga is for exercise	1	0.7
+Missing	1722
+
+
+42) RELVIEW
+Compared to most Americans, where would you place your religious views on a seven-point scale, with 1 being 'Extremely Liberal' and 7 being 'Extremely Conservative?'
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	1868	4.278	3.137
+1) Extremely Liberal	372	19.9
+2) Liberal	510	27.3
+3) Lean liberal	151	8.1
+4) Moderate	150	8.0
+5) Lean conservative	49	2.6
+6) Conservative	42	2.2
+7) Extremely conservative	2	0.1
+8) I do not hold religious views	484	25.9
+9) No answer (VOL) Don't know	10	0.5
+10) (VOL) Refused-phone	4	0.2
+11) No answer-web	94	5.0
+
+
+43) POLVIEWS
+Compared to most Americans, where would you place your political views on a seven-point scale, with 1 being 'Extremely Liberal' and 7 being 'Extremely Conservative?'
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	1868	2.763	1.912
+1) Extremely Liberal	359	19.2
+2) Liberal	758	40.6
+3) Lean liberal	314	16.8
+4) Moderate	242	13.0
+5) Lean conservative	85	4.6
+6) Conservative	47	2.5
+7) Extremely conservative	4	0.2
+8) No answer  I do not hold political views	1	0.1
+9) (VOL) Don't know	2	0.1
+10) (VOL) Refused-Phone	1	0.1
+11) No answer-web	55	2.9
+
+
+44) RELIG16
+In what religion were you raised? Was it Protestant, Catholic, Jewish, some other religion, or no religion? (If you were raised in multiple religious traditions, please indicate the single tradition that was most significant in your childhood home.)
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1868	2.451	1.615
+1) Protestant	711	38.1
+2) Roman Catholic	416	22.3
+3) Jewish	344	18.4
+4) Other, IS THAT (See OTHR16)	114	6.1
+5) None, IS THAT (See NONE16)	238	12.7
+7) (VOL) Refused-Phone	2	0.1
+8) No answer-web	43	2.3
+
+
+45) RELTRD16
+Religious tradition at 16 (recoded from affiliation variables)
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	1695	4.939	2.503
+1) Black Protestant	14	0.8
+2) Evangelical Protestant	86	5.1
+3) Mainline Protestant	473	27.9
+4) Catholic	416	24.5
+5) Jewish	344	20.3
+6) Hindu	25	1.5
+7) Buddhist	13	0.8
+8) Muslim	13	0.8
+9) Other	73	4.3
+10) None	238	14.0
+Missing	173
+
+
+46) OTHR16
+(If relig16=4) Is that...
+RANGE: 1 to 14
+	N	Mean	Std. Deviation
+Total	114	5.93	3.892
+1) Mormon	5	4.4
+2) Buddhist	13	11.4
+3) Hindu	25	21.9
+4) Another Eastern Religion, please specify (Specify-See OTEAST16)	8	7.0
+5) Muslim/Islam	13	11.4
+6) Eastern Orthodox	20	17.5
+8) Another religion not listed above, could you tell me what that religion was? (Specify-See OTROTR16)	5	4.4
+11) No answer-web	5	4.4
+12) Unitarian Universalist	7	6.1
+13) Christianity (Specify-See OTROTR16)	8	7.0
+14) Christian Science	5	4.4
+Missing	1754
+
+
+47) OTEAST16
+Verbatim response if OTRH16=4 (Another Eastern Religion)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	6	3.5	1.871
+1) Baha'i faith	1	16.7
+2) Jainism	1	16.7
+3) Shintoism (Japanese indigenous religion)	1	16.7
+4) Sikhism	1	16.7
+5) SIKHISM	1	16.7
+6) Taoism	1	16.7
+Missing	1862
+
+
+48) OTROTR16
+Verbatim response if OTHR16=8 (Another religion not listed above) or if OTHR16=13 (Christianity)
+RANGE: 1 to 21
+	N	Mean	Std. Deviation
+Total	23	11.087	6.112
+1) A multi religious upbringing:  Hinduism, Islam, Christianity (methodist), Buddhism, Bahaism, and if you will Socialism..	1	4.3
+2) Anglican	1	4.3
+3) Anglo-catholic and hence both prot and cath	1	4.3
+4) Baha'i	1	4.3
+5) Baptist	1	4.3
+6) Christian science	1	4.3
+7) Christian Science	2	8.7
+8) Christianity	1	4.3
+9) Deist	1	4.3
+10) Episcopalian	1	4.3
+11) Ethical Culture	1	4.3
+12) Jewish and Christian	1	4.3
+13) Quaker	1	4.3
+14) Reorganized Latter Day Saints	1	4.3
+15) Unitarian	1	4.3
+16) Unitarian Universalist	1	4.3
+17) Unitarian Universalist	2	8.7
+18) Unitarian/Anglican	1	4.3
+19) Unitarian/secular humanism	1	4.3
+20) UU	1	4.3
+21) Zorastrianism	1	4.3
+Missing	1845
+
+
+49) NONE16
+(If RELIG16=5) 'None') Is that...
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	238	2.37	1.561
+1) Atheist	87	36.6
+2) Agnostic	92	38.7
+3) No answer (VOL) Don't Know	1	0.4
+5) No answer-web	58	24.4
+Missing	1630
+
+
+50) PROT16
+(If RELIG16=1) In what specific Protestant Denomination were you raised... Baptist, Methodist, Lutheran, Presbyterian, Episcopal, or another Protestant denomination?
+RANGE: 1 to 14
+	N	Mean	Std. Deviation
+Total	711	4.805	3.175
+1) Baptist	56	7.9
+2) Methodist	117	16.5
+3) Lutheran	111	15.6
+4) Presbyterian	129	18.1
+5) Episcopal	99	13.9
+6) Non-denominational Protestant	50	7.0
+7) Another denomination not listed, please specify (Specify-See PROTOT16)	45	6.3
+8) Protestant, but I am not sure which kind	26	3.7
+10) (VOL) Refused-Phone	2	0.3
+11) No answer-web	4	0.6
+12) Congregationalist	46	6.5
+13) Unitarian	21	3.0
+14) Quaker	5	0.7
+Missing	1157
+
+
+51) PROTOT16
+Verbatim response if PROT16=7 'Another denomination not listed'
+RANGE: 1 to 57
+	N	Mean	Std. Deviation
+Total	120	32.2	16.645
+1) 7th day adventist	1	0.8
+2) Anglican	3	2.5
+3) Anglican	2	1.7
+4) Apostolic (conservative form of Pentecostal)	1	0.8
+5) Assembly of God	1	0.8
+6) Brethren in Christ	1	0.8
+7) Calvinist	1	0.8
+8) Christian Church (as it is called in Texas)	1	0.8
+9) Christian Reformed	1	0.8
+10) Christian science	1	0.8
+11) Christian Science	1	0.8
+12) Christian Scientist	1	0.8
+13) Church of Christ	1	0.8
+14) Church of Christ	2	1.7
+15) Church of England	1	0.8
+16) Church of England	1	0.8
+17) Church of the Brethren	2	1.7
+18) Church of the Nazarene	1	0.8
+19) Congregational	8	6.7
+20) Congregational	13	10.8
+21) CONGREGATIONAL	3	2.5
+22) Congregational - UCC	1	0.8
+23) Congregational Church	1	0.8
+24) Congregational/UCC	1	0.8
+25) Congregational/United Church of Christ	2	1.7
+26) Congregationalist	2	1.7
+27) Congregationalist/ United Church of Christ	1	0.8
+28) Congregationalist/Church of Christ	1	0.8
+29) Disciples of Christ	1	0.8
+30) Dutch Reform	1	0.8
+31) Dutch Reformed	2	1.7
+32) Evangelical & Reformed, not United Church of Christ	1	0.8
+33) Evangelical Pentecostal	1	0.8
+34) Evangelical and reformed	1	0.8
+35) Korean Presbyterian	1	0.8
+36) Mennonite	1	0.8
+37) Mixed	1	0.8
+38) Moravian	1	0.8
+39) Nazarene	1	0.8
+40) Netherlands reformed	1	0.8
+41) Presbyterian and Christian science	1	0.8
+42) Quaker	5	4.2
+43) Remonstrant	1	0.8
+44) Salvation Army	1	0.8
+45) Seventh Day Adventist	1	0.8
+46) Seventh-day Adventist	1	0.8
+47) UCC	4	3.3
+48) Unitarian	6	5.0
+49) Unitarian	11	9.2
+50) Unitarian Universalist	3	2.5
+51) Unitarian/Universalist	1	0.8
+52) United Church of Christ	1	0.8
+53) United Church of Canada	4	3.3
+54) United Church of Christ	8	6.7
+55) United Church of Christ/Congregational	1	0.8
+56) United Church of Christ	1	0.8
+57) Various, explored many on own	1	0.8
+Missing	1748
+
+
+52) BAPT16
+(If PROT16=1) In what specific Baptist Denomination is that, if any?
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	56	5.643	2.075
+1) American Baptist Association	3	5.4
+2) American Baptist, USA	2	3.6
+3) National Baptist Association	1	1.8
+4) National Baptist Convention, USA	2	3.6
+5) Southern Baptist Convention	25	44.6
+7) Baptist, but I am not sure which kind	20	35.7
+11) Conservative Baptist	3	5.4
+Missing	1812
+
+
+53) BAPTOT16
+Verbatim response if BAPT16=6 'Another Kind of Baptist'
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	3	2	1
+1) Conservative	1	33.3
+2) Conservative	1	33.3
+3) Conservative Baptist	1	33.3
+Missing	1865
+
+
+54) METH16
+(If RELIG16=2) In what specific Methodist Denomination is that, if any?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	117	3.547	0.996
+1) A.M.E. Church	1	0.9
+3) United Methodist	84	71.8
+4) Another kind of Methodist, please specify (Specify-See METHOT16)	1	0.9
+5) Methodist, but I am not sure which kind	30	25.6
+8) No answer-web	1	0.9
+Missing	1751
+
+
+55) METHOT16
+Verbatim response if METH16=4
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1	1	
+1) United Church of Canada	1	100.0
+Missing	1867
+
+
+56) LUTH16
+(If RELIG16=3) In what specific Lutheran Denomination is that, if any?
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	111	5.117	2.35
+1) American Lutheran	7	6.3
+2) Lutheran in American	6	5.4
+3) Missouri Synod Lutheran	25	22.5
+4) Wisconsin Synod Lutheran	1	0.9
+5) Evangelical Lutheran Church in America	24	21.6
+6) Another kind of Lutheran, please specify (Specify-See LUTHOT16)	10	9.0
+7) Lutheran, but not sure which kind	30	27.0
+8) (VOL) Don't know	2	1.8
+10) No answer-web	2	1.8
+11) German Lutheran	4	3.6
+Missing	1757
+
+
+57) LUTHOT16
+Verbatim response if LUTH16=4
+RANGE: 1 to 16
+	N	Mean	Std. Deviation
+Total	16	8.5	4.761
+1) Abroad	1	6.3
+2) Austrian	1	6.3
+3) Danish lutheran church	1	6.3
+4) Danish state church	1	6.3
+5) Danish State Church	1	6.3
+6) European	1	6.3
+7) European (grew up there)	1	6.3
+8) Evangelian Lutheran church in Germany	1	6.3
+9) Evangelical Lutheran Church in Germany	1	6.3
+10) GERMAN KUTHERAN	1	6.3
+11) German Lutheran	1	6.3
+12) GERMAN LUTHERAN	1	6.3
+13) Lutheran Bretheren	1	6.3
+14) Lutheran Church of America	1	6.3
+15) Raised in foreign country	1	6.3
+16) Swedish state church	1	6.3
+Missing	1852
+
+
+58) PRES16
+(If RELIG16=4) In what specific Presbyterian Denomination is that, if any?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	128	3.563	1.774
+1) Presbyterian Church, USA	23	18.0
+2) United Presbyterian	21	16.4
+3) Presbyterian	17	13.3
+4) Another kind of Presbyterian, please specify (Specify-See PRESOT16)	7	5.5
+5) Presbyterian, but not sure which kind	55	43.0
+6) (VOL) Don't know	1	0.8
+7) (VOL) Refused-phone	1	0.8
+8) No answer-web	3	2.3
+Missing	1740
+
+
+59) PRESOT16
+Verbatim response if PRES16=4
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	10	5.5	3.028
+1) Canada (United Church of Canada)	1	10.0
+2) Canadian	1	10.0
+3) Church of Scotland	1	10.0
+4) First Presbyterian	1	10.0
+5) Presbyterian Church in the US (the Confederate denomination)	1	10.0
+6) Presbyterian Church of America	1	10.0
+7) Raised in Australia	1	10.0
+8) Reformed	1	10.0
+9) United Reform Church (in England)	1	10.0
+10) Very liberal Presbyterian	1	10.0
+Missing	1858
+
+
+60) RELIMP16
+How important was religion in your family while you were growing up?
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1868	2.426	1.183
+1) Very important	413	22.1
+2) Somewhat important	693	37.1
+3) Not very important	425	22.8
+4) Not at all important	300	16.1
+6) (VOL) Refused-phone	1	0.1
+7) No answer-web	36	1.9
+
+
+61) RELIG2
+Merged religious identity and affiliation. [IF PROTESTANT-those who answered Q16, IF Q15=1] When it comes to your religious identity, would you say you are a fundamentalist, evangelical, mainline, or liberal Protestant or do none of these describe you? [ASKED OF ROMAN CATHOLICS, IF Q15=2] When it comes to your religious identity, would you say you are a traditional, moderate, or liberal Catholic, or do none of these describe you?
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	1744	9.844	2.987
+1) Fundamentalist	1	0.1
+2) Evangelical Protestant	27	1.5
+3) Mainline Protestant	49	2.8
+4) Liberal Protestant	172	9.9
+5) Protestant (No ID)	22	1.3
+6) Traditional Catholic	16	0.9
+7) Moderate Catholic	37	2.1
+8) Liberal Catholic	120	6.9
+9) None of these, please specify Catholic (NO ID)	3	0.2
+10) Jewish	298	17.1
+11) Other	142	8.1
+12) None	857	49.1
+Missing	124
+
+
+62) RELTRAD
+Religious tradition
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	1727	7.261	2.977
+1) Black Protestant	4	0.2
+2) Evangelical Protestant	23	1.3
+3) Mainline Protestant	240	13.9
+4) Catholic	184	10.7
+5) Jewish	298	17.3
+6) Hindu	17	1.0
+7) Buddhist	28	1.6
+8) Muslim	8	0.5
+9) Other	68	3.9
+10) None	857	49.6
+Missing	141
+
+
+63) RELIG
+For classification purposes only, what is your current religious preference? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1868	3.786	1.769
+1) Protestant	305	16.3
+2) Roman Catholic	184	9.9
+3) Jewish	298	16.0
+4) Other, IS THAT (See OTHER)	142	7.6
+5) None, IS THAT (See NONE)	857	45.9
+7) (VOL) Refused-phone	3	0.2
+8) No answer-web	79	4.2
+
+
+64) OTHER
+(If RELIG=4) Is that...
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	142	6.915	4.104
+1) Mormon	2	1.4
+2) Buddhist	28	19.7
+3) Hindu	17	12.0
+4) Another Eastern Religion, please specify (Specify-See OTHREAST)	7	4.9
+5) Muslim/Islam	8	5.6
+6) Eastern Orthodox	14	9.9
+7) A Native American Religion	1	0.7
+8) Another religion not listed above, please specify (Specify-See OTHOTHR)	14	9.9
+10) (VOL) Refused-phone	2	1.4
+11) (VOL) No answer-web	16	11.3
+12) Unitarian Universalist	23	16.2
+13) Christianity (Specify-See OTHOTHR)	10	7.0
+Missing	1726
+
+
+65) OTHREAST
+Verbatim response if OTHER=4 (Another Eastern Religion)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	5	3	1.581
+1) Jainism	1	20.0
+2) Meher Baba	1	20.0
+3) SIKH	1	20.0
+4) Sikhism	1	20.0
+5) Taoist	1	20.0
+Missing	1863
+
+
+66) OTHROTHR
+Verbatim response if OTHER=8 (Another religion not listed above) or if OTHER=13 (Christianity)
+RANGE: 1 to 30
+	N	Mean	Std. Deviation
+Total	45	18.511	8.691
+1) A mix of Buddhist and Episcopalian	1	2.2
+2) Agnostic	1	2.2
+3) Agnostic with the clear knowledge that energy cannot be created nor destroyed.	1	2.2
+4) Anglo-catholic and hence both Prot and Cath	1	2.2
+5) B	1	2.2
+6) Baha'i	1	2.2
+7) Christian, non-denominational	1	2.2
+8) Deist	1	2.2
+9) Eclectic mix of Christianity and Buddhism	1	2.2
+10) Episcopalian	2	4.4
+11) Ethical Culture	1	2.2
+12) I see God as Life and Love. if I have to pick something, I'd say somewhere between Christian science and Buddhism	1	2.2
+13) I'd say I have an eclectic mix of beliefs that are partly inspired by Taoism and partly by Christianity	1	2.2
+14) Mennonite	1	2.2
+15) My own, based exclusively on physics (not a joke!)	1	2.2
+16) No organized religion just a believe in a Spiritual being	1	2.2
+17) No specific religion, New Age spirituality	1	2.2
+18) Non denominational Christian	1	2.2
+19) Pantheist	1	2.2
+20) Personal faith	1	2.2
+21) Quaker	2	4.4
+22) Religious Naturalism	1	2.2
+23) These are too rigid categories -- bad survey	1	2.2
+24) Unitarian	1	2.2
+25) Unitarian	7	15.6
+26) Unitarian Universalist	3	6.7
+27) Unitarian Universalist	6	13.3
+28) Unitarian Universalist (UUA)	1	2.2
+29) Unitarian-Universalist	1	2.2
+30) Zen Vedanta Taoist Sufi Buddhism ;-)	1	2.2
+Missing	1823
+
+
+67) NONE
+(If RELIG=5 'None') Is that...
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	857	2.077	1.346
+1) Atheist	342	39.9
+2) Agnostic	376	43.9
+3) No answer (VOL) Don't know	4	0.5
+4) (VOL) Refused-phone	1	0.1
+5) No answer-web	134	15.6
+Missing	1011
+
+
+68) PROT
+(If RELIG=1) What specific Protestant denomination is that? Is that Baptist, Methodist, Lutheran, Presbyterian, Episcopal, or another Protestant denomination?
+RANGE: 1 to 14
+	N	Mean	Std. Deviation
+Total	305	5.413	2.987
+1) Baptist	9	3.0
+2) Methodist	29	9.5
+3) Lutheran	43	14.1
+4) Presbyterian	47	15.4
+5) Episcopal	59	19.3
+6) Non-denominational Protestant	52	17.0
+7) Another denomination not listed, please specify (Specify-See PROTOTHR)	18	5.9
+8) Protestant, but I am not sure which kind	13	4.3
+11) No answer-web	10	3.3
+12) Congregationalist	12	3.9
+13) Unitarian Universalist	6	2.0
+14) Quaker	7	2.3
+Missing	1563
+
+
+69) PROTOTHR
+Verbatim response if PROT=7 'Another denomination not listed'
+RANGE: 1 to 27
+	N	Mean	Std. Deviation
+Total	42	16.5	7.936
+1) 7th day adventist	1	2.4
+2) Assembly of God	1	2.4
+3) CONGEGATIOPNAL	1	2.4
+4) Congregational	2	4.8
+5) Congregational	1	2.4
+6) Congregationalist	1	2.4
+7) Evangelical free	1	2.4
+8) Evangelical Free Church of America	1	2.4
+9) Four square church	1	2.4
+10) I'm not LDS, but that's as close as it comes.  You don't have a classification open for LDS.	1	2.4
+11) Lapsed Unitarian	1	2.4
+12) Mennonite	1	2.4
+13) Missionary alliance	1	2.4
+14) Moravian	1	2.4
+15) Not currently going to church	1	2.4
+16) Pentecostal	1	2.4
+17) Pentecostal but not practising	1	2.4
+18) Quaker	6	14.3
+19) Quaker (my belief is not Christocentric)	1	2.4
+20) Seventh-Day Adventist	1	2.4
+21) Society of Friends	1	2.4
+22) UCC	2	4.8
+23) Unitarian	4	9.5
+24) Unitarian Universalist	1	2.4
+25) United church of Christ	1	2.4
+26) United Church of Christ	6	14.3
+27) Unity	1	2.4
+Missing	1826
+
+
+70) BAPTIST
+(If PROT=1) In what specific Baptist Denomination is that, if any?
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	9	4	2.739
+1) American Baptist Association	3	33.3
+2) American Baptist USA	1	11.1
+5) Southern Baptist	2	22.2
+7) Baptist, but I am not sure which kind	3	33.3
+Missing	1859
+
+
+71) METHDST
+(If RELIG=2) What specific denomination is that, if any?
+RANGE: 2 to 5
+	N	Mean	Std. Deviation
+Total	29	3.138	0.581
+2) A.M.E. Zion Church	1	3.4
+3) United Methodist	25	86.2
+4) Another kind of Methodist, please specify (Specify-See METHOTHR)	1	3.4
+5) Methodist, but I am not sure which kind	2	6.9
+Missing	1839
+
+
+72) METHOTHR
+Verbatim response if METHDST=4
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1	1	
+1) Any kind - not important	1	100.0
+Missing	1867
+
+
+73) LUTHERAN
+(If RELIG=3) In what specific denomination is that, if any?
+RANGE: 3 to 10
+	N	Mean	Std. Deviation
+Total	43	5.93	1.668
+3) Missouri Synod Lutheran	2	4.7
+5) Evangelical Lutheran Church in America	24	55.8
+6) Another kind of Lutheran, please specify (Specify-See LUTHOTHR)	2	4.7
+7) Lutheran, but not sure which kind	11	25.6
+10) No answer-web	4	9.3
+Missing	1825
+
+
+74) LUTHOTHR
+Verbatim response if LUTHERAN=6
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2	1.5	0.707
+1) Covenant	1	50.0
+2) European	1	50.0
+Missing	1866
+
+
+75) PRESBY
+(If RELIG=4) Presbyterian, is that...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	47	2.298	1.768
+1) Presbyterian Church, USA	25	53.2
+2) United Presbyterian	6	12.8
+3) Presbyterian	6	12.8
+5) Presbyterian, but not sure which kind	9	19.1
+8) No answer, web	1	2.1
+Missing	1821
+
+
+76) RELIGID
+(If RELIG=1 'Protestant') When it comes to your religious identity would you say you are a fundamentalist, evangelical, mainline, or liberal Protestant or do none of these describe you?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	305	4.141	1.486
+1) A fundamentalist	1	0.3
+2) An evangelical	27	8.9
+3) A mainline	49	16.1
+4) A liberal Protestant	172	56.4
+5) None of these, please specify (Specify-See RELIDOTR)	22	7.2
+6) (VOL) Don't know	4	1.3
+7) (VOL) Refused-phone	1	0.3
+8) No answer-web	29	9.5
+Missing	1563
+
+
+77) RELIDOTR
+Verbatim response if RELIGID=5
+RANGE: 1 to 27
+	N	Mean	Std. Deviation
+Total	28	14.464	8.167
+1) None	1	3.6
+2) A cultural protestant	1	3.6
+3) Accepting of all.	1	3.6
+4) An evangelical liberal protestant	1	3.6
+5) Atheist	1	3.6
+6) Atheist	1	3.6
+7) DK	1	3.6
+8) Evangelical mainliner	1	3.6
+9) Evangelical on the Jim Wallis sense	1	3.6
+10) I am a Roman Catholic who worships at a non-denominational Christian church.	1	3.6
+11) I am in a period of doubt	1	3.6
+12) I am who I am	1	3.6
+13) I don't understand 'religious identity'	1	3.6
+14) I happen to affiliate with a Protestant religion but do not identify myself as 'protestant'	1	3.6
+15) Liberal Unitarian	1	3.6
+16) Maintain values, ethics, but not beliefs	1	3.6
+17) Not active in any organized religion	1	3.6
+18) Not active in church matters	1	3.6
+19) Open minded	1	3.6
+20) Orthodox	1	3.6
+21) Other	1	3.6
+22) Questioner	1	3.6
+23) Return to 1st century Christianity	1	3.6
+24) Seeker	1	3.6
+25) Traditional	1	3.6
+26) Undecided	1	3.6
+27) Unitarian	2	7.1
+Missing	1840
+
+
+78) CATHID
+(If RELIG=2 'Catholic') When it comes to your religious identity, would you say you are a traditional, moderate, or liberal Catholic, or do none of these describe you?
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	184	2.788	1.026
+1) Traditional Catholic	16	8.7
+2) Moderate Catholic	37	20.1
+3) Liberal Catholic	120	65.2
+4) None of these, please specify (Specify-See CTHIDOTR)	3	1.6
+5) (VOL) Don't know	2	1.1
+6) (VOL) Refused-phone	1	0.5
+7) No answer-web	5	2.7
+Missing	1684
+
+
+79) CTHIDOTR
+Verbatim response if CATHID=4
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	6	3.5	1.871
+1) Don't care	1	16.7
+2) Follow full teaching, both liberal and conservative ones	1	16.7
+3) I am not sure if the Church would recognize me as a Catholic.	1	16.7
+4) I do not understand this question. what does religious identity mean?	1	16.7
+5) Lapsed	1	16.7
+6) The Church has nothing to do with being 'traditional, liberal or moderate' is matter of loving Christ, the God who became	1	16.7
+Missing	1862
+
+
+80) ATTEND
+In the last 12 months, how often did you attend religious services, not including weddings, baptisms, and funerals?
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	1868	5.906	1.799
+1) More than once a week	26	1.4
+2) Once a week	135	7.2
+3) 2-3 times a month	121	6.5
+4) Once a month	77	4.1
+5) 6-11 times a year	99	5.3
+6) Fewer than 6 times a year	460	24.6
+7) Not at all in the past year	896	48.0
+9) (VOL) Refused-phone	1	0.1
+10) No answer-web	53	2.8
+
+
+81) CONFLICT
+Thinking now about your faith and spiritual perspective and your professional life, for each of the statements, please indicate if you strongly agree, somewhat agree, have no opinion, somewhat disagree or strongly disagree. There is an irreconcilable conflict between religious knowledge and scientific knowledge.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1868	3.65	1.771
+1) Strongly agree	278	14.9
+2) Somewhat agree	341	18.3
+3) Have no opinion	115	6.2
+4) Somewhat disagree	438	23.4
+5) Strongly disagree	601	32.2
+7) (VOL) Refused-phone	3	0.2
+8) No answer-web	92	4.9
+
+
+82) INFLUENC
+Thinking now about your faith and spiritual perspective and your professional life, for each of the statements, please indicate if you strongly agree, somewhat agree, have no opinion, somewhat disagree or strongly disagree. My spiritual or religious beliefs have an influence on how I interact with colleagues and [Medical School Sample: patients/University Sample: students].
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1868	3.615	1.822
+1) Strongly agree	230	12.3
+2) Somewhat agree	497	26.6
+3) Have no opinion	127	6.8
+4) Somewhat disagree	223	11.9
+5) Strongly disagree	690	36.9
+6) (VOL) Don't know	1	0.1
+7) (VOL) Refused-phone	1	0.1
+8) No answer-web	99	5.3
+
+
+83) EVOLVE
+Thinking now about your faith and spiritual perspective and your professional life, for each of the statements, please indicate if you strongly agree, somewhat agree, have no opinion, somewhat disagree or strongly disagree. Evolution is the best explanation we have for the development of life on earth.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1868	1.397	1.256
+1) Strongly agree	1591	85.2
+2) Somewhat agree	136	7.3
+3) Have no opinion	29	1.6
+4) Somewhat disagree	25	1.3
+5) Strongly disagree	45	2.4
+7) (VOL) Refused-phone	1	0.1
+8) No answer-web	41	2.2
+
+
+84) POSATTI
+Thinking now about your faith and spiritual perspective and your professional life, for each of the statements, please indicate if you strongly agree, somewhat agree, have no opinion, somewhat disagree or strongly disagree. In general, I feel that the scholars in my field have a positive attitude towards religion.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1868	3.487	1.481
+1) Strongly agree	61	3.3
+2) Somewhat agree	397	21.3
+3) Have no opinion	597	32.0
+4) Somewhat disagree	510	27.3
+5) Strongly disagree	196	10.5
+6) (VOL) Don't know	4	0.2
+7) (VOL) Refused-phone	1	0.1
+8) No answer-web	102	5.5
+
+
+85) DISCRELI
+Turning now to some questions about your personal experiences at your (hospital/university). At your current (hospital/university), how often have you felt discriminated against based on the following: Your religious beliefs.
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1868	3.952	0.626
+1) Very often	4	0.2
+2) Fairly Often	24	1.3
+3) Rarely	173	9.3
+4) Never	1619	86.7
+7) No answer-web	48	2.6
+
+
+86) DISCRACE
+Turning now to some questions about your personal experiences at your (hospital/university). At your current (hospital/university), how often have you felt discriminated against based on the following: Your racial or ethnic group.
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1868	3.863	0.69
+1) Very often	12	0.6
+2) Fairly often	46	2.5
+3) Rarely	253	13.5
+4) Never	1515	81.1
+7) No answer-web	42	2.2
+
+
+87) DISCGEND
+Turning now to some questions about your personal experiences at your (hospital/university). At your current (hospital/university), how often have you felt discriminated against based on the following: Your gender.
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1868	3.663	0.846
+1) Very often	31	1.7
+2) Fairly often	120	6.4
+3) Rarely	419	22.4
+4) Never	1257	67.3
+7) No answer-web	41	2.2
+
+
+88) MARITAL
+Which of the following best describes your marital status? Are you now married or living with a partner, widowed, divorced, separated and not living with a partner, or have you never been married?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1868	1.654	1.603
+1) Now married	1516	81.2
+2) Living with a partner, but not married	96	5.1
+3) Widowed	11	0.6
+4) Divorced	84	4.5
+5) Separated	16	0.9
+6) Never married	124	6.6
+9) No answer-web	21	1.1
+
+
+89) NUMKIDS
+If you have children, how many dependent children under the age of 18 currently live with you?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1868	2.482	1.575
+1) I have no children under the age of 18	758	40.6
+2) I have children, but none are under the age of 18 and currently living with me	240	12.8
+3) I have one child under the age of 18 who currently lives with me	311	16.6
+4) I have two or three children under the age of 18 who are currently living with me	482	25.8
+5) I have more than three children under the age of 18 who are currently living with me	26	1.4
+8) No answer-web	51	2.7
+
+
+90) SALARY
+Is your (University Sample: university) salary on a full-time basis before tax and deductions for the current (University Sample: academic) year below or above $100,000?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1868	1.802	0.953
+1) Below	724	38.8
+2) Above	1022	54.7
+3) (VOL) Don't know	1	0.1
+4) (VOL) Refused-phone	9	0.5
+5) No answer-web	112	6.0
+
+
+91) SALARY1
+(If SALARY=1) Below, is that...
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	724	5.541	1.716
+1) Below $40,000	2	0.3
+2) $40,000-$49,000	10	1.4
+3) $50,000-$59,000	49	6.8
+4) $60,000-$69,999	146	20.2
+5) $70,000-$79,999	171	23.6
+6) $80,000-$89,999	156	21.5
+7) $90,000-$99,999	143	19.8
+9) (VOL) Refused-phone	3	0.4
+10) No answer-web	44	6.1
+Missing	1144
+
+
+92) SALARY2
+(If SALARY=2) Above, is that...
+RANGE: 1 to 14
+	N	Mean	Std. Deviation
+Total	1022	6.464	4.356
+1) $100,000-$109,000	138	13.5
+2) $110,000-$119,999	105	10.3
+3) $120,000-$129,999	105	10.3
+4) $130,000-$139,999	76	7.4
+5) $140,000-$149,999	81	7.9
+6) $150,000-$159,999	77	7.5
+7) $160,000-$169,999	54	5.3
+8) $170,000-$179,999	54	5.3
+9) $180,000-$189,999	42	4.1
+10) $190,000-$199,999	30	2.9
+11) Above $200,000	117	11.4
+13) (VOL) Refused-phone	5	0.5
+14) No answer-web	138	13.5
+Missing	846
+
+
+93) VOLWORS
+In the last six months, please indicate if you have done any volunteer work or community service with a group or organization devoted to any of the following... Volunteering for activities in your place of worship
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1868	3.308	17.437
+0) Not mentioned	1567	83.9
+1) Mentioned	241	12.9
+98) Don't know	1	0.1
+99) No answer-web	59	3.2
+
+
+94) VOLHOME
+In the last six months, please indicate if you have done any volunteer work or community service with a group or organization devoted to any of the following... Helping the homeless
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1868	3.256	17.445
+0) Not mentioned	1665	89.1
+1) Mentioned	143	7.7
+98) Don't know	1	0.1
+99) No answer-web	59	3.2
+
+
+95) VOLPOLI
+In the last six months, please indicate if you have done any volunteer work or community service with a group or organization devoted to any of the following... Political activities (including helping political parties, political movements, election campaigns, etc.)
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1868	3.535	17.399
+0) Not mentioned	1143	61.2
+1) Mentioned	665	35.6
+98) Don't know	1	0.1
+99) No Answer-web	59	3.2
+
+
+96) VOLFOOD
+In the last six months, please indicate if you have done any volunteer work or community service with a group or organization devoted to any of the following... Distributing food to the needy
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1868	3.278	17.442
+0) Not mentioned	1623	86.9
+1) Mentioned	185	9.9
+98) Don't know	1	0.1
+99) No answer-web	59	3.2
+
+
+97) VOLABUS
+In the last six months, please indicate if you have done any volunteer work or community service with a group or organization devoted to any of the following... Helping abused women or children
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1868	3.22	17.451
+0) Not mentioned	1732	92.7
+1) Mentioned	76	4.1
+98) Don't know	1	0.1
+99) No answer-web	59	3.2
+
+
+98) VOLAIDS
+In the last six months, please indicate if you have done any volunteer work or community service with a group or organization devoted to any of the following... Doing AIDS related activities
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1868	3.201	17.454
+0) Not mentioned	1768	94.6
+1) Mentioned	40	2.1
+98) Don't know	1	0.1
+99) No answer-web	59	3.2
+
+
+99) VOLENVI
+In the last six months, please indicate if you have done any volunteer work or community service with a group or organization devoted to any of the following... Doing environmental projects
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1868	3.284	17.441
+0) Not mentioned	1613	86.3
+1) Mentioned	195	10.4
+98) Don't know	1	0.1
+99) No answer-web	59	3.2
+
+
+100) VOLHOUS
+In the last six months, please indicate if you have done any volunteer work or community service with a group or organization devoted to any of the following... Building houses for the poor
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1868	3.194	17.455
+0) Not mentioned	1781	95.3
+1) Mentioned	27	1.4
+98) Don't know	1	0.1
+99) No answer-web	59	3.2
+
+
+101) VOLSCHL
+In the last six months, please indicate if you have done any volunteer work or community service with a group or organization devoted to any of the following... Volunteering activities related to schools (such as PTA)
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1868	3.468	17.411
+0) Not mentioned	1269	67.9
+1) Mentioned	539	28.9
+98) Don't know	1	0.1
+99) No answer-web	59	3.2
+
+
+102) VOLOTHR
+In the last six months, please indicate if you have done any volunteer work or community service with a group or organization devoted to any of the following... Helping through another volunteer organization, please specify (see VOLOPEN)
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1868	3.265	17.444
+0) Not mentioned	1648	88.2
+1) Mentioned	160	8.6
+98) Don't know	1	0.1
+99) No answer-web	59	3.2
+
+
+103) VOLMONY
+In the last six months, please indicate if you have done any volunteer work or community service with a group or organization devoted to any of the following... I have given money to a community service organization in the past six months
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1868	3.908	17.33
+0) Not mentioned	446	23.9
+1) Mentioned	1362	72.9
+98) Don't know	1	0.1
+99) No answer-web	59	3.2
+
+
+104) VOLNONE
+In the last six months, please indicate if you have done any volunteer work or community service with a group or organization devoted to any of the following... I have not done any of these in the past six months
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1868	3.3	17.438
+0) Not mentioned	1582	84.7
+1) Mentioned	226	12.1
+98) Don't know	1	0.1
+99) No answer-web	59	3.2
+
+
+105) VOLOPEN
+Verbatim response if VOLOTHR=1
+RANGE: 1 to 196
+	N	Mean	Std. Deviation
+Total	199	97.437	56.948
+1) Community Without Walls	1	0.5
+2) 1 day/wk science outreach activities with student volunteers	1	0.5
+3) A support organization for families affected by a particular inherited disorder.	1	0.5
+4) ACLU	1	0.5
+5) After school program	1	0.5
+6) Agencies serving youth	1	0.5
+7) Aid to victims of sex trafficking	1	0.5
+8) Alcoholics Anonymous	1	0.5
+9) ALS Association	1	0.5
+10) Amateur radio	1	0.5
+11) Amateur Radio educational project	1	0.5
+12) Amateur radio/Red Cross	1	0.5
+13) American Association of University Women	1	0.5
+14) American Cancer Society	1	0.5
+15) American Chemical Society outreach	1	0.5
+16) American Red Cross	1	0.5
+17) Amigos de las Americas	1	0.5
+18) Arts camp for Russian orphans	1	0.5
+19) Arts organization	1	0.5
+20) AVSI is a volunteer association, born in the Roman catholic Chuch,  who works in the third world country	1	0.5
+21) Baltimore Road Runners	1	0.5
+22) Big Brothers	1	0.5
+23) Big City Mountaineers	1	0.5
+24) Bird Conservation Minnesota	1	0.5
+25) Blood donation	1	0.5
+26) Board member, legal action center	1	0.5
+27) Board of directors, free health clinic	1	0.5
+28) Boy Scouts	4	2.0
+29) Boy Scouts of America	1	0.5
+30) Brain Awareness Week exhibitor	1	0.5
+31) California State Science Fair - which has no money, despite its 'State' nature	1	0.5
+32) Cancer	1	0.5
+33) Cancer Fund Raiser Board of Directors	1	0.5
+34) Carolina Interfaith Task Force on Central America	1	0.5
+35) Carter Foundation	1	0.5
+36) Catholic charities	1	0.5
+37) Chair board of international educational institution	1	0.5
+38) Children's choral/character development	1	0.5
+39) City/county committee member	1	0.5
+40) Civic education programs	1	0.5
+41) Class and alumni secretary to several groups and schools	1	0.5
+42) Coaching soccer, t-ball	1	0.5
+43) Coalition Against Police Crimes and Repression (CAPR)	1	0.5
+44) Coalition to abolish sweatshops	1	0.5
+45) Collect money at Christmas	1	0.5
+46) Columbia Community Service	1	0.5
+47) Committees, fund raising, speaking,writing	1	0.5
+48) Community Action Program	1	0.5
+49) Community dancing group	1	0.5
+50) Community Dispute Settlement organization	1	0.5
+51) Community organizing	1	0.5
+52) Community outreach for Duke University	1	0.5
+53) Community service agencies	1	0.5
+54) Community Soccer League for Kids	1	0.5
+55) Consultation for one week at a Catholic orphanage in Thailand	1	0.5
+56) Cultural Organization	1	0.5
+57) Donated money for tsunami victims	1	0.5
+58) Donating books and clothes	1	0.5
+59) Education project in China	1	0.5
+60) Encino Velodrome youth program	1	0.5
+61) Environmental group	1	0.5
+62) Fire department	1	0.5
+63) Food action group	1	0.5
+64) Food bank	1	0.5
+65) Free clinic	1	0.5
+66) Free clinic for the uninsured	1	0.5
+67) Friends for Youth (Mentoring)	1	0.5
+68) Fund raising athletic events	1	0.5
+69) Fund-raising for literacy programs	1	0.5
+70) Girl Scouts (leader)	1	0.5
+71) Given money to foundations aimed at addressing hunger and poverty	1	0.5
+72) Habitat for Humanity	1	0.5
+73) Helped an organization create community support for individuals facing serious illness and end of life	1	0.5
+74) Helping parents of disabled children	1	0.5
+75) Helping the poor with clothes, toys and gift donations and aiding in distribution	1	0.5
+76) Haemophilia Foundation of Michigan	1	0.5
+77) High school athletics booster clubs	1	0.5
+78) High school public outreach	1	0.5
+79) Hillel	1	0.5
+80) Horseback riding therapy for handicapped kids	1	0.5
+81) Housing for Mentally Ill	1	0.5
+82) Human rights	1	0.5
+83) Human rights organizations in Russia	1	0.5
+84) Humane society	1	0.5
+85) Hunting safety	1	0.5
+86) I give exciting lectures for kids	1	0.5
+87) I pay taxes	1	0.5
+88) I serve on the boards of two non-profit health care organizations, one provides care for homeless and skid row adults.	1	0.5
+89) I spoke to a college women's group about careers in science	1	0.5
+90) In my county, participating in a day to improve the property of a low-income resident	1	0.5
+91) International aid projects	1	0.5
+92) International health project in El Salvador	1	0.5
+93) International medical relief mission volunteer	1	0.5
+94) Kids soccer league	1	0.5
+95) Kids sports	1	0.5
+96) Kids' activities, Hispanic Center	1	0.5
+97) Labor unions	1	0.5
+98) Letters for amnesty international	1	0.5
+99) Leukaemia and Lymphoma society	1	0.5
+100) Local ACLU; Health Consumer's organization	1	0.5
+101) Make A Wish	1	0.5
+102) March of dimes volunteer	1	0.5
+103) Medical care for the poor	1	0.5
+104) Medical Missions International	1	0.5
+105) Medical volunteer at a kid's camp	1	0.5
+106) Migrant farmworker health outreach	1	0.5
+107) National Alliance for the Mentally Ill	1	0.5
+108) National Center for Science Education	1	0.5
+109) Native Plant Society; Kruckeberg Botanic Garden Foundation	1	0.5
+110) Neighborhood association	1	0.5
+111) Neighborhood association	1	0.5
+112) Non-profit school	1	0.5
+113) None of your business	1	0.5
+114) Nursing homes	1	0.5
+115) On board of non profit	1	0.5
+116) On non-profit boards	1	0.5
+117) On-campus student organization support	1	0.5
+118) Orchestra that performs for charities	1	0.5
+119) Oversee adoptions; make a wish foundation; distribute clothing to shelters	1	0.5
+120) Painting over neighbourhood graffiti	1	0.5
+121) Palawan Baptist Hospital, Philippines	1	0.5
+122) Parent advisory council-advising and supporting parents who have children with special needs	1	0.5
+123) Parish activities	1	0.5
+124) Patient advocacy	1	0.5
+125) Philanthropy	1	0.5
+126) Planned Parenthood	1	0.5
+127) Planned Parenthood, Suicide Prevention, Community Chamber Orchestra	1	0.5
+128) Playing music for the elderly	1	0.5
+129) Prison education	1	0.5
+130) ProBono Consulting for Charities	1	0.5
+131) Providing scientific information to patient groups	1	0.5
+132) Providing tsunami medical relief through Project Hope	1	0.5
+133) PTA at my child's school	1	0.5
+134) Race relations organization	1	0.5
+135) Racial group activities	1	0.5
+136) Recruitment of minorities for college admissions	1	0.5
+137) Red Cross	1	0.5
+138) Red Cross blood donations	1	0.5
+139) Reproductive health	1	0.5
+140) Ronald McDonald House	1	0.5
+141) Ronald McDonald House Charities	1	0.5
+142) ROTARY	1	0.5
+143) RSVP	1	0.5
+144) Salvation Army, South east Michigan Jain Association	1	0.5
+145) Scholarship aid	1	0.5
+146) Science education in community	1	0.5
+147) Science mentoring to under-represented minorities	1	0.5
+148) Science outreach to local schools	1	0.5
+149) Scientific demonstrations for 7th graders	1	0.5
+150) Scientific outreach activities	1	0.5
+151) Scouts	1	0.5
+152) Scouts	1	0.5
+153) Seattle Parks -- rowing programs	1	0.5
+154) Serve on the board of local Planned Parenthood	1	0.5
+155) Serving in a board	1	0.5
+156) Serving on Boards of Trustees of arts organizations	1	0.5
+157) Soup kitchen	1	0.5
+158) SPCA	1	0.5
+159) Speaking about religious naturalism	1	0.5
+160) State Science Academy	1	0.5
+161) Student religious organization	1	0.5
+162) Summer camp for children with cancer	1	0.5
+163) Sung in community choir	1	0.5
+164) Synagogue	1	0.5
+165) Talks at parent groups	1	0.5
+166) Tax help for the elderly; Master Gardener	1	0.5
+167) Teaching projects in the community	1	0.5
+168) Time and money to help my community	1	0.5
+169) Track and field program (youth and others)	1	0.5
+170) Tsunami Relief	1	0.5
+171) UN	1	0.5
+172) Union	1	0.5
+173) United Hands	1	0.5
+174) United Way	1	0.5
+175) United Way; Tsumani Relief; Hopenet	1	0.5
+176) University science outreach mechanisms	1	0.5
+177) Various	1	0.5
+178) Volunteer coach at the YMCA for youth sports	1	0.5
+179) Volunteer overseas	1	0.5
+180) Volunteered professional time on live television for an educational program in Spanish for the Hispanic community of our	1	0.5
+181) Walkathon for animal shelter	1	0.5
+182) Work for death penalty defendants, anti-death penalty organizations; work on campaigns for affirmative action	1	0.5
+183) Worker rights activism	1	0.5
+184) Working with adoption groups and ethnic minority organizations	1	0.5
+185) Working with high school teachers	1	0.5
+186) Working with local group promoting the open integration of gays and lesbians in the military	1	0.5
+187) Writing for a foundation	1	0.5
+188) Xxx	1	0.5
+189) YMCA	1	0.5
+190) Youth organizations	1	0.5
+191) Youth soccer coaching	1	0.5
+192) Youth soccer program	1	0.5
+193) Youth sports	1	0.5
+194) Youth sports	1	0.5
+195) Youth sports and scholarship committees	1	0.5
+196) Youth sports association	1	0.5
+Missing	1669
+
+
+106) VOLTOTAL
+Sum of VOLWORKS through VOLOTHR - Total number of volunteer\community service activities
+RANGE: 0 to 8
+	N	Mean	Std. Deviation
+Total	1808	2.009	1.439
+0)	226	12.5
+1)	548	30.3
+2)	446	24.7
+3)	307	17.0
+4)	174	9.6
+5)	80	4.4
+6)	17	0.9
+7)	6	0.3
+8)	4	0.2
+Missing	60
+
+
+107) AGE
+And what is your age?
+RANGE: 18 to 100
+	N	Mean	Std. Deviation
+Total	1868	52.857	17.844
+18)	1	0.1
+26)	1	0.1
+27)	4	0.2
+28)	5	0.3
+29)	6	0.3
+30)	23	1.2
+31)	25	1.3
+32)	30	1.6
+33)	46	2.5
+34)	59	3.2
+35)	61	3.3
+36)	39	2.1
+37)	61	3.3
+38)	57	3.1
+39)	48	2.6
+40)	69	3.7
+41)	43	2.3
+42)	52	2.8
+43)	41	2.2
+44)	34	1.8
+45)	44	2.4
+46)	44	2.4
+47)	58	3.1
+48)	37	2.0
+49)	35	1.9
+50)	47	2.5
+51)	39	2.1
+52)	54	2.9
+53)	34	1.8
+54)	45	2.4
+55)	45	2.4
+56)	28	1.5
+57)	43	2.3
+58)	45	2.4
+59)	38	2.0
+60)	38	2.0
+61)	39	2.1
+62)	58	3.1
+63)	35	1.9
+64)	29	1.6
+65)	40	2.1
+66)	21	1.1
+67)	18	1.0
+68)	10	0.5
+69)	23	1.2
+70)	15	0.8
+71)	10	0.5
+72)	4	0.2
+73)	12	0.6
+74)	7	0.4
+75)	4	0.2
+76)	4	0.2
+77)	3	0.2
+79)	4	0.2
+81)	3	0.2
+82)	1	0.1
+86)	1	0.1
+99) Refused (phone)	3	0.2
+100) No answer (web)	145	7.8
+
+
+108) AGE4
+Age-Four Categories
+RANGE: 1 to 100
+	N	Mean	Std. Deviation
+Total	1868	10.428	26.296
+1) 18-35	261	14.0
+2) 36-45	488	26.1
+3) 46-55	438	23.4
+4) Over 56	533	28.5
+99) Refused (phone)	3	0.2
+100) No answer (web)	145	7.8
+
+
+109) AGE5
+Age-Five Categories
+RANGE: 1 to 100
+	N	Mean	Std. Deviation
+Total	1868	10.503	26.278
+1) 18-35	261	14.0
+2) 36-45	488	26.1
+3) 46-55	438	23.4
+4) 56-65	393	21.0
+5) Over 66	140	7.5
+99) Refused (phone)	3	0.2
+100) No answer (web)	145	7.8
+
+
+110) WHITE
+Which of the following describes your race/ethnicity? Please let me know if any of the following describes you. Do you identify as... White?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1868	0.831	0.375
+0) No	316	16.9
+1) Yes	1552	83.1
+
+
+111) BLACK
+Which of the following describes your race/ethnicity? Please let me know if any of the following describes you. Do you identify as... Black, African American?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1868	0.024	0.153
+0) No	1823	97.6
+1) Yes	45	2.4
+
+
+112) MEXICAN
+Which of the following describes your race/ethnicity? Please let me know if any of the following describes you. Do you identify as... Mexican, Mexican-American, Chicano?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1868	0.009	0.095
+0) No	1851	99.1
+1) Yes	17	0.9
+
+
+113) PUERICA
+Which of the following describes your race/ethnicity? Please let me know if any of the following describes you. Do you identify as... Puerto Rican?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1868	0.004	0.061
+0) No	1861	99.6
+1) Yes	7	0.4
+
+
+114) CUBAN
+Which of the following describes your race/ethnicity? Please let me know if any of the following describes you. Do you identify as... Cuban?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1868	0.004	0.061
+0) No	1861	99.6
+1) Yes	7	0.4
+
+
+115) OTRSPNS
+Which of the following describes your race/ethnicity? Please let me know if any of the following describes you. Do you identify as... Another Spanish/Hispanic/Latino not listed above, please specify (Specify. See OTHRSPNA)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1868	0.012	0.11
+0) No	1845	98.8
+1) Yes	23	1.2
+
+
+116) AMERIND
+Which of the following describes your race/ethnicity? Please let me know if any of the following describes you. Do you identify as... American Indian or Alaska Native?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1868	0.01	0.1
+0) No	1849	99.0
+1) Yes	19	1.0
+
+
+117) ASIAIND
+Which of the following describes your race/ethnicity? Please let me know if any of the following describes you. Do you identify as... Asian Indian?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1868	0.022	0.148
+0) No	1826	97.8
+1) Yes	42	2.2
+
+
+118) CHINESE
+Which of the following describes your race/ethnicity? Please let me know if any of the following describes you. Do you identify as... Chinese?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1868	0.042	0.2
+0) No	1790	95.8
+1) Yes	78	4.2
+
+
+119) FILIPINO
+Which of the following describes your race/ethnicity? Please let me know if any of the following describes you. Do you identify as... Filipino?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1868	0.002	0.046
+0) No	1864	99.8
+1) Yes	4	0.2
+
+
+120) JAPANESE
+Which of the following describes your race/ethnicity? Please let me know if any of the following describes you. Do you identify as... Japanese?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1868	0.013	0.115
+0) No	1843	98.7
+1) Yes	25	1.3
+
+
+121) KOREAN
+Which of the following describes your race/ethnicity? Please let me know if any of the following describes you. Do you identify as... Korean?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1868	0.01	0.098
+0) No	1850	99.0
+1) Yes	18	1.0
+
+
+122) VIETNAM
+Which of the following describes your race/ethnicity? Please let me know if any of the following describes you. Do you identify as... Vietnamese?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1868	0.001	0.033
+0) No	1866	99.9
+1) Yes	2	0.1
+
+
+123) OTHRASIN
+Which of the following describes your race/ethnicity? Please let me know if any of the following describes you. Do you identify as... Another Asian group, not listed above? Please specify (See OTHRASNA)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1868	0.002	0.04
+0) No	1865	99.8
+1) Yes	3	0.2
+
+
+124) PACISLD
+Which of the following describes your race/ethnicity? Please let me know if any of the following describes you. Do you identify as... Pacific Islander, please specify (See PACISLA)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1868	0.001	0.023
+0) No	1867	99.9
+1) Yes	1	0.1
+
+
+125) OTHRRACE
+Which of the following describes your race/ethnicity? Please let me know if any of the following describes you. Do you identify as... Another race/ethnicity not listed above? Please specify (See OTHRRACA)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1868	0.005	0.073
+0) No	1858	99.5
+1) Yes	10	0.5
+
+
+126) RACEDK
+Which of the following describes your race/ethnicity? Please let me know if any of the following describes you. Do you identify as... (VOL) Don't Know
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1868	0	0
+0) No	1868	100.0
+1) Yes	0	0.0
+
+
+127) RACEREF
+Which of the following describes your race/ethnicity? Please let me know if any of the following describes you. Do you identify as... (VOL) Refused-Phone
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1868	0.005	0.069
+0) No	1859	99.5
+1) Yes	9	0.5
+
+
+128) RACENO
+Which of the following describes your race/ethnicity? Please let me know if any of the following describes you. Do you identify as... No answer-web
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1868	0.032	0.175
+0) No	1809	96.8
+1) Yes	59	3.2
+
+
+129) WHITE1
+Race of respondent - white alone
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1868	0.95	0.675
+0) No	289	15.5
+1) Yes	1511	80.9
+3) (VOL) Refused-phone	9	0.5
+4) No answer-web	59	3.2
+
+
+130) BLACK1
+Race of respondent - black alone
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1868	0.16	0.737
+0) No	1764	94.4
+1) Yes	36	1.9
+3) (VOL) Refused-phone	9	0.5
+4) No answer-web	59	3.2
+
+
+131) MEXICAN1
+Race of respondent - Mexican alone
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1868	0.147	0.731
+0) No	1788	95.7
+1) Yes	12	0.6
+3) (VOL) Refused-phone	9	0.5
+4) No answer-web	59	3.2
+
+
+132) CUBAN1
+Race of respondent - Cuban alone
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1868	0.143	0.728
+0) No	1796	96.1
+1) Yes	4	0.2
+3) (VOL) Refused-phone	9	0.5
+4) No answer-web	59	3.2
+
+
+133) PUERIC1
+Race of respondent - Puerto Rican alone
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1868	0.143	0.729
+0) No	1795	96.1
+1) Yes	5	0.3
+3) (VOL) Refused-phone	9	0.5
+4) No answer-web	59	3.2
+
+
+134) OTRSPN
+Race of respondent - Another Spanish/Hispanic/Latino not listed alone
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1868	0.148	0.731
+0) No	1786	95.6
+1) Yes	14	0.7
+3) (VOL) Refused-phone	9	0.5
+4) No answer-web	59	3.2
+
+
+135) FILIPIN1
+Race of respondent - Filipino alone
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1868	0.142	0.728
+0) No	1798	96.3
+1) Yes	2	0.1
+3) (VOL) Refused-phone	9	0.5
+4) No answer-web	59	3.2
+
+
+136) AMERIN1
+Race of respondent - American Indian or Alaska Native alone
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1868	0.144	0.729
+0) No	1794	96.0
+1) Yes	6	0.3
+3) (VOL) Refused-phone	9	0.5
+4) No answer-web	59	3.2
+
+
+137) ASIAIND1
+Race of respondent -Asian Indian
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1868	0.161	0.737
+0) No	1762	94.3
+1) Yes	38	2.0
+3) (VOL) Refused-phone	9	0.5
+4) No answer-web	59	3.2
+
+
+138) JAPANES1
+Race of respondent -Japanese alone
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1868	0.153	0.733
+0) No	1778	95.2
+1) Yes	22	1.2
+3) (VOL) Refused-phone	9	0.5
+4) No answer-web	59	3.2
+
+
+139) VIETNAM1
+Race of respondent - Vietnamese alone
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1868	0.141	0.728
+0) No	1799	96.3
+1) Yes	1	0.1
+3) (VOL) Refused-phone	9	0.5
+4) No answer-web	59	3.2
+
+
+140) KOREAN1
+Race of respondent - Korean alone
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1868	0.15	0.732
+0) No	1783	95.4
+1) Yes	17	0.9
+3) (VOL) Refused-phone	9	0.5
+4) No answer-web	59	3.2
+
+
+141) CHINES1
+Race of respondent - Chinese alone
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1868	0.182	0.746
+0) No	1723	92.2
+1) Yes	77	4.1
+3) (VOL) Refused-phone	9	0.5
+4) No answer-web	59	3.2
+
+
+142) PACISL1
+Race of respondent-Pacific Islander alone
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1868	0.141	0.727
+0) No	1800	96.4
+3) (VOL) Refused-phone	9	0.5
+4) No answer-web	59	3.2
+
+
+143) OTHRACE1
+Race of respondent-another race/ethnicity alone
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1868	0.145	0.73
+0) No	1792	95.9
+1) Yes	8	0.4
+3) (VOL) Refused-phone	9	0.5
+4) No answer-web	59	3.2
+
+
+144) OTHRASI1
+Race of respondent-another Asian group alone
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1868	0.142	0.728
+0) No	1798	96.3
+1) Yes	2	0.1
+3) (VOL) Refused-phone	9	0.5
+4) No answer-web	59	3.2
+
+
+145) NUMRACE
+Number of races/ethnicities claimed by respondent
+RANGE: 0 to 8
+	N	Mean	Std. Deviation
+Total	1868	0.992	0.299
+0)	68	3.6
+1)	1755	94.0
+2)	42	2.2
+3)	2	0.1
+8)	1	0.1
+
+
+146) RACE
+Race of respondent
+RANGE: 1 to 20
+	N	Mean	Std. Deviation
+Total	1868	2.962	4.788
+1) White alone	1511	80.9
+2) Black/African American alone	36	1.9
+3) Mexican/Mexican-American/Chicano alone	12	0.6
+4) Puerto Rican alone	5	0.3
+5) Cuban alone	4	0.2
+6) Another/Spanish/Hispanic/Latino alone	14	0.7
+7) American Indian/Alaska Native alone	6	0.3
+8) Asian Indian alone	38	2.0
+9) Chinese alone	77	4.1
+10) Filipino alone	2	0.1
+11) Japanese alone	22	1.2
+12) Korean alone	17	0.9
+13) Vietnamese alone	1	0.1
+14) Other Asian group alone	2	0.1
+16) Another race alone	8	0.4
+17) Multiple races/ethnicities	45	2.4
+19) (VOL) Refused-phone	9	0.5
+20) No answer-web	59	3.2
+
+
+147) OTHRSPNA
+Verbatim response if OTRSPNS=1 'Another Spanish/Hispanic/Latino'
+RANGE: 1 to 20
+	N	Mean	Std. Deviation
+Total	23	10	5.792
+1) Argentina	1	4.3
+2) Argentina	2	8.7
+3) Argentine	1	4.3
+4) Argentine	1	4.3
+5) Argentine white	1	4.3
+6) Argentinian	1	4.3
+7) Argentinian	1	4.3
+8) Brazilian	2	8.7
+9) Colombian	1	4.3
+10) Colombian	2	8.7
+11) Ecuadoran	1	4.3
+12) From Spain, raised in V	1	4.3
+13) Hispanic	1	4.3
+14) HISPANIC	1	4.3
+15) Peruvian	1	4.3
+16) South America	1	4.3
+17) South American	1	4.3
+18) Spanish	1	4.3
+19) Spanish from Spain	1	4.3
+20) White Hispanic	1	4.3
+Missing	1845
+
+
+148) OTHRASNA
+Verbatim response if OTHRASIN=1 'Another Asian Group'
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	5	3	1.581
+1) Asian American	1	20.0
+2) Indian	1	20.0
+3) Nepalese	1	20.0
+4) Taiwan	1	20.0
+5) Taiwanese	1	20.0
+Missing	1863
+
+
+149) PACISLA
+Verbatim response if PACISLD=1 'Pacific Islander'
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1	1	
+1) Hawaiian	1	100.0
+Missing	1867
+
+
+150) OTHRRACA
+Verbatim response if OTHRRACE=1 'Another Race/Ethnicity'
+RANGE: 1 to 27
+	N	Mean	Std. Deviation
+Total	35	14.486	7.278
+1) American White African	1	2.9
+2) Arab American	1	2.9
+3) Arab-American, thanks f	1	2.9
+4) Ashkenazi Jewish	1	2.9
+5) Asian- Australian	1	2.9
+6) Belorussian Palestinian	1	2.9
+7) Danish American	1	2.9
+8) European	2	5.7
+9) European  (white is a s	1	2.9
+10) Homo Sapiens Sapiens	1	2.9
+11) Human	2	5.7
+12) I am Mediterranean brown.	1	2.9
+13) I decline to identify b	1	2.9
+14) Indian	1	2.9
+15) Iranian	2	5.7
+16) Irish	1	2.9
+17) Irish-Italian	1	2.9
+18) Italian American	1	2.9
+19) Jewish	6	17.1
+20) Mediterranean	1	2.9
+21) Middle eastern	1	2.9
+22) Middle easterner	1	2.9
+23) Other	1	2.9
+24) Russian	1	2.9
+25) Sorry to mess up your s	1	2.9
+26) Turkish	1	2.9
+27) White immigrant	1	2.9
+Missing	1833
+
+
+151) CITIZEN
+Which of the following best describes your US citizenship status?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1868	3.929	1.616
+1) I am a citizen of another country, not the US	250	13.4
+2) I was not born in the US, but I am a US citizen	231	12.4
+3) I was born in the US, but one of my parents was born in another country	145	7.8
+4) I was born in the US, but both of my parents were born in another country	104	5.6
+5) I was born in the US and both of my parents were born in the US	1109	59.4
+7) (VOL) Refused-phone	1	0.1
+8) No answer-web	28	1.5
+
+
+152) WEIGHT
+Based on ACADSPEC; makes each discipline represent its proportion in the population.
+RANGE: 0.58785 to 1.305894
+	N	Mean	Std. Deviation
+Total	1868	1	0.209
+0.58785)	228	12.2
+0.894604)	225	12.0
+0.942092)	214	11.5
+0.954518)	207	11.1
+0.983454)	205	11.0
+1)	259	13.9
+1.23932)	289	15.5
+1.305894)	241	12.9
+
+
+153) BIBLE
+Which one of these statements comes closest to describing your feelings about the Bible?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1868	3.251	1.278
+1) The Bible is the actual word of God, and it should be taken literally, word for word.	7	0.4
+2) The Bible is the inspired word of God, but not everything in it should be taken literally.	426	22.8
+3) The Bible is an ancient book of fables recorded by men.	1128	60.4
+4) (VOL) Don't know	4	0.2
+5) (VOL) Refused-phone	4	0.2
+6) No answer-web	299	16.0
+
+
+154) RELTRUTH
+Which one of the following statements comes closest to your views about religion?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1868	2.188	1.281
+1) There is very little truth in any religion.	387	20.7
+2) There are basic truths in many religions.	1248	66.8
+3) There is the most truth in only one religion.	59	3.2
+4) (VOL) Don't know	6	0.3
+5) (VOL) Refused-phone	4	0.2
+6) No answer-web	164	8.8
+
+
+155) GOD
+Which one of the following statements comes closest to expressing what you believe about God?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1868	3.338	2.454
+1) I do not believe in God.	538	28.8
+2) I do not know if there is a God and there is no way to find out.	484	25.9
+3) I believe in a higher power, but it is not God.	138	7.4
+4) I believe in God sometimes.	79	4.2
+5) I have some doubts but I believe in God.	269	14.4
+6) I have no doubts about God's existence.	192	10.3
+7) (VOL) Don't know	2	0.1
+8) (VOL) Refused-phone	6	0.3
+9) No answer-web	160	8.6
+
+
+156) I-ATTEND
+In the last 12 months, how often did you attend religious services, not including weddings, baptisms, and funerals? (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1814	3.207	0.957
+1) Once a week or more	161	8.9
+2) 1-3 times a month	198	10.9
+3) Less than once a month	559	30.8
+4) Not at all in the past year	896	49.4
+Missing	54
+
+
+157) I-AGE
+And what is your age? (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1720	2.723	1.06
+1) 18-35	261	15.2
+2) 36-45	488	28.4
+3) 46-55	438	25.5
+4) Over 56	533	31.0
+Missing	148
+
+
+158) I-GENDER
+What is your gender? (Recoded for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1841	1.255	0.436
+1) Male	1371	74.5
+2) Female	470	25.5
+Missing	27
+
+
+159) I-RELIGION
+For classification purposes only, what is your current religious preference? Is it Protestant, Catholic, Jewish, some other religion, or no religion? (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1786	3.595	1.56
+1) Protestant	305	17.1
+2) Roman Catholic	184	10.3
+3) Jewish	298	16.7
+4) Other	142	8.0
+5) None	857	48.0
+Missing	82
+
+

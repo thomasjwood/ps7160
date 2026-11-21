@@ -1,0 +1,4020 @@
+Data File: NSFG13P (Full Data Codebook)
+
+1) CASEID
+Case Identification Number
+RANGE: 50002 to 60414
+	N	Mean	Std. Deviation
+Total	9543	55234.827	2985.357
+
+
+2) PREGORDR
+Pregnancy Order (Number)
+RANGE: 1 to 16
+	N	Mean	Std. Deviation
+Total	9543	2.363	1.586
+1) 1st Pregnancy	3503	36.7
+2) 2nd Pregnancy	2631	27.6
+3) 3rd Pregnancy	1652	17.3
+4) 4th Pregnancy	883	9.3
+5) 5th Pregnancy	440	4.6
+6) 6th Pregnancy	211	2.2
+7) 7th Pregnancy	106	1.1
+8) 8th Pregnancy	51	0.5
+9) 9th Pregnancy	28	0.3
+10) 10th Pregnancy	16	0.2
+11) 11th Pregnancy	9	0.1
+12) 12th Pregnancy	6	0.1
+13) 13th Pregnancy	3	0.0
+14) 14th Pregnancy	2	0.0
+15) 15th Pregnancy	1	0.0
+16) 16th Pregnancy	1	0.0
+
+
+3) HOWPREGN
+BB-2 [If currently pregnant:]: How many weeks or months pregnant are you now? (HOWPREG_N)
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	638	18.84	13.922
+0) 	8	1.3
+1) 	2	0.3
+2) 	5	0.8
+3) 	25	3.9
+4) 	25	3.9
+5) 	35	5.5
+6) 	47	7.4
+7) 	18	2.8
+8) 	35	5.5
+9) 	19	3.0
+10) 	25	3.9
+11) 	4	0.6
+12) 	17	2.7
+13) 	19	3.0
+14) 	5	0.8
+15) 	19	3.0
+16) 	3	0.5
+17) 	3	0.5
+18) 	13	2.0
+19) 	2	0.3
+20) 	33	5.2
+21) 	9	1.4
+22) 	17	2.7
+23) 	21	3.3
+24) 	19	3.0
+25) 	1	0.2
+26) 	23	3.6
+27) 	22	3.4
+28) 	2	0.3
+29) 	3	0.5
+30) 	16	2.5
+31) 	31	4.9
+32) 	19	3.0
+33) 	13	2.0
+34) 	7	1.1
+35) 	7	1.1
+36) 	13	2.0
+37) 	24	3.8
+38) 	9	1.4
+39) 	7	1.1
+40) 	7	1.1
+99) Don't know	6	0.9
+Missing	8905
+
+
+4) HOWPREGP
+BB-2: How many weeks or months pregnant are you now? (HOWPREG_P)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	632	1.218	0.413
+1) Weeks	494	78.2
+2) Months	138	21.8
+Missing	8911
+
+
+5) MOSCURRP
+Number of Months Currently Pregnant
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	638	6.009	9.375
+0) 	9	1.4
+1) 	40	6.3
+2) 	63	9.9
+3) 	80	12.5
+4) 	31	4.9
+5) 	108	16.9
+6) 	107	16.8
+7) 	78	12.2
+8) 	62	9.7
+9) 	54	8.5
+99) Don't know	6	0.9
+Missing	8905
+
+
+6) NOWPRGDK
+BB-3 [If respondent did not know or refused to answer HOWPREG_N:]: Are you in your first trimester, in your second trimester, or in your third trimester?
+RANGE: 9 to 9
+	N	Mean	Std. Deviation
+Total	6	9	0
+9) Don't know	6	100.0
+Missing	9537
+
+
+7) PREGEND1
+BC-1 [If respondent had completed pregnancy:]: In which of the ways shown on Card 13 did the pregnancy end? (1st mention)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	9305	4.649	1.852
+1) Miscarriage	1459	15.7
+2) Stillbirth	69	0.7
+3) Abortion	981	10.5
+4) Ectopic or tubal pregnancy	121	1.3
+5) Live birth by Cesarean section	1861	20.0
+6) Live birth by vaginal delivery	4795	51.5
+8) Refused	7	0.1
+9) Don't know	12	0.1
+Missing	238
+
+
+8) PREGEND2
+BC-1: In which of the ways shown on Card 13 did the pregnancy end? (2nd mention) [Applicable if more than 1 outcome was reported for this pregnancy]
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	32	4.375	1.792
+1) Miscarriage	4	12.5
+2) Stillbirth	3	9.4
+3) Abortion	2	6.3
+4) Ectopic or tubal pregnancy	2	6.3
+5) Live birth by Cesarean Section	10	31.3
+6) Live birth by vaginal delivery	11	34.4
+Missing	9511
+
+
+9) HOWENDDK
+BC-lb [If respondent didn't know or refused to answer PREGEND:]: I understand that you may not want to answer this question in detail. If you are willing to say, did this (nth) pregnancy result in a baby or babies born alive, or did it end in some other way?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	19	6.526	2.653
+1) Live birth	2	10.5
+5) Some other way	7	36.8
+8) Refused	3	15.8
+9) Don't know	7	36.8
+Missing	9524
+
+
+10) NBRNALIV
+BC-2 [If pregnancy ended in at least one live birth:]: (With your (nth) pregnancy,) How many babies did you have that were born alive? Please include babies that may have died shortly after birth and babies that you placed for adoption.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	6670	1.018	0.165
+1) 1 baby	6562	98.4
+2) 2 babies	103	1.5
+3) 3 or more babies	4	0.1
+9) Don't know	1	0.0
+Missing	2873
+
+
+11) MULTBRTH
+BC-3 [If more than 1 liveborn baby reported from this pregnancy:]: Did you have (twins/triplets/all of these babies with this [nth] pregnancy)?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	107	1.561	1.395
+1) Yes	92	86.0
+5) No	15	14.0
+Missing	9436
+
+
+12) BORNALIV
+Number of babies born alive from this pregnancy
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	6670	1.014	0.12
+1) 1 baby	6578	98.6
+2) 2 babies	90	1.3
+3) 3 or more babies	2	0.0
+Missing	2873
+
+
+13) DATPRGEM
+BC-4a [If this pregnancy was completed but did not result in live birth:]: In what month and year did this pregnancy end? (MONTH) (DATPRGEN_M)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2625	12.106	20.312
+1) 	175	6.7
+2) 	183	7.0
+3) 	169	6.4
+4) 	154	5.9
+5) 	204	7.8
+6) 	200	7.6
+7) 	184	7.0
+8) 	185	7.0
+9) 	201	7.7
+10) 	181	6.9
+11) 	163	6.2
+12) 	177	6.7
+13) Winter	56	2.1
+14) Spring	82	3.1
+15) Summer	124	4.7
+16) Fall	56	2.1
+98) Refused	10	0.4
+99) Don't know	121	4.6
+Missing	6918
+
+
+14) DATPRGEY
+BC-4a [If this pregnancy was completed but did not result in live birth:]: In what month and year did this pregnancy end? (YEAR) (DATPRGEN_Y)
+RANGE: 1982 to 9999
+	N	Mean	Std. Deviation
+Total	2625	2191.784	1214.504
+1982) 	1	0.0
+1983) 	8	0.3
+1984) 	8	0.3
+1985) 	13	0.5
+1986) 	16	0.6
+1987) 	19	0.7
+1988) 	20	0.8
+1989) 	27	1.0
+1990) 	50	1.9
+1991) 	43	1.6
+1992) 	53	2.0
+1993) 	49	1.9
+1994) 	45	1.7
+1995) 	58	2.2
+1996) 	69	2.6
+1997) 	81	3.1
+1998) 	79	3.0
+1999) 	86	3.3
+2000) 	106	4.0
+2001) 	106	4.0
+2002) 	125	4.8
+2003) 	125	4.8
+2004) 	110	4.2
+2005) 	138	5.3
+2006) 	163	6.2
+2007) 	160	6.1
+2008) 	149	5.7
+2009) 	177	6.7
+2010) 	191	7.3
+2011) 	165	6.3
+2012) 	102	3.9
+2013) 	21	0.8
+9998) Refused	9	0.3
+9999) Don't know	53	2.0
+Missing	6918
+
+
+15) CMOTPREG
+Century Month for Pregnancy End Date (if non-live birth)
+RANGE: 991 to 9999
+	N	Mean	Std. Deviation
+Total	2625	1448.378	1332.599
+Missing	6918
+
+
+16) AGEATEND
+BC-4b [If respondent reported only a season or month/year:]: How old were you when this pregnancy ended? 
+RANGE: 13 to 99
+	N	Mean	Std. Deviation
+Total	449	29.303	22.477
+13) 	4	0.9
+14) 	8	1.8
+15) 	14	3.1
+16) 	26	5.8
+17) 	34	7.6
+18) 	32	7.1
+19) 	35	7.8
+20) 	39	8.7
+21) 	21	4.7
+22) 	23	5.1
+23) 	29	6.5
+24) 	15	3.3
+25) 	17	3.8
+26) 	18	4.0
+27) 	9	2.0
+28) 	14	3.1
+29) 	11	2.4
+30) 	11	2.4
+31) 	10	2.2
+32) 	5	1.1
+33) 	5	1.1
+34) 	11	2.4
+35) 	5	1.1
+36) 	5	1.1
+37) 	5	1.1
+38) 	3	0.7
+98) Refused	6	1.3
+99) Don't know	34	7.6
+Missing	9094
+
+
+17) HPAGEEND
+BC-4c [If this pregnancy was completed but did not result in live birth:]: How old was the father when the pregnancy ended?
+RANGE: 12 to 99
+	N	Mean	Std. Deviation
+Total	2625	29.981	16.293
+12) 	2	0.1
+13) 	2	0.1
+14) 	4	0.2
+15) 	16	0.6
+16) 	36	1.4
+17) 	87	3.3
+18) 	120	4.6
+19) 	129	4.9
+20) 	121	4.6
+21) 	159	6.1
+22) 	145	5.5
+23) 	167	6.4
+24) 	140	5.3
+25) 	134	5.1
+26) 	118	4.5
+27) 	119	4.5
+28) 	98	3.7
+29) 	92	3.5
+30) 	107	4.1
+31) 	61	2.3
+32) 	91	3.5
+33) 	73	2.8
+34) 	69	2.6
+35) 	90	3.4
+36) 	57	2.2
+37) 	49	1.9
+38) 	45	1.7
+39) 	34	1.3
+40) 	29	1.1
+41) 	15	0.6
+42) 	19	0.7
+43) 	17	0.6
+44) 	13	0.5
+45) 	13	0.5
+46) 	4	0.2
+47) 	6	0.2
+48) 	8	0.3
+49) 	6	0.2
+50) 	7	0.3
+51) 	1	0.0
+52) 	1	0.0
+54) 	1	0.0
+55) 	1	0.0
+57) 	1	0.0
+58) 	1	0.0
+59) 	2	0.1
+62) 	1	0.0
+64) 	1	0.0
+69) 	1	0.0
+98) Refused	8	0.3
+99) Don't know	104	4.0
+Missing	6918
+
+
+18) GESTASUM
+BC-5 [If respondent completed pregnancy:]: How many months or weeks had you been pregnant when (the baby was born/the [twins/triplets] were born/that pregnancy ended)? (MONTHS) (GESTASUN_M)
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	9295	3.54	9.799
+0) 	5825	62.7
+1) 	141	1.5
+2) 	289	3.1
+3) 	208	2.2
+4) 	96	1.0
+5) 	73	0.8
+6) 	45	0.5
+7) 	75	0.8
+8) 	286	3.1
+9) 	2132	22.9
+10) 	43	0.5
+98) Refused	10	0.1
+99) Don't know	72	0.8
+Missing	248
+
+
+19) GESTASUW
+BC-5 [If respondent completed pregnancy:]: How many months or weeks had you been pregnant when (the baby was born/the [twins/triplets] were born/that pregnancy ended)? (WEEKS) (GESTASUN_W)
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	9295	19.525	19.583
+0) 	2834	30.5
+1) 	126	1.4
+2) 	381	4.1
+3) 	201	2.2
+4) 	218	2.3
+5) 	124	1.3
+6) 	303	3.3
+7) 	120	1.3
+8) 	277	3.0
+9) 	78	0.8
+10) 	102	1.1
+11) 	42	0.5
+12) 	122	1.3
+13) 	27	0.3
+14) 	26	0.3
+15) 	8	0.1
+16) 	31	0.3
+17) 	7	0.1
+18) 	10	0.1
+19) 	2	0.0
+20) 	10	0.1
+21) 	4	0.0
+22) 	10	0.1
+23) 	4	0.0
+24) 	17	0.2
+25) 	9	0.1
+26) 	8	0.1
+27) 	7	0.1
+28) 	20	0.2
+29) 	17	0.2
+30) 	20	0.2
+31) 	23	0.2
+32) 	69	0.7
+33) 	26	0.3
+34) 	98	1.1
+35) 	101	1.1
+36) 	267	2.9
+37) 	317	3.4
+38) 	662	7.1
+39) 	664	7.1
+40) 	1220	13.1
+41) 	317	3.4
+42) 	252	2.7
+43) 	19	0.2
+44) 	7	0.1
+45) 	1	0.0
+46) 	1	0.0
+47) 	2	0.0
+98) Refused	10	0.1
+99) Don't know	74	0.8
+Missing	248
+
+
+20) WKSGEST
+[If respondent completed pregnancy:] Gestational length of completed pregnancy (in weeks)
+RANGE: 0 to 9999
+	N	Mean	Std. Deviation
+Total	9295	44.258	372.808
+0) 	2	0.0
+1) 	8	0.1
+2) 	44	0.5
+3) 	111	1.2
+4) 	310	3.3
+5) 	129	1.4
+6) 	396	4.3
+7) 	122	1.3
+8) 	276	3.0
+9) 	324	3.5
+10) 	103	1.1
+11) 	77	0.8
+12) 	128	1.4
+13) 	215	2.3
+14) 	29	0.3
+15) 	26	0.3
+16) 	31	0.3
+17) 	83	0.9
+18) 	10	0.1
+19) 	22	0.2
+20) 	12	0.1
+21) 	4	0.0
+22) 	74	0.8
+23) 	7	0.1
+24) 	22	0.2
+25) 	11	0.1
+26) 	44	0.5
+27) 	8	0.1
+28) 	24	0.3
+29) 	20	0.2
+30) 	68	0.7
+31) 	26	0.3
+32) 	93	1.0
+33) 	30	0.3
+34) 	98	1.1
+35) 	224	2.4
+36) 	286	3.1
+37) 	409	4.4
+38) 	708	7.6
+39) 	2582	27.8
+40) 	1307	14.1
+41) 	425	4.6
+42) 	278	3.0
+43) 	63	0.7
+44) 	8	0.1
+45) 	2	0.0
+46) 	1	0.0
+47) 	2	0.0
+9998) Refused	3	0.0
+9999) Don't know	10	0.1
+Missing	248
+
+
+21) MOSGEST
+[If respondent completed pregnancy:] Gestational length of completed pregnancy (in months)
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	9295	7.094	4.651
+0) 	54	0.6
+1) 	885	9.5
+2) 	921	9.9
+3) 	440	4.7
+4) 	143	1.5
+5) 	105	1.1
+6) 	104	1.1
+7) 	207	2.2
+8) 	731	7.9
+9) 	5337	57.4
+10) 	352	3.8
+11) 	3	0.0
+98) Refused	3	0.0
+99) Don't know	10	0.1
+Missing	248
+
+
+22) DK2GEST
+BC-7 [If pregnancy ended in live birth and respondent didn't know or refused to answer gestational length:]: A preterm delivery is one that occurs at 36 weeks or earlier in pregnancy. As far as you know, did you have a preterm delivery?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	10	3	2.108
+1) Yes	5	50.0
+5) No	5	50.0
+Missing	9533
+
+
+23) DK3GEST
+BC-8 [If pregnancy ended in miscarriage, abortion, or ectopic and respondent didn't know or refused to answer gestational length:]: Was it less than 3 months, 3 months or more but less than 6 months, or 6 months or more?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	77	2.351	2.923
+1) Less than 3 months	61	79.2
+2) 3 months or more, but less than 6 months	3	3.9
+8) Refused	3	3.9
+9) Don't know	10	13.0
+Missing	9466
+
+
+24) BPA_BDS1
+Whether 1st liveborn baby from this pregnancy was unnamed and either placed for adoption or died shortly after birth (BPA_BDSCHECK1)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	6668	0.001	0.041
+0) Baby born alive and named	6660	99.9
+1) Baby unnamed and placed for adoption	7	0.1
+2) Baby unnamed and died soon after birth	1	0.0
+Missing	2875
+
+
+25) BABYSEX1
+BD-2: (Is/Was) (BABY'S NAME/the 1st baby) male or female?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	6670	1.483	0.5
+1) Male	3451	51.7
+2) Female	3219	48.3
+Missing	2873
+
+
+26) BRTHWTL1
+BD-3: How much did (BABY'S NAME/this 1st baby) weigh at birth? (POUNDS) (BIRTHWGT_LB1)
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	6670	7.662	9.171
+0) 	5	0.1
+1) 	37	0.6
+2) 	51	0.8
+3) 	72	1.1
+4) 	152	2.3
+5) 	559	8.4
+6) 6 pounds	1648	24.7
+7) 7 pounds	2293	34.4
+8) 8 pounds	1281	19.2
+9) 	385	5.8
+10) 	105	1.6
+11) 	10	0.1
+12) 	2	0.0
+13) 	2	0.0
+16) 	1	0.0
+18) 	2	0.0
+99) Don't know	65	1.0
+Missing	2873
+
+
+27) BRTHWTO1
+BD-3: How much did (BABY'S NAME/this 1st baby) weigh at birth? (OUNCES) (BIRTHWGT_OZ1)
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	6605	7.333	8.732
+0) 	756	11.4
+1) 	328	5.0
+2) 	408	6.2
+3) 	384	5.8
+4) 	391	5.9
+5) 	407	6.2
+6) 	584	8.8
+7) 	399	6.0
+8) 	548	8.3
+9) 	436	6.6
+10) 	316	4.8
+11) 	400	6.1
+12) 	385	5.8
+13) 	299	4.5
+14) 	286	4.3
+15) 	234	3.5
+99) Don't know	44	0.7
+Missing	2938
+
+
+28) LOBTHWT1
+BD-4 [If respondent did not know or refused to answer the baby's birthweight:]: Did (she/he) weigh 5 1/2 pounds or more, or less than 5 1/2 pounds? (1st child from this pregnancy) (LOBTHWGT1)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	76	1.671	1.989
+1) 5 1/2 pounds or more	60	78.9
+2) Less than 5 1/2 pounds.	11	14.5
+9) Don't know	5	6.6
+Missing	9467
+
+
+29) BABYSEX2
+BD-2: (Is/Was) (BABY'S NAME/the 2nd baby) male or female?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	92	1.587	0.928
+1) Male	45	48.9
+2) Female	46	50.0
+9) Don't know	1	1.1
+Missing	9451
+
+
+30) BRTHWTL2
+BD-3: How much did (BABY'S NAME/this 2nd baby) weigh at birth? (POUNDS) (BIRTHWGT_LB2)
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	92	8.696	19.414
+0) 	1	1.1
+1) 	3	3.3
+2) 	5	5.4
+3) 	8	8.7
+4) 	18	19.6
+5) 	30	32.6
+6) 6 Pounds	16	17.4
+7) 7 Pounds	7	7.6
+99) Don't know	4	4.3
+Missing	9451
+
+
+31) BRTHWTO2
+BD-3: How much did (BABY'S NAME/this 2nd baby) weigh at birth? (OUNCES) (BIRTHWGT_OZ2)
+RANGE: 0 to 15
+	N	Mean	Std. Deviation
+Total	88	6.591	4.952
+0) 	12	13.6
+1) 	10	11.4
+2) 	3	3.4
+3) 	6	6.8
+4) 	3	3.4
+5) 	6	6.8
+6) 	6	6.8
+7) 	1	1.1
+8) 	9	10.2
+9) 	5	5.7
+10) 	3	3.4
+11) 	1	1.1
+12) 	7	8.0
+13) 	8	9.1
+14) 	5	5.7
+15) 	3	3.4
+Missing	9455
+
+
+32) LOBTHWT2
+BD-4 [If respondent did not know or refused to answer the baby's birthweight:]: Did (she/he) weigh 5 1/2 pounds or more, or less than 5 1/2 pounds? (2nd child from this pregnancy) (LOBTHWGT2)
+RANGE: 2 to 2
+	N	Mean	Std. Deviation
+Total	4	2	0
+2) Less than 5 1/2 pounds.	4	100.0
+Missing	9539
+
+
+33) BABYSEX3
+BD-2: (Is/Was) (BABY'S NAME/the 3rd baby) male or female?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2	1.5	0.707
+1) Male	1	50.0
+2) Female	1	50.0
+Missing	9541
+
+
+34) BRTHWTL3
+BD-3: How much did (BABY'S NAME/this 3rd baby) weigh at birth? (POUNDS) (BIRTHWGT_LB3)
+RANGE: 2 to 4
+	N	Mean	Std. Deviation
+Total	2	3	1.414
+2) 	1	50.0
+4) 	1	50.0
+Missing	9541
+
+
+35) BRTHWTO3
+BD-3: How much did (BABY'S NAME/this 3rd baby) weigh at birth? (OUNCES) (BIRTHWGT_OZ3)
+RANGE: 4 to 9
+	N	Mean	Std. Deviation
+Total	2	6.5	3.536
+4) 	1	50.0
+9) 	1	50.0
+Missing	9541
+
+
+36) BABYDOBM
+BD-5 [If pregnancy ended in live birth:]: In what month (was she/was he/were the [twins/triplets]) born? (BABYDOB_M)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	6670	6.661	4.918
+1) 	553	8.3
+2) 	491	7.4
+3) 	594	8.9
+4) 	504	7.6
+5) 	572	8.6
+6) 	567	8.5
+7) 	587	8.8
+8) 	596	8.9
+9) 	556	8.3
+10) 	600	9.0
+11) 	513	7.7
+12) 	527	7.9
+98) Refused	7	0.1
+99) Don't know	3	0.0
+Missing	2873
+
+
+37) BABYDOBY
+BD-5 [If pregnancy ended in live birth:]: In what year (was she/was he/were the [twins/triplets]) born? (BABYDOB_Y)
+RANGE: 1981 to 9999
+	N	Mean	Std. Deviation
+Total	6670	2016.349	324.506
+1981) 	1	0.0
+1982) 	1	0.0
+1983) 	1	0.0
+1984) 	10	0.1
+1985) 	12	0.2
+1986) 	22	0.3
+1987) 	38	0.6
+1988) 	67	1.0
+1989) 	68	1.0
+1990) 	100	1.5
+1991) 	113	1.7
+1992) 	112	1.7
+1993) 	121	1.8
+1994) 	104	1.6
+1995) 	115	1.7
+1996) 	115	1.7
+1997) 	169	2.5
+1998) 	260	3.9
+1999) 	254	3.8
+2000) 	302	4.5
+2001) 	347	5.2
+2002) 	355	5.3
+2003) 	376	5.6
+2004) 	400	6.0
+2005) 	382	5.7
+2006) 	430	6.4
+2007) 	440	6.6
+2008) 	441	6.6
+2009) 	423	6.3
+2010) 	393	5.9
+2011) 	391	5.9
+2012) 	258	3.9
+2013) 	38	0.6
+9998) Refused	6	0.1
+9999) Don't know	5	0.1
+Missing	2873
+
+
+38) CMBABDOB
+Century Month for baby's or babies' date of birth (delivery date)
+RANGE: 979 to 9999
+	N	Mean	Std. Deviation
+Total	6670	1258.915	363.116
+Missing	2873
+
+
+39) KIDAGE
+[If baby born alive and named:] Current Age (in months) of R's child(ren) from this pregnancy
+RANGE: 0 to 372
+	N	Mean	Std. Deviation
+Total	6659	108.608	75.074
+
+
+40) HPAGELB
+BD-6 [If pregnancy ended in live birth]: How old was the father when (BABY'S NAME/the [twins/triplets]) (was/were) born?
+RANGE: 12 to 99
+	N	Mean	Std. Deviation
+Total	6670	28.57	10.731
+12) 	1	0.0
+13) 	1	0.0
+14) 	3	0.0
+15) 	18	0.3
+16) 	52	0.8
+17) 	119	1.8
+18) 	215	3.2
+19) 	275	4.1
+20) 	295	4.4
+21) 	371	5.6
+22) 	372	5.6
+23) 	406	6.1
+24) 	401	6.0
+25) 	381	5.7
+26) 	373	5.6
+27) 	338	5.1
+28) 	351	5.3
+29) 	284	4.3
+30) 	323	4.8
+31) 	247	3.7
+32) 	255	3.8
+33) 	185	2.8
+34) 	218	3.3
+35) 	168	2.5
+36) 	183	2.7
+37) 	124	1.9
+38) 	131	2.0
+39) 	86	1.3
+40) 	75	1.1
+41) 	62	0.9
+42) 	61	0.9
+43) 	42	0.6
+44) 	25	0.4
+45) 	32	0.5
+46) 	18	0.3
+47) 	16	0.2
+48) 	15	0.2
+49) 	7	0.1
+50) 	10	0.1
+51) 	11	0.2
+52) 	6	0.1
+53) 	3	0.0
+54) 	5	0.1
+55) 	6	0.1
+56) 	5	0.1
+57) 	1	0.0
+59) 	1	0.0
+60) 	1	0.0
+62) 	2	0.0
+64) 	1	0.0
+67) 	1	0.0
+68) 	1	0.0
+98) Refused	4	0.1
+99) Don't know	83	1.2
+Missing	2873
+
+
+41) BIRTHPLC
+BD-7 [If pregnancy was completed and miscarriage was not induced:]: Where did you give birth? Was it in a hospital, in a birthing center, in your home, or some other place?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	2295	1.039	0.264
+1) In a hospital	2238	97.5
+2) In a birthing center	30	1.3
+3) In your home	22	1.0
+4) Some other place	5	0.2
+Missing	7248
+
+
+42) PAYBRTH1
+BD-8 [If pregnancy was completed and miscarriage was not induced:]: When ([BABY'S NAME] was born/your [twins/triplets] were born,) in which of the ways on Card 16 was the delivery bill paid? (1st mention) (PAYBIRTH1)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2295	2.144	1.075
+1) Insurance	1010	44.0
+2) Co-payment or out-of-pocket payment	59	2.6
+3) Medicaid	1156	50.4
+4) No payment required	33	1.4
+5) Some other way	35	1.5
+8) Refused	1	0.0
+9) Don't know	1	0.0
+Missing	7248
+
+
+43) PAYBRTH2
+BD-8 [If pregnancy was completed and miscarriage was not induced:]: When ([BABY'S NAME] was born/your [twins/triplets] were born,) in which of the ways on Card 16 was the delivery bill paid? (2nd mention) (PAYBIRTH2)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	543	2.109	0.531
+1) Insurance	26	4.8
+2) Co-payment or out-of-pocket	448	82.5
+3) Medicaid	61	11.2
+5) Some other way	8	1.5
+Missing	9000
+
+
+44) PAYBRTH3
+BD-8 [If pregnancy was completed and miscarriage was not induced:]: When ([BABY'S NAME] was born/your [twins/triplets] were born,) in which of the ways on Card 16 was the delivery bill paid? (3rd mention) (PAYBIRTH3)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	10	3.9	1.524
+1) Insurance	1	10.0
+2) Co-payment or out-of-pocket	1	10.0
+3) Medicaid	2	20.0
+5) Some other way	6	60.0
+Missing	9533
+
+
+45) CSECPRIM
+BD-9 [If pregnancy outcome was a cesarean livebirth delivery:]: What this your first cesarean delivery, or had you had one before this?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	641	2.629	1.967
+1) Yes	380	59.3
+5) No	261	40.7
+Missing	8902
+
+
+46) CSECMED1
+BD-10 [If this was respondent's first cesarean delivery and had not already reported on her first cesarean delivery:]: Please look at Card 16b. Which of these medical reasons, if any, were there for this cesarean delivery? (1st MENTION)
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	380	3.579	1.815
+1) Labor was taking too long	79	20.8
+2) Maternity care provider concerned that baby was too big	35	9.2
+3) Baby was in the wrong position (e.g., breech)	72	18.9
+4) Maternity care provider concerned about your health	52	13.7
+5) Maternity care provider concerned about your baby's health	75	19.7
+6) Some other medical reason	57	15.0
+7) There was no medical reason	10	2.6
+Missing	9163
+
+
+47) CSECMED2
+BD-10 [If respondent's reported more than 1 medical reason for her first cesarean delivery:]: Please look at Card 16b. Which of these medical reasons, if any, were there for this cesarean delivery? (2nd MENTION)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	127	4.15	1.453
+1) Labor was taking too long	7	5.5
+2) Maternity care provider concerned that baby was too big	18	14.2
+3) Baby was in the wrong position (e.g., breech)	9	7.1
+4) Maternity care provider concerned about your health	28	22.0
+5) Maternity care provider concerned about your baby's health	45	35.4
+6) Some other medical reason	20	15.7
+Missing	9416
+
+
+48) CSECMED3
+BD-10 [If respondent's reported more than 2 medical reasons for her first cesarean delivery:]: Please look at Card 16b. Which of these medical reasons, if any, were there for this cesarean delivery? (3rd MENTION)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	29	4.621	1.147
+1) Labor was taking too long	1	3.4
+2) Maternity care provider concerned that baby was too big	1	3.4
+3) Baby was in the wrong position (e.g., breech)	1	3.4
+4) Maternity care provider concerned about your health	7	24.1
+5) Maternity care provider concerned about your baby's health	14	48.3
+6) Some other medical reason	5	17.2
+Missing	9514
+
+
+49) CSECMED4
+BD-10 [If respondent's reported more than 3 medical reasons for her first cesarean delivery:]: Please look at Card 16b. Which of these medical reasons, if any, were there for this cesarean delivery? (4th MENTION)
+RANGE: 4 to 6
+	N	Mean	Std. Deviation
+Total	9	5	0.866
+4) Maternity care provider concerned about your health	3	33.3
+5) Maternity care provider concerned about your baby's health	3	33.3
+6) Some other medical reason	3	33.3
+Missing	9534
+
+
+50) CSECMED5
+BD-10 [If respondent's reported more than 4 medical reasons for her first cesarean delivery:]: Please look at Card 16b. Which of these medical reasons, if any, were there for this cesarean delivery? (5th MENTION)
+RANGE: 5 to 5
+	N	Mean	Std. Deviation
+Total	1	5	0
+5) Maternity care provider concerned about your baby's health	1	100.0
+Missing	9542
+
+
+51) CSECMED6
+BD-10 [If respondent's reported more than 5 medical reasons for her first cesarean delivery:]: Please look at Card 16b. Which of these medical reasons, if any, were there for this cesarean delivery? (6th MENTION)
+RANGE: 6 to 6
+	N	Mean	Std. Deviation
+Total	1	6	0
+6) Some other medical reason	1	100.0
+Missing	9542
+
+
+52) CSECPLAN
+BD-11 [If respondent reported no medical reason for her first cesarean delivery:]: Was this cesarean the result of your own idea to have a planned cesarean before labor began?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	13	3.462	2.025
+1) Yes	5	38.5
+5) No	8	61.5
+Missing	9530
+
+
+53) KNEWPREG
+BE-1: How many weeks pregnant were you when you learned that you were pregnant this (nth) time?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2946	7.138	11.424
+0) 	5	0.2
+1) 	63	2.1
+2) 	217	7.4
+3) 	257	8.7
+4) 	801	27.2
+5) 	316	10.7
+6) 	465	15.8
+7) 	116	3.9
+8) 	297	10.1
+9) 	54	1.8
+10) 	43	1.5
+11) 	21	0.7
+12) 	124	4.2
+13) 	9	0.3
+14) 	13	0.4
+15) 	11	0.4
+16) 	25	0.8
+17) 	7	0.2
+18) 	4	0.1
+19) 	3	0.1
+20) 	23	0.8
+21) 	1	0.0
+22) 	7	0.2
+23) 	2	0.1
+24) 	8	0.3
+25) 	1	0.0
+26) 	1	0.0
+28) 	4	0.1
+30) 	2	0.1
+31) 	1	0.0
+32) 	2	0.1
+34) 	1	0.0
+35) 	1	0.0
+38) 	1	0.0
+98) Refused	6	0.2
+99) Don't know	34	1.2
+Missing	6597
+
+
+54) TRIMESTR
+BE-2A [If respondent did not know or refused to answer when she learned she was pregnant:]: Was it less than 3 months, at least 3 months but less than 6 months, or six or more months?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	13	2.154	1.819
+1) Less than 3 months	4	30.8
+2) At least 3 months, but less than 6 months	8	61.5
+8) Refused	1	7.7
+Missing	9530
+
+
+55) PRIORSMK
+BE-3: Please look at Card 17. In the 6 months before you found out were pregnant this (nth) time, how many cigarettes did you smoke a day, on the average?
+RANGE: 0 to 8
+	N	Mean	Std. Deviation
+Total	2946	0.716	1.394
+0) None	2239	76.0
+1) About one cigarette a day or less	61	2.1
+2) Just a few cigarettes a day (2-4)	160	5.4
+3) About half a pack a day (15-24)	290	9.8
+4) About a pack a day (15-24)	153	5.2
+5) About 1 1/2 packs a day (25-34)	28	1.0
+6) About 2 packs a day (35-44)	6	0.2
+7) More than 2 packs a day (45 or more)	1	0.0
+8) Refused	8	0.3
+Missing	6597
+
+
+56) POSTSMKS
+BE-4: After you found out you were pregnant this (nth) time, did you smoke cigarettes at all during the pregnancy?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2946	4.547	1.291
+1) Yes	340	11.5
+5) No	2598	88.2
+8) Refused	8	0.3
+Missing	6597
+
+
+57) NPOSTSMK
+BE-5: Looking at Card 18, on the average, how many cigarettes did you smoke per day after you found out that you were pregnant this (nth) time?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	340	2.509	1.071
+1) About one cigarette a day or less	53	15.6
+2) Just a few cigarettes a day (2-4)	130	38.2
+3) About half a pack a day (15-24)	104	30.6
+4) About a pack a day (15-24)	44	12.9
+5) About 1 1/2 packs a day (25-34)	6	1.8
+6) About 2 packs a day (35-44)	1	0.3
+7) More than 2 packs a day (45 or more)	1	0.3
+9) Don't know	1	0.3
+Missing	9203
+
+
+58) GETPRENA
+BE-6: During this (nth) pregnancy, did you ever visit a doctor or other medical care provider for prenatal care, that is, for one or more pregnancy check-ups?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2946	1.479	1.306
+1) Yes	2595	88.1
+5) No	349	11.8
+8) Refused	1	0.0
+9) Don't know	1	0.0
+Missing	6597
+
+
+59) BGNPRENA
+BE-7: How many weeks pregnant were you at the time of your first prenatal care visit?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2595	8.744	9.177
+1) 	15	0.6
+2) 	73	2.8
+3) 	102	3.9
+4) 	335	12.9
+5) 	188	7.2
+6) 	435	16.8
+7) 	164	6.3
+8) 	513	19.8
+9) 	113	4.4
+10) 	129	5.0
+11) 	31	1.2
+12) 	214	8.2
+13) 	29	1.1
+14) 	19	0.7
+15) 	16	0.6
+16) 	65	2.5
+17) 	10	0.4
+18) 	10	0.4
+19) 	3	0.1
+20) 	48	1.8
+21) 	5	0.2
+22) 	12	0.5
+23) 	1	0.0
+24) 	20	0.8
+25) 	3	0.1
+26) 	3	0.1
+27) 	3	0.1
+28) 	7	0.3
+30) 	3	0.1
+31) 	1	0.0
+32) 	1	0.0
+33) 	1	0.0
+36) 	3	0.1
+98) Refused	1	0.0
+99) Don't know	19	0.7
+Missing	6948
+
+
+60) PNCTRIM
+BE-8A [If respondent did not know or refused  when she began prenatal care and gestational length was 6 months or longer]: Was it less than 3 months, at least 3 months but less than 6 months, or 6 or more months?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	13	2.308	2.057
+1) Less than 3 months,	3	23.1
+2) At least 3 months, but less than 6 months	9	69.2
+9) Don't know	1	7.7
+Missing	9530
+
+
+61) LPNCTRI
+BE-8B [If respondent did not know or refused when she began prenatal care and gestational length was between 3 and 6 months]: Was it less than 3 months or 3 months or more?
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	7	1	0
+1) Less than 3 months	7	100.0
+Missing	9536
+
+
+62) LIVHERE1
+BG-1 [If 1st liveborn child from this pregnancy did not match any biological child reported in the household roster:]: Earlier I don't think you mentioned (BABY'S NAME) when you told me who lives with you. Does (BABY'S NAME) still live with you? (1st child from this pregnancy) (LIVEHERE1)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2057	1.865	1.652
+1) Yes	1613	78.4
+5) No	443	21.5
+9) Don't know	1	0.0
+Missing	7486
+
+
+63) ALIVNOW1
+BG-2 [If child is not living with respondent:]: Is (she/he) still living? (1st child from this pregnancy) (ALIVENOW1)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	444	1.568	1.397
+1) Yes	381	85.8
+5) No	63	14.2
+Missing	9099
+
+
+64) WHENDIM1
+BG-3 [If child died:]: When did (BABY'S NAME) die? (1st child from this pregnancy; MONTH) (WHENDIED_M1)
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	63	6.714	3.372
+1) 	4	6.3
+2) 	3	4.8
+3) 	5	7.9
+4) 	4	6.3
+5) 	14	22.2
+6) 	1	1.6
+7) 	5	7.9
+8) 	8	12.7
+9) 	3	4.8
+10) 	3	4.8
+11) 	6	9.5
+12) 	7	11.1
+Missing	9480
+
+
+65) WHENDIY1
+BG-3 [If child died:]: When did (BABY'S NAME) die? (1st child from this pregnancy; YEAR) (WHENDIED_Y1)
+RANGE: 1994 to 2012
+	N	Mean	Std. Deviation
+Total	63	2003.603	5.201
+1994) 	2	3.2
+1995) 	5	7.9
+1996) 	1	1.6
+1997) 	3	4.8
+1998) 	3	4.8
+1999) 	3	4.8
+2000) 	2	3.2
+2001) 	2	3.2
+2002) 	4	6.3
+2003) 	3	4.8
+2004) 	2	3.2
+2005) 	4	6.3
+2006) 	5	7.9
+2007) 	8	12.7
+2008) 	5	7.9
+2009) 	3	4.8
+2010) 	3	4.8
+2011) 	4	6.3
+2012) 	1	1.6
+Missing	9480
+
+
+66) CMKIDIE1
+Century Month for child's date of death-1st from this pregnancy (CMKIDIED1)
+RANGE: 1130 to 1346
+	N	Mean	Std. Deviation
+Total	63	1249.952	63.069
+1130) 	1	1.6
+1133) 	1	1.6
+1144) 	1	1.6
+1145) 	1	1.6
+1146) 	1	1.6
+1147) 	1	1.6
+1149) 	1	1.6
+1164) 	1	1.6
+1169) 	1	1.6
+1172) 	1	1.6
+1175) 	1	1.6
+1178) 	1	1.6
+1180) 	2	3.2
+1195) 	2	3.2
+1196) 	1	1.6
+1204) 	1	1.6
+1205) 	1	1.6
+1217) 	1	1.6
+1220) 	1	1.6
+1227) 	3	4.8
+1229) 	1	1.6
+1244) 	2	3.2
+1245) 	1	1.6
+1249) 	2	3.2
+1265) 	1	1.6
+1268) 	1	1.6
+1269) 	1	1.6
+1271) 	1	1.6
+1277) 	1	1.6
+1282) 	2	3.2
+1283) 	1	1.6
+1284) 	1	1.6
+1285) 	2	3.2
+1289) 	1	1.6
+1292) 	1	1.6
+1295) 	2	3.2
+1296) 	2	3.2
+1299) 	1	1.6
+1301) 	2	3.2
+1308) 	2	3.2
+1313) 	2	3.2
+1316) 	1	1.6
+1325) 	1	1.6
+1327) 	1	1.6
+1332) 	1	1.6
+1335) 	1	1.6
+1339) 	1	1.6
+1342) 	1	1.6
+1343) 	1	1.6
+1346) 	1	1.6
+Missing	9480
+
+
+67) WHNLFTM1
+BG-4 [If child stopped living with respondent:]: When did (BABY'S NAME) stop living with you? (1st child from this pregnancy; MONTH) (WHENLEFT_M1)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	381	12.969	22.635
+1) 	31	8.1
+2) 	19	5.0
+3) 	24	6.3
+4) 	30	7.9
+5) 	32	8.4
+6) 	34	8.9
+7) 	21	5.5
+8) 	36	9.4
+9) 	26	6.8
+10) 	27	7.1
+11) 	20	5.2
+12) 	19	5.0
+13) Winter	8	2.1
+14) Spring	4	1.0
+15) Summer	19	5.0
+16) Fall	7	1.8
+98) Refused	4	1.0
+99) Don't know	20	5.2
+Missing	9162
+
+
+68) WHNLFTY1
+BG-4 [If child stopped living with respondent:]: When did (BABY'S NAME) stop living with you? (1st child from this pregnancy; YEAR) (WHENLEFT_Y1)
+RANGE: 1994 to 9999
+	N	Mean	Std. Deviation
+Total	381	2174.743	1147.308
+1994) 	4	1.0
+1995) 	2	0.5
+1996) 	5	1.3
+1997) 	5	1.3
+1998) 	4	1.0
+1999) 	7	1.8
+2000) 	8	2.1
+2001) 	13	3.4
+2002) 	18	4.7
+2003) 	19	5.0
+2004) 	17	4.5
+2005) 	22	5.8
+2006) 	28	7.3
+2007) 	29	7.6
+2008) 	23	6.0
+2009) 	24	6.3
+2010) 	41	10.8
+2011) 	48	12.6
+2012) 	48	12.6
+2013) 	8	2.1
+9998) Refused	4	1.0
+9999) Don't know	4	1.0
+Missing	9162
+
+
+69) CMKDLFT1
+[If child stopped living with respondent] Century Month for date child stopped living w/R-1st from this pregnancy (CMKIDLFT1)
+RANGE: 1129 to 9999
+	N	Mean	Std. Deviation
+Total	381	1472.417	1251.422
+Missing	9162
+
+
+70) LASTAGE1
+[If child stopped living with respondent:] Age (in months) when child last lived with/R-1st from this pregnancy
+RANGE: 0 to 225
+	N	Mean	Std. Deviation
+Total	436	68.158	66.695
+
+
+71) WHERNOW1
+BG-5 [If child stopped living with respondent:]: Please look at Card 19. Where does (BABY'S NAME) now live? (1st child from this pregnancy) (WHERENOW1)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	381	2.173	1.388
+1) With biological father	137	36.0
+2) With other relatives	147	38.6
+3) With adoptive family	55	14.4
+4) Away at school/college	4	1.0
+5) Living on own	15	3.9
+6) Other	22	5.8
+9) Don't know	1	0.3
+Missing	9162
+
+
+72) LEGAGRE1
+BG-6 [If child leaves with biological father]: Do you and (BABY'S NAME)'s father have a legal agreement about (BABY'S NAME) regarding child support, alimony, custody, visitation, or where the child lives?  (1st child from this pregnancy) (LEGAGREE1)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	137	2.226	1.851
+1) Yes	95	69.3
+5) No	42	30.7
+Missing	9406
+
+
+73) PARNEND1
+BG-7 [If child does not live with respondent or respondent refused to answer where the child lives:]: Are you still the legal mother of (BABY'S NAME)? (1st child from this pregnancy) (PARENEND1)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	322	1.422	1.271
+1) Yes	289	89.8
+5) No	32	9.9
+9) Don't know	1	0.3
+Missing	9221
+
+
+74) ANYNURS1
+BH-1: (When (BABY'S NAME) was an infant,) (Have/did) you breastfeed (him/her) at all? (1st child from this pregnancy) (ANYNURSE1)
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	5952	2.425	1.918
+1) Yes	3833	64.4
+5) No	2117	35.6
+8) Refused	2	0.0
+Missing	3591
+
+
+75) FEDSOLI1
+BH-2: Besides breastmilk, babies are sometimes given formula, baby food, or other liquid or solid foods. (Did you feed/Have you fed) [BABY'S NAME] something other than breast milk yet? (1st child from this pregnancy) (FEDSOLID1)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	283	1.481	1.303
+1) Yes	249	88.0
+5) No	34	12.0
+Missing	9260
+
+
+76) FSTEATN1
+BH-3 (If child was ever breastfed and fed something other than breastmilk): How old was (she/he) when you first fed (her/him) something other than breast milk? (1st child from this pregnancy; NUMBER) (FRSTEATD_N1)
+RANGE: 0 to 999
+	N	Mean	Std. Deviation
+Total	3799	7.05	55.927
+0) 	21	0.6
+1) 	762	20.1
+2) 	577	15.2
+3) 	633	16.7
+4) 	527	13.9
+5) 	272	7.2
+6) 	608	16.0
+7) 	87	2.3
+8) 	104	2.7
+9) 	55	1.4
+10) 	28	0.7
+11) 	8	0.2
+12) 	64	1.7
+13) 	1	0.0
+14) 	8	0.2
+15) 	9	0.2
+16) 	1	0.0
+17) 	3	0.1
+18) 	7	0.2
+19) 	1	0.0
+20) 	3	0.1
+24) 	3	0.1
+27) 	1	0.0
+30) 	1	0.0
+36) 	1	0.0
+40) 	1	0.0
+55) 	1	0.0
+999) Don't know	12	0.3
+Missing	5744
+
+
+77) FSTEATP1
+BH-3 (If child was ever breastfed and fed something other than breastmilk): How old was (she/he) when you first fed (her/him) something other than breast milk? (1st child from this pregnancy; UNITS) (FRSTEATD_P1)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	3787	1.481	0.751
+1) Months	2563	67.7
+2) Weeks	628	16.6
+3) Days	596	15.7
+Missing	5756
+
+
+78) FSTEATD1
+BH-3 (If child was ever breastfed and fed something other than breastmilk): Age (in months) when 1st supplemented-1st from this pregnancy (FRSTEATD1)
+RANGE: 0 to 36
+	N	Mean	Std. Deviation
+Total	3787	3.1	2.947
+0) Less than 1 month	921	24.3
+1) 1 Month	495	13.1
+2) 2 Months	339	9.0
+3) 3 Months	509	13.4
+4) 4 Months	470	12.4
+5) 5 Months	246	6.5
+6) 6 Months	504	13.3
+7) 	78	2.1
+8) 	70	1.8
+9) 	48	1.3
+10) 	22	0.6
+11) 	6	0.2
+12) 	58	1.5
+13) 	2	0.1
+14) 	1	0.0
+15) 	3	0.1
+17) 	3	0.1
+18) 	7	0.2
+19) 	1	0.0
+20) 	1	0.0
+24) 	2	0.1
+36) 	1	0.0
+Missing	5756
+
+
+79) QUITNRS1
+BH-4: (Have/had) you stopped breast-feeding (her/him) altogether? (1st child from this pregnancy) (QUITNURS1)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	581	1.923	1.686
+1) Yes	447	76.9
+5) No	134	23.1
+Missing	8962
+
+
+80) AGQTNRN1
+BH-5: How old was (she/he) when you stopped breast-feeding (her/him) altogether? (1st child from this pregnancy; NUMBER) (AGEQTNUR_N1)
+RANGE: 0 to 999
+	N	Mean	Std. Deviation
+Total	3665	11.999	65.642
+Missing	5878
+
+
+81) AGQTNRP1
+BH-5 (If child was ever breastfed and respondent has stopped breastfeeding:): How old was (she/he) when you stopped breast-feeding (her/him) altogether? (1st child from this pregnancy; UNITS) (AGEQTNUR_P1)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3649	1.244	0.569
+1) Months	2932	80.4
+2) Weeks	573	15.7
+3) Days	138	3.8
+7) Not ascertained	4	0.1
+9) Don't know	2	0.1
+Missing	5894
+
+
+82) AGEQTNR1
+Age (in months) when R stopped nursing child-1st from this pregnancy (AGEQTNUR1)
+RANGE: 0 to 97
+	N	Mean	Std. Deviation
+Total	3647	6.812	7.309
+0) Less than 1 month old	348	9.5
+1) 1 month old	474	13.0
+2) 2 months old	319	8.7
+3) 3 months old	411	11.3
+4) 	224	6.1
+5) 	127	3.5
+6) 	360	9.9
+7) 	112	3.1
+8) 	142	3.9
+9) 	132	3.6
+10) 	79	2.2
+11) 	78	2.1
+12) 	356	9.8
+13) 	63	1.7
+14) 	72	2.0
+15) 	38	1.0
+16) 	24	0.7
+17) 	13	0.4
+18) 	102	2.8
+19) 	11	0.3
+20) 	11	0.3
+21) 	3	0.1
+22) 	2	0.1
+23) 	5	0.1
+24) 	77	2.1
+25) 	1	0.0
+26) 	2	0.1
+27) 	6	0.2
+28) 	2	0.1
+29) 	2	0.1
+30) 	17	0.5
+31) 	2	0.1
+32) 	1	0.0
+33) 	1	0.0
+34) 	1	0.0
+36) 	14	0.4
+46) 	1	0.0
+48) 	10	0.3
+97) Not ascertained	4	0.1
+Missing	5896
+
+
+83) LIVHERE2
+BG-1 [If 2nd liveborn child from this pregnancy did not match any biological child reported in the household roster:]: Earlier I don't think you mentioned (BABY'S NAME) when you told me who lives with you. Does (BABY'S NAME) still live with you? (2nd child from this pregnancy) (LIVEHERE2)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	34	2.529	2.205
+1) Yes	22	64.7
+5) No	11	32.4
+9) Don't know	1	2.9
+Missing	9509
+
+
+84) ALIVNOW2
+BG-2 [If child is not living with respondent:]: Is (she/he) still living? (2nd child from this pregnancy) (ALIVENOW2)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	12	2.667	2.06
+1) Yes	7	58.3
+5) No	5	41.7
+Missing	9531
+
+
+85) WHENDIM2
+BG-3 [If child died:]: When did (BABY'S NAME) die? (2nd child from this pregnancy; MONTH) (WHENDIED_M2)
+RANGE: 4 to 12
+	N	Mean	Std. Deviation
+Total	5	8.8	2.95
+4) 	1	20.0
+9) 	2	40.0
+10) 	1	20.0
+12) 	1	20.0
+Missing	9538
+
+
+86) WHENDIY2
+BG-3 [If child died:]: When did (BABY'S NAME) die? (2nd child from this pregnancy; YEAR) (WHENDIED_Y2)
+RANGE: 1995 to 2007
+	N	Mean	Std. Deviation
+Total	5	2001.6	4.98
+1995) 	1	20.0
+1998) 	1	20.0
+2003) 	1	20.0
+2005) 	1	20.0
+2007) 	1	20.0
+Missing	9538
+
+
+87) CMKIDIE2
+Century Month for child's date of death-2nd from this pregnancy (CMKIDIED2)
+RANGE: 1144 to 1293
+	N	Mean	Std. Deviation
+Total	5	1228	61.786
+1144) 	1	20.0
+1186) 	1	20.0
+1245) 	1	20.0
+1272) 	1	20.0
+1293) 	1	20.0
+Missing	9538
+
+
+88) WHNLFTM2
+BG-4 [If child stopped living with respondent:]: When did (BABY'S NAME) stop living with you? (2nd child from this pregnancy; MONTH) (WHENLEFT_M2)
+RANGE: 2 to 99
+	N	Mean	Std. Deviation
+Total	7	21.857	34.3
+2) 	1	14.3
+7) 	2	28.6
+10) 	1	14.3
+12) 	1	14.3
+16) Fall	1	14.3
+99) Don't know	1	14.3
+Missing	9536
+
+
+89) WHNLFTY2
+BG-4 [If child stopped living with respondent:]: When did (BABY'S NAME) stop living with you? (2nd child from this pregnancy; YEAR) (WHENLEFT_Y2)
+RANGE: 1992 to 2012
+	N	Mean	Std. Deviation
+Total	7	2003.714	6.291
+1992) 	1	14.3
+2000) 	1	14.3
+2004) 	1	14.3
+2005) 	1	14.3
+2006) 	1	14.3
+2007) 	1	14.3
+2012) 	1	14.3
+Missing	9536
+
+
+90) CMKDLFT2
+[If child stopped living with respondent] Century Month for date child stopped living w/R-2nd from this pregnancy (CMKIDLFT2)
+RANGE: 1110 to 1351
+	N	Mean	Std. Deviation
+Total	7	1252.286	75.782
+1110) 	1	14.3
+1212) 	1	14.3
+1250) 	1	14.3
+1267) 	1	14.3
+1282) 	1	14.3
+1294) 	1	14.3
+1351) 	1	14.3
+Missing	9536
+
+
+91) LASTAGE2
+[If child stopped living with respondent:] Age (in months) when child last lived with/R-2nd from this pregnancy
+RANGE: 0 to 997
+	N	Mean	Std. Deviation
+Total	12	108.333	282.7
+0) 	4	33.3
+1) 	1	8.3
+3) 	1	8.3
+12) 	1	8.3
+17) 	1	8.3
+73) 	1	8.3
+79) 	1	8.3
+118) 	1	8.3
+997) Not ascertained	1	8.3
+Missing	9531
+
+
+92) WHERNOW2
+BG-5 [If child stopped living with respondent:]: Please look at Card 19. Where does (BABY'S NAME) now live? (2nd child from this pregnancy) (WHERENOW2)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	7	1.714	0.756
+1) With biological father	3	42.9
+2) With other relatives	3	42.9
+3) With adoptive family	1	14.3
+Missing	9536
+
+
+93) LEGAGRE2
+BG-6 [If child leaves with biological father]: Do you and (BABY'S NAME)'s father have a legal agreement about (BABY'S NAME) regarding child support, alimony, custody, visitation, or where the child lives?  (2nd child from this pregnancy) (LEGAGREE2)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	3	2.333	2.309
+1) Yes	2	66.7
+5) No	1	33.3
+Missing	9540
+
+
+94) PARNEND2
+BG-7 [If child does not live with respondent or respondent refused to answer where the child lives:]: Are you still the legal mother of (BABY'S NAME)? (2nd child from this pregnancy) (PARENEND2)
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	6	1	0
+1) Yes	6	100.0
+Missing	9537
+
+
+95) ANYNURS2
+BH-1: (When (BABY'S NAME) was an infant,) (Have/did) you breastfeed (him/her) at all? (2nd child from this pregnancy) (ANYNURSE2)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	83	2.446	1.933
+1) Yes	53	63.9
+5) No	30	36.1
+Missing	9460
+
+
+96) FEDSOLI2
+BH-2: Besides breastmilk, babies are sometimes given formula, baby food, or other liquid or solid foods. (Did you feed/Have you fed) [BABY'S NAME] something other than breast milk yet? (2nd child from this pregnancy) (FEDSOLID2)
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	3	1	0
+1) Yes	3	100.0
+Missing	9540
+
+
+97) FSTEATN2
+BH-3 (If child was ever breastfed and fed something other than breastmilk): How old was (she/he) when you first fed (her/him) something other than breast milk? (2nd child from this pregnancy; NUMBER) (FRSTEATD_N2)
+RANGE: 1 to 16
+	N	Mean	Std. Deviation
+Total	53	3.283	2.537
+1) 	15	28.3
+2) 	5	9.4
+3) 	13	24.5
+4) 	11	20.8
+5) 	2	3.8
+6) 	4	7.5
+8) 	2	3.8
+16) 	1	1.9
+Missing	9490
+
+
+98) FSTEATP2
+BH-3 (If child was ever breastfed and fed something other than breastmilk): How old was (she/he) when you first fed (her/him) something other than breast milk? (2nd child from this pregnancy; UNITS) (FRSTEATD_P2)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	53	1.849	0.864
+1) Months	24	45.3
+2) Weeks	13	24.5
+3) Days	16	30.2
+Missing	9490
+
+
+99) FSTEATD2
+BH-3 (If child was ever breastfed and fed something other than breastmilk): Age (in months) when 1st supplemented-1st from this pregnancy (FRSTEATD2)
+RANGE: 0 to 8
+	N	Mean	Std. Deviation
+Total	53	2.019	2.232
+0) Less than 1 month	23	43.4
+1) 1 Month	6	11.3
+2) 2 Months	1	1.9
+3) 3 Months	7	13.2
+4) 4 Months	9	17.0
+5) 5 Months	2	3.8
+6) 6 Months	4	7.5
+8) 7 or more Months	1	1.9
+Missing	9490
+
+
+100) QUITNRS2
+BH-4: (Have/had) you stopped breast-feeding (her/him) altogether? (2nd child from this pregnancy) (QUITNURS2)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	9	1.444	1.333
+1) Yes	8	88.9
+5) No	1	11.1
+Missing	9534
+
+
+101) AGQTNRN2
+BH-5: How old was (she/he) when you stopped breast-feeding (her/him) altogether? (2nd child from this pregnancy; NUMBER) (AGEQTNUR_N2)
+RANGE: 1 to 18
+	N	Mean	Std. Deviation
+Total	52	5.885	4.592
+1) 	6	11.5
+2) 	8	15.4
+3) 	9	17.3
+4) 	5	9.6
+5) 	2	3.8
+6) 	5	9.6
+7) 	1	1.9
+8) 	4	7.7
+10) 	1	1.9
+11) 	1	1.9
+12) 	5	9.6
+13) 	1	1.9
+14) 	1	1.9
+16) 	2	3.8
+18) 	1	1.9
+Missing	9491
+
+
+102) AGQTNRP2
+BH-5 (If child was ever breastfed and respondent has stopped breastfeeding:): How old was (she/he) when you stopped breast-feeding (her/him) altogether? (2nd child from this pregnancy; UNITS) (AGEQTNUR_P2)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	52	1.423	0.637
+1) Months	34	65.4
+2) Weeks	14	26.9
+3) Days	4	7.7
+Missing	9491
+
+
+103) AGEQTNR2
+Age (in months) when R stopped nursing child-2nd from this pregnancy (AGEQTNUR2)
+RANGE: 0 to 18
+	N	Mean	Std. Deviation
+Total	52	4.577	4.535
+0) Less than 1 month old	11	21.2
+1) 1 month old	7	13.5
+2) 2 months old	2	3.8
+3) 3 months old	7	13.5
+4) 	5	9.6
+5) 	2	3.8
+6) 	5	9.6
+7) 	1	1.9
+8) 	3	5.8
+10) 	1	1.9
+12) 	5	9.6
+13) 	1	1.9
+14) 	1	1.9
+18) 	1	1.9
+Missing	9491
+
+
+104) ANYNURS3
+BH-1: (When (BABY'S NAME) was an infant,) (Have/did) you breastfeed (him/her) at all? (3rd child from this pregnancy) (ANYNURSE3)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2	3	2.828
+1) Yes	1	50.0
+5) No	1	50.0
+Missing	9541
+
+
+105) FSTEATN3
+BH-3 (If child was ever breastfed and fed something other than breastmilk): How old was (she/he) when you first fed (her/him) something other than breast milk? (3rd child from this pregnancy; NUMBER) (FRSTEATD_N3)
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1	1	0
+1) 	1	100.0
+Missing	9542
+
+
+106) FSTEATP3
+BH-3 (If child was ever breastfed and fed something other than breastmilk): How old was (she/he) when you first fed (her/him) something other than breast milk? (3rd child from this pregnancy; UNITS) (FRSTEATD_P3)
+RANGE: 3 to 3
+	N	Mean	Std. Deviation
+Total	1	3	0
+3) Days	1	100.0
+Missing	9542
+
+
+107) FSTEATD3
+BH-3 (If child was ever breastfed and fed something other than breastmilk): Age (in months) when 1st supplemented-1st from this pregnancy (FRSTEATD3)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1	0	0
+0) Less than 1 month	1	100.0
+Missing	9542
+
+
+108) AGQTNRN3
+BH-5: How old was (she/he) when you stopped breast-feeding (her/him) altogether? (3rd child from this pregnancy; NUMBER) (AGEQTNUR_N3)
+RANGE: 12 to 12
+	N	Mean	Std. Deviation
+Total	1	12	0
+12) 	1	100.0
+Missing	9542
+
+
+109) AGQTNRP3
+BH-5 (If child was ever breastfed and respondent has stopped breastfeeding:): How old was (she/he) when you stopped breast-feeding (her/him) altogether? (3rd child from this pregnancy; UNITS) (AGEQTNUR_P3)
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1	1	0
+1) Months	1	100.0
+Missing	9542
+
+
+110) AGEQTNR3
+Age (in months) when respondent stopped nursing child-3rd from this pregnancy (AGEQTNUR3)
+RANGE: 12 to 12
+	N	Mean	Std. Deviation
+Total	1	12	0
+12) 	1	100.0
+Missing	9542
+
+
+111) PRGOUTCM
+Outcome of Pregnancy (based on priority ordering) (PRGOUTCOME)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	9543	1.326	0.519
+1) Live birth	6670	69.9
+2) Pregnancy loss or abortion	2635	27.6
+3) Current pregnancy	238	2.5
+
+
+112) OUTCOMES
+Outcome of pregnancy (OUTCOM_S)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	9543	1.326	0.519
+1) Live birth	6670	69.9
+2) Pregnancy loss or abortion	2635	27.6
+3) Current pregnancy	238	2.5
+
+
+113) NBRNLV_S
+Number of babies born alive from this pregnancy
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	6670	1.014	0.12
+1) 1 Baby	6578	98.6
+2) 2 Babies	90	1.3
+3) 3 Babies	2	0.0
+Missing	2873
+
+
+114) CMPRGEND
+Century Month for Pregnancy End Date (regardless of outcome)
+RANGE: 979 to 9999
+	N	Mean	Std. Deviation
+Total	9295	1312.421	776.698
+Missing	248
+
+
+115) CMENDP_S
+Century Date for Pregnancy End Date (based on CCSD)
+RANGE: 979 to 9999
+	N	Mean	Std. Deviation
+Total	9295	1312.368	776.707
+Missing	248
+
+
+116) CMPRGBEG
+Century Month for Pregnancy Begin Date (regardless of outcome)
+RANGE: 971 to 9999
+	N	Mean	Std. Deviation
+Total	9533	1311.116	792.96
+Missing	10
+
+
+117) CMPBEG_S
+Century Month for Pregnancy Begin Date (based on CCSD)
+RANGE: 971 to 9999
+	N	Mean	Std. Deviation
+Total	9533	1311.074	792.965
+Missing	10
+
+
+118) CMLASTLB
+Century Month for Respondent's Most Recent Live Birth (based on CCSD)
+RANGE: 1005 to 9999
+	N	Mean	Std. Deviation
+Total	9023	1296.69	394.034
+Missing	520
+
+
+119) CMLSTPRG
+Century Month for Respondent's Most Recent Completed Pregnancy (based on CCSD)
+RANGE: 1005 to 9999
+	N	Mean	Std. Deviation
+Total	9469	1437.896	1141.664
+Missing	74
+
+
+120) CMFSTPRG
+Century Month for Respondent's First Completed Pregnancy (based on CCSD)
+RANGE: 991 to 9999
+	N	Mean	Std. Deviation
+Total	9469	1214.4	323.643
+Missing	74
+
+
+121) CMPG1BEG
+Century Month Date when Respondent's 1st Pregnancy Began (based on CCSD)
+RANGE: 971 to 9999
+	N	Mean	Std. Deviation
+Total	9543	1205.032	296.72
+
+
+122) CMINTSTR
+Century Month for Date of Beginning of Pregnancy Interval
+RANGE: 913 to 9999
+	N	Mean	Std. Deviation
+Total	9304	1315.743	1004.234
+Missing	239
+
+
+123) CMINTFIN
+Century Month of End of Pregnancy Interval
+RANGE: 979 to 9999
+	N	Mean	Std. Deviation
+Total	9295	1312.367	776.707
+Missing	248
+
+
+124) CMNTSTRP
+Open interval: Century Month of date of beginning (CMINTSTROP)
+RANGE: 1005 to 9999
+	N	Mean	Std. Deviation
+Total	9387	1337.647	661.583
+Missing	156
+
+
+125) CMNTFINP
+Open interval: Century Month of date of end (month of interview) (CMINTFINOP)
+RANGE: 1341 to 1365
+	N	Mean	Std. Deviation
+Total	9469	1353.067	6.781
+1341) 	30	0.3
+1342) 	454	4.8
+1343) 	586	6.2
+1344) 	211	2.2
+1345) 	432	4.6
+1346) 	411	4.3
+1347) 	305	3.2
+1348) 	444	4.7
+1349) 	440	4.6
+1350) 	355	3.7
+1351) 	454	4.8
+1352) 	438	4.6
+1353) 	202	2.1
+1354) 	527	5.6
+1355) 	449	4.7
+1356) 	120	1.3
+1357) 	505	5.3
+1358) 	584	6.2
+1359) 	345	3.6
+1360) 	498	5.3
+1361) 	424	4.5
+1362) 	398	4.2
+1363) 	406	4.3
+1364) 	422	4.5
+1365) 	29	0.3
+Missing	74
+
+
+126) CMNTSRCR
+Currently pregnant: Century Month of date of beginning of interval (CMINTSTRCR)
+RANGE: 1040 to 9998
+	N	Mean	Std. Deviation
+Total	638	1340.108	487.723
+Missing	8905
+
+
+127) CMNTFNCR
+Currently pregnant: Century Month of date of end of interval (month of interview) (CMINTFINCR)
+RANGE: 1341 to 1365
+	N	Mean	Std. Deviation
+Total	640	1352.791	6.511
+
+
+128) ANYUSINT
+Any method used in pregnancy interval?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	9543	3.312	1.976
+1) Yes	4026	42.2
+5) No	5517	57.8
+
+
+129) EVUSEINT
+EG-1: Did you ever use any method of birth control between (your first intercourse/[BABY'S NAME] birth in [DAYE]/your [Nth] pregnancy which ended in [DATE]) and (DATE OF Nth+1 pregnancy end)/[BABY NAME's] birth)? Remember to include methods men use-that is condoms, vasectomy, and withdrawal-in your answer.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7574	2.073	1.804
+1) Yes	5571	73.6
+5) No	1967	26.0
+8) Refused	28	0.4
+9) Don't know	8	0.1
+Missing	1969
+
+
+130) STOPDUSE
+EG-2: Before you became pregnant (with your (NTH) pregnancy which ended in [DATE of Nth pregnancy end]/this time), had you stopped using all methods of birth control?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5845	2.754	1.996
+1) Yes	3290	56.3
+5) No	2546	43.6
+8) Refused	2	0.0
+9) Don't know	7	0.1
+Missing	3698
+
+
+131) WHYSTOPD
+EG-3: Was the reason you stopped using all methods of birth control because you yourself wanted to become pregnant?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3290	2.683	1.992
+1) Yes	1913	58.1
+5) No	1370	41.6
+9) Don't know	7	0.2
+Missing	6253
+
+
+132) WHTMTH01
+EG-4: You may have already told me, but looking at Card 38, what methods were you using at the time you became pregnant (with your (NTH) pregnancy which ended in (DATE)/this time)? (1st mention) (WHATMETH01)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2965	5.245	5.987
+1) No method used	288	9.7
+3) Birth control pills	901	30.4
+4) Condom	1008	34.0
+5) Partner's vasectomy	6	0.2
+6) Female sterilizing operation, such as tubal sterilization and hysterectomy	19	0.6
+7) Withdrawal, pulling out	374	12.6
+8) Depo-Provera, injectables	145	4.9
+9) Hormonal implant (Norplant or Implanon)	5	0.2
+10) Rhythm or safe period by calendar	46	1.6
+11) Safe period by temperature or cervical mucus test, natural family planning	2	0.1
+12) Diaphragm	10	0.3
+14) Foam	9	0.3
+15) Jelly or cream	4	0.1
+17) Suppository, insert	10	0.3
+18) Today sponge	3	0.1
+19) IUD, coil, or loop	33	1.1
+20) Emergency contraception	2	0.1
+21) Other method	3	0.1
+24) Lunelle injectable (monthly shot)	2	0.1
+25) Contraceptive patch	63	2.1
+26) Vaginal contraceptive ring	27	0.9
+98) Refused	1	0.0
+99) Don't know	4	0.1
+Missing	6578
+
+
+133) WHTMTH02
+EG-4: You may have already told me, but looking at Card 38, what methods were you using at the time you became pregnant (with your (NTH) pregnancy which ended in (DATE/this time)? (2nd mention) (WHATMETH02)
+RANGE: 1 to 26
+	N	Mean	Std. Deviation
+Total	556	7.277	4.282
+1) No method used	2	0.4
+3) Birth control pills	20	3.6
+4) Condom	172	30.9
+5) Partner's vasectomy	1	0.2
+6) Female sterilizing operation, such as tubal sterilization and hysterectomy	1	0.2
+7) Withdrawal, pulling out	234	42.1
+8) Depo-Provera, injectables	24	4.3
+9) Hormonal implant (Norplant or Implanon)	1	0.2
+10) Rhythm or safe period by calendar	45	8.1
+11) Safe period by temperature or cervical mucus test, natural family planning	6	1.1
+12) Diaphragm	1	0.2
+13) Female condom, vaginal pouch	1	0.2
+14) Foam	10	1.8
+15) Jelly or cream	10	1.8
+17) Suppository, insert	1	0.2
+18) Today sponge	5	0.9
+19) IUD, coil, or loop	2	0.4
+20) Emergency contraception	3	0.5
+21) Other method	5	0.9
+25) Contraceptive patch	7	1.3
+26) Vaginal contraceptive ring	5	0.9
+Missing	8987
+
+
+134) WHTMTH03
+EG-4: You may have already told me, but looking at Card 38, what methods were you using at the time you became pregnant (with your (NTH) pregnancy which ended in (DATE)/this time? (3rd mention) (WHATMETH03)
+RANGE: 1 to 26
+	N	Mean	Std. Deviation
+Total	83	10.349	6.377
+1) No method used	2	2.4
+3) Birth control pills	8	9.6
+4) Condom	7	8.4
+7) Withdrawal, pulling out	24	28.9
+8) Depo-Provera, injectables	2	2.4
+10) Rhythm or safe period by calendar	10	12.0
+11) Safe period by temperature or cervical mucus test, natural family planning	4	4.8
+13) Female condom, vaginal pouch	2	2.4
+14) Foam	6	7.2
+15) Jelly or cream	3	3.6
+17) Suppository, insert	2	2.4
+19) IUD, coil, or loop	3	3.6
+20) Emergency contraception	4	4.8
+25) Contraceptive patch	5	6.0
+26) Vaginal contraceptive ring	1	1.2
+Missing	9460
+
+
+135) WHTMTH04
+EG-4: You may have already told me, but looking at Card 38, what methods were you using at the time you became pregnant (with your (NTH) pregnancy which ended in (DATE)/this time? (4th mention) (WHATMETH04)
+RANGE: 1 to 19
+	N	Mean	Std. Deviation
+Total	9	8.667	5.074
+1) No method used	1	11.1
+7) Withdrawal, pulling out	4	44.4
+8) Depo-Provera, injectables	2	22.2
+14) Foam	1	11.1
+19) IUD, coil, or loop	1	11.1
+Missing	9534
+
+
+136) RESNOUSE
+EG-5: Was the reason you did not use any birth control methods because you, yourself, wanted to become pregnant? (See Note 3 on the ARDA summary page)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3228	3.042	2.083
+1) Yes	1617	50.1
+5) No	1568	48.6
+8) Refused	25	0.8
+9) Don't know	18	0.6
+Missing	6315
+
+
+137) WANTBOLD
+EG-6: Right before you became pregnant (with your (NTH) pregnancy which ended in (DATE)/this time), did you yourself want to have a(nother) baby at any time in the future?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	6013	2.426	1.988
+1) Yes	3939	65.5
+5) No	1880	31.3
+6) Not sure, don't know	156	2.6
+8) Refused	28	0.5
+9) Don't know	10	0.2
+Missing	3530
+
+
+138) PROBBABE
+EG-7 [If respondent was unsure, didn't know to whether wanted baby at any time in future:]: It is sometimes difficult to recall these things but, right before (this/that) pregnancy began, would you say you probably wanted a(nother) baby at some time in the future or probably not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	194	3.866	2.914
+1) Probably yes	91	46.9
+5) Probably not	44	22.7
+6) Didn't care	22	11.3
+8) Refused	26	13.4
+9) Don't know	11	5.7
+Missing	9349
+
+
+139) CNFRMNO
+EG-8 [If respondent is under 20 and reported no to whether wanted baby at any time in future:]: So right before you became pregnant (this time/that time), you thought you did not want to have (any children/a Nth child from this pregnancy) at any time in the future, is that correct?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	26	1.115	0.326
+1) Correct	23	88.5
+2) Incorrect	3	11.5
+Missing	9517
+
+
+140) WANTBLD2
+EG-9: Right before you became pregnant (with your (Nth) pregnancy (which ended in (DATE)/this time), did you yourself want to have a(nother) baby at any time in the future?
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	3	1	0
+1) Yes	3	100.0
+Missing	9540
+
+
+141) TIMINGOK
+EG-10: So would you say you became pregnant too soon, at about the right time, or later than you wanted?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7563	1.719	0.682
+1) Sooner	2901	38.4
+2) Right time	4010	53.0
+3) Later	565	7.5
+4) Didn't care	80	1.1
+8) Refused	1	0.0
+9) Don't know	6	0.1
+Missing	1980
+
+
+142) TOOSOONN
+EG-11: How much sooner than you wanted did you become pregnant? (number of months or years) (TOOSOON_N)
+RANGE: 1 to 999
+	N	Mean	Std. Deviation
+Total	2901	22.676	133.267
+1) 	432	14.9
+2) 	623	21.5
+3) 	336	11.6
+4) 	215	7.4
+5) 	533	18.4
+6) 	217	7.5
+7) 	80	2.8
+8) 	70	2.4
+9) 	27	0.9
+10) 	216	7.4
+11) 	7	0.2
+12) 	26	0.9
+13) 	5	0.2
+14) 	1	0.0
+15) 	22	0.8
+16) 	1	0.0
+18) 	3	0.1
+19) 	2	0.1
+20) 	15	0.5
+23) 	1	0.0
+24) 	3	0.1
+25) 	2	0.1
+30) 	7	0.2
+36) 	1	0.0
+48) 	1	0.0
+60) 	1	0.0
+99) 	1	0.0
+998) Refused	3	0.1
+999) Don't know	50	1.7
+Missing	6642
+
+
+143) TOOSOONP
+EG-11: (How much sooner than you wanted did you become pregnant) (units-months or years) (TOOSOON_P)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2901	2.003	0.858
+1) Months	262	9.0
+2) Years	2600	89.6
+8) Refused	3	0.1
+9) Don't know	36	1.2
+Missing	6642
+
+
+144) WTHPART1
+EG-12A: Right before (the/this/that) pregnancy, did you want to have a(nother) baby with that partner? Would you say definitely yes, probably yes, probably no, or definitely no?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	4597	1.281	0.784
+1) Definitely yes	3863	84.0
+2) Probably yes	416	9.0
+3) Probably no	130	2.8
+4) Definitely no	177	3.9
+8) Refused	3	0.1
+9) Don't know	8	0.2
+Missing	4946
+
+
+145) WTHPART2
+EG-12B [If pregnancy came too soon or when r wanted no future births:]: Right before (the/this/that) pregnancy, did you think you might ever want to have a(nother) baby with that partner? Would you say definitely yes, probably yes, probably no, or definitely no?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	4946	2.586	1.421
+1) Definitely yes	1570	31.7
+2) Probably yes	957	19.3
+3) Probably no	644	13.0
+4) Definitely no	1715	34.7
+8) Refused	25	0.5
+9) Don't know	35	0.7
+Missing	4597
+
+
+146) FEELINPG
+EG-13: Please look at the scale on Card 39. On this scale, a zero means that you were very unhappy to be pregnant and a ten means that you were very happy to be pregnant. Tell me which number on the card best describes how you felt when you found out you were pregnant.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2332	8.416	10.999
+0) Very unhappy	243	10.4
+1) 	51	2.2
+2) 	62	2.7
+3) 	50	2.1
+4) 	71	3.0
+5) 	195	8.4
+6) 	98	4.2
+7) 	155	6.6
+8) 	164	7.0
+9) 	110	4.7
+10) Very happy	1102	47.3
+98) Refused	21	0.9
+99) Don't know	10	0.4
+Missing	7211
+
+
+147) HPWNOLD
+EG-16: Right before you became pregnant (this time/that (Nth) time,) did the father want you to have a(nother) baby at any time in the future?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	9543	2.176	1.943
+1) Yes	6932	72.6
+5) No	1955	20.5
+6) Not sure, Don't know	605	6.3
+8) Refused	31	0.3
+9) Don't know	20	0.2
+
+
+148) TIMOKHP
+EG-17: So would you say you became pregnant sooner than he wanted, at about the right time, or later than he wanted?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	6932	1.866	0.665
+1) Sooner	1745	25.2
+2) Right time	4537	65.5
+3) Later	536	7.7
+4) Didn't care	104	1.5
+9) Don't know	10	0.1
+Missing	2611
+
+
+149) COHPBEG
+EG-18A: Were you either married to or living with the father of (the pregnancy/this pregnancy/your (Nth) pregnancy which ended in (DATE)) at the beginning of the pregnancy? By living together, we mean having a sexual relationship while sharing the same usual address.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7150	2.692	2.012
+1) Yes	4161	58.2
+5) No	2946	41.2
+8) Refused	32	0.4
+9) Don't know	11	0.2
+Missing	2393
+
+
+150) COHPEND
+EG-18B: Were you living with the father of (the/that) pregnancy when ([BABY NAME] was born/the pregnancy ended)? (See Note 4 on the ARDA summary page)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7006	2.6	1.994
+1) Yes	4237	60.5
+5) No	2729	39.0
+8) Refused	29	0.4
+9) Don't know	11	0.2
+Missing	2537
+
+
+151) TELLFATH
+[If pregnancy did not result in a live birth or respondent was not living with the father when the pregnancy ended:] Did you tell the father of (the pregnancy/that (nth) pregnancy/your current pregnancy) that you (were/are) pregnant?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3791	1.373	1.268
+1) Yes	3470	91.5
+5) No	281	7.4
+8) Refused	29	0.8
+9) Don't know	11	0.3
+Missing	5752
+
+
+152) WHENTELL
+EG-20 [If the respondent told the father about the pregnancy:]: When did you tell him that you were pregnant-during the pregnancy or after the baby was born/after the pregnancy ended?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3470	1.049	0.25
+1) During the pregnancy	3308	95.3
+2) After the [pregnancy ended/baby was born]	161	4.6
+9) Don't know	1	0.0
+Missing	6073
+
+
+153) TRYSCALE
+EG-21 [If pregnancy ended on or after January (YEAR OF INTERVIEW-3):]: Look at the scale on Card 40, where a 0 means trying hard not to get pregnant, and a 10 means trying hard to get pregnant. If you had to rate how much you were trying to get pregnant or avoid pregnancy right before you got pregnant (this time/that time), how would you rate yourself?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2332	6.286	10.263
+0) 	477	20.5
+1) 	63	2.7
+2) 	94	4.0
+3) 	111	4.8
+4) 	94	4.0
+5) 	484	20.8
+6) 	79	3.4
+7) 	107	4.6
+8) 	160	6.9
+9) 	61	2.6
+10) 	577	24.7
+98) Refused	17	0.7
+99) Don't know	8	0.3
+Missing	7211
+
+
+154) WANTSCAL
+EG-22: Look at the scale on Card 41, where a 0 means you wanted to avoid a pregnancy and a 10 means you wanted to get pregnant. If you had to rate how much you wanted or didn't want a pregnancy right before you got pregnant (this time/that time), how would you rate yourself?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2332	6.392	10.005
+0) 	565	24.2
+1) 	63	2.7
+2) 	77	3.3
+3) 	94	4.0
+4) 	92	3.9
+5) 	320	13.7
+6) 	55	2.4
+7) 	90	3.9
+8) 	122	5.2
+9) 	65	2.8
+10) 	766	32.8
+98) Refused	18	0.8
+99) Don't know	5	0.2
+Missing	7211
+
+
+155) WHYPRG1
+EG-23: Please look at Card 42. (Earlier you told me (your/this/that) pregnancy occurred too soon/Earlier you told me that (your/this/that) pregnancy occurred at a time when you wanted no future pregnancies.) Which of the following statements applies to you right before you became pregnant (this time/that time (that is, with the pregnancy that ended in [DATE]))? Your birth control method failed, or you did not use your birth control method properly? (1st mention)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	435	1.759	0.8
+1) Your birth control method failed	168	38.6
+2) You did not use your birth control method properly	215	49.4
+3) Respondent wasn't using a method	50	11.5
+8) Refused	1	0.2
+9) Don't know	1	0.2
+Missing	9108
+
+
+156) WHYPRG2
+EG-23: Please look at Card 42. (Earlier you told me (your/this/that) pregnancy occurred too soon/Earlier you told me that (your/this/that) pregnancy occurred at a time when you wanted no future pregnancies.) Which of the following statements applies to you right before you became pregnant (this time/that time (that is, with the pregnancy that ended in [DATE]))? Your birth control method failed, or you did not use your birth control method properly? (2nd mention)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	16	1.625	0.5
+1) Your birth control method failed	6	37.5
+2) You did not use your birth control method properly	10	62.5
+Missing	9527
+
+
+157) WHYNOUS1
+EG-24: Please look at Card 43. (Earlier you told me (your/that) pregnancy occurred too soon / Earlier you told me that (your/this/that) pregnancy occurred at a time when you wanted no future pregnancies.) Which of the following statements applies to you right before you became pregnant (this time/that time (that is, with the pregnancy that ended in [DATE]))? You did not use birth control because...(1st mention). (WHYNOUSE1)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	609	5.213	9.786
+1) You did not expect to have sex	73	12.0
+2) You did not think you could get pregnant	165	27.1
+3) You didn't really mind if you got pregnant	100	16.4
+4) You were worried about the side effects of birth control	56	9.2
+5) Your male partner did not want you to use a birth control method	14	2.3
+6) Your male partner himself did not want to use a birth control method	20	3.3
+7) (IF VOLUNTEERED:)Respondent was using a method	42	6.9
+8) You could not get a method	27	4.4
+9) You were not taking, or using, your method consistently	106	17.4
+99) Don't know	6	1.0
+Missing	8934
+
+
+158) WHYNOUS2
+EG-24: Please look at Card 43. (Earlier you told me (your/that) pregnancy occurred too soon/Earlier you told me that (your/this/that) pregnancy occurred at a time when you wanted no future pregnancies.) Which of the following statements applies to you right before you became pregnant (this time/that time (that is, with the pregnancy that ended in [DATE]))? You did not use birth control because...(2nd mention). (WHYNOUSE2)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	92	5.348	2.739
+1) You did not expect to have sex	5	5.4
+2) You did not think you could get pregnant	11	12.0
+3) You didn't really mind if you got pregnant	16	17.4
+4) You were worried about the side effects of birth control	9	9.8
+5) Your male partner did not want you to use a birth control method	7	7.6
+6) Your male partner himself did not want to use a birth control method	14	15.2
+7) (IF VOLUNTEERED:)Respondent was using a method	2	2.2
+8) You could not get a method	4	4.3
+9) You were not taking, or using, your method consistently	24	26.1
+Missing	9451
+
+
+159) WHYNOUS3
+EG-24: Please look at Card 43. (Earlier you told me (your/that) pregnancy occurred too soon/Earlier you told me that (your/this/that) pregnancy occurred at a time when you wanted no future pregnancies.) Which of the following statements applies to you right before you became pregnant (this time/that time (that is, with the pregnancy that ended in [DATE]))? You did not use birth control because...(3rd mention). (WHYNOUSE3)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	27	5.741	2.903
+1) You did not expect to have sex	3	11.1
+2) You did not think you could get pregnant	2	7.4
+3) You didn't really mind if you got pregnant	2	7.4
+4) You were worried about the side effects of birth control	2	7.4
+5) Your male partner did not want you to use a birth control method	4	14.8
+6) Your male partner himself did not want to use a birth control method	3	11.1
+8) You could not get a method	3	11.1
+9) You were not taking, or using, your method consistently	8	29.6
+Missing	9516
+
+
+160) WHYNOUS4
+EG-24: Please look at Card 43. (Earlier you told me (your/that) pregnancy occurred too soon/Earlier you told me that (your/this/that) pregnancy occurred at a time when you wanted no future pregnancies.) Which of the following statements applies to you right before you became pregnant (this time/that time (that is, with the pregnancy that ended in [DATE]))? You did not use birth control because...(4th mention). (WHYNOUSE4)
+RANGE: 5 to 9
+	N	Mean	Std. Deviation
+Total	5	6.4	1.517
+5) Your male partner did not want you to use a birth control method.	1	20.0
+6) Your male partner himself did not want to use a birth control method.	3	60.0
+9) You were not taking, or using, your method consistently	1	20.0
+Missing	9538
+
+
+161) WHYNOUS5
+EG-24: Please look at Card 43. (Earlier you told me (your/that) pregnancy occurred too soon/Earlier you told me that (your/this/that) pregnancy occurred at a time when you wanted no future pregnancies.) Which of the following statements applies to you right before you became pregnant (this time/that time (that is, with the pregnancy that ended in [DATE]))? You did not use birth control because...(5th mention). (WHYNOUSE5)
+RANGE: 8 to 9
+	N	Mean	Std. Deviation
+Total	3	8.667	0.577
+8) You could not get a method	1	33.3
+9) You were not taking, or using, your method consistently	2	66.7
+Missing	9540
+
+
+162) MAINOUSE
+EG-24A: Which one of these is the main reason that you did not use birth control? (see Notes 1 and 5 on the ARDA summary page)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	90	4.267	2.918
+1) You did not expect to have sex	14	15.6
+2) You did not think you could get pregnant	19	21.1
+3) You didn't really mind if you could get pregnant	16	17.8
+4) You were worried about the side effects of birth control	11	12.2
+5) Your male partner did not want you to use a birth control method	3	3.3
+6) Your male partner himself did not want to use a birth control method	5	5.6
+8) You could not get a method	3	3.3
+9) You were not taking, or using, your method consistently	19	21.1
+Missing	9453
+
+
+163) PRGLNGTH
+Duration of completed pregnancy in weeks (recode)
+RANGE: 0 to 47
+	N	Mean	Std. Deviation
+Total	9543	30.066	13.67
+0) 	11	0.1
+1) 	10	0.1
+2) 	45	0.5
+3) 	115	1.2
+4) 	318	3.3
+5) 	132	1.4
+6) 	400	4.2
+7) 	127	1.3
+8) 	283	3.0
+9) 	332	3.5
+10) 	111	1.2
+11) 	79	0.8
+12) 	138	1.4
+13) 	226	2.4
+14) 	32	0.3
+15) 	32	0.3
+16) 	32	0.3
+17) 	90	0.9
+18) 	15	0.2
+19) 	24	0.3
+20) 	21	0.2
+21) 	10	0.1
+22) 	89	0.9
+23) 	15	0.2
+24) 	29	0.3
+25) 	12	0.1
+26) 	61	0.6
+27) 	17	0.2
+28) 	25	0.3
+29) 	22	0.2
+30) 	80	0.8
+31) 	35	0.4
+32) 	103	1.1
+33) 	34	0.4
+34) 	104	1.1
+35) 	237	2.5
+36) 	290	3.0
+37) 	418	4.4
+38) 	710	7.4
+39) 	2590	27.1
+40) 	1310	13.7
+41) 	426	4.5
+42) 	277	2.9
+43) 	63	0.7
+44) 	8	0.1
+45) 	2	0.0
+46) 	1	0.0
+47) 	2	0.0
+
+
+164) OUTCOME
+Pregnancy outcome (recode)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	9543	1.75	1.328
+1) Live birth	6670	69.9
+2) Induced abortion	993	10.4
+3) Stillbirth	71	0.7
+4) Miscarriage	1451	15.2
+5) Ectopic pregnancy	120	1.3
+6) Current pregnancy	238	2.5
+
+
+165) BIRTHORD
+Birth order (recode)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	6670	1.859	1.058
+1) 1st birth	3141	47.1
+2) 2nd birth	2076	31.1
+3) 3rd birth	957	14.3
+4) 4th birth	327	4.9
+5) 5th birth	113	1.7
+6) 6th birth	34	0.5
+7) 7th birth	16	0.2
+8) 8th birth	5	0.1
+9) 9th birth	1	0.0
+Missing	2873
+
+
+166) DATEND
+Century month for date pregnancy ended (recode)
+RANGE: 979 to 1364
+	N	Mean	Std. Deviation
+Total	9305	1243.638	77.271
+
+
+167) AGEPREG
+Age at pregnancy outcome (recode)
+RANGE: 1150 to 4375
+	N	Mean	Std. Deviation
+Total	9305	2471.624	564.119
+
+
+168) DATECON
+Century month for date of conception (recode)
+RANGE: 971 to 1364
+	N	Mean	Std. Deviation
+Total	9543	1239.735	78.301
+
+
+169) AGECON
+Age at time of conception (recode)
+RANGE: 1083 to 4450
+	N	Mean	Std. Deviation
+Total	9543	2423.515	567.163
+
+
+170) FMAROUT5
+Formal marital status at pregnancy outcome (see Note 2 on the ARDA summary page)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	9305	3.208	1.938
+1) Married	3761	40.4
+2) Divorced	501	5.4
+3) Widowed	14	0.2
+4) Separated	102	1.1
+5) Never married	4927	53.0
+Missing	238
+
+
+171) PMARPREG
+Whether pregnancy ended before respondent's 1st marriage (premaritally) (see Note 2 on the ARDA summary page)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	9305	1.47	0.499
+1) Yes	4927	53.0
+2) No	4378	47.0
+Missing	238
+
+
+172) RMAROUT6
+Informal marital status at pregnancy outcome-6 categories (recode) (see Note 2 on the ARDA summary page)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	9305	3.557	2.226
+1) Married	3761	40.4
+2) Divorced	286	3.1
+3) Widowed	10	0.1
+4) Separated	102	1.1
+5) Cohabiting	2550	27.4
+6) Never married, not cohabiting	2596	27.9
+Missing	238
+
+
+173) FMARCON5
+Formal marital status at conception-5 categories (recode)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	9543	3.359	1.917
+1) Married	3502	36.7
+2) Divorced	512	5.4
+3) Widowed	12	0.1
+4) Separated	95	1.0
+5) Never married	5422	56.8
+
+
+174) RMARCON6
+Informal marital status at conception-6 categories (recode)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	9543	3.747	2.213
+1) Married	3502	36.7
+2) Divorced	281	2.9
+3) Widowed	9	0.1
+4) Separated	95	1.0
+5) Cohabiting	2646	27.7
+6) Never married, not cohabiting	3010	31.5
+
+
+175) LEARNPRG
+Number of weeks pregnant when respondent learned she was pregnant (see Note 2 on the ARDA page)
+RANGE: 0 to 38
+	N	Mean	Std. Deviation
+Total	2931	5.887	3.887
+0) 	5	0.2
+1) 	68	2.3
+2) 	218	7.4
+3) 	259	8.8
+4) 	806	27.5
+5) 	318	10.8
+6) 	466	15.9
+7) 	118	4.0
+8) 	295	10.1
+9) 	54	1.8
+10) 	46	1.6
+11) 	21	0.7
+12) 	124	4.2
+13) 	9	0.3
+14) 	14	0.5
+15) 	11	0.4
+16) 	25	0.9
+17) 	7	0.2
+18) 	9	0.3
+19) 	3	0.1
+20) 	23	0.8
+21) 	1	0.0
+22) 	7	0.2
+23) 	2	0.1
+24) 	8	0.3
+25) 	1	0.0
+26) 	1	0.0
+28) 	4	0.1
+30) 	2	0.1
+31) 	1	0.0
+32) 	2	0.1
+34) 	1	0.0
+35) 	1	0.0
+38) 	1	0.0
+Missing	6612
+
+
+176) PNCAREWK
+Number of weeks pregnant at first prenatal care (recode)
+RANGE: 1 to 95
+	N	Mean	Std. Deviation
+Total	2932	18.306	28.307
+1) 	15	0.5
+2) 	71	2.4
+3) 	100	3.4
+4) 	334	11.4
+5) 	187	6.4
+6) 	436	14.9
+7) 	163	5.6
+8) 	511	17.4
+9) 	115	3.9
+10) 	135	4.6
+11) 	31	1.1
+12) 	215	7.3
+13) 	31	1.1
+14) 	19	0.6
+15) 	16	0.5
+16) 	65	2.2
+17) 	10	0.3
+18) 	19	0.6
+19) 	3	0.1
+20) 	48	1.6
+21) 	5	0.2
+22) 	12	0.4
+23) 	1	0.0
+24) 	20	0.7
+25) 	3	0.1
+26) 	3	0.1
+27) 	3	0.1
+28) 	7	0.2
+30) 	3	0.1
+31) 	1	0.0
+32) 	1	0.0
+33) 	1	0.0
+36) 	3	0.1
+40) 	1	0.0
+95) No prenatal care for this pregnancy	344	11.7
+Missing	6611
+
+
+177) PAYDELIV
+[If pregnancy ended in live birth in or after January:] Payment for delivery
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2286	3.343	0.915
+1) Own income only	38	1.7
+2) Insurance only	510	22.3
+3) Own income & insurance only	445	19.5
+4) Medicaid/govt assistance mentioned at all	1217	53.2
+5) All other combinations of payment methods	76	3.3
+Missing	7257
+
+
+178) LBW1
+Low birthweight-Baby 1 (recode) (See Note 2 on ARDA summary page)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	6670	1.904	0.295
+1) Yes, low birth weight	642	9.6
+2) No, not low birth weight	6028	90.4
+Missing	2873
+
+
+179) LIVCHILD
+[If pregnancy ended in live birth:] Current living arrangements for 1st liveborn child from this pregnancy
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	6670	1.211	0.84
+1) Child lives with R	6216	93.2
+2) Child is dead	64	1.0
+3) Child lives with adoptive parents/family	62	0.9
+4) Child lives with biological father	137	2.1
+5) Child lives with other relatives	147	2.2
+6) Child's living arrangements are other or unknown	44	0.7
+Missing	2873
+
+
+180) BFEEDWKS
+[If pregnancy ended in single live birth, and child is under age 19, and lived with R at least two months:]: Duration of breastfeeding in weeks (recode)
+RANGE: 0 to 995
+	N	Mean	Std. Deviation
+Total	5840	397.992	469.529
+Missing	3703
+
+
+181) OLDWANTR
+Wantedness of pregnancy-respondent-Cycle 4 version (recode)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	9543	2.886	1.223
+1) Later, overdue	566	5.9
+2) Right time	4012	42.0
+3) Too soon, mistimed	2910	30.5
+4) Didn't care, indifferent	92	1.0
+5) Unwanted	1927	20.2
+6) Don't know, not sure	36	0.4
+
+
+182) OLDWANTP
+Wantedness of pregnancy-Respondent's partner (father of pregnancy)-Cycle 4 version (recode)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	9543	3.03	1.458
+1) Later, overdue	539	5.6
+2) Right time	4546	47.6
+3) Too soon, mistimed	1758	18.4
+4) Didn't care, indifferent	113	1.2
+5) Unwanted	1960	20.5
+6) Don't know, not sure	627	6.6
+
+
+183) WANTRESP
+Wantedness of pregnancy-respondent-Cycle 5, 6 version (recode)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	9543	2.885	1.223
+1) Later, overdue	566	5.9
+2) Right time	4012	42.0
+3) Too soon, mistimed	2913	30.5
+4) Didn't care, indifferent	92	1.0
+5) Unwanted	1924	20.2
+6) Don't know, not sure	36	0.4
+
+
+184) WANTPART
+Wantedness of preg-respondent's partner (father of pregnancy)-Cycle 5, 6 version (recode)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	9543	3.024	1.453
+1) Later, overdue	542	5.7
+2) Right time	4551	47.7
+3) Too soon, mistimed	1762	18.5
+4) Didn't care, indifferent	119	1.2
+5) Unwanted	1961	20.5
+6) Don't know, not sure	608	6.4
+
+
+185) TOOSOON
+Number of months too soon pregnancy occurred (recode)
+RANGE: 1 to 360
+	N	Mean	Std. Deviation
+Total	2901	47.047	41.75
+1) 	21	0.7
+2) 	35	1.2
+3) 	36	1.2
+4) 	18	0.6
+5) 	13	0.4
+6) 	100	3.4
+7) 	5	0.2
+8) 	5	0.2
+9) 	6	0.2
+10) 	3	0.1
+11) 	4	0.1
+12) 	461	15.9
+15) 	2	0.1
+18) 	4	0.1
+19) 	2	0.1
+24) 	592	20.4
+36) 	304	10.5
+48) 	200	6.9
+60) 	526	18.1
+72) 	120	4.1
+84) 	74	2.6
+96) 	65	2.2
+108) 	22	0.8
+120) 	215	7.4
+132) 	3	0.1
+144) 	12	0.4
+156) 	5	0.2
+168) 	1	0.0
+180) 	20	0.7
+192) 	1	0.0
+228) 	1	0.0
+240) 	15	0.5
+276) 	1	0.0
+300) 	2	0.1
+360) 	7	0.2
+Missing	6642
+
+
+186) NEWWANTR
+Detailed wantedness of pregnancy-respondent (recode)
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	9543	3.33	1.641
+1) Later, overdue	566	5.9
+2) Right time	4012	42.0
+3) Too soon: by less than 2 years	718	7.5
+4) Too soon: by 2 years or more	2195	23.0
+5) Didn't care, indifferent	92	1.0
+6) Unwanted	1924	20.2
+7) Don't know, not sure	36	0.4
+
+
+187) CMBIRTH
+Century month of respondent's birth (computed; respondent variable)
+RANGE: 803 to 1169
+	N	Mean	Std. Deviation
+Total	9543	948.874	78.934
+
+
+188) AGER
+Age at interview
+RANGE: 15 to 45
+	N	Mean	Std. Deviation
+Total	9543	33.187	6.58
+15) 15 years	4	0.0
+16) 16 years	7	0.1
+17) 17 years	20	0.2
+18) 18 years	41	0.4
+19) 19 years	73	0.8
+20) 20 years	109	1.1
+21) 21 years	143	1.5
+22) 22 years	200	2.1
+23) 23 years	186	1.9
+24) 24 years	258	2.7
+25) 25 years	274	2.9
+26) 26 years	350	3.7
+27) 27 years	397	4.2
+28) 28 years	379	4.0
+29) 29 years	459	4.8
+30) 30 years	476	5.0
+31) 31 years	535	5.6
+32) 32 years	517	5.4
+33) 33 years	487	5.1
+34) 34 years	429	4.5
+35) 35 years	438	4.6
+36) 36 years	483	5.1
+37) 37 years	408	4.3
+38) 38 years	406	4.3
+39) 39 years	441	4.6
+40) 40 years	399	4.2
+41) 41 years	423	4.4
+42) 42 years	394	4.1
+43) 43 years	451	4.7
+44) 44 years	346	3.6
+45) 45 years	10	0.1
+
+
+189) AGESCRN
+Respondent's age at screener (computed; respondent variable)
+RANGE: 15 to 97
+	N	Mean	Std. Deviation
+Total	9543	33.167	6.669
+15) 15 years	4	0.0
+16) 16 years	7	0.1
+17) 17 years	20	0.2
+18) 18 years	41	0.4
+19) 19 years	73	0.8
+20) 20 years	107	1.1
+21) 21 years	152	1.6
+22) 22 years	198	2.1
+23) 23 years	194	2.0
+24) 24 years	254	2.7
+25) 25 years	269	2.8
+26) 26 years	359	3.8
+27) 27 years	388	4.1
+28) 28 years	391	4.1
+29) 29 years	455	4.8
+30) 30 years	492	5.2
+31) 31 years	538	5.6
+32) 32 years	502	5.3
+33) 33 years	490	5.1
+34) 34 years	428	4.5
+35) 35 years	452	4.7
+36) 36 years	469	4.9
+37) 37 years	410	4.3
+38) 38 years	398	4.2
+39) 39 years	430	4.5
+40) 40 years	418	4.4
+41) 41 years	417	4.4
+42) 42 years	407	4.3
+43) 43 years	429	4.5
+44) 44 years	348	3.6
+97) Not ascertained	3	0.0
+
+
+190) FMARITAL
+Formal marital status (respondent recode)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	9543	2.897	1.789
+1) Married	4139	43.4
+2) Widowed	79	0.8
+3) Divorced	1254	13.1
+4) Separated	765	8.0
+5) Never married	3306	34.6
+
+
+191) RMARITAL
+Informal Marital Status (respondent recode)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	9543	2.924	2.094
+1) Currently married	4139	43.4
+2) Not married but living with opposite sex partner	1475	15.5
+3) Widowed	72	0.8
+4) Divorced	938	9.8
+5) Separated for reasons of marital discord	669	7.0
+6) Never been married	2250	23.6
+
+
+192) EDUCAT
+Education (completed years of schooling) (respondent recode)
+RANGE: 9 to 19
+	N	Mean	Std. Deviation
+Total	9543	12.876	2.644
+9) 9th grade or less	1346	14.1
+10) 10th grade or less	519	5.4
+11) 11th grade or less	627	6.6
+12) 12th grade or less	2376	24.9
+13) 1 year of college/grad school	1305	13.7
+14) 2 years of college/grad school	1143	12.0
+15) 3 years of college/grad school	414	4.3
+16) 4 years of college/grad school	883	9.3
+17) 5 years of college/grad school	246	2.6
+18) 6 years of college/grad school	320	3.4
+19) 7+ years of college/grad school	364	3.8
+
+
+193) HIEDUC
+Highest completed year of school or degree
+RANGE: 5 to 15
+	N	Mean	Std. Deviation
+Total	9543	9.353	2.228
+5) 9th grade of less	1066	11.2
+6) 10th grade	358	3.8
+7) 11th grade	451	4.7
+8) 12th grade, no diploma (nor GED)	56	0.6
+9) High school graduate (diploma or GED)	2935	30.8
+10) Some college but no degree	2120	22.2
+11) Associate degree in college/university	869	9.1
+12) Bachelor's degree	1096	11.5
+13) Master's degree	481	5.0
+14) Doctorate degree	67	0.7
+15) Professional degree	44	0.5
+
+
+194) RACE
+Race (respondent recode)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	9543	1.851	0.616
+1) Black	2630	27.6
+2) White	5707	59.8
+3) Other	1206	12.6
+
+
+195) HISPANIC
+Hispanic Origin (respondent recode)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	9543	1.715	0.452
+1) Hispanic	2723	28.5
+2) Non-Hispanic	6820	71.5
+
+
+196) HISPRACE
+Race & Hispanic origin of respondent-1977 OMB standards (respondent recode)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	9543	2.065	0.854
+1) Hispanic	2723	28.5
+2) Non-Hispanic White	3941	41.3
+3) Non-Hispanic Black	2414	25.3
+4) Non-Hispanic Other	465	4.9
+
+
+197) HISPRAC2
+Race & Hispanic origin of respondent-1997 OMB standards (respondent recode) (HISPRACE2)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	9543	2.108	0.904
+1) Hispanic	2723	28.5
+2) Non-Hispanic White, Single Race	3788	39.7
+3) Non-Hispanic Black, Single Race	2313	24.2
+4) Non-Hispanic Other or Multiple Race	719	7.5
+
+
+198) RCURPREG
+Pregnant at time of interview (respondent recode)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	9543	1.933	0.25
+1) Yes (currently pregnant)	638	6.7
+2) No (not currently pregnant)	8905	93.3
+
+
+199) PREGNUM
+CAPI-based total number of pregnancies (respondent recode)
+RANGE: 1 to 16
+	N	Mean	Std. Deviation
+Total	9543	3.726	2.079
+1) 1 Pregnancy	872	9.1
+2) 2 Pregnancies	1958	20.5
+3) 3 Pregnancies	2307	24.2
+4) 4 Pregnancies	1772	18.6
+5) 5 Pregnancies	1145	12.0
+6) 6 Pregnancies	630	6.6
+7) 	385	4.0
+8) 	184	1.9
+9) 	108	1.1
+10) 	70	0.7
+11) 	33	0.3
+12) 	36	0.4
+13) 	13	0.1
+14) 	14	0.1
+16) 	16	0.2
+
+
+200) PARITY
+Total Number of Live Births
+RANGE: 0 to 10
+	N	Mean	Std. Deviation
+Total	9543	2.496	1.452
+0) Babies	520	5.4
+1) 1 Baby	1780	18.7
+2) 2 Babies	2948	30.9
+3) 3 Babies	2391	25.1
+4) 4 Babies	1088	11.4
+5) 	509	5.3
+6) 	158	1.7
+7) 	99	1.0
+8) 	27	0.3
+9) 	11	0.1
+10) 	12	0.1
+
+
+201) CURR_INS
+Current health insurance coverage status (respondent recode)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	9543	2.134	1.183
+1) Currently covered by private health insurance or Medi-Gap	3861	40.5
+2) Currently covered by Medicaid, CHIP, or a state-sponsored health plan	2808	29.4
+3) Currently covered by Medicare, military health care, or other government health care	607	6.4
+4) Currently covered only by a single-service plan, only by the Indian Health Service, or currently not covered by health insurance	2267	23.8
+
+
+202) PUBASSIS
+Whether respondent or any members of her family received public assistance in the calendar year before the interview
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	9543	1.438	0.496
+1) Yes (received public assistance in [interview year-1])	5364	56.2
+2) No (did not receive public assistance in [interview year-1])	4179	43.8
+
+
+203) POVERTY
+Poverty level income (respondent recode)
+RANGE: 5 to 500
+	N	Mean	Std. Deviation
+Total	9543	178.92	148.785
+
+
+204) LABORFOR
+Labor force status
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	9543	3.611	2.69
+1) Working full-time	3502	36.7
+2) Working part-time	1651	17.3
+3) Working-temp ill/etc.	370	3.9
+4) Working-maternity or family leave	102	1.1
+5) Not working but looking for work	772	8.1
+6) School	357	3.7
+7) Keeping house	2381	25.0
+8) Caring for family	205	2.1
+9) Other	203	2.1
+
+
+205) RELIGION
+Current religious affiliation
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	9543	2.489	0.864
+1) No religion	1685	17.7
+2) Catholic	2189	22.9
+3) Protestant	4986	52.2
+4) Other religions	683	7.2
+
+
+206) METRO
+Place of residence (Metropolitan/Nonmetropolitan) (respondent recode)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	9543	1.719	0.699
+1) Principal city of MSA	4045	42.4
+2) Other MSA	4131	43.3
+3) Not MSA	1367	14.3
+
+
+207) BRNOUT
+IB-8 Were you born outside of the United States? (respondent variable)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	9543	4.278	1.538
+1) Yes	1722	18.0
+5) No	7821	82.0
+
+
+208) YRSTRUS
+Year respondent came to the U.S. to stay (computed in post-processing; respondent variable)
+RANGE: 1968 to 9999
+	N	Mean	Std. Deviation
+Total	1722	2098.057	899.088
+1968) 	3	0.2
+1969) 	8	0.5
+1970) 	1	0.1
+1971) 	6	0.3
+1972) 	9	0.5
+1973) 	4	0.2
+1974) 	3	0.2
+1975) 	34	2.0
+1976) 	9	0.5
+1977) 	6	0.3
+1978) 	20	1.2
+1979) 	22	1.3
+1980) 	39	2.3
+1981) 	16	0.9
+1982) 	10	0.6
+1983) 	21	1.2
+1984) 	22	1.3
+1985) 	29	1.7
+1986) 	9	0.5
+1987) 	10	0.6
+1988) 	35	2.0
+1989) 	57	3.3
+1990) 	41	2.4
+1991) 	60	3.5
+1992) 	69	4.0
+1993) 	47	2.7
+1994) 	47	2.7
+1995) 	78	4.5
+1996) 	43	2.5
+1997) 	62	3.6
+1998) 	94	5.5
+1999) 	104	6.0
+2000) 	125	7.3
+2001) 	85	4.9
+2002) 	55	3.2
+2003) 	64	3.7
+2004) 	62	3.6
+2005) 	61	3.5
+2006) 	63	3.7
+2007) 	36	2.1
+2008) 	43	2.5
+2009) 	13	0.8
+2010) 	24	1.4
+2011) 	45	2.6
+2012) 	6	0.3
+9998) Refused	5	0.3
+9999) Don't know	17	1.0
+Missing	7821
+
+
+209) PRGLTH_I
+PRGLNGTH Imputation Flag (PRGLNGTH_I)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9543	0.004	0.076
+0) Questionnaire data (not imputed)	9518	99.7
+1) Model-based imputation	15	0.2
+2) Logical imputation	10	0.1
+
+
+210) OUTCME_I
+OUTCOME Imputation Flag (OUTCOME_I)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9543	0.003	0.065
+0) Questionnaire data (not imputed)	9526	99.8
+1) Model-based imputation	9	0.1
+2) Logical imputation	8	0.1
+
+
+211) BTHORD_I
+BIRTHORD Imputation Flag (BIRTHORD_I)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9543	0.004	0.084
+0) Questionnaire data (not imputed)	9526	99.8
+2) Logical imputation	17	0.2
+
+
+212) DATEND_I
+DATEND Imputation Flag
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9543	0.015	0.156
+0) Questionnaire data (not imputed)	9440	98.9
+1) Model-based imputation	59	0.6
+2) Logical imputation	44	0.5
+
+
+213) AGEPRG_I
+AGEPREG Imputation Flag (AGEPREG_I)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9543	0.012	0.132
+0) Questionnaire data (not imputed)	9457	99.1
+1) Model-based imputation	59	0.6
+2) Logical imputation	27	0.3
+
+
+214) DATCON_I
+DATECON_I Imputation Flag (DATECON_I)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9543	0.013	0.137
+0) Questionnaire data (not imputed)	9449	99.0
+1) Model-based imputation	65	0.7
+2) Logical imputation	29	0.3
+
+
+215) AGECON_I
+AGECON Imputation Flag
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9543	0.013	0.136
+0) Questionnaire data (not imputed)	9450	99.0
+1) Model-based imputation	65	0.7
+2) Logical imputation	28	0.3
+
+
+216) FMART5_I
+FMAROUT5 Imputation Flag (FMAROUT5_I)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	9543	0.011	0.103
+0) Questionnaire data (not imputed)	9440	98.9
+1) Model-based imputation	103	1.1
+
+
+217) PMRPRG_I
+PMARPREG Imputation Flag (PMARPREG_I)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	9543	0.01	0.099
+0) Questionnaire data (not imputed)	9448	99.0
+1) Model-based imputation	95	1.0
+
+
+218) RMART6_I
+RMAROUT6 Imputation Flag (RMAROUT6_I)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9543	0.012	0.115
+0) Questionnaire data (not imputed)	9440	98.9
+1) Model-based imputation	95	1.0
+2) Logical imputation	8	0.1
+
+
+219) FMRCN5_I
+FMARCON5 Imputation Flag (FMARCON5_I)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	9543	0.011	0.105
+0) Questionnaire data (not imputed)	9437	98.9
+1) Model-based imputation	106	1.1
+
+
+220) RMRCN6_I
+RMARCON6 Imputation Flag (RMARCON6_I)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9543	0.012	0.113
+0) Questionnaire data (not imputed)	9440	98.9
+1) Model-based imputation	96	1.0
+2) Logical imputation	7	0.1
+
+
+221) LRNPRG_I
+LEARNPRG Imputation Flag (LEARNPRG_I)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9543	0.014	0.148
+0) Questionnaire Data (not imputed)	9455	99.1
+1) Model-based imputation	47	0.5
+2) Logical imputation	41	0.4
+
+
+222) PNRWK_I
+PNCAREWK_1 Imputation Flag (PNCAREWK_I)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9543	0.012	0.14
+0) Questionnaire Data (not imputed)	9472	99.3
+1) Model-based imputation	32	0.3
+2) Logical imputation	39	0.4
+
+
+223) PAYDLV_I
+PAYDELIV Imputation Flag (PAYDELIV_I)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	9543	0.001	0.037
+0) Questionnaire Data (not imputed)	9530	99.9
+1) Model-based imputation	13	0.1
+
+
+224) LBW1_I
+LBW1 Imputation Flag
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9543	0.004	0.087
+0) Questionnaire data (not imputed)	9521	99.8
+1) Model-based imputation	5	0.1
+2) Logical imputation	17	0.2
+
+
+225) LVCHLD_I
+LIVCHILD Imputation Flag (LIVCHILD_I)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9543	0.004	0.084
+0) Questionnaire data (not imputed)	9526	99.8
+2) Logical imputation	17	0.2
+
+
+226) BFDWKS_I
+BFEEDWKS Imputation Flag (BFEEDWKS_I)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9543	0.006	0.096
+0) Questionnaire data (not imputed)	9505	99.6
+1) Model-based imputation	21	0.2
+2) Logical imputation	17	0.2
+
+
+227) OLDWTR_I
+OLDWANTR_I Imputation Flag (OLDWANTR_I)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	9543	0.003	0.059
+0) Questionnaire data (not imputed)	9510	99.7
+1) Model based-imputation	33	0.3
+
+
+228) OLDWTP_I
+OLDWANTP Imputation Flag (OLDWANTP_I)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9543	0.005	0.072
+0) Questionnaire data (not imputed)	9502	99.6
+1) Model-based imputation	38	0.4
+2) Logical imputation	3	0.0
+
+
+229) WNTRSP_I
+WANTRESP Imputation Flag (WANTRESP_I))
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	9543	0.003	0.059
+0) Questionnaire data (not imputed)	9510	99.7
+1) 	33	0.3
+
+
+230) WNTPRT_I
+WANTPART Imputation Flag (WANTPART_I)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	9543	0.006	0.08
+0) Questionnaire data (not imputed)	9482	99.4
+1) Model-based imputation	61	0.6
+
+
+231) TOSOON_I
+TOOSOON Imputation Flag (TOOSOON_I)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	9543	0.006	0.075
+0) Questionnaire data (not imputed)	9489	99.4
+1) Model-based imputation	54	0.6
+
+
+232) NWWNTR_I
+NEWWANTR Imputation Flag (NEWWANTR_I)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9543	0.01	0.114
+0) Questionnaire data (not imputed)	9456	99.1
+1) Model-based imputation	74	0.8
+2) Logical imputation	13	0.1
+
+
+233) AGER_I
+AGER Imputation Flag
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	9543	0	0
+0) Questionnaire data (not imputed)	9543	100.0
+
+
+234) FMARTL_I
+FMARITAL Imputation Flag (FMARITAL_I)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	9543	0	0
+0) Questionnaire data (not imputed)	9543	100.0
+
+
+235) RMARTL_I
+RMARITAL Imputation Flag (RMARITAL_I)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	9543	0	0
+0) Questionnaire data (not imputed)	9543	100.0
+
+
+236) EDUCAT_I
+EDUCAT Imputation Flag
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	9543	0.001	0.034
+0) Questionnaire data (not imputed)	9532	99.9
+1) Model-based imputation	11	0.1
+
+
+237) HIEDUC_I
+HIEDUC_I Imputation Flag
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9543	0.003	0.074
+0) Questionnaire data (not imputed)	9530	99.9
+2) Logical imputation	13	0.1
+
+
+238) RACE_I
+RACE Imputation Flag
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	9543	0	0.02
+0) Questionnaire data (not imputed)	9539	100.0
+1) Model-based imputation	4	0.0
+
+
+239) HISPNC_I
+HISPANIC Imputation Flag (HISPANIC_I)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	9543	0.001	0.023
+0) Questionnaire Data (not imputed)	9538	99.9
+1) Model-based imputation	5	0.1
+
+
+240) HSPRCE_I
+HISPRACE Imputation Flag (HISPRACE_I)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9543	0.001	0.046
+0) Questionnaire Data	9538	99.9
+2) Logical imputation	5	0.1
+
+
+241) HSPRC2_I
+HISPRACE2 Imputation Flag (HISPRACE2_I)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9543	0.001	0.041
+0) Questionnaire data	9539	100.0
+2) Logical imputation	4	0.0
+
+
+242) RCRPRG_I
+RCURPREG Imputation Flag (RCURPREG_I)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9543	0	0.029
+0) Questionnaire data	9541	100.0
+2) Logical imputation	2	0.0
+
+
+243) PRGNUM_I
+PREGNUM Imputation Flag (PREGNUM_I)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	9543	0	0
+0) Questionnaire data (not imputed)	9543	100.0
+
+
+244) PARITY_I
+PARITY Imputation Flag
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9543	0.001	0.041
+0) Questionnaire data (not imputed)	9539	100.0
+2) Logical imputation	4	0.0
+
+
+245) CURINS_I
+CURR_INS Imputation Flag (CURR_INS_I)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	9543	0	0.018
+0) Questionnaire data (not imputed)	9540	100.0
+1) Model-based imputation	3	0.0
+
+
+246) PBASIS_I
+PUBASSIS Imputation Flag (PUBASSIS_I)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	9543	0.02	0.141
+0) Questionnaire data (not imputed)	9350	98.0
+1) Model-based imputation	193	2.0
+
+
+247) POVRTY_I
+POVERTY Imputation Flag (POVERTY_I)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	9543	0.059	0.236
+0) Questionnaire data (not imputed)	8976	94.1
+1) Model-based imputation	567	5.9
+
+
+248) LABRFR_I
+LABORFOR Imputation Flag (LABORFOR_I)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	9543	0	0
+0) Questionnaire data (not imputed)	9543	100.0
+
+
+249) RELIGN_I
+RELIGION Imputation Flag (RELIGION_I)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	9543	0.001	0.038
+0) Questionnaire data (not imputed)	9529	99.9
+1) Model-based imputation	14	0.1
+
+
+250) METRO_I
+METRO Imputation Flag
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	9543	0	0
+0) Questionnaire data (not imputed)	9543	100.0
+
+
+251) WGT11_13
+Final weight for the 2011-2013 NSGF (WGT2011-2013)
+RANGE: 1714.541 to 85207.95
+	N	Mean	Std. Deviation
+Total	9543	11040.049	13033.548
+
+
+252) SECU
+Randomized version of the sampling error computational unit
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	9543	2.425	1.141
+1) 	2693	28.2
+2) 	2451	25.7
+3) 	2046	21.4
+4) 	2353	24.7
+
+
+253) SEST
+Randomized version of the stratum
+RANGE: 303 to 369
+	N	Mean	Std. Deviation
+Total	9543	332.942	20.22
+303) 	511	5.4
+306) 	385	4.0
+310) 	753	7.9
+317) 	505	5.3
+319) 	577	6.0
+321) 	634	6.6
+323) 	596	6.2
+325) 	477	5.0
+326) 	507	5.3
+328) 	383	4.0
+332) 	572	6.0
+333) 	378	4.0
+345) 	528	5.5
+349) 	620	6.5
+361) 	525	5.5
+362) 	480	5.0
+363) 	474	5.0
+369) 	638	6.7
+
+
+254) CMINTVW
+Century month of interview date
+RANGE: 1341 to 1365
+	N	Mean	Std. Deviation
+Total	9543	1353.06	6.783
+1341) 	31	0.3
+1342) 	458	4.8
+1343) 	592	6.2
+1344) 	212	2.2
+1345) 	439	4.6
+1346) 	413	4.3
+1347) 	310	3.2
+1348) 	444	4.7
+1349) 	444	4.7
+1350) 	357	3.7
+1351) 	456	4.8
+1352) 	441	4.6
+1353) 	208	2.2
+1354) 	531	5.6
+1355) 	452	4.7
+1356) 	120	1.3
+1357) 	508	5.3
+1358) 	585	6.1
+1359) 	348	3.6
+1360) 	504	5.3
+1361) 	428	4.5
+1362) 	400	4.2
+1363) 	409	4.3
+1364) 	424	4.4
+1365) 	29	0.3
+
+
+255) CMLSTYR
+Century month of interview minus 1 year (cmintvw-12)
+RANGE: 1329 to 1353
+	N	Mean	Std. Deviation
+Total	9543	1341.06	6.783
+1329) 	31	0.3
+1330) 	458	4.8
+1331) 	592	6.2
+1332) 	212	2.2
+1333) 	439	4.6
+1334) 	413	4.3
+1335) 	310	3.2
+1336) 	444	4.7
+1337) 	444	4.7
+1338) 	357	3.7
+1339) 	456	4.8
+1340) 	441	4.6
+1341) 	208	2.2
+1342) 	531	5.6
+1343) 	452	4.7
+1344) 	120	1.3
+1345) 	508	5.3
+1346) 	585	6.1
+1347) 	348	3.6
+1348) 	504	5.3
+1349) 	428	4.5
+1350) 	400	4.2
+1351) 	409	4.3
+1352) 	424	4.4
+1353) 	29	0.3
+
+
+256) CMJAN3YR
+Century month for the January three years prior to CMINTVW
+RANGE: 1297 to 1321
+	N	Mean	Std. Deviation
+Total	9543	1311.945	8.105
+1297) 	1293	13.5
+1309) 	4615	48.4
+1321) 	3635	38.1
+
+
+257) CMJAN4YR
+Century month for the January four years prior to CMINTVW
+RANGE: 1285 to 1309
+	N	Mean	Std. Deviation
+Total	9543	1299.945	8.105
+1285) 	1293	13.5
+1297) 	4615	48.4
+1309) 	3635	38.1
+
+
+258) CMJAN5YR
+Century month for the January five years prior to CMINTVW
+RANGE: 1273 to 1297
+	N	Mean	Std. Deviation
+Total	9543	1287.945	8.105
+1273) 	1293	13.5
+1285) 	4615	48.4
+1297) 	3635	38.1
+
+
+259) QUARTER
+Quarter when case was sampled
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	9543	4.496	2.279
+1) 	1293	13.5
+2) 	1089	11.4
+3) 	1104	11.6
+4) 	1163	12.2
+5) 	1259	13.2
+6) 	1357	14.2
+7) 	1189	12.5
+8) 	1089	11.4
+
+
+260) PHASE
+Regular- or double-sample portion of the quarter
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	9518	1.094	0.292
+1) First 10 weeks of quarter	8621	90.6
+2) Last 2 weeks of quarter (double sample)	897	9.4
+Missing	25
+
+
+261) INTVWYR
+Calendar year when interview occurred (INTVWYEAR)
+RANGE: 2011 to 2013
+	N	Mean	Std. Deviation
+Total	9543	2012.245	0.675
+2011) 	1293	13.5
+2012) 	4615	48.4
+2013) 	3635	38.1
+
+
+262) I-RACE
+Race (respondent recode) (for use with online analysis)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	9543	1.851	0.616
+1) Black	2630	27.6
+2) White	5707	59.8
+3) Other	1206	12.6
+
+
+263) I-EDUC
+Highest completed year of school or degree (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	9543	2.527	1.121
+1) Some high school, no diploma (nor GED)	1931	20.2
+2) High school graduate (diploma or GED)	2935	30.8
+3) Some college but no degree or Associate degree	2989	31.3
+4) Bachelor's degree	1096	11.5
+5) Graduate or professional degree	592	6.2
+
+
+264) I-MARITAL
+Formal marital status (respondent recode) (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	9543	2.331	1.341
+1) Married or Widowed	4218	44.2
+2) Divorced	1254	13.1
+3) Separated	765	8.0
+4) Never married	3306	34.6
+
+
+265) I-RELIGION
+Current religious affiliation (for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	9543	2.489	0.864
+1) No religion	1685	17.7
+2) Catholic	2189	22.9
+3) Protestant	4986	52.2
+4) Other religions	683	7.2
+
+
+266) I-EMPLOY
+Labor force status (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	9543	2.666	1.65
+1) Working full-time	3502	36.7
+2) Working part-time or temporarily	2021	21.2
+3) Not working but looking for work	772	8.1
+4) Maternity/family leave, School, or Other	662	6.9
+5) Keeping house or caring for family	2586	27.1
+
+

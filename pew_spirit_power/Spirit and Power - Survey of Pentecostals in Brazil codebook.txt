@@ -1,0 +1,1753 @@
+Data File: PENTBRZ (Full Data Codebook)
+
+1) COUNTRY
+Country name
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1000	1	0
+1) Brazil	1000	100.0
+
+
+2) PSRAID
+Identification number
+RANGE: 100001 to 101000
+	N	Mean	Std. Deviation
+Total	1000	100500.5	288.819
+
+
+3) SAMPLE
+Sample type
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1000	1.3	0.458
+1) General Public Sample	700	70.0
+2) Oversample of Renewalists	300	30.0
+
+
+4) RENEWLST
+Is the respondent a non-renewalist, Pentecostal, or Charismatic?  Pentecostal is defined as belonging to a Pentecostal denomination or church, as indicated by responses labeled "coded as Pentecostal" in the Q4BRA.  Charismatic is defined as non-Pentecostal Christians, who describe themselves as Pentecostal in question Q5C, or as Charismatic in question Q5D, or who say they speak or pray in tongues at least several times a year in the survey question named TONGUES.
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	1000	0.971	0.829
+0) Non-renewalist	358	35.8
+1) Pentecostal (as coded in Q4BRA)	313	31.3
+2) Charismatic (as indicated in questions Q5C, Q5D, or TONGUES)	329	32.9
+
+
+5) GPWGT
+Weight for use in analyzing general public samples in each country
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1000	0.7	0.458
+0) 	300	30.0
+1) 	700	70.0
+
+
+6) PENTWGT
+Weight for use in analyzing renewalists in each country
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1000	0.642	0.48
+0) 	358	35.8
+1) 	642	64.2
+
+
+7) SATISFY
+Now thinking about (survey country), overall, are you satisfied or dissatisfied with the way things are going in our country today?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	1.898	0.725
+1) Satisfied	163	16.3
+2) Dissatisfied	827	82.7
+8) Don't know	9	0.9
+9) Refused	1	0.1
+
+
+8) RELIMP
+Thinking now about religion, how important is religion in your life?  Is it the single most important thing, very important, somewhat important, not too important, or not at all important?  [This question was asked in all countries.]
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	2.213	0.939
+1) Single most important thing	173	17.3
+2) Very important	564	56.4
+3) Somewhat important	183	18.3
+4) Not too important	46	4.6
+5) Not at all important	31	3.1
+8) Don't know	3	0.3
+9) Refused	0	0.0
+
+
+9) Q3BRA
+Do you consider yourself as belonging to a particular religion?  If yes, which one: Roman Catholic; Evangelical [Evangélico] (or Protestant); Afro-Brazilian; Jehovah's Witness; Orthodox; Muslim; Hindu; Buddhist; No religion, not a believer, atheist, agnostic; Kardecist - Spiritism; Spiritism; Other religion?  [Question asked in Brazil.]  
+RANGE: 1 to 97
+	N	Mean	Std. Deviation
+Total	1000	3.226	9.342
+1) Roman Catholic	485	48.5
+2) Evangelical [Evangélico] (or Protestant)	361	36.1
+3) Afro-Brazilian	45	4.5
+4) Jehovah's Witness	7	0.7
+8) Buddhist	2	0.2
+10) No religion, not a believer, atheist, agnostic	57	5.7
+11) Kardecist - Spiritism	11	1.1
+12) Spiritism	23	2.3
+97) Other religion	9	0.9
+
+
+10) Q4BRA
+[Ask in Brazil if Q3BRA = 2 "Protestant."]  As I read a list, tell me which, if any, of these denominations you are affiliated with.  Baptist [Batista]; Presbyterian [Presbiteriana]; Methodist [Metodista]; Another Protestant denomination (such as Adventist, Lutheran, or Congregational); Assemblies of God [Assembleia de Deus]; Christian Congregation [Congregacao Crista]; Church of the Foursquare Gospel; [Igreja do Evangelho Quadrangular]; Another Pentecostal or neo-Charismatic church (such as Brasil para Cristo, Casa da Bênção, Deus é Amor, Universal Church of the Kingdom of God [Igreja Universal do Reino de Deus], or Renascer em Cristo); Nondenominational or Independent Church; Something else.
+RANGE: 1 to 98
+	N	Mean	Std. Deviation
+Total	361	6.269	5.292
+1) Baptist	30	8.3
+2) Presbyterian	4	1.1
+3) Methodist	2	0.6
+4) Another Protestant denomination	4	1.1
+5) Assemblies of God [Coded as Pentecostal]	131	36.3
+6) Christian Congregation [Coded as Pentecostal]	31	8.6
+7) Church of the Foursquare Gospel [Coded as Pentecostal]	12	3.3
+8) Another Pentecostal or neo-Charismatic church [Coded as Pentecostal]	139	38.5
+9) No denomination or Independent Church	2	0.6
+10) Something else	5	1.4
+98) Don't know	1	0.3
+Missing	639
+
+
+11) Q5_A
+[Ask if Christian] As I read from a list, please tell me which, if any, of the following descriptions apply to you.  Does this apply to you or not: Evangelical Christian [If respondent is Catholic, replace with "Evangelical Catholic"]?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	853	1.923	1.225
+1) Yes, applies	240	28.1
+2) No, does not apply	584	68.5
+8) Don't know	29	3.4
+9) Refused	0	0.0
+Missing	147
+
+
+12) Q5_B
+[Ask if Christian] As I read from a list, please tell me which, if any, of the following descriptions apply to you.  Does this apply to you or not: Born-again Christian [If respondent is Catholic, replace with "Born-again Catholic"]?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	853	2.158	1.261
+1) Yes, applies	81	9.5
+2) No, does not apply	736	86.3
+8) Don't know	36	4.2
+9) Refused	0	0.0
+Missing	147
+
+
+13) Q5_C
+[Ask if Christian] As I read from a list, please tell me which, if any, of the following descriptions apply to you.  Does this apply to you or not: Pentecostal Christian [If respondent is Catholic, replace with "Pentecostal Catholic"]?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	853	2	1.256
+1) Yes, applies	192	22.5
+2) No, does not apply	629	73.7
+8) Don't know	32	3.8
+9) Refused	0	0.0
+Missing	147
+
+
+14) Q5_D
+[Ask if Christian] As I read from a list, please tell me which, if any, of the following descriptions apply to you.  Does this apply to you or not: Charismatic Christian [If respondent is Catholic, replace with "Charismatic Catholic"]?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	853	1.868	1.392
+1) Yes, applies	335	39.3
+2) No, does not apply	481	56.4
+8) Don't know	37	4.3
+9) Refused	0	0.0
+Missing	147
+
+
+15) PRAY_OUT
+How often do you pray to God outside of religious services: would you say every day, more than once a week, once a week, at least once a month, several times a year, less often or never?  [Question asked in all countries.]
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1000	1.788	1.575
+1) Every day	713	71.3
+2) More than once a week	104	10.4
+3) Once a week	60	6.0
+4) At least once a month	36	3.6
+5) Several times a year	12	1.2
+6) Less often	42	4.2
+7) Never	33	3.3
+8) Don't know	0	0.0
+9) Refused	0	0.0
+
+
+16) TONGUES
+How often do you speak or pray in tongues: would you say every day, more than once a week, once a week, at least once a month, several times a year, less often or never?  [Question asked only if respondent belongs to a particular religion.]
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	943	6.145	1.794
+1) Every day	40	4.2
+2) More than once a week	55	5.8
+3) Once a week	31	3.3
+4) At least once a month	25	2.7
+5) Several times a year	36	3.8
+6) Less often	30	3.2
+7) Never	716	75.9
+8) Don't know	10	1.1
+9) Refused	0	0.0
+Missing	57
+
+
+17) GROUPS
+How often do you participate in prayer groups, Scripture study groups or religious education programs: would you say every day, more than once a week, once a week, at least once a month, several times a year, less often or never?  [Question asked in all countries.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	5.398	2.127
+1) Every day	31	3.1
+2) More than once a week	134	13.4
+3) Once a week	130	13.0
+4) At least once a month	44	4.4
+5) Several times a year	16	1.6
+6) Less often	70	7.0
+7) Never	568	56.8
+8) Don't know	6	0.6
+9) Refused	1	0.1
+
+
+18) RADIO_TV
+How often do you listen to religious radio or watch religious television programs: would you say every day, more than once a week, once a week, at least once a month, several times a year, less often or never?  [Question asked in all countries.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	4.198	2.553
+1) Every day	244	24.4
+2) More than once a week	134	13.4
+3) Once a week	103	10.3
+4) At least once a month	46	4.6
+5) Several times a year	20	2.0
+6) Less often	82	8.2
+7) Never	368	36.8
+8) Don't know	2	0.2
+9) Refused	1	0.1
+
+
+19) SHARE_F
+How often do you share your faith with non-believers: would you say every day, more than once a week, once a week, at least once a month, several times a year, less often or never?  [Question asked in all countries.]
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	4.56	2.357
+1) Every day	156	15.6
+2) More than once a week	134	13.4
+3) Once a week	97	9.7
+4) At least once a month	63	6.3
+5) Several times a year	74	7.4
+6) Less often	116	11.6
+7) Never	353	35.3
+8) Don't know	7	0.7
+9) Refused	0	0.0
+
+
+20) READ_OUT
+How often do you read scripture outside of religious services: would you say every day, more than once a week, once a week, at least once a month, several times a year, less often or never?  [Question asked in all countries.]
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	4.13	2.463
+1) Every day	236	23.6
+2) More than once a week	131	13.1
+3) Once a week	103	10.3
+4) At least once a month	65	6.5
+5) Several times a year	46	4.6
+6) Less often	104	10.4
+7) Never	311	31.1
+8) Don't know	4	0.4
+9) Refused	0	0.0
+
+
+21) FAST
+How often do you fast: would you say every day, more than once a week, once a week, at least once a month, several times a year, less often or never?  [Question asked in all countries.]
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	6.049	1.692
+1) Every day	18	1.8
+2) More than once a week	59	5.9
+3) Once a week	55	5.5
+4) At least once a month	56	5.6
+5) Several times a year	41	4.1
+6) Less often	85	8.5
+7) Never	679	67.9
+8) Don't know	7	0.7
+9) Refused	0	0.0
+
+
+22) HELL
+Which, if any, of the following do you believe in?  Do you believe in Hell?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	1.436	0.866
+1) Yes	636	63.6
+2) No	352	35.2
+8) Don't know	12	1.2
+9) Refused	0	0.0
+
+
+23) HEAVEN
+Which, if any, of the following do you believe in?  Do you believe in Heaven?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	1.248	0.88
+1) Yes	836	83.6
+2) No	150	15.0
+8) Don't know	14	1.4
+9) Refused	0	0.0
+
+
+24) RAPTURE
+Which, if any, of the following do you believe in?  Do you believe in the Rapture of the Church, that is, that before the world comes to an end, the religiously faithful will be saved and taken up to Heaven?  [Question asked only if respondent is Christian.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	853	1.686	1.597
+1) Yes	548	64.2
+2) No	259	30.4
+8) Don't know	42	4.9
+9) Refused	4	0.5
+Missing	147
+
+
+25) GOD
+Which, if any, of the following do you believe in?  Do you believe in God?  [Question asked only if respondent indicates any of the following: no religion, not a believer, atheist, or agnostic.]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	57	1.175	0.384
+1) Yes	47	82.5
+2) No	10	17.5
+8) Don't know	0	0.0
+9) Refused	0	0.0
+Missing	943
+
+
+26) REL_ALWS
+Have you always been a [if answer given in Q4, insert religious affiliation from Q4; otherwise, insert religious affiliation from Q3]?  Question asked in United States if respondent belongs to a particular religion.  In all other countries, question asked of all respondents.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	1.344	0.616
+1) Yes	676	67.6
+2) No	321	32.1
+8) Don't know	1	0.1
+9) Refused	2	0.2
+
+
+27) Q9BRA
+What were you before?  [Question asked only in Brazil if REL_ALWS = 2 "No."]
+RANGE: 1 to 98
+	N	Mean	Std. Deviation
+Total	321	4.888	15.11
+1) Roman Catholic	220	68.5
+2) Evangelical [Evangélico]  (or Protestant)	30	9.3
+3) Afro-Brazilian	15	4.7
+4) Jehovah's Witness	2	0.6
+5) Orthodox	0	0.0
+6) Muslim	0	0.0
+7) Hindu	0	0.0
+8) Buddhist	1	0.3
+9) Other religion	0	0.0
+10) No religion, not a believer, atheist, agnostic	45	14.0
+97) Other religion	6	1.9
+98) Don't know	2	0.6
+99) Refused	0	0.0
+Missing	679
+
+
+28) CHANGE
+How old were you when you changed your religion to your present religion?  ___ years [Asked only if REL_ALWS = 2 "No."]
+RANGE: 4 to 98
+	N	Mean	Std. Deviation
+Total	321	26.819	16.973
+4) 	2	0.6
+5) 	1	0.3
+6) 	2	0.6
+8) 	4	1.2
+9) 	4	1.2
+10) 	5	1.6
+11) 	2	0.6
+12) 	5	1.6
+13) 	10	3.1
+14) 	10	3.1
+15) 	10	3.1
+16) 	17	5.3
+17) 	20	6.2
+18) 	18	5.6
+19) 	11	3.4
+20) 	25	7.8
+21) 	3	0.9
+22) 	7	2.2
+23) 	11	3.4
+24) 	4	1.2
+25) 	11	3.4
+26) 	8	2.5
+27) 	8	2.5
+28) 	8	2.5
+29) 	14	4.4
+30) 	17	5.3
+31) 	2	0.6
+32) 	7	2.2
+33) 	10	3.1
+34) 	8	2.5
+35) 	6	1.9
+36) 	5	1.6
+37) 	2	0.6
+38) 	4	1.2
+39) 	7	2.2
+40) 	5	1.6
+41) 	1	0.3
+42) 	1	0.3
+43) 	3	0.9
+45) 	1	0.3
+46) 	2	0.6
+48) 	2	0.6
+51) 	1	0.3
+52) 	1	0.3
+54) 	1	0.3
+56) 	1	0.3
+58) 	1	0.3
+64) 	1	0.3
+79) 	1	0.3
+97) 97 or older	0	0.0
+98) Don't know	11	3.4
+99) Refused	0	0.0
+Missing	679
+
+
+29) ATTEND
+Aside from weddings and funerals, how often do you attend religious services: more than once a week, once a week, once or twice a month, a few times a year, seldom, or never?  [Question asked of all respondents in Chile, Guatemala, South Korea, and the United States.  In all other countries, question asked only if respondent is not Muslim.]
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	3.021	1.673
+1) More than once a week	224	22.4
+2) Once a week	266	26.6
+3) Once or twice a month	136	13.6
+4) A few times a year	98	9.8
+5) Seldom	193	19.3
+6) Never	82	8.2
+8) Don't know	1	0.1
+9) Refused	0	0.0
+
+
+30) TONGUES2
+When you attend religious services, how often do they include people speaking tongues, prophesying, praying for miraculous or divine healings, or displaying physical signs of the spirit such as laughing and shaking: would you say always, frequently, occasionally, or never?  [Question only asked if respondent is Christian and attends religious services more than "never."]
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	806	2.973	1.373
+1) Always	161	20.0
+2) Frequently	127	15.8
+3) Occasionally	155	19.2
+4) Never	347	43.1
+8) Don't know	16	2.0
+9) Refused	0	0.0
+Missing	194
+
+
+31) HEALING
+Have you ever experienced or witnessed a divine healing of an illness or injury?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	1.56	0.644
+1) Yes	464	46.4
+2) No	532	53.2
+8) Don't know	4	0.4
+9) Refused	0	0.0
+
+
+32) PROPHECY
+Have you ever given or interpreted prophecy?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	1.9	0.631
+1) Yes	143	14.3
+2) No	850	85.0
+8) Don't know	6	0.6
+9) Refused	1	0.1
+
+
+33) ANSWER
+Have you ever received a definite answer to a specific prayer request?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	1.285	0.587
+1) Yes	734	73.4
+2) No	263	26.3
+8) Don't know	2	0.2
+9) Refused	1	0.1
+
+
+34) REVELAT
+Have you ever received a direct revelation from God?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	1.662	0.82
+1) Yes	400	40.0
+2) No	590	59.0
+8) Don't know	8	0.8
+9) Refused	2	0.2
+
+
+35) DEVIL
+Have you ever experienced or witnessed the devil or evil spirits being driven out of a person?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	1.579	0.642
+1) Yes	445	44.5
+2) No	551	55.1
+8) Don't know	4	0.4
+9) Refused	0	0.0
+
+
+36) GOODEVIL
+Now I am going to read you a series of statements on some different topics.  For each one, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it, or completely disagree with it. The first one is: there are clear guidelines about what's good or evil that apply to everyone regardless of their situation.  Do you completely agree, mostly agree, mostly disagree, or completely disagree?
+RANGE: 1 to 98
+	N	Mean	Std. Deviation
+Total	1000	4.826	17.242
+1) Completely agree	540	54.0
+2) Mostly agree	283	28.3
+3) Mostly disagree	90	9.0
+4) Completely disagree	54	5.4
+98) Don't know	33	3.3
+99) Refused	0	0.0
+
+
+37) MIRACLES
+Now I am going to read you a series of statements on some different topics.  For each one, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it, or completely disagree with it: miracles still occur today as in ancient times.  Do you completely agree, mostly agree, mostly disagree, or completely disagree?
+RANGE: 1 to 98
+	N	Mean	Std. Deviation
+Total	1000	3.192	10.065
+1) Completely agree	377	37.7
+2) Mostly agree	281	28.1
+3) Mostly disagree	149	14.9
+4) Completely disagree	182	18.2
+98) Don't know	11	1.1
+99) Refused	0	0.0
+
+
+38) ANGELS
+Now I am going to read you a series of statements on some different topics.  For each one, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it, or completely disagree with it: angels and demons are active in the world.  Do you completely agree, mostly agree, mostly disagree, or completely disagree?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1000	3.634	13.868
+1) Completely agree	627	62.7
+2) Mostly agree	203	20.3
+3) Mostly disagree	54	5.4
+4) Completely disagree	95	9.5
+98) Don't know	20	2.0
+99) Refused	1	0.1
+
+
+39) CONVERT
+[Question asked only if respondent belongs to a particular religion.]  Now I am going to read you a series of statements on some different topics.  For each one, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it, or completely disagree with it.  [IF CHRISTIAN: Christians] [IF JEWISH: Jews] [IF MUSLIM: Muslims] [IF OTHER RELIGION: INSERT RELIGION] [IF ELSE: Religious people] ____ have a duty to convert people of other religious faiths to ___ [IF CHRISTIAN: Christianity] [IF JEWISH: Judaism] [IF MUSLIM: Islam] [IF OTHER RELIGION: INSERT RELGION][IF ELSE: their religious faith].  Do you completely agree, mostly agree, mostly disagree, or completely disagree?
+RANGE: 1 to 98
+	N	Mean	Std. Deviation
+Total	943	3.918	10.752
+1) Completely agree	207	22.0
+2) Mostly agree	210	22.3
+3) Mostly disagree	164	17.4
+4) Completely disagree	350	37.1
+98) Don't know	12	1.3
+99) Refused	0	0.0
+Missing	57
+
+
+40) WORK
+[Question asked only if respondent belongs to a particular religion.]  Now I am going to read you a series of statements on some different topics. For each one, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it, or completely disagree with it.  [IF CHRISTIAN: Christians] [IF JEWISH: Jews] [IF MUSLIM: Muslims] [IF OTHER RELIGION: INSERT RELIGION][IF ELSE: Religious people] ______ have a responsibility to work for justice for the poor.
+RANGE: 1 to 98
+	N	Mean	Std. Deviation
+Total	943	2.521	8.322
+1) Completely agree	476	50.5
+2) Mostly agree	267	28.3
+3) Mostly disagree	91	9.7
+4) Completely disagree	102	10.8
+98) Don't know	7	0.7
+99) Refused	0	0.0
+Missing	57
+
+
+41) PROSPER
+[Question asked if respondent belongs to a particular religion or believes in God.]  Now I am going to read you a series of statements on some different topics. For each one, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it, or completely disagree with it.  God will grant material prosperity to all believers who have enough faith.
+RANGE: 1 to 98
+	N	Mean	Std. Deviation
+Total	990	2.706	8.127
+1) Completely agree	459	46.4
+2) Mostly agree	214	21.6
+3) Mostly disagree	134	13.5
+4) Completely disagree	176	17.8
+98) Don't know	7	0.7
+99) Refused	0	0.0
+Missing	10
+
+
+42) HEALTH
+[Question asked if respondent belongs to a particular religion or believes in God.]  Now I am going to read you a series of statements on some different topics. For each one, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it, or completely disagree with it.  God will grant health and relief from sickness to believers who have enough faith.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	990	2.437	8.146
+1) Completely agree	568	57.4
+2) Mostly agree	196	19.8
+3) Mostly disagree	110	11.1
+4) Completely disagree	109	11.0
+98) Don't know	6	0.6
+99) Refused	1	0.1
+Missing	10
+
+
+43) POLITICS
+[Question asked if respondent belongs to a particular religion or believes in God.]  Now I am going to read you a series of statements on some different topics. For each one, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it, or completely disagree with it. God fulfills his purposes through politics and elections.
+RANGE: 1 to 98
+	N	Mean	Std. Deviation
+Total	990	5.011	12.339
+1) Completely agree	92	9.3
+2) Mostly agree	111	11.2
+3) Mostly disagree	99	10.0
+4) Completely disagree	671	67.8
+98) Don't know	17	1.7
+99) Refused	0	0.0
+Missing	10
+
+
+44) AIDS
+[Question asked if respondent belongs to a particular religion or believes in God.]  Now I am going to read you a series of statements on some different topics. For each one, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it, or completely disagree with it.  AIDS is God's punishment for immoral sexual behavior.
+RANGE: 1 to 98
+	N	Mean	Std. Deviation
+Total	990	5.258	14.038
+1) Completely agree	178	18.0
+2) Mostly agree	93	9.4
+3) Mostly disagree	103	10.4
+4) Completely disagree	594	60.0
+98) Don't know	22	2.2
+99) Refused	0	0.0
+Missing	10
+
+
+45) SCRIPTUR
+Which one of these statements comes closest to describing your feelings about ____ [IF CHRISTIAN: the Bible] [IF MUSLIM: the Koran] [ELSE: sacred scriptures]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	1.744	1.427
+1) [IF CHRISTIAN: The Bible is][IF MUSLIM: The Koran is] [ELSE: Sacred scriptures are] the actual word of God and [IS/ARE] to be taken literally, word for word, OR	595	59.5
+2) [IF CHRISTIAN: The Bible is] [IF MUSLIM: The Koran is] [ELSE: Sacred scriptures are] the word of God, but not everything in [IT/THEM] should be taken literally, word for word, OR	264	26.4
+3) [IF CHRISTIAN: The Bible is] [IF MUSLIM: The Koran is] [ELSE: Sacred scriptures are] written by men and [IS/ARE] not the word of God	96	9.6
+4) Other (VOLUNTEERED THIS RESPONSE)	7	0.7
+8) Don't know	37	3.7
+9) Refused	1	0.1
+
+
+46) MOSTIMP
+Which of the following is most important to you: your continent, your nationality, your religion, or your ethnic group?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	943	2.913	1.218
+1) Your continent	50	5.3
+2) Your nationality	233	24.7
+3) Your religion	547	58.0
+4) Your ethnic group	80	8.5
+8) Don't know	27	2.9
+9) Refused	6	0.6
+Missing	57
+
+
+47) ILLS
+[Question asked if respondent is Christian.]  Now I am going to read you another series of statements on some different topics. For each one, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it, or completely disagree with it.  The first one is: if enough people were brought to Christ, social ills would take care of themselves.  Do you completely agree, mostly agree, mostly disagree, or completely disagree?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	853	1.868	1.122
+1) Completely agree	440	51.6
+2) Mostly agree	216	25.3
+3) Mostly disagree	79	9.3
+4) Completely disagree	115	13.5
+8) Don't know	3	0.4
+9) Refused	0	0.0
+Missing	147
+
+
+48) ONLYWAY
+[Question asked if respondent is Christian.]  Now I am going to read you another series of statements on some different topics. For each one, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it, or completely disagree with it.  Belief in Jesus Christ is the only way to be saved from eternal damnation.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	853	1.68	1.205
+1) Completely agree	557	65.3
+2) Mostly agree	144	16.9
+3) Mostly disagree	64	7.5
+4) Completely disagree	77	9.0
+8) Don't know	11	1.3
+9) Refused	0	0.0
+Missing	147
+
+
+49) RETURN
+[Question asked if respondent is Christian.]  Now I am going to read you another series of statements on some different topics. For each one, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it, or completely disagree with it. Jesus will return to earth in my lifetime.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	853	3.924	2.348
+1) Completely agree	146	17.1
+2) Mostly agree	116	13.6
+3) Mostly disagree	100	11.7
+4) Completely disagree	315	36.9
+8) Don't know	175	20.5
+9) Refused	1	0.1
+Missing	147
+
+
+50) EMPLOY
+Turning to another subject, suppose you could choose between different kinds of jobs. Which one would you prefer: being an employee or being self-employed?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	1.677	0.707
+1) Being an employee	373	37.3
+2) Being self employed	607	60.7
+3) Neither/None	14	1.4
+8) Don't know	6	0.6
+9) Refused	0	0.0
+
+
+51) INTERNA
+To what extent, if at all, do you think our country benefits from the greater influence of international business practices, trade, ideas, communication and products such as international foods and TV programs from other countries: would you say to a great extent, moderate extent, small extent, or not at all?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	2.388	1.556
+1) Great extent	283	28.3
+2) Moderate extent	377	37.7
+3) Small extent	209	20.9
+4) Not at all	69	6.9
+5) Harms our country	16	1.6
+8) Don't know	46	4.6
+9) Refused	0	0.0
+
+
+52) FINANCE
+Thinking about your own personal finances, how would you rate your own personal financial situation: would you say you are in excellent shape, good shape, only fair shape or poor shape?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	2.735	0.783
+1) Excellent shape	38	3.8
+2) Good shape	340	34.0
+3) Only fair shape	479	47.9
+4) Poor shape	141	14.1
+8) Don't know	2	0.2
+9) Refused	0	0.0
+
+
+53) FINANCE2
+Over the course of the next year, do you think the financial situation of you and your family will improve a lot, improve some, get a little worse, get a lot worse, or stay the same?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	1.643	1.101
+1) Improve a lot	562	56.2
+2) Improve some	367	36.7
+3) Get a little worse	17	1.7
+4) Get a lot worse	10	1.0
+5) Stay the same	32	3.2
+8) Don't know	12	1.2
+9) Refused	0	0.0
+
+
+54) HARDWORK
+As I read from a list, please tell me how important each factor is in people's economic success.  Is hard work a very important, somewhat important, not too important, or not at all an important factor in people's economic success?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	1.594	0.84
+1) Very important	582	58.2
+2) Somewhat important	288	28.8
+3) Not too important	88	8.8
+4) Not at all important	41	4.1
+8) Don't know	1	0.1
+9) Refused	0	0.0
+
+
+55) FATE
+As I read from a list, please tell me how important each factor is in people's economic success.  Is fate a very important, somewhat important, not too important, or not at all an important factor in people's economic success?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	1.869	1.25
+1) Very important	531	53.1
+2) Somewhat important	238	23.8
+3) Not too important	123	12.3
+4) Not at all important	93	9.3
+8) Don't know	14	1.4
+9) Refused	1	0.1
+
+
+56) ECONPAR
+As I read from a list, please tell me how important each factor is in people's economic success.  Are people's parent's economic situations very important, somewhat important, not too important, or not at all important factors in people's economic success?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	1.441	0.738
+1) Very important	659	65.9
+2) Somewhat important	270	27.0
+3) Not too important	50	5.0
+4) Not at all important	19	1.9
+8) Don't know	2	0.2
+9) Refused	0	0.0
+
+
+57) FAITH_GD
+As I read from a list, please tell me how important each factor is in people's economic success.  Is faith in God a very important, somewhat important, not too important, or not at all an important factor in people's economic success?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1000	1.084	0.373
+1) Very important	940	94.0
+2) Somewhat important	43	4.3
+3) Not too important	10	1.0
+4) Not at all important	7	0.7
+8) Don't know	0	0.0
+9) Refused	0	0.0
+
+
+58) GOVPOLIC
+As I read from a list, please tell me how important each factor is in people's economic success.   Are government policies very important, somewhat important, not too important, or not at all important factors in people's economic success?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	2.273	1.146
+1) Very important	286	28.6
+2) Somewhat important	356	35.6
+3) Not too important	185	18.5
+4) Not at all important	166	16.6
+8) Don't know	7	0.7
+9) Refused	0	0.0
+
+
+59) CONNECT
+As I read from a list, please tell me how important each factor is in people's economic success.  Are personal connections and contracts very important, somewhat important, not too important, or not at all important factors in people's economic success?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	1.441	0.745
+1) Very important	665	66.5
+2) Somewhat important	257	25.7
+3) Not too important	58	5.8
+4) Not at all important	18	1.8
+8) Don't know	2	0.2
+9) Refused	0	0.0
+
+
+60) IMPEDUC
+As I read from a list, please tell me how important each factor is in people's economic success.  Is education a very important, somewhat important, not too important, or not at all an important factor in people's economic success?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1000	1.064	0.276
+1) Very important	942	94.2
+2) Somewhat important	54	5.4
+3) Not too important	2	0.2
+4) Not at all important	2	0.2
+8) Don't know	0	0.0
+9) Refused	0	0.0
+
+
+61) WOMEN1
+Now I am going to read you another series of statements on some different topics.  For each statement, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it or completely disagree with it.  The first one is: when jobs are scarce, men should have more right to a job than women.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	3.213	1.182
+1) Completely agree	148	14.8
+2) Mostly agree	120	12.0
+3) Mostly disagree	123	12.3
+4) Completely disagree	604	60.4
+8) Don't know	5	0.5
+9) Refused	0	0.0
+
+
+62) WOMEN2
+Now I am going to read you another series of statements on some different topics.  For each statement, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it or completely disagree with it.  On the whole, men make better political leaders than women do.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	3.135	1.244
+1) Completely agree	135	13.5
+2) Mostly agree	180	18.0
+3) Mostly disagree	152	15.2
+4) Completely disagree	520	52.0
+8) Don't know	13	1.3
+9) Refused	0	0.0
+
+
+63) WOMEN3
+Now I am going to read you another series of statements on some different topics.  For each statement, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it or completely disagree with it.  A wife must always obey her husband.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	2.825	1.202
+1) Completely agree	185	18.5
+2) Mostly agree	239	23.9
+3) Mostly disagree	154	15.4
+4) Completely disagree	419	41.9
+8) Don't know	3	0.3
+9) Refused	0	0.0
+
+
+64) WOMEN4
+Now I am going to read you another series of statements on some different topics.  For each statement, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it or completely disagree with it.  A working mother can establish just as warm and secure of a relationship with her children as a mother who does not work.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.056	1.224
+1) Completely agree	457	45.7
+2) Mostly agree	230	23.0
+3) Mostly disagree	138	13.8
+4) Completely disagree	169	16.9
+8) Don't know	5	0.5
+9) Refused	1	0.1
+
+
+65) WOMEN5
+Now I am going to read you another series of statements on some different topics.  For each statement, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it or completely disagree with it.  Women should be allowed to serve as pastors or priests.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	2.323	1.615
+1) Completely agree	445	44.5
+2) Mostly agree	195	19.5
+3) Mostly disagree	88	8.8
+4) Completely disagree	238	23.8
+8) Don't know	34	3.4
+9) Refused	0	0.0
+
+
+66) TRUST
+Generally speaking, would you say that most people can be trusted or that you can't be too careful in dealing with people?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1000	2.005	0.226
+1) Most people can be trusted	23	2.3
+2) Can't be too careful	949	94.9
+3) Other/Depends	28	2.8
+8) Don't know	0	0.0
+9) Refused	0	0.0
+
+
+67) HOMOSEXU
+Please tell me for each of the following items whether you think it can always be justified, sometimes be justified, or never be justified: homosexuality.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.691	1.437
+1) Always justified	157	15.7
+2) Sometimes justified	248	24.8
+3) Never justified	545	54.5
+8) Don't know	47	4.7
+9) Refused	3	0.3
+
+
+68) PROSTITU
+Please tell me for each of the following items whether you think it can always be justified, sometimes be justified, or never be justified: prostitution.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.707	0.955
+1) Always justified	61	6.1
+2) Sometimes justified	267	26.7
+3) Never justified	653	65.3
+8) Don't know	18	1.8
+9) Refused	1	0.1
+
+
+69) DIVORCE
+Please tell me for each of the following items whether you think it can always be justified, sometimes be justified, or never be justified: divorce.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	1.971	0.939
+1) Always justified	290	29.0
+2) Sometimes justified	504	50.4
+3) Never justified	195	19.5
+8) Don't know	11	1.1
+9) Refused	0	0.0
+
+
+70) EUTHANAS
+Please tell me for each of the following items whether you think it can always be justified, sometimes be justified, or never be justified: euthanasia - ending the life of the incurably sick.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	2.703	1.035
+1) Always justified	101	10.1
+2) Sometimes justified	205	20.5
+3) Never justified	672	67.2
+8) Don't know	22	2.2
+9) Refused	0	0.0
+
+
+71) SUICIDE
+Please tell me for each of the following items whether you think it can always be justified, sometimes be justified, or never be justified: suicide.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	2.955	0.658
+1) Always justified	15	1.5
+2) Sometimes justified	75	7.5
+3) Never justified	898	89.8
+8) Don't know	12	1.2
+9) Refused	0	0.0
+
+
+72) ALCOHOL
+Please tell me for each of the following items whether you think it can always be justified, sometimes be justified, or never be justified: drinking alcohol.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	2.442	0.788
+1) Always justified	97	9.7
+2) Sometimes justified	394	39.4
+3) Never justified	503	50.3
+8) Don't know	6	0.6
+9) Refused	0	0.0
+
+
+73) SEXNOTM
+Please tell me for each of the following items whether you think it can always be justified, sometimes be justified, or never be justified: sex between people who are not married to each other.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	2.124	0.971
+1) Always justified	282	28.2
+2) Sometimes justified	357	35.7
+3) Never justified	352	35.2
+8) Don't know	9	0.9
+9) Refused	0	0.0
+
+
+74) ABORTION
+Please tell me for each of the following items whether you think it can always be justified, sometimes be justified, or never be justified: abortion.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	2.822	0.65
+1) Always justified	33	3.3
+2) Sometimes justified	147	14.7
+3) Never justified	813	81.3
+8) Don't know	7	0.7
+9) Refused	0	0.0
+
+
+75) POLYGAMY
+Please tell me for each of the following items whether you think it can always be justified, sometimes be justified, or never be justified: polygamy.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	3.027	0.972
+1) Always justified	21	2.1
+2) Sometimes justified	86	8.6
+3) Never justified	862	86.2
+8) Don't know	31	3.1
+9) Refused	0	0.0
+
+
+76) TRUST1
+I'm going to read a list of institutions and people. For each one, please tell me whether you feel that you can trust them a lot, some, only a little, or not at all. First, how about people in your immediate family?  Do you feel you can trust them a lot, trust them some, trust them only a little, or not trust them at all?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	1.742	0.945
+1) Can trust a lot	515	51.5
+2) Can trust some	301	30.1
+3) Trust a little	119	11.9
+4) Not at all	63	6.3
+8) Don't know	2	0.2
+9) Refused	0	0.0
+
+
+77) TRUST2
+I'm going to read a list of institutions and people. For each one, please tell me whether you feel that you can trust them a lot, some, only a little, or not at all.  How about people in your neighborhood?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	3.072	0.872
+1) Can trust a lot	19	1.9
+2) Can trust some	259	25.9
+3) Trust a little	365	36.5
+4) Not at all	354	35.4
+8) Don't know	3	0.3
+9) Refused	0	0.0
+
+
+78) TRUST3
+I'm going to read a list of institutions and people. For each one, please tell me whether you feel that you can trust them a lot, some, only a little, or not at all.  How about your city or local government?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	3.446	0.809
+1) Can trust a lot	15	1.5
+2) Can trust some	118	11.8
+3) Trust a little	289	28.9
+4) Not at all	574	57.4
+8) Don't know	4	0.4
+9) Refused	0	0.0
+
+
+79) TRUST4
+I'm going to read a list of institutions and people. For each one, please tell me whether you feel that you can trust them a lot, some, only a little, or not at all.  How about the media?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	3.283	0.866
+1) Can trust a lot	19	1.9
+2) Can trust some	166	16.6
+3) Trust a little	348	34.8
+4) Not at all	462	46.2
+8) Don't know	5	0.5
+9) Refused	0	0.0
+
+
+80) TRUST5
+I'm going to read a list of institutions and people. For each one, please tell me whether you feel that you can trust them a lot, some, only a little, or not at all.  How about our national government?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	3.407	0.823
+1) Can trust a lot	23	2.3
+2) Can trust some	129	12.9
+3) Trust a little	274	27.4
+4) Not at all	572	57.2
+8) Don't know	2	0.2
+9) Refused	0	0.0
+
+
+81) TRUST6
+I'm going to read a list of institutions and people. For each one, please tell me whether you feel that you can trust them a lot, some, only a little, or not at all.  How about the military?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	3.215	0.914
+1) Can trust a lot	39	3.9
+2) Can trust some	186	18.6
+3) Trust a little	308	30.8
+4) Not at all	464	46.4
+8) Don't know	3	0.3
+9) Refused	0	0.0
+
+
+82) TRUST7
+I'm going to read a list of institutions and people. For each one, please tell me whether you feel that you can trust them a lot, some, only a little, or not at all.  How about people from other religions?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	2.958	1.098
+1) Can trust a lot	31	3.1
+2) Can trust some	331	33.1
+3) Trust a little	367	36.7
+4) Not at all	251	25.1
+8) Don't know	20	2.0
+9) Refused	0	0.0
+
+
+83) TRUST8
+[Asked only if respondent belongs to a particular religion.]  I'm going to read a list of institutions and people. For each one, please tell me whether you feel that you can trust them a lot, some, only a little, or not at all.  How about people at your church or place of worship?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	943	2.538	1.302
+1) Can trust a lot	141	15.0
+2) Can trust some	414	43.9
+3) Trust a little	240	25.5
+4) Not at all	120	12.7
+8) Don't know	28	3.0
+9) Refused	0	0.0
+Missing	57
+
+
+84) DISCPOLI
+How often, if ever, do you discuss politics with your family or friends: never, once or twice a month, once or twice a week, three or four times a week, or every day?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	2.14	1.591
+1) Never	475	47.5
+2) Once or twice a month	263	26.3
+3) Once or twice a week	105	10.5
+4) Three or four times a week	51	5.1
+5) Every day	76	7.6
+8) Don't know	30	3.0
+9) Refused	0	0.0
+
+
+85) FREEDOM1
+Here is a list of things that you can and cannot do in some countries.  How important is it to you to live in a country where you can openly say what you think and can criticize the government?  Is it very important, somewhat important, not too important or not important at all?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	1.406	0.802
+1) Very important	736	73.6
+2) Somewhat important	161	16.1
+3) Not too important	72	7.2
+4) Not important at all	29	2.9
+8) Don't know	2	0.2
+9) Refused	0	0.0
+
+
+86) FREEDOM2
+Here is a list of things that you can and cannot do in some countries.  How important is it to you to live in a country where honest elections are held regularly with a choice of at least two political parties?  Is it very important, somewhat important, not too important or not important at all?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	1.507	0.88
+1) Very important	672	67.2
+2) Somewhat important	202	20.2
+3) Not too important	85	8.5
+4) Not important at all	38	3.8
+8) Don't know	3	0.3
+9) Refused	0	0.0
+
+
+87) FREEDOM3
+Here is a list of things that you can and cannot do in some countries.  How important is it to you to live in a country where there is a judicial system that treats everyone in the same way?  Is it very important, somewhat important, not too important or not important at all?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	1.254	0.732
+1) Very important	839	83.9
+2) Somewhat important	108	10.8
+3) Not too important	29	2.9
+4) Not important at all	20	2.0
+8) Don't know	4	0.4
+9) Refused	0	0.0
+
+
+88) FREEDOM4
+Here is a list of things that you can and cannot do in some countries.  How important is it to you to live in a country where you can practice your religion freely?  Is it very important, somewhat important, not too important or not important at all?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	1.203	0.578
+1) Very important	845	84.5
+2) Somewhat important	125	12.5
+3) Not too important	20	2.0
+4) Not important at all	8	0.8
+8) Don't know	2	0.2
+9) Refused	0	0.0
+
+
+89) FREEDOM5
+Here is a list of things that you can and cannot do in some countries.  How important is it to you to live in a country where there is freedom of religion for religions other than your own?  Is it very important, somewhat important, not too important or not important at all?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	1.281	0.7
+1) Very important	793	79.3
+2) Somewhat important	163	16.3
+3) Not too important	30	3.0
+4) Not important at all	10	1.0
+8) Don't know	4	0.4
+9) Refused	0	0.0
+
+
+90) PROB_CON
+Here is a list of things that may or may not be problems in our country. As I read each one, please tell me if you think it is a very big problem, a moderately big problem, a small problem, or not a problem at all: conflict between religious groups.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	1.677	1.085
+1) Very big problem	637	63.7
+2) Moderately big problem	164	16.4
+3) Small problem	104	10.4
+4) Not a problem at all	90	9.0
+8) Don't know	5	0.5
+9) Refused	0	0.0
+
+
+91) PROB_POL
+Here is a list of things that may or may not be problems in our country. As I read each one, please tell me if you think it is a very big problem, a moderately big problem, a small problem, or not a problem at all: corrupt political leaders.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	1.1	0.48
+1) Very big problem	933	93.3
+2) Moderately big problem	51	5.1
+3) Small problem	7	0.7
+4) Not a problem at all	7	0.7
+8) Don't know	2	0.2
+9) Refused	0	0.0
+
+
+92) PROB_MOR
+Here is a list of things that may or may not be problems in our country. As I read each one, please tell me if you think it is a very big problem, a moderately big problem, a small problem, or not a problem at all: moral decline.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	1.323	0.87
+1) Very big problem	797	79.7
+2) Moderately big problem	142	14.2
+3) Small problem	38	3.8
+4) Not a problem at all	14	1.4
+8) Don't know	9	0.9
+9) Refused	0	0.0
+
+
+93) PARTIC
+Some people say to solve our country's problems we should have a government that allows greater political participation by ordinary people and limits the power of individual political leaders. Others say to solve our country's problems we should have a leader with a strong hand even if there is little participation by ordinary people. Which comes closer to your opinion?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	1.472	1.223
+1) Participatory government	704	70.4
+2) Strong leader	267	26.7
+8) Don't know	27	2.7
+9) Refused	2	0.2
+
+
+94) RELGRO
+In your opinion, should religious groups keep out of political matter - or should they express their views on day-to-day social and political questions?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	1.837	1.251
+1) Should keep out	367	36.7
+2) Should express views	599	59.9
+8) Don't know	34	3.4
+9) Refused	0	0.0
+
+
+95) GOV_MARK
+Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statements: most people are better off in a free market economy, even though some people are rich and some are poor.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	2.159	1.483
+1) Completely agree	379	37.9
+2) Mostly agree	366	36.6
+3) Mostly disagree	120	12.0
+4) Completely disagree	98	9.8
+8) Don't know	37	3.7
+9) Refused	0	0.0
+
+
+96) GOV_EAT
+Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statements: the government should guarantee every citizen enough to eat and a place to sleep.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	1.342	0.751
+1) Completely agree	759	75.9
+2) Mostly agree	178	17.8
+3) Mostly disagree	37	3.7
+4) Completely disagree	23	2.3
+8) Don't know	3	0.3
+9) Refused	0	0.0
+
+
+97) GOV_ABOR
+Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statements: the government should not interfere with a woman's ability to have an abortion.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.655	1.536
+1) Completely agree	344	34.4
+2) Mostly agree	134	13.4
+3) Mostly disagree	142	14.2
+4) Completely disagree	356	35.6
+8) Don't know	23	2.3
+9) Refused	1	0.1
+
+
+98) POL_BEL
+How do you feel about this statement: It's important to me that political leaders have strong _______ [insert respondent's religion from Q3 (Christian, Muslim, etc.); if respondent is not religious, insert "religious"] beliefs.  Do you completely agree, mostly agree, mostly disagree, or completely disagree?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	2.599	1.808
+1) Completely agree	310	31.0
+2) Mostly agree	304	30.4
+3) Mostly disagree	135	13.5
+4) Completely disagree	183	18.3
+8) Don't know	68	6.8
+9) Refused	0	0.0
+
+
+99) CHRSTATE
+Which comes closer to your view?  1) the government should take special steps to make our country a _____ [insert religion from Q3 (Christian/Muslim/etc.)] country, or 2) there should be a separation between _____ [insert church/mosque, as appropriate)] and state?  [In the United States, if the respondent is "other religion," the words "Christian" and "church" were used.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.957	2.52
+1) Government should make our country a [Christian/Muslim/etc.] country	209	20.9
+2) Should be a separation of [church/mosque] and state	598	59.8
+8) Don't know	185	18.5
+9) Refused	8	0.8
+
+
+100) DISPUTE
+Turning now to events in the world today, in the dispute between Israel and the Palestinians, which side do you sympathize with more, Israel or the Palestinians?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	3.622	2.195
+1) Israel	228	22.8
+2) Palestinians	94	9.4
+3) Both	106	10.6
+4) Neither	423	42.3
+8) Don't know	145	14.5
+9) Refused	4	0.4
+
+
+101) US_TERR
+Which of the following phrases comes closer to describing your view?  1) I favor the US-led efforts to fight terrorism, or 2) I oppose the US-led efforts to fight terrorism.  [Asked in all countries.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.306	2.129
+1) I favor the US-led efforts to fight terrorism	388	38.8
+2) I oppose the US-led efforts to fight terrorism	498	49.8
+8) Don't know	104	10.4
+9) Refused	10	1.0
+
+
+102) POLSCALE
+Some people talk about politics in terms of left, center, right. On a ten-point scale, with 1 indicating extreme left and 10 indicating extreme right, where would you place yourself?  [Range is from 1 to 10.]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1000	16.165	29.757
+1) Extreme left	51	5.1
+2) 	22	2.2
+3) 	68	6.8
+4) 	91	9.1
+5) 	260	26.0
+6) 	202	20.2
+7) 	46	4.6
+8) 	54	5.4
+9) 	42	4.2
+10) Extreme right	48	4.8
+98) Don't know	106	10.6
+99) Refused	10	1.0
+
+
+103) ORGANIZ1
+Please look carefully at the following list of voluntary organizations and activities and say which, if any, you belong to or participate in.  [In the United States, respondents were asked: Which of the following voluntary organizations and activities, if any, do you belong to or participate in?] a) social welfare services for elderly, handicapped or deprived people
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	1.981	0.752
+1) Yes, belong	97	9.7
+2) No, do not belong	890	89.0
+8) Don't know	13	1.3
+9) Refused	0	0.0
+
+
+104) ORGANIZ2
+Please look carefully at the following list of voluntary organizations and activities and say which, if any, you belong to or participate in.  [In the United States, respondents were asked: Which of the following voluntary organizations and activities, if any, do you belong to or participate in?] b) education, arts, music, or cultural activities
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	1.972	0.729
+1) Yes, belong	100	10.0
+2) No, do not belong	888	88.8
+8) Don't know	12	1.2
+9) Refused	0	0.0
+
+
+105) ORGANIZ3
+Please look carefully at the following list of voluntary organizations and activities and say which, if any, you belong to or participate in.  [In the United States, respondents were asked: Which of the following voluntary organizations and activities, if any, do you belong to or participate in?] c) labor unions
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	2.043	0.708
+1) Yes, belong	35	3.5
+2) No, do not belong	952	95.2
+8) Don't know	13	1.3
+9) Refused	0	0.0
+
+
+106) ORGANIZ4
+Please look carefully at the following list of voluntary organizations and activities and say which, if any, you belong to or participate in.  [In the United States, respondents were asked: Which of the following voluntary organizations and activities, if any, do you belong to or participate in?] d) political organizations or parties
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	2.044	0.645
+1) Yes, belong	22	2.2
+2) No, do not belong	967	96.7
+8) Don't know	11	1.1
+9) Refused	0	0.0
+
+
+107) ORGANIZ5
+Please look carefully at the following list of voluntary organizations and activities and say which, if any, you belong to or participate in.  [In the United States, respondents were asked: Which of the following voluntary organizations and activities, if any, do you belong to or participate in?] e) local community action on issues like poverty, employment, housing, racial equality or human rights
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	1.966	0.733
+1) Yes, belong	106	10.6
+2) No, do not belong	882	88.2
+8) Don't know	12	1.2
+9) Refused	0	0.0
+
+
+108) ORGANIZ6
+Please look carefully at the following list of voluntary organizations and activities and say which, if any, you belong to or participate in.  [In the United States, respondents were asked: Which of the following voluntary organizations and activities, if any, do you belong to or participate in?] f) women's groups
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	2.011	0.702
+1) Yes, belong	61	6.1
+2) No, do not belong	927	92.7
+8) Don't know	12	1.2
+9) Refused	0	0.0
+
+
+109) ORGANIZ7
+Please look carefully at the following list of voluntary organizations and activities and say which, if any, you belong to or participate in.  [In the United States, respondents were asked: Which of the following voluntary organizations and activities, if any, do you belong to or participate in?] g) other groups
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.066	0.7
+1) Yes, belong	13	1.3
+2) No, do not belong	974	97.4
+8) Don't know	12	1.2
+9) Refused	1	0.1
+
+
+110) ORG_REL1
+[Asked only if ORGANIZ1 = 1 "Yes, belong"]  And when you participate in providing social welfare services for elderly, handicapped or deprived people, would you say that it's mostly through a church or religious group, or mostly through some other kind of group?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	97	1.526	0.694
+1) Mostly through a church or religious group	57	58.8
+2) Mostly through some other kind of group	29	29.9
+3) Both equally	11	11.3
+8) Don't know	0	0.0
+9) Refused	0	0.0
+Missing	903
+
+
+111) ORG_REL2
+[Asked only if ORGANIZ2 = 1 "Yes, belong"]  And when you participate in education, arts, music or cultural activities, would you say that it's mostly through a church or religious group, or mostly through some other kind of group?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	100	1.61	0.634
+1) Mostly through a church or religious group	47	47.0
+2) Mostly through some other kind of group	45	45.0
+3) Both equally	8	8.0
+8) Don't know	0	0.0
+9) Refused	0	0.0
+Missing	900
+
+
+112) ORG_REL5
+[Asked only if ORGANIZ5 = 1 "Yes, belong"]  And when you participate in local community action on issues like poverty, employment, housing, racial equality or human rights, would you say that it's mostly through a church or religious group, or mostly through some other kind of group?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	106	1.717	0.964
+1) Mostly through a church or religious group	53	50.0
+2) Mostly through some other kind of group	35	33.0
+3) Both equally	17	16.0
+8) Don't know	1	0.9
+9) Refused	0	0.0
+Missing	894
+
+
+113) ORG_REL6
+[Asked only if ORGANIZ6 = 1 "Yes, belong"]  And when you participate in women's groups, would you say that it's mostly through a church or religious group, or mostly through some other kind of group?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	61	1.492	0.722
+1) Mostly through a church or religious group	39	63.9
+2) Mostly through some other kind of group	14	23.0
+3) Both equally	8	13.1
+8) Don't know	0	0.0
+9) Refused	0	0.0
+Missing	939
+
+
+114) ORG_REL7
+[Asked only if ORGANIZ7 = 1 "Yes, belong"]  And when you participate in "other groups," would you say that it's mostly through a church or religious group, or mostly through some other kind of group?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	13	2.462	2.787
+1) Mostly through a church or religious group	9	69.2
+2) Mostly through some other kind of group	0	0.0
+3) Both equally	2	15.4
+8) Don't know	1	7.7
+9) Refused	1	7.7
+Missing	987
+
+
+115) REL_SERV
+How often do you - receive food or housing assistance, health care, or other social services - through a church or religious organization... frequently, sometimes, hardly ever or never?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	3.765	0.73
+1) Frequently	31	3.1
+2) Sometimes	58	5.8
+3) Hardly ever	35	3.5
+4) Never	874	87.4
+8) Don't know	1	0.1
+9) Refused	1	0.1
+
+
+116) REL_LANG
+How often do you - participate in language or literacy classes - through a church or religious organization... frequently, sometimes, hardly ever or never?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	3.902	0.495
+1) Frequently	17	1.7
+2) Sometimes	17	1.7
+3) Hardly ever	17	1.7
+4) Never	948	94.8
+8) Don't know	1	0.1
+9) Refused	0	0.0
+
+
+117) REL_JOB
+How often do you - receive job training or employment services - through a church or religious organization... frequently, sometimes, hardly ever or never?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	3.881	0.554
+1) Frequently	19	1.9
+2) Sometimes	24	2.4
+3) Hardly ever	22	2.2
+4) Never	933	93.3
+8) Don't know	2	0.2
+9) Refused	0	0.0
+
+
+118) GENDER
+Gender
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1000	1.499	0.5
+1) Male	501	50.1
+2) Female	499	49.9
+
+
+119) AGE
+Now I would like to ask some questions about your background.  How old were you at your last birthday? Record answer
+RANGE: 18 to 90
+	N	Mean	Std. Deviation
+Total	1000	35.236	12.407
+
+
+120) CHILDREN
+Have you had any children? If yes, how many?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1000	1.778	3.498
+0) No	305	30.5
+1) 1 child	218	21.8
+2) 2 children	220	22.0
+3) 3 children	123	12.3
+4) 4 children	67	6.7
+5) 5 children	36	3.6
+6) 6 children	15	1.5
+7) 7 children	6	0.6
+8) 8 or more children	9	0.9
+98) Don't know	0	0.0
+99) Refused	1	0.1
+
+
+121) EDUC_BRA
+What is the highest level of education that you have completed?  [Question asked in Brazil.]
+RANGE: 2 to 9
+	N	Mean	Std. Deviation
+Total	1000	4.377	2.292
+1) No formal education
+2) Incomplete primary school	375	37.5
+3) Complete primary school	44	4.4
+4) Incomplete secondary school: technical/vocational type	119	11.9
+5) Complete secondary school: technical/vocational type	157	15.7
+6) Incomplete secondary school: preparatory for university entry	72	7.2
+7) Complete secondary: preparatory for university entry	115	11.5
+8) Some university level, without a diploma	65	6.5
+9) University level, with diploma	53	5.3
+98) Don't know	0	0.0
+99) Refused	0	0.0
+
+
+122) ETH_BRA
+Which (ethnic/racial/tribal/nationality) group do you belong to?  [Asked in Brazil.]
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1000	1.741	0.863
+1) Branco	487	48.7
+2) Pardo/mulato	329	32.9
+3) Negro	144	14.4
+4) Amarelo/mestico	36	3.6
+5) Indigena	4	0.4
+8) Don't know	0	0.0
+9) Refused	0	0.0
+
+
+123) MARRIAGE
+Are you currently married, living with a partner, widowed, divorced, separated, or have you never been married?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1000	3.149	2.227
+1) Married	418	41.8
+2) Living with a partner	136	13.6
+3) Widowed	32	3.2
+4) Divorced	24	2.4
+5) Separated	73	7.3
+6) Never been married	317	31.7
+8) Don't know	0	0.0
+9) Refused	0	0.0
+
+
+124) INC_BRA
+Here is a list of incomes. Which of these does your household fall into counting all wages, salaries, pensions and other incomes that come in?  Just give the letter of the group your household falls into, before taxes and other deductions.  [Interviewer: show card of responses.  Question asked in Brazil.]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1000	16.968	32.62
+1) Less than 200 reals per month	30	3.0
+2) 201 to 400 reals per month	167	16.7
+3) 401 to 600 reals per month	200	20.0
+4) 601 to 1,000 reals per month	188	18.8
+5) 1,001 to 1,400 reals per month	111	11.1
+6) 1,401 to 2,000 reals per month	71	7.1
+7) 2,001 to 3,000 reals per month	48	4.8
+8) 3,001 to 4,000 reals per month	25	2.5
+9) 4,001 to 6,000 reals per month	16	1.6
+10) 6,001 to 10,000 reals per month	5	0.5
+11) 10,001 to 15,000 reals per month	2	0.2
+12) 15,001 reals per month and above	0	0.0
+98) Don't know	44	4.4
+99) Refused	93	9.3
+
+
+125) EMPLOYED
+Are you now employed full-time, part-time or not employed?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1000	1.923	0.942
+1) Full-time	485	48.5
+2) Part-time	107	10.7
+3) Not employed	408	40.8
+8) Don't know	0	0.0
+9) Refused	0	0.0
+
+
+126) REG_BRA
+Region of country where the interview was conducted
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1000	1.825	0.834
+1) São Paulo	450	45.0
+2) Recife	275	27.5
+3) Porto Alegre	275	27.5
+
+
+127) LAN_BRA
+Language of interview in Brazil
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1000	1	0
+1) Portuguese	1000	100.0
+
+
+128) I-AGE
+Now I would like to ask some questions about your background.  How old were you at your last birthday? Record answer (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1000	2.904	1.273
+1) 18 - 23	175	17.5
+2) 24 - 29	210	21.0
+3) 30 - 39	278	27.8
+4) 40 - 49	210	21.0
+5) 50 or more	127	12.7
+
+
+129) I-EDUC
+What is the highest level of education that you have completed?  [Question asked in Brazil.] (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1000	2.51	1.444
+1) Incomplete primary	375	37.5
+2) Complt. primary OR Incomp. secondary. (inc. voc/tech)	163	16.3
+3) Complt. sec.school: tech./voc. Type	157	15.7
+4) Incompl. or complt. secondary: prep. for univ.	187	18.7
+5) Some univ. level, with or without a diploma	118	11.8
+
+
+130) I-GENDER
+Gender (for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1000	1.499	0.5
+1) Male	501	50.1
+2) Female	499	49.9
+
+
+131) I-INCOME
+Here is a list of incomes. Which of these does your household fall into counting all wages, salaries, pensions and other incomes that come in?  Just give the letter of the group your household falls into, before taxes and other deductions.  [Interviewer: show card of responses.  Question asked in Brazil.] (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	863	2.827	1.421
+1) LT 400 reals per month	197	22.8
+2) 401 to 600 reals/ mon.	200	23.2
+3) 601 to 1,000 reals/ mon.	188	21.8
+4) 1,001 to 1,400 reals/ mon.	111	12.9
+5) MT 1,401 reals/ mon.	167	19.4
+Missing	137
+
+
+132) I-RACE
+Which (ethnic/racial/tribal/nationality) group do you belong to?  [Asked in Brazil.] (for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1000	1.741	0.863
+1) Branco	487	48.7
+2) Pardo/mulato	329	32.9
+3) Negro	144	14.4
+4) Amarelo/mestico	36	3.6
+5) Indigena	4	0.4
+
+
+133) I-RELIGION
+Thinking now about religion, how important is religion in your life?  Is it the single most important thing, very important, somewhat important, not too important, or not at all important?  [This question was asked in all countries.] (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	997	2.196	0.885
+1) Single most important thing	173	17.4
+2) Very important	564	56.6
+3) Somewhat important	183	18.4
+4) Not too important	46	4.6
+5) Not at all important	31	3.1
+Missing	3
+
+

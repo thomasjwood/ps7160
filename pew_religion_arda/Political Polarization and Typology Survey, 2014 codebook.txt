@@ -1,0 +1,3141 @@
+Data File: POLSVY14(Full Data Codebook)
+
+1) RESPID
+Individual unique respondent identification number
+RANGE: 2 to 503646
+	N	Mean	Std. Deviation
+Total	10013	251315.285	170931.43
+
+
+2) SAMPLE
+Sample type
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	10013	1.5	0.5
+1) Landline	5010	50.0
+2) Cell phone	5003	50.0
+
+
+3) INT_DATE
+Interview date (NOTE: Final interviewer date, adjusted for interviews that are done early in the AM)
+RANGE: 140123 to 140316
+	N	Mean	Std. Deviation
+Total	10003	140233.821	57.027
+
+
+4) FCALL
+Date of first call (NOTE: different from SRBI's standard fcall variable)
+RANGE: 140123 to 140316
+	N	Mean	Std. Deviation
+Total	10013	140232.806	57.433
+
+
+5) ATTEMPT
+Number of call attempts
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	2.719	1.84
+1)	3472	34.7
+2)	2231	22.3
+3)	1463	14.6
+4)	1048	10.5
+5)	759	7.6
+6)	521	5.2
+7)	389	3.9
+8)	102	1.0
+9)	28	0.3
+
+
+6) REFUSAL
+Refusal conversion
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	10002	0.06	0.238
+0) No	9399	94.0
+1) Yes	603	6.0
+Missing	11
+
+
+7) LANG
+Language interview conducted in
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	10003	1.022	0.146
+1) English	9784	97.8
+2) Spanish	219	2.2
+Missing	10
+
+
+8) CREGION
+Census region based on self-reported ZIP Code
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	10013	2.658	1.022
+1) Northeast	1784	17.8
+2) Midwest	2175	21.7
+3) South	3739	37.3
+4) West	2315	23.1
+
+
+9) STATE
+State based on self-reported ZIP Code
+RANGE: 1 to 56
+	N	Mean	Std. Deviation
+Total	10013	27.896	15.848
+1) Alabama	163	1.6
+2) Alaska	38	0.4
+4) Arizona	209	2.1
+5) Arkansas	99	1.0
+6) California	988	9.9
+8) Colorado	186	1.9
+9) Connecticut	108	1.1
+10) Delaware	42	0.4
+11) Washington D.C.	36	0.4
+12) Florida	618	6.2
+13) Georgia	312	3.1
+15) Hawaii	56	0.6
+16) Idaho	65	0.6
+17) Illinois	352	3.5
+18) Indiana	244	2.4
+19) Iowa	108	1.1
+20) Kansas	89	0.9
+21) Kentucky	186	1.9
+22) Louisiana	170	1.7
+23) Maine	62	0.6
+24) Maryland	190	1.9
+25) Massachusetts	189	1.9
+26) Michigan	328	3.3
+27) Minnesota	186	1.9
+28) Mississippi	81	0.8
+29) Missouri	183	1.8
+30) Montana	55	0.5
+31) Nebraska	62	0.6
+32) Nevada	74	0.7
+33) New Hampshire	41	0.4
+34) New Jersey	264	2.6
+35) New Mexico	85	0.8
+36) New York	586	5.9
+37) North Carolina	371	3.7
+38) North Dakota	28	0.3
+39) Ohio	389	3.9
+40) Oklahoma	128	1.3
+41) Oregon	184	1.8
+42) Pennsylvania	472	4.7
+44) Rhode Island	24	0.2
+45) South Carolina	150	1.5
+46) South Dakota	31	0.3
+47) Tennessee	217	2.2
+48) Texas	597	6.0
+49) Utah	107	1.1
+50) Vermont	38	0.4
+51) Virginia	293	2.9
+53) Washington	246	2.5
+54) West Virginia	86	0.9
+55) Wisconsin	175	1.7
+56) Wyoming	22	0.2
+
+
+10) DENSITY
+Density quintiles based on FIPS code from self-reported ZIP Code
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	10013	2.88	1.407
+1) Lowest	2274	22.7
+2) 	2049	20.5
+3) 	2009	20.1
+4) 	1964	19.6
+5) Highest	1717	17.1
+
+
+11) USR
+Urban-Suburban-Rural distinction - Landline from sample - Cell from respondent reported ZIP Code 
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	9811		
+
+
+12) SCREGION
+Census region from sample
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	10013	2.647	1.024
+1) Northeast	1815	18.1
+2) Midwest	2188	21.9
+3) South	3723	37.2
+4) West	2287	22.8
+
+
+13) SSTATE
+State from sample
+RANGE: 1 to 56
+	N	Mean	Std. Deviation
+Total	10013	27.909	15.827
+1) Alabama	165	1.6
+2) Alaska	37	0.4
+4) Arizona	208	2.1
+5) Arkansas	101	1.0
+6) California	982	9.8
+8) Colorado	182	1.8
+9) Connecticut	114	1.1
+10) Delaware	39	0.4
+11) Washington D.C.	30	0.3
+12) Florida	623	6.2
+13) Georgia	309	3.1
+15) Hawaii	59	0.6
+16) Idaho	68	0.7
+17) Illinois	355	3.5
+18) Indiana	246	2.5
+19) Iowa	107	1.1
+20) Kansas	85	0.8
+21) Kentucky	180	1.8
+22) Louisiana	164	1.6
+23) Maine	64	0.6
+24) Maryland	188	1.9
+25) Massachusetts	185	1.8
+26) Michigan	326	3.3
+27) Minnesota	194	1.9
+28) Mississippi	84	0.8
+29) Missouri	184	1.8
+30) Montana	51	0.5
+31) Nebraska	60	0.6
+32) Nevada	76	0.8
+33) New Hampshire	44	0.4
+34) New Jersey	269	2.7
+35) New Mexico	79	0.8
+36) New York	602	6.0
+37) North Carolina	361	3.6
+38) North Dakota	24	0.2
+39) Ohio	397	4.0
+40) Oklahoma	128	1.3
+41) Oregon	189	1.9
+42) Pennsylvania	473	4.7
+44) Rhode Island	23	0.2
+45) South Carolina	148	1.5
+46) South Dakota	31	0.3
+47) Tennessee	227	2.3
+48) Texas	601	6.0
+49) Utah	108	1.1
+50) Vermont	41	0.4
+51) Virginia	293	2.9
+53) Washington	227	2.3
+54) West Virginia	82	0.8
+55) Wisconsin	179	1.8
+56) Wyoming	21	0.2
+
+
+14) SDENSITY
+Density quintiles based on FIPS code from sample
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	10013	2.962	1.414
+1) Lowest	2125	21.2
+2) 	1980	19.8
+3) 	1900	19.0
+4) 	2163	21.6
+5) Highest	1845	18.4
+
+
+15) SUSR
+Urban-suburban-rural distinction from sample
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	5010		
+
+
+16) LLITEXT
+[Sample Read-in LL intro code 2 (1 or 2).] Hello, I am ___ calling on behalf of the Pew Research Center. We are conducting a telephone opinion survey for leading newspapers and TV stations around the country. I'd like to ask a few questions of the [RANDOMIZE: 'YOUNGEST MALE, 18 years of age or older, who is now at home' AND 'YOUNGEST FEMALE, 18 years of age or older, who is now at home?'][IF NO MALE/FEMALE, ASK: May I please speak with the YOUNGEST FEMALE/MALE, 18 years of age or older who is now at home?] GO TO MAIN INTERVIEW
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	5010	1.495	0.5
+1) Youngest Male	2532	50.5
+2) Youngest Female	2478	49.5
+Missing	5003
+
+
+17) QINTRO2
+[Sample Read-in Intro2 data for call history.] Hello, I am ___ calling on behalf of the Pew Research Center. We are conducting a telephone opinion survey for leading newspapers and TV stations around the country. I'd like to ask a few questions of the [RANDOMIZE: 'YOUNGEST MALE, 18 years of age or older, who is now at home' AND 'YOUNGEST FEMALE, 18 years of age or older, who is now at home?'][IF NO MALE/FEMALE, ASK: May I please speak with the YOUNGEST FEMALE/MALE, 18 years of age or older who is now at home?] GO TO MAIN INTERVIEW
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	5010	1.495	0.5
+1) Youngest Male	2532	50.5
+2) Youngest Female	2478	49.5
+Missing	5003
+
+
+18) PHASE
+Phase number
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	10013	1.999	0.817
+1)	3341	33.4
+2)	3337	33.3
+3)	3335	33.3
+
+
+19) QS1
+Are you under 18 years old or are you 18 or older?
+RANGE: 2 to 2
+	N	Mean	Std. Deviation
+Total	5003	2	0
+2) 18 or older	5003	100.0
+Missing	5010
+
+
+20) QA1
+[ASK ALL PHASE A:] Generally, how would you say things are these days in your life -- would you say that you are very happy, pretty happy or not too happy?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3341	1.94	1.121
+1) Very happy	1048	31.4
+2) Pretty happy	1774	53.1
+3) Not too happy	464	13.9
+9) Don't know/Refused (VOL)	55	1.6
+Missing	6672
+
+
+21) Q1C1
+[ASK ALL PHASE C:] Do you approve or disapprove of the way Barack Obama is handling his job as President? [IF DK ENTER AS DK. IF DEPENDS PROBE ONCE WITH: Overall do you approve or disapprove of the way Barack Obama is handling his job as President? IF STILL DEPENDS ENTER AS DK]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	2.067	1.965
+1) Approve	1416	42.5
+2) Disapprove	1685	50.5
+9) Don't know/Refused (VOL)	234	7.0
+Missing	6678
+
+
+22) QC1A
+[ASK IF AND APPROVE OR DISAPPROVE (QC1=1,2):] Do you [approve/disapprove] very strongly, or not so strongly?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3101	1.419	1.12
+1) Very strongly	2193	70.7
+2) Not so strongly	852	27.5
+9) Don't know/Refused (VOL)	56	1.8
+Missing	6912
+
+
+23) QB2
+[ASK ALL PHASE B:] All in all, are you satisfied or dissatisfied with the way things are going in this country today?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3337	2.138	1.737
+1) Satisfied	864	25.9
+2) Not so strongly	2284	68.4
+9) Don't know/Refused (VOL)	189	5.7
+Missing	6676
+
+
+24) QB3
+[ASK ALL PHASE B:] And thinking about the local community where you live, are you satisfied or dissatisfied with the way things are going in your local community today?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3337	1.578	1.48
+1) Satisfied	2221	66.6
+2) Dissatisfied	1000	30.0
+9) Don't know/Refused (VOL)	116	3.5
+Missing	6676
+
+
+25) QB4
+[ASK ALL PHASE B:] Thinking about the future of the United States, do you think the country's best years are ahead of us or behind us?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3337	2.063	1.995
+1) Ahead of us	1477	44.3
+2) Behind us	1619	48.5
+9) Don't know/Refused (VOL)	241	7.2
+Missing	6676
+
+
+26) QB5
+[ASK ALL PHASE B:] Thinking about the Democratic and Republican parties, would you say there is a great deal of difference in what they stand for, a fair amount of difference or hardly any difference at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3337	1.963	1.49
+1) A great deal	1562	46.8
+2) A fair amount	965	28.9
+3) Hardly any	705	21.1
+9) Don't know/Refused (VOL)	105	3.1
+Missing	6676
+
+
+27) QA6
+If you could live anywhere in the United States that you wanted to, would you prefer a city, a suburban area, a small town or a rural area?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3341	2.655	1.325
+1) City	761	22.8
+2) Suburban area	717	21.5
+3) Small town	1010	30.2
+4) Rural area	806	24.1
+9) Don't know/Refused (VOL)	47	1.4
+Missing	6672
+
+
+28) QA8
+[ASK ALL PHASE A: Imagine for a moment that you are moving to another community.][ASK ALL:] Would you prefer to live in [INSERT ITEM; RANDOMIZE]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3341	1.704	1.291
+1) A community where the houses are larger and farther apart, but schools, stores and restaurants are several miles away [OR]	1597	47.8
+2) A community where the houses are smaller and closer to each other, but schools, stores and restaurants are within walking distance	1657	49.6
+9) Don't know/Refused (VOL)	87	2.6
+Missing	6672
+
+
+29) QA9A
+[ASK ALL PHASE A:] Still imagining that you are moving to another community. In deciding where to live, would each of the following be important or not too important to you. First, would [INSERT ITEM; RANDOMIZE] be important or not too important? [a. Living in a place where most people share your political views]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3341	1.788	0.887
+1) Important	968	29.0
+2) Not too important	2336	69.9
+9) Don't know/Refused	37	1.1
+Missing	6672
+
+
+30) QA9B
+[ASK ALL PHASE A:] Still imagining that you are moving to another community. In deciding where to live, would each of the following be important or not too important to you. First, would [INSERT ITEM; RANDOMIZE] be important or not too important? [b. Having high quality public schools]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3341	1.273	0.695
+1) Important	2547	76.2
+2) Not too important	777	23.3
+9) Don't know/Refused (VOL)	17	0.5
+Missing	6672
+
+
+31) QA9C
+[ASK ALL PHASE A:] Still imagining that you are moving to another community. In deciding where to live, would each of the following be important or not too important to you. First, would [INSERT ITEM; RANDOMIZE] be important or not too important? [c. Living in a place with a mix of people from different racial and ethnic backgrounds]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3341	1.661	1.039
+1) Important	1491	44.6
+2) Not too important	1799	53.8
+9) Don't know/Refused (VOL)	51	1.5
+Missing	6672
+
+
+32) QA9D
+[ASK ALL PHASE A:] Still imagining that you are moving to another community. In deciding where to live, would each of the following be important or not too important to you. First, would [INSERT ITEM; RANDOMIZE] be important or not too important? [d. Living in a place with many people who share your religious faith]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3341	1.703	0.863
+1) Important	1216	36.4
+2) Not too important	2093	62.6
+9) Don't know/Refused (VOL)	32	1.0
+Missing	6672
+
+
+33) QA9E
+[ASK ALL PHASE A:] Still imagining that you are moving to another community. In deciding where to live, would each of the following be important or not too important to you. First, would [INSERT ITEM; RANDOMIZE] be important or not too important? [e. Being near art museums and theaters]D
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3341	1.562	0.729
+1) Important	1584	47.4
+2) Not too important	1740	52.1
+9) Don't know/Refused (VOL)	17	0.5
+Missing	6672
+
+
+34) QA9F
+[ASK ALL PHASE A:] Still imagining that you are moving to another community. In deciding where to live, would each of the following be important or not too important to you. First, would [INSERT ITEM; RANDOMIZE] be important or not too important? [f. Having easy access to the outdoors for things like hiking, fishing and camping]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3341	1.353	0.544
+1) Important	2188	65.5
+2) Not too important	1149	34.4
+9) Don't know/Refused (VOL)	4	0.1
+Missing	6672
+
+
+35) QA9G
+[ASK ALL PHASE A:] Still imagining that you are moving to another community. In deciding where to live, would each of the following be important or not too important to you. First, would [INSERT ITEM; RANDOMIZE] be important or not too important? [g. Being near your extended family]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3341	1.338	0.802
+1) Important	2387	71.4
+2) Not too important	929	27.8
+9) Don't know/Refused (VOL)	25	0.7
+Missing	6672
+
+
+36) Q11A
+[ASK ALL:] Next, would you say your overall opinion of...[INSERT ITEM; RANDOMIZE] is very favorable, mostly favorable, mostly unfavorable or very unfavorable? [INTERVIEWERS: PROBE TO DISTINGUISH BETWEEN 'NEVER HEARD OF' AND 'CAN'T RATE.'] [a. The Republican Party]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	3.14	1.598
+1) Very favorable	667	6.7
+2) Mostly favorable	3059	30.6
+3) Mostly unfavorable	3182	31.8
+4) Very unfavorable	2466	24.6
+5) Never heard of (VOL)	11	0.1
+8) Can't rate (VOL)	463	4.6
+9) Refused (VOL)	165	1.6
+
+
+37) Q11B
+[ASK ALL:] Next, would you say your overall opinion of...[INSERT ITEM; RANDOMIZE] is very favorable, mostly favorable, mostly unfavorable or very unfavorable? [INTERVIEWERS: PROBE TO DISTINGUISH BETWEEN 'NEVER HEARD OF' AND 'CAN'T RATE.'] [b. The Democratic Party]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	2.994	1.622
+1) Very favorable	1093	10.9
+2) Mostly favorable	3388	33.8
+3) Mostly unfavorable	2488	24.8
+4) Very unfavorable	2454	24.5
+5) Never heard of (VOL)	11	0.1
+8) Can't rate (VOL)	433	4.3
+9) Refused (VOL)	146	1.5
+
+
+38) Q11C_B
+[ASK PHASE B ONLY:] Next, would you say your overall opinion of...[INSERT ITEM; RANDOMIZE] is very favorable, mostly favorable, mostly unfavorable or very unfavorable? [INTERVIEWERS: PROBE TO DISTINGUISH BETWEEN 'NEVER HEARD OF' AND 'CAN'T RATE.'] [c. Congress]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3337	3.386	1.329
+1) Very favorable	110	3.3
+2) Mostly favorable	533	16.0
+3) Mostly unfavorable	1305	39.1
+4) Very unfavorable	1227	36.8
+5) Never heard of (VOL)	7	0.2
+8) Can't rate (VOL)	129	3.9
+9) Refused (VOL)	26	0.8
+Missing	6676
+
+
+39) Q11E_B
+[ASK PHASE B ONLY:] Next, would you say your overall opinion of...[INSERT ITEM; RANDOMIZE] is very favorable, mostly favorable, mostly unfavorable or very unfavorable? [INTERVIEWERS: PROBE TO DISTINGUISH BETWEEN 'NEVER HEARD OF' AND 'CAN'T RATE.'] [e. Labor unions]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3337	3.213	1.943
+1) Very favorable	381	11.4
+2) Mostly favorable	1089	32.6
+3) Mostly unfavorable	809	24.2
+4) Very unfavorable	655	19.6
+5) Never heard of (VOL)	49	1.5
+8) Can't rate (VOL)	315	9.4
+9) Refused (VOL)	39	1.2
+Missing	6676
+
+
+40) Q11H_B
+[ASK PHASE B ONLY:] Next, would you say your overall opinion of...[INSERT ITEM; RANDOMIZE] is very favorable, mostly favorable, mostly unfavorable or very unfavorable? [INTERVIEWERS: PROBE TO DISTINGUISH BETWEEN 'NEVER HEARD OF' AND 'CAN'T RATE.'] [h. The National Rifle Association]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3337	2.909	1.872
+1) Very favorable	738	22.1
+2) Mostly favorable	985	29.5
+3) Mostly unfavorable	583	17.5
+4) Very unfavorable	716	21.5
+5) Never heard of (VOL)	55	1.6
+8) Can't rate (VOL)	229	6.9
+9) Refused (VOL)	31	0.9
+Missing	6676
+
+
+41) Q11I_B
+[ASK PHASE B ONLY:] Next, would you say your overall opinion of...[INSERT ITEM; RANDOMIZE] is very favorable, mostly favorable, mostly unfavorable or very unfavorable? [INTERVIEWERS: PROBE TO DISTINGUISH BETWEEN 'NEVER HEARD OF' AND 'CAN'T RATE.'] [i. The Federal Reserve]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3337	3.309	2.106
+1) Very favorable	290	8.7
+2) Mostly favorable	1294	38.8
+3) Mostly unfavorable	782	23.4
+4) Very unfavorable	463	13.9
+5) Never heard of (VOL)	47	1.4
+8) Can't rate (VOL)	417	12.5
+9) Refused (VOL)	44	1.3
+Missing	6676
+
+
+42) Q11J_B
+[ASK PHASE B ONLY:] Next, would you say your overall opinion of...[INSERT ITEM; RANDOMIZE] is very favorable, mostly favorable, mostly unfavorable or very unfavorable? [INTERVIEWERS: PROBE TO DISTINGUISH BETWEEN 'NEVER HEARD OF' AND 'CAN'T RATE.'] [j. The Environmental Protection Agency, the EPA]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3337	2.937	1.794
+1) Very favorable	396	11.9
+2) Mostly favorable	1422	42.6
+3) Mostly unfavorable	672	20.1
+4) Very unfavorable	526	15.8
+5) Never heard of (VOL)	50	1.5
+8) Can't rate (VOL)	249	7.5
+9) Refused (VOL)	22	0.7
+Missing	6676
+
+
+43) Q11AT
+[ASK PHASE C IF VERY UNFAVORABLE VIEW OR REP PARTY (Q11A=4):] Would you say the Republican Party's policies are so misguided that they threaten the nation's well-being or wouldn't you go that far?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	858	1.457	1.048
+1) Yes, Republican Party's policies pose a threat to the nation's well-being [OR]	557	64.9
+2) No, wouldn't go that far	288	33.6
+9) Don't know/Refused (VOL)	13	1.5
+Missing	9155
+
+
+44) Q11BT
+[ASK PHASE C IF VERY UNFAVORABLE VIEW OF DEM PARTY (Q11B=4):] Would you say the Democratic Party's policies are so misguided that they threaten the nation's well-being, or wouldn't you go that far?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	781	1.417	1.323
+1) Yes, Democratic Party's policies pose a threat to the nation's well-being [OR]	602	77.1
+2) No, wouldn't go that far	158	20.2
+9) Don't know/Refused (VOL)	21	2.7
+Missing	9232
+
+
+45) QB12
+[ASK ALL PHASE B:] Thinking about elected officials in Washington who share your positions on the most important issues facing the nation. [READ AND RANDOMIZE].
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3337	1.823	1.881
+1) Should they work with elected officials they disagree with, even if it results in some policies you don't like [OR]	2006	60.1
+2) Should they stand up for their positions, even if that means little gets done in Washington	1129	33.8
+9) Don't know/Refused (VOL)	202	6.1
+Missing	6676
+
+
+46) Q25A
+[ASK ALL:] I'm going to read you some pairs of statements that will help us understand how you feel about a number of things. As I read each pair, tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR,] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?'].
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.593	1.125
+1) Government is almost always wasteful and inefficient [OR]	5710	57.0
+2) Government often does a better job than people give it credit for	3936	39.3
+5) Neither/both equally (VOL)	234	2.3
+9) Don't know/Refused (VOL)	133	1.3
+
+
+47) Q25B
+[ASK ALL:] I'm going to read you some pairs of statements that will help us understand how you feel about a number of things. As I read each pair, tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR,] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?'].
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.791	1.396
+1) Government regulation of business is necessary to protect the public interest [OR]	4754	47.5
+2) Government regulation of business usually does more harm than good	4717	47.1
+5) Neither/both equally (VOL)	284	2.8
+9) Don't know/Refused (VOL)	258	2.6
+
+
+48) Q25C
+[ASK ALL:] I'm going to read you some pairs of statements that will help us understand how you feel about a number of things. As I read each pair, tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR,] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?'].
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.989	1.593
+1) Poor people today have it easy because they can get government benefits without doing anything in return [OR]	4462	44.6
+2) Poor people have hard lives because government benefits don't go far enough to help them live decently	4477	44.7
+5) Neither/both equally (VOL)	792	7.9
+9) Don't know/Refused (VOL)	282	2.8
+
+
+49) Q25D
+[ASK ALL:] I'm going to read you some pairs of statements that will help us understand how you feel about a number of things. As I read each pair, tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR,] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?'].
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.856	1.372
+1) The government should do more to help needy Americans, even if it means going deeper into debt [OR]	4193	41.9
+2) The government today can't afford to do much more to help the needy	5219	52.1
+5) Neither/both equally (VOL)	365	3.6
+9) Don't know/Refused (VOL)	236	2.4
+
+
+50) Q25F
+[ASK ALL:] I'm going to read you some pairs of statements that will help us understand how you feel about a number of things. As I read each pair, tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR,] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?'].
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	2.219	1.682
+1) Racial discrimination is the main reason why many black people can't get ahead these days [OR]	2795	27.9
+2) Blacks who can't get ahead in this country are mostly responsible for their own condition	6083	60.8
+5) Neither/both equally	740	7.4
+9) Don't know/Refused	395	3.9
+
+
+51) Q25G
+[ASK ALL:] I'm going to read you some pairs of statements that will help us understand how you feel about a number of things. As I read each pair, tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR,] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?'].
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.804	1.583
+1) Immigrants today strengthen our country because of their hard work and talents [OR]	5740	57.3
+2) Immigrants today are a burden on our country because they take our jobs, housing and health care	3415	34.1
+5) Neither/both equally (VOL)	558	5.6
+9) Don't know/Refused (VOL)	300	3.0
+
+
+52) Q25H
+[ASK ALL:] I'm going to read you some pairs of statements that will help us understand how you feel about a number of things. As I read each pair, tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR,] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?'].
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.78	1.393
+1) Society is better off if people make marriage and having children a priority [OR]	4857	48.5
+2) Society is just as well off if people have priorities other than marriage and children	4607	46.0
+5) Neither/both equally (VOL)	296	3.0
+9) Don't know/Refused (VOL)	253	2.5
+
+
+53) Q25I
+[ASK ALL:] I'm going to read you some pairs of statements that will help us understand how you feel about a number of things. As I read each pair, tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR,] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?'].
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	2.023	1.401
+1) The best way to ensure peace is through military strength [OR]	3245	32.4
+2) Good diplomacy is the best way to ensure peace	5892	58.8
+5) Neither/both equally (VOL)	663	6.6
+9) Don't know/Refused (VOL)	213	2.1
+
+
+54) Q25J
+[ASK ALL:] I'm going to read you some pairs of statements that will help us understand how you feel about a number of things. As I read each pair, tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR,] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?'].
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.966	1.528
+1) U.S. efforts to solve problems around the world usually end up making things worse [OR]	3836	38.3
+2) Problems in the world would be even worse without U.S. involvement	5443	54.4
+5) Neither/both equally (VOL)	410	4.1
+9) Don't know/Refused (VOL)	324	3.2
+
+
+55) Q25K
+[ASK ALL:] I'm going to read you some pairs of statements that will help us understand how you feel about a number of things. As I read each pair, tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR,] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?'].
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.47	0.979
+1) Most people who want to get ahead can make it if they're willing to work hard [OR]	6514	65.1
+2) Hard work and determination are no guarantee of success for most people	3204	32.0
+5) Neither/both equally (VOL)	214	2.1
+9) Don't know/Refused (VOL)	81	0.8
+
+
+56) Q25L
+[ASK ALL:] I'm going to read you some pairs of statements that will help us understand how you feel about a number of things. As I read each pair, tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR,] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?'].
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	2.026	1.023
+1) Success in life is pretty much determined by forces outside of our control [OR]	1632	16.3
+2) Everyone has it in their own power to succeed	7903	78.9
+5) Neither/both equally (VOL)	364	3.6
+9) Don't know/Refused (VOL)	114	1.1
+
+
+57) Q25M
+[ASK ALL:] I'm going to read you some pairs of statements that will help us understand how you feel about a number of things. As I read each pair, tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR,] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?'].
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.497	1.448
+1) Too much power is concentrated in the hands of a few large companies [OR]	7636	76.3
+2) The largest companies do NOT have too much power	1897	18.9
+5) Neither/both equally (VOL)	191	1.9
+9) Don't know/Refused (VOL)	289	2.9
+
+
+58) Q25N
+[ASK ALL:] I'm going to read you some pairs of statements that will help us understand how you feel about a number of things. As I read each pair, tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR,] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?'].
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.73	1.416
+1) Business corporations make too much profit [OR]	5298	52.9
+2) Most corporations make a fair and reasonable amount of profit	4219	42.1
+5) Neither/both equally (VOL)	220	2.2
+9) Don't know/Refused (VOL)	276	2.8
+
+
+59) Q25O
+[ASK ALL PHASE B:] I'm going to read you some pairs of statements that will help us understand how you feel about a number of things. As I read each pair, tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR,] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?'].
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3337	1.4	1.28
+1) Elected officials in Washington lose touch with the people pretty quickly [OR]	2656	79.6
+2) Elected officials in Washington try hard to stay in touch with voters back home	560	16.8
+5) Neither/both equally (VOL)	48	1.4
+9) Don't know/Refused (VOL)	73	2.2
+Missing	6676
+
+
+60) Q25P
+[ASK ALL PHASE C:] I'm going to read you some pairs of statements that will help us understand how you feel about a number of things. As I read each pair, tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR,] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?'].
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	1.929	0.961
+1) Most elected officials care what people like me think [OR]	664	19.9
+2) Most elected officials don't care what people like me think	2583	77.5
+5) Neither/both equally (VOL)	47	1.4
+9) Don't know/Refused (VOL)	41	1.2
+Missing	6678
+
+
+61) QB26
+[ASK ALL PHASE B:] And in your view, has this country been successful more because of its [INSERT ITEM; RANDOMIZE] or more because of its [ITEM]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3337	1.892	1.78
+1) Ability to change [OR]	1642	49.2
+2) Reliance on long-standing principles	1512	45.3
+9) Don't know/Refused (VOL)	183	5.5
+Missing	6676
+
+
+62) QC26
+[ASK ALL PHASE C:] And in your view, has this country been successful more because of its [INSERT ITEM; RANDOMIZE] or more because of its [ITEM]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	1.985	1.407
+1) Americans are united and in agreement about the most important values [OR]	868	26.0
+2) Americans are greatly divided when it come to the most important values	2350	70.5
+9) Don't know/Refused (VOL)	117	3.5
+Missing	6678
+
+
+63) OFTVOTE
+[ASK ALL:] How often would you say you vote...[READ IN ORDER]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.837	1.24
+1) Always	5749	57.4
+2) Nearly always	2161	21.6
+3) Part of the time	745	7.4
+4) Seldom	811	8.1
+5) Never vote (VOL)	494	4.9
+6) Other (VOL)	34	0.3
+9) Don't know/Refused (VOL)	19	0.2
+
+
+64) Q26F1
+[ASK ALL PHASE A:] Now a different kind of question, thinking about how Barack Obama and Republican leaders should address the most important issues facing the country. Imagine a scale from zero to 100 where 100 means [IF FORM 1: Republican leaders get everything they want and Obama gets nothing he wants, and zero means Obama gets everything and Republican leaders get nothing.] Where on this scale from zero to 100 do you think they should end up? [OPEN END ENTER NUMBER 0-100] [IF NECESSARY: '[FORM 1: 100 means Republicans get everything they want, ZERO means Obama gets everything he wants], about where from 0 to 100 should they end up?] [INTERVIEWER, IF RESPONDENT STRUGGLES WITH PRECISE NUMBER YOU CAN SAY: 'you can just give me a number close to what you think'].
+RANGE: 0 to 999
+	N	Mean	Std. Deviation
+Total	1671	96.456	206.154
+0)	69	4.1
+1)	6	0.4
+2)	3	0.2
+3)	1	0.1
+4)	1	0.1
+5)	22	1.3
+6)	1	0.1
+7)	1	0.1
+8)	2	0.1
+9)	2	0.1
+10)	14	0.8
+15)	5	0.3
+20)	35	2.1
+25)	42	2.5
+27)	1	0.1
+30)	49	2.9
+33)	2	0.1
+35)	23	1.4
+40)	73	4.4
+43)	1	0.1
+45)	22	1.3
+47)	1	0.1
+48)	2	0.1
+49)	9	0.5
+50)	839	50.2
+51)	1	0.1
+52)	2	0.1
+55)	9	0.5
+56)	1	0.1
+60)	59	3.5
+65)	21	1.3
+70)	48	2.9
+75)	68	4.1
+80)	39	2.3
+85)	12	0.7
+90)	22	1.3
+95)	4	0.2
+98)	1	0.1
+99)	5	0.3
+100)	71	4.2
+999) Don't know/Refused (VOL)	82	4.9
+Missing	8342
+
+
+65) Q26F1A
+[IF RESPONDENT SAYS A NUMBER BETWEEN [FORM 1: 0-49] CLARIFY:] Just to be sure I get this right, [INSERT NUMBER CHOSEN], means Obama should get more than Republican leaders, is that what you meant?
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	311	1	0
+1) Yes	311	100.0
+Missing	9702
+
+
+66) Q26F1B
+[IF RESPONDENT SAYS A NUMBER BETWEEN [FORM 1: 51-100] CLARIFY:] Just to be sure I get this right, [INSERT NUMBER CHOSEN], means Republican leaders should get more than Obama, is that what you meant?
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	285	1	0
+1) Yes	285	100.0
+Missing	9728
+
+
+67) Q26F2
+[ASK ALL PHASE A:] Now a different kind of question, thinking about how Barack Obama and Republican leaders should address the most important issues facing the country. Imagine a scale from zero to 100 where 100 means [IF FORM 2: Obama gets everything he wants and Republican leaders get nothing they want, and zero means Republican leaders get everything and Obama gets nothing.] Where on this scale from zero to 100 do you think they should end up? [OPEN END ENTER NUMBER 0-100] [IF NECESSARY: '[FORM 2: 100 means Obama gets everything he wants, ZERO means Republicans gets everything they want]. About where, from 0 to 100 should they end up?] [INTERVIEWER, IF RESPONDENT STRUGGLES WITH PRECISE NUMBER YOU CAN SAY: 'you can just give me a number close to what you think'].
+RANGE: 0 to 999
+	N	Mean	Std. Deviation
+Total	1670	98.88	205.628
+0)	54	3.2
+1)	4	0.2
+2)	5	0.3
+3)	2	0.1
+4)	2	0.1
+5)	9	0.5
+6)	2	0.1
+7)	2	0.1
+10)	16	1.0
+15)	5	0.3
+20)	27	1.6
+25)	44	2.6
+30)	35	2.1
+35)	12	0.7
+38)	2	0.1
+39)	1	0.1
+40)	70	4.2
+42)	1	0.1
+45)	14	0.8
+47)	1	0.1
+48)	1	0.1
+49)	6	0.4
+50)	805	48.2
+51)	3	0.2
+54)	1	0.1
+55)	14	0.8
+57)	1	0.1
+58)	1	0.1
+60)	99	5.9
+64)	1	0.1
+65)	28	1.7
+66)	3	0.2
+67)	1	0.1
+70)	61	3.7
+75)	74	4.4
+78)	1	0.1
+80)	52	3.1
+85)	14	0.8
+87)	1	0.1
+90)	22	1.3
+95)	8	0.5
+96)	1	0.1
+97)	1	0.1
+98)	1	0.1
+99)	5	0.3
+100)	75	4.5
+999) Don't know/Refused (VOL)	82	4.9
+Missing	8343
+
+
+68) Q26F2A
+[IF RESPONDENT SAYS A NUMBER BETWEEN [FORM 2: 51-100] CLARIFY:] Just to be sure I get this right, [INSERT NUMBER CHOSEN], means Obama should get more than Republican leaders, is that what you meant?
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	369	1	0
+1) Yes	369	100.0
+Missing	9644
+
+
+69) Q26F2B
+[IF RESPONDENT SAYS A NUMBER BETWEEN [FORM 1: 0-49] CLARIFY:] Just to be sure I get this right, [INSERT NUMBER CHOSEN], means Republican leaders should get more than Obama, is that what you meant?
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	252	1	0
+1) Yes	252	100.0
+Missing	9761
+
+
+70) Q26
+Q26F1 and Q26F2 (reversed) on same scale
+RANGE: 0 to 999
+	N	Mean	Std. Deviation
+Total	3341	95.386	206.379
+0) Obama gets everything	144	4.3
+1)	11	0.3
+2)	4	0.1
+3)	2	0.1
+4)	2	0.1
+5)	30	0.9
+6)	1	0.0
+7)	1	0.0
+8)	2	0.1
+9)	2	0.1
+10)	36	1.1
+13)	1	0.0
+15)	19	0.6
+20)	87	2.6
+22)	1	0.0
+25)	116	3.5
+27)	1	0.0
+30)	110	3.3
+33)	3	0.1
+34)	3	0.1
+35)	51	1.5
+36)	1	0.0
+40)	172	5.1
+42)	1	0.0
+43)	2	0.1
+45)	36	1.1
+46)	1	0.0
+47)	1	0.0
+48)	2	0.1
+49)	12	0.4
+50)	1644	49.2
+51)	7	0.2
+52)	3	0.1
+53)	1	0.0
+55)	23	0.7
+56)	1	0.0
+58)	1	0.0
+60)	129	3.9
+61)	1	0.0
+62)	2	0.1
+65)	33	1.0
+70)	83	2.5
+75)	112	3.4
+80)	66	2.0
+85)	17	0.5
+90)	38	1.1
+93)	2	0.1
+94)	2	0.1
+95)	13	0.4
+96)	2	0.1
+97)	2	0.1
+98)	6	0.2
+99)	9	0.3
+100) Republicans get everything	125	3.7
+999) Don't know/Refused (VOL)	164	4.9
+Missing	6672
+
+
+71) Q26CAT
+Q26F1 and Q26F2 (reversed) - put into buckets
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3341	3.231	1.601
+1) Extreme Obama (90+)	235	7.0
+2) Somewhat Obama (51-89)	620	18.6
+3) 50	1644	49.2
+4) Somewhat Republican leaders (51-89)	479	14.3
+5) Extreme Republican leaders (90+)	199	6.0
+9) Don't know/Refused (VOL)	164	4.9
+Missing	6672
+
+
+72) QB27
+[ASK ALL PHASE B:] If the elections for U.S. Congress were being held TODAY, would you vote for the Republican Party's candidate or the Democratic Party's candidate for Congress in your district?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3337	2.788	2.72
+1) Republican Party's candidate	1230	36.9
+2) Democratic Party's candidate	1344	40.3
+3) Other (VOL)	247	7.4
+9) Don't know/Refused (VOL)	516	15.5
+Missing	6676
+
+
+73) QB27A
+[ASK IF 'OTHER' 'DON'T KNOW/REFUSED' (QB27=3,9):] As of TODAY, would you LEAN more to the Republican or the Democrat?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	763	4.02	3.37
+1) Republican Party's candidate	219	28.7
+2) Democratic Party's candidate	182	23.9
+3) Other (VOL)	129	16.9
+9) Don't know/Refused (VOL)	233	30.5
+Missing	9250
+
+
+74) INT1
+[ASK ALL:] Do you use the internet, at least occasionally?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.153	0.397
+1) Yes	8514	85.0
+2) No	1494	14.9
+9) Don't know/Refused (VOL)	5	0.0
+
+
+75) INT2
+[ASK IF DOES NOT USE THE INTERNET (INT1=2,9):] Do you send or receive email, at least occasionally?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1499	1.945	0.56
+1) Yes	132	8.8
+2) No	1360	90.7
+9) Don't know/Refused (VOL)	7	0.5
+Missing	8514
+
+
+76) INT3M
+[ASK IF DOES NOT USE THE INTERNET OR EMAIL (INT2=2,9):] Do you access the Internet on a cell phone, tablet or other mobile handheld device, at least occasionally?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1367	1.907	0.538
+1) Yes	162	11.9
+2) No	1200	87.8
+9) Don't know/Refused (VOL)	5	0.4
+Missing	8646
+
+
+77) QC28A
+[ASK ALL PHASE C] Now, I have a short set of questions on marriage and family. First, how do you think you would react if a member of your immediate family told you they were going to marry...[INSERT ITEM; RANDOMIZE]? Would you be generally happy about this, generally unhappy or wouldn't it matter to you at all? What about [NEXT ITEM]? [IF NECESSARY: if a member of your immediate family told you they were going to marry [ITEM], would you be generally happy, generally unhappy or wouldn't it matter to you at all?] [INTERVIEWER INSTRUCTION: IF RESPONDENT SAYS THEY HAVE FAMILY MEMBER(S) MARRIED TO SOMEONE OF THAT GROUP]: 'Are you happy about that, unhappy about that or doesn't it matter?'] [a. A Republican]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	2.672	0.927
+1) Happy	476	14.3
+2) Unhappy	310	9.3
+3) Wouldn't matter to you at all	2521	75.6
+9) Don't know/Refused (VOL)	28	0.8
+Missing	6678
+
+
+78) QC28B
+[ASK ALL PHASE C] Now, I have a short set of questions on marriage and family. First, how do you think you would react if a member of your immediate family told you they were going to marry...[INSERT ITEM; RANDOMIZE]? Would you be generally happy about this, generally unhappy or wouldn't it matter to you at all? What about [NEXT ITEM]? [IF NECESSARY: if a member of your immediate family told you they were going to marry [ITEM], would you be generally happy, generally unhappy or wouldn't it matter to you at all?] [INTERVIEWER INSTRUCTION: IF RESPONDENT SAYS THEY HAVE FAMILY MEMBER(S) MARRIED TO SOMEONE OF THAT GROUP]: 'Are you happy about that, unhappy about that or doesn't it matter?'] [b. A Democrat]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	2.67	0.993
+1) Happy	520	15.6
+2) Unhappy	277	8.3
+3) Wouldn't matter to you at all	2502	75.0
+9) Don't know/Refused (VOL)	36	1.1
+Missing	6678
+
+
+79) QC28C
+[ASK ALL PHASE C] Now, I have a short set of questions on marriage and family. First, how do you think you would react if a member of your immediate family told you they were going to marry...[INSERT ITEM; RANDOMIZE]? Would you be generally happy about this, generally unhappy or wouldn't it matter to you at all? What about [NEXT ITEM]? [IF NECESSARY: if a member of your immediate family told you they were going to marry [ITEM], would you be generally happy, generally unhappy or wouldn't it matter to you at all?] [INTERVIEWER INSTRUCTION: IF RESPONDENT SAYS THEY HAVE FAMILY MEMBER(S) MARRIED TO SOMEONE OF THAT GROUP]: 'Are you happy about that, unhappy about that or doesn't it matter?'] [c. Someone who didn't go to college]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	2.79	0.798
+1) Happy	197	5.9
+2) Unhappy	474	14.2
+3) Wouldn't matter to you at all	2636	79.0
+9) Don't know/Refused (VOL)	28	0.8
+Missing	6678
+
+
+80) QC28D
+[ASK ALL PHASE C] Now, I have a short set of questions on marriage and family. First, how do you think you would react if a member of your immediate family told you they were going to marry...[INSERT ITEM; RANDOMIZE]? Would you be generally happy about this, generally unhappy or wouldn't it matter to you at all? What about [NEXT ITEM]? [IF NECESSARY: if a member of your immediate family told you they were going to marry [ITEM], would you be generally happy, generally unhappy or wouldn't it matter to you at all?] [INTERVIEWER INSTRUCTION: IF RESPONDENT SAYS THEY HAVE FAMILY MEMBER(S) MARRIED TO SOMEONE OF THAT GROUP]: 'Are you happy about that, unhappy about that or doesn't it matter?'] [d. Someone born and raised outside the U.S.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	2.85	1.046
+1) Happy	310	9.3
+2) Unhappy	253	7.6
+3) Wouldn't matter to you at all	2710	81.3
+9) Don't know/Refused (VOL)	62	1.9
+Missing	6678
+
+
+81) QC28E
+[ASK ALL PHASE C] Now, I have a short set of questions on marriage and family. First, how do you think you would react if a member of your immediate family told you they were going to marry...[INSERT ITEM; RANDOMIZE]? Would you be generally happy about this, generally unhappy or wouldn't it matter to you at all? What about [NEXT ITEM]? [IF NECESSARY: if a member of your immediate family told you they were going to marry [ITEM], would you be generally happy, generally unhappy or wouldn't it matter to you at all?] [INTERVIEWER INSTRUCTION: IF RESPONDENT SAYS THEY HAVE FAMILY MEMBER(S) MARRIED TO SOMEONE OF THAT GROUP]: 'Are you happy about that, unhappy about that or doesn't it matter?'] [e. Someone who does not believe in God]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	2.483	0.878
+1) Happy	134	4.0
+2) Unhappy	1667	50.0
+3) Wouldn't matter to you at all	1499	44.9
+9) Don't know/Refused (VOL)	35	1.0
+Missing	6678
+
+
+82) QC28F
+[ASK ALL PHASE C] Now, I have a short set of questions on marriage and family. First, how do you think you would react if a member of your immediate family told you they were going to marry...[INSERT ITEM; RANDOMIZE]? Would you be generally happy about this, generally unhappy or wouldn't it matter to you at all? What about [NEXT ITEM]? [IF NECESSARY: if a member of your immediate family told you they were going to marry [ITEM], would you be generally happy, generally unhappy or wouldn't it matter to you at all?] [INTERVIEWER INSTRUCTION: IF RESPONDENT SAYS THEY HAVE FAMILY MEMBER(S) MARRIED TO SOMEONE OF THAT GROUP]: 'Are you happy about that, unhappy about that or doesn't it matter?'] [f. A 'born again' Christian]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	2.329	1.219
+1) Happy	1081	32.4
+2) Unhappy	369	11.1
+3) Wouldn't matter to you at all	1836	55.1
+9) Don't know/Refused (VOL)	49	1.5
+Missing	6678
+
+
+83) QC28G
+[ASK ALL PHASE C] Now, I have a short set of questions on marriage and family. First, how do you think you would react if a member of your immediate family told you they were going to marry...[INSERT ITEM; RANDOMIZE]? Would you be generally happy about this, generally unhappy or wouldn't it matter to you at all? What about [NEXT ITEM]? [IF NECESSARY: if a member of your immediate family told you they were going to marry [ITEM], would you be generally happy, generally unhappy or wouldn't it matter to you at all?] [INTERVIEWER INSTRUCTION: IF RESPONDENT SAYS THEY HAVE FAMILY MEMBER(S) MARRIED TO SOMEONE OF THAT GROUP]: 'Are you happy about that, unhappy about that or doesn't it matter?'] [g. A gun owner]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	2.557	1.074
+1) Happy	566	17.0
+2) Unhappy	614	18.4
+3) Wouldn't matter to you at all	2110	63.3
+9) Don't know/Refused (VOL)	45	1.3
+Missing	6678
+
+
+84) QC28H
+[ASK ALL PHASE C] Now, I have a short set of questions on marriage and family. First, how do you think you would react if a member of your immediate family told you they were going to marry...[INSERT ITEM; RANDOMIZE]? Would you be generally happy about this, generally unhappy or wouldn't it matter to you at all? What about [NEXT ITEM]? [IF NECESSARY: if a member of your immediate family told you they were going to marry [ITEM], would you be generally happy, generally unhappy or wouldn't it matter to you at all?] [INTERVIEWER INSTRUCTION: IF RESPONDENT SAYS THEY HAVE FAMILY MEMBER(S) MARRIED TO SOMEONE OF THAT GROUP]: 'Are you happy about that, unhappy about that or doesn't it matter?'] [h. Someone of a different race]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	2.82	1.039
+1) Happy	273	8.2
+2) Unhappy	419	12.6
+3) Wouldn't matter to you at all	2582	77.4
+9) Don't know/Refused (VOL)	61	1.8
+Missing	6678
+
+
+85) QA29A
+[ASK ALL PHASE A:] Thinking about some news organizations, would you say your overall opinion of...[INSERT ITEM; RANDOMIZE] is favorable, unfavorable, or neither in particular? How about [NEXT ITEM]? [IF NECESSARY: Is your overall opinion of [ITEM] favorable, unfavorable or neither in particular]? [a. MSNBC cable news]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3341	2.476	1.845
+1) Favorable	1090	32.6
+2) Unfavorable	766	22.9
+3) Neither in particular	1286	38.5
+9) Don't know/Refused (VOL)	199	6.0
+Missing	6672
+
+
+86) QA29B
+[ASK ALL PHASE A:] Thinking about some news organizations, would you say your overall opinion of...[INSERT ITEM; RANDOMIZE] is favorable, unfavorable, or neither in particular? How about [NEXT ITEM]? [IF NECESSARY: Is your overall opinion of [ITEM] favorable, unfavorable or neither in particular]? [b. The Fox News Cable Channel]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3341	2.119	1.62
+1) Favorable	1416	42.4
+2) Unfavorable	910	27.2
+3) Neither in particular	882	26.4
+9) Don't know/Refused (VOL)	133	4.0
+Missing	6672
+
+
+87) Q40
+[ASK ALL:] Would you say you follow what's going on in government and public affairs...[READ]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.67	0.943
+1) Most of the time	5714	57.1
+2) Some of the time	2618	26.1
+3) Only now and then [OR]	1025	10.2
+4) Hardly at all	642	6.4
+9) Don't know/Refused (VOL)	14	0.1
+
+
+88) Q40A
+[ASK ALL PHASE B:] Some people say they are basically content with the federal government, others say they are frustrated, and others say they are angry. Which of these best describes how you feel?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3337	2.192	1.11
+1) Basically content	495	14.8
+2) Frustrated	2078	62.3
+3) Angry	702	21.0
+9) Don't know/Refused (VOL)	62	1.9
+Missing	6676
+
+
+89) Q40B
+[ASK ALL PHASE B:] How much of the time do you think you can trust the government in Washington to do what is right? Just about always, most of the time or only some of the time?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3337	2.861	0.818
+1) Just about always	86	2.6
+2) Most of the time	703	21.1
+3) Only some of the time	2277	68.2
+4) Never (VOL)	243	7.3
+9) Don't know/Refused (VOL)	28	0.8
+Missing	6676
+
+
+90) Q41
+[ASK ALL:] Just as far as you know...Which political party has a majority in the U.S. House of Representatives [READ AND RANDOMIZE]? [IF NECESSARY: Just as far as you know] [INTERVIEWER INSTRUCTION: DO NOT PROBE, PUNCH 9 IF RESPONDENT SAYS THEY DON'T KNOW]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	2.092	2.374
+1) The Republican Party [OR]	6257	62.5
+2) The Democratic Party	2730	27.3
+9) Don't know/Refused (VOL)	1026	10.2
+
+
+91) Q42
+[ASK ALL:] Just as far as you know... Which political party has a majority in the U.S. Senate [READ AND RANDOMIZE]? [INTERVIEWER INSTRUCTION: DO NOT PROBE, PUNCH 9 IF RESPONDENT SAYS THEY DON'T KNOW]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	2.696	2.545
+1) The Republican Party [OR]	2609	26.1
+2) The Democratic Party	6035	60.3
+9) Don't know/Refused (VOL)	1369	13.7
+
+
+92) Q43
+[ASK ALL PHASE A:] Which political party is more in favor of raising taxes on higher income people [READ AND RANDOMIZE]? [IF NECESSARY: Just as far as you know] [INTERVIEWER INSTRUCTION: DO NOT PROBE, PUNCH 9 IF RESPONDENT SAYS THEY DON'T KNOW]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3341	2.361	1.945
+1) The Republican Party [OR]	579	17.3
+2) The Democratic Party	2507	75.0
+9) Don't know/Refused (VOL)	255	7.6
+Missing	6672
+
+
+93) QC48A
+[RANDOMIZE QC48/QC49] [ASK ALL PHASE C:] Now some questions about your views of the political parties...Do you think the Republican Party [INSERT ITEM; RANDOMIZE] or not? [a. Is too extreme]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	1.85	1.742
+1) Yes, describes Republican Party	1712	51.3
+2) No	1450	43.5
+9) Don't know/Refused (VOL)	173	5.2
+Missing	6678
+
+
+94) QC48B
+[RANDOMIZE QC48/QC49] [ASK ALL PHASE C:] Now some questions about your views of the political parties...Do you think the Republican Party [INSERT ITEM; RANDOMIZE] or not? [b. Cares about the middle class]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	1.816	1.477
+1) Yes, describes Republican Party	1462	43.8
+2) No	1752	52.5
+9) Don't know/Refused (VOL)	121	3.6
+Missing	6678
+
+
+95) QC48C
+[RANDOMIZE QC48/QC49] [ASK ALL PHASE C:] Now some questions about your views of the political parties...Do you think the Republican Party [INSERT ITEM; RANDOMIZE] or not? [c. Is too willing to cut government programs, even when they work]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	2.035	2.156
+1) Yes, describes Republican Party	1836	55.1
+2) No	1220	36.6
+9) Don't know/Refused (VOL)	279	8.4
+Missing	6678
+
+
+96) QC49A
+[RANDOMIZE QC48/QC49] [ASK ALL PHASE C:] Now some questions about your views of the political parties...Do you think the Democratic Party [INSERT ITEM; RANDOMIZE] or not? [a. Is too extreme]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	1.931	1.669
+1) Yes, describes Democratic Party	1364	40.9
+2) No	1809	54.2
+9) Don't know/Refused (VOL)	162	4.9
+Missing	6678
+
+
+97) QC49B
+[RANDOMIZE QC48/QC49] [ASK ALL PHASE C:] Now some questions about your views of the political parties...Do you think the Democratic Party [INSERT ITEM; RANDOMIZE] or not? [b. Cares about the middle class]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	1.72	1.619
+1) Yes, describes Democratic Party	1941	58.2
+2) No	1250	37.5
+9) Don't know/Refused (VOL)	144	4.3
+Missing	6678
+
+
+98) QC49C
+[RANDOMIZE QC48/QC49] [ASK ALL PHASE C:] Now some questions about your views of the political parties...Do you think the Democratic Party [INSERT ITEM; RANDOMIZE] or not? [c. Too often sees government as the only way to solve problems]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	1.802	1.853
+1) Yes, describes Democratic Party	2025	60.7
+2) No	1115	33.4
+9) Don't know/Refused (VOL)	195	5.8
+Missing	6678
+
+
+99) Q50Q
+[ASK ALL:] Now I'm going to read a few more pairs of statements. Again, just tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE ITEMS Q THRU Z FOLLOWED BY RANDOMIZED ITEMS AA THRU HH; RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.516	1.215
+1) This country should do whatever it takes to protect the environment [OR]	6804	68.0
+2) This country has gone too far in its efforts to protect the environment	2769	27.7
+5) Neither/both equally (VOL)	281	2.8
+9) Don't know/Refused (VOL)	159	1.6
+
+
+100) Q50R
+[ASK ALL:] Now I'm going to read a few more pairs of statements. Again, just tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE ITEMS Q THRU Z FOLLOWED BY RANDOMIZED ITEMS AA THRU HH; RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.86	1.388
+1) Stricter environmental laws and regulations cost too many jobs and hurt the economy [OR]	3984	39.8
+2) Stricter environmental laws and regulations are worth the cost	5539	55.3
+5) Neither/both equally (VOL)	213	2.1
+9) Don't know/Refused (VOL)	277	2.8
+
+
+101) Q50S
+[ASK ALL PHASE B:] Now I'm going to read a few more pairs of statements. Again, just tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE ITEMS Q THRU Z FOLLOWED BY RANDOMIZED ITEMS AA THRU HH; RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3337	1.779	1.399
+1) There are no real limits to growth in this country today [OR]	1658	49.7
+2) People in this country should learn to live with less	1480	44.4
+5) Neither/both equally (VOL)	118	3.5
+9) Don't know/Refused (VOL)	81	2.4
+Missing	6676
+
+
+102) Q50T
+[ASK ALL PHASE C:] Now I'm going to read a few more pairs of statements. Again, just tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE ITEMS Q THRU Z FOLLOWED BY RANDOMIZED ITEMS AA THRU HH; RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	1.722	1.262
+1) As Americans, we can always find ways to solve our problems and get what we want [OR]	1606	48.2
+2) This country can't solve many of its important problems	1595	47.8
+5) Neither/both equally (VOL)	65	1.9
+9) Don't know/Refused (VOL)	69	2.1
+Missing	6678
+
+
+103) Q50U
+[ASK ALL:] Now I'm going to read a few more pairs of statements. Again, just tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE ITEMS Q THRU Z FOLLOWED BY RANDOMIZED ITEMS AA THRU HH; RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.761	1.666
+1) Homosexuality should be accepted by society [OR]	6127	61.2
+2) Homosexuality should be discouraged by society	3167	31.6
+5) Neither/both equally (VOL)	325	3.2
+9) Don't know/Refused (VOL)	394	3.9
+
+
+104) Q50V
+[ASK ALL PHASE C:] Now I'm going to read a few more pairs of statements. Again, just tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE ITEMS Q THRU Z FOLLOWED BY RANDOMIZED ITEMS AA THRU HH; RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	1.893	1.361
+1) It's not the government's job to protect people from themselves [OR]	1178	35.3
+2) Sometimes laws to protect people from themselves are necessary	2006	60.1
+5) Neither/both equally (VOL)	59	1.8
+9) Don't know/Refused (VOL)	92	2.8
+Missing	6678
+
+
+105) Q50W
+[ASK ALL PHASE A:] Now I'm going to read a few more pairs of statements. Again, just tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE ITEMS Q THRU Z FOLLOWED BY RANDOMIZED ITEMS AA THRU HH; RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3341	1.398	0.806
+1) Religion is a very important part of my life [OR]	2227	66.7
+2) Religion is not that important to me	1066	31.9
+5) Neither/both equally (VOL)	30	0.9
+9) Don't know/Refused (VOL)	18	0.5
+Missing	6672
+
+
+106) Q50Y
+[ASK ALL:] Now I'm going to read a few more pairs of statements. Again, just tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE ITEMS Q THRU Z FOLLOWED BY RANDOMIZED ITEMS AA THRU HH; RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.502	0.839
+1) I'm generally satisfied with the way things are going for me financially [OR]	5687	56.8
+2) I'm not very satisfied with my financial situation	4178	41.7
+5) Neither/both equally (VOL)	85	0.8
+9) Don't know/Refused (VOL)	63	0.6
+
+
+107) Q50Z
+[ASK ALL:] Now I'm going to read a few more pairs of statements. Again, just tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE ITEMS Q THRU Z FOLLOWED BY RANDOMIZED ITEMS AA THRU HH; RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.765	0.883
+1) I often don't have enough money to make ends meet [OR]	3348	33.4
+2) Paying the bills is generally not a problem for me	6428	64.2
+5) Neither/both equally (VOL)	165	1.6
+9) Don't know/Refused (VOL)	72	0.7
+
+
+108) Q50AA
+[ASK ALL:] Now I'm going to read a few more pairs of statements. Again, just tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE ITEMS Q THRU Z FOLLOWED BY RANDOMIZED ITEMS AA THRU HH; RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.561	0.981
+1) It is NOT necessary to believe in God in order to be moral and have good values [OR]	5469	54.6
+2) It IS necessary to believe in God in order to be moral and have good values	4324	43.2
+5) Neither/both equally (VOL)	117	1.2
+9) Don't know/Refused (VOL)	103	1.0
+
+
+109) Q50BB
+[ASK ALL:] Now I'm going to read a few more pairs of statements. Again, just tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE ITEMS Q THRU Z FOLLOWED BY RANDOMIZED ITEMS AA THRU HH; RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.994	1.598
+1) Using overwhelming military force is the best way to defeat terrorism around the world [OR]	3776	37.7
+2) Relying too much on military force to defeat terrorism creates hatred that leads to more terrorism	5504	55.0
+5) Neither/both equally (VOL)	353	3.5
+9) Don't know/Refused (VOL)	380	3.8
+
+
+110) Q50DD
+[ASK ALL:] Now I'm going to read a few more pairs of statements. Again, just tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE ITEMS Q THRU Z FOLLOWED BY RANDOMIZED ITEMS AA THRU HH; RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.959	1.471
+1) The growing number of newcomers from other countries threatens traditional American customs and values [OR]	3529	35.2
+2) The growing number of newcomers from other countries strengthens American society	5862	58.5
+5) Neither/both equally (VOL)	308	3.1
+9) Don't know/Refused (VOL)	314	3.1
+
+
+111) Q50EE
+[ASK ALL:] Now I'm going to read a few more pairs of statements. Again, just tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE ITEMS Q THRU Z FOLLOWED BY RANDOMIZED ITEMS AA THRU HH; RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.812	1.147
+1) It's best for the future of our country to be active in world affairs [OR]	3989	39.8
+2) We should pay less attention to problems overseas and concentrate on problems here at home	5476	54.7
+5) Neither/both equally (VOL)	433	4.3
+9) Don't know/Refused (VOL)	115	1.1
+
+
+112) Q50FF
+[ASK ALL:] Now I'm going to read a few more pairs of statements. Again, just tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE ITEMS Q THRU Z FOLLOWED BY RANDOMIZED ITEMS AA THRU HH; RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	9459	1.945	1.139
+1) Americans need to be willing to give up privacy and freedom in order to be safe from terrorism [OR]	2286	24.2
+2) Americans shouldn't have to give up privacy and freedom in order to be safe from terrorism	6808	72.0
+5) Neither/both equally (VOL)	197	2.1
+9) Don't know/Refused (VOL)	168	1.8
+Missing	554
+
+
+113) Q50GG
+[ASK ALL PHASE B:] Now I'm going to read a few more pairs of statements. Again, just tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE ITEMS Q THRU Z FOLLOWED BY RANDOMIZED ITEMS AA THRU HH; RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3337	1.974	1.404
+1) The government should do more to protect morality in society [OR]	1010	30.3
+2) I worry the government is getting too involved in the issue of morality	2153	64.5
+5) Neither/both equally (VOL)	74	2.2
+9) Don't know/Refused (VOL)	100	3.0
+Missing	6676
+
+
+114) Q50HH
+[ASK ALL:] Now I'm going to read a few more pairs of statements. Again, just tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The first pair is [READ AND RANDOMIZE ITEMS Q THRU Z FOLLOWED BY RANDOMIZED ITEMS AA THRU HH; RANDOMIZE PAIRS BUT NOT STATEMENTS WITHIN EACH PAIR]. Next, [NEXT PAIR] [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.761	1.401
+1) Our country has made the changes needed to give blacks equal rights with whites [OR]	4955	49.5
+2) Our country needs to continue making changes to give blacks equal rights with whites	4565	45.6
+5) Neither/both equally (VOL)	222	2.2
+9) Don't know/Refused (VOL)	271	2.7
+
+
+115) Q51II
+[ASK ALL PHASE A:] Next, [ASK ITEM ii FIRST, FOLLOWED BY RANDOMIZED ITEMS jj THROUGH mm AND RANDOMIZE STATEMENTS WITHIN PAIRS]. [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?'] Next, [NEXT PAIR]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3341	1.802	1.266
+1) Government should do more to solve problems [OR]	1383	41.4
+2) Government is doing too many things better left to businesses and individuals	1809	54.1
+5) Neither/both equally (VOL)	80	2.4
+9) Don't know/Refused (VOL)	69	2.1
+Missing	6672
+
+
+116) Q51JJ
+[ASK ALL PHASE A:] Next, [ASK ITEM ii FIRST, FOLLOWED BY RANDOMIZED ITEMS jj THROUGH mm AND RANDOMIZE STATEMENTS WITHIN PAIRS]. [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?'] Next, [NEXT PAIR]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3341	1.658	1.325
+1) Children are better off when a parent stays home to focus on the family [OR]	1966	58.8
+2) Children are just as well off when their parents work outside the home	1187	35.5
+5) Neither/both equally (VOL)	123	3.7
+9) Don't know/Refused (VOL)	65	1.9
+Missing	6672
+
+
+117) Q51KK
+[ASK ALL:] Next, [ASK ITEM ii FIRST, FOLLOWED BY RANDOMIZED ITEMS jj THROUGH mm AND RANDOMIZE STATEMENTS WITHIN PAIRS]. [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?'] Next, [NEXT PAIR]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.796	1.352
+1) Government aid to the poor does more harm than good, by making people too dependent on government assistance [OR]	4738	47.3
+2) Government aid to the poor does more good than harm because people can't get out of poverty until their basic needs are met	4659	46.5
+5) Neither/both equally (VOL)	405	4.0
+9) Don't know/Refused (VOL)	211	2.1
+
+
+118) Q51LL
+[ASK ALL PHASE A:] Next, [ASK ITEM ii FIRST, FOLLOWED BY RANDOMIZED ITEMS jj THROUGH mm AND RANDOMIZE STATEMENTS WITHIN PAIRS]. [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?'] Next, [NEXT PAIR]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2787	1.622	1.349
+1) The economic system in this country unfairly favors powerful interests [OR]	1688	60.6
+2) The economic system in this country is generally fair to most Americans	977	35.1
+5) Neither/both equally (VOL)	55	2.0
+9) Don't know/Refused (VOL)	67	2.4
+Missing	7226
+
+
+119) Q51MM
+[ASK ALL PHASE A:] Next, [ASK ITEM ii FIRST, FOLLOWED BY RANDOMIZED ITEMS jj THROUGH mm AND RANDOMIZE STATEMENTS WITHIN PAIRS]. [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?'] Next, [NEXT PAIR]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3341	1.638	1.298
+1) I like elected officials who make compromises with people they disagree with [OR]	1953	58.5
+2) I like elected officials who stick to their positions	1229	36.8
+5) Neither/both equally (VOL)	92	2.8
+9) Don't know/Refused (VOL)	67	2.0
+Missing	6672
+
+
+120) Q51OO
+[ASK ALL PHASE C:] Next, [ASK ITEM ii FIRST, FOLLOWED BY RANDOMIZED ITEMS jj THROUGH mm AND RANDOMIZE STATEMENTS WITHIN PAIRS]. [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?'] Next, [NEXT PAIR]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	1.777	1.244
+1) The police should be allowed to stop and search anyone who fits the general description of a crime suspect [OR]	1406	42.2
+2) The police should not be able to search people just because they think they look suspicious	1800	54.0
+5) Neither/both equally (VOL)	60	1.8
+9) Don't know/Refused (VOL)	69	2.1
+Missing	6678
+
+
+121) Q51PP
+[ASK ALL PHASE C:] Next, [ASK ITEM ii FIRST, FOLLOWED BY RANDOMIZED ITEMS jj THROUGH mm AND RANDOMIZE STATEMENTS WITHIN PAIRS]. [IF NECESSARY: 'Which statement comes closer to your views, even if neither is exactly right?'] Next, [NEXT PAIR]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	2.324	2.357
+1) Wall Street HELPS the American economy more than it hurts [OR]	1579	47.3
+2) Wall Street HURTS the American economy more than it helps	1314	39.4
+5) Neither/both equally (VOL)	109	3.3
+9) Don't know/Refused (VOL)	333	10.0
+Missing	6678
+
+
+122) Q53
+[ASK ALL PHASE A:] In your opinion, which is generally more often to blame if a person is poor? Lack of effort on his or her own part or circumstances beyond his or her control?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3341	1.941	1.423
+1) Lack of effort	1239	37.1
+2) Circumstances beyond control	1702	50.9
+3) Both (VOL)	293	8.8
+9) Don't know/Refused (VOL)	107	3.2
+Missing	6672
+
+
+123) QB54
+[ASK ALL PHASE B:] Next, [IF NECESSARY: Which comes closer to your own views - even if neither is exactly right]. [READ, DO NOT RANDOMIZE STATEMENTS].
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3337	2.358	2.304
+1) The Islamic religion is more likely than others to encourage violence among its believers [OR]	1335	40.0
+2) The Islamic religion does not encourage violence more than others	1597	47.9
+5) Neither/both equally (VOL)	76	2.3
+9) Don't know/Refused (VOL)	329	9.9
+Missing	6676
+
+
+124) QB55
+[ASK ALL PHASE B:] Should the U.S. Supreme Court base its rulings on its understanding of what the U.S. Constitution meant as it was originally written or should the court base its rulings on its understanding of what the U.S. Constitution means in current times?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3337	1.724	1.313
+1) What it meant as originally written	1595	47.8
+2) What it means in current times	1602	48.0
+3) Somewhere in between (VOL)	51	1.5
+9) Don't know/Refused (VOL)	89	2.7
+Missing	6676
+
+
+125) QC56
+[ASK ALL PHASE C:] Which of these statements best describes your opinion about the United States? [READ IN ORDER; REVERSE ORDER FOR HALF OF SAMPLE]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	1.889	1.005
+1) The U.S. stands above all other countries in the world	984	29.5
+2) The U.S. is one of the greatest countries in the world, along with some others	1994	59.8
+3) There are other countries that are better than the U.S.	314	9.4
+9) Don't know/Refused (VOL)	43	1.3
+Missing	6678
+
+
+126) QC57
+[ASK ALL PHASE C:] From what you've read and heard, is there solid evidence that the average temperature on earth has been getting warmer over the past few decades or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	1.636	1.443
+1) Yes	2011	60.3
+2) No	1180	35.4
+3) Mixed/some evidence	35	1.0
+9) Don't know/Refused (VOL)	109	3.3
+Missing	6678
+
+
+127) QC58A
+[ASK IF EARTH IS GETTING WARMER (QC57=1):] Do you believe that the earth is getting warmer... [READ AND RANDOMIZE]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2011	1.773	1.868
+1) Mostly because of human activity such as burning fossil fuels	1290	64.1
+2) Mostly because of natural patterns in the earth's environment	602	29.9
+9) Don't know/Refused	119	5.9
+Missing	8002
+
+
+128) QC58B
+[ASK IF EARTH IS NOT GETTING WARMER (QC57=2):] Do you think that we just don't know enough yet about whether the Earth is getting warmer or do you think it's just not happening?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1180	1.718	1.4
+1) Just don't know enough yet	592	50.2
+2) Just not happening	551	46.7
+9) Don't know/Refused (VOL)	37	3.1
+Missing	8833
+
+
+129) Q100
+[ASK ALL:] Have you ever contributed money to a candidate running for public office or to a group working to elect a candidate?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.654	0.793
+1) Yes	3968	39.6
+2) No	5973	59.7
+9) Don't know/Refused (VOL)	72	0.7
+
+
+130) Q101
+[ASK IF HAVE CONTRIBUTED MONEY (Q100=1): Have you done this over the last two years, that is, during or since the 2012 elections or not? [IF NECESSARY: Have you contributed money to any candidates or political groups over the last two years or not?]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3968	1.549	0.802
+1) Yes	1984	50.0
+2) No	1956	49.3
+9) Don't know/Refused (VOL)	28	0.7
+Missing	6045
+
+
+131) Q102
+[ASK IF HAVE CONTRIBUTED MONEY DURING 2012/2013 (Q101=1): Over the last two years, would you say all of those contributions added up to more than $100 or less than that?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1984	1.519	1.138
+1) More than $100	1213	61.1
+2) Less than that	734	37.0
+9) Don't know/Refused (VOL)	37	1.9
+Missing	8029
+
+
+132) Q102A
+[ASK IF MORE THAN $100 (Q102=1): And did they add up to more than $250 or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1213	1.807	1.541
+1) More than $250	570	47.0
+2) No, less than that	595	49.1
+9) Don't know/Refused (VOL)	48	4.0
+Missing	8800
+
+
+133) Q105A
+[ASK ALL:] [IF Q100=1: And again,] just thinking about the last two years...Please tell me if you have done any of the following. First, over the last two years have you [INSERT ITEM; RANDOMIZE] or not? And over the last two years have you [INSERT NEXT ITEM] or not? [a. Worked or volunteered for a political candidate or campaign]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.916	0.379
+1) Yes, have done this within the last two years	921	9.2
+2) No, have not done this within the last two years	9080	90.7
+9) Don't know/Refused (VOL)	12	0.1
+
+
+134) Q105B
+[ASK ALL:] [IF Q100=1: And again,] just thinking about the last two years...Please tell me if you have done any of the following. First, over the last two years have you [INSERT ITEM; RANDOMIZE], or not? And over the last two years have you [INSERT NEXT ITEM], or not? [b. Contacted any elected official]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.679	0.63
+1) Yes, have done this within the last two years	3436	34.3
+2) No, have not done this within the last two years	6545	65.4
+9) Don't know/Refused (VOL)	32	0.3
+
+
+135) Q105D
+[ASK ALL:] [IF Q100=1: And again,] just thinking about the last two years...Please tell me if you have done any of the following. First, over the last two years have you [INSERT ITEM; RANDOMIZE] or not? And over the last two years have you [INSERT NEXT ITEM] or not? [d. Attended a campaign event]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.824	0.442
+1) Yes, have done this within the last two years	1828	18.3
+2) No, have not done this within the last two years	8176	81.7
+9) Don't know/Refused (VOL)	9	0.1
+
+
+136) Q106
+[ASK ALL PHASE A:] And have you, yourself ever run for federal, state, or local elected office or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3341	1.969	0.217
+1) Yes, have run for elected office	112	3.4
+2) No, have not run for elected office	3228	96.6
+9) Don't know/Refused (VOL)	1	0.0
+Missing	6672
+
+
+137) QB106
+[ASK ALL PHASE B:] Next, do you favor or oppose legalized casino gambling in your state?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3337	1.824	1.849
+1) Favor	1952	58.5
+2) Oppose	1190	35.7
+9) Don't know/Refused (VOL)	195	5.8
+Missing	6676
+
+
+138) QB107
+[ASK ALL PHASE B:] Right now, which ONE of the following do you think should be the more important priority for addressing America's energy supply? [READ AND RANDOMIZE]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3337	1.549	1.082
+1) Developing alternative sources, such as wind, solar and hydrogen technology	2035	61.0
+2) Expanding exploration and production of oil, coal and natural gas	1060	31.8
+3) Both should be given equal priority (VOL)	194	5.8
+9) Don't know/Refused (VOL)	48	1.4
+Missing	6676
+
+
+139) QB108
+[ASK ALL PHASE B:] Do you strongly favor, favor, oppose or strongly oppose allowing gays and lesbians to marry legally?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3337	2.873	2.025
+1) Strongly favor	777	23.3
+2) Favor	986	29.5
+3) Oppose	714	21.4
+4) Strongly oppose	609	18.2
+9) Don't know/Refused (VOL)	251	7.5
+Missing	6676
+
+
+140) QB109
+[ASK ALL PHASE B:] Thinking about our economic and trade policy toward China, which is more important [READ AND RANDOMIZE]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3337	2.055	2.083
+1) Building a stronger relationship with China on economic issues	1652	49.5
+2) Getting tougher with China on economic issues	1423	42.6
+9) Don't know/Refused (VOL)	262	7.9
+Missing	6676
+
+
+141) QB110
+[ASK ALL PHASE B:] Do you think the use of marijuana should be made legal or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3337	1.739	1.491
+1) Yes, legal	1718	51.5
+2) No, illegal	1498	44.9
+9) Don't know/Refused	121	3.6
+Missing	6676
+
+
+142) QC111
+[ASK ALL PHASE C:] How much, if anything, have you read or heard about COMMON CORE, a set of education standards for students in grades K-12? Have you heard... [READ]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	2.188	0.922
+1) A lot	700	21.0
+2) A little	1439	43.1
+3) Nothing at all	1174	35.2
+9) Don't know/Refused (VOL)	22	0.7
+Missing	6678
+
+
+143) QC112
+[ASK IF HEARD OF COMMON CORE (QC111=1,2)]: From what you've read and heard, do you strongly favor, favor, oppose or strongly oppose the Common Core education standards?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2139	3.704	2.613
+1) Strongly favor	169	7.9
+2) Favor	777	36.3
+3) Oppose	502	23.5
+4) Strongly oppose	305	14.3
+9) Don't know/Refused	386	18.0
+Missing	7874
+
+
+144) QC115
+[ASK ALL PHASE C:] In general, do you think that free trade agreements between the U.S. and other countries have been a good thing or a bad thing for the United States?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	2.222	2.479
+1) Good thing	1935	58.0
+2) Bad thing	1018	30.5
+9) Don't know/Refused (VOL)	382	11.5
+Missing	6678
+
+
+145) QC116
+[ASK ALL PHASE C:] Do you approve or disapprove of the health care law passed by Barack Obama and Congress in 2010?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	1.987	1.781
+1) Approve	1358	40.7
+2) Disapprove	1789	53.6
+9) Don't know/Refused (VOL)	188	5.6
+Missing	6678
+
+
+146) QC116A
+[ASK IF APPROVE OR DISAPPROVE (QC116=1,2):] Do you [approve/disapprove] very strongly or not so strongly?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3147	1.323	0.825
+1) Very strongly	2314	73.5
+2) Not so strongly	807	25.6
+9) Don't know/Refused	26	0.8
+Missing	6866
+
+
+147) QC117
+[ASK IF 'DISAPPROVE' (QC116=2):] What do you think elected officials who oppose the health care law should do now that the law has started to take effect? Should they [READ AND RANDOMIZE] or should they [ITEM]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1789	2.013	2.106
+1) Do what they can to make the law work as well as possible	970	54.2
+2) Do what they can to make the law fail	677	37.8
+9) Don't know/Refused (VOL)	142	7.9
+Missing	8224
+
+
+148) Q121
+[RANDOMIZE IN BLOCKS: Q121/121a/b, Q122/122a/b, Q123/a/b, Q124/a/b, Q125/a/b, Q126/a/b] [ASK ALL PHASE A:] Do you think it is the responsibility of the federal government to make sure all Americans have health care coverage or is that not the responsibility of the federal government?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3341	1.736	1.286
+1) Yes, government responsibility	1492	44.7
+2) No, not government responsibility	1762	52.7
+9) Don't know/Refused (VOL)	87	2.6
+Missing	6672
+
+
+149) Q121A
+[RANDOMIZE IN BLOCKS: Q121/121a/b, Q122/122a/b, Q123/a/b, Q124/a/b, Q125/a/b, Q126/a/b] [ASK IF GOVERNMENT RESPONSIBILITY (Q121=1):] Should health insurance [READ AND RANDOMIZE]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1492	1.885	1.664
+1) Be provided through a single national health insurance system run by the government [OR]	668	44.8
+2) Continue to be provided through mix of private insurance companies and government programs	753	50.5
+9) Don't know/Refused (VOL)	71	4.8
+Missing	8521
+
+
+150) Q121B
+[RANDOMIZE IN BLOCKS: Q121/121a/b, Q122/122a/b, Q123/a/b, Q124/a/b, Q125/a/b, Q126/a/b] [ASK IF NOT GOVERNMENT RESPONSIBILITY (Q121=2):] Should the government [REAND AND RANDOMIZE]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1762	1.99	0.982
+1) Not be involved in providing health insurance at all [OR]	228	12.9
+2) Continue programs like Medicare and Medicaid for seniors and the very poor	1504	85.4
+9) Don't know/Refused (VOL)	30	1.7
+Missing	8251
+
+
+151) Q122
+[RANDOMIZE IN BLOCKS: Q121/121a/b, Q122/122a/b, Q123/a/b, Q124/a/b, Q125/a/b, Q126/a/b] [ASK ALL PHASE A:] Which comes closer to your view about how to handle immigrants who are now living in the U.S. illegally? Should they [READ AND RANDOMIZE]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3341	1.894	1.017
+1) Not be eligible for citizenship	747	22.4
+2) Be eligible for citizenship if they meet certain requirements	2538	76.0
+9) Don't know/Refused (VOL)	56	1.7
+Missing	6672
+
+
+152) Q122A
+[RANDOMIZE IN BLOCKS: Q121/121a/b, Q122/122a/b, Q123/a/b, Q124/a/b, Q125/a/b, Q126/a/b] [ASK IF NOT ELIGIBLE FOR CITIZENSHIP (Q122=1):] Do you think there should be a national law enforcement effort to deport all immigrants who are now living in the U.S. illegally or should that not be done?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	747	1.415	1.263
+1) Should be national law enforcement effort to deport [OR]	563	75.4
+2) Should not be national law enforcement effort to deport	166	22.2
+9) Don't know/Refused (VOL)	18	2.4
+Missing	9266
+
+
+153) Q122B
+[RANDOMIZE IN BLOCKS: Q121/121a/b, Q122/122a/b, Q123/a/b, Q124/a/b, Q125/a/b, Q126/a/b] [ASK IF BE ELIGIBLE FOR CITIZENSHIP (Q122=2):] And if immigrants meet these requirements, should they be eligible for citizenship? [READ AND RANDOMIZE]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2538	1.864	1.011
+1) Right away [OR]	632	24.9
+2) Only after a period of time	1865	73.5
+9) Don't know/Refused (VOL)	41	1.6
+Missing	7475
+
+
+154) Q123
+[RANDOMIZE IN BLOCKS: Q121/121a/b, Q122/122a/b, Q123/a/b, Q124/a/b, Q125/a/b, Q126/a/b] [ASK ALL PHASE A:] What do you think is more important - to protect the right of Americans to own guns or to control gun ownership?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3341	1.679	1.282
+1) Protect the right of Americans to own guns	1669	50.0
+2) Control gun ownership	1587	47.5
+9) Don't know/Refused (VOL)	85	2.5
+Missing	6672
+
+
+155) Q123A
+[RANDOMIZE IN BLOCKS: Q121/121a/b, Q122/122a/b, Q123/a/b, Q124/a/b, Q125/a/b, Q126/a/b] [ASK IF MORE IMPORTANT TO PROTECT OWNERSHIP (Q123=1):] And do you think there should be [READ AND RANDOMIZE]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1669	1.323	0.961
+1) Some restrictions on gun ownership [OR]	1277	76.5
+2) No restrictions on gun ownership	371	22.2
+9) Don't know/Refused (VOL)	21	1.3
+Missing	8344
+
+
+156) Q123B
+[RANDOMIZE IN BLOCKS: Q121/121a/b, Q122/122a/b, Q123/a/b, Q124/a/b, Q125/a/b, Q126/a/b] [ASK IF MORE IMPORTANT TO CONTROL OWNERSHIP (Q123=2):] And do you think [READ AND RANDOMIZE]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1587	1.397	1.17
+1) Most Americans should be able to own guns with certain limits in place [OR]	1181	74.4
+2) Only law enforcement and security personnel should be able to own guns	374	23.6
+9) Don't know/Refused (VOL)	32	2.0
+Missing	8426
+
+
+157) Q124
+[RANDOMIZE IN BLOCKS: Q121/121a/b, Q122/122a/b, Q123/a/b, Q124/a/b, Q125/a/b, Q126/a/b] [ASK ALL PHASE A:] Do you think abortion should be [READ AND RANDOMIZE]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3341	1.904	1.873
+1) LEGAL in all or most cases	1750	52.4
+2) ILLEGAL in all or most cases	1387	41.5
+9) Don't know/Refused (VOL)	204	6.1
+Missing	6672
+
+
+158) Q124A
+[RANDOMIZE IN BLOCKS: Q121/121a/b, Q122/122a/b, Q123/a/b, Q124/a/b, Q125/a/b, Q126/a/b] [ASK IF LEGAL IN ALL/MOST (Q124=1):] Do you think there are any situations in which abortion should be restricted, or should there be no restrictions at all on abortion?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1750	1.492	0.96
+1) Situations in which abortion should be restricted [OR]	1036	59.2
+2) No restrictions at all on abortion	693	39.6
+9) Don't know/Refused (VOL)	21	1.2
+Missing	8263
+
+
+159) Q124B
+[RANDOMIZE IN BLOCKS: Q121/121a/b, Q122/122a/b, Q123/a/b, Q124/a/b, Q125/a/b, Q126/a/b] [ASK IF ILLEGAL IN ALL/MOST (Q124=2): Do you think there are any situations in which abortion should be allowed or should there be no situations at all where abortion is allowed?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1387	1.453	1.174
+1) Situations in which abortion should be allowed	954	68.8
+2) No situations where abortion should be allowed	405	29.2
+9) Don't know/Refused (VOL)	28	2.0
+Missing	8626
+
+
+160) Q125
+[RANDOMIZE IN BLOCKS: Q121/121a/b, Q122/122a/b, Q123/a/b, Q124/a/b, Q125/a/b, Q126/a/b] [ASK ALL PHASE A:]  Thinking about the long term future of Social Security, do you think [READ AND RANDOMIZE]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3341	1.885	1.302
+1) Some reductions in benefits for future retirees need to be considered [OR]	1049	31.4
+2) Social Security benefits should not be reduced in any way	2197	65.8
+9) Don't know/Refused (VOL)	95	2.8
+Missing	6672
+
+
+161) Q125A
+[RANDOMIZE IN BLOCKS: Q121/121a/b, Q122/122a/b, Q123/a/b, Q124/a/b, Q125/a/b, Q126/a/b] [ASK IF ACCEPTABLE (Q125=1):] Should Social Security be [READ AND RANDOMIZE]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1049	2.031	1.295
+1) Phased out as a government program [OR]	191	18.2
+2) Maintained at a reduced level	826	78.7
+9) Don't know/Refused (VOL)	32	3.1
+Missing	8964
+
+
+162) Q125B
+[RANDOMIZE IN BLOCKS: Q121/121a/b, Q122/122a/b, Q123/a/b, Q124/a/b, Q125/a/b, Q126/a/b] [ASK IF UNACCEPTABLE (Q125=2):] Should Social Security be [READ AND RANDOMIZE]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2197	1.917	1.523
+1) Cover more people, with greater benefits [OR]	799	36.4
+2) Be kept about as it is	1310	59.6
+9) Don't know/Refused (VOL)	88	4.0
+Missing	7816
+
+
+163) Q126
+[RANDOMIZE IN BLOCKS: Q121/121a/b, Q122/122a/b, Q123/a/b, Q124/a/b, Q125/a/b, Q126/a/b] [ASK ALL PHASE A:]  Overall do you approve or disapprove of the government's collection of telephone and internet data as part of anti-terrorism efforts?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.937	1.69
+1) Approve	4134	41.3
+2) Disapprove	5379	53.7
+9) Don't know/Refused (VOL)	500	5.0
+
+
+164) Q126A
+[RANDOMIZE IN BLOCKS: Q121/121a/b, Q122/122a/b, Q123/a/b, Q124/a/b, Q125/a/b, Q126/a/b] [ASK IF APPROVE IN PHASE A (Q126=1):] Do you think the National Security Agency should be allowed to collect whatever data it needs or should there be limits on what it collects?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1398	1.768	1.049
+1) NSA should be allowed to collect whatever data it needs	485	34.7
+2) Should be limits on what NSA collects	890	63.7
+9) Don't know/Refused (VOL)	23	1.6
+Missing	8615
+
+
+165) Q126B
+[RANDOMIZE IN BLOCKS: Q121/121a/b, Q122/122a/b, Q123/a/b, Q124/a/b, Q125/a/b, Q126/a/b] [ASK IF DISAPPROVE IN PHASE A (Q126=2):] Do you think the National Security Agency should be prevented from collecting any data about U.S. citizens or should it be allowed to collect some limited information?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1770	1.882	1.157
+1) NSA prevented from collecting any data on citizens	481	27.2
+2) NSA should be allowed to collect some limited information	1250	70.6
+9) Don't know/Refused (VOL)	39	2.2
+Missing	8243
+
+
+166) QC127
+[ASK ALL PHASE C:] In general, do you think affirmative action programs designed to increase the number of black and minority students on college campuses are a good thing or a bad thing?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	2.015	2.196
+1) Good thing	1965	58.9
+2) Bad thing	1082	32.4
+9) Don't know/Refused (VOL)	288	8.6
+Missing	6678
+
+
+167) QC128
+[ASK ALL PHASE C:] Do you favor or oppose building the Keystone XL pipeline that would transport oil from Canada's oil sands region through the Midwest to refineries in Texas?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	2.184	2.503
+1) Favor	2087	62.6
+2) Oppose	862	25.8
+9) Don't know/Refused	386	11.6
+Missing	6678
+
+
+168) QC135
+Which comes closer to your view? [READ AND RANDOMIZE]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3335	1.736	1.751
+1) Humans and other living things have evolved over time	2079	62.3
+2) Humans and other living things have existed in their present form since the beginning of time	1085	32.5
+9) Don't know/Refused (VOL)	171	5.1
+Missing	6678
+
+
+169) QC135A
+[ASK IF EVOLVED (QC135=1):] And do you think that... [READ OPTIONS AND RANDOMIZE]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2079	1.989	2.085
+1) Humans and other living things have evolved due to natural processes such as natural selection	1149	55.3
+2) A supreme being guided the evolution of living things for the purpose of creating humans and other life in the form it exists today	769	37.0
+9) Don't know/Refused (VOL)	161	7.7
+Missing	7934
+
+
+170) B139TXT
+Read in for B139
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	3337	1.123	0.546
+1) The Bible	3144	94.2
+2) The Torah	72	2.2
+3) The Koran	23	0.7
+4) The Holy Scripture	98	2.9
+Missing	6676
+
+
+171) QB139
+[ASK ALL PHASE B:] Which comes closest to your view? [READ IN ORDER] [Holy book: If Christian or no religion (RELIG=1-4, 9, 10, 12, 13 or CHR=1) insert 'the Bible'; If Jewish (RELIG=5), insert 'the Torah'; If Muslim (RELIG=6), insert, 'the Koran'; If other non-Christian affiliations (RELIG=7, 8, 14 OR (RELIG=11 AND CHR=2, 9)), insert 'the Holy Scripture'; IF DK/REF in RELIGION (RELIG=99) AND CHR=2, 9, insert 'the Bible'].
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3337	1.663	1.599
+1) [Holy Book] is the word of God, [OR]	2137	64.0
+2) [Holy Book] is a book written by men and is not the word of God	1008	30.2
+3) Other (VOL)	55	1.6
+9) Don't know/Refused (VOL)	137	4.1
+Missing	6676
+
+
+172) B139ATXT
+Read in for b139
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	3337	1.123	0.546
+1) The Bible should be taken literally, word for word	3144	94.2
+2) The Torah should be taken literally, word for word	72	2.2
+3) The Koran should be taken literally, word for word	23	0.7
+4) The Holy Scripture should be taken literally, word for word	98	2.9
+Missing	6676
+
+
+173) QB139B
+[ASK IF BELIEVE HOLY BOOK IS WORD OF GOD (QB139=1):] And would you say that [READ IN ORDER]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2137	1.715	1.304
+1) [Holy Book] is to be taken literally, word for word [OR]	1031	48.2
+2) Not everything in [Holy Book] should be taken literally, word for word	1020	47.7
+3) Other (VOL)	30	1.4
+9) Don't know/Refused (VOL)	56	2.6
+Missing	7876
+
+
+174) SEX
+Respondent's sex
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	10013	1.5	0.5
+1) Men	5005	50.0
+2) Women	5008	50.0
+
+
+175) AGE
+What is your age?
+RANGE: 18 to 99
+	N	Mean	Std. Deviation
+Total	10013	53.268	18.9
+18)	140	1.4
+19)	105	1.0
+20)	111	1.1
+21)	123	1.2
+22)	110	1.1
+23)	131	1.3
+24)	119	1.2
+25)	110	1.1
+26)	124	1.2
+27)	100	1.0
+28)	111	1.1
+29)	121	1.2
+30)	134	1.3
+31)	110	1.1
+32)	139	1.4
+33)	121	1.2
+34)	113	1.1
+35)	131	1.3
+36)	120	1.2
+37)	96	1.0
+38)	115	1.1
+39)	115	1.1
+40)	131	1.3
+41)	85	0.8
+42)	153	1.5
+43)	150	1.5
+44)	148	1.5
+45)	143	1.4
+46)	145	1.4
+47)	139	1.4
+48)	157	1.6
+49)	149	1.5
+50)	233	2.3
+51)	162	1.6
+52)	183	1.8
+53)	192	1.9
+54)	181	1.8
+55)	233	2.3
+56)	196	2.0
+57)	225	2.2
+58)	201	2.0
+59)	211	2.1
+60)	262	2.6
+61)	177	1.8
+62)	211	2.1
+63)	160	1.6
+64)	191	1.9
+65)	238	2.4
+66)	205	2.0
+67)	219	2.2
+68)	149	1.5
+69)	160	1.6
+70)	214	2.1
+71)	154	1.5
+72)	143	1.4
+73)	138	1.4
+74)	111	1.1
+75)	124	1.2
+76)	109	1.1
+77)	74	0.7
+78)	90	0.9
+79)	71	0.7
+80)	120	1.2
+81)	70	0.7
+82)	69	0.7
+83)	72	0.7
+84)	41	0.4
+85)	49	0.5
+86)	42	0.4
+87)	38	0.4
+88)	28	0.3
+89)	25	0.2
+90)	25	0.2
+91)	18	0.2
+92)	9	0.1
+93)	12	0.1
+94)	7	0.1
+95)	4	0.0
+96)	2	0.0
+97) 97 or older	4	0.0
+99) Don't know/Refused (VOL)	162	1.6
+
+
+176) EDUC
+What is the highest level of school you have completed or the highest degree you have received
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	4.886	1.867
+1) Less than high school (grades one to eight or no formal schooling)	174	1.7
+2) High school incomplete (grades nine-11 or grade 12 with NO diploma)	436	4.4
+3) High school graduate (grade 12 with diploma or GED certificate)	2383	23.8
+4) Some college, no degree (includes community college)	1762	17.6
+5) Two year associate degree from a college or university	1084	10.8
+6) Four year college or university degree/bachelor's degree (e.g., BS, BA, AB)	2510	25.1
+7) Some postgraduate or professional schooling, no postgraduate degree (e.g. some graduate school)	158	1.6
+8) Postgraduate or professional degree, including master's, doctorate, medical or law degree (e.g., MA, MS, PhD, MD, JD)	1457	14.6
+9) Don't know/Refused (VOL)	49	0.5
+
+
+177) HISP
+Are you of Hispanic, Latino or Spanish origin, such as Mexican, Puerto Rican or Cuban? - Includes RACE backcodes
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.969	0.707
+1) Yes	902	9.0
+2) No	9027	90.2
+9) Don't know/Refused (VOL)	84	0.8
+
+
+178) RACEM1
+Which of the following describes your race? You can select as many as apply. White, black or African American, Asian or Asian American, or some other race. (MENTION #1)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.617	1.651
+1) White (e.g., Caucasian, European, Irish, Italian, Arab, Middle Eastern)	7892	78.8
+2) Black or African-American (e.g., Negro, Kenyan, Nigerian, Haitian)	1085	10.8
+3) Asian or Asian-American (e.g., Asian Indian, Chinese, Filipino, Vietnamese or other Asian origin groups)	278	2.8
+4) Some other race (SPECIFY) IF NEEDED: What race or races is that?	45	0.4
+5) Native American/American Indian/Alaskan Native (VOL)	132	1.3
+6) Pacific Islander/Native Hawaiian (VOL)	17	0.2
+7) Hispanic/Latino (e.g., Mexican, Puerto Rican, Cuban) (VOL)	353	3.5
+8) Don't know (VOL)	17	0.2
+9) Refused (e.g., non-race answers like American, Human, purple) (VOL)	194	1.9
+
+
+179) RACEM2
+Which of the following describes your race? You can select as many as apply. White, black or African American, Asian or Asian American, or some other race. (MENTION #2)
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	391	4.059	1.877
+1) White (e.g., Caucasian, European, Irish, Italian, Arab, Middle Eastern)	36	9.2
+2) Black or African-American (e.g., Negro, Kenyan, Nigerian, Haitian)	79	20.2
+3) Asian or Asian-American (e.g., Asian Indian, Chinese, Filipino, Vietnamese or other Asian origin groups)	50	12.8
+4) Some other race (SPECIFY) IF NEEDED: What race or races is that?	4	1.0
+5) Native American/American Indian/Alaska Native (VOL)	161	41.2
+6) Pacific Islander/Native Hawaiian (VOL)	5	1.3
+7) Hispanic/Latino (e.g., Mexican, Puerto Rican, Cuban) (VOL)	56	14.3
+Missing	9622
+
+
+180) RACEM3
+Which of the following describes your race? You can select as many as apply. White, black or African American, Asian or Asian American, or some other race. (MENTION #3)
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	47	4.872	1.727
+1) White (e.g., Caucasian, European, Irish, Italian, Arab, Middle Eastern)	3	6.4
+2) Black or African-American (e.g., Negro, Kenyan, Nigerian, Haitian)	2	4.3
+3) Asian or Asian-American (e.g., Asian Indian, Chinese, Filipino, Vietnamese or other Asian origin groups)	6	12.8
+4) Some other race (SPECIFY) IF NEEDED: What race or races is that?	1	2.1
+5) Native American/American Indian/Alaska Native (VOL)	21	44.7
+6) Pacific Islander/Native Hawaiian (VOL)	3	6.4
+7) Hispanic/Latino (e.g., Mexican, Puerto Rican, Cuban) (VOL)	11	23.4
+Missing	9966
+
+
+181) RACEM4
+Which of the following describes your race? You can select as many as apply. White, black or African American, Asian or Asian American, or some other race. (MENTION #4)
+RANGE: 2 to 5
+	N	Mean	Std. Deviation
+Total	5	4	1.414
+1) White (e.g., Caucasian, European, Irish, Italian, Arab, Middle Eastern)
+2) Black or African-American (e.g., Negro, Kenyan, Nigerian, Haitian)	1	20.0
+3) Asian or Asian-American (e.g., Asian Indian, Chinese, Filipino, Vietnamese or other Asian origin groups)	1	20.0
+4) Some other race (SPECIFY) IF NEEDED: What race or races is that?	0	0.0
+5) Native American/American Indian/Alaska Native (VOL)	3	60.0
+6) Pacific Islander/Native Hawaiian (VOL)	0	0.0
+7) Hispanic/Latino (e.g., Mexican, Puerto Rican, Cuban) (VOL)	0	0.0
+Missing	10008
+
+
+182) BORNHISP
+Were you born in the United States, on the island of Puerto Rico or in another country? [BIRTHHISP]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	897	1.768	1.005
+1) U.S.	539	60.1
+2) Puerto Rico	39	4.3
+3) Another country	317	35.3
+9) Don't know/Refused (VOL)	2	0.2
+Missing	9116
+
+
+183) USBORN
+Were you born in the United States or in another country?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	9116	1.091	0.509
+1) Yes, born in U.S.	8495	93.2
+2) No, some other country	585	6.4
+3) Puerto Rico (VOL)	2	0.0
+4) Other U.S. territories (includes Guam, Samoa, U.S. Virgin Islands)	6	0.1
+9) Don't know/Refused (VOL)	28	0.3
+Missing	897
+
+
+184) MARITAL
+Are you currently married, living with a partner, divorced, separated, widowed or have you never been married?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	2.709	2.092
+1) Married	5201	51.9
+2) Living with a partner	590	5.9
+3) Divorced	1142	11.4
+4) Separated	204	2.0
+5) Widowed	993	9.9
+6) Never been married	1804	18.0
+9) Don't know/Refused (VOL)	79	0.8
+
+
+185) PARENT
+Are you the parent or guardian of any children under 18 now living in your household?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3341	1.792	0.658
+1) Yes	808	24.2
+2) No	2517	75.3
+9) Don't know/Refused (VOL)	16	0.5
+Missing	6672
+
+
+186) CITIZEN
+Are you a citizen of the United States or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	932	1.641	1.488
+1) Yes	566	60.7
+2) No	333	35.7
+9) Don't know/Refused (VOL)	33	3.5
+Missing	9081
+
+
+187) RELIG
+What is your present religion, if any? Are you Protestant, Roman Catholic, Mormon, Orthodox (such as Greek or Russian Orthodox), Jewish, Muslim, Buddhist, Hindu, atheist, agnostic, something else or nothing in particular?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	10013	6.496	13.018
+1) Protestant (Baptist, Methodist, Non-denominational, Lutheran, Presbyterian, Pentecostal, Episcopalian, etc.)	3987	39.8
+2) Roman Catholic (Catholic)	2060	20.6
+3) Mormon (Church of Jesus Christ of Latter-day Saints/LDS)	175	1.7
+4) Orthodox (Greek, Russian or some other Orthodox church)	75	0.7
+5) Jewish (Judaism)	223	2.2
+6) Muslim (Islam)	64	0.6
+7) Buddhist	59	0.6
+8) Hindu	58	0.6
+9) Atheist (do not believe in God)	272	2.7
+10) Agnostic (not sure if there is a God)	357	3.6
+11) Something else (SPECIFY)	205	2.0
+12) Nothing in particular	1238	12.4
+13) Christian (VOL)	1028	10.3
+14) Unitarian (Universalist) (VOL)	44	0.4
+99) Don't know/Refused (VOL)	168	1.7
+
+
+188) CHR
+Do you think of yourself as a Christian or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	647	2.206	2.518
+1) Yes	399	61.7
+2) No	172	26.6
+9) Don't know/Refused (VOL)	76	11.7
+Missing	9366
+
+
+189) BORN
+Would you describe yourself as a 'born again' or evangelical Christian or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7470	1.809	1.424
+1) Yes, would	3176	42.5
+2) No, would not	4044	54.1
+9) Don't know/Refused (VOL)	250	3.3
+Missing	2543
+
+
+190) ATTEND
+Aside from weddings and funerals, how often do you attend religious services... more than once a week, once a week, once or twice a month, a few times a year, seldom or never?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	3.422	1.693
+1) More than once a week	1308	13.1
+2) Once a week	2493	24.9
+3) Once or twice a month	1434	14.3
+4) A few times a year	1813	18.1
+5) Seldom	1662	16.6
+6) Never	1208	12.1
+9) Don't know/Refused (VOL)	95	0.9
+
+
+191) INCOME
+Last year, that is in 2013, what was your total family income from all sources, before taxes? Just stop me when I get to the right category.
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	10013	5.644	2.766
+1) Less than $10,000	732	7.3
+2) $10,000 to under $20,000	989	9.9
+3) $20,000 to under $30,000	1071	10.7
+4) $30,000 to under $40,000	917	9.2
+5) $40,000 to under $50,000	806	8.0
+6) $50,000 to under $75,000	1451	14.5
+7) $75,000 to under $100,000	1146	11.4
+8) $100,000 to under $150,000 [OR]	991	9.9
+9) $150,000 or more	865	8.6
+10) Don't know/Refused (VOL)	1045	10.4
+
+
+192) INCHI
+And your total 2013 family income before taxes...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	865	1.699	1.731
+1) Under $250,000 [OR]	561	64.9
+2) $250,000 or more	261	30.2
+9) Don't know/Refused (VOL)	43	5.0
+Missing	9148
+
+
+193) REG
+Which of these statements best describes you?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.43	1.098
+1) Are you ABSOLUTELY CERTAIN that you are registered to vote at your current address [OR]	7999	79.9
+2) Are you PROBABLY registered, but there is a chance your registration has lapsed [OR]	441	4.4
+3) Are you NOT registered to vote at your current address	1453	14.5
+9) Don't know/Refused (VOL)	120	1.2
+
+
+194) PARTY
+[ASK ALL:] In politics TODAY, do you consider yourself a Republican, Democrat or Independent?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	2.387	1.322
+1) Republican	2415	24.1
+2) Democrat	3064	30.6
+3) Independent	3968	39.6
+4) No preference (VOL)	259	2.6
+5) Other party (VOL)	87	0.9
+9) Don't know/Refused (VOL)	220	2.2
+
+
+195) PARTYLN
+[ASK IF INDEP/NO PREF/OTHER/DK/REF (PARTY=3,4,5,9):] As of today do you lean more to the Republican Party or more to the Democratic Party?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	4534	3.432	3.329
+1) Republican	1762	38.9
+2) Democrat	1593	35.1
+9) Other/Don't know/Refused (VOL)	1179	26.0
+Missing	5479
+
+
+196) PRTYFLAG
+Flag for interviews after partystr was added-use this variable as a filter to get partystr based on total interviews after added and in wincross job [PARTYSTRFLAG]
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	9569	1	0
+1)	9569	100.0
+Missing	444
+
+
+197) PARTYSTR
+[ASK IF REPUBLICAN OR DEMOCRAT (PARTY=1,2):] Do you consider yourself a STRONG [REPUBLICAN/DEMOCRAT] or NOT a strong [Republican/Democrat]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5217	1.529	1.053
+1) Strong	3017	57.8
+2) Not strong	2120	40.6
+9) Don't know/Refused (VOL)	80	1.5
+Missing	4796
+
+
+198) PARTYSUM
+Party with leaners\V
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	2.407	2.454
+1) Republican/Independent Republican	4177	41.7
+2) Democrat/Independent Democrat	4657	46.5
+9) No leaning	1179	11.8
+
+
+199) IDEO
+In general, would you describe your political views as...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	3.092	1.605
+1) Very conservative	808	8.1
+2) Conservative	2945	29.4
+3) Moderate	3573	35.7
+4) Liberal [OR]	1623	16.2
+5) Very liberal	632	6.3
+9) Don't know/Refused (VOL)	432	4.3
+
+
+200) QB140
+[RANDOMIZE ORDER OF QB140/QB140B AND QB141/QB141B IN BLOCKS ASK IF NOT CURRENTLY DEMOCRAT IN PHASE B (PARTY=1,3,4,5,9 AND REG=1):] Has there ever been a time when you have thought of yourself as a DEMOCRAT or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1851	1.688	1.06
+1) Yes	787	42.5
+2) No	1034	55.9
+9) Don't know/Refused (VOL)	30	1.6
+Missing	8162
+
+
+201) QB140B
+[ASK IF EVER THOUGHT OF SELF AS DEMOCRAT (QB140=1):] What about in the past 10 years, have you thought of yourself as a Democrat in the past 10 years or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	787	1.499	0.681
+1) Yes	415	52.7
+2) No	369	46.9
+9) Don't know/Refused (VOL)	3	0.4
+Missing	9226
+
+
+202) QB141
+[RANDOMIZE ORDER OF QB140/QB140B AND QB141/QB141B IN BLOCKS ASK IF NOT CURRENTLY DEMOCRAT IN PHASE B (PARTY=1,3,4,5,9 AND REG=1):] Has there ever been a time when you have thought of yourself as a REPUBLICAN or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1928	1.693	0.954
+1) Yes	759	39.4
+2) No	1145	59.4
+9) Don't know/Refused (VOL)	24	1.2
+Missing	8085
+
+
+203) QB141B
+[ASK IF EVER THOUGHT OF SELF AS REPUBLIC (QB141=1):] What about in the past 10 years, have you thought of yourself as a Republican in the past 10 years or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	759	1.414	0.734
+1) Yes	473	62.3
+2) No	282	37.2
+9) Don't know/Refused (VOL)	4	0.5
+Missing	9254
+
+
+204) QC142
+[ASK ALL PHASE C REGISTERED VOTERS (REG=1):] Thinking about the elections you have voted in over the past several years, including national and statewide elections. Would you say you...? [READ IN ORDER; REVERSE ORDER FOR RANDOM HALF OF SAMPLE]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2653	3.322	1.649
+1) Always vote Republican	270	10.2
+2) Usually vote Republican	671	25.3
+3) Vote about equally for both parties	593	22.4
+4) Usually vote Democratic	564	21.3
+5) Always vote Democratic	440	16.6
+7) Have never voted	9	0.3
+8) Don't vote for either party/vote for other parties	50	1.9
+9) Don't know/Refused	56	2.1
+Missing	7360
+
+
+205) Q148
+[ASK ALL REGISTERED VOTERS (REG=1):] As you may know, primary elections, where parties select their nominees, take place in the months before general elections. Thinking about the primary elections for Congress this year, do you happen to know in what month your state's primary will be held? [OPEN END; SINGLE PUNCH; DO NOT READ, USE PRECODES, IF RESPONDENT IS NOT SURE, DO NOT PROBE, ENTER AS DON'T KNOW]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7999	67.53	44.067
+1) January/February	49	0.6
+2) March	306	3.8
+3) April	149	1.9
+4) May	565	7.1
+5) June	351	4.4
+6) July	29	0.4
+7) August	191	2.4
+8) September	245	3.1
+9) October/November/December	819	10.2
+99) Don't know/Refused (VOL)	5295	66.2
+Missing	2014
+
+
+206) Q149
+[ASK ALL REGISTERED VOTERS (REG=1):] And how often would you say you vote in congressional PRIMARY elections. Would you say you vote in congressional primary elections...? [READ IN ORDER]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7999	2.199	1.364
+1) Always	3370	42.1
+2) Nearly always	1791	22.4
+3) Party of the time [OR]	1201	15.0
+4) Seldom or never	1486	18.6
+5) Not registered with a party/Can't vote in primaries	68	0.9
+9) Don't know/Refused (VOL)	83	1.0
+Missing	2014
+
+
+207) TEAPTY2
+[ASK ALL:] From what you know, do you agree or disagree with the Tea Party movement or don't you have an opinion either way? [TEAPARTY2]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	2.456	1.395
+1) Agree	2019	20.2
+2) Disagree	3330	33.3
+3) No opinion either way	4328	43.2
+8) Haven't heard of (VOL)	97	1.0
+9) Don't know/Refused (VOL)	239	2.4
+
+
+208) Q150
+[ASK IF AGREE WITH TEA PARTY IN PHASE A (TEAPTY2=1):] Have you ever attended a Tea Party rally or meeting or not? [IF YES: Was that in the last two years or not?]
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	662	3.502	1.021
+1) Yes, within the last two years	66	10.0
+2) Yes, but NOT within the last two years	64	9.7
+3) Yes, but don't know if within last two years	4	0.6
+4) No	528	79.8
+Missing	9351
+
+
+209) PVOTE12A
+In the 2012 presidential election between Barack Obama and Mitt Romney, did things come up that kept you from voting or did you happen to vote?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2681	1.119	0.639
+1) Voted	2468	92.1
+2) Did not vote (includes too young to vote)	197	7.3
+8) Don't remember if voted (VOL)	6	0.2
+9) Don't know/Refused (VOL)	10	0.4
+Missing	7332
+
+
+210) PVOTE12B
+Did you vote for Obama, Romney or someone else?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2468	1.87	1.558
+1) Obama	1169	47.4
+2) Romney	1034	41.9
+3) Other candidate	157	6.4
+4) Don't remember which candidate (VOL)	13	0.5
+9) Don't know/Refused (VOL)	95	3.8
+Missing	7545
+
+
+211) EMPLOY2
+Are you now employed full-time, part-time, retired or are you not employed for pay?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3337	2.417	1.604
+1) Employed full-time	1396	41.8
+2) Employed part-time	375	11.2
+3) Retired	941	28.2
+4) Not employed for pay	385	11.5
+5) Have own business/self-employed (VOL)	64	1.9
+6) Disabled (VOL)	90	2.7
+7) Student (VOL)	29	0.9
+8) Other (VOL)	19	0.6
+9) Don't know/Refused (VOL)	38	1.1
+Missing	6676
+
+
+212) EMPLOY1
+Are you currently looking for work or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1464	1.857	0.525
+1) Yes, looking for work	237	16.2
+2) No, not looking for work	1223	83.5
+9) Don't know/Refused (VOL)	4	0.3
+Missing	8549
+
+
+213) EMPLOY7
+Would you prefer to be working full time or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	375	1.613	0.915
+1) Yes, would prefer full time	173	46.1
+2) No, would not	198	52.8
+9) Don't know/Refused (VOL)	4	1.1
+Missing	9638
+
+
+214) HH1
+How many people, including yourself, live in your household?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	2.757	1.705
+1)	2114	21.1
+2)	3685	36.8
+3)	1586	15.8
+4)	1331	13.3
+5)	636	6.4
+6)	272	2.7
+7)	98	1.0
+8) Eight or more	74	0.7
+9) Don't know/Refused	217	2.2
+
+
+215) HH3
+How many, including yourself, are adults, age 18 and older?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7899	2.536	1.327
+1)	359	4.5
+2)	5178	65.6
+3)	1426	18.1
+4)	528	6.7
+5)	137	1.7
+6)	51	0.6
+7)	16	0.2
+8) Eight or more	13	0.2
+9) Don't know/Refused	191	2.4
+Missing	2114
+
+
+216) QL1
+Now thinking about your telephone use... Do you have a working cell phone?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5010	1.251	0.945
+1) Yes, have cell phone	4194	83.7
+2) No, do not	753	15.0
+9) Don't know/Refused (VOL)	63	1.3
+Missing	5003
+
+
+217) QL1A
+Does anyone in your household have a working cell phone?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	504	2.421	2.511
+1) Yes, someone in household has cell phone	222	44.0
+2) No	220	43.7
+9) Don't know/Refused (VOL)	62	12.3
+Missing	9509
+
+
+218) QC1
+Now thinking about your telephone use... Is there at least one telephone INSIDE your home that is currently working and is not a cell phone?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5003	1.654	1.049
+1) Yes, home telephone	2276	45.5
+2) No, home telephone	2649	52.9
+9) Don't know/Refused (VOL)	78	1.6
+Missing	5010
+
+
+219) LC2
+Of all telephone calls that you receive, do you get...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1237	2.296	0.921
+1) All or almost all calls on a cell phone	248	20.0
+2) Some on a cell phone and some on a regular home phone	417	33.7
+3) All or almost all calls on a regular home phone	565	45.7
+9) Don't know/Refused (VOL)	7	0.6
+Missing	8776
+
+
+220) LC3
+Now thinking about all the people in your household, including yourself, of all the telephone calls that your household receives, are...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5455	1.978	0.922
+1) All or almost all calls on a cell phone	1583	29.0
+2) Some on a cell phone and some on a regular home phone	2637	48.3
+3) All or almost all calls on a regular home phone	1197	21.9
+9) Don't know/Refused (VOL)	38	0.7
+Missing	4558
+
+
+221) QZIP
+What is your ZIP Code?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.265	1.432
+1) Gave ZIP Code	9681	96.7
+9) Don't know/Refused (VOL)	332	3.3
+
+
+222) MONEY
+We'd like to send you $5 for your time. Can I please have your name and a mailing address where we can send you the money?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5003	3.936	3.856
+1) Respondent agrees	3167	63.3
+9) Respondent does not want the money (VOL)	1836	36.7
+Missing	5010
+
+
+223) ISEX
+I HERBY ATTEST THAT THIS IS A TRUE AND HONEST INTERVIEW. INTERVIEW GENDER:
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	10003	1.505	0.5
+1) Male	4950	49.5
+2) Female	5053	50.5
+Missing	10
+
+
+224) IHISP1
+Are you, yourself, of Hispanic origin or descent, such as Mexican, Puerto Rican, Cuban or some other Spanish background?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10003	1.932	0.98
+1) Yes	1804	18.0
+2) No	8039	80.4
+9) Don't know/Refused (VOL)	160	1.6
+Missing	10
+
+
+225) IRACE1M1
+Which of the following describes your race? You can select as many as apply. (MENTION #1)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10003	1.591	1.414
+1) White	6985	69.8
+2) Black or African-American	2204	22.0
+4) Or some other race	560	5.6
+9) Don't know/Refused (VOL)	254	2.5
+Missing	10
+
+
+226) IRACE1M2
+Which of the following describes your race? You can select as many as apply (MENTION #2)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	454	3.013	0.871
+1) White	5	1.1
+2) Black or African-American	154	33.9
+3) Asian or Asian-American	125	27.5
+4) Or some other race	170	37.4
+Missing	9559
+
+
+227) IRACE1M3
+Which of the following describes your race? You can select as many as apply. (MENTION #3)
+RANGE: 3 to 4
+	N	Mean	Std. Deviation
+Total	100	3.42	0.496
+3) Asian or Asian-American	58	58.0
+4) Or some other race	42	42.0
+Missing	9913
+
+
+228) IRACE1M4
+Which of the following describes your race? You can select as many as apply. (MENTION #4)
+RANGE: 4 to 4
+	N	Mean	Std. Deviation
+Total	58	4	0
+4) Or some other race	58	100.0
+Missing	9955
+
+
+229) RACECMB
+Combining Race
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.646	1.517
+1) White	7597	75.9
+2) Black or African-American	1034	10.3
+3) Asian or Asian-American	267	2.7
+4) Mixed race	407	4.1
+5) Or some other race	497	5.0
+9) Don't know/Refused	211	2.1
+
+
+230) RACETHN
+Race-Ethnicity
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10013	1.64	1.373
+1) White non-Hispanic	7227	72.2
+2) Black non-Hispanic	998	10.0
+3) Hispanic	902	9.0
+4) Other	697	7.0
+9) Don't know/Refused (VOL)	189	1.9
+
+
+231) INTUSER
+Internet usage
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	10013	0.88	0.325
+0) Not Internet user	1205	12.0
+1) Internet user	8808	88.0
+
+
+232) Q148COR
+Indicates whether or not Q148 is correct [Q148CORRECT]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7999	6.408	3.54
+1) Correct	1206	15.1
+2) Incorrect	1466	18.3
+3) Louisiana resident	137	1.7
+9) Don't know/Refused	5190	64.9
+Missing	2014
+
+
+233) LLWEIGHT
+LLWEIGHT
+RANGE: 0.1725767 to 4.3263147
+	N	Mean	Std. Deviation
+Total	5010	1	1.004
+
+
+234) CELLWGHT
+Cell Weight [CELLWEIGHT]
+RANGE: 0.4068373 to 2.042364
+	N	Mean	Std. Deviation
+Total	5003	1	0.413
+
+
+235) IDEOCON
+Ideological consistency scale, based on 10 questions [IDEOCONSIST]
+RANGE: -10 to 10
+	N	Mean	Std. Deviation
+Total	10013	-0.452	5.367
+-10)	545	5.4
+-9)	105	1.0
+-8)	625	6.2
+-7)	193	1.9
+-6)	740	7.4
+-5)	217	2.2
+-4)	825	8.2
+-3)	284	2.8
+-2)	1018	10.2
+-1)	294	2.9
+0)	948	9.5
+1)	292	2.9
+2)	917	9.2
+3)	264	2.6
+4)	750	7.5
+5)	268	2.7
+6)	650	6.5
+7)	193	1.9
+8)	514	5.1
+9)	108	1.1
+10)	263	2.6
+
+
+236) IDEOCONR
+Ideological consistency scale recoded into categories [IDEOCONSISTREC]
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	10013	2.909	1.187
+1) Consistent liberal	1468	14.7
+2) Mostly liberal	2066	20.6
+3) Mixed	3469	34.6
+4) Mostly conservative	1932	19.3
+5) Consistent conservative	1078	10.8
+
+
+237) BYS
+Bystander
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	10013	0.065	0.247
+0)	9358	93.5
+1)	655	6.5
+
+
+238) TYPOGRP
+Final Typology Assignments [TYPOGROUPS]
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	10013	4.129	2.273
+1) Solid liberal	1752	17.5
+2) Faith and family left	1393	13.9
+3) Next generation left	1208	12.1
+4) Hard pressed skeptics	1135	11.3
+5) Young outsiders	1246	12.4
+6) Business conservatives	1197	12.0
+7) Steadfast conservatives	1427	14.3
+8) Bystanders	655	6.5
+
+
+239) WEIGHT
+Weight (Phone4_raking)
+RANGE: 0.2961742 to 2.3420536
+	N	Mean	Std. Deviation
+Total	10013	1	0.569
+
+
+240) I-ATTEND
+Aside from weddings and funerals, how often do you attend religious services... more than once a week, once a week, once or twice a month, a few times a year, seldom or never? (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	9918	3.079	1.269
+1) More than once a week	1308	13.2
+2) Once a week	2493	25.1
+3) Once or twice a month	1434	14.5
+4) Less than monthly	3475	35.0
+5) Never	1208	12.2
+Missing	95
+
+
+241) I-EDUC
+What is the highest level of school you have completed or the highest degree you have received (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	9964	3.214	1.157
+1) Less than high school graduate (grades one to 12 with NO diploma)	610	6.1
+2) High school graduate (grade 12 with diploma or GED certificate)	2383	23.9
+3) Some college or two year associate degree	2846	28.6
+4) Four year college or university degree/bachelor's degree (e.g., BS, BA, AB)	2510	25.2
+5) At least some postgraduate or professional schooling	1615	16.2
+Missing	49
+
+
+242) I-GENDER
+I HERBY ATTEST THAT THIS IS A TRUE AND HONEST INTERVIEW. INTERVIEW GENDER: (for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	10003	1.505	0.5
+1) Male	4950	49.5
+2) Female	5053	50.5
+Missing	10
+
+
+243) I-MARITAL
+Are you currently married, living with a partner, divorced, separated, widowed or have you never been married? (Recoded for use with online analysis)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	9934	1.599	0.777
+1) Married or cohabitating	5791	58.3
+2) Divorced, separated or widowed	2339	23.5
+3) Never been married	1804	18.2
+Missing	79
+
+
+244) I-PARTYID
+[ASK ALL:] In politics TODAY, do you consider yourself a Republican, Democrat or Independent? (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	9793	2.22	0.847
+1) Republican	2415	24.7
+2) Democrat	3064	31.3
+3) Independent or other party	4055	41.4
+4) No preference (VOL)	259	2.6
+Missing	220
+
+
+245) I-RELIGION
+What is your present religion, if any? Are you Protestant, Roman Catholic, Mormon, Orthodox (such as Greek or Russian Orthodox), Jewish, Muslim, Buddhist, Hindu, atheist, agnostic, something else or nothing in particular? (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	9845	2.422	1.522
+1) Protestant (Baptist, Methodist, Non-denominational, Lutheran, Presbyterian, Pentecostal, Episcopalian, etc.)	3987	40.5
+2) Roman Catholic (Catholic)	2060	20.9
+3) Other Christian	1322	13.4
+4) Other (Jewish, Muslim, Buddhist, Hindu, etc.)	609	6.2
+5) Atheist, Agnostic, or nothing in particular	1867	19.0
+Missing	168
+
+

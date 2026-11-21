@@ -1,0 +1,1741 @@
+Data File: GENNEXT (Full Data Codebook)
+
+1) RESPID
+Respondent ID
+RANGE: 1 to 81530
+	N	Mean	Std. Deviation
+Total	1501	21990.761	31151.695
+
+
+2) MARKER
+Marker for sample
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1501	1.5	0.764
+1) GP	1000	66.6
+2) Landline oversample of ages 18-25	251	16.7
+3) Cell Phones sample of ages 18-25	250	16.7
+
+
+3) TIMEZONE
+Time zone
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1501	1.919	1.099
+1) Eastern	716	47.7
+2) Central	445	29.6
+3) Mountain	85	5.7
+4) Pacific	255	17.0
+
+
+4) NUMATTEM
+Current number of attempts
+RANGE: 1 to 18
+	N	Mean	Std. Deviation
+Total	1501	3.967	3.098
+1) 	375	25.0
+2) 	281	18.7
+3) 	203	13.5
+4) 	133	8.9
+5) 	122	8.1
+6) 	91	6.1
+7) 	72	4.8
+8) 	69	4.6
+9) 	45	3.0
+10) 	28	1.9
+11) 	34	2.3
+12) 	35	2.3
+13) 	7	0.5
+14) 	1	0.1
+15) 	3	0.2
+18) 	2	0.1
+
+
+5) SAMPKEY
+Sample Key
+RANGE: 2012144191 to 9899165491
+	N	Mean	Std. Deviation
+Total	1501	5863486785.971	2321170460.982
+
+
+6) ZIP
+Zip code
+RANGE: 1220 to 99301
+	N	Mean	Std. Deviation
+Total	1251	49866.07	29165.232
+
+
+7) REGION
+Region
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1501	2.603	1.035
+1) Northeast	293	19.5
+2) Midwest	340	22.7
+3) South	538	35.8
+4) West	330	22.0
+
+
+8) CENDIV
+Census Division
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	5.081	2.51
+1) New England	87	5.8
+2) Mid-Atlantic	206	13.7
+3) East North Central	219	14.6
+4) West North Central	121	8.1
+5) South Atlantic	259	17.3
+6) East South Central	111	7.4
+7) West South Central	168	11.2
+8) Mountain	121	8.1
+9) Pacific	209	13.9
+
+
+9) FIPS
+FIPS code for geographic area
+RANGE: 1013 to 55133
+	N	Mean	Std. Deviation
+Total	1501	28992.191	15843.77
+
+
+10) DMA
+Designated Market Area
+RANGE: 500 to 881
+	N	Mean	Std. Deviation
+Total	1501	623.025	113.211
+
+
+11) DMARANK
+Designated Market Area rank
+RANGE: 1 to 210
+	N	Mean	Std. Deviation
+Total	1251	47.125	48.123
+
+
+12) MSA
+Metropolitan Statistical Area
+RANGE: 0 to 49700
+	N	Mean	Std. Deviation
+Total	1501	24550.606	15661.119
+
+
+13) OVER18A
+First, including yourself, how many people age 18 or older currently live in this household?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	251	2.717	1.202
+1) 	31	12.4
+2) 	87	34.7
+3) 	83	33.1
+4) 	33	13.1
+5) 	11	4.4
+6) 	3	1.2
+7) 	1	0.4
+8) 8 or more	2	0.8
+Missing	1250
+
+
+14) OVER18B
+In order to be sure we are representing the opinions of people in different kinds of households; could you please tell me how many people in your household are 18-25 years of age?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	251	1.578	0.99
+1) 	153	61.0
+2) 	72	28.7
+3) 	16	6.4
+4) 	6	2.4
+5) 	1	0.4
+6) 	1	0.4
+8) 8 or more	2	0.8
+Missing	1250
+
+
+15) OVER18C
+(IF OVER18B = 1 ASK:) May I please speak to the person age 18-25?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	153	1.072	0.259
+1) Respondent on Phone is 18-25	142	92.8
+2) Respondent coming to phone	11	7.2
+Missing	1348
+
+
+16) YNGMALE
+(IF OVER18B = 2-8 ASK:)  I'd like to ask a few questions of the YOUNGEST MALE, 18-25 years of age, who is now at home. [IF NO MALE, ASK:  May I please speak with the YOUNGEST FEMALE, 18-25 years of age, who is now at home?]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	98	1.031	0.173
+1) Respondent on phone is the selected 18-25	95	96.9
+2) Respondent coming to phone	3	3.1
+Missing	1403
+
+
+17) AGELAND
+What is your age? (LANDLINE OVERSAMPLE OF AGES 18-25)
+RANGE: 18 to 25
+	N	Mean	Std. Deviation
+Total	251	21.622	2.484
+18) 	38	15.1
+19) 	30	12.0
+20) 	27	10.8
+21) 	26	10.4
+22) 	27	10.8
+23) 	25	10.0
+24) 	32	12.7
+25) 	46	18.3
+Missing	1250
+
+
+18) AGECELL
+What is your age? (CELL PHONE SAMPLE OF AGES 18-25)
+RANGE: 18 to 25
+	N	Mean	Std. Deviation
+Total	250	21.332	2.374
+18) 	40	16.0
+19) 	33	13.2
+20) 	31	12.4
+21) 	26	10.4
+22) 	34	13.6
+23) 	22	8.8
+24) 	34	13.6
+25) 	30	12.0
+Missing	1251
+
+
+19) SEX
+Respondent's sex
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1501	1.508	0.5
+1) Male	738	49.2
+2) Female	763	50.8
+
+
+20) HAPPY
+Generally, how would you say things are these days in your life -- would you say that you are very happy, pretty happy, or not too happy?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.847	1.052
+1) Very happy	522	34.8
+2) Pretty happy	813	54.2
+3) Not too happy	145	9.7
+9) (VOL.) Don't know/Refused	21	1.4
+
+
+21) PROBLEM
+What is the most important problem facing you in your life these days?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	2.159	2.664
+1) Gave Response	1261	84.0
+8) (VOL.) None/No problem	180	12.0
+9) (VOL.) Don't know/Refused	60	4.0
+
+
+22) PROBLEM1
+Respondent's first answer to PROBLEM
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1501	49.777	35.679
+1) Bills	30	2.0
+2) Student Loans	3	0.2
+3) Debt/Credit issues	5	0.3
+4) Financial issues/problems/difficulties	126	8.4
+5) Saving money	2	0.1
+6) Cost of living/income	33	2.2
+7) Retirement	22	1.5
+9) Money (general)	172	11.5
+21) Job advancement	4	0.3
+22) Finding a job/getting a job	61	4.1
+23) Job security/satisfaction	18	1.2
+24) Work/Career (general)	56	3.7
+31) Getting older/Aging/Disabled	30	2.0
+32) Insurance and Prescription costs	15	1.0
+39) Health (general)	111	7.4
+41) Raising children/Childcare/Having a baby	69	4.6
+42) Love life/boyfriend/soulmate	13	0.9
+43) Aging parents/siblings/spouse/losing loved ones	17	1.1
+49) Relationships (general)	43	2.9
+51) Choosing a college/school	8	0.5
+52) Passing classes/getting good grades/keeping up with classwork	13	0.9
+53) Paying for college	15	1.0
+54) Getting through college/graduating	10	0.7
+55) College/School/Education (general)	71	4.7
+71) Crime	9	0.6
+72) Life (general)	7	0.5
+73) Time pressures/management	55	3.7
+74) Future	12	0.8
+75) Spirituality/Morality/General decline	6	0.4
+76) Alcoholism and Drugs	4	0.3
+81) Bush/Politicians	14	0.9
+82) War/Iraq	15	1.0
+83) Terrorism	9	0.6
+84) The economy/deficit/inflation	15	1.0
+85) Gas prices	9	0.6
+86) Unemployment/No jobs	5	0.3
+88) Politics (general)	11	0.7
+89) Dissatisfied with politics	3	0.2
+97) Miscellaneous	114	7.6
+98) None/No problems	203	13.5
+99) Don't know/Refused	63	4.2
+
+
+23) PROBLEM2
+Respondent's second answer to PROBLEM
+RANGE: 1 to 98
+	N	Mean	Std. Deviation
+Total	88	38.227	30.177
+1) Bills	6	6.8
+2) Student Loans	2	2.3
+3) Debt/Credit issues	1	1.1
+4) Financial issues/problems/difficulties	5	5.7
+6) Cost of living/income	1	1.1
+7) Retirement	2	2.3
+9) Money (general)	6	6.8
+22) Finding a job/getting a job	5	5.7
+23) Job security/satisfaction	4	4.5
+24) Work/Career (general)	10	11.4
+31) Getting older/Aging/Disabled	2	2.3
+32) Insurance and Prescription costs	7	8.0
+39) Health (general)	2	2.3
+41) Raising children/Childcare/Having a baby	5	5.7
+43) Aging parents/siblings/spouse/losing loved ones	2	2.3
+49) Relationships (general)	1	1.1
+52) Passing classes/getting good grades/keeping up with classwork	2	2.3
+53) Paying for college	1	1.1
+54) Getting through college/graduating	2	2.3
+71) Crime	1	1.1
+73) Time pressures/management	1	1.1
+74) Future	1	1.1
+75) Spirituality/Morality/General decline	2	2.3
+81) Bush/Politicians	1	1.1
+82) War/Iraq	2	2.3
+83) Terrorism	2	2.3
+84) The economy/deficit/inflation	3	3.4
+85) Gas prices	2	2.3
+86) Unemployment/No jobs	1	1.1
+88) Politics (general)	2	2.3
+89) Dissatisfied with politics	1	1.1
+98) None/No problems	3	3.4
+Missing	1413
+
+
+24) PROBLEM3
+Respondent's third answer to PROBLEM
+RANGE: 1 to 84
+	N	Mean	Std. Deviation
+Total	11	29.727	31.774
+1) Bills	3	27.3
+3) Debt/Credit issues	1	9.1
+7) Retirement	1	9.1
+22) Finding a job/getting a job	1	9.1
+32) Insurance and Prescription costs	1	9.1
+42) Love life/boyfriend/soulmate	1	9.1
+52) Passing classes/getting good grades/keeping up with classwork	1	9.1
+82) War/Iraq	1	9.1
+84) The economy/deficit/inflation	1	9.1
+Missing	1490
+
+
+25) PROBLEMS
+Respondent's verbatim responses to PROBLEM
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1261	0	0
+
+
+26) AGE
+Now I would like to ask you a few questions about the people of your generation: What is your age?
+RANGE: 18 to 99
+	N	Mean	Std. Deviation
+Total	1000	50.763	17.408
+Missing	501
+
+
+27) AGEGROUP
+Two-way age
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1501	2.325	8.323
+1) 18-25	579	38.6
+2) 26-98	911	60.7
+99) Don't know/Refused	11	0.7
+
+
+28) OWNGEN
+What ONE WORD OR PHRASE best describes your generation? (OPEN-ENDED. ACCEPT UP TO TWO RESPONSES. PROBE ONCE IF RESPONDENT ANSWERS 'DON'T KNOW')
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	2.226	2.883
+1) Response given	1271	84.7
+9) (VOL.) Don't know/No answer	230	15.3
+
+
+29) OWNGEN2
+Respondent's verbatim answer to OWNGEN
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1271	0	0
+
+
+30) PARGEN
+What ONE WORD OR PHRASE best describes your parents' generation? (OPEN-ENDED. ACCEPT UP TO TWO RESPONSES. PROBE ONCE IF RESPONDENT ANSWERS 'DON'T KNOW')
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	2.215	2.872
+1) Response given	1273	84.8
+9) (VOL.) Don't know/No answer	228	15.2
+
+
+31) PARGEN2
+Respondent's verbatim answer to PARGEN
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1273	0	0
+
+
+32) UNIQUE
+(ASK IF AGE less than 26) Do you think of your own age group as unique and distinct from other generations, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	579	1.37	0.847
+1) Yes, unique and distinct	400	69.1
+2) No, not	174	30.1
+9) (VOL.) Don't know/Refused	5	0.9
+Missing	922
+
+
+33) UNIQUE2
+(ASK IF AGE less than 26) Thinking about the generation that grew up just before yours -- mostly people who are in their 30s today -- do you think of that generation as particularly unique and distinct from other generations, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	579	1.746	1.282
+1) Yes, unique and distinct	252	43.5
+2) No, not	312	53.9
+9) (VOL.) Don't know/Refused	15	2.6
+Missing	922
+
+
+34) BETTER
+In general, do you think it is better to be a young adult today or better to have been a young adult 20 years ago?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.877	1.253
+1) Better today	503	33.5
+2) Better 20 years ago	901	60.0
+3) (VOL.) Same	60	4.0
+9) (VOL.) Don't know/Refused	37	2.5
+
+
+35) HIPAYJOB
+(ASK IF AGE less than 26) In which of these areas do you think young adults in your age group have it better and in which areas did young adults 20 years ago have it better...Getting a high paying job
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	579	1.465	1.253
+1) Young adults today have it better	419	72.4
+2) Young adults 20 years ago had it better	129	22.3
+3) (VOL.) Same/no difference	18	3.1
+9) (VOL.) Don't know/Refused	13	2.2
+Missing	922
+
+
+36) EXCITIME
+(ASK IF AGE less than 26) In which of these areas do you think young adults in your age group have it better and in which areas did young adults 20 years ago have it better...Living in an exciting time
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	579	1.61	1.389
+1) Young adults today have it better	379	65.5
+2) Young adults 20 years ago had it better	143	24.7
+3) (VOL.) Same/no difference	41	7.1
+9) (VOL.) Don't know/Refused	16	2.8
+Missing	922
+
+
+37) SEXFREE
+(ASK IF AGE less than 26) In which of these areas do you think young adults in your age group have it better and in which areas did young adults 20 years ago have it better...Having sexual freedom
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	579	1.636	1.626
+1) Young adults today have it better	404	69.8
+2) Young adults 20 years ago had it better	126	21.8
+3) (VOL.) Same/no difference	25	4.3
+9) (VOL.) Don't know/Refused	24	4.1
+Missing	922
+
+
+38) FINSECUR
+(ASK IF AGE less than 26) In which of these areas do you think young adults in your age group have it better and in which areas did young adults 20 years ago have it better...Enjoying financial security
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	579	1.831	1.598
+1) Young adults today have it better	291	50.3
+2) Young adults 20 years ago had it better	239	41.3
+3) (VOL.) Same/no difference	25	4.3
+9) (VOL.) Don't know/Refused	24	4.1
+Missing	922
+
+
+39) SOCCHANG
+(ASK IF AGE less than 26) In which of these areas do you think young adults in your age group have it better and in which areas did young adults 20 years ago have it better...Bringing about social change
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	579	1.796	1.66
+1) Young adults today have it better	321	55.4
+2) Young adults 20 years ago had it better	211	36.4
+3) (VOL.) Same/no difference	21	3.6
+9) (VOL.) Don't know/Refused	26	4.5
+Missing	922
+
+
+40) BUYHOUSE
+(ASK IF AGE less than 26) In which of these areas do you think young adults in your age group have it better and in which areas did young adults 20 years ago have it better...Buying a house
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	579	1.943	1.431
+1) Young adults today have it better	189	32.6
+2) Young adults 20 years ago had it better	354	61.1
+3) (VOL.) Same/no difference	16	2.8
+9) (VOL.) Don't know/Refused	20	3.5
+Missing	922
+
+
+41) GOODEDUC
+(ASK IF AGE less than 26) In which of these areas do you think young adults in your age group have it better and in which areas did young adults 20 years ago have it better...Having opportunities to get a good education
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	579	1.292	1.142
+1) Young adults today have it better	496	85.7
+2) Young adults 20 years ago had it better	63	10.9
+3) (VOL.) Same/no difference	9	1.6
+9) (VOL.) Don't know/Refused	11	1.9
+Missing	922
+
+
+42) LIFEPLAN
+Which of these statements comes closer to your own view?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.359	1.194
+1) When a person reaches their mid-20s, it's important for them to have a good plan for what they are going to do with the rest of their lives	1186	79.0
+2) It's really not necessary for someone in their mid-20s to know what they are going to do with the rest of their lives.	283	18.9
+9) (VOL.) Don't know/Refused	32	2.1
+
+
+43) CASUALSX
+(ASK IF AGE less than 26) Now thinking about your generation compared with young adults 20 years ago, for each of the things I mention please tell me if you think your generation does more of it, less of it, OR about the same amount as young adults 20 years ago did: Casual Sex
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	579	1.558	1.219
+1) Your generation does more	425	73.4
+2) Your generation does less of it	39	6.7
+3) About the same/no difference	106	18.3
+9) (VOL.) Don't know/Refused	9	1.6
+Missing	922
+
+
+44) BINGDRNK
+(ASK IF AGE less than 26) Now thinking about your generation compared with young adults 20 years ago, for each of the things I mention please tell me if you think your generation does more of it, less of it, OR about the same amount as young adults 20 years ago did: Binge drinking
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	579	1.699	1.357
+1) Your generation does more	393	67.9
+2) Your generation does less of it	39	6.7
+3) About the same/no difference	135	23.3
+9) (VOL.) Don't know/Refused	12	2.1
+Missing	922
+
+
+45) DRUGUSE
+(ASK IF AGE less than 26) Now thinking about your generation compared with young adults 20 years ago, for each of the things I mention please tell me if you think your generation does more of it, less of it, OR about the same amount as young adults 20 years ago did: Illegal drug use
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	579	1.774	1.374
+1) Your generation does more	353	61.0
+2) Your generation does less of it	82	14.2
+3) About the same/no difference	131	22.6
+9) (VOL.) Don't know/Refused	13	2.2
+Missing	922
+
+
+46) SERVICE
+(ASK IF AGE less than 26) Now thinking about your generation compared with young adults 20 years ago, for each of the things I mention please tell me if you think your generation does more of it, less of it, OR about the same amount as young adults 20 years ago did: Community service or volunteer activity
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	579	1.948	1.184
+1) Your generation does more	211	36.4
+2) Your generation does less of it	247	42.7
+3) About the same/no difference	111	19.2
+9) (VOL.) Don't know/Refused	10	1.7
+Missing	922
+
+
+47) VOTING
+(ASK IF AGE less than 26) Now thinking about your generation compared with young adults 20 years ago, for each of the things I mention please tell me if you think your generation does more of it, less of it, OR about the same amount as young adults 20 years ago did: Voting in elections
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	579	2.028	1.413
+1) Your generation does more	191	33.0
+2) Your generation does less of it	289	49.9
+3) About the same/no difference	81	14.0
+9) (VOL.) Don't know/Refused	18	3.1
+Missing	922
+
+
+48) VIOLENCE
+(ASK IF AGE less than 26) Now thinking about your generation compared with young adults 20 years ago, for each of the things I mention please tell me if you think your generation does more of it, less of it, OR about the same amount as young adults 20 years ago did: Resort to violence to resolve conflicts
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	579	1.615	1.284
+1) Your generation does more	400	69.1
+2) Your generation does less of it	68	11.7
+3) About the same/no difference	100	17.3
+9) (VOL.) Don't know/Refused	11	1.9
+Missing	922
+
+
+49) ADMIRE
+(ASK ALL) Now a different kind of question...Other than friends or members of your own family, who would you say is the person you most admire these days? (IF YES: WHO WOULD THAT BE? OPEN-ENDED. PROBE ONCE IF RESPONDENT ANSWERS 'DON'T KNOW')
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	2.246	2.711
+1) Answer given	1066	71.0
+2) No one	230	15.3
+9) (VOL.) Don't know/Refused	205	13.7
+
+
+50) ADMIRE2
+Respondent's response to ADMIRE
+RANGE: 10 to 99
+	N	Mean	Std. Deviation
+Total	1501	54.634	35.83
+10) Myself	6	0.4
+11) Friends/boyfriend/girlfriend	34	2.3
+12) Family	30	2.0
+13) Pastor/Priest/Minister	95	6.3
+14) Coworker	20	1.3
+15) Boss	50	3.3
+16) Coach	4	0.3
+17) Nurse	8	0.5
+18) Teacher/Professor	86	5.7
+19) Other	7	0.5
+21) Actors	20	1.3
+22) Athletes	27	1.8
+23) TV personality	16	1.1
+24) Singers	31	2.1
+25) Artist/Writer/Author	6	0.4
+26) Angelina Jolie	7	0.5
+27) Oprah Winfrey	40	2.7
+28) Muhammed Ali	5	0.3
+29) Other	25	1.7
+30) Ronald Reagan	5	0.3
+31) Bill Clinton	31	2.1
+32) George Bush	108	7.2
+33) Jimmy Carter	13	0.9
+34) Condoleeza Rice	17	1.1
+35) Colin Powell	9	0.6
+36) Political wives	5	0.3
+37) Hilary Clinton	23	1.5
+38) Al Gore	5	0.3
+39) Other Politicians	49	3.3
+41) God/Jesus Christ/Lord	50	3.3
+42) Dalai Lama	7	0.5
+43) The Pope	8	0.5
+44) TV evangelists	8	0.5
+45) Mother Theresa	7	0.5
+49) Other	3	0.2
+50) Historical Figures	16	1.1
+60) Soldiers/Servicemen	20	1.3
+71) Bill Gates	14	0.9
+72) Other	7	0.5
+80) International Political Leaders	11	0.7
+97) Other	117	7.8
+98) None	237	15.8
+99) Don't know/Refused	214	14.3
+
+
+51) ADMIRE3
+Respondent's verbatim response to ADMIRE
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1066	0	0
+
+
+52) IMPGOAL1
+(ASK IF AGE less than 40) Here are a few goals that some people have set for themselves in their lives. Which of the following do you think people in your generation or age group think is MOST important?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	774	2.001	1.509
+1) To get rich	467	60.3
+2) To be famous	75	9.7
+3) To help people who need help	99	12.8
+4) To be leaders in their community	68	8.8
+5) To become more spiritual	45	5.8
+6) (VOL.) None of these	14	1.8
+9) (VOL.) Don't know/Refused	6	0.8
+Missing	727
+
+
+53) IMPGOAL2
+(ASK IF AGE less than 40 AND IF IMPGOAL1 = 1-5) And which would you say is next most important to them?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	754	2.716	1.369
+1) To get rich	127	16.8
+2) To be famous	280	37.1
+3) To help people who need help	140	18.6
+4) To be leaders in their community	127	16.8
+5) To become more spiritual	65	8.6
+6) (VOL.) None of these	9	1.2
+9) (VOL.) Don't know/Refused	6	0.8
+Missing	747
+
+
+54) GOODMARR
+From what you have seen, would you say it is easy, hard, or probably impossible to have a good marriage today?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	2.134	1.436
+1) Easy	305	20.3
+2) Hard	1020	68.0
+3) Probably impossible	121	8.1
+9) (VOL.) Don't know/Refused	55	3.7
+
+
+55) ATTENTN
+How do you feel about the amount of attention given to you by your parents when you were growing up? Do you think it was about the right amount, too much, or not enough?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.553	1.045
+1) Right amount	1074	71.6
+2) Too much	90	6.0
+3) Not enough	326	21.7
+9) (VOL.) Don't know/No answer	11	0.7
+
+
+56) MARITAL
+Are you married, divorced, separated, widowed, or never been married?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	2.888	1.887
+1) Married	661	44.0
+2) Divorced	132	8.8
+3) Separated	22	1.5
+4) Widowed	106	7.1
+5) Never been married	575	38.3
+9) (VOL.) Don't know/Refused	5	0.3
+
+
+57) WANTMARR
+(ASK IF AGE less than 26 AND ANSWERED '2' DIVORCED, '3' SEPARATED, '4' WIDOWED, '5' NEVER MARRIED OR '9' DON'T KNOW IN 'MARITAL') In looking ahead, do you definitely want to get married, probably want to get married, probably do not want to get married, or definitely do not want to get married?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	489	1.673	1.333
+1) Definitely want to marry	294	60.1
+2) Probably want to marry	142	29.0
+3) Probably do not want to	27	5.5
+4) Definitely do not wan to	15	3.1
+9) Don't know/Refused	11	2.2
+Missing	1012
+
+
+58) HAVECHLD
+(ASK IF AGE less than 26) Do you have any children of your own?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	579	1.782	0.517
+1) Yes	133	23.0
+2) No	445	76.9
+9) (VOL.) Don't know/Refused	1	0.2
+Missing	922
+
+
+59) WANTCHLD
+(ASK IF AGE less than 26 AND ANSWERED '2' NO OR '9' DON'T KNOW IN 'HAVECHLD') In looking ahead, do you definitely want to have children, probably want to have children, probably do not want to have children, or definitely do not want to have children?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	446	1.724	1.261
+1) Definitely want to have children	246	55.2
+2) Probably want to have children	143	32.1
+3) Probably do not want to	31	7.0
+4) Definitely do not want to	18	4.0
+9) Don't know/Refused	8	1.8
+Missing	1055
+
+
+60) EDUC
+What is the last grade or class that you completed in school?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	4.553	1.569
+1) None, or grade 1-8	21	1.4
+2) High school incomplete (Grades 9-11)	92	6.1
+3) High school graduate (Grade 12 or GED certificate)	448	29.8
+4) Technical, trade, or vocational school AFTER high school	43	2.9
+5) Some college, no 4-year degree (including associate degree)	439	29.2
+6) College graduate (B.S., B.A., or other 4-year degree)	296	19.7
+7) Post-graduate training or professional schooling after college (e.g., toward a master's Degree or Ph.D.; law or medical school)	158	10.5
+9) (VOL.) Don't know/Refused	4	0.3
+
+
+61) CURRENRL
+(ASK IF AGE less than 40) Are you currently enrolled in school?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	774	4.186	1.166
+1) Yes, in High School	27	3.5
+2) Yes, in Technical, trade, or vocational school	18	2.3
+3) Yes, in College (Undergraduate)	221	28.6
+4) Yes, in Graduate School	38	4.9
+5) No	467	60.3
+9) (VOL.) Don't know/Refused	3	0.4
+Missing	727
+
+
+62) FURTHER
+(ASK IF AGE less than 40 AND CURRENTLY ENROLLED IN SCHOOL) How much further in school do you plan to go?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	304	4.484	1.146
+1) Finish high school	4	1.3
+2) Technical, trade, or vocational school	7	2.3
+3) Attend college, no degree or 2 year/associate degree	32	10.5
+4) Attend college, bachelor's degree	94	30.9
+5) Graduate or professional school or degree	154	50.7
+6) (VOL.) No further	2	0.7
+7) (VOL.) Other [Specify]	4	1.3
+9) (VOL.) Don't know/Refused	7	2.3
+Missing	1197
+
+
+63) FURTHER2
+Verbatim responses to 'Other [Specify]' in FURTHER
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	4	0	0
+
+
+64) RETURN
+(ASK IF AGE less than 40 AND NOT ENROLLED IN SCHOOL) Do you ever plan to return to school?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	470	1.911	2.064
+1) Yes	287	61.1
+2) No	148	31.5
+9) (VOL.) Don't know/Refused	35	7.4
+Missing	1031
+
+
+65) RETURN2
+(ASK IF AGE less than 40 AND PLANS TO RETURN TO SCHOOL) How much further in school do you plan to go?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	287	4.317	1.691
+1) Finish high school	15	5.2
+2) Technical, trade, or vocational school	20	7.0
+3) Attend college, no degree or 2 year/associate degree	31	10.8
+4) Attend college, bachelor's degree	103	35.9
+5) Graduate or professional school or degree	89	31.0
+6) (VOL.) No further	1	0.3
+7) (VOL.) Other [Specify]	12	4.2
+9) (VOL.) Don't know/Refused	16	5.6
+Missing	1214
+
+
+66) RETURN3
+Verbatim reponses to 'Other [Specify]' in RETURN2
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	12	0	0
+
+
+67) INTERNET
+Do you use the internet, at least occasionally?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.191	0.438
+1) Yes	1222	81.4
+2) No	278	18.5
+9) (VOL.) Don't know/Refused	1	0.1
+
+
+68) EMAIL
+Do you send or receive email, at least occasionally?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.264	0.519
+1) Yes	1119	74.6
+2) No	380	25.3
+9) (VOL.) Don't know/Refused	2	0.1
+
+
+69) SOCNET
+(ASK IF AGE less than 26 AND INTERNET USER) Have you ever used a social networking website like Facebook, MySpace or MyYearbook?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	529	1.391	0.587
+1) Yes	329	62.2
+2) No	199	37.6
+9) (VOL.) Don't know/Refused	1	0.2
+Missing	972
+
+
+70) PROFILE
+(IF ANSWERED '1' IN SOCNET, ASK) Have you created your own profile for a social networking site?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	329	1.179	0.384
+1) Yes	270	82.1
+2) No	59	17.9
+Missing	1172
+
+
+71) VISITWEB
+(IF ANSWERED '1' IN SOCNET, ASK) How often do you visit social networking websites?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	329	3.249	1.654
+1) Several times a day	57	17.3
+2) Once a day	72	21.9
+3) 3 to 5 times a week	60	18.2
+4) 1 to 2 times a week	59	17.9
+5) Every few weeks	34	10.3
+6) Less often	47	14.3
+Missing	1172
+
+
+72) SPENTIME
+(ASK IF AGE less than 26) Do most people you know use social networking web sites, or not? [IF YES: Do most people you know spend a reasonable amount of time, or too much time on these websites?]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	579	2.111	1.571
+1) Yes, reasonable amount of time	202	34.9
+2) Yes, too much time	249	43.0
+3) No, don't use	105	18.1
+9) (VOL.) Don't know/Refused	23	4.0
+Missing	922
+
+
+73) PERSINF1
+(ASK IF AGE less than 26) Do you think people around your age post too much, too little, or the right amount of personal information about themselves on the internet?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	579	1.758	1.751
+1) Too much	427	73.7
+2) Too little	21	3.6
+3) Right amount	105	18.1
+9) (VOL.) Don't know/Refused	26	4.5
+Missing	922
+
+
+74) PERSINF2
+(ASK IF AGE less than 26) In your own case, have other people posted too much personal information about YOU on the Internet, or don't you think that's happened?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	579	2.178	1.351
+1) Yes, too much	44	7.6
+2) No, don't think has happened	514	88.8
+9) (VOL.) Don't know/Refused	21	3.6
+Missing	922
+
+
+75) INTDATE
+(IF INTERNET USER ASK:) Have you ever gone on a date with someone you met online?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1243	1.903	0.295
+1) Yes	120	9.7
+2) No	1123	90.3
+9) (VOL.) Don't know/Refused	0	0.0
+Missing	258
+
+
+76) TECHFRND
+Thinking now about technology such as the internet, instant messaging, cell phones, text messaging, and iPods, does new technology...Make it easier to make new friends or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.949	1.916
+1) Yes	756	50.4
+2) No, not	648	43.2
+9) (VOL.) Don't know/Refused	97	6.5
+
+
+77) TECHLAZY
+Thinking now about technology such as the internet, instant messaging, cell phones, text messaging, and iPods, does new technology...Make people lazier or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.547	1.565
+1) Yes	1093	72.8
+2) No, not	349	23.3
+9) (VOL.) Don't know/Refused	59	3.9
+
+
+78) TECHISOL
+Thinking now about technology such as the internet, instant messaging, cell phones, text messaging, and iPods, does new technology...Make people more isolated or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.657	1.629
+1) Yes	970	64.6
+2) No, not	466	31.0
+9) (VOL.) Don't know/Refused	65	4.3
+
+
+79) TECHWAST
+Thinking now about technology such as the internet, instant messaging, cell phones, text messaging, and iPods, does new technology...Make people waste too much time or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.604	1.563
+1) Yes	1007	67.1
+2) No, not	435	29.0
+9) (VOL.) Don't know/Refused	59	3.9
+
+
+80) TECHEFFI
+Thinking now about technology such as the internet, instant messaging, cell phones, text messaging, and iPods, does new technology...Make people more efficient or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.696	1.778
+1) Yes	1010	67.3
+2) No, not	412	27.4
+9) (VOL.) Don't know/Refused	79	5.3
+
+
+81) TECHOLD
+Thinking now about technology such as the internet, instant messaging, cell phones, text messaging, and iPods, does new technology...Make you closer to old friends or family?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.63	1.423
+1) Yes	892	59.4
+2) No, not	561	37.4
+9) (VOL.) Don't know/Refused	48	3.2
+
+
+82) TEXTMSSG
+In the past 24 hours, did you...Send or receive a text message on a cell phone?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.731	0.556
+1) Yes	425	28.3
+2) No	1073	71.5
+9) (VOL.) Don't know/Refused	3	0.2
+
+
+83) EMAIL24
+(ASK ONLY IF INTERNET USER) In the past 24 hours, did you...Send or receive an e-mail message?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1243	1.396	0.745
+1) Yes	800	64.4
+2) No	436	35.1
+9) (VOL.) Don't know/Refused	7	0.6
+Missing	258
+
+
+84) IM24
+(ASK ONLY IF INTERNET USER) In the past 24 hours, did you...Send or receive an instant message?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1243	1.783	0.664
+1) Yes	312	25.1
+2) No	925	74.4
+9) (VOL.) Don't know/Refused	6	0.5
+Missing	258
+
+
+85) LETTER
+In the past 24 hours, did you...Write or receive a personal letter?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.813	0.514
+1) Yes	302	20.1
+2) No	1196	79.7
+9) (VOL.) Don't know/Refused	3	0.2
+
+
+86) POSTMSSG
+(ASK ONLY IF INTERNET USER) In the past 24 hours, did you...Post a message to someone's personal online profile?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1243	1.874	0.539
+1) Yes	184	14.8
+2) No	1055	84.9
+9) (VOL.) Don't know/Refused	4	0.3
+Missing	258
+
+
+87) SMOKE
+(ASK IF AGE less than 26) And now thinking about the past seven days, did you...smoke cigarettes or not?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	579	1.717	0.451
+1) Yes	164	28.3
+2) No	415	71.7
+Missing	922
+
+
+88) DRINK
+(ASK IF AGE less than 26) And now thinking about the past seven days, did you...drink alcohol or not?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	579	1.587	0.493
+1) Yes	239	41.3
+2) No	340	58.7
+Missing	922
+
+
+89) VIDGAMES
+(ASK IF AGE less than 26) And now thinking about the past seven days, did you...play video games or not?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	579	1.629	0.484
+1) Yes	215	37.1
+2) No	364	62.9
+Missing	922
+
+
+90) EXCERCIS
+(ASK IF AGE less than 26) And now thinking about the past seven days, did you...exercise or engage in physical activity?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	579	1.19	0.501
+1) Yes	476	82.2
+2) No	102	17.6
+9) (VOL.) Don't know/Refused	1	0.2
+Missing	922
+
+
+91) DRUGS
+(ASK IF AGE less than 26) And now thinking about the past seven days, did you...take illegal drugs or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	579	1.941	0.499
+1) Yes	48	8.3
+2) No	529	91.4
+9) (VOL.) Don't know/Refused	2	0.3
+Missing	922
+
+
+92) TATTOO
+(ASK IF AGE less than 65) Do you have, or have you ever had...a tattoo?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1275	1.75	0.433
+1) Yes	319	25.0
+2) No	956	75.0
+Missing	226
+
+
+93) PIERCING
+(ASK IF AGE less than 65) Do you have, or have you ever had...a piercing in a place other than your ear lobe?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1275	1.823	0.382
+1) Yes	226	17.7
+2) No	1049	82.3
+Missing	226
+
+
+94) DYEDHAIR
+(ASK IF AGE less than 65) Do you have, or have you ever had...dyed hair in an untraditional color?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1275	1.82	0.385
+1) Yes	230	18.0
+2) No	1045	82.0
+Missing	226
+
+
+95) GOVRNMNT
+Here are some pairs of statements that will help us understand how you feel about a number of things.  As I read each pair, tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. Government is almost always wasteful and inefficient OR Government often does a better job than people give it credit for.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.757	1.301
+1) Government is almost always wasteful and inefficient	719	47.9
+2) Government often does a better job than people give it credit for	649	43.2
+3) (VOL.) Neither/Both equally	96	6.4
+9) (VOL.) Don't know/Refused	37	2.5
+
+
+96) IMMIGRNT
+Here are some pairs of statements that will help us understand how you feel about a number of things.  As I read each pair, tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. Immigrants today strengthen our country because of their hard work and talents OR Immigrants today are a burden on our country because they take our jobs, housing and health care.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.917	1.568
+1) Immigrants today strengthen our country because their hard work and talents	694	46.2
+2) Immigrants today are a burden on our country because they take our jobs, housing and health care	586	39.0
+3) (VOL.) Neither/Both equally	163	10.9
+9) (VOL.) Don't know/Refused	58	3.9
+
+
+97) MILSTRNG
+Here are some pairs of statements that will help us understand how you feel about a number of things.  As I read each pair, tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The best way to ensure peace is through military strength OR Good diplomacy is the best way to ensure peace.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	2.091	1.492
+1) The best way to ensure peace is through military strength	410	27.3
+2) Good diplomacy is the best way to ensure peace	887	59.1
+3) (VOL.) Neither/Both Equally	147	9.8
+9) (VOL.) Don't know/Refused	57	3.8
+
+
+98) HOMOWAY
+Here are some pairs of statements that will help us understand how you feel about a number of things.  As I read each pair, tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. Homosexuality is a way of life that should be accepted by society OR Homosexuality is a way of life that should be discouraged by society.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.791	1.499
+1) Homosexuality is a way of life that should be accepted by society	782	52.1
+2) Homosexuality is a way of life that should be discouraged by society	562	37.4
+3) (VOL.) Neither/Both equally	105	7.0
+9) (VOL.) Don't know/Refused	52	3.5
+
+
+99) FINANCE
+Here are some pairs of statements that will help us understand how you feel about a number of things.  As I read each pair, tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. I'm generally satisfied with the way things are going for me financially OR I'm not very satisfied with my financial situation.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.441	0.68
+1) I'm generally satisfied with the way things are going for me financially	896	59.7
+2) I'm not very satisfied with my financial situation	578	38.5
+3) (VOL.) Neither/Both equally	22	1.5
+9) (VOL.) Don't know/Refused	5	0.3
+
+
+100) MORALITY
+Here are some pairs of statements that will help us understand how you feel about a number of things.  As I read each pair, tell me whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. The government should do more to protect morality in society OR I worry the government is getting too involved in the issue of morality.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	2.011	1.669
+1) The government should do more to protect morality in society	569	37.9
+2) I worry the government is getting too involved in the issue of morality	779	51.9
+3) (VOL.) Neither/Both equally	81	5.4
+9) (VOL.) Don't know/Refused	72	4.8
+
+
+101) ALCOHOL
+And here are few things some people do. For each one, please tell me if you think it's something that's okay or not okay for other people to do - even if you might not do it yourself. Is it okay or not okay for other people to drink a lot of alcohol?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.874	0.772
+1) Okay	322	21.5
+2) Not okay	1112	74.1
+3) (VOL.) Depends	56	3.7
+9) (VOL.) Don't know/Refused	11	0.7
+
+
+102) GAMBLE
+And here are few things some people do. For each one, please tell me if you think it's something that's okay or not okay for other people to do - even if you might not do it yourself. Is it okay or not okay for other people to gamble?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.522	0.94
+1) Okay	899	59.9
+2) Not okay	504	33.6
+3) (VOL.) Depends	84	5.6
+9) (VOL.) Don't know/Refused	14	0.9
+
+
+103) SEXNOMAR
+And here are few things some people do. For each one, please tell me if you think it's something that's okay or not okay for other people to do - even if you might not do it yourself. Is it okay or not okay for other people to have sex outside of marriage?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.659	0.994
+1) Okay	685	45.6
+2) Not okay	757	50.4
+3) (VOL.) Depends	40	2.7
+9) (VOL.) Don't know/Refused	19	1.3
+
+
+104) BABY
+And here are few things some people do. For each one, please tell me if you think it's something that's okay or not okay for other people to do - even if you might not do it yourself. Is it okay or not okay for other people to have a baby outside of marriage?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.707	1.045
+1) Okay	663	44.2
+2) Not okay	741	49.4
+3) (VOL.) Depends	76	5.1
+9) (VOL.) Don't know/Refused	21	1.4
+
+
+105) MARIJUAN
+And here are few things some people do. For each one, please tell me if you think it's something that's okay or not okay for other people to do - even if you might not do it yourself. Is it okay or not okay for other people to smoke marijuana?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.775	0.871
+1) Okay	502	33.4
+2) Not okay	912	60.8
+3) (VOL.) Depends	74	4.9
+9) (VOL.) Don't know/Refused	13	0.9
+
+
+106) DOWNLOAD
+And here are few things some people do. For each one, please tell me if you think it's something that's okay or not okay for other people to do - even if you might not do it yourself. Is it okay or not okay for other people to download or share music or video files without paying for them?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.937	1.281
+1) Okay	421	28.0
+2) Not okay	1000	66.6
+3) (VOL.) Depends	39	2.6
+9) (VOL.) Don't know/Refused	41	2.7
+
+
+107) USENOPAY
+And here are few things some people do. For each one, please tell me if you think it's something that's okay or not okay for other people to do - even if you might not do it yourself. Is it okay or not okay for other people use cable TV or wireless connection without paying for it?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.957	0.736
+1) Okay	167	11.1
+2) Not okay	1309	87.2
+3) (VOL.) Depends	12	0.8
+9) (VOL.) Don't know/Refused	13	0.9
+
+
+108) MAJHOUSE
+Do you happen to know which political party has a majority in the U.S. House of Representatives?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	3.452	3.618
+1) Yes, Republican	943	62.8
+2) Yes, Democrat	112	7.5
+9) (VOL.) No/Can't say/Don't know/Other incorrect	446	29.7
+
+
+109) NEWS1
+How have you been getting most of your news about national and international issues? From television, from newspapers, from radio, from magazines, or from the Internet? (FIRST RESPONSE)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	2.117	1.681
+1) Television	876	58.4
+2) Newspapers	216	14.4
+3) Radio	117	7.8
+4) Magazines	29	1.9
+5) Internet	217	14.5
+6) (VOL.) Other	32	2.1
+9) (VOL.) Don't know/Refused	14	0.9
+
+
+110) NEWS2
+How have you been getting most of your news about national and international issues? From television, from newspapers, from radio, from magazines, or from the Internet? (SECOND RESPONSE)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	782	2.638	1.47
+1) Television	177	22.6
+2) Newspapers	308	39.4
+3) Radio	100	12.8
+4) Magazines	30	3.8
+5) Internet	152	19.4
+6) (VOL.) Other	15	1.9
+Missing	719
+
+
+111) ENJOYNWS
+How much do you enjoy keeping up with the news - a lot, some, not much, or not at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.835	1.045
+1) A lot	674	44.9
+2) Some	540	36.0
+3) Not much	198	13.2
+4) Not at all	79	5.3
+9) (VOL.) Don't know/Refused	10	0.7
+
+
+112) IMPORTAN
+Here are a couple of statements. Please tell me if you agree or disagree with each one. If something in the news is important enough I'll find out about it without having to pay close attention.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.618	1.212
+1) Agree	804	53.6
+2) Disagree	664	44.2
+9) (VOL.) Don't know/Refused	33	2.2
+
+
+113) NEWSSRCE
+Here are a couple of statements. Please tell me if you agree or disagree with each one. I like news sources that share my political point of view.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.788	1.723
+1) Agree	843	56.2
+2) Disagree	583	38.8
+9) (VOL.) Don't know/Refused	75	5.0
+
+
+114) EMPLOYED
+Are you now employed full-time, part-time or not employed?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.898	1.019
+1) Full-time	716	47.7
+2) Part-time	264	17.6
+3) Not employed	514	34.2
+9) (VOL.) Don't know/Refused	7	0.5
+
+
+115) NOTEMPL
+(IF NOT EMPLOYED ASK:) Is that because you are a student, retired, choose not to work, or because you've lost or quit a job?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	514	2.625	1.368
+1) Student	86	16.7
+2) Retired	229	44.6
+3) Choose not to work	77	15.0
+4) Lost or quit a job	52	10.1
+5) (VOL.) Other reason	66	12.8
+9) (VOL.) Don't know/Refused	4	0.8
+Missing	987
+
+
+116) NOTEMPL2
+Verbatim responses given for 'Other reason' in NOTEMPL
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	66	0	0
+
+
+117) MONEY
+(ASK IF EMPLOYED FULL- OR PART-TIME) Do you now earn enough money to lead the kind of life you want, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	980	1.579	0.766
+1) Yes	455	46.4
+2) No	519	53.0
+9) (VOL.) Don't know/Refused	6	0.6
+Missing	521
+
+
+118) FUTURMON
+(ASK IF 2 'NO' IN MONEY) Do you think you will be able to earn enough money in the future to lead the kind of life you want, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	519	1.47	1.407
+1) Yes	387	74.6
+2) No	116	22.4
+9) (VOL.) Don't know/Refused	16	3.1
+Missing	982
+
+
+119) INCOME
+(IF NOT EMPLOYED OR DK/REF [3, 9 IN EMPLOYED] ASK:) Do you now have enough income to lead the kind of life you want, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	521	1.641	1.19
+1) Yes	264	50.7
+2) No	246	47.2
+9) (VOL.) Don't know/Refused	11	2.1
+Missing	980
+
+
+120) FUTURINC
+(IF INCOME = 2 ASK:) Do you think you will have enough income in the future to lead the kind of life you want, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	246	1.785	1.836
+1) Yes	151	61.4
+2) No	81	32.9
+9) (VOL.) Don't know/Refused	14	5.7
+Missing	1255
+
+
+121) HISP
+Are you, yourself, of Hispanic origin or descent, such as Mexican, Puerto Rican, Cuban, or some other Spanish background?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	2.013	0.94
+1) Yes	149	9.9
+2) No	1328	88.5
+9) (VOL.) Don't know/Refused	24	1.6
+
+
+122) RACE
+(IF RESPONDENT ANSWERED 1 'HISPANIC' IN HISP, ASK:) Are you white Hispanic, black Hispanic, or some other race? (IF NON-HISPANIC ASK:) What is your race? Are you white, black, Asian, or some other?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.557	1.398
+1) White	1145	76.3
+2) Black	182	12.1
+3) Asian	33	2.2
+4) Other or mixed race	108	7.2
+9) (VOL.) Don't know/Refused	33	2.2
+
+
+123) RELIG
+What is your religious preference - Protestant, Roman Catholic, Jewish, Muslim, Mormon, or an orthodox church such as the Greek or Russian Orthodox Church? [INTERVIEWER: IF 'OTHER RELIGION' GIVEN, FOLLOW-UP WITH 'And is that a Christian religion, or not?']
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1501	5.121	14.995
+1) Protestant (include Baptist, Lutheran, Methodist, Presbyterian, Episcopalian, Pentecostal, Jehovah's Witness, Church of Christ, etc.)	758	50.5
+2) Roman Catholic	354	23.6
+3) Jewish	31	2.1
+4) Mormon (include Church of Jesus Christ of Latter-day Saints)	37	2.5
+5) Orthodox Church (Greek or Russian)	12	0.8
+6) Islam/Muslim	6	0.4
+7) Other religion - Christian	21	1.4
+8) Other religion - non-Christian	41	2.7
+9) No religion, not a believer, atheist, agnostic	205	13.7
+99) (VOL.) Don't know/Refused	36	2.4
+
+
+124) BORN
+(IF CHRISTIAN [RELIG = 1, 2, 4, 5, 7] ASK:) Would you describe yourself as a 'born-again' or evangelical Christian, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1213	1.866	1.418
+1) Yes	450	37.1
+2) No	722	59.5
+9) (VOL.) Don't know/Refused	41	3.4
+Missing	288
+
+
+125) ATTEND
+Aside from weddings and funerals, how often do you attend religious services...more than once a week, once a week, once or twice a month, a few times a year, seldom, or never?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	3.53	1.763
+1) More than once a week	185	12.3
+2) Once a week	335	22.3
+3) Once or twice a month	243	16.2
+4) A few times a year	293	19.5
+5) Seldom	214	14.3
+6) Never	202	13.5
+9) (VOL.) Don't know/Refused	29	1.9
+
+
+126) OTHER
+Verbatim responses for 'other' on RELIG
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	185	0	0
+
+
+127) FAMINC
+Last year, that is in 2005, what was your total family income from all sources, before taxes?  Just stop me when I get to the right category.
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	1501	5.646	2.782
+1) Less than $10,000	100	6.7
+2) 10 to under $20,000	142	9.5
+3) 20 to under $30,000	168	11.2
+4) 30 to under $40,000	162	10.8
+5) 40 to under $50,000	130	8.7
+6) 50 to under $75,000	215	14.3
+7) 75 to under $100,000	180	12.0
+8) 100 to under $150,000	102	6.8
+9) $150,000 or more	98	6.5
+10) (VOL.) Don't know/Refused	204	13.6
+
+
+128) DEPEND
+(ASK IF AGE less than 26) Do you depend on your parents or other family members for financial assistance, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	579	1.653	1.048
+1) Yes	264	45.6
+2) Not	306	52.8
+9) (VOL.) Don't know/Refused	9	1.6
+Missing	922
+
+
+129) HEALTH
+Are you, yourself, now covered by any form of health insurance or health plan, including Medicare or Medicaid?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.362	1.24
+1) Yes	1203	80.1
+2) No	263	17.5
+9) (VOL.) Don't know/Refused	35	2.3
+
+
+130) REGIST
+These days, many people are so busy they can't find time to register to vote, or move around so often they don't get a chance to re-register. Are you NOW registered to vote in your precinct or election district or haven't you been able to register so far?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	1.41	1.303
+1) Yes, registered	1159	77.2
+2) No, not registered	303	20.2
+9) (VOL.) Don't know/Refused	39	2.6
+
+
+131) REGICERT
+(IF RESPONDENT ANSWERED '1' YES IN REGIST ASK:) Are you absolutely certain that you are registered to vote, or is there a chance that your registration has lapsed because you moved or for some other reason?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1159	1.123	0.829
+1) Absolutely certain	1101	95.0
+2) Chance registration has lapsed	46	4.0
+9) (VOL.) Don't know/Refused	12	1.0
+Missing	342
+
+
+132) PARTY
+In politics TODAY, do you consider yourself a Republican, Democrat, or Independent?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	2.552	1.803
+1) Republican	400	26.6
+2) Democrat	475	31.6
+3) Independent	445	29.6
+4) (VOL.) No preference	92	6.1
+5) (VOL.) Other party	6	0.4
+9) (VOL.) Don't know/Refused	83	5.5
+
+
+133) PARTYLN
+(IF ANSWERED 3, 4, 5, OR 9 IN PARTY, ASK:) As of today do you lean more to the Republican Party or more to the Democratic Party?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	626	4.581	3.686
+1) Republican	169	27.0
+2) Democrat	202	32.3
+9) (VOL.) Other/Don't know/Refused	255	40.7
+Missing	875
+
+
+134) POLVIEWS
+In general, would you describe your political views as very conservative, conservative, moderate, liberal, or very liberal?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1501	3.373	1.89
+1) Very conservative	73	4.9
+2) Conservative	396	26.4
+3) Moderate	608	40.5
+4) Liberal	230	15.3
+5) Very liberal	73	4.9
+9) (VOL.) Don't know/Refused	121	8.1
+
+
+135) HOME
+(ASK IF AGE greater than 25) Do you own or rent your home?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	922	1.4	1.3
+1) Own	737	79.9
+2) Rent	139	15.1
+3) (VOL.) Other arrangement	23	2.5
+9) (VOL.) Don't know/Refused	23	2.5
+Missing	579
+
+
+136) HOME2
+(ASK IF AGE less than 26) Do you own your home, rent, live in a dorm or live with your parents?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	579	2.952	1.444
+1) Own	79	13.6
+2) Rent	204	35.2
+3) Live in a dorm	28	4.8
+4) Live with parents	246	42.5
+5) Other arrangement	11	1.9
+9) (VOL.) Don't know/Refused	11	1.9
+Missing	922
+
+
+137) ONLYCELL
+(ASK CELL SAMPLE:) Is the cell phone your only phone or do you also have a regular telephone at home?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	250	1.62	1.167
+1) Cell is only phone	130	52.0
+2) Has regular phone at home	115	46.0
+9) (VOL.) Don't know/Refused	5	2.0
+Missing	1251
+
+
+138) HAVECELL
+(ASK LANDLINE SAMPLE ONLY) Do you happen to have a cell phone or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1251	1.424	1.206
+1) Yes	909	72.7
+2) No	315	25.2
+9) (VOL.) Don't know/Refused	27	2.2
+Missing	250
+
+
+139) CELLCALL
+(IF R HAS BOTH CELL AND LANDLINE, ASK:) Of all the phone calls that you receive, about how many are received on a cell phone? Would you say all or almost all, more than half, less than half, or very few or none?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1024	2.521	1.326
+1) All or almost all	317	31.0
+2) More than half	191	18.7
+3) Less than half	222	21.7
+4) Very few or none	286	27.9
+9) (VOL.) Don't know/Refused	8	0.8
+Missing	477
+
+
+140) WEIGHT
+Weight variable
+RANGE: 0.375 to 9.851
+	N	Mean	Std. Deviation
+Total	1501	2	1.752
+
+
+141) I-EDUC
+What is the last grade or class that you completed in school? (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1497	2.853	0.94
+1) Less than high school	113	7.5
+2) High school graduate	448	29.9
+3) Technical, trade, or vocational school AFTER high school or some college	482	32.2
+4) College graduate	454	30.3
+Missing	4
+
+
+142) I-GENDER
+Respondent's sex (for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1501	1.508	0.5
+1) Male	738	49.2
+2) Female	763	50.8
+
+
+143) I-MARITAL
+Are you married, divorced, separated, widowed, or never been married? (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1496	2.398	1.376
+1) Married	661	44.2
+2) Divorced or separated	154	10.3
+3) Widowed	106	7.1
+4) Never been married	575	38.4
+Missing	5
+
+
+144) I-RELIGION
+What is your religious preference - Protestant, Roman Catholic, Jewish, Muslim, Mormon, or an orthodox church such as the Greek or Russian Orthodox Church? [INTERVIEWER: IF 'OTHER RELIGION' GIVEN, FOLLOW-UP WITH 'And is that a Christian religion, or not?'] (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1465	1.863	1.077
+1) Protestant	758	51.7
+2) Roman Catholic	354	24.2
+3) Other religion	148	10.1
+4) No religion, not a believer, atheist, agnostic	205	14.0
+Missing	36
+
+
+145) I-ATTEND
+Aside from weddings and funerals, how often do you attend religious services...more than once a week, once a week, once or twice a month, a few times a year, seldom, or never? (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1472	3.423	1.603
+1) More than once a week	185	12.6
+2) Once a week	335	22.8
+3) Once or twice a month	243	16.5
+4) A few times a year	293	19.9
+5) Seldom	214	14.5
+6) Never	202	13.7
+Missing	29
+
+
+146) I-POLITICS
+In general, would you describe your political views as very conservative, conservative, moderate, liberal, or very liberal? (Recoded for use with online analysis)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1380	1.88	0.738
+1) Very conservative or conservative	469	34.0
+2) Moderate	608	44.1
+3) Liberal or very liberal	303	22.0
+Missing	121
+
+

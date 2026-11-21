@@ -1,0 +1,3019 @@
+Data File: PENTEC (Full Data Codebook)
+
+1) COUNTRY
+Country name
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	11028	5.506	2.822
+1) Brazil	1000	9.1
+2) Chile	988	9.0
+3) Guatemala	1305	11.8
+4) Regions of India Surveyed	1224	11.1
+5) Kenya	1001	9.1
+6) Nigeria	999	9.1
+7) Philippines	1300	11.8
+8) South Africa	1137	10.3
+9) South Korea	1000	9.1
+10) United States	1074	9.7
+
+
+2) PSRAID
+Identification number
+RANGE: 100001 to 111065
+	N	Mean	Std. Deviation
+Total	11028	105534.827	3195.175
+
+
+3) SAMPLE
+Sample type
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	11028	1.322	0.467
+1) General Public Sample	7475	67.8
+2) Oversample of Renewalists	3553	32.2
+
+
+4) RENEWLST
+Is the respondent a non-renewalist, Pentecostal, or Charismatic?  Pentecostal is defined as belonging to a Pentecostal denomination or church, as indicated by responses labeled 'coded as Pentecostal' in any variable that begins with Q4.  This includes Q4BRA, Q4CHI, Q4GUA, Q4IND, Q4KEN, Q4NIG, Q4PHI, Q4SAF, Q4SKOR, and Q4US.  Charismatic is defined as non-Pentecostal Christians, who describe themselves as Pentecostal in question Q5C, or as Charismatic in question Q5D, or who say they speak or pray in tongues at least several times a year in the survey question named TONGUES.
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	11028	0.85	0.834
+0) Non-renewalist	4785	43.4
+1) Pentecostal (as coded in Q4 series of questions)	3112	28.2
+2) Charismatic (as indicated in questions Q5C, Q5D, or TONGUES)	3131	28.4
+
+
+5) GPWGT
+Weight for use in analyzing general public samples in each country
+RANGE: 0.0393739541293434 to 11.4184466975096
+	N	Mean	Std. Deviation
+Total	7475	1	0.408
+
+
+6) PENTWGT
+Weight for use in analyzing renewalists in each country
+RANGE: 0.0393739541293434 to 5.74859730288414
+	N	Mean	Std. Deviation
+Total	6243	1.002	0.327
+
+
+7) SATISFY
+Now thinking about (survey country), overall, are you satisfied or dissatisfied with the way things are going in our country today?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.904	1.12
+1) Satisfied	2829	25.7
+2) Dissatisfied	7915	71.8
+8) Don't know	217	2.0
+9) Refused	67	0.6
+
+
+8) RELIMP
+Thinking now about religion, how important is religion in your life?  Is it the single most important thing, very important, somewhat important, not too important, or not at all important?  [This question was asked in all countries.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.113	0.996
+1) Single most important thing	2704	24.5
+2) Very important	5815	52.7
+3) Somewhat important	1548	14.0
+4) Not too important	610	5.5
+5) Not at all important	314	2.8
+8) Don't know	20	0.2
+9) Refused	17	0.2
+
+
+9) Q3BRA
+Do you consider yourself as belonging to a particular religion?  If yes, which one: Roman Catholic; Evangelical [Evangelico] (or Protestant); Afro-Brazilian; Jehovah's Witness; Orthodox; Muslim; Hindu; Buddhist; No religion, not a believer, atheist, agnostic; Kardecist - Spiritism; Spiritism; Other religion?  [Question asked in Brazil.]  
+RANGE: 1 to 97
+	N	Mean	Std. Deviation
+Total	1000	3.226	9.342
+1) Roman Catholic	485	48.5
+2) Evangelical [Evangelico] (or Protestant)	361	36.1
+3) Afro-Brazilian	45	4.5
+4) Jehovah's Witness	7	0.7
+8) Buddhist	2	0.2
+10) No religion, not a believer, atheist, agnostic	57	5.7
+11) Kardecist - Spiritism	11	1.1
+12) Spiritism	23	2.3
+97) Other religion	9	0.9
+Missing	10028
+
+
+10) Q3CHI
+Do you consider yourself as belonging to a particular religion?  If yes, which one: Roman Catholic; Evangelical [Evangelico] (or Protestant); Jehovah's Witness; Orthodox; Mormon; Jewish; Muslim; Hindu; Buddhist; No religion, not a believer, atheist, agnostic; Other religion?  [Question asked in Chile.]
+RANGE: 1 to 98
+	N	Mean	Std. Deviation
+Total	988	4.087	12.98
+1) Roman Catholic	503	50.9
+2) Evangelical [Evangelico] (or Protestant)	343	34.7
+3) Jehovah's Witness	24	2.4
+5) Mormon	11	1.1
+6) Jewish	1	0.1
+11) No religion, not a believer, atheist, agnostic	88	8.9
+97) Other religion	16	1.6
+98) Don't know	2	0.2
+Missing	10040
+
+
+11) Q3GUA
+Do you consider yourself as belonging to a particular religion?  If yes, which one: Roman Catholic; Evangelical [Evangelico] (or Protestant); Jehovah's Witness; Mormon; Mayan Traditional Religion; Jewish; No religion, not a believer, atheist, agnostic; Other religion?  [Question asked in Guatemala.]
+RANGE: 1 to 98
+	N	Mean	Std. Deviation
+Total	1305	2.426	3.393
+1) Roman Catholic	502	38.5
+2) Evangelical [Evangelico] (or Protestant)	618	47.4
+3) Jehovah's Witness	10	0.8
+4) Mormon	21	1.6
+5) Mayan Traditional Religion	2	0.2
+6) Jewish	1	0.1
+8) No religion, not a believer, atheist, agnostic	150	11.5
+98) Don't know	1	0.1
+Missing	9723
+
+
+12) Q3IND
+Do you consider yourself as belonging to a particular religion?  If yes, which one: Hindu, Muslim, Catholic Christian, Protestant Christian, Syrian Orthodox Christian, Jain, Sikh, Buddhist, No religion, not a believer, atheist, agnostic; Traditional Tribal; Other religion?  [Question asked in India.]
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	1224	2.86	1.584
+1) Hindu	398	32.5
+2) Muslim	56	4.6
+3) Catholic Christian	203	16.6
+4) Protestant Christian	531	43.4
+5) Syrian Orthodox Christian	22	1.8
+6) Jain	1	0.1
+10) No religion, not a believer, atheist, agnostic	1	0.1
+11) Traditional Tribal	12	1.0
+Missing	9804
+
+
+13) Q3KEN
+Do you consider yourself as belonging to a particular religion?  If yes, which one: Roman Catholic; Protestant (such as Anglican, Presbyterian, Adventist, Baptist, Methodist, Holiness, Reformed, Africa Inland Church, Friends, or Lutheran); African Instituted Church (AIC); Muslim; Hindu; African Traditional Religion (ATR); No religion, not a believer, atheist, agnostic; Jehovah's Witness; Other religion?  [Question asked in Kenya.]
+RANGE: 1 to 97
+	N	Mean	Std. Deviation
+Total	1001	2.152	3.178
+1) Roman Catholic	200	20.0
+2) Protestant (such as Anglican, Presbyterian, etc.)	686	68.5
+3) African Instituted Church (AIC)	45	4.5
+4) Muslim	48	4.8
+6) African Traditional Religion (ATR)	6	0.6
+8) No religion, not a believer, atheist, agnostic	13	1.3
+9) Jehovah's Witness	2	0.2
+97) Other religion	1	0.1
+Missing	10027
+
+
+14) Q3NIG
+Do you consider yourself as belonging to a particular religion?  If yes, which one: Roman Catholic; Protestant (such as Anglican, Presbyterian, Adventist, Baptist, Methodist, Holiness, Reformed, Africa Inland Church, Friends, or Lutheran); Muslim; African Independent or Aladura Church (AIC), African Traditional Religion (ATR); Jehovah's Witness; Brotherhood of the Cross and Star; No religion, not a believer, atheist, agnostic; Other religion?  [Question asked in Nigeria.]
+RANGE: 1 to 97
+	N	Mean	Std. Deviation
+Total	999	2.564	5.248
+1) Roman Catholic	94	9.4
+2) Protestant (such as Anglican, Presbyterian, etc.)	605	60.6
+3) Muslim	252	25.2
+4) African Independent or Aladura Church (AIC)	32	3.2
+6) Jehovah's Witness	11	1.1
+7) Brotherhood of the Cross and Star	1	0.1
+9) No religion, not a believer, atheist, agnostic	1	0.1
+97) Other religion	3	0.3
+Missing	10029
+
+
+15) Q3PHI
+Do you consider yourself as belonging to a particular religion?  If yes, which one: Roman Catholic; Protestant; Iglesia ni Cristo; Jehovah's Witness; Mormon; Islam/Muslim; Aglipayan Church (a.k.a. Philippine Independent Church); Other Christian group/religion; Other non-Christian group/religion; No religion, not a believer, atheist, agnostic?  [Question asked in Philippines.]
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	1300	1.71	1.524
+1) Roman Catholic	828	63.7
+2) Protestant	363	27.9
+3) Iglesia ni Cristo	20	1.5
+4) Jehovah's Witness	8	0.6
+5) Mormon	3	0.2
+6) Islam/Muslim	30	2.3
+7) Aglipayan Church (a.k.a. Philippine Independent Church)	13	1.0
+8) Other Christian group/religion	29	2.2
+9) Other non-Christian group/religion	1	0.1
+10) No religion, not a believer, atheist, agnostic	5	0.4
+Missing	9728
+
+
+16) Q3SAF
+Do you consider yourself as belonging to a particular religion?  If yes, which one: Roman Catholic; Protestant; Muslim; Hindu; African Independent Christian (AIC) (such as Zion Christian Church, another Zionist Church, or an Apostolic Church); African Traditional Religion (ATR); Jehovah's Witness; Jewish; No religion, not a believer, atheist, agnostic; Other religion?  [Question asked in South Africa.]
+RANGE: 1 to 98
+	N	Mean	Std. Deviation
+Total	1137	4.274	9.484
+1) Roman Catholic	113	9.9
+2) Protestant	584	51.4
+3) Muslim	31	2.7
+4) Hindu	30	2.6
+5) African Independent Christian (AIC) (such as...)	255	22.4
+6) African Traditional Religion (ATR)	10	0.9
+7) Jehovah's Witness	19	1.7
+8) Jewish	6	0.5
+10) No religion, not a believer, atheist, agnostic	78	6.9
+97) Other religion	9	0.8
+98) Don't know	2	0.2
+Missing	9891
+
+
+17) Q3SKOR
+Do you consider yourself as belonging to a particular religion?  If yes, which one: Catholic Christian; Protestant Christian; Buddhist; Confucianist; Jehovah's Witness; Mormon; No religion, not a believer, atheist, agnostic; Won-Buddhism; Korea Soka Gakkai International; Daesunjinrihow; Other religion?  [Question asked in South Korea.]
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	1000	3.616	2.662
+1) Catholic Christian	94	9.4
+2) Protestant Christian	510	51.0
+3) Buddhist	129	12.9
+4) Confucianist	2	0.2
+5) Jehovah's Witness	6	0.6
+6) Mormon	1	0.1
+8) No religion, not a believer, atheist, agnostic	254	25.4
+9) Won-Buddhism	2	0.2
+10) Korea Soka Gakkai International	1	0.1
+11) Daesunjinrihow	1	0.1
+Missing	10028
+
+
+18) Q3US
+Do you consider yourself as belonging to a particular religion?  If yes, which one: Protestant (include Baptist, Lutheran, Methodist, Presbyterian, Episcopalian, Pentecostal, Jehovah's Witness, Church of Christ, etc.); Roman Catholic; Jewish; Mormon (include Church of Jesus Christ of Latter Day Saints); Orthodox Church (Greek or Russian); Islam/Muslim; No religion, not a believer, atheist, agnostic; Jehovah's Witness; Other religion?  [Question asked in United States.]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1074	4.454	14.885
+1) Protestant (include...)	632	58.8
+2) Roman Catholic	269	25.0
+3) Jewish	9	0.8
+4) Mormon	14	1.3
+5) Orthodox Church (Greek or Russian)	3	0.3
+6) Islam/Muslim	4	0.4
+8) No religion, not a believer, atheist, agnostic	106	9.9
+9) Jehovah's Witness	11	1.0
+97) Other religion	12	1.1
+98) Don't know	5	0.5
+99) Refused	9	0.8
+Missing	9954
+
+
+19) Q4BRA
+[Ask in Brazil if Q3BRA = 2 'Protestant.']  As I read a list, tell me which, if any, of these denominations you are affiliated with.  Baptist [Batista]; Presbyterian [Presbiteriana]; Methodist [Metodista]; Another Protestant denomination (such as Adventist, Lutheran, or Congregational); Assemblies of God [Assembleia de Deus]; Christian Congregation [Congregacao Crista]; Church of the Foursquare Gospel; [Igreja do Evangelho Quadrangular]; Another Pentecostal or neo-Charismatic church (such as Brasil para Cristo, Casa da Bênção, Deus é Amor, Universal Church of the Kingdom of God [Igreja Universal do Reino de Deus], or Renascer em Cristo); Nondenominational or Independent Church; Something else.
+RANGE: 1 to 98
+	N	Mean	Std. Deviation
+Total	361	6.269	5.292
+1) Baptist	30	8.3
+2) Presbyterian	4	1.1
+3) Methodist	2	0.6
+4) Another Protestant denomination	4	1.1
+5) Assemblies of God [Coded as Pentecostal]	131	36.3
+6) Christian Congregation [Coded as Pentecostal]	31	8.6
+7) Church of the Foursquare Gospel [Coded as Pentecostal]	12	3.3
+8) Another Pentecostal or neo-Charismatic church [Coded as Pentecostal]	139	38.5
+9) No denomination or Independent Church	2	0.6
+10) Something else	5	1.4
+98) Don't know	1	0.3
+Missing	10667
+
+
+20) Q4CHI
+[Ask in Chile if Q3CHI = 2 'Protestant.']  As I read a list, tell me which, if any, of these denominations you are affiliated with.  Baptist; Methodist; Presbyterian; Another Protestant denomination (such as Adventist, Nazarene, Lutheran, or Anglican); Iglesia Metodista Pentecostal de Chile; Iglesia Evangelica Pentecostal de Chile; Iglesia Pentecostal de Chile; Another Pentecostal or neo-Charismatic church (such as Iglesia Pentecoste Naciente, Iglesia Pentecostal Libre Mision, Voz de Deserto, Iglesia Evangelica de Dios Pentecostal, or Iglesia Pentecostal Evangelica Mision); Nondenominational or Independent Church; Something else.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	343	6.962	10.133
+1) Baptist	10	2.9
+2) Methodist	19	5.5
+3) Presbyterian	5	1.5
+4) Another Protestant denomination (such as Adventist, Nazarene, Lutheran, or Anglican	11	3.2
+5) Iglesia Metodista Pentecostal de Chile [Coded as Pentecostal]	86	25.1
+6) Iglesia Evangelica Pentecostal de Chile [Coded as Pentecostal]	93	27.1
+7) Iglesia Pentecostal de Chile [Coded as Pentecostal]	50	14.6
+8) Another Pentecostal or neo-Charismatic church [Coded as Pentecostal]	47	13.7
+9) Nondenominational or Independent Church	7	2.0
+10) Something else	11	3.2
+98) Don't know	2	0.6
+99) Refused	2	0.6
+Missing	10685
+
+
+21) Q4GUA
+[Ask in Guatemala if Q3GUA = 2 'Protestant.']  As I read a list, tell me which, if any, of these denominations you are affiliated with.  Central American Mission; Presbyterian; Methodist; Another Protestant denomination (such as Nazarene, Adventist, Baptist, Lutheran, or Anglican); Assemblies of God; Full Gospel Church of God [Iglesia de Dios el Evangelio Completo]; Another Pentecostal or neo-Charismatic church (such as El Shaddai, Elim, Iglesia Evangelical El Verbo, Fraternidad Cristiana, Comunidad de Dios); Nondenominational or Independent Church; Something else.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	618	7.502	9.167
+1) Central American Mission	14	2.3
+2) Presbyterian	6	1.0
+3) Methodist	1	0.2
+4) Another Protestant denomination	39	6.3
+5) Assemblies of God [Coded as Pentecostal]	58	9.4
+6) Full Gospel Church of God [Coded as Pentecostal]	70	11.3
+7) Another Pentecostal or neo-Charismatic church [Coded as Pentecostal]	282	45.6
+8) Nondenominational or Independent Church	103	16.7
+9) Something else	39	6.3
+98) Don't know	2	0.3
+99) Refused	4	0.6
+Missing	10410
+
+
+22) Q4IND
+[Ask in India if Q3IND = 4 'Protestant.']  As I read a list, tell me which, if any, of these denominations you are affiliated with.  Mar Thoma Church; Church of South India or Anglican; Brethren Christian Assemblies; Another Protestant denomination (such as St. Thomas Evangelical Church, Adventist, Wesleyan, Presbyterian, Methodist, or Nazarene); Indian Pentecostal Church; Assemblies of God; Church of God in India (Full Gospel); The Pentecostal Mission; Another Pentecostal or neo-Charismatic church (such as Believers Church, World Missionary Evangelism, Sharon Pentecostal Fellowship Church, New Indian Church of God, New India Bible Church, Elim, Friends Missionary Prayer Band, or Zion Church); Nondenominational or Independent Church; Garo Baptist Convention; Council of Baptist Churches in Northeast India Presbyterian Church of Northeast India; Assembly Church of Jesus Christ Full Gospel; Tamil Evangelical Lutheran Church; Missouri Synod Lutheran; Something else.
+RANGE: 1 to 97
+	N	Mean	Std. Deviation
+Total	531	9.023	8.467
+1) Mar Thoma Church	6	1.1
+2) Church of South India or Anglican	18	3.4
+3) Brethren Christian Assemblies	4	0.8
+4) Another Protestant denomination	30	5.6
+5) Indian Pentecostal Church [Coded as Pentecostal]	44	8.3
+6) Assemblies of God [Coded as Pentecostal]	107	20.2
+7) Church of God in India (Full Gospel) [Coded as Pentecostal]	21	4.0
+8) The Pentecostal Mission [Coded as Pentecostal]	12	2.3
+9) Another Pentecostal or neo-Charismatic church [Coded as Pentecostal]	177	33.3
+10) Nondenominational or Independent Church	6	1.1
+12) Garo Baptist Convention	5	0.9
+13) Council of Baptist Churches in Northeast India	7	1.3
+14) Presbyterian Church of Northeast India	38	7.2
+15) Assembly Church of Jesus Christ Full Gospel [Coded as Pentecostal]	48	9.0
+17) Missouri Synod Lutheran	4	0.8
+97) Something else	4	0.8
+Missing	10497
+
+
+23) Q4KEN
+[Ask in Kenya if Q3KEN = 2 'Protestant' or 3 'African Instituted Church, AIC']  As I read a list, tell me which, if any, of these denominations you are affiliated with.  Anglican; Presbyterian; Another Protestant denomination (such as Adventist, Baptist, Methodist, Holiness, Reformed, Africa Inland Church, Friends, or Lutheran); African Independent Pentecostal Church of Africa; An African Spirit (Roho) Church; African Israel Church Nineveh; Another AIC denomination (such as Nomiya Luo Roho Church, Church of Christ in Africa, or African Brotherhood Church); Kenya Assemblies of God; Pentecostal Assemblies of God; Full Gospel Churches of Kenya; Another Pentecostal or neo-Charismatic church (such as Redeemed Gospel Church, Free Pentecostal Fellowship in Kenya, Universal Church of the Kingdom of God, or Nairobi Pentecostal Church); Nondenominational or Independent Church; Something else.
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	731	6.788	3.912
+1) Anglican	93	12.7
+2) Presbyterian	54	7.4
+3) Another Protestant denomination	135	18.5
+4) African Independent Pentecostal Church of Africa	4	0.5
+5) An African Spirit (Roho) Church	8	1.1
+6) African Israel Church Nineveh	4	0.5
+7) Another AIC denomination	29	4.0
+8) Kenya Assemblies of God [Coded as Pentecostal]	46	6.3
+9) Pentecostal Assemblies of God [Coded as Pentecostal]	64	8.8
+10) Full Gospel Churches of Kenya [Coded as Pentecostal]	106	14.5
+11) Another Pentecostal or neo-Charismatic church [Coded as Pentecostal]	187	25.6
+12) Nondenominational or Independent Church	1	0.1
+Missing	10297
+
+
+24) Q4NIG
+[Ask in Nigeria if Q3NIG = 2 'Protestant' or 4 'African Independent or Aldura Church, AIC'] As I read a list, tell me which, if any, of these denominations you are affiliated with.  Anglican Church of Nigeria; Baptist Convention; Evangelical Churches of West Africa; Another Protestant denomination (such as Adventist, Baptist, Methodist, Holiness, Reformed, Africa Inland Church, Friends, or Lutheran); Celestial Church of Christ; Christ Apostolic Church; Cherubim or Seraphim; Another African Independent or Aladura Church (AIC) denomination; Assemblies of God; Church of God in Christ International Church of the Foursquare Gospel; Another Pentecostal or neo-Charismatic church (such as Church of God Mission International, Redeemed Christian Church of God, Deeper Life Bible Church, Charismatic Youth Fellowships, Word of Faith Ministries, or Winners Chapel); Nondenominational or Independent Church; Something else.
+RANGE: 1 to 14
+	N	Mean	Std. Deviation
+Total	637	9.608	3.758
+1) Anglican Church of Nigeria	46	7.2
+2) Baptist Convention	10	1.6
+3) Evangelical Churches of West Africa	19	3.0
+4) Another Protestant denomination	45	7.1
+5) Celestial Church of Christ	5	0.8
+6) Christ Apostolic Church	19	3.0
+7) Cherubim or Seraphim	3	0.5
+8) Another African Independent or Aladura Church (AIC) denomination	4	0.6
+9) Assemblies of God [Coded as Pentecostal]	57	8.9
+10) Church of God in Christ [Coded as Pentecostal]	6	0.9
+11) International Church of the Foursquare Gospel [Coded as Pentecostal]	29	4.6
+12) Another Pentecostal or neo-Charismatic church [Coded as Pentecostal]	391	61.4
+13) Nondenominational or Independent Church	1	0.2
+14) Something else	2	0.3
+Missing	10391
+
+
+25) Q4PHI
+[Ask in Philippines if Q3PHI = 2 'Protestant']  As I read a list, tell me which, if any, of these denominations you are affiliated with.  Seventh-Day Adventist; United Church of Christ; Methodist; Another Protestant denomination (such as Christian and Missionary Alliance, Baptist, or Episcopal); Assemblies of God; Church of the Foursquare Gospel Church of God (Cleveland, Tennessee); Another Pentecostal or neo-Charismatic church (such as Jesus is Lord Fellowship, Jesus Miracle Crusade, Take the Nations for Jesus, Love of Christ, Victory Christian Fellowship, Bread of Life, Church of the Living God, Good Shepherd International Fellowship, Fourth Watch, or United Pentecostal Church); Nondenominational or Independent Church; Something else.
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	363	6.788	1.944
+1) Seventh-Day Adventist	6	1.7
+2) United Church of Christ	18	5.0
+3) Methodist	2	0.6
+4) Another Protestant denomination	22	6.1
+5) Assemblies of God [Coded as Pentecostal]	48	13.2
+6) Church of the Foursquare Gospel [Coded as Pentecostal]	25	6.9
+7) Church of God (Cleveland, Tennessee) [Coded as Pentecostal]	8	2.2
+8) Another Pentecostal or neo-Charismatic church [Coded as Pentecostal]	228	62.8
+9) Nondenominational or Independent Church	2	0.6
+10) Something else	4	1.1
+Missing	10665
+
+
+26) Q4SAF
+[Ask in South Africa if Q3SAF = 2 'Protestant' or 5 'African Independent Christian (AIC)']  As I read a list, tell me which, if any, of these denominations you are affiliated with.  Anglican Church; Dutch Reformed; Methodist; Zion Christian Church; Another Zionist Church; An Apostolic Church; South African Assemblies of God; Apostolic Faith Mission; Full Gospel Church of God; Another Pentecostal or neo-Charismatic church (such as International Fellowship of Charismatic Churches, International Fellowship of Christian Churches); Another indigenous denomination; Another Protestant denomination (such as Uniting Reformed, Lutheran, or Presbyterian); Nondenominational or Independent Church; Something else.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	839	6.454	5.726
+1) Anglican Church	56	6.7
+2) Dutch Reformed	98	11.7
+3) Methodist	90	10.7
+4) Zion Christian Church	82	9.8
+5) Another Zionist Church	53	6.3
+6) An Apostolic Church	100	11.9
+7) South African Assemblies of God [Coded as Pentecostal]	38	4.5
+8) Apostolic Faith Mission [Coded as Pentecostal]	65	7.7
+9) Full Gospel Church of God [Coded as Pentecostal]	58	6.9
+10) Another Pentecostal or neo-Charismatic church [Coded as Pentecostal]	98	11.7
+11) Another indigenous denomination	17	2.0
+12) Another Protestant denomination	60	7.2
+14) Something else	22	2.6
+98) Don't know	1	0.1
+99) Refused	1	0.1
+Missing	10189
+
+
+27) Q4SKOR
+[Ask in South Korea if Q3SKOR = 2 'Protestant']  As I read a list, tell me which, if any, of these denominations you are affiliated with.  Presbyterian-Haptong; Presbyterian-Tonghap; Methodist; Another Protestant denomination (such as Korea Evangelical Holiness Church, Sungkyul Church in Korea (Holiness), Baptist, or Adventist); Korea Assemblies of God Full Gospel (including Yoido Full Gospel); Jesus Assembly of God of Korea; Something else.
+RANGE: 1 to 98
+	N	Mean	Std. Deviation
+Total	510	3.853	10.385
+1) Presbyterian-Haptong	182	35.7
+2) Presbyterian-Tonghap	114	22.4
+3) Methodist	30	5.9
+4) Another Protestant denomination	40	7.8
+5) Korea Assemblies of God Full Gospel [Coded as Pentecostal]	129	25.3
+6) Jesus Assembly of God of Korea [Coded as Pentecostal]	2	0.4
+7) Christian Hee Joong Church	1	0.2
+8) Unification Church	1	0.2
+9) The Presbyterian Church in the Republic of Korea (Kijang)	3	0.6
+10) Jesus Centered Church	1	0.2
+11) World Mission Society Church of God	1	0.2
+97) Other	3	0.6
+98) Don't know	3	0.6
+Missing	10518
+
+
+28) Q4US
+[Ask in United States if Q3US = 1 'Protestant']  As I read a list, tell me which, if any, of these denominations you are affiliated with.  Baptist; Methodist; Presbyterian; Another Protestant denomination (such as Adventist, Episcopalian, Jehovah's Witness, Lutheran, or United Church of Christ); Assembly of God; Church of God in Christ; Church of God (Cleveland, Tennessee); Another Pentecostal or neo-Charismatic church (such as Apostolic Faith Church, International Church of the Foursquare Gospel, International Pentecostal Holiness Church, Pentecostal Church of God, United Pentecostal Church, Vineyard Fellowship); Nondenominational or Independent Church; Something else.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	632	4.979	8.085
+1) Baptist	175	27.7
+2) Methodist	80	12.7
+3) Presbyterian	40	6.3
+4) Another Protestant denomination	93	14.7
+5) Assembly of God [Coded as Pentecostal]	23	3.6
+6) Church of God in Christ [Coded as Pentecostal]	23	3.6
+7) Church of God (Cleveland, Tennessee) [Coded as Pentecostal]	17	2.7
+8) Another Pentecostal or neo-Charismatic church [Coded as Pentecostal]	56	8.9
+9) Nondenominational or Independent Church	103	16.3
+10) Something else	18	2.8
+98) Don't know	3	0.5
+99) Refused	1	0.2
+Missing	10396
+
+
+29) Q5_A
+[Ask if Christian] As I read from a list, please tell me which, if any, of the following descriptions apply to you.  Does this apply to you or not: Evangelical Christian [If respondent is Catholic, replace with 'Evangelical Catholic']?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	9092	1.829	1.456
+1) Yes, applies	4101	45.1
+2) No, does not apply	4571	50.3
+8) Don't know	395	4.3
+9) Refused	25	0.3
+Missing	1936
+
+
+30) Q5_B
+[Ask if Christian] As I read from a list, please tell me which, if any, of the following descriptions apply to you.  Does this apply to you or not: Born-again Christian [If respondent is Catholic, replace with 'Born-again Catholic']?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	9092	1.785	1.292
+1) Yes, applies	3875	42.6
+2) No, does not apply	4901	53.9
+8) Don't know	289	3.2
+9) Refused	27	0.3
+Missing	1936
+
+
+31) Q5_C
+[Ask if Christian] As I read from a list, please tell me which, if any, of the following descriptions apply to you.  Does this apply to you or not: Pentecostal Christian [If respondent is Catholic, replace with 'Pentecostal Catholic']?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	9092	1.955	1.49
+1) Yes, applies	3207	35.3
+2) No, does not apply	5424	59.7
+8) Don't know	431	4.7
+9) Refused	30	0.3
+Missing	1936
+
+
+32) Q5_D
+[Ask if Christian] As I read from a list, please tell me which, if any, of the following descriptions apply to you.  Does this apply to you or not: Charismatic Christian [If respondent is Catholic, replace with 'Charismatic Catholic']?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	9092	2.077	1.551
+1) Yes, applies	2502	27.5
+2) No, does not apply	6062	66.7
+8) Don't know	497	5.5
+9) Refused	31	0.3
+Missing	1936
+
+
+33) PRAY_OUT
+How often do you pray to God outside of religious services: would you say every day, more than once a week, once a week, at least once a month, several times a year, less often or never?  [Question asked in all countries.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.123	1.908
+1) Every day	7032	63.8
+2) More than once a week	1270	11.5
+3) Once a week	779	7.1
+4) At least once a month	373	3.4
+5) Several times a year	296	2.7
+6) Less often	443	4.0
+7) Never	815	7.4
+8) Don't know	9	0.1
+9) Refused	11	0.1
+
+
+34) TONGUES
+How often do you speak or pray in tongues: would you say every day, more than once a week, once a week, at least once a month, several times a year, less often or never?  [Question asked only if respondent belongs to a particular religion.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10256	5.569	2.199
+1) Every day	1066	10.4
+2) More than once a week	680	6.6
+3) Once a week	514	5.0
+4) At least once a month	423	4.1
+5) Several times a year	581	5.7
+6) Less often	620	6.0
+7) Never	6176	60.2
+8) Don't know	170	1.7
+9) Refused	26	0.3
+Missing	772
+
+
+35) GROUPS
+How often do you participate in prayer groups, Scripture study groups or religious education programs: would you say every day, more than once a week, once a week, at least once a month, several times a year, less often or never?  [Question asked in all countries.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	4.609	2.232
+1) Every day	774	7.0
+2) More than once a week	1784	16.2
+3) Once a week	2153	19.5
+4) At least once a month	813	7.4
+5) Several times a year	550	5.0
+6) Less often	985	8.9
+7) Never	3771	34.2
+8) Don't know	69	0.6
+9) Refused	129	1.2
+
+
+36) RADIO_TV
+How often do you listen to religious radio or watch religious television programs: would you say every day, more than once a week, once a week, at least once a month, several times a year, less often or never?  [Question asked in all countries.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	3.847	2.287
+1) Every day	2201	20.0
+2) More than once a week	1851	16.8
+3) Once a week	1871	17.0
+4) At least once a month	926	8.4
+5) Several times a year	555	5.0
+6) Less often	1073	9.7
+7) Never	2474	22.4
+8) Don't know	21	0.2
+9) Refused	56	0.5
+
+
+37) SHARE_F
+How often do you share your faith with non-believers: would you say every day, more than once a week, once a week, at least once a month, several times a year, less often or never?  [Question asked in all countries.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	4.522	2.2
+1) Every day	1387	12.6
+2) More than once a week	1307	11.9
+3) Once a week	1324	12.0
+4) At least once a month	1234	11.2
+5) Several times a year	1057	9.6
+6) Less often	1580	14.3
+7) Never	2977	27.0
+8) Don't know	97	0.9
+9) Refused	65	0.6
+
+
+38) READ_OUT
+How often do you read scripture outside of religious services: would you say every day, more than once a week, once a week, at least once a month, several times a year, less often or never?  [Question asked in all countries.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	3.775	2.367
+1) Every day	2773	25.1
+2) More than once a week	1763	16.0
+3) Once a week	1273	11.5
+4) At least once a month	900	8.2
+5) Several times a year	677	6.1
+6) Less often	1133	10.3
+7) Never	2405	21.8
+8) Don't know	43	0.4
+9) Refused	61	0.6
+
+
+39) FAST
+How often do you fast: would you say every day, more than once a week, once a week, at least once a month, several times a year, less often or never?  [Question asked in all countries.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	5.65	1.67
+1) Every day	198	1.8
+2) More than once a week	483	4.4
+3) Once a week	814	7.4
+4) At least once a month	1105	10.0
+5) Several times a year	1647	14.9
+6) Less often	1677	15.2
+7) Never	4939	44.8
+8) Don't know	76	0.7
+9) Refused	89	0.8
+
+
+40) HELL
+Which, if any, of the following do you believe in?  Do you believe in Hell?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.393	1.147
+1) Yes	8378	76.0
+2) No	2373	21.5
+8) Don't know	259	2.3
+9) Refused	18	0.2
+
+
+41) HEAVEN
+Which, if any, of the following do you believe in?  Do you believe in Heaven?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.221	0.931
+1) Yes	9671	87.7
+2) No	1179	10.7
+8) Don't know	165	1.5
+9) Refused	13	0.1
+
+
+42) RAPTURE
+Which, if any, of the following do you believe in?  Do you believe in the Rapture of the Church, that is, that before the world comes to an end, the religiously faithful will be saved and taken up to Heaven?  [Question asked only if respondent is Christian.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	9092	1.585	1.66
+1) Yes	6999	77.0
+2) No	1561	17.2
+8) Don't know	496	5.5
+9) Refused	36	0.4
+Missing	1936
+
+
+43) GOD
+Which, if any, of the following do you believe in?  Do you believe in God?  [Question asked only if respondent indicates any of the following: no religion, not a believer, atheist, or agnostic.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	753	1.717	1.648
+1) Yes	474	62.9
+2) No	237	31.5
+8) Don't know	33	4.4
+9) Refused	9	1.2
+Missing	10275
+
+
+44) REL_ALWS
+Have you always been a [if answer given in Q4, insert religious affiliation from Q4; otherwise, insert religious affiliation from Q3]?  Question asked in United States if respondent belongs to a particular religion.  In all other countries, question asked of all respondents.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10908	1.263	0.654
+1) Yes	8388	76.9
+2) No	2466	22.6
+8) Don't know	34	0.3
+9) Refused	20	0.2
+Missing	120
+
+
+45) Q9BRA
+What were you before?  [Question asked only in Brazil if REL_ALWS = 2 'No.']
+RANGE: 1 to 98
+	N	Mean	Std. Deviation
+Total	321	4.888	15.11
+1) Roman Catholic	220	68.5
+2) Evangelical [Evangelico]  (or Protestant)	30	9.3
+3) Afro-Brazilian	15	4.7
+4) Jehovah's Witness	2	0.6
+8) Buddhist	1	0.3
+10) No religion, not a believer, atheist, agnostic	45	14.0
+97) Other religion	6	1.9
+98) Don't know	2	0.6
+Missing	10707
+
+
+46) Q9CHIL
+What were you before?  [Question asked only in Chile if REL_ALWS = 2 'No.']
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	217	12.083	27.959
+1) Roman Catholic	133	61.3
+2) Evangelical [Evangelico] (or Protestant)	15	6.9
+3) Jehovah's Witness	4	1.8
+5) Mormon	4	1.8
+11) No religion, not a believer, atheist, agnostic	41	18.9
+97) Other religion	2	0.9
+99) Refused	18	8.3
+Missing	10811
+
+
+47) Q9GUAT
+What were you before?  [Question asked only in Guatemala if REL_ALWS = 2 'No.']
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	401	3.112	5.609
+1) Roman Catholic	241	60.1
+2) Evangelical [Evangelico] (or Protestant)	52	13.0
+3) Jehovah's Witness	1	0.2
+4) Mormon	11	2.7
+7) Central American Mission	3	0.7
+8) No religion, not a believer, atheist, agnostic	92	22.9
+99) Refused	1	0.2
+Missing	10627
+
+
+48) Q9IND
+What were you before?  [Question asked only in India (Kerala) if REL_ALWS = 2 'No.']
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	62	22	39.931
+1) Hindu	38	61.3
+3) Catholic Christian	10	16.1
+11) Traditional tribal	1	1.6
+97) Other religion	1	1.6
+99) Refused	12	19.4
+Missing	10966
+
+
+49) Q9KEN
+What were you before?  [Question asked only in Kenya if REL_ALWS = 2 'No.']
+RANGE: 1 to 97
+	N	Mean	Std. Deviation
+Total	281	5.822	18.518
+1) Roman Catholic	128	45.6
+2) Protestant	86	30.6
+3) African Instituted Church (AIC)	31	11.0
+4) Muslim	4	1.4
+6) African Traditional Religion (ATR)	4	1.4
+8) No religion, not a believer, atheist, agnostic	17	6.0
+97) Other religion	11	3.9
+Missing	10747
+
+
+50) Q9NIG
+What were you before?  [Question asked only in Nigeria if REL_ALWS = 2 'No.']
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	206	34.35	45.175
+1) Roman Catholic	95	46.1
+2) Protestant	1	0.5
+3) Muslim	13	6.3
+4) African Independent or Aladura Church (AIC)	13	6.3
+5) African Traditional Religion (ATR)	7	3.4
+6) Jehovah's Witness	3	1.5
+9) No religion, not a believer, atheist, agnostic	4	1.9
+97) Other religion	65	31.6
+98) Don't know	1	0.5
+99) Refused	4	1.9
+Missing	10822
+
+
+51) Q9PHI
+What were you before?  [Question asked only in Philippines if REL_ALWS = 2 'No.']
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	322	1.888	2.196
+1) Roman Catholic	265	82.3
+2) Protestant	6	1.9
+3) Iglesia ni Cristo	13	4.0
+4) Jehovah's Witness	1	0.3
+5) Mormon	1	0.3
+7) Aglipayan Church (a.k.a. Philippine Independent Church)	13	4.0
+8) Other Christian group/religion	17	5.3
+9) Other non-Christian group/religion	4	1.2
+10) No religion, not a believer, atheist, agnostic	2	0.6
+Missing	10706
+
+
+52) Q9SAF
+What were you before?  [Question asked only in South Africa if REL_ALWS = 2 'No.']
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	178	8.702	22.942
+1) Roman Catholic	42	23.6
+2) Protestant	77	43.3
+3) Muslim	1	0.6
+4) Hindu	5	2.8
+5) African Independent Christian (AIC)	26	14.6
+6) African Traditional Religion (ATR)	5	2.8
+7) Jehovah's Witness	4	2.2
+10) No religion, not a believer, atheist, agnostic	7	3.9
+97) Other religion	8	4.5
+98) Don't know	1	0.6
+99) Refused	2	1.1
+Missing	10850
+
+
+53) Q9SKOR
+What were you before?  [Question asked only in South Korea if REL_ALWS = 2 'No.']
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	187	6.214	15.563
+1) Catholic Christian	20	10.7
+2) Protestant Christian	68	36.4
+3) Buddhist	44	23.5
+4) Confucianist	4	2.1
+5) Jehovah's Witness	1	0.5
+8) No religion, not a believer, atheist, agnostic	45	24.1
+97) Other religion	1	0.5
+99) Refused	4	2.1
+Missing	10841
+
+
+54) Q9US
+What were you before?  [Question asked only in United States if REL_ALWS = 2 'No.']  Protestant includes Baptist, Lutheran, Methodist, Presbyterian, Episcopalian, Pentecostal, Jehovah's Witness, Church of Christ, etc.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	291	9.113	25.353
+1) Protestant (include Baptist, Lutheran, Methodist, Presbyterian, Episcopalian, Pentecostal, Jehovah's Witness, Church of Christ, etc.)	183	62.9
+2) Roman Catholic	55	18.9
+3) Jewish	1	0.3
+4) Mormon (include Church of Jesus Christ of Latter Day Saints)	6	2.1
+6) Islam/Muslim	1	0.3
+8) No religion, not a believer, atheist, agnostic	23	7.9
+97) Other religion	15	5.2
+98) Don't know	6	2.1
+99) Refused	1	0.3
+Missing	10737
+
+
+55) CHANGE
+How old were you when you changed your religion to your present religion?  ___ years [Asked only if REL_ALWS = 2 'No.']
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2466	29.094	20.004
+1) 	4	0.2
+2) 	13	0.5
+3) 	5	0.2
+4) 	5	0.2
+5) 	7	0.3
+6) 	8	0.3
+7) 	17	0.7
+8) 	19	0.8
+9) 	18	0.7
+10) 	53	2.1
+11) 	22	0.9
+12) 	52	2.1
+13) 	47	1.9
+14) 	67	2.7
+15) 	105	4.3
+16) 	77	3.1
+17) 	107	4.3
+18) 	135	5.5
+19) 	106	4.3
+20) 	181	7.3
+21) 	67	2.7
+22) 	73	3.0
+23) 	61	2.5
+24) 	54	2.2
+25) 	107	4.3
+26) 	55	2.2
+27) 	53	2.1
+28) 	55	2.2
+29) 	33	1.3
+30) 	113	4.6
+31) 	20	0.8
+32) 	36	1.5
+33) 	38	1.5
+34) 	32	1.3
+35) 	73	3.0
+36) 	30	1.2
+37) 	20	0.8
+38) 	21	0.9
+39) 	21	0.9
+40) 	68	2.8
+41) 	17	0.7
+42) 	19	0.8
+43) 	13	0.5
+44) 	7	0.3
+45) 	36	1.5
+46) 	18	0.7
+47) 	8	0.3
+48) 	13	0.5
+49) 	9	0.4
+50) 	33	1.3
+51) 	9	0.4
+52) 	11	0.4
+53) 	3	0.1
+54) 	3	0.1
+55) 	9	0.4
+56) 	4	0.2
+57) 	2	0.1
+58) 	4	0.2
+59) 	5	0.2
+60) 	13	0.5
+61) 	4	0.2
+62) 	1	0.0
+63) 	1	0.0
+64) 	2	0.1
+65) 	1	0.0
+66) 	2	0.1
+67) 	2	0.1
+68) 	2	0.1
+69) 	1	0.0
+70) 	3	0.1
+71) 	2	0.1
+72) 	2	0.1
+79) 	1	0.0
+80) 	2	0.1
+98) Don't know	65	2.6
+99) Refused	61	2.5
+Missing	8562
+
+
+56) ATTEND
+Aside from weddings and funerals, how often do you attend religious services: more than once a week, once a week, once or twice a month, a few times a year, seldom, or never?  [Question asked of all respondents in Chile, Guatemala, South Korea, and the United States.  In all other countries, question asked only if respondent is not Muslim.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10611	2.693	1.63
+1) More than once a week	2843	26.8
+2) Once a week	3517	33.1
+3) Once or twice a month	1289	12.1
+4) A few times a year	966	9.1
+5) Seldom	1126	10.6
+6) Never	825	7.8
+8) Don't know	19	0.2
+9) Refused	26	0.2
+Missing	417
+
+
+57) ATTEND_M
+On average, how often do you attend the mosque for salah and Jum'ah Prayer?  [Question asked only of Muslims in Brazil, India, Kenya, Nigeria, Philippines, and South Africa.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	417	2.468	1.726
+1) More than once a week	176	42.2
+2) Once a week for Jum'ah	104	24.9
+3) Once or twice a month	13	3.1
+4) A few times a year	56	13.4
+5) Seldom	29	7.0
+6) Never	38	9.1
+9) Refused	1	0.2
+Missing	10611
+
+
+58) TONGUES2
+When you attend religious services, how often do they include people speaking tongues, prophesying, praying for miraculous or divine healings, or displaying physical signs of the spirit such as laughing and shaking: would you say always, frequently, occasionally, or never?  [Question only asked if respondent is Christian and attends religious services more than 'never.']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	8840	2.94	1.296
+1) Always	1386	15.7
+2) Frequently	1745	19.7
+3) Occasionally	2410	27.3
+4) Never	3134	35.5
+8) Don't know	134	1.5
+9) Refused	31	0.4
+Missing	2188
+
+
+59) HEALING
+Have you ever experienced or witnessed a divine healing of an illness or injury?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.554	0.817
+1) Yes	5565	50.5
+2) No	5357	48.6
+8) Don't know	93	0.8
+9) Refused	13	0.1
+
+
+60) PROPHECY
+Have you ever given or interpreted prophecy?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.873	0.897
+1) Yes	2473	22.4
+2) No	8379	76.0
+8) Don't know	157	1.4
+9) Refused	19	0.2
+
+
+61) ANSWER
+Have you ever received a definite answer to a specific prayer request?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.392	0.908
+1) Yes	7605	69.0
+2) No	3276	29.7
+8) Don't know	127	1.2
+9) Refused	20	0.2
+
+
+62) REVELAT
+Have you ever received a direct revelation from God?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.786	1.045
+1) Yes	3797	34.4
+2) No	6996	63.4
+8) Don't know	212	1.9
+9) Refused	23	0.2
+
+
+63) DEVIL
+Have you ever experienced or witnessed the devil or evil spirits being driven out of a person?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.701	0.871
+1) Yes	4143	37.6
+2) No	6746	61.2
+8) Don't know	123	1.1
+9) Refused	16	0.1
+
+
+64) GOODEVIL
+Now I am going to read you a series of statements on some different topics.  For each one, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it, or completely disagree with it. The first one is: there are clear guidelines about what's good or evil that apply to everyone regardless of their situation.  Do you completely agree, mostly agree, mostly disagree, or completely disagree?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	11028	4.195	15.637
+1) Completely agree	5963	54.1
+2) Mostly agree	3571	32.4
+3) Mostly disagree	754	6.8
+4) Completely disagree	443	4.0
+98) Don't know	278	2.5
+99) Refused	19	0.2
+
+
+65) MIRACLES
+Now I am going to read you a series of statements on some different topics.  For each one, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it, or completely disagree with it: miracles still occur today as in ancient times.  Do you completely agree, mostly agree, mostly disagree, or completely disagree?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	11028	4.336	15.433
+1) Completely agree	5443	49.4
+2) Mostly agree	3005	27.2
+3) Mostly disagree	1228	11.1
+4) Completely disagree	1062	9.6
+98) Don't know	274	2.5
+99) Refused	16	0.1
+
+
+66) ANGELS
+Now I am going to read you a series of statements on some different topics.  For each one, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it, or completely disagree with it: angels and demons are active in the world.  Do you completely agree, mostly agree, mostly disagree, or completely disagree?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	11028	5.126	18.007
+1) Completely agree	6271	56.9
+2) Mostly agree	2649	24.0
+3) Mostly disagree	909	8.2
+4) Completely disagree	801	7.3
+98) Don't know	372	3.4
+99) Refused	26	0.2
+
+
+67) CONVERT
+[Question asked only if respondent belongs to a particular religion.]  Now I am going to read you a series of statements on some different topics.  For each one, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it, or completely disagree with it.  [IF CHRISTIAN: Christians] [IF JEWISH: Jews] [IF MUSLIM: Muslims] [IF OTHER RELIGION: INSERT RELIGION] [IF ELSE: Religious people] ____ have a duty to convert people of other religious faiths to ___ [IF CHRISTIAN: Christianity] [IF JEWISH: Judaism] [IF MUSLIM: Islam] [IF OTHER RELIGION: INSERT RELGION][IF ELSE: their religious faith].  Do you completely agree, mostly agree, mostly disagree, or completely disagree?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	10256	5.238	16.889
+1) Completely agree	3796	37.0
+2) Mostly agree	2560	25.0
+3) Mostly disagree	1563	15.2
+4) Completely disagree	2010	19.6
+98) Don't know	297	2.9
+99) Refused	30	0.3
+Missing	772
+
+
+68) WORK
+[Question asked only if respondent belongs to a particular religion.]  Now I am going to read you a series of statements on some different topics. For each one, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it, or completely disagree with it.  [IF CHRISTIAN: Christians] [IF JEWISH: Jews] [IF MUSLIM: Muslims] [IF OTHER RELIGION: INSERT RELIGION][IF ELSE: Religious people] ______ have a responsibility to work for justice for the poor.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	10256	3.602	13.915
+1) Completely agree	6038	58.9
+2) Mostly agree	2833	27.6
+3) Mostly disagree	713	7.0
+4) Completely disagree	455	4.4
+98) Don't know	199	1.9
+99) Refused	18	0.2
+Missing	772
+
+
+69) PROSPER
+[Question asked if respondent belongs to a particular religion or believes in God.]  Now I am going to read you a series of statements on some different topics. For each one, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it, or completely disagree with it.  God will grant material prosperity to all believers who have enough faith.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	10730	4.173	14.694
+1) Completely agree	5243	48.9
+2) Mostly agree	2561	23.9
+3) Mostly disagree	1290	12.0
+4) Completely disagree	1381	12.9
+98) Don't know	229	2.1
+99) Refused	26	0.2
+Missing	298
+
+
+70) HEALTH
+[Question asked if respondent belongs to a particular religion or believes in God.]  Now I am going to read you a series of statements on some different topics. For each one, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it, or completely disagree with it.  God will grant health and relief from sickness to believers who have enough faith.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	10730	3.181	12.365
+1) Completely agree	6584	61.4
+2) Mostly agree	2484	23.2
+3) Mostly disagree	830	7.7
+4) Completely disagree	654	6.1
+98) Don't know	153	1.4
+99) Refused	25	0.2
+Missing	298
+
+
+71) POLITICS
+[Question asked if respondent belongs to a particular religion or believes in God.]  Now I am going to read you a series of statements on some different topics. For each one, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it, or completely disagree with it. God fulfills his purposes through politics and elections.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	10730	8.429	22.4
+1) Completely agree	1977	18.4
+2) Mostly agree	1812	16.9
+3) Mostly disagree	2092	19.5
+4) Completely disagree	4220	39.3
+98) Don't know	583	5.4
+99) Refused	46	0.4
+Missing	298
+
+
+72) AIDS
+[Question asked if respondent belongs to a particular religion or believes in God.]  Now I am going to read you a series of statements on some different topics. For each one, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it, or completely disagree with it.  AIDS is God's punishment for immoral sexual behavior.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	10730	8.618	23.043
+1) Completely agree	2588	24.1
+2) Mostly agree	1828	17.0
+3) Mostly disagree	1680	15.7
+4) Completely disagree	3968	37.0
+98) Don't know	620	5.8
+99) Refused	46	0.4
+Missing	298
+
+
+73) SCRIPTUR
+Which one of these statements comes closest to describing your feelings about ____ [IF CHRISTIAN: the Bible] [IF MUSLIM: the Koran] [ELSE: sacred scriptures]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.679	1.42
+1) [IF CHRISTIAN: The Bible is][IF MUSLIM: The Koran is] [ELSE: Sacred scriptures are] the actual word of God and [IS/ARE] to be taken literally, word for word, OR	7086	64.3
+2) [IF CHRISTIAN: The Bible is] [IF MUSLIM: The Koran is] [ELSE: Sacred scriptures are] the word of God, but not everything in [IT/THEM] should be taken literally, word for word, OR	2526	22.9
+3) [IF CHRISTIAN: The Bible is] [IF MUSLIM: The Koran is] [ELSE: Sacred scriptures are] written by men and [IS/ARE] not the word of God	932	8.5
+4) Other (VOLUNTEERED THIS RESPONSE)	82	0.7
+8) Don't know	360	3.3
+9) Refused	42	0.4
+
+
+74) MOSTIMP
+Which of the following is most important to you: your continent, your nationality, your religion, or your ethnic group?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10256	2.893	1.258
+1) Your continent	572	5.6
+2) Your nationality	2589	25.2
+3) Your religion	6099	59.5
+4) Your ethnic group	615	6.0
+8) Don't know	261	2.5
+9) Refused	120	1.2
+Missing	772
+
+
+75) ILLS
+[Question asked if respondent is Christian.]  Now I am going to read you another series of statements on some different topics. For each one, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it, or completely disagree with it.  The first one is: if enough people were brought to Christ, social ills would take care of themselves.  Do you completely agree, mostly agree, mostly disagree, or completely disagree?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	9092	2.005	1.401
+1) Completely agree	4228	46.5
+2) Mostly agree	2727	30.0
+3) Mostly disagree	991	10.9
+4) Completely disagree	903	9.9
+8) Don't know	223	2.5
+9) Refused	20	0.2
+Missing	1936
+
+
+76) ONLYWAY
+[Question asked if respondent is Christian.]  Now I am going to read you another series of statements on some different topics. For each one, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it, or completely disagree with it.  Belief in Jesus Christ is the only way to be saved from eternal damnation.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	9092	1.585	1.191
+1) Completely agree	6116	67.3
+2) Mostly agree	1889	20.8
+3) Mostly disagree	505	5.6
+4) Completely disagree	417	4.6
+8) Don't know	148	1.6
+9) Refused	17	0.2
+Missing	1936
+
+
+77) RETURN
+[Question asked if respondent is Christian.]  Now I am going to read you another series of statements on some different topics. For each one, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it, or completely disagree with it. Jesus will return to earth in my lifetime.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	9092	3.404	2.619
+1) Completely agree	2868	31.5
+2) Mostly agree	1790	19.7
+3) Mostly disagree	1062	11.7
+4) Completely disagree	1429	15.7
+8) Don't know	1889	20.8
+9) Refused	54	0.6
+Missing	1936
+
+
+78) EMPLOY
+Turning to another subject, suppose you could choose between different kinds of jobs. Which one would you prefer: being an employee or being self-employed?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.828	0.855
+1) Being an employee	3055	27.7
+2) Being self employed	7495	68.0
+3) Neither/None	347	3.1
+8) Don't know	110	1.0
+9) Refused	21	0.2
+
+
+79) INTERNA
+To what extent, if at all, do you think our country benefits from the greater influence of international business practices, trade, ideas, communication and products such as international foods and TV programs from other countries: would you say to a great extent, moderate extent, small extent, or not at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.322	1.572
+1) Great extent	3053	27.7
+2) Moderate extent	4904	44.5
+3) Small extent	1795	16.3
+4) Not at all	656	5.9
+5) Harms our country	126	1.1
+8) Don't know	340	3.1
+9) Refused	154	1.4
+
+
+80) FINANCE
+Thinking about your own personal finances, how would you rate your own personal financial situation: would you say you are in excellent shape, good shape, only fair shape or poor shape?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.842	0.898
+1) Excellent shape	473	4.3
+2) Good shape	3079	27.9
+3) Only fair shape	5539	50.2
+4) Poor shape	1859	16.9
+8) Don't know	43	0.4
+9) Refused	35	0.3
+
+
+81) FINANCE2
+Over the course of the next year, do you think the financial situation of you and your family will improve a lot, improve some, get a little worse, get a lot worse, or stay the same?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.462	1.724
+1) Improve a lot	2711	24.6
+2) Improve some	5710	51.8
+3) Get a little worse	761	6.9
+4) Get a lot worse	329	3.0
+5) Stay the same	917	8.3
+8) Don't know	563	5.1
+9) Refused	37	0.3
+
+
+82) HARDWORK
+As I read from a list, please tell me how important each factor is in people's economic success.  Is hard work a very important, somewhat important, not too important, or not at all an important factor in people's economic success?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.235	0.632
+1) Very important	9089	82.4
+2) Somewhat important	1538	13.9
+3) Not too important	264	2.4
+4) Not at all important	110	1.0
+8) Don't know	20	0.2
+9) Refused	7	0.1
+
+
+83) FATE
+As I read from a list, please tell me how important each factor is in people's economic success.  Is fate a very important, somewhat important, not too important, or not at all an important factor in people's economic success?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.167	1.332
+1) Very important	4029	36.5
+2) Somewhat important	3564	32.3
+3) Not too important	2005	18.2
+4) Not at all important	1185	10.7
+8) Don't know	223	2.0
+9) Refused	22	0.2
+
+
+84) ECONPAR
+As I read from a list, please tell me how important each factor is in people's economic success.  Are people's parent's economic situations very important, somewhat important, not too important, or not at all important factors in people's economic success?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.756	1.084
+1) Very important	5523	50.1
+2) Somewhat important	3817	34.6
+3) Not too important	1127	10.2
+4) Not at all important	421	3.8
+8) Don't know	122	1.1
+9) Refused	18	0.2
+
+
+85) FAITH_GD
+As I read from a list, please tell me how important each factor is in people's economic success.  Is faith in God a very important, somewhat important, not too important, or not at all an important factor in people's economic success?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.338	0.837
+1) Very important	8696	78.9
+2) Somewhat important	1498	13.6
+3) Not too important	527	4.8
+4) Not at all important	244	2.2
+8) Don't know	57	0.5
+9) Refused	6	0.1
+
+
+86) GOVPOLIC
+As I read from a list, please tell me how important each factor is in people's economic success.   Are government policies very important, somewhat important, not too important, or not at all important factors in people's economic success?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.096	1.229
+1) Very important	3865	35.0
+2) Somewhat important	4210	38.2
+3) Not too important	1762	16.0
+4) Not at all important	1002	9.1
+8) Don't know	165	1.5
+9) Refused	24	0.2
+
+
+87) CONNECT
+As I read from a list, please tell me how important each factor is in people's economic success.  Are personal connections and contracts very important, somewhat important, not too important, or not at all important factors in people's economic success?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.658	0.985
+1) Very important	5889	53.4
+2) Somewhat important	3884	35.2
+3) Not too important	836	7.6
+4) Not at all important	310	2.8
+8) Don't know	101	0.9
+9) Refused	8	0.1
+
+
+88) IMPEDUC
+As I read from a list, please tell me how important each factor is in people's economic success.  Is education a very important, somewhat important, not too important, or not at all an important factor in people's economic success?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.172	0.476
+1) Very important	9409	85.3
+2) Somewhat important	1417	12.8
+3) Not too important	160	1.5
+4) Not at all important	33	0.3
+8) Don't know	7	0.1
+9) Refused	2	0.0
+
+
+89) WOMEN1
+Now I am going to read you another series of statements on some different topics.  For each statement, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it or completely disagree with it.  The first one is: when jobs are scarce, men should have more right to a job than women.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.631	1.284
+1) Completely agree	2856	25.9
+2) Mostly agree	2365	21.4
+3) Mostly disagree	2169	19.7
+4) Completely disagree	3548	32.2
+8) Don't know	81	0.7
+9) Refused	9	0.1
+
+
+90) WOMEN2
+Now I am going to read you another series of statements on some different topics.  For each statement, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it or completely disagree with it.  On the whole, men make better political leaders than women do.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.659	1.416
+1) Completely agree	2674	24.2
+2) Mostly agree	2730	24.8
+3) Mostly disagree	2410	21.9
+4) Completely disagree	2945	26.7
+8) Don't know	242	2.2
+9) Refused	27	0.2
+
+
+91) WOMEN3
+Now I am going to read you another series of statements on some different topics.  For each statement, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it or completely disagree with it.  A wife must always obey her husband.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.265	1.26
+1) Completely agree	4039	36.6
+2) Mostly agree	2690	24.4
+3) Mostly disagree	2016	18.3
+4) Completely disagree	2191	19.9
+8) Don't know	80	0.7
+9) Refused	12	0.1
+
+
+92) WOMEN4
+Now I am going to read you another series of statements on some different topics.  For each statement, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it or completely disagree with it.  A working mother can establish just as warm and secure of a relationship with her children as a mother who does not work.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.081	1.173
+1) Completely agree	4158	37.7
+2) Mostly agree	3580	32.5
+3) Mostly disagree	2031	18.4
+4) Completely disagree	1136	10.3
+8) Don't know	117	1.1
+9) Refused	6	0.1
+
+
+93) WOMEN5
+Now I am going to read you another series of statements on some different topics.  For each statement, please tell me if you completely agree with it, mostly agree with it, mostly disagree with it or completely disagree with it.  Women should be allowed to serve as pastors or priests.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.548	1.685
+1) Completely agree	3566	32.3
+2) Mostly agree	2989	27.1
+3) Mostly disagree	1532	13.9
+4) Completely disagree	2404	21.8
+8) Don't know	493	4.5
+9) Refused	44	0.4
+
+
+94) TRUST
+Generally speaking, would you say that most people can be trusted or that you can't be too careful in dealing with people?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.975	0.854
+1) Most people can be trusted	2019	18.3
+2) Can't be too careful	7959	72.2
+3) Other/Depends	917	8.3
+8) Don't know	108	1.0
+9) Refused	25	0.2
+
+
+95) HOMOSEXU
+Please tell me for each of the following items whether you think it can always be justified, sometimes be justified, or never be justified: homosexuality.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.897	1.261
+1) Always justified	772	7.0
+2) Sometimes justified	2022	18.3
+3) Never justified	7760	70.4
+8) Don't know	412	3.7
+9) Refused	62	0.6
+
+
+96) PROSTITU
+Please tell me for each of the following items whether you think it can always be justified, sometimes be justified, or never be justified: prostitution.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.89	0.968
+1) Always justified	419	3.8
+2) Sometimes justified	1738	15.8
+3) Never justified	8607	78.0
+8) Don't know	222	2.0
+9) Refused	42	0.4
+
+
+97) DIVORCE
+Please tell me for each of the following items whether you think it can always be justified, sometimes be justified, or never be justified: divorce.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.475	1.006
+1) Always justified	1145	10.4
+2) Sometimes justified	4502	40.8
+3) Never justified	5186	47.0
+8) Don't know	172	1.6
+9) Refused	23	0.2
+
+
+98) EUTHANAS
+Please tell me for each of the following items whether you think it can always be justified, sometimes be justified, or never be justified: euthanasia - ending the life of the incurably sick.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.837	1.229
+1) Always justified	772	7.0
+2) Sometimes justified	2475	22.4
+3) Never justified	7346	66.6
+8) Don't know	389	3.5
+9) Refused	46	0.4
+
+
+99) SUICIDE
+Please tell me for each of the following items whether you think it can always be justified, sometimes be justified, or never be justified: suicide.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.99	0.885
+1) Always justified	285	2.6
+2) Sometimes justified	835	7.6
+3) Never justified	9655	87.5
+8) Don't know	223	2.0
+9) Refused	30	0.3
+
+
+100) ALCOHOL
+Please tell me for each of the following items whether you think it can always be justified, sometimes be justified, or never be justified: drinking alcohol.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.67	0.99
+1) Always justified	662	6.0
+2) Sometimes justified	3457	31.3
+3) Never justified	6687	60.6
+8) Don't know	190	1.7
+9) Refused	32	0.3
+
+
+101) SEXNOTM
+Please tell me for each of the following items whether you think it can always be justified, sometimes be justified, or never be justified: sex between people who are not married to each other.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.732	1.116
+1) Always justified	999	9.1
+2) Sometimes justified	2505	22.7
+3) Never justified	7224	65.5
+8) Don't know	253	2.3
+9) Refused	47	0.4
+
+
+102) ABORTION
+Please tell me for each of the following items whether you think it can always be justified, sometimes be justified, or never be justified: abortion.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.873	0.881
+1) Always justified	315	2.9
+2) Sometimes justified	1856	16.8
+3) Never justified	8646	78.4
+8) Don't know	179	1.6
+9) Refused	32	0.3
+
+
+103) POLYGAMY
+Please tell me for each of the following items whether you think it can always be justified, sometimes be justified, or never be justified: polygamy.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	3.006	1.133
+1) Always justified	491	4.5
+2) Sometimes justified	1126	10.2
+3) Never justified	8983	81.5
+8) Don't know	395	3.6
+9) Refused	33	0.3
+
+
+104) TRUST1
+I'm going to read a list of institutions and people. For each one, please tell me whether you feel that you can trust them a lot, some, only a little, or not at all. First, how about people in your immediate family?  Do you feel you can trust them a lot, trust them some, trust them only a little, or not trust them at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.454	0.762
+1) Can trust a lot	7347	66.6
+2) Can trust some	2710	24.6
+3) Trust a little	676	6.1
+4) Not at all	280	2.5
+8) Don't know	14	0.1
+9) Refused	1	0.0
+
+
+105) TRUST2
+I'm going to read a list of institutions and people. For each one, please tell me whether you feel that you can trust them a lot, some, only a little, or not at all.  How about people in your neighborhood?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.434	0.981
+1) Can trust a lot	1465	13.3
+2) Can trust some	5074	46.0
+3) Trust a little	3009	27.3
+4) Not at all	1411	12.8
+8) Don't know	62	0.6
+9) Refused	7	0.1
+
+
+106) TRUST3
+I'm going to read a list of institutions and people. For each one, please tell me whether you feel that you can trust them a lot, some, only a little, or not at all.  How about your city or local government?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.848	1.091
+1) Can trust a lot	819	7.4
+2) Can trust some	3514	31.9
+3) Trust a little	3825	34.7
+4) Not at all	2721	24.7
+8) Don't know	137	1.2
+9) Refused	12	0.1
+
+
+107) TRUST4
+I'm going to read a list of institutions and people. For each one, please tell me whether you feel that you can trust them a lot, some, only a little, or not at all.  How about the media?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.761	1.082
+1) Can trust a lot	976	8.9
+2) Can trust some	3706	33.6
+3) Trust a little	3895	35.3
+4) Not at all	2311	21.0
+8) Don't know	129	1.2
+9) Refused	11	0.1
+
+
+108) TRUST5
+I'm going to read a list of institutions and people. For each one, please tell me whether you feel that you can trust them a lot, some, only a little, or not at all.  How about our national government?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.859	1.124
+1) Can trust a lot	1047	9.5
+2) Can trust some	3252	29.5
+3) Trust a little	3500	31.7
+4) Not at all	3092	28.0
+8) Don't know	120	1.1
+9) Refused	17	0.2
+
+
+109) TRUST6
+I'm going to read a list of institutions and people. For each one, please tell me whether you feel that you can trust them a lot, some, only a little, or not at all.  How about the military?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.715	1.307
+1) Can trust a lot	1752	15.9
+2) Can trust some	3405	30.9
+3) Trust a little	3187	28.9
+4) Not at all	2420	21.9
+8) Don't know	238	2.2
+9) Refused	26	0.2
+
+
+110) TRUST7
+I'm going to read a list of institutions and people. For each one, please tell me whether you feel that you can trust them a lot, some, only a little, or not at all.  How about people from other religions?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.62	1.297
+1) Can trust a lot	1307	11.9
+2) Can trust some	4792	43.5
+3) Trust a little	3062	27.8
+4) Not at all	1540	14.0
+8) Don't know	290	2.6
+9) Refused	37	0.3
+
+
+111) TRUST8
+[Asked only if respondent belongs to a particular religion.]  I'm going to read a list of institutions and people. For each one, please tell me whether you feel that you can trust them a lot, some, only a little, or not at all.  How about people at your church or place of worship?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10256	1.982	1.198
+1) Can trust a lot	3691	36.0
+2) Can trust some	4568	44.5
+3) Trust a little	1326	12.9
+4) Not at all	476	4.6
+8) Don't know	135	1.3
+9) Refused	60	0.6
+Missing	772
+
+
+112) DISCPOLI
+How often, if ever, do you discuss politics with your family or friends: never, once or twice a month, once or twice a week, three or four times a week, or every day?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.226	1.413
+1) Never	4101	37.2
+2) Once or twice a month	3580	32.5
+3) Once or twice a week	1574	14.3
+4) Three or four times a week	884	8.0
+5) Every day	703	6.4
+8) Don't know	159	1.4
+9) Refused	27	0.2
+
+
+113) FREEDOM1
+Here is a list of things that you can and cannot do in some countries.  How important is it to you to live in a country where you can openly say what you think and can criticize the government?  Is it very important, somewhat important, not too important or not important at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.571	1.061
+1) Very important	6945	63.0
+2) Somewhat important	2937	26.6
+3) Not too important	688	6.2
+4) Not important at all	311	2.8
+8) Don't know	126	1.1
+9) Refused	21	0.2
+
+
+114) FREEDOM2
+Here is a list of things that you can and cannot do in some countries.  How important is it to you to live in a country where honest elections are held regularly with a choice of at least two political parties?  Is it very important, somewhat important, not too important or not important at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.637	1.209
+1) Very important	6817	61.8
+2) Somewhat important	2921	26.5
+3) Not too important	728	6.6
+4) Not important at all	329	3.0
+8) Don't know	208	1.9
+9) Refused	25	0.2
+
+
+115) FREEDOM3
+Here is a list of things that you can and cannot do in some countries.  How important is it to you to live in a country where there is a judicial system that treats everyone in the same way?  Is it very important, somewhat important, not too important or not important at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.471	1.06
+1) Very important	7818	70.9
+2) Somewhat important	2309	20.9
+3) Not too important	503	4.6
+4) Not important at all	232	2.1
+8) Don't know	147	1.3
+9) Refused	19	0.2
+
+
+116) FREEDOM4
+Here is a list of things that you can and cannot do in some countries.  How important is it to you to live in a country where you can practice your religion freely?  Is it very important, somewhat important, not too important or not important at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.318	0.822
+1) Very important	8508	77.1
+2) Somewhat important	2080	18.9
+3) Not too important	264	2.4
+4) Not important at all	87	0.8
+8) Don't know	70	0.6
+9) Refused	19	0.2
+
+
+117) FREEDOM5
+Here is a list of things that you can and cannot do in some countries.  How important is it to you to live in a country where there is freedom of religion for religions other than your own?  Is it very important, somewhat important, not too important or not important at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.588	1.16
+1) Very important	7061	64.0
+2) Somewhat important	2820	25.6
+3) Not too important	630	5.7
+4) Not important at all	308	2.8
+8) Don't know	189	1.7
+9) Refused	20	0.2
+
+
+118) PROB_CON
+Here is a list of things that may or may not be problems in our country. As I read each one, please tell me if you think it is a very big problem, a moderately big problem, a small problem, or not a problem at all: conflict between religious groups.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.944	1.294
+1) Very big problem	5642	51.2
+2) Moderately big problem	2414	21.9
+3) Small problem	1650	15.0
+4) Not a problem at all	1144	10.4
+8) Don't know	161	1.5
+9) Refused	17	0.2
+
+
+119) PROB_POL
+Here is a list of things that may or may not be problems in our country. As I read each one, please tell me if you think it is a very big problem, a moderately big problem, a small problem, or not a problem at all: corrupt political leaders.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.343	0.943
+1) Very big problem	8711	79.0
+2) Moderately big problem	1676	15.2
+3) Small problem	347	3.1
+4) Not a problem at all	165	1.5
+8) Don't know	113	1.0
+9) Refused	16	0.1
+
+
+120) PROB_MOR
+Here is a list of things that may or may not be problems in our country. As I read each one, please tell me if you think it is a very big problem, a moderately big problem, a small problem, or not a problem at all: moral decline.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.525	1.161
+1) Very big problem	7584	68.8
+2) Moderately big problem	2447	22.2
+3) Small problem	568	5.2
+4) Not a problem at all	206	1.9
+8) Don't know	196	1.8
+9) Refused	27	0.2
+
+
+121) PARTIC
+Some people say to solve our country's problems we should have a government that allows greater political participation by ordinary people and limits the power of individual political leaders. Others say to solve our country's problems we should have a leader with a strong hand even if there is little participation by ordinary people. Which comes closer to your opinion?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.723	1.528
+1) Participatory government	6334	57.4
+2) Strong leader	4160	37.7
+8) Don't know	454	4.1
+9) Refused	80	0.7
+
+
+122) RELGRO
+In your opinion, should religious groups keep out of political matter - or should they express their views on day-to-day social and political questions?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.906	1.337
+1) Should keep out	3677	33.3
+2) Should express views	6919	62.7
+8) Don't know	388	3.5
+9) Refused	44	0.4
+
+
+123) GOV_MARK
+Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statements: most people are better off in a free market economy, even though some people are rich and some are poor.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.254	1.696
+1) Completely agree	3875	35.1
+2) Mostly agree	4597	41.7
+3) Mostly disagree	1122	10.2
+4) Completely disagree	770	7.0
+8) Don't know	630	5.7
+9) Refused	34	0.3
+
+
+124) GOV_EAT
+Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statements: the government should guarantee every citizen enough to eat and a place to sleep.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.63	1.029
+1) Completely agree	6489	58.8
+2) Mostly agree	3081	27.9
+3) Mostly disagree	965	8.8
+4) Completely disagree	381	3.5
+8) Don't know	99	0.9
+9) Refused	13	0.1
+
+
+125) GOV_ABOR
+Please tell me whether you completely agree, mostly agree, mostly disagree or completely disagree with the following statements: the government should not interfere with a woman's ability to have an abortion.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.897	1.582
+1) Completely agree	2464	22.3
+2) Mostly agree	2339	21.2
+3) Mostly disagree	1931	17.5
+4) Completely disagree	3847	34.9
+8) Don't know	403	3.7
+9) Refused	44	0.4
+
+
+126) POL_BEL
+How do you feel about this statement: It's important to me that political leaders have strong _______ [insert respondent's religion from Q3 (Christian, Muslim, etc.); if respondent is not religious, insert 'religious'] beliefs.  Do you completely agree, mostly agree, mostly disagree, or completely disagree?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.403	1.676
+1) Completely agree	3492	31.7
+2) Mostly agree	3964	35.9
+3) Mostly disagree	1651	15.0
+4) Completely disagree	1328	12.0
+8) Don't know	518	4.7
+9) Refused	75	0.7
+
+
+127) CHRSTATE
+Which comes closer to your view?  1) the government should take special steps to make our country a _____ [insert religion from Q3 (Christian/Muslim/etc.)] country, or 2) there should be a separation between _____ [insert church/mosque, as appropriate)] and state?  [In the United States, if the respondent is 'other religion,' the words 'Christian' and 'church' were used.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10895	2.372	2.137
+1) Government should make our country a [Christian/Muslim/etc.] country	3628	33.3
+2) Should be a separation of [church/mosque] and state	6023	55.3
+8) Don't know	1024	9.4
+9) Refused	220	2.0
+Missing	133
+
+
+128) DISPUTE
+Turning now to events in the world today, in the dispute between Israel and the Palestinians, which side do you sympathize with more, Israel or the Palestinians?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	3.383	2.499
+1) Israel	3776	34.2
+2) Palestinians	1149	10.4
+3) Both	1284	11.6
+4) Neither	2832	25.7
+8) Don't know	1829	16.6
+9) Refused	158	1.4
+
+
+129) US_TERR
+Which of the following phrases comes closer to describing your view?  1) I favor the US-led efforts to fight terrorism, or 2) I oppose the US-led efforts to fight terrorism.  [Asked in all countries.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.459	2.427
+1) I favor the US-led efforts to fight terrorism	5054	45.8
+2) I oppose the US-led efforts to fight terrorism	4323	39.2
+8) Don't know	1437	13.0
+9) Refused	214	1.9
+
+
+130) POLSCALE
+Some people talk about politics in terms of left, center, right. On a ten-point scale, with 1 indicating extreme left and 10 indicating extreme right, where would you place yourself?  [Range is from 1 to 10.]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	11028	20.421	34.338
+1) Extreme left	693	6.3
+2) 	413	3.7
+3) 	727	6.6
+4) 	796	7.2
+5) 	2642	24.0
+6) 	1515	13.7
+7) 	842	7.6
+8) 	758	6.9
+9) 	335	3.0
+10) Extreme right	518	4.7
+98) Don't know	1240	11.2
+99) Refused	549	5.0
+
+
+131) ORGANIZ1
+Please look carefully at the following list of voluntary organizations and activities and say which, if any, you belong to or participate in.  [In the United States, respondents were asked: Which of the following voluntary organizations and activities, if any, do you belong to or participate in?] a) social welfare services for elderly, handicapped or deprived people
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.926	0.683
+1) Yes, belong	1416	12.8
+2) No, do not belong	9515	86.3
+8) Don't know	74	0.7
+9) Refused	23	0.2
+
+
+132) ORGANIZ2
+Please look carefully at the following list of voluntary organizations and activities and say which, if any, you belong to or participate in.  [In the United States, respondents were asked: Which of the following voluntary organizations and activities, if any, do you belong to or participate in?] b) education, arts, music, or cultural activities
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.879	0.675
+1) Yes, belong	1862	16.9
+2) No, do not belong	9081	82.3
+8) Don't know	65	0.6
+9) Refused	20	0.2
+
+
+133) ORGANIZ3
+Please look carefully at the following list of voluntary organizations and activities and say which, if any, you belong to or participate in.  [In the United States, respondents were asked: Which of the following voluntary organizations and activities, if any, do you belong to or participate in?] c) labor unions
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.011	0.658
+1) Yes, belong	553	5.0
+2) No, do not belong	10368	94.0
+8) Don't know	78	0.7
+9) Refused	29	0.3
+
+
+134) ORGANIZ4
+Please look carefully at the following list of voluntary organizations and activities and say which, if any, you belong to or participate in.  [In the United States, respondents were asked: Which of the following voluntary organizations and activities, if any, do you belong to or participate in?] d) political organizations or parties
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.992	0.678
+1) Yes, belong	766	6.9
+2) No, do not belong	10153	92.1
+8) Don't know	80	0.7
+9) Refused	29	0.3
+
+
+135) ORGANIZ5
+Please look carefully at the following list of voluntary organizations and activities and say which, if any, you belong to or participate in.  [In the United States, respondents were asked: Which of the following voluntary organizations and activities, if any, do you belong to or participate in?] e) local community action on issues like poverty, employment, housing, racial equality or human rights
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.947	0.661
+1) Yes, belong	1164	10.6
+2) No, do not belong	9771	88.6
+8) Don't know	67	0.6
+9) Refused	26	0.2
+
+
+136) ORGANIZ6
+Please look carefully at the following list of voluntary organizations and activities and say which, if any, you belong to or participate in.  [In the United States, respondents were asked: Which of the following voluntary organizations and activities, if any, do you belong to or participate in?] f) women's groups
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.937	0.676
+1) Yes, belong	1290	11.7
+2) No, do not belong	9643	87.4
+8) Don't know	66	0.6
+9) Refused	29	0.3
+
+
+137) ORGANIZ7
+Please look carefully at the following list of voluntary organizations and activities and say which, if any, you belong to or participate in.  [In the United States, respondents were asked: Which of the following voluntary organizations and activities, if any, do you belong to or participate in?] g) other groups
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	1.947	0.821
+1) Yes, belong	1513	13.7
+2) No, do not belong	9368	84.9
+8) Don't know	97	0.9
+9) Refused	50	0.5
+
+
+138) ORG_REL1
+[Asked only if ORGANIZ1 = 1 'Yes, belong']  And when you participate in providing social welfare services for elderly, handicapped or deprived people, would you say that it's mostly through a church or religious group, or mostly through some other kind of group?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1416	1.601	1.004
+1) Mostly through a church or religious group	779	55.0
+2) Mostly through some other kind of group	528	37.3
+3) Both equally	89	6.3
+8) Don't know	15	1.1
+9) Refused	5	0.4
+Missing	9612
+
+
+139) ORG_REL2
+[Asked only if ORGANIZ2 = 1 'Yes, belong']  And when you participate in education, arts, music or cultural activities, would you say that it's mostly through a church or religious group, or mostly through some other kind of group?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1862	1.743	1.019
+1) Mostly through a church or religious group	778	41.8
+2) Mostly through some other kind of group	933	50.1
+3) Both equally	124	6.7
+8) Don't know	13	0.7
+9) Refused	14	0.8
+Missing	9166
+
+
+140) ORG_REL5
+[Asked only if ORGANIZ5 = 1 'Yes, belong']  And when you participate in local community action on issues like poverty, employment, housing, racial equality or human rights, would you say that it's mostly through a church or religious group, or mostly through some other kind of group?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1164	1.732	0.92
+1) Mostly through a church or religious group	480	41.2
+2) Mostly through some other kind of group	581	49.9
+3) Both equally	91	7.8
+8) Don't know	7	0.6
+9) Refused	5	0.4
+Missing	9864
+
+
+141) ORG_REL6
+[Asked only if ORGANIZ6 = 1 'Yes, belong']  And when you participate in women's groups, would you say that it's mostly through a church or religious group, or mostly through some other kind of group?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1290	1.553	0.802
+1) Mostly through a church or religious group	715	55.4
+2) Mostly through some other kind of group	474	36.7
+3) Both equally	94	7.3
+8) Don't know	5	0.4
+9) Refused	2	0.2
+Missing	9738
+
+
+142) ORG_REL7
+[Asked only if ORGANIZ7 = 1 'Yes, belong']  And when you participate in 'other groups,' would you say that it's mostly through a church or religious group, or mostly through some other kind of group?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1513	1.638	0.911
+1) Mostly through a church or religious group	745	49.2
+2) Mostly through some other kind of group	650	43.0
+3) Both equally	103	6.8
+8) Don't know	10	0.7
+9) Refused	5	0.3
+Missing	9515
+
+
+143) REL_SERV
+How often do you - receive food or housing assistance, health care, or other social services - through a church or religious organization... frequently, sometimes, hardly ever or never?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	3.539	0.915
+1) Frequently	393	3.6
+2) Sometimes	1463	13.3
+3) Hardly ever	1196	10.8
+4) Never	7929	71.9
+8) Don't know	21	0.2
+9) Refused	26	0.2
+
+
+144) REL_LANG
+How often do you - participate in language or literacy classes - through a church or religious organization... frequently, sometimes, hardly ever or never?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	3.659	0.842
+1) Frequently	334	3.0
+2) Sometimes	980	8.9
+3) Hardly ever	1050	9.5
+4) Never	8610	78.1
+8) Don't know	24	0.2
+9) Refused	30	0.3
+
+
+145) REL_JOB
+How often do you - receive job training or employment services - through a church or religious organization... frequently, sometimes, hardly ever or never?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	3.668	0.866
+1) Frequently	353	3.2
+2) Sometimes	970	8.8
+3) Hardly ever	979	8.9
+4) Never	8655	78.5
+8) Don't know	37	0.3
+9) Refused	34	0.3
+
+
+146) GENDER
+Gender
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	11028	1.516	0.5
+1) Male	5338	48.4
+2) Female	5690	51.6
+
+
+147) AGE
+Now I would like to ask some questions about your background.  How old were you at your last birthday? Record answer
+RANGE: 18 to 99
+	N	Mean	Std. Deviation
+Total	11028	38.887	15.696
+18) 	391	3.5
+19) 	310	2.8
+20) 	335	3.0
+21) 	281	2.5
+22) 	323	2.9
+23) 	316	2.9
+24) 	330	3.0
+25) 	359	3.3
+26) 	332	3.0
+27) 	288	2.6
+28) 	319	2.9
+29) 	276	2.5
+30) 	271	2.5
+31) 	194	1.8
+32) 	273	2.5
+33) 	210	1.9
+34) 	235	2.1
+35) 	288	2.6
+36) 	285	2.6
+37) 	204	1.8
+38) 	270	2.4
+39) 	214	1.9
+40) 	283	2.6
+41) 	172	1.6
+42) 	242	2.2
+43) 	193	1.8
+44) 	166	1.5
+45) 	257	2.3
+46) 	218	2.0
+47) 	174	1.6
+48) 	189	1.7
+49) 	172	1.6
+50) 	208	1.9
+51) 	123	1.1
+52) 	170	1.5
+53) 	135	1.2
+54) 	123	1.1
+55) 	144	1.3
+56) 	118	1.1
+57) 	119	1.1
+58) 	112	1.0
+59) 	111	1.0
+60) 	145	1.3
+61) 	58	0.5
+62) 	112	1.0
+63) 	97	0.9
+64) 	75	0.7
+65) 	81	0.7
+66) 	73	0.7
+67) 	62	0.6
+68) 	70	0.6
+69) 	48	0.4
+70) 	52	0.5
+71) 	45	0.4
+72) 	38	0.3
+73) 	36	0.3
+74) 	36	0.3
+75) 	33	0.3
+76) 	32	0.3
+77) 	18	0.2
+78) 	28	0.3
+79) 	18	0.2
+80) 	25	0.2
+81) 	16	0.1
+82) 	9	0.1
+83) 	11	0.1
+84) 	8	0.1
+85) 	5	0.0
+86) 	2	0.0
+87) 	8	0.1
+88) 	3	0.0
+89) 	1	0.0
+90) 	3	0.0
+91) 	1	0.0
+94) 	1	0.0
+98) Don't know	4	0.0
+99) Refused	41	0.4
+
+
+148) CHILDREN
+Have you had any children? If yes, how many?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	11028	2.608	8.243
+0) No	3325	30.2
+1) 1 child	1643	14.9
+2) 2 children	2441	22.1
+3) 3 children	1598	14.5
+4) 4 children	886	8.0
+5) 5 children	470	4.3
+6) 6 children	276	2.5
+7) 7 children	138	1.3
+8) 8 or more children	175	1.6
+98) Don't know	1	0.0
+99) Refused	75	0.7
+
+
+149) EDUC_BRA
+What is the highest level of education that you have completed?  [Question asked in Brazil.]
+RANGE: 2 to 9
+	N	Mean	Std. Deviation
+Total	1000	4.377	2.292
+2) Incomplete primary school	375	37.5
+3) Complete primary school	44	4.4
+4) Incomplete secondary school: technical/vocational type	119	11.9
+5) Complete secondary school: technical/vocational type	157	15.7
+6) Incomplete secondary school: preparatory for university entry	72	7.2
+7) Complete secondary: preparatory for university entry	115	11.5
+8) Some university level, without a diploma	65	6.5
+9) University level, with diploma	53	5.3
+Missing	10028
+
+
+150) EDUC_CHI
+What is the highest level of education that you have completed?  [Question asked in Chile.]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	988	11.93	4.285
+1) Illiterate	5	0.5
+2) 1st grade basic school	3	0.3
+3) 2nd grade basic school	8	0.8
+4) 3rd grade basic school	13	1.3
+5) 4th grade basic school	25	2.5
+6) 5th grade basic school	10	1.0
+7) 6th grade basic school	54	5.5
+8) 7th grade basic school (1st level humanities)	31	3.1
+9) 8th grade basic school (2nd level humanities)	86	8.7
+10) 1st grade secondary school (3rd level humanities)	58	5.9
+11) 2nd grade secondary school (4th level humanities)	79	8.0
+12) 3rd grade secondary school (5th level humanities)	57	5.8
+13) 4th grade secondary school (6th level humanities)	284	28.7
+14) Incomplete university	98	9.9
+15) Complete university	69	7.0
+16) Incomplete technical/professional school	37	3.7
+17) Complete technical/professional school	68	6.9
+18) None, no formal education	2	0.2
+99) Refused	1	0.1
+Missing	10040
+
+
+151) EDUC_GUA
+What is the highest level of education that you have completed?  [Question asked in Guatemala.]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1305	5.488	7.692
+1) No formal education	43	3.3
+2) Incomplete primary school	177	13.6
+3) Complete primary school	244	18.7
+4) Incomplete secondary school: technical/vocational type	149	11.4
+5) Complete secondary school: technical/vocational type	184	14.1
+6) Incomplete secondary: university-preparatory type	63	4.8
+7) Complete secondary: university-preparatory type	212	16.2
+8) Some university-level education, without a degree	162	12.4
+9) University-level education, with degree	63	4.8
+99) Refused	8	0.6
+Missing	9723
+
+
+152) EDUC_IND
+What is the highest level of education that you have completed?  [Question asked in India.]
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1224	5.484	1.308
+1) Illiterate	13	1.1
+2) Literate but no formal schooling	5	0.4
+3) School up to 4 years	32	2.6
+4) School up to 5 to 9 years	208	17.0
+5) SSC HSC	428	35.0
+6) Some college but not graduated	181	14.8
+7) Graduate, Post grad, Gen BA, MSc, BCom, etc.	321	26.2
+8) Graduate, Post grad, Prof BE, MTech, MBA, MBBS, etc.	36	2.9
+Missing	9804
+
+
+153) EDUC_KEN
+What is the highest level of education that you have completed?  [Question asked in Kenya.]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1001	6.308	7.662
+1) None/Cannot read or write	37	3.7
+2) Adult education	38	3.8
+3) Primary school not completed (Std 7/8)	115	11.5
+4) Primary school completed (Std 7/8)	167	16.7
+5) Secondary school not completed (Form 4)	126	12.6
+6) Secondary school completed (Form 4)	256	25.6
+7) High school not completed (Form 6)	20	2.0
+8) High school completed (Form 6)	44	4.4
+9) College/Polytechnic not completed (Diploma/Certificate)	39	3.9
+10) College/Polytechnic complete (Diploma/Certificate)	122	12.2
+11) Not completed University degree	10	1.0
+12) Completed University first degree	18	1.8
+13) Post-graduate not completed	3	0.3
+99) Refused	6	0.6
+Missing	10027
+
+
+154) EDUC_NIG
+What is the highest level of education that you have completed?  [Question asked in Nigeria.]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	999	6.691	5.422
+1) No formal education	57	5.7
+2) Incomplete primary school	29	2.9
+3) Complete primary school	107	10.7
+4) Incomplete secondary school: technical/vocational type	78	7.8
+5) Complete secondary school: technical/vocational type	294	29.4
+6) Incomplete secondary: university-preparatory type	34	3.4
+7) Complete secondary: university-preparatory type	100	10.0
+8) Incomplete College of Education	10	1.0
+9) Complete College of Education	26	2.6
+10) Incomplete Polythenic	58	5.8
+11) Complete Polythenic	64	6.4
+12) Some university-level education, without a degree	54	5.4
+13) University-level education, with degree	86	8.6
+99) Refused	2	0.2
+Missing	10029
+
+
+155) EDUC_PHI
+What is the highest level of education that you have completed?  [Question asked in Philippines.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1300	5.412	1.45
+1) No schooling	2	0.2
+2) Some elementary	55	4.2
+3) Completed elementary	109	8.4
+4) Some high school	118	9.1
+5) Completed high school	356	27.4
+6) Some vocational/college	300	23.1
+7) Has a degree	342	26.3
+8) Some masters	12	0.9
+9) Don't know/Refused	6	0.5
+Missing	9728
+
+
+156) EDUC_SAF
+What is the highest level of education that you have completed?  [Question asked in South Africa.]
+RANGE: 1 to 98
+	N	Mean	Std. Deviation
+Total	1137	5.14	4.338
+1) No formal education	31	2.7
+2) Incomplete primary school	62	5.5
+3) Complete primary school	76	6.7
+4) Incomplete secondary school: technical/vocational type	358	31.5
+5) Complete secondary school: technical/vocational type	297	26.1
+6) Incomplete secondary: university-preparatory type	57	5.0
+7) Complete secondary: university-preparatory type	110	9.7
+8) Some university-level education, without a degree	60	5.3
+9) University-level education, with degree	84	7.4
+98) Don't know	2	0.2
+Missing	9891
+
+
+157) EDUCSKOR
+What is the highest level of education that you have completed?  [Question asked in South Korea.]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1000	8.113	8.812
+1) No formal education	12	1.2
+2) Incomplete primary school	9	0.9
+3) Complete primary school	30	3.0
+4) Did not finish middle school	4	0.4
+5) Finished middle school	89	8.9
+6) Did not finish high school	25	2.5
+7) Finished high school	440	44.0
+8) Some university-level education, without a degree	25	2.5
+9) Finished college/graduate school, or higher	357	35.7
+98) Don't know	2	0.2
+99) Refused	7	0.7
+Missing	10028
+
+
+158) EDUC_US
+What is the highest level of education that you have completed?  [Response categories were not read to respondents.  Question asked in the United States.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1074	4.326	1.735
+1) None, or grade 1-8	60	5.6
+2) High school incomplete (Grades 9-11)	82	7.6
+3) High school graduate (Grade 12 or GED certificate)	304	28.3
+4) Technical, trade or vocational school after high school	57	5.3
+5) Some college, no 4-year degree (including associate degree)	280	26.1
+6) College graduate (B.S., B.A., or other 4-year degree)	172	16.0
+7) Post-graduate training or professional schooling after college (e.g., toward a master's degree or Ph.D.; law or medical school)	109	10.1
+8) Don't know	3	0.3
+9) Refused	7	0.7
+Missing	9954
+
+
+159) ETH_BRA
+Which (ethnic/racial/tribal/nationality) group do you belong to?  [Asked in Brazil.]
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1000	1.741	0.863
+1) Branco	487	48.7
+2) Pardo/mulato	329	32.9
+3) Negro	144	14.4
+4) Amarelo/mestico	36	3.6
+5) Indigena	4	0.4
+Missing	10028
+
+
+160) ETH_CHI
+Which (ethnic/racial/tribal/nationality) group do you belong to?  [Asked in Chile.]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	988	10.712	25.011
+1) Mapuche (Chilean Indian)	91	9.2
+2) Mestizo (Mix White and Indian)	315	31.9
+3) Bolivian	2	0.2
+4) Peruvian	3	0.3
+5) White	493	49.9
+10) Other	10	1.0
+98) Don't know	47	4.8
+99) Refused	27	2.7
+Missing	10040
+
+
+161) ETH_GUA
+Which (ethnic/racial/tribal/nationality) group to you belong to?  [Asked in Guatemala.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1305	1.914	0.855
+1) Indigenous	231	17.7
+2) Ladino/mixed race	1051	80.5
+3) Garifuna	5	0.4
+8) Don't know	12	0.9
+9) Refused	6	0.5
+Missing	9723
+
+
+162) ETH_IND
+Which (ethnic/racial/tribal/nationality) group do you belong to?  [Asked in India.]
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1224	1	0
+1) Asian	1224	100.0
+Missing	9804
+
+
+163) ETH_KEN
+Which (ethnic/racial/tribal/nationality) group do you belong to?  [Asked in Kenya.]
+RANGE: 1 to 19
+	N	Mean	Std. Deviation
+Total	1001	4.219	3.715
+1) Kikuyu	254	25.4
+2) Luo	148	14.8
+3) Luhya	158	15.8
+4) Kamba	126	12.6
+5) Kalenjin	78	7.8
+6) Kisii	39	3.9
+7) Meru	41	4.1
+8) Miji Kenda	48	4.8
+9) Swahili	4	0.4
+10) Embu	22	2.2
+11) Somali	8	0.8
+12) Maasai	43	4.3
+14) Turkana	1	0.1
+15) Taita	9	0.9
+16) Teso	8	0.8
+17) Saboti	1	0.1
+18) Kuria	1	0.1
+19) Pokot	12	1.2
+Missing	10027
+
+
+164) ETH_NIG
+Which (ethnic/racial/tribal/nationality) group do you belong to?  [Asked in Nigeria.]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	999	26.737	41.093
+1) Hausa	149	14.9
+2) Ibo	303	30.3
+3) Yoruba	178	17.8
+4) Edo	30	3.0
+5) Urhobo	11	1.1
+6) Itsekiri	4	0.4
+7) Fulani	10	1.0
+8) Kanuri	40	4.0
+9) Tiv	10	1.0
+10) Efik	10	1.0
+97) Other	251	25.1
+98) Don't know	2	0.2
+99) Refused	1	0.1
+Missing	10029
+
+
+165) ETH_PHI
+Which (ethnic/racial/tribal/nationality) group do you belong to?  [Asked in Philippines.]
+RANGE: 1 to 23
+	N	Mean	Std. Deviation
+Total	1300	3.809	4.036
+1) Tagalog	459	35.3
+2) Ilocano	76	5.8
+3) Bicolano	94	7.2
+4) Cebuano	341	26.2
+5) Ilonggo	151	11.6
+6) Waray	27	2.1
+7) Kapampangan	100	7.7
+8) Chinese	3	0.2
+10) Japanese	2	0.2
+15) Bangsamoro	1	0.1
+18) Ibanag	3	0.2
+19) Igorot	3	0.2
+20) Maranao	4	0.3
+23) Others	36	2.8
+Missing	9728
+
+
+166) ETH_SAF
+Which (ethnic/racial/tribal/nationality) group do you belong to?  [Asked in South Africa.]
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1137	2.094	0.964
+1) White	303	26.6
+2) Black	600	52.8
+3) Asian	58	5.1
+4) Coloured	176	15.5
+Missing	9891
+
+
+167) ETH_SKOR
+Which (ethnic/racial/tribal/nationality) group do you belong to?  [Asked in South Korea.]
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1000	1	0
+1) Korean	1000	100.0
+Missing	10028
+
+
+168) ETH_US
+Are you, yourself, of Hispanic origin or descent, such as Mexican, Puerto Rican, Cuban, or some other Spanish background?  [Asked in the United States.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1074	1.905	0.771
+1) Yes	171	15.9
+2) No	893	83.1
+8) Don't know	1	0.1
+9) Refused (VOLUNTEERED) - GO TO D5B US	9	0.8
+Missing	9954
+
+
+169) ETH_US2
+[Interviewer: if respondent answered 1 'Yes,' (Hispanic) in question ETH_US, ask:] Are you white Hispanic, black Hispanic, or some other race?  [If non-Hispanic, ask:] What is your race? Are you white, black, Asian, or some other?  [Asked in the United States.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1074	1.467	1.304
+1) White	840	78.2
+2) Black	152	14.2
+3) Asian	13	1.2
+4) Other or mixed race	43	4.0
+8) Don't know	13	1.2
+9) Refused	13	1.2
+Missing	9954
+
+
+170) MARRIAGE
+Are you currently married, living with a partner, widowed, divorced, separated, or have you never been married?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.789	2.243
+1) Married	6054	54.9
+2) Living with a partner	732	6.6
+3) Widowed	530	4.8
+4) Divorced	220	2.0
+5) Separated	260	2.4
+6) Never been married	3204	29.1
+8) Don't know	6	0.1
+9) Refused	22	0.2
+
+
+171) INC_BRA
+Here is a list of incomes. Which of these does your household fall into counting all wages, salaries, pensions and other incomes that come in?  Just give the letter of the group your household falls into, before taxes and other deductions.  [Interviewer: show card of responses.  Question asked in Brazil.]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1000	16.968	32.62
+1) Less than 200 reals per month	30	3.0
+2) 201 to 400 reals per month	167	16.7
+3) 401 to 600 reals per month	200	20.0
+4) 601 to 1,000 reals per month	188	18.8
+5) 1,001 to 1,400 reals per month	111	11.1
+6) 1,401 to 2,000 reals per month	71	7.1
+7) 2,001 to 3,000 reals per month	48	4.8
+8) 3,001 to 4,000 reals per month	25	2.5
+9) 4,001 to 6,000 reals per month	16	1.6
+10) 6,001 to 10,000 reals per month	5	0.5
+11) 10,001 to 15,000 reals per month	2	0.2
+98) Don't know	44	4.4
+99) Refused	93	9.3
+Missing	10028
+
+
+172) INC_CHI
+Here is a list of incomes. Which of these does your household fall into counting all wages, salaries, pensions and other incomes that come in? Just give the letter of the group your household falls into, before taxes and other deductions.  [Interviewer: show card of responses.  Question asked in Chile.]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	988	14.108	30.647
+1) Less than 112,000 pesos per month	150	15.2
+2) 112,000 to 180,000 pesos per month	207	21.0
+3) 181,001 to 250,000 pesos per month	202	20.4
+4) 250,001 to 400,000 pesos per month	187	18.9
+5) 400,001 to 800,000 pesos per month	76	7.7
+6) 800,001 to 1,000,000 pesos per month	17	1.7
+7) 1,000,001 to 1,500,000 pesos per month	18	1.8
+8) 1,500,001 to 2,000,000 pesos per month	9	0.9
+9) 2,000,001 to 3,000,000 pesos per month	4	0.4
+10) More than 3,000,000 pesos per month	4	0.4
+98) Don't know	21	2.1
+99) Refused	93	9.4
+Missing	10040
+
+
+173) INC_GUA
+Here is a list of incomes. Which of these does your household fall into counting all wages, salaries, pensions and other incomes that come in? Just give the letter of the group your household falls into, before taxes and other deductions.  [Interviewer: show card of responses.  Question asked in Guatemala.]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1305	20.132	37.052
+1) Less than 1,600 quetzals per month	239	18.3
+2) 1,601 to 3,200 quetzals per month	328	25.1
+3) 3,201 to 4,800 quetzals per month	232	17.8
+4) 4,801 to 6,400 quetzals per month	132	10.1
+5) 6,401 to 8,000 quetzals per month	84	6.4
+6) 8,001 to 12,000 quetzals per month	38	2.9
+7) 12,001 to 16,000 quetzals per month	10	0.8
+8) 16,001 to 20,000 quetzals per month	3	0.2
+9) 20,001 to 24,000 quetzals per month	2	0.2
+98) Don't know	70	5.4
+99) Refused	167	12.8
+Missing	9723
+
+
+174) INC_IND
+Here is a list of monthly incomes. Which of these does your household fall into counting all wages, salaries, pensions and other incomes that come in? Just give the letter of the group your household falls into, before taxes and other deductions.  [Interviewer: show card of responses.  Question asked in India.]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1224	7.975	21.318
+1) Up to 2,500 rupees per month	183	15.0
+2) 2,501 to 5,000 rupees per month	414	33.8
+3) 5,001 to 7,500 rupees per month	234	19.1
+4) 7,501 to 10,000 rupees per month	157	12.8
+5) 10,001 to 12,500 rupees per month	55	4.5
+6) 12,501 to 15,000 rupees per month	54	4.4
+7) 15,001 to 17,500 rupees per month	21	1.7
+8) 17,501 to 20,000 rupees per month	24	2.0
+9) 20,001 to 22,500 rupees per month	3	0.2
+10) 22,501 to 25,000 rupees per month	5	0.4
+11) 25,001 rupees per month or more	10	0.8
+98) Don't know	40	3.3
+99) Refused	24	2.0
+Missing	9804
+
+
+175) INC_KEN
+Here is a list of incomes. Which of these does your household fall into counting all wages, salaries, pensions and other incomes that come in? Just give the letter of the group your household falls into, before taxes and other deductions.  [Interviewer: show card of responses.  Question asked in Kenya.]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1001	11.453	29.622
+1) Less than 150,000 shillings per year (less than 12,500 per month)	643	64.2
+2) 150,001 to 240,000 shillings per year (12,501 - 20,000 per month)	183	18.3
+3) 240,001 to 480,000 shillings per year (20,001 - 40,000 per month)	61	6.1
+4) 480,001 to 600,000 shillings per year (40,001 - 50,00 per month)	10	1.0
+98) Don't know	64	6.4
+99) Refused	40	4.0
+Missing	10027
+
+
+176) INC_NIG
+Here is a list of incomes. Which of these does your household fall into counting all wages, salaries, pensions and other incomes that come in? Just give the letter of the group your household falls into, before taxes and other deductions. [Interviewer: show card of responses.  Question asked in Nigeria.]
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	999	37.513	46.349
+0) None	18	1.8
+1) 50,000 naira per year or less	282	28.2
+2) 50,001 to 150,000 naira per year	145	14.5
+3) 150,001 to 250,000 naira per year	75	7.5
+4) 250,001 to 350,000 naira per year	34	3.4
+5) 350,001 to 450,000 naira per year	29	2.9
+6) 450,001 to 550,000 naira per year	16	1.6
+7) 550,001 to 650,000 naira per year	16	1.6
+8) 650,001 to 750,000 naira per year	7	0.7
+9) 750,001 to 850,000 naira per year	3	0.3
+10) 850,001 to 950,000 naira per year	2	0.2
+11) 950,001 to 1,050,000 naira per year	1	0.1
+12) 1,050,001 to 1,150,000 naira per year	4	0.4
+13) 1,150,001 naira per year or more	1	0.1
+98) Don't know	220	22.0
+99) Refused	146	14.6
+Missing	10029
+
+
+177) INC_PHI
+Here is a list of incomes. Which of these does your household fall into counting all wages, salaries, pensions and other incomes that come in? Just give the letter of the group your household falls into, before taxes and other deductions.  [Interviewer: show card of responses.  Question asked in Philippines.]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1300	21.025	37.896
+1) 4,000 pesos per month or less	198	15.2
+2) 4,001 to 10,000 pesos per month	399	30.7
+3) 10,001 to 20,000 pesos per month	248	19.1
+4) 20,001 to 30,000 pesos per month	99	7.6
+5) 30,001 to 40,000 pesos per month	37	2.8
+6) 40,001 to 50,000 pesos per month	38	2.9
+7) 50,001 pesos per month or more	33	2.5
+99) Refused	248	19.1
+Missing	9728
+
+
+178) INC_SAF
+Here is a list of incomes. Which of these does your household fall into counting all wages, salaries, pensions and other incomes that come in? Just give the letter of the group your household falls into, before taxes and other deductions.  [Interviewer: show card of responses.  Question asked in South Africa.]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1137	33.675	38.142
+1) 20,000 rands per month or more	63	5.5
+2) 18,000 to 19,999 rands per month	13	1.1
+3) 16,000 to 17,999 rands per month	24	2.1
+4) 14,000 to 15,999 rands per month	25	2.2
+5) 12,000 to 13,999 rands per month	20	1.8
+6) 10,000 to 11,999 rands per month	40	3.5
+7) 9,000 to 9,999 rands per month	21	1.8
+8) 8,000 to 8,999 rands per month	18	1.6
+9) 7,000 to 7,999 rands per month	32	2.8
+10) 6,000 to 6,999 rands per month	45	4.0
+11) 5,000 to 5,999 rands per month	29	2.6
+12) 4,000 to 4,999 rands per month	62	5.5
+13) 3,000 to 3,999 rands per month	71	6.2
+14) 2,500 to 2,999 rands per month	61	5.4
+15) 1,400 to 2,499 rands per month	99	8.7
+16) 1,200 to 1,399 rands per month	68	6.0
+17) 900 to 1,199 rands per month	49	4.3
+18) 500 to 899 rands per month	71	6.2
+19) Up to 499 rands per month	38	3.3
+98) Don't know	99	8.7
+99) Refused	189	16.6
+Missing	9891
+
+
+179) INC_SKOR
+Here is a list of incomes. Which of these does your household fall into counting all wages, salaries, pensions and other incomes that come in? Just give the letter of the group your household falls into, before taxes and other deductions.  [Interviewer: show card of responses.  Question asked in South Korea.]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1000	11.718	23.797
+1) 999,999 won per month or less	56	5.6
+2) 1,000,000 to 1,499,999 won per month	65	6.5
+3) 1,500,000 to 1,999,999 won per month	104	10.4
+4) 2,000,000 to 2,499,999 won per month	146	14.6
+5) 2,500,000 to 2,999,999 won per month	159	15.9
+6) 3,000,000 to 3,499,999 won per month	161	16.1
+7) 3,500,000 to 3,999,999 won per month	76	7.6
+8) 4,000,000 to 4,499,999 won per month	74	7.4
+9) 4,500,000 to 4,999,999 won per month	21	2.1
+10) 5,000,000 to 5,999,999 won per month	35	3.5
+11) 6,000,000 to 6,999,999 won per month	12	1.2
+12) 7,000,000 to 7,999,999 won per month	11	1.1
+13) 8,000,000 won per month or more	11	1.1
+98) Don't know	26	2.6
+99) Refused	43	4.3
+Missing	10028
+
+
+180) INC_US
+Last year, that is in 2005, what was your total family income from all sources, before taxes?  Just stop me when I get to the right category. [Interviewer: read list.  Question asked in United States.]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1074	19.197	34.157
+1) Less than $10,000	107	10.0
+2) $10- to under $20,000	115	10.7
+3) $20- to under $30,000	125	11.6
+4) $30- to under $40,000	96	8.9
+5) $40- to under $50,000	107	10.0
+6) $50- to under $75,000	148	13.8
+7) $75- to under $100,000	94	8.8
+8) $100 to under $150,000	60	5.6
+9) $150,000 or more	55	5.1
+98) Don't know (volunteered answer - do not read)	67	6.2
+99) Refused (volunteered answer - do not read)	100	9.3
+Missing	9954
+
+
+181) EMPLOYED
+Are you now employed full-time, part-time or not employed?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11028	2.077	1.057
+1) Full-time	4573	41.5
+2) Part-time	1379	12.5
+3) Not employed	5017	45.5
+8) Don't know	7	0.1
+9) Refused	52	0.5
+
+
+182) REG_BRA
+Region of country where the interview was conducted
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1000	1.825	0.834
+1) São Paulo	450	45.0
+2) Recife	275	27.5
+3) Porto Alegre	275	27.5
+Missing	10028
+
+
+183) REG_CHI
+Region of country where the interview was conducted
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	988	9.551	3.925
+1) Tarapaca	38	3.8
+2) Antofagasta	40	4.0
+3) Atacama	12	1.2
+4) Coquimbo	36	3.6
+5) Valparaiso	86	8.7
+6) Libertador Bernardo O'Higgins	22	2.2
+7) Maule	41	4.1
+8) Biobio	141	14.3
+9) La Araucania	32	3.2
+10) Los Lagos	49	5.0
+13) Metropolitana	491	49.7
+Missing	10040
+
+
+184) REG_GUA
+Region of country where the interview was conducted
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1305	3.795	2.724
+1) Capital City	401	30.7
+2) Quetzaltenango	200	15.3
+3) Chimaltenango	95	7.3
+4) Escuintla	130	10.0
+5) Mazatenango	97	7.4
+6) Coban	96	7.4
+7) Puerto Barrios	97	7.4
+8) Chiquimula	95	7.3
+9) Jutiapa	94	7.2
+Missing	9723
+
+
+185) REG_IND
+Region of country where the interview was conducted
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1224	1.88	0.843
+1) Tamil Nadu	517	42.2
+2) Kerala	337	27.5
+3) Meghalaya	370	30.2
+Missing	9804
+
+
+186) REG_KEN
+Region of country where the interview was conducted
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1001	3.975	1.744
+1) Nairobi	91	9.1
+2) Central	133	13.3
+3) Eastern	169	16.9
+4) Rift Valley	253	25.3
+5) Western	118	11.8
+6) Nyanza	146	14.6
+7) Coast	91	9.1
+Missing	10027
+
+
+187) REG_NIG
+Region of country where the interview was conducted
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	999	3.418	1.895
+1) South-West	230	23.0
+2) South-East	178	17.8
+3) South-South	98	9.8
+4) North-West	170	17.0
+5) North-East	83	8.3
+6) North-Central	240	24.0
+Missing	10029
+
+
+188) REG_PHI
+Region of country where the interview was conducted
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1300	2.269	1.094
+1) NCR (National Capital Region)	400	30.8
+2) Balance Luzon	400	30.8
+3) Visayas	250	19.2
+4) Mindanao	250	19.2
+Missing	9728
+
+
+189) REG_SAF
+Region of country where the interview was conducted
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1137	4.475	1.959
+1) Bloemfontein	41	3.6
+2) Cape Town	208	18.3
+3) Durban	165	14.5
+4) East London	40	3.5
+5) Johannesburg	445	39.1
+6) Pietermaritzburg	34	3.0
+7) Port Elizabeth	85	7.5
+8) Pretoria	119	10.5
+Missing	9891
+
+
+190) REG_SKOR
+Region of country where the interview was conducted
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1000	1.888	1.236
+1) Seoul	556	55.6
+2) Pusan	191	19.1
+3) Daegu	128	12.8
+4) Gwangju	71	7.1
+5) Daejeon	42	4.2
+6) Jeonju	12	1.2
+Missing	10028
+
+
+191) REG_US
+Region of country where the interview was conducted
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1074	2.616	0.972
+1) Northeast	175	16.3
+2) Midwest	267	24.9
+3) South	427	39.8
+4) West	205	19.1
+Missing	9954
+
+
+192) LAN_BRA
+Language of interview in Brazil
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1000	1	0
+1) Portuguese	1000	100.0
+Missing	10028
+
+
+193) LAN_CHI
+Language of interview in Chile
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	988	1	0
+1) Spanish	988	100.0
+Missing	10040
+
+
+194) LAN_GUA
+Language of interview in Guatemala
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1305	1	0
+1) Spanish	1305	100.0
+Missing	9723
+
+
+195) LAN_IND
+Language of interview in India
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1224	1.973	0.76
+1) Hindi	370	30.2
+2) Tamil	517	42.2
+3) Malayalam	337	27.5
+Missing	9804
+
+
+196) LAN_PHI
+Language of interview in Philippines
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1300	1.469	0.647
+1) Tagalog	800	61.5
+2) Cebuano	390	30.0
+3) Ilonggo	110	8.5
+Missing	9728
+
+
+197) LAN_KEN
+Language of interview in Kenya
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1001	1.363	0.481
+1) English	638	63.7
+2) Kiswahili	363	36.3
+Missing	10027
+
+
+198) LAN_SAF
+Language of interview in South Africa
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	1137	3.283	2.512
+1) English	497	43.7
+2) Afrikaans	134	11.8
+3) Pedi	32	2.8
+4) Sotho	89	7.8
+5) Tswana	40	3.5
+6) Xhosa	118	10.4
+7) Zulu	218	19.2
+8) Other	1	0.1
+9) Xitsonga	6	0.5
+10) Ndebele	2	0.2
+Missing	9891
+
+
+199) LAN_SKOR
+Language of interview in South Korea
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1000	1	0
+1) Korean	1000	100.0
+Missing	10028
+
+
+200) LAN_US
+Language of interview in United States
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1074	1.078	0.269
+1) English	990	92.2
+2) Spanish	84	7.8
+Missing	9954
+
+

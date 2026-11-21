@@ -1,0 +1,6964 @@
+Data File: NHANSL02(Full Data Codebook)
+
+1) SEQN
+Respondent sequence number
+RANGE: 9966 to 21004
+	N	Mean	Std. Deviation
+Total	11039	15485	3186.829
+
+
+2) SDDSRVYR
+Data release number
+RANGE: 2 to 2
+	N	Mean	Std. Deviation
+Total	11039	2	0
+2) NHANES 2001-2002 Public Release	11039	100.0
+
+
+3) RIDSTATR
+Interview/examination status
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	11039	1.949	0.22
+1) Interviewed only	562	5.1
+2) Both interviewed and MEC examined	10477	94.9
+
+
+4) RIDEXMON
+Six month time period
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	10477	1.507	0.5
+1) November 1 through April 30	5168	49.3
+2) May 1 through October 31	5309	50.7
+Missing	562
+
+
+5) RIAGENDR
+Gender
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	11039	1.517	0.5
+1) Male	5331	48.3
+2) Female	5708	51.7
+
+
+6) RIDAGEYR
+Age at screening adjudicated - recode
+RANGE: 0 to 85
+	N	Mean	Std. Deviation
+Total	11039	29.254	24.892
+
+
+7) RIDAGEMN
+Age in months - recode
+RANGE: 0 to 1019
+	N	Mean	Std. Deviation
+Total	10803	341.881	284.939
+
+
+8) RIDAGEEX
+Exam age in months - recode
+RANGE: 0 to 1019
+	N	Mean	Std. Deviation
+Total	10304	335.903	279.559
+
+
+9) RIDRETH1
+Race/ethnicity - recode
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	11039	2.776	1.188
+1) Mexican American	2776	25.1
+2) Other Hispanic	517	4.7
+3) Non-Hispanic white	4606	41.7
+4) Non-Hispanic black	2681	24.3
+5) Other race - Including multi-racial	459	4.2
+
+
+10) RIDRETH2
+Linked NH3 race/ethnicity - recode
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	11039	2.032	1.104
+1) Non-Hispanic white	4657	42.2
+2) Non-Hispanic black	2746	24.9
+3) Mexican American	2776	25.1
+4) Other race - including multi-racial	343	3.1
+5) Other Hispanic	517	4.7
+
+
+11) DMQMILIT
+Veteran/military status
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	6323	1.872	0.374
+1) Yes	838	13.3
+2) No	5480	86.7
+7) Refused	4	0.1
+9) Don't know	1	0.0
+Missing	4716
+
+
+12) DMDBORN
+Country of birth - recode
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	11034	1.206	0.537
+1) Born in 50 U.S. states or Washington, D.C.	9408	85.3
+2) Born in Mexico	993	9.0
+3) Born elsewhere	629	5.7
+7) Refused	4	0.0
+Missing	5
+
+
+13) DMDCITZN
+Citizenship status
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	11035	1.108	0.359
+1) Citizen by birth or naturalization	9896	89.7
+2) Not a citizen of the U.S.	1128	10.2
+7) Refused	10	0.1
+9) Don't know	1	0.0
+Missing	4
+
+
+14) DMDYRSUS
+Length of time in U.S.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1619	5.259	10.768
+1) Less than one year	155	9.6
+2) One year, less than five years	370	22.9
+3) Five years, less than 10 years	273	16.9
+4) 10 years, less than 15 years	222	13.7
+5) 15 years, less than 20 years	137	8.5
+6) 20 years, less than 30 years	219	13.5
+7) 30 years, less than 40 years	112	6.9
+8) 40 years, less than 50 years	46	2.8
+9) 50 years or more	60	3.7
+77) Refused	10	0.6
+88) Could not determine	3	0.2
+99) Don't know	12	0.7
+Missing	9420
+
+
+15) DMDEDUC3
+Education level - children/youth six to 19
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	3729	7.998	9.433
+0) Never attended/kindergarten	260	7.0
+1) First grade	224	6.0
+2) Second grade	225	6.0
+3) Third grade	199	5.3
+4) Fourth grade	194	5.2
+5) Fifth grade	246	6.6
+6) Sixth grade	328	8.8
+7) Seventh grade	297	8.0
+8) Eighth grade	351	9.4
+9) Ninth grade	327	8.8
+10) 10th grade	324	8.7
+11) 11th grade	319	8.6
+12) 12th grade, no diploma	50	1.3
+13) High school graduate	191	5.1
+14) GED or equivalent	20	0.5
+15) More than high school	95	2.5
+55) Less than fifth grade	6	0.2
+66) Less than ninth grade	71	1.9
+99) Don't know	2	0.1
+Missing	7310
+
+
+16) DMDEDUC2
+Education level - adults 20+
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5407	3.215	1.361
+1) Less than ninth grade	797	14.7
+2) Ninth to 11th grade (includes 12th grade with no diploma)	870	16.1
+3) High school graduate/GED or equivalent	1265	23.4
+4) Some college or AA degree	1379	25.5
+5) College graduate or above	1079	20.0
+7) Refused	5	0.1
+9) Don't know	12	0.2
+Missing	5632
+
+
+17) DMDEDUC
+Education - recode (old version)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	9136	1.736	0.925
+1) Less than high school	5088	55.7
+2) High school diploma (including GED)	1476	16.2
+3) More than high school	2553	27.9
+7) Refused	5	0.1
+9) Don't know	14	0.2
+Missing	1903
+
+
+18) DMDSCHOL
+Now attending school?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	3463	1.388	0.674
+1) In school	2494	72.0
+2) On vacation from school (between grades)	594	17.2
+3) Neither in school or on vacation from school (between grades)	375	10.8
+Missing	7576
+
+
+19) DMDMARTL
+Marital status
+RANGE: 1 to 77
+	N	Mean	Std. Deviation
+Total	7257	2.981	2.583
+1) Married	3088	42.6
+2) Widowed	612	8.4
+3) Divorced	456	6.3
+4) Separated	170	2.3
+5) Never married	2597	35.8
+6) Living with partner	330	4.5
+77) Refused	4	0.1
+Missing	3782
+
+
+20) DMDHHSIZ
+Total number of people in the household
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	11039	3.904	1.744
+1)	838	7.6
+2)	1944	17.6
+3)	1911	17.3
+4)	2441	22.1
+5)	1795	16.3
+6)	870	7.9
+7) Seven or more people in the household	1240	11.2
+
+
+21) INDHHINC
+Annual household income
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	10013	7.153	5.811
+1) Zero dollars to $4,999	268	2.7
+2) $5,000 to $9,999	591	5.9
+3) $10,000 to $14,999	854	8.5
+4) $15,000 to $19,999	930	9.3
+5) $20,000 to $24,999	824	8.2
+6) $25,000 to $34,999	1244	12.4
+7) $35,000 to $44,999	1017	10.2
+8) $45,000 to $54,999	921	9.2
+9) $55,000 to $64,999	722	7.2
+10) $65,000 to $74,999	493	4.9
+11) $75,000 and over	2096	20.9
+12) Over $20,000	11	0.1
+13) Under $20,000	8	0.1
+77) Refused	12	0.1
+99) Don't know	22	0.2
+Missing	1026
+
+
+22) INDFMINC
+Annual family income
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	10846	8.056	11.779
+1) Zero dollars to $4,999	562	5.2
+2) $5,000 to $9,999	799	7.4
+3) $10,000 to $14,999	1093	10.1
+4) $15,000 to $19,999	1018	9.4
+5) $20,000 to $24,999	964	8.9
+6) $25,000 to $34,999	1195	11.0
+7) $35,000 to $44,999	967	8.9
+8) $45,000 to $54,999	832	7.7
+9) $55,000 to $64,999	609	5.6
+10) $65,000 to $74,999	462	4.3
+11) $75,000 and over	1744	16.1
+12) Over $20,000	231	2.1
+13) Under $20,000	164	1.5
+77) Refused	97	0.9
+99) Don't know	109	1.0
+Missing	193
+
+
+23) INDFMPIR
+Family PIR
+RANGE: 0 to 5
+	N	Mean	Std. Deviation
+Total	10245	2.343	1.616
+
+
+24) RIDEXPRG
+Pregnancy status at exam - recode
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	3547	2.037	0.491
+1) Yes, positive lab pregnancy test or self-reported pregnant at exam	365	10.3
+2) Sample person not pregnant at exam	2687	75.8
+3) Cannot ascertain if sampler person is pregnant at exam	495	14.0
+Missing	7492
+
+
+25) RIDPREG
+Pregnancy status - recode (old version)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3201	2.255	1.645
+1) Yes (lab, self-report, screener data, or menstrual history)	394	12.3
+2) Sample person not pregnant	2634	82.3
+9) Cannot ascertain if sample person is pregnant at exam	173	5.4
+Missing	7838
+
+
+26) DMDHRGND
+Household reference person gender
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	11037	1.436	0.496
+1) Male	6224	56.4
+2) Female	4813	43.6
+Missing	2
+
+
+27) DMDHRAGE
+Household reference person age
+RANGE: 15 to 85
+	N	Mean	Std. Deviation
+Total	11037	44.477	16.463
+
+
+28) DMDHRBRN
+Household reference person country of birth
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	10687	1.338	0.643
+1) Born in 50 U.S. states or Washington, D.C.	8052	75.3
+2) Born in Mexico	1666	15.6
+3) Born elsewhere	966	9.0
+7) Refused	3	0.0
+Missing	352
+
+
+29) DMDHREDU
+Household reference person education level
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	10691	3.174	1.371
+1) Less than ninth grade	1468	13.7
+2) Ninth to 11th grade (includes 12th grade with no diploma)	2082	19.5
+3) High school graduate/GED or equivalent	2537	23.7
+4) Some college or AA degree	2539	23.7
+5) College graduate or above	2009	18.8
+7) Refused	7	0.1
+9) Don't know	49	0.5
+Missing	348
+
+
+30) DMDHRMAR
+Household reference person marital status
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	10592	2.462	5.556
+1) Married	6512	61.5
+2) Widowed	758	7.2
+3) Divorced	992	9.4
+4) Separated	489	4.6
+5) Never married	1363	12.9
+6) Living with partner	434	4.1
+77) Refused	30	0.3
+99) Don't know	14	0.1
+Missing	447
+
+
+31) DMDHSEDU
+Household reference person's spouse education level
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5782	3.243	1.376
+1) Less than ninth grade	882	15.3
+2) Ninth to 11th grade (includes 12th grade with no diploma)	800	13.8
+3) High school graduate/GED or equivalent	1394	24.1
+4) Some college or AA degree	1537	26.6
+5) College graduate or above	1144	19.8
+7) Refused	3	0.1
+9) Don't know	22	0.4
+Missing	5257
+
+
+32) WTINT2YR
+Full sample two year interview weight
+RANGE: 1492.093618 to 201188.121505999
+	N	Mean	Std. Deviation
+Total	11039	25362.151	24443.76
+
+
+33) WTINT4YR
+Full sample four year interview weight
+RANGE: 683.456211 to 94900.8963979986
+	N	Mean	Std. Deviation
+Total	11039	13363.402	12757.847
+
+
+34) WTMEC2YR
+Full sample two year MEC exam weight
+RANGE: 0 to 211850.664052999
+	N	Mean	Std. Deviation
+Total	11039	25362.151	25767.498
+
+
+35) WTMEC4YR
+Full sample four year MEC exam weight
+RANGE: 0 to 103831.171048999
+	N	Mean	Std. Deviation
+Total	11039	13553.762	13708.834
+
+
+36) SDMVPSU
+Masked variance pseudo-PSU
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	11039	1.497	0.5
+1)	5555	50.3
+2)	5484	49.7
+
+
+37) SDMVSTRA
+Masked variance pseudo-stratum
+RANGE: 14 to 28
+	N	Mean	Std. Deviation
+Total	11039	20.85	4.267
+14)	705	6.4
+15)	781	7.1
+16)	776	7.0
+17)	824	7.5
+18)	682	6.2
+19)	815	7.4
+20)	760	6.9
+21)	691	6.3
+22)	707	6.4
+23)	810	7.3
+24)	703	6.4
+25)	688	6.2
+26)	788	7.1
+27)	713	6.5
+28)	596	5.4
+
+
+38) SSCMVOD
+CMV optical density from ELISA
+RANGE: 0.061962962962963 to 3.00096296296296
+	N	Mean	Std. Deviation
+Total	5534	1.203	0.997
+
+
+39) SSCMV
+CMV specific IgG results
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	5534	1.434	0.497
+1) Positive	3136	56.7
+2) Negative	2394	43.3
+3) Equivocal	4	0.1
+Missing	5505
+
+
+40) SSXHE1
+Herpes I\V
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1563	1.631	0.484
+1) Positive	577	36.9
+2) Negative	985	63.0
+3) Indeterminate	1	0.1
+Missing	9476
+
+
+41) SSISR
+Specimen index ratio
+RANGE: 0.106962962962963 to 10.372962962963
+	N	Mean	Std. Deviation
+Total	5504	2.818	1.377
+
+
+42) SSMUMPS
+Antibody to mumps
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	5504	1.11	0.392
+1) Positive	5050	91.8
+2) Negative	301	5.5
+3) Indeterminate	153	2.8
+Missing	5535
+
+
+43) LBXHBC
+Hepatitis B core antibody
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	7950	1.955	0.207
+
+
+44) LBDHBG
+Hepatitis B surface antigen
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	7950	1.998	0.04
+1) Positive	13	0.2
+2) Negative	7937	99.8
+Missing	3089
+
+
+45) LBDHCV
+Hepatitis C antibody (confirmed)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	7951	1.996	0.214
+1) Positive	112	1.4
+2) Negative	7811	98.2
+5) Indeterminate	28	0.4
+Missing	3088
+
+
+46) LBDHD
+Hepatitis D (anti-HDV)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	7950	2	0.011
+1) Positive	1	0.0
+2) Negative	7949	100.0
+Missing	3089
+
+
+47) LBXHA
+Hepatitis A antibody (anti-HAV)\V
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	8601	1.61	0.488
+1) Positive	3356	39.0
+2) Negative	5245	61.0
+Missing	2438
+
+
+48) LBXHBS
+Hepatitis B surface antibody
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	8517	1.666	0.472
+1) Positive	2842	33.4
+2) Negative	5675	66.6
+Missing	2522
+
+
+49) LBDHI
+HIV antibody test result
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	3199	1.997	0.073
+1) Positive	14	0.4
+2) Negative	3182	99.5
+3) Indeterminate	3	0.1
+Missing	7840
+
+
+50) LBXCD4
+CD4 counts (cells/mm3)
+RANGE: 6 to 1176
+	N	Mean	Std. Deviation
+Total	24	591.417	360.91
+6)	1	4.2
+64)	1	4.2
+91)	1	4.2
+138)	1	4.2
+217)	1	4.2
+305)	1	4.2
+356)	1	4.2
+388)	1	4.2
+403)	1	4.2
+457)	1	4.2
+538)	1	4.2
+545)	1	4.2
+587)	1	4.2
+591)	1	4.2
+713)	1	4.2
+730)	1	4.2
+840)	1	4.2
+881)	1	4.2
+913)	1	4.2
+934)	1	4.2
+1073)	1	4.2
+1121)	1	4.2
+1127)	1	4.2
+1176)	1	4.2
+Missing	11015
+
+
+51) LBXCD8
+CD8 counts (cells/mm3)
+RANGE: 218 to 1321
+	N	Mean	Std. Deviation
+Total	24	681.292	260.337
+218)	1	4.2
+312)	1	4.2
+357)	1	4.2
+392)	1	4.2
+444)	1	4.2
+448)	1	4.2
+467)	1	4.2
+488)	1	4.2
+596)	1	4.2
+609)	1	4.2
+625)	1	4.2
+683)	1	4.2
+733)	1	4.2
+757)	1	4.2
+803)	1	4.2
+818)	1	4.2
+822)	1	4.2
+838)	1	4.2
+839)	1	4.2
+869)	1	4.2
+940)	1	4.2
+963)	1	4.2
+1009)	1	4.2
+1321)	1	4.2
+Missing	11015
+
+
+52) WTSVOC2Y
+VOC subsample two year MEC Weight
+RANGE: 0 to 576402.46312973
+	N	Mean	Std. Deviation
+Total	1449	109638.282	88362.558
+
+
+53) WTSVOC4Y
+VOC subsample four year MEC Weight
+RANGE: 0 to 345630.72173468
+	N	Mean	Std. Deviation
+Total	1449	68633.504	55217.14
+
+
+54) LBXWBF
+Water bromoform result (ng/mL)
+RANGE: 0.0337 to 30
+	N	Mean	Std. Deviation
+Total	1038	1.169	2.676
+
+
+55) LBDWBFLC
+Water bromoform comment code
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	1038	0.398	0.492
+0) Detectable result	626	60.3
+1) Below detectable result	411	39.6
+2) Detectable result and exceeds the calibrated range of assay	1	0.1
+Missing	10001
+
+
+56) LBXWCF
+Water chloroform result (ng/mL)
+RANGE: 0.0849 to 147
+	N	Mean	Std. Deviation
+Total	1038	21.753	21.912
+
+
+57) LBDWCFLC
+Water chloroform comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1038	0.119	0.324
+0) Detectable result	914	88.1
+1) Below detectable limit	124	11.9
+Missing	10001
+
+
+58) LBXWBM
+Water bromodichloromethane result (ng/mL)
+RANGE: 0.0354 to 32
+	N	Mean	Std. Deviation
+Total	1024	6.684	6.068
+
+
+59) LBDWBMLC
+Water bromodichloromethane comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1024	0.096	0.294
+0) Detectable result	926	90.4
+1) Below detectable limit	98	9.6
+Missing	10015
+
+
+60) LBXWCM
+Water dibromochloromethane result (ng/mL)
+RANGE: 7.06987654320988E-02 to 34.7999987654321
+	N	Mean	Std. Deviation
+Total	1047	3.807	5.568
+
+
+61) LBDWCMLC
+Water dibromochloromethane comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1047	0.13	0.336
+0) Detectable result	911	87.0
+1) Below detectable limit	136	13.0
+Missing	9992
+
+
+62) LBXWME
+Water methyl tert. butyl ether (MTBE) result (ng/mL)
+RANGE: 4.98987654320988E-02 to 1.9
+	N	Mean	Std. Deviation
+Total	1023	0.148	0.226
+
+
+63) LBDWMELC
+Water methyl tert. butyl ether (MTBE) comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1023	0.752	0.432
+0) Detectable result	254	24.8
+1) Below detectable limit	769	75.2
+Missing	10016
+
+
+64) LBXV4C
+Blood tetrachloroethene result (ng/mL)
+RANGE: 1.86987654320988E-02 to 14.5999987654321
+	N	Mean	Std. Deviation
+Total	978	0.085	0.533
+
+
+65) LBDV4CLC
+Blood tetrachloroethene comment code
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	978	0.675	0.471
+0) Detectable result	319	32.6
+1) Below detectable limit	658	67.3
+2) Detectable result and exceeds the calibrated range of assay	1	0.1
+Missing	10061
+
+
+66) LBXVBF
+Blood bromoform result (pg/mL)
+RANGE: 0.3451 to 132
+	N	Mean	Std. Deviation
+Total	774	5.339	13.271
+
+
+67) LBDVBFLC
+Blood bromoform comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	774	0.161	0.368
+0) Detectable result	649	83.9
+1) Below detectable limit	125	16.1
+Missing	10265
+
+
+68) LBXVBM
+Blood bromodichloromethane result (pg/mL)
+RANGE: 0.1499 to 85.9
+	N	Mean	Std. Deviation
+Total	785	4.162	6.078
+
+
+69) LBDVBMLC
+Blood bromodichloromethane comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	785	0.014	0.118
+0) Detectable result	774	98.6
+1) Below detectable limit	11	1.4
+Missing	10254
+
+
+70) LBXVBZ
+Blood benzene result (ng/mL)
+RANGE: 1.69987654320988E-02 to 1.3
+	N	Mean	Std. Deviation
+Total	837	0.076	0.119
+
+
+71) LBDVBZLC
+Blood benzene comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	837	0.471	0.499
+0) Detectable result	443	52.9
+1) Below detectable limit	394	47.1
+Missing	10202
+
+
+72) LBXVCF
+Blood chloroform result (pg/mL)
+RANGE: 1.5415 to 22000
+	N	Mean	Std. Deviation
+Total	744	57.551	806.89
+
+
+73) LBDVCFLC
+Blood chloroform comment code
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	744	0.044	0.225
+0) Detectable result	714	96.0
+1) Below detectable limit	27	3.6
+2) Detectable result and exceeds the calibrated range of assay	3	0.4
+Missing	10295
+
+
+74) LBXVCM
+Blood dibromochloromethane result (pg/mL)
+RANGE: 0.1407 to 81.0999987654321
+	N	Mean	Std. Deviation
+Total	781	2.552	5.102
+
+
+75) LBDVCMLC
+Blood dibromochloromethane comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	781	0.197	0.398
+0) Detectable result	627	80.3
+1) Below detectable limit	154	19.7
+Missing	10258
+
+
+76) LBXVCT
+Blood carbon tetrachloride result (ng/mL)
+RANGE: 0.0035 to 0.747
+	N	Mean	Std. Deviation
+Total	742	0.008	0.036
+0.0035)	491	66.2
+4.99876543209877E-03)	5	0.7
+5.69876543209877E-03)	1	0.1
+5.99876543209877E-03)	9	1.2
+6.99876543209877E-03)	1	0.1
+7.09876543209877E-03)	182	24.5
+7.99876543209877E-03)	1	0.1
+8.99876543209877E-03)	5	0.7
+9.99876543209877E-03)	4	0.5
+1.09987654320988E-02)	1	0.1
+1.19987654320988E-02)	2	0.3
+1.29987654320988E-02)	3	0.4
+1.39987654320988E-02)	1	0.1
+1.59987654320988E-02)	1	0.1
+1.69987654320988E-02)	2	0.3
+1.89987654320988E-02)	2	0.3
+2.19987654320988E-02)	2	0.3
+2.81987654320988E-02)	1	0.1
+2.95987654320988E-02)	1	0.1
+3.16987654320988E-02)	1	0.1
+3.24987654320988E-02)	1	0.1
+3.32987654320988E-02)	1	0.1
+0.0335)	1	0.1
+0.034)	1	0.1
+0.0349)	1	0.1
+0.0366)	1	0.1
+0.0367)	1	0.1
+3.69987654320988E-02)	1	0.1
+3.71987654320988E-02)	1	0.1
+0.04)	1	0.1
+0.041)	1	0.1
+4.39987654320988E-02)	1	0.1
+0.0442)	1	0.1
+4.64987654320988E-02)	1	0.1
+4.86987654320988E-02)	2	0.3
+5.02987654320988E-02)	1	0.1
+5.92987654320988E-02)	1	0.1
+6.07987654320988E-02)	1	0.1
+7.79987654320988E-02)	1	0.1
+0.085)	1	0.1
+8.56987654320988E-02)	1	0.1
+0.137)	1	0.1
+0.144)	1	0.1
+0.601)	1	0.1
+0.747)	1	0.1
+Missing	10297
+
+
+77) LBDVCTLC
+Blood carbon tetrachloride comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	742	0.908	0.289
+0) Detectable result	68	9.2
+1) Below detectable limit	674	90.8
+Missing	10297
+
+
+78) LBXVDB
+Blood 1,4-dichlorobenzene result (ng/mL)
+RANGE: 3.67987654320988E-02 to 86
+	N	Mean	Std. Deviation
+Total	807	1.548	6.384
+
+
+79) LBDVDBLC
+Blood 1,4-dichlorobenzene comment code
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	807	0.494	0.513
+0) Detectable result	413	51.2
+1) Below detectable limit	389	48.2
+2) Detectable result and exceeds the calibrated range of assay	5	0.6
+Missing	10232
+
+
+80) LBXVEB
+Blood ethylbenzene result (ng/mL)
+RANGE: 1.16987654320988E-02 to 1.1999987654321
+	N	Mean	Std. Deviation
+Total	879	0.046	0.064
+
+
+81) LBDVEBLC
+Blood ethylbenzene comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	879	0.39	0.488
+0) Detectable result	536	61.0
+1) Below detectable limit	343	39.0
+Missing	10160
+
+
+82) LBXVME
+Blood methyl tert-butyl ether (MTBE) result (pg/mL)
+RANGE: 0.1344 to 2290
+	N	Mean	Std. Deviation
+Total	672	61.058	129.853
+
+
+83) LBDVMELC
+Blood MTBE comment code
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	672	0.103	0.366
+0) Detectable result	617	91.8
+1) Below detectable limit	41	6.1
+2) Detectable result and exceeds the calibrated range of assay	14	2.1
+Missing	10367
+
+
+84) LBXVOX
+Blood o-Xylene result (ng/mL)
+RANGE: 2.32987654320988E-02 to 1.1999987654321
+	N	Mean	Std. Deviation
+Total	981	0.057	0.065
+
+
+85) LBDVOXLC
+Blood o-Xylene comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	981	0.599	0.49
+0) Detectable result	393	40.1
+1) Below detectable limit	588	59.9
+Missing	10058
+
+
+86) LBXVST
+Blood styrene result (ng/mL)
+RANGE: 1.05987654320988E-02 to 100
+	N	Mean	Std. Deviation
+Total	950	0.263	3.821
+
+
+87) LBDVSTLC
+Blood styrene comment code
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	950	0.459	0.503
+0) Detectable result	516	54.3
+1) Below detectable limit	432	45.5
+2) Detectable result and exceeds the calibrated range of assay	2	0.2
+Missing	10089
+
+
+88) LBXVTC
+Blood trichloroethene result (ng/mL)
+RANGE: 6.59876543209877E-03 to 3.86
+	N	Mean	Std. Deviation
+Total	922	0.013	0.127
+
+
+89) LBDVTCLC
+Blood trichloroethene comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	922	0.969	0.175
+0) Detectable result	29	3.1
+1) Below detectable limit	893	96.9
+Missing	10117
+
+
+90) LBXVTO
+Blood toluene result (ng/mL)
+RANGE: 1.76987654320988E-02 to 16.8
+	N	Mean	Std. Deviation
+Total	954	0.31	0.779
+
+
+91) LBDVTOLC
+Blood toluene comment code
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	954	0.048	0.219
+0) Detectable result	909	95.3
+1) Below detectable limit	44	4.6
+2) Detectable result and exceeds the calibrated range of assay	1	0.1
+Missing	10085
+
+
+92) LBXVXY
+Blood m-/p-Xylene result (ng/mL)
+RANGE: 0.023962962962963 to 3.6
+	N	Mean	Std. Deviation
+Total	962	0.224	0.253
+
+
+93) LBDVXYLC
+Blood m-/p-Xylene comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	962	0.035	0.185
+0) Detectable result	928	96.5
+1) Below detectable limit	34	3.5
+Missing	10077
+
+
+94) URXUGC
+Gonorrhea, urine
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2315	1.996	0.066
+1) Positive	10	0.4
+2) Negative	2305	99.6
+Missing	8724
+
+
+95) URXUCL
+Chlamydia, urine
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2315	1.971	0.168
+1) Positive	67	2.9
+2) Negative	2248	97.1
+Missing	8724
+
+
+96) LBXBCD
+Cadmium (ug/L)
+RANGE: 0.2 to 7.4
+	N	Mean	Std. Deviation
+Total	8945	0.424	0.448
+
+
+97) LBDBCDSI
+Cadmium (nmol/L)
+RANGE: 1.78 to 65.84
+	N	Mean	Std. Deviation
+Total	8945	3.781	3.999
+
+
+98) LBXBPB
+Lead (ug/dL)
+RANGE: 0.2 to 48
+	N	Mean	Std. Deviation
+Total	8945	1.942	1.935
+
+
+99) LBDBPBSI
+Lead (umol/L)
+RANGE: 9.96296296296296E-03 to 2.318
+	N	Mean	Std. Deviation
+Total	8945	0.094	0.093
+
+
+100) LBXRBF
+Folate, RBC (ng/mL RBC)
+RANGE: 50 to 2263
+	N	Mean	Std. Deviation
+Total	8488	283.981	119.51
+
+
+101) LBDRBFSI
+Folate, RBC (nmol/L RBC)
+RANGE: 113.266666666667 to 5125.66666666667
+	N	Mean	Std. Deviation
+Total	8488	643.206	270.691
+
+
+102) LBXTHG
+Mercury, total (ug/L)
+RANGE: 0.07 to 27.3988888888889
+	N	Mean	Std. Deviation
+Total	2800	1.056	1.627
+
+
+103) LBDTHGSI
+Mercury, total (umol/L)
+RANGE: 0.35 to 136.728888888889
+	N	Mean	Std. Deviation
+Total	2800	5.273	8.119
+
+
+104) LBXIHG
+Mercury, inorganic (ug/L)
+RANGE: 0.28 to 11.5988888888889
+	N	Mean	Std. Deviation
+Total	2745	0.31	0.334
+
+
+105) LBDIHGSI
+Mercury, inorganic (umol/L)
+RANGE: 1.39888888888889 to 57.88
+	N	Mean	Std. Deviation
+Total	2745	1.547	1.669
+1.39888888888889)	2611	95.1
+2)	20	0.7
+2.5)	42	1.5
+2.99)	20	0.7
+3.49)	16	0.6
+3.99)	7	0.3
+4.49)	7	0.3
+4.99)	6	0.2
+5.49)	5	0.2
+6.49)	2	0.1
+7.98)	2	0.1
+8.48)	1	0.0
+8.98)	1	0.0
+11.48)	1	0.0
+21.46)	1	0.0
+24.9488888888889)	1	0.0
+53.89)	1	0.0
+57.88)	1	0.0
+Missing	8294
+
+
+106) LBDHCY
+Homocysteine (umol/L)
+RANGE: 1.65 to 123.188888888889
+	N	Mean	Std. Deviation
+Total	8472	7.46	4.097
+
+
+107) LBXFER
+Ferritin (ng/mL)
+RANGE: 1 to 3234
+	N	Mean	Std. Deviation
+Total	8807	86.857	126.773
+
+
+108) LBDFERSI
+Ferritin (ug/L)
+RANGE: 1 to 3234
+	N	Mean	Std. Deviation
+Total	8807	86.857	126.773
+
+
+109) LBXB12
+Vitamin B12, serum (pg/mL)
+RANGE: 37 to 240599
+	N	Mean	Std. Deviation
+Total	8390	635.804	2830.524
+
+
+110) LBDB12SI
+Vitamin B12, serum (pmol/L)
+RANGE: 27.3088888888889 to 177562.058888889
+	N	Mean	Std. Deviation
+Total	8390	469.223	2088.927
+
+
+111) LBXFOL
+Folate, serum (ng/mL)
+RANGE: 1.1 to 275
+	N	Mean	Std. Deviation
+Total	8386	14.549	8.882
+
+
+112) LBDFOLSI
+Folate, serum (nmol/L)
+RANGE: 2.5 to 622.866666666667
+	N	Mean	Std. Deviation
+Total	8386	32.972	20.117
+
+
+113) LBXMMA
+Methylmalonic acid (umol/L)
+RANGE: 0.04 to 7.58996296296296
+	N	Mean	Std. Deviation
+Total	8451	0.141	0.134
+
+
+114) LBXCOT
+Cotinine (ng/mL)
+RANGE: 0.010962962962963 to 1149
+	N	Mean	Std. Deviation
+Total	8299	35.365	98.159
+
+
+115) LBDCOTLC
+Cotinine comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	8299	0.226	0.418
+0) Detectable result	6427	77.4
+1) Below detectable limit	1872	22.6
+Missing	2740
+
+
+116) URXUHG
+Mercury, urine (ng/mL)
+RANGE: 0.1 to 61.0388888888889
+	N	Mean	Std. Deviation
+Total	1960	1.274	2.658
+
+
+117) LB2BCD
+Cadmium (ug/L)
+RANGE: 0.2 to 7
+	N	Mean	Std. Deviation
+Total	551	0.513	0.586
+
+
+118) LB2BCDSI
+Cadmium (nmol/L)
+RANGE: 1.78 to 62.28
+	N	Mean	Std. Deviation
+Total	551	4.574	5.229
+
+
+119) LB2BPB
+Lead (ug/dL)
+RANGE: 0.2 to 13.0666666666667
+	N	Mean	Std. Deviation
+Total	551	1.793	1.507
+
+
+120) LB2BPBSI
+Lead (umol/L)
+RANGE: 9.96296296296296E-03 to 0.633
+	N	Mean	Std. Deviation
+Total	551	0.087	0.073
+
+
+121) LB2RBF
+Folate, RBC (ng/mL RBC)
+RANGE: 86 to 1410
+	N	Mean	Std. Deviation
+Total	547	296.552	131.37
+
+
+122) LB2RBFSI
+Folate, RBC (nmol/L RBC)
+RANGE: 194.8 to 3193.66666666667
+	N	Mean	Std. Deviation
+Total	547	671.678	297.552
+
+
+123) LB2THG
+Mercury, total (ug/L)
+RANGE: 0.3 to 0.8
+	N	Mean	Std. Deviation
+Total	7	0.557	0.19
+
+
+124) LB2THGSI
+Mercury, total (umol/L)
+RANGE: 1.5 to 3.99
+	N	Mean	Std. Deviation
+Total	7	2.781	0.947
+
+
+125) LB2HCY
+Homocysteine (umol/L)
+RANGE: 2.65 to 49.9788888888889
+	N	Mean	Std. Deviation
+Total	549	8.389	3.216
+
+
+126) LB2FER
+Ferritin (ng/mL)
+RANGE: 3 to 1520
+	N	Mean	Std. Deviation
+Total	546	110.137	135.408
+
+
+127) LB2FERSI
+Ferritin (ug/L)
+RANGE: 3 to 1520
+	N	Mean	Std. Deviation
+Total	546	110.137	135.408
+
+
+128) LB2B12
+Vitamin B12, serum (pg/mL)
+RANGE: 136 to 45849
+	N	Mean	Std. Deviation
+Total	546	571.524	1953.625
+
+
+129) LB2B12SI
+Vitamin B12, serum (pmol/L)
+RANGE: 100.37 to 33836.5588888889
+	N	Mean	Std. Deviation
+Total	546	421.784	1441.775
+
+
+130) LB2FOL
+Folate, serum (ng/mL)
+RANGE: 2 to 95
+	N	Mean	Std. Deviation
+Total	546	13.092	7.362
+
+
+131) LB2FOLSI
+Folate, serum (nmol/L)
+RANGE: 4.5 to 215.166666666667
+	N	Mean	Std. Deviation
+Total	546	29.672	16.674
+
+
+132) LB2MMA
+Methylmalonic acid (umol/L)
+RANGE: 0.04 to 1.51
+	N	Mean	Std. Deviation
+Total	548	0.138	0.096
+
+
+133) LB2COT
+Cotinine (ng/mL)
+RANGE: 0.010962962962963 to 706
+	N	Mean	Std. Deviation
+Total	545	50.885	115.602
+
+
+134) LB2COTLC
+Cotinine comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	545	0.191	0.393
+
+
+135) URXUIO
+Iodine, urine (ng/mL)
+RANGE: 6 to 136161
+	N	Mean	Std. Deviation
+Total	2837	399.579	3702.475
+
+
+136) URXUCR
+Creatinine, urine (mg/mL)
+RANGE: 9 to 774
+	N	Mean	Std. Deviation
+Total	2858	133.738	84.43
+
+
+137) WTUIO2YR
+Iodine Subsample two-year MEC Weight
+RANGE: 0 to 663502.47832293
+	N	Mean	Std. Deviation
+Total	2942	87245.93	80922.697
+
+
+138) LBXVID
+Vitamin D (ng/mL)
+RANGE: 3 to 80
+	N	Mean	Std. Deviation
+Total	7807	21.685	8.845
+
+
+139) LB2DAY
+Days between first and second exams
+RANGE: 3 to 45
+	N	Mean	Std. Deviation
+Total	469	19.296	8.314
+
+
+140) LB2VID
+Vitamin D (ng/mL)
+RANGE: 3 to 61
+	N	Mean	Std. Deviation
+Total	469	20.932	9.605
+
+
+141) LBXALC
+A-carotene (ug/dL)
+RANGE: 0.49 to 190.598888888889
+	N	Mean	Std. Deviation
+Total	8359	3.584	5.096
+
+
+142) LBDALCSI
+A-carotene (umol/L)
+RANGE: 8.96296296296296E-03 to 3.551
+	N	Mean	Std. Deviation
+Total	8359	0.067	0.095
+
+
+143) LBXBEC
+Trans-b-carotene (ug/dL)
+RANGE: 0.57 to 242.3
+	N	Mean	Std. Deviation
+Total	8358	16.452	16.302
+
+
+144) LBDBECSI
+Trans-b-carotene (umol/L)
+RANGE: 0.010962962962963 to 4.514
+	N	Mean	Std. Deviation
+Total	8358	0.306	0.304
+
+
+145) LBXCBC
+Cis-b-carotene (ug/dL)
+RANGE: 0.49 to 13.5988888888889
+	N	Mean	Std. Deviation
+Total	8359	0.946	0.887
+
+
+146) LBDCBCSI
+Cis-b-carotene (umol/L)
+RANGE: 8.96296296296296E-03 to 0.253
+	N	Mean	Std. Deviation
+Total	8359	0.018	0.017
+
+
+147) LBXCRY
+B-cryptoxanthin (ug/dL)
+RANGE: 0.64 to 208.598888888889
+	N	Mean	Std. Deviation
+Total	8317	10.768	8.535
+
+
+148) LBDCRYSI
+B-cryptoxanthin (umol/L)
+RANGE: 0.011962962962963 to 3.77596296296296
+	N	Mean	Std. Deviation
+Total	8317	0.195	0.154
+
+
+149) LBXGTC
+G-tocopherol (ug/dL)
+RANGE: 8 to 1977
+	N	Mean	Std. Deviation
+Total	8308	227.629	119.034
+
+
+150) LBDGTCSI
+G-tocopherol (umol/L)
+RANGE: 0.192 to 47.487962962963
+	N	Mean	Std. Deviation
+Total	8308	5.468	2.859
+
+
+151) LBXLUZ
+Combined Lutein/zeaxanthin (ug/dL)
+RANGE: 1.7 to 85
+	N	Mean	Std. Deviation
+Total	8353	14.91	7.805
+
+
+152) LBDLUZSI
+Combined Lutein/zeaxanthin (umol/L)
+RANGE: 0.029962962962963 to 1.494
+	N	Mean	Std. Deviation
+Total	8353	0.262	0.137
+
+
+153) LBXLYC
+Trans-lycopene (ug/dL)
+RANGE: 0.57 to 79.7988888888889
+	N	Mean	Std. Deviation
+Total	8348	22.664	10.62
+
+
+154) LBDLYCSI
+Trans-lycopene (umol/L)
+RANGE: 0.010962962962963 to 1.487
+	N	Mean	Std. Deviation
+Total	8348	0.422	0.198
+
+
+155) LBXRPL
+Retinyl palmitate (ug/dL)
+RANGE: 0.14 to 72.7
+	N	Mean	Std. Deviation
+Total	8053	2.367	2.207
+
+
+156) LBDRPLSI
+Retinyl palmitate (umol/L)
+RANGE: 4.96296296296296E-03 to 2.53796296296296
+	N	Mean	Std. Deviation
+Total	8053	0.083	0.077
+
+
+157) LBXRST
+Retinyl stearate (ug/dL)
+RANGE: 0.35 to 29.8
+	N	Mean	Std. Deviation
+Total	8106	0.469	0.63
+
+
+158) LBDRSTSI
+Retinyl stearate (umol/L)
+RANGE: 0.011962962962963 to 1.04
+	N	Mean	Std. Deviation
+Total	8106	0.016	0.022
+
+
+159) LBXVIA
+Retinol (ug/dL)\V 
+RANGE: 1.39888888888889 to 182.098888888889
+	N	Mean	Std. Deviation
+Total	8365	52.368	17.891
+
+
+160) LBDVIASI
+Retinol (umol/L)
+RANGE: 0.048962962962963 to 6.357
+	N	Mean	Std. Deviation
+Total	8365	1.828	0.625
+
+
+161) LBXVIE
+A-tocopherol (ug/dL)
+RANGE: 75.2666666666667 to 13083.8666666667
+	N	Mean	Std. Deviation
+Total	8365	1108.29	585.27
+
+
+162) LBDVIESI
+A-tocopherol (umol/L)
+RANGE: 1.748 to 303.807962962963
+	N	Mean	Std. Deviation
+Total	8365	25.735	13.59
+
+
+163) WTAHM2YR
+Heavy metal subsample two-year MEC weight (Frequencies not displayed for this variable.)
+RANGE: 0 to 671114.86074353
+	N	Mean	Std. Deviation
+Total	2804	91532.265	88340.504
+
+
+164) WTSHM4YR
+Heavy metal subsample four-year MEC weight (Frequencies not displayed for this variable.)
+RANGE: 0 to 339040.6174852
+	N	Mean	Std. Deviation
+Total	2804	49019.625	46926.093
+
+
+165) URXUBA
+Barium, urine (ng/mL)
+RANGE: 0.08 to 248.698888888889
+	N	Mean	Std. Deviation
+Total	2690	2.576	6.416
+
+
+166) URXUBE
+Beryllium, urine (ng/mL)
+RANGE: 8.88888888888889E-02 to 0.2
+	N	Mean	Std. Deviation
+Total	2690	0.092	0.014
+8.88888888888889E-02)	2561	95.2
+0.13)	17	0.6
+0.14)	34	1.3
+0.15)	25	0.9
+0.16)	19	0.7
+0.17)	17	0.6
+0.18)	9	0.3
+0.19)	7	0.3
+0.2)	1	0.0
+Missing	8349
+
+
+167) URDUCD
+Cadmium, urine (ng/mL)
+RANGE: 0 to 36.777475
+	N	Mean	Std. Deviation
+Total	2690	0.356	0.833
+
+
+168) URDUCDLC
+Urinary cadmium comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2690	0.04	0.196
+0) Detectable result	2582	96.0
+1) Below detectable result	108	4.0
+Missing	8349
+
+
+169) URXUCO
+Cobalt, urine (ng/mL)
+RANGE: 0.05 to 38.6788888888889
+	N	Mean	Std. Deviation
+Total	2690	0.571	0.897
+
+
+170) URXUCS
+Cesium, urine (ng/mL)
+RANGE: 0.1 to 363.48
+	N	Mean	Std. Deviation
+Total	2690	6.056	8.222
+
+
+171) URXUMO
+Molybdenum, urine (ng/mL)
+RANGE: 0.57 to 614.5
+	N	Mean	Std. Deviation
+Total	2690	68.893	56.693
+
+
+172) URXUPB
+Lead, urine (ng/mL)
+RANGE: 0.07 to 13.0988888888889
+	N	Mean	Std. Deviation
+Total	2690	1.096	1.152
+
+
+173) URXUPT
+Platinum, urine (ng/mL)
+RANGE: 2.88888888888889E-02 to 1177.46
+	N	Mean	Std. Deviation
+Total	2690	0.47	22.702
+
+
+174) URXUSB
+Antimony, urine (ng/mL)
+RANGE: 2.88888888888889E-02 to 4.9
+	N	Mean	Std. Deviation
+Total	2690	0.176	0.195
+
+
+175) URXUTL
+Thallium, urine (ng/mL)
+RANGE: 8.88888888888889E-03 to 2.82
+	N	Mean	Std. Deviation
+Total	2653	0.213	0.146
+
+
+176) URXUTU
+Tungsten, urine (ng/mL)
+RANGE: 2.88888888888889E-02 to 10.0888888888889
+	N	Mean	Std. Deviation
+Total	2652	0.169	0.38
+
+
+177) URXUUR
+Uranium, urine (ng/mL)
+RANGE: 0.003 to 3.46896296296296
+	N	Mean	Std. Deviation
+Total	2690	0.017	0.081
+
+
+178) LBXHE1
+Herpes I
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	4134	1.4	0.501
+1) Positive	2502	60.5
+2) Negative	1610	38.9
+3) Indeterminate	22	0.5
+Missing	6905
+
+
+179) LBXHE2
+Herpes II
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	3033	1.803	0.409
+1) Positive	612	20.2
+2) Negative	2407	79.4
+3) Indeterminate	14	0.5
+Missing	8006
+
+
+180) LBXGH
+Glycohemoglobin (%)
+RANGE: 3.26666666666667 to 18.8
+	N	Mean	Std. Deviation
+Total	6999	5.455	0.902
+
+
+181) WTSAF2YR
+Fasting subsample two-year MEC weight
+RANGE: 0 to 523301.61139143
+	N	Mean	Std. Deviation
+Total	3666	63268.721	64693.03
+
+
+182) WTSAF4YR
+Fasting subsample four-year MEC weight
+RANGE: 0 to 263680.65678154
+	N	Mean	Std. Deviation
+Total	3666	34558.014	34971.347
+
+
+183) LBXGLU
+Glucose, plasma (mg/dL)
+RANGE: 38.3666666666667 to 686.2
+	N	Mean	Std. Deviation
+Total	3441	101.161	32.436
+
+
+184) LBXGLUSI
+Plasma glucose: SI (mmol/L)
+RANGE: 2.133 to 38.121962962963
+	N	Mean	Std. Deviation
+Total	3441	5.621	1.802
+
+
+185) LBXCPSI
+C-peptide (nmol/L) in SI units
+RANGE: 0.020962962962963 to 6.828
+	N	Mean	Std. Deviation
+Total	3379	0.79	0.437
+
+
+186) LBXIN
+Insulin (uU/mL)
+RANGE: 0.71 to 377.278888888889
+	N	Mean	Std. Deviation
+Total	3379	14.228	16.175
+
+
+187) LBXINSI
+Insulin: SI (pmol/L)
+RANGE: 4.25888888888889 to 2263.67888888889
+	N	Mean	Std. Deviation
+Total	3379	85.368	97.048
+
+
+188) LBXCRP
+C-reactive protein (mg/dL)
+RANGE: 8.88888888888889E-03 to 18.5
+	N	Mean	Std. Deviation
+Total	8410	0.343	0.76
+
+
+189) LBXFB
+Fibrinogen (mg/dL)
+RANGE: 118 to 914
+	N	Mean	Std. Deviation
+Total	3010	384.562	85.289
+
+
+190) LBDFBSI
+Fibrinogen (g/L)
+RANGE: 1.17888888888889 to 9.14
+	N	Mean	Std. Deviation
+Total	3010	3.845	0.853
+
+
+191) LBDBAP
+Bone alkaline phosphatase (ug/L)
+RANGE: 1.7 to 351.166666666667
+	N	Mean	Std. Deviation
+Total	7592	31.576	34.682
+
+
+192) URDNT
+N-Telopeptides (nmol BCE)
+RANGE: 14 to 14900
+	N	Mean	Std. Deviation
+Total	4859	447.531	492.137
+
+
+193) KIQ110
+Are you willing to have your blood tested for PSA?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1512	1.028	0.164
+1) Yes	1470	97.2
+2) No	42	2.8
+Missing	9527
+
+
+194) KIQ115
+[Do you/Does sample person] have an infection or inflammation of the prostate gland at the present time?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1469	2.048	0.667
+1) Yes	20	1.4
+2) No	1436	97.8
+9) Don't know	13	0.9
+Missing	9570
+
+
+195) KIQ185
+[Have you/Has sample person] had a rectal exam in the last seven days?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1469	1.982	0.132
+1) Yes	26	1.8
+2) No	1443	98.2
+Missing	9570
+
+
+196) KIQ190
+[Have you/Has sample person] had a prostate biopsy in the last four weeks?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1469	1.995	0.074
+1) Yes	8	0.5
+2) No	1461	99.5
+Missing	9570
+
+
+197) KIQ195
+[Have you/Has sample person] had a cystoscopy in the last four weeks? (Cystoscopy is an internal examination of the prostate and bladder using a flexible tube-like instrument with a lens inserted through the penis.)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1469	1.995	0.074
+1) Yes	8	0.5
+2) No	1461	99.5
+Missing	9570
+
+
+198) KIQ201
+[Have you/Has sample person] ever been told by a doctor or health professional that [you/he] had prostate cancer?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1469	1.962	0.274
+1) Yes	63	4.3
+2) No	1405	95.6
+9) Don't know	1	0.1
+Missing	9570
+
+
+199) KIQ221
+How old [were you/was sample person] when [you were/he was] first told that [you/he] had prostate cancer?
+RANGE: 39 to 88
+	N	Mean	Std. Deviation
+Total	54	68.907	8.798
+39)	1	1.9
+56)	2	3.7
+57)	1	1.9
+58)	1	1.9
+59)	1	1.9
+60)	3	5.6
+61)	3	5.6
+62)	3	5.6
+63)	2	3.7
+64)	1	1.9
+65)	1	1.9
+67)	2	3.7
+68)	3	5.6
+69)	1	1.9
+70)	3	5.6
+71)	4	7.4
+72)	2	3.7
+73)	2	3.7
+74)	4	7.4
+75)	4	7.4
+76)	1	1.9
+77)	3	5.6
+80)	2	3.7
+81)	1	1.9
+82)	1	1.9
+87)	1	1.9
+88)	1	1.9
+Missing	10985
+
+
+200) KIQ241
+[Have you/Has sample person] ever had surgery on [your/his] prostate?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	63	1.429	0.499
+1) Yes	36	57.1
+2) No KIQ301	27	42.9
+Missing	10976
+
+
+201) KIQ281
+Was the surgery for cancer of the prostate gland?
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	36	1	0
+1) Yes	36	100.0
+Missing	11003
+
+
+202) KIQ301
+[Have you/Has sample person] ever had radiation treatments for prostate cancer?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	63	1.698	1.057
+1) Yes	26	41.3
+2) No	36	57.1
+9) Don't know	1	1.6
+Missing	10976
+
+
+203) KIQ311
+[Have you/Has sample person] ever taken prescription medicines for prostate cancer?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	63	1.778	1.039
+1) Yes	21	33.3
+2) No	41	65.1
+9) Don't know	1	1.6
+Missing	10976
+
+
+204) LBXP1
+Prostate specific antigen, total (ng/mL)
+RANGE: 0.1 to 202
+	N	Mean	Std. Deviation
+Total	1380	2.093	6.561
+
+
+205) LBXP2
+Prostate specific antigen (PSA), free (ng/mL)
+RANGE: 0.04 to 25.3
+	N	Mean	Std. Deviation
+Total	1380	0.467	0.923
+
+
+206) LBDP3
+Prostate specific antigen ratio (%)
+RANGE: 4 to 95
+	N	Mean	Std. Deviation
+Total	1380	29.189	12.459
+
+
+207) LBXTC
+Total cholesterol (mg/dL)\V 
+RANGE: 71 to 727
+	N	Mean	Std. Deviation
+Total	8287	186.684	43.207
+
+
+208) LBDHDL
+HDL-cholesterol (mg/dL)
+RANGE: 16 to 160
+	N	Mean	Std. Deviation
+Total	8287	51.649	14.331
+
+
+209) LBDTCSI
+Total cholesterol (mmol/L)
+RANGE: 1.84 to 18.8
+	N	Mean	Std. Deviation
+Total	8287	4.827	1.117
+
+
+210) LBDHDLSI
+HDL-cholesterol (mmol/L)
+RANGE: 0.41 to 4.13888888888889
+	N	Mean	Std. Deviation
+Total	8287	1.336	0.371
+
+
+211) LBXTR
+Triglyceride (mg/dL)
+RANGE: 16 to 3780
+	N	Mean	Std. Deviation
+Total	3988	126.973	131.069
+
+
+212) LBDTRSI
+Triglyceride (mmol/L)
+RANGE: 0.18 to 42.6788888888889
+	N	Mean	Std. Deviation
+Total	3988	1.433	1.48
+
+
+213) LBDLDL
+LDL-cholesterol (mg/dL)
+RANGE: 20 to 316
+	N	Mean	Std. Deviation
+Total	3643	110.191	34.311
+
+
+214) LBDLDLSI
+LDL-cholesterol (mmol/L)
+RANGE: 0.52 to 8.16888888888889
+	N	Mean	Std. Deviation
+Total	3643	2.849	0.887
+
+
+215) URXUCRSI
+Creatinine, urine (umol/L)
+RANGE: 442 to 68422
+	N	Mean	Std. Deviation
+Total	8373	12006.758	7256.635
+
+
+216) URXUMA
+Albumin, urine (ug/mL)
+RANGE: 0.2 to 16920
+	N	Mean	Std. Deviation
+Total	8374	45.908	362.343
+
+
+217) URXUMASI
+Albumin, urine (mg/L) SI
+RANGE: 0.2 to 16920
+	N	Mean	Std. Deviation
+Total	8374	45.909	362.343
+
+
+218) LBDTO1
+Toxoplasma (IgG)
+RANGE: 0 to 240
+	N	Mean	Std. Deviation
+Total	5751	12.172	45.871
+
+
+219) LBXTO2
+Toxoplasma (IgM)
+RANGE: 0 to 10.6666666666667
+	N	Mean	Std. Deviation
+Total	527	0.523	0.816
+0)	119	22.6
+0.1)	51	9.7
+0.2)	62	11.8
+0.3)	44	8.3
+0.4)	53	10.1
+0.5)	30	5.7
+0.6)	29	5.5
+0.7)	21	4.0
+0.8)	28	5.3
+0.9)	17	3.2
+1)	14	2.7
+1.1)	8	1.5
+1.16666666666667)	2	0.4
+1.3)	7	1.3
+1.36666666666667)	6	1.1
+1.5)	4	0.8
+1.6)	3	0.6
+1.7)	3	0.6
+1.8)	3	0.6
+1.9)	1	0.2
+2)	4	0.8
+2.1)	2	0.4
+2.2)	3	0.6
+2.6)	1	0.2
+2.76666666666667)	1	0.2
+2.9)	4	0.8
+3.1)	2	0.4
+4.4)	1	0.2
+5)	1	0.2
+5.26666666666667)	1	0.2
+6.2)	1	0.2
+10.6666666666667)	1	0.2
+Missing	10512
+
+
+220) LBXTO3
+Toxoplasma (dye) positive - 1:8
+RANGE: 8 to 512
+	N	Mean	Std. Deviation
+Total	13	198.154	222.019
+8)	2	15.4
+32)	4	30.8
+128)	3	23.1
+512)	4	30.8
+Missing	11026
+
+
+221) LBXTO4
+Toxoplasma differential agglutination
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	11		
+
+
+222) LBXTO4IN
+Toxoplasma agglutin interpretation
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	11		
+
+
+223) LBXTO5
+Toxoplasma (avidity) IgG
+RANGE: 0.441 to 0.675
+	N	Mean	Std. Deviation
+Total	10	0.566	0.07
+0.441)	1	10.0
+0.487)	1	10.0
+0.522)	1	10.0
+0.537)	1	10.0
+0.575)	1	10.0
+0.582)	1	10.0
+0.602)	1	10.0
+0.615)	1	10.0
+0.625)	1	10.0
+0.675)	1	10.0
+Missing	11029
+
+
+224) LBXTO5IN
+Toxoplasma (avidity) IgG interpretation
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	10		
+
+
+225) LBXME
+Measles
+RANGE: 0 to 29.26
+	N	Mean	Std. Deviation
+Total	5799	9.718	6.578
+
+
+226) LBDRUIU
+Rubella units
+RANGE: 1 to 327
+	N	Mean	Std. Deviation
+Total	5799	53.63	41.93
+
+
+227) LBXVAR
+Varicella
+RANGE: 0 to 29.4288888888889
+	N	Mean	Std. Deviation
+Total	5799	11.517	6.684
+
+
+228) DCDINDEX
+Index child for sampling
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1330	1.271	0.445
+1) Index child	969	72.9
+2) Other household child	361	27.1
+Missing	9709
+
+
+229) DCDSTAT
+Dust sample status
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1257	2.487	0.873
+1) Floor only	322	25.6
+2) Window only	1	0.1
+3) Floor and window	934	74.3
+Missing	9782
+
+
+230) DCD030
+Room where sample taken. ENTER LOCATION OF SAMPLE
+RANGE: 2 to 7
+	N	Mean	Std. Deviation
+Total	1257	2.523	1.237
+2) Living room/family room/den	1044	83.1
+3) Dining room	16	1.3
+4) Kitchen	23	1.8
+5) Bedroom	137	10.9
+7) Another room	37	2.9
+Missing	9782
+
+
+231) DCD070A
+Indicates whether floor was carpeted in room-floor sample. ENTER ROOM CARPET CODE: CAPI EDIT: IF 'NO CARPET' (CODE 2) IS SELECTED, NO OTHER CODE MAY BE SELECTED.
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1257	1.157	0.364
+1) Yes	1060	84.3
+2) No	197	15.7
+Missing	9782
+
+
+232) DCDQ070B
+Indicates whether mat was found in room-floor sample. ENTER ROOM CARPET CODE: CAPI EDIT: IF 'NO CARPET' (CODE 2) IS SELECTED, NO OTHER CODE MAY BE SELECTED.
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1257	1.986	0.119
+1) Yes	18	1.4
+2) No	1239	98.6
+Missing	9782
+
+
+233) DCQ070C
+Indicates whether area rug was found in room-floor sample ENTER ROOM CARPET CODE: CAPI EDIT: IF 'NO CARPET' (CODE 2) IS SELECTED, NO OTHER CODE MAY BE SELECTED.
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1257	1.846	0.361
+1) Yes	194	15.4
+2) No	1063	84.6
+Missing	9782
+
+
+234) DCQ070D
+If there was wall to wall carpet-floor sample ENTER ROOM CARPET CODE: CAPI EDIT: IF 'NO CARPET' (CODE 2) IS SELECTED, NO OTHER CODE MAY BE SELECTED.
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1257	1.259	0.438
+1) Yes	932	74.1
+2) No	325	25.9
+Missing	9782
+
+
+235) DCQ090
+Depth of carpeting-floor sample ENTER CARPET PILE DEPTH
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1060	1.224	0.522
+1) Low pile	875	82.5
+2) High pile	133	12.5
+3) Not applicable	52	4.9
+Missing	9979
+
+
+236) DCQ160
+Surface condition for floor dust sample. CAPI EDIT: IF 'NO CARPET' (CODE 2) HAS BEEN SELECTED IN DCD.070, DO NOT ALLOW SELECTION OF 'CARPETED' (CODE 3) IN DCQ.160.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	325	1.523	0.863
+1) Smooth and cleanable	235	72.3
+2) Not smooth and cleanable	10	3.1
+3) Carpet	80	24.6
+Missing	10714
+
+
+237) DCQ240
+Window sill finished
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	935	1.079	0.27
+1) Yes	861	92.1
+2) No	74	7.9
+Missing	10104
+
+
+238) DCQ250
+Surface condition for sill dust sample
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	935	1.09	0.286
+1) Smooth and cleanable	851	91.0
+2) Not smooth and cleanable	84	9.0
+Missing	10104
+
+
+239) DCQ400
+Interviewer observation: Room cleanliness
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1257	2.102	0.637
+1) Dirtier than average	197	15.7
+2) Average	735	58.5
+3) Cleaner than average	325	25.9
+Missing	9782
+
+
+240) DCQ410
+Interviewer observation: Room clutter
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1257	2.18	0.634
+1) Very cluttered (nothing in place)	160	12.7
+2) Average amount of clutter	711	56.6
+3) Organized (nothing out of place)	386	30.7
+Missing	9782
+
+
+241) LBXDFS
+Floor result in micrograms per square feet by graphite furnace atomic absorption spectrophotometric method.
+RANGE: 0.108888888888889 to 4.9
+	N	Mean	Std. Deviation
+Total	1203	0.721	0.833
+
+
+242) LBXDFSF
+Floor result in micrograms per square feet by graphite furnace atomic absorption spectrophotometric method. If the floor sample result by the GFAAS method is  greater than five then it is measured by the FAAS method. Only the FAAS method result is reported.
+RANGE: 4 to 36.2666666666667
+	N	Mean	Std. Deviation
+Total	53	11.792	7.248
+
+
+243) LBDDWS
+Window result in micrograms per square feet by flame atomic absorption spectrophotometric method.
+RANGE: 0.49 to 6867.6
+	N	Mean	Std. Deviation
+Total	935	53.217	294.059
+
+
+244) LBDDFSLC
+Lead dust floor (GFAAS) comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1203	0.152	0.359
+0) At or above limit of detection	1020	84.8
+1) Below limit of detection	183	15.2
+Missing	9836
+
+
+245) LBDD3LC
+Lead dust floor (FAAS) comment code
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	53	0	0
+0) At or above limit of detection	53	100.0
+Missing	10986
+
+
+246) LBDDWSLC
+Lead dust window sill comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	935	0.556	0.497
+0) At or above limit of detection	415	44.4
+1) Below limit of detection	520	55.6
+Missing	10104
+
+
+247) LBXWBCSI
+White blood cell count: SI
+RANGE: 2.26666666666667 to 36.6
+	N	Mean	Std. Deviation
+Total	8952	7.25	2.235
+
+
+248) LBXLYPCT
+Lymphocyte percent (%)
+RANGE: 4.56666666666667 to 78.9
+	N	Mean	Std. Deviation
+Total	8925	33.351	10.627
+
+
+249) LBXMOPCT
+Monocyte percent (%)
+RANGE: 1 to 33.2666666666667
+	N	Mean	Std. Deviation
+Total	8925	8.151	2.315
+
+
+250) LBXNEPCT
+Segmented neutrophils percent (%)
+RANGE: 7.26666666666667 to 90.0666666666667
+	N	Mean	Std. Deviation
+Total	8925	54.839	11.761
+
+
+251) LBXEOPCT
+Eosinophils percent (%)
+RANGE: 0 to 48
+	N	Mean	Std. Deviation
+Total	8925	3.006	2.517
+
+
+252) LBXBAPCT
+Basophils percent (%)
+RANGE: 0 to 11.5
+	N	Mean	Std. Deviation
+Total	8925	0.635	0.497
+
+
+253) LBDLYMNO
+Lymphocyte number
+RANGE: 0.4 to 28.8666666666667
+	N	Mean	Std. Deviation
+Total	8925	2.354	1.017
+
+
+254) LBDMONO
+Monocyte number
+RANGE: 0.1 to 4.5
+	N	Mean	Std. Deviation
+Total	8925	0.576	0.205
+0.1)	11	0.1
+0.2)	84	0.9
+0.3)	640	7.2
+0.4)	1667	18.7
+0.5)	2131	23.9
+0.6)	1800	20.2
+0.7)	1211	13.6
+0.8)	669	7.5
+0.9)	347	3.9
+1)	171	1.9
+1.1)	77	0.9
+1.16666666666667)	50	0.6
+1.3)	26	0.3
+1.36666666666667)	13	0.1
+1.5)	7	0.1
+1.6)	5	0.1
+1.7)	6	0.1
+1.9)	2	0.0
+2)	1	0.0
+2.1)	1	0.0
+2.36666666666667)	1	0.0
+2.6)	1	0.0
+2.7)	2	0.0
+3.6)	1	0.0
+4.5)	1	0.0
+Missing	2114
+
+
+255) LBDNENO
+Segmented neutrophils number
+RANGE: 0.5 to 17.8666666666667
+	N	Mean	Std. Deviation
+Total	8925	4.053	1.772
+
+
+256) LBDEONO
+Eosinophils number
+RANGE: 0 to 5.26666666666667
+	N	Mean	Std. Deviation
+Total	8925	0.215	0.198
+
+
+257) LBDBANO
+Basophils number
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	8925	0.036	0.059
+0)	5995	67.2
+0.1)	2785	31.2
+0.2)	87	1.0
+0.3)	32	0.4
+0.4)	11	0.1
+0.5)	8	0.1
+0.6)	1	0.0
+0.7)	2	0.0
+0.9)	2	0.0
+1)	2	0.0
+Missing	2114
+
+
+258) LBXRBCSI
+Red cell count SI
+RANGE: 1.71 to 9.16
+	N	Mean	Std. Deviation
+Total	8952	4.685	0.491
+
+
+259) LBXHGB
+Hemoglobin (g/dL)
+RANGE: 5.9 to 19.6666666666667
+	N	Mean	Std. Deviation
+Total	8952	13.882	1.54
+
+
+260) LBXHCT
+Hematocrit (%)
+RANGE: 16.3 to 59.8666666666667
+	N	Mean	Std. Deviation
+Total	8952	40.897	4.493
+
+
+261) LBXMCVSI
+Mean cell volume (fL) 
+RANGE: 56.3666666666667 to 120.2
+	N	Mean	Std. Deviation
+Total	8952	87.459	6.038
+
+
+262) LBXMCHSI
+Mean cell hemoglobin (pg)
+RANGE: 17 to 42.7666666666667
+	N	Mean	Std. Deviation
+Total	8952	29.699	2.298
+
+
+263) LBXMC
+Mean cell hemoglobin concentration (g/dL)
+RANGE: 27.8 to 44.8666666666667
+	N	Mean	Std. Deviation
+Total	8952	33.937	0.822
+
+
+264) LBXRDW
+Red cell distribution width (%)
+RANGE: 10.5 to 31.6
+	N	Mean	Std. Deviation
+Total	8952	12.667	1.14
+
+
+265) LBXPLTSI
+Platelet count (%)
+RANGE: 12 to 999.866666666667
+	N	Mean	Std. Deviation
+Total	8951	289.715	77.106
+
+
+266) LBXMPSI
+Mean platelet volume (fL)
+RANGE: 5.26666666666667 to 13.5
+	N	Mean	Std. Deviation
+Total	8951	8.12	0.911
+
+
+267) WTSPP2YR
+Pesticides subsample two-year MEC Weight (Frequencies not displayed for this variable.)
+RANGE: 0 to 663502.47832293
+	N	Mean	Std. Deviation
+Total	3152	81426.545	79647.181
+
+
+268) WTSPP4YR
+Pesticides subsample four-year MEC Weight (Frequencies not displayed for this variable.)
+RANGE: 0 to 343500.60404276
+	N	Mean	Std. Deviation
+Total	3152	37935.855	45742.443
+
+
+269) URXDCB
+2,4-dichlorophenol (ug/L) result
+RANGE: 0.21 to 1702.05888888889
+	N	Mean	Std. Deviation
+Total	2994	9.68	54.538
+
+
+270) URDDCBLC
+2,4-dichlorophenol comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2994	0.515	0.5
+0)	1451	48.5
+1)	1543	51.5
+Missing	8045
+
+
+271) URX1TB
+2,4,5-trichlorophenol (ug/L) result
+RANGE: 0.64 to 260.648888888889
+	N	Mean	Std. Deviation
+Total	2987	1.951	10.4
+
+
+272) URD1TBLC
+2,4,5-tricholorophenol comment code\V
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2987	0.94	0.238
+0) Detectable result	180	6.0
+1) Below detectable limit	2807	94.0
+Missing	8052
+
+
+273) URX24D
+2,4-D (ug/L) result
+RANGE: 0.14 to 41.8988888888889
+	N	Mean	Std. Deviation
+Total	2903	0.357	1.087
+
+
+274) URD24DLC
+2,4-D comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2903	0.721	0.449
+0) Detectable result	811	27.9
+1) Below detectable limit	2092	72.1
+Missing	8136
+
+
+275) URX25T
+2,4,5-T (ug/L) result
+RANGE: 0.07 to 0.22
+	N	Mean	Std. Deviation
+Total	3047	0.07	0.003
+0.07)	3045	99.9
+0.13)	1	0.0
+0.22)	1	0.0
+Missing	7992
+
+
+276) URD25TLC
+2,4,5-T comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	3047	0.999	0.026
+0) Detectable result	2	0.1
+1) Below detectable limit	3045	99.9
+Missing	7992
+
+
+277) URX3TB
+2,4,6-trichlorophenol (ug/L) result
+RANGE: 0.92 to 102.438888888889
+	N	Mean	Std. Deviation
+Total	2994	5.007	7.72
+
+
+278) URD3TBLC
+2,4,6-trichlorophenol comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2994	0.425	0.494
+0) Detectable result	1721	57.5
+1) Below detectable limit	1273	42.5
+Missing	8045
+
+
+279) URXATZ
+Atrazine mercapturate (ug/L) result
+RANGE: 0.21 to 8.16888888888889
+	N	Mean	Std. Deviation
+Total	2972	0.214	0.148
+0.21)	2959	99.6
+0.3)	1	0.0
+0.33)	1	0.0
+0.34)	1	0.0
+0.36)	1	0.0
+0.38)	1	0.0
+0.39)	1	0.0
+0.44)	1	0.0
+0.46)	1	0.0
+0.49)	1	0.0
+0.8)	1	0.0
+1.02)	1	0.0
+1.13888888888889)	1	0.0
+8.16888888888889)	1	0.0
+Missing	8067
+
+
+280) URDATZLC
+Atrazine mercapturate comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2972	0.996	0.066
+0) Detectable result	13	0.4
+1) Below detectable limit	2959	99.6
+Missing	8067
+
+
+281) URXCBF
+Carbofuran phenol (ug/L) result
+RANGE: 0.28 to 57.5388888888889
+	N	Mean	Std. Deviation
+Total	3030	0.304	1.044
+0.28)	3015	99.5
+0.46)	1	0.0
+0.71)	1	0.0
+0.84)	1	0.0
+0.94)	1	0.0
+0.97)	1	0.0
+0.98)	1	0.0
+1)	1	0.0
+1.19888888888889)	1	0.0
+1.3)	1	0.0
+1.43)	1	0.0
+1.55)	1	0.0
+2.04888888888889)	1	0.0
+2.52)	1	0.0
+3.25)	1	0.0
+57.5388888888889)	1	0.0
+Missing	8009
+
+
+282) URDCBFLC
+Carbofuran phenol comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	3030	0.995	0.07
+0) Detectable result	15	0.5
+1) Below detectable limit	3015	99.5
+Missing	8009
+
+
+283) URXDEE
+DEET (ug/L)
+RANGE: 0.07 to 57.34
+	N	Mean	Std. Deviation
+Total	3044	0.122	1.082
+
+
+284) URDDEELC
+DEET comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	3044	0.869	0.338
+0) Detectable result	400	13.1
+1) Below detectable limit	2644	86.9
+Missing	7995
+
+
+285) URXCPM
+3,5,6-trichloropyridinol (ug/L) result
+RANGE: 0.28 to 79.59
+	N	Mean	Std. Deviation
+Total	3011	4.281	6.064
+
+
+286) URDCPMLC
+3,5,6-trichloropyridinol comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	3011	0.214	0.41
+0) Detectable result	2368	78.6
+1) Below detectable limit	643	21.4
+Missing	8028
+
+
+287) URXDIZ
+Oxypyrimidine (ug/L) result
+RANGE: 0.49 to 145.218888888889
+	N	Mean	Std. Deviation
+Total	3044	0.727	3.039
+
+
+288) URDDIZLC
+Oxypyrimidine comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	3044	0.954	0.21
+0) Detectable result	140	4.6
+1) Below detectable limit	2904	95.4
+Missing	7995
+
+
+289) URXPAR
+Para-nitrophenol (ug/L) result
+RANGE: 0.07 to 59.89
+	N	Mean	Std. Deviation
+Total	2975	1.163	2.348
+
+
+290) URDPARLC
+Para-nitrophenol comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2975	0.469	0.499
+0) Detectable result	1580	53.1
+1) Below detectable limit	1395	46.9
+Missing	8064
+
+
+291) URXPCP
+Pentachlorophenol (ug/L) result
+RANGE: 0.35 to 325.188888888889
+	N	Mean	Std. Deviation
+Total	3028	0.95	6.66
+
+
+292) URDPCPLC
+Pentachlorophenol comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	3028	0.808	0.394
+0) Detectable result	582	19.2
+1) Below detectable limit	2446	80.8
+Missing	8011
+
+
+293) URXPPX
+2-isopropoxyphenol (ug/L) result
+RANGE: 0.28 to 8.84888888888889
+	N	Mean	Std. Deviation
+Total	2994	0.288	0.19
+0.28)	2984	99.7
+0.47)	1	0.0
+0.87)	1	0.0
+1.29)	1	0.0
+1.55)	1	0.0
+1.92)	1	0.0
+1.96)	1	0.0
+2.27)	1	0.0
+3.56)	1	0.0
+3.62)	1	0.0
+8.84888888888889)	1	0.0
+Missing	8045
+
+
+294) URDPPXLC
+2-isopropoxyphenol comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2994	0.997	0.058
+0) Detectable result	10	0.3
+1) Below detectable limit	2984	99.7
+Missing	8045
+
+
+295) URXOPP
+O-Phenyl phenol (ug/L) result
+RANGE: 0.21 to 80.7688888888889
+	N	Mean	Std. Deviation
+Total	3029	0.56	2.291
+
+
+296) URDOPPLC
+O-Phenyl phenol comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	3029	0.815	0.388
+0) Detectable result	559	18.5
+1) Below detectable limit	2470	81.5
+Missing	8010
+
+
+297) URXOP1
+Dimethylphosphate (ug/L) result
+RANGE: 0.35 to 516.7
+	N	Mean	Std. Deviation
+Total	3017	3.966	13.288
+
+
+298) URXOP2
+Diethylphosphate (ug/L) result
+RANGE: 0.14 to 1344.60888888889
+	N	Mean	Std. Deviation
+Total	3018	3.826	30.858
+
+
+299) URXOP3
+Dimethylthiophosphate (ug/L) result
+RANGE: 0.28 to 3378.55
+	N	Mean	Std. Deviation
+Total	3016	8.929	66.477
+
+
+300) URXOP4
+Diethythiophosphate (ug/L) result
+RANGE: 0.07 to 205.78
+	N	Mean	Std. Deviation
+Total	3016	1.507	5.171
+
+
+301) URXOP5
+Dimethyldithiophosphate (ug/L) result
+RANGE: 0.07 to 496.628888888889
+	N	Mean	Std. Deviation
+Total	3015	1.548	10.43
+
+
+302) URXOP6
+Diethyldithiophosphate (ug/L) result
+RANGE: 0.07 to 16.39
+	N	Mean	Std. Deviation
+Total	3013	0.234	0.571
+
+
+303) URX4FP
+4-fluoro-3-phenoxybenzoic (ug/L) acid
+RANGE: 0.14 to 20.3588888888889
+	N	Mean	Std. Deviation
+Total	3048	0.156	0.512
+0.14)	3033	99.5
+0.28)	1	0.0
+0.32)	1	0.0
+0.35)	1	0.0
+0.37)	1	0.0
+0.41)	1	0.0
+0.42)	1	0.0
+0.47)	1	0.0
+0.5)	2	0.1
+0.77)	1	0.0
+1.17888888888889)	1	0.0
+1.5)	1	0.0
+5.59888888888889)	1	0.0
+19.0188888888889)	1	0.0
+20.3588888888889)	1	0.0
+Missing	7991
+
+
+304) URD4FPLC
+Fluoro-phenoxybenzoic acid code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	3048	0.995	0.07
+0) Detectable result	15	0.5
+1) Below detectable limit	3033	99.5
+Missing	7991
+
+
+305) URXCB3
+Cis-3-(2,2-dibromovinyl)-2,2-dimethylcyclopropane carboxylic acid (ug/L)
+RANGE: 0.07 to 11.5988888888889
+	N	Mean	Std. Deviation
+Total	3048	0.08	0.226
+0.07)	3021	99.1
+0.108888888888889)	2	0.1
+0.14)	1	0.0
+0.15)	1	0.0
+0.25)	1	0.0
+0.26)	3	0.1
+0.35)	1	0.0
+0.36)	1	0.0
+0.37)	1	0.0
+0.47)	1	0.0
+0.52)	1	0.0
+0.63)	1	0.0
+0.64)	3	0.1
+0.84)	1	0.0
+0.89)	1	0.0
+1.04)	1	0.0
+1.12)	1	0.0
+1.3)	1	0.0
+1.6)	1	0.0
+1.82)	1	0.0
+2.35)	1	0.0
+2.45)	1	0.0
+11.5988888888889)	1	0.0
+Missing	7991
+
+
+306) URDCB3LC
+Dibromovinyl-dimeth prop carboacid code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	3048	0.991	0.094
+0) Detectable result	27	0.9
+1) Below detectable limit	3021	99.1
+Missing	7991
+
+
+307) URXCCC
+Cis-3-(2,2-dichlorovinyl)-2,2-dimethylcyclopropane carboxylic acid (ug/L)
+RANGE: 0.07 to 222.688888888889
+	N	Mean	Std. Deviation
+Total	3048	0.406	4.373
+
+
+308) URDCCCLC
+Dichloroviny-dimeth prop carboacid code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	3048	0.667	0.471
+0) Detectable result	1014	33.3
+1) Below detectable limit	2034	66.7
+Missing	7991
+
+
+309) URXCMH
+2-chloro-7-hydroxy-4-methyl-2H-chromen-2-one/ol (ug/L)
+RANGE: 0.14 to 74.9888888888889
+	N	Mean	Std. Deviation
+Total	2975	0.17	1.373
+0.14)	2858	96.1
+0.2)	12	0.4
+0.21)	17	0.6
+0.22)	14	0.5
+0.23)	9	0.3
+0.24)	8	0.3
+0.25)	8	0.3
+0.26)	7	0.2
+0.27)	9	0.3
+0.29)	6	0.2
+0.3)	2	0.1
+0.32)	2	0.1
+0.33)	2	0.1
+0.34)	3	0.1
+0.35)	1	0.0
+0.36)	4	0.1
+0.38)	1	0.0
+0.39)	1	0.0
+0.4)	1	0.0
+0.43)	1	0.0
+0.44)	1	0.0
+0.46)	1	0.0
+0.47)	2	0.1
+0.48)	1	0.0
+0.49)	1	0.0
+0.51)	1	0.0
+0.82)	1	0.0
+74.9888888888889)	1	0.0
+Missing	8064
+
+
+310) URDCMHLC
+Chloro-hydro-meth-chromen-one/ol
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2975	0.961	0.194
+0) Detectable result	117	3.9
+1) Below detectable limit	2858	96.1
+Missing	8064
+
+
+311) URXDPY
+2-(diethylamino)-6-methylpyrimidin-4-ol/one (ug/L)
+RANGE: 0.14 to 599.918888888889
+	N	Mean	Std. Deviation
+Total	2981	0.542	11.414
+
+
+312) URDDPYLC
+Diethamino-methpyrimidin-ol/one code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2981	0.931	0.254
+0) Detectable result	207	6.9
+1) Below detectable limit	2774	93.1
+Missing	8058
+
+
+313) URXMET
+Metolachlor mercapturate (ug/L) result
+RANGE: 0.14 to 0.49
+	N	Mean	Std. Deviation
+Total	3047	0.143	0.017
+0.14)	2946	96.7
+0.2)	29	1.0
+0.21)	35	1.1
+0.22)	5	0.2
+0.23)	3	0.1
+0.24)	7	0.2
+0.25)	14	0.5
+0.26)	4	0.1
+0.27)	1	0.0
+0.33)	1	0.0
+0.44)	1	0.0
+0.49)	1	0.0
+Missing	7992
+
+
+314) URDMETLC
+Metoachlor mercapturate comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	3047	0.967	0.179
+0) Detectable result	101	3.3
+1) Below detectable limit	2946	96.7
+Missing	7992
+
+
+315) URXOPM
+3-phenoxybenzoic (ug/L) acid result
+RANGE: 0.07 to 999.61
+	N	Mean	Std. Deviation
+Total	3048	1.549	19.311
+
+
+316) URSOPMLC
+3-phenoxybenzoic acid comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	3048	0.226	0.418
+0) Detectable result	2359	77.4
+1) Below detectable limit	689	22.6
+Missing	7991
+
+
+317) URXTCC
+Trans-3-(2,2-dichlorovinyl)-2,2-dimethylcyclopropane carboxylic acid (ug/L)
+RANGE: 0.28 to 175.71
+	N	Mean	Std. Deviation
+Total	3033	0.904	4.593
+
+
+318) URDTCCLC
+Dichlorovnl-dimeth prop carboacid code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	3033	0.714	0.452
+0) Detectable result	867	28.6
+1) Below detectable limit	2166	71.4
+Missing	8006
+
+
+319) URXACE
+Acetochlor mercapturate
+RANGE: 0.07 to 5.24
+	N	Mean	Std. Deviation
+Total	3008	0.073	0.095
+0.07)	2941	97.8
+0.1)	14	0.5
+0.108888888888889)	6	0.2
+0.12)	2	0.1
+0.13)	6	0.2
+0.14)	12	0.4
+0.15)	10	0.3
+0.16)	8	0.3
+0.18)	2	0.1
+0.19)	2	0.1
+0.2)	1	0.0
+0.21)	1	0.0
+0.23)	1	0.0
+0.33)	1	0.0
+5.24)	1	0.0
+Missing	8031
+
+
+320) URDACELC
+Achetochlor mercapturate comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	3008	0.978	0.148
+0) Detectable result	67	2.2
+1) Below detectable limit	2941	97.8
+Missing	8031
+
+
+321) WTSPO2YR
+Dioxins subsample two-year MEC weight
+RANGE: 0 to 663502.47832293
+	N	Mean	Std. Deviation
+Total	2547	91065.151	83773.943
+
+
+322) WTSPO4YR
+Dioxins subsample four-year MEC weight
+RANGE: 0 to 332972.39067037
+	N	Mean	Std. Deviation
+Total	2547	50740.903	46614.859
+
+
+323) LBX052
+PCB52 (ng/g)
+RANGE: 0.042 to 0.281
+	N	Mean	Std. Deviation
+Total	1537	0.052	0.021
+
+
+324) LBX052LA
+PCB52 lipid adjusted
+RANGE: 1 to 64.7666666666667
+	N	Mean	Std. Deviation
+Total	1537	8.237	4.505
+
+
+325) LBD052LC
+PCB52 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1537	0.884	0.321
+0) Detectable result	179	11.6
+1) Below detectable limit	1358	88.4
+Missing	9502
+
+
+326) LBX066
+PCB66 (ng/g)
+RANGE: 0.029962962962963 to 0.239
+	N	Mean	Std. Deviation
+Total	2250	0.035	0.015
+
+
+327) LBX066LA
+PCB66 lipid adjusted
+RANGE: 1.16666666666667 to 44
+	N	Mean	Std. Deviation
+Total	2250	6.084	2.772
+
+
+328) LBD066LC
+PCB66 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2250	0.908	0.289
+0) Detectable result	207	9.2
+1) Below detectable limit	2043	90.8
+Missing	8789
+
+
+329) LBX074
+PCB74 (ng/g)
+RANGE: 0.019962962962963 to 0.892
+	N	Mean	Std. Deviation
+Total	2307	0.066	0.082
+
+
+330) LBX074LA
+PCB74 lipid adjusted
+RANGE: 1.1 to 144
+	N	Mean	Std. Deviation
+Total	2307	10.526	12.115
+
+
+331) LBD074LC
+PCB74 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2307	0.482	0.5
+0) Detectable result	1194	51.8
+1) Below detectable limit	1113	48.2
+Missing	8732
+
+
+332) LBX087
+PCB87 (ng/g)
+RANGE: 0.018962962962963 to 0.076962962962963
+	N	Mean	Std. Deviation
+Total	2298	0.021	0.002
+
+
+333) LBX087LA
+PCB87 lipid adjusted
+RANGE: 0.4 to 14.6666666666667
+	N	Mean	Std. Deviation
+Total	2298	3.721	0.949
+
+
+334) LBD087LC
+PCB87 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2298	0.997	0.059
+0) Detectable result	8	0.3
+1) Below detectable limit	2290	99.7
+Missing	8741
+
+
+335) LBX099
+PCB99 (ng/g)
+RANGE: 0.019962962962963 to 0.646
+	N	Mean	Std. Deviation
+Total	2281	0.052	0.061
+
+
+336) LBX099LA
+PCB99 lipid adjusted
+RANGE: 1.6 to 123
+	N	Mean	Std. Deviation
+Total	2281	8.374	8.926
+
+
+337) LBD099LC
+PCB99 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2281	0.553	0.497
+0) Detectable result	1020	44.7
+1) Below detectable limit	1261	55.3
+Missing	8758
+
+
+338) LBX101
+PCB101 (ng/g)
+RANGE: 0.018962962962963 to 0.169
+	N	Mean	Std. Deviation
+Total	2307	0.022	0.005
+
+
+339) LBX101LA
+PCB101 lipid adjusted
+RANGE: 0.4 to 32.2666666666667
+	N	Mean	Std. Deviation
+Total	2307	3.82	1.281
+
+
+340) LBD101LC
+PCB101 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2307	0.969	0.173
+0) Detectable result	71	3.1
+1) Below detectable limit	2236	96.9
+Missing	8732
+
+
+341) LBX105
+PCB105 (ng/g)
+RANGE: 0.019962962962963 to 1.00096296296296
+	N	Mean	Std. Deviation
+Total	2307	0.028	0.03
+
+
+342) LBX105LA
+PCB105 lipid adjusted
+RANGE: 1.1 to 96
+	N	Mean	Std. Deviation
+Total	2307	4.62	3.589
+
+
+343) LBD105LC
+PCB105 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2307	0.851	0.356
+0) Detectable result	343	14.9
+1) Below detectable limit	1964	85.1
+Missing	8732
+
+
+344) LBX110
+PCB110 (ng/g)
+RANGE: 0.018962962962963 to 0.131
+	N	Mean	Std. Deviation
+Total	2298	0.021	0.004
+
+
+345) LBX110LA
+PCB110 lipid adjusted
+RANGE: 0.4 to 25
+	N	Mean	Std. Deviation
+Total	2298	3.751	1.083
+
+
+346) LBD110LC
+PCB110 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2298	0.989	0.104
+0) Detectable result	25	1.1
+1) Below detectable limit	2273	98.9
+Missing	8741
+
+
+347) LBX118
+PCB118 (ng/g)
+RANGE: 0.019962962962963 to 2.895
+	N	Mean	Std. Deviation
+Total	2307	0.083	0.14
+
+
+348) LBX118LA
+PCB118 lipid adjusted
+RANGE: 1.6 to 319
+	N	Mean	Std. Deviation
+Total	2307	12.94	18.795
+
+
+349) LBD118LC
+PCB118 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2307	0.46	0.498
+0) Detectable result	1246	54.0
+1) Below detectable limit	1061	46.0
+Missing	8732
+
+
+350) LBX128
+PCB128 (ng/g)
+RANGE: 0.018962962962963 to 0.138
+	N	Mean	Std. Deviation
+Total	2298	0.021	0.003
+
+
+351) LBX128LA
+PCB128 lipid adjusted
+RANGE: 0.4 to 22.5
+	N	Mean	Std. Deviation
+Total	2298	3.721	0.992
+
+
+352) LBD128LC
+PCB128 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2298	0.998	0.047
+0) Detectable result	5	0.2
+1) Below detectable limit	2293	99.8
+Missing	8741
+
+
+353) LBX138
+PCB138 (ng/g)
+RANGE: 0.020962962962963 to 4.00996296296296
+	N	Mean	Std. Deviation
+Total	2293	0.185	0.255
+
+
+354) LBX138LA
+PCB138 lipid adjusted
+RANGE: 2.1 to 487
+	N	Mean	Std. Deviation
+Total	2293	28.836	36.488
+
+
+355) LBD138LC
+PCB138 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2293	0.206	0.405
+0) Detectable result	1820	79.4
+1) Below detectable limit	473	20.6
+Missing	8746
+
+
+356) LBX146
+PCB146 (ng/g)
+RANGE: 0.019962962962963 to 0.692
+	N	Mean	Std. Deviation
+Total	2299	0.038	0.042
+
+
+357) LBX146LA
+PCB146 lipid adjusted
+RANGE: 1.1 to 116
+	N	Mean	Std. Deviation
+Total	2299	6.272	6.087
+
+
+358) LBD146LC
+PCB146 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2299	0.675	0.469
+0) Detectable result	748	32.5
+1) Below detectable limit	1551	67.5
+Missing	8740
+
+
+359) LBX149
+PCB149 (ng/g)
+RANGE: 0.018962962962963 to 0.076962962962963
+	N	Mean	Std. Deviation
+Total	2307	0.021	0.002
+
+
+360) LBX149LA
+PCB149 lipid adjusted
+RANGE: 0.4 to 13.1666666666667
+	N	Mean	Std. Deviation
+Total	2307	3.718	0.945
+
+
+361) LBD149LC
+PCB149 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2307	0.997	0.055
+0) Detectable result	7	0.3
+1) Below detectable limit	2300	99.7
+Missing	8732
+
+
+362) LBX151
+PCB151 (ng/g)
+RANGE: 0.018962962962963 to 0.139
+	N	Mean	Std. Deviation
+Total	2307	0.021	0.003
+
+
+363) LBX151LA
+PCB151 lipid adjusted
+RANGE: 0.4 to 23.8666666666667
+	N	Mean	Std. Deviation
+Total	2307	3.725	1.018
+
+
+364) LBD151LC
+PCB151 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2307	0.996	0.066
+0) Detectable result	10	0.4
+1) Below detectable limit	2297	99.6
+Missing	8732
+
+
+365) LBX153
+PCB153 (ng/g)
+RANGE: 0.020962962962963 to 5.25696296296296
+	N	Mean	Std. Deviation
+Total	2306	0.253	0.338
+
+
+366) LBX153LA
+PCB153 lipid adjusted
+RANGE: 1.6 to 708
+	N	Mean	Std. Deviation
+Total	2306	39.473	49.766
+
+
+367) LBD153LC
+PCB153 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2306	0.156	0.363
+0) Detectable result	1947	84.4
+1) Below detectable limit	359	15.6
+Missing	8733
+
+
+368) LBX156
+PCB156 (ng/g)
+RANGE: 0.019962962962963 to 1.02896296296296
+	N	Mean	Std. Deviation
+Total	2296	0.043	0.047
+
+
+369) LBX156LA
+PCB156 lipid adjusted
+RANGE: 1.1 to 92.2666666666667
+	N	Mean	Std. Deviation
+Total	2296	6.992	6.301
+
+
+370) LBD156LC
+PCB156 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2296	0.626	0.484
+0) Detectable result	858	37.4
+1) Below detectable limit	1438	62.6
+Missing	8743
+
+
+371) LBX157
+PCB157 (ng/g)
+RANGE: 0.019962962962963 to 0.196
+	N	Mean	Std. Deviation
+Total	2294	0.022	0.007
+
+
+372) LBX157LA
+PCB157 lipid adjusted
+RANGE: 0.6 to 22.6666666666667
+	N	Mean	Std. Deviation
+Total	2294	3.875	1.232
+
+
+373) LBD157LC
+PCB157 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2294	0.948	0.222
+0) Detectable result	119	5.2
+1) Below detectable limit	2175	94.8
+Missing	8745
+
+
+374) LBX167
+PCB167 (ng/g)
+RANGE: 0.019962962962963 to 0.295
+	N	Mean	Std. Deviation
+Total	2298	0.023	0.011
+
+
+375) LBX167LA
+PCB167 lipid adjusted
+RANGE: 0.9 to 34.6
+	N	Mean	Std. Deviation
+Total	2298	4.012	1.644
+
+
+376) LBD167LC
+PCB167 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2298	0.925	0.263
+0) Detectable result	172	7.5
+1) Below detectable limit	2126	92.5
+Missing	8741
+
+
+377) LBX170
+PCB170 (ng/g)
+RANGE: 0.019962962962963 to 1.738
+	N	Mean	Std. Deviation
+Total	2301	0.078	0.095
+
+
+378) LBX170LA
+PCB170 lipid adjusted
+RANGE: 1.6 to 167
+	N	Mean	Std. Deviation
+Total	2301	12.324	13.594
+
+
+379) LBD170LC
+PCB170 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2301	0.471	0.499
+0) Detectable result	1218	52.9
+1) Below detectable limit	1083	47.1
+Missing	8738
+
+
+380) LBX172
+PCB172 (ng/g)
+RANGE: 0.019962962962963 to 0.431
+	N	Mean	Std. Deviation
+Total	2199	0.025	0.017
+
+
+381) LBX172LA
+PCB172 lipid adjusted
+RANGE: 1.1 to 31.6
+	N	Mean	Std. Deviation
+Total	2199	4.286	2.31
+
+
+382) LBD172LC
+PCB172 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2199	0.883	0.322
+0) Detectable result	258	11.7
+1) Below detectable limit	1941	88.3
+Missing	8840
+
+
+383) LBX177
+PCB177 (ng/g)
+RANGE: 0.019962962962963 to 0.264
+	N	Mean	Std. Deviation
+Total	2287	0.025	0.013
+
+
+384) LBX177LA
+PCB177 lipid adjusted
+RANGE: 1.1 to 27.3
+	N	Mean	Std. Deviation
+Total	2287	4.252	1.979
+
+
+385) LBD177LC
+PCB177 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2287	0.875	0.331
+0) Detectable result	287	12.5
+1) Below detectable limit	2000	87.5
+Missing	8752
+
+
+386) LBX178
+PCB178 (ng/g)
+RANGE: 0.019962962962963 to 0.313
+	N	Mean	Std. Deviation
+Total	2299	0.025	0.015
+
+
+387) LBX178LA
+PCB178 lipid adjusted
+RANGE: 0.6 to 46.7666666666667
+	N	Mean	Std. Deviation
+Total	2299	4.311	2.247
+
+
+388) LBD178LC
+PCB178 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2299	0.863	0.343
+0) Detectable result	314	13.7
+1) Below detectable limit	1985	86.3
+Missing	8740
+
+
+389) LBX180
+PCB180 (ng/g)
+RANGE: 0.019962962962963 to 3.64696296296296
+	N	Mean	Std. Deviation
+Total	2302	0.184	0.249
+
+
+390) LBX180LA
+PCB180 lipid adjusted
+RANGE: 1.6 to 572
+	N	Mean	Std. Deviation
+Total	2302	28.876	38.344
+
+
+391) LBD180LC
+PCB180 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2302	0.309	0.462
+0) Detectable result	1591	69.1
+1) Below detectable limit	711	30.9
+Missing	8737
+
+
+392) LBX183
+PCB183 (ng/g)
+RANGE: 0.019962962962963 to 0.325
+	N	Mean	Std. Deviation
+Total	2306	0.029	0.02
+
+
+393) LBX183LA
+PCB183 lipid adjusted
+RANGE: 1.1 to 32.7666666666667
+	N	Mean	Std. Deviation
+Total	2306	4.832	2.897
+
+
+394) LBD183LC
+PCB183 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2306	0.783	0.412
+0) Detectable result	500	21.7
+1) Below detectable limit	1806	78.3
+Missing	8733
+
+
+395) LBX187
+PCB187 (ng/g)
+RANGE: 0.019962962962963 to 1.15596296296296
+	N	Mean	Std. Deviation
+Total	2307	0.063	0.079
+
+
+396) LBX187LA
+PCB187 lipid adjusted
+RANGE: 1.1 to 145
+	N	Mean	Std. Deviation
+Total	2307	10.036	11.783
+
+
+397) LBD187LC
+PCB187 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2307	0.541	0.498
+0) Detectable result	1059	45.9
+1) Below detectable limit	1248	54.1
+Missing	8732
+
+
+398) LBX189
+PCB189 (ng/g)
+RANGE: 0.018962962962963 to 0.081
+	N	Mean	Std. Deviation
+Total	2298	0.021	0.002
+
+
+399) LBX189LA
+PCB189 lipid adjusted
+RANGE: 0.4 to 8
+	N	Mean	Std. Deviation
+Total	2298	3.711	0.913
+
+
+400) LBD189LC
+PCB189 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2298	0.997	0.051
+0) Detectable result	6	0.3
+1) Below detectable limit	2292	99.7
+Missing	8741
+
+
+401) LBX194
+PCB194 (ng/g)
+RANGE: 0.019962962962963 to 1.06296296296296
+	N	Mean	Std. Deviation
+Total	2279	0.055	0.065
+
+
+402) LBX194LA
+PCB194 lipid adjusted
+RANGE: 1.1 to 187
+	N	Mean	Std. Deviation
+Total	2279	8.78	9.818
+
+
+403) LBD194LC
+PCB194 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2279	0.577	0.494
+0) Detectable result	963	42.3
+1) Below detectable limit	1316	57.7
+Missing	8760
+
+
+404) LBX195
+PCB195 (ng/g)
+RANGE: 0.063962962962963 to 0.226
+	N	Mean	Std. Deviation
+Total	2230	0.07	0.005
+
+
+405) LBX195LA
+PCB195 lipid adjusted
+RANGE: 1.5 to 26.1666666666667
+	N	Mean	Std. Deviation
+Total	2230	12.236	2.861
+
+
+406) LBD195LC
+PCB105 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2230	0.999	0.037
+0) Detectable result	3	0.1
+1) Below detectable limit	2227	99.9
+Missing	8809
+
+
+407) LBX196
+PCB196 (ng/g)
+RANGE: 0.019962962962963 to 0.503
+	N	Mean	Std. Deviation
+Total	2299	0.045	0.046
+
+
+408) LBX196LA
+PCB196 lipid adjusted
+RANGE: 1.1 to 96.0666666666667
+	N	Mean	Std. Deviation
+Total	2299	7.267	6.957
+
+
+409) LBD196LC
+PCB196 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2299	0.622	0.485
+0) Detectable result	870	37.8
+1) Below detectable limit	1429	62.2
+Missing	8740
+
+
+410) LBX199
+PCB199 (ng/g)
+RANGE: 0.019962962962963 to 0.846
+	N	Mean	Std. Deviation
+Total	2292	0.052	0.062
+
+
+411) LBX199LA
+PCB199 lipid adjusted
+RANGE: 1.1 to 162
+	N	Mean	Std. Deviation
+Total	2292	8.359	9.696
+
+
+412) LBD199LC
+PCB199 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2292	0.597	0.491
+0) Detectable result	923	40.3
+1) Below detectable limit	1369	59.7
+Missing	8747
+
+
+413) LBX206
+PCB206 (ng/g)
+RANGE: 0.065962962962963 to 0.666
+	N	Mean	Std. Deviation
+Total	2208	0.078	0.034
+
+
+414) LBX206LA
+PCB206 lipid adjusted
+RANGE: 2.2 to 79.2
+	N	Mean	Std. Deviation
+Total	2208	13.313	5.423
+
+
+415) LBD206LC
+PCB206 comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2208	0.921	0.27
+0) Detectable result	175	7.9
+1) Below detectable limit	2033	92.1
+Missing	8831
+
+
+416) LBXD01
+1,2,3,7,8-Pentachlorodibenzo-p-dioxin (pncdd) (fg/g)
+RANGE: 5.37 to 579.6
+	N	Mean	Std. Deviation
+Total	1236	35.917	46.57
+
+
+417) LBXD01LA
+1,2,3,7,8-Pentachlorodibenzo-p-dioxin (pncdd) lipid adjusted
+RANGE: 0.7 to 50.7666666666667
+	N	Mean	Std. Deviation
+Total	1236	5.297	6.273
+
+
+418) LBDD01LC
+1,2,3,7,8-Pentachlorodibenzo-p-dioxin (pncdd) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1236	0.664	0.472
+0) Detectable result	415	33.6
+1) Below detectable limit	821	66.4
+Missing	9803
+
+
+419) LBXD02
+1,2,3,4,7,8-Hexachlorodibenzo-p-dioxin (hxcdd) (fg/g)
+RANGE: 8.26888888888889 to 463.3
+	N	Mean	Std. Deviation
+Total	1239	39.525	43.976
+
+
+420) LBXD02LA
+1,2,3,4,7,8-Hexachlorodibenzo-p-dioxin (hxcdd) lipid adjusted
+RANGE: 0.9 to 61.5
+	N	Mean	Std. Deviation
+Total	1239	5.908	6.041
+
+
+421) LBDD02LC
+1,2,3,4,7,8-Hexachlorodibenzo-p-dioxin (hxcdd) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1239	0.659	0.474
+0) Detectable result	422	34.1
+1) Below detectable limit	817	65.9
+Missing	9800
+
+
+422) LBXD03
+1,2,3,6,7,8-Hexachlorodibenzo-p-dioxin (hxcdd) (fg/g)
+RANGE: 10.6788888888889 to 4108.69888888889
+	N	Mean	Std. Deviation
+Total	1234	348.296	323.513
+
+
+423) LBXD03LA
+1,2,3,6,7,8-Hexachlorodibenzo-p-dioxin (hxcdd) lipid adjusted
+RANGE: 1.36666666666667 to 314
+	N	Mean	Std. Deviation
+Total	1234	52.011	44.525
+
+
+424) LBDD03LC
+1,2,3,6,7,8-Hexachlorodibenzo-p-dioxin (hxcdd) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1234	0.071	0.256
+0) Detectable result	1147	92.9
+1) Below detectable limit	87	7.1
+Missing	9805
+
+
+425) LBXD04
+1,2,3,7,8,9-Hexachlorodibenzo-p-dioxin (hxcdd) (fg/g)
+RANGE: 8.41 to 424.198888888889
+	N	Mean	Std. Deviation
+Total	1238	44.996	46.133
+
+
+426) LBXD04LA
+1,2,3,7,8,9-Hexachlorodibenzo-p-dioxin (hxcdd) lipid adjusted
+RANGE: 0.9 to 55.2
+	N	Mean	Std. Deviation
+Total	1238	6.717	6.319
+
+
+427) LBDD04LC
+1,2,3,7,8,9-Hexachlorodibenzo-p-dioxin (hxcdd) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1238	0.586	0.493
+0) Detectable result	513	41.4
+1) Below detectable limit	725	58.6
+Missing	9801
+
+
+428) LBXD05
+1,2,3,4,6,7,8-Heptachlororodibenzo-p-dioxin (hpcdd) (fg/g)
+RANGE: 13.65 to 5396.69888888889
+	N	Mean	Std. Deviation
+Total	1220	407.67	432.568
+
+
+429) LBXD05LA
+1,2,3,4,6,7,8-Heptachlororodibenzo-p-dioxin (hpcdd) lipid adjusted
+RANGE: 1.9 to 799
+	N	Mean	Std. Deviation
+Total	1220	61.186	62.767
+
+
+430) LBDD05LC
+1,2,3,4,6,7,8-Heptachlororodibenzo-p-dioxin (hpcdd) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1220	0.014	0.117
+0) Detectable result	1203	98.6
+1) Below detectable limit	17	1.4
+Missing	9819
+
+
+431) LBXD07
+1,2,3,4,6,7,8,9-Octachlorodibenzo-p-dioxin (ocdd) (fg/g)
+RANGE: 279.8 to 54609.5988888889
+	N	Mean	Std. Deviation
+Total	1171	3444.428	3658.124
+
+
+432) LBXD07LA
+1,2,3,4,6,7,8,9-Octachlorodibenzo-p-dioxin (ocdd) lipid adjusted
+RANGE: 36.7666666666667 to 8190
+	N	Mean	Std. Deviation
+Total	1171	517.747	531.625
+
+
+433) LBDD07LC
+1,2,3,4,6,7,8,9-Octachlorodibenzo-p-dioxin (ocdd) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1171	0.183	0.387
+0) Detectable result	957	81.7
+1) Below detectable limit	214	18.3
+Missing	9868
+
+
+434) LBXF01
+2,3,7,8-Tetrachlorodibenzofuran (tcdf) (fg/g)
+RANGE: 5.16 to 63.3988888888889
+	N	Mean	Std. Deviation
+Total	1229	11.645	4.682
+
+
+435) LBXF01LA
+2,3,7,8-Tetrachlorodibenzofuran (tcdf) lipid adjusted
+RANGE: 0.3 to 11.5
+	N	Mean	Std. Deviation
+Total	1229	1.825	0.749
+
+
+436) LBDF01LC
+2,3,7,8-Tetrachlorodibenzofuran (tcdf) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1229	0.991	0.094
+0) Detectable result	11	0.9
+1) Below detectable limit	1218	99.1
+Missing	9810
+
+
+437) LBXF02
+1,2,3,7,8-Pentachlorodibenzofuran (pncdf) (fg/g)
+RANGE: 4.80888888888889 to 45.96
+	N	Mean	Std. Deviation
+Total	1235	12.567	4.607
+
+
+438) LBXF02LA
+1,2,3,7,8-Pentachlorodibenzofuran (pncdf) lipid adjusted
+RANGE: 0.3 to 4.9
+	N	Mean	Std. Deviation
+Total	1235	1.966	0.74
+
+
+439) LBXF02LC
+1,2,3,7,8-Pentachlorodibenzofuran (pncdf) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1235	0.994	0.08
+0) Detectable result	8	0.6
+1) Below detectable limit	1227	99.4
+Missing	9804
+
+
+440) LBXF03
+2,3,4,7,8-Pentachlorodibenzofuran (pncdf) (fg/g)
+RANGE: 5.08888888888889 to 638
+	N	Mean	Std. Deviation
+Total	1230	48.018	46.827
+
+
+441) LBXF03LA
+2,3,4,7,8-Pentachlorodibenzofuran (pncdf) lipid adjusted
+RANGE: 0.7 to 46
+	N	Mean	Std. Deviation
+Total	1230	7.135	6.282
+
+
+442) LBDF03LC
+2,3,4,7,8-Pentachlorodibenzofuran (pncdf) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1230	0.346	0.476
+0) Detectable result	805	65.4
+1) Below detectable limit	425	34.6
+Missing	9809
+
+
+443) LBXF04
+1,2,3,4,7,8-Hexachlorodibenzofuran(hcxdf) (fg/g)
+RANGE: 7.34888888888889 to 324.5
+	N	Mean	Std. Deviation
+Total	1223	45.068	37.239
+
+
+444) LBXF04LA
+1,2,3,4,7,8-Hexachlorodibenzofuran (hcxdf) lipid adjusted
+RANGE: 1 to 44.3666666666667
+	N	Mean	Std. Deviation
+Total	1223	6.789	5.257
+
+
+445) LBDF04LC
+1,2,3,4,7,8-Hexachlorodibenzofuran (hcxdf) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1223	0.18	0.384
+0) Detectable result	1003	82.0
+1) Below detectable limit	220	18.0
+Missing	9816
+
+
+446) LBXF05
+1,2,3,6,7,8-Hexachlorodibenzofuran (hxcdf) (fg/g)
+RANGE: 6.15 to 297.6
+	N	Mean	Std. Deviation
+Total	1236	38.021	31.88
+
+
+447) LBXF05LA
+1,2,3,6,7,8-Hexachlorodibenzofuran (hxcdf) lipid adjusted
+RANGE: 0.8 to 33.5
+	N	Mean	Std. Deviation
+Total	1236	5.777	4.634
+
+
+448) LBDF05LC
+1,2,3,6,7,8-Hexachlorodibenzofuran (hxcdf) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1236	0.307	0.461
+0) Detectable result	857	69.3
+1) Below detectable limit	379	30.7
+Missing	9803
+
+
+449) LBXF06
+1,2,3,7,8,9-Hexachlorodibenzofuran (hxcdf) (fg/g)
+RANGE: 5.16 to 38.96
+	N	Mean	Std. Deviation
+Total	1223	13.243	4.573
+
+
+450) LBXF06LA
+1,2,3,7,8,9-Hexachlorodibenzofuran (hxcdf) lipid adjusted
+RANGE: 0.4 to 6
+	N	Mean	Std. Deviation
+Total	1223	2.073	0.754
+
+
+451) LBDF06LC
+1,2,3,7,8,9-Hexachlorodibenzofuran (hxcdf) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1223	0.999	0.029
+0) Detectable result	1	0.1
+1) Below detectable limit	1222	99.9
+Missing	9816
+
+
+452) LBXF07
+2,3,4,6,7,8-Hexchlorodibenzofuran (hxcdf) (fg/g)
+RANGE: 5.66 to 96.7
+	N	Mean	Std. Deviation
+Total	1230	14.612	7.026
+
+
+453) LBXF07LA
+2,3,4,6,7,8-Hexchlorodibenzofuran (hxcdf) lipid adjusted
+RANGE: 0.7 to 9.5
+	N	Mean	Std. Deviation
+Total	1230	2.255	0.999
+
+
+454) LBDF07LC
+2,3,4,6,7,8-Hexchlorodibenzofuran (hxcdf) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1230	0.892	0.311
+0) Detectable result	133	10.8
+1) Below detectable limit	1097	89.2
+Missing	9809
+
+
+455) LBXF08
+1,2,3,4,6,7,8-Heptachlorodibenzofuran (hpcdf) (fg/g)
+RANGE: 7.07 to 1711.79888888889
+	N	Mean	Std. Deviation
+Total	1219	76.819	71.964
+
+
+456) LBXF08LA
+1,2,3,4,6,7,8-Heptachlorodibenzofuran (hpcdf) lipid adjusted
+RANGE: 0.9 to 234
+	N	Mean	Std. Deviation
+Total	1219	11.878	10.409
+
+
+457) LBDF08LC
+1,2,3,4,6,7,8-Heptachlorodibenzofuran (hpcdf) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1219	0.105	0.307
+0) Detectable result	1091	89.5
+1) Below detectable limit	128	10.5
+Missing	9820
+
+
+458) LBXF09
+1,2,3,4,7,8,9-Heptachlorodibenzofuran (hpcdf) (fg/g)
+RANGE: 6.21888888888889 to 57.06
+	N	Mean	Std. Deviation
+Total	1224	15.642	5.583
+
+
+459) LBXF09LA
+1,2,3,4,7,8,9-Heptachlorodibenzofuran (hpcdf) lipid adjusted
+RANGE: 0.5 to 4.9
+	N	Mean	Std. Deviation
+Total	1224	2.436	0.864
+
+
+460) LBXF09LC
+1,2,3,4,7,8,9-Heptachlorodibenzofuran (hpcdf) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1224	0.999	0.029
+0) Detectable result	1	0.1
+1) Below detectable limit	1223	99.9
+Missing	9815
+
+
+461) LBXF10
+1,2,3,4,6,7,8,9-Octachlorodibenzofuran (ocdf) (fg/g)
+RANGE: 17.39 to 162.49
+	N	Mean	Std. Deviation
+Total	1202	48.349	16.811
+
+
+462) LBXF10LA
+1,2,3,4,6,7,8,9-Octachlorodibenzofuran (ocdf) lipid adjusted
+RANGE: 1.36666666666667 to 14.8
+	N	Mean	Std. Deviation
+Total	1202	7.529	2.593
+
+
+463) LBDF10LC
+1,2,3,4,6,7,8,9-Octachlorodibenzofuran (ocdf) specimen code comment
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1202	1	0
+1) Below detectable limit	1202	100.0
+Missing	9837
+
+
+464) LBXPCB
+3,3',4,4'5-Pentachlorobiphenyl (pncb) (fg/g)
+RANGE: 9.97 to 8811.6
+	N	Mean	Std. Deviation
+Total	1226	284.049	492.696
+
+
+465) LBXPCBLA
+3,3',4,4'5-Pentachlorobiphenyl (pncb) lipid adjusted
+RANGE: 1.3 to 845
+	N	Mean	Std. Deviation
+Total	1226	40.783	54.907
+
+
+466) LBDPCBLC
+3,3',4,4'5-Pentachlorobiphenyl (pncb) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1226	0.12	0.325
+0) Detectable result	1079	88.0
+1) Below detectable limit	147	12.0
+Missing	9813
+
+
+467) LBXTC2
+3,4,4',5-Tetrachlorobiphenyl (tcb) (fg/g)
+RANGE: 24.4688888888889 to 203.508888888889
+	N	Mean	Std. Deviation
+Total	1215	59.017	19.87
+
+
+468) LBXTC2LA
+3,4,4',5-Tetrachlorobiphenyl (tcb) 
+RANGE: 1.36666666666667 to 19
+	N	Mean	Std. Deviation
+Total	1215	9.288	3.407
+
+
+469) LBDTC2LC
+3,4,4',5-Tetrachlorobiphenyl (tcb) specimen comment code
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1215	1	0
+1) Below detectable limit	1215	100.0
+Missing	9824
+
+
+470) LBXTCD
+2,3,7,8-Tetrachlorodienzo-p-dioxin (tcdd) (fg/g)
+RANGE: 5.44 to 261.898888888889
+	N	Mean	Std. Deviation
+Total	1228	17.279	17.689
+
+
+471) LBXTCDLA
+2,3,7,8-Tetrachlorodienzo-p-dioxin (tcdd) lipid adjusted
+RANGE: 0.3 to 42.7
+	N	Mean	Std. Deviation
+Total	1228	2.633	2.464
+
+
+472) LBDTCDLC
+2,3,7,8-Tetrachlorodienzo-p-dioxin (tcdd) specimen comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1228	0.873	0.333
+0) Detectable result	156	12.7
+1) Below detectable limit	1072	87.3
+Missing	9811
+
+
+473) LBXBHC
+Beta-hexachloro-cyclohexane (ng/g)
+RANGE: 0.019962962962963 to 24.606962962963
+	N	Mean	Std. Deviation
+Total	2291	0.17	0.908
+
+
+474) LBXBHCLA
+Beta-hexachloro-cyclohexane lipid adjusted
+RANGE: 1.41396296296296 to 3720
+	N	Mean	Std. Deviation
+Total	2291	26.111	145.872
+
+
+475) LBDBHCLC
+Beta-hexachloro-cyclohexane comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2291	0.464	0.499
+0) Detectable result	1229	53.6
+1) Below detectable limit	1062	46.4
+Missing	8748
+
+
+476) LBXGHC
+Gamma-hexachloro-cyclohexane (ng/g)
+RANGE: 0.018962962962963 to 0.555
+	N	Mean	Std. Deviation
+Total	2280	0.022	0.019
+
+
+477) LBXGHCLA
+Gamma-hexachloro-cyclohexane lipid adjusted
+RANGE: 0.4 to 73.2666666666667
+	N	Mean	Std. Deviation
+Total	2280	3.894	2.64
+
+
+478) LBDGHCLC
+Gamma-hexachloro-cyclohexane comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2280	0.989	0.102
+0) Detectable result	24	1.1
+1) Below detectable limit	2256	98.9
+Missing	8759
+
+
+479) LBXHCB
+Hexachlorobenzene (ng/g)
+RANGE: 0.056962962962963 to 1.638
+	N	Mean	Std. Deviation
+Total	2277	0.073	0.071
+
+
+480) LBXHCBLA
+Hexachlorobenzene lipid adjusted
+RANGE: 3.26666666666667 to 241
+	N	Mean	Std. Deviation
+Total	2277	12.449	9.419
+
+
+481) LBDHCBLC
+Hexachlorobenzene comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2277	0.945	0.228
+0) Detectable result	125	5.5
+1) Below detectable limit	2152	94.5
+Missing	8762
+
+
+482) LBXHPE
+Heptachlor Epoxide (ng/g)
+RANGE: 0.019962962962963 to 2.02
+	N	Mean	Std. Deviation
+Total	2259	0.052	0.087
+
+
+483) LBXHPELA
+Heptachlor Epoxide lipid adjusted
+RANGE: 1.36666666666667 to 181
+	N	Mean	Std. Deviation
+Total	2259	8.033	10.611
+
+
+484) LBDHPELC
+Heptachlor Epoxide comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2259	0.568	0.496
+0) Detectable result	977	43.2
+1) Below detectable limit	1282	56.8
+Missing	8780
+
+
+485) LBXHXC
+3,3',4,4',5,5'-hexachlorobiphenyl (hxcb) (fg/g)
+RANGE: 10.6788888888889 to 3340.4
+	N	Mean	Std. Deviation
+Total	1223	176.189	175.596
+
+
+486) LBXHXCLA
+3,3',4,4',5,5'-hexachlorobiphenyl (hxcb) lipid adjusted
+RANGE: 1.7 to 172
+	N	Mean	Std. Deviation
+Total	1223	26.326	22.379
+
+
+487) LBDHXCLC
+3,3',4,4',5,5'-hexachlorobiphenyl (hxcb) comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1223	0.114	0.318
+0) Detectable result	1084	88.6
+1) Below detectable limit	139	11.4
+Missing	9816
+
+
+488) LBXMIR
+Mirex (ng/g)
+RANGE: 0.018962962962963 to 19.429962962963
+	N	Mean	Std. Deviation
+Total	2257	0.104	0.68
+
+
+489) LBXMIRLA
+Mirex lipid adjusted
+RANGE: 1.1 to 2960
+	N	Mean	Std. Deviation
+Total	2257	15.828	102.209
+
+
+490) LBDMIRLC
+Mirex comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2257	0.762	0.426
+0) Detectable result	538	23.8
+1) Below detectable limit	1719	76.2
+Missing	8782
+
+
+491) LBXODT
+O,p'-DDT (ng/g)
+RANGE: 0.031962962962963 to 0.976
+	N	Mean	Std. Deviation
+Total	2279	0.038	0.04
+
+
+492) LBXODTLA
+O,p'-DDT lipid adjusted
+RANGE: 0.7 to 194
+	N	Mean	Std. Deviation
+Total	2279	6.684	6.659
+
+
+493) LBDODTLC
+O,p'-DDT comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2279	0.983	0.13
+0) Detectable result	39	1.7
+1) Below detectable limit	2240	98.3
+Missing	8760
+
+
+494) LBXOXY
+Oxychlordane (ng/g)
+RANGE: 0.019962962962963 to 3.20596296296296
+	N	Mean	Std. Deviation
+Total	2249	0.109	0.172
+
+
+495) LBXOXYLA
+Oxychlordane lipid adjusted
+RANGE: 1.6 to 289
+	N	Mean	Std. Deviation
+Total	2249	16.478	21.171
+
+
+496) LBDOXYLC
+Oxychlordane comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2249	0.377	0.485
+0) Detectable result	1401	62.3
+1) Below detectable limit	848	37.7
+Missing	8790
+
+
+497) LBXPDE
+P,p'-DDE (ng/g)
+RANGE: 0.034 to 142.445962962963
+	N	Mean	Std. Deviation
+Total	2298	5.167	11.795
+
+
+498) LBXPDELA
+P,p'-DDE lipid adjusted
+RANGE: 3.748 to 24200
+	N	Mean	Std. Deviation
+Total	2298	799.643	1738.726
+
+
+499) LBDPDELC
+P,p'-DDE comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2298	0.001	0.029
+0) Detectable result	2296	99.9
+1) Below detectable limit	2	0.1
+Missing	8741
+
+
+500) LBXPDT
+P,p'-DDT (ng/g)
+RANGE: 0.032962962962963 to 15.846
+	N	Mean	Std. Deviation
+Total	2305	0.126	0.604
+
+
+501) LBXPDTLA
+P,p'-DDT lipid adjusted
+RANGE: 2.333 to 2560
+	N	Mean	Std. Deviation
+Total	2305	20.586	99.812
+
+
+502) LBDPDTLC
+P,p'-DDT comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2305	0.711	0.453
+0) Detectable result	665	28.9
+1) Below detectable limit	1640	71.1
+Missing	8734
+
+
+503) LBXTNA
+Trans-nonachlor (ng/g)
+RANGE: 0.019962962962963 to 9.94596296296296
+	N	Mean	Std. Deviation
+Total	2286	0.181	0.353
+
+
+504) LBXTNALA
+Trans-nonachlor lipid adjusted
+RANGE: 1.7 to 834
+	N	Mean	Std. Deviation
+Total	2286	27.261	42.684
+
+
+505) LBDTNALC
+Trans-nonachlor comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2286	0.262	0.44
+0) Detectable result	1688	73.8
+1) Below detectable limit	598	26.2
+Missing	8753
+
+
+506) LBXDIE
+Dieldrin (ng/g)
+RANGE: 0.019962962962963 to 4.12996296296296
+	N	Mean	Std. Deviation
+Total	2159	0.052	0.11
+
+
+507) LBXDIELA
+Dieldrin lipid adjusted
+RANGE: 1.6 to 670
+	N	Mean	Std. Deviation
+Total	2159	8.088	16.656
+
+
+508) LBDDIELC
+Dieldrin comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2159	0.529	0.499
+0) Detectable result	1016	47.1
+1) Below detectable limit	1143	52.9
+Missing	8880
+
+
+509) LBXALD
+Aldrin (ng/g)
+RANGE: 0.018962962962963 to 0.053962962962963
+	N	Mean	Std. Deviation
+Total	2275	0.021	0.002
+
+
+510) LBXALDLA
+Aldrin lipid adjusted
+RANGE: 0.4 to 8.5
+	N	Mean	Std. Deviation
+Total	2275	3.712	0.915
+
+
+511) LBDALDLC
+Aldrin comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2275	0.998	0.042
+0) Detectable result	4	0.2
+1) Below detectable limit	2271	99.8
+Missing	8764
+
+
+512) LBXEND
+Endrin (ng/g) 
+RANGE: 0.018962962962963 to 0.074962962962963
+	N	Mean	Std. Deviation
+Total	2187	0.021	0.002
+
+
+513) LBXENDLA
+Endrin lipid adjusted
+RANGE: 0.4 to 14.9
+	N	Mean	Std. Deviation
+Total	2187	3.714	0.965
+
+
+514) LBDENDLC
+Endrin comment code
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2187	0.999	0.037
+0) Detectable result	3	0.1
+1) Below detectable limit	2184	99.9
+Missing	8852
+
+
+515) LBXBVPH
+PH of bacterial vaginosis specimen
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	1980		
+
+
+516) LBXTV
+Trchomonas vaginalis
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1999	1.989	0.267
+1) Positive	82	4.1
+2) Negative	1856	92.8
+3) Uninterpretable	61	3.1
+Missing	9040
+
+
+517) LBXBV
+Bacterial vaginosis
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1999	2.021	0.799
+
+
+518) LBXMS1
+S. Aureus present 1
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	9622	1.692	0.462
+1) Yes	2964	30.8
+2) No	6658	69.2
+Missing	1417
+
+
+519) LBXM1
+MRSA 1
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2964	1.975	0.157
+1) Yes	75	2.5
+2) No	2889	97.5
+Missing	8075
+
+
+520) LBXMT1
+Tetracycline 1
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	372	1.054	0.269
+1) Sensitive	356	95.7
+2) Resistant	12	3.2
+3) Intermediate	4	1.1
+Missing	10667
+
+
+521) LBXMZ1
+Trimethoprim/Sulfamethoxazole 1
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	372	1	0
+1) Sensitive	372	100.0
+Missing	10667
+
+
+522) LBXMC1
+Clindamycin 1
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	372	1.065	0.246
+1) Sensitive	348	93.5
+2) Resistant	24	6.5
+Missing	10667
+
+
+523) LBXME1
+Erythromycin 1
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	372	1.317	0.472
+1) Sensitive	255	68.5
+2) Resistant	116	31.2
+3)	1	0.3
+Missing	10667
+
+
+524) LBXMP1
+Penicillin 1
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	372	1.901	0.3
+1) Sensitive	37	9.9
+2) Resistant	335	90.1
+Missing	10667
+
+
+525) LBXMI1
+Imipenem 1
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	372	1.191	0.394
+1) Sensitive	301	80.9
+2) Resistant	71	19.1
+Missing	10667
+
+
+526) LBXMV1
+Vancomycin 1
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	372	1	0
+1) Sensitive	372	100.0
+Missing	10667
+
+
+527) LBXMF1
+Cefazolin 1
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	372	1.191	0.394
+1) Sensitive	301	80.9
+2) Resistant	71	19.1
+Missing	10667
+
+
+528) LBXMO1
+Oxacillin 1
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	372	1.202	0.402
+1) Sensitive	297	79.8
+2) Resistant	75	20.2
+Missing	10667
+
+
+529) LBXMG1
+Gentamicin 1
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	372	1.003	0.052
+1) Sensitive	371	99.7
+2) Resistant	1	0.3
+Missing	10667
+
+
+530) LBXMD1
+Ciprofloxacin 1
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	372	1.129	0.359
+1) Sensitive	327	87.9
+2) Resistant	42	11.3
+3) Intermediate	3	0.8
+Missing	10667
+
+
+531) LBXML1
+Levofloxacin 1
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	372	1.151	0.451
+1) Sensitive	330	88.7
+2) Resistant	28	7.5
+3) Intermediate	14	3.8
+Missing	10667
+
+
+532) LBXMR1
+Rifampin 1
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	372	1.003	0.052
+1) Sensitive	371	99.7
+2) Resistant	1	0.3
+Missing	10667
+
+
+533) LBXMY1
+Amoxicillin/k Clavulanate 1
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	372	1.191	0.394
+1) Sensitive	301	80.9
+2) Resistant	71	19.1
+Missing	10667
+
+
+534) LBAMMT1
+Molecular type 1
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	373		
+
+
+535) LBXMS2
+S. Aureus present 2
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	22	1	0
+1) Yes	22	100.0
+Missing	11017
+
+
+536) LBXETA
+Enterotoxin A
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	372	1.812	0.391
+1) Positive	70	18.8
+2) Negative	302	81.2
+Missing	10667
+
+
+537) LBXETB
+Enterotoxin B
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	372	1.938	0.241
+1) Positive	23	6.2
+2) Negative	349	93.8
+Missing	10667
+
+
+538) LBXETC
+Enterotoxin C
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	372	1.949	0.22
+1) Positive	19	5.1
+2) Negative	353	94.9
+Missing	10667
+
+
+539) LBXETD
+Enterotoxin D
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	372	1.844	0.363
+1) Positive	58	15.6
+2) Negative	314	84.4
+Missing	10667
+
+
+540) LBXETE
+Enterotoxin E
+RANGE: 2 to 2
+	N	Mean	Std. Deviation
+Total	372	2	0
+2) Negative	372	100.0
+Missing	10667
+
+
+541) LBXETH
+Enterotoxin H
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	372	1.954	0.209
+1) Positive	17	4.6
+2) Negative	355	95.4
+Missing	10667
+
+
+542) LBXTSS
+Toxic shock syndrome toxin 1
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	372	1.745	0.437
+1) Positive	95	25.5
+2) Negative	277	74.5
+Missing	10667
+
+
+543) LBXPVL
+Panton valentine leukocidin
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	372	1.976	0.154
+1) Positive	9	2.4
+2) Negative	363	97.6
+Missing	10667
+
+
+544) LBXSCC
+SCCmec
+RANGE: 2 to 7
+	N	Mean	Std. Deviation
+Total	75	3.44	1.596
+2) Type II	38	50.7
+4) Type IV-No Subtype	14	18.7
+5) Type Iva	14	18.7
+6) Type Ivb	7	9.3
+7) Type Ivc	2	2.7
+Missing	10964
+
+
+545) LBXSY1
+Syphilis IgG EIA
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	3028	1.982	0.143
+1) Positive	59	1.9
+2) Negative	2965	97.9
+3) Indeterminate	4	0.1
+Missing	8011
+
+
+546) LBDSY3
+Syphilis RPR (rapid plasmin test) titer level
+RANGE: 0 to 128
+	N	Mean	Std. Deviation
+Total	63	3.333	16.627
+0)	49	77.8
+1)	4	6.3
+2)	3	4.8
+4)	2	3.2
+8)	2	3.2
+16)	1	1.6
+32)	1	1.6
+128)	1	1.6
+Missing	10976
+
+
+547) LBDSY4
+Syphilis treponemal pallidum agglutin (TPA)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	58	1.414	0.497
+1) Positive	34	58.6
+2) Negative	24	41.4
+Missing	10981
+
+
+548) LBXEPP
+Protoporphyrin (ug/dL RBC)
+RANGE: 0 to 1480
+	N	Mean	Std. Deviation
+Total	8927	54.644	36.837
+
+
+549) LBDEPPSI
+Protoporphyrin (mu-mol/L RBC)
+RANGE: 0 to 26.1988888888889
+	N	Mean	Std. Deviation
+Total	8927	0.967	0.652
+
+
+550) LBXSAL
+Albumin (g/dL)
+RANGE: 2.1 to 5.5
+	N	Mean	Std. Deviation
+Total	6891	4.253	0.343
+2.1)	1	0.0
+2.6)	6	0.1
+2.7)	2	0.0
+2.76666666666667)	4	0.1
+2.9)	8	0.1
+3)	15	0.2
+3.1)	20	0.3
+3.2)	24	0.3
+3.26666666666667)	36	0.5
+3.36666666666667)	54	0.8
+3.5)	59	0.9
+3.6)	96	1.4
+3.7)	137	2.0
+3.76666666666667)	221	3.2
+3.9)	349	5.1
+4)	497	7.2
+4.06666666666667)	679	9.9
+4.2)	838	12.2
+4.26666666666667)	915	13.3
+4.4)	900	13.1
+4.5)	743	10.8
+4.56666666666667)	560	8.1
+4.7)	361	5.2
+4.76666666666667)	188	2.7
+4.9)	97	1.4
+5)	51	0.7
+5.06666666666667)	17	0.2
+5.2)	6	0.1
+5.26666666666667)	5	0.1
+5.4)	1	0.0
+5.5)	1	0.0
+Missing	4148
+
+
+551) LBDSALSI
+Albumin (g/L)
+RANGE: 21 to 55
+	N	Mean	Std. Deviation
+Total	6891	42.655	3.427
+21)	1	0.0
+26)	6	0.1
+27)	2	0.0
+28)	4	0.1
+29)	8	0.1
+30)	15	0.2
+31)	20	0.3
+32)	24	0.3
+33)	36	0.5
+34)	54	0.8
+35)	59	0.9
+36)	96	1.4
+37)	137	2.0
+38)	221	3.2
+39)	349	5.1
+40)	497	7.2
+41)	679	9.9
+42)	838	12.2
+43)	915	13.3
+44)	900	13.1
+45)	743	10.8
+46)	560	8.1
+47)	361	5.2
+48)	188	2.7
+49)	97	1.4
+50)	51	0.7
+51)	17	0.2
+52)	6	0.1
+53)	5	0.1
+54)	1	0.0
+55)	1	0.0
+Missing	4148
+
+
+552) LBXSATSI
+ALT: SI (U/L)
+RANGE: 3 to 1925
+	N	Mean	Std. Deviation
+Total	6891	23.141	27.684
+
+
+553) LBXSASSI
+AST:SI (U/L)
+RANGE: 7 to 279
+	N	Mean	Std. Deviation
+Total	6891	23.953	11.33
+
+
+554) LBDSAPSI
+Alkaline phosphatase (U/L)
+RANGE: 12 to 673
+	N	Mean	Std. Deviation
+Total	6891	93.424	66.737
+
+
+555) LBXSBU
+Blood urea nitrogen (mg/dL)
+RANGE: 1 to 122
+	N	Mean	Std. Deviation
+Total	6891	13.044	5.732
+
+
+556) LBDSBUSI
+Blood urea nitrogen (mmol/L)
+RANGE: 0.36 to 43.5488888888889
+	N	Mean	Std. Deviation
+Total	6891	4.657	2.046
+
+
+557) LBXSCA
+Total calcium (mg/dL)
+RANGE: 6.9 to 12.4
+	N	Mean	Std. Deviation
+Total	6891	9.48	0.408
+6.9)	1	0.0
+7.2)	1	0.0
+7.4)	1	0.0
+7.56666666666667)	1	0.0
+7.76666666666667)	2	0.0
+8)	2	0.0
+8.06666666666667)	6	0.1
+8.16666666666667)	1	0.0
+8.3)	15	0.2
+8.4)	17	0.2
+8.5)	32	0.5
+8.56666666666667)	56	0.8
+8.66666666666667)	89	1.3
+8.8)	138	2.0
+8.9)	226	3.3
+9)	321	4.7
+9.06666666666667)	398	5.8
+9.16666666666667)	515	7.5
+9.3)	600	8.7
+9.4)	700	10.2
+9.5)	724	10.5
+9.56666666666667)	698	10.1
+9.66666666666667)	587	8.5
+9.8)	520	7.5
+9.9)	401	5.8
+10)	284	4.1
+10.0666666666667)	241	3.5
+10.1666666666667)	125	1.8
+10.3)	65	0.9
+10.4)	36	0.5
+10.5)	31	0.4
+10.5666666666667)	21	0.3
+10.6666666666667)	14	0.2
+10.8)	13	0.2
+10.9)	4	0.1
+11)	1	0.0
+11.0666666666667)	1	0.0
+11.3)	1	0.0
+11.5)	1	0.0
+12.4)	1	0.0
+Missing	4148
+
+
+558) LBDSCASI
+Total calcium (mmol/L)
+RANGE: 1.725 to 3.1
+	N	Mean	Std. Deviation
+Total	6891	2.373	0.102
+1.725)	1	0.0
+1.8)	1	0.0
+1.85)	1	0.0
+1.9)	1	0.0
+1.95)	2	0.0
+2)	2	0.0
+2.02496296296296)	6	0.1
+2.04996296296296)	1	0.0
+2.075)	15	0.2
+2.1)	17	0.2
+2.125)	32	0.5
+2.14996296296296)	56	0.8
+2.17496296296296)	89	1.3
+2.2)	138	2.0
+2.225)	226	3.3
+2.25)	321	4.7
+2.27496296296296)	398	5.8
+2.29996296296296)	515	7.5
+2.325)	600	8.7
+2.35)	700	10.2
+2.375)	724	10.5
+2.39996296296296)	698	10.1
+2.42496296296296)	587	8.5
+2.45)	520	7.5
+2.475)	401	5.8
+2.5)	284	4.1
+2.525)	241	3.5
+2.54996296296296)	125	1.8
+2.575)	65	0.9
+2.6)	36	0.5
+2.625)	31	0.4
+2.65)	21	0.3
+2.67496296296296)	14	0.2
+2.7)	13	0.2
+2.725)	4	0.1
+2.75)	1	0.0
+2.775)	1	0.0
+2.825)	1	0.0
+2.875)	1	0.0
+3.1)	1	0.0
+Missing	4148
+
+
+559) LBXSCH
+Cholesterol (mg/dL)
+RANGE: 70 to 598
+	N	Mean	Std. Deviation
+Total	6891	189.725	43.507
+
+
+560) LBDSCHSI
+Cholesterol (mmol/L)
+RANGE: 1.81 to 15.46
+	N	Mean	Std. Deviation
+Total	6891	4.906	1.125
+
+
+561) LBXSC3SI
+Bicarbonate: SI (mmol/L)
+RANGE: 10 to 32
+	N	Mean	Std. Deviation
+Total	6891	23.475	2.248
+10)	1	0.0
+15)	1	0.0
+16)	8	0.1
+17)	28	0.4
+18)	59	0.9
+19)	164	2.4
+20)	380	5.5
+21)	642	9.3
+22)	946	13.7
+23)	1208	17.5
+24)	1236	17.9
+25)	965	14.0
+26)	667	9.7
+27)	369	5.4
+28)	139	2.0
+29)	58	0.8
+30)	12	0.2
+31)	5	0.1
+32)	3	0.0
+Missing	4148
+
+
+562) LBXSGTSI
+GGT: SI (U/L)
+RANGE: 4 to 1464
+	N	Mean	Std. Deviation
+Total	6891	26.378	35.909
+
+
+563) LBXSGL
+Glucose, serum (mg/dL)
+RANGE: 30 to 707
+	N	Mean	Std. Deviation
+Total	6891	93.558	30.013
+
+
+564) LBDSGLSI
+Glucose, serum (mmol/L)
+RANGE: 1.665 to 39.246
+	N	Mean	Std. Deviation
+Total	6891	5.193	1.666
+
+
+565) LBXSIR
+Iron (ug/dL)
+RANGE: 7 to 357
+	N	Mean	Std. Deviation
+Total	6890	88.694	39.065
+
+
+566) LBDSIRSI
+Iron (umol/L)
+RANGE: 1.25 to 63.9388888888889
+	N	Mean	Std. Deviation
+Total	6890	15.885	6.997
+
+
+567) LBDSLDSI
+LDH (U/L)
+RANGE: 35 to 587
+	N	Mean	Std. Deviation
+Total	6890	133.866	30.885
+
+
+568) LBDSPH
+Phosphorus (mg/dL)
+RANGE: 1.8 to 7.4
+	N	Mean	Std. Deviation
+Total	6891	3.931	0.654
+
+
+569) LBDSPHSI
+Phosphorus (mmol/L)
+RANGE: 0.58 to 2.39
+	N	Mean	Std. Deviation
+Total	6891	1.273	0.212
+
+
+570) LBDSTB
+Bilirubin, total (mg/dL)
+RANGE: 0.1 to 4.4
+	N	Mean	Std. Deviation
+Total	6890	0.735	0.283
+0.1)	1	0.0
+0.2)	17	0.2
+0.3)	91	1.3
+0.4)	306	4.4
+0.5)	816	11.8
+0.6)	2182	31.7
+0.7)	1085	15.7
+0.8)	783	11.4
+0.9)	541	7.9
+1)	350	5.1
+1.1)	234	3.4
+1.16666666666667)	150	2.2
+1.3)	88	1.3
+1.36666666666667)	59	0.9
+1.5)	47	0.7
+1.6)	31	0.4
+1.7)	26	0.4
+1.8)	23	0.3
+1.9)	15	0.2
+2)	15	0.2
+2.1)	6	0.1
+2.2)	4	0.1
+2.26666666666667)	4	0.1
+2.36666666666667)	3	0.0
+2.5)	2	0.0
+2.6)	1	0.0
+2.7)	2	0.0
+2.76666666666667)	2	0.0
+2.9)	1	0.0
+3.26666666666667)	1	0.0
+3.36666666666667)	1	0.0
+3.5)	1	0.0
+3.6)	1	0.0
+4.4)	1	0.0
+Missing	4149
+
+
+571) LBDSTBSI
+Bilirubin, total (umol/L)
+RANGE: 1.71 to 75.2388888888889
+	N	Mean	Std. Deviation
+Total	6890	12.581	4.877
+1.71)	1	0.0
+3.42)	17	0.2
+5.12888888888889)	91	1.3
+6.84)	306	4.4
+8.55)	816	11.8
+10.2588888888889)	2182	31.7
+11.97)	1085	15.7
+13.6788888888889)	783	11.4
+15.39)	541	7.9
+17.1)	350	5.1
+18.8088888888889)	234	3.4
+20.5188888888889)	150	2.2
+22.23)	88	1.3
+23.94)	59	0.9
+25.6488888888889)	47	0.7
+27.3588888888889)	31	0.4
+29.07)	26	0.4
+30.78)	23	0.3
+32.49)	15	0.2
+34.2)	15	0.2
+35.9088888888889)	6	0.1
+37.6188888888889)	4	0.1
+39.3288888888889)	4	0.1
+41.0388888888889)	3	0.0
+42.75)	2	0.0
+44.46)	1	0.0
+46.17)	2	0.0
+47.88)	2	0.0
+49.59)	1	0.0
+56.4288888888889)	1	0.0
+58.14)	1	0.0
+59.85)	1	0.0
+61.56)	1	0.0
+75.2388888888889)	1	0.0
+Missing	4149
+
+
+572) LBXSTP
+Total protein (g/dL)
+RANGE: 5.26666666666667 to 10.0666666666667
+	N	Mean	Std. Deviation
+Total	6888	7.37	0.478
+5.26666666666667)	1	0.0
+5.4)	1	0.0
+5.5)	2	0.0
+5.56666666666667)	2	0.0
+5.7)	4	0.1
+5.76666666666667)	4	0.1
+5.9)	14	0.2
+6)	22	0.3
+6.06666666666667)	15	0.2
+6.2)	32	0.5
+6.26666666666667)	35	0.5
+6.4)	70	1.0
+6.5)	92	1.3
+6.56666666666667)	129	1.9
+6.7)	155	2.3
+6.76666666666667)	252	3.7
+6.9)	303	4.4
+7)	384	5.6
+7.06666666666667)	498	7.2
+7.2)	604	8.8
+7.26666666666667)	600	8.7
+7.4)	618	9.0
+7.5)	597	8.7
+7.56666666666667)	546	7.9
+7.7)	480	7.0
+7.76666666666667)	393	5.7
+7.9)	289	4.2
+8)	225	3.3
+8.06666666666667)	180	2.6
+8.16666666666667)	123	1.8
+8.3)	81	1.2
+8.4)	44	0.6
+8.5)	29	0.4
+8.56666666666667)	24	0.3
+8.66666666666667)	11	0.2
+8.8)	8	0.1
+8.9)	6	0.1
+9)	3	0.0
+9.06666666666667)	4	0.1
+9.16666666666667)	3	0.0
+9.4)	1	0.0
+9.5)	1	0.0
+9.56666666666667)	1	0.0
+9.8)	1	0.0
+10.0666666666667)	1	0.0
+Missing	4151
+
+
+573) LBDSTPSI
+Total protein (g/L)
+RANGE: 53 to 101
+	N	Mean	Std. Deviation
+Total	6888	73.841	4.779
+53)	1	0.0
+54)	1	0.0
+55)	2	0.0
+56)	2	0.0
+57)	4	0.1
+58)	4	0.1
+59)	14	0.2
+60)	22	0.3
+61)	15	0.2
+62)	32	0.5
+63)	35	0.5
+64)	70	1.0
+65)	92	1.3
+66)	129	1.9
+67)	155	2.3
+68)	252	3.7
+69)	303	4.4
+70)	384	5.6
+71)	498	7.2
+72)	604	8.8
+73)	600	8.7
+74)	618	9.0
+75)	597	8.7
+76)	546	7.9
+77)	480	7.0
+78)	393	5.7
+79)	289	4.2
+80)	225	3.3
+81)	180	2.6
+82)	123	1.8
+83)	81	1.2
+84)	44	0.6
+85)	29	0.4
+86)	24	0.3
+87)	11	0.2
+88)	8	0.1
+89)	6	0.1
+90)	3	0.0
+91)	4	0.1
+92)	3	0.0
+94)	1	0.0
+95)	1	0.0
+96)	1	0.0
+98)	1	0.0
+101)	1	0.0
+Missing	4151
+
+
+574) LBXSTR
+Tricglycerides (mg/dL)
+RANGE: 16 to 3854
+	N	Mean	Std. Deviation
+Total	6890	132.259	134.453
+
+
+575) LBDSTRSI
+Triglycerides (mmol/L)
+RANGE: 0.181 to 43.512
+	N	Mean	Std. Deviation
+Total	6890	1.493	1.518
+
+
+576) LBXSUA
+Uric acid (mg/dL)
+RANGE: 0.4 to 14.5
+	N	Mean	Std. Deviation
+Total	6891	5.238	1.469
+
+
+577) LBDSUASI
+Uric acid (umol/L)
+RANGE: 23.8 to 862.5
+	N	Mean	Std. Deviation
+Total	6891	312.329	87.373
+
+
+578) LBDSCR
+Creatinine (mg/dL)
+RANGE: 0.1 to 12.9
+	N	Mean	Std. Deviation
+Total	6891	0.852	0.412
+0.1)	1	0.0
+0.2)	1	0.0
+0.3)	11	0.2
+0.4)	99	1.4
+0.5)	423	6.1
+0.6)	909	13.2
+0.7)	1237	18.0
+0.8)	1262	18.3
+0.9)	1076	15.6
+1)	806	11.7
+1.1)	472	6.8
+1.16666666666667)	265	3.8
+1.3)	138	2.0
+1.36666666666667)	55	0.8
+1.5)	26	0.4
+1.6)	21	0.3
+1.7)	12	0.2
+1.8)	11	0.2
+1.9)	11	0.2
+2)	7	0.1
+2.1)	6	0.1
+2.2)	3	0.0
+2.26666666666667)	6	0.1
+2.36666666666667)	1	0.0
+2.5)	3	0.0
+2.6)	2	0.0
+2.7)	3	0.0
+2.76666666666667)	1	0.0
+2.9)	1	0.0
+3)	3	0.0
+3.1)	1	0.0
+3.2)	1	0.0
+3.36666666666667)	1	0.0
+3.6)	1	0.0
+3.7)	1	0.0
+3.9)	1	0.0
+4.2)	1	0.0
+4.4)	3	0.0
+6.76666666666667)	1	0.0
+7.26666666666667)	1	0.0
+7.5)	1	0.0
+8.3)	1	0.0
+9.06666666666667)	1	0.0
+9.9)	1	0.0
+10.0666666666667)	1	0.0
+10.8)	1	0.0
+12.9)	1	0.0
+Missing	4148
+
+
+579) LBDSCRSI
+Creatinine (umol/L)
+RANGE: 8.84 to 1140.35888888889
+	N	Mean	Std. Deviation
+Total	6891	75.471	36.551
+8.84)	1	0.0
+17.6788888888889)	1	0.0
+26.5188888888889)	11	0.2
+35.3588888888889)	99	1.4
+44.2)	423	6.1
+53.0388888888889)	909	13.2
+61.88)	1237	18.0
+70.7188888888889)	1262	18.3
+79.56)	1076	15.6
+88.4)	806	11.7
+97.2388888888889)	472	6.8
+106.078888888889)	265	3.8
+114.92)	138	2.0
+123.76)	55	0.8
+132.598888888889)	26	0.4
+141.438888888889)	21	0.3
+150.28)	12	0.2
+159.12)	11	0.2
+167.96)	11	0.2
+176.8)	7	0.1
+185.638888888889)	6	0.1
+194.478888888889)	3	0.0
+203.318888888889)	6	0.1
+212.158888888889)	1	0.0
+221)	3	0.0
+229.84)	2	0.0
+238.68)	3	0.0
+247.52)	1	0.0
+256.36)	1	0.0
+265.198888888889)	3	0.0
+274.04)	1	0.0
+282.878888888889)	1	0.0
+300.56)	1	0.0
+318.24)	1	0.0
+327.078888888889)	1	0.0
+344.758888888889)	1	0.0
+371.278888888889)	1	0.0
+388.958888888889)	3	0.0
+601.12)	1	0.0
+645.32)	1	0.0
+663)	1	0.0
+733.72)	1	0.0
+804.44)	1	0.0
+875.158888888889)	1	0.0
+892.84)	1	0.0
+954.72)	1	0.0
+1140.35888888889)	1	0.0
+Missing	4148
+
+
+580) LBXSNASI
+Sodium: SI (mmol/L)
+RANGE: 100 to 149
+	N	Mean	Std. Deviation
+Total	6891	138.675	2.54
+100)	1	0.0
+108)	1	0.0
+119)	1	0.0
+121)	1	0.0
+124)	3	0.0
+125)	2	0.0
+126)	2	0.0
+127)	1	0.0
+128)	5	0.1
+129)	3	0.0
+130)	11	0.2
+131)	22	0.3
+132)	31	0.4
+133)	75	1.1
+134)	152	2.2
+135)	307	4.5
+136)	524	7.6
+137)	840	12.2
+138)	1128	16.4
+139)	1197	17.4
+140)	1085	15.7
+141)	723	10.5
+142)	446	6.5
+143)	199	2.9
+144)	94	1.4
+145)	26	0.4
+146)	7	0.1
+147)	3	0.0
+149)	1	0.0
+Missing	4148
+
+
+581) LBXSKSI
+Potassium: SI (mmol/L)
+RANGE: 2.5 to 6.76666666666667
+	N	Mean	Std. Deviation
+Total	6891	4.037	0.348
+2.5)	1	0.0
+2.6)	2	0.0
+2.7)	1	0.0
+2.76666666666667)	1	0.0
+2.9)	3	0.0
+3)	3	0.0
+3.1)	12	0.2
+3.2)	18	0.3
+3.26666666666667)	47	0.7
+3.36666666666667)	102	1.5
+3.5)	209	3.0
+3.6)	340	4.9
+3.7)	504	7.3
+3.76666666666667)	701	10.2
+3.9)	822	11.9
+4)	899	13.0
+4.06666666666667)	799	11.6
+4.2)	719	10.4
+4.26666666666667)	531	7.7
+4.4)	374	5.4
+4.5)	261	3.8
+4.56666666666667)	196	2.8
+4.7)	129	1.9
+4.76666666666667)	82	1.2
+4.9)	47	0.7
+5)	29	0.4
+5.06666666666667)	21	0.3
+5.2)	12	0.2
+5.26666666666667)	13	0.2
+5.4)	4	0.1
+5.5)	2	0.0
+5.56666666666667)	1	0.0
+5.7)	2	0.0
+6)	1	0.0
+6.06666666666667)	1	0.0
+6.5)	1	0.0
+6.76666666666667)	1	0.0
+Missing	4148
+
+
+582) LBXSCLSI
+Chloride: SI (mmol/L)
+RANGE: 72 to 114
+	N	Mean	Std. Deviation
+Total	6884	102.726	2.74
+72)	1	0.0
+83)	1	0.0
+86)	1	0.0
+88)	1	0.0
+89)	4	0.1
+90)	1	0.0
+91)	5	0.1
+92)	7	0.1
+93)	17	0.2
+94)	17	0.2
+95)	28	0.4
+96)	42	0.6
+97)	85	1.2
+98)	160	2.3
+99)	336	4.9
+100)	506	7.4
+101)	832	12.1
+102)	1048	15.2
+103)	1112	16.2
+104)	1021	14.8
+105)	730	10.6
+106)	438	6.4
+107)	264	3.8
+108)	135	2.0
+109)	61	0.9
+110)	20	0.3
+111)	7	0.1
+112)	2	0.0
+113)	1	0.0
+114)	1	0.0
+Missing	4155
+
+
+583) LBXOSSI
+Osmolality: SI (mmol/Kg)
+RANGE: 201 to 312
+	N	Mean	Std. Deviation
+Total	6891	276.733	5.486
+201)	1	0.0
+218)	1	0.0
+241)	1	0.0
+245)	2	0.0
+248)	1	0.0
+249)	1	0.0
+250)	1	0.0
+252)	2	0.0
+253)	1	0.0
+254)	1	0.0
+255)	2	0.0
+256)	1	0.0
+257)	2	0.0
+258)	4	0.1
+259)	2	0.0
+260)	6	0.1
+261)	10	0.1
+262)	12	0.2
+263)	14	0.2
+264)	21	0.3
+265)	31	0.4
+266)	62	0.9
+267)	68	1.0
+268)	115	1.7
+269)	159	2.3
+270)	188	2.7
+271)	253	3.7
+272)	346	5.0
+273)	422	6.1
+274)	518	7.5
+275)	516	7.5
+276)	584	8.5
+277)	567	8.2
+278)	560	8.1
+279)	478	6.9
+280)	431	6.3
+281)	372	5.4
+282)	256	3.7
+283)	236	3.4
+284)	181	2.6
+285)	130	1.9
+286)	105	1.5
+287)	54	0.8
+288)	47	0.7
+289)	40	0.6
+290)	24	0.3
+291)	19	0.3
+292)	10	0.1
+293)	8	0.1
+294)	7	0.1
+296)	5	0.1
+297)	4	0.1
+298)	4	0.1
+299)	1	0.0
+305)	1	0.0
+310)	2	0.0
+312)	1	0.0
+Missing	4148
+
+
+584) LBXSGB
+Globulin (g/dL)
+RANGE: 1.6 to 6.2
+	N	Mean	Std. Deviation
+Total	6888	3.109	0.417
+1.6)	2	0.0
+1.7)	2	0.0
+1.8)	1	0.0
+1.9)	1	0.0
+2)	6	0.1
+2.1)	16	0.2
+2.2)	40	0.6
+2.26666666666667)	62	0.9
+2.36666666666667)	115	1.7
+2.5)	207	3.0
+2.6)	340	4.9
+2.7)	414	6.0
+2.76666666666667)	562	8.2
+2.9)	675	9.8
+3)	686	10.0
+3.1)	715	10.4
+3.2)	684	9.9
+3.26666666666667)	611	8.9
+3.36666666666667)	467	6.8
+3.5)	351	5.1
+3.6)	289	4.2
+3.7)	202	2.9
+3.76666666666667)	139	2.0
+3.9)	89	1.3
+4)	69	1.0
+4.06666666666667)	47	0.7
+4.2)	26	0.4
+4.26666666666667)	9	0.1
+4.4)	10	0.1
+4.5)	16	0.2
+4.56666666666667)	5	0.1
+4.7)	8	0.1
+4.76666666666667)	5	0.1
+4.9)	1	0.0
+5)	1	0.0
+5.06666666666667)	2	0.0
+5.2)	3	0.0
+5.26666666666667)	2	0.0
+5.4)	2	0.0
+5.5)	1	0.0
+5.56666666666667)	2	0.0
+5.76666666666667)	1	0.0
+5.9)	1	0.0
+6.2)	1	0.0
+Missing	4151
+
+
+585) LBDSGBSI
+Globulin (g/L)
+RANGE: 16 to 62
+	N	Mean	Std. Deviation
+Total	6888	31.186	4.181
+16)	2	0.0
+17)	2	0.0
+18)	1	0.0
+19)	1	0.0
+20)	6	0.1
+21)	16	0.2
+22)	40	0.6
+23)	62	0.9
+24)	115	1.7
+25)	207	3.0
+26)	340	4.9
+27)	414	6.0
+28)	562	8.2
+29)	675	9.8
+30)	686	10.0
+31)	715	10.4
+32)	684	9.9
+33)	611	8.9
+34)	467	6.8
+35)	351	5.1
+36)	289	4.2
+37)	202	2.9
+38)	139	2.0
+39)	89	1.3
+40)	69	1.0
+41)	47	0.7
+42)	26	0.4
+43)	9	0.1
+44)	10	0.1
+45)	16	0.2
+46)	5	0.1
+47)	8	0.1
+48)	5	0.1
+49)	1	0.0
+50)	1	0.0
+51)	2	0.0
+52)	3	0.0
+53)	2	0.0
+54)	2	0.0
+55)	1	0.0
+56)	2	0.0
+58)	1	0.0
+59)	1	0.0
+62)	1	0.0
+Missing	4151
+
+
+586) LBXFSH
+Follicle stimulating hormone (mIU/mL)
+RANGE: 0.14 to 196.098888888889
+	N	Mean	Std. Deviation
+Total	943	27.654	31.352
+
+
+587) LBDFSHSI
+Follicle stimulating hormone (IU/L)
+RANGE: 0.14 to 196.098888888889
+	N	Mean	Std. Deviation
+Total	943	27.654	31.352
+
+
+588) LBXLH
+Lutenizing hormone (mIU/mL)
+RANGE: 0.1 to 126.51
+	N	Mean	Std. Deviation
+Total	951	18.449	19.208
+
+
+589) LBDLHSI
+Lutenizing hormone (IU/L)
+RANGE: 0.1 to 126.51
+	N	Mean	Std. Deviation
+Total	951	18.449	19.208
+
+
+590) LBXIRN
+Iron, frozen (ug/dL)
+RANGE: 3 to 357
+	N	Mean	Std. Deviation
+Total	8814	84.321	38.291
+
+
+591) LBDIRNSI
+Iron, frozen (umol/L)
+RANGE: 0.54 to 63.8988888888889
+	N	Mean	Std. Deviation
+Total	8814	15.093	6.854
+
+
+592) LBDTIB
+Total iron binding capacity (ug/dL)
+RANGE: 33 to 765
+	N	Mean	Std. Deviation
+Total	8762	376.778	63.327
+
+
+593) LBDTIBSI
+Total iron binding capacity (umol/L)
+RANGE: 5.91 to 136.938888888889
+	N	Mean	Std. Deviation
+Total	8762	67.443	11.336
+
+
+594) LBDPCT
+Transferrin saturation (%)
+RANGE: 0.5 to 124.2
+	N	Mean	Std. Deviation
+Total	8759	23.078	11.297
+
+
+595) LB2SAL
+Albumin (g/dL)
+RANGE: 2.7 to 5.2
+	N	Mean	Std. Deviation
+Total	544	4.151	0.388
+
+
+596) LB2SALSI
+Albumin (g/L)
+RANGE: 27 to 52
+	N	Mean	Std. Deviation
+Total	544	41.645	3.872
+
+
+597) LB2SATSI
+Alanine aminotransferase (U/L)
+RANGE: 6 to 232
+	N	Mean	Std. Deviation
+Total	544	24.335	16.954
+
+
+598) LB2SASSI
+Aspartate aminotransferase (U/L)
+RANGE: 9 to 256
+	N	Mean	Std. Deviation
+Total	544	24.401	15.75
+
+
+599) LB2SAPSI
+Alkaline phosphatase (U/L)
+RANGE: 24 to 593
+	N	Mean	Std. Deviation
+Total	544	73.993	33.71
+
+
+600) LB2SBU
+Blood urea nitrogen (mg/dL)
+RANGE: 1 to 58
+	N	Mean	Std. Deviation
+Total	544	12.785	5.475
+
+
+601) LB2SBUSI
+Blood urea nitrogen (mmol/L)
+RANGE: 0.36 to 20.71
+	N	Mean	Std. Deviation
+Total	544	4.564	1.955
+
+
+602) LB2SCA
+Total calcium (mg/dL)
+RANGE: 8.06666666666667 to 11.4
+	N	Mean	Std. Deviation
+Total	544	9.405	0.432
+
+
+603) LB2SCASI
+Total calcium (mmol/L)
+RANGE: 2.02496296296296 to 2.85
+	N	Mean	Std. Deviation
+Total	544	2.355	0.108
+
+
+604) LB2SCH
+Cholesterol (mg/dL)
+RANGE: 72 to 342
+	N	Mean	Std. Deviation
+Total	544	192.494	41.627
+
+
+605) LB2SCHSI
+Cholesterol (mmol/L)
+RANGE: 1.86 to 8.84
+	N	Mean	Std. Deviation
+Total	544	4.978	1.077
+
+
+606) LB2SC3SI
+Bicarbonate (mmol/L)
+RANGE: 14 to 32
+	N	Mean	Std. Deviation
+Total	544	23.835	2.54
+
+
+607) LB2SGTSI
+Gamma glutamyltransferase
+RANGE: 5 to 383
+	N	Mean	Std. Deviation
+Total	544	27.149	29.598
+
+
+608) LB2SGL
+Glucose (mg/dL)
+RANGE: 59 to 303
+	N	Mean	Std. Deviation
+Total	544	93.912	24.1
+
+
+609) LB2SGLSI
+Glucose, serum (mmol/L)
+RANGE: 3.27496296296296 to 16.82
+	N	Mean	Std. Deviation
+Total	544	5.213	1.338
+
+
+610) LB2SIR
+Iron (ug/dL)
+RANGE: 11 to 240
+	N	Mean	Std. Deviation
+Total	544	82.254	34.886
+
+
+611) LB2SIRSI
+Iron (umol/L)
+RANGE: 1.97 to 42.9788888888889
+	N	Mean	Std. Deviation
+Total	544	14.731	6.248
+
+
+612) LB2SLDSI
+Lactate dehydrogenase (U/L)
+RANGE: 57 to 326
+	N	Mean	Std. Deviation
+Total	544	128.015	30.451
+
+
+613) LB2SPH
+Phosphorus (mg/dL)
+RANGE: 2.26666666666667 to 9.16666666666667
+	N	Mean	Std. Deviation
+Total	544	3.846	0.626
+
+
+614) LB2SPHSI
+Phosphorus (mmol/L)
+RANGE: 0.74 to 2.97
+	N	Mean	Std. Deviation
+Total	544	1.246	0.203
+
+
+615) LB2STB
+Bilirubin, total (mg/dL)
+RANGE: 0.2 to 2.7
+	N	Mean	Std. Deviation
+Total	544	0.707	0.265
+
+
+616) LB2STBSI
+Bilirubin, total (umol/L)
+RANGE: 3.42 to 46.17
+	N	Mean	Std. Deviation
+Total	544	12.101	4.557
+
+
+617) LB2STP
+Protein, total (g/dL)
+RANGE: 5.56666666666667 to 9.8
+	N	Mean	Std. Deviation
+Total	544	7.224	0.492
+
+
+618) LB2STPSI
+Total protein (g/L)
+RANGE: 56 to 98
+	N	Mean	Std. Deviation
+Total	544	72.373	4.921
+
+
+619) LB2STR
+Triglycerides (mg/dL)
+RANGE: 22 to 970
+	N	Mean	Std. Deviation
+Total	544	136.316	97.025
+
+
+620) LB2STRSI
+Triglycerides (mmol/L)
+RANGE: 0.248 to 10.951
+	N	Mean	Std. Deviation
+Total	544	1.539	1.095
+
+
+621) LB2SUA
+Uric acid (mg/dL)
+RANGE: 1.5 to 10.6666666666667
+	N	Mean	Std. Deviation
+Total	544	5.352	1.503
+
+
+622) LB2SUASI
+Uric acid (umol/L)
+RANGE: 89.2 to 636.366666666667
+	N	Mean	Std. Deviation
+Total	544	319.028	89.501
+
+
+623) LB2SCR
+Creatinine (mg/dL)
+RANGE: 0.4 to 10.1666666666667
+	N	Mean	Std. Deviation
+Total	544	0.911	0.555
+
+
+624) LB2SCRSI
+Creatinine (umol/L)
+RANGE: 35.3588888888889 to 901.678888888889
+	N	Mean	Std. Deviation
+Total	544	80.73	49.28
+
+
+625) LB2SNASI
+Sodium (mmol/L)
+RANGE: 130 to 145
+	N	Mean	Std. Deviation
+Total	544	138.575	2.319
+
+
+626) LB2SKSI
+Potassium (mmol/L)
+RANGE: 3.1 to 5.26666666666667
+	N	Mean	Std. Deviation
+Total	544	4.004	0.34
+
+
+627) LB2SCLSI
+Chloride (mmol/L)
+RANGE: 92 to 112
+	N	Mean	Std. Deviation
+Total	544	103.09	2.745
+
+
+628) LB2FSH
+Follicle stimulating hormone (mIU/mL)
+RANGE: 0.37 to 121.62
+	N	Mean	Std. Deviation
+Total	94	31.697	30.36
+
+
+629) LB2FSHSI
+Follicle stimulating hormone (IU/L)
+RANGE: 0.37 to 121.62
+	N	Mean	Std. Deviation
+Total	94	31.697	30.36
+
+
+630) LB2LH
+Lutenizing hormone (mIU/mL)
+RANGE: 0.35 to 79.5788888888889
+	N	Mean	Std. Deviation
+Total	94	19.225	18.642
+
+
+631) LB2LHSI
+Lutenizing hormone (IU/L)
+RANGE: 0.35 to 79.5788888888889
+	N	Mean	Std. Deviation
+Total	94	19.225	18.642
+
+
+632) WTSTH2YR
+Thyroid hormones Subsample two-year MEC Weight (Frequencies not displayed for this variable.)
+RANGE: 0 to 663502.47832293
+	N	Mean	Std. Deviation
+Total	2547	91065.151	83773.943
+
+
+633) WTSTH4YR
+Thyroid hormones Subsample four-year MEC Weight (Frequencies not displayed for this variable.)
+RANGE: 0 to 345844.28658728
+	N	Mean	Std. Deviation
+Total	2547	50082.723	45776.542
+
+
+634) LBXT4
+Thyroxine (T4) (ug/dL)
+RANGE: 0.4 to 27
+	N	Mean	Std. Deviation
+Total	2345	8.153	1.922
+
+
+635) LBDT4SI
+Thyroxine (T4) (nmol/L)
+RANGE: 5.06666666666667 to 347.5
+	N	Mean	Std. Deviation
+Total	2345	105.095	24.74
+
+
+636) LBXTSH
+Thyroid stimulating hormone (TSH) (IU/L)
+RANGE: 0.04 to 326.398888888889
+	N	Mean	Std. Deviation
+Total	2342	2.032	8.703
+
+
+637) SSXNO3
+Continuous variable describing urinary concentration of nitrate (NO3) (ug/L). Limit of detection: 700 ug/L.
+RANGE: 495 to 770000
+	N	Mean	Std. Deviation
+Total	2818	61888.245	49115.334
+
+
+638) SSXSCN
+Continuous variable describing urinary concentration of Thiocyanate (SCN) (ug/L). Limit of detection: 20 ug/L.
+RANGE: 14 to 37000
+	N	Mean	Std. Deviation
+Total	2817	2321.819	2792.666
+
+
+639) SSXUP8
+Urinary Perchlorate (ug/L)
+RANGE: 0.19 to 160
+	N	Mean	Std. Deviation
+Total	2820	5.534	6.939
+
+
+640) PHQ020
+Have you had any of the following since the fasting time in variable PHQ010. PHQ010: When was the last time you ate or drank anything other than plain water? [Do not include diet soda, black coffee or tea with saccharine or Equal.] (Note: Variable PHQ010 was not released as part of this data set because of disclosure issues). Coffee or tea with cream or sugar? [Include milk or non-dairy creamers.] 
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	9480	1.987	0.113
+1) Yes	123	1.3
+2) No	9357	98.7
+Missing	1559
+
+
+641) PHACOFHR
+Coffee/tea fast time (hours)
+RANGE: 0 to 49
+	N	Mean	Std. Deviation
+Total	123	5.976	5.778
+0)	4	3.3
+1)	14	11.4
+2)	15	12.2
+3)	17	13.8
+4)	7	5.7
+5)	9	7.3
+6)	15	12.2
+7)	7	5.7
+8)	11	8.9
+9)	4	3.3
+10)	3	2.4
+11)	1	0.8
+12)	7	5.7
+13)	1	0.8
+14)	2	1.6
+15)	1	0.8
+17)	1	0.8
+18)	1	0.8
+19)	1	0.8
+20)	1	0.8
+49)	1	0.8
+Missing	10916
+
+
+642) PHACOFMN
+Coffee/tea fast time (minutes)
+RANGE: 0 to 59
+	N	Mean	Std. Deviation
+Total	123	31.106	17.543
+0)	3	2.4
+1)	1	0.8
+2)	2	1.6
+3)	4	3.3
+4)	1	0.8
+5)	1	0.8
+6)	4	3.3
+7)	2	1.6
+8)	3	2.4
+9)	1	0.8
+10)	4	3.3
+13)	1	0.8
+14)	1	0.8
+15)	5	4.1
+17)	1	0.8
+19)	3	2.4
+20)	1	0.8
+22)	2	1.6
+23)	1	0.8
+25)	3	2.4
+26)	2	1.6
+28)	5	4.1
+29)	2	1.6
+30)	1	0.8
+31)	1	0.8
+32)	5	4.1
+33)	1	0.8
+34)	2	1.6
+35)	3	2.4
+36)	2	1.6
+37)	2	1.6
+38)	3	2.4
+39)	1	0.8
+40)	2	1.6
+41)	2	1.6
+42)	6	4.9
+43)	1	0.8
+44)	4	3.3
+45)	2	1.6
+46)	3	2.4
+47)	6	4.9
+48)	3	2.4
+49)	4	3.3
+51)	1	0.8
+52)	2	1.6
+53)	1	0.8
+55)	1	0.8
+56)	3	2.4
+57)	4	3.3
+58)	3	2.4
+59)	1	0.8
+Missing	10916
+
+
+643) PHQ030
+Have you had any of the following since the fasting time in variable PHQ010. PHQ010: When was the last time you ate or drank anything other than plain water? [Do not include diet soda, black coffee or tea with saccharine or Equal.] (Note: Variable PHQ010 was not released as part of this data set because of disclosure issues.) Alcohol, such as beer, wine, or liquor? 
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	9480	1.996	0.063
+1) Yes	38	0.4
+2) No	9442	99.6
+Missing	1559
+
+
+644) PHAALCHR
+Alcohol fast time (hours)
+RANGE: 1 to 20
+	N	Mean	Std. Deviation
+Total	38	10.132	4.557
+1)	1	2.6
+2)	2	5.3
+3)	1	2.6
+4)	1	2.6
+5)	3	7.9
+6)	1	2.6
+7)	1	2.6
+8)	2	5.3
+10)	4	10.5
+11)	7	18.4
+12)	4	10.5
+13)	6	15.8
+14)	1	2.6
+15)	1	2.6
+17)	1	2.6
+20)	2	5.3
+Missing	11001
+
+
+645) PHAALCMN
+Alcohol fast time (minutes)
+RANGE: 1 to 51
+	N	Mean	Std. Deviation
+Total	38	24.816	15.376
+1)	2	5.3
+2)	1	2.6
+3)	3	7.9
+5)	1	2.6
+6)	1	2.6
+8)	1	2.6
+12)	1	2.6
+13)	1	2.6
+14)	1	2.6
+19)	1	2.6
+20)	2	5.3
+23)	1	2.6
+24)	1	2.6
+25)	1	2.6
+27)	2	5.3
+28)	1	2.6
+29)	1	2.6
+30)	1	2.6
+32)	3	7.9
+33)	1	2.6
+34)	1	2.6
+35)	1	2.6
+40)	1	2.6
+41)	2	5.3
+43)	1	2.6
+45)	1	2.6
+46)	1	2.6
+47)	1	2.6
+48)	1	2.6
+51)	1	2.6
+Missing	11001
+
+
+646) PHQ040
+Have you had any of the following since the fasting time in variable PHQ010. PHQ010: When was the last time you ate or drank anything other than plain water? [Do not include diet soda, black coffee or tea with saccharine or Equal.] (Note: Variable PHQ010 was not released as part of this data set because of disclosure issues.) Gum, breath mints, lozenges or cough drops, or other cough or cold remedies? 
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	9480	1.967	0.178
+1) Yes	309	3.3
+2) No	9171	96.7
+Missing	1559
+
+
+647) PHAGUMHR
+Gum, mints, cough drops fast time (hours)
+RANGE: 0 to 68
+	N	Mean	Std. Deviation
+Total	309	3.828	6.386
+0)	77	24.9
+1)	43	13.9
+2)	55	17.8
+3)	37	12.0
+4)	18	5.8
+5)	16	5.2
+6)	9	2.9
+7)	8	2.6
+8)	5	1.6
+9)	2	0.6
+10)	6	1.9
+11)	10	3.2
+12)	7	2.3
+13)	4	1.3
+14)	2	0.6
+15)	3	1.0
+16)	2	0.6
+17)	1	0.3
+18)	1	0.3
+24)	1	0.3
+61)	1	0.3
+68)	1	0.3
+Missing	10730
+
+
+648) PHAGUMMN
+Gum, mints, cough drops fast time (minutes)
+RANGE: 0 to 59
+	N	Mean	Std. Deviation
+Total	309	28.359	17.962
+
+
+649) PHQ050
+Have you had any of the following since the fasting time in variable PHQ010. PHQ010: When was the last time you ate or drank anything other than plain water? [Do not include diet soda, black coffee or tea with saccharine or Equal.] (Note: Variable PHQ010 was not released as part of this data set because of disclosure issues.) Antacids, laxatives, or anti-diarrheals?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	9480	1.996	0.064
+1) Yes	39	0.4
+2) No	9441	99.6
+Missing	1559
+
+
+650) PHAANTHR
+Antacids, laxatives fast time (hours)
+RANGE: 0 to 16
+	N	Mean	Std. Deviation
+Total	39	6.128	3.928
+0)	1	2.6
+1)	6	15.4
+2)	2	5.1
+3)	3	7.7
+4)	2	5.1
+5)	2	5.1
+6)	8	20.5
+8)	1	2.6
+9)	6	15.4
+10)	4	10.3
+11)	1	2.6
+12)	1	2.6
+13)	1	2.6
+16)	1	2.6
+Missing	11000
+
+
+651) PHAANTMN
+Antacids, laxatives fast time (minutes)
+RANGE: 0 to 59
+	N	Mean	Std. Deviation
+Total	39	27	17.218
+0)	2	5.1
+1)	1	2.6
+2)	1	2.6
+4)	1	2.6
+7)	1	2.6
+8)	2	5.1
+10)	1	2.6
+13)	3	7.7
+15)	1	2.6
+18)	1	2.6
+22)	2	5.1
+24)	1	2.6
+25)	1	2.6
+28)	2	5.1
+29)	1	2.6
+30)	1	2.6
+31)	3	7.7
+32)	1	2.6
+36)	1	2.6
+39)	2	5.1
+41)	1	2.6
+45)	1	2.6
+47)	1	2.6
+48)	1	2.6
+49)	2	5.1
+50)	1	2.6
+53)	2	5.1
+59)	1	2.6
+Missing	11000
+
+
+652) PHQ060
+Have you had any of the following since the fasting time in variable PHQ010. PHQ010: When was the last time you ate or drank anything other than plain water? [Do not include diet soda, black coffee or tea with saccharine or Equal.] (Note: Variable PHQ010 was not released as part of this data set because of disclosure issues.) Dietary supplements such as vitamins and minerals? [Include multivitamins and single nutrient supplements.])
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	9480	1.989	0.103
+1) Yes	102	1.1
+2) No	9378	98.9
+Missing	1559
+
+
+653) PHASUPHR
+Dietary supplements fast time (hours)
+RANGE: 0 to 17
+	N	Mean	Std. Deviation
+Total	102	4.098	3.834
+0)	3	2.9
+1)	23	22.5
+2)	25	24.5
+3)	11	10.8
+4)	9	8.8
+5)	5	4.9
+6)	6	5.9
+7)	3	2.9
+8)	3	2.9
+9)	2	2.0
+10)	3	2.9
+11)	2	2.0
+12)	2	2.0
+14)	1	1.0
+15)	3	2.9
+17)	1	1.0
+Missing	10937
+
+
+654) PHASUPMN
+Dietary supplements fast time (minutes)
+RANGE: 0 to 59
+	N	Mean	Std. Deviation
+Total	102	29.373	18.235
+
+
+655) PHAFSTHR
+The time (in hours) between when the examinee last ate or drank anything other than water and the time of the venipuncture.
+RANGE: 0 to 86
+	N	Mean	Std. Deviation
+Total	9480	9.058	5.773
+
+
+656) PHAFSTMN
+The time (in minutes) between when the examinee last ate or drank anything other than water and the time of the venipuncture.
+RANGE: 0 to 59
+	N	Mean	Std. Deviation
+Total	9480	28.768	17.427
+
+
+657) PHDSESN
+Session in which sample person was examined
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9928	0.682	0.739
+0) Morning	4792	48.3
+1) Afternoon	3503	35.3
+2) Evening	1633	16.4
+Missing	1111
+
+
+658) WTSPH2YR
+Phthalate subsample two-year MEC weight
+RANGE: 0 to 604129.28044484
+	N	Mean	Std. Deviation
+Total	2901	88471.724	81392.902
+
+
+659) WTSPH4YR
+Phthalate subsample four-year MEC weight
+RANGE: 0 to 303669.30938349
+	N	Mean	Std. Deviation
+Total	2901	47215.527	43309.841
+
+
+660) URXMBP
+Mono-n-butyl phthalate (ng/mL)
+RANGE: 0.8 to 4691.1
+	N	Mean	Std. Deviation
+Total	2782	44.263	142.642
+
+
+661) URXMCP
+Mono-cyclohexyl phthalate (ng/mL)
+RANGE: 0.2 to 12
+	N	Mean	Std. Deviation
+Total	2782	0.257	0.308
+
+
+662) URXMEP
+Mono-ethyl phthalate (ng/mL)
+RANGE: 0.6 to 39631.6666666667
+	N	Mean	Std. Deviation
+Total	2782	673.939	1857.894
+
+
+663) URXMHP
+Mono-(2-ethyl)-hexyl phthalate (ng/mL)
+RANGE: 0.7 to 615.1
+	N	Mean	Std. Deviation
+Total	2782	11.803	31.624
+
+
+664) URXMNP
+Mono-isononyl phthalate (ng/mL)
+RANGE: 0.6 to 19
+	N	Mean	Std. Deviation
+Total	2782	0.66	0.538
+0.6)	2636	94.8
+0.9)	24	0.9
+1)	15	0.5
+1.1)	15	0.5
+1.16666666666667)	15	0.5
+1.3)	6	0.2
+1.36666666666667)	10	0.4
+1.5)	7	0.3
+1.6)	8	0.3
+1.7)	11	0.4
+1.8)	5	0.2
+1.9)	4	0.1
+2)	3	0.1
+2.1)	1	0.0
+2.2)	1	0.0
+2.26666666666667)	2	0.1
+2.36666666666667)	2	0.1
+2.5)	1	0.0
+2.6)	1	0.0
+2.7)	4	0.1
+2.9)	1	0.0
+3.1)	2	0.1
+3.2)	1	0.0
+3.36666666666667)	1	0.0
+3.6)	1	0.0
+3.7)	1	0.0
+4.06666666666667)	1	0.0
+6)	1	0.0
+17.1666666666667)	1	0.0
+19)	1	0.0
+Missing	8257
+
+
+665) URXMOP
+Mono-n-octyl phthalate (ng/mL)
+RANGE: 0.7 to 10.0666666666667
+	N	Mean	Std. Deviation
+Total	2782	0.728	0.3
+
+
+666) URXMZP
+Mono-benzyl phthalate (ng/mL)
+RANGE: 0.2 to 1109.76666666667
+	N	Mean	Std. Deviation
+Total	2782	38.305	70.743
+
+
+667) URXMNM
+Mono-n-methyl phthalate
+RANGE: 0.1 to 791.366666666667
+	N	Mean	Std. Deviation
+Total	2782	4.975	28.23
+
+
+668) URXMC1
+Mono-(3-carboxypropyl) phthalate
+RANGE: 0.3 to 217.4
+	N	Mean	Std. Deviation
+Total	2782	5.582	11.391
+
+
+669) URXMHH
+Mono-(2-ehyl-5-hydrohexyl) phthalate
+RANGE: 0.7 to 3236.06666666667
+	N	Mean	Std. Deviation
+Total	2782	55.299	150.295
+
+
+670) URXMOH
+Mono-(2-ethyl-5-oxohexyl) phthalate
+RANGE: 0.8 to 1380.06666666667
+	N	Mean	Std. Deviation
+Total	2782	35.151	82.528
+
+
+671) URXMIB
+Mono-isobutyl pthalate
+RANGE: 0.7 to 200
+	N	Mean	Std. Deviation
+Total	2782	6.24	10.249
+
+
+672) URXDAZ
+Daidzein (ng/mL)
+RANGE: 1.12888888888889 to 36900
+	N	Mean	Std. Deviation
+Total	2794	316.26	1195.739
+
+
+673) URXDMA
+O-Desmethylangolensin (O-DMA) (ng/mL)
+RANGE: 0.28 to 9890
+	N	Mean	Std. Deviation
+Total	2794	70.387	379.025
+
+
+674) URXEQU
+Equol (ng/mL)
+RANGE: 2.33 to 17200
+	N	Mean	Std. Deviation
+Total	2794	39.063	390.651
+
+
+675) URXETD
+Enterodiol (ng/mL)
+RANGE: 1.06 to 11300
+	N	Mean	Std. Deviation
+Total	2794	87.977	360.833
+
+
+676) URXETL
+Enterolactone (ng/mL)
+RANGE: 1.34 to 85300
+	N	Mean	Std. Deviation
+Total	2794	688.308	1928.673
+
+
+677) URXGNS
+Genistein (ng/mL)
+RANGE: 0.57 to 15100
+	N	Mean	Std. Deviation
+Total	2794	153.171	632.673
+
+
+678) URXP01
+1-napthol
+RANGE: 4.2 to 297389
+	N	Mean	Std. Deviation
+Total	2748	5886.627	18783.008
+
+
+679) URXP02
+2-napthol
+RANGE: 27 to 223087
+	N	Mean	Std. Deviation
+Total	2748	5909.904	11968.651
+
+
+680) URXP03
+3-fluorene (ng/L)
+RANGE: 1.36666666666667 to 9471
+	N	Mean	Std. Deviation
+Total	2745	307.197	627.227
+
+
+681) URXP04
+2-fluorene (ng/L)
+RANGE: 2.76666666666667 to 36394
+	N	Mean	Std. Deviation
+Total	2745	642.626	1419.934
+
+
+682) URX05
+3-phenanthrene (ng/L)
+RANGE: 2.76666666666667 to 126202
+	N	Mean	Std. Deviation
+Total	2741	335.785	2781.194
+
+
+683) URXP06
+1-phenanthrene (ng/L)
+RANGE: 2.76666666666667 to 23634
+	N	Mean	Std. Deviation
+Total	2741	246.341	798.217
+
+
+684) URXP07
+2-phenanthrene (ng/L)
+RANGE: 2.1 to 17122
+	N	Mean	Std. Deviation
+Total	2742	118.605	445.661
+
+
+685) URXP09
+3-fluoranthene (ng/L)
+RANGE: 3.5 to 3.5
+	N	Mean	Std. Deviation
+Total	1	3.5	
+
+
+686) URXP10
+1-pyrene (ng/L)
+RANGE: 2.1 to 24129
+	N	Mean	Std. Deviation
+Total	2747	118.569	659.716
+
+
+687) SSTFR
+Serum transferrin receptor (mg/L)
+RANGE: 1.5 to 18
+	N	Mean	Std. Deviation
+Total	343	3.713	1.677
+
+
+688) SSFER
+Serum ferritin (ng/mL)
+RANGE: 3 to 394
+	N	Mean	Std. Deviation
+Total	343	33.91	39.47
+
+
+689) SSCYPC
+Cystatin C (mg/L)
+RANGE: 0.43 to 10.699962962963
+	N	Mean	Std. Deviation
+Total	2924	0.991	0.498
+
+
+690) WTSCY4YR
+Surplus sera cystatin 99-02 weights
+RANGE: 0 to 376844.21479803
+	N	Mean	Std. Deviation
+Total	2932	41873.791	53469.143
+
+
+691) SSMETSI
+Methyltetrahydrofolate pmol/mL
+RANGE: 3.25337277999848 to 291.027877059999
+	N	Mean	Std. Deviation
+Total	1330	47.537	26.128
+
+
+692) SSFOLSI
+Folic Acid pmol/mL
+RANGE: 0 to 185.440704299998
+	N	Mean	Std. Deviation
+Total	1330	1.945	8.633
+
+
+693) SSFOLTSI
+Total Folate pmol/mL
+RANGE: 4.99640152 to 383.628377409998
+	N	Mean	Std. Deviation
+Total	1330	49.483	29.619
+
+
+694) SSMET
+Methyltetrahydrofolate ng/mL
+RANGE: 1.4347374 to 128.34329378
+	N	Mean	Std. Deviation
+Total	1330	20.964	11.523
+
+
+695) SSFOL
+Folic Acid ng/mL
+RANGE: 0 to 81.7793506
+	N	Mean	Std. Deviation
+Total	1330	0.858	3.807
+
+
+696) SSFOLTOT
+Total Folate ng/mL
+RANGE: 2.20341306999848 to 169.18011444
+	N	Mean	Std. Deviation
+Total	1330	21.822	13.062
+
+
+697) URXPREG
+Pregnancy test result
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	3030	1.899	0.335
+1) Positive	339	11.2
+2) Negative	2659	87.8
+3) Not done	32	1.1
+Missing	8009
+
+
+698) VARICELL
+Varicella antibody
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	332	1.614	0.652
+1) Yes	159	47.9
+2) No	142	42.8
+3) Equivocal	31	9.3
+Missing	10707
+
+

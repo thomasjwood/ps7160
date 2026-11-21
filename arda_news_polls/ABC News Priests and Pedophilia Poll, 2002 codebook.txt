@@ -1,0 +1,622 @@
+Data File: ABCPR02 (Full Data Codebook)
+
+1) RESPNO
+Response Number
+RANGE: 3 to 3557
+	N	Mean	Std. Deviation
+Total	1008	1677.335	1009.993
+
+
+2) DATE
+Date of Survey
+RANGE: 19 to 20
+	N	Mean	Std. Deviation
+Total	1008	19.41	0.492
+19) February 19, 2002	595	59.0
+20) February 20, 2002	413	41.0
+
+
+3) FIPS
+Full Fips Code
+RANGE: 1043 to 56041
+	N	Mean	Std. Deviation
+Total	1008	29615.48	15928.038
+
+
+4) MSA
+Metropolitan Statistical Area
+RANGE: 0 to 9320
+	N	Mean	Std. Deviation
+Total	1008	3512.175	2984.047
+
+
+5) CENSDIV
+Census Division
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1008	5.083	2.51
+1) New England	50	5.0
+2) Middle Atlantic	143	14.2
+3) East North Central	157	15.6
+4) West North Central	75	7.4
+5) South Atlantic	187	18.6
+6) East South Central	62	6.2
+7) West South Central	113	11.2
+8) Mountain	70	6.9
+9) Pacific	151	15.0
+
+
+6) REG4
+Region
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1008	2.606	1.03
+1) East (Census Division 1,2)	193	19.1
+2) Midwest (Census Division 3,4)	232	23.0
+3) South (Census Division 5,6,7)	362	35.9
+4) West (Census Division 8,9)	221	21.9
+
+
+7) DMA
+Designated Market Area - 3-digit code
+RANGE: 500 to 881
+	N	Mean	Std. Deviation
+Total	1008	621.794	112.273
+
+
+8) ABCNUM
+ABC State
+RANGE: 1 to 51
+	N	Mean	Std. Deviation
+Total	1008	26.615	14.94
+
+
+9) TZONE
+Time zone
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1008	1.892	1.082
+1) Eastern	493	48.9
+2) Central	288	28.6
+3) Mountain	70	6.9
+4) Pacific	157	15.6
+
+
+10) METSTAT
+Metro Status Code - related to MSA, Metropolitan Statistical  Area, used by the Census
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1008	2.691	1.529
+1) In the center city of an MSA	316	31.3
+2) Outside the center city of an MSA, but inside the county containing the center city	197	19.5
+3) Inside a suburban county of the MSA	213	21.1
+4) In an MSA that has no center city	46	4.6
+5) Not in an MSA	236	23.4
+
+
+11) TIMES
+Number of times Interviewer tried to call
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1008	1.617	0.949
+1) One time	618	61.3
+2) Two times	238	23.6
+3) Three times	92	9.1
+4) Four times	42	4.2
+5) Five times	16	1.6
+6) Six times	2	0.2
+
+
+12) OPINCATH
+Overall, would you say you have a favorable or unfavorable opinion of the Catholic Church?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	992	1.974	2.075
+1) Favorable	632	63.7
+2) Unfavorable	259	26.1
+8) DK/No opinion	101	10.2
+Missing	16
+
+
+13) BOSTPRST
+There have been news reports lately about a Catholic priest in Boston who's been accused of sexually abusing children. Do you happen to have heard or read about that, or not?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1005	1.316	0.465
+1) Have heard or read about case	687	68.4
+2) Have NOT heard or read about case	318	31.6
+Missing	3
+
+
+14) BOSTCONC
+[If BOSTPRST is 'Have heard or read about Boston Priest case'], then has that case made you more concerned about the issue of sexual abuse of children by priests, or not?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	687	1.472	0.992
+1) More concerned	435	63.3
+2) NOT More concerned	240	34.9
+8) DK/No opinion	12	1.7
+Missing	321
+
+
+15) ABUSPRST
+In your opinion, how much of a problem is the issue of sexual abuse of children by Catholic priests - would you say it's a major problem that demands immediate attention, a less -immediate problem or not much of a problem at all?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1005	1.718	1.318
+1) Major problem	589	58.6
+2) Less-immediate problem	265	26.4
+3) Not much of a problem at all	120	11.9
+8) DK/No opinion	31	3.1
+Missing	3
+
+
+16) ABUSFREQ
+Do you think that sexual abuse of children by Catholic priests is something that happens very often, somewhat often, infrequently, or very rarely?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1006	3.068	1.568
+1) Very often	106	10.5
+2) Somewhat often	281	27.9
+3) Infrequently	302	30.0
+4) Very rarely	253	25.1
+5) Never	4	0.4
+8) DK/No opinion	60	6.0
+Missing	2
+
+
+17) CATHDEAL
+Do you feel that the Catholic Church is or is not doing enough to deal with this issue?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1000	2.599	2.201
+1) Is doing enough	229	22.9
+2) Is NOT doing enough	633	63.3
+8) DK/No opinion	138	13.8
+Missing	8
+
+
+18) HURTREP
+Has the issue of sexual abuse of children by priests hurt the overall reputation of the Catholic Church in your eyes, or not?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1008	1.54	1.06
+1) Has hurt reputation	590	58.5
+2) Has NOT hurt reputation	397	39.4
+8) DK/No opinion	21	2.1
+
+
+19) HURTHOW
+[If HURTREP is 'has hurt reputation'], then has it hurt the Church's reputation in your eyes a great deal, or only somewhat?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	589	1.667	1.004
+1) Great deal	262	44.5
+2) Only somewhat	316	53.7
+8) DK/No opinion	11	1.9
+Missing	419
+
+
+20) PRSTMORE
+Do you think Catholic priests are more likely than other men to sexually abuse children, less likely, or about the same?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1005	2.715	1.126
+1) More likely	114	11.3
+2) Less likely	198	19.7
+3) About the same	665	66.2
+8) DK/No opinion	28	2.8
+Missing	3
+
+
+21) PRTMARRY
+As you may know, the Catholic Church does not allow priests to marry. Do you think this policy contributes to the problem of sexual abuse of children by priests, or not?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1008	1.701	1.355
+1) Contributes to problem	535	53.1
+2) Does NOT contribute to problem	434	43.1
+8) DK/No opinion	39	3.9
+
+
+22) PRTMAPRT
+[If PRTMARRY is 'Contributes to the problem'], Do you think it's a major part of the problem or a minor part?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	534	1.459	1.018
+1) Major part of problem	349	65.4
+2) Minor part of problem	175	32.8
+8) DK/No opinion	10	1.9
+Missing	474
+
+
+23) CHTRANSF
+Sometimes when a priest has been accused of sexually abusing a child, the Church has responded by transferring that priest to another parish, without telling parishioners about the accusation. Do you approve or disapprove of that practice? INTERVIEWER, GET ANSWER THEN ASK: Do you approve/disapprove strongly, or somewhat?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1002	3.107	0.796
+1) Approve strongly	21	2.1
+2) Approve somewhat	26	2.6
+3) Disapprove strongly	852	85.0
+4) Disapprove somewhat	85	8.5
+8) DK/No opinion	18	1.8
+Missing	6
+
+
+24) INFORM
+If a parish priest is accused of sexually abusing a child, do you think Church officials should or should not inform his parishioners of the charge?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1004	1.305	1.212
+1) Should inform parishioners	878	87.5
+2) Should NOT inform parishioners	96	9.6
+8) DK/No opinion	30	3.0
+Missing	4
+
+
+25) INFORMLW
+[If INFORM is 'Should inform parishioners'], should the Church be required by law to do that, or should it be up to the Church to decide?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	876	1.384	0.874
+1) Should be required by law	606	69.2
+2) Should be up to the Church	259	29.6
+8) DK/No opinion	11	1.3
+Missing	132
+
+
+26) POLICE
+If a priest is accused of sexually abusing a child, do you think Church officials should or should not report that information to the police?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1004	1.109	0.747
+1) Should report to police	961	95.7
+2) Should NOT report to police	32	3.2
+8) DK/No opinion	11	1.1
+Missing	4
+
+
+27) POLICELW
+[If INFORMPL is 'Should report to police'], should the Church be required by law to do that, or should it be up to the Church to decide?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	960	1.307	1.064
+1) Should be required by law	791	82.4
+2) Should be up to the Church	148	15.4
+8) DK/No opinion	21	2.2
+Missing	48
+
+
+28) WEIGHT
+Weight
+RANGE: 0.5149 to 5.2674
+	N	Mean	Std. Deviation
+Total	1008	1	0.528
+
+
+29) PARTYID
+Generally speaking, do you usually think of yourself as a Democrat, a Republican, an Independent, or what?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	996	2.108	1.05
+1) A Democrat	321	32.2
+2) A Republican	335	33.6
+3) An Independent	287	28.8
+4) Or what?	44	4.4
+8) DK/No opinion	9	0.9
+Missing	12
+
+
+30) EDUC
+What was the last grade of school you completed?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1004	3.996	1.167
+1) Eighth grade or less	15	1.5
+2) Some high school	68	6.8
+3) Graduated high school or technical school	283	28.2
+4) Some college	286	28.5
+5) Graduated college	244	24.3
+6) Postgraduate	108	10.8
+Missing	4
+
+
+31) AGE
+What is your age?
+RANGE: 18 to 94
+	N	Mean	Std. Deviation
+Total	993	45.334	16.188
+18) 	18	1.8
+19) 	16	1.6
+20) 	13	1.3
+21) 	14	1.4
+22) 	16	1.6
+23) 	13	1.3
+24) 	15	1.5
+25) 	14	1.4
+26) 	22	2.2
+27) 	13	1.3
+28) 	17	1.7
+29) 	21	2.1
+30) 	18	1.8
+31) 	16	1.6
+32) 	19	1.9
+33) 	13	1.3
+34) 	21	2.1
+35) 	22	2.2
+36) 	21	2.1
+37) 	33	3.3
+38) 	20	2.0
+39) 	23	2.3
+40) 	25	2.5
+41) 	14	1.4
+42) 	24	2.4
+43) 	14	1.4
+44) 	22	2.2
+45) 	28	2.8
+46) 	19	1.9
+47) 	25	2.5
+48) 	15	1.5
+49) 	20	2.0
+50) 	32	3.2
+51) 	17	1.7
+52) 	19	1.9
+53) 	20	2.0
+54) 	14	1.4
+55) 	28	2.8
+56) 	8	0.8
+57) 	16	1.6
+58) 	17	1.7
+59) 	17	1.7
+60) 	14	1.4
+61) 	9	0.9
+62) 	16	1.6
+63) 	8	0.8
+64) 	8	0.8
+65) 	18	1.8
+66) 	11	1.1
+67) 	4	0.4
+68) 	10	1.0
+69) 	10	1.0
+70) 	11	1.1
+71) 	15	1.5
+72) 	5	0.5
+73) 	5	0.5
+74) 	5	0.5
+75) 	11	1.1
+76) 	6	0.6
+77) 	5	0.5
+78) 	7	0.7
+79) 	5	0.5
+80) 	6	0.6
+81) 	2	0.2
+82) 	4	0.4
+83) 	1	0.1
+84) 	2	0.2
+85) 	1	0.1
+86) 	1	0.1
+94) 	1	0.1
+Missing	15
+
+
+32) RACE
+Are you of Hispanic origin or background? (IF 'YES,' ASK:) Are you white Hispanic or black Hispanic? (IF 'NO,' ASK:) Are you white, black, or some other race?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	997	1.574	1.377
+1) White	785	78.7
+2) Black	89	8.9
+3) White Hispanic	40	4.0
+4) Black Hispanic	1	0.1
+5) Hispanic (no race given)	10	1.0
+6) Other race	72	7.2
+Missing	11
+
+
+33) CALLBACK
+May a reporter from ABC News call you to talk about some of the things we've been discussing?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	412	1.316	0.465
+1) Yes	282	68.4
+2) No	130	31.6
+Missing	596
+
+
+34) SEX
+Gender
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1008	1.548	0.498
+1) Male	456	45.2
+2) Female	552	54.8
+
+
+35) DEGREE
+[If EDUC is 'Graduated College'], was that a bachelor's degree, or what?
+RANGE: 2 to 3
+	N	Mean	Std. Deviation
+Total	244	2.221	0.416
+2) Bachelor's degree	190	77.9
+3) Other	54	22.1
+Missing	764
+
+
+36) RELNET
+Net Religion
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	987	2.055	1.372
+1) Protestant	494	50.1
+2) Catholic	235	23.8
+3) Christian (non-Protestant)	87	8.8
+4) Other non-Christian	52	5.3
+5) None	119	12.1
+Missing	21
+
+
+37) RELIGION
+What, if anything, is your religion?
+RANGE: 1 to 25
+	N	Mean	Std. Deviation
+Total	987	11.864	8.67
+1) Agnostic	15	1.5
+2) Atheist	4	0.4
+3) Baptist	125	12.7
+4) Catholic/Roman Catholic	235	23.8
+6) Episcopalian	19	1.9
+7) Jewish	27	2.7
+8) Lutheran	52	5.3
+9) Methodist	68	6.9
+10) Pentecostal	12	1.2
+11) Presbyterian	26	2.6
+13) Southern Baptist	5	0.5
+14) NONE	100	10.1
+22) Christian (non-Protestant)	87	8.8
+23) Other non-Christian	19	1.9
+24) Islam/Muslim	6	0.6
+25) Protestant non-denominational	187	18.9
+Missing	21
+
+
+38) PROTDEM
+[IF RELIGION is 'Christian'], is that a Protestant denomination, or not?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	113	1.717	1.306
+1) Yes	56	49.6
+2) No	53	46.9
+8) DK/No opinion	4	3.5
+Missing	895
+
+
+39) ATTEND
+Aside from weddings and funerals, how often do you attend religious services - at least once a week, a few times a month, or less often than that?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1002	2.132	0.969
+1) At least once a week	373	37.2
+2) A few times a month	164	16.4
+3) Less often than that	425	42.4
+4) Never	40	4.0
+Missing	6
+
+
+40) TRSTPRST
+[If RELIGION is 'Catholic/Roman Catholic'], how much do you trust your own parish priest around children - do you trust him completely, a good amount, somewhat, or not much?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	233	2.009	1.715
+1) Completely	143	61.4
+2) Good amount	34	14.6
+3) Somewhat	21	9.0
+4) Not much	8	3.4
+5) Don't know priest/Don't go to church/Don't have parish	18	7.7
+8) DK/No opinion	9	3.9
+Missing	775
+
+
+41) REGION
+Region by Census Division
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1008	2.606	1.03
+1) East (Census Division = 1,2)	193	19.1
+2) Midwest (Census Division = 3,4)	232	23.0
+3) South (Census Division = 5,6,7)	362	35.9
+4) West (Census Division = 8,9)	221	21.9
+
+
+42) AGEBREAK
+Age Breaks
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	993	2.476	1.025
+1) 18-30 years	210	21.1
+2) 31-44 years	287	28.9
+3) 45-60 years	309	31.1
+4) 61+ years	187	18.8
+Missing	15
+
+
+43) EDUBREAK
+Education Breaks
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1004	2.553	0.643
+1) Less than high school	83	8.3
+2) Graduated high school	283	28.2
+3) Some college+	638	63.5
+Missing	4
+
+
+44) I-REGION
+Region by Census Division (for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1008	2.606	1.03
+1) East (Census Division = 1,2)	193	19.1
+2) Midwest (Census Division = 3,4)	232	23.0
+3) South (Census Division = 5,6,7)	362	35.9
+4) West (Census Division = 8,9)	221	21.9
+
+
+45) I-RELIGION
+Net Religion (for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	987	2.055	1.372
+1) Protestant	494	50.1
+2) Catholic	235	23.8
+3) Christian (non-Protestant)	87	8.8
+4) Other non-Christian	52	5.3
+5) None	119	12.1
+Missing	21
+
+
+46) I-EDUC
+What was the last grade of school you completed? (recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1004	3.011	1.134
+1) Some high school or less than high school	83	8.3
+2) Graduated high school or technical school	283	28.2
+3) Some college	286	28.5
+4) Graduated college	244	24.3
+5) Postgraduate	108	10.8
+Missing	4
+
+
+47) I-PARTYID
+Generally speaking, do you usually think of yourself as a Democrat, a Republican, an Independent, or what? (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	987	2.055	0.89
+1) A Democrat	321	32.5
+2) A Republican	335	33.9
+3) An Independent	287	29.1
+4) Or what?	44	4.5
+Missing	21
+
+
+48) I-SEX
+Gender (for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1008	1.548	0.498
+1) Male	456	45.2
+2) Female	552	54.8
+
+
+49) I-AGE
+What is your age? (recoded for use with online analysis) 
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	993	2.407	0.979
+1) 18-30	210	21.1
+2) 31-45	315	31.7
+3) 46-64	322	32.4
+4) 65+	146	14.7
+Missing	15
+
+

@@ -1,0 +1,1190 @@
+Data File: PUSJS2020 (Full Data Codebook)
+
+1) QKEY
+Unique respondent identification number
+RANGE: 10000003 to 30512014
+	N	Mean	Std. Deviation
+Total	68398	11481274.921	4949269.997
+
+
+2) FINALMODE
+Created variable - The mode in which the screener and extended survey were administered
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	68398	1.303	0.467
+1) Screener and extended survey via WEB	47918	70.1
+2) Screener and extended survey via PAPER/MAIL	20232	29.6
+3) Screener via WEB, extended survey via PAPER/MAIL	248	0.4
+
+
+3) ELIGTYPE
+Summary variable of eligibility criteria for extended dataset. These codes are based on respondent answers prior to any cleaning or coding of screening questions and may not match the value in the cleaned versions of the screening variables in this dataset
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	68398	4.623	1.113
+1) Jewish in RELIGMOD	4572	6.7
+2) Yes in RELCONSIDER_A	2133	3.1
+3) Yes in RELRAISED_A	539	0.8
+4) Identified by analyst review	1	0.0
+5) Not eligible for extended interview	61153	89.4
+
+
+4) EXTCOMP
+Summary variable indicating whether respondent appears in extended dataset
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	68398	4.598	1.177
+1) Qualified for extended survey and completed it (INCLUDED in extended dataset)	5881	8.6
+2) Qualified for extended survey but did not complete it (NOT INCLUDED in extended dataset)	1272	1.9
+3) Appeared qualified for extended, but then determined not to be Jewish in anyway based on responses in extended interview (NOT INCLUDED in extended dataset)	63	0.1
+4) Qualified for extended survey but subsampled for Faith Among Black Americans survey (NOT INCLUDED in extended dataset)	29	0.0
+5) Not qualified for extended survey (NOT INCLUDED in extended dataset)	61153	89.4
+
+
+5) SCREENERPREFLANG
+Last language selected to complete the screener survey
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	68398	1.015	0.14
+1) English	67527	98.7
+2) Spanish	710	1.0
+3) Russian	161	0.2
+
+
+6) SATISFPERSMOD
+Overall, how would you rate the way things are going in your life today?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	68398	2.549	7.676
+1) Excellent	16540	24.2
+2) Good	40458	59.2
+3) Only fair	9259	13.5
+4) Poor	1714	2.5
+99) Not answered	427	0.6
+
+
+7) LOCALRATING
+Overall, how would you rate your community as a place to live?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	68398	3.047	11.032
+1) Excellent	23689	34.6
+2) Good	35947	52.6
+3) Only fair	6691	9.8
+4) Poor	1182	1.7
+99) Not answered	889	1.3
+
+
+8) TRACK
+Would you say things in this country today are...
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	68398	3.6	13.668
+1) Generally headed in the right direction	23837	34.9
+2) Off on the wrong track	43187	63.1
+99) Not answered	1374	2.0
+
+
+9) VOL1_CPS
+In the past 12 months, did you spend any time volunteering for any organization or association?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	68398	2.69	10.666
+1) Yes	33041	48.3
+2) No	34530	50.5
+99) Not answered	827	1.2
+
+
+10) VOL2_CPS
+Some people don't think of activities they do infrequently or for children's schools or youth organizations as volunteer activities. In the past 12 months have you done any of these types of activities?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	35357	5.097	17.513
+1) Yes	5725	16.2
+2) No	28444	80.4
+99) Not answered	1188	3.4
+Missing	33041
+
+
+11) MEANINGMOD_A
+Many things can make a person feel that their life is meaningful and fulfilling. Regardless of how much time you spend doing it, how much meaning and fulfillment, if any, does each of the following provide you? Spending time with family
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	68398	2.329	9.862
+1) A great deal	51480	75.3
+2) Some	12382	18.1
+3) Not much	2496	3.6
+4) None at all	517	0.8
+5) Not applicable	822	1.2
+99) Not answered	701	1.0
+
+
+12) MEANINGMOD_B
+Many things can make a person feel that their life is meaningful and fulfilling. Regardless of how much time you spend doing it, how much meaning and fulfillment, if any, does each of the following provide you? Spending time with friends
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	68398	2.623	10.236
+1) A great deal	38634	56.5
+2) Some	23236	34.0
+3) Not much	4463	6.5
+4) None at all	728	1.1
+5) Not applicable	578	0.8
+99) Not answered	759	1.1
+
+
+13) MEANINGMOD_C
+Many things can make a person feel that their life is meaningful and fulfilling. Regardless of how much time you spend doing it, how much meaning and fulfillment, if any, does each of the following provide you? Your religious faith
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	68398	3.666	10.81
+1) A great deal	24069	35.2
+2) Some	16210	23.7
+3) Not much	9643	14.1
+4) None at all	7254	10.6
+5) Not applicable	10369	15.2
+99) Not answered	853	1.2
+
+
+14) MEANINGMOD_D
+Many things can make a person feel that their life is meaningful and fulfilling. Regardless of how much time you spend doing it, how much meaning and fulfillment, if any, does each of the following provide you? Being outdoors and experiencing nature
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	68398	2.69	10.587
+1) A great deal	38965	57.0
+2) Some	22790	33.3
+3) Not much	4711	6.9
+4) None at all	776	1.1
+5) Not applicable	343	0.5
+99) Not answered	813	1.2
+
+
+15) MEANINGMOD_E
+Many things can make a person feel that their life is meaningful and fulfilling. Regardless of how much time you spend doing it, how much meaning and fulfillment, if any, does each of the following provide you? Spending time with pets or animals
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	68398	3.561	11.029
+1) A great deal	28408	41.5
+2) Some	16067	23.5
+3) Not much	7188	10.5
+4) None at all	5513	8.1
+5) Not applicable	10336	15.1
+99) Not answered	886	1.3
+
+
+16) MEANINGMOD_F
+Many things can make a person feel that their life is meaningful and fulfilling. Regardless of how much time you spend doing it, how much meaning and fulfillment, if any, does each of the following provide you? Your job, career or education
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	68398	3.845	12.204
+1) A great deal	24944	36.5
+2) Some	22668	33.1
+3) Not much	5879	8.6
+4) None at all	2086	3.0
+5) Not applicable	11729	17.1
+99) Not answered	1092	1.6
+
+
+17) MEANINGMOD_G
+Many things can make a person feel that their life is meaningful and fulfilling. Regardless of how much time you spend doing it, how much meaning and fulfillment, if any, does each of the following provide you? Arts and literature, such as music, painting and reading
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	68398	2.614	9.513
+1) A great deal	33066	48.3
+2) Some	26079	38.1
+3) Not much	6383	9.3
+4) None at all	1472	2.2
+5) Not applicable	743	1.1
+99) Not answered	655	1.0
+
+
+18) SEXASK
+Are you male or female?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	68398	2.401	9.154
+1) Male	31460	46.0
+2) Female	36331	53.1
+99) Not answered	607	0.9
+
+
+19) AGE4CAT
+Age variable (see AGE in questionnaire for full question wording)
+RANGE: 1 to 999
+	N	Mean	Std. Deviation
+Total	68398	33.46	171.931
+1) 18-29	6456	9.4
+2) 30-49	19063	27.9
+3) 50-64	19014	27.8
+4) 65+	21763	31.8
+999) No answer	2102	3.1
+
+
+20) EDUC4CAT
+Education variable (see EDUC_ACS in questionnaire for full question wording)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	68398	3.367	7.764
+1) High school or less	9887	14.5
+2) Some college	17517	25.6
+3) College graduate	20424	29.9
+4) Postgrad degree	20130	29.4
+99) No answer	440	0.6
+
+
+21) RELIGMOD
+What is your present religion, if any?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	68398	8.925	19.043
+1) Protestant	22628	33.1
+2) Roman Catholic	15778	23.1
+3) Mormon	714	1.0
+4) Jehovah's Witnesses	272	0.4
+5) Jewish	4548	6.6
+6) Muslim	528	0.8
+7) Buddhist	755	1.1
+9) Atheist	4121	6.0
+10) Agnostic	4208	6.2
+12) Nothing in particular	9697	14.2
+13) (VOL) Christian	912	1.3
+14) (VOL) Jewish and Christian - Messianic Jew	57	0.1
+15) (VOL) Jewish and Christian (not including Messianic Jews)	33	0.0
+16) (VOL) Jewish and non-Christian religion	20	0.0
+17) (VOL) Jewish and no religion/atheist/agnostic	16	0.0
+22) (VOL) Orthodox Christian	480	0.7
+40) (VOL) Unitarian	253	0.4
+41) (VOL) Wiccan/Pagan	155	0.2
+42) (VOL) Spiritual	502	0.7
+43) (VOL) Non-denominational	30	0.0
+47) (VOL) Humanist/secular Humanist	30	0.0
+97) (VOL) Other - Christian	172	0.3
+98) (VOL) Other - not Christian	1355	2.0
+99) Don't know/refused	1134	1.7
+
+
+22) HISP
+Are you of Hispanic, Latino, or Spanish origin, such as Mexican, Puerto Rican, Cuban or Argentinian?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	68398	3.478	12.21
+1) Yes	5510	8.1
+2) No	61789	90.3
+99) Refused	1099	1.6
+
+
+23) RACECMB
+Race variable (see RACEMOD in questionnaire for full question wording)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	68398	3.883	15.471
+1) White	54534	79.7
+2) Black or African-American	4578	6.7
+3) Asian or Asian-American	3697	5.4
+4) Mixed Race	2266	3.3
+5) Or some other race	1566	2.3
+99) Refused	1757	2.6
+
+
+24) RACETHN
+Race/ethnicity variable (see HISP and RACEMOD in the questionnaire for full question wording)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	68398	3.501	13.903
+1) White non-Hispanic	51383	75.1
+2) Black non-Hispanic	4364	6.4
+3) Hispanic	5510	8.1
+4) Other, non-Hispanic	5728	8.4
+99) Don't know/Refused	1413	2.1
+
+
+25) AFROHISP
+Do you consider yourself Afro-Latino or Afro-Hispanic, or not?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	68398	3.856	13.332
+1) Yes	827	1.2
+2) No	66254	96.9
+99) Not answered	1317	1.9
+
+
+26) RELCONSIDER_A
+ASIDE from religion, do you consider yourself to be any of the following in any way (for example, ethnically, culturally or because of your family's background)? Jewish
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	63720	11.324	28.647
+1) Yes, consider myself this	2042	3.2
+2) No, do not consider myself this	55532	87.2
+99) Refused	6146	9.6
+Missing	4678
+
+
+27) RELCONSIDER_B
+ASIDE from religion, do you consider yourself to be any of the following in any way (for example, ethnically, culturally or because of your family's background)? Catholic
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	47941	7.893	23.386
+1) Yes, consider myself this	4880	10.2
+2) No, do not consider myself this	40098	83.6
+99) Refused	2963	6.2
+Missing	20457
+
+
+28) RELCONSIDER_C
+ASIDE from religion, do you consider yourself to be any of the following in any way (for example, ethnically, culturally or because of your family's background)? Mormon
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	63005	12.522	30.172
+1) Yes, consider myself this	234	0.4
+2) No, do not consider myself this	55934	88.8
+99) Refused	6837	10.9
+Missing	5393
+
+
+29) RELCONSIDER_D
+ASIDE from religion, do you consider yourself to be any of the following in any way (for example, ethnically, culturally or because of your family's background)? Muslim
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	63191	12.422	30.045
+1) Yes, consider myself this	236	0.4
+2) No, do not consider myself this	56163	88.9
+99) Refused	6792	10.7
+Missing	5207
+
+
+30) RELRAISED_A
+Please indicate whether you were raised in any of the following traditions or had a parent from any of the following backgrounds. Jewish
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	61678	11.611	28.996
+1) Yes, was raised in this tradition or had a parent from this background	537	0.9
+2) No, was not raised in this tradition and did not have a parent from this background	55024	89.2
+99) Refused	6117	9.9
+Missing	6720
+
+
+31) RELRAISED_B
+Please indicate whether you were raised in any of the following traditions or had a parent from any of the following backgrounds. Catholic
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	41557	6.858	21.6
+1) Yes, was raised in this tradition or had a parent from this background	8036	19.3
+2) No, was not raised in this tradition and did not have a parent from this background	31357	75.5
+99) Refused	2164	5.2
+Missing	26841
+
+
+32) RELRAISED_C
+Please indicate whether you were raised in any of the following traditions or had a parent from any of the following backgrounds. Mormon
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	60799	11.746	29.173
+1) Yes, was raised in this tradition or had a parent from this background	388	0.6
+2) No, was not raised in this tradition and did not have a parent from this background	54298	89.3
+99) Refused	6113	10.1
+Missing	7599
+
+
+33) RELRAISED_D
+Please indicate whether you were raised in any of the following traditions or had a parent from any of the following backgrounds. Muslim
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	60994	11.719	29.133
+1) Yes, was raised in this tradition or had a parent from this background	241	0.4
+2) No, was not raised in this tradition and did not have a parent from this background	54639	89.6
+99) Refused	6114	10.0
+Missing	7404
+
+
+34) HHADULTTOT_FIN
+Number of adults residing in household (see HHADULT, HHADULTM, HHADTULF in the questionnaire for full question wording)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	5944	1.88	0.792
+1) 	1856	31.2
+2) 	3281	55.2
+3) 	542	9.1
+4) 	194	3.3
+5) 	71	1.2
+Missing	62454
+
+
+35) HHCHILD_FIN
+Number of children residing in household (see HHCHILD in the questionnaire for full question wording)
+RANGE: 0 to 5
+	N	Mean	Std. Deviation
+Total	5944	0.399	0.911
+0) 	4701	79.1
+1) 	515	8.7
+2) 	492	8.3
+3) 	130	2.2
+4) 	47	0.8
+5) 	59	1.0
+Missing	62454
+
+
+36) SCRWEIGHT
+Full-sample weight for all of the adults who completed the screener interview. Should only be used for questions asked in the screening survey.
+RANGE: 53.999740618312 to 112887.427303023
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5793.916
+
+
+37) SCRWEIGHT1
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 111989.803633181
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5830.223
+
+
+38) SCRWEIGHT2
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112926.466948473
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5828.351
+
+
+39) SCRWEIGHT3
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113049.969228062
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5820.071
+
+
+40) SCRWEIGHT4
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112612.691447902
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5821.208
+
+
+41) SCRWEIGHT5
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112908.821178361
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5816.251
+
+
+42) SCRWEIGHT6
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112428.307261956
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5828.517
+
+
+43) SCRWEIGHT7
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 182704.29127907
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5863.044
+
+
+44) SCRWEIGHT8
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113267.496172321
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5838.445
+
+
+45) SCRWEIGHT9
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113307.355809274
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5821.023
+
+
+46) SCRWEIGHT10
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113070.448377148
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5831.043
+
+
+47) SCRWEIGHT11
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113241.380070759
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5834.216
+
+
+48) SCRWEIGHT12
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113657.362061843
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5831.763
+
+
+49) SCRWEIGHT13
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112227.576882817
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5824.277
+
+
+50) SCRWEIGHT14
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113039.221880082
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5825.61
+
+
+51) SCRWEIGHT15
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 161167.094869807
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5831.263
+
+
+52) SCRWEIGHT16
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113308.75409853
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5826.978
+
+
+53) SCRWEIGHT17
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112061.069487528
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5832.713
+
+
+54) SCRWEIGHT18
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 156612.866262078
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5839.79
+
+
+55) SCRWEIGHT19
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112533.093432015
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5818.965
+
+
+56) SCRWEIGHT20
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112684.003645306
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5826.714
+
+
+57) SCRWEIGHT21
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112293.508055314
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5819.124
+
+
+58) SCRWEIGHT22
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112589.719150648
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5831.409
+
+
+59) SCRWEIGHT23
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 181616.574312691
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5858.957
+
+
+60) SCRWEIGHT24
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113842.995867703
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5826.511
+
+
+61) SCRWEIGHT25
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113097.14707743
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5841.472
+
+
+62) SCRWEIGHT26
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112519.698628547
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5825.667
+
+
+63) SCRWEIGHT27
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 145775.647874745
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5846.656
+
+
+64) SCRWEIGHT28
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 130689.739695272
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5835.2
+
+
+65) SCRWEIGHT29
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 114109.528340711
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5824.714
+
+
+66) SCRWEIGHT30
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112614.135093228
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5830.502
+
+
+67) SCRWEIGHT31
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112206.144551417
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5834.331
+
+
+68) SCRWEIGHT32
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113389.536039604
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5824.273
+
+
+69) SCRWEIGHT33
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113826.035784042
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5823.906
+
+
+70) SCRWEIGHT34
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113388.080840856
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5824.994
+
+
+71) SCRWEIGHT35
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112879.156279236
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5833.065
+
+
+72) SCRWEIGHT36
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 164079.867462072
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5848.547
+
+
+73) SCRWEIGHT37
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 116269.246727656
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5826.516
+
+
+74) SCRWEIGHT38
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113406.191904642
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5831.585
+
+
+75) SCRWEIGHT39
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113782.727195722
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5823.976
+
+
+76) SCRWEIGHT40
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112925.06437008
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5837.885
+
+
+77) SCRWEIGHT41
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113126.958261975
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5833.737
+
+
+78) SCRWEIGHT42
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 124821.101387716
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5835.443
+
+
+79) SCRWEIGHT43
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113170.357677777
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5832.111
+
+
+80) SCRWEIGHT44
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112692.598078981
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5820.601
+
+
+81) SCRWEIGHT45
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 117047.368300058
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5838.34
+
+
+82) SCRWEIGHT46
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112980.558675724
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5828.438
+
+
+83) SCRWEIGHT47
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 120472.410215733
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5833.021
+
+
+84) SCRWEIGHT48
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113193.784761359
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5822.869
+
+
+85) SCRWEIGHT49
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 124638.123888425
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5838.986
+
+
+86) SCRWEIGHT50
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 195762.534824732
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5855.804
+
+
+87) SCRWEIGHT51
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112530.49532918
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5824.494
+
+
+88) SCRWEIGHT52
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 116520.611558097
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5828.155
+
+
+89) SCRWEIGHT53
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112541.992664992
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5832.926
+
+
+90) SCRWEIGHT54
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112720.049697975
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5836.002
+
+
+91) SCRWEIGHT55
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 114033.743054077
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5827.473
+
+
+92) SCRWEIGHT56
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 165588.545124667
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5854.098
+
+
+93) SCRWEIGHT57
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 118235.982703149
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5836.933
+
+
+94) SCRWEIGHT58
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113772.086252738
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5822.867
+
+
+95) SCRWEIGHT59
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112331.896133772
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5828.405
+
+
+96) SCRWEIGHT60
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113418.973560014
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5821.081
+
+
+97) SCRWEIGHT61
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112581.925275891
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5844.479
+
+
+98) SCRWEIGHT62
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113405.495259876
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5820.398
+
+
+99) SCRWEIGHT63
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 111818.449717437
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5835.774
+
+
+100) SCRWEIGHT64
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 135918.935101574
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5839.076
+
+
+101) SCRWEIGHT65
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112546.55948788
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5824.059
+
+
+102) SCRWEIGHT66
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112194.277841935
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5829.67
+
+
+103) SCRWEIGHT67
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 196995.839216908
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5852.508
+
+
+104) SCRWEIGHT68
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 191547.532946515
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5857.303
+
+
+105) SCRWEIGHT69
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 111831.910907026
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5840.671
+
+
+106) SCRWEIGHT70
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113695.22118538
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5826.507
+
+
+107) SCRWEIGHT71
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 111865.360701036
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5839.576
+
+
+108) SCRWEIGHT72
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 133216.908951589
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5833.677
+
+
+109) SCRWEIGHT73
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 114098.404422287
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5828.652
+
+
+110) SCRWEIGHT74
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 114006.151111557
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5830.975
+
+
+111) SCRWEIGHT75
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113086.774661222
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5828.99
+
+
+112) SCRWEIGHT76
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113002.498170777
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5830.159
+
+
+113) SCRWEIGHT77
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 145082.574279681
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5858.213
+
+
+114) SCRWEIGHT78
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 114171.109921418
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5835.739
+
+
+115) SCRWEIGHT79
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112877.719000519
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5826.052
+
+
+116) SCRWEIGHT80
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113470.405375582
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5828.401
+
+
+117) SCRWEIGHT81
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 121631.304301394
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5840.954
+
+
+118) SCRWEIGHT82
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113617.678543233
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5830.327
+
+
+119) SCRWEIGHT83
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113560.045003099
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5820.258
+
+
+120) SCRWEIGHT84
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 122655.865455404
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5841.311
+
+
+121) SCRWEIGHT85
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112823.872309306
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5822.564
+
+
+122) SCRWEIGHT86
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 113217.517101559
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5827.996
+
+
+123) SCRWEIGHT87
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112801.697419578
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5832.118
+
+
+124) SCRWEIGHT88
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112601.26784637
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5833.353
+
+
+125) SCRWEIGHT89
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112961.565391908
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5827.507
+
+
+126) SCRWEIGHT90
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112669.548278481
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5836.944
+
+
+127) SCRWEIGHT91
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 193175.758675375
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5857.58
+
+
+128) SCRWEIGHT92
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 222390.631836163
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5870.167
+
+
+129) SCRWEIGHT93
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 135230.526549517
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5848.196
+
+
+130) SCRWEIGHT94
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112922.002520853
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5824.128
+
+
+131) SCRWEIGHT95
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 123646.303187633
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5843.885
+
+
+132) SCRWEIGHT96
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112506.213295026
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5837.776
+
+
+133) SCRWEIGHT97
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 121014.344157041
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5851.082
+
+
+134) SCRWEIGHT98
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 112235.334052796
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5844.26
+
+
+135) SCRWEIGHT99
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 114901.183294222
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5832.223
+
+
+136) SCRWEIGHT100
+Jackknife replicate weights for all of the adults who completed the screener interview.
+RANGE: 0 to 117136.309927978
+	N	Mean	Std. Deviation
+Total	68398	3590.775	5846.751
+
+
+137) I-AGE
+Age variable (see AGE in questionnaire for full question wording) (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	66296	2.846	0.991
+1) 18-29	6456	9.7
+2) 30-49	19063	28.8
+3) 50-64	19014	28.7
+4) 65 plus	21763	32.8
+Missing	2102
+
+
+138) I-EDUC
+Education variable (see EDUC_ACS in questionnaire for full question wording) (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	67958	2.747	1.035
+1) High school or less	9887	14.5
+2) Some college	17517	25.8
+3) College graduate	20424	30.1
+4) Postgraduate degree	20130	29.6
+Missing	440
+
+
+139) I-RACE
+Race/ethnicity variable (see HISP and RACEMOD in the questionnaire for full question wording) (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	66985	1.486	0.963
+1) White non-Hispanic	51383	76.7
+2) Black non-Hispanic	4364	6.5
+3) Hispanic	5510	8.2
+4) Other, non-Hispanic	5728	8.6
+Missing	1413
+
+
+140) I-RELIGION
+What is your present religion, if any? (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	67264	2.496	1.365
+1) Protestant	22628	33.6
+2) Roman Catholic	15778	23.5
+3) Other (Mormon, Jehovah's Witnesses, Muslim, Buddhist, or some other religion)	6284	9.3
+4) Atheist, agnostic, or nothing in particular	18026	26.8
+5) Jewish	4548	6.8
+Missing	1134
+
+
+141) I-SEX
+Are you male or female? (Recoded for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	67791	1.536	0.499
+1) Male	31460	46.4
+2) Female	36331	53.6
+Missing	607
+
+

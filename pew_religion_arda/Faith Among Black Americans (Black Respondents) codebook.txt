@@ -1,0 +1,1885 @@
+Data File: BFBR (Full Data Codebook)
+
+1) CASEID
+Unique respondent identification number. The same respondent might have a different CASEID in each dataset.
+RANGE: 1 to 8660
+	N	Mean	Std. Deviation
+Total	8660	4330.5	2500.071
+
+
+2) WEIGHT
+Weight variable used in in the 'Faith Among Black Americans' report. The weight is trimmed at the 95th percentile for all respondents. See methodology for full details on how the weights were calculated
+RANGE: 0.008827 to 1.398643
+	N	Mean	Std. Deviation
+Total	8660	0.367	0.35
+
+
+3) BLACK
+Did the respondent identify as Black or African American? Includes single-race Black adults and multiracial Black adults who identify as Hispanic or Latino (but does not consider responses from AFROHISP).
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	8660	1	0
+1) Identified as Black	8660	100.0
+
+
+4) SAMPLE
+Sample source
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	8660	2.699	1.285
+1) Knowledge Panel	2558	29.5
+2) American Trends Panel	1175	13.6
+3) AmeriSpeak	1246	14.4
+4) ABS	3681	42.5
+
+
+5) LANGUAGE
+Language that the respondent took the survey in.
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	8660	1.005	0.071
+1) English	8616	99.5
+2) Spanish	44	0.5
+
+
+6) REGION
+Which of the four Census Bureau regions of the U.S. the respondent lives in.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	2.545	1.387
+1) Northeast	1688	19.5
+2) Midwest	1563	18.0
+3) South	4501	52.0
+4) West	907	10.5
+99) Not answered	1	0.0
+
+
+7) DIVISION
+Which of the nine Census Bureau subregional divisions of the U.S. the respondent lives in.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	4.762	2.353
+1) New England	239	2.8
+2) Middle Atlantic	1449	16.7
+3) East North Central	1265	14.6
+4) West North Central	298	3.4
+5) South Atlantic	2881	33.3
+6) East South Central	659	7.6
+7) West South Central	961	11.1
+8) Mountain	237	2.7
+9) Pacific	670	7.7
+99) Not answered	1	0.0
+
+
+8) METRO
+Does the respondent live in a county that is part of a Core-Based Statistical Area as defined by the Census?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	1.077	1.081
+1) Yes	8086	93.4
+2) No	573	6.6
+99) Not answered	1	0.0
+
+
+9) SATISFPERSMOD
+Overall, how would you rate the way things are going in your life today?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	2.545	6.184
+1) Excellent	1175	13.6
+2) Good	5305	61.3
+3) Only fair	1791	20.7
+4) Poor	354	4.1
+99) Not answered	35	0.4
+
+
+10) LOCALRATING
+Overall, how would you rate your community as a place to live?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.702	12.239
+1) Excellent	1430	16.5
+2) Good	4943	57.1
+3) Only fair	1708	19.7
+4) Poor	439	5.1
+99) Not answered	140	1.6
+
+
+11) VOLSUM
+Did you spend any time volunteering in the past year? Combines responses to two questions on volunteering (VOL1_CPS and VOL2_CPS).
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	2.37	9.285
+1) Yes	4457	51.5
+2) No	4124	47.6
+99) Not answered	79	0.9
+
+
+12) SEX
+Are you male or female?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	1.823	3.939
+1) Male	2892	33.4
+2) Female	5754	66.4
+99) Not answered	14	0.2
+
+
+13) AGECAT
+What is your age? Recoded into ranges.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.737	10.183
+1) 18-29	953	11.0
+2) 30-49	2900	33.5
+3) 50-64	2837	32.8
+4) 65+	1873	21.6
+99) Not answered	97	1.1
+
+
+14) GENERATIONS
+Generational cohort. Based on AGE.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	4.839	9.912
+1) Greatest Generation (born before 1928)	14	0.2
+2) Silent Generation (born 1928-1945)	503	5.8
+3) Baby Boomers (born 1946-1964)	3223	37.2
+4) Generation X (born 1965-1980)	2475	28.6
+5) Millennials (born 1981-1996)	2094	24.2
+6) Generation Z (born 1997 or later)	257	3.0
+99) Not answered	94	1.1
+
+
+15) EDUCCAT2
+What is the highest degree or level of school that you have completed? Response options are combined.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.985	3.429
+1) Less than high school	440	5.1
+2) High school diploma	1412	16.3
+3) Some college credit, but no degree	2199	25.4
+4) Associate degree (for example: AA, AS)	958	11.1
+5) Bachelor's degree (for example: BA, BS)	1922	22.2
+6) Post-graduate degree	1720	19.9
+99) Not answered	9	0.1
+
+
+16) RELIGMOD
+What is your present religion, if any?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.898	6.955
+1) Protestant (for example, Baptist, Methodist, nondenominational, Lutheran,      Presbyterian, Pentecostal, Episcopalian, Reformed, Churches of Christ, etc.)	5784	66.8
+2) Roman Catholic	562	6.5
+3) Mormon (Church of Jesus Christ of Latter-day Saints, or LDS)	34	0.4
+4) Jehovah's Witnesses	147	1.7
+5) Jewish	8	0.1
+6) Muslim	100	1.2
+7) Buddhist	35	0.4
+8) Hindu	11	0.1
+9) Atheist	124	1.4
+10) Agnostic	205	2.4
+11) Something else, specify: _________	216	2.5
+12) Nothing in particular	1406	16.2
+99) Not answered	28	0.3
+
+
+17) DENOMGRP
+What Protestant religious tradition does the respondent's denomination fall into. Combines responses for QA10-QA11k
+RANGE: 1 to 500
+	N	Mean	Std. Deviation
+Total	5784	239.659	166.516
+1) Historically Black Protestant denominations	1389	24.0
+100) Other Black denominations	25	0.4
+200) Vague or ambiguous denominational affiliation	1707	29.5
+300) Nondenominational	991	17.1
+400) Evangelical denomination	924	16.0
+500) Mainline denomination	748	12.9
+Missing	2876
+
+
+18) PROTFAM
+What Protestant denominational family does the respondent's denomination fall into. Combines responses for QA10-QA11k.
+RANGE: 1 to 19
+	N	Mean	Std. Deviation
+Total	5784	4.729	5.462
+1) Baptist	2663	46.0
+2) Pentecostal	648	11.2
+3) Methodist	491	8.5
+4) Restorationist (e.g., Churches of Christ, Disciples of Christ)	168	2.9
+5) Presbyterian	65	1.1
+6) Holiness	66	1.1
+7) Episcopalian or Anglican	94	1.6
+9) Nondenominational or independent church	991	17.1
+18) Ambiguous or non-specific family	412	7.1
+19) Other family: not reported due to sample size	186	3.2
+Missing	2876
+
+
+19) RELCONSIDERD
+Aside from religion, do you consider yourself to be Muslim in any way (for example, ethnically, culturally or because of your family's background?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7420	5.492	18.102
+1) Yes, consider myself Muslim	83	1.1
+2) No, do not consider myself Muslim	7069	95.3
+99) Not answered	268	3.6
+Missing	1240
+
+
+20) RELCONSIDER
+In what way do you consider yourself Muslim? Response types coded based on open-ended answers.  Respondent's race or ethnicity. Combines all responses from F_RACEMOD and F_HISP.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	83	5.289	3.406
+1) Beliefs	16	19.3
+2) Practices	11	13.3
+3) Beliefs and practices	6	7.2
+4) Family/upbringing	10	12.0
+5) All religions are one	4	4.8
+8) Unclear	1	1.2
+9) No reason given	35	42.2
+Missing	8577
+
+
+21) RACETHN
+Respondent's race or ethnicity. Combines all responses from F_RACEMOD and F_HISP.
+RANGE: 2 to 4
+	N	Mean	Std. Deviation
+Total	8660	2.237	0.599
+2) Single race Black, non-Hispanic	7378	85.2
+3) Hispanic	511	5.9
+4) Other, non-Hispanic	771	8.9
+
+
+22) AFROHISP
+Do you consider yourself Afro-Latino or Afro-Hispanic, or not?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	2.68	8.445
+1) Yes	516	6.0
+2) No	8078	93.3
+99) Not answered	66	0.8
+
+
+23) LOCALACTIVITY_C
+Here are some ways people can participate in what is happening in their local area. Please indicate if you have done any of the following in the past year. Organized or participated in rallies or protests
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	2.756	9.061
+1) Yes, in the past year	824	9.5
+2) No, not in the past year	7760	89.6
+99) Not answered	76	0.9
+
+
+24) LOCALACTIVITY_F
+Here are some ways people can participate in what is happening in their local area. Please indicate if you have done any of the following in the past year. Contacted elected officials, either offline or online
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	2.45	8.343
+1) Yes, in the past year	2313	26.7
+2) No, not in the past year	6283	72.6
+99) Not answered	64	0.7
+
+
+25) LOCALACTIVITY_G
+Here are some ways people can participate in what is happening in their local area. Please indicate if you have done any of the following in the past year. Attended public hearings, neighborhood meetings, or town or city council meetings
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	2.138	6.447
+1) Yes, in the past year	2495	28.8
+2) No, not in the past year	6127	70.8
+99) Not answered	38	0.4
+
+
+26) QB1MOD_B
+When you make major life decisions, how much do you rely on each of the following? Advice from professionals
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.531	12.693
+1) A lot	2644	30.5
+2) A little	4512	52.1
+3) Not at all	1354	15.6
+99) Not answered	150	1.7
+
+
+27) QB1MOD_C
+When you make major life decisions, how much do you rely on each of the following? Prayer and personal religious reflection
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	2.809	10.986
+1) A lot	5061	58.4
+2) A little	2189	25.3
+3) Not at all	1299	15.0
+99) Not answered	111	1.3
+
+
+28) QB1MOD_D
+When you make major life decisions, how much do you rely on each of the following? Advice from religious leaders
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.997	12.973
+1) A lot	1626	18.8
+2) A little	3283	37.9
+3) Not at all	3593	41.5
+99) Not answered	158	1.8
+
+
+29) QB1MOD_E
+When you make major life decisions, how much do you rely on each of the following? Your own research
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	2.645	11.625
+1) A lot	6737	77.8
+2) A little	1501	17.3
+3) Not at all	298	3.4
+99) Not answered	124	1.4
+
+
+30) GENDRESP1
+Who do you think should be mostly responsible for providing for the family financially in households where there's a mother and a father?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.355	7.8
+1) Mother	128	1.5
+2) Father	2143	24.7
+3) Both equally	6332	73.1
+99) Not answered	57	0.7
+
+
+31) GENDRESP2
+Who do you think should be mostly responsible for taking care of the children in households where there's a mother and a father?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.267	7.026
+1) Mother	1012	11.7
+2) Father	84	1.0
+3) Both equally	7518	86.8
+99) Not answered	46	0.5
+
+
+32) IMMBURDN
+Please choose the statement that comes closer to your own views - even if neither is exactly right.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	4.25	17.131
+1) Immigrants today strengthen our country because of their hard work and talents	7091	81.9
+2) Immigrants today are a burden on our country because they take our jobs, housing and health care	1295	15.0
+99) Not answered	274	3.2
+
+
+33) DISCRIM
+Please choose the statement that comes closer to your own views - even if neither is exactly right.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	4.504	17.564
+1) Racial discrimination is the main reason why many Black people can't get ahead these days	6345	73.3
+2) Black people who can't get ahead in this country are mostly responsible for their own condition	2026	23.4
+99) Not answered	289	3.3
+
+
+34) ACCEPTLG
+Please choose the statement that comes closer to your own views - even if neither is exactly right.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	6.552	21.978
+1) Homosexuality should be accepted by society	5490	63.4
+2) Homosexuality should be discouraged by society	2707	31.3
+99) Not answered	463	5.3
+
+
+35) NECCGOD
+Please choose the statement that comes closer to your own views - even if neither is exactly right.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.382	13.377
+1) It IS NOT necessary to believe in God in order to be moral and have good values	4138	47.8
+2) It IS necessary to believe in God in order to be moral and have good values	4356	50.3
+99) Not answered	166	1.9
+
+
+36) CRIM
+Thinking about the criminal justice system in our country, would you say that the criminal justice system ...
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	4.592	11.257
+1) Does not need any changes	96	1.1
+2) Needs minor changes	707	8.2
+3) Needs major changes	4669	53.9
+4) Needs to be completely rebuilt	3067	35.4
+99) Not answered	121	1.4
+
+
+37) ABORTLGL
+Do you think abortion should be ...
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	5.266	17.442
+1) Legal in all cases	2759	31.9
+2) Legal in most cases	3359	38.8
+3) Illegal in most cases	1500	17.3
+4) Illegal in all cases	753	8.7
+99) Not answered	289	3.3
+
+
+38) IDIMPORTMOD
+How important is [INSERT ONE OF THE FOLLOWING, BASED ON RESPONDENT'S RACE: being Black/being white/being Asian/your racial background] to how you think about yourself?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.201	12.578
+1) Very important	5618	64.9
+2) Somewhat important	1624	18.8
+3) Not too important	690	8.0
+4) Not at all important	582	6.7
+99) Not answered	146	1.7
+
+
+39) ATTEND
+Aside from weddings and funerals, how often do you attend religious services?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	4.568	10.347
+1) More than once a week	1369	15.8
+2) Once a week	1878	21.7
+3) Once or twice a month	907	10.5
+4) A few times a year	1399	16.2
+5) Seldom	1825	21.1
+6) Never	1182	13.6
+99) Not answered	100	1.2
+
+
+40) RELIMP
+How important is religion in your life?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	2.939	11.04
+1) Very important	5163	59.6
+2) Somewhat important	1755	20.3
+3) Not too important	825	9.5
+4) Not at all important	805	9.3
+99) Not answered	112	1.3
+
+
+41) PRAY
+Outside of attending religious services, how often do you pray?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.771	11.313
+1) Several times a day	4225	48.8
+2) Once a day	1439	16.6
+3) A few times a week	1019	11.8
+4) Once a week	139	1.6
+5) A few times a month	483	5.6
+6) Seldom	723	8.3
+7) Never	515	5.9
+99) Not answered	117	1.4
+
+
+42) LITERAL
+Which comes closest to your own views, even if none is exactly right?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.964	14.518
+1) The [INSERT BASED ON RELIGMOD;1, 2, 3, 4, 9, 10, 12, 99="Bible"/5="Torah"/6="Quran"/7, 8, 11="holy scripture"] is the word of God and should be taken literally, word for word	3556	41.1
+2) The [Bible/Torah/Quran/holy scripture] is the word of God, but not everything in it should be taken literally, word for word	3451	39.8
+3) The [Bible/Torah/Quran/holy scripture] is a book written by people and is not the word of God	1456	16.8
+99) Not answered	197	2.3
+
+
+43) PERSDO1_A
+How often, if at all, do you personally do each of the following? Meditate
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	6.356	13.483
+1) Several times a day	1280	14.8
+2) Once a day	945	10.9
+3) A few times a week	1157	13.4
+4) Once a week	310	3.6
+5) A few times a month	848	9.8
+6) Seldom	2014	23.3
+7) Never	1931	22.3
+99) Not answered	175	2.0
+
+
+44) PERSDO1_B
+How often, if at all, do you personally do each of the following? Read scripture outside of religious services
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	5.984	12.487
+1) Several times a day	987	11.4
+2) Once a day	1363	15.7
+3) A few times a week	1224	14.1
+4) Once a week	308	3.6
+5) A few times a month	979	11.3
+6) Seldom	1991	23.0
+7) Never	1659	19.2
+99) Not answered	149	1.7
+
+
+45) PERSDO1_C
+How often, if at all, do you personally do each of the following? Burn candles, incense or sage for spiritual or religious reasons
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	8.388	13.603
+1) Several times a day	185	2.1
+2) Once a day	149	1.7
+3) A few times a week	321	3.7
+4) Once a week	129	1.5
+5) A few times a month	363	4.2
+6) Seldom	1119	12.9
+7) Never	6205	71.7
+99) Not answered	189	2.2
+
+
+46) PERSDO1_D
+How often, if at all, do you personally do each of the following? Pray at an altar or shrine in your home
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	8.136	13.874
+1) Several times a day	475	5.5
+2) Once a day	433	5.0
+3) A few times a week	269	3.1
+4) Once a week	199	2.3
+5) A few times a month	272	3.1
+6) Seldom	778	9.0
+7) Never	6040	69.7
+99) Not answered	194	2.2
+
+
+47) PERSDO1_E
+How often, if at all, do you personally do each of the following? Consult a diviner or reader
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	8.782	14.696
+1) Several times a day	176	2.0
+2) Once a day	204	2.4
+3) A few times a week	238	2.7
+4) Once a week	147	1.7
+5) A few times a month	221	2.6
+6) Seldom	1080	12.5
+7) Never	6372	73.6
+99) Not answered	222	2.6
+
+
+48) TYPEGODSUM
+What do you believe about God? Combination of GODBIBLEMOD, HGHPWRMOD and MISSINGGODMOD. Asked of all respondents.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	2.704	11.53
+1) I believe in God as described in the [INSERT BASED ON RELIGMOD; 1, 2, 3, 4, 9, 10, 12, 99="Bible"/5="Torah"/6="Quran"/7, 8, 11="holy scripture"	6283	72.6
+2) I DO NOT believe in God as described in the [Bible/Torah/Quran/holy scripture], but I do believe there is some other higher power or spiritual force in the universe	1952	22.5
+3) Believe in God - No answer to follow-up of biblical God or higher power	79	0.9
+4) I do not believe there is ANY higher power or spiritual force in the universe	220	2.5
+9) Don't believe in God - No answer to follow-up of biblical God or higher power	4	0.0
+99) Not answered	122	1.4
+
+
+49) GODBELIEFSMOD_B
+Which of the following, if any, do you believe about God/the higher power or spiritual force in the universe? Do you believe that God has the power to direct or change everything that goes on in the world?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8314	3.139	13.814
+1) Yes	6927	83.3
+2) No	1218	14.6
+99) Not answered	169	2.0
+Missing	346
+
+
+50) GODBELIEFSMOD_D
+Which of the following, if any, do you believe about God/the higher power or spiritual force in the universe? Do you believe that God Will judge all people on what they have done
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8314	3.408	14.467
+1) Yes	6338	76.2
+2) No	1790	21.5
+99) Not answered	186	2.2
+Missing	346
+
+
+51) GODRESPONDMOD
+Does God ever talk directly with you, or not?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8314	3.911	15.241
+1) Yes	4285	51.5
+2) No	3821	46.0
+99) Not answered	208	2.5
+Missing	346
+
+
+52) GODDTRMNMOD
+Do you think God directly determines what happens in your life ...
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8314	3.761	13.007
+1) All of the time	3755	45.2
+2) Most of the time	2094	25.2
+3) Just some of the time	1398	16.8
+4) Hardly ever	399	4.8
+5) Never	517	6.2
+99) Not answered	151	1.8
+Missing	346
+
+
+53) PERSBLV_A
+Please indicate whether you personally believe each of the following. Prayer can heal physical illness and injury
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.293	14.186
+1) Yes, believe this	6847	79.1
+2) No, don't believe this	1627	18.8
+99) Not answered	186	2.1
+
+
+54) PERSBLV_B
+Please indicate whether you personally believe each of the following. Prayers to ancestors can protect you from bad things happening
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	4.69	16.828
+1) Yes, believe this	2602	30.0
+2) No, don't believe this	5791	66.9
+99) Not answered	267	3.1
+
+
+55) PERSBLV_C
+Please indicate whether you personally believe each of the following. Evil spirits can cause problems in a person's life
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.749	15.35
+1) Yes, believe this	6094	70.4
+2) No, don't believe this	2347	27.1
+99) Not answered	219	2.5
+
+
+56) PERSBLV_D
+Please indicate whether you personally believe each of the following. In reincarnation (people will be reborn again and again in this world)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	5.45	18.918
+1) Yes, believe this	3103	35.8
+2) No, don't believe this	5217	60.2
+99) Not answered	340	3.9
+
+
+57) PERSBLV_E
+Please indicate whether you personally believe each of the following. People of faith have a religious duty to try to convert nonbelievers
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	4.471	16.77
+1) Yes, believe this	4212	48.6
+2) No, don't believe this	4184	48.3
+99) Not answered	264	3.0
+
+
+58) PERSDO2_A
+How often, if at all, do you personally do each of the following? Participate in prayer groups, scripture study groups or religious education programs
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	5.846	12.288
+1) More than once a week	935	10.8
+2) Once a week	1261	14.6
+3) Once or twice a month	582	6.7
+4) A few times a year	758	8.8
+5) Seldom	1840	21.2
+6) Never	3139	36.2
+99) Not answered	145	1.7
+
+
+59) PERSDO2_B
+How often, if at all, do you personally do each of the following? Listen to or watch sermons online, on television or on the radio
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	4.873	10.543
+1) More than once a week	1621	18.7
+2) Once a week	1197	13.8
+3) Once or twice a month	978	11.3
+4) A few times a year	982	11.3
+5) Seldom	1643	19.0
+6) Never	2135	24.7
+99) Not answered	104	1.2
+
+
+60) CLERGYSSM
+Do you think religious leaders [IF AFFILIATED WITH A RELIGION INSERT (RELIGMOD ≠9,10,12,99): of your faith] should perform marriage ceremonies for same-sex couples?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	6.525	21.53
+1) Yes	3981	46.0
+2) No	4234	48.9
+99) Not answered	445	5.1
+
+
+61) ESSENT_A
+How important is each of the following to what being [INSERT BASED ON RELIGMOD;1, 2, 3, 4="Christian"/ 5="Jewish"/6="Muslim"/7, 8, 11, 99="faithful to your religious tradition"/9, 10, 12="a moral person"] means to you? Believing in God
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	2.637	11.1
+1) Essential	6317	72.9
+2) Important, but NOT essential	1358	15.7
+3) Not important	872	10.1
+99) Not answered	113	1.3
+
+
+62) ESSENT_B
+How important is each of the following to what being [INSERT BASED ON RELIGMOD;1, 2, 3, 4="Christian"/ 5="Jewish"/6="Muslim"/7, 8, 11, 99="faithful to your religious tradition"/9, 10, 12="a moral person"] means to you? Attending religious services regularly
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.381	11.83
+1) Essential	2870	33.1
+2) Important, but NOT essential	3438	39.7
+3) Not important	2222	25.7
+99) Not answered	130	1.5
+
+
+63) ESSENT_C
+How important is each of the following to what being [INSERT BASED ON RELIGMOD;1, 2, 3, 4="Christian"/ 5="Jewish"/6="Muslim"/7, 8, 11, 99="faithful to your religious tradition"/9, 10, 12="a moral person"] means to you? Opposing abortion
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	5.712	17.901
+1) Essential	1586	18.3
+2) Important, but NOT essential	2810	32.4
+3) Not important	3957	45.7
+99) Not answered	307	3.5
+
+
+64) ESSENT_D
+How important is each of the following to what being [INSERT BASED ON RELIGMOD;1, 2, 3, 4="Christian"/ 5="Jewish"/6="Muslim"/7, 8, 11, 99="faithful to your religious tradition"/9, 10, 12="a moral person"] means to you? Opposing racism or racial discrimination
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.586	14.941
+1) Essential	6772	78.2
+2) Important, but NOT essential	1251	14.4
+3) Not important	430	5.0
+99) Not answered	207	2.4
+
+
+65) ESSENT_E
+How important is each of the following to what being [INSERT BASED ON RELIGMOD;1, 2, 3, 4="Christian"/ 5="Jewish"/6="Muslim"/7, 8, 11, 99="faithful to your religious tradition"/9, 10, 12="a moral person"] means to you? Opposing sexism or discrimination against women
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.663	15.041
+1) Essential	6478	74.8
+2) Important, but NOT essential	1464	16.9
+3) Not important	508	5.9
+99) Not answered	210	2.4
+
+
+66) ESSENT_F
+How important is each of the following to what being [INSERT BASED ON RELIGMOD;1, 2, 3, 4="Christian"/ 5="Jewish"/6="Muslim"/7, 8, 11, 99="faithful to your religious tradition"/9, 10, 12="a moral person"] means to you? Avoiding sex before marriage
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	4.254	14.363
+1) Essential	2126	24.5
+2) Important, but NOT essential	3516	40.6
+3) Not important	2824	32.6
+99) Not answered	194	2.2
+
+
+67) ESSENTCHURCH_A
+How important is it for churches and other houses of worship to do each of the following? Offer moral guidance
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.377	13.712
+1) Essential	5855	67.6
+2) Important, but NOT essential	1998	23.1
+3) Not important	364	4.2
+4) Should not be done by houses of worship	269	3.1
+99) Not answered	174	2.0
+
+
+68) ESSENTCHURCH_B
+How important is it for churches and other houses of worship to do each of the following? Offer spiritual comfort
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.2	13.529
+1) Essential	6527	75.4
+2) Important, but NOT essential	1566	18.1
+3) Not important	270	3.1
+4) Should not be done by houses of worship	128	1.5
+99) Not answered	169	2.0
+
+
+69) ESSENTCHURCH_C
+How important is it for churches and other houses of worship to do each of the following? Teach practical job and life skills
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.891	14.194
+1) Essential	3677	42.5
+2) Important, but NOT essential	3497	40.4
+3) Not important	782	9.0
+4) Should not be done by houses of worship	516	6.0
+99) Not answered	188	2.2
+
+
+70) ESSENTCHURCH_D
+How important is it for churches and other houses of worship to do each of the following? Help the needy with bills, housing and food
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.344	13.225
+1) Essential	4735	54.7
+2) Important, but NOT essential	3302	38.1
+3) Not important	266	3.1
+4) Should not be done by houses of worship	195	2.3
+99) Not answered	162	1.9
+
+
+71) ESSENTCHURCH_E
+How important is it for churches and other houses of worship to do each of the following? Offer a sense of community or fellowship
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.568	14.797
+1) Essential	6526	75.4
+2) Important, but NOT essential	1627	18.8
+3) Not important	198	2.3
+4) Should not be done by houses of worship	106	1.2
+99) Not answered	203	2.3
+
+
+72) ESSENTCHURCH_F
+How important is it for churches and other houses of worship to do each of the following? Offer a sense of racial affirmation or pride
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	4.796	16.7
+1) Essential	3869	44.7
+2) Important, but NOT essential	2760	31.9
+3) Not important	965	11.1
+4) Should not be done by houses of worship	803	9.3
+99) Not answered	263	3.0
+
+
+73) ESSENTCHURCH_G
+How important is it for churches and other houses of worship to do each of the following? Offer sermons that address political topics, such as immigration and race relations
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	4.708	15.046
+1) Essential	2028	23.4
+2) Important, but NOT essential	3384	39.1
+3) Not important	1349	15.6
+4) Should not be done by houses of worship	1685	19.5
+99) Not answered	214	2.5
+
+
+74) CHURCHLOOK_A
+Imagine now that you were looking for a new congregation or house of worship. How important, if at all, would each of the following be in your choice? The congregation is welcoming
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	2.806	12.346
+1) Very important	7167	82.8
+2) Somewhat important	981	11.3
+3) Not too important	174	2.0
+4) Not at all important	198	2.3
+99) Not answered	140	1.6
+
+
+75) CHURCHLOOK_B
+Imagine now that you were looking for a new congregation or house of worship. How important, if at all, would each of the following be in your choice? The sermons are inspiring
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.306	13.996
+1) Very important	6859	79.2
+2) Somewhat important	1222	14.1
+3) Not too important	188	2.2
+4) Not at all important	210	2.4
+99) Not answered	181	2.1
+
+
+76) CHURCHLOOK_C
+Imagine now that you were looking for a new congregation or house of worship. How important, if at all, would each of the following be in your choice? The congregation belongs to your denomination
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	4.845	15.622
+1) Very important	2415	27.9
+2) Somewhat important	2726	31.5
+3) Not too important	1932	22.3
+4) Not at all important	1356	15.7
+99) Not answered	231	2.7
+
+
+77) CHURCHLOOK_D
+Imagine now that you were looking for a new congregation or house of worship. How important, if at all, would each of the following be in your choice? The senior religious leaders share your race or ethnicity
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	4.925	13.861
+1) Very important	1059	12.2
+2) Somewhat important	1834	21.2
+3) Not too important	2529	29.2
+4) Not at all important	3055	35.3
+99) Not answered	183	2.1
+
+
+78) CHURCHLOOK_E
+Imagine now that you were looking for a new congregation or house of worship. How important, if at all, would each of the following be in your choice? Most of the other people attending share your race or ethnicity
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	4.828	13.443
+1) Very important	920	10.6
+2) Somewhat important	1895	21.9
+3) Not too important	2622	30.3
+4) Not at all important	3051	35.2
+99) Not answered	172	2.0
+
+
+79) WOMLEAD
+Do you think women should be allowed to serve as the senior religious leader of a congregation?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.361	14.671
+1) Yes, women should be allowed to do this	7515	86.8
+2) No, women should NOT be allowed to do this	946	10.9
+99) Not answered	199	2.3
+
+
+80) LEADER
+Do you personally play any formal or informal leadership role in your religious congregation?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5553	3.023	11.24
+1) Yes	1593	28.7
+2) No	3885	70.0
+99) Not answered	75	1.4
+Missing	3107
+
+
+81) LEADEROE_1
+What role is that [that you play in your religious congregation]? Response types coded based on open-ended answers. First three responses coded.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1593	21.785	31.476
+1) Leader in children, youth, young adult or college ministry	85	5.3
+2) Worship leader, member of choir, praise team, etc.	133	8.3
+3) Teacher or other religious education (Sunday school, VBS, Bible study)	162	10.2
+4) Pastoral leader (pastor, elder, preacher)	105	6.6
+5) Leader in women's ministry	22	1.4
+6) Leader in men's ministry	10	0.6
+7) Usher, greeter, welcoming committee, etc.	139	8.7
+8) Administrative oversight (board of directors, trustees, vestry)	149	9.4
+9) Worship ceremony assistant (altar guild, eucharistic minister, funeral ministry)	9	0.6
+11) Pastoral assistant (deacon, mothers' board, minister)	233	14.6
+12) Community outreach (nurse, sick and shut in, missionary)	56	3.5
+13) Technical assistant (A/V, social media, website)	24	1.5
+14) Leader in relationships ministry (marriage, couples, singles)	4	0.3
+15) Membership relations/small group/new members/discipleship	5	0.3
+16) Prayer leader, prayer, intercession	22	1.4
+17) Pastor's personal staff (pastor's aid, armor bearer, pastor relations)	23	1.4
+18) Church maintenance (groundskeeper, maintenance, kitchen committee)	16	1.0
+19) Administrative (clerk, secretary, general administration)	43	2.7
+20) Other or unclear formal leader ('multiple roles,' 'staff,' 'serve on committees')	71	4.5
+21) First lady, pastor's wife	11	0.7
+50) General volunteer ('volunteer,' 'helper,' 'lay servant')	16	1.0
+51) Mentor (church mother, advisor, 'guidance')	21	1.3
+52) Engaged member (church member, 'participant,' group member)	22	1.4
+90) Other informal leader	5	0.3
+94) Other/not interpretable	15	0.9
+96) Former leader or leader in training	10	0.6
+99) Not answered	182	11.4
+Missing	7067
+
+
+82) LEADEROE_2
+What role is that [that you play in your religious congregation]? Response types coded based on open-ended answers. First three responses coded.
+RANGE: 1 to 96
+	N	Mean	Std. Deviation
+Total	332	9.907	12.328
+1) Leader in children, youth, young adult or college ministry	20	6.0
+2) Worship leader, member of choir, praise team, etc.	45	13.6
+3) Teacher or other religious education (Sunday school, VBS, Bible study)	48	14.5
+4) Pastoral leader (pastor, elder, preacher)	14	4.2
+5) Leader in women's ministry	6	1.8
+6) Leader in men's ministry	3	0.9
+7) Usher, greeter, welcoming committee, etc.	35	10.5
+8) Administrative oversight (board of directors, trustees, vestry)	35	10.5
+9) Worship ceremony assistant (altar guild, eucharistic minister, funeral ministry)	6	1.8
+11) Pastoral assistant (deacon, mothers' board, minister)	20	6.0
+12) Community outreach (nurse, sick and shut in, missionary)	20	6.0
+13) Technical assistant (A/V, social media, website)	9	2.7
+14) Leader in relationships ministry (marriage, couples, singles)	3	0.9
+15) Membership relations/small group/new members/discipleship	5	1.5
+16) Prayer leader, prayer, intercession	9	2.7
+17) Pastor's personal staff (pastor's aid, armor bearer, pastor relations)	3	0.9
+18) Church maintenance (groundskeeper, maintenance, kitchen committee)	12	3.6
+19) Administrative (clerk, secretary, general administration)	11	3.3
+20) Other or unclear formal leader ('multiple roles,' 'staff,' 'serve on committees')	18	5.4
+50) General volunteer ('volunteer,' 'helper,' 'lay servant')	4	1.2
+51) Mentor (church mother, advisor, 'guidance')	2	0.6
+90) Other informal leader	1	0.3
+94) Other/not interpretable	1	0.3
+96) Former leader or leader in training	2	0.6
+Missing	8328
+
+
+83) LEADEROE_3
+What role is that [that you play in your religious congregation]? Response types coded based on open-ended answers. First three responses coded.
+RANGE: 1 to 96
+	N	Mean	Std. Deviation
+Total	92	15.272	20.112
+1) Leader in children, youth, young adult or college ministry	6	6.5
+2) Worship leader, member of choir, praise team, etc.	8	8.7
+3) Teacher or other religious education (Sunday school, VBS, Bible study)	7	7.6
+4) Pastoral leader (pastor, elder, preacher)	1	1.1
+5) Leader in women's ministry	5	5.4
+6) Leader in men's ministry	2	2.2
+7) Usher, greeter, welcoming committee, etc.	5	5.4
+8) Administrative oversight (board of directors, trustees, vestry)	10	10.9
+9) Worship ceremony assistant (altar guild, eucharistic minister, funeral ministry)	2	2.2
+11) Pastoral assistant (deacon, mothers' board, minister)	4	4.3
+12) Community outreach (nurse, sick and shut in, missionary)	14	15.2
+13) Technical assistant (A/V, social media, website)	1	1.1
+15) Membership relations/small group/new members/discipleship	1	1.1
+16) Prayer leader, prayer, intercession	2	2.2
+17) Pastor's personal staff (pastor's aid, armor bearer, pastor relations)	1	1.1
+18) Church maintenance (groundskeeper, maintenance, kitchen committee)	3	3.3
+19) Administrative (clerk, secretary, general administration)	4	4.3
+20) Other or unclear formal leader ('multiple roles,' 'staff,' 'serve on committees')	7	7.6
+50) General volunteer ('volunteer,' 'helper,' 'lay servant')	1	1.1
+51) Mentor (church mother, advisor, 'guidance')	3	3.3
+52) Engaged member (church member, 'participant,' group member)	1	1.1
+90) Other informal leader	1	1.1
+94) Other/not interpretable	2	2.2
+96) Former leader or leader in training	1	1.1
+Missing	8568
+
+
+84) LENGTH1
+On average, how long is the religious service you typically attend at your church or house of worship?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5553	4.228	9.192
+1) Less than one hour	135	2.4
+2) About one hour	1104	19.9
+3) One and a half hours	1957	35.2
+4) About two hours	1585	28.5
+5) About two and a half hours	453	8.2
+6) More than two and a half hours	268	4.8
+99) Not answered	51	0.9
+Missing	3107
+
+
+85) DIST1
+Thinking of the house of worship you attend most frequently, how long does it typically take you to get there?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5553	2.892	11.041
+1) 15 minutes or less	2807	50.5
+2) Between 16 and 30 minutes	2018	36.3
+3) Between 31 and 60 minutes	536	9.7
+4) Longer than 60 minutes	120	2.2
+99) Not answered	72	1.3
+Missing	3107
+
+
+86) CONGSIZE
+Thinking only about the religious service you attend most often (not the total of all the services offered at your house of worship), about how many people are in attendance?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5553	3.725	12.797
+1) 50 or fewer	1510	27.2
+2) 51-250	2676	48.2
+3) 251-1,000	953	17.2
+4) More than 1,000	316	5.7
+99) Not answered	98	1.8
+Missing	3107
+
+
+87) ATTEND1_A
+Still thinking about the religious service you attend most often, how often does it include each of the following? Adults jumping, shouting or dancing spontaneously during the service
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5553	4.428	10.842
+1) All the time	751	13.5
+2) Most of the time	786	14.2
+3) Sometimes	1736	31.3
+4) Rarely	1019	18.4
+5) Never	1190	21.4
+99) Not answered	71	1.3
+Missing	3107
+
+
+88) ATTEND1_B
+Still thinking about the religious service you attend most often, how often does it include each of the following? People speaking or praying in tongues
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5553	4.872	11.167
+1) All the time	621	11.2
+2) Most of the time	510	9.2
+3) Sometimes	1277	23.0
+4) Rarely	1285	23.1
+5) Never	1784	32.1
+99) Not answered	76	1.4
+Missing	3107
+
+
+89) ATTEND1_C
+Still thinking about the religious service you attend most often, how often does it include each of the following? People calling out 'amen' or other expressions of approval
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5553	3.046	10.507
+1) All the time	2809	50.6
+2) Most of the time	1234	22.2
+3) Sometimes	877	15.8
+4) Rarely	269	4.8
+5) Never	299	5.4
+99) Not answered	65	1.2
+Missing	3107
+
+
+90) ATTEND1_D
+Still thinking about the religious service you attend most often, how often does it include each of the following? Music or musical instruments
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5553	2.531	10.295
+1) All the time	4159	74.9
+2) Most of the time	729	13.1
+3) Sometimes	321	5.8
+4) Rarely	75	1.4
+5) Never	207	3.7
+99) Not answered	62	1.1
+Missing	3107
+
+
+91) ATTEND1_E
+Still thinking about the religious service you attend most often, how often does it include each of the following? A gospel choir
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5553	3.212	10.988
+1) All the time	3174	57.2
+2) Most of the time	805	14.5
+3) Sometimes	610	11.0
+4) Rarely	273	4.9
+5) Never	620	11.2
+99) Not answered	71	1.3
+Missing	3107
+
+
+92) SERPOOR_A
+During the past year, have you heard a sermon, lecture or group discussion at your church or house of worship that dealt with any of the following? Abortion
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5553	4.039	14.652
+1) Yes, heard this at my house of worship	1192	21.5
+2) No, did not hear this at my house of worship	4232	76.2
+99) Not answered	129	2.3
+Missing	3107
+
+
+93) SERPOOR_B
+During the past year, have you heard a sermon, lecture or group discussion at your church or house of worship that dealt with any of the following? Immigration
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5553	4.272	15.574
+1) Yes, heard this at my house of worship	1548	27.9
+2) No, did not hear this at my house of worship	3859	69.5
+99) Not answered	146	2.6
+Missing	3107
+
+
+94) SERPOOR_C
+During the past year, have you heard a sermon, lecture or group discussion at your church or house of worship that dealt with any of the following? Criminal justice reform
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5553	4.092	15.216
+1) Yes, heard this at my house of worship	1865	33.6
+2) No, did not hear this at my house of worship	3549	63.9
+99) Not answered	139	2.5
+Missing	3107
+
+
+95) SERPOOR_D
+During the past year, have you heard a sermon, lecture or group discussion at your church or house of worship that dealt with any of the following? Discrimination against women or sexism
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5553	4.415	16.089
+1) Yes, heard this at my house of worship	1719	31.0
+2) No, did not hear this at my house of worship	3678	66.2
+99) Not answered	156	2.8
+Missing	3107
+
+
+96) SERPOOR_E
+During the past year, have you heard a sermon, lecture or group discussion at your church or house of worship that dealt with any of the following? Race relations or racial inequality
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5553	4.284	16.218
+1) Yes, heard this at my house of worship	2642	47.6
+2) No, did not hear this at my house of worship	2753	49.6
+99) Not answered	158	2.8
+Missing	3107
+
+
+97) SERPOOR_F
+During the past year, have you heard a sermon, lecture or group discussion at your church or house of worship that dealt with any of the following? Voting, protesting or other forms of political engagement
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5553	4.161	15.703
+1) Yes, heard this at my house of worship	2355	42.4
+2) No, did not hear this at my house of worship	3050	54.9
+99) Not answered	148	2.7
+Missing	3107
+
+
+98) LEADRACE
+Thinking about the place where you attend religious services most often, what is the race or ethnicity of the senior religious leaders?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5553	3.512	12.041
+1) All or most are Black or African American	3590	64.6
+2) All or most are white	843	15.2
+3) All or most are Asian or Asian American	50	0.9
+4) All or most are Hispanic or Latino	91	1.6
+5) All or most are some other race or ethnicity	68	1.2
+6) No one racial group makes up a majority	826	14.9
+99) Not answered	85	1.5
+Missing	3107
+
+
+99) CONGRACE
+Typically when you attend religious services, what is the race or ethnicity of most of the other people attending?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5553	3.997	13.141
+1) All or most are Black or African American	3461	62.3
+2) All or most are white	710	12.8
+3) All or most are Asian or Asian American	53	1.0
+4) All or most are Hispanic or Latino	107	1.9
+5) All or most are some other race or ethnicity	88	1.6
+6) No one racial group makes up a majority	1032	18.6
+99) Not answered	102	1.8
+Missing	3107
+
+
+100) CONGTYPE
+Racial makeup of congregation. Used in the 'Faith Among Black Americans' report to identify 'Black churches' and 'Black congregations.' Combines LEADRACE_W60 and CONGRACE_W60.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.274	8.742
+1) Black congregation	3338	38.5
+2) White or other race congregation	782	9.0
+3) Mixed race congregation	1363	15.7
+4) Attends less than a few times a year	3107	35.9
+99) Not answered	70	0.8
+
+
+101) COMMINFL1
+Thinking about the influence of predominantly Black churches in Black communities today, do you think they have ...
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	6.092	18.591
+1) Too much influence	860	9.9
+2) Too little influence	3737	43.2
+3) About the right amount of influence	3724	43.0
+88) Undesignated	28	0.3
+99) Not answered	311	3.6
+
+
+102) COMMINFL2
+Compared with 50 years ago, do you think predominantly Black churches have ...
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	5.397	18.019
+1) More influence today	2356	27.2
+2) Less influence today	4466	51.6
+3) About as much influence today as 50 years ago	1523	17.6
+88) Undesignated	28	0.3
+99) Not answered	287	3.3
+
+
+103) BLKEQL1_A
+Helped Black people move toward equality? Civil rights organizations
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.362	13.551
+1) A great deal	5482	63.3
+2) Some	2366	27.3
+3) Not much	493	5.7
+4) Nothing at all	149	1.7
+99) Not answered	170	2.0
+
+
+104) BLKEQL1_B
+Helped Black people move toward equality? The federal government
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	4.73	14.918
+1) A great deal	938	10.8
+2) Some	4052	46.8
+3) Not much	2803	32.4
+4) Nothing at all	656	7.6
+99) Not answered	211	2.4
+
+
+105) BLKEQL1_C
+Helped Black people move toward equality? Predominantly Black churches
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	4.646	16.118
+1) A great deal	2659	30.7
+2) Some	4226	48.8
+3) Not much	1251	14.4
+4) Nothing at all	279	3.2
+99) Not answered	245	2.8
+
+
+106) BLKEQL1_D
+Helped Black people move toward equality? Predominantly white churches
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	6.155	17.79
+1) A great deal	491	5.7
+2) Some	2779	32.1
+3) Not much	3380	39.0
+4) Nothing at all	1704	19.7
+99) Not answered	306	3.5
+
+
+107) BLKEQL1_E
+Helped Black people move toward equality? Predominantly Black Muslim organizations, such as the Nation of Islam
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	6.922	20.361
+1) A great deal	1049	12.1
+2) Some	3762	43.4
+3) Not much	2308	26.7
+4) Nothing at all	1138	13.1
+99) Not answered	403	4.7
+
+
+108) BLKEQL2
+Which has done the MOST to help Black people move toward equality in the U.S.?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	7.697	24.023
+1) Civil rights organizations	6505	75.1
+2) The federal government	544	6.3
+3) Predominantly Black churches	779	9.0
+4) Predominantly white churches	71	0.8
+5) Predominantly Black Muslim organizations, such as the Nation of Islam	201	2.3
+99) Not answered	560	6.5
+
+
+109) CONGCHAR
+Which statement comes closer to your own views - even if neither is exactly right? Congregations that historically have been mostly Black should try to ...
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	7.355	22.788
+1) Preserve their traditional racial character	2787	32.2
+2) Become more racially and ethnically diverse	5363	61.9
+88) Undesignated	28	0.3
+99) Not answered	482	5.6
+
+
+110) DISCRIM2_A
+In the past 12 months, has anyone called you racist names or insulted you because of your race at a church, mosque or in another religious setting? This could be one you attend regularly or one you were visiting.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.725	13.033
+1) Yes, has happened to me	483	5.6
+2) No, has not happened to me	8018	92.6
+99) Not answered	159	1.8
+
+
+111) DISCRIM2_B
+In the past 12 months, has anyone called you racist names or insulted you because of your race in a nonreligious setting?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	4.22	15.201
+1) Yes, has happened to me	1820	21.0
+2) No, has not happened to me	6623	76.5
+99) Not answered	217	2.5
+
+
+112) DISCRIM3_A
+In the past 12 months, has anyone snubbed you or left you out of activities because of your race at a church, mosque or in another religious setting? This could be one you attend regularly or one you were visiting.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	4.887	16.625
+1) Yes, has happened to me	411	4.7
+2) No, has not happened to me	7987	92.2
+99) Not answered	262	3.0
+
+
+113) DISCRIM3_B
+In the past 12 months, has anyone snubbed you or left you out of activities because of your race in a nonreligious setting?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	5.223	17.892
+1) Yes, has happened to me	1575	18.2
+2) No, has not happened to me	6781	78.3
+99) Not answered	304	3.5
+
+
+114) DISCRIM4_A
+In the past 12 months, has anyone acted as if they were suspicious of you because of your race at a church, mosque or in another religious setting? This could be one you attend regularly or one you were visiting.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	4.86	16.598
+1) Yes, has happened to me	549	6.3
+2) No, has not happened to me	7850	90.6
+99) Not answered	261	3.0
+
+
+115) DISCRIM4_B
+In the past 12 months, has anyone acted as if they were suspicious of you because of your race in a nonreligious setting?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	4.661	16.866
+1) Yes, has happened to me	2949	34.1
+2) No, has not happened to me	5443	62.9
+99) Not answered	268	3.1
+
+
+116) DISCRIM5_A
+In the past 12 months, has anyone acted as if they are better than you because of your race at a church, mosque or in another religious setting? This could be one you attend regularly or one you were visiting.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	4.414	15.452
+1) Yes, has happened to me	921	10.6
+2) No, has not happened to me	7514	86.8
+99) Not answered	225	2.6
+
+
+117) DISCRIM5_B
+In the past 12 months, has anyone acted as if they are better than you because of your race in a nonreligious setting?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	4.525	16.629
+1) Yes, has happened to me	3350	38.7
+2) No, has not happened to me	5050	58.3
+99) Not answered	260	3.0
+
+
+118) DISCRIM6
+Thinking about any of these experiences that you've had in a religious setting, were they ...
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1350	18.749	36.578
+1) At your OWN church or house of worship	293	21.7
+2) In another religious setting (such as a church you were visiting)	425	31.5
+3) Both	400	29.6
+99) Not answered	232	17.2
+Missing	7310
+
+
+119) DISCRIM7
+Thinking more broadly, have you EVER personally experienced discrimination or been treated unfairly because of your race or ethnicity in a church, mosque or in another religious setting?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.851	13.749
+1) Yes, has happened to me in a religious setting	1138	13.1
+2) No, has not ever happened to me in a religious setting	7345	84.8
+99) Not answered	177	2.0
+
+
+120) EMPH1_A
+How much, if at all, does your congregation emphasize that MEN should do each of the following? Be involved parents
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5553	4.087	16.048
+1) A lot	4011	72.2
+2) Some	939	16.9
+3) Not much	236	4.2
+4) Not at all	213	3.8
+99) Not answered	154	2.8
+Missing	3107
+
+
+121) EMPH1_B
+How much, if at all, does your congregation emphasize that MEN should do each of the following? Support their families financially
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5553	4.627	17.098
+1) A lot	3556	64.0
+2) Some	1107	19.9
+3) Not much	355	6.4
+4) Not at all	359	6.5
+99) Not answered	176	3.2
+Missing	3107
+
+
+122) EMPH1_C
+How much, if at all, does your congregation emphasize that MEN should do each of the following? Be role models in [Black communities/the community]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5553	4.999	17.818
+1) A lot	3424	61.7
+2) Some	1042	18.8
+3) Not much	337	6.1
+4) Not at all	558	10.0
+99) Not answered	192	3.5
+Missing	3107
+
+
+123) EMPH1_D
+How much, if at all, does your congregation emphasize that MEN should do each of the following? Be involved in the congregation
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5553	4.137	15.987
+1) A lot	3684	66.3
+2) Some	1226	22.1
+3) Not much	268	4.8
+4) Not at all	222	4.0
+99) Not answered	153	2.8
+Missing	3107
+
+
+124) EMPH2_A
+How much, if at all, does your congregation emphasize that WOMEN should ...Be involved parents
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5553	4.311	16.54
+1) A lot	3931	70.8
+2) Some	898	16.2
+3) Not much	264	4.8
+4) Not at all	296	5.3
+99) Not answered	164	3.0
+Missing	3107
+
+
+125) EMPH2_B
+How much, if at all, does your congregation emphasize that WOMEN should do each of the following? Support their families financially
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5553	5.527	17.77
+1) A lot	1833	33.0
+2) Some	1684	30.3
+3) Not much	988	17.8
+4) Not at all	855	15.4
+99) Not answered	193	3.5
+Missing	3107
+
+
+126) EMPH2_C
+How much, if at all, does your congregation emphasize that WOMEN should ...Be role models in [Black communities/the community]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5553	5.121	17.701
+1) A lot	2901	52.2
+2) Some	1324	23.8
+3) Not much	474	8.5
+4) Not at all	664	12.0
+99) Not answered	190	3.4
+Missing	3107
+
+
+127) EMPH2_D
+How much, if at all, does your congregation emphasize that WOMEN should do each of the following? Be involved in the congregation
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5553	4.073	15.512
+1) A lot	3359	60.5
+2) Some	1428	25.7
+3) Not much	342	6.2
+4) Not at all	280	5.0
+99) Not answered	144	2.6
+Missing	3107
+
+
+128) CHRELIGMOD
+Thinking about when you were a child, in what religion were you raised, if any?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	4.112	13.631
+1) Protestant	6408	74.0
+2) Roman Catholic	995	11.5
+3) Mormon (Church of Jesus Christ of Latter-day Saints, or LDS)	27	0.3
+4) Jehovah's Witnesses	157	1.8
+5) Jewish	14	0.2
+6) Muslim	80	0.9
+7) Buddhist	6	0.1
+8) Hindu	6	0.1
+9) Atheist	16	0.2
+10) Agnostic	19	0.2
+11) Something else, specify:	98	1.1
+12) Nothing in particular	668	7.7
+99) Not answered	166	1.9
+
+
+129) CHRACE
+Thinking about the place where you most often attended religious services as a child, what was the race or ethnicity of most of the other people attending?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.826	13.974
+1) All or most were Black or African American	6442	74.4
+2) All or most were white	765	8.8
+3) All or most were Asian or Asian American	42	0.5
+4) All or most were Hispanic or Latino	227	2.6
+5) All or most were some other race or ethnicity [specify]	51	0.6
+6) No one racial group made up a majority	618	7.1
+7) Did not attend religious services as a child	335	3.9
+99) Not answered	180	2.1
+
+
+130) MARITAL
+Which of these best describes you?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	5.091	12.806
+1) Married	2799	32.3
+2) Living with a partner	645	7.4
+3) Divorced	1458	16.8
+4) Separated	326	3.8
+5) Widowed	596	6.9
+6) Never been married	2682	31.0
+99) Not answered	154	1.8
+
+
+131) SPRACETHN
+Spouse's/partner's race or ethnicity. Combines all responses from SPRACEMOD and SPHISP.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	3444	2.832	8.732
+1) Single race white, non-Hispanic	475	13.8
+2) Single race Black, non-Hispanic	2492	72.4
+3) Hispanic	272	7.9
+4) Other, non-Hispanic	177	5.1
+99) Not answered	28	0.8
+Missing	5216
+
+
+132) SPBLACK
+Did the spouse/partner identify as Black or African American? Includes single race Black adults and multi-racial Black adults who identify as Hispanic or Latino.
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	3444	0.78	0.414
+0) Did not identify as Black	757	22.0
+1) Identified as Black	2687	78.0
+Missing	5216
+
+
+133) SPRELIG
+What is your spouse's or partner's religion, if any?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	9.484	5.357
+1) Protestant	1282	14.8
+2) Roman Catholic	150	1.7
+3) Mormon (Church of Jesus Christ of Latter-day Saints, or LDS)	9	0.1
+4) Jehovah's Witnesses	39	0.5
+5) Jewish	8	0.1
+6) Muslim	32	0.4
+7) Buddhist	5	0.1
+8) Hindu	5	0.1
+9) Atheist	23	0.3
+10) Agnostic	34	0.4
+11) Something else, specify:	6754	78.0
+12) Nothing in particular	303	3.5
+99) Not answered	16	0.2
+
+
+134) INCOME
+Last year what was your total family income from all sources, before taxes?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	9.412	20.27
+1) Less than $10,000	916	10.6
+2) $10,000 to less than $20,000	954	11.0
+3) $20,000 to less than $30,000	930	10.7
+4) $30,000 to less than $40,000	864	10.0
+5) $40,000 to less than $50,000	751	8.7
+6) $50,000 to less than $75,000	1408	16.3
+7) $75,000 to less than $100,000	932	10.8
+8) $100,000 to less than $150,000	878	10.1
+9) $150,000 or more	611	7.1
+99) Not answered	416	4.8
+
+
+135) SERV1
+Have you ever turned to a church or other religious congregation for help with bills, housing or food
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	3.006	11.047
+1) Yes	2249	26.0
+2) No	6298	72.7
+99) Not answered	113	1.3
+
+
+136) OWNRENT3CAT
+Which of the following describes the house, apartment or mobile home where you live?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	2.933	11.733
+1) Owned or being bought by you or someone in your household	4395	50.8
+2) Rented	3980	46.0
+3) Occupied without payment of rent	158	1.8
+99) Not answered	127	1.5
+
+
+137) BIRTHREGION
+In what country were you born? Country responses collapsed into regions.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	8660	1.386	10.308
+0) U.S.	7811	90.2
+1) Caribbean	272	3.1
+2) Americas (excluding U.S./Caribbean)	140	1.6
+3) Asia-Pacific	18	0.2
+4) Europe	38	0.4
+5) MENA (Middle East/North Africa)	5	0.1
+6) Sub-Saharan Africa	226	2.6
+10) Other/Unclear - Outside U.S.	56	0.6
+99) Not answered	94	1.1
+
+
+138) MOTHERREGION
+In what country was your mother born? Country responses collapsed into regions.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	7811	1.35	10.876
+0) U.S.	7338	93.9
+1) Caribbean	148	1.9
+2) Americas (excluding U.S./Caribbean)	98	1.3
+3) Asia-Pacific	22	0.3
+4) Europe	32	0.4
+5) MENA (Middle East/North Africa)	8	0.1
+6) Sub-Saharan Africa	45	0.6
+10) Other/Unclear - Outside U.S.	24	0.3
+88) Undesignated	4	0.1
+99) Not answered	92	1.2
+Missing	849
+
+
+139) FATHERREGION
+In what country was your father born? Country responses collapsed into regions.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	7811	1.464	11.271
+0) U.S.	7306	93.5
+1) Caribbean	174	2.2
+2) Americas (excluding U.S./Caribbean)	93	1.2
+3) Asia-Pacific	8	0.1
+4) Europe	18	0.2
+5) MENA (Middle East/North Africa)	4	0.1
+6) Sub-Saharan Africa	61	0.8
+10) Other/Unclear - Outside U.S.	44	0.6
+88) Undesignated	4	0.1
+99) Not answered	99	1.3
+Missing	849
+
+
+140) PARTYSUM_FINAL
+In politics today, which party do you identify with or lean toward? Combines PARTY and PARTYLN.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	6.993	21.644
+1) Republican	799	9.2
+2) Democrat	7407	85.5
+99) Not answered/no lean	454	5.2
+
+
+141) IDEO
+In general, would you describe your political views as ...
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	7.663	20.227
+1) Very conservative	402	4.6
+2) Conservative	1067	12.3
+3) Moderate	4087	47.2
+4) Liberal	1935	22.3
+5) Very liberal	765	8.8
+99) Not answered	404	4.7
+
+
+142) CITIZEN
+Are you a citizen of the United States, or not? Assumes everyone with BIRTHREGION=US is a citizen. Used CITIZEN response for everyone else.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	1.865	9.08
+1) Yes	8443	97.5
+2) No	142	1.6
+99) Not answered	75	0.9
+
+
+143) REG
+Which of these statements best describes you?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8443	2.427	10.743
+1) You are ABSOLUTELY CERTAIN that you are registered to vote at your current address	7217	85.5
+2) You are PROBABLY registered, but there is a chance your registration has lapsed	375	4.4
+3) You are NOT registered to vote at your current address	746	8.8
+88) Undesignated	10	0.1
+99) Not answered	95	1.1
+Missing	217
+
+
+144) ACS_WEB
+At your house, apartment or mobile home, do you or any member of this household have access to the internet?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8660	2.513	11.59
+1) Yes, by paying a cellphone company or internet service provider	7792	90.0
+2) Yes, without paying a cellphone company or internet service provider	438	5.1
+3) No access to the internet at my house, apartment, or mobile home	307	3.5
+99) Not answered	123	1.4
+
+
+145) I-SEX
+Are you male or female? (Recoded for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	8646	1.666	0.472
+1) Male	2892	33.4
+2) Female	5754	66.6
+Missing	14
+
+
+146) I-AGE
+What is your age? Recoded into ranges. (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	8563	2.657	0.941
+1) 18-29	953	11.1
+2) 30-49	2900	33.9
+3) 50-64	2837	33.1
+4) 65+	1873	21.9
+Missing	97
+
+
+147) I-REGION
+Which of the four Census Bureau regions of the U.S. the respondent lives in. (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	8659	2.534	0.921
+1) Northeast	1688	19.5
+2) Midwest	1563	18.1
+3) South	4501	52.0
+4) West	907	10.5
+Missing	1
+
+
+148) I-EDUC
+What is the highest degree or level of school that you have completed? Response options are combined. (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	8651	3.887	1.539
+1) Less than high school	440	5.1
+2) High school diploma	1412	16.3
+3) Some college credit, but no degree	2199	25.4
+4) Associate degree	958	11.1
+5) Bachelor's degree	1922	22.2
+6) Post-graduate degree	1720	19.9
+Missing	9
+
+
+149) I-RELIGION
+What is your present religion, if any? (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	8632	2.04	1.634
+1) Protestant	5784	67.0
+2) Catholic	562	6.5
+3) Other Christian (Mormon/Church of Jesus Christ of Latter-day Saints/LDS, Jehovah's Witnesses)	181	2.1
+4) Other (Jewish, Muslim, Buddhist, Hindu, something else)	370	4.3
+5) Atheist, agnostic, or nothing in particular	1735	20.1
+Missing	28
+
+
+150) I-RACE
+Respondent's race or ethnicity. Combines all responses from F_RACEMOD and F_HISP. (Recoded for use with online analysis)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	8660	1.97	0.384
+1) Other, non-Hispanic	771	8.9
+2) Single race Black, non-Hispanic	7378	85.2
+3) Hispanic	511	5.9
+
+

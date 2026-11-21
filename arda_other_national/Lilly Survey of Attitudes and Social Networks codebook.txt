@@ -1,0 +1,4035 @@
+Data File: LSASN(Full Data Codebook)
+
+1) CID
+CID
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	488		
+
+
+2) RESPNUM
+Respondent's unique ID number
+RANGE: 10000 to 200051
+	N	Mean	Std. Deviation
+Total	2561	87202.149	51062.965
+
+
+3) SPANISH
+Interview conducted in Spanish
+RANGE: 21 to 22
+	N	Mean	Std. Deviation
+Total	2561	21.955	0.206
+21) Yes, in Spanish	114	4.5
+22) No, in English	2447	95.5
+
+
+4) TIME
+Interview duration
+RANGE: 2 to 108
+	N	Mean	Std. Deviation
+Total	2561	26.578	8.54
+
+
+5) URBAN
+Live in urban or rural area?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2561	2.468	5.836
+1) City	1021	39.9
+2) Suburb	543	21.2
+3) Small town	629	24.6
+4) In the country	359	14.0
+99) Don't know	9	0.4
+
+
+6) MARITAL
+Are you currently married, or are you living with someone in a marriage-like relationship, widowed, divorced, separated, or have you never been married? [If say divorced and separated, code as divorced.  If R says marriage-like relationship and divorced/separated/widowed, code as marriage-like.]
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	2.778	3.897
+0) Refused	7	0.3
+1) Married	1384	54.0
+2) Marriage-like relationship (living with someone)	136	5.3
+3) Widowed	163	6.4
+4) Divorced	245	9.6
+5) Separated	45	1.8
+6) Never married	578	22.6
+99) Don't know	3	0.1
+
+
+7) DIVORCED
+[If MARITAL=1-3, or 5 or 7] Have you ever been divorced?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1731	1.838	2.373
+0) Refused	1	0.1
+1) Yes	375	21.7
+2) No	1354	78.2
+99) Don't know	1	0.1
+Missing	830
+
+
+8) RACE
+What race or ethnic group do you consider yourself?  [If necessary] That is, are you white, African American, Hispanic, Asian American, Pacific Islander, American Indian, or of mixed race? [If R says ‘human,' ask: ‘Would you mind telling us your ethnicity?']
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2561	1.793	1.351
+0) Refused
+1) White/Caucasian/Anglo (includes Middle Eastern)	1662	64.9
+2) Black/African American	296	11.6
+3) Hispanic/Latino/a	307	12.0
+4) Asian/Asian American	210	8.2
+5) Pacific Islander	6	0.2
+6) American Indian/Native American	30	1.2
+7) Mixed	33	1.3
+8) Other (only if volunteered and cannot be placed in a category 1-7)	17	0.7
+
+
+9) ASIAN
+[Interviewer: If RACE=1-5, or 7, read categories under appropriate racial group] Are you Chinese, Filipino, Japanese, Asian Indian, Korean, Vietnamese, or something else?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	210	3.11	2.17
+1) Chinese	80	38.1
+2) Filipino	24	11.4
+3) Japanese	22	10.5
+4) Asian Indian	28	13.3
+5) Korean	15	7.1
+6) Vietnamese	17	8.1
+7) Something else	22	10.5
+8) Mixed (if volunteered)	2	1.0
+Missing	2351
+
+
+10) HISPANIC
+[Interviewer: If RACE=1-5, or 7, read categories under appropriate racial group] Are you Mexican, Cuban, Puerto Rican, Dominican, Central American, South American, or something else?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	307	2.309	2.061
+1) Mexican	195	63.5
+2) Cuban	11	3.6
+3) Puerto Rican	35	11.4
+4) Dominican	9	2.9
+5) Central American	22	7.2
+6) South American	17	5.5
+7) Mixed (if volunteered)	5	1.6
+8) Something else	13	4.2
+Missing	2254
+
+
+11) MIXDRACE
+(IF MIXED) What ethnic/racial groups are part of your heritage? Do you identify with one of these more than the others?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	33	2.364	1.41
+1) White/Caucasian/Anglo	13	39.4
+2) Black/African American	7	21.2
+3) Hispanic/Latino	4	12.1
+4) Asian/Asian American/Pacific Islander	6	18.2
+5) American Indian/Native American	3	9.1
+Missing	2528
+
+
+12) SPRACE
+[If MARITAL=1-2]: What race or ethnicity is your [spouse/partner]?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1520	1.603	2.688
+1) White (includes European, Middle Eastern)	1111	73.1
+2) Black (includes African American, African, Dominican, other black)	123	8.1
+3) Hispanic (includes Mexican, Cuban, Puerto Rican, other Latin American)	175	11.5
+4) Asian (includes Asian and Pacific Islander ethnicities)	94	6.2
+5) American Indian (includes Native American and tribes)	16	1.1
+99) Don't know	1	0.1
+Missing	1041
+
+
+13) MOVING
+I am going to read you three pairs of opposites.  For each set, please tell me which is closest to being true for you. A) I don't mind moving every once and a while. B) I would prefer to stay in one place. Which one of these comes closest to being true of you?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	1.951	4.728
+0) Refused	3	0.1
+1) Don't mind moving	728	28.4
+2) Stay in one location	1797	70.2
+3) In between (only if volunteered)	27	1.1
+99) Don't know	6	0.2
+
+
+14) NEWFOOD
+I am going to read you three pairs of opposites.  For each set, please tell me which is closest to being true for you. A) I like trying new kinds of foods. B) I prefer eating foods I am used to eating. Which one of these comes closest to being true of you?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	1.513	4.345
+0) Refused	1	0.0
+1) Try new foods	1804	70.4
+2) Prefer familiar foods	676	26.4
+3) In between (only if volunteered)	75	2.9
+99) Don't know	5	0.2
+
+
+15) KNOWDIFF
+I am going to read you three pairs of opposites.  For each set, please tell me which is closest to being true for you. A) I enjoy getting to know people different from me. B) I enjoy meeting people who have a great deal in common with me. Which one of these comes closest to being true of you?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	2.471	8.17
+0) Refused	1	0.0
+1) Know people different from me	1318	51.5
+2) Meet people like me	444	17.3
+3) In between (only if volunteered)	780	30.5
+99) Don't know	18	0.7
+
+
+16) SPSAME
+[If MARITAL=1-2] Do you think your [spouse/partner] would give mostly the same answers on these pairs as you, or mostly the opposite answers?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1527	3.399	14.441
+0) Refused	5	0.3
+1) Mostly the same answers	1216	79.6
+2) Mostly opposite answers	207	13.6
+3) Some of both (only if volunteered)	65	4.3
+99) Don't know	34	2.2
+Missing	1034
+
+
+17) WORK
+Are you working for pay full-time or part-time, working as a homemaker, retired, a student, or something else? [If two answers offered, ask which spend most time doing]
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	3.087	3.697
+0) Refused	5	0.2
+1) Full-time	1303	50.9
+2) Part-time	252	9.8
+3) In school	179	7.0
+4) Unemployed	42	1.6
+5) On leave	1	0.0
+6) Retired	401	15.7
+7) Keeping house	229	8.9
+8) Other	141	5.5
+9) Not applicable	6	0.2
+99) Refused	2	0.1
+
+
+18) RELIG
+Do you consider yourself to be Protestant, Catholic, Jewish, Muslim, nothing in particular, or something else?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	3.629	6.36
+0) Don't know	5	0.2
+1) Protestant (includes Baptists, Methodists, Presbyterians, Mormons, Reformed)	1072	41.9
+2) Catholic	637	24.9
+3) Jewish	47	1.8
+4) Eastern Orthodox Christian	6	0.2
+5) Muslim	17	0.7
+6) Hindu-Buddhist	39	1.5
+7) Nothing in particular/not religious	417	16.3
+8) ‘Just a Christian'	154	6.0
+9) Other	158	6.2
+99) Refused	9	0.4
+
+
+19) ATTEND
+How often have you been attending [church/synagogue/mosque/temple] services in the last year?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	3.621	6.512
+0) Refused	4	0.2
+1) Never	634	24.8
+2) Less than once a month	487	19.0
+3) Once a month	249	9.7
+4) 2-3 times a month	333	13.0
+5) Once a week	560	21.9
+6) More than once a week	283	11.1
+99) Don't know	11	0.4
+
+
+20) FAITHIMP
+Would you say your religious faith currently is not important, slightly, moderately, very, or extremely important in your own life?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	4.242	7.853
+0) Refused	6	0.2
+1) Not important	259	10.1
+2) Slightly important	205	8.0
+3) Moderately important	560	21.9
+4) Very important	737	28.8
+5) Extremely important	777	30.3
+99) Don't know	17	0.7
+
+
+21) RELIGIMP
+Would you say religion in your family while you were growing up was not important, slightly, moderately, very, or extremely important?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	3.905	6.642
+0) Refused	5	0.2
+1) Not important	250	9.8
+2) Slightly important	268	10.5
+3) Moderately important	666	26.0
+4) Very important	771	30.1
+5) Extremely important	589	23.0
+99) Don't know	12	0.5
+
+
+22) SAMECHUR
+To help us learn more about Americans' friendships, I want to ask you about your friends.  To help guide you, I will ask you about a few specific categories.  Please remember, we are not taking an inventory of you personally, but of American friendships in general. Think about your two very best friends [if Q2=1-2: 'other than your [spouse/partner].'] How many of your two very best friends attend the same [church/synagogue/mosque/temple] as you?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1425	3.285	9.909
+0) Refused	2	0.1
+1) 1	321	22.5
+2) 2	386	27.1
+3) None	701	49.2
+99) Don't know	15	1.1
+Missing	1136
+
+
+23) SAMERACE
+Think about your two very best friends [if MARITAL=1-2: 'other than your [spouse/partner].'] For your two very best friends, how many are [respondent's race]?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	2.615	8.349
+0) Refused	13	0.5
+1) 1	414	16.2
+2) 2	1942	75.8
+3) None	173	6.8
+99) Don't know	19	0.7
+
+
+24) FRNDRACE
+[If SAMERACE=1] What is the race of your other friend?
+RANGE: 0 to 6
+	N	Mean	Std. Deviation
+Total	414	3.198	1.294
+0) Refused	1	0.2
+1) Asian/Asian American [includes any specific Asian ethnic groups]	28	6.8
+2) Black/African American [includes African]	125	30.2
+3) Hispanic/Latino [includes any specific Latin American ethnic groups]	63	15.2
+4) White/European/Middle Eastern	157	37.9
+5) American Indian/Native American [includes any specific tribes]	11	2.7
+6) Other	29	7.0
+Missing	2147
+
+
+25) RACELONG
+[If SAMERACE=2] What is the race of the friend you have known the longest?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	586	3.324	1.289
+1) Asian/Asian American [includes any specific Asian ethnic groups]	63	10.8
+2) Black/African American [includes African]	107	18.3
+3) Hispanic/Latino [includes any specific Latin American ethnic groups]	81	13.8
+4) White/European/Middle Eastern	285	48.6
+5) American Indian/Native American [includes any specific tribes]	12	2.0
+6) Other	38	6.5
+Missing	1975
+
+
+26) FEMFRND
+Think about your two very best friends [if MARITAL=1-2: 'other than your [spouse/partner].'] For your two very best friends, how many are female?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	2.621	7.912
+0) Refused	9	0.4
+1) 1	654	25.5
+2) 2	1268	49.5
+3) None	613	23.9
+99) Don't know	17	0.7
+
+
+27) FRNDCHUR
+Now think of you circle of friends, people that you like to do things with and have conversations with. They may be people you see often, or because they live far away, they may be people your primarily keep in contact with by calling or writing. Thinking about your circle of friends, which of the following categories best describes how many attend your [church/synagogue/mosque/temple]?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1425	4.336	9.165
+0) Refused	2	0.1
+1) All	97	6.8
+2) Most	227	15.9
+3) About half	320	22.5
+4) Few	449	31.5
+5) None	317	22.2
+99) Don't know	13	0.9
+Missing	1136
+
+
+28) CIRCRACE
+For your circle of friends, how many [respondent's race] are among these people?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	2.505	6.132
+0) Refused	4	0.2
+1) All	801	31.3
+2) Most	977	38.1
+3) About half	481	18.8
+4) Few	212	8.3
+5) None	76	3.0
+99) Don't know	10	0.4
+
+
+29) RACECHUR
+[If ATTEND=4-7] Now think about the people, if any, that you have frequent contact with, and enjoy being around in your [church/synagogue/mosque/temple]. With these people in mind, how many [respondent's race] are among these people?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1176	3.207	10.95
+0) Refused	2	0.2
+1) All	512	43.5
+2) Most	354	30.1
+3) About half	152	12.9
+4) Few	95	8.1
+5) None	46	3.9
+99) Don't know	15	1.3
+Missing	1385
+
+
+30) RACENET
+Now please think about all the people that you have frequent contact with and enjoy being around, including people in your neighborhood, [church/synagogue/mosque/temple], [if WORK=1-2, 5-6] [workplace], [if WORK=3] [school], any associations or clubs to which you may belong, and any other people that you have contact with and enjoy being around. With these people in mind, how many [respondent's race] are among these people?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	2.993	7.913
+0) Refused	6	0.2
+1) All	516	20.1
+2) Most	998	39.0
+3) About half	676	26.4
+4) Few	298	11.6
+5) None	50	2.0
+99) Don't know	17	0.7
+
+
+31) RELPRIV
+Now I am going to read you some statements about morality and America. For each, please tell me whether you agree or disagree, and if you do so strongly, moderately, or slightly. Religion is a private matter that should not influence social and political issues. Do you personally agree or disagree with this statement, and do you do so strongly, moderately, or slightly?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	4.441	11.989
+0) Refused	4	0.2
+1) Strongly agree	1028	40.1
+2) Moderately agree	599	23.4
+3) Slightly agree	97	3.8
+4) Neither agree nor disagree	34	1.3
+5) Slightly disagree	82	3.2
+6) Moderately disagree	296	11.6
+7) Strongly disagree	382	14.9
+99) Don't know	39	1.5
+
+
+32) BESTWAY
+The best way to improve America is to change individuals. [If need to be reminded of the categories again: Do you agree or disagree, and do you do so strongly, moderately, or slightly?]
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	6.216	16.832
+0) Refused	6	0.2
+1) Strongly agree	923	36.0
+2) Moderately agree	521	20.3
+3) Slightly agree	126	4.9
+4) Neither agree nor disagree	42	1.6
+5) Slightly disagree	131	5.1
+6) Moderately disagree	291	11.4
+7) Strongly disagree	441	17.2
+99) Don't know	80	3.1
+
+
+33) MORAL
+What is morally right and what is morally wrong should be the same for all people. [If need to be reminded of the categories again: Do you agree or disagree, and do you do so strongly, moderately, or slightly?]
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	4.536	12.712
+0) Refused	6	0.2
+1) Strongly agree	1233	48.1
+2) Moderately agree	384	15.0
+3) Slightly agree	92	3.6
+4) Neither agree nor disagree	38	1.5
+5) Slightly disagree	116	4.5
+6) Moderately disagree	285	11.1
+7) Strongly disagree	363	14.2
+99) Don't know	44	1.7
+
+
+34) MOMWORK
+Here are some statements about family. For each, again please tell me whether you agree or disagree, and if you do so strongly, moderately, or slightly. A mother of very young children should work outside the home only if financially necessary. [If ask what 'very young means, say 'under 5.']
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	3.815	9.893
+0) Refused	7	0.3
+1) Strongly agree	1054	41.2
+2) Moderately agree	577	22.5
+3) Slightly agree	158	6.2
+4) Neither agree nor disagree	59	2.3
+5) Slightly disagree	114	4.5
+6) Moderately disagree	255	10.0
+7) Strongly disagree	311	12.1
+99) Don't know	26	1.0
+
+
+35) HOMOLIFE
+Homosexuality should be an acceptable lifestyle.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	6.594	15.128
+0) Refused	13	0.5
+1) Strongly agree	565	22.1
+2) Moderately agree	434	16.9
+3) Slightly agree	181	7.1
+4) Neither agree nor disagree	96	3.7
+5) Slightly disagree	84	3.3
+6) Moderately disagree	188	7.3
+7) Strongly disagree	935	36.5
+99) Don't know	65	2.5
+
+
+36) MOREDISC
+Women face more discrimination in the workplace than men do.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	5.389	16.7
+0) Refused	3	0.1
+1) Strongly agree	1062	41.5
+2) Moderately agree	716	28.0
+3) Slightly agree	199	7.8
+4) Neither agree nor disagree	42	1.6
+5) Slightly disagree	100	3.9
+6) Moderately disagree	206	8.0
+7) Strongly disagree	155	6.1
+99) Don't know	78	3.0
+
+
+37) HEADFAM
+The husband should be the head of the family.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	4.198	7.448
+0) Refused	5	0.2
+1) Strongly agree	803	31.4
+2) Moderately agree	413	16.1
+3) Slightly agree	151	5.9
+4) Neither agree nor disagree	82	3.2
+5) Slightly disagree	155	6.1
+6) Moderately disagree	387	15.1
+7) Strongly disagree	551	21.5
+99) Don't know	14	0.5
+
+
+38) AFFRMACT
+I am going to read you a list of about twenty statements. For each, please tell me whether you agree or disagree, and if you do so strongly, moderately, or slightly. I support affirmative action policies.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	12.336	28.518
+0) Refused	10	0.4
+1) Strongly agree	678	26.5
+2) Moderately agree	701	27.4
+3) Slightly agree	229	8.9
+4) Neither agree nor disagree	60	2.3
+5) Slightly disagree	144	5.6
+6) Moderately disagree	215	8.4
+7) Strongly disagree	275	10.7
+99) Don't know	249	9.7
+
+
+39) PROTECT
+It is important to protect the natural environment, even if it hurts local business.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	3.382	11.049
+0) Refused	3	0.1
+1) Strongly agree	1237	48.3
+2) Moderately agree	699	27.3
+3) Slightly agree	236	9.2
+4) Neither agree nor disagree	34	1.3
+5) Slightly disagree	88	3.4
+6) Moderately disagree	141	5.5
+7) Strongly disagree	90	3.5
+99) Don't know	33	1.3
+
+
+40) PROMDEM
+It is America's responsibility to promote democracy around the world.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	5.78	14.967
+0) Refused	9	0.4
+1) Strongly agree	574	22.4
+2) Moderately agree	670	26.2
+3) Slightly agree	293	11.4
+4) Neither agree nor disagree	51	2.0
+5) Slightly disagree	171	6.7
+6) Moderately disagree	396	15.5
+7) Strongly disagree	334	13.0
+99) Don't know	63	2.5
+
+
+41) TOOEASY
+It is too easy to buy guns in America today.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	4.609	15.246
+0) Refused	4	0.2
+1) Strongly agree	1561	61.0
+2) Moderately agree	373	14.6
+3) Slightly agree	107	4.2
+4) Neither agree nor disagree	18	0.7
+5) Slightly disagree	55	2.1
+6) Moderately disagree	161	6.3
+7) Strongly disagree	218	8.5
+99) Don't know	64	2.5
+
+
+42) NATDEF
+Too much of our federal budget goes to national defense.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	9.676	23.175
+0) Refused	7	0.3
+1) Strongly agree	598	23.4
+2) Moderately agree	481	18.8
+3) Slightly agree	213	8.3
+4) Neither agree nor disagree	52	2.0
+5) Slightly disagree	198	7.7
+6) Moderately disagree	420	16.4
+7) Strongly disagree	432	16.9
+99) Don't know	160	6.2
+
+
+43) TAXCUT
+The Federal income tax should be cut.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	5.082	15.291
+0) Refused	8	0.3
+1) Strongly agree	1065	41.6
+2) Moderately agree	549	21.4
+3) Slightly agree	256	10.0
+4) Neither agree nor disagree	58	2.3
+5) Slightly disagree	136	5.3
+6) Moderately disagree	231	9.0
+7) Strongly disagree	193	7.5
+99) Don't know	65	2.5
+
+
+44) ECONBTTR
+The economy is better today than it was a year ago.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	7.701	21.038
+0) Refused	3	0.1
+1) Strongly agree	745	29.1
+2) Moderately agree	701	27.4
+3) Slightly agree	311	12.1
+4) Neither agree nor disagree	80	3.1
+5) Slightly disagree	133	5.2
+6) Moderately disagree	235	9.2
+7) Strongly disagree	225	8.8
+99) Don't know	128	5.0
+
+
+45) ABORT
+Abortion during the first three months of pregnancy should be legal in all cases.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	6.396	13.838
+0) Refused	23	0.9
+1) Strongly agree	612	23.9
+2) Moderately agree	288	11.2
+3) Slightly agree	166	6.5
+4) Neither agree nor disagree	50	2.0
+5) Slightly disagree	103	4.0
+6) Moderately disagree	223	8.7
+7) Strongly disagree	1042	40.7
+99) Don't know	54	2.1
+
+
+46) WELFARE
+Able-bodied people should not receive welfare.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	3.672	11.399
+0) Refused	6	0.2
+1) Strongly agree	1426	55.7
+2) Moderately agree	367	14.3
+3) Slightly agree	180	7.0
+4) Neither agree nor disagree	32	1.2
+5) Slightly disagree	147	5.7
+6) Moderately disagree	200	7.8
+7) Strongly disagree	168	6.6
+99) Don't know	35	1.4
+
+
+47) REDUCE
+The number of immigrants who can legally enter the U.S. should be reduced.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	7.147	18.467
+0) Refused	13	0.5
+1) Strongly agree	744	29.1
+2) Moderately agree	411	16.0
+3) Slightly agree	264	10.3
+4) Neither agree nor disagree	61	2.4
+5) Slightly disagree	204	8.0
+6) Moderately disagree	382	14.9
+7) Strongly disagree	384	15.0
+99) Don't know	98	3.8
+
+
+48) TALKRACE
+There is too much talk today in the United States about racial issues.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	5.225	14.581
+0) Refused	7	0.3
+1) Strongly agree	1002	39.1
+2) Moderately agree	498	19.4
+3) Slightly agree	181	7.1
+4) Neither agree nor disagree	28	1.1
+5) Slightly disagree	152	5.9
+6) Moderately disagree	310	12.1
+7) Strongly disagree	324	12.7
+99) Don't know	59	2.3
+
+
+49) CHOICE
+We need a program of parental school choice.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	8.134	22.818
+0) Refused	6	0.2
+1) Strongly agree	967	37.8
+2) Moderately agree	694	27.1
+3) Slightly agree	291	11.4
+4) Neither agree nor disagree	44	1.7
+5) Slightly disagree	104	4.1
+6) Moderately disagree	170	6.6
+7) Strongly disagree	134	5.2
+99) Don't know	151	5.9
+
+
+50) INTEGRAT
+Religious congregations should actively seek to become racially integrated.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	7.116	19.317
+0) Refused	15	0.6
+1) Strongly agree	843	32.9
+2) Moderately agree	526	20.5
+3) Slightly agree	249	9.7
+4) Neither agree nor disagree	64	2.5
+5) Slightly disagree	157	6.1
+6) Moderately disagree	253	9.9
+7) Strongly disagree	347	13.5
+99) Don't know	107	4.2
+
+
+51) PILL
+The pill is a morally acceptable form of birth control.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	4.898	16.327
+0) Refused	6	0.2
+1) Strongly agree	1311	51.2
+2) Moderately agree	659	25.7
+3) Slightly agree	177	6.9
+4) Neither agree nor disagree	34	1.3
+5) Slightly disagree	41	1.6
+6) Moderately disagree	96	3.7
+7) Strongly disagree	163	6.4
+99) Don't know	74	2.9
+
+
+52) PRISONS
+We should spend more money on prisons so that we can put criminals away for a long time.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	6.276	14.804
+0) Refused	9	0.4
+1) Strongly agree	584	22.8
+2) Moderately agree	436	17.0
+3) Slightly agree	230	9.0
+4) Neither agree nor disagree	46	1.8
+5) Slightly disagree	185	7.2
+6) Moderately disagree	383	15.0
+7) Strongly disagree	626	24.4
+99) Don't know	62	2.4
+
+
+53) RELBEHAV
+My religious beliefs should direct my behavior in every area of my life.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	3.552	10.254
+0) Refused	6	0.2
+1) Strongly agree	1317	51.4
+2) Moderately agree	464	18.1
+3) Slightly agree	151	5.9
+4) Neither agree nor disagree	22	0.9
+5) Slightly disagree	128	5.0
+6) Moderately disagree	216	8.4
+7) Strongly disagree	229	8.9
+99) Don't know	28	1.1
+
+
+54) TAXBREAK
+We should give businesses special tax breaks for locating in largely [rotate racial group] areas.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	8.247	18.618
+0) Refused	11	0.4
+1) Strongly agree	289	11.3
+2) Moderately agree	445	17.4
+3) Slightly agree	246	9.6
+4) Neither agree nor disagree	49	1.9
+5) Slightly disagree	258	10.1
+6) Moderately disagree	508	19.8
+7) Strongly disagree	653	25.5
+99) Don't know	102	4.0
+
+
+55) WELFLIVE
+Compared to other racial groups, [rotate racial group] on average tend to prefer to live on welfare.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	18.081	32.202
+0) Refused	16	0.6
+1) Strongly agree	147	5.7
+2) Moderately agree	190	7.4
+3) Slightly agree	141	5.5
+4) Neither agree nor disagree	80	3.1
+5) Slightly disagree	216	8.4
+6) Moderately disagree	550	21.5
+7) Strongly disagree	872	34.0
+99) Don't know	349	13.6
+
+
+56) PATRIOT
+Compared to other racial groups, [rotate racial group] on average tend to be patriotic to the United States.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	19.149	35.325
+0) Refused	23	0.9
+1) Strongly agree	333	13.0
+2) Moderately agree	591	23.1
+3) Slightly agree	280	10.9
+4) Neither agree nor disagree	106	4.1
+5) Slightly disagree	233	9.1
+6) Moderately disagree	325	12.7
+7) Strongly disagree	252	9.8
+99) Don't know	418	16.3
+
+
+57) ARROGANT
+Compared to other racial groups, [rotate racial group] on average tend to be arrogant.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	13.761	27.492
+0) Refused	20	0.8
+1) Strongly agree	216	8.4
+2) Moderately agree	258	10.1
+3) Slightly agree	204	8.0
+4) Neither agree nor disagree	66	2.6
+5) Slightly disagree	233	9.1
+6) Moderately disagree	558	21.8
+7) Strongly disagree	766	29.9
+99) Don't know	240	9.4
+
+
+58) UPSET
+I would be upset if I had a child who wanted to marry [a/an][rotate racial group, other than respondent's own racial group].
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	7.189	12.446
+0) Refused	14	0.5
+1) Strongly agree	199	7.8
+2) Moderately agree	168	6.6
+3) Slightly agree	131	5.1
+4) Neither agree nor disagree	39	1.5
+5) Slightly disagree	202	7.9
+6) Moderately disagree	480	18.7
+7) Strongly disagree	1283	50.1
+99) Don't know	45	1.8
+
+
+59) LONGATT
+We want to ask you a few questions about your [church/synagogue/mosque/temple]. How long have you been attending this [church/ synagogue/mosque/temple]?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1176	5.325	6.275
+0) Refused	3	0.3
+1) Less than 3 months	20	1.7
+2) 3 months to 1 year	69	5.9
+3) 1-2 years	104	8.8
+4) 2-5 years	175	14.9
+5) 5-10 years	203	17.3
+6) More than 10 years	597	50.8
+99) Don't know	5	0.4
+Missing	1385
+
+
+60) HOWMANY
+How many people - both adults and children - would you say typically attend services at your [church/synagogue/mosque/temple] - whether or not they are officially members?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1176	7.497	17.004
+0) Refused	1	0.1
+1) Less than 25	33	2.8
+2) 25-49	82	7.0
+3) 50-99	147	12.5
+4) 100-249	327	27.8
+5) 250-499	273	23.2
+6) More than 500	274	23.3
+99) Don't know	39	3.3
+Missing	1385
+
+
+61) IMMCONG
+About what percent of your congregation, if any, would you say are immigrants to the U.S.? (If want to give number, record so we can tell difference between absolute number and percentage)
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1156	1.966	2.508
+0) Refused	1	0.1
+1) Give a percent	940	81.3
+2) Give a number	86	7.4
+9) Don't know	129	11.2
+Missing	1405
+
+
+62) PERCIMM
+Percent of immigrants in congregation
+RANGE: 0 to 999
+	N	Mean	Std. Deviation
+Total	1070	20.779	58.567
+0)	317	29.6
+1)	104	9.7
+2)	51	4.8
+3)	21	2.0
+4)	8	0.7
+5)	97	9.1
+6)	2	0.2
+7)	3	0.3
+8)	3	0.3
+9)	8	0.7
+10)	98	9.2
+12)	1	0.1
+15)	22	2.1
+16)	1	0.1
+20)	47	4.4
+23)	1	0.1
+25)	42	3.9
+30)	31	2.9
+33)	8	0.7
+35)	8	0.7
+40)	21	2.0
+45)	4	0.4
+50)	48	4.5
+55)	1	0.1
+60)	15	1.4
+65)	1	0.1
+70)	13	1.2
+75)	8	0.7
+76)	1	0.1
+80)	23	2.1
+85)	4	0.4
+90)	16	1.5
+95)	6	0.6
+97)	1	0.1
+98)	2	0.2
+99)	12	1.1
+100)	18	1.7
+999) Don't know	3	0.3
+Missing	1491
+
+
+63) NUMBIMM
+Number of immigrants in congregation
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	86	6.663	19.138
+
+
+64) MAKEUP
+Though hard to know for sure, would you say that [respondent's race] make up more than 80 percent of the worship service that you normally attend at your [church/synagogue/mosque/temple]?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1156	2.463	11.081
+0) Refused	1	0.1
+1) Yes	918	79.4
+2) No	222	19.2
+99) Don't know	15	1.3
+Missing	1405
+
+
+65) RESPRACE
+About what percent of the people at the worship service that you normally attend would you say are [respondent's race]?
+RANGE: 0 to 999
+	N	Mean	Std. Deviation
+Total	238	40.092	68.323
+0)	14	5.9
+1)	20	8.4
+2)	8	3.4
+3)	5	2.1
+5)	10	4.2
+6)	1	0.4
+7)	1	0.4
+8)	1	0.4
+9)	1	0.4
+10)	12	5.0
+13)	1	0.4
+15)	5	2.1
+20)	11	4.6
+25)	7	2.9
+30)	16	6.7
+33)	1	0.4
+40)	15	6.3
+45)	4	1.7
+47)	1	0.4
+50)	44	18.5
+60)	20	8.4
+65)	5	2.1
+66)	1	0.4
+70)	11	4.6
+75)	8	3.4
+80)	2	0.8
+90)	4	1.7
+95)	2	0.8
+99)	2	0.8
+100)	4	1.7
+999) Don't know	1	0.4
+Missing	2323
+
+
+66) WHITECH
+[If RESPRACE LT or = 80%] What other racial groups are represented in the worship service that you normally attend? [Record all that are mentioned.] White
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	223	0.619	0.487
+0) Not selected	85	38.1
+1) Selected	138	61.9
+Missing	2338
+
+
+67) BLACKCH
+[If RESPRACE LT or = 80%] What other racial groups are represented in the worship service that you normally attend? [Record all that are mentioned.] Black
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	223	0.61	0.489
+0) Not selected	87	39.0
+1) Selected	136	61.0
+Missing	2338
+
+
+68) HISPCH
+[If RESPRACE LT or = 80%] What other racial groups are represented in the worship service that you normally attend? [Record all that are mentioned.] Hispanic
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	223	0.691	0.463
+0) Not selected	69	30.9
+1) Selected	154	69.1
+Missing	2338
+
+
+69) ASIANCH
+[If RESPRACE LT or = 80%] What other racial groups are represented in the worship service that you normally attend? [Record all that are mentioned.] Asian
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	223	0.561	0.497
+0) Not selected	98	43.9
+1) Selected	125	56.1
+Missing	2338
+
+
+70) PACIFCH
+[If RESPRACE LT or = 80%] What other racial groups are represented in the worship service that you normally attend? [Record all that are mentioned.] Pacific Islander
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	223	0.197	0.399
+0) Not selected	179	80.3
+1) Selected	44	19.7
+Missing	2338
+
+
+71) INDIANCH
+[If RESPRACE LT or = 80%] What other racial groups are represented in the worship service that you normally attend? [Record all that are mentioned.] American Indian
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	223	0.17	0.377
+0) Not selected	185	83.0
+1) Selected	38	17.0
+Missing	2338
+
+
+72) MIXEDCH
+[If RESPRACE LT or = 80%] What other racial groups are represented in the worship service that you normally attend? [Record all that are mentioned.] Mixed
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	223	0.969	0.175
+0) Not selected	7	3.1
+1) Selected	216	96.9
+Missing	2338
+
+
+73) FIRSTATT
+When you first started attending your current [church/synagogue/mosque/temple], would you say that [respondent's race] made up more than 80 percent of the worship service that you attend?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1176	2.252	10.24
+0) Refused	2	0.2
+1) Yes	961	81.7
+2) No	200	17.0
+99) Don't know	13	1.1
+Missing	1385
+
+
+74) OTHERETH
+[Ask only of non-whites, as trying to see if in multiethnic congregation even if not in a multiracial congregation.] In addition to your own ethnic group, are there any other ethnic groups represented in the worship service that you normally attend?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	435	7.543	23.559
+1) Yes	208	47.8
+2) No	200	46.0
+99) Don't know	27	6.2
+Missing	2126
+
+
+75) LESSTHAN
+As an adult, have you ever in the past been a member of a congregation in which [respondent's race] made up less than 80 percent congregation?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1176	2.414	7.487
+0) Refused	2	0.2
+1) Yes	188	16.0
+2) No	979	83.2
+99) Don't know	7	0.6
+Missing	1385
+
+
+76) ONEORMOR
+[If LESSTHAN=1] In the past, were you a member of one of these congregations or more than one?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	188	12.707	31.502
+0) Refused	5	2.7
+1) One	111	59.0
+2) More than one	50	26.6
+99) Don't know	22	11.7
+Missing	2373
+
+
+77) HOWLONG
+[If ONEORMOR=1] For how long did you attend services at this [church/synagogue/mosque/temple]? [If ONEORMOR=2] For your most recent congregation that you attended before your current congregation, for how long did you attend services at this [church/synagogue/mosque/temple]?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	111	7.811	11.328
+0)	3	2.7
+1)	18	16.2
+2)	17	15.3
+3)	11	9.9
+4)	8	7.2
+5)	10	9.0
+6)	4	3.6
+7)	5	4.5
+8)	2	1.8
+10)	9	8.1
+11)	2	1.8
+12)	1	0.9
+15)	8	7.2
+17)	1	0.9
+18)	1	0.9
+20)	3	2.7
+22)	2	1.8
+25)	2	1.8
+30)	2	1.8
+33)	1	0.9
+99) Don't know	1	0.9
+Missing	2450
+
+
+78) REASON1
+[If ONEORMOR=1] What was the most important reason for leaving?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	111	4.108	9.769
+0) Refused	2	1.8
+1) Moved	67	60.4
+2) Not being spiritually fed	7	6.3
+3) Got married	5	4.5
+5) Not providing programs seeking	2	1.8
+6) Problems with clergy/persons in congregation	3	2.7
+8) Did not like the worship	2	1.8
+9) Too much talk/focus on race/integration	3	2.7
+10) Other	19	17.1
+99) Don't know	1	0.9
+Missing	2450
+
+
+79) REASON2
+[If ONEORMOR=2] What was the most important reason for leaving the last mixed-race congregation you attended?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	111	10.892	26.516
+0) Refused	3	2.7
+1) Moved	63	56.8
+2) Not being spiritually fed	6	5.4
+3) Got married	6	5.4
+5) Not providing programs seeking	2	1.8
+8) Did not like the worship	2	1.8
+9) Too much talk/focus on race/integration	1	0.9
+10) Other	19	17.1
+99) Don't know	9	8.1
+Missing	2450
+
+
+80) HEADCHUR
+Is there one person who is the head or senior clergy person or religious leader of your present [church/synagogue/mosque/temple]?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1176	1.905	8.538
+0) Refused	1	0.1
+1) Yes	983	83.6
+2) No	183	15.6
+99) Don't know	9	0.8
+Missing	1385
+
+
+81) HEADGEND
+[If HEADCHUR=1] Is that person male or female?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	983	1.335	5.41
+0) Refused	1	0.1
+1) Male	943	95.9
+2) Female	36	3.7
+99) Don't know	3	0.3
+Missing	1578
+
+
+82) HEADRACE
+[If HEADCHUR=1] What race or ethnicity is this person?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	983	1.485	0.977
+1) White (European, Middle Eastern)	717	72.9
+2) Black (African American, African, Dominican, other)	141	14.3
+3) Hispanic (Mexican, Cuban, Puerto Rican, other)	73	7.4
+4) Asian (Asian and Pacific Islander ethnicities)	33	3.4
+5) American Indian (Native American and tribes)	4	0.4
+6) Other	15	1.5
+Missing	1578
+
+
+83) LONGLAST
+How long do your worship services typically last?  [Record to nearest quarter hour.] (If say 'varies' or 'depends' or 'I'm not sure,' ask: 'Most often, how long does it last?)
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1156	4.76	6.996
+0) Refused	2	0.2
+1) Less than 30 minutes	14	1.2
+2) About 45 minutes	62	5.4
+3) About 1 hour	465	40.2
+4) About 1 hour 15 minutes	122	10.6
+5) About 1 hour 30 minutes	176	15.2
+6) About 2 hours	155	13.4
+7) More than 2 hours	154	13.3
+99) Don't know	6	0.5
+Missing	1405
+
+
+84) TOOLONG
+[If for LONGLAST, actual time is given] Do you think the services are too long, too short, about right, or does it not matter?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1156	3.738	6.919
+0) Refused	2	0.2
+1) Too long	47	4.1
+2) Too short	25	2.2
+3) About right	674	58.3
+4) Time does not matter	402	34.8
+99) Don't know	6	0.5
+Missing	1405
+
+
+85) CALLAMEN
+During a typical worship service, do people regularly call out ‘amen' or other expressions of approval?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1156	2.244	9.056
+0) Refused	2	0.2
+1) Yes	684	59.2
+2) No	460	39.8
+99) Don't know	10	0.9
+Missing	1405
+
+
+86) CONGCONF
+In every congregation, disagreements and conflicts can arise.  Within the last two years, has your congregation experienced a conflict that led some people to leave the congregation?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1156	7.762	23.528
+0) Refused	3	0.3
+1) Yes	317	27.4
+2) No	764	66.1
+99) Don't know	72	6.2
+Missing	1405
+
+
+87) CONGACT
+How often, if at all, do you go to congregational activities other than your main worship service, such as potlucks, Bible studies, choir practice, small groups, etc.?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1156	3.901	9.067
+0) Refused	3	0.3
+1) Never	275	23.8
+2) A few times a year	290	25.1
+3) Once a month	135	11.7
+4) 2-3 times a month	122	10.6
+5) Once a week	198	17.1
+6) 2 times a week	80	6.9
+7) 3 or more times a week	43	3.7
+99) Don't know	10	0.9
+Missing	1405
+
+
+88) BUYHOME
+Imagine that you are looking for a new house and that you have [no, two school-aged] children. You find a house that you like much better than any other house—it has everything that you'd been looking for, it is close to work, and it is within your price range. Checking on the neighborhood, you find that: (a) the public schools are of [low, medium, high] quality, (b) the neighborhood is [1-100%, randomly chosen, (if 0%, then say 100% of respondent's race)]  [Black, Hispanic, Asian (do not ask respondent's own race)], (c) the other homes in the neighborhood are of [lower, equal, higher] value than the home you are considering, (d) property values are [declining, stable, increasing], (e) and the crime rate is [low, average, high]. [ROTATE ORDER OF VARIABLES] How likely or unlikely do you think it is that you would buy this home?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	6.371	16.867
+0) Refused	11	0.4
+1) Very unlikely	811	31.7
+2) Moderately unlikely	311	12.1
+3) Slightly unlikely	160	6.2
+4) Slightly likely	141	5.5
+5) Moderately likely	456	17.8
+6) Very likely	590	23.0
+99) Don't know	81	3.2
+
+
+89) PREFER
+Given a house that you very much like, would you prefer this house to be in a neighborhood that is (a) 25% [respondent's race] and 75% [rotate Asian, black, Hispanic, white (not respondent's own race)] or (b) one that is 25% each [respondent's race] [each of the three racial groups respondent is not]?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	4.436	14.293
+0) Refused	19	0.7
+1) 25 and 75 percent	523	20.4
+2) No preference	692	27.0
+3) 25 percent each	1270	49.6
+99) Don't know	57	2.2
+
+
+90) RACDISC
+In the U.S., we generally refer to five racial groups: Whites, Blacks, Hispanics, Asians, and American Indians. Do you personally think that any one of these groups experiences more discrimination than the other groups?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	7.032	22.949
+0) Refused	11	0.4
+1) Yes	1642	64.1
+2) No	758	29.6
+99) Don't know	150	5.9
+
+
+91) DISCGRP
+If yes, which group?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1642	3.061	4.315
+0) Refused	6	0.4
+1) White	69	4.2
+2) Black	901	54.9
+3) Hispanic	201	12.2
+4) Asian	55	3.3
+5) American Indian	407	24.8
+99) Don't know	3	0.2
+Missing	919
+
+
+92) FOREMAN1
+A foreman has a good record in hiring and promoting racial minorities. However he tells racial jokes when around his minority subordinates. These jokes make racial minorities extremely uncomfortable. Despite his hiring and promotion record, do you think that his jokes are an example of prejudice?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1169	5.338	19.396
+0) Refused	12	1.0
+1) Yes	730	62.4
+2) No	379	32.4
+99) Don't know	48	4.1
+Missing	1392
+
+
+93) FOREMAN2
+A foreman has a good record in hiring and promoting racial minorities. However he tells racial jokes when around his minority subordinates. These jokes make racial minorities extremely uncomfortable. Do you think his jokes are an example of racism?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1169	5.19	19.214
+0) Refused	12	1.0
+1) Yes	806	68.9
+2) No	304	26.0
+99) Don't know	47	4.0
+Missing	1392
+
+
+94) ASSAULT1
+A group of [black] (if respondent is white, black, mixed, or no preference)/[Asian] (if Asian)/[Hispanic](if Hispanic)/[American Indian] (if American Indian) teenagers are angry that the school administration seems insensitive to racial concerns. Because of their frustration, some of them assault a white classmate. The individual is attacked in part because he is white. Clearly this assault is wrong, but is it also an example of prejudice?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1129	5.176	19.131
+0) Refused	14	1.2
+1) Yes	751	66.5
+2) No	319	28.3
+99) Don't know	45	4.0
+Missing	1432
+
+
+95) ASSAULT2
+A group of [black] (if respondent is white, black, mixed, or no preference)/[Asian] (if Asian)/[Hispanic](if Hispanic)/[American Indian] (if American Indian) teenagers are angry that the school administration seems insensitive to racial concerns. Because of their frustration, some of them assault a white classmate. The individual is attacked in part because he is white. Is the assault an example of racism?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1129	4.431	17.661
+0) Refused	12	1.1
+1) Yes	917	81.2
+2) No	162	14.3
+99) Don't know	38	3.4
+Missing	1432
+
+
+96) DATEBLK1
+A white teenage girl begins dating a black teenage boy.  Her parents pressure her not to date him. They do not resent him for being black, but feel they must shield their daughter from social rejection they think their daughter will face. Are actions to stop their daughter from dating this boy is an example of prejudice?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1152	4.428	17.241
+0) Refused	10	0.9
+1) Yes	772	67.0
+2) No	333	28.9
+99) Don't know	37	3.2
+Missing	1409
+
+
+97) DATEBLK2
+A white teenage girl begins dating a black teenage boy.  Her parents pressure her not to date him. They do not resent him for being black, but feel they must shield their daughter from social rejection they think their daughter will face. Are actions to stop their daughter from dating this boy is an example of racism?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1152	5.313	19.121
+0) Refused	10	0.9
+1) Yes	626	54.3
+2) No	470	40.8
+99) Don't know	46	4.0
+Missing	1409
+
+
+98) EXTRA1
+A black professor [if respondent is Asian, Hispanic, or American Indian, use their race] grades all of her students fairly. However she spends extra time with her black students [if respondent is Asian, Hispanic, or American Indian, use their race] because she feels that they have a hard time relating to white professors.  Some of her white students complain that this extra time is prejudice, since white students do not get this special attention. Would you agree?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1143	4.721	17.735
+0) Refused	13	1.1
+1) Yes	647	56.6
+2) No	444	38.8
+99) Don't know	39	3.4
+Missing	1418
+
+
+99) EXTRA2
+A black professor [if respondent is Asian, Hispanic, or American Indian, use their race] grades all of her students fairly. However she spends extra time with her black students [if respondent is Asian, Hispanic, or American Indian, use their race] because she feels that they have a hard time relating to white professors.  Some of her white students complain that this extra time is racism, since white students do not get this special attention. Would you agree?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1143	5.302	18.54
+0) Refused	15	1.3
+1) Yes	367	32.1
+2) No	718	62.8
+99) Don't know	43	3.8
+Missing	1418
+
+
+100) CABDRIV1
+A white cab driver can pick up a black man in a suit and tie or a white man wearing blue jeans and a T-shirt. The driver has no ill feelings towards African Americans but does not want to risk being asked to go to an inner-city black neighborhood, since he fears this will put him at a risk of being assaulted. Therefore the driver passes the black man and picks up the white man.  Has the driver engaged in prejudice?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1048	4.305	17.089
+0) Refused	15	1.4
+1) Yes	755	72.0
+2) No	245	23.4
+99) Don't know	33	3.1
+Missing	1513
+
+
+101) CABDRIV2
+A white cab driver can pick up a black man in a suit and tie or a white man wearing blue jeans and a T-shirt. The driver has no ill feelings towards African Americans but does not want to risk being asked to go to an inner-city black neighborhood, since he fears this will put him at a risk of being assaulted. Therefore the driver passes the black man and picks up the white man.  Has the driver engaged in racism?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1048	5.029	18.491
+0) Refused	14	1.3
+1) Yes	581	55.4
+2) No	414	39.5
+99) Don't know	39	3.7
+Missing	1513
+
+
+102) HOMEOWN1
+A white homeowner decides to move out of the neighborhood, because she has noticed several racial minorities moving into the neighborhood. Even though she does get along with non-whites, she is afraid that the value of her home will decrease. Is her decision to move prejudice?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1106	4.565	17.583
+0) Refused	11	1.0
+1) Yes	730	66.0
+2) No	328	29.7
+99) Don't know	37	3.3
+Missing	1455
+
+
+103) HOMEOWN2
+A white homeowner decides to move out of the neighborhood, because she has noticed several racial minorities moving into the neighborhood. Even though she does get along with non-whites, she is afraid that the value of her home will decrease. Is her decision to move racist?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1106	6.472	21.584
+0) Refused	12	1.1
+1) Yes	559	50.5
+2) No	478	43.2
+99) Don't know	57	5.2
+Missing	1455
+
+
+104) SCHOOLS1
+In a certain city, most white children go to schools that are predominately white. Since they live in different neighborhoods, most black children go to schools that are predominately non-white.  Standardized tests were taken five years in a row. While 80% of the white students passed, 80 percent of the black children failed. Is this an example of prejudice?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1092	10.414	27.832
+0) Refused	9	0.8
+1) Yes	300	27.5
+2) No	685	62.7
+99) Don't know	98	9.0
+Missing	1469
+
+
+105) SCHOOLS2
+In a certain city, most white children go to schools that are predominately white. Since they live in different neighborhoods, most black children go to schools that are predominately non-white.  Standardized tests were taken five years in a row. While 80% of the white students passed, 80 percent of the black children failed. Is this an example of racism?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1092	7.816	23.697
+0) Refused	9	0.8
+1) Yes	324	29.7
+2) No	690	63.2
+99) Don't know	69	6.3
+Missing	1469
+
+
+106) CULTUNIQ
+This is a somewhat long question, so please feel free to ask me to repeat it. Some people say that we are better off if the races maintain their cultural uniqueness, even if we have limited personal relationships between races. Others say that we should create a common culture and close interracial friendships, even though the races may lose their cultural uniqueness. Which one do you prefer?
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2561	1.813	0.843
+0) Refused	12	0.5
+1) Maintain cultural uniqueness	905	35.3
+2) Create a common culture	1265	49.4
+3) Combination	367	14.3
+9) Don't know	12	0.5
+
+
+107) LEANMORE
+[If CULTUNIQ=3] Do you lean more toward 1 or more toward 2 or are you right in the middle?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	374	3.099	7.078
+1) Lean more toward 1	52	13.9
+2) Lean more toward 2	51	13.6
+3) Right in the middle	269	71.9
+99) Don't know	2	0.5
+Missing	2187
+
+
+108) EVERLIVE
+Not including your current neighborhood, have you ever lived in a neighborhood that was 20% or more non-[respondent's race]?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	2.274	9.019
+0) Refused	1	0.0
+1) Yes	1431	55.9
+2) No	1107	43.2
+99) Don't know	22	0.9
+
+
+109) EVERATT
+Not including any school you may be presently attending and not including college, have you ever attended a school that was 20% or more non-[respondent's race]?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	2.325	8.806
+0) Refused	1	0.0
+1) Yes	1202	46.9
+2) No	1337	52.2
+99) Don't know	21	0.8
+
+
+110) DATERACE
+Have you ever dated someone of another race?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	1.597	1.989
+0) Refused	1	0.0
+1) Yes	1128	44.0
+2) No	1431	55.9
+99) Don't know	1	0.0
+
+
+111) POLSCALE
+On a political scale of 1 to 7 - with 1 being extremely liberal, 4 being middle of the road,  and 7 being extremely conservative - how would  you describe yourself  politically?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	7.606	17.516
+0) Refused	14	0.5
+1) Extremely liberal	156	6.1
+2) Liberal	185	7.2
+3) Slightly liberal	203	7.9
+4) Moderate, middle of the road	959	37.4
+5) Slightly conservative	368	14.4
+6) Conservative	344	13.4
+7) Extremely conservative	242	9.4
+99) Don't know	90	3.5
+
+
+112) ABORTIMP
+When you decide who to vote for in an election, you have several issues that may concern you. On a scale from 1 to 5 - with 1 being not important, 3 being moderately important, and 5 being extremely important - please rank the importance of each of the following issues in determining how you vote: Abortion
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2561	5.017	10.999
+1) Not important	357	13.9
+2) Slightly important	105	4.1
+3) Moderately important	596	23.3
+4) Very important	218	8.5
+5) Extremely important	1251	48.8
+99) Don't know	34	1.3
+
+
+113) AFFRMIMP
+When you decide who to vote for in an election, you have several issues that may concern you.  On a scale from 1 to 5 - with 1 being not important, 3 being moderately important, and 5 being extremely important - please rank the importance of each of the following issues in determining how you vote: Affirmative action
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2561	9.388	23.093
+1) Not important	255	10.0
+2) Slightly important	146	5.7
+3) Moderately important	977	38.1
+4) Very important	296	11.6
+5) Extremely important	728	28.4
+99) Don't know	159	6.2
+
+
+114) ENVIRIMP
+When you decide who to vote for in an election, you have several issues that may concern you.  On a scale from 1 to 5 - with 1 being not important, 3 being moderately important, and 5 being extremely important - please rank the importance of each of the following issues in determining how you vote: Environmental issues
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2561	4.986	10.13
+1) Not important	118	4.6
+2) Slightly important	139	5.4
+3) Moderately important	727	28.4
+4) Very important	419	16.4
+5) Extremely important	1129	44.1
+99) Don't know	29	1.1
+
+
+115) FORGNIMP
+When you decide who to vote for in an election, you have several issues that may concern you.  On a scale from 1 to 5 - with 1 being not important, 3 being moderately important, and 5 being extremely important - please rank the importance of each of the following issues in determining how you vote: Foreign policy
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2561	6.209	15.488
+1) Not important	169	6.6
+2) Slightly important	153	6.0
+3) Moderately important	893	34.9
+4) Very important	470	18.4
+5) Extremely important	807	31.5
+99) Don't know	69	2.7
+
+
+116) GAYIMP
+When you decide who to vote for in an election, you have several issues that may concern you.  On a scale from 1 to 5 - with 1 being not important, 3 being moderately important, and 5 being extremely important - please rank the importance of each of the following issues in determining how you vote: Gay rights
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2561	5.306	14.713
+1) Not important	626	24.4
+2) Slightly important	244	9.5
+3) Moderately important	733	28.6
+4) Very important	248	9.7
+5) Extremely important	649	25.3
+99) Don't know	61	2.4
+
+
+117) GUNIMP
+When you decide who to vote for in an election, you have several issues that may concern you.  On a scale from 1 to 5 - with 1 being not important, 3 being moderately important, and 5 being extremely important - please rank the importance of each of the following issues in determining how you vote: Gun control
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2561	5.131	9.769
+1) Not important	180	7.0
+2) Slightly important	87	3.4
+3) Moderately important	447	17.5
+4) Very important	327	12.8
+5) Extremely important	1493	58.3
+99) Don't know	27	1.1
+
+
+118) DEFNSIMP
+When you decide who to vote for in an election, you have several issues that may concern you.  On a scale from 1 to 5 - with 1 being not important, 3 being moderately important, and 5 being extremely important - please rank the importance of each of the following issues in determining how you vote: National defense
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2561	5.557	12.409
+1) Not important	102	4.0
+2) Slightly important	133	5.2
+3) Moderately important	728	28.4
+4) Very important	447	17.5
+5) Extremely important	1107	43.2
+99) Don't know	44	1.7
+
+
+119) TAXESIMP
+When you decide who to vote for in an election, you have several issues that may concern you.  On a scale from 1 to 5 - with 1 being not important, 3 being moderately important, and 5 being extremely important - please rank the importance of each of the following issues in determining how you vote: Taxes
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2561	5.139	10.104
+1) Not important	83	3.2
+2) Slightly important	73	2.9
+3) Moderately important	686	26.8
+4) Very important	447	17.5
+5) Extremely important	1243	48.5
+99) Don't know	29	1.1
+
+
+120) WELFIMP
+When you decide who to vote for in an election, you have several issues that may concern you.  On a scale from 1 to 5 - with 1 being not important, 3 being moderately important, and 5 being extremely important - please rank the importance of each of the following issues in determining how you vote: Welfare policy
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2561	5.159	10.943
+1) Not important	97	3.8
+2) Slightly important	107	4.2
+3) Moderately important	806	31.5
+4) Very important	468	18.3
+5) Extremely important	1049	41.0
+99) Don't know	34	1.3
+
+
+121) EDUCIMP
+When you decide who to vote for in an election, you have several issues that may concern you.  On a scale from 1 to 5 - with 1 being not important, 3 being moderately important, and 5 being extremely important - please rank the importance of each of the following issues in determining how you vote: Education
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2561	5.334	8.137
+1) Not important	33	1.3
+2) Slightly important	28	1.1
+3) Moderately important	210	8.2
+4) Very important	295	11.5
+5) Extremely important	1976	77.2
+99) Don't know	19	0.7
+
+
+122) CRIMEIMP
+When you decide who to vote for in an election, you have several issues that may concern you.  On a scale from 1 to 5 - with 1 being not important, 3 being moderately important, and 5 being extremely important - please rank the importance of each of the following issues in determining how you vote: Crime
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2561	5.107	8.178
+1) Not important	76	3.0
+2) Slightly important	44	1.7
+3) Moderately important	340	13.3
+4) Very important	395	15.4
+5) Extremely important	1687	65.9
+99) Don't know	19	0.7
+
+
+123) SSECIMP
+When you decide who to vote for in an election, you have several issues that may concern you.  On a scale from 1 to 5 - with 1 being not important, 3 being moderately important, and 5 being extremely important - please rank the importance of each of the following issues in determining how you vote: Social Security
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2561	4.894	7.985
+1) Not important	58	2.3
+2) Slightly important	80	3.1
+3) Moderately important	525	20.5
+4) Very important	442	17.3
+5) Extremely important	1438	56.1
+99) Don't know	18	0.7
+
+
+124) IMMIGIMP
+When you decide who to vote for in an election, you have several issues that may concern you.  On a scale from 1 to 5 - with 1 being not important, 3 being moderately important, and 5 being extremely important - please rank the importance of each of the following issues in determining how you vote: Immigration
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2561	4.82	11.47
+1) Not important	213	8.3
+2) Slightly important	235	9.2
+3) Moderately important	1019	39.8
+4) Very important	344	13.4
+5) Extremely important	713	27.8
+99) Don't know	37	1.4
+
+
+125) MOSTIMP
+Most important issue?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2555	23.388	34.119
+0) Refused	29	1.1
+1) Abortion	243	9.5
+2) Affirmative action	28	1.1
+3) Environmental issues	97	3.8
+4) Foreign policy	39	1.5
+5) Gay rights	32	1.3
+6) Gun control	215	8.4
+7) National defense	100	3.9
+8) Taxes	177	6.9
+9) Welfare policy	42	1.6
+10) Education	541	21.2
+11) Crime	156	6.1
+12) Social Security	184	7.2
+13) Immigration	56	2.2
+14) Other	188	7.4
+99) Don't know	428	16.8
+Missing	6
+
+
+126) BIBLE
+Do you think that the Bible is the inspired word of God, or not?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1791	4.303	17.485
+0) Refused	5	0.3
+1) Yes, inspired	1588	88.7
+2) No, not inspired	139	7.8
+99) Don't know	59	3.3
+Missing	770
+
+
+127) BIBLVIEW
+[If BIBLE=1] I'm going to read you three views about the Bible. Please tell me which one best reflects your own view:
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1588	2.305	6.483
+0) Refused	3	0.2
+1) The first: the Bible is true in all ways, and to be read literally word for word	579	36.5
+2) The second: the Bible is true in all ways, but not always to be read literally	609	38.4
+3) The third: the Bible is a moral guide, but should not be read literally, and may contain some errors about non-religious matters	390	24.6
+99) Don't know	7	0.4
+Missing	973
+
+
+128) ONLYHOPE
+Do you think that the only hope for salvation is through personal faith in Jesus Christ, or are there other ways to salvation?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1791	3.561	14.801
+0) Refused	7	0.4
+1) Yes, Christ only hope	1265	70.6
+2) No, other ways	477	26.6
+99) Don't know	42	2.3
+Missing	770
+
+
+129) DENOM
+[If RELIG=1 and ATTEND=2-6] What is the denomination of the church you most often attend, or is it nondenominational?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1676	16.641	17.954
+0) Refused	15	0.9
+1) Anabaptist	2	0.1
+2) Anglican/Church of England	3	0.2
+3) Assembly of God	23	1.4
+4) Baptist	423	25.2
+5) Brethren	8	0.5
+6) Catholic	462	27.6
+7) Charismatic	1	0.1
+8) 'Christian' or 'just Christian'	49	2.9
+9) Christian and Missionary Alliance (CMA)	2	0.1
+10) Christian Science	2	0.1
+11) Church(es) of God	1	0.1
+12) Church of God	8	0.5
+13) Church of God in Christ (COGIC)	8	0.5
+15) Congregationalist	13	0.8
+16) Disciples of Christ	6	0.4
+17) Episcopalian	39	2.3
+18) Evangelical Covenant Church	1	0.1
+19) Evangelical Free Church	2	0.1
+20) Four Square	4	0.2
+21) Free Methodist Church	1	0.1
+22) Nondenominational or interdenominational Protestant	52	3.1
+23) Holiness	4	0.2
+24) Independent	4	0.2
+25) Jehovah's Witness	7	0.4
+26) 'Just Protestant'	6	0.4
+27) Lutheran	74	4.4
+28) Mennonite	1	0.1
+29) Methodist	148	8.8
+30) Methodist Episcopal	3	0.2
+31) Mormon/Latter-day Saints	22	1.3
+32) Pentecostal	34	2.0
+33) Presbyterian	57	3.4
+34) Quaker/Friends	2	0.1
+35) Reformed	3	0.2
+36) Roman Catholic	40	2.4
+38) Unitarian Universalist	3	0.2
+39) United Church of Christ (UCC)	10	0.6
+40) Wesleyan Church	4	0.2
+41) Other	90	5.4
+99) Don't know	39	2.3
+Missing	885
+
+
+130) CATHORTH
+[If RELIG=8] Would you say you are either a Catholic or Eastern Orthodox Christian?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	34	24.441	41.983
+0) Refused	1	2.9
+1) Yes	11	32.4
+2) No	14	41.2
+99) Don't know	8	23.5
+Missing	2527
+
+
+131) BAPTIST
+[If DENOM=4] With which Baptist group is your church associated? Is it Southern Baptist, National Baptist, American Baptist, independent Baptist, or some other Baptist group?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	422	24.725	29.39
+1) American Baptist Association	21	5.0
+2) American Baptist USA	10	2.4
+4) Baptist General Conference	1	0.2
+5) Baptist Missionary Association	1	0.2
+6) Conservative Baptist Association of America	1	0.2
+7) Free Will Baptist	4	0.9
+8) Fundamentalist Baptist (no denominational ties)	4	0.9
+9) General Association of Regular Baptists (GARB)	3	0.7
+10) Independent Baptist (no denominational ties)	44	10.4
+11) Missionary Baptist	11	2.6
+12) National Baptist Convention of America	14	3.3
+13) National Baptist Convention USA	10	2.4
+14) Primitive Baptists	2	0.5
+16) Southern Baptist	220	52.1
+17) Other	20	4.7
+99) Don't know, 'just Baptist'	56	13.3
+Missing	2139
+
+
+132) PRESB
+[If DENOM=33] Is that the Presbyterian Church in the USA, the Presbyterian Church in America, or some other Presbyterian group?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	57	28.825	42.314
+1) Evangelical Presbyterian Church (EPC)	1	1.8
+3) Presbyterian Church in America (PCA)	7	12.3
+4) Presbyterian Church USA (PCUSA)	34	59.6
+99) Don't know, 'just Presbyterian'	15	26.3
+Missing	2504
+
+
+133) CHRSTN
+[If DENOM=8] When you say 'Christian,' does that mean the denomination called the 'Christian Church (Disciples of Christ),' or some other Christian denomination, or do you mean to say 'I am just a Christian'?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	49	9.673	26.911
+1) Disciples of Christ	12	24.5
+2) Just a Christian	33	67.3
+99) Don't know	4	8.2
+Missing	2512
+
+
+134) PENTECOS
+[If DENOM=32] What kind of church is that?  What is it called exactly?  Is that part of a large church or denomination?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	34	16.647	26.456
+1) Apostolic Pentecostal	1	2.9
+2) Assemblies of God	8	23.5
+4) Church of God (Huntsville, AL)	1	2.9
+5) Church of God in Christ	1	2.9
+7) Church of God in Prophecy	1	2.9
+9) Full Gospel	1	2.9
+10) Pentecostal Church of God	3	8.8
+11) Pentecostal Holiness Church	4	11.8
+13) United Pentecostal Church International	1	2.9
+14) Other	10	29.4
+99) Don't know, 'just Pentecostal'	3	8.8
+Missing	2527
+
+
+135) RELIGID
+[If RELIG=1 or 3] When it comes to your religious identity, would you say you are a fundamentalist, evangelical, mainline, or theologically liberal Christian, or do none of these describe you?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1072	11.432	26.077
+0) Refused	7	0.7
+1) Fundamentalist	115	10.7
+2) Evangelical	140	13.1
+3) Mainline	100	9.3
+4) Theologically liberal	208	19.4
+5) None of these	375	35.0
+6) Other	40	3.7
+99) Don't know	87	8.1
+Missing	1489
+
+
+136) CATHOLIC
+[If RELIG=2] When it comes to your religious identity, would you say you are a traditional, moderate, or liberal Catholic, or do none of these describe you?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	637	3.823	11.475
+0) Refused	3	0.5
+1) Traditional	161	25.3
+2) Moderate	194	30.5
+3) Liberal	175	27.5
+4) Pentecostal	7	1.1
+5) None of these	86	13.5
+6) Other	2	0.3
+99) Don't know	9	1.4
+Missing	1924
+
+
+137) ALLOWED
+Women should be allowed to be [head pastors/priests (if Catholic)]. Do you strongly agree, moderately agree, slightly agree, slightly disagree, moderately disagree, or strongly disagree?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1791	3.342	7.442
+0) Refused	10	0.6
+1) Strongly agree	683	38.1
+2) Moderately agree	406	22.7
+3) Slightly agree	106	5.9
+4) Slightly disagree	71	4.0
+5) Moderately disagree	131	7.3
+6) Strongly disagree	374	20.9
+99) Don't know	10	0.6
+Missing	770
+
+
+138) ENOUGH
+If enough people became Christians, social problems would naturally begin to disappear.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1791	3.244	5.888
+0) Refused	7	0.4
+1) Strongly agree	649	36.2
+2) Moderately agree	344	19.2
+3) Slightly agree	124	6.9
+4) Slightly disagree	103	5.8
+5) Moderately disagree	253	14.1
+6) Strongly disagree	305	17.0
+99) Don't know	6	0.3
+Missing	770
+
+
+139) STYLEMUS
+[Asked only of those Christians attending church two or more times a month] I like the style of music at my church.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1791	2.937	10.034
+0) Refused	12	0.7
+1) Strongly agree	875	48.9
+2) Moderately agree	542	30.3
+3) Slightly agree	163	9.1
+4) Slightly disagree	42	2.3
+5) Moderately disagree	65	3.6
+6) Strongly disagree	73	4.1
+99) Don't know	19	1.1
+Missing	770
+
+
+140) BELONG
+[Asked only of those Christians attending church two or more times a month] I feel like I belong at my church.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1791	2.497	8.66
+0) Refused	16	0.9
+1) Strongly agree	1074	60.0
+2) Moderately agree	400	22.3
+3) Slightly agree	114	6.4
+4) Slightly disagree	55	3.1
+5) Moderately disagree	57	3.2
+6) Strongly disagree	61	3.4
+99) Don't know	14	0.8
+Missing	770
+
+
+141) SENSITVE
+[Asked only of those Christians attending church two or more times a month] Attending my church has made me more sensitive to other racial groups.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1791	3.737	10.528
+0) Refused	19	1.1
+1) Strongly agree	663	37.0
+2) Moderately agree	398	22.2
+3) Slightly agree	177	9.9
+4) Slightly disagree	133	7.4
+5) Moderately disagree	188	10.5
+6) Strongly disagree	192	10.7
+99) Don't know	21	1.2
+Missing	770
+
+
+142) SATISFD
+[Asked only of those Christians attending church two or more times a month] I'm satisfied with the leadership at my church.
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1791	3.059	11.023
+0) Refused	18	1.0
+1) Strongly agree	978	54.6
+2) Moderately agree	476	26.6
+3) Slightly agree	125	7.0
+4) Slightly disagree	41	2.3
+5) Moderately disagree	47	2.6
+6) Strongly disagree	83	4.6
+99) Don't know	23	1.3
+Missing	770
+
+
+143) SEX
+Respondent's sex
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2561	1.591	0.492
+1) Male	1048	40.9
+2) Female	1513	59.1
+
+
+144) CHILDREN
+How many children do you currently live with and raise?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	1.153	4.055
+0)	1335	52.1
+1)	417	16.3
+2)	460	18.0
+3)	226	8.8
+4)	73	2.9
+5)	32	1.2
+6)	9	0.4
+7)	2	0.1
+8)	2	0.1
+9) 9 or more	1	0.0
+98) Refused	3	0.1
+99) Don't know	1	0.0
+
+
+145) UNDER18
+Are any under 18?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1222	1.155	0.362
+1) Yes	1033	84.5
+2) No	189	15.5
+Missing	1339
+
+
+146) YEARBORN
+What year were you born?
+RANGE: 1900 to 9999
+	N	Mean	Std. Deviation
+Total	2561	2037.442	806.632
+1900)	1	0.0
+1905)	1	0.0
+1906)	1	0.0
+1907)	2	0.1
+1908)	1	0.0
+1909)	5	0.2
+1910)	1	0.0
+1911)	4	0.2
+1912)	7	0.3
+1913)	1	0.0
+1914)	3	0.1
+1915)	5	0.2
+1916)	3	0.1
+1917)	6	0.2
+1918)	7	0.3
+1919)	9	0.4
+1920)	10	0.4
+1921)	15	0.6
+1922)	12	0.5
+1923)	18	0.7
+1924)	23	0.9
+1925)	13	0.5
+1926)	24	0.9
+1927)	14	0.5
+1928)	21	0.8
+1929)	17	0.7
+1930)	20	0.8
+1931)	28	1.1
+1932)	31	1.2
+1933)	30	1.2
+1934)	17	0.7
+1935)	21	0.8
+1936)	24	0.9
+1937)	31	1.2
+1938)	28	1.1
+1939)	19	0.7
+1940)	41	1.6
+1941)	21	0.8
+1942)	40	1.6
+1943)	25	1.0
+1944)	27	1.1
+1945)	27	1.1
+1946)	41	1.6
+1947)	42	1.6
+1948)	50	2.0
+1949)	36	1.4
+1950)	43	1.7
+1951)	46	1.8
+1952)	51	2.0
+1953)	46	1.8
+1954)	56	2.2
+1955)	48	1.9
+1956)	55	2.1
+1957)	62	2.4
+1958)	63	2.5
+1959)	59	2.3
+1960)	61	2.4
+1961)	57	2.2
+1962)	51	2.0
+1963)	53	2.1
+1964)	60	2.3
+1965)	66	2.6
+1966)	48	1.9
+1967)	49	1.9
+1968)	58	2.3
+1969)	54	2.1
+1970)	54	2.1
+1971)	55	2.1
+1972)	45	1.8
+1973)	54	2.1
+1974)	55	2.1
+1975)	45	1.8
+1976)	46	1.8
+1977)	48	1.9
+1978)	66	2.6
+1979)	42	1.6
+1980)	53	2.1
+1981)	56	2.2
+1982)	7	0.3
+9999) Refused/Don't know	26	1.0
+
+
+147) WHEREBRN
+In what state or country were you born? Code state or country of birth (If say, 'U.S.' ask 'And what state?)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2561	1.848	0.359
+1) Other than U.S.	388	15.2
+2) United States	2173	84.8
+
+
+148) CNTRYBRN
+Country of birth (if WHEREBRN=1)
+RANGE: 1 to 57
+	N	Mean	Std. Deviation
+Total	388	33.472	16.708
+1) Afghanistan	2	0.5
+2) Argentina	2	0.5
+3) Bangladesh	1	0.3
+4) Brazil	4	1.0
+5) Cambodia	1	0.3
+6) Canada	9	2.3
+8) China	29	7.5
+9) Colombia	11	2.8
+10) Cuba	6	1.5
+11) Dominican Republic	8	2.1
+12) Ecuador	4	1.0
+13) Egypt	1	0.3
+14) El Salvador	5	1.3
+17) Germany	9	2.3
+20) Guatemala	4	1.0
+21) Guyana	1	0.3
+22) Haiti	1	0.3
+23) Honduras	2	0.5
+24) Hong Kong	8	2.1
+25) India	21	5.4
+27) Iran	3	0.8
+28) Ireland	1	0.3
+29) Israel	3	0.8
+30) Italy	2	0.5
+31) Jamaica	5	1.3
+32) Japan	9	2.3
+34) Korea	10	2.6
+35) Laos	2	0.5
+36) Lebanon	2	0.5
+37) Mexico	102	26.3
+38) Nicaragua	2	0.5
+40) Pakistan	3	0.8
+42) Peru	1	0.3
+43) Philippines	18	4.6
+44) Poland	1	0.3
+47) Russia	1	0.3
+50) Taiwan	18	4.6
+51) Thailand	1	0.3
+52) Trinidad & Tobago	1	0.3
+55) United Kingdom	3	0.8
+56) Vietnam	19	4.9
+57) Other	52	13.4
+Missing	2173
+
+
+149) STATEBRN
+U.S. state of birth (if WHEREBRN=2)
+RANGE: 1 to 52
+	N	Mean	Std. Deviation
+Total	2174	25.852	14.282
+1) Alabama	41	1.9
+2) Alaska	2	0.1
+3) Arizona	13	0.6
+4) Arkansas	32	1.5
+5) California	181	8.3
+6) Colorado	24	1.1
+7) Connecticut	22	1.0
+8) Delaware	5	0.2
+9) Florida	42	1.9
+10) Georgia	68	3.1
+11) Hawaii	10	0.5
+12) Idaho	18	0.8
+13) Illinois	117	5.4
+14) Indiana	56	2.6
+15) Iowa	33	1.5
+16) Kansas	37	1.7
+17) Kentucky	37	1.7
+18) Louisiana	44	2.0
+19) Maine	12	0.6
+20) Maryland	20	0.9
+21) Massachusetts	44	2.0
+22) Michigan	99	4.6
+23) Minnesota	47	2.2
+24) Mississippi	43	2.0
+25) Missouri	58	2.7
+26) Montana	13	0.6
+27) Nebraska	21	1.0
+28) Nevada	6	0.3
+29) New Hampshire	6	0.3
+30) New Jersey	40	1.8
+31) New Mexico	12	0.6
+32) New York	145	6.7
+33) North Carolina	74	3.4
+34) North Dakota	12	0.6
+35) Ohio	106	4.9
+36) Oklahoma	32	1.5
+37) Oregon	17	0.8
+38) Pennsylvania	124	5.7
+39) Rhode Island	6	0.3
+40) South Carolina	28	1.3
+41) South Dakota	4	0.2
+42) Tennessee	61	2.8
+43) Texas	145	6.7
+44) Utah	8	0.4
+45) Vermont	6	0.3
+46) Virginia	49	2.3
+47) Washington	37	1.7
+48) Washington, D.C.	18	0.8
+49) West Virginia	24	1.1
+50) Wisconsin	59	2.7
+51) Wyoming	6	0.3
+52) Other	10	0.5
+Missing	387
+
+
+150) LIVELONG
+From age 8-18, in what state or country did you live the longest? Code state or country of birth
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2561	1.891	0.311
+1) Other than U.S.	278	10.9
+2) United States	2283	89.1
+
+
+151) CNTRYLNG
+Country lived longest
+RANGE: 1 to 57
+	N	Mean	Std. Deviation
+Total	278	32.608	16.431
+1) Afghanistan	1	0.4
+2) Argentina	3	1.1
+4) Brazil	4	1.4
+5) Cambodia	1	0.4
+6) Canada	8	2.9
+8) China	22	7.9
+9) Colombia	9	3.2
+10) Cuba	3	1.1
+11) Dominican Republic	5	1.8
+12) Ecuador	2	0.7
+14) El Salvador	4	1.4
+17) Germany	6	2.2
+20) Guatemala	3	1.1
+23) Honduras	1	0.4
+24) Hong Kong	4	1.4
+25) India	18	6.5
+27) Iran	3	1.1
+28) Ireland	1	0.4
+30) Italy	1	0.4
+31) Jamaica	4	1.4
+32) Japan	8	2.9
+34) Korea	5	1.8
+35) Laos	1	0.4
+36) Lebanon	1	0.4
+37) Mexico	83	29.9
+38) Nicaragua	1	0.4
+39) Nigeria	1	0.4
+40) Pakistan	2	0.7
+42) Peru	2	0.7
+43) Philippines	10	3.6
+47) Russia	1	0.4
+50) Taiwan	16	5.8
+52) Trinidad & Tobago	1	0.4
+53) Turkey	1	0.4
+54) Ukraine	1	0.4
+55) United Kingdom	1	0.4
+56) Vietnam	7	2.5
+57) Other	33	11.9
+Missing	2283
+
+
+152) STATELNG
+State lived longest
+RANGE: 1 to 52
+	N	Mean	Std. Deviation
+Total	2283	24.98	14.551
+1) Alabama	38	1.7
+2) Alaska	3	0.1
+3) Arizona	17	0.7
+4) Arkansas	31	1.4
+5) California	259	11.3
+6) Colorado	24	1.1
+7) Connecticut	20	0.9
+8) Delaware	6	0.3
+9) Florida	71	3.1
+10) Georgia	67	2.9
+11) Hawaii	4	0.2
+12) Idaho	16	0.7
+13) Illinois	110	4.8
+14) Indiana	65	2.8
+15) Iowa	33	1.4
+16) Kansas	38	1.7
+17) Kentucky	35	1.5
+18) Louisiana	48	2.1
+19) Maine	10	0.4
+20) Maryland	33	1.4
+21) Massachusetts	41	1.8
+22) Michigan	103	4.5
+23) Minnesota	50	2.2
+24) Mississippi	36	1.6
+25) Missouri	43	1.9
+26) Montana	11	0.5
+27) Nebraska	21	0.9
+28) Nevada	8	0.4
+29) New Hampshire	9	0.4
+30) New Jersey	49	2.1
+31) New Mexico	13	0.6
+32) New York	161	7.1
+33) North Carolina	68	3.0
+34) North Dakota	7	0.3
+35) Ohio	100	4.4
+36) Oklahoma	29	1.3
+37) Oregon	19	0.8
+38) Pennsylvania	112	4.9
+39) Rhode Island	8	0.4
+40) South Carolina	28	1.2
+41) South Dakota	4	0.2
+42) Tennessee	65	2.8
+43) Texas	148	6.5
+44) Utah	10	0.4
+45) Vermont	9	0.4
+46) Virginia	55	2.4
+47) Washington	45	2.0
+48) Washington, D.C.	8	0.4
+49) West Virginia	20	0.9
+50) Wisconsin	57	2.5
+51) Wyoming	8	0.4
+52) Other	10	0.4
+Missing	278
+
+
+153) WHCHSTAT
+Since you moved to the United States, in which state did you live the longest?
+RANGE: 5 to 52
+	N	Mean	Std. Deviation
+Total	21	26.143	17.168
+5) California	4	19.0
+9) Florida	2	9.5
+10) Georgia	1	4.8
+11) Hawaii	1	4.8
+20) Maryland	1	4.8
+23) Minnesota	1	4.8
+30) New Jersey	2	9.5
+32) New York	1	4.8
+33) North Carolina	1	4.8
+40) South Carolina	1	4.8
+43) Texas	2	9.5
+46) Virginia	1	4.8
+48) Washington, D.C.	1	4.8
+50) Wisconsin	1	4.8
+52) Other (specify)	1	4.8
+Missing	2540
+
+
+154) DADBORN
+In what state or country was your father born?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2558	1.776	0.417
+1) Other than U.S.	572	22.4
+2) United States	1986	77.6
+Missing	3
+
+
+155) DADCNTRY
+Country father born in
+RANGE: 1 to 57
+	N	Mean	Std. Deviation
+Total	575	33.153	17.013
+1) Afghanistan	4	0.7
+2) Argentina	3	0.5
+3) Bangladesh	1	0.2
+4) Brazil	3	0.5
+5) Cambodia	1	0.2
+6) Canada	17	3.0
+7) Chile	1	0.2
+8) China	55	9.6
+9) Colombia	12	2.1
+10) Cuba	8	1.4
+11) Dominican Republic	9	1.6
+12) Ecuador	6	1.0
+13) Egypt	2	0.3
+14) El Salvador	7	1.2
+16) France	2	0.3
+17) Germany	11	1.9
+19) Greece	1	0.2
+20) Guatemala	5	0.9
+21) Guyana	2	0.3
+22) Haiti	2	0.3
+23) Honduras	2	0.3
+24) Hong Kong	5	0.9
+25) India	28	4.9
+26) Indonesia	2	0.3
+27) Iran	6	1.0
+28) Ireland	9	1.6
+29) Israel	1	0.2
+30) Italy	18	3.1
+31) Jamaica	9	1.6
+32) Japan	14	2.4
+34) Korea	11	1.9
+35) Laos	4	0.7
+37) Mexico	130	22.6
+38) Nicaragua	4	0.7
+39) Nigeria	2	0.3
+40) Pakistan	3	0.5
+42) Peru	2	0.3
+43) Philippines	24	4.2
+44) Poland	8	1.4
+45) Portugal	1	0.2
+46) Romania	2	0.3
+47) Russia	6	1.0
+48) Soviet Union	1	0.2
+49) Syria	1	0.2
+50) Taiwan	11	1.9
+52) Trinidad & Tobago	2	0.3
+53) Turkey	1	0.2
+54) Ukraine	2	0.3
+55) United Kingdom	3	0.5
+56) Vietnam	16	2.8
+57) Other	95	16.5
+Missing	1986
+
+
+156) DADSTATE
+U.S. state father born in
+RANGE: 1 to 52
+	N	Mean	Std. Deviation
+Total	1986	26.593	14.134
+1) Alabama	67	3.4
+2) Alaska	4	0.2
+3) Arizona	10	0.5
+4) Arkansas	40	2.0
+5) California	74	3.7
+6) Colorado	18	0.9
+7) Connecticut	15	0.8
+8) Delaware	3	0.2
+9) Florida	21	1.1
+10) Georgia	73	3.7
+11) Hawaii	11	0.6
+12) Idaho	14	0.7
+13) Illinois	94	4.7
+14) Indiana	60	3.0
+15) Iowa	35	1.8
+16) Kansas	34	1.7
+17) Kentucky	52	2.6
+18) Louisiana	54	2.7
+19) Maine	12	0.6
+20) Maryland	16	0.8
+21) Massachusetts	38	1.9
+22) Michigan	83	4.2
+23) Minnesota	48	2.4
+24) Mississippi	57	2.9
+25) Missouri	54	2.7
+26) Montana	9	0.5
+27) Nebraska	33	1.7
+28) Nevada	2	0.1
+29) New Hampshire	5	0.3
+30) New Jersey	35	1.8
+31) New Mexico	15	0.8
+32) New York	116	5.8
+33) North Carolina	81	4.1
+34) North Dakota	12	0.6
+35) Ohio	88	4.4
+36) Oklahoma	36	1.8
+37) Oregon	14	0.7
+38) Pennsylvania	106	5.3
+39) Rhode Island	3	0.2
+40) South Carolina	36	1.8
+41) South Dakota	11	0.6
+42) Tennessee	67	3.4
+43) Texas	115	5.8
+44) Utah	8	0.4
+45) Vermont	9	0.5
+46) Virginia	58	2.9
+47) Washington	13	0.7
+48) Washington, D.C.	3	0.2
+49) West Virginia	27	1.4
+50) Wisconsin	56	2.8
+51) Wyoming	6	0.3
+52) Other	35	1.8
+Missing	575
+
+
+157) MOMBORN
+And in what state or country was your mother born?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2560	1.778	0.416
+1) Other than U.S.	569	22.2
+2) United States	1991	77.8
+Missing	1
+
+
+158) MOMCNTRY
+Country mother born in
+RANGE: 1 to 57
+	N	Mean	Std. Deviation
+Total	570	33.318	16.938
+1) Afghanistan	3	0.5
+2) Argentina	2	0.4
+3) Bangladesh	1	0.2
+4) Brazil	3	0.5
+5) Cambodia	2	0.4
+6) Canada	15	2.6
+8) China	50	8.8
+9) Colombia	13	2.3
+10) Cuba	10	1.8
+11) Dominican Republic	10	1.8
+12) Ecuador	4	0.7
+13) Egypt	1	0.2
+14) El Salvador	10	1.8
+16) France	6	1.1
+17) Germany	12	2.1
+19) Greece	1	0.2
+20) Guatemala	5	0.9
+21) Guyana	2	0.4
+22) Haiti	2	0.4
+23) Honduras	3	0.5
+24) Hong Kong	7	1.2
+25) India	30	5.3
+26) Indonesia	2	0.4
+27) Iran	4	0.7
+28) Ireland	9	1.6
+30) Italy	8	1.4
+31) Jamaica	7	1.2
+32) Japan	15	2.6
+34) Korea	14	2.5
+35) Laos	4	0.7
+36) Lebanon	1	0.2
+37) Mexico	130	22.8
+38) Nicaragua	2	0.4
+39) Nigeria	2	0.4
+40) Pakistan	3	0.5
+41) Panama	1	0.2
+42) Peru	2	0.4
+43) Philippines	25	4.4
+44) Poland	6	1.1
+45) Portugal	1	0.2
+46) Romania	1	0.2
+47) Russia	5	0.9
+48) Soviet Union	1	0.2
+49) Syria	1	0.2
+50) Taiwan	16	2.8
+51) Thailand	1	0.2
+52) Trinidad & Tobago	2	0.4
+54) Ukraine	1	0.2
+55) United Kingdom	5	0.9
+56) Vietnam	20	3.5
+57) Other	89	15.6
+Missing	1991
+
+
+159) MOMSTATE
+U.S. state mother born in
+RANGE: 1 to 52
+	N	Mean	Std. Deviation
+Total	1991	26.661	14.092
+1) Alabama	62	3.1
+2) Alaska	4	0.2
+3) Arizona	9	0.5
+4) Arkansas	43	2.2
+5) California	81	4.1
+6) Colorado	21	1.1
+7) Connecticut	10	0.5
+8) Delaware	3	0.2
+9) Florida	19	1.0
+10) Georgia	78	3.9
+11) Hawaii	8	0.4
+12) Idaho	10	0.5
+13) Illinois	102	5.1
+14) Indiana	47	2.4
+15) Iowa	41	2.1
+16) Kansas	31	1.6
+17) Kentucky	56	2.8
+18) Louisiana	51	2.6
+19) Maine	14	0.7
+20) Maryland	19	1.0
+21) Massachusetts	44	2.2
+22) Michigan	74	3.7
+23) Minnesota	41	2.1
+24) Mississippi	58	2.9
+25) Missouri	64	3.2
+26) Montana	6	0.3
+27) Nebraska	27	1.4
+28) Nevada	0	0.0
+29) New Hampshire	6	0.3
+30) New Jersey	30	1.5
+31) New Mexico	12	0.6
+32) New York	114	5.7
+33) North Carolina	79	4.0
+34) North Dakota	13	0.7
+35) Ohio	87	4.4
+36) Oklahoma	39	2.0
+37) Oregon	18	0.9
+38) Pennsylvania	117	5.9
+39) Rhode Island	5	0.3
+40) South Carolina	46	2.3
+41) South Dakota	11	0.6
+42) Tennessee	62	3.1
+43) Texas	115	5.8
+44) Utah	11	0.6
+45) Vermont	8	0.4
+46) Virginia	56	2.8
+47) Washington	23	1.2
+48) Washington, D.C.	8	0.4
+49) West Virginia	23	1.2
+50) Wisconsin	59	3.0
+51) Wyoming	7	0.4
+52) Other	19	1.0
+Missing	570
+
+
+160) OWNHOUSE
+Do you currently own your own house, rent an apartment, or something else?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2561	2.422	6.614
+0) Refused	16	0.6
+1) Own my own house	1608	62.8
+2) Rent a house	261	10.2
+3) Rent an apartment	436	17.0
+4) Rent a duplex	14	0.5
+5) Own a condominium	21	0.8
+6) Rent a condominium	14	0.5
+7) Live in a dorm	10	0.4
+8) Other, specify	170	6.6
+99) Don't know	11	0.4
+
+
+161) ROOMS
+How many rooms do you have (for your family), not counting bathrooms?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2561	6.33	8.78
+1)	78	3.0
+2)	176	6.9
+3)	299	11.7
+4)	310	12.1
+5)	408	15.9
+6)	437	17.1
+7)	326	12.7
+8)	255	10.0
+9)	115	4.5
+10)	72	2.8
+11)	17	0.7
+12)	19	0.7
+13)	8	0.3
+14)	5	0.2
+15)	12	0.5
+16)	2	0.1
+25)	1	0.0
+99) Don't know	21	0.8
+
+
+162) HIGRADE
+What is the highest grade of school, year in college, or graduate degree you have completed? (in years of schooling)
+RANGE: 1 to 20
+	N	Mean	Std. Deviation
+Total	2561	13.728	3.054
+
+
+163) RESPZIP
+And to do our statistical analysis, we need to have respondent's zip codes. We will not use this to contact you or send you anything. Your answers are totally anonymous.  What is your zip code?   [If RESPZIP = 0 then refused.]
+RANGE: 0 to 999999999
+	N	Mean	Std. Deviation
+Total	2561	515044770.064	298107205.791
+
+
+164) INCOME
+Now here is the last question.  I am going to read you a list of income categories. Please tell me to stop when a category I read best describes your total household income before taxes.
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	2561	5.04	2.859
+1) Less than $10,000	210	8.2
+2) $10,000-20,000	328	12.8
+3) $20,000-30,000	368	14.4
+4) $30,000-40,000	351	13.7
+5) $40,000-50,000	328	12.8
+6) $50,000-60,000	270	10.5
+7) $60,000-70,000	214	8.4
+8) $70,000-80,000	134	5.2
+9) $80,000-90,000	77	3.0
+10) $90,000-100,000	80	3.1
+11) More than $100,000	201	7.8
+
+
+165) COOPERAT
+INTERVIEWER: Was the respondent cooperative?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	2561	1.142	0.403
+1) Cooperative	2242	87.5
+2) Mixed, but generally cooperative	281	11.0
+3) Mixed, but generally uncooperative	31	1.2
+4) Uncooperative	7	0.3
+
+
+166) UNDRSTND
+INTERVIEWER: Did the respondent appear to understand the questions?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	2561	1.268	0.513
+1) Yes	1951	76.2
+2) Mixed, but generally yes	544	21.2
+3) Mixed, but generally no	56	2.2
+4) No	10	0.4
+
+
+167) DATE
+Date of interview
+RANGE: 19990927 to 20000428
+	N	Mean	Std. Deviation
+Total	2561	19995604.884	4549.045
+
+
+168) RRACE
+Respondent's race (5 categories)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2561	1.672	1.064
+1) White	1692	66.1
+2) Black	303	11.8
+3) Hispanic	311	12.1
+4) Asian	225	8.8
+5) American Indian	30	1.2
+
+
+169) RANDOM1
+Randomization for TAXBREAK
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2560	1.496	0.5
+1) Black areas	1291	50.4
+2) Hispanic areas	1269	49.6
+Missing	1
+
+
+170) RANDOM2
+Randomization for WELFLIVE
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2561	2.961	1.425
+1) Whites	540	21.1
+2) Blacks	522	20.4
+3) Hispanics	506	19.8
+4) Asians	484	18.9
+5) American Indians	509	19.9
+
+
+171) RANDOM3
+Randomization for PATRIOT
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2561	2.965	1.42
+1) Whites	537	21.0
+2) Blacks	517	20.2
+3) Hispanics	504	19.7
+4) Asians	504	19.7
+5) American Indians	499	19.5
+
+
+172) RANDOM4
+Randomization for ARROGANT
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2560	2.968	1.412
+1) Whites	515	20.1
+2) Blacks	547	21.4
+3) Hispanics	504	19.7
+4) Asians	492	19.2
+5) American Indians	502	19.6
+Missing	1
+
+
+173) RANDOM5
+Randomization for UPSET
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	2560	2.474	1.122
+1) White	667	26.1
+2) Black	636	24.8
+3) Hispanic	633	24.7
+4) Asian	624	24.4
+Missing	1
+
+
+174) RANDOM6
+Randomization for BUYHOME part A (school quality)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	2561	2.01	0.824
+1) Low quality	856	33.4
+2) Acceptable quality	823	32.1
+3) High quality	882	34.4
+
+
+175) RANDOM7
+Randomization for BUYHOME part B2 (neighborhood racial composition)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	2561	2.496	1.12
+1) White	644	25.1
+2) Black	644	25.1
+3) Hispanic	632	24.7
+4) Asian	641	25.0
+
+
+176) RANDOM8
+Randomization for BUYHOME part B2 (neighborhood racial composition)
+RANGE: 1 to 20
+	N	Mean	Std. Deviation
+Total	2543	10.388	5.825
+1) 5%	135	5.3
+2) 10%	129	5.1
+3) 15%	135	5.3
+4) 20%	133	5.2
+5) 25%	134	5.3
+6) 30%	138	5.4
+7) 35%	116	4.6
+8) 40%	128	5.0
+9) 45%	114	4.5
+10) 50%	120	4.7
+11) 55%	145	5.7
+12) 60%	120	4.7
+13) 65%	135	5.3
+14) 70%	108	4.2
+15) 75%	113	4.4
+16) 80%	130	5.1
+17) 85%	123	4.8
+18) 90%	133	5.2
+19) 95%	115	4.5
+20) 100%	139	5.5
+Missing	18
+
+
+177) RANDOM9
+Randomization for BUYHOME part C (neighborhood home values)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	2561	2.002	0.823
+1) Lower value than home	865	33.8
+2) Equal value as home	825	32.2
+3) Higher value than home	871	34.0
+
+
+178) RANDOM10
+Randomization for BUYHOME part D (neighborhood property values)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	2561	2.026	0.826
+1) Declining property values	840	32.8
+2) Stable property values	814	31.8
+3) Increasing property values	907	35.4
+
+
+179) RANDOM11
+Randomization for BUYHOME part E (neighborhood crime level)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	2561	2.014	0.818
+1) Low crime	840	32.8
+2) Average crime	846	33.0
+3) High crime	875	34.2
+
+
+180) RANDOM12
+Randomization for PREFER (neighborhood racial composition)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2561	2.482	1.125
+1) White	666	26.0
+2) Black	626	24.4
+3) Hispanic	639	25.0
+4) Asian	628	24.5
+5) American Indian	2	0.1
+
+
+181) OPEN1
+Open-ended responses to DENOM
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	90		
+
+
+182) OPEN2
+Open-ended responses to WORK
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	139		
+
+
+183) OPEN3
+Open-ended responses to BAPTIST
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	20		
+
+
+184) OPEN4
+Open-ended responses to RELIGID
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	37		
+
+
+185) OPEN5
+Open-ended responses to RELIG
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	146		
+
+
+186) OPEN6
+Open-ended responses to CNTRYBRN
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	52		
+
+
+187) OPEN7
+Open-ended responses to STATEBRN
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	10		
+
+
+188) OPEN8
+Open-ended responses to CNTRYLNG
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	33		
+
+
+189) OPEN9
+Open-ended responses to STATELNG
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	9		
+
+
+190) OPEN10
+Open-ended responses to WHCHSTAT
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	1		
+
+
+191) OPEN11
+Open-ended responses to DADCNTRY
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	94		
+
+
+192) OPEN12
+Open-ended responses to DADSTATE
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	32		
+
+
+193) OPEN13
+Open-ended responses to MOMCNTRY
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	88		
+
+
+194) OPEN14
+Open-ended responses to MOMSTATE
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	16		
+
+
+195) OPEN15
+Open-ended responses to OWNHOUSE
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	170		
+
+
+196) OPEN16
+Open-ended responses to FRNDRACE
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	24		
+
+
+197) OPEN17
+Open-ended responses to REASON1
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	19		
+
+
+198) OPEN18
+Open-ended responses to REASON2
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	18		
+
+
+199) OPEN19
+Open-ended responses to HEADRACE
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	15		
+
+
+200) OPEN20
+Open-ended responses to MOSTIMP
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	187		
+
+
+201) EDUC
+Respondent's level of education
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2557	3.002	1.205
+1) Less than high school	245	9.6
+2) High school	726	28.4
+3) Some college	759	29.7
+4) College	434	17.0
+5) Post-college	393	15.4
+Missing	4
+
+
+202) AGE
+Respondent's age
+RANGE: 18 to 100
+	N	Mean	Std. Deviation
+Total	2561	44.206	16.862
+
+
+203) WGTEDSEX
+Weight variable for when breaking down by racial category
+RANGE: 0.3095 to 4.3913
+	N	Mean	Std. Deviation
+Total	2561	0.992	0.414
+
+
+204) WGTFINAL
+Weight variable for when not breaking down by racial category
+RANGE: 0.0692095293648 to 4.2796555888
+	N	Mean	Std. Deviation
+Total	2561	1	0.45
+
+
+205) STATECOD
+State code
+RANGE: 1 to 51
+	N	Mean	Std. Deviation
+Total	2561	24.372	14.796
+1) AL	40	1.6
+3) AZ	33	1.3
+4) AR	32	1.2
+5) CA	336	13.1
+6) CO	33	1.3
+7) CT	25	1.0
+8) DE	7	0.3
+9) FL	114	4.5
+10) GA	81	3.2
+12) ID	17	0.7
+13) IL	108	4.2
+14) IN	63	2.5
+15) IA	25	1.0
+16) KS	42	1.6
+17) KY	36	1.4
+18) LA	38	1.5
+19) ME	13	0.5
+20) MD	49	1.9
+21) MA	50	2.0
+22) MI	97	3.8
+23) MN	52	2.0
+24) MS	31	1.2
+25) MO	55	2.1
+26) MT	8	0.3
+27) NE	19	0.7
+28) NV	16	0.6
+29) NH	8	0.3
+30) NJ	62	2.4
+31) NM	15	0.6
+32) NY	149	5.8
+33) NC	96	3.7
+34) ND	8	0.3
+35) OH	92	3.6
+36) OK	26	1.0
+37) OR	39	1.5
+38) PA	105	4.1
+39) RI	8	0.3
+40) SC	32	1.2
+41) SD	7	0.3
+42) TN	58	2.3
+43) TX	205	8.0
+44) UT	16	0.6
+45) VT	5	0.2
+46) VA	62	2.4
+47) WA	57	2.2
+48) DC	6	0.2
+49) WV	13	0.5
+50) WI	64	2.5
+51) WY	8	0.3
+
+
+206) INTRACE
+Interviewer race
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2561	1.91	1.183
+1) White/Caucasian/Anglo	1319	51.5
+2) Black/African-American	579	22.6
+3) Hispanic/Latino	342	13.4
+4) Asian/Asian-American	248	9.7
+5) Pacific Islander	59	2.3
+6) American Indian/Native American	8	0.3
+9) Unknown	6	0.2
+
+
+207) ZIP
+Respondent's zip code
+RANGE: 1040 to 99999
+	N	Mean	Std. Deviation
+Total	2561	52277.572	29164.036
+
+
+208) Z_PBLACK
+2000 Estimated percent Black in zip code
+RANGE: 0 to 99.3703983141244
+	N	Mean	Std. Deviation
+Total	2560	12.099	19.299
+
+
+209) Z_PHISP
+2000 Estimated percent Hispanic in zip code
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	2560	10.967	19.201
+
+
+210) Z_PASIAN
+2000 Estimated percent Asian in zip code
+RANGE: 0 to 80.8776595744681
+	N	Mean	Std. Deviation
+Total	2560	3.938	7.378
+
+
+211) Z_PTHREE
+2000 Estimated percent Black, Hispanic, and Asian combined
+RANGE: 0 to 144.190517535427
+	N	Mean	Std. Deviation
+Total	2560	27.005	29.074
+
+
+212) TRACT
+2000 Census tract number
+RANGE: 1 to 9983
+	N	Mean	Std. Deviation
+Total	1393	2456.08	3497.109
+
+
+213) STATFIPS
+State Code (FIPS)
+RANGE: 1 to 56
+	N	Mean	Std. Deviation
+Total	2561	27.848	15.97
+
+
+214) TR_AKEY
+Census tract area key
+RANGE: 1001020400 to 56045951300
+	N	Mean	Std. Deviation
+Total	1387	29247374825.815	15619591590.372
+
+
+215) TR_POP
+Tract total population
+RANGE: 4.44089E-16 to 19757
+	N	Mean	Std. Deviation
+Total	2561	5795.48	2058.361
+
+
+216) TR_NHWHT
+Tract non-Hispanic white population
+RANGE: 0 to 15179
+	N	Mean	Std. Deviation
+Total	2561	3725.111	1788.632
+
+
+217) TR_NHBLK
+Tract non-Hispanic black population
+RANGE: 0 to 14779
+	N	Mean	Std. Deviation
+Total	2561	712.532	768.588
+
+
+218) TR_NHNAT
+Tract non-Hispanic Native American population
+RANGE: 0 to 1419
+	N	Mean	Std. Deviation
+Total	2561	36.791	46.35
+
+
+219) TR_NHASN
+Tract non-Hispanic Asian population
+RANGE: 0 to 4929
+	N	Mean	Std. Deviation
+Total	2561	261.633	308.09
+
+
+220) TR_NHPAC
+Tract non-Hispanic Pacific Islander population
+RANGE: 4.44089E-16 to 180
+	N	Mean	Std. Deviation
+Total	2561	6.41	8.682
+
+
+221) TR_NHOTH
+Tract non-Hispanic other population
+RANGE: 0 to 144
+	N	Mean	Std. Deviation
+Total	2561	9.929	9.715
+
+
+222) TR_NHTWO
+Tract non-Hispanic two or more race population
+RANGE: 0 to 655
+	N	Mean	Std. Deviation
+Total	2561	82.49	54.988
+
+
+223) TR_HTOT
+Tract Hispanic total population
+RANGE: 0 to 15623
+	N	Mean	Std. Deviation
+Total	2561	960.584	1086.957
+
+
+224) TR_HWHT
+Tract Hispanic-white population
+RANGE: 0 to 10778
+	N	Mean	Std. Deviation
+Total	2561	478.702	612.189
+
+
+225) TR_HBLK
+Tract Hispanic-black population
+RANGE: 0 to 584
+	N	Mean	Std. Deviation
+Total	2561	22.082	31.603
+
+
+226) TR_HNAT
+Tract Hispanic/Native American population
+RANGE: 0 to 126
+	N	Mean	Std. Deviation
+Total	2561	9.424	10.927
+
+
+227) TR_HASN
+Tract Hispanic-Asian population
+RANGE: 0 to 37
+	N	Mean	Std. Deviation
+Total	2561	2.881	3.326
+
+
+228) TR_HPAC
+Tract Hispanic/Pacific Islander population
+RANGE: 0 to 19
+	N	Mean	Std. Deviation
+Total	2561	1.185	1.579
+
+
+229) TR_HOTH
+Tract Hispanic-other population
+RANGE: 0 to 9068
+	N	Mean	Std. Deviation
+Total	2561	395.041	489.342
+
+
+230) TR_HTWO
+Tract Hispanic/two or more race population
+RANGE: 0 to 633
+	N	Mean	Std. Deviation
+Total	2561	51.268	54.08
+
+
+231) TR_TOTHH
+Tract total number households
+RANGE: 0 to 7035
+	N	Mean	Std. Deviation
+Total	2561	2003.292	725.33
+
+
+232) TR_SMHH
+Tract single mother households
+RANGE: 0 to 956
+	N	Mean	Std. Deviation
+Total	2561	141.628	80.591
+
+
+233) TR_NFHH
+Tract non-family households
+RANGE: 0 to 1269
+	N	Mean	Std. Deviation
+Total	2561	134.861	99.249
+
+
+234) TR_OWN
+Tract number of homeowners
+RANGE: 0 to 5364
+	N	Mean	Std. Deviation
+Total	2561	1294.216	614.836
+
+
+235) TR_RENT
+Tract number of renters
+RANGE: 0 to 4739
+	N	Mean	Std. Deviation
+Total	2561	709.075	458.9
+
+
+236) BG_POP
+Block group total population
+RANGE: 2.22045E-16 to 13377
+	N	Mean	Std. Deviation
+Total	2561	2215.65	1130.951
+
+
+237) BG_NHWHT
+Block group non-Hispanic white population
+RANGE: 0 to 11135
+	N	Mean	Std. Deviation
+Total	2561	1361.387	848.726
+
+
+238) BG_NHBLK
+Block group non-Hispanic black population
+RANGE: 0 to 3503
+	N	Mean	Std. Deviation
+Total	2561	268.012	282.472
+
+
+239) BG_NHNAT
+Block group non-Hispanic Native American population
+RANGE: 0 to 521
+	N	Mean	Std. Deviation
+Total	2561	13.397	16.935
+
+
+240) BG_NHASN
+Block group non-Hispanic Asian population
+RANGE: 0 to 4115
+	N	Mean	Std. Deviation
+Total	2561	138.625	175.578
+
+
+241) BG_NHPAC
+Block group non-Hispanic Pacific Islander population
+RANGE: 2.22045E-16 to 103
+	N	Mean	Std. Deviation
+Total	2561	2.997	4.123
+
+
+242) BG_NHOTH
+Block group non-Hispanic other population
+RANGE: 0 to 64
+	N	Mean	Std. Deviation
+Total	2561	4.138	4.396
+
+
+243) BG_NHTWO
+Block group non-Hispanic two or more race population
+RANGE: 0 to 608
+	N	Mean	Std. Deviation
+Total	2561	34.379	28.945
+
+
+244) BG_HTOT
+Block group Hispanic total population
+RANGE: 0 to 9021
+	N	Mean	Std. Deviation
+Total	2561	392.714	450.619
+
+
+245) BG_HWHT
+Block group Hispanic-white population
+RANGE: 0 to 5206
+	N	Mean	Std. Deviation
+Total	2561	198.242	254.565
+
+
+246) BG_HBLK
+Block group Hispanic-black population
+RANGE: 0 to 154
+	N	Mean	Std. Deviation
+Total	2561	6.804	8.637
+
+
+247) BG_HNAT
+Block group Hispanic/Native American population
+RANGE: 0 to 88
+	N	Mean	Std. Deviation
+Total	2561	3.628	4.546
+
+
+248) BG_HASN
+Block group Hispanic-Asian population
+RANGE: 0 to 25
+	N	Mean	Std. Deviation
+Total	2561	1.289	1.591
+
+
+249) BG_HPAC
+Block group Hispanic/Pacific Islander population
+RANGE: 0 to 13
+	N	Mean	Std. Deviation
+Total	2561	0.584	0.856
+
+
+250) BG_HOTH
+Block group Hispanic-other population
+RANGE: 0 to 5568
+	N	Mean	Std. Deviation
+Total	2561	161.226	205.394
+
+
+251) BG_HTWO
+Block group Hispanic/two or more race population
+RANGE: 0 to 633
+	N	Mean	Std. Deviation
+Total	2561	20.941	23.713
+
+
+252) BG_TOTHH
+Block group total number households
+RANGE: 5.68434E-14 to 4683
+	N	Mean	Std. Deviation
+Total	2561	767.661	401.596
+
+
+253) BG_SMHH
+Block group single mother households
+RANGE: 0 to 636
+	N	Mean	Std. Deviation
+Total	2561	52.466	38.349
+
+
+254) BG_NFHH
+Block group non-family households
+RANGE: 0 to 816
+	N	Mean	Std. Deviation
+Total	2561	54.854	47.574
+
+
+255) BG_OWN
+Block group number of homeowners
+RANGE: 5.68434E-14 to 3905
+	N	Mean	Std. Deviation
+Total	2561	478.532	306.648
+
+
+256) BG_RENT
+Block group number of renters
+RANGE: 0 to 2975
+	N	Mean	Std. Deviation
+Total	2561	289.129	239.513
+
+
+257) PCTHISP
+Block 2000 percent Hispanic
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	1039	11.966	21.18
+
+
+258) PCTNOHIS
+Block 2000 percent non-Hispanic
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	1039	80.815	30.758
+
+
+259) PCT1WHT
+Block 2000 percent White
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	1039	70.45	33.439
+
+
+260) PCT1BLK
+Block 2000 percent Black
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	1039	10.177	21.719
+
+
+261) PCT1NAT
+Block 2000 percent Native American
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	1039	0.543	3.515
+
+
+262) PCT1ASN
+Block 2000 percent Asian
+RANGE: 0 to 79.14
+	N	Mean	Std. Deviation
+Total	1039	3.97	8.894
+
+
+263) PCT1PAC
+Block 2000 percent Pacific Islander
+RANGE: 0 to 17.5
+	N	Mean	Std. Deviation
+Total	1039	0.127	0.917
+
+
+264) PCT1OTH
+Block 2000 percent Other
+RANGE: 0 to 86.05
+	N	Mean	Std. Deviation
+Total	1039	5.391	11.695
+
+
+265) PCTHIS90
+Block 1990 percent Hispanic
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	1039	8.414	18.508
+
+
+266) PCTNOHI9
+Block 1990 percent non-Hispanic
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	1039	85.33	28.709
+
+
+267) PCTWHI90
+Block 1990 percent White
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	1039	77.882	31.847
+
+
+268) PCTBLK90
+Block 1990 percent Black
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	1039	8.841	20.998
+
+
+269) PCTNAT90
+Block 1990 percent Native American
+RANGE: 0 to 20
+	N	Mean	Std. Deviation
+Total	1039	0.437	1.456
+
+
+270) PCTOTH90
+Block 1990 percent Other
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	1039	3.756	10.62
+
+
+271) ZP_POP
+Zip code 2000 total population
+RANGE: 19 to 114124
+	N	Mean	Std. Deviation
+Total	2521	27559.046	18888.382
+
+
+272) ZP_NHWHT
+Zip code 2000 non-Hispanic white population
+RANGE: 14 to 87722
+	N	Mean	Std. Deviation
+Total	2521	16904.474	11917.807
+
+
+273) ZP_NHBLK
+Zip code 2000 non-Hispanic black population
+RANGE: 0 to 82934
+	N	Mean	Std. Deviation
+Total	2521	3791.683	7721.794
+
+
+274) ZP_NHNAT
+Zip code 2000 non-Hispanic Native American population
+RANGE: 0 to 8308
+	N	Mean	Std. Deviation
+Total	2521	126.114	306.026
+
+
+275) ZP_NHASN
+Zip code 2000 non-Hispanic Asian population
+RANGE: 0 to 44808
+	N	Mean	Std. Deviation
+Total	2521	1418.311	3407.637
+
+
+276) ZP_NHPAC
+Zip code 2000 non-Hispanic Pacific Islander population
+RANGE: 0 to 2412
+	N	Mean	Std. Deviation
+Total	2521	30.967	112.873
+
+
+277) ZP_NHOTH
+Zip code 2000 non-Hispanic other population
+RANGE: 0 to 2987
+	N	Mean	Std. Deviation
+Total	2521	53.246	108.615
+
+
+278) ZP_NHTWO
+Zip code 2000 non-Hispanic two or more race population
+RANGE: 0 to 4524
+	N	Mean	Std. Deviation
+Total	2521	484.934	534.377
+
+
+279) ZP_HTOT
+Zip code 2000 Hispanic total population
+RANGE: 0 to 100931
+	N	Mean	Std. Deviation
+Total	2521	4749.318	10466.268
+
+
+280) ZP_HWHT
+Zip code 2000 Hispanic-white population
+RANGE: 0 to 73789
+	N	Mean	Std. Deviation
+Total	2521	2257.944	5442.327
+
+
+281) ZP_HBLK
+Zip code 2000 Hispanic-black population
+RANGE: 0 to 4167
+	N	Mean	Std. Deviation
+Total	2521	86.107	252.961
+
+
+282) ZP_HNAT
+Zip code 2000 Hispanic/Native American population
+RANGE: 0 to 1130
+	N	Mean	Std. Deviation
+Total	2521	50.484	111.827
+
+
+283) ZP_HASN
+Zip code 2000 Hispanic-Asian population
+RANGE: 0 to 365
+	N	Mean	Std. Deviation
+Total	2521	15.094	30.218
+
+
+284) ZP_HPAC
+Zip code 2000 Hispanic/Pacific Islander population
+RANGE: 0 to 109
+	N	Mean	Std. Deviation
+Total	2521	5.073	10.434
+
+
+285) ZP_HOTH
+Zip code 2000 Hispanic-other population
+RANGE: 0 to 52602
+	N	Mean	Std. Deviation
+Total	2521	2048.963	5018.014
+
+
+286) ZP_HTWO
+Zip code 2000 Hispanic/two or more race population
+RANGE: 0 to 4564
+	N	Mean	Std. Deviation
+Total	2521	285.653	529.471
+
+
+287) ZP_TOTHH
+Zip code 2000 total number households
+RANGE: 9 to 61774
+	N	Mean	Std. Deviation
+Total	2521	10251.428	6771.739
+
+
+288) ZP_SMHH
+Zip code 2000 single mother households
+RANGE: 0 to 6372
+	N	Mean	Std. Deviation
+Total	2521	786.287	763.298
+
+
+289) ZP_NFHH
+Zip code 2000 non-family households
+RANGE: 0 to 6604
+	N	Mean	Std. Deviation
+Total	2521	714.591	792.807
+
+
+290) ZP_OWN
+Zip code 2000 number of homeowners
+RANGE: 2 to 24474
+	N	Mean	Std. Deviation
+Total	2521	6244.18	3921.307
+
+
+291) ZP_RENT
+Zip code 2000 number of renters
+RANGE: 2 to 40627
+	N	Mean	Std. Deviation
+Total	2521	4007.248	4216.921
+
+
+292) BG_PNHW
+Block group percent non-Hispanic white
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	2561	63.13	22.888
+
+
+293) BG_PNHB
+Block group percent non-Hispanic black
+RANGE: 0 to 99.1071428571429
+	N	Mean	Std. Deviation
+Total	2561	12.349	14.803
+
+
+294) BG_PNHAP
+Block group percent non-Hispanic Asian and Pacific Islander
+RANGE: 8.26367696315594E-18 to 100
+	N	Mean	Std. Deviation
+Total	2561	5.725	5.965
+
+
+295) BG_PHISP
+Block group percent Hispanic
+RANGE: 0 to 97.2597452720957
+	N	Mean	Std. Deviation
+Total	2561	16.473	14.964
+
+
+296) ZP_PNHW
+Zip code percent non-Hispanic white
+RANGE: 0.478902925443219 to 99.88
+	N	Mean	Std. Deviation
+Total	2561	69.939	26.838
+
+
+297) ZP_PNHB
+Zip code non-Hispanic black
+RANGE: 0 to 97.6655149873938
+	N	Mean	Std. Deviation
+Total	2559	11.893	18.897
+
+
+298) ZP_PHISP
+Zip code percent Hispanic
+RANGE: 0 to 98.6790986790987
+	N	Mean	Std. Deviation
+Total	2559	12.035	18.351
+
+
+299) ZP_PNHAP
+Zip code percent non-Hispanic Asian and Pacific Islander
+RANGE: 0 to 59.7314130011678
+	N	Mean	Std. Deviation
+Total	2559	3.825	6.939
+
+
+300) TR_PNHW
+Tract percent non-Hispanic white
+RANGE: 0 to 99.511996746645
+	N	Mean	Std. Deviation
+Total	2561	64.94	22.935
+
+
+301) TR_PNHB
+Tract percent non-Hispanic black
+RANGE: 0 to 98.7700275125425
+	N	Mean	Std. Deviation
+Total	2561	12.724	15.192
+
+
+302) TR_PNHAP
+Tract percent non-Hispanic Asian and Pacific Islander
+RANGE: 4.78544181034483E-18 to 100
+	N	Mean	Std. Deviation
+Total	2561	4.429	5.353
+
+
+303) TR_PHISP
+Tract percent Hispanic
+RANGE: 0 to 97.0689655172414
+	N	Mean	Std. Deviation
+Total	2561	15.64	15.232
+
+
+304) ZPNHW
+2000 estimated percent non-Hispanic white in zip code
+RANGE: -20.724852334981 to 100
+	N	Mean	Std. Deviation
+Total	2561	72.858	27.766
+
+
+305) ZBLACK
+2000 estimated percent black in zip code
+RANGE: 0 to 99.3703983141244
+	N	Mean	Std. Deviation
+Total	2560	12.099	19.299
+
+
+306) ZHISP
+2000 estimated percent Hispanic in zip code
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	2560	10.967	19.201
+
+
+307) ZASIAN
+2000 estimated percent Asian in zip code
+RANGE: 0 to 80.8776595744681
+	N	Mean	Std. Deviation
+Total	2560	3.938	7.378
+
+
+308) RELTRAD1
+Recode of religious tradition into three categories
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	2547	1.785	0.838
+1) Protestant	1226	48.1
+2) Catholic/Eastern Orthodox	643	25.2
+3) Other	678	26.6
+Missing	14
+
+
+309) RELTRAD2
+Recode of religious tradition into four categories
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	2547	1.949	1.112
+1) Protestant	1226	48.1
+2) Catholic/Eastern Orthodox	643	25.2
+3) Other	261	10.2
+4) No religion	417	16.4
+Missing	14
+
+
+310) ZP_POWN
+Percent respondent's race in zip code
+RANGE: 0 to 99.88
+	N	Mean	Std. Deviation
+Total	2561	64.627	31.597
+
+
+311) I-AGE
+Respondent's age (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2561	2.476	1.153
+1) 18-29 years old	572	22.3
+2) 30-44 years old	860	33.6
+3) 45-59 years old	615	24.0
+4) 60-74 years old	366	14.3
+5) 75 and older	148	5.8
+
+
+312) I-SEX
+Respondent's sex (for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2561	1.591	0.492
+1) Male	1048	40.9
+2) Female	1513	59.1
+
+
+313) I-INCOME
+Now here is the last question.  I am going to read you a list of income categories. Please tell me to stop when a category I read best describes your total household income before taxes. (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2561	2.793	1.472
+1) Less than $20,000	538	21.0
+2) $20,000-$40,000	719	28.1
+3) $40,000-$60,000	598	23.4
+4) $60,000-$80,000	348	13.6
+5) $80,000-$100,000	157	6.1
+6) Over $100,000	201	7.8
+
+
+314) I-EDUC
+Respondent's level of education (for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2557	3.002	1.205
+1) Less than high school	245	9.6
+2) High school	726	28.4
+3) Some college	759	29.7
+4) College	434	17.0
+5) Post-college	393	15.4
+Missing	4
+
+
+315) I-RACE
+Respondent's race (5 categories) (for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2561	1.672	1.064
+1) White	1692	66.1
+2) Black	303	11.8
+3) Hispanic	311	12.1
+4) Asian	225	8.8
+5) American Indian	30	1.2
+
+
+316) I-RELIGION
+Recode of religious tradition into four categories (for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	2547	1.949	1.112
+1) Protestant	1226	48.1
+2) Catholic/Eastern Orthodox	643	25.2
+3) Other	261	10.2
+4) No religion	417	16.4
+Missing	14
+
+
+317) I-ATTEND
+How often have you been attending [church/synagogue/mosque/temple] services in the last year? (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2546	3.215	1.776
+1) Never	634	24.9
+2) Less than once a month	487	19.1
+3) Once a month	249	9.8
+4) 2-3 times a month	333	13.1
+5) Once a week	560	22.0
+6) More than once a week	283	11.1
+Missing	15
+
+

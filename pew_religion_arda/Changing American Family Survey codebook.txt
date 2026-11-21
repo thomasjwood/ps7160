@@ -1,0 +1,2712 @@
+Data File: AMERFAM (Full Data Codebook)
+
+1) PSRAID
+Unique ID
+RANGE: 100009 to 901275
+	N	Mean	Std. Deviation
+Total	2691	321984.551	208409.763
+
+
+2) SAMPLE
+Sample type
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2691	1.435	0.496
+1) Landline	1520	56.5
+2) Cell	1171	43.5
+
+
+3) SEGMENT
+Sample Segment
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2691	2.494	1.135
+1) LL RDD (18+)	405	15.1
+2) LL RDD 18-64	1056	39.2
+3) CP RDD (18+)	1010	37.5
+4) LL Omnibus CB screened	53	2.0
+5) CP Omnibus CB screened	116	4.3
+6) LL Non-Omnibus CB screened	6	0.2
+7) CP Non-Omnibus CB screened	24	0.9
+8) CP Non-Omnibus CB screened Cohab	21	0.8
+
+
+4) INT_DATE
+Interview date
+RANGE: 100110 to 102110
+	N	Mean	Std. Deviation
+Total	2691	101101.007	589.664
+
+
+5) LANG
+Language of interview
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2691	1.036	0.186
+1) English	2595	96.4
+2) Spanish	96	3.6
+
+
+6) FIPS
+FIPS code from ZIP Code
+RANGE: 1007 to 56029
+	N	Mean	Std. Deviation
+Total	2691	26307.463	16257.148
+
+
+7) STATE
+State from ZIP Code
+RANGE: 1 to 56
+	N	Mean	Std. Deviation
+Total	2691	26.215	16.219
+1) Alabama	55	2.0
+4) Arizona	87	3.2
+5) Arkansas	19	0.7
+6) California	389	14.5
+8) Colorado	41	1.5
+9) Connecticut	36	1.3
+10) Delaware	11	0.4
+11) District of Columbia	11	0.4
+12) Florida	164	6.1
+13) Georgia	117	4.3
+16) Idaho	8	0.3
+17) Illinois	104	3.9
+18) Indiana	41	1.5
+19) Iowa	11	0.4
+20) Kansas	15	0.6
+21) Kentucky	36	1.3
+22) Louisiana	75	2.8
+23) Maine	4	0.1
+24) Maryland	78	2.9
+25) Massachusetts	36	1.3
+26) Michigan	66	2.5
+27) Minnesota	20	0.7
+28) Mississippi	35	1.3
+29) Missouri	40	1.5
+30) Montana	4	0.1
+31) Nebraska	13	0.5
+32) Nevada	19	0.7
+33) New Hampshire	6	0.2
+34) New Jersey	93	3.5
+35) New Mexico	33	1.2
+36) New York	169	6.3
+37) North Carolina	105	3.9
+38) North Dakota	3	0.1
+39) Ohio	65	2.4
+40) Oklahoma	20	0.7
+41) Oregon	20	0.7
+42) Pennsylvania	97	3.6
+44) Rhode Island	10	0.4
+45) South Carolina	63	2.3
+46) South Dakota	1	0.0
+47) Tennessee	55	2.0
+48) Texas	248	9.2
+49) Utah	11	0.4
+51) Virginia	87	3.2
+53) Washington	32	1.2
+54) West Virginia	2	0.1
+55) Wisconsin	33	1.2
+56) Wyoming	3	0.1
+
+
+8) CREGION
+Census region from ZIP Code
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	2691	2.752	1.001
+1) Northeast	451	16.8
+2) Midwest	412	15.3
+3) South	1181	43.9
+4) West	647	24.0
+
+
+9) DENSITY
+Population density from ZIP Code
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2691	3.177	1.419
+1) Lowest	451	16.8
+2) 	506	18.8
+3) 	504	18.7
+4) 	577	21.4
+5) Highest	653	24.3
+
+
+10) USR
+Community type
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	2609	2.266	0.667
+1) Rural	326	12.5
+2) Suburban	1262	48.4
+3) Urban	1021	39.1
+Missing	82
+
+
+11) SCREGION
+Census region from sample
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	2691	2.745	1.003
+1) Northeast	455	16.9
+2) Midwest	418	15.5
+3) South	1175	43.7
+4) West	643	23.9
+
+
+12) SFIPS
+FIPS code from sample
+RANGE: 1007 to 56029
+	N	Mean	Std. Deviation
+Total	2691	26265.514	16270.638
+
+
+13) SSTATE
+State based on FIPS
+RANGE: 1 to 56
+	N	Mean	Std. Deviation
+Total	2691	26.174	16.234
+1) Alabama	56	2.1
+2) Alaska	1	0.0
+4) Arizona	88	3.3
+5) Arkansas	17	0.6
+6) California	391	14.5
+8) Colorado	41	1.5
+9) Connecticut	37	1.4
+10) Delaware	10	0.4
+11) District of Columbia	11	0.4
+12) Florida	161	6.0
+13) Georgia	124	4.6
+16) Idaho	6	0.2
+17) Illinois	107	4.0
+18) Indiana	41	1.5
+19) Iowa	9	0.3
+20) Kansas	14	0.5
+21) Kentucky	33	1.2
+22) Louisiana	74	2.7
+23) Maine	4	0.1
+24) Maryland	77	2.9
+25) Massachusetts	36	1.3
+26) Michigan	67	2.5
+27) Minnesota	20	0.7
+28) Mississippi	34	1.3
+29) Missouri	45	1.7
+30) Montana	3	0.1
+31) Nebraska	12	0.4
+32) Nevada	17	0.6
+33) New Hampshire	5	0.2
+34) New Jersey	92	3.4
+35) New Mexico	31	1.2
+36) New York	175	6.5
+37) North Carolina	102	3.8
+38) North Dakota	3	0.1
+39) Ohio	66	2.5
+40) Oklahoma	19	0.7
+41) Oregon	20	0.7
+42) Pennsylvania	96	3.6
+44) Rhode Island	10	0.4
+45) South Carolina	62	2.3
+46) South Dakota	2	0.1
+47) Tennessee	55	2.0
+48) Texas	252	9.4
+49) Utah	11	0.4
+51) Virginia	87	3.2
+53) Washington	31	1.2
+54) West Virginia	1	0.0
+55) Wisconsin	32	1.2
+56) Wyoming	3	0.1
+
+
+14) SMASA
+MSA code from sample
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	2691	0	0
+
+
+15) SUSR
+Usr
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1667	2.255	0.676
+1) Rural	222	13.3
+2) Suburban	798	47.9
+3) Urban	647	38.8
+Missing	1024
+
+
+16) FORM
+Form split
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2691	1.507	0.5
+1) Form 1	1327	49.3
+2) Form 2	1364	50.7
+
+
+17) IGENDER
+Enter interviewer's gender
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2691	1.695	0.461
+1) Male	822	30.5
+2) Female	1869	69.5
+
+
+18) IRACE
+Which of the following describes your race? You can select as many as apply.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2691	2.082	1.07
+1) White	877	32.6
+2) Black or African-American	1097	40.8
+3) Hispanic	513	19.1
+4) Asian or Asian-American	26	1.0
+5) Some other race	178	6.6
+
+
+19) LLITEXT
+Text insert for LL intro
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1461	1.48	0.5
+1) May I please speak with the YOUNGEST MALE, age 18 or older, who is now at home?  (IF NO MALE, ASK:  May I please speak with the YOUNGEST FEMALE, age 18 or older, who is now at home?	759	52.0
+2) May I please speak with the YOUNGEST FEMALE, age 18 or older, who is now at home?  (IF NO FEMALE, ASK:  May I please speak with the YOUNGEST MALE, age 18 or older, who is now at home?	702	48.0
+Missing	1230
+
+
+20) LS1
+Here's my first question...Which of the following BEST describes the type of community where you now live? Is it...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1056	2.295	1.124
+1) A large city	292	27.7
+2) A small city or town	350	33.1
+3) A suburb, OR	249	23.6
+4) A rural area?	160	15.2
+9) Don't know/Refused	5	0.5
+Missing	1635
+
+
+21) LS2
+To make sure that our survey includes many different kinds of people, I need to ask your age. Just stop me when I get the category that includes your age, as of your last birthday. Are you...
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1056	2.371	0.698
+1) 18 to 29	134	12.7
+2) 30 to 49	396	37.5
+3) 50 to 64, OR	526	49.8
+Missing	1635
+
+
+22) CAS1
+Are you under 18 years old, OR are you 18 or older?
+RANGE: 2 to 2
+	N	Mean	Std. Deviation
+Total	1010	2	0
+2) 18 or older	1010	100.0
+Missing	1681
+
+
+23) MARSCR
+Are you currently married, living with a partner, divorced, separated, widowed, or have you never been married? [IF R SAYS 'SINGLE,' PROBE TO DETERMINE WHICH CATEGORY IS APPROPRIATE]
+RANGE: 2 to 6
+	N	Mean	Std. Deviation
+Total	220	3.809	1.666
+2) Living with a partner	59	26.8
+3) Divorced	76	34.5
+4) Separated	9	4.1
+6) Never been married	76	34.5
+Missing	2471
+
+
+24) PARSCR1
+Do you have any children under age 18? (IF RESPONDENT VOLUNTEERS THAT THEY HAVE STEPCHILDREN, ASK: Do you consider yourself (IF MORE THAN ONE: their/IF ONE: his or her) parent or guardian, or not? IF YES, CODE '1'
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	220	1	0
+1) Yes	220	100.0
+Missing	2471
+
+
+25) PARSCR2
+Do you have any ADULT children age 18 or older, including any who live on their own? (IF RESPONDENT VOLUNTEERS THAT THEY HAVE STEPCHILDREN, ASK: Do you consider yourself (their/his or her) parent or guardian or not?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	220	1.623	0.486
+1) Yes	83	37.7
+2) No	137	62.3
+Missing	2471
+
+
+26) SEX
+[Enter respondent's sex:]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2691	1.538	0.499
+1) Male	1244	46.2
+2) Female	1447	53.8
+
+
+27) Q1
+First, please tell me how satisfied you are with your life overall - would you say you are...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.732	1.034
+1) Very satisfied?	1185	44.0
+2) Mostly satisfied?	1288	47.9
+3) Mostly dissatisfied?	127	4.7
+4) Very dissatisfied?	60	2.2
+9) Don't know/Refused	31	1.2
+
+
+28) Q2A
+Now thinking about the future of our country, can you tell me whether you feel generally optimistic or generally pessimistic about each of the following: The moral and ethical standards of our country?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.827	1.378
+1) Optimistic	1126	41.8
+2) Pessimistic	1390	51.7
+3) Uncertain (VOL.)	94	3.5
+9) Don't know/Refused (VOL.)	81	3.0
+
+
+29) Q2B
+Now thinking about the future of our country, can you tell me whether you feel generally optimistic or generally pessimistic about each of the following: The soundness of our economic system over the long run?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.715	1.262
+1) Optimistic	1292	48.0
+2) Pessimistic	1259	46.8
+3) Uncertain (VOL.)	76	2.8
+9) Don't know/Refused (VOL.)	64	2.4
+
+
+30) Q2C
+Now thinking about the future of our country, can you tell me whether you feel generally optimistic or generally pessimistic about each of the following: Our ability to get along with other countries in the world?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.661	1.367
+1) Optimistic	1530	56.9
+2) Pessimistic	1000	37.2
+3) Uncertain (VOL.)	85	3.2
+9) Don't know/Refused (VOL.)	76	2.8
+
+
+31) Q2D
+Now thinking about the future of our country, can you tell me whether you feel generally optimistic or generally pessimistic about each of the following: The institution of marriage and the family?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.595	1.445
+1) Optimistic	1768	65.7
+2) Pessimistic	760	28.2
+3) Uncertain (VOL.)	77	2.9
+9) Don't know/Refused (VOL.)	86	3.2
+
+
+32) Q2E
+Now thinking about the future of our country, can you tell me whether you feel generally optimistic or generally pessimistic about each of the following: Our system of education?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.705	1.247
+1) Optimistic	1304	48.5
+2) Pessimistic	1249	46.4
+3) Uncertain (VOL.)	76	2.8
+9) Don't know/Refused (VOL.)	62	2.3
+
+
+33) Q3
+These days there seems to be a growing variety in the types of family arrangements that people live in. Overall, do you think this is a good thing, a bad thing, or don't you think it makes a difference?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	2.331	1.709
+1) Good thing	920	34.2
+2) Bad thing	735	27.3
+3) No difference	907	33.7
+9) Don't know/Refused (VOL.)	129	4.8
+
+
+34) Q3A
+Some people say that the present institution of marriage is becoming obsolete. Do you agree or disagree?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.888	1.532
+1) Agree	1058	39.3
+2) Disagree	1525	56.7
+9) Don't know/Refused (VOL.)	108	4.0
+
+
+35) HH1
+How many people, including yourself, live in your household?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2691	3.495	7.165
+1) 	431	16.0
+2) 	839	31.2
+3) 	524	19.5
+4) 	483	17.9
+5) 	240	8.9
+6) 	83	3.1
+7) 	39	1.4
+8) 	16	0.6
+9) 	3	0.1
+10) 	9	0.3
+11) 	3	0.1
+12) 	1	0.0
+17) 	2	0.1
+18) 	1	0.0
+21) 	1	0.0
+30) 	1	0.0
+41) 	1	0.0
+99) Don't know/Refused	14	0.5
+
+
+36) HH2
+How many of these, including yourself, are adults 18 years of age or older?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2246	2.581	4.659
+1) 	225	10.0
+2) 	1313	58.5
+3) 	465	20.7
+4) 	172	7.7
+5) 	51	2.3
+6) 	9	0.4
+7) 	1	0.0
+8) 	2	0.1
+9) 	1	0.0
+10) 	1	0.0
+18) 	1	0.0
+99) Don't know/Refused	5	0.2
+Missing	445
+
+
+37) MARITAL
+Are you currently married, living with a partner, divorced, separated, widowed, or have you never been married?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	2.796	2.111
+1) Married	1306	48.5
+2) Living with a partner	206	7.7
+3) Divorced	351	13.0
+4) Separated	70	2.6
+5) Widowed	114	4.2
+6) Never been married	631	23.4
+9) Don't know/Refused (VOL.)	13	0.5
+
+
+38) QM2
+Have you ever been married?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	206	1.621	0.486
+1) Yes	78	37.9
+2) No	128	62.1
+Missing	2485
+
+
+39) QM3
+Have you ever been married more than once, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1919	1.732	0.505
+1) Yes	528	27.5
+2) No	1389	72.4
+9) Don't know/Refused (VOL.)	2	0.1
+Missing	772
+
+
+40) QM4
+Have you ever been divorced?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	475	1.126	0.333
+1) Yes	415	87.4
+2) No	60	12.6
+Missing	2216
+
+
+41) LWP2
+Have you ever lived together with a partner without being married, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2485	1.614	0.663
+1) Yes, have	1022	41.1
+2) No, have not	1454	58.5
+9) Don't know/Refused (VOL.)	9	0.4
+Missing	206
+
+
+42) LWP3
+Did you ever live with your current spouse before you got married, someone else, or have you done both?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	490	1.865	1.484
+1) Lived with current spouse before married	303	61.8
+2) Lived with someone else	28	5.7
+3) Lived with both current spouse and someone else	146	29.8
+9) Don't know/Refused (VOL.)	13	2.7
+Missing	2201
+
+
+43) KIDS1
+Do you have any children UNDER age 18? [(IF RESPONDENT VOLUNTEERS THAT THEY HAVE STEPCHILDREN, ASK: Do you consider yourself (IF MORE THAN ONE: their/IF ONE: his or her) parent or guardian, or not?]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.618	0.527
+1) Yes	1043	38.8
+2) No	1646	61.2
+9) Don't know/Refused	2	0.1
+
+
+44) KIDS2
+Do you have any ADULT children age 18 or older, including any who live on their own? [(IF RESPONDENT VOLUNTEERS THAT THEY HAVE STEPCHILDREN, ASK: Do you consider yourself (IF MORE THAN ONE: their/IF ONE: his or her) parent or guardian, or not?]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.562	0.574
+1) Yes	1206	44.8
+2) No	1481	55.0
+9) Don't know/Refused	4	0.1
+
+
+45) QK2
+Did you have any of your children before you were (IF MARRIED: married to your current spouse /IF LWP: living with your current partner)?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1267	1.725	0.494
+1) Yes	355	28.0
+2) No	911	71.9
+9) Don't know/Refused	1	0.1
+Missing	1424
+
+
+46) QK2A
+Do your children UNDER age 18 live in your household all of the time, part of the time, or none of the time?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	604	1.46	0.735
+1) All of the time	406	67.2
+2) Part of the time	126	20.9
+3) None of the time	64	10.6
+4) Some part time/some full time (VOL.)	8	1.3
+Missing	2087
+
+
+47) QK3
+How old is your YOUNGEST child?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1043	8.948	11.765
+0) Less than one year	74	7.1
+1) 	72	6.9
+2) 	90	8.6
+3) 	68	6.5
+4) 	57	5.5
+5) 	56	5.4
+6) 	54	5.2
+7) 	55	5.3
+8) 	51	4.9
+9) 	59	5.7
+10) 	47	4.5
+11) 	44	4.2
+12) 	51	4.9
+13) 	55	5.3
+14) 	44	4.2
+15) 	50	4.8
+16) 	46	4.4
+17) 	56	5.4
+99) Don't know/Refused	14	1.3
+Missing	1648
+
+
+48) QK4
+Are any of your children ages 18 and older living in your household, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1206	1.706	0.589
+1) Yes	376	31.2
+2) No	827	68.6
+9) Don't know/Refused	3	0.2
+Missing	1485
+
+
+49) QE3
+Are you now employed full-time, part-time, or not employed?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	2.119	1.379
+1) Full-time	1321	49.1
+2) Part-time	335	12.4
+3) Not employed	750	27.9
+4) Retired (VOL.)	32	1.2
+5) Student (VOL.)	236	8.8
+9) Don't know/Refused (VOL.)	17	0.6
+
+
+50) QE4
+Is your (IF MARRIED: spouse/IF LWP: partner) now employed full-time, part-time or not employed?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1512	1.911	1.371
+1) Full-time	912	60.3
+2) Part-time	141	9.3
+3) Not employed	312	20.6
+4) Retired (VOL.)	11	0.7
+5) Student (VOL.)	127	8.4
+9) Don't know/Refused (VOL.)	9	0.6
+Missing	1179
+
+
+51) AGE
+What is your age?
+RANGE: 18 to 99
+	N	Mean	Std. Deviation
+Total	2691	46.532	17.418
+
+
+52) Q4A
+Next, please tell me whether you are satisfied or dissatisfied, on the whole, with the following aspects of your life: Your family life (are you satisfied or dissatisfied)?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.418	0.928
+1) Very satisfied	1960	72.8
+2) Somewhat satisfied	519	19.3
+3) Somewhat dissatisfied	123	4.6
+4) Very dissatisfied	59	2.2
+5) Doesn't apply (VOL.)	14	0.5
+9) Don't know/Refused (VOL.)	16	0.6
+
+
+53) Q4B
+Next, please tell me whether you are satisfied or dissatisfied, on the whole, with the following aspects of your life: Your social life (are you satisfied or dissatisfied)?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.68	1.106
+1) Very satisfied	1506	56.0
+2) Somewhat satisfied	854	31.7
+3) Somewhat dissatisfied	168	6.2
+4) Very dissatisfied	107	4.0
+5) Doesn't apply (VOL.)	32	1.2
+9) Don't know/Refused (VOL.)	24	0.9
+
+
+54) Q4C
+Next, please tell me whether you are satisfied or dissatisfied, on the whole, with the following aspects of your life: Your personal financial situation (are you satisfied or dissatisfied)?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	2.242	1.276
+1) Very satisfied	785	29.2
+2) Somewhat satisfied	1086	40.4
+3) Somewhat dissatisfied	389	14.5
+4) Very dissatisfied	391	14.5
+5) Doesn't apply (VOL.)	4	0.1
+9) Don't know/Refused (VOL.)	36	1.3
+
+
+55) Q4D
+Next, please tell me whether you are satisfied or dissatisfied, on the whole, with the following aspects of your life: The quality of life in your community (are you satisfied or dissatisfied)?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.819	1.237
+1) Very satisfied	1306	48.5
+2) Somewhat satisfied	984	36.6
+3) Somewhat dissatisfied	196	7.3
+4) Very dissatisfied	156	5.8
+5) Doesn't apply (VOL.)	8	0.3
+9) Don't know/Refused (VOL.)	41	1.5
+
+
+56) Q4E
+Next, please tell me whether you are satisfied or dissatisfied, on the whole, with the following aspects of your life: - Your current job or career (are you satisfied or dissatisfied?)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1656	1.708	1.008
+1) Very satisfied	870	52.5
+2) Somewhat satisfied	544	32.9
+3) Somewhat dissatisfied	148	8.9
+4) Very dissatisfied	80	4.8
+5) Doesn't apply (VOL.)	5	0.3
+9) Don't know/Refused (VOL.)	9	0.5
+Missing	1035
+
+
+57) Q5
+Thinking about your FAMILY life so far, would you say it has turned out about as you expected it would, or is it different than you expected it would be?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.708	1.158
+1) About as expected	1235	45.9
+2) Different than expected	1348	50.1
+3) Doesn't apply/Don't have a family yet (VOL.)	11	0.4
+4) Didn't have any expectations (VOL.)	48	1.8
+9) Don't know/Refused (VOL.)	49	1.8
+
+
+58) Q6
+How is it different? (OPEN-END; ACCEPT UP TO THREE RESPONSES BUT DO NOT PROBE FOR ADDITIONAL RESPONSES.)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1348	1.944	2.581
+1) Gave response (RECORD VERBATIM)	1189	88.2
+9) Don't know/Refused	159	11.8
+Missing	1343
+
+
+59) Q6_CD1
+(First response) How is it different?
+RANGE: 1 to 40
+	N	Mean	Std. Deviation
+Total	1189	16.893	11.797
+1) Better/Better than I thought it would be/Exceeded expectations/Happier than I thought I'd be/Easier	108	9.1
+2) Just different/Not what I expected/Expected it to be different	83	7.0
+3) Worse/Less satisfying/More challenges than I expected/Harder/Expected it to be better/Thought I'd be further along	85	7.1
+4) Can't predict how things will turn out/Didn't have any expectations	11	0.9
+5) Neutral philosophical statement	22	1.9
+6) I've changed/settled down/more traditional	19	1.6
+8) Grown kids aren't doing what I expected/Kids are struggling (can't find jobs, etc.)	29	2.4
+9) Kids are challenging/Kids make it difficult/Have a child with special needs	13	1.1
+10) Had kids/Didn't think I'd have kids/Didn't expect to have a family/Didn't think I'd have so many kids	57	4.8
+11) Don't have kids/Expected to have kids/Wanted more kids	31	2.6
+12) Raising kids that aren't mine/Have stepchildren	5	0.4
+13) Grandchildren	9	0.8
+14) Kids - other	21	1.8
+15) Single parent/Single mom	17	1.4
+16) Got married/Didn't expect to get married	15	1.3
+17) Expected to be married/Not married	66	5.6
+18) Got divorced, separated/Didn't expect to get divorced	137	11.5
+19) Marriage was different than I expected/Unstable relationship with spouse, partner/Infidelity	20	1.7
+20) Widowed	26	2.2
+22) Marriage - other	20	1.7
+23) Personal finances (general)	30	2.5
+24) Struggling financially/Not secure financially	17	1.4
+25) Job situation/Unemployed/Not able to reach career goals/Back in school/Good job/Different career than planned	53	4.5
+26) Economy (general)	18	1.5
+27) Finances - other	24	2.0
+29) Relatives have died/Death in family/Death of children/Death of parent(s)	23	1.9
+30) Health issues/Disabled/Spouse became disabled	33	2.8
+31) Housing/Living situation/Location/Didn't expect to be living with parents	29	2.4
+32) Family not in close touch/Family spread out/Poor family communications	65	5.5
+33) Didn't expect to be living alone/Being alone	8	0.7
+34) Retirement	9	0.8
+35) Education/Expected to go to/finish college	10	0.8
+40) Other	76	6.4
+Missing	1502
+
+
+60) Q6_CD2
+(Second response) How is it different?
+RANGE: 1 to 40
+	N	Mean	Std. Deviation
+Total	201	20.348	9.115
+1) Better/Better than I thought it would be/Exceeded expectations/Happier than I thought I'd be/Easier	1	0.5
+2) Just different/Not what I expected/Expected it to be different	3	1.5
+3) Worse/Less satisfying/More challenges than I expected/Harder/Expected it to be better/Thought I'd be further along	1	0.5
+4) Can't predict how things will turn out/Didn't have any expectations	0	0.0
+5) Neutral philosophical statement	0	0.0
+6) I've changed/settled down/more traditional	0	0.0
+8) Grown kids aren't doing what I expected/Kids are struggling (can't find jobs, etc.)	7	3.5
+9) Kids are challenging/Kids make it difficult/Have a child with special needs	4	2.0
+10) Had kids/Didn't think I'd have kids/Didn't expect to have a family/Didn't think I'd have so many kids	16	8.0
+11) Don't have kids/Expected to have kids/Wanted more kids	16	8.0
+12) Raising kids that aren't mine/Have stepchildren	2	1.0
+13) Grandchildren	4	2.0
+14) Kids - other	13	6.5
+15) Single parent/Single mom	12	6.0
+16) Got married/Didn't expect to get married	2	1.0
+17) Expected to be married/Not married	8	4.0
+18) Got divorced, separated/Didn't expect to get divorced	7	3.5
+19) Marriage was different than I expected/Unstable relationship with spouse, partner/Infidelity	5	2.5
+20) Widowed	4	2.0
+22) Marriage - other	5	2.5
+23) Personal finances (general)	3	1.5
+24) Struggling financially/Not secure financially	9	4.5
+25) Job situation/Unemployed/Not able to reach career goals/Back in school/Good job/Different career than planned	23	11.4
+26) Economy (general)	4	2.0
+27) Finances - other	9	4.5
+29) Relatives have died/Death in family/Death of children/Death of parent(s)	3	1.5
+30) Health issues/Disabled/Spouse became disabled	4	2.0
+31) Housing/Living situation/Location/Didn't expect to be living with parents	13	6.5
+32) Family not in close touch/Family spread out/Poor family communications	6	3.0
+33) Didn't expect to be living alone/Being alone	3	1.5
+34) Retirement	3	1.5
+35) Education/Expected to go to/finish college	3	1.5
+40) Other	8	4.0
+Missing	2490
+
+
+61) Q6_CD3
+(Third response) How is it different?
+RANGE: 8 to 40
+	N	Mean	Std. Deviation
+Total	30	24.433	10.331
+8) Grown kids aren't doing what I expected/Kids are struggling (can't find jobs, etc.)	1	3.3
+9) Kids are challenging/Kids make it difficult/Have a child with special needs	2	6.7
+10) Had kids/Didn't think I'd have kids/Didn't expect to have a family/Didn't think I'd have so many kids	1	3.3
+11) Don't have kids/Expected to have kids/Wanted more kids	1	3.3
+12) Raising kids that aren't mine/Have stepchildren	1	3.3
+13) Grandchildren	2	6.7
+15) Single parent/Single mom	1	3.3
+18) Got divorced, separated/Didn't expect to get divorced	1	3.3
+19) Marriage was different than I expected/Unstable relationship with spouse, partner/Infidelity	1	3.3
+22) Marriage - other	1	3.3
+25) Job situation/Unemployed/Not able to reach career goals/Back in school/Good job/Different career than planned	2	6.7
+27) Finances - other	2	6.7
+30) Health issues/Disabled/Spouse became disabled	3	10.0
+31) Housing/Living situation/Location/Didn't expect to be living with parents	4	13.3
+32) Family not in close touch/Family spread out/Poor family communications	1	3.3
+34) Retirement	1	3.3
+35) Education/Expected to go to/finish college	2	6.7
+40) Other	3	10.0
+Missing	2661
+
+
+62) Q7
+Which of the following statements best describes how IMPORTANT your family is to you at this time?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.316	0.795
+1) The most important element of my life	2034	75.6
+2) One of the most important elements, but not the most important	583	21.7
+3) Not an important element of my life	48	1.8
+6) Does not apply	12	0.4
+9) Don't know/Refused	14	0.5
+
+
+63) Q8A
+First, is it easier for a single person or a married person (RANDOMIZED BY FORM) to - Be financially secure -, or doesn't it make a difference?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	2.505	0.947
+1) Easier for a single person	301	11.2
+2) Easier for a married person	939	34.9
+3) Doesn't make a difference	1361	50.6
+4) Depends on the person (VOL.)	66	2.5
+9) Don't know/Refused (VOL.)	24	0.9
+
+
+64) Q8B
+First, is it easier for a single person or a married person (RANDOMIZED BY FORM) to - Get ahead in a career -, or doesn't it make a difference?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	2.463	1.085
+1) Easier for a single person	640	23.8
+2) Easier for a married person	385	14.3
+3) Doesn't make a difference	1577	58.6
+4) Depends on the person (VOL.)	63	2.3
+9) Don't know/Refused (VOL.)	26	1.0
+
+
+65) Q8C
+First, is it easier for a single person or a married person (RANDOMIZED BY FORM) to - Raise a family -, or doesn't it make a difference?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	2.28	0.796
+1) Easier for a single person	42	1.6
+2) Easier for a married person	2034	75.6
+3) Doesn't make a difference	555	20.6
+4) Depends on the person (VOL.)	36	1.3
+9) Don't know/Refused (VOL.)	24	0.9
+
+
+66) Q8D
+First, is it easier for a single person or a married person (RANDOMIZED BY FORM) to - Have a fulfilling sex life -, or doesn't it make a difference?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	2.703	1.344
+1) Easier for a single person	194	7.2
+2) Easier for a married person	1002	37.2
+3) Doesn't make a difference	1360	50.5
+4) Depends on the person (VOL.)	44	1.6
+9) Don't know/Refused (VOL.)	91	3.4
+
+
+67) Q8E
+First, is it easier for a single person or a married person (RANDOMIZED BY FORM) to - Have social status -, or doesn't it make a difference?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	2.66	1.056
+1) Easier for a single person	302	11.2
+2) Easier for a married person	594	22.1
+3) Doesn't make a difference	1718	63.8
+4) Depends on the person (VOL.)	36	1.3
+9) Don't know/Refused (VOL.)	41	1.5
+
+
+68) Q8F
+First, is it easier for a single person or a married person (RANDOMIZED BY FORM) to - Find happiness -, or doesn't it make a difference?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	2.721	0.873
+1) Easier for a single person	119	4.4
+2) Easier for a married person	745	27.7
+3) Doesn't make a difference	1731	64.3
+4) Depends on the person (VOL.)	69	2.6
+9) Don't know/Refused (VOL.)	27	1.0
+
+
+69) Q9A
+More women not ever having children -is this generally a good thing for our society, a bad thing for our society, or doesn't it make much difference?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	2.721	1.474
+1) Good thing for society	301	11.2
+2) Bad thing for society	822	30.5
+3) Doesn't make much difference	1456	54.1
+9) Don't know/Refused (VOL.)	112	4.2
+
+
+70) Q9B
+More unmarried couples raising children -is this generally a good thing for our society, a bad thing for our society, or doesn't it make much difference?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	2.49	1.208
+1) Good thing for society	303	11.3
+2) Bad thing for society	1145	42.5
+3) Doesn't make much difference	1180	43.8
+9) Don't know/Refused (VOL.)	63	2.3
+
+
+71) Q9C
+More single women having children without a male partner to help raise them -is this generally a good thing for our society, a bad thing for our society, or doesn't it make much difference?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	2.422	1.259
+1) Good thing for society	102	3.8
+2) Bad thing for society	1838	68.3
+3) Doesn't make much difference	670	24.9
+9) Don't know/Refused (VOL.)	81	3.0
+
+
+72) Q9D
+More gay and lesbian couples raising children -is this generally a good thing for our society, a bad thing for our society, or doesn't it make much difference?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	2.598	1.527
+1) Good thing for society	357	13.3
+2) Bad thing for society	1070	39.8
+3) Doesn't make much difference	1147	42.6
+9) Don't know/Refused (VOL.)	117	4.3
+
+
+73) Q9E
+More people living together without getting married -is this generally a good thing for our society, a bad thing for our society, or doesn't it make much difference?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	2.538	1.131
+1) Good thing for society	231	8.6
+2) Bad thing for society	1110	41.2
+3) Doesn't make much difference	1295	48.1
+9) Don't know/Refused (VOL.)	55	2.0
+
+
+74) Q9F
+More mothers of young children working outside the home -is this generally a good thing for our society, a bad thing for our society, or doesn't it make much difference?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	2.436	1.455
+1) Good thing for society	541	20.1
+2) Bad thing for society	1001	37.2
+3) Doesn't make much difference	1055	39.2
+9) Don't know/Refused (VOL.)	94	3.5
+
+
+75) Q9G
+More people of different races marrying each other -is this generally a good thing for our society, a bad thing for our society, or doesn't it make much difference?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	2.482	1.225
+1) Good thing for society	695	25.8
+2) Bad thing for society	286	10.6
+3) Doesn't make much difference	1663	61.8
+9) Don't know/Refused (VOL.)	47	1.7
+
+
+76) Q10
+If someone says a child needs a home with both a father and a mother to grow up happily, would you tend to agree or disagree?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.618	1.364
+1) Tend to agree	1573	58.5
+2) Tend to disagree	1040	38.6
+9) Don't know/Refused (VOL.)	78	2.9
+
+
+77) Q11
+Thinking about your family life NOW compared to when you were growing up, would you say your family is closer, less close or about the same?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	2.099	1.127
+1) Closer	1086	40.4
+2) Less close	409	15.2
+3) About the same	1154	42.9
+4) Does not apply (VOL.)	19	0.7
+9) Don't know/Refused	23	0.9
+
+
+78) Q12
+Compared to your parents, do you think you have a closer relationship with your (IF MARRIED: spouse/IF LIVING WITH PARTNER: partner), a less close relationship, or is it about the same?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1512	1.954	1.15
+1) Closer	783	51.8
+2) Less close	87	5.8
+3) About the same	630	41.7
+9) Don't know/Refused (VOL.)	12	0.8
+Missing	1179
+
+
+79) Q13A
+Financial stability -is this a very important reason why YOU are married, a somewhat important reason, or not an important reason why you are married?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1306	2.064	0.966
+1) Very important reason	402	30.8
+2) Somewhat important reason	466	35.7
+3) Not an important reason	430	32.9
+9) Don't know/Refused (VOL.)	8	0.6
+Missing	1385
+
+
+80) Q13B
+Companionship -is this a very important reason why YOU are married, a somewhat important reason, or not an important reason why you are married?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1306	1.25	0.652
+1) Very important reason	1050	80.4
+2) Somewhat important reason	209	16.0
+3) Not an important reason	43	3.3
+9) Don't know/Refused (VOL.)	4	0.3
+Missing	1385
+
+
+81) Q13C
+Love -is this a very important reason why YOU are married, a somewhat important reason, or not an important reason why you are married?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1306	1.098	0.393
+1) Very important reason	1200	91.9
+2) Somewhat important reason	90	6.9
+3) Not an important reason	15	1.1
+9) Don't know/Refused (VOL.)	1	0.1
+Missing	1385
+
+
+82) Q13D
+Having children -is this a very important reason why YOU are married, a somewhat important reason, or not an important reason why you are married?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1306	1.672	1.019
+1) Very important reason	752	57.6
+2) Somewhat important reason	291	22.3
+3) Not an important reason	253	19.4
+9) Don't know/Refused (VOL.)	10	0.8
+Missing	1385
+
+
+83) Q13E
+Making a lifelong commitment -is this a very important reason why YOU are married, a somewhat important reason, or not an important reason why you are married?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1306	1.199	0.643
+1) Very important reason	1128	86.4
+2) Somewhat important reason	120	9.2
+3) Not an important reason	54	4.1
+9) Don't know/Refused (VOL.)	4	0.3
+Missing	1385
+
+
+84) Q13NEW
+Which would you say is the MOST important reason why YOU are married?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1221	3.533	1.412
+1) Financial stability	15	1.2
+2) Companionship	165	13.5
+3) Love	669	54.8
+4) Having children	62	5.1
+5) Making a lifelong commitment	254	20.8
+6) [VOL.] Other (SPECIFY)	20	1.6
+9) [VOL.] Don't know/Refused	36	2.9
+Missing	1470
+
+
+85) Q14A
+Financial stability -is this a very important reason to get married, a somewhat important reason, or not an important reason to get married?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1385	2.043	0.926
+1) Very important reason	418	30.2
+2) Somewhat important reason	531	38.3
+3) Not an important reason	429	31.0
+9) Don't know/Refused (VOL.)	7	0.5
+Missing	1306
+
+
+86) Q14B
+Companionship -is this a very important reason to get married, a somewhat important reason, or not an important reason to get married?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1385	1.55	0.945
+1) Very important reason	859	62.0
+2) Somewhat important reason	350	25.3
+3) Not an important reason	166	12.0
+9) Don't know/Refused (VOL.)	10	0.7
+Missing	1306
+
+
+87) Q14C
+Love - Is this a very important reason to get married, a somewhat important reason, or not an important reason to get married?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1385	1.229	0.632
+1) Very important reason	1159	83.7
+2) Somewhat important reason	153	11.0
+3) Not an important reason	70	5.1
+9) Don't know/Refused (VOL.)	3	0.2
+Missing	1306
+
+
+88) Q14D
+Having children -is this a very important reason to get married, a somewhat important reason, or not an important reason to get married?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1385	1.895	1.178
+1) Very important reason	600	43.3
+2) Somewhat important reason	456	32.9
+3) Not an important reason	308	22.2
+9) Don't know/Refused (VOL.)	21	1.5
+Missing	1306
+
+
+89) Q14E
+Making a lifelong commitment -is this a very important reason to get married, a somewhat important reason, or not an important reason to get married?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1385	1.393	0.995
+1) Very important reason	1046	75.5
+2) Somewhat important reason	224	16.2
+3) Not an important reason	100	7.2
+9) Don't know/Refused (VOL.)	15	1.1
+Missing	1306
+
+
+90) Q14NEW
+Which would you say is the MOST important reason to get married?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1170	3.578	1.405
+1) Financial stability	21	1.8
+2) Companionship	122	10.4
+3) Love	656	56.1
+4) Having children	55	4.7
+5) Making a lifelong commitment	265	22.6
+6) [VOL.] Other (SPECIFY)	17	1.5
+9) [VOL.] Don't know/Refused	34	2.9
+Missing	1521
+
+
+91) Q17
+What kind of marriage do you think is the more satisfying way of life?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	2.344	2.104
+1) One where the husband provides for the family and the wife takes care of the house and children	718	26.7
+2) One where the husband and wife both have jobs and both take care of the house and children	1738	64.6
+9) [VOL.] Don't know/Refused	235	8.7
+
+
+92) Q18
+Thinking back to the most recent time when you were living together with a partner.../...started living together with your partner, did you think about it as a step toward marriage or didn't you think of it this way?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1228	1.502	1.236
+1) Thought about living together as a step toward marriage	808	65.8
+2) Didn't think of living together as a step toward marriage	392	31.9
+9) Don't know/Refused (VOL.)	28	2.3
+Missing	1463
+
+
+93) Q19
+Were household finances an important consideration in your decision to move in with your partner, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1228	1.743	0.833
+1) Yes	393	32.0
+2) No	824	67.1
+9) Don't know/Refused	11	0.9
+Missing	1463
+
+
+94) Q20
+Do you think you and the partner you are living with will get married someday or don't you think you will get married?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	206	1.835	2.123
+1) Will get married someday	146	70.9
+2) Won't get married	44	21.4
+9) Don't know/Refused (VOL.)	16	7.8
+Missing	2485
+
+
+95) Q21
+In general, what's your preference? Do you want to get married, don't want to get married, or are you not sure if you want to get married?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	837	1.762	1.101
+1) Want to marry	483	57.7
+2) Don't want to marry	112	13.4
+3) Not sure if want to marry	235	28.1
+9) Don't know/Refused (VOL.)	7	0.8
+Missing	1854
+
+
+96) Q22
+In general, what's your preference?  Do you want to get married again, don't you want to get married again, or are you not sure if you want to get married again?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	465	2.157	0.942
+1) Want to marry	112	24.1
+2) Don't want to marry	186	40.0
+3) Not sure if want to marry	164	35.3
+9) Don't know/Refused(VOL.)	3	0.6
+Missing	2226
+
+
+97) Q22A
+How do you feel about having children? Do you want to have children, don't you want to have children, or are you not sure if you want to have children?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	608	1.76	1.214
+1) Want to have children	349	57.4
+2) Don't want to have children	110	18.1
+3) Not sure if want to have children	140	23.0
+9) Don't know/Refused	9	1.5
+Missing	2083
+
+
+98) Q23AF1
+He - Puts his family before anything else - Is this very important for a good husband or partner to have, somewhat important, not too important, or not at all important?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1327	1.267	0.878
+1) Very important	1093	82.4
+2) Somewhat important	195	14.7
+3) Not too important	18	1.4
+4) Not at all important	9	0.7
+9) Don't know/Refused (VOL.)	12	0.9
+Missing	1364
+
+
+99) Q23BF1
+He - Provides a good income - Is this very important for a good husband or partner to have, somewhat important, not too important, or not at all important?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1327	1.755	0.946
+1) Very important	544	41.0
+2) Somewhat important	651	49.1
+3) Not too important	100	7.5
+4) Not at all important	21	1.6
+9) Don't know/Refused (VOL.)	11	0.8
+Missing	1364
+
+
+100) Q23CF1
+He - Is good at household chores - Is this very important for a good husband or partner to have, somewhat important, not too important, or not at all important?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1327	1.991	0.995
+1) Very important	415	31.3
+2) Somewhat important	637	48.0
+3) Not too important	187	14.1
+4) Not at all important	80	6.0
+9) Don't know/Refused (VOL.)	8	0.6
+Missing	1364
+
+
+101) Q23DF1
+He - Is well educated - Is this very important for a good husband or partner to have, somewhat important, not too important, or not at all important?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1327	1.838	0.931
+1) Very important	496	37.4
+2) Somewhat important	648	48.8
+3) Not too important	120	9.0
+4) Not at all important	56	4.2
+9) Don't know/Refused (VOL.)	7	0.5
+Missing	1364
+
+
+102) Q23EF1
+He - Is a good father - Is this very important for a good husband or partner to have, somewhat important, not too important, or not at all important?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1327	1.122	0.697
+1) Very important	1241	93.5
+2) Somewhat important	65	4.9
+3) Not too important	6	0.5
+4) Not at all important	7	0.5
+9) Don't know/Refused (VOL.)	8	0.6
+Missing	1364
+
+
+103) Q23FF1
+He - Is a good sexual partner - Is this very important for a good husband or partner to have, somewhat important, not too important, or not at all important?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1327	1.761	1.13
+1) Very important	625	47.1
+2) Somewhat important	542	40.8
+3) Not too important	102	7.7
+4) Not at all important	40	3.0
+9) Don't know/Refused (VOL.)	18	1.4
+Missing	1364
+
+
+104) Q23GF1
+He - Is caring and compassionate - Is this very important for a good husband or partner to have, somewhat important, not too important, or not at all important?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1327	1.131	0.522
+1) Very important	1189	89.6
+2) Somewhat important	126	9.5
+3) Not too important	3	0.2
+4) Not at all important	6	0.5
+9) Don't know/Refused (VOL.)	3	0.2
+Missing	1364
+
+
+105) Q24AF2
+She - Puts her family before anything else - Is this very important for a wife or partner to have, somewhat important, not too important, or not at all important?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1364	1.32	0.7
+1) Very important	1015	74.4
+2) Somewhat important	301	22.1
+3) Not too important	29	2.1
+4) Not at all important	15	1.1
+9) Don't know/Refused (VOL.)	4	0.3
+Missing	1327
+
+
+106) Q24BF2
+She - Provides a good income - Is this very important for a wife or partner to have, somewhat important, not too important, or not at all important?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1364	2.342	1.174
+1) Very important	269	19.7
+2) Somewhat important	605	44.4
+3) Not too important	334	24.5
+4) Not at all important	138	10.1
+9) Don't know/Refused (VOL.)	18	1.3
+Missing	1327
+
+
+107) Q24CF2
+She - Is good at household chores - Is this very important for a wife or partner to have, somewhat important, not too important, or not at all important?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1364	2.152	1.04
+1) Very important	358	26.2
+2) Somewhat important	613	44.9
+3) Not too important	261	19.1
+4) Not at all important	124	9.1
+9) Don't know/Refused (VOL.)	8	0.6
+Missing	1327
+
+
+108) Q24DF2
+She - Is well educated - Is this very important for a wife or partner to have, somewhat important, not too important, or not at all important?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1364	1.79	0.895
+1) Very important	571	41.9
+2) Somewhat important	583	42.7
+3) Not too important	161	11.8
+4) Not at all important	44	3.2
+9) Don't know/Refused (VOL.)	5	0.4
+Missing	1327
+
+
+109) Q24EF2
+She - Is a good mother - Is this very important for a wife or partner to have, somewhat important, not too important, or not at all important?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1364	1.18	0.775
+1) Very important	1224	89.7
+2) Somewhat important	102	7.5
+3) Not too important	15	1.1
+4) Not at all important	14	1.0
+9) Don't know/Refused (VOL.)	9	0.7
+Missing	1327
+
+
+110) Q24FF2
+She - Is a good sexual partner - Is this very important for a wife or partner to have, somewhat important, not too important, or not at all important?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1364	1.76	1.262
+1) Very important	668	49.0
+2) Somewhat important	556	40.8
+3) Not too important	80	5.9
+4) Not at all important	32	2.3
+9) Don't know/Refused (VOL.)	28	2.1
+Missing	1327
+
+
+111) Q24GF2
+She - Is caring and compassionate - Is this very important for a wife or partner to have, somewhat important, not too important, or not at all important?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1364	1.121	0.5
+1) Very important	1232	90.3
+2) Somewhat important	119	8.7
+3) Not too important	8	0.6
+4) Not at all important	2	0.1
+9) Don't know/Refused (VOL.)	3	0.2
+Missing	1327
+
+
+112) Q25AF1
+An unmarried man and woman who live together with one or more children - do you consider this to be a family or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1327	1.249	0.823
+1) Yes, this is a family	1090	82.1
+2) No, this is not a family	209	15.7
+3) Depends on the circumstances (VOL.)	17	1.3
+9) Don't know/Refused (VOL.)	11	0.8
+Missing	1364
+
+
+113) Q25BF1
+A gay or lesbian couple living together with no children - do you consider this to be a family or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1327	1.72	1.24
+1) Yes, this is a family	605	45.6
+2) No, this is not a family	674	50.8
+3) Depends on the circumstances (VOL.)	17	1.3
+9) Don't know/Refused (VOL.)	31	2.3
+Missing	1364
+
+
+114) Q25CF1
+A single parent living with one or more children - do you consider this to be a family or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1327	1.181	0.716
+1) Yes, this is a family	1161	87.5
+2) No, this is not a family	140	10.6
+3) Depends on the circumstances (VOL.)	18	1.4
+9) Don't know/Refused (VOL.)	8	0.6
+Missing	1364
+
+
+115) Q25DF2
+A husband and wife with no children - do you consider this to be a family or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1364	1.158	0.593
+1) Yes, this is a family	1193	87.5
+2) No, this is not a family	157	11.5
+3) Depends on the circumstances (VOL.)	9	0.7
+9) Don't know/Refused (VOL.)	5	0.4
+Missing	1327
+
+
+116) Q25EF2
+A gay or lesbian couple living together and raising one or more children - do you consider this to be a family or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1364	1.504	1.259
+1) Yes, this is a family	914	67.0
+2) No, this is not a family	404	29.6
+3) Depends on the circumstances (VOL.)	14	1.0
+9) Don't know/Refused (VOL.)	32	2.3
+Missing	1327
+
+
+117) Q25FF2
+An unmarried man and woman who live together with no children - do you consider this to be a family or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1364	1.614	0.774
+1) Yes, this is a family	606	44.4
+2) No, this is not a family	727	53.3
+3) Depends on the circumstances (VOL.)	23	1.7
+9) Don't know/Refused (VOL.)	8	0.6
+Missing	1327
+
+
+118) Q25G
+A husband and wife with one or more children - do you consider this to be a family or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.016	0.249
+1) Yes, this is a family	2667	99.1
+2) No, this is not a family	16	0.6
+3) Depends on the circumstances (VOL.)	6	0.2
+9) Don't know/Refused (VOL.)	2	0.1
+
+
+119) Q26F1
+In order for a woman to be ready for marriage, how important is it that she can support a family financially?  Would you say it is...?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1327	1.98	1.132
+1) Very important	460	34.7
+2) Somewhat important	597	45.0
+3) Not too important	187	14.1
+4) Not at all important	67	5.0
+9) [VOL.] Don't know/Refused	16	1.2
+Missing	1364
+
+
+120) Q26AF2
+In order for a man to be ready for marriage, how important is it that he can support a family financially?  Would you say it is...?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1364	1.413	0.847
+1) Very important	924	67.7
+2) Somewhat important	381	27.9
+3) Not too important	39	2.9
+4) Not at all important	11	0.8
+9) [VOL.] Don't know/Refused	9	0.7
+Missing	1327
+
+
+121) Q27
+Overall, how would you rate the job you have done or are doing as a PARENT? Would you say excellent, very good, good, only fair, or poor?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1943	2.092	0.999
+1) Excellent	541	27.8
+2) Very good	850	43.7
+3) Good	452	23.3
+4) Only fair	76	3.9
+5) Poor	13	0.7
+9) Don't know/Refused (VOL.)	11	0.6
+Missing	748
+
+
+122) Q28
+How good a job have you done balancing your job, your (IF MARITAL=1: marriage/IF MARITAL=2: partnership) and being a parent? Would you say excellent, very good, good, only fair, or poor?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	799	2.268	0.948
+1) Excellent	147	18.4
+2) Very good	371	46.4
+3) Good	224	28.0
+4) Only fair	46	5.8
+5) Poor	8	1.0
+9) Don't know/Refused (VOL.)	3	0.4
+Missing	1892
+
+
+123) Q29A
+Please tell me whether you think - children of divorced parents - have A LOT more challenges to overcome, just a FEW more challenges, or about the same number of challenges to overcome as other children?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.868	1.072
+1) A lot more challenges	1099	40.8
+2) A few more challenges	1060	39.4
+3) The same challenges	464	17.2
+4) Depends (VOL.)	39	1.4
+9) Don't know/Refused (VOL.)	29	1.1
+
+
+124) Q29B
+Please tell me whether you think - children from racially-mixed marriages - have A LOT more challenges to overcome, just a FEW more challenges, or about the same number of challenges to overcome as other children?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	2.266	1.252
+1) A lot more challenges	650	24.2
+2) A few more challenges	1043	38.8
+3) The same challenges	904	33.6
+4) Depends (VOL.)	39	1.4
+9) Don't know/Refused (VOL.)	55	2.0
+
+
+125) Q29C
+Please tell me whether you think - children of gay and lesbian couples - have A LOT more challenges to overcome, just a FEW more challenges, or about the same number of challenges to overcome as other children?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.952	1.57
+1) A lot more challenges	1326	49.3
+2) A few more challenges	772	28.7
+3) The same challenges	475	17.7
+4) Depends (VOL.)	21	0.8
+9) Don't know/Refused (VOL.)	97	3.6
+
+
+126) Q29D
+Please tell me whether you think - children of single parents - have A LOT more challenges to overcome, just a FEW more challenges, or about the same number of challenges to overcome as other children?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.927	1.062
+1) A lot more challenges	1010	37.5
+2) A few more challenges	1062	39.5
+3) The same challenges	565	21.0
+4) Depends (VOL.)	26	1.0
+9) Don't know/Refused (VOL.)	28	1.0
+
+
+127) Q29E
+Please tell me whether you think - children whose parents are living together but not married - have A LOT more challenges to overcome, just a FEW more challenges, or about the same number of challenges to overcome as other children?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	2.487	1.139
+1) A lot more challenges	401	14.9
+2) A few more challenges	882	32.8
+3) The same challenges	1339	49.8
+4) Depends (VOL.)	22	0.8
+9) Don't know/Refused (VOL.)	47	1.7
+
+
+128) Q30
+Thinking of your own family, how often do you eat dinner together, that is (you and your spouse/you and your partner/you) and some or all of your children? Do you do this every day, a few times a week, only occasionally, or never?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1043	1.698	0.913
+1) Every day	524	50.2
+2) A few times a week	365	35.0
+3) Only occasionally	119	11.4
+4) Never	31	3.0
+9) Don't know/Refused (VOL.)	4	0.4
+Missing	1648
+
+
+129) Q31
+Thinking about the upcoming Thanksgiving holiday, do you expect to have a Thanksgiving meal with members of your family, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.18	0.729
+1) Yes	2365	87.9
+2) No	269	10.0
+3) Haven't made plans yet/Not sure yet (VOL.)	40	1.5
+9) Don't know/Refused (VOL.)	17	0.6
+
+
+130) Q31A
+About how many family members do you think will be there?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2365	17.403	18.834
+1) 	10	0.4
+2) 	51	2.2
+3) 	60	2.5
+4) 	114	4.8
+5) 	123	5.2
+6) 	184	7.8
+7) 	86	3.6
+8) 	130	5.5
+9) 	34	1.4
+10) 	331	14.0
+11) 	21	0.9
+12) 	160	6.8
+13) 	20	0.8
+14) 	22	0.9
+15) 	230	9.7
+16) 	16	0.7
+17) 	11	0.5
+18) 	19	0.8
+19) 	5	0.2
+20) 	279	11.8
+21) 	1	0.0
+22) 	7	0.3
+23) 	3	0.1
+24) 	6	0.3
+25) 	106	4.5
+26) 	3	0.1
+27) 	3	0.1
+28) 	5	0.2
+30) 	121	5.1
+31) 	1	0.0
+32) 	3	0.1
+33) 	1	0.0
+34) 	1	0.0
+35) 	16	0.7
+36) 	1	0.0
+38) 	1	0.0
+40) 	34	1.4
+42) 	1	0.0
+45) 	3	0.1
+50) 	43	1.8
+55) 	2	0.1
+60) 	6	0.3
+70) 	1	0.0
+75) 	1	0.0
+76) 	1	0.0
+80) 	2	0.1
+85) 	2	0.1
+90) 	1	0.0
+98) 	5	0.2
+99) Don't know/Refused	78	3.3
+Missing	326
+
+
+131) FAM2
+What was the marital status of your parents during most of the time you were growing up? Were they married, divorced, separated, widowed or never married to each other?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.502	1.227
+1) Married	2085	77.5
+2) Divorced	324	12.0
+3) Separated	73	2.7
+4) Widowed	48	1.8
+5) Never married	138	5.1
+9) Don't know/Refused (VOL.)	23	0.9
+
+
+132) GP
+Do you have any living grandparents?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.718	0.554
+1) Yes	795	29.5
+2) No	1891	70.3
+9) Don't know/Refused (VOL.)	5	0.2
+
+
+133) MOM
+Is your mother living?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.357	0.613
+1) Yes	1778	66.1
+2) No	906	33.7
+9) Don't know/Refused (VOL.)	7	0.3
+
+
+134) DAD
+Is your father living?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.57	0.933
+1) Yes	1368	50.8
+2) No	1293	48.0
+9) Don't know/Refused (VOL.)	30	1.1
+
+
+135) STEP1
+Do you have any living stepparents?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.845	0.6
+1) Yes	495	18.4
+2) No	2185	81.2
+9) Don't know/Refused (VOL.)	11	0.4
+
+
+136) STEP3
+Do you have any step or half siblings?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.719	0.688
+1) Yes	847	31.5
+2) No	1831	68.0
+9) Don't know/Refused (VOL.)	13	0.5
+
+
+137) SIB
+How many brothers and sisters do you have, if any?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2691	3.203	5.202
+0) 	244	9.1
+1) 	614	22.8
+2) 	604	22.4
+3) 	411	15.3
+4) 	257	9.6
+5) 	165	6.1
+6) 	109	4.1
+7) 	99	3.7
+8) 	61	2.3
+9) 	48	1.8
+10) 	22	0.8
+11) 	15	0.6
+12) 	20	0.7
+13) 	6	0.2
+14) 	3	0.1
+15) 	7	0.3
+99) Don't know/Refused (VOL.)	6	0.2
+
+
+138) STEP4
+Do you have any stepchildren? IF YES: Are all of these stepchildren under age 18, all ages 18 and older, or are some under 18 and some ages 18 and older?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1919	1.345	0.806
+1) No stepchildren	1572	81.9
+2) All stepchildren under age 18	78	4.1
+3) All stepchildren ages 18 and older	238	12.4
+4) Both under 18 and older than 18	28	1.5
+9) Don't know/Refused (VOL.)	3	0.2
+Missing	772
+
+
+139) Q32A
+How obligated would you feel to provide assistance if that person were - Your best friend? Would you feel very obligated, somewhat obligated, not too obligated or not at all obligated?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.941	1.248
+1) Very obligated	1066	39.6
+2) Somewhat obligated	1179	43.8
+3) Not too obligated	238	8.8
+4) Not at all obligated	125	4.6
+5) Depends (VOL.)	27	1.0
+6) Not applicable/Not living (VOL.)	18	0.7
+9) Don't Know/Refused (VOL.)	38	1.4
+
+
+140) Q32B
+How obligated would you feel to provide assistance if that person were - Your parent? Would you feel very obligated, somewhat obligated, not too obligated or not at all obligated?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1953	1.265	0.804
+1) Very obligated	1623	83.1
+2) Somewhat obligated	249	12.7
+3) Not too obligated	27	1.4
+4) Not at all obligated	39	2.0
+5) Depends (VOL.)	4	0.2
+6) Not applicable/Not living (VOL.)	2	0.1
+9) Don't Know/Refused (VOL.)	9	0.5
+Missing	738
+
+
+141) Q32C
+How obligated would you feel to provide assistance if that person were - Your (spouse's/partner's) parent? Would you feel very obligated, somewhat obligated, not too obligated or not at all obligated?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1512	1.811	1.58
+1) Very obligated	966	63.9
+2) Somewhat obligated	342	22.6
+3) Not too obligated	39	2.6
+4) Not at all obligated	37	2.4
+5) Depends (VOL.)	5	0.3
+6) Not applicable/Not living (VOL.)	103	6.8
+9) Don't Know/Refused (VOL.)	20	1.3
+Missing	1179
+
+
+142) Q32D
+How obligated would you feel to provide assistance if that person were - Your stepparent? Would you feel very obligated, somewhat obligated, not too obligated or not at all obligated?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	495	1.865	1.085
+1) Very obligated	242	48.9
+2) Somewhat obligated	153	30.9
+3) Not too obligated	34	6.9
+4) Not at all obligated	60	12.1
+5) Depends (VOL.)	3	0.6
+6) Not applicable/Not living (VOL.)	3	0.6
+9) Don't Know/Refused (VOL.)	0	0.0
+Missing	2196
+
+
+143) Q32E
+How obligated would you feel to provide assistance if that person were - Your grown child? Would you feel very obligated, somewhat obligated, not too obligated or not at all obligated?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1206	1.393	1.024
+1) Very obligated	907	75.2
+2) Somewhat obligated	240	19.9
+3) Not too obligated	18	1.5
+4) Not at all obligated	16	1.3
+5) Depends (VOL.)	11	0.9
+6) Not applicable/Not living (VOL.)	2	0.2
+9) Don't Know/Refused (VOL.)	12	1.0
+Missing	1485
+
+
+144) Q32F
+How obligated would you feel to provide assistance if that person were - Your grown stepchild? Would you feel very obligated, somewhat obligated, not too obligated or not at all obligated?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	266	1.647	1.164
+1) Very obligated	159	59.8
+2) Somewhat obligated	78	29.3
+3) Not too obligated	11	4.1
+4) Not at all obligated	12	4.5
+5) Depends (VOL.)	3	1.1
+6) Not applicable/Not living (VOL.)	0	0.0
+9) Don't Know/Refused (VOL.)	3	1.1
+Missing	2425
+
+
+145) Q32G
+How obligated would you feel to provide assistance if that person were - Your brother or sister? Would you feel very obligated, somewhat obligated, not too obligated or not at all obligated?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2441	1.566	1.126
+1) Very obligated	1585	64.9
+2) Somewhat obligated	634	26.0
+3) Not too obligated	84	3.4
+4) Not at all obligated	82	3.4
+5) Depends (VOL.)	19	0.8
+6) Not applicable/Not living (VOL.)	13	0.5
+9) Don't Know/Refused (VOL.)	24	1.0
+Missing	250
+
+
+146) Q32H
+How obligated would you feel to provide assistance if that person were - Your step or half sibling? Would you feel very obligated, somewhat obligated, not too obligated or not at all obligated?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	847	2.072	1.448
+1) Very obligated	364	43.0
+2) Somewhat obligated	283	33.4
+3) Not too obligated	77	9.1
+4) Not at all obligated	93	11.0
+5) Depends (VOL.)	6	0.7
+6) Not applicable/Not living (VOL.)	8	0.9
+9) Don't Know/Refused (VOL.)	16	1.9
+Missing	1844
+
+
+147) Q32I
+How obligated would you feel to provide assistance if that person were - Your grandparent? Would you feel very obligated, somewhat obligated, not too obligated or not at all obligated?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	795	1.467	0.907
+1) Very obligated	545	68.6
+2) Somewhat obligated	183	23.0
+3) Not too obligated	34	4.3
+4) Not at all obligated	26	3.3
+5) Depends (VOL.)	2	0.3
+6) Not applicable/Not living (VOL.)	2	0.3
+9) Don't know/Refused (VOL.)	3	0.4
+Missing	1896
+
+
+148) Q33
+Some people say there is only one true love for each person. Do you agree or disagree?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.912	1.248
+1) Agree	735	27.3
+2) Disagree	1885	70.0
+9) Don't know/Refused (VOL.)	71	2.6
+
+
+149) Q33A
+And have you found yours, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	735	1.378	1.06
+1) Yes	552	75.1
+2) No	154	21.0
+3) Not sure (VOL.)	18	2.4
+9) Don't know/Refused (VOL.)	11	1.5
+Missing	1956
+
+
+150) HISP4
+Are you Hispanic, Latino, or Spanish origin, such as Mexican, Puerto Rican or Cuban?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.9	0.666
+1) Yes	387	14.4
+2) No	2287	85.0
+9) Don't know/Refused (VOL.)	17	0.6
+
+
+151) RACE1M1
+(FIRST MENTION) Which of the following describes your race? You can select as many as apply.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.637	1.347
+1) White	1859	69.1
+2) Black or African-American	477	17.7
+3) Asian or Asian-American	67	2.5
+4) Or some other race	240	8.9
+9) Don't know/Refused (VOL.)	48	1.8
+
+
+152) RACE1M2
+(SECOND MENTION) Which of the following describes your race? You can select as many as apply.
+RANGE: 2 to 4
+	N	Mean	Std. Deviation
+Total	53	3.302	0.932
+2) Black or African-American	17	32.1
+3) Asian or Asian-American	3	5.7
+4) Or some other race	33	62.3
+Missing	2638
+
+
+153) RACE1M3
+(THIRD MENTION) Which of the following describes your race? You can select as many as apply.
+RANGE: 3 to 4
+	N	Mean	Std. Deviation
+Total	6	3.667	0.516
+3) Asian or Asian-American	2	33.3
+4) Or some other race	4	66.7
+Missing	2685
+
+
+154) RACE1M4
+(FOURTH MENTION) Which of the following describes your race? You can select as many as apply.
+RANGE: 4 to 4
+	N	Mean	Std. Deviation
+Total	1	4	0
+4) Or some other race	1	100.0
+Missing	2690
+
+
+155) EDUC
+What is the last grade or class that you completed in school?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	4.771	1.646
+1) None, or grade 1-8	49	1.8
+2) High school incomplete (grades 9-11)	167	6.2
+3) High school graduate (grade 12 or GED certificate)	655	24.3
+4) Technical, trade, or vocational school AFTER high school	88	3.3
+5) Some college, no four-year degree (including associate degree)	678	25.2
+6) College graduate (B.S., B.A., or other 4-year degree)	663	24.6
+7) Post-graduate training or professional schooling after college	374	13.9
+9) Don't know/Refused (VOL.)	17	0.6
+
+
+156) RELIG
+What is your present religion, if any? Are you Protestant, Roman Catholic, Mormon, Orthodox such as Greek or Russian Orthodox, Jewish, Muslim, Buddhist, Hindu, atheist, agnostic, something else, or nothing in particular?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2691	5.624	10.683
+1) Protestant (Baptist, Methodist, non-denominational, Lutheran, Presbyterian, Pentecostal, Episcopalian, Reformed, Church of Christ, Jehovah's Witnesses, etc.)	1095	40.7
+2) Roman Catholic (Catholic)	618	23.0
+3) Mormon (Church of Jesus Christ of Latter-day Saints/LDS)	40	1.5
+4) Orthodox (Greek, Russian, or some other Orthodox church)	18	0.7
+5) Jewish (Judaism)	58	2.2
+6) Muslim (Islam)	29	1.1
+7) Buddhist	15	0.6
+8) Hindu	17	0.6
+9) Atheist (do not believe in God)	61	2.3
+10) Agnostic (not sure if there is a God)	89	3.3
+11) Something else (VOL/SPECIFY)	49	1.8
+12) Nothing in particular	310	11.5
+13) Christian (VOL.)	259	9.6
+14) Unitarian (Universalist) (VOL.)	5	0.2
+99) Don't know/Refused (VOL.)	28	1.0
+
+
+157) CHR
+Do you think of yourself as a Christian or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	77	2.429	2.598
+1) Yes	37	48.1
+2) No	30	39.0
+9) Don't know/Refused (VOL.)	10	13.0
+Missing	2614
+
+
+158) BORN
+Would you describe yourself as a 'born again' or evangelical Christian, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2067	1.89	1.618
+1) Yes, would	879	42.5
+2) No, would not	1095	53.0
+9) Don't know/Refused (VOL.)	93	4.5
+Missing	624
+
+
+159) ATTEND
+Aside from weddings and funerals, how often do you attend religious services? More than once a week, once a week, once or twice a month, a few times a year, seldom, or never?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	3.433	1.721
+1) More than once a week	394	14.6
+2) Once a week	594	22.1
+3) Once or twice a month	385	14.3
+4) A few times a year	549	20.4
+5) Seldom	401	14.9
+6) Never	337	12.5
+9) Don't know/Refused (VOL.)	31	1.2
+
+
+160) INCOME
+Last year, that is in 2009, what was your total family income from all sources, before taxes?  Just stop me when I get to the right category. 
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	2691	5.85	2.744
+1) Less than $10,000	169	6.3
+2) $10,000 to under $20,000	217	8.1
+3) $20,000 to under $30,000	282	10.5
+4) $30,000 to under $40,000	252	9.4
+5) $40,000 to under $50,000	233	8.7
+6) $50,000 to under $75,000	384	14.3
+7) $75,000 to under $100,000	308	11.4
+8) $100,000 to under $150,000	296	11.0
+9) $150,000 or more	208	7.7
+10) Don't know/Refused (VOL)	342	12.7
+
+
+161) REGIST
+Are you NOW registered to vote in your precinct or election district or haven't you been able to register so far?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.28	0.85
+1) Yes, registered	2112	78.5
+2) No, not registered	554	20.6
+9) Don't know/Refused (VOL.)	25	0.9
+
+
+162) REGICERT
+Are you absolutely certain that you are registered to vote, or is there a chance that your registration has lapsed because you moved or for some other reason?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2112	1.076	0.579
+1) Absolutely certain	2021	95.7
+2) Chance registration has lapsed	81	3.8
+9) Don't know/Refused (VOL.)	10	0.5
+Missing	579
+
+
+163) PARTY
+In politics TODAY, do you consider yourself a Republican, Democrat, or Independent?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	2.514	1.633
+1) Republican	628	23.3
+2) Democrat	923	34.3
+3) Independent	860	32.0
+4) No preference (VOL.)	152	5.6
+5) Other party (VOL.)	12	0.4
+9) Don't know/Refused (VOL.)	116	4.3
+
+
+164) PARTYLN
+As of today do you lean more to the Republican Party or more to the Democratic Party?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1140	4.491	3.677
+1) Republican	324	28.4
+2) Democrat	364	31.9
+9) Other/Don't know/Refused (VOL.)	452	39.6
+Missing	1551
+
+
+165) IDEO
+In general, would you describe your political views as...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	3.247	1.878
+1) Very conservative	238	8.8
+2) Conservative	785	29.2
+3) Moderate	864	32.1
+4) Liberal	429	15.9
+5) Very liberal	188	7.0
+9) Don't know/Refused (VOL.)	187	6.9
+
+
+166) CITIZEN
+Are you currently a citizen of the United States, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.115	0.734
+1) Yes	2528	93.9
+2) No	142	5.3
+9) Don't know/Refused (VOL.)	21	0.8
+
+
+167) BIRTH_HI
+Were you born on the island of Puerto Rico, in the United States, or in another country?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	387	2.475	1.051
+1) Puerto Rico	18	4.7
+2) U.S.	209	54.0
+3) Another country	153	39.5
+9) Don't know/Refused (VOL.)	7	1.8
+Missing	2304
+
+
+168) MOTHER_H
+Was your mother born on the island of Puerto Rico, in the United States, or in another country?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	209	2.282	0.728
+1) Puerto Rico	13	6.2
+2) U.S.	130	62.2
+3) Another country	65	31.1
+9) Don't know/Refused (VOL.)	1	0.5
+Missing	2482
+
+
+169) FATHER_H
+Was your father born on the island of Puerto Rico, in the United States, or in another country?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	209	2.373	1.089
+1) Puerto Rico	15	7.2
+2) U.S.	125	59.8
+3) Another country	65	31.1
+9) Don't know/Refused (VOL.)	4	1.9
+Missing	2482
+
+
+170) HOME
+Do you own or rent your home?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.497	1.032
+1) Own	1715	63.7
+2) Rent	824	30.6
+3) Other arrangement (VOL.)	117	4.3
+9) Don't know/Refused (VOL.)	35	1.3
+
+
+171) SS1
+Previously in this interview, you described your marital status as 'living with a partner.'  Is your domestic partner of the same sex, or the opposite sex?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	206	1.893	0.31
+1) Same sex	22	10.7
+2) Opposite sex	184	89.3
+Missing	2485
+
+
+172) QL1
+Now thinking about your telephone use, do you have a working cell phone?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	1.259	0.863
+1) Yes, have cell phone	1232	81.1
+2) No, do not	273	18.0
+9) Don't know/Refused (VOL.)	15	1.0
+Missing	1171
+
+
+173) QL1A
+Does anyone in your household have a working cell phone?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	215	1.935	1.789
+1) Yes, someone in household has cell phone	98	45.6
+2) No	105	48.8
+9) Don't know/Refused (VOL.)	12	5.6
+Missing	2476
+
+
+174) QL2
+Of all the telephone calls that you receive, do you get...?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	190	2.316	0.839
+1) All or almost all calls on a cell phone	25	13.2
+2) Some on a cell phone and some on a regular home phone	86	45.3
+3) All or almost all calls on a regular home phone	78	41.1
+9) Don't know/Refused (VOL.)	1	0.5
+Missing	2501
+
+
+175) QL3
+Now thinking about all the people in your household, including yourself, of all the telephone calls that your household receives, are...?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1140	2.08	0.975
+1) All or almost all calls on a cell phone	269	23.6
+2) Some on a cell phone and some on a regular home phone	577	50.6
+3) All or almost all calls on a regular home phone	283	24.8
+9) Don't know/Refused (VOL.)	11	1.0
+Missing	1551
+
+
+176) QC1
+Now thinking about your telephone use... Is there at least one telephone INSIDE your home that is currently working and is not a cell phone?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1171	1.5	0.665
+1) Yes home telephone	614	52.4
+2) No, home telephone	553	47.2
+9) Don't know/Refused (VOL.)	4	0.3
+Missing	1520
+
+
+177) QC2
+Of all the telephone calls that you receive, do you get...?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	61	1.639	0.797
+1) All or almost all calls on a cell phone	34	55.7
+2) Some on a cell phone and some on a regular home phone	15	24.6
+3) All or almost all calls on a regular home phone	12	19.7
+Missing	2630
+
+
+178) QC3
+Now thinking about all the people in your household, including yourself, of all the telephone calls that your household receives, are...?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	553	1.821	1.069
+1) All or almost all calls on a cell phone	227	41.0
+2) Some on a cell phone and some on a regular home phone	240	43.4
+3) All or almost all calls on a regular home phone	79	14.3
+9) Don't know/Refused (VOL.)	7	1.3
+Missing	2138
+
+
+179) Q6VB
+Q6vb
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1188	0	0
+
+
+180) Q13NEWOS
+Q13newos
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	20	0	0
+
+
+181) Q14NEWOS
+Q14newos
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	17	0	0
+
+
+182) RELIGOS
+Religos
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	55	0	0
+
+
+183) RACECMB
+Combining Race
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.781	1.552
+1) White	1818	67.6
+2) Black	465	17.3
+3) Asian	67	2.5
+4) Mixed Race	53	2.0
+5) Some other race	240	8.9
+9) Don't know/Refused (VOL.)	48	1.8
+
+
+184) RACETHN
+Race/Ethnicity
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	1.774	1.245
+1) White~Hisp	1633	60.7
+2) AA~Hisp	425	15.8
+3) Hispanic	387	14.4
+4) Other~Hisp	217	8.1
+9) Don't know/Refused	29	1.1
+
+
+185) RECAGE2
+Recoded age for banner
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	2.476	1.372
+1) 18-29	536	19.9
+2) 30-49	963	35.8
+3) 50-64	912	33.9
+4) 65+	211	7.8
+9) Refused	69	2.6
+
+
+186) TARGETS
+Targets
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2691	4.271	1.135
+1) Cohabitating parents	117	4.3
+2) Divorced/Separated parents	197	7.3
+3) Never been married parents	174	6.5
+4) Married/Widowed/Undesignated parents	555	20.6
+5) No kids under 18	1648	61.2
+
+
+187) HOUSEHOL
+Summary of HH1, HH2, and Marital Status
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	4.477	2.305
+1) Single adult HH w/ minors	225	8.4
+2) Single adult HH w/o minors	430	16.0
+3) Two adults married w/ minors	410	15.2
+4) Two adults married w/o minors	512	19.0
+5) Two adults unmarried w/ minors	175	6.5
+6) Two adults unmarried w/o minors	210	7.8
+7) Three-plus adult HH w/ minors	311	11.6
+8) Three-plus adult HH w/o minors	390	14.5
+9) Don't know/Refused	28	1.0
+
+
+188) HISPGEN
+Hispanics generation
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	387	1.982	1.32
+1) First generation	171	44.2
+2) Second generation	101	26.1
+3) Third generation	106	27.4
+4) Other	1	0.3
+9) Don't know/Refused	8	2.1
+Missing	2304
+
+
+189) IDEO3X
+Ideology three-way
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	2.336	1.976
+1) Conservative	1023	38.0
+2) Moderate	864	32.1
+3) Liberal	617	22.9
+9) Don't know/Refused	187	6.9
+
+
+190) FAMTYPE
+Family Type
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	2691	1.152	1.151
+0) All others	855	31.8
+1) Married with kids of any age	1123	41.7
+2) Divorced/separated with kids of any age	366	13.6
+3) Living with a partner with kids of any age	144	5.4
+4) Never married with kids of any age	203	7.5
+
+
+191) FAM2WAY
+Family Type Two-Way
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	2691	0.572	0.784
+0) All others	1650	61.3
+1) Married with young kids	544	20.2
+2) Unmarried with young kids	497	18.5
+
+
+192) FAM4WAY
+Family Type Four-Way
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	2691	0.767	1.217
+0) All others	1659	61.6
+1) Total married with kids U18	544	20.2
+2) LWP kids U18	117	4.3
+3) Total divorce/separated with kids U18	197	7.3
+4) Never married kids U18	174	6.5
+
+
+193) FAM5WAY
+Family Type Five-Way
+RANGE: 0 to 5
+	N	Mean	Std. Deviation
+Total	2691	0.97	1.595
+0) All others	1713	63.7
+1) Married once, kids U18, all kids w/current spouse	379	14.1
+2) Married, kids U18, blended family	111	4.1
+3) LWP, kids U18	117	4.3
+4) Total divorced/separated, kids U18	197	7.3
+5) Never married with kids U18	174	6.5
+
+
+194) RECAGE
+Recoded age
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	3.672	1.712
+1) 18-24	317	11.8
+2) 25-34	423	15.7
+3) 35-44	458	17.0
+4) 45-54	608	22.6
+5) 55-64	605	22.5
+6) 65+	211	7.8
+9) Don't know/Refused	69	2.6
+
+
+195) RECEDUC
+Recoded education
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	2.987	1.1
+1) Little high school	216	8.0
+2) High school graduate	743	27.6
+3) Some college	678	25.2
+4) College+	1037	38.5
+9) Don't know/Refused	17	0.6
+
+
+196) MAR_STAT
+Marital Status
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2691	2.664	1.821
+1) Married	1306	48.5
+2) Widowed	114	4.2
+3) Divorced	351	13.0
+4) Separated	70	2.6
+5) Never married	837	31.1
+9) Don't know/Refused	13	0.5
+
+
+197) ADULTS
+# of adults in HH
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	2691	2.017	0.711
+1) 	656	24.4
+2) 	1332	49.5
+3) Three-plus	703	26.1
+
+
+198) KIDS
+Number of kids in HH computed from HH1 and HH2
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	2691	0.719	1.09
+0) 	1549	57.6
+1) 	482	17.9
+2) Two-plus	641	23.8
+9) Don't know	19	0.7
+
+
+199) PHONEUSE
+Personal telephone use by frame
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	2691	2.539	0.929
+1) LLO	273	10.1
+2) Dual from LL	1247	46.3
+3) Dual from cell	618	23.0
+4) CPO	553	20.5
+
+
+200) PHONEUS2
+Household phone use
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2691	2.576	0.916
+1) LLO	174	6.5
+2) Dual/few, some cell	1389	51.6
+3) Dual/most cell	555	20.6
+4) CPO	553	20.5
+5) LL, DK if cell	16	0.6
+6) Cell, DK if LL	4	0.1
+
+
+201) STRATUM
+Stratum
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	2471	7.1	2.378
+
+
+202) SAMPLEWT
+Weight to correct for disproportionate RDD LL and cell sample designs
+RANGE: 0.5 to 5.96
+	N	Mean	Std. Deviation
+Total	2691	1.108	1.025
+
+
+203) PSA
+Probability of selection adjustment
+RANGE: 0.570035115099493 to 1.14007023019899
+	N	Mean	Std. Deviation
+Total	2691	1	0.181
+
+
+204) PUA
+Phone use adjustment
+RANGE: 0.77436540269508 to 1.54873080539016
+	N	Mean	Std. Deviation
+Total	2691	1	0.337
+
+
+205) WT1
+First-stage weight = PSA * PUA * SAMPWT * OSADJUST1 * OSADJUST2
+RANGE: 0.0132424641436306 to 9.23043560012535
+	N	Mean	Std. Deviation
+Total	2691	0.594	0.847
+
+
+206) WEIGHT
+Weight
+RANGE: 1 to 34.5172413793103
+	N	Mean	Std. Deviation
+Total	2691	9.018	8.806
+
+
+207) I-AGE
+Recoded age (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2622	3.532	1.497
+1) 18-24	317	12.1
+2) 25-34	423	16.1
+3) 35-44	458	17.5
+4) 45-54	608	23.2
+5) 55-64	605	23.1
+6) 65+	211	8.0
+Missing	69
+
+
+208) I-EDUC
+Recoded education (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	2674	2.948	0.993
+1) Little high school	216	8.1
+2) High school graduate	743	27.8
+3) Some college	678	25.4
+4) College plus	1037	38.8
+Missing	17
+
+
+209) I-ATTEND
+Aside from weddings and funerals, how often do you attend religious services? More than once a week, once a week, once or twice a month, a few times a year, seldom, or never? (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2660	3.368	1.622
+1) More than once a week	394	14.8
+2) Once a week	594	22.3
+3) Once or twice a month	385	14.5
+4) A few times a year	549	20.6
+5) Seldom	401	15.1
+6) Never	337	12.7
+Missing	31
+
+
+210) I-MARITAL
+Are you currently married, living with a partner, divorced, separated, widowed, or have you never been married? (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	2678	2.183	1.264
+1) Married	1306	48.8
+2) Living with a partner	206	7.7
+3) Divorced, separated, or widowed	535	20.0
+4) Never been married	631	23.6
+Missing	13
+
+
+211) I-SEX
+[Enter respondent's sex:] (for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2691	1.538	0.499
+1) Male	1244	46.2
+2) Female	1447	53.8
+
+
+212) I-POLITICS
+Ideology three-way (Recoded for use with online analysis)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	2504	1.838	0.793
+1) Conservative	1023	40.9
+2) Moderate	864	34.5
+3) Liberal	617	24.6
+Missing	187
+
+

@@ -1,0 +1,2594 @@
+Data File: RELPUB08 (Full Data Codebook)
+
+1) RESP
+Respondent ID
+RANGE: 1 to 52167
+	N	Mean	Std. Deviation
+Total	2905	12670.926	20754.956
+
+
+2) STYPE
+Sample type
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2905	1.224	0.417
+1) Landline	2254	77.6
+2) Cell phone	651	22.4
+
+
+3) CATTMPT
+Current number of attempts at calling
+RANGE: 1 to 21
+	N	Mean	Std. Deviation
+Total	2905	3.842	3.226
+1) 	801	27.6
+2) 	526	18.1
+3) 	394	13.6
+4) 	281	9.7
+5) 	230	7.9
+6) 	159	5.5
+7) 	137	4.7
+8) 	103	3.5
+9) 	86	3.0
+10) 	45	1.5
+11) 	49	1.7
+12) 	26	0.9
+13) 	18	0.6
+14) 	13	0.4
+15) 	11	0.4
+16) 	8	0.3
+17) 	5	0.2
+18) 	7	0.2
+19) 	2	0.1
+20) 	2	0.1
+21) 	2	0.1
+
+
+4) AREA
+Respondent's area code
+RANGE: 201 to 989
+	N	Mean	Std. Deviation
+Total	2905	586.662	233.502
+
+
+5) TIMEZONE
+Respondent's time zone
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	2905	1.885	1.097
+1) Eastern	1439	49.5
+2) Central	854	29.4
+3) Mountain	119	4.1
+4) Pacific	493	17.0
+
+
+6) QFIPS
+5-digit FIPS code for area (See Note 2: FIPS Codes on the ARDA Summary Page for explanation of coding)
+RANGE: 1001 to 56037
+	N	Mean	Std. Deviation
+Total	2905	28639.948	15903.782
+
+
+7) QMSA
+Metropolitan Statistical Area code (See Note 3: MSA Codes on the ARDA Summary Page for explanation of coding)
+RANGE: 0 to 49740
+	N	Mean	Std. Deviation
+Total	2905	24234.843	15851.224
+
+
+8) QCENDIV
+Census division
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	5.084	2.442
+1) New England	146	5.0
+2) Middle Atlantic	361	12.4
+3) East North Central	439	15.1
+4) West North Central	261	9.0
+5) South Atlantic	579	19.9
+6) East South Central	197	6.8
+7) West South Central	317	10.9
+8) Mountain	202	7.0
+9) Pacific	403	13.9
+
+
+9) QPHTYPE
+Phone type
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2254	0.663	0.473
+0) Unlisted	759	33.7
+1) Listed	1495	66.3
+Missing	651
+
+
+10) QUSRCD
+Urban, suburban, rural census division
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	2254	1.937	0.706
+1) Urban	637	28.3
+2) Suburban	1123	49.8
+3) Rural	494	21.9
+Missing	651
+
+
+11) CREGION
+Census region
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	2905	2.618	1.001
+1) Northeast	507	17.5
+2) Midwest	700	24.1
+3) South	1093	37.6
+4) West	605	20.8
+
+
+12) QDENSITY
+Population density
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2905	2.8	1.366
+1) Lowest population density	663	22.8
+2) 	640	22.0
+3) 	647	22.3
+4) 	526	18.1
+5) Highest population density	429	14.8
+
+
+13) FORM
+Form ID
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2905	1.504	0.5
+1) Form 1	1440	49.6
+2) Form 2	1465	50.4
+
+
+14) QVERS
+Sample Type
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2905	1.224	0.417
+1) Landline	2254	77.6
+2) Cell phone	651	22.4
+
+
+15) SEX
+Respondent's sex
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2905	1.498	0.5
+1) Male	1459	50.2
+2) Female	1446	49.8
+
+
+16) RESP18
+If STYPE = 2: Is the respondent at least 18 years old? (S1)
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	651	1	0
+1) Yes	651	100.0
+Missing	2254
+
+
+17) TALKNOW
+If STYPE = 2: Is now a good time to talk? (S2)
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	651	1	0
+1) Yes	651	100.0
+Missing	2254
+
+
+18) SATCNTRY
+All in all, are you satisfied or dissatisfied with the way things are going in this country today? (Q1)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	2.172	1.669
+1) Satisfied	585	20.1
+2) Dissatisfied	2165	74.5
+9) Don't know/Refused	155	5.3
+
+
+19) THOUGHT
+How much thought have you given to the coming presidential election? Quite a lot or only a little?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.6	1.162
+1) Quite a lot	2092	72.0
+2) Some	148	5.1
+3) Little	541	18.6
+4) None	96	3.3
+9) Don't know/Refused	28	1.0
+
+
+20) REGIST
+Are you NOW registered to vote in your precinct or election district or haven't you been able to register so far?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.172	0.562
+1) Yes, registered	2467	84.9
+2) No, not registered	429	14.8
+9) Don't know/Refused	9	0.3
+
+
+21) REGICERT
+If YES to REGIST: Are you absolutely certain you are registered to vote, or is there a chance your registration lapsed?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2467	1.05	0.524
+1) Absolutely certain	2414	97.9
+2) Chance registration lapsed	43	1.7
+9) Don't know/Refused	10	0.4
+Missing	438
+
+
+22) PRECINCT
+If YES to REGIST: Have you ever voted in your precinct or election district?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2414	1.096	0.331
+1) Yes	2190	90.7
+2) No	223	9.2
+9) Don't know/Refused	1	0.0
+Missing	491
+
+
+23) OFTVOTE
+If YES to REGIST: How often would you say you vote?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2414	1.631	0.984
+1) Always	1422	58.9
+2) Nearly always	678	28.1
+3) Part of the time	185	7.7
+4) Seldom	73	3.0
+5) Never vote	33	1.4
+6) Other response	20	0.8
+9) Don't know/Refused	3	0.1
+Missing	491
+
+
+24) RNDMVOTE
+Candidates' name read first on VOTE08 and LEAN08 (Q5CHO)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2414	1.507	0.5
+1) John McCain's name read first	1190	49.3
+2) Barack Obama's name read first	1224	50.7
+Missing	491
+
+
+25) VOTE08
+Suppose the 2008 presidential election was being held today. If you had to choose between [John McCain or Barack Obama (rotated)], who would you vote for? (See RNDMVOTE for order of candidates' names as read.) (Q5)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2414	2.665	2.69
+1) John McCain, the Republican	983	40.7
+2) Barack Obama, the Democrat	978	40.5
+3) Other candidate	97	4.0
+9) Don't know/Refused	356	14.7
+Missing	491
+
+
+26) LEAN08
+If VOTE08 = 3 or 9: As of today, do you LEAN more to [McCain, the Republican, or Obama, the Democrat]? (See RNDMVOTE for order of candidates' names as read.) (Q5A)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	453	4.901	3.645
+1) John McCain, the Republican	114	25.2
+2) Barack Obama, the Democrat	93	20.5
+3) Other candidate	49	10.8
+9) Don't know/Refused	197	43.5
+Missing	2452
+
+
+27) HORSE
+Horserace [VOTE08 and LEAN08 responses combined] (See Note 4: HORSE Codes on the ARDA Summary Page for explanation of coding) (Q5HORSE)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2414	2.137	2.111
+1) John McCain/Lean McCain	1097	45.4
+2) Barack Obama/Lean Obama	1071	44.4
+3) Other candidate	49	2.0
+9) Don't know/Refused to lean	197	8.2
+Missing	491
+
+
+28) SUPPRT
+If VOTE08 = MCCAIN or OBAMA: Do you support your presidential candidate strongly or only moderately? (Q5B)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1961	1.539	0.952
+1) Strongly	1065	54.3
+2) Only moderately	873	44.5
+9) Don't know/Refused	23	1.2
+Missing	944
+
+
+29) FORMCAIN
+If VOTE08 = MCCAIN: Would you say that your choice more a vote FOR John McCain or more a vote AGAINST Barack Obama? (Q6A)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1097	1.843	1.913
+1) For McCain	655	59.7
+2) Against Obama	373	34.0
+9) Don't know/Refused	69	6.3
+Missing	1808
+
+
+30) FOROBMA
+If VOTE08 = OBAMA: Is your choice more a vote FOR Barack Obama or more a vote AGAINST John McCain? (Q6B)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1072	1.54	1.478
+1) For Obama	752	70.1
+2) Against McCain	283	26.4
+9) Don't know/Refused	37	3.5
+Missing	1833
+
+
+31) RNDMCHNC
+Which question was asked first, CHNCMCCN or CHNCOBMA? (FX78)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2414	1.505	0.5
+1) CHNCMCCN	1194	49.5
+2) CHNCOBMA	1220	50.5
+Missing	491
+
+
+32) CHNCMCCN
+If R did not choose MCCAIN on VOTE08 or LEAN08: Do you think there is a chance you might vote for John McCain in November, or have you definitely decided not to vote for him? (Q7)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1318	2.457	2.215
+1) Chance might vote for him	315	23.9
+2) Decided not to vote for him	872	66.2
+9) Don't know/Refused	131	9.9
+Missing	1587
+
+
+33) CHNCOBMA
+If R did not choose OBAMA on VOTE08 or LEAN08: Do you think there is a chance you might vote for Barack Obama in November, or have you definitely decided not to vote for him? (Q8)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1343	2.448	2.176
+1) Chance might vote for him	301	22.4
+2) Decided not to vote for him	913	68.0
+9) Don't know/Refused	129	9.6
+Missing	1562
+
+
+34) SWING08
+Vote preference in 2008 (See Note 5: SWING08 Codes on the ARDA Summary Page for explanation of coding) (SWING)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2414	2.301	1.314
+1) McCain - No chance Obama	822	34.1
+2) Obama - No chance McCain	803	33.3
+3) McCain - Lean McCain, chance Obama	275	11.4
+4) Obama - Lean Obama, chance McCain	268	11.1
+5) Undecided	246	10.2
+Missing	491
+
+
+35) PLANTO1
+If REGICERT = 1: Do you plan to vote in the election this November?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2414	1.099	0.818
+1) Yes	2349	97.3
+2) No	40	1.7
+9) Don't know/Refused	25	1.0
+Missing	491
+
+
+36) SCALE10
+If REGICERT = 1: I'd like you to rate your chance of voting in November on a scale of 10 to 1. If 10 represents a person who definitely will vote and 1 represents a person who will definitely NOT vote, where on this scale of 10 to 1 would you place yourself?
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	2414	9.487	1.549
+1) Definitely will not vote	39	1.6
+2) 	5	0.2
+3) 	8	0.3
+4) 	5	0.2
+5) 	47	1.9
+6) 	17	0.7
+7) 	35	1.4
+8) 	118	4.9
+9) 	130	5.4
+10) Definitely will vote	1998	82.8
+11) Don't know	12	0.5
+Missing	491
+
+
+37) DEMS08
+If REGICERT = 1: Thinking back to the Democratic nomination contest, who did you prefer more -- Barack Obama or Hillary Clinton? (Q9)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2414	2.241	1.711
+1) Barack Obama	941	39.0
+2) Hillary Clinton	926	38.4
+3) Other	36	1.5
+4) Neither/None	418	17.3
+9) Don't know/Refused	93	3.9
+Missing	491
+
+
+38) REPS08
+If REGICERT = 1: Thinking back to the Republican nomination contest, who did you prefer more -- John McCain or one of the other candidates who ran? (Q10)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2414	2.26	1.844
+1) John McCain	825	34.2
+2) Preferred another candidate	1007	41.7
+3) Neither/None	437	18.1
+9) Don't know/Refused	145	6.0
+Missing	491
+
+
+39) RNDMLITR
+Which questions were asked first, (LIKEMCCN and TRBLMCCN) or (LIKEOBMA and TRBLOBMA)? (FX1618)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2414	1.488	0.5
+1) LIKEMCCN and TRBLMCCN	1236	51.2
+2) LIKEOBMA and TRBLOBMA	1178	48.8
+Missing	491
+
+
+40) LIKEMCCN
+If REGICERT = 1: Which of the following, if any, do you like most about John McCain? Is it . . . (Q16)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2414	3.924	1.721
+1) His positions on moral and social issues	197	8.2
+2) His positions on economic issues	206	8.5
+3) His positions on foreign policy issues	391	16.2
+4) His personal abilities and experiences	1001	41.5
+5) None	471	19.5
+9) Don't know/Refused	148	6.1
+Missing	491
+
+
+41) TRBLMCCN
+If REGICERT = 1: And which of the following, if any, troubles you most about John McCain? Is it . . . (Q17)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2414	3.498	2.214
+1) His positions on moral and social issues	327	13.5
+2) His positions on economic issues	636	26.3
+3) His positions on foreign policy issues	577	23.9
+4) His personal abilities and experiences	209	8.7
+5) None	427	17.7
+9) Don't know/Refused	238	9.9
+Missing	491
+
+
+42) LIKEOBMA
+If REGICERT = 1: Which of the following, if any, do you like most about Barack Obama? Is it . . . (Q18)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2414	3.704	2.178
+1) His positions on moral and social issues	395	16.4
+2) His positions on economic issues	531	22.0
+3) His positions on foreign policy issues	213	8.8
+4) His personal abilities and experiences	334	13.8
+5) None	740	30.7
+9) Don't know/Refused	201	8.3
+Missing	491
+
+
+43) TRBLOBMA
+If REGICERT = 1: And which of the following, if any, troubles you most about Barack Obama? Is it . . . (Q19)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2414	3.833	1.955
+1) His positions on moral and social issues	247	10.2
+2) His positions on economic issues	308	12.8
+3) His positions on foreign policy issues	441	18.3
+4) His personal abilities and experiences	823	34.1
+5) None	395	16.4
+9) Don't know/Refused	200	8.3
+Missing	491
+
+
+44) RDMLITR1
+Candidate's position category read first on LIKEMCCN, TRBLMCCN, LIKEOBMA, and TRBLOBMA (XRQ16_1)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	2414	1.998	0.814
+1) His positions on moral and social issues	801	33.2
+2) His positions on economic issues	816	33.8
+3) His positions on foreign policy issues	797	33.0
+Missing	491
+
+
+45) RDMLITR2
+Candidate's position category read second on LIKEMCCN, TRBLMCCN, LIKEOBMA, and TRBLOBMA (XRQ16_2)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	2414	1.974	0.811
+1) His positions on moral and social issues	826	34.2
+2) His positions on economic issues	825	34.2
+3) His positions on foreign policy issues	763	31.6
+Missing	491
+
+
+46) RDMLITR3
+Candidate's position category read third on LIKEMCCN, TRBLMCCN, LIKEOBMA, and TRBLOBMA (XRQ16_3)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	2414	2.028	0.824
+1) His positions on moral and social issues	787	32.6
+2) His positions on economic issues	773	32.0
+3) His positions on foreign policy issues	854	35.4
+Missing	491
+
+
+47) RNDMCHAR
+Candidate's name read first on JGCRISIS through TKSTAND (Q21CHO)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2905	1.496	0.5
+1) John McCain	1463	50.4
+2) Barack Obama	1442	49.6
+
+
+48) RDMCHAR1
+Of the following questions, which question was read first? (XRQ21_1)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	4.75	2.562
+1) JGCRISIS (Form 1)	343	11.8
+2) TYPPOL (Form 1)	375	12.9
+3) GETDONE (Form 1)	371	12.8
+4) SHVALUE (Form 1)	351	12.1
+5) NEWIDEA (Form 2)	311	10.7
+6) QUALPRES (Form 2)	293	10.1
+7) HONTRUTH (Form 2)	298	10.3
+8) CONCTAMS (Form 2)	278	9.6
+9) TKSTAND (Form 2)	285	9.8
+
+
+49) RDMCHAR2
+Of the following questions, which question was read second? (XRQ21_2)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	4.773	2.617
+1) JGCRISIS (Form 1)	364	12.5
+2) TYPPOL (Form 1)	390	13.4
+3) GETDONE (Form 1)	338	11.6
+4) SHVALUE (Form 1)	348	12.0
+5) NEWIDEA (Form 2)	278	9.6
+6) QUALPRES (Form 2)	289	9.9
+7) HONTRUTH (Form 2)	288	9.9
+8) CONCTAMS (Form 2)	314	10.8
+9) TKSTAND (Form 2)	296	10.2
+
+
+50) RDMCHAR3
+Of the following questions, which question was read third? (XRQ21_3)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	4.787	2.598
+1) JGCRISIS (Form 1)	366	12.6
+2) TYPPOL (Form 1)	341	11.7
+3) GETDONE (Form 1)	362	12.5
+4) SHVALUE (Form 1)	371	12.8
+5) NEWIDEA (Form 2)	300	10.3
+6) QUALPRES (Form 2)	279	9.6
+7) HONTRUTH (Form 2)	281	9.7
+8) CONCTAMS (Form 2)	299	10.3
+9) TKSTAND (Form 2)	306	10.5
+
+
+51) RDMCHAR4
+Of the following questions, which question was read fourth? (XRQ21_4)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	4.779	2.583
+1) JGCRISIS (Form 1)	367	12.6
+2) TYPPOL (Form 1)	334	11.5
+3) GETDONE (Form 1)	369	12.7
+4) SHVALUE (Form 1)	370	12.7
+5) NEWIDEA (Form 2)	284	9.8
+6) QUALPRES (Form 2)	299	10.3
+7) HONTRUTH (Form 2)	309	10.6
+8) CONCTAMS (Form 2)	272	9.4
+9) TKSTAND (Form 2)	301	10.4
+
+
+52) RDMCHAR5
+Of the following questions, which question was read fifth? (XRQ21_5)
+RANGE: 5 to 9
+	N	Mean	Std. Deviation
+Total	1465	6.977	1.403
+5) NEWIDEA (Form 2)	292	19.9
+6) QUALPRES (Form 2)	305	20.8
+7) HONTRUTH (Form 2)	289	19.7
+8) CONCTAMS (Form 2)	302	20.6
+9) TKSTAND (Form 2)	277	18.9
+Missing	1440
+
+
+53) JGCRISIS
+Tell me if you think this phrase better describes John McCain or Barack Obama: Would use good judgment in a crisis  (Question asked on Form 1 only; names of candidates rotated as per RNDMCHAR) (Q21AF1)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1440	2.059	1.921
+1) John McCain	728	50.6
+2) Barack Obama	496	34.4
+3) Neither	49	3.4
+4) Both equally	81	5.6
+9) Don't know/Refused	86	6.0
+Missing	1465
+
+
+54) TYPPOL
+Tell me if you think this phrase better describes John McCain or Barack Obama: A typical politician (Question asked on Form 1 only; names of candidates rotated as per RNDMCHAR) (Q21CF1)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1440	2.137	1.784
+1) John McCain	667	46.3
+2) Barack Obama	471	32.7
+3) Neither	65	4.5
+4) Both equally	172	11.9
+9) Don't know/Refused	65	4.5
+Missing	1465
+
+
+55) GETDONE
+Tell me if you think this phrase better describes John McCain or Barack Obama: Can get things done (Question asked on Form 1 only; names of candidates rotated as per RNDMCHAR) (Q21DF1)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1440	2.255	2.014
+1) John McCain	594	41.3
+2) Barack Obama	558	38.8
+3) Neither	120	8.3
+4) Both equally	67	4.7
+9) Don't know/Refused	101	7.0
+Missing	1465
+
+
+56) SHVALUE
+Tell me if you think this phrase better describes John McCain or Barack Obama: Shares my values (Question asked on Form 1 only; names of candidates rotated as per RNDMCHAR) (Q21EF1)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1440	2.107	1.787
+1) John McCain	571	39.7
+2) Barack Obama	648	45.0
+3) Neither	102	7.1
+4) Both equally	42	2.9
+9) Don't know/Refused	77	5.3
+Missing	1465
+
+
+57) NEWIDEA
+Tell me if you think this phrase better describes John McCain or Barack Obama: Has new ideas (Question asked on Form 2 only; names of candidates rotated as per RNDMCHAR) (Q21FF2)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1465	2.337	1.666
+1) John McCain	234	16.0
+2) Barack Obama	997	68.1
+3) Neither	121	8.3
+4) Both equally	37	2.5
+9) Don't know/Refused	76	5.2
+Missing	1440
+
+
+58) QUALPRES
+Tell me if you think this phrase better describes John McCain or Barack Obama: Personally qualified to be president (Question asked on Form 2 only; names of candidates rotated as per RNDMCHAR) (Q21GF3)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1465	2.02	1.777
+1) John McCain	771	52.6
+2) Barack Obama	413	28.2
+3) Neither	96	6.6
+4) Both equally	118	8.1
+9) Don't know/Refused	67	4.6
+Missing	1440
+
+
+59) HONTRUTH
+Tell me if you think this phrase better describes John McCain or Barack Obama: Honest and truthful (Question asked on Form 2 only; names of candidates rotated as per RNDMCHAR) (Q21HF4)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1465	2.334	1.937
+1) John McCain	570	38.9
+2) Barack Obama	514	35.1
+3) Neither	147	10.0
+4) Both equally	145	9.9
+9) Don't know/Refused	89	6.1
+Missing	1440
+
+
+60) CONCTAMS
+Tell me if you think this phrase better describes John McCain or Barack Obama: Connects well with ordinary Americans (Question asked on Form 2 only; names of candidates rotated as per RNDMCHAR) (Q21IF5)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1465	2.195	1.743
+1) John McCain	442	30.2
+2) Barack Obama	822	56.1
+3) Neither	55	3.8
+4) Both equally	70	4.8
+9) Don't know/Refused	76	5.2
+Missing	1440
+
+
+61) TKSTAND
+Tell me if you think this phrase better describes John McCain or Barack Obama: Willing to take a stand, even if it's unpopular (Question asked on Form 2 only; names of candidates rotated as per RNDMCHAR) (Q21JF6)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1465	2.038	1.815
+1) John McCain	704	48.1
+2) Barack Obama	541	36.9
+3) Neither	60	4.1
+4) Both equally	84	5.7
+9) Don't know/Refused	76	5.2
+Missing	1440
+
+
+62) RDMISS1
+Of the following questions, which question was read first? (XRQ22_1)
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	2905	6.437	3.519
+1) ECON	272	9.4
+2) IRAQ	254	8.7
+3) TERRISM	240	8.3
+4) GAYMARR	256	8.8
+5) MORVAL	214	7.4
+6) ABRTN	236	8.1
+7) ENERGY	221	7.6
+8) HLTHCARE	239	8.2
+9) EDUCTION	250	8.6
+10) ENVIRO	232	8.0
+11) IMMGTN	232	8.0
+12) TRADEPOL	259	8.9
+
+
+63) RDMISS2
+Of the following questions, which question was read second? (XRQ22_2)
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	2905	6.583	3.46
+1) ECON	242	8.3
+2) IRAQ	229	7.9
+3) TERRISM	238	8.2
+4) GAYMARR	237	8.2
+5) MORVAL	223	7.7
+6) ABRTN	247	8.5
+7) ENERGY	247	8.5
+8) HLTHCARE	239	8.2
+9) EDUCTION	259	8.9
+10) ENVIRO	249	8.6
+11) IMMGTN	237	8.2
+12) TRADEPOL	258	8.9
+
+
+64) RDMISS3
+Of the following questions, which question was read third? (XRQ22_3)
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	2905	6.509	3.405
+1) ECON	217	7.5
+2) IRAQ	249	8.6
+3) TERRISM	232	8.0
+4) GAYMARR	250	8.6
+5) MORVAL	255	8.8
+6) ABRTN	258	8.9
+7) ENERGY	255	8.8
+8) HLTHCARE	237	8.2
+9) EDUCTION	240	8.3
+10) ENVIRO	242	8.3
+11) IMMGTN	226	7.8
+12) TRADEPOL	244	8.4
+
+
+65) RDMISS4
+Of the following questions, which question was read fourth? (XRQ22_4)
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	2905	6.505	3.416
+1) ECON	238	8.2
+2) IRAQ	230	7.9
+3) TERRISM	233	8.0
+4) GAYMARR	244	8.4
+5) MORVAL	258	8.9
+6) ABRTN	256	8.8
+7) ENERGY	247	8.5
+8) HLTHCARE	243	8.4
+9) EDUCTION	247	8.5
+10) ENVIRO	232	8.0
+11) IMMGTN	241	8.3
+12) TRADEPOL	236	8.1
+
+
+66) RDMISS5
+Of the following questions, which question was read fifth? (XRQ22_5)
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	2905	6.528	3.459
+1) ECON	232	8.0
+2) IRAQ	243	8.4
+3) TERRISM	254	8.7
+4) GAYMARR	239	8.2
+5) MORVAL	252	8.7
+6) ABRTN	230	7.9
+7) ENERGY	219	7.5
+8) HLTHCARE	244	8.4
+9) EDUCTION	242	8.3
+10) ENVIRO	269	9.3
+11) IMMGTN	238	8.2
+12) TRADEPOL	243	8.4
+
+
+67) RDMISS6
+Of the following questions, which question was read sixth? (XRQ22_6)
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	2905	6.498	3.423
+1) ECON	226	7.8
+2) IRAQ	257	8.8
+3) TERRISM	239	8.2
+4) GAYMARR	245	8.4
+5) MORVAL	239	8.2
+6) ABRTN	245	8.4
+7) ENERGY	247	8.5
+8) HLTHCARE	233	8.0
+9) EDUCTION	237	8.2
+10) ENVIRO	265	9.1
+11) IMMGTN	266	9.2
+12) TRADEPOL	206	7.1
+
+
+68) RDMISS7
+Of the following questions, which question was read seventh? (XRQ22_7)
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	2905	6.501	3.47
+1) ECON	260	9.0
+2) IRAQ	224	7.7
+3) TERRISM	261	9.0
+4) GAYMARR	219	7.5
+5) MORVAL	248	8.5
+6) ABRTN	238	8.2
+7) ENERGY	235	8.1
+8) HLTHCARE	223	7.7
+9) EDUCTION	268	9.2
+10) ENVIRO	244	8.4
+11) IMMGTN	251	8.6
+12) TRADEPOL	234	8.1
+
+
+69) RDMISS8
+Of the following questions, which question was read eighth? (XRQ22_8)
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	2905	6.531	3.474
+1) ECON	258	8.9
+2) IRAQ	232	8.0
+3) TERRISM	225	7.7
+4) GAYMARR	241	8.3
+5) MORVAL	240	8.3
+6) ABRTN	252	8.7
+7) ENERGY	228	7.8
+8) HLTHCARE	248	8.5
+9) EDUCTION	242	8.3
+10) ENVIRO	233	8.0
+11) IMMGTN	260	9.0
+12) TRADEPOL	246	8.5
+
+
+70) RDMISS9
+Of the following questions, which question was read ninth? (XRQ22_9)
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	2905	6.46	3.417
+1) ECON	244	8.4
+2) IRAQ	228	7.8
+3) TERRISM	242	8.3
+4) GAYMARR	235	8.1
+5) MORVAL	283	9.7
+6) ABRTN	243	8.4
+7) ENERGY	251	8.6
+8) HLTHCARE	252	8.7
+9) EDUCTION	223	7.7
+10) ENVIRO	232	8.0
+11) IMMGTN	237	8.2
+12) TRADEPOL	235	8.1
+
+
+71) RDMISS10
+Of the following questions, which question was read tenth? (XRQ22_10)
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	2905	6.514	3.455
+1) ECON	230	7.9
+2) IRAQ	257	8.8
+3) TERRISM	241	8.3
+4) GAYMARR	256	8.8
+5) MORVAL	217	7.5
+6) ABRTN	221	7.6
+7) ENERGY	268	9.2
+8) HLTHCARE	253	8.7
+9) EDUCTION	244	8.4
+10) ENVIRO	227	7.8
+11) IMMGTN	238	8.2
+12) TRADEPOL	253	8.7
+
+
+72) RDMISS11
+Of the following questions, which question was read eleventh? (XRQ22_11)
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	2905	6.565	3.472
+1) ECON	226	7.8
+2) IRAQ	244	8.4
+3) TERRISM	258	8.9
+4) GAYMARR	231	8.0
+5) MORVAL	238	8.2
+6) ABRTN	233	8.0
+7) ENERGY	254	8.7
+8) HLTHCARE	227	7.8
+9) EDUCTION	234	8.1
+10) ENVIRO	249	8.6
+11) IMMGTN	250	8.6
+12) TRADEPOL	261	9.0
+
+
+73) RDMISS12
+Of the following questions, which question was read twelfth? (XRQ22_12)
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	2905	6.369	3.453
+1) ECON	260	9.0
+2) IRAQ	258	8.9
+3) TERRISM	242	8.3
+4) GAYMARR	252	8.7
+5) MORVAL	238	8.2
+6) ABRTN	246	8.5
+7) ENERGY	233	8.0
+8) HLTHCARE	267	9.2
+9) EDUCTION	219	7.5
+10) ENVIRO	231	8.0
+11) IMMGTN	229	7.9
+12) TRADEPOL	230	7.9
+
+
+74) ECON
+In making your decision about who to vote for this fall, will the issue of the economy be very important, somewhat important, not too important, or not at all important? (Q22A)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.18	0.655
+1) Very important	2525	86.9
+2) Somewhat important	323	11.1
+3) Not too important	31	1.1
+4) Not at all important	14	0.5
+9) Don't know/Refused	12	0.4
+
+
+75) IRAQ
+In making your decision about who to vote for this fall, will the issue of Iraq be very important, somewhat important, not too important, or not at all important? (Q22B)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.48	1.11
+1) Very important	2033	70.0
+2) Somewhat important	653	22.5
+3) Not too important	115	4.0
+4) Not at all important	64	2.2
+9) Don't know/Refused	40	1.4
+
+
+76) TERRISM
+In making your decision about who to vote for this fall, will the issue of terrorism be very important, somewhat important, not too important, or not at all important? (Q22C)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.466	1.006
+1) Very important	2034	70.0
+2) Somewhat important	620	21.3
+3) Not too important	148	5.1
+4) Not at all important	77	2.7
+9) Don't know/Refused	26	0.9
+
+
+77) GAYMARR
+In making your decision about who to vote for this fall, will the issue of gay marriage be very important, somewhat important, not too important, or not at all important? (Q22D)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	2.761	1.571
+1) Very important	766	26.4
+2) Somewhat important	574	19.8
+3) Not too important	532	18.3
+4) Not at all important	957	32.9
+9) Don't know/Refused	76	2.6
+
+
+78) MORVAL
+In making your decision about who to vote for this fall, will the issue of moral values be very important, somewhat important, not too important, or not at all important? (Q22E)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.6	1.083
+1) Very important	1789	61.6
+2) Somewhat important	783	27.0
+3) Not too important	185	6.4
+4) Not at all important	119	4.1
+9) Don't know/Refused	29	1.0
+
+
+79) ABRTN
+In making your decision about who to vote for this fall, will the issue of abortion be very important, somewhat important, not too important, or not at all important? (Q22F)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	2.302	1.571
+1) Very important	1117	38.5
+2) Somewhat important	756	26.0
+3) Not too important	471	16.2
+4) Not at all important	481	16.6
+9) Don't know/Refused	80	2.8
+
+
+80) ENERGY
+In making your decision about who to vote for this fall, will the issue of energy be very important, somewhat important, not too important, or not at all important? (Q22G)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.318	0.847
+1) Very important	2243	77.2
+2) Somewhat important	550	18.9
+3) Not too important	67	2.3
+4) Not at all important	24	0.8
+9) Don't know/Refused	21	0.7
+
+
+81) HLTHCARE
+In making your decision about who to vote for this fall, will the issue of health care be very important, somewhat important, not too important, or not at all important? (Q22H)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.385	0.798
+1) Very important	2091	72.0
+2) Somewhat important	621	21.4
+3) Not too important	137	4.7
+4) Not at all important	45	1.5
+9) Don't know/Refused	11	0.4
+
+
+82) EDUCTION
+In making your decision about who to vote for this fall, will the issue of education be very important, somewhat important, not too important, or not at all important? (Q22I)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.394	0.851
+1) Very important	2084	71.7
+2) Somewhat important	635	21.9
+3) Not too important	127	4.4
+4) Not at all important	43	1.5
+9) Don't know/Refused	16	0.6
+
+
+83) ENVIRO
+In making your decision about who to vote for this fall, will the issue of the environment be very important, somewhat important, not too important, or not at all important? (Q22J)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.61	1.009
+1) Very important	1678	57.8
+2) Somewhat important	911	31.4
+3) Not too important	208	7.2
+4) Not at all important	84	2.9
+9) Don't know/Refused	24	0.8
+
+
+84) IMMGTN
+In making your decision about who to vote for this fall, will the issue of immigration be very important, somewhat important, not too important, or not at all important? (Q22L)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.749	1.155
+1) Very important	1511	52.0
+2) Somewhat important	952	32.8
+3) Not too important	281	9.7
+4) Not at all important	125	4.3
+9) Don't know/Refused	36	1.2
+
+
+85) TRADEPOL
+In making your decision about who to vote for this fall, will the issue of trade policy be very important, somewhat important, not too important, or not at all important? (Q22M)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.872	1.51
+1) Very important	1417	48.8
+2) Somewhat important	1091	37.6
+3) Not too important	234	8.1
+4) Not at all important	66	2.3
+9) Don't know/Refused	97	3.3
+
+
+86) APPBUSH
+Do you approve or disapprove of the way George W. Bush is handling his job as president? (Question asked on Form 2 only) (Q23F2)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1465	2.074	1.704
+1) Approve	438	29.9
+2) Disapprove	949	64.8
+9) Don't know/Refused	78	5.3
+Missing	1440
+
+
+87) APPDEMS
+Do you approve or disapprove of the job the Democratic leaders in Congress are doing? (Question asked on Form 2 only) (Q24F2)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1465	2.455	2.295
+1) Approve	419	28.6
+2) Disapprove	891	60.8
+9) Don't know/Refused	155	10.6
+Missing	1440
+
+
+88) RDMHLWO1
+Which question was asked first, HLINSALL or WORSHP? (XRQ25_1)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2905	1.506	0.5
+1) HLINSALL	1435	49.4
+2) WORSHP	1470	50.6
+
+
+89) RDMHLWO2
+Which question was asked second, HLINSALL or WORSHP? (XRQ25_2)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2905	1.494	0.5
+1) HLINSALL	1470	50.6
+2) WORSHP	1435	49.4
+
+
+90) HLINSALL
+All in all, [how strongly do you favor or oppose] the U.S. government guaranteeing health insurance for all citizens, even if it means raising taxes? (Q25A)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	2.455	1.591
+1) Strongly favor	818	28.2
+2) Favor	957	32.9
+3) Oppose	615	21.2
+4) Strongly oppose	416	14.3
+9) Don't know/Refused	99	3.4
+
+
+91) WORSHP
+All in all, [how strongly do you favor or oppose] allowing churches and other houses of worship to apply, along with other organizations, for government funding to provide social services such as job training or drug treatment counseling to people who need them? (Q25B)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	2.514	1.652
+1) Strongly favor	660	22.7
+2) Favor	1172	40.3
+3) Oppose	612	21.1
+4) Strongly oppose	337	11.6
+9) Don't know/Refused	124	4.3
+
+
+92) GAYLEGL
+All in all, [how strongly do you favor or oppose] allowing gays and lesbians to marry legally? (Q25C)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	3.375	2.096
+1) Strongly favor	364	12.5
+2) Favor	744	25.6
+3) Oppose	636	21.9
+4) Strongly oppose	881	30.3
+9) Don't know/Refused	280	9.6
+
+
+93) GAYRTS
+All in all, [how strongly do you favor or oppose] allowing gay and lesbian couples to enter into legal agreements with each other that would give them many of the same rights as married couples? (Q25D)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	2.858	1.906
+1) Strongly favor	539	18.6
+2) Favor	1057	36.4
+3) Oppose	531	18.3
+4) Strongly oppose	589	20.3
+9) Don't know/Refused	189	6.5
+
+
+94) GAYADPT
+All in all, [how strongly do you favor or oppose] allowing gays and lesbians to adopt children? (Q25E)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	3.026	1.891
+1) Strongly favor	446	15.4
+2) Favor	908	31.3
+3) Oppose	645	22.2
+4) Strongly oppose	712	24.5
+9) Don't know/Refused	194	6.7
+
+
+95) RDMABORT
+On the question ABORTION, were the choices read down from 'legal in all cases' or up from 'illegal in all cases'? (Q26CHO)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2905	1.494	0.5
+1) 'Legal in all cases' read first	1471	50.6
+2) 'Illegal in all cases' read first	1434	49.4
+
+
+96) ABORTION
+Do you think abortion should be . . . ? (Choices read in reverse order for half of the sample, as per RDMABORT) (Q26)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	2.707	1.694
+1) Legal in all cases	486	16.7
+2) Legal in most cases	1116	38.4
+3) Illegal in most cases	781	26.9
+4) Illegal in all cases	379	13.0
+9) Don't know/Refused	143	4.9
+
+
+97) RNDMFAV1
+Which question was read first, DEMFAV or REPFAV? (XRQ28_1)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2905	1.508	0.5
+1) DEMFAV	1430	49.2
+2) REPFAV	1475	50.8
+
+
+98) RNDMFAV2
+Which question was read second, DEMFAV or REPFAV? (XRQ28_2)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2905	1.492	0.5
+1) DEMFAV	1475	50.8
+2) REPFAV	1430	49.2
+
+
+99) DEMFAV
+Would you say your overall opinion of the Democratic Party is very favorable, mostly favorable, mostly unfavorable, or very unfavorable? (Q28A)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	2.777	1.585
+1) Very favorable	366	12.6
+2) Mostly favorable	1187	40.9
+3) Mostly unfavorable	762	26.2
+4) Very unfavorable	420	14.5
+5) Never heard of	9	0.3
+8) Can't rate	133	4.6
+9) Don't know/Refused	28	1.0
+
+
+100) REPFAV
+Would you say your overall opinion of the Republican Party is very favorable, mostly favorable, mostly unfavorable, or very unfavorable? (Q28B)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	2.964	1.556
+1) Very favorable	248	8.5
+2) Mostly favorable	1021	35.1
+3) Mostly unfavorable	930	32.0
+4) Very unfavorable	524	18.0
+5) Never heard of	16	0.6
+8) Can't rate	140	4.8
+9) Don't know/Refused	26	0.9
+
+
+101) SRVNEED
+In general, who do you think can do the best job of providing services to people in need? (See RNDMSRV1-RNDMSRV3 for order choices were read in) (Q30)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	2.526	1.924
+1) Religious organizations	859	29.6
+2) Non-religious, community-based organizations	905	31.2
+3) Federal and state government agencies	865	29.8
+4) None of the above	82	2.8
+9) Don't know/Refused	194	6.7
+
+
+102) RNDMSRV1
+Which choice was read first on SRVNEED? (XRQ30_1)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	2905	1.999	0.825
+1) Religious organizations	991	34.1
+2) Non-religious, community-based organizations	927	31.9
+3) Federal and state government agencies	987	34.0
+
+
+103) RNDMSRV2
+Which choice was read second on SRVNEED? (XRQ30_2)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	2905	2.011	0.81
+1) Religious organizations	938	32.3
+2) Non-religious, community-based organizations	997	34.3
+3) Federal and state government agencies	970	33.4
+
+
+104) RNDMSRV3
+Which choice was read third on SRVNEED? (XRQ30_3)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	2905	1.99	0.814
+1) Religious organizations	976	33.6
+2) Non-religious, community-based organizations	981	33.8
+3) Federal and state government agencies	948	32.6
+
+
+105) CHRHPROB
+These days, how much do you think churches, synagogues, and other houses of worship contribute to solving important social problems? (Q31)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	2.178	1.229
+1) A great deal	677	23.3
+2) Some	1527	52.6
+3) Not much	478	16.5
+4) Nothing at all	169	5.8
+9) Don't know/Refused	54	1.9
+
+
+106) RDMFUND1
+Which question was asked first, CHRHFUND or CHARFUND? (XRQ32_1)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2905	1.506	0.5
+1) CHRHFUND	1435	49.4
+2) CHARFUND	1470	50.6
+
+
+107) RDMFUND2
+Which question was asked second, CHRHFUND or CHARFUND? (XRQ32_2)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2905	1.494	0.5
+1) CHRHFUND	1470	50.6
+2) CHARFUND	1435	49.4
+
+
+108) CHRHFUND
+Would you favor or oppose individual churches, synagogues, and other houses of worship applying for government funds to provide social services to people who need them? (Q32A)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.732	1.615
+1) Favor	1653	56.9
+2) Oppose	1127	38.8
+9) Don't know/Refused	125	4.3
+
+
+109) CHARFUND
+Would you favor or oppose charitable organizations that have a religious affiliation applying for government funds to provide social services to people who need them? (Q32B)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.644	1.631
+1) Favor	1916	66.0
+2) Oppose	863	29.7
+9) Don't know/Refused	126	4.3
+
+
+110) CATHFUND
+Would you favor or oppose Catholic churches applying for government funds to provide social services to people who need them? (Q32C)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.683	1.548
+1) Favor	1713	59.0
+2) Oppose	1079	37.1
+9) Don't know/Refused	113	3.9
+
+
+111) PROTFUND
+Would you favor or oppose Protestant churches applying for government funds to provide social services to people who need them? (Q32D)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.777	1.74
+1) Favor	1685	58.0
+2) Oppose	1072	36.9
+9) Don't know/Refused	148	5.1
+
+
+112) MUSLFUND
+Would you favor or oppose Muslim mosques applying for government funds to provide social services to people who need them? (Q32E)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	2.119	1.969
+1) Favor	1111	38.2
+2) Oppose	1586	54.6
+9) Don't know/Refused	208	7.2
+
+
+113) JEWFUND
+Would you favor or oppose Jewish synagogues applying for government funds to provide social services to people who need them? (Q32F)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.851	1.824
+1) Favor	1595	54.9
+2) Oppose	1144	39.4
+9) Don't know/Refused	166	5.7
+
+
+114) MORMFUND
+Would you favor or oppose The Church of Jesus Christ of Latter-day Saints, or Mormon churches, applying for government funds to provide social services to people who need them? (Q32I)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.932	1.823
+1) Favor	1381	47.5
+2) Oppose	1355	46.6
+9) Don't know/Refused	169	5.8
+
+
+115) EVNGFUND
+Would you favor or oppose Evangelical Christian churches applying for government funds to provide social services to people who need them? (Q32J)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.907	1.891
+1) Favor	1536	52.9
+2) Oppose	1188	40.9
+9) Don't know/Refused	181	6.2
+
+
+116) GRPSFUND
+Would you favor or oppose groups that encourage religious conversion as part of the services they provide applying for government funds to provide social services to people who need them? (Q32K)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	2.171	1.861
+1) Favor	833	28.7
+2) Oppose	1882	64.8
+9) Don't know/Refused	190	6.5
+
+
+117) ORGHIRE
+If religious organizations do use government funds to provide social services, do you think they should be allowed to ONLY hire people who share their religious beliefs? (Q33)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	2.147	1.65
+1) Should be allowed	623	21.4
+2) Shouldn't be allowed to do this	2132	73.4
+9) Don't know/Refused	150	5.2
+
+
+118) RNDMVAL1
+Of the following questions, which question was read first? (XRQ34_1)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1940	2.45	1.123
+1) BUSHVAL	527	27.2
+2) CLINTVAL	469	24.2
+3) OBMAVAL	488	25.2
+4) MCCNVAL	456	23.5
+Missing	965
+
+
+119) RNDMVAL2
+Of the following questions, which question was read second? (XRQ34_2)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1940	2.498	1.118
+1) BUSHVAL	487	25.1
+2) CLINTVAL	483	24.9
+3) OBMAVAL	487	25.1
+4) MCCNVAL	483	24.9
+Missing	965
+
+
+120) RNDMVAL3
+Of the following questions, which question was read third? (XRQ34_3)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1940	2.541	1.107
+1) BUSHVAL	441	22.7
+2) CLINTVAL	514	26.5
+3) OBMAVAL	479	24.7
+4) MCCNVAL	506	26.1
+Missing	965
+
+
+121) RNDMVAL4
+Of the following questions, which question was read fourth? (XRQ34_4)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1940	2.511	1.123
+1) BUSHVAL	485	25.0
+2) CLINTVAL	474	24.4
+3) OBMAVAL	486	25.1
+4) MCCNVAL	495	25.5
+Missing	965
+
+
+122) BUSHVAL
+From what you've read and heard, would you say George W. Bush has moral values that are very conservative, conservative, moderate, liberal, or very liberal? (Question asked on Form 1 only) (Q34AAF1)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1440	2.78	2.156
+1) Very conservative	363	25.2
+2) Conservative	569	39.5
+3) Moderate	211	14.7
+4) Liberal	96	6.7
+5) Very liberal	81	5.6
+9) Don't know/Refused	120	8.3
+Missing	1465
+
+
+123) CLINTVAL
+From what you've read and heard, would you say Bill Clinton has moral values that are very conservative, conservative, moderate, liberal, or very liberal? (Question asked on Form 1 only) (Q34ABF1)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1440	4.138	1.727
+1) Very conservative	50	3.5
+2) Conservative	117	8.1
+3) Moderate	300	20.8
+4) Liberal	534	37.1
+5) Very liberal	328	22.8
+9) Don't know/Refused	111	7.7
+Missing	1465
+
+
+124) OBMAVAL
+From what you've read and heard, would you say Barack Obama has moral values that are very conservative, conservative, moderate, liberal, or very liberal? (Question asked on Form 1 only) (Q34ACF1)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1440	3.968	1.842
+1) Very conservative	65	4.5
+2) Conservative	183	12.7
+3) Moderate	336	23.3
+4) Liberal	481	33.4
+5) Very liberal	256	17.8
+9) Don't know/Refused	119	8.3
+Missing	1465
+
+
+125) MCCNVAL
+From what you've read and heard, would you say John McCain has moral values that are very conservative, conservative, moderate, liberal, or very liberal? (Question asked on Form 1 only) (Q34ADF1)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1440	2.871	1.98
+1) Very conservative	181	12.6
+2) Conservative	666	46.3
+3) Moderate	347	24.1
+4) Liberal	98	6.8
+5) Very liberal	36	2.5
+9) Don't know/Refused	112	7.8
+Missing	1465
+
+
+126) OWNVAL
+And how would you describe your own moral values? Would you say that your moral values are . . . (Question asked on Form 1 only) (Q34BF1)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1440	2.738	1.414
+1) Very conservative	227	15.8
+2) Conservative	477	33.1
+3) Moderate	410	28.5
+4) Liberal	214	14.9
+5) Very liberal	83	5.8
+9) Don't know/Refused	29	2.0
+Missing	1465
+
+
+127) RNDMPOL
+Order of answer choices on CRCHPOL as read (Q35CHO)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1440	1.51	0.5
+1) 'Should keep out' read first	706	49.0
+2) 'Should express views' read first	734	51.0
+Missing	1465
+
+
+128) CRCHPOL
+Should churches and other houses of worship (keep out of political matters), or should they (express their views on day-to-day social and political questions)? (Question asked on Form 1 only) (Answer choices rotated; see RNDMPOL) (Q35F1)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1440	1.642	1.262
+1) Should keep out	761	52.8
+2) Should express views	644	44.7
+9) Don't know/Refused	35	2.4
+Missing	1465
+
+
+129) CRCHELEC
+During political elections, should churches and other houses of worship come out in favor of one candidate over another, or shouldn't they do this? (Question asked on Form 2 only) (Q36F2)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1465	2.053	1.607
+1) Should come out in favor of candidates	405	27.6
+2) Should not come out in favor of candidates	991	67.6
+9) Don't know/Refused	69	4.7
+Missing	1440
+
+
+130) RELPOLIT
+Do you think there has been too much, too little, or the right amount of expressions of religious faith and prayer by political leaders? (Q37)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	2.458	1.935
+1) Too much	896	30.8
+2) Too little	977	33.6
+3) Right amount	833	28.7
+9) Don't know/Refused	199	6.9
+
+
+131) RNDMUNC
+Which question was asked first, UNCPOLIT or PRESREL? (FX4243)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2905	1.486	0.5
+1) UNCPOLIT	1493	51.4
+2) PRESREL	1412	48.6
+
+
+132) UNCPOLIT
+How do you feel about this statement: It makes me uncomfortable when politicians talk about how religious they are. Do you completely agree, mostly agree, mostly disagree, or completely disagree with it? (Q42)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	2.808	1.604
+1) Completely agree	494	17.0
+2) Mostly agree	848	29.2
+3) Mostly disagree	865	29.8
+4) Completely disagree	582	20.0
+9) Don't know/Refused	116	4.0
+
+
+133) PRESREL
+How do you feel about this statement: It's important to me that a president have strong religious beliefs. Do you completely agree, mostly agree, mostly disagree, or completely disagree with it? (Q43)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	2.242	1.488
+1) Completely agree	907	31.2
+2) Mostly agree	1186	40.8
+3) Mostly disagree	430	14.8
+4) Completely disagree	299	10.3
+9) Don't know/Refused	83	2.9
+
+
+134) RDMPRTY1
+Which question was asked first, DEMSREL or REPSREL? (XRQ44_1)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2905	1.504	0.5
+1) DEMSREL	1442	49.6
+2) REPSREL	1463	50.4
+
+
+135) RDMPRTY2
+Which question was read second, DEMSREL or REPSREL? (XRQ44_2)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2905	1.496	0.5
+1) DEMSREL	1463	50.4
+2) REPSREL	1442	49.6
+
+
+136) DEMSREL
+Do you feel that the Democratic Party is generally friendly toward religion, neutral toward religion, or unfriendly toward religion? (Q44A)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	2.411	2.182
+1) Friendly	1101	37.9
+2) Neutral	1069	36.8
+3) Unfriendly	475	16.4
+9) Don't know/Refused	260	9.0
+
+
+137) REPSREL
+Do you feel that the Republican Party is generally friendly toward religion, neutral toward religion, or unfriendly toward religion? (Q44B)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	2.126	2.243
+1) Friendly	1663	57.2
+2) Neutral	780	26.9
+3) Unfriendly	201	6.9
+9) Don't know/Refused	261	9.0
+
+
+138) RDMCTRL1
+Which question was asked first, CNTRLREP or CNTRLDEM? (XRQ45_1)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2905	1.497	0.5
+1) CNTRLREP	1461	50.3
+2) CNTRLDEM	1444	49.7
+
+
+139) RDMCTRL2
+Which question was asked second, CNTRLREP or CNTRLDEM? (XRQ45_2)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2905	1.503	0.5
+1) CNTRLREP	1444	49.7
+2) CNTRLDEM	1461	50.3
+
+
+140) CNTRLREP
+[Consider the following statement:]  Religious conservatives have too much control over the Republican Party. Do you completely agree, mostly agree, mostly disagree, or completely disagree with this statement? (Q45A)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	3.012	2.145
+1) Completely agree	521	17.9
+2) Mostly agree	903	31.1
+3) Mostly disagree	900	31.0
+4) Completely disagree	301	10.4
+9) Don't know/Refused	280	9.6
+
+
+141) CNTRLDEM
+[Consider the following statement:]  Liberals who are not religious have too much control over the Democratic Party.  Do you completely agree, mostly agree, mostly disagree, or completely disagree with this statement?  (Q45B)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	3.245	2.287
+1) Completely agree	443	15.2
+2) Mostly agree	823	28.3
+3) Mostly disagree	942	32.4
+4) Completely disagree	352	12.1
+9) Don't know/Refused	345	11.9
+
+
+142) RELIG
+What is your present religion, if any?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2905	6.743	16.539
+1) Protestant (See Note 6 on ARDA Summary Page for description)	1344	46.3
+2) Roman Catholic (Catholic)	679	23.4
+3) Mormon (Church of Jesus Christ of Latter-day Saints/LDS)	39	1.3
+4) Orthodox (Greek, Russian or some other orthodox church)	13	0.4
+5) Jewish (Judaism)	48	1.7
+6) Muslim (Islam)	14	0.5
+7) Buddhist	14	0.5
+8) Hindu	6	0.2
+9) Atheist (do not believe in God)	51	1.8
+10) Agnostic (not sure if there is a God)	63	2.2
+11) Something else (SPECIFY)	38	1.3
+12) Nothing in particular	248	8.5
+13) Christian	248	8.5
+14) Unitarian (Universalist)	16	0.6
+99) Don't know/Refused	84	2.9
+
+
+143) RELIG2
+If RELIG = 11: What is your present religion, if any? (Verbatim response given)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	142	0	0
+
+
+144) CHR
+If RELIG = 99, or RELIG = 11 and RELIG@ = not a non-Christian religion: Do you think of yourself as Christian or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	122	2.951	3.114
+1) Yes	59	48.4
+2) No	38	31.1
+9) Don't know/Refused	25	20.5
+Missing	2783
+
+
+145) BORN
+If RELIG = 1-4 or 13, or CHR = 1: Would you describe yourself as a 'born again' or evangelical Christian or not?
+RANGE: 1 to 85
+	N	Mean	Std. Deviation
+Total	2382	2.05	4.439
+1) Yes	1030	43.2
+2) No	1253	52.6
+9) Don't know/Refused	93	3.9
+85) Undesignated	6	0.3
+Missing	523
+
+
+146) ATTEND
+Aside from weddings and funerals, how often do you attend religious services . . . more than once a week, once a week, once or twice a month, a few times a year, seldom, or never?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	3.266	1.666
+1) More than once a week	401	13.8
+2) Once a week	800	27.5
+3) Once or twice a month	466	16.0
+4) A few times a year	516	17.8
+5) Seldom	403	13.9
+6) Never	287	9.9
+9) Don't know/Refused	32	1.1
+
+
+147) RELIMP
+How important is religion in your life -- very important, somewhat important, not too important, or not at all important? (Q50)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.694	1.16
+1) Very important	1709	58.8
+2) Somewhat important	749	25.8
+3) Not too important	223	7.7
+4) Not at all important	194	6.7
+9) Don't know/Refused	30	1.0
+
+
+148) MANYRELS
+If RELIG = 1-8, 11, or 13-14; or CHR = 1: Tell me whether the first or second statement comes closer to your views even if neither is exactly right. (Q54)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2502	1.938	1.24
+1) My religion is the one, true faith leading to eternal life	681	27.2
+2) Many religions can lead to eternal life	1673	66.9
+3) Neither/Both equally	85	3.4
+9) Don't know/Refused	63	2.5
+Missing	403
+
+
+149) ONEFAITH
+And when you think of your religion as the one true faith, do you think of . . . ? (Q54A)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	36	3.194	2.459
+1) Just your own denomination	5	13.9
+2) All Protestant denominations	13	36.1
+3) All Christian denominations	13	36.1
+9) Don't know/Refused	5	13.9
+Missing	2869
+
+
+150) RDMLIFE1
+Of the following questions, which question was read first? (XRQ55_1)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1675	2.987	1.441
+1) PROTLIFE	352	21.0
+2) CATHLIFE	336	20.1
+3) JEWLIFE	325	19.4
+4) MUSLIFE	306	18.3
+5) HINDLIFE	356	21.3
+Missing	1230
+
+
+151) RDMLIFE2
+Of the following questions, which question was read second? (XRQ55_2)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1675	3.059	1.393
+1) PROTLIFE	304	18.1
+2) CATHLIFE	329	19.6
+3) JEWLIFE	343	20.5
+4) MUSLIFE	363	21.7
+5) HINDLIFE	336	20.1
+Missing	1230
+
+
+152) RDMLIFE3
+Of the following questions, which question was read third? (XRQ55_3)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1675	3.024	1.399
+1) PROTLIFE	321	19.2
+2) CATHLIFE	324	19.3
+3) JEWLIFE	355	21.2
+4) MUSLIFE	343	20.5
+5) HINDLIFE	332	19.8
+Missing	1230
+
+
+153) RDMLIFE4
+Of the following questions, which question was read fourth? (XRQ55_4)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1675	2.931	1.424
+1) PROTLIFE	369	22.0
+2) CATHLIFE	342	20.4
+3) JEWLIFE	311	18.6
+4) MUSLIFE	342	20.4
+5) HINDLIFE	311	18.6
+Missing	1230
+
+
+154) RDMLIFE5
+Of the following questions, which question was read fifth? (XRQ55_5)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1675	2.999	1.413
+1) PROTLIFE	329	19.6
+2) CATHLIFE	344	20.5
+3) JEWLIFE	341	20.4
+4) MUSLIFE	321	19.2
+5) HINDLIFE	340	20.3
+Missing	1230
+
+
+155) PROTLIFE
+If R does not identify as Protestant or Christian on RELIG: Do you think that Protestant faiths can lead to eternal life, or not? (Q55A)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	702	2.043	2.566
+1) Yes, can lead to eternal life	551	78.5
+2) No, cannot lead to eternal life	68	9.7
+9) Don't know/Refused	83	11.8
+Missing	2203
+
+
+156) CATHLIFE
+If R does not identify as Catholic on RELIG: Do you think that Catholicism, the Catholic religion can lead to eternal life, or not? (Q55C)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1128	2.131	2.628
+1) Yes, can lead to eternal life	846	75.0
+2) No, cannot lead to eternal life	140	12.4
+9) Don't know/Refused	142	12.6
+Missing	1777
+
+
+157) JEWLIFE
+If R does not identify as Jewish on RELIG: Do you think that the Jewish religion can lead to eternal life, or not? (Q55D)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1638	2.285	2.758
+1) Yes, can lead to eternal life	1164	71.1
+2) No, cannot lead to eternal life	241	14.7
+9) Don't know/Refused	233	14.2
+Missing	1267
+
+
+158) MUSLIFE
+If R does not identify as Muslim on RELIG: Do you think that Islam, the Muslim religion can lead to eternal life, or not? (Q55E)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1664	2.848	3.079
+1) Yes, can lead to eternal life	885	53.2
+2) No, cannot lead to eternal life	451	27.1
+9) Don't know/Refused	328	19.7
+Missing	1241
+
+
+159) HINDLIFE
+If R does not identify as Hindu on RELIG: Do you think that Hinduism can lead to eternal life, or not? (Q55F)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1667	3.13	3.317
+1) Yes, can lead to eternal life	910	54.6
+2) No, cannot lead to eternal life	358	21.5
+9) Don't know/Refused	399	23.9
+Missing	1238
+
+
+160) ATHLIFE
+If MANYRELS = 2: Do you think that atheists can achieve eternal life, or not? (Question asked on Form 1 only) (Q55GF1)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	836	2.4	2.479
+1) Yes, they can	366	43.8
+2) No, they cannot	370	44.3
+9) Don't know/Refused	100	12.0
+Missing	2069
+
+
+161) NONELIFE
+If MANYRELS = 2: Do you think that people who have no religious faith can achieve eternal life, or not? (Question asked on Form 2 only) (Q55GF2)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	837	2.319	2.597
+1) Yes, they can	482	57.6
+2) No, they cannot	248	29.6
+9) Don't know/Refused	107	12.8
+Missing	2068
+
+
+162) DETLIFE
+And just in your own words, what do you think determines whether a person will achieve eternal life? (Question asked on Form 1 only) (Q56F1OE)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1440	1.776	2.296
+1) Answer given (up to three responses recorded)	1239	86.0
+2) Don't believe in eternal life	70	4.9
+9) Don't know/Refused	131	9.1
+Missing	1465
+
+
+163) DETLIFE1
+And just in your own words, what do you think determines whether a person will achieve eternal life? (Verbatim responses given) (Q56F1@)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1239	0	0
+
+
+164) DETLIFE2
+Recode of responses to DETLIFE1 collapsed into common themes (Q56REC)
+RANGE: 10 to 99
+	N	Mean	Std. Deviation
+Total	1440	44.701	31.856
+10) ACTIONS - being a good person/living a good life/doing good works/morals/moral values/how you live your life	235	16.3
+11) ACTIONS - behaving like Jesus/living a good Christian life	7	0.5
+12) ACTIONS - following Ten Commandments	6	0.4
+13) ACTIONS - treating others nicely/as you'd like to be treated	41	2.8
+14) ACTIONS - living life in accordance with one's own principles/being true to oneself	8	0.6
+15) ACTIONS - living life in accordance with God's commands/in accordance with God's will/in accordance with the Bible	20	1.4
+18) ACTIONS - generic actions/other actions	19	1.3
+19) ACTIONS - combination of actions	78	5.4
+30) BELIEF - in God, generic/higher power/relationship with God	95	6.6
+31) BELIEF - in Jesus/the Lord/relationship with Jesus/accepting Jesus/Jesus' mercy/being born again/being saved	263	18.3
+32) BELIEF - in the Bible	3	0.2
+38) BELIEF - having faith/generic beliefs (including 'truth as one defines it')/other beliefs	82	5.7
+39) BELIEF - combination of beliefs	7	0.5
+41) COMBINATION BELIEFS AND ACTIONS - belief in God (generic)/God's mercy AND actions	51	3.5
+42) COMBINATION BELIEFS AND ACTIONS - belief in Jesus/the Lord/Jesus' mercy AND actions	47	3.3
+43) COMBINATION BELIEFS AND ACTIONS - belief in Bible AND actions	1	0.1
+44) COMBINATION BELIEFS AND ACTIONS - faithfulness to belief (generic)/one's own beliefs AND actions	46	3.2
+61) OTHER - Karma	3	0.2
+62) OTHER - Intentions (e.g., having a good heart)/combination of intentions and actions or beliefs	11	0.8
+63) OTHER - It's up to God/God's mercy/God's grace	16	1.1
+64) OTHER - All others	81	5.6
+95) Everyone/nearly everyone achieves eternal life	34	2.4
+96) Nothing determines eternal life/achievement or failure to achieve is inevitable	7	0.5
+98) Don't believe in eternal life	98	6.8
+99) Don't know/Refused	181	12.6
+Missing	1465
+
+
+165) HOLYBOOK
+Which comes closest to your view? (See Note 7: HOLYBOOK/LITERAL Notes for details on how question wording changed depending on respondent)  (Q58)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.778	1.803
+1) [Holy book] is the word of God	1857	63.9
+2) [Holy book] is a book written by men and is not the word of God	766	26.4
+3) Other	127	4.4
+9) Don't know/Refused	155	5.3
+
+
+166) LITERAL
+If HOLYBOOK = 1: And would you say that [Holy book] is to be taken literally, word for word, [or not]? (See Note 7:  HOLYBOOK/LITERAL Notes for details on how question wording changed depending on respondent) (Q59)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1857	1.718	1.285
+1) [Holy book] is to be taken literally, word for word	881	47.4
+2) Not everything in [Holy book] should be taken literally	900	48.5
+3) Other	29	1.6
+9) Don't know/Refused	47	2.5
+Missing	1048
+
+
+167) AGE
+What is your age?
+RANGE: 18 to 99
+	N	Mean	Std. Deviation
+Total	2905	50.842	18.338
+18) 	49	1.7
+19) 	46	1.6
+20) 	31	1.1
+21) 	35	1.2
+22) 	32	1.1
+23) 	38	1.3
+24) 	30	1.0
+25) 	35	1.2
+26) 	34	1.2
+27) 	22	0.8
+28) 	36	1.2
+29) 	30	1.0
+30) 	41	1.4
+31) 	34	1.2
+32) 	44	1.5
+33) 	34	1.2
+34) 	24	0.8
+35) 	37	1.3
+36) 	46	1.6
+37) 	47	1.6
+38) 	53	1.8
+39) 	47	1.6
+40) 	58	2.0
+41) 	42	1.4
+42) 	40	1.4
+43) 	46	1.6
+44) 	56	1.9
+45) 	60	2.1
+46) 	53	1.8
+47) 	58	2.0
+48) 	58	2.0
+49) 	55	1.9
+50) 	86	3.0
+51) 	49	1.7
+52) 	74	2.5
+53) 	67	2.3
+54) 	72	2.5
+55) 	81	2.8
+56) 	61	2.1
+57) 	54	1.9
+58) 	62	2.1
+59) 	41	1.4
+60) 	69	2.4
+61) 	58	2.0
+62) 	46	1.6
+63) 	39	1.3
+64) 	40	1.4
+65) 	49	1.7
+66) 	33	1.1
+67) 	50	1.7
+68) 	26	0.9
+69) 	29	1.0
+70) 	53	1.8
+71) 	26	0.9
+72) 	28	1.0
+73) 	27	0.9
+74) 	20	0.7
+75) 	30	1.0
+76) 	31	1.1
+77) 	28	1.0
+78) 	12	0.4
+79) 	22	0.8
+80) 	31	1.1
+81) 	14	0.5
+82) 	15	0.5
+83) 	8	0.3
+84) 	16	0.6
+85) 	15	0.5
+86) 	9	0.3
+87) 	7	0.2
+88) 	7	0.2
+89) 	3	0.1
+90) 	3	0.1
+91) 	3	0.1
+92) 	3	0.1
+94) 	1	0.0
+96) 	1	0.0
+97) 	1	0.0
+99) Don't know/Refused	54	1.9
+
+
+168) EDUC
+What is the last grade or class that you completed in school?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	4.789	1.683
+1) None, or grades 1-8	48	1.7
+2) High school incomplete (grades 9-11)	178	6.1
+3) High school graduate (grade 12 or GED certificate)	728	25.1
+4) Business, technical or vocational school AFTER high school	95	3.3
+5) Some college, no four-year degree	739	25.4
+6) College graduate (B.S., B.A., or other four-year degree)	641	22.1
+7) Post-graduate training or professional schooling after college	440	15.1
+9) Don't know/Refused	36	1.2
+
+
+169) HISP
+Are you, yourself, Hispanic or Latino origin or descent, such as Mexican, Puerto Rican, Cuban or some other Spanish background?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.996	0.812
+1) Yes	250	8.6
+2) No	2621	90.2
+9) Don't know/Refused	34	1.2
+
+
+170) RACE1
+Which of the following describes your race? You can select as many as apply. (First response given) (RACE_1)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.477	1.279
+1) White	2317	79.8
+2) Black or African-American	286	9.8
+3) Asian or Asian-American	46	1.6
+4) Some other race	208	7.2
+9) Don't know/Refused	48	1.7
+
+
+171) RACE2
+Which of the following describes your race? You can select as many as apply. (Second response given) (RACE_2)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	32	3.25	1.136
+1) White	4	12.5
+2) Black or African-American	5	15.6
+3) Asian or Asian-American	2	6.3
+4) Some other race	21	65.6
+Missing	2873
+
+
+172) RACE3
+Which of the following describes your race? You can select as many as apply. (Third response given) (RACE_3)
+RANGE: 3 to 4
+	N	Mean	Std. Deviation
+Total	3	3.667	0.577
+3) Asian or Asian-American	1	33.3
+4) Some other race	2	66.7
+Missing	2902
+
+
+173) RACE4
+Which of the following describes your race? Choose as many as apply. (Fourth response given) (RACE_4)
+RANGE: 3 to 3
+	N	Mean	Std. Deviation
+Total	1	3	0
+3) Asian or Asian-American	1	100.0
+Missing	2904
+
+
+174) RACECMB
+Combining race (Those giving more than one race were coded as Mixed race) (RACECOMB)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.578	1.457
+1) White	2292	78.9
+2) Black or African-American	281	9.7
+3) Asian or Asian-American	45	1.5
+4) Mixed race	32	1.1
+5) Some other race	207	7.1
+9) Don't know/Refused	48	1.7
+
+
+175) MARITAL
+Are you currently married, living with a partner, divorced, separated, widowed or never been married?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	2.629	2.126
+1) Married	1598	55.0
+2) Living with a partner	150	5.2
+3) Divorced	315	10.8
+4) Separated	74	2.5
+5) Widowed	249	8.6
+6) Never been married	473	16.3
+9) Don't know/Refused	46	1.6
+
+
+176) INCOME
+Last year, that is in 2007, what was your total family income from sources, before taxes?
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	2905	5.868	2.709
+1) Less than $10,000	186	6.4
+2) $10,000 to under $20,000	223	7.7
+3) $20,000 to under $30,000	280	9.6
+4) $30,000 to under $40,000	275	9.5
+5) $40,000 to under $50,000	227	7.8
+6) $50,000 to under $75,000	480	16.5
+7) $75,000 to under $100,000	356	12.3
+8) $100,000 to under $150,000	285	9.8
+9) $150,000 or more	242	8.3
+10) Don't know/Refused	351	12.1
+
+
+177) PARTY
+In politics today, do you consider yourself a Republican, Democrat or Independent?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	2.271	1.335
+1) Republican	833	28.7
+2) Democrat	944	32.5
+3) Independent	969	33.4
+4) No preference	81	2.8
+5) Other	14	0.5
+9) Don't know/Refused	64	2.2
+
+
+178) PARTYLN
+If PARTY = 3-5 or 9: As of today do you lean more to the Republican Party or Democratic Party?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1128	3.562	3.332
+1) Republican	366	32.4
+2) Democrat	458	40.6
+9) Other/Don't know/Refused	304	27.0
+Missing	1777
+
+
+179) IDEO
+In general, would you describe your political views as very conservative, conservative, moderate, liberal, or very liberal?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	2.952	1.57
+1) Very conservative	290	10.0
+2) Conservative	935	32.2
+3) Moderate	1010	34.8
+4) Liberal	420	14.5
+5) Very liberal	136	4.7
+9) Don't know/Refused	114	3.9
+
+
+180) PVOTE04A
+In the 2004 presidential election between George W. Bush and John Kerry, did things come up that kept you from voting, or did you happen to vote?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.39	1.189
+1) Voted	2216	76.3
+2) Did not vote (includes too young to vote)	622	21.4
+8) Don't remember if voted	24	0.8
+9) Refused	43	1.5
+
+
+181) OWNRENT1
+Do you own your home, rent your home, or do you have some other type of arrangement?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.525	1.259
+1) Own	2036	70.1
+2) Rent	578	19.9
+3) Other arrangement	230	7.9
+9) Don't know/Refused	61	2.1
+
+
+182) CELL
+If STYPE = 1: Do you have a working cell phone? (L1)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2254	1.325	0.957
+1) Yes, have cell phone	1717	76.2
+2) No, do not	509	22.6
+9) Don't know/Refused	28	1.2
+Missing	651
+
+
+183) CALLS
+If CELL = 1: Of all the telephone calls you receive, do you get . . . ? (L2)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1717	2.132	0.938
+1) All or almost all calls on a cell phone	404	23.5
+2) Some on a cell phone and some on a regular home phone	755	44.0
+3) Very few or none on a cell phone	546	31.8
+9) Don't know/Refused	12	0.7
+Missing	1188
+
+
+184) CELLCODE
+We just reached you at a phone number with area code (area). Does your cell phone have the same area code, or not? (L5)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1717	1.377	1.228
+1) Same area code	1342	78.2
+2) Not the same (Specify)	336	19.6
+9) Don't know/Refused	39	2.3
+Missing	1188
+
+
+185) CELLCOD2
+If CELLCODE = 2:  What is the area code on your cell phone? (L5@)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	336	0	0
+
+
+186) TELLHOME
+If STYPE = 2: Is there at least one telephone INSIDE your home that is currently working and is not a cell phone? (C1)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	651	1.661	1.426
+1) Yes, home telephone	368	56.5
+2) No home telephone	262	40.2
+9) Don't know/Refused	21	3.2
+Missing	2254
+
+
+187) CALLS2
+If TELLHOME = 1: Of all the telephone calls you receive, do you get . . .? (C2)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	368	1.668	0.78
+1) All or almost all calls on a cell phone	172	46.7
+2) Some on a cell phone and some on a regular home phone	152	41.3
+3) Very few or none on a cell phone	43	11.7
+9) Don't know/Refused	1	0.3
+Missing	2537
+
+
+188) ZIPCODE
+What is your zip code? [Note: a value of 99999 represents a response of 'don't know' or 'refused'] (FZIP)
+RANGE: 1010 to 99999
+	N	Mean	Std. Deviation
+Total	2905	52026.85	29980.262
+
+
+189) MONEY10
+If STYPE = 2: Respondent agreed to provide full name and mailing address to be sent $10 for their time
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	651	1.224	0.417
+1) Yes	505	77.6
+2) No	146	22.4
+Missing	2254
+
+
+190) ISEX
+Gender of interviewer
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2905	1.418	0.493
+1) Male	1690	58.2
+2) Female	1215	41.8
+
+
+191) IHISP
+(Answered by interviewer about themselves) Are you of Hispanic or Latino origin or descent, such as Mexican, Puerto Rican, Cuban or some other Spanish background? (IHISP1)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	2.032	0.955
+1) Yes	251	8.6
+2) No	2605	89.7
+9) Don't know/Refused	49	1.7
+
+
+192) IRACE1
+(Answered by interviewer about themselves) Which of the following describes your race? You can select as many as apply.  (First response given) (IRACE1_1)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2905	1.692	1.348
+1) White	1822	62.7
+2) Black or African-American	749	25.8
+3) Asian or Asian-American	12	0.4
+4) Some other race	268	9.2
+9) Don't know/Refused	54	1.9
+
+
+193) IRACE2
+(Answered by interviewer about themselves) Which of the following describes your race? You can select as many as apply.  (Second response given) (IRACE1_2)
+RANGE: 2 to 4
+	N	Mean	Std. Deviation
+Total	160	3.119	0.987
+2) Black or African-American	69	43.1
+3) Asian or Asian-American	3	1.9
+4) Some other race	88	55.0
+Missing	2745
+
+
+194) IRACE3
+(Answered by interviewer about themselves) Which of the following describes your race? You can select as many as apply.  (Third response given) (IRACE1_3)
+RANGE: 3 to 4
+	N	Mean	Std. Deviation
+Total	16	3.438	0.512
+3) Asian or Asian-American	9	56.3
+4) Some other race	7	43.8
+Missing	2889
+
+
+195) IRACE4
+(Answered by interviewer about themselves) Which of the following describes your race? You can select as many as apply.  (Fourth response given) (IRACE1_4)
+RANGE: 4 to 4
+	N	Mean	Std. Deviation
+Total	9	4	0
+4) Some other race	9	100.0
+Missing	2896
+
+
+196) ILANG
+Language of interview
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2905	1.022	0.148
+1) English	2840	97.8
+2) Spanish	65	2.2
+
+
+197) FDATE
+Date of interview
+RANGE: 80731 to 80811
+	N	Mean	Std. Deviation
+Total	2905	80800.908	18.188
+80731) 	180	6.2
+80801) 	292	10.1
+80802) 	254	8.7
+80803) 	239	8.2
+80804) 	262	9.0
+80805) 	371	12.8
+80806) 	205	7.1
+80807) 	266	9.2
+80808) 	280	9.6
+80809) 	270	9.3
+80810) 	270	9.3
+80811) 	16	0.6
+
+
+198) FDOW
+Day of week of interview
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	2905	4.245	2.147
+1) Sunday	518	17.8
+2) Monday	265	9.1
+3) Tuesday	373	12.8
+4) Wednesday	204	7.0
+5) Thursday	448	15.4
+6) Friday	571	19.7
+7) Saturday	526	18.1
+
+
+199) PHONEUSE
+Telephone usage
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	2905	1.905	0.516
+1) Landline only	537	18.5
+2) Dual	2106	72.5
+3) Cell phone only	262	9.0
+
+
+200) CELLONLY
+Respondent uses cell phone only
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2905	0.09	0.287
+0) Not cell phone only	2643	91.0
+1) Cell phone only	262	9.0
+
+
+201) LLWEIGHT
+Sample weight for the landline RDD sample only, excludes cases from cell phone RDD sample
+RANGE: 1 to 7.62
+	N	Mean	Std. Deviation
+Total	2254	2.823	1.808
+
+
+202) COWEIGHT
+Weight for the landline RDD sample and the cell-only cases, excludes cases from cell phone RDD sample that report having a landline phone
+RANGE: 1 to 5.53
+	N	Mean	Std. Deviation
+Total	2516	2.45	1.268
+
+
+203) WEIGHT
+Weight for the combined sample of all landline and cell phone interviews
+RANGE: 0.492 to 3.44896296296296
+	N	Mean	Std. Deviation
+Total	2905	1	0.573
+
+
+204) I-AGE
+What is your age? (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2851	2.87	1.171
+1) 18-29	418	14.7
+2) 30-44	649	22.8
+3) 45-59	931	32.7
+4) 60-74	593	20.8
+5) 75+	260	9.1
+Missing	54
+
+
+205) I-ATTEND
+Aside from weddings and funerals, how often do you attend religious services . . . more than once a week, once a week, once or twice a month, a few times a year, seldom, or never? (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2873	3.202	1.561
+1) More than once a week	401	14.0
+2) Once a week	800	27.8
+3) Once or twice a month	466	16.2
+4) A few times a year	516	18.0
+5) Seldom	403	14.0
+6) Never	287	10.0
+Missing	32
+
+
+206) I-EDUC
+What is the last grade or class that you completed in school? (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2869	3.119	1.18
+1) Less than high school diploma	226	7.9
+2) High school graduate (grade 12 or GED certificate)	728	25.4
+3) Business, technical or vocational school AFTER high school or some college (no four-year degree)	834	29.1
+4) College graduate (B.S., B.A., or other four-year degree)	641	22.3
+5) Post-graduate training or professional schooling after college	440	15.3
+Missing	36
+
+
+207) I-INCOME
+Last year, that is in 2007, what was your total family income from sources, before taxes? (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2554	3.656	1.71
+1) Less than $20,000	409	16.0
+2) $20,000 to under $30,000	280	11.0
+3) $30,000 to under $50,000	502	19.7
+4) $50,000 to under $75,000	480	18.8
+5) $75,000 to under $100,000	356	13.9
+6) $100,000 or more	527	20.6
+Missing	351
+
+
+208) I-RELIGION
+What is your present religion, if any? (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	2821	1.935	1.068
+1) Protestant	1344	47.6
+2) Roman Catholic	679	24.1
+3) Other or Jewish	436	15.5
+4) None	362	12.8
+Missing	84
+
+
+209) I-SEX
+Respondent's sex (for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2905	1.498	0.5
+1) Male	1459	50.2
+2) Female	1446	49.8
+
+

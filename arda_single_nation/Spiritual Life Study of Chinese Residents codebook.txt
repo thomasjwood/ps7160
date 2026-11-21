@@ -1,0 +1,6729 @@
+Data File: SPRTCHNA (Full Data Codebook)
+
+1) Q_IDNO
+Questionnaire ID number
+RANGE: 1 to 12288
+	N	Mean	Std. Deviation
+Total	7021	5937.31	3725.674
+
+
+2) INT_IDNO
+Interviewer ID number
+RANGE: 101 to 9301
+	N	Mean	Std. Deviation
+Total	7021	3160.603	2528.844
+
+
+3) SPV_IDNO
+Supervisor ID number 
+RANGE: 1 to 403
+	N	Mean	Std. Deviation
+Total	7021	85.1	88.948
+
+
+4) SPC_CITY
+Sampling point code - city
+RANGE: 1 to 50
+	N	Mean	Std. Deviation
+Total	7021	20.846	14.806
+1) Beijing	287	4.1
+2) Shanghai	286	4.1
+3) Chongqing	373	5.3
+4) Guangzhou	257	3.7
+5) Nanjing	174	2.5
+6) Wuhan	170	2.4
+7) Hefei	171	2.4
+8) Xian	177	2.5
+9) Chengdu	286	4.1
+10) Zhaoqing	140	2.0
+11) Jinzhou	140	2.0
+12) Quzhou	147	2.1
+13) Baotou	141	2.0
+14) Laibin	141	2.0
+15) Dingxi	144	2.1
+16) Kaifeng	141	2.0
+17) Huanggang	156	2.2
+18) Hengyang	141	2.0
+19) Huanhua	141	2.0
+20) Yuncheng	228	3.2
+21) Jining	114	1.6
+22) Ningbo	113	1.6
+23) Lang fang	111	1.6
+24) Yingkou	125	1.8
+25) Yancheng	114	1.6
+26) Qingyuan	110	1.6
+27) Nanping	204	2.9
+28) Dali	111	1.6
+29) Weinan	112	1.6
+30) Guiyang	111	1.6
+32) Zhengzhou	204	2.9
+33) Changsha	112	1.6
+34) Jinzhong	110	1.6
+35) Anqing	119	1.7
+36) Shaoxing	86	1.2
+37) Weihai	85	1.2
+38) Suzhou	87	1.2
+39) Shenyang	86	1.2
+40) Yantai	85	1.2
+41) Baoding	86	1.2
+42) Yangzhou	86	1.2
+43) Deyang	88	1.3
+44) Qujing	86	1.2
+45) Guiyang	86	1.2
+46) Xiaogan	86	1.2
+47) Shangrao	87	1.2
+48) Xiangtan	87	1.2
+49) Chuzhou	94	1.3
+50) Haerbin	195	2.8
+
+
+5) SPC_CLCY
+Sampling point code -country-level city
+RANGE: 1 to 16
+	N	Mean	Std. Deviation
+Total	1768	8.431	4.666
+1) Zoucheng	114	6.4
+2) Yuyao	113	6.4
+3) Sanhe	111	6.3
+4) Dashiqiao	125	7.1
+5) Dongtai	114	6.4
+6) Yingde	110	6.2
+7) Jianou	115	6.5
+8) Dali	91	5.1
+9) Hancheng	112	6.3
+10) Pengzhou	114	6.4
+11) Guiping	111	6.3
+12) Acheng	82	4.6
+13) Dengfeng	115	6.5
+14) Liuyang	112	6.3
+15) Jiexiu	110	6.2
+16) Tongcheng	119	6.7
+Missing	5253
+
+
+6) SPC_DIST
+Sampling point code -district
+RANGE: 101 to 6251
+	N	Mean	Std. Deviation
+Total	4121	1431.852	1304.532
+101) Fengtai	38	0.9
+102) Chaoyang	79	1.9
+103) Haidian	85	2.1
+104) Dongcheng	13	0.3
+105) Xicheng	18	0.4
+106) Xuanwu	19	0.5
+107) Chongwen	27	0.7
+108) Shijingshan	8	0.2
+201) Hongkou	30	0.7
+202) Pudong	61	1.5
+203) JingAn	17	0.4
+204) Zhabei	28	0.7
+205) Changning	17	0.4
+206) Xuhui	17	0.4
+207) Yangpu	46	1.1
+208) Huangpu	14	0.3
+209) Putuo	36	0.9
+210) Luwan	20	0.5
+301) Shapingba	63	1.5
+302) Jiangbeiqu	49	1.2
+303) Nanan	57	1.4
+304) Yuzhongqu	55	1.3
+305) Jiulongpo	63	1.5
+401) Yuexiu	24	0.6
+402) Tianhe	34	0.8
+403) Liwan	33	0.8
+404) Haizhu	50	1.2
+405) Dongshan	30	0.7
+501) Xiaguanqu	4	0.1
+502) Qixiaqu	28	0.7
+503) Gulouqu	10	0.2
+504) Xuanwuqu	51	1.2
+505) Baixiaqu	9	0.2
+506) Yuhuaqu	22	0.5
+507) Jiangningq	15	0.4
+508) Pukouqu	20	0.5
+509) Qinhuaiqu	2	0.0
+510) Jianyequ	4	0.1
+511) Liuhequ	3	0.1
+601) Wuhan	54	1.3
+602) Hanyang	14	0.3
+603) Hongshanqu	20	0.5
+604) Jianghanqu	16	0.4
+605) Qingshanqu	20	0.5
+606) Qiaokouqu	19	0.5
+607) Jianganqu	27	0.7
+701) Yaohai	43	1.0
+702) Shushan	47	1.1
+703) Luyang	36	0.9
+704) Baohe	45	1.1
+801) Beilin	60	1.5
+802) Yanta	38	0.9
+803) Lianhu	38	0.9
+804) Xian	1	0.0
+805) Xinchegnqu	30	0.7
+806) Weiyang	10	0.2
+901) Jinjiangqu	36	0.9
+902) Jinniuqu	33	0.8
+903) Chenghuaqu	42	1.0
+904) Wuhouqu	36	0.9
+905) Qingyangqu	25	0.6
+1001) Chegnnanbanshichu	15	0.4
+1002) Chengbeijie	41	1.0
+1003) Duanzhou	11	0.3
+1004) Chegndongjie	43	1.0
+1005) Chengxi	29	0.7
+1006) Huangtanghuayuan	1	0.0
+1101) Linghe	85	2.1
+1102) Guta	55	1.3
+1301) Qingshan	39	0.9
+1302) Kunqu	73	1.8
+1303) Donghequ	29	0.7
+1401) Xingbin	141	3.4
+1501) Anding	144	3.5
+1601) Jinming	55	1.3
+1602) Gulou	30	0.7
+1603) Beigangcun	9	0.2
+1604) Shunhe	37	0.9
+1605) Yuwutai	5	0.1
+1606) Kaifaqu	7	0.2
+1607) Dongjiaoxiang	1	0.0
+1608) Eryuan	1	0.0
+1609) Longtingqu	1	0.0
+1610) Caomenguan	1	0.0
+1701) Huangzhou	156	3.8
+1801) Zhengxiangqu	42	1.0
+1802) Zhuhuiqu	35	0.8
+1803) Shiguqu	27	0.7
+1804) Yanfeng	37	0.9
+1901) Beilin	141	3.4
+2085) Laochegnqu	17	0.4
+2401) Shiqiaoguanliqu	46	1.1
+2402) Gangduguanliqu	28	0.7
+2403) Nanlouguanliqu	21	0.5
+2404) Qinghuaguanliqu	22	0.5
+2405) Jinqiaoguanliqu	8	0.2
+2601) Wangbuqu	14	0.3
+2603) Yinghongqu	5	0.1
+2604) Yingchengqu	63	1.5
+2605) Hengshitangzhen	9	0.2
+2606) Dazhanzhen	9	0.2
+2607) Lianjiangkouzhen	10	0.2
+2701) Jiananjiedao	25	0.6
+2702) Ouningjiedao	27	0.7
+2703) Zhishanjiedao	63	1.5
+2801) Xiaguanzhen	49	1.2
+2802) Gucheng	30	0.7
+2805) Laochengqu	8	0.2
+2806) Kaifaqu	7	0.2
+2901) Xincheng	112	2.7
+3101) Guipingzhen	111	2.7
+3201) Achengqu	110	2.7
+6251) Kecheng	147	3.6
+Missing	2900
+
+
+7) SPC_COMM
+Sampling point code -community
+RANGE: 101 to 7642
+	N	Mean	Std. Deviation
+Total	5283	2178.633	1888.685
+Missing	1738
+
+
+8) SPC_CNTY
+Sampling point code -county
+RANGE: 1 to 20
+	N	Mean	Std. Deviation
+Total	1738	10.547	5.773
+1) Zhuji	86	4.9
+2) Rongcheng	85	4.9
+3) Changshu	87	5.0
+4) Xinmin	86	4.9
+5) Conghua	86	4.9
+6) Wuyishan	89	5.1
+7) Laiyang	85	4.9
+8) Dingzhou	86	4.9
+9) Yizheng	86	4.9
+10) Mianzhu	88	5.1
+11) Xuanwei	86	4.9
+12) Hechuan	86	4.9
+13) Qingzhen	86	4.9
+14) Xinzheng	89	5.1
+15) Hejin	88	5.1
+16) Yingcheng	86	4.9
+17) Dexing	87	5.0
+18) Shaoguan	87	5.0
+19) Tianchang	94	5.4
+20) Wuchang	85	4.9
+Missing	5283
+
+
+9) SPC_ADMN
+Sampling point code -administrative village
+RANGE: 3701 to 8312
+	N	Mean	Std. Deviation
+Total	1738	4970.148	1049.801
+3701) Hecun	18	1.0
+3702) Dasongcun	11	0.6
+3703) Zhanghuai	3	0.2
+3704) Shenyecun	14	0.8
+3705) Xiaxiangtou	12	0.7
+3706) Datangshagnxiangtoucun	11	0.6
+3707) Jinjiacun	12	0.7
+3801) Chegnxizhen	83	4.8
+3802) Yatouzhen	2	0.1
+3901) Jushacun	2	0.1
+3902) Dahongqiaocun	6	0.3
+3903) Xieyuxincun	2	0.1
+3904) Xinxiaoqiao	3	0.2
+3905) Chuangxincun	1	0.1
+3906) Longdeng	1	0.1
+3907) Degnnancun	1	0.1
+3908) Andign	10	0.6
+3910) Liantangzhen	1	0.1
+3911) Yanxiang	2	0.1
+3912) Lingqiao	1	0.1
+3914) Dongbinzhen	1	0.1
+3916) Liyuan	6	0.3
+3917) Meilizhen	1	0.1
+3918) Shiduncun	3	0.2
+3919) Zhitangzhen	5	0.3
+3920) Xingfu	5	0.3
+3921) Jinxing	1	0.1
+3924) Taoshan	2	0.1
+3925) Gaoli	1	0.1
+3926) Liqiao	1	0.1
+3928) Hupingcun	1	0.1
+3929) Yushan	1	0.1
+3932) Fushan	1	0.1
+3933) Qinhu	2	0.1
+3936) Chagnqiao	1	0.1
+4001) Dalamaxiang	34	2.0
+4002) Xinglongbu	38	2.2
+4101) Taiping	44	2.5
+4102) Jiekou	42	2.4
+4201) Wuyizhen	56	3.2
+4202) Zhognxia	9	0.5
+4203) Wulicun	24	1.4
+4401) Yangjiazhuangxiang	50	2.9
+4402) Zhaocunxiang	32	1.8
+4501) Guanshan	83	4.8
+4601) Dongbei	88	5.1
+4701) Zhuangzi	6	0.3
+4702) Banqiao	47	2.7
+4703) Longjin	28	1.6
+4704) Xibiancunwei	5	0.3
+4801) Weituozhen	86	4.9
+4901) Zhanjiezhen	50	2.9
+4902) Wangerzhaicun	12	0.7
+4903) Dongmenqiaocun	6	0.3
+4904) Liyucun	8	0.5
+5001) Linmiandian	15	0.9
+5002) Qianhu	5	0.3
+5003) Weizhuangcun	19	1.1
+5004) Zhenglaozhuang	18	1.0
+5005) Shawoli	16	0.9
+5006) Jiwangcun	1	0.1
+5007) Baishuliu	9	0.5
+5008) Xiaoqiao	4	0.2
+5009) Sunzhuang	2	0.1
+5101) Fanlinzhen	29	1.7
+5102) Dongguangde	18	1.0
+5103) Xiguangde	18	1.0
+5104) Xifan	9	0.5
+5105) Jiaozhuangcun	14	0.8
+5201) Xinhecun	15	0.9
+5202) Doushanpo	6	0.3
+5203) Xiaojiawan	6	0.3
+5204) Chegnzhongjie	34	2.0
+5205) Silipeng	20	1.2
+5206) Xiaowancun	2	0.1
+5207) Yangjiawan	3	0.2
+5301) Xinyingcun	16	0.9
+5302) Huaqiaocun	46	2.6
+5303) Sizhou	17	1.0
+5401) Shaoyuan	86	4.9
+5402) Shaobei	1	0.1
+5501) Zhaozhuang	26	1.5
+5502) Qiaotian	13	0.7
+5503) Yangcun	19	1.1
+5504) Jiexi	15	0.9
+5505) Bamiao	18	1.0
+5506) Baizicun	2	0.1
+5507) Zhongxiao	1	0.1
+5601) Niujiazhen	75	4.3
+5604) Wuchangxiang	10	0.6
+7601) Caijiabang	8	0.5
+7602) Qinglian	7	0.4
+7603) Santang	7	0.4
+7604) Huanhuxicun	3	0.2
+7651) Hutai	14	0.8
+7801) Muyudian	85	4.9
+7851) Qingfengdian	4	0.2
+7901) Guanshancun	3	0.2
+8101) Hongfengzhen	10	0.6
+8301) Yinchegn	8	0.5
+8312) Fengshan	5	0.3
+Missing	5283
+
+
+10) SPC_VILL
+Sampling point code -village
+RANGE: 3701 to 8311
+	N	Mean	Std. Deviation
+Total	1738	5306.742	1360.861
+Missing	5283
+
+
+11) INTVDATM
+Date of interview -month
+RANGE: 5 to 9
+	N	Mean	Std. Deviation
+Total	7021	5.664	1.459
+
+
+12) INTVDATD
+Date of interview -day
+RANGE: 1 to 31
+	N	Mean	Std. Deviation
+Total	7021	20.326	5.626
+
+
+13) BEGTIMEH
+Beginning time -hour
+RANGE: 7 to 22
+	N	Mean	Std. Deviation
+Total	7021	15.062	3.477
+
+
+14) BEGTIMEM
+Beginning time -minute
+RANGE: 0 to 59
+	N	Mean	Std. Deviation
+Total	7021	23.863	17.66
+
+
+15) ENDTIMEH
+Ending time -hour
+RANGE: 7 to 23
+	N	Mean	Std. Deviation
+Total	7021	15.649	3.496
+
+
+16) ENDTIMEM
+Ending time -minute
+RANGE: 0 to 59
+	N	Mean	Std. Deviation
+Total	7021	29.745	17.979
+
+
+17) INTVLMIN
+Length of interview in minutes
+RANGE: 16 to 93
+	N	Mean	Std. Deviation
+Total	7021	41.159	9.179
+
+
+18) RANDOMNM
+Random number (G001)
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	7021	4.44	2.84
+
+
+19) OVRLHLTH
+How is your overall health these days?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	7015	1.687	0.857
+1) Very good	3623	51.6
+2) Good	2321	33.1
+3) OK	757	10.8
+4) Not very good	274	3.9
+5) Not good	40	0.6
+Missing	6
+
+
+20) GETNEWS1
+How do you get national and international news? Please list three sources, beginning with the most important one. [Select three items.] First source
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7021	5.012	11.626
+1) Newspaper	1199	17.1
+2) Radio	84	1.2
+3) Magazines	49	0.7
+4) TV	5151	73.4
+5) Books	30	0.4
+6) The Internet/email	313	4.5
+7) Conversations with friends/co-workers	89	1.3
+97) None	32	0.5
+98) Refuse to answer [do not read]	10	0.1
+99) Hard to say/don't know [do not read]	64	0.9
+
+
+21) GETNEWS2
+How do you get national and international news? Please list three sources, beginning with the most important one. [Select three items.] Second source
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	5258	2.978	2.162
+1) Newspaper	2412	45.9
+2) Radio	320	6.1
+3) Magazines	182	3.5
+4) TV	1213	23.1
+5) Books	128	2.4
+6) The Internet/email	451	8.6
+7) Conversations with friends/co-workers	552	10.5
+Missing	1763
+
+
+22) GETNEWS3
+How do you get national and international news? Please list three sources, beginning with the most important one. [Select three items.] Third source
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	3194	4.561	2.32
+1) Newspaper	580	18.2
+2) Radio	272	8.5
+3) Magazines	306	9.6
+4) TV	233	7.3
+5) Books	245	7.7
+6) The Internet/email	538	16.8
+7) Conversations with friends/co-workers	1020	31.9
+Missing	3827
+
+
+23) IMPFAM
+Please tell me the importance of the following items in your life. Is it very important, somewhat important, somewhat unimportant, or not at all important? First, family.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	1.149	0.445
+1) Very important	6084	86.7
+2) Somewhat important	873	12.4
+3) Somewhat unimportant	52	0.7
+4) Not at all important	5	0.1
+8) Refuse to answer [do not read]	2	0.0
+9) Hard to say/don't know [do not read]	5	0.1
+
+
+24) IMPFRND
+Please tell me the importance of the following items in your life. Is it very important, somewhat important, somewhat unimportant, or not at all important? Friends.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	1.844	0.807
+1) Very important	2031	28.9
+2) Somewhat important	4344	61.9
+3) Somewhat unimportant	552	7.9
+4) Not at all important	54	0.8
+8) Refuse to answer [do not read]	1	0.0
+9) Hard to say/don't know [do not read]	39	0.6
+
+
+25) IMPENTR
+Please tell me the importance of the following items in your life. Is it very important, somewhat important, somewhat unimportant, or not at all important? Entertainment.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.572	1.013
+1) Very important	556	7.9
+2) Somewhat important	2996	42.7
+3) Somewhat unimportant	2730	38.9
+4) Not at all important	665	9.5
+8) Refuse to answer [do not read]	5	0.1
+9) Hard to say/don't know [do not read]	69	1.0
+
+
+26) IMPPOLIT
+Please tell me the importance of the following items in your life. Is it very important, somewhat important, somewhat unimportant, or not at all important? Politics.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	3.15	1.394
+1) Very important	358	5.1
+2) Somewhat important	1621	23.1
+3) Somewhat unimportant	2899	41.3
+4) Not at all important	1886	26.9
+8) Refuse to answer [do not read]	35	0.5
+9) Hard to say/don't know [do not read]	222	3.2
+
+
+27) IMPWORK
+Please tell me the importance of the following items in your life. Is it very important, somewhat important, somewhat unimportant, or not at all important? Work.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	1.843	1.146
+1) Very important	3098	44.1
+2) Somewhat important	2775	39.5
+3) Somewhat unimportant	747	10.6
+4) Not at all important	309	4.4
+8) Refuse to answer [do not read]	15	0.2
+9) Hard to say/don't know [do not read]	77	1.1
+
+
+28) IMPRELIG
+Please tell me the importance of the following items in your life. Is it very important, somewhat important, somewhat unimportant, or not at all important? Religious belief.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	3.856	1.562
+1) Very important	195	2.8
+2) Somewhat important	650	9.3
+3) Somewhat unimportant	1464	20.9
+4) Not at all important	4232	60.3
+8) Refuse to answer [do not read]	61	0.9
+9) Hard to say/don't know [do not read]	419	6.0
+
+
+29) HAPPYLIF
+Do you feel happy about your life overall? Is it very happy, somewhat happy, somewhat unhappy, or very unhappy?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	1.91	0.844
+1) Very happy	2349	33.5
+2) Somewhat happy	3298	47.0
+3) So-so [not read to the interviewee]	1098	15.6
+4) Somewhat unhappy	239	3.4
+5) Very unhappy	29	0.4
+9) Hard to say/don't know [do not read]	8	0.1
+
+
+30) RSHAPPY1
+What are the main reasons that make you feel happy in your life? [Please select three from the following items.] First reason
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5643	2.498	5.629
+1) Accomplished children	1527	27.1
+2) Good health of family members	3052	54.1
+3) My own good health	416	7.4
+4) Success in workplace	256	4.5
+5) Rewarding career	31	0.5
+6) Harmonious family life	278	4.9
+7) My religious life	5	0.1
+8) Close friendship	33	0.6
+9) Satisfying income	14	0.2
+10) Satisfying house/apartment or car	1	0.0
+12) Many traveling opportunities	2	0.0
+13) Harmonious society; good social environment	10	0.2
+98) Refuse to answer [do not read]	2	0.0
+99) Hard to say/don't know [do not read]	16	0.3
+Missing	1378
+
+
+31) RSHAPPY2
+What are the main reasons that make you feel happy in your life? [Please select three from the following items.] Second reason
+RANGE: 2 to 13
+	N	Mean	Std. Deviation
+Total	5340	4.235	2.082
+2) Good health of family members	1077	20.2
+3) My own good health	1581	29.6
+4) Success in workplace	804	15.1
+5) Rewarding career	114	2.1
+6) Harmonious family life	1294	24.2
+7) My religious life	28	0.5
+8) Close friendship	241	4.5
+9) Satisfying income	114	2.1
+10) Satisfying house/apartment or car	26	0.5
+11) Satisfying social position	14	0.3
+12) Many traveling opportunities	8	0.1
+13) Harmonious society; good social environment	39	0.7
+Missing	1681
+
+
+32) RSHAPPY3
+What are the main reasons that make you feel happy in your life? [Please select three from the following items.] Third reason
+RANGE: 3 to 13
+	N	Mean	Std. Deviation
+Total	4067	6.708	2.461
+3) My own good health	381	9.4
+4) Success in workplace	376	9.2
+5) Rewarding career	70	1.7
+6) Harmonious family life	1806	44.4
+7) My religious life	68	1.7
+8) Close friendship	610	15.0
+9) Satisfying income	324	8.0
+10) Satisfying house/apartment or car	116	2.9
+11) Satisfying social position	32	0.8
+12) Many traveling opportunities	26	0.6
+13) Harmonious society; good social environment	258	6.3
+Missing	2954
+
+
+33) UNHAPPY1
+What are the main reasons that make you feel unhappy in your life? [Please select three from the following items.] First reason
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	258	5.965	10.302
+1) Unaccomplished children	12	4.7
+2) Ill health of family members	25	9.7
+3) My own ill health	44	17.1
+4) Problem at work	68	26.4
+5) Difficulty in dating	12	4.7
+6) Unhappy, problematic family life	17	6.6
+7) Empty emotional life; no friends	5	1.9
+8) Unsatisfying income	68	26.4
+9) Cannot afford what I want to purchase	3	1.2
+10) Bullied by others	1	0.4
+98) Refuse to answer [do not read]	2	0.8
+99) Hard to say/don't know [do not read]	1	0.4
+Missing	6763
+
+
+34) UNHAPPY2
+What are the main reasons that make you feel unhappy in your life? [Please select three from the following items.] Second reason
+RANGE: 2 to 10
+	N	Mean	Std. Deviation
+Total	181	7.243	1.803
+2) Ill health of family members	2	1.1
+3) My own ill health	11	6.1
+4) Problem at work	10	5.5
+5) Difficulty in dating	9	5.0
+6) Unhappy, problematic family life	14	7.7
+7) Empty emotional life; no friends	9	5.0
+8) Unsatisfying income	93	51.4
+9) Cannot afford what I want to purchase	32	17.7
+10) Bullied by others	1	0.6
+Missing	6840
+
+
+35) UNHAPPY3
+What are the main reasons that make you feel unhappy in your life? [Please select three from the following items.] Third reason
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	87	8.471	1.077
+1) Unaccomplished children	1	1.1
+6) Unhappy, problematic family life	2	2.3
+7) Empty emotional life; no friends	2	2.3
+8) Unsatisfying income	31	35.6
+9) Cannot afford what I want to purchase	48	55.2
+10) Bullied by others	3	3.4
+Missing	6934
+
+
+36) POLLUT
+There are many social problems in our society today. Do you think the following problems are serious in the place where you live? Are they very serious, somewhat serious, not very serious, and not at all serious? First, what do you think of environmental issues such as pollution?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.162	1.079
+1) Very important	2077	29.6
+2) Somewhat important	2442	34.8
+3) Somewhat unimportant	2064	29.4
+4) Not at all important	383	5.5
+8) Refuse to answer [do not read]	1	0.0
+9) Hard to say/don't know [do not read]	54	0.8
+
+
+37) UNEMPLOY
+There are many social problems in our society today. Do you think the following problems are serious in the place where you live? Are they very serious, somewhat serious, not very serious, and not at all serious? What do you think of unemployment?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.42	1.561
+1) Very important	1673	23.8
+2) Somewhat important	2770	39.5
+3) Somewhat unimportant	1866	26.6
+4) Not at all important	444	6.3
+8) Refuse to answer [do not read]	7	0.1
+9) Hard to say/don't know [do not read]	261	3.7
+
+
+38) NOAFFORD
+There are many social problems in our society today. Do you think the following problems are serious in the place where you live? Are they very serious, somewhat serious, not very serious, and not at all serious? What do you think of inability to afford schooling?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	3.255	1.452
+1) Very important	378	5.4
+2) Somewhat important	1213	17.3
+3) Somewhat unimportant	3140	44.7
+4) Not at all important	1993	28.4
+8) Refuse to answer [do not read]	13	0.2
+9) Hard to say/don't know [do not read]	284	4.0
+
+
+39) HLTHINS
+There are many social problems in our society today. Do you think the following problems are serious in the place where you live? Are they very serious, somewhat serious, not very serious, and not at all serious? What do you think of problems with health insurance?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.715	1.584
+1) Very important	999	14.2
+2) Somewhat important	2511	35.8
+3) Somewhat unimportant	2543	36.2
+4) Not at all important	658	9.4
+8) Refuse to answer [do not read]	12	0.2
+9) Hard to say/don't know [do not read]	298	4.2
+
+
+40) HOUSPROB
+There are many social problems in our society today. Do you think the following problems are serious in the place where you live? Are they very serious, somewhat serious, not very serious, and not at all serious? What do you think of housing problems?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.637	1.295
+1) Very important	1123	16.0
+2) Somewhat important	2136	30.4
+3) Somewhat unimportant	2638	37.6
+4) Not at all important	980	14.0
+8) Refuse to answer [do not read]	9	0.1
+9) Hard to say/don't know [do not read]	135	1.9
+
+
+41) GAPRICH
+There are many social problems in our society today. Do you think the following problems are serious in the place where you live? Are they very serious, somewhat serious, not very serious, and not at all serious? What do you think of the gap between rich and poor?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.047	1.332
+1) Very important	2585	36.8
+2) Somewhat important	2678	38.1
+3) Somewhat unimportant	1378	19.6
+4) Not at all important	224	3.2
+8) Refuse to answer [do not read]	3	0.0
+9) Hard to say/don't know [do not read]	153	2.2
+
+
+42) CORRUPT
+There are many social problems in our society today. Do you think the following problems are serious in the place where you live? Are they very serious, somewhat serious, not very serious, and not at all serious? What do you think of corruption of government officials?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.755	2.425
+1) Very important	2341	33.3
+2) Somewhat important	2317	33.0
+3) Somewhat unimportant	1249	17.8
+4) Not at all important	269	3.8
+8) Refuse to answer [do not read]	61	0.9
+9) Hard to say/don't know [do not read]	784	11.2
+
+
+43) ATTEND1
+Did you attend any of the following events in the past twelve months? First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7021	30.133	43.68
+1) Other people's weddings	4294	61.2
+2) Charity events	70	1.0
+3) Events organized by the Community Party and/or the Community Youth League	60	0.9
+4) Community social events	88	1.3
+5) Compilation of family genealogy/renovation ancestral temple	26	0.4
+6) Community-based lectures or discussions	19	0.3
+7) Group vacations organized by my workplace	67	1.0
+8) Vacations with family or friends	214	3.0
+9) Attending screenings in movie theatres	87	1.2
+97) None of the above [do not read]	2048	29.2
+98) Refused [do not read]	17	0.2
+99) Don't know [do not read]	31	0.4
+
+
+44) ATTEND2
+Did you attend any of the following events in the past twelve months? Second mention
+RANGE: 2 to 9
+	N	Mean	Std. Deviation
+Total	1814	5.599	2.561
+2) Charity events	329	18.1
+3) Events organized by the Community Party and/or the Community Youth League	209	11.5
+4) Community social events	265	14.6
+5) Compilation of family genealogy/renovation ancestral temple	58	3.2
+6) Community-based lectures or discussions	35	1.9
+7) Group vacations organized by my workplace	207	11.4
+8) Vacations with family or friends	537	29.6
+9) Attending screenings in movie theatres	174	9.6
+Missing	5207
+
+
+45) ATTEND3
+Did you attend any of the following events in the past twelve months? Third mention
+RANGE: 3 to 9
+	N	Mean	Std. Deviation
+Total	726	6.664	2.05
+3) Events organized by the Community Party and/or the Community Youth League	92	12.7
+4) Community social events	82	11.3
+5) Compilation of family genealogy/renovation ancestral temple	39	5.4
+6) Community-based lectures or discussions	36	5.0
+7) Group vacations organized by my workplace	114	15.7
+8) Vacations with family or friends	242	33.3
+9) Attending screenings in movie theatres	121	16.7
+Missing	6295
+
+
+46) ATTEND4
+Did you attend any of the following events in the past twelve months? Fourth mention
+RANGE: 4 to 9
+	N	Mean	Std. Deviation
+Total	276	7.435	1.542
+4) Community social events	25	9.1
+5) Compilation of family genealogy/renovation ancestral temple	17	6.2
+6) Community-based lectures or discussions	19	6.9
+7) Group vacations organized by my workplace	40	14.5
+8) Vacations with family or friends	102	37.0
+9) Attending screenings in movie theatres	73	26.4
+Missing	6745
+
+
+47) ATTEND5
+Did you attend any of the following events in the past twelve months? Fifth mention
+RANGE: 5 to 9
+	N	Mean	Std. Deviation
+Total	109	7.936	1.057
+5) Compilation of family genealogy/renovation ancestral temple	3	2.8
+6) Community-based lectures or discussions	10	9.2
+7) Group vacations organized by my workplace	16	14.7
+8) Vacations with family or friends	42	38.5
+9) Attending screenings in movie theatres	38	34.9
+Missing	6912
+
+
+48) ATTEND6
+Did you attend any of the following events in the past twelve months? Sixth mention
+RANGE: 6 to 9
+	N	Mean	Std. Deviation
+Total	39	8	0.973
+6) Community-based lectures or discussions	3	7.7
+7) Group vacations organized by my workplace	9	23.1
+8) Vacations with family or friends	12	30.8
+9) Attending screenings in movie theatres	15	38.5
+Missing	6982
+
+
+49) ATTEND7
+Did you attend any of the following events in the past twelve months? Seventh mention
+RANGE: 7 to 9
+	N	Mean	Std. Deviation
+Total	13	8	0.707
+7) Group vacations organized by my workplace	3	23.1
+8) Vacations with family or friends	7	53.8
+9) Attending screenings in movie theatres	3	23.1
+Missing	7008
+
+
+50) ATTEND8
+Did you attend any of the following events in the past twelve months? Eighth mention
+RANGE: 8 to 9
+	N	Mean	Std. Deviation
+Total	7	8.571	0.535
+8) Vacations with family or friends	3	42.9
+9) Attending screenings in movie theatres	4	57.1
+Missing	7014
+
+
+51) ATTEND9
+Did you attend any of the following events in the past twelve months? Ninth mention
+RANGE: 9 to 9
+	N	Mean	Std. Deviation
+Total	3	9	0
+9) Attending screenings in movie theatres	3	100.0
+Missing	7018
+
+
+52) SPNDWEDD
+Did you spend any money in the events? This includes donations of money and/or goods. Other people's weddings
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	4294	1.04	0.197
+1) Yes, I have spent some money	4121	96.0
+2) No, I didn't spend any money	173	4.0
+Missing	2727
+
+
+53) SPNDCHAR
+Did you spend any money in the events? This includes donations of money and/or goods. Charity events
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	399	1.236	0.425
+1) Yes, I have spent some money	305	76.4
+2) No, I didn't spend any money	94	23.6
+Missing	6622
+
+
+54) SPNDCPYL
+Did you spend any money in the events? This includes donations of money and/or goods. Events organized by the Community Party and/or the Community Youth League
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	361	1.643	0.48
+1) Yes, I have spent some money	129	35.7
+2) No, I didn't spend any money	232	64.3
+Missing	6660
+
+
+55) SPNDCOMM
+Did you spend any money in the events? This includes donations of money and/or goods. Community social events
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	460	1.83	0.376
+1) Yes, I have spent some money	78	17.0
+2) No, I didn't spend any money	382	83.0
+Missing	6561
+
+
+56) SPNDCOMP
+Did you spend any money in the events? This includes donations of money and/or goods. Compilation of family genealogy and/or renovation of ancestral temples
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	143	1.245	0.431
+1) Yes, I have spent some money	108	75.5
+2) No, I didn't spend any money	35	24.5
+Missing	6878
+
+
+57) SPNDLECT
+Did you spend any money in the events? This includes donations of money and/or goods. Community-based lectures or discussions
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	122	1.91	0.288
+1) Yes, I have spent some money	11	9.0
+2) No, I didn't spend any money	111	91.0
+Missing	6899
+
+
+58) SPNDGRVC
+Did you spend any money in the events? This includes donations of money and/or goods. Group vacations organized by my workplace
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	456	1.362	0.481
+1) Yes, I have spent some money	291	63.8
+2) No, I didn't spend any money	165	36.2
+Missing	6565
+
+
+59) SPNDVCFF
+Did you spend any money in the events? This includes donations of money and/or goods. Vacations with family or friends
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1159	1.085	0.28
+1) Yes, I have spent some money	1060	91.5
+2) No, I didn't spend any money	99	8.5
+Missing	5862
+
+
+60) SPNDMOV
+Did you spend any money in the events? This includes donations of money and/or goods. Attending screenings in movie theatres
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	518	1.234	0.424
+1) Yes, I have spent some money	397	76.6
+2) No, I didn't spend any money	121	23.4
+Missing	6503
+
+
+61) MONEYWED
+How much money did you spend and/or donate, including money spent on donated goods? Other people's weddings 
+RANGE: 9 to 99999999
+	N	Mean	Std. Deviation
+Total	4121	559021.59	7450682.117
+9) 	1	0.0
+15) 	1	0.0
+20) 	16	0.4
+30) 	18	0.4
+40) 	3	0.1
+50) 	121	2.9
+60) 	2	0.0
+70) 	1	0.0
+75) 	2	0.0
+80) 	2	0.0
+100) 	546	13.2
+120) 	3	0.1
+130) 	1	0.0
+150) 	41	1.0
+160) 	2	0.0
+180) 	1	0.0
+200) 	757	18.4
+250) 	9	0.2
+260) 	1	0.0
+280) 	1	0.0
+300) 	259	6.3
+350) 	5	0.1
+400) 	187	4.5
+450) 	2	0.0
+480) 	1	0.0
+500) 	443	10.7
+550) 	2	0.0
+600) 	123	3.0
+700) 	31	0.8
+800) 	109	2.6
+880) 	1	0.0
+900) 	7	0.2
+1000) 	623	15.1
+1050) 	1	0.0
+1100) 	3	0.1
+1200) 	20	0.5
+1300) 	6	0.1
+1400) 	4	0.1
+1500) 	89	2.2
+1550) 	1	0.0
+1600) 	15	0.4
+1700) 	1	0.0
+1800) 	11	0.3
+2000) 	294	7.1
+2100) 	2	0.0
+2200) 	2	0.0
+2300) 	3	0.1
+2400) 	1	0.0
+2500) 	13	0.3
+2600) 	3	0.1
+2700) 	1	0.0
+2800) 	4	0.1
+3000) 	140	3.4
+3500) 	4	0.1
+3600) 	2	0.0
+3800) 	1	0.0
+4000) 	43	1.0
+4500) 	7	0.2
+5000) 	54	1.3
+6000) 	13	0.3
+6500) 	1	0.0
+7000) 	6	0.1
+8000) 	8	0.2
+8005) 	1	0.0
+9000) 	1	0.0
+10000) 	16	0.4
+15000) 	1	0.0
+20000) 	2	0.0
+40000) 	1	0.0
+50000) 	1	0.0
+99999998) Refuse to answer [do not read]	2	0.0
+99999999) Hard to say/don't know [do not read]	21	0.5
+Missing	2900
+
+
+62) MONEYCHR
+How much money did you spend and/or donate, including money spent on donated goods? Charity events
+RANGE: 2 to 99999999
+	N	Mean	Std. Deviation
+Total	305	1967634.793	13909856.355
+2) 	4	1.3
+4) 	2	0.7
+5) 	5	1.6
+7) 	1	0.3
+10) 	18	5.9
+20) 	21	6.9
+30) 	3	1.0
+40) 	5	1.6
+50) 	47	15.4
+60) 	3	1.0
+70) 	1	0.3
+80) 	1	0.3
+100) 	76	24.9
+150) 	9	3.0
+200) 	36	11.8
+250) 	1	0.3
+300) 	22	7.2
+400) 	6	2.0
+500) 	15	4.9
+700) 	2	0.7
+900) 	1	0.3
+1000) 	10	3.3
+1500) 	1	0.3
+1600) 	1	0.3
+1700) 	1	0.3
+2000) 	4	1.3
+7000) 	1	0.3
+10000) 	1	0.3
+50000) 	1	0.3
+99999999) Hard to say/don't know [do not read]	6	2.0
+Missing	6716
+
+
+63) MONEYCPY
+How much money did you spend and/or donate, including money spent on donated goods? Events organized by the Community Party and/or the Community Youth League
+RANGE: 1 to 99999999
+	N	Mean	Std. Deviation
+Total	129	1550551.426	12402701.493
+1) 	2	1.6
+3) 	1	0.8
+4) 	4	3.1
+5) 	3	2.3
+10) 	4	3.1
+12) 	4	3.1
+15) 	2	1.6
+17) 	1	0.8
+20) 	4	3.1
+30) 	3	2.3
+50) 	6	4.7
+60) 	6	4.7
+70) 	1	0.8
+75) 	1	0.8
+80) 	3	2.3
+100) 	27	20.9
+120) 	6	4.7
+130) 	1	0.8
+150) 	1	0.8
+180) 	1	0.8
+200) 	17	13.2
+240) 	4	3.1
+250) 	1	0.8
+260) 	1	0.8
+300) 	9	7.0
+400) 	3	2.3
+500) 	5	3.9
+600) 	1	0.8
+700) 	1	0.8
+800) 	3	2.3
+900) 	1	0.8
+99999999) Hard to say/don't know [do not read]	2	1.6
+Missing	6892
+
+
+64) MONEYCOM
+How much money did you spend and/or donate, including money spent on donated goods? Community social events
+RANGE: 3 to 99999999
+	N	Mean	Std. Deviation
+Total	78	3846393.41	19355193.111
+3) 	1	1.3
+4) 	1	1.3
+5) 	4	5.1
+7) 	1	1.3
+10) 	7	9.0
+15) 	1	1.3
+20) 	7	9.0
+30) 	6	7.7
+50) 	10	12.8
+80) 	1	1.3
+100) 	11	14.1
+120) 	1	1.3
+150) 	2	2.6
+200) 	6	7.7
+250) 	1	1.3
+300) 	3	3.8
+400) 	1	1.3
+500) 	2	2.6
+600) 	1	1.3
+800) 	1	1.3
+1000) 	5	6.4
+3000) 	2	2.6
+99999999) Hard to say/don't know [do not read]	3	3.8
+Missing	6943
+
+
+65) MONEYCMP
+How much money did you spend and/or donate, including money spent on donated goods? Compilation of family genealogy and/or renovation of ancestral temples
+RANGE: 2 to 3000
+	N	Mean	Std. Deviation
+Total	108	304.074	468.936
+2) 	1	0.9
+6) 	1	0.9
+10) 	5	4.6
+17) 	1	0.9
+20) 	6	5.6
+30) 	2	1.9
+50) 	15	13.9
+60) 	2	1.9
+70) 	2	1.9
+75) 	1	0.9
+100) 	22	20.4
+200) 	15	13.9
+300) 	9	8.3
+400) 	2	1.9
+500) 	10	9.3
+600) 	2	1.9
+800) 	2	1.9
+1000) 	6	5.6
+2000) 	3	2.8
+3000) 	1	0.9
+Missing	6913
+
+
+66) MONEYLEC
+How much money did you spend and/or donate, including money spent on donated goods? Community-based lectures or discussions
+RANGE: 12 to 99999999
+	N	Mean	Std. Deviation
+Total	11	18181902	40451949.813
+12) 	2	18.2
+50) 	2	18.2
+100) 	3	27.3
+200) 	1	9.1
+300) 	1	9.1
+99999999) Hard to say/don't know [do not read]	2	18.2
+Missing	7010
+
+
+67) MONEYGRV
+How much money did you spend and/or donate, including money spent on donated goods? Group vacations organized by my workplace
+RANGE: 10 to 99999999
+	N	Mean	Std. Deviation
+Total	291	1375697.907	11663274.222
+10) 	1	0.3
+15) 	1	0.3
+20) 	4	1.4
+30) 	4	1.4
+40) 	1	0.3
+50) 	10	3.4
+100) 	25	8.6
+150) 	4	1.4
+170) 	1	0.3
+180) 	1	0.3
+200) 	36	12.4
+250) 	1	0.3
+300) 	16	5.5
+350) 	2	0.7
+400) 	8	2.7
+450) 	1	0.3
+500) 	25	8.6
+600) 	10	3.4
+700) 	1	0.3
+800) 	7	2.4
+900) 	1	0.3
+1000) 	56	19.2
+1180) 	1	0.3
+1200) 	2	0.7
+1500) 	8	2.7
+1600) 	2	0.7
+2000) 	29	10.0
+2500) 	1	0.3
+3000) 	13	4.5
+4000) 	1	0.3
+5000) 	6	2.1
+6000) 	2	0.7
+6300) 	1	0.3
+7000) 	1	0.3
+8000) 	1	0.3
+10000) 	2	0.7
+20000) 	1	0.3
+99999999) Hard to say/don't know [do not read]	4	1.4
+Missing	6730
+
+
+68) MONEYVFF
+How much money did you spend and/or donate, including money spent on donated goods? Vacations with family or friends
+RANGE: 1 to 99999999
+	N	Mean	Std. Deviation
+Total	1060	850705.676	9179404.005
+1) 	2	0.2
+2) 	1	0.1
+9) 	1	0.1
+15) 	1	0.1
+20) 	1	0.1
+30) 	4	0.4
+40) 	2	0.2
+50) 	11	1.0
+60) 	1	0.1
+75) 	1	0.1
+80) 	2	0.2
+90) 	1	0.1
+100) 	49	4.6
+120) 	1	0.1
+150) 	6	0.6
+175) 	1	0.1
+178) 	1	0.1
+180) 	1	0.1
+200) 	80	7.5
+250) 	2	0.2
+280) 	1	0.1
+300) 	73	6.9
+320) 	1	0.1
+350) 	2	0.2
+380) 	1	0.1
+400) 	33	3.1
+450) 	5	0.5
+500) 	128	12.1
+550) 	4	0.4
+600) 	23	2.2
+650) 	1	0.1
+700) 	8	0.8
+800) 	30	2.8
+900) 	2	0.2
+950) 	1	0.1
+1000) 	159	15.0
+1100) 	3	0.3
+1200) 	5	0.5
+1400) 	1	0.1
+1500) 	30	2.8
+1600) 	1	0.1
+1700) 	1	0.1
+1800) 	4	0.4
+2000) 	158	14.9
+2200) 	1	0.1
+2500) 	8	0.8
+2600) 	1	0.1
+2800) 	2	0.2
+3000) 	74	7.0
+3500) 	4	0.4
+3800) 	1	0.1
+4000) 	27	2.5
+4500) 	2	0.2
+5000) 	37	3.5
+5060) 	1	0.1
+5400) 	1	0.1
+6000) 	9	0.8
+6500) 	2	0.2
+7000) 	3	0.3
+8000) 	5	0.5
+10000) 	24	2.3
+11000) 	1	0.1
+12000) 	1	0.1
+17000) 	1	0.1
+20000) 	2	0.2
+99999999) Hard to say/don't know [do not read]	9	0.8
+Missing	5961
+
+
+69) MONEYMOV
+How much money did you spend and/or donate, including money spent on donated goods? Attending screenings in movie theatres
+RANGE: 1 to 99999999
+	N	Mean	Std. Deviation
+Total	397	1007636.03	9999610.226
+1) 	1	0.3
+2) 	2	0.5
+3) 	7	1.8
+4) 	1	0.3
+5) 	10	2.5
+6) 	3	0.8
+8) 	4	1.0
+9) 	1	0.3
+10) 	33	8.3
+12) 	2	0.5
+15) 	10	2.5
+20) 	42	10.6
+25) 	3	0.8
+30) 	31	7.8
+35) 	5	1.3
+40) 	14	3.5
+45) 	1	0.3
+50) 	58	14.6
+60) 	13	3.3
+70) 	5	1.3
+80) 	5	1.3
+85) 	1	0.3
+100) 	75	18.9
+120) 	4	1.0
+150) 	9	2.3
+160) 	3	0.8
+165) 	1	0.3
+200) 	31	7.8
+250) 	1	0.3
+280) 	2	0.5
+300) 	3	0.8
+360) 	1	0.3
+400) 	2	0.5
+480) 	1	0.3
+500) 	6	1.5
+600) 	2	0.5
+99999999) Hard to say/don't know [do not read]	4	1.0
+Missing	6624
+
+
+70) RELIGBLF
+Do you have any religious belief?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	1.89	0.695
+1) Yes	1109	15.8
+2) No	5863	83.5
+8) Refuse to answer [do not read]	3	0.0
+9) Hard to say/don't know [do not read]	46	0.7
+
+
+71) BELIEVE1
+Regardless of whether you have been to churches or temples, do you believe in any of the following? First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7020	77.802	38.313
+1) Buddhism	1168	16.6
+2) Daoism	24	0.3
+3) Confucianism	12	0.2
+4) Protestantism	165	2.4
+5) Catholicism	15	0.2
+6) Islam	30	0.4
+74) Chairman Mao	1	0.0
+97) I don't believe in anything/ I don't have any religious belief [do not read]	5481	78.1
+98) Refuse to answer [do not read]	5	0.1
+99) Hard to say/don't know [do not read]	119	1.7
+Missing	1
+
+
+72) BELIEVE2
+Regardless of whether you have been to churches or temples, do you believe in any of the following?  Second mention
+RANGE: 2 to 6
+	N	Mean	Std. Deviation
+Total	76	2.987	1.125
+2) Daoism	37	48.7
+3) Confucianism	11	14.5
+4) Protestantism	23	30.3
+5) Catholicism	2	2.6
+6) Islam	3	3.9
+Missing	6945
+
+
+73) BELIEVE3
+Regardless of whether you have been to churches or temples, do you believe in any of the following?  Third mention
+RANGE: 3 to 5
+	N	Mean	Std. Deviation
+Total	20	3.5	0.761
+3) Confucianism	13	65.0
+4) Protestantism	4	20.0
+5) Catholicism	3	15.0
+Missing	7001
+
+
+74) BELIEVE4
+Regardless of whether you have been to churches or temples, do you believe in any of the following?  Fourth mention
+RANGE: 4 to 6
+	N	Mean	Std. Deviation
+Total	7	4.571	0.787
+4) Protestantism	4	57.1
+5) Catholicism	2	28.6
+6) Islam	1	14.3
+Missing	7014
+
+
+75) BELIEVE5
+Regardless of whether you have been to churches or temples, do you believe in any of the following?  Fifth mention
+RANGE: 5 to 6
+	N	Mean	Std. Deviation
+Total	4	5.25	0.5
+5) Catholicism	3	75.0
+6) Islam	1	25.0
+Missing	7017
+
+
+76) BELIEVE6
+Regardless of whether you have been to churches or temples, do you believe in any of the following?  Sixth mention
+RANGE: 6 to 6
+	N	Mean	Std. Deviation
+Total	3	6	0
+6) Islam	3	100.0
+Missing	7018
+
+
+77) CONVBUDD
+Did you have a formal conversion ceremony? Buddhism
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1168	1.901	0.299
+1) Yes, there was a ceremony	116	9.9
+2) No ceremony	1052	90.1
+Missing	5853
+
+
+78) CONVDAO
+Did you have a formal conversion ceremony? Daoism
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	61	1.951	0.218
+1) Yes, there was a ceremony	3	4.9
+2) No ceremony	58	95.1
+Missing	6960
+
+
+79) CONVCONF
+Did you have a formal conversion ceremony? Confucianism
+RANGE: 2 to 2
+	N	Mean	Std. Deviation
+Total	36	2	0
+2) No ceremony	36	100.0
+Missing	6985
+
+
+80) CONVPROT
+Did you have a formal conversion ceremony? Protestantism
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	196	1.622	0.486
+1) Yes, there was a ceremony	74	37.8
+2) No ceremony	122	62.2
+Missing	6825
+
+
+81) CONVCATH
+Did you have a formal conversion ceremony? Catholicism
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	25	1.68	0.476
+1) Yes, there was a ceremony	8	32.0
+2) No ceremony	17	68.0
+Missing	6996
+
+
+82) CONVISLM
+Did you have a formal conversion ceremony? Islam
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	38	1.763	0.431
+1) Yes, there was a ceremony	9	23.7
+2) No ceremony	29	76.3
+Missing	6983
+
+
+83) CONVOTHR
+Did you have a formal conversion ceremony? Other religions
+RANGE: 2 to 2
+	N	Mean	Std. Deviation
+Total	2	2	0
+2) No ceremony	2	100.0
+Missing	7019
+
+
+84) KINDBUDD
+If you did, what kind of ceremony? Buddhism
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	115	13.783	33.149
+1) Buddhist conversion ceremony	100	87.0
+99) DK	15	13.0
+Missing	6906
+
+
+85) KINDDAO
+If you did, what kind of ceremony? Daoism
+RANGE: 4 to 4
+	N	Mean	Std. Deviation
+Total	3	4	0
+4) Daoist conversion ceremony	3	100.0
+Missing	7018
+
+
+86) KINDPROT
+If you did, what kind of ceremony? Protestantism
+RANGE: 2 to 99
+	N	Mean	Std. Deviation
+Total	74	4.635	15.835
+2) Protestant conversion ceremony (baptism)	71	95.9
+3) Catholic conversion ceremony (baptism)	1	1.4
+99) Don't know	2	2.7
+Missing	6947
+
+
+87) KINDCATH
+If you did, what kind of ceremony? Catholicism
+RANGE: 3 to 3
+	N	Mean	Std. Deviation
+Total	8	3	0
+3) Catholic conversion ceremony (baptism)	8	100.0
+Missing	7013
+
+
+88) KINDISLM
+Did you have a formal conversion ceremony? Islam
+RANGE: 5 to 5
+	N	Mean	Std. Deviation
+Total	9	5	0
+5) Islam conversion ceremony	9	100.0
+Missing	7012
+
+
+89) YEARBUDD
+When did you have the ceremony? Buddhism 
+RANGE: 1958 to 9999
+	N	Mean	Std. Deviation
+Total	116	4342.724	3657.97
+1958) 	1	0.9
+1960) 	1	0.9
+1969) 	1	0.9
+1970) 	1	0.9
+1971) 	1	0.9
+1972) 	1	0.9
+1973) 	1	0.9
+1980) 	2	1.7
+1985) 	1	0.9
+1987) 	2	1.7
+1988) 	1	0.9
+1990) 	2	1.7
+1991) 	1	0.9
+1993) 	2	1.7
+1994) 	1	0.9
+1995) 	1	0.9
+1996) 	4	3.4
+1997) 	3	2.6
+1998) 	6	5.2
+1999) 	4	3.4
+2000) 	4	3.4
+2001) 	3	2.6
+2002) 	2	1.7
+2003) 	5	4.3
+2004) 	2	1.7
+2005) 	4	3.4
+2006) 	18	15.5
+2007) 	7	6.0
+9998) Refuse to answer [do not read]	2	1.7
+9999) Hard to say/don't know [do not read]	32	27.6
+Missing	6905
+
+
+90) YEARDAO
+When did you have the ceremony? Daoism
+RANGE: 2003 to 2006
+	N	Mean	Std. Deviation
+Total	3	2004.667	1.528
+
+
+91) YEARPROT
+When did you have the ceremony? Protestantism
+RANGE: 1950 to 9999
+	N	Mean	Std. Deviation
+Total	74	3080	2753.659
+1950) 	1	1.4
+1971) 	1	1.4
+1978) 	1	1.4
+1979) 	2	2.7
+1984) 	1	1.4
+1991) 	1	1.4
+1993) 	1	1.4
+1994) 	2	2.7
+1995) 	3	4.1
+1997) 	5	6.8
+1998) 	2	2.7
+1999) 	1	1.4
+2000) 	5	6.8
+2001) 	3	4.1
+2002) 	8	10.8
+2003) 	4	5.4
+2004) 	7	9.5
+2005) 	4	5.4
+2006) 	11	14.9
+2007) 	1	1.4
+9999) Hard to say/don't know [do not read]	10	13.5
+Missing	6947
+
+
+92) YEARCATH
+When did you have the ceremony? Catholicism
+RANGE: 1980 to 2007
+	N	Mean	Std. Deviation
+Total	8	1997.375	9.226
+
+
+93) YEARISLM
+When did you have the ceremony? Islam
+RANGE: 1968 to 2006
+	N	Mean	Std. Deviation
+Total	9	1985.889	12.025
+
+
+94) MNTHBUDD
+When did you have the ceremony? Buddhism
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	116	31.828	42.589
+1) 	9	7.8
+2) 	5	4.3
+3) 	13	11.2
+4) 	11	9.5
+5) 	16	13.8
+6) 	6	5.2
+7) 	5	4.3
+8) 	3	2.6
+9) 	4	3.4
+10) 	9	7.8
+11) 	1	0.9
+12) 	1	0.9
+98) Refuse to answer [do not read]	1	0.9
+99) Hard to say/don't know [do not read]	32	27.6
+Missing	6905
+
+
+95) MNTHDAO
+When did you have the ceremony? Daoism
+RANGE: 4 to 9
+	N	Mean	Std. Deviation
+Total	3	6	2.646
+
+
+96) MNTHPROT
+When did you have the ceremony? Protestantism
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	74	20.054	33.331
+1) 	4	5.4
+2) 	2	2.7
+3) 	10	13.5
+4) 	1	1.4
+5) 	9	12.2
+6) 	8	10.8
+7) 	10	13.5
+8) 	2	2.7
+9) 	4	5.4
+10) 	9	12.2
+12) 	4	5.4
+99) Hard to say/don't know [do not read]	11	14.9
+Missing	6947
+
+
+97) MNTHCATH
+When did you have the ceremony? Catholicism
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	8	5.125	3.98
+
+
+98) MNTHISLM
+When did you have the ceremony? Islam
+RANGE: 5 to 98
+	N	Mean	Std. Deviation
+Total	9	17.444	30.291
+5) 	3	33.3
+7) 	2	22.2
+9) 	1	11.1
+10) 	1	11.1
+11) 	1	11.1
+98) Refuse to answer [do not read]	1	11.1
+Missing	7012
+
+
+99) RELIG15A
+And what was your religious belief when you were fifteen? First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7020	90.58	24.076
+1) Buddhism	402	5.7
+2) Daoism	7	0.1
+3) Confucianism	6	0.1
+4) Protestantism	36	0.5
+5) Catholicism	4	0.1
+6) Islam	23	0.3
+97) Don't believe in anything/have any religious belief	6255	89.1
+98) Refuse to answer [do not read]	13	0.2
+99) Hard to say/don't know [do not read]	274	3.9
+Missing	1
+
+
+100) RELIG15B
+And what was your religious belief when you were fifteen? Second mention
+RANGE: 2 to 6
+	N	Mean	Std. Deviation
+Total	19	2.789	1.134
+2) Daoism	11	57.9
+3) Confucianism	3	15.8
+4) Protestantism	4	21.1
+6) Islam	1	5.3
+Missing	7002
+
+
+101) RELIG15C
+And what was your religious belief when you were fifteen? Third mention
+RANGE: 3 to 3
+	N	Mean	Std. Deviation
+Total	2	3	0
+3) Confucianism	2	100.0
+Missing	7019
+
+
+102) RELVIEW
+Which one of the following is the closest to your view?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5481	2.006	2.474
+1) There is no such thing as God, gods, spirits, ghosts or Buddha in this world.	4200	76.6
+2) I don't believe in a particular religion, but I think there is/are God, gods, spirits, ghosts or Buddha in this world.	669	12.2
+8) Refuse to answer [do not read]	50	0.9
+9) Hard to say/don't know [do not read]	562	10.3
+Missing	1540
+
+
+103) RLVIEW15
+Which one of the following was closest to your view when you were fifteen?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	6255	2.331	2.78
+1) There is no such thing as God, gods, spirits, ghosts or Buddha in this world.	4356	69.6
+2) I don't believe in a particular religion, but I think there is/are God, gods, spirits, ghosts or Buddha in this world.	973	15.6
+8) Refuse to answer [do not read]	55	0.9
+9) Hard to say/don't know [do not read]	871	13.9
+Missing	766
+
+
+104) WORSHIP1
+Have you worshipped God or gods/spirits in the following settings in the past year? First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7020	38.989	46.505
+1) Conventional religious settings such as churches, Buddhist and/or Daoist temples	1279	18.2
+2) Grave side of deceased family member or ancestral temples	2857	40.7
+3) At home	136	1.9
+4) At workplace	3	0.0
+53) At hometown	1	0.0
+73) Travel industry sites	4	0.1
+97) I never worship God or gods/spirits [do not read]	2642	37.6
+98) Refuse to answer [do not read]	30	0.4
+99) Hard to say/don't know [do not read]	68	1.0
+Missing	1
+
+
+105) WORSHIP2
+Have you worshipped God or gods/spirits in the following settings in the past year? Second mention
+RANGE: 2 to 11
+	N	Mean	Std. Deviation
+Total	1222	2.369	0.542
+2) Grave side of deceased family member or ancestral temples	780	63.8
+3) At home	440	36.0
+4) At workplace	1	0.1
+11) Hold a memorial ceremony for Chairman Mao	1	0.1
+Missing	5799
+
+
+106) WORSHIP3
+Have you worshipped God or gods/spirits in the following settings in the past year? Third mention
+RANGE: 3 to 4
+	N	Mean	Std. Deviation
+Total	210	3.029	0.167
+3) At home	204	97.1
+4) At workplace	6	2.9
+Missing	6811
+
+
+107) WORSHIP4
+Have you worshipped God or gods/spirits in the following settings in the past year? Fourth mention
+RANGE: 4 to 4
+	N	Mean	Std. Deviation
+Total	5	4	0
+4) At workplace	5	100.0
+Missing	7016
+
+
+108) WRSHPCON
+Did you worship in this place regularly or only occasionally? Conventional religious settings such as churches, Buddhist and/or Daoist temples
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1279	1.902	0.695
+1) Regularly	197	15.4
+2) Occasionally	1070	83.7
+8) Refuse to answer/don't know [do not read]	12	0.9
+Missing	5742
+
+
+109) WRSHPGRV
+Did you worship in this place regularly or only occasionally? Grave side of deceased family member or ancestral temples
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	3637	1.978	0.577
+1) Regularly	241	6.6
+2) Occasionally	3369	92.6
+8) Refuse to answer/don't know [do not read]	27	0.7
+Missing	3384
+
+
+110) WRSHPHOM
+Did you worship in this place regularly or only occasionally? At home
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	780	1.741	0.68
+1) Regularly	232	29.7
+2) Occasionally	543	69.6
+8) Refuse to answer/don't know [do not read]	5	0.6
+Missing	6241
+
+
+111) WRSHPWRK
+Did you worship in this place regularly or only occasionally? At workplace)
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	15	2.533	2.264
+1) Regularly	4	26.7
+2) Occasionally	9	60.0
+8) Refuse to answer/don't know [do not read]	2	13.3
+Missing	7006
+
+
+112) WRSHPOTH
+Did you worship in this place regularly or only occasionally? Other places [please specify]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	9	1.889	0.333
+1) Regularly	1	11.1
+2) Occasionally	8	88.9
+Missing	7012
+
+
+113) ACTIVTY1
+In the past year, which of the following activities did you participate in? First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7021	26.459	42.123
+1) Venerate ancestral spirits by their graves	4743	67.6
+2) Attend church services	97	1.4
+3) Attend services in mosques	22	0.3
+4) Attend formal services in Buddhist temples	20	0.3
+5) Pray, worship, and/or burn incense in Buddhist temples	191	2.7
+6) Attend formal services in Daoist temples	5	0.1
+7) Pray, worship, and/or burn incense in Daoist temples	17	0.2
+8) Pray, worship and burn incense in Confucian temples	6	0.1
+9) Pray, worship and/or burn incense in ancestral temples	24	0.3
+10) Pray, worship and/or burn incense in other temples	54	0.8
+97) I didn't attend any of the above [do not read]	1777	25.3
+98) Refuse to answer [do not read]	26	0.4
+99) Hard to say/don't know [do not read]	39	0.6
+
+
+114) ACTIVTY2
+In the past year, which of the following activities did you participate in? Second mention
+RANGE: 2 to 10
+	N	Mean	Std. Deviation
+Total	947	5.962	2.144
+2) Attend church services	41	4.3
+3) Attend services in mosques	8	0.8
+4) Attend formal services in Buddhist temples	48	5.1
+5) Pray, worship, and/or burn incense in Buddhist temples	567	59.9
+6) Attend formal services in Daoist temples	17	1.8
+7) Pray, worship, and/or burn incense in Daoist temples	53	5.6
+8) Pray, worship and burn incense in Confucian temples	16	1.7
+9) Pray, worship and/or burn incense in ancestral temples	58	6.1
+10) Pray, worship and/or burn incense in other temples	139	14.7
+Missing	6074
+
+
+115) ACTIVTY3
+In the past year, which of the following activities did you participate in? Third mention
+RANGE: 3 to 10
+	N	Mean	Std. Deviation
+Total	129	8.039	2.036
+3) Attend services in mosques	1	0.8
+4) Attend formal services in Buddhist temples	2	1.6
+5) Pray, worship, and/or burn incense in Buddhist temples	26	20.2
+6) Attend formal services in Daoist temples	2	1.6
+7) Pray, worship, and/or burn incense in Daoist temples	20	15.5
+8) Pray, worship and burn incense in Confucian temples	4	3.1
+9) Pray, worship and/or burn incense in ancestral temples	28	21.7
+10) Pray, worship and/or burn incense in other temples	46	35.7
+Missing	6892
+
+
+116) ACTIVTY4
+In the past year, which of the following activities did you participate in? Fourth mention
+RANGE: 6 to 10
+	N	Mean	Std. Deviation
+Total	13	8.538	1.266
+6) Attend formal services in Daoist temples	1	7.7
+7) Pray, worship, and/or burn incense in Daoist temples	1	7.7
+8) Pray, worship and burn incense in Confucian temples	5	38.5
+9) Pray, worship and/or burn incense in ancestral temples	2	15.4
+10) Pray, worship and/or burn incense in other temples	4	30.8
+Missing	7008
+
+
+117) ACTIVTY5
+In the past year, which of the following activities did you participate in? Fifth mention
+RANGE: 7 to 10
+	N	Mean	Std. Deviation
+Total	5	8.8	1.095
+7) Pray, worship, and/or burn incense in Daoist temples	1	20.0
+9) Pray, worship and/or burn incense in ancestral temples	3	60.0
+10) Pray, worship and/or burn incense in other temples	1	20.0
+Missing	7016
+
+
+118) ACTIVTY6
+In the past year, which ones of the following activities did you participate in? Sixth mention
+RANGE: 10 to 10
+	N	Mean	Std. Deviation
+Total	3	10	0
+10) Pray, worship and/or burn incense in other temples	3	100.0
+Missing	7018
+
+
+119) ACTVWITH
+In general, when you performed these activities, did you do it mostly by yourself, or did you mostly perform them with family members or other people?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5244	2.083	0.886
+1) By myself	506	9.6
+2) With family members	4327	82.5
+3) With other people I know, but without family members	178	3.4
+4) With other people I know, including family members	160	3.1
+5) With other people, most of whom I did not know	11	0.2
+8) Refuse to answer [do not read]	24	0.5
+9) Hard to say/don't know [do not read]	38	0.7
+Missing	1777
+
+
+120) ACTVFREQ
+In general, did you participate in these activities regularly or only occasionally?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5244	2.128	1.989
+1) Only during religious and/or traditional holidays such as Grave Sweeping Day (or Festival for Tending Graves) and Spring Festival	3779	72.1
+2) Once or twice a month	127	2.4
+3) Once a week	56	1.1
+4) Daily	16	0.3
+5) Only occasionally	1114	21.2
+8) Refuse to answer [do not read]	42	0.8
+9) Hard to say/don't know [do not read]	110	2.1
+Missing	1777
+
+
+121) ITEMS1
+Do you have any of the following items at home? First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7012	68.275	42.808
+1) Statue or portrait of the god of wealth	550	7.8
+2) Christian objects such as the cross or the portrait of Jesus	142	2.0
+3) Muslim objects	28	0.4
+4) Buddhist objects such as statue or portrait of a Buddha	561	8.0
+5) Daoist objects such as statue or portrait of Laozi	6	0.1
+6) Statue or portrait of Confucius	5	0.1
+7) Statue or portrait of Chairman Mao	406	5.8
+8) Ancestral tablets	351	5.0
+9) Statue or portrait of other gods or spirits, such as the earth god (or locality god), the god of the kitchen, the god of prowess, and/or the door gods	132	1.9
+97) No religious objects [do not read]	4783	68.2
+98) Refuse to answer [do not read]	17	0.2
+99) Hard to say/don't know [do not read]	31	0.4
+Missing	9
+
+
+122) ITEMS2
+Do you have any of the following items at home? Second mention
+RANGE: 2 to 9
+	N	Mean	Std. Deviation
+Total	681	6.999	1.903
+2) Christian objects such as the cross or the portrait of Jesus	2	0.3
+3) Muslim objects	3	0.4
+4) Buddhist objects such as statue or portrait of a Buddha	163	23.9
+5) Daoist objects such as statue or portrait of Laozi	4	0.6
+6) Statue or portrait of Confucius	3	0.4
+7) Statue or portrait of Chairman Mao	164	24.1
+8) Ancestral tablets	163	23.9
+9) Statue or portrait of other gods or spirits, such as the earth god (or locality god), the god of the kitchen, the god of prowess, and/or the door gods	179	26.3
+Missing	6340
+
+
+123) ITEMS3
+Do you have any of the following items at home? Third mention
+RANGE: 3 to 9
+	N	Mean	Std. Deviation
+Total	230	8.222	0.943
+3) Muslim objects	1	0.4
+4) Buddhist objects such as statue or portrait of a Buddha	1	0.4
+5) Daoist objects such as statue or portrait of Laozi	3	1.3
+6) Statue or portrait of Confucius	1	0.4
+7) Statue or portrait of Chairman Mao	36	15.7
+8) Ancestral tablets	81	35.2
+9) Statue or portrait of other gods or spirits, such as the earth god (or locality god), the god of the kitchen, the god of prowess, and/or the door gods	107	46.5
+Missing	6791
+
+
+124) ITEMS4
+Do you have any of the following items at home? Fourth mention
+RANGE: 4 to 9
+	N	Mean	Std. Deviation
+Total	50	8.6	0.857
+4) Buddhist objects such as statue or portrait of a Buddha	1	2.0
+7) Statue or portrait of Chairman Mao	2	4.0
+8) Ancestral tablets	11	22.0
+9) Statue or portrait of other gods or spirits, such as the earth god (or locality god), the god of the kitchen, the god of prowess, and/or the door gods	36	72.0
+Missing	6971
+
+
+125) ITEMS5
+Do you have any of the following items at home? Fifth mention
+RANGE: 5 to 9
+	N	Mean	Std. Deviation
+Total	9	8.444	1.333
+5) Daoist objects such as statue or portrait of Laozi	1	11.1
+8) Ancestral tablets	1	11.1
+9) Statue or portrait of other gods or spirits, such as the earth god (or locality god), the god of the kitchen, the god of prowess, and/or the door gods	7	77.8
+Missing	7012
+
+
+126) ITEMS6
+Do you have any of the following items at home? Sixth mention
+RANGE: 7 to 7
+	N	Mean	Std. Deviation
+Total	1	7	0
+7) Statue or portrait of Chairman Mao	1	100.0
+Missing	7020
+
+
+127) WRKITMS1
+Do you have the following items in your workplace, such as the restaurant or shop that you work in, or in your office? First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7019	88.466	26.997
+1) Statue or portrait of the god of wealth	304	4.3
+2) Christian objects such as the cross or the portrait of Jesus	42	0.6
+3) Muslim objects	8	0.1
+4) Buddhist objects such as statue or portrait of a Buddha	66	0.9
+5) Daoist objects such as statue or portrait of Laozi	4	0.1
+6) Statue or portrait of Confucius	14	0.2
+7) Statue or portrait of Chairman Mao	130	1.9
+8) Ancestral tablets	24	0.3
+9) Statue or portrait of other gods or spirits, such as the earth god (or locality god), the god of the kitchen, the god of prowess, and/or the door gods	53	0.8
+96) Inapplicable, no workplace	15	0.2
+97) No religious objects [do not read]	6175	88.0
+98) Refuse to answer [do not read]	45	0.6
+99) Hard to say/don't know [do not read]	139	2.0
+Missing	2
+
+
+128) WRKITMS2
+Do you have the following items in your workplace, such as the restaurant or shop that you work in, or in your office? Second mention
+RANGE: 2 to 9
+	N	Mean	Std. Deviation
+Total	146	6.842	2.113
+2) Christian objects such as the cross or the portrait of Jesus	2	1.4
+3) Muslim objects	5	3.4
+4) Buddhist objects such as statue or portrait of a Buddha	34	23.3
+6) Statue or portrait of Confucius	1	0.7
+7) Statue or portrait of Chairman Mao	46	31.5
+8) Ancestral tablets	6	4.1
+9) Statue or portrait of other gods or spirits, such as the earth god (or locality god), the god of the kitchen, the god of prowess, and/or the door gods	52	35.6
+Missing	6875
+
+
+129) WRKITMS3
+Do you have the following items in your workplace, such as the restaurant or shop that you work in, or in your office? Third mention
+RANGE: 4 to 9
+	N	Mean	Std. Deviation
+Total	26	7.923	1.695
+4) Buddhist objects such as statue or portrait of a Buddha	3	11.5
+6) Statue or portrait of Confucius	1	3.8
+7) Statue or portrait of Chairman Mao	4	15.4
+8) Ancestral tablets	2	7.7
+9) Statue or portrait of other gods or spirits, such as the earth god (or locality god), the god of the kitchen, the god of prowess, and/or the door gods	16	61.5
+Missing	6995
+
+
+130) WRKITMS4
+Do you have the following items in your workplace, such as the restaurant or shop that you work in, or in your office? Fourth mention
+RANGE: 7 to 9
+	N	Mean	Std. Deviation
+Total	4	7.75	0.957
+7) Statue or portrait of Chairman Mao	2	50.0
+8) Ancestral tablets	1	25.0
+9) Statue or portrait of other gods or spirits, such as the earth god (or locality god), the god of the kitchen, the god of prowess, and/or the door gods	1	25.0
+Missing	7017
+
+
+131) WRKITMS5
+Do you have the following items in your workplace, such as the restaurant or shop that you work in, or in your office? Fifth mention
+RANGE: 9 to 9
+	N	Mean	Std. Deviation
+Total	2	9	0
+9) Statue or portrait of other gods or spirits, such as the earth god (or locality god), the god of the kitchen, the god of prowess, and/or the door gods	2	100.0
+Missing	7019
+
+
+132) WEARACC1
+Have you worn any of the following accessories in the past year? First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	6981	85.016	31.429
+1) Christian objects such as the crucifix on a necklace	93	1.3
+2) Buddhist objects such as prayer beads, miniature Buddhist statues or other Buddhist-related accessories	473	6.8
+3) Daoist objects that are worn for protection and good fortune	35	0.5
+4) Other talisman that is worn for protection, but I don't know which religious tradition it belongs to	188	2.7
+5) Chairman Mao-related accessories	88	1.3
+6) Muslim-related objects	11	0.2
+97) I don't have any such accessories [do not read]	6044	86.6
+98) Refuse to answer [do not read]	24	0.3
+99) Hard to say/don't know [do not read]	25	0.4
+Missing	40
+
+
+133) WEARACC2
+Have you worn any of the following accessories in the past year? Second mention
+RANGE: 2 to 5
+	N	Mean	Std. Deviation
+Total	95	3.716	0.883
+2) Buddhist objects such as prayer beads, miniature Buddhist statues or other Buddhist-related accessories	12	12.6
+3) Daoist objects that are worn for protection and good fortune	18	18.9
+4) Other talisman that is worn for protection, but I don't know which religious tradition it belongs to	50	52.6
+5) Chairman Mao-related accessories	15	15.8
+Missing	6926
+
+
+134) WEARACC3
+Have you worn any of the following accessories in the past year? Third mention
+RANGE: 3 to 4
+	N	Mean	Std. Deviation
+Total	7	3.857	0.378
+3) Daoist objects that are worn for protection and good fortune	1	14.3
+4) Other talisman that is worn for protection, but I don't know which religious tradition it belongs to	6	85.7
+Missing	7014
+
+
+135) WEARACC4
+Have you worn any of the following accessories in the past year? Fourth mention
+RANGE: 4 to 4
+	N	Mean	Std. Deviation
+Total	1	4	0
+4) Other talisman that is worn for protection, but I don't know which religious tradition it belongs to	1	100.0
+Missing	7020
+
+
+136) INVWEDD1
+In the following special occasions or events, have you invited any of the following people to officiate or participate? Wedding (first mention)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	6906	92.244	19.895
+1) Buddhist monks	2	0.0
+2) Daoist priests	12	0.2
+3) Protestant ministers	14	0.2
+4) Catholic priests	9	0.1
+5) Muslim imams	20	0.3
+6) Communist Party officials	193	2.8
+7) Feng Shui masters	88	1.3
+8) People with supernatural powers such as shamans	10	0.1
+96) I have not had such occasions or events [do not read]	1312	19.0
+97) I have not invited any of the people mentioned above [do not read]	5151	74.6
+98) Refuse to answer [do not read]	26	0.4
+99) Hard to say/don't know [do not read]	69	1.0
+Missing	115
+
+
+137) INVWEDD2
+In the following special occasions or events, have you invited any of the following people to officiate or participate? Wedding (second mention)
+RANGE: 5 to 6
+	N	Mean	Std. Deviation
+Total	5	5.8	0.447
+5) Muslim imams	1	20.0
+6) Communist Party officials	4	80.0
+Missing	7016
+
+
+138) INVOPBS1
+In the following special occasions or events, have you invited any of the following people to officiate or participate? Opening of new business (first mention)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7001	94.082	15.172
+1) Buddhist monks	6	0.1
+2) Daoist priests	9	0.1
+3) Protestant ministers	4	0.1
+4) Catholic priests	1	0.0
+5) Muslim imams	14	0.2
+6) Communist Party officials	59	0.8
+7) Feng Shui masters	96	1.4
+8) People with supernatural powers such as shamans	13	0.2
+96) I have not had such occasions or events [do not read]	2294	32.8
+97) I have not invited any of the people mentioned above [do not read]	4382	62.6
+98) Refuse to answer [do not read]	27	0.4
+99) Hard to say/don't know [do not read]	96	1.4
+Missing	20
+
+
+139) INVOPBS2
+In the following special occasions or events, have you invited any of the following people to officiate or participate? Opening of new business (second mention)
+RANGE: 2 to 7
+	N	Mean	Std. Deviation
+Total	6	5	2.366
+2) Daoist priests	2	33.3
+6) Communist Party officials	2	33.3
+7) Feng Shui masters	2	33.3
+Missing	7015
+
+
+140) INVILL1
+In the following special occasions or events, have you invited any of the following people to officiate or participate? Sudden illness (first mention)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	6955	94.742	13.535
+1) Buddhist monks	3	0.0
+2) Daoist priests	12	0.2
+3) Protestant ministers	18	0.3
+4) Catholic priests	6	0.1
+5) Muslim imams	10	0.1
+6) Communist Party officials	24	0.3
+7) Feng Shui masters	21	0.3
+8) People with supernatural powers such as shamans	64	0.9
+96) I have not had such occasions or events [do not read]	1562	22.5
+97) I have not invited any of the people mentioned above [do not read]	5102	73.4
+98) Refuse to answer [do not read]	37	0.5
+99) Hard to say/don't know [do not read]	96	1.4
+Missing	66
+
+
+141) INVILL2
+In the following special occasions or events, have you invited any of the following people to officiate or participate? Sudden illness (second mention)
+RANGE: 7 to 8
+	N	Mean	Std. Deviation
+Total	3	7.333	0.577
+7) Feng Shui masters	2	66.7
+8) People with supernatural powers such as shamans	1	33.3
+Missing	7018
+
+
+142) INVHOUS1
+In the following special occasions or events, have you invited any of the following people to officiate or participate? Purchase of a new house or apartment, renovation, and/or moving (first mention)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	6942	89.35	24.871
+1) Buddhist monks	6	0.1
+2) Daoist priests	19	0.3
+3) Protestant ministers	2	0.0
+5) Muslim imams	14	0.2
+6) Communist Party officials	30	0.4
+7) Feng Shui masters	484	7.0
+8) People with supernatural powers such as shamans	21	0.3
+96) I have not had such occasions or events [do not read]	1298	18.7
+97) I have not invited any of the people mentioned above [do not read]	4949	71.3
+98) Refuse to answer [do not read]	29	0.4
+99) Hard to say/don't know [do not read]	90	1.3
+Missing	79
+
+
+143) INVNWHS2
+In the following special occasions or events, have you invited any of the following people to officiate or participate? Purchase of a new house or apartment, renovation, and/or moving (second mention)
+RANGE: 2 to 8
+	N	Mean	Std. Deviation
+Total	10	6.8	1.814
+2) Daoist priests	1	10.0
+6) Communist Party officials	1	10.0
+7) Feng Shui masters	4	40.0
+8) People with supernatural powers such as shamans	4	40.0
+Missing	7011
+
+
+144) INVFNRL1
+In the following special occasions or events, have you invited any of the following people to officiate or participate? Funeral (first mention)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	6950	81.851	34.253
+1) Buddhist monks	190	2.7
+2) Daoist priests	553	8.0
+3) Protestant ministers	14	0.2
+4) Catholic priests	4	0.1
+5) Muslim imams	21	0.3
+6) Communist Party officials	44	0.6
+7) Feng Shui masters	170	2.4
+8) People with supernatural powers such as shamans	117	1.7
+96) I have not had such occasions or events [do not read]	1436	20.7
+97) I have not invited any of the people mentioned above [do not read]	4248	61.1
+98) Refuse to answer [do not read]	42	0.6
+99) Hard to say/don't know [do not read]	111	1.6
+Missing	71
+
+
+145) INVFNRL2
+In the following special occasions or events, have you invited any of the following people to officiate or participate? Funeral (second mention)
+RANGE: 2 to 8
+	N	Mean	Std. Deviation
+Total	126	6.23	2.11
+2) Daoist priests	24	19.0
+6) Communist Party officials	4	3.2
+7) Feng Shui masters	71	56.3
+8) People with supernatural powers such as shamans	27	21.4
+Missing	6895
+
+
+146) INVFNRL3
+In the following special occasions or events, have you invited any of the following people to officiate or participate? Funeral (third mention)
+RANGE: 7 to 8
+	N	Mean	Std. Deviation
+Total	19	7.684	0.478
+7) Feng Shui masters	6	31.6
+8) People with supernatural powers such as shamans	13	68.4
+Missing	7002
+
+
+147) FUTRWDD1
+In the future, if you encounter such occasions or events, would you invite any of the following people to officiate or participate? Wedding (first mention)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	6416	93.687	17.007
+1) Buddhist monks	6	0.1
+2) Daoist priests	1	0.0
+3) Protestant ministers	48	0.7
+4) Catholic priests	29	0.5
+5) Muslim imams	5	0.1
+6) Communist Party officials	97	1.5
+7) Feng Shui masters	36	0.6
+8) People with supernatural powers such as shamans	6	0.1
+96) I have not had such occasions or events [do not read]	882	13.7
+97) I have not invited any of the people mentioned above [do not read]	5009	78.1
+98) Refuse to answer [do not read]	29	0.5
+99) Hard to say/don't know [do not read]	268	4.2
+Missing	605
+
+
+148) FUTRWDD2
+In the future, if you encounter such occasions or events, would you invite any of the following people to officiate or participate? Wedding (second mention)
+RANGE: 6 to 6
+	N	Mean	Std. Deviation
+Total	1	6	0
+6) Communist Party officials	1	100.0
+Missing	7020
+
+
+149) FUTROPN1
+In the future, if you encounter such occasions or events, would you invite any of the following people to officiate or participate? Opening of new business (first mention)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	6628	93.106	18.273
+1) Buddhist monks	8	0.1
+2) Daoist priests	8	0.1
+3) Protestant ministers	8	0.1
+4) Catholic priests	1	0.0
+5) Muslim imams	4	0.1
+6) Communist Party officials	65	1.0
+7) Feng Shui masters	181	2.7
+8) People with supernatural powers such as shamans	6	0.1
+96) I have not had such occasions or events [do not read]	969	14.6
+97) I have not invited any of the people mentioned above [do not read]	5047	76.1
+98) Refuse to answer [do not read]	24	0.4
+99) Hard to say/don't know [do not read]	307	4.6
+Missing	393
+
+
+150) FUTROPN2
+In the future, if you encounter such occasions or events, would you invite any of the following people to officiate or participate? Opening of new business (second mention)
+RANGE: 6 to 8
+	N	Mean	Std. Deviation
+Total	7	7.143	0.69
+6) Communist Party officials	1	14.3
+7) Feng Shui masters	4	57.1
+8) People with supernatural powers such as shamans	2	28.6
+Missing	7014
+
+
+151) FUTROPN3
+In the future, if you encounter such occasions or events, would you invite any of the following people to officiate or participate? Opening of new business (third mention)
+RANGE: 7 to 7
+	N	Mean	Std. Deviation
+Total	1	7	0
+7) Feng Shui masters	1	100.0
+Missing	7020
+
+
+152) FUTRILL1
+In the future, if you encounter such occasions or events, would you invite any of the following people to officiate or participate? Sudden illness (first mention)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	6629	95.765	10.596
+1) Buddhist monks	7	0.1
+2) Daoist priests	7	0.1
+3) Protestant ministers	8	0.1
+4) Catholic priests	7	0.1
+5) Muslim imams	5	0.1
+6) Communist Party officials	15	0.2
+7) Feng Shui masters	12	0.2
+8) People with supernatural powers such as shamans	29	0.4
+96) I have not had such occasions or events [do not read]	620	9.4
+97) I have not invited any of the people mentioned above [do not read]	5574	84.1
+98) Refuse to answer [do not read]	29	0.4
+99) Hard to say/don't know [do not read]	316	4.8
+Missing	392
+
+
+153) FUTRILL2
+In the future, if you encounter such occasions or events, would you invite any of the following people to officiate or participate? Sudden illness (second mention)
+RANGE: 2 to 8
+	N	Mean	Std. Deviation
+Total	4	5.5	2.517
+2) Daoist priests	1	25.0
+6) Communist Party officials	2	50.0
+8) People with supernatural powers such as shamans	1	25.0
+Missing	7017
+
+
+154) FUTRHS1
+In the future, if you encounter such occasions or events, would you invite any of the following people to officiate or participate? Purchase of a new house or apartment, renovation, and/or moving (first mention)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	6216	92.822	19.003
+1) Buddhist monks	5	0.1
+2) Daoist priests	8	0.1
+3) Protestant ministers	10	0.2
+4) Catholic priests	3	0.0
+5) Muslim imams	3	0.0
+6) Communist Party officials	25	0.4
+7) Feng Shui masters	226	3.6
+8) People with supernatural powers such as shamans	7	0.1
+96) I have not had such occasions or events [do not read]	580	9.3
+97) I have not invited any of the people mentioned above [do not read]	5045	81.2
+98) Refuse to answer [do not read]	23	0.4
+99) Hard to say/don't know [do not read]	281	4.5
+Missing	805
+
+
+155) FUTRHS2
+In the future, if you encounter such occasions or events, would you invite any of the following people to officiate or participate? Purchase of a new house or apartment, renovation, and/or moving (second mention)
+RANGE: 6 to 8
+	N	Mean	Std. Deviation
+Total	5	7.4	0.894
+6) Communist Party officials	1	20.0
+7) Feng Shui masters	1	20.0
+8) People with supernatural powers such as shamans	3	60.0
+Missing	7016
+
+
+156) FUTRFNR1
+In the future, if you encounter such occasions or events, would you invite any of the following people to officiate or participate? Funeral (first mention)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5660	89.753	25.032
+1) Buddhist monks	91	1.6
+2) Daoist priests	143	2.5
+3) Protestant ministers	26	0.5
+4) Catholic priests	4	0.1
+5) Muslim imams	4	0.1
+6) Communist Party officials	25	0.4
+7) Feng Shui masters	61	1.1
+8) People with supernatural powers such as shamans	90	1.6
+96) I have not had such occasions or events [do not read]	382	6.7
+97) I have not invited any of the people mentioned above [do not read]	4495	79.4
+98) Refuse to answer [do not read]	33	0.6
+99) Hard to say/don't know [do not read]	306	5.4
+Missing	1361
+
+
+157) FUTRFNR2
+In the future, if you encounter such occasions or events, would you invite any of the following people to officiate or participate? Funeral (second mention)
+RANGE: 2 to 8
+	N	Mean	Std. Deviation
+Total	22	4.955	2.82
+2) Daoist priests	10	45.5
+6) Communist Party officials	2	9.1
+7) Feng Shui masters	3	13.6
+8) People with supernatural powers such as shamans	7	31.8
+Missing	6999
+
+
+158) MARSTAT
+What is your current marital status? (A215)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	1.914	1.863
+1) Married	5502	78.4
+2) Unmarried, living with boyfriend or girlfriend	193	2.7
+3) Separated	24	0.3
+4) Divorced	108	1.5
+5) Widowed	166	2.4
+6) Unmarried, and not living with boyfriend or girlfriend	1004	14.3
+8) Refuse to answer [do not read]	21	0.3
+9) Hard to say/don't know [do not read]	3	0.0
+
+
+159) FTHRREL1
+What is your father's religious belief? [Multiple answers; if father is deceased, ask about his religious belief before his death] First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7013	84.034	32.894
+1) Buddhism	820	11.7
+2) Daoism	22	0.3
+3) Confucianism	10	0.1
+4) Protestantism	68	1.0
+5) Catholicism	7	0.1
+6) Islam	33	0.5
+97) No religious belief	5639	80.4
+98) Refuse to answer [do not read]	39	0.6
+99) Hard to say/don't know [do not read]	375	5.3
+Missing	8
+
+
+160) FTHRREL2
+What is your father's religious belief? [Multiple answers; if father is deceased, ask about his religious belief before his death] Second mention
+RANGE: 2 to 2
+	N	Mean	Std. Deviation
+Total	8	2	0
+2) Daoism	8	100.0
+Missing	7013
+
+
+161) FTHR15_1
+What was your father's religious belief when you were fifteen? [Multiple answers.] First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7015	88.006	28.281
+1) Buddhism	586	8.4
+2) Daoism	17	0.2
+3) Confucianism	7	0.1
+4) Protestantism	29	0.4
+5) Catholicism	7	0.1
+6) Islam	30	0.4
+97) No religious belief	5565	79.3
+98) Refuse to answer [do not read]	38	0.5
+99) Hard to say/don't know [do not read]	736	10.5
+Missing	6
+
+
+162) FTHR15_2
+What was your father's religious belief when you were fifteen? [Multiple answers.] Second mention
+RANGE: 2 to 2
+	N	Mean	Std. Deviation
+Total	4	2	0
+2) Daoism	4	100.0
+Missing	7017
+
+
+163) MTHRREL1
+What is your mother's religious belief? [Multiple answers; if mother is deceased, ask about her religious belief before his death] First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7015	76.384	39.423
+1) Buddhism	1264	18.0
+2) Daoism	32	0.5
+3) Confucianism	11	0.2
+4) Protestantism	172	2.5
+5) Catholicism	12	0.2
+6) Islam	31	0.4
+97) No religious belief	5115	72.9
+98) Refuse to answer [do not read]	38	0.5
+99) Hard to say/don't know [do not read]	340	4.8
+Missing	6
+
+
+164) MTHRREL2
+What is your mother's religious belief? [Multiple answers; if mother is deceased, ask about her religious belief before his death] Second mention
+RANGE: 2 to 2
+	N	Mean	Std. Deviation
+Total	11	2	0
+2) Daoism	11	100.0
+Missing	7010
+
+
+165) MTHR15_1
+What was your father's religious belief when you were fifteen? [Multiple answers.] First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7017	84.068	33.019
+1) Buddhism	824	11.7
+2) Daoism	22	0.3
+3) Confucianism	9	0.1
+4) Protestantism	74	1.1
+5) Catholicism	6	0.1
+6) Islam	31	0.4
+97) No religious belief	5254	74.9
+98) Refuse to answer [do not read]	43	0.6
+99) Hard to say/don't know [do not read]	754	10.7
+Missing	4
+
+
+166) MTHR15_2
+What was your father's religious belief when you were fifteen? [Multiple answers.] Second mention
+RANGE: 2 to 2
+	N	Mean	Std. Deviation
+Total	6	2	0
+2) Daoism	6	100.0
+Missing	7015
+
+
+167) HUSBREL1
+What is your husband or wife (or live-in boyfriend or girlfriend)'s religious belief? [Multiple answers.] First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5693	85.284	31.454
+1) Buddhism	593	10.4
+2) Daoism	8	0.1
+3) Confucianism	9	0.2
+4) Protestantism	66	1.2
+5) Catholicism	5	0.1
+6) Islam	22	0.4
+97) No religious belief	4760	83.6
+98) Refuse to answer [do not read]	27	0.5
+99) Hard to say/don't know [do not read]	203	3.6
+Missing	1328
+
+
+168) HUSBREL2
+What is your husband or wife (or live-in boyfriend or girlfriend)'s religious belief? [Multiple answers.] Second mention
+RANGE: 2 to 2
+	N	Mean	Std. Deviation
+Total	2	2	0
+2) Daoism	2	100.0
+Missing	7019
+
+
+169) FTHRVIEW
+Which one of the following statements is the closest to your father's view?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5639	2.328	2.824
+1) There is no such thing as God, gods, spirits, ghosts or Buddha in this world.	4129	73.2
+2) I don't believe in a particular religion, but I think there is/are God, gods, spirits, ghosts or Buddha in this world.	647	11.5
+8) Refuse to answer [do not read]	65	1.2
+9) Hard to say/don't know [do not read]	798	14.2
+Missing	1382
+
+
+170) FTHRVW15
+Which one of the following statements is the closest to your father's view when you were fifteen?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5565	2.402	2.887
+1) There is no such thing as God, gods, spirits, ghosts or Buddha in this world.	4003	71.9
+2) I don't believe in a particular religion, but I think there is/are God, gods, spirits, ghosts or Buddha in this world.	660	11.9
+8) Refuse to answer [do not read]	72	1.3
+9) Hard to say/don't know [do not read]	830	14.9
+Missing	1456
+
+
+171) MTHRVIEW
+Which one of the following statements is the closest to your mother's view?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5115	2.383	2.838
+1) There is no such thing as God, gods, spirits, ghosts or Buddha in this world.	3576	69.9
+2) I don't believe in a particular religion, but I think there is/are God, gods, spirits, ghosts or Buddha in this world.	739	14.4
+8) Refuse to answer [do not read]	64	1.3
+9) Hard to say/don't know [do not read]	736	14.4
+Missing	1906
+
+
+172) MTHRVW15
+Which one of the following statements is the closest to your mother's view when you were fifteen?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5254	2.476	2.916
+1) There is no such thing as God, gods, spirits, ghosts or Buddha in this world.	3595	68.4
+2) I don't believe in a particular religion, but I think there is/are God, gods, spirits, ghosts or Buddha in this world.	779	14.8
+8) Refuse to answer [do not read]	66	1.3
+9) Hard to say/don't know [do not read]	814	15.5
+Missing	1767
+
+
+173) SPOUVIEW
+Which one of the following statements is the closest to your spouse (or live-in boyfriend or girlfriend)'s view?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	4761	2.181	2.693
+1) There is no such thing as God, gods, spirits, ghosts or Buddha in this world.	3620	76.0
+2) I don't believe in a particular religion, but I think there is/are God, gods, spirits, ghosts or Buddha in this world.	494	10.4
+8) Refuse to answer [do not read]	49	1.0
+9) Hard to say/don't know [do not read]	598	12.6
+Missing	2260
+
+
+174) ISCONFRL
+Do you think Confucianism is a religion? [If the respondent has trouble understand the term 'Confucianism', please explain that by 'Confucianism' we refer to a wide range of things. It includes the philosophical thought and ethical system of Confucius, the Confucian tradition upheld by intellectual and political elites, as well as the rituals and ceremonies practiced by ordinary people, such as praying in Confucian temples and/or ancestral temples.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	3.56	3.132
+1) Yes	1207	17.2
+2) No	4068	57.9
+8) Refuse to answer [do not read]	63	0.9
+9) Hard to say/don't know [do not read]	1683	24.0
+
+
+175) PAST12A
+Have you done any of the following in the past twelve months? First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7019	60.738	43.77
+1) Meditate	36	0.5
+2) Recite Buddhist prayers	74	1.1
+3) Worship the Buddha	329	4.7
+4) Read Buddhist texts	23	0.3
+5) Read the Koran	22	0.3
+6) Read the Bible	79	1.1
+7) Read the Confucian Classics	37	0.5
+8) Pray	251	3.6
+9) Venerate ancestors (including deceased family members)	1639	23.4
+10) Make a vow and fulfill a vow	116	1.7
+11) Burn incense	219	3.1
+12) Be a vegetarian (for Buddhist reasons)	24	0.3
+13) Recall the soul	11	0.2
+97) None of the above [do not read]	4139	59.0
+98) Refuse to answer [do not read]	11	0.2
+99) Hard to say/don't know	9	0.1
+Missing	2
+
+
+176) PAST12B
+Have you done any of the following in the past twelve months? Second mention
+RANGE: 2 to 13
+	N	Mean	Std. Deviation
+Total	1026	9.319	2.305
+2) Recite Buddhist prayers	21	2.0
+3) Worship the Buddha	46	4.5
+4) Read Buddhist texts	20	1.9
+5) Read the Koran	1	0.1
+6) Read the Bible	13	1.3
+7) Read the Confucian Classics	13	1.3
+8) Pray	88	8.6
+9) Venerate ancestors (including deceased family members)	283	27.6
+10) Make a vow and fulfill a vow	143	13.9
+11) Burn incense	338	32.9
+12) Be a vegetarian (for Buddhist reasons)	52	5.1
+13) Recall the soul	8	0.8
+Missing	5995
+
+
+177) PAST12C
+Have you done any of the following in the past twelve months? Third mention
+RANGE: 3 to 13
+	N	Mean	Std. Deviation
+Total	402	9.806	2.336
+3) Worship the Buddha	20	5.0
+4) Read Buddhist texts	16	4.0
+5) Read the Koran	1	0.2
+6) Read the Bible	1	0.2
+7) Read the Confucian Classics	3	0.7
+8) Pray	23	5.7
+9) Venerate ancestors (including deceased family members)	61	15.2
+10) Make a vow and fulfill a vow	60	14.9
+11) Burn incense	157	39.1
+12) Be a vegetarian (for Buddhist reasons)	54	13.4
+13) Recall the soul	6	1.5
+Missing	6619
+
+
+178) PAST12D
+Have you done any of the following in the past twelve months? Fourth mention
+RANGE: 4 to 13
+	N	Mean	Std. Deviation
+Total	159	10.101	2.173
+4) Read Buddhist texts	13	8.2
+7) Read the Confucian Classics	1	0.6
+8) Pray	7	4.4
+9) Venerate ancestors (including deceased family members)	21	13.2
+10) Make a vow and fulfill a vow	25	15.7
+11) Burn incense	57	35.8
+12) Be a vegetarian (for Buddhist reasons)	30	18.9
+13) Recall the soul	5	3.1
+Missing	6862
+
+
+179) PAST12E
+Have you done any of the following in the past twelve months? Fifth mention
+RANGE: 5 to 12
+	N	Mean	Std. Deviation
+Total	80	10.438	1.606
+5) Read the Koran	3	3.8
+7) Read the Confucian Classics	1	1.3
+8) Pray	5	6.3
+9) Venerate ancestors (including deceased family members)	5	6.3
+10) Make a vow and fulfill a vow	19	23.8
+11) Burn incense	26	32.5
+12) Be a vegetarian (for Buddhist reasons)	21	26.3
+Missing	6941
+
+
+180) PAST12F
+Have you done any of the following in the past twelve months? Sixth mention
+RANGE: 6 to 13
+	N	Mean	Std. Deviation
+Total	40	10.7	1.667
+6) Read the Bible	3	7.5
+9) Venerate ancestors (including deceased family members)	4	10.0
+10) Make a vow and fulfill a vow	3	7.5
+11) Burn incense	18	45.0
+12) Be a vegetarian (for Buddhist reasons)	10	25.0
+13) Recall the soul	2	5.0
+Missing	6981
+
+
+181) PAST12G
+Have you done any of the following in the past twelve months? Seventh mention
+RANGE: 7 to 12
+	N	Mean	Std. Deviation
+Total	19	10.789	1.512
+7) Read the Confucian Classics	1	5.3
+8) Pray	1	5.3
+9) Venerate ancestors (including deceased family members)	1	5.3
+10) Make a vow and fulfill a vow	4	21.1
+11) Burn incense	3	15.8
+12) Be a vegetarian (for Buddhist reasons)	9	47.4
+Missing	7002
+
+
+182) PAST12H
+Have you done any of the following in the past twelve months? Eighth mention
+RANGE: 8 to 13
+	N	Mean	Std. Deviation
+Total	10	11	1.491
+8) Pray	1	10.0
+9) Venerate ancestors (including deceased family members)	1	10.0
+11) Burn incense	4	40.0
+12) Be a vegetarian (for Buddhist reasons)	3	30.0
+13) Recall the soul	1	10.0
+Missing	7011
+
+
+183) PAST12I
+Have you done any of the following in the past twelve months? Ninth mention
+RANGE: 9 to 12
+	N	Mean	Std. Deviation
+Total	5	11	1.414
+9) Venerate ancestors (including deceased family members)	1	20.0
+10) Make a vow and fulfill a vow	1	20.0
+12) Be a vegetarian (for Buddhist reasons)	3	60.0
+Missing	7016
+
+
+184) PAST12J
+Have you done any of the following in the past twelve months? Tenth mention
+RANGE: 10 to 11
+	N	Mean	Std. Deviation
+Total	2	10.5	0.707
+10) Make a vow and fulfill a vow	1	50.0
+11) Burn incense	1	50.0
+Missing	7019
+
+
+185) PAST12K
+Have you done any of the following in the past twelve months? Eleventh mention
+RANGE: 11 to 12
+	N	Mean	Std. Deviation
+Total	2	11.5	0.707
+11) Burn incense	1	50.0
+12) Be a vegetarian (for Buddhist reasons)	1	50.0
+Missing	7019
+
+
+186) PAST12L
+Have you done any of the following in the past twelve months? Twelfth mention
+RANGE: 12 to 12
+	N	Mean	Std. Deviation
+Total	1	12	0
+12) Be a vegetarian (for Buddhist reasons)	1	100.0
+Missing	7020
+
+
+187) PAST12M
+Have you done any of the following in the past twelve months? Thirteenth mention
+RANGE: 13 to 13
+	N	Mean	Std. Deviation
+Total	1	13	0
+13) Recall the soul	1	100.0
+Missing	7020
+
+
+188) FRQMEDIT
+Do you do it regularly or only occasionally? Meditate
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	36	1.778	1.174
+1) Regularly	14	38.9
+2) Occasionally	21	58.3
+8) Hard to say/don't know	1	2.8
+Missing	6985
+
+
+189) FRQBDPRY
+Do you do it regularly or only occasionally? Recite Buddhist prayers
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	95	1.684	0.816
+1) Regularly	36	37.9
+2) Occasionally	58	61.1
+8) Hard to say/don't know	1	1.1
+Missing	6926
+
+
+190) FRQWRSHP
+Do you do it regularly or only occasionally? Worship the Buddha
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	395	1.838	0.675
+1) Regularly	82	20.8
+2) Occasionally	310	78.5
+8) Hard to say/don't know	3	0.8
+Missing	6626
+
+
+191) FRQREAD
+Do you do it regularly or only occasionally? Read Buddhist texts
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	72	1.639	0.909
+1) Regularly	32	44.4
+2) Occasionally	39	54.2
+8) Hard to say/don't know	1	1.4
+Missing	6949
+
+
+192) FRQRDKOR
+Do you do it regularly or only occasionally? Read the Koran
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	27	1.926	1.299
+1) Regularly	8	29.6
+2) Occasionally	18	66.7
+8) Hard to say/don't know	1	3.7
+Missing	6994
+
+
+193) FRQRDBIB
+Do you do it regularly or only occasionally? Read the Bible
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	96	1.635	0.822
+1) Regularly	41	42.7
+2) Occasionally	54	56.3
+8) Refused to answer [do not read]/hard to say/don't know	1	1.0
+Missing	6925
+
+
+194) FRQRDCON
+Do you do it regularly or only occasionally? Read the Confucian Classics
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	56	1.929	0.912
+1) Regularly	10	17.9
+2) Occasionally	45	80.4
+8) Hard to say/don't know	1	1.8
+Missing	6965
+
+
+195) FRQPRAY
+Do you do it regularly or only occasionally? Pray
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	376	1.928	1.037
+1) Regularly	81	21.5
+2) Occasionally	286	76.1
+8) Hard to say/don't know	9	2.4
+Missing	6645
+
+
+196) FRQVENER
+Do you do it regularly or only occasionally? Venerate ancestors (including deceased family members)
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2016	2.006	0.554
+1) Regularly	78	3.9
+2) Occasionally	1923	95.4
+8) Hard to say/don't know	15	0.7
+Missing	5005
+
+
+197) FRQVOW
+Do you do it regularly or only occasionally? Make a vow and fulfill a vow
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	372	1.976	0.603
+1) Regularly	27	7.3
+2) Occasionally	342	91.9
+8) Hard to say/don't know	3	0.8
+Missing	6649
+
+
+198) FRQBURN
+Do you do it regularly or only occasionally? Burn incense
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	824	1.857	0.693
+1) Regularly	160	19.4
+2) Occasionally	657	79.7
+8) Hard to say/don't know	7	0.8
+Missing	6197
+
+
+199) FRQVEGBD
+Do you do it regularly or only occasionally? Be a vegetarian (for Buddhist reasons)
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	208	1.87	0.721
+1) Regularly	39	18.8
+2) Occasionally	167	80.3
+8) Hard to say/don't know	2	1.0
+Missing	6813
+
+
+200) FRQRECSL
+Do you do it regularly or only occasionally? Recall the soul  [If the respondent has trouble understanding 'recall the soul,' please explain that this is a mystical ritual performed when it is believed that one is sick because one's soul has wandered away. There are variations of the soul-recall ritual in different parts of China, but the rationale is the same, which is to bring the wandering soul back to the body in order to restore the sick person's health.]
+RANGE: 2 to 8
+	N	Mean	Std. Deviation
+Total	34	2.353	1.433
+2) Occasionally	32	94.1
+8) Hard to say/don't know	2	5.9
+Missing	6987
+
+
+201) FRQOTHER
+Do you do it regularly or only occasionally? Other
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	7	2.571	2.44
+1) Regularly	2	28.6
+2) Occasionally	4	57.1
+8) Hard to say/don't know	1	14.3
+Missing	7014
+
+
+202) RDONE1
+Have you done any of the following (or have asked others to do the following for you) in the past twelve months? [Multiple answers.] First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7021	85.696	30.839
+1) Fortune telling, including face reading and palm reading	577	8.2
+2) Feng Shui	98	1.4
+3) Analyze one's writing to predict one's future	11	0.2
+4) Interpret one's dreams to predict one's future	42	0.6
+5) Astrology	94	1.3
+6) Witchcraft	3	0.0
+7) Ask for assistance from someone with paranormal abilities	5	0.1
+8) Automatic writing	6	0.1
+55) Believe in the Eight Diagrams	1	0.0
+97) None of the above	6057	86.3
+98) Refuse to answer [do not read]	28	0.4
+99) Hard to say/don't know [do not read]	99	1.4
+
+
+203) RDONE2
+Have you done any of the following (or have asked others to do the following for you) in the past twelve months? [Multiple answers.] Second mention
+RANGE: 2 to 8
+	N	Mean	Std. Deviation
+Total	206	3.364	1.517
+2) Feng Shui	87	42.2
+3) Analyze one's writing to predict one's future	33	16.0
+4) Interpret one's dreams to predict one's future	35	17.0
+5) Astrology	42	20.4
+6) Witchcraft	1	0.5
+8) Automatic writing	8	3.9
+Missing	6815
+
+
+204) RDONE3
+Have you done any of the following (or have asked others to do the following for you) in the past twelve months? [Multiple answers.] Third mention
+RANGE: 3 to 8
+	N	Mean	Std. Deviation
+Total	43	3.93	1.183
+3) Analyze one's writing to predict one's future	19	44.2
+4) Interpret one's dreams to predict one's future	14	32.6
+5) Astrology	8	18.6
+8) Automatic writing	2	4.7
+Missing	6978
+
+
+205) RDONE4
+Have you done any of the following (or have asked others to do the following for you) in the past twelve months? [Multiple answers.] Fourth mention
+RANGE: 4 to 6
+	N	Mean	Std. Deviation
+Total	9	4.333	0.707
+4) Interpret one's dreams to predict one's future	7	77.8
+5) Astrology	1	11.1
+6) Witchcraft	1	11.1
+Missing	7012
+
+
+206) RDONE5
+Have you done any of the following (or have asked others to do the following for you) in the past 12 months? [Multiple answers.] Fifth mention
+RANGE: 5 to 8
+	N	Mean	Std. Deviation
+Total	5	5.6	1.342
+5) Astrology	4	80.0
+8) Automatic writing	1	20.0
+Missing	7016
+
+
+207) RDONE6
+Have you done any of the following (or have asked others to do the following for you) in the past 12 months? [Multiple answers.] Sixth mention
+RANGE: 8 to 8
+	N	Mean	Std. Deviation
+Total	1	8	0
+8) Automatic writing	1	100.0
+Missing	7020
+
+
+208) RDONEL01
+Have you done any of the following (or have asked others to do the following for you) in the past twelve months? [Multiple answers.] First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7014	69.189	42.301
+1) Wear red belt in the year of your own to ward off bad luck	519	7.4
+2) Wear red clothing to ward off bad luck	102	1.5
+3) Hang mirrors above your door or windows to ward off bad luck	116	1.7
+4) Try to get pregnant and give birth in an auspicious year	27	0.4
+5) Get married on an auspicious day and time	276	3.9
+6) Hang talismans to protect the entrance of your household	360	5.1
+7) Display objects having special powers to protect household	31	0.4
+8) Light fireworks to ward off bad luck	512	7.3
+9) Wear accessories such as crystal to ward off bad luck	142	2.0
+10) Hang statue of Buddha etc. in car to ensure good luck	38	0.5
+97) None of the above [do not read]	4792	68.3
+98) Refuse to answer [do not read]	20	0.3
+99) Hard to say/don't know [do not read]	79	1.1
+Missing	7
+
+
+209) RDONEL02
+Have you done any of the following (or have asked others to do the following for you) in the past twelve months? [Multiple answers.] Second mention
+RANGE: 2 to 10
+	N	Mean	Std. Deviation
+Total	991	6.313	2.317
+2) Wear red clothing to ward off bad luck	139	14.0
+3) Hang mirrors above your door or windows to ward off bad luck	38	3.8
+4) Try to get pregnant and give birth in an auspicious year	28	2.8
+5) Get married on an auspicious day and time	95	9.6
+6) Hang talismans to protect the entrance of your household	170	17.2
+7) Display objects having special powers to protect household	36	3.6
+8) Light fireworks to ward off bad luck	380	38.3
+9) Wear accessories such as crystal to ward off bad luck	85	8.6
+10) Hang statue of Buddha etc. in car to ensure good luck	20	2.0
+Missing	6030
+
+
+210) RDONEL03
+Have you done any of the following (or have asked others to do the following for you) in the past twelve months? [Multiple answers.] Third mention
+RANGE: 3 to 10
+	N	Mean	Std. Deviation
+Total	351	7.151	1.703
+3) Hang mirrors above your door or windows to ward off bad luck	17	4.8
+4) Try to get pregnant and give birth in an auspicious year	6	1.7
+5) Get married on an auspicious day and time	46	13.1
+6) Hang talismans to protect the entrance of your household	54	15.4
+7) Display objects having special powers to protect household	13	3.7
+8) Light fireworks to ward off bad luck	162	46.2
+9) Wear accessories such as crystal to ward off bad luck	36	10.3
+10) Hang statue of Buddha etc. in car to ensure good luck	17	4.8
+Missing	6670
+
+
+211) RDONEL04
+Have you done any of the following (or have asked others to do the following for you) in the past twelve months? [Multiple answers.] Fourth mention
+RANGE: 4 to 10
+	N	Mean	Std. Deviation
+Total	110	7.627	1.319
+4) Try to get pregnant and give birth in an auspicious year	3	2.7
+5) Get married on an auspicious day and time	8	7.3
+6) Hang talismans to protect the entrance of your household	12	10.9
+7) Display objects having special powers to protect household	6	5.5
+8) Light fireworks to ward off bad luck	59	53.6
+9) Wear accessories such as crystal to ward off bad luck	19	17.3
+10) Hang statue of Buddha etc. in car to ensure good luck	3	2.7
+Missing	6911
+
+
+212) RDONEL05
+Have you done any of the following (or have asked others to do the following for you) in the past twelve months? [Multiple answers.] Fifth mention
+RANGE: 5 to 10
+	N	Mean	Std. Deviation
+Total	27	8.074	1.615
+5) Get married on an auspicious day and time	3	11.1
+6) Hang talismans to protect the entrance of your household	3	11.1
+8) Light fireworks to ward off bad luck	10	37.0
+9) Wear accessories such as crystal to ward off bad luck	5	18.5
+10) Hang statue of Buddha etc. in car to ensure good luck	6	22.2
+Missing	6994
+
+
+213) RDONEL06
+Have you done any of the following (or have asked others to do the following for you) in the past twelve months? [Multiple answers.] Sixth mention
+RANGE: 6 to 10
+	N	Mean	Std. Deviation
+Total	8	8	1.604
+6) Hang talismans to protect the entrance of your household	2	25.0
+7) Display objects having special powers to protect household	1	12.5
+8) Light fireworks to ward off bad luck	2	25.0
+9) Wear accessories such as crystal to ward off bad luck	1	12.5
+10) Hang statue of Buddha etc. in car to ensure good luck	2	25.0
+Missing	7013
+
+
+214) RDONEL07
+Have you done any of the following (or have asked others to do the following for you) in the past twelve months? [Multiple answers.] Seventh mention
+RANGE: 7 to 9
+	N	Mean	Std. Deviation
+Total	4	8	0.816
+7) Display objects having special powers to protect household	1	25.0
+8) Light fireworks to ward off bad luck	2	50.0
+9) Wear accessories such as crystal to ward off bad luck	1	25.0
+Missing	7017
+
+
+215) RDONEL08
+Have you done any of the following (or have asked others to do the following for you) in the past twelve months? [Multiple answers.] Eighth mention
+RANGE: 8 to 9
+	N	Mean	Std. Deviation
+Total	2	8.5	0.707
+8) Light fireworks to ward off bad luck	1	50.0
+9) Wear accessories such as crystal to ward off bad luck	1	50.0
+Missing	7019
+
+
+216) RDONEL09
+Have you done any of the following (or have asked others to do the following for you) in the past twelve months? [Multiple answers.] Ninth mention
+RANGE: 10 to 10
+	N	Mean	Std. Deviation
+Total	1	10	0
+10) Hang statue of Buddha etc. in car to ensure good luck	1	100.0
+Missing	7020
+
+
+217) SUPERNAT
+Do you think you have any supernatural or paranormal abilities?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.031	0.477
+1) Yes	21	0.3
+2) No	6964	99.2
+8) Refuse to answer [do not read]	14	0.2
+9) Hard to say/don't know [do not read]	22	0.3
+
+
+218) SUPERKND
+What kind of supernatural or paranormal abilities do you have? Please specify.
+RANGE: 998 to 999
+	N	Mean	Std. Deviation
+Total	5	998.4	0.548
+998) Refuse to answer [do not read]	3	60.0
+999) Hard to say/don't know [do not read]	2	40.0
+Missing	7016
+
+
+219) EVQIGONG
+Have you ever practiced Qi Gong?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.028	0.514
+1) Yes	89	1.3
+2) No	6886	98.1
+8) Refuse to answer [do not read]	37	0.5
+9) Hard to say/don't know [do not read]	9	0.1
+
+
+220) FQQIGONG
+How often do you practice Qi Gong?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	89	4.584	2.066
+1) Once or twice a month	9	10.1
+2) Once a week	6	6.7
+3) Several times a week	5	5.6
+4) Daily	13	14.6
+5) I no longer practice Qi Gong	46	51.7
+9) Hard to say/don't know [do not read]	10	11.2
+Missing	6932
+
+
+221) STPQIGNG
+If you no longer practice Qi Gong, when did you stop? Please give us the exact year.
+RANGE: 1978 to 9999
+	N	Mean	Std. Deviation
+Total	46	3559.826	3210.882
+1978) 	1	2.2
+1979) 	2	4.3
+1980) 	1	2.2
+1984) 	2	4.3
+1986) 	1	2.2
+1987) 	2	4.3
+1988) 	1	2.2
+1989) 	2	4.3
+1990) 	2	4.3
+1992) 	3	6.5
+1995) 	3	6.5
+1996) 	3	6.5
+1997) 	2	4.3
+1998) 	1	2.2
+2000) 	3	6.5
+2002) 	2	4.3
+2003) 	3	6.5
+2005) 	1	2.2
+2006) 	2	4.3
+9999) Hard to say/don't know [do not read]	9	19.6
+Missing	6975
+
+
+222) YRSQIGNG
+How many years have you practiced Qi Gong? Please give us the exact number of years. (A308)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	89	39.764	43.189
+1) 	5	5.6
+2) 	11	12.4
+3) 	6	6.7
+4) 	5	5.6
+5) 	1	1.1
+6) 	6	6.7
+7) 	1	1.1
+8) 	2	2.2
+10) 	5	5.6
+11) 	1	1.1
+12) 	3	3.4
+14) 	1	1.1
+15) 	2	2.2
+20) 	4	4.5
+25) 	1	1.1
+30) 	1	1.1
+31) 	1	1.1
+38) 	2	2.2
+97) Less than a year	21	23.6
+99) Hard to say/don't know [do not read]	10	11.2
+Missing	6932
+
+
+223) EVERPRAY
+Do you ever pray? Have you ever tried to communicate with God or a certain supernatural power, asking for blessings and protection?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.004	0.96
+1) Yes, I have	812	11.6
+2) No, I haven't	6083	86.6
+8) Refuse to answer [do not read]	40	0.6
+9) Hard to say/don't know [do not read]	86	1.2
+
+
+224) OFTPRAY
+How often do you pray?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	812	4.857	1.97
+1) Once or twice a year	101	12.4
+2) Once or twice a month	60	7.4
+3) Once a week	41	5.0
+4) Several times a week	24	3.0
+5) Daily	74	9.1
+6) Only occasionally	491	60.5
+8) Refuse to answer [do not read]	1	0.1
+9) Hard to say/don't know [do not read]	20	2.5
+Missing	6209
+
+
+225) WHOMPRY1
+When you pray, to whom do you pray? First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	803	9.095	19.288
+1) God	75	9.3
+2) Jesus Christ	93	11.6
+3) Virgin Mary	1	0.1
+4) The Jade Emperor, or god of heaven	28	3.5
+5) God of wealth, god of the land, god of the kitchen, etc.	115	14.3
+6) Buddha(s)	372	46.3
+7) Allah	14	1.7
+8) Ancestral spirits, including deceased family members	70	8.7
+98) Refuse to answer [do not read]	3	0.4
+99) Hard to say/don't know [do not read]	32	4.0
+Missing	6218
+
+
+226) WHOMPRY2
+When you pray, to whom do you pray? Second mention
+RANGE: 2 to 8
+	N	Mean	Std. Deviation
+Total	217	6.281	1.683
+2) Jesus Christ	17	7.8
+3) Virgin Mary	3	1.4
+4) The Jade Emperor, or god of heaven	3	1.4
+5) God of wealth, god of the land, god of the kitchen, etc.	11	5.1
+6) Buddha(s)	104	47.9
+7) Allah	3	1.4
+8) Ancestral spirits, including deceased family members	76	35.0
+Missing	6804
+
+
+227) WHOMPRY3
+When you pray, to whom do you pray? Third mention
+RANGE: 3 to 8
+	N	Mean	Std. Deviation
+Total	60	7.133	1.396
+3) Virgin Mary	3	5.0
+4) The Jade Emperor, or god of heaven	1	1.7
+5) God of wealth, god of the land, god of the kitchen, etc.	1	1.7
+6) Buddha(s)	15	25.0
+8) Ancestral spirits, including deceased family members	40	66.7
+Missing	6961
+
+
+228) DONATED
+Have you donated any money or goods to religious organizations (such as Protestant or Catholic churches, Buddhist temples, Daoist temples or mosques) and/or religious individuals (such as Protestant ministers, Catholic priests, Buddhist monks or nuns, Daoist priests, or imams) in the past twelve months?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	1.853	0.808
+1) Yes, I have made donations	1517	21.6
+2) No	5431	77.4
+8) Refuse to answer [do not read]	28	0.4
+9) Hard to say/don't know	45	0.6
+
+
+229) P12DNATE
+How many times have you made such donations in the past twelve months?
+RANGE: 1 to 99999
+	N	Mean	Std. Deviation
+Total	1517	17471.67	37980.578
+1) 	419	27.6
+2) 	337	22.2
+3) 	192	12.7
+4) 	57	3.8
+5) 	65	4.3
+6) 	31	2.0
+7) 	11	0.7
+8) 	15	1.0
+9) 	3	0.2
+10) 	65	4.3
+12) 	14	0.9
+15) 	3	0.2
+18) 	1	0.1
+20) 	16	1.1
+24) 	9	0.6
+25) 	1	0.1
+30) 	5	0.3
+35) 	1	0.1
+40) 	1	0.1
+50) 	4	0.3
+100) 	1	0.1
+200) 	1	0.1
+99998) Refuse to answer	10	0.7
+99999) Hard to say/don't know	255	16.8
+Missing	5504
+
+
+230) HOWMCHDN
+Approximately how much money did you donate? If your donation included goods, please covert their value into money, and add to the total.
+RANGE: 1 to 99999
+	N	Mean	Std. Deviation
+Total	1517	14970.907	35501.911
+1) 	10	0.7
+2) 	19	1.3
+3) 	16	1.1
+4) 	5	0.3
+5) 	41	2.7
+6) 	13	0.9
+7) 	2	0.1
+8) 	4	0.3
+9) 	2	0.1
+10) 	192	12.7
+12) 	7	0.5
+15) 	23	1.5
+16) 	2	0.1
+18) 	2	0.1
+20) 	172	11.3
+23) 	1	0.1
+24) 	2	0.1
+25) 	7	0.5
+28) 	2	0.1
+30) 	88	5.8
+35) 	5	0.3
+36) 	1	0.1
+40) 	29	1.9
+45) 	2	0.1
+48) 	1	0.1
+50) 	138	9.1
+55) 	1	0.1
+60) 	39	2.6
+70) 	2	0.1
+80) 	14	0.9
+88) 	1	0.1
+90) 	4	0.3
+100) 	164	10.8
+108) 	1	0.1
+110) 	1	0.1
+115) 	1	0.1
+120) 	6	0.4
+140) 	1	0.1
+150) 	15	1.0
+160) 	2	0.1
+180) 	2	0.1
+197) 	1	0.1
+200) 	100	6.6
+240) 	2	0.1
+250) 	5	0.3
+280) 	2	0.1
+300) 	42	2.8
+320) 	1	0.1
+400) 	17	1.1
+460) 	1	0.1
+500) 	31	2.0
+550) 	1	0.1
+600) 	7	0.5
+700) 	3	0.2
+800) 	3	0.2
+900) 	1	0.1
+1000) 	16	1.1
+1500) 	1	0.1
+2000) 	10	0.7
+3000) 	1	0.1
+5000) 	4	0.3
+10000) 	2	0.1
+20000) 	1	0.1
+99998) Refuse to answer [do not read]	23	1.5
+99999) Hard to say/don't know [do not read]	202	13.3
+Missing	5504
+
+
+231) CIRCMDON
+No matter to whom you have donated money and/or goods, under what circumstances did you make the donation?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1284	9.782	25.213
+1) Weekly or monthly donations	88	6.9
+2) Donations made during tourist visits	471	36.7
+3) Donations made as part of making and fulfilling a vow ritual	385	30.0
+4) Donations made when there were people soliciting donations	245	19.1
+98) Refuse to answer [do not read]	10	0.8
+99) Hard to say/don't know [do not read]	85	6.6
+Missing	5737
+
+
+232) EXIST1
+Here are some items that I will ask you about one by one. Do you think any of them actually exists? First, do you think there is a God?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.428	1.83
+1) Yes, it exists	523	7.4
+2) No, it doesn't exist	5941	84.6
+3) I have never heard of it	59	0.8
+8) Refuse to answer [do not read]	14	0.2
+9) Hard to say/don't know [do not read]	484	6.9
+
+
+233) EXIST2
+Here are some items that I will ask you about one by one. Do you think any of them actually exists? Do you think there is god of heaven?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.45	1.922
+1) Yes, it exists	685	9.8
+2) No, it doesn't exist	5764	82.1
+3) I have never heard of it	24	0.3
+8) Refuse to answer [do not read]	17	0.2
+9) Hard to say/don't know [do not read]	531	7.6
+
+
+234) EXIST3
+Here are some items that I will ask you about one by one. Do you think any of them actually exists? Do you think there are evil forces/demons?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.423	1.698
+1) Yes, it exists	136	1.9
+2) No, it doesn't exist	6402	91.2
+3) I have never heard of it	42	0.6
+8) Refuse to answer [do not read]	23	0.3
+9) Hard to say/don't know [do not read]	418	6.0
+
+
+235) EXIST4
+Here are some items that I will ask you about one by one. Do you think any of them actually exists? Do you think there is a Heaven?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.43	1.808
+1) Yes, it exists	427	6.1
+2) No, it doesn't exist	6072	86.5
+3) I have never heard of it	32	0.5
+8) Refuse to answer [do not read]	18	0.3
+9) Hard to say/don't know [do not read]	472	6.7
+
+
+236) EXIST5
+Here are some items that I will ask you about one by one. Do you think any of them actually exists? Do you think there is a hell/underworld?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.443	1.851
+1) Yes, it exists	498	7.1
+2) No, it doesn't exist	5980	85.2
+3) I have never heard of it	27	0.4
+8) Refuse to answer [do not read]	29	0.4
+9) Hard to say/don't know [do not read]	487	6.9
+
+
+237) EXIST6
+Here are some items that I will ask you about one by one. Do you think any of them actually exists? Do you think there is a Jesus Christ?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.499	1.878
+1) Yes, it exists	340	4.8
+2) No, it doesn't exist	6047	86.1
+3) I have never heard of it	94	1.3
+8) Refuse to answer [do not read]	29	0.4
+9) Hard to say/don't know [do not read]	511	7.3
+
+
+238) EXIST7
+Here are some items that I will ask you about one by one. Do you think any of them actually exists? Do you think there is a Soul?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.461	1.944
+1) Yes, it exists	714	10.2
+2) No, it doesn't exist	5707	81.3
+3) I have never heard of it	38	0.5
+8) Refuse to answer [do not read]	21	0.3
+9) Hard to say/don't know [do not read]	541	7.7
+
+
+239) EXIST8
+Here are some items that I will ask you about one by one. Do you think any of them actually exists? Do you think there is a Buddha?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.376	1.939
+1) Yes, it exists	1138	16.2
+2) No, it doesn't exist	5325	75.8
+3) I have never heard of it	18	0.3
+8) Refuse to answer [do not read]	17	0.2
+9) Hard to say/don't know [do not read]	523	7.4
+
+
+240) EXIST9
+Here are some items that I will ask you about one by one. Do you think any of them actually exists? Do you think there are Sages?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.483	1.885
+1) Yes, it exists	564	8.0
+2) No, it doesn't exist	5668	80.7
+3) I have never heard of it	257	3.7
+8) Refuse to answer [do not read]	24	0.3
+9) Hard to say/don't know [do not read]	508	7.2
+
+
+241) EXIST10
+Here are some items that I will ask you about one by one. Do you think any of them actually exists? Do you think there is Karma?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.374	2.026
+1) Yes, it exists	1487	21.2
+2) No, it doesn't exist	4884	69.6
+3) I have never heard of it	71	1.0
+8) Refuse to answer [do not read]	11	0.2
+9) Hard to say/don't know [do not read]	568	8.1
+
+
+242) EXIST11
+Here are some items that I will ask you about one by one. Do you think any of them actually exists? Do you think there is an afterlife?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.527	1.959
+1) Yes, it exists	425	6.1
+2) No, it doesn't exist	5964	84.9
+3) I have never heard of it	46	0.7
+8) Refuse to answer [do not read]	22	0.3
+9) Hard to say/don't know [do not read]	564	8.0
+
+
+243) EXIST12
+Here are some items that I will ask you about one by one. Do you think any of them actually exists? Do you think there is Reincarnation?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.516	1.911
+1) Yes, it exists	345	4.9
+2) No, it doesn't exist	6034	85.9
+3) I have never heard of it	84	1.2
+8) Refuse to answer [do not read]	21	0.3
+9) Hard to say/don't know [do not read]	537	7.6
+
+
+244) EXIST13
+Here are some items that I will ask you about one by one. Do you think any of them actually exists? Do you think there are gods and spirits?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.493	1.894
+1) Yes, it exists	368	5.2
+2) No, it doesn't exist	6080	86.6
+3) I have never heard of it	27	0.4
+8) Refuse to answer [do not read]	20	0.3
+9) Hard to say/don't know [do not read]	526	7.5
+
+
+245) EXIST14
+Here are some items that I will ask you about one by one. Do you think any of them actually exists? Do you think there are Ghosts?)D
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.451	1.829
+1) Yes, it exists	378	5.4
+2) No, it doesn't exist	6117	87.1
+3) I have never heard of it	19	0.3
+8) Refuse to answer [do not read]	26	0.4
+9) Hard to say/don't know [do not read]	481	6.9
+
+
+246) EXIST15
+Here are some items that I will ask you about one by one. Do you think any of them actually exists? Do you think there is fate/fortune?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.317	2.03
+1) Yes, it exists	1781	25.4
+2) No, it doesn't exist	4648	66.2
+3) I have never heard of it	20	0.3
+8) Refuse to answer [do not read]	16	0.2
+9) Hard to say/don't know [do not read]	556	7.9
+
+
+247) EXIST16
+Here are some items that I will ask you about one by one. Do you think any of them actually exists? Do you think there is a god of wealth?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.435	1.955
+1) Yes, it exists	866	12.3
+2) No, it doesn't exist	5584	79.5
+3) I have never heard of it	11	0.2
+8) Refuse to answer [do not read]	13	0.2
+9) Hard to say/don't know [do not read]	547	7.8
+
+
+248) EXIST17
+Here are some items that I will ask you about one by one. Do you think any of them actually exists? Do you think there are ancestral spirits?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.407	1.984
+1) Yes, it exists	1125	16.0
+2) No, it doesn't exist	5310	75.6
+3) I have never heard of it	18	0.3
+8) Refuse to answer [do not read]	13	0.2
+9) Hard to say/don't know [do not read]	555	7.9
+
+
+249) EXIST18
+Here are some items that I will ask you about one by one. Do you think any of them actually exists? Do you think there is karma in personal relationships?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.164	2.134
+1) Yes, it exists	3035	43.2
+2) No, it doesn't exist	3370	48.0
+3) I have never heard of it	20	0.3
+8) Refuse to answer [do not read]	9	0.1
+9) Hard to say/don't know [do not read]	587	8.4
+
+
+250) INFLGOD1
+And if you say 'yes' to [God], is your view influenced by any of the following people or sources? Please select three from the following list. First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	516	8.936	20.351
+1) The elders in the family	258	50.0
+2) Spouse or boyfriend/girlfriend	14	2.7
+3) Other relatives	12	2.3
+4) Neighbors	19	3.7
+5) Co-workers	14	2.7
+6) Classmate at school	5	1.0
+7) Friends	28	5.4
+8) School education	6	1.2
+9) My own reading of books	48	9.3
+10) Reading of newspapers and magazines	3	0.6
+11) TV and films	34	6.6
+12) The Internet and email	3	0.6
+13) Religious places of worship, such as churches or temples	48	9.3
+98) Refuse to answer [do not read]	3	0.6
+99) Hard to say/don't know [do not read]	21	4.1
+Missing	6505
+
+
+251) INFLGOD2
+And if you say 'yes' to [God], is your view influenced by any of the following people or sources? Please select three from the following list.  Second mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	303	6.079	3.939
+1) The elders in the family	26	8.6
+2) Spouse or boyfriend/girlfriend	37	12.2
+3) Other relatives	40	13.2
+4) Neighbors	58	19.1
+5) Co-workers	7	2.3
+6) Classmate at school	4	1.3
+7) Friends	24	7.9
+8) School education	2	0.7
+9) My own reading of books	33	10.9
+10) Reading of newspapers and magazines	9	3.0
+11) TV and films	27	8.9
+12) The Internet and email	5	1.7
+13) Religious places of worship, such as churches or temples	31	10.2
+Missing	6718
+
+
+252) INFLGOD3
+And if you say 'yes' to [God], is your view influenced by any of the following people or sources? Please select three from the following list. Third mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	159	6.528	3.559
+1) The elders in the family	4	2.5
+2) Spouse or boyfriend/girlfriend	8	5.0
+3) Other relatives	33	20.8
+4) Neighbors	26	16.4
+5) Co-workers	6	3.8
+6) Classmate at school	7	4.4
+7) Friends	12	7.5
+8) School education	3	1.9
+9) My own reading of books	19	11.9
+10) Reading of newspapers and magazines	12	7.5
+11) TV and films	16	10.1
+12) The Internet and email	1	0.6
+13) Religious places of worship, such as churches or temples	12	7.5
+Missing	6862
+
+
+253) INFLGHV1
+And if you say 'yes' to [god of heaven], is your view influenced by any of the following people or sources? Please select three from the following list. First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	671	9.505	23.437
+1) The elders in the family	380	56.6
+2) Spouse or boyfriend/girlfriend	19	2.8
+3) Other relatives	29	4.3
+4) Neighbors	44	6.6
+5) Co-workers	6	0.9
+6) Classmate at school	5	0.7
+7) Friends	25	3.7
+8) School education	5	0.7
+9) My own reading of books	39	5.8
+10) Reading of newspapers and magazines	1	0.1
+11) TV and films	40	6.0
+12) The Internet and email	3	0.4
+13) Religious places of worship, such as churches or temples	33	4.9
+98) Refuse to answer [do not read]	2	0.3
+99) Hard to say/don't know [do not read]	40	6.0
+Missing	6350
+
+
+254) INFLGHV2
+And if you say 'yes' to [god of heaven], is your view influenced by any of the following people or sources? Please select three from the following list. Second mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	359	5.437	3.679
+1) The elders in the family	31	8.6
+2) Spouse or boyfriend/girlfriend	56	15.6
+3) Other relatives	58	16.2
+4) Neighbors	69	19.2
+5) Co-workers	10	2.8
+6) Classmate at school	6	1.7
+7) Friends	31	8.6
+9) My own reading of books	30	8.4
+10) Reading of newspapers and magazines	8	2.2
+11) TV and films	36	10.0
+12) The Internet and email	2	0.6
+13) Religious places of worship, such as churches or temples	22	6.1
+Missing	6662
+
+
+255) INFLGHV3
+And if you say 'yes' to [god of heaven], is your view influenced by any of the following people or sources? Please select three from the following list. Third mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	187	6.193	3.549
+1) The elders in the family	6	3.2
+2) Spouse or boyfriend/girlfriend	7	3.7
+3) Other relatives	41	21.9
+4) Neighbors	45	24.1
+5) Co-workers	6	3.2
+6) Classmate at school	2	1.1
+7) Friends	15	8.0
+8) School education	4	2.1
+9) My own reading of books	17	9.1
+10) Reading of newspapers and magazines	7	3.7
+11) TV and films	24	12.8
+13) Religious places of worship, such as churches or temples	13	7.0
+Missing	6834
+
+
+256) INFLEVL1
+And if you say 'yes' to [evil forces, demons], is your view influenced by any of the following people or sources? Please select three from the following list. First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	134	9.425	21.489
+1) The elders in the family	58	43.3
+2) Spouse or boyfriend/girlfriend	3	2.2
+3) Other relatives	9	6.7
+4) Neighbors	16	11.9
+5) Co-workers	2	1.5
+6) Classmate at school	3	2.2
+7) Friends	4	3.0
+8) School education	2	1.5
+9) My own reading of books	7	5.2
+10) Reading of newspapers and magazines	1	0.7
+11) TV and films	7	5.2
+12) The Internet and email	1	0.7
+13) Religious places of worship, such as churches or temples	14	10.4
+98) Refuse to answer [do not read]	1	0.7
+99) Hard to say/don't know [do not read]	6	4.5
+Missing	6887
+
+
+257) INFLEVL2
+And if you say 'yes' to [evil forces, demons], is your view influenced by any of the following people or sources? Please select three from the following list. Second mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	81	5.728	3.567
+1) The elders in the family	7	8.6
+2) Spouse or boyfriend/girlfriend	7	8.6
+3) Other relatives	13	16.0
+4) Neighbors	19	23.5
+5) Co-workers	2	2.5
+6) Classmate at school	1	1.2
+7) Friends	4	4.9
+8) School education	1	1.2
+9) My own reading of books	13	16.0
+10) Reading of newspapers and magazines	3	3.7
+11) TV and films	6	7.4
+12) The Internet and email	2	2.5
+13) Religious places of worship, such as churches or temples	3	3.7
+Missing	6940
+
+
+258) INFLEVL3
+And if you say 'yes' to [evil forces, demons], is your view influenced by any of the following people or sources? Please select three from the following list. Third mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	49	6.306	4.001
+1) The elders in the family	4	8.2
+2) Spouse or boyfriend/girlfriend	4	8.2
+3) Other relatives	10	20.4
+4) Neighbors	7	14.3
+5) Co-workers	1	2.0
+6) Classmate at school	1	2.0
+7) Friends	2	4.1
+8) School education	0	0.0
+9) My own reading of books	7	14.3
+10) Reading of newspapers and magazines	2	4.1
+11) TV and films	5	10.2
+12) The Internet and email	2	4.1
+13) Religious places of worship, such as churches or temples	4	8.2
+Missing	6972
+
+
+259) INFLHVN1
+And if you say 'yes' to [heaven], is your view influenced by any of the following people or sources? Please select three from the following list. First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	426	8.707	18.957
+1) The elders in the family	189	44.4
+2) Spouse or boyfriend/girlfriend	13	3.1
+3) Other relatives	22	5.2
+4) Neighbors	24	5.6
+5) Co-workers	6	1.4
+6) Classmate at school	4	0.9
+7) Friends	24	5.6
+8) School education	6	1.4
+9) My own reading of books	34	8.0
+10) Reading of newspapers and magazines	3	0.7
+11) TV and films	22	5.2
+12) The Internet and email	3	0.7
+13) Religious places of worship, such as churches or temples	59	13.8
+98) Refuse to answer [do not read]	2	0.5
+99) Hard to say/don't know [do not read]	15	3.5
+Missing	6595
+
+
+260) INFLHVN2
+And if you say 'yes' to [heaven], is your view influenced by any of the following people or sources? Please select three from the following list. Second mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	240	6.221	3.79
+1) The elders in the family	17	7.1
+2) Spouse or boyfriend/girlfriend	23	9.6
+3) Other relatives	40	16.7
+4) Neighbors	34	14.2
+5) Co-workers	11	4.6
+6) Classmate at school	8	3.3
+7) Friends	17	7.1
+8) School education	4	1.7
+9) My own reading of books	31	12.9
+10) Reading of newspapers and magazines	10	4.2
+11) TV and films	20	8.3
+12) The Internet and email	4	1.7
+13) Religious places of worship, such as churches or temples	21	8.8
+Missing	6781
+
+
+261) INFLHVN3
+And if you say 'yes' to [heaven], is your view influenced by any of the following people or sources? Please select three from the following list. Third mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	137	7.226	3.796
+1) The elders in the family	5	3.6
+2) Spouse or boyfriend/girlfriend	7	5.1
+3) Other relatives	18	13.1
+4) Neighbors	23	16.8
+5) Co-workers	3	2.2
+6) Classmate at school	5	3.6
+7) Friends	13	9.5
+9) My own reading of books	13	9.5
+10) Reading of newspapers and magazines	10	7.3
+11) TV and films	23	16.8
+12) The Internet and email	2	1.5
+13) Religious places of worship, such as churches or temples	15	10.9
+Missing	6884
+
+
+262) INFLHLL1
+And if you say 'yes' to [hell, the underworld], is your view influenced by any of the following people or sources? Please select three from the following list. First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	494	7.451	16.817
+1) The elders in the family	249	50.4
+2) Spouse or boyfriend/girlfriend	15	3.0
+3) Other relatives	21	4.3
+4) Neighbors	23	4.7
+5) Co-workers	10	2.0
+6) Classmate at school	5	1.0
+7) Friends	20	4.0
+8) School education	5	1.0
+9) My own reading of books	33	6.7
+10) Reading of newspapers and magazines	6	1.2
+11) TV and films	23	4.7
+12) The Internet and email	3	0.6
+13) Religious places of worship, such as churches or temples	66	13.4
+98) Refuse to answer [do not read]	2	0.4
+99) Hard to say/don't know [do not read]	13	2.6
+Missing	6527
+
+
+263) INFLHLL2
+And if you say 'yes' to [hell, the underworld], is your view influenced by any of the following people or sources? Please select three from the following list. Second mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	262	6.275	3.881
+1) The elders in the family	17	6.5
+2) Spouse or boyfriend/girlfriend	26	9.9
+3) Other relatives	39	14.9
+4) Neighbors	52	19.8
+5) Co-workers	9	3.4
+6) Classmate at school	3	1.1
+7) Friends	17	6.5
+8) School education	3	1.1
+9) My own reading of books	28	10.7
+10) Reading of newspapers and magazines	12	4.6
+11) TV and films	26	9.9
+12) The Internet and email	4	1.5
+13) Religious places of worship, such as churches or temples	26	9.9
+Missing	6759
+
+
+264) INFLHLL3
+And if you say 'yes' to [hell, the underworld], is your view influenced by any of the following people or sources? Please select three from the following list. Third mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	153	7.007	3.955
+1) The elders in the family	8	5.2
+2) Spouse or boyfriend/girlfriend	4	2.6
+3) Other relatives	24	15.7
+4) Neighbors	29	19.0
+5) Co-workers	7	4.6
+6) Classmate at school	4	2.6
+7) Friends	14	9.2
+9) My own reading of books	13	8.5
+10) Reading of newspapers and magazines	7	4.6
+11) TV and films	17	11.1
+12) The Internet and email	1	0.7
+13) Religious places of worship, such as churches or temples	25	16.3
+Missing	6868
+
+
+265) INFLJC1
+And if you say 'yes' to [Jesus Christ], is your view influenced by any of the following people or sources? Please select three from the following list. First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	338	8.778	17.185
+1) The elders in the family	121	35.8
+2) Spouse or boyfriend/girlfriend	8	2.4
+3) Other relatives	9	2.7
+4) Neighbors	33	9.8
+5) Co-workers	7	2.1
+6) Classmate at school	7	2.1
+7) Friends	24	7.1
+8) School education	6	1.8
+9) My own reading of books	32	9.5
+10) Reading of newspapers and magazines	4	1.2
+11) TV and films	12	3.6
+12) The Internet and email	2	0.6
+13) Religious places of worship, such as churches or temples	62	18.3
+98) Refuse to answer [do not read]	1	0.3
+99) Hard to say/don't know [do not read]	10	3.0
+Missing	6683
+
+
+266) INFLJC2
+And if you say 'yes' to [Jesus Christ], is your view influenced by any of the following people or sources? Please select three from the following list. Second mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	176	6.955	3.931
+1) The elders in the family	13	7.4
+2) Spouse or boyfriend/girlfriend	17	9.7
+3) Other relatives	17	9.7
+4) Neighbors	23	13.1
+5) Co-workers	4	2.3
+6) Classmate at school	1	0.6
+7) Friends	17	9.7
+8) School education	3	1.7
+9) My own reading of books	31	17.6
+10) Reading of newspapers and magazines	10	5.7
+11) TV and films	16	9.1
+12) The Internet and email	2	1.1
+13) Religious places of worship, such as churches or temples	22	12.5
+Missing	6845
+
+
+267) INFLJC3
+And if you say 'yes' to [Jesus Christ], is your view influenced by any of the following people or sources? Please select three from the following list. Third mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	92	7.467	3.639
+1) The elders in the family	2	2.2
+3) Other relatives	16	17.4
+4) Neighbors	16	17.4
+5) Co-workers	2	2.2
+7) Friends	9	9.8
+8) School education	2	2.2
+9) My own reading of books	15	16.3
+10) Reading of newspapers and magazines	5	5.4
+11) TV and films	12	13.0
+12) The Internet and email	2	2.2
+13) Religious places of worship, such as churches or temples	11	12.0
+Missing	6929
+
+
+268) INFLSL1
+And if you say 'yes' to [soul], is your view influenced by any of the following people or sources? Please select three from the following list. First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	702	8.564	20.206
+1) The elders in the family	353	50.3
+2) Spouse or boyfriend/girlfriend	19	2.7
+3) Other relatives	46	6.6
+4) Neighbors	37	5.3
+5) Co-workers	10	1.4
+6) Classmate at school	6	0.9
+7) Friends	25	3.6
+8) School education	4	0.6
+9) My own reading of books	64	9.1
+10) Reading of newspapers and magazines	7	1.0
+11) TV and films	26	3.7
+12) The Internet and email	4	0.6
+13) Religious places of worship, such as churches or temples	69	9.8
+98) Refuse to answer [do not read]	3	0.4
+99) Hard to say/don't know [do not read]	29	4.1
+Missing	6319
+
+
+269) INFLSL2
+And if you say 'yes' to [soul], is your view influenced by any of the following people or sources? Please select three from the following list. Second mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	391	5.99	3.574
+1) The elders in the family	29	7.4
+2) Spouse or boyfriend/girlfriend	38	9.7
+3) Other relatives	64	16.4
+4) Neighbors	54	13.8
+5) Co-workers	23	5.9
+6) Classmate at school	19	4.9
+7) Friends	25	6.4
+8) School education	4	1.0
+9) My own reading of books	62	15.9
+10) Reading of newspapers and magazines	10	2.6
+11) TV and films	40	10.2
+12) The Internet and email	4	1.0
+13) Religious places of worship, such as churches or temples	19	4.9
+Missing	6630
+
+
+270) INFLSL3
+And if you say 'yes' to [soul], is your view influenced by any of the following people or sources? Please select three from the following list. Third mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	224	7.522	3.757
+1) The elders in the family	8	3.6
+2) Spouse or boyfriend/girlfriend	5	2.2
+3) Other relatives	28	12.5
+4) Neighbors	32	14.3
+5) Co-workers	15	6.7
+6) Classmate at school	9	4.0
+7) Friends	17	7.6
+8) School education	3	1.3
+9) My own reading of books	23	10.3
+10) Reading of newspapers and magazines	13	5.8
+11) TV and films	35	15.6
+12) The Internet and email	7	3.1
+13) Religious places of worship, such as churches or temples	29	12.9
+Missing	6797
+
+
+271) INFLBUD1
+And if you say 'yes' to [Buddha], is your view influenced by any of the following people or sources? Please select three from the following list. First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1125	6.861	16.391
+1) The elders in the family	629	55.9
+2) Spouse or boyfriend/girlfriend	37	3.3
+3) Other relatives	48	4.3
+4) Neighbors	58	5.2
+5) Co-workers	12	1.1
+6) Classmate at school	3	0.3
+7) Friends	34	3.0
+8) School education	3	0.3
+9) My own reading of books	67	6.0
+10) Reading of newspapers and magazines	6	0.5
+11) TV and films	38	3.4
+12) The Internet and email	1	0.1
+13) Religious places of worship, such as churches or temples	157	14.0
+98) Refuse to answer [do not read]	2	0.2
+99) Hard to say/don't know [do not read]	30	2.7
+Missing	5896
+
+
+272) INFLBUD2
+And if you say 'yes' to [Buddha], is your view influenced by any of the following people or sources? Please select three from the following list. Second mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	655	5.791	3.925
+1) The elders in the family	66	10.1
+2) Spouse or boyfriend/girlfriend	84	12.8
+3) Other relatives	103	15.7
+4) Neighbors	109	16.6
+5) Co-workers	25	3.8
+6) Classmate at school	7	1.1
+7) Friends	50	7.6
+8) School education	8	1.2
+9) My own reading of books	66	10.1
+10) Reading of newspapers and magazines	14	2.1
+11) TV and films	47	7.2
+12) The Internet and email	6	0.9
+13) Religious places of worship, such as churches or temples	70	10.7
+Missing	6366
+
+
+273) INFLBUD3
+And if you say 'yes' to [Buddha], is your view influenced by any of the following people or sources? Please select three from the following list. Third mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	375	7.053	3.82
+1) The elders in the family	18	4.8
+2) Spouse or boyfriend/girlfriend	17	4.5
+3) Other relatives	46	12.3
+4) Neighbors	63	16.8
+5) Co-workers	24	6.4
+6) Classmate at school	12	3.2
+7) Friends	34	9.1
+8) School education	2	0.5
+9) My own reading of books	39	10.4
+10) Reading of newspapers and magazines	13	3.5
+11) TV and films	57	15.2
+12) The Internet and email	1	0.3
+13) Religious places of worship, such as churches or temples	49	13.1
+Missing	6646
+
+
+274) INFLSAG1
+And if you say 'yes' to [sages], is your view influenced by any of the following people or sources? Please select three from the following list. First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	560	7.863	16.157
+1) The elders in the family	235	42.0
+2) Spouse or boyfriend/girlfriend	11	2.0
+3) Other relatives	15	2.7
+4) Neighbors	12	2.1
+5) Co-workers	6	1.1
+6) Classmate at school	5	0.9
+7) Friends	6	1.1
+8) School education	80	14.3
+9) My own reading of books	122	21.8
+10) Reading of newspapers and magazines	6	1.1
+11) TV and films	13	2.3
+12) The Internet and email	2	0.4
+13) Religious places of worship, such as churches or temples	31	5.5
+98) Refuse to answer [do not read]	1	0.2
+99) Hard to say/don't know [do not read]	15	2.7
+Missing	6461
+
+
+275) INFLSAG2
+And if you say 'yes' to [sages], is your view influenced by any of the following people or sources? Please select three from the following list. Second mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	364	6.893	3.416
+1) The elders in the family	33	9.1
+2) Spouse or boyfriend/girlfriend	22	6.0
+3) Other relatives	34	9.3
+4) Neighbors	27	7.4
+5) Co-workers	13	3.6
+6) Classmate at school	9	2.5
+7) Friends	15	4.1
+8) School education	48	13.2
+9) My own reading of books	90	24.7
+10) Reading of newspapers and magazines	24	6.6
+11) TV and films	35	9.6
+12) The Internet and email	3	0.8
+13) Religious places of worship, such as churches or temples	11	3.0
+Missing	6657
+
+
+276) INFLSAG3
+And if you say 'yes' to [sages], is your view influenced by any of the following people or sources? Please select three from the following list. Third mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	242	7.781	3.432
+1) The elders in the family	15	6.2
+2) Spouse or boyfriend/girlfriend	9	3.7
+3) Other relatives	19	7.9
+4) Neighbors	15	6.2
+5) Co-workers	8	3.3
+6) Classmate at school	5	2.1
+7) Friends	22	9.1
+8) School education	23	9.5
+9) My own reading of books	34	14.0
+10) Reading of newspapers and magazines	16	6.6
+11) TV and films	63	26.0
+12) The Internet and email	3	1.2
+13) Religious places of worship, such as churches or temples	10	4.1
+Missing	6779
+
+
+277) INFLKAR1
+And if you say 'yes' to [karma], is your view influenced by any of the following people or sources? Please select three from the following list. First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1450	10.266	22.791
+1) The elders in the family	638	44.0
+2) Spouse or boyfriend/girlfriend	36	2.5
+3) Other relatives	73	5.0
+4) Neighbors	105	7.2
+5) Co-workers	28	1.9
+6) Classmate at school	13	0.9
+7) Friends	59	4.1
+8) School education	23	1.6
+9) My own reading of books	157	10.8
+10) Reading of newspapers and magazines	30	2.1
+11) TV and films	105	7.2
+12) The Internet and email	6	0.4
+13) Religious places of worship, such as churches or temples	90	6.2
+98) Refuse to answer [do not read]	2	0.1
+99) Hard to say/don't know [do not read]	85	5.9
+Missing	5571
+
+
+278) INFLKAR2
+And if you say 'yes' to [karma], is your view influenced by any of the following people or sources? Please select three from the following list. Second mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	840	6.274	3.662
+1) The elders in the family	71	8.5
+2) Spouse or boyfriend/girlfriend	80	9.5
+3) Other relatives	108	12.9
+4) Neighbors	117	13.9
+5) Co-workers	44	5.2
+6) Classmate at school	13	1.5
+7) Friends	63	7.5
+8) School education	21	2.5
+9) My own reading of books	121	14.4
+10) Reading of newspapers and magazines	50	6.0
+11) TV and films	108	12.9
+12) The Internet and email	9	1.1
+13) Religious places of worship, such as churches or temples	35	4.2
+Missing	6181
+
+
+279) INFLKAR3
+And if you say 'yes' to [karma], is your view influenced by any of the following people or sources? Please select three from the following list. Third mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	491	7.43	3.515
+1) The elders in the family	28	5.7
+2) Spouse or boyfriend/girlfriend	14	2.9
+3) Other relatives	42	8.6
+4) Neighbors	59	12.0
+5) Co-workers	28	5.7
+6) Classmate at school	17	3.5
+7) Friends	53	10.8
+8) School education	6	1.2
+9) My own reading of books	76	15.5
+10) Reading of newspapers and magazines	33	6.7
+11) TV and films	94	19.1
+12) The Internet and email	12	2.4
+13) Religious places of worship, such as churches or temples	29	5.9
+Missing	6530
+
+
+280) INFLAFT1
+And if you say 'yes' to [the afterlife], is your view influenced by any of the following people or sources? Please select three from the following list. First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	419	10.618	22.246
+1) The elders in the family	167	39.9
+2) Spouse or boyfriend/girlfriend	10	2.4
+3) Other relatives	26	6.2
+4) Neighbors	14	3.3
+5) Co-workers	17	4.1
+6) Classmate at school	6	1.4
+7) Friends	21	5.0
+8) School education	4	1.0
+9) My own reading of books	45	10.7
+10) Reading of newspapers and magazines	4	1.0
+11) TV and films	21	5.0
+12) The Internet and email	2	0.5
+13) Religious places of worship, such as churches or temples	58	13.8
+98) Refuse to answer [do not read]	2	0.5
+99) Hard to say/don't know [do not read]	22	5.3
+Missing	6602
+
+
+281) INFLAFT2
+And if you say 'yes' to [the afterlife], is your view influenced by any of the following people or sources? Please select three from the following list. Second mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	226	6.721	7.292
+1) The elders in the family	16	7.1
+2) Spouse or boyfriend/girlfriend	28	12.4
+3) Other relatives	28	12.4
+4) Neighbors	35	15.5
+5) Co-workers	9	4.0
+6) Classmate at school	5	2.2
+7) Friends	18	8.0
+8) School education	3	1.3
+9) My own reading of books	30	13.3
+10) Reading of newspapers and magazines	3	1.3
+11) TV and films	25	11.1
+12) The Internet and email	1	0.4
+13) Religious places of worship, such as churches or temples	24	10.6
+99) Hard to say/don't know [do not read]	1	0.4
+Missing	6795
+
+
+282) INFLAFT3
+And if you say 'yes' to [the afterlife], is your view influenced by any of the following people or sources? Please select three from the following list. Third mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	138	6.529	3.908
+1) The elders in the family	8	5.8
+2) Spouse or boyfriend/girlfriend	11	8.0
+3) Other relatives	21	15.2
+4) Neighbors	23	16.7
+5) Co-workers	6	4.3
+6) Classmate at school	7	5.1
+7) Friends	8	5.8
+8) School education	3	2.2
+9) My own reading of books	15	10.9
+10) Reading of newspapers and magazines	7	5.1
+11) TV and films	7	5.1
+12) The Internet and email	4	2.9
+13) Religious places of worship, such as churches or temples	18	13.0
+Missing	6883
+
+
+283) INFLRIN1
+And if you say 'yes' to [reincarnation], is your view influenced by any of the following people or sources? Please select three from the following list. First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	341	9.941	19.67
+1) The elders in the family	129	37.8
+2) Spouse or boyfriend/girlfriend	10	2.9
+3) Other relatives	13	3.8
+4) Neighbors	13	3.8
+5) Co-workers	5	1.5
+6) Classmate at school	3	0.9
+7) Friends	18	5.3
+8) School education	1	0.3
+9) My own reading of books	44	12.9
+10) Reading of newspapers and magazines	4	1.2
+11) TV and films	31	9.1
+12) The Internet and email	2	0.6
+13) Religious places of worship, such as churches or temples	53	15.5
+98) Refuse to answer [do not read]	2	0.6
+99) Hard to say/don't know [do not read]	13	3.8
+Missing	6680
+
+
+284) INFLRIN2
+And if you say 'yes' to [reincarnation], is your view influenced by any of the following people or sources? Please select three from the following list. Second mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	187	6.775	7.881
+1) The elders in the family	21	11.2
+2) Spouse or boyfriend/girlfriend	20	10.7
+3) Other relatives	24	12.8
+4) Neighbors	23	12.3
+5) Co-workers	8	4.3
+6) Classmate at school	5	2.7
+7) Friends	11	5.9
+8) School education	1	0.5
+9) My own reading of books	21	11.2
+10) Reading of newspapers and magazines	10	5.3
+11) TV and films	22	11.8
+12) The Internet and email	3	1.6
+13) Religious places of worship, such as churches or temples	17	9.1
+99) Hard to say/don't know [do not read]	1	0.5
+Missing	6834
+
+
+285) INFLRIN3
+And if you say 'yes' to [reincarnation], is your view influenced by any of the following people or sources? Please select three from the following list. Third mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	109	6.798	3.958
+1) The elders in the family	6	5.5
+2) Spouse or boyfriend/girlfriend	7	6.4
+3) Other relatives	16	14.7
+4) Neighbors	15	13.8
+5) Co-workers	7	6.4
+6) Classmate at school	5	4.6
+7) Friends	11	10.1
+8) School education	3	2.8
+9) My own reading of books	9	8.3
+10) Reading of newspapers and magazines	1	0.9
+11) TV and films	10	9.2
+12) The Internet and email	1	0.9
+13) Religious places of worship, such as churches or temples	18	16.5
+Missing	6912
+
+
+286) INFLSPR1
+And if you say 'yes' to [gods, spirits], is your view influenced by any of the following people or sources? Please select three from the following list. First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	365	8.904	19.199
+1) The elders in the family	162	44.4
+2) Spouse or boyfriend/girlfriend	9	2.5
+3) Other relatives	15	4.1
+4) Neighbors	26	7.1
+5) Co-workers	5	1.4
+6) Classmate at school	6	1.6
+7) Friends	9	2.5
+8) School education	1	0.3
+9) My own reading of books	35	9.6
+10) Reading of newspapers and magazines	2	0.5
+11) TV and films	34	9.3
+12) The Internet and email	1	0.3
+13) Religious places of worship, such as churches or temples	45	12.3
+98) Refuse to answer [do not read]	2	0.5
+99) Hard to say/don't know [do not read]	13	3.6
+Missing	6656
+
+
+287) INFLSPR2
+And if you say 'yes' to [gods, spirits], is your view influenced by any of the following people or sources? Please select three from the following list. Second mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	206	6.17	3.939
+1) The elders in the family	19	9.2
+2) Spouse or boyfriend/girlfriend	25	12.1
+3) Other relatives	32	15.5
+4) Neighbors	26	12.6
+5) Co-workers	6	2.9
+6) Classmate at school	5	2.4
+7) Friends	15	7.3
+9) My own reading of books	22	10.7
+10) Reading of newspapers and magazines	9	4.4
+11) TV and films	30	14.6
+12) The Internet and email	2	1.0
+13) Religious places of worship, such as churches or temples	15	7.3
+Missing	6815
+
+
+288) INFLSPR3
+And if you say 'yes' to [gods, spirits], is your view influenced by any of the following people or sources? Please select three from the following list. Third mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	119	7.37	4.127
+1) The elders in the family	5	4.2
+2) Spouse or boyfriend/girlfriend	7	5.9
+3) Other relatives	21	17.6
+4) Neighbors	13	10.9
+5) Co-workers	7	5.9
+6) Classmate at school	2	1.7
+7) Friends	5	4.2
+8) School education	1	0.8
+9) My own reading of books	13	10.9
+10) Reading of newspapers and magazines	4	3.4
+11) TV and films	15	12.6
+12) The Internet and email	7	5.9
+13) Religious places of worship, such as churches or temples	19	16.0
+Missing	6902
+
+
+289) INFLGHO1
+And if you say 'yes' to [ghosts], is your view influenced by any of the following people or sources? Please select three from the following list. First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	372	7.551	17.219
+1) The elders in the family	176	47.3
+2) Spouse or boyfriend/girlfriend	8	2.2
+3) Other relatives	17	4.6
+4) Neighbors	32	8.6
+5) Co-workers	9	2.4
+6) Classmate at school	3	0.8
+7) Friends	16	4.3
+8) School education	3	0.8
+9) My own reading of books	31	8.3
+10) Reading of newspapers and magazines	8	2.2
+11) TV and films	23	6.2
+12) The Internet and email	1	0.3
+13) Religious places of worship, such as churches or temples	33	8.9
+98) Refuse to answer [do not read]	2	0.5
+99) Hard to say/don't know [do not read]	10	2.7
+Missing	6649
+
+
+290) INFLGHO2
+And if you say 'yes' to [ghosts], is your view influenced by any of the following people or sources? Please select three from the following list. Second mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	204	6.039	3.756
+1) The elders in the family	16	7.8
+2) Spouse or boyfriend/girlfriend	24	11.8
+3) Other relatives	32	15.7
+4) Neighbors	32	15.7
+5) Co-workers	6	2.9
+6) Classmate at school	4	2.0
+7) Friends	17	8.3
+8) School education	1	0.5
+9) My own reading of books	20	9.8
+10) Reading of newspapers and magazines	9	4.4
+11) TV and films	32	15.7
+12) The Internet and email	2	1.0
+13) Religious places of worship, such as churches or temples	9	4.4
+Missing	6817
+
+
+291) INFLGHO3
+And if you say 'yes' to [ghosts], is your view influenced by any of the following people or sources? Please select three from the following list. Third mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	126	6.524	4.031
+1) The elders in the family	13	10.3
+2) Spouse or boyfriend/girlfriend	4	3.2
+3) Other relatives	27	21.4
+4) Neighbors	12	9.5
+5) Co-workers	9	7.1
+6) Classmate at school	3	2.4
+7) Friends	7	5.6
+9) My own reading of books	12	9.5
+10) Reading of newspapers and magazines	5	4.0
+11) TV and films	18	14.3
+12) The Internet and email	4	3.2
+13) Religious places of worship, such as churches or temples	12	9.5
+Missing	6895
+
+
+292) INFLFAT1
+And if you say 'yes' to [fate, fortune], is your view influenced by any of the following people or sources? Please select three from the following list. First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1712	11.612	26.047
+1) The elders in the family	809	47.3
+2) Spouse or boyfriend/girlfriend	81	4.7
+3) Other relatives	75	4.4
+4) Neighbors	72	4.2
+5) Co-workers	51	3.0
+6) Classmate at school	23	1.3
+7) Friends	91	5.3
+8) School education	17	1.0
+9) My own reading of books	188	11.0
+10) Reading of newspapers and magazines	24	1.4
+11) TV and films	64	3.7
+12) The Internet and email	8	0.5
+13) Religious places of worship, such as churches or temples	72	4.2
+98) Refuse to answer [do not read]	2	0.1
+99) Hard to say/don't know [do not read]	135	7.9
+Missing	5309
+
+
+293) INFLFAT2
+And if you say 'yes' to [fate, fortune], is your view influenced by any of the following people or sources? Please select three from the following list. Second mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1032	6.103	4.55
+1) The elders in the family	91	8.8
+2) Spouse or boyfriend/girlfriend	132	12.8
+3) Other relatives	114	11.0
+4) Neighbors	115	11.1
+5) Co-workers	55	5.3
+6) Classmate at school	33	3.2
+7) Friends	118	11.4
+8) School education	19	1.8
+9) My own reading of books	149	14.4
+10) Reading of newspapers and magazines	61	5.9
+11) TV and films	112	10.9
+12) The Internet and email	8	0.8
+13) Religious places of worship, such as churches or temples	24	2.3
+98) Refuse to answer [do not read]	0	0.0
+99) Hard to say/don't know [do not read]	1	0.1
+Missing	5989
+
+
+294) INFLFAT3
+And if you say 'yes' to [fate, fortune], is your view influenced by any of the following people or sources? Please select three from the following list. Third mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	608	7.143	3.515
+1) The elders in the family	28	4.6
+2) Spouse or boyfriend/girlfriend	27	4.4
+3) Other relatives	69	11.3
+4) Neighbors	72	11.8
+5) Co-workers	35	5.8
+6) Classmate at school	14	2.3
+7) Friends	90	14.8
+8) School education	10	1.6
+9) My own reading of books	70	11.5
+10) Reading of newspapers and magazines	40	6.6
+11) TV and films	104	17.1
+12) The Internet and email	14	2.3
+13) Religious places of worship, such as churches or temples	35	5.8
+Missing	6413
+
+
+295) INFLWLT1
+And if you say 'yes' to [god of wealth], is your view influenced by any of the following people or sources? Please select three from the following list. First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	854	8.388	20.236
+1) The elders in the family	431	50.5
+2) Spouse or boyfriend/girlfriend	28	3.3
+3) Other relatives	46	5.4
+4) Neighbors	62	7.3
+5) Co-workers	24	2.8
+6) Classmate at school	7	0.8
+7) Friends	33	3.9
+8) School education	2	0.2
+9) My own reading of books	60	7.0
+10) Reading of newspapers and magazines	5	0.6
+11) TV and films	42	4.9
+12) The Internet and email	5	0.6
+13) Religious places of worship, such as churches or temples	70	8.2
+98) Refuse to answer [do not read]	2	0.2
+99) Hard to say/don't know [do not read]	37	4.3
+Missing	6167
+
+
+296) INFLWLT2
+And if you say 'yes' to [god of wealth], is your view influenced by any of the following people or sources? Please select three from the following list. Second mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	521	5.651	3.594
+1) The elders in the family	36	6.9
+2) Spouse or boyfriend/girlfriend	76	14.6
+3) Other relatives	84	16.1
+4) Neighbors	84	16.1
+5) Co-workers	29	5.6
+6) Classmate at school	14	2.7
+7) Friends	37	7.1
+8) School education	7	1.3
+9) My own reading of books	50	9.6
+10) Reading of newspapers and magazines	24	4.6
+11) TV and films	52	10.0
+12) The Internet and email	2	0.4
+13) Religious places of worship, such as churches or temples	26	5.0
+Missing	6500
+
+
+297) INFLWLT3
+And if you say 'yes' to [god of wealth], is your view influenced by any of the following people or sources? Please select three from the following list. Third mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	334	6.757	3.749
+1) The elders in the family	25	7.5
+2) Spouse or boyfriend/girlfriend	8	2.4
+3) Other relatives	43	12.9
+4) Neighbors	57	17.1
+5) Co-workers	28	8.4
+6) Classmate at school	10	3.0
+7) Friends	25	7.5
+8) School education	10	3.0
+9) My own reading of books	28	8.4
+10) Reading of newspapers and magazines	13	3.9
+11) TV and films	53	15.9
+12) The Internet and email	3	0.9
+13) Religious places of worship, such as churches or temples	31	9.3
+Missing	6687
+
+
+298) INFLANC1
+And if you say 'yes' to [ancestral spirits], is your view influenced by any of the following people or sources? Please select three from the following list. First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1118	5.904	17.36
+1) The elders in the family	804	71.9
+2) Spouse or boyfriend/girlfriend	19	1.7
+3) Other relatives	37	3.3
+4) Neighbors	32	2.9
+5) Co-workers	7	0.6
+6) Classmate at school	8	0.7
+7) Friends	26	2.3
+8) School education	2	0.2
+9) My own reading of books	40	3.6
+10) Reading of newspapers and magazines	3	0.3
+11) TV and films	32	2.9
+12) The Internet and email	1	0.1
+13) Religious places of worship, such as churches or temples	71	6.4
+98) Refuse to answer [do not read]	2	0.2
+99) Hard to say/don't know [do not read]	34	3.0
+Missing	5903
+
+
+299) INFLANC2
+And if you say 'yes' to [ancestral spirits], is your view influenced by any of the following people or sources? Please select three from the following list. Second mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	569	5.06	3.523
+1) The elders in the family	51	9.0
+2) Spouse or boyfriend/girlfriend	85	14.9
+3) Other relatives	153	26.9
+4) Neighbors	74	13.0
+5) Co-workers	17	3.0
+6) Classmate at school	12	2.1
+7) Friends	30	5.3
+8) School education	5	0.9
+9) My own reading of books	48	8.4
+10) Reading of newspapers and magazines	13	2.3
+11) TV and films	58	10.2
+12) The Internet and email	3	0.5
+13) Religious places of worship, such as churches or temples	20	3.5
+Missing	6452
+
+
+300) INFLANC3
+And if you say 'yes' to [ancestral spirits], is your view influenced by any of the following people or sources? Please select three from the following list. Third mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	343	6.869	3.955
+1) The elders in the family	8	2.3
+2) Spouse or boyfriend/girlfriend	26	7.6
+3) Other relatives	49	14.3
+4) Neighbors	70	20.4
+5) Co-workers	20	5.8
+6) Classmate at school	10	2.9
+7) Friends	25	7.3
+8) School education	2	0.6
+9) My own reading of books	26	7.6
+10) Reading of newspapers and magazines	10	2.9
+11) TV and films	36	10.5
+12) The Internet and email	5	1.5
+13) Religious places of worship, such as churches or temples	56	16.3
+Missing	6678
+
+
+301) INFLKPR1
+And if you say 'yes' to [karma in personal relationships], is your view influenced by any of the following people or sources? Please select three from the following list. First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2908	9.839	22.709
+1) The elders in the family	971	33.4
+2) Spouse or boyfriend/girlfriend	591	20.3
+3) Other relatives	56	1.9
+4) Neighbors	79	2.7
+5) Co-workers	99	3.4
+6) Classmate at school	81	2.8
+7) Friends	259	8.9
+8) School education	23	0.8
+9) My own reading of books	293	10.1
+10) Reading of newspapers and magazines	40	1.4
+11) TV and films	157	5.4
+12) The Internet and email	10	0.3
+13) Religious places of worship, such as churches or temples	76	2.6
+98) Refuse to answer [do not read]	3	0.1
+99) Hard to say/don't know [do not read]	170	5.8
+Missing	4113
+
+
+302) INFLKPR2
+And if you say 'yes' to [karma in personal relationships], is your view influenced by any of the following people or sources? Please select three from the following list. Second mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	1786	6.171	3.34
+1) The elders in the family	120	6.7
+2) Spouse or boyfriend/girlfriend	267	14.9
+3) Other relatives	133	7.4
+4) Neighbors	127	7.1
+5) Co-workers	118	6.6
+6) Classmate at school	100	5.6
+7) Friends	322	18.0
+8) School education	17	1.0
+9) My own reading of books	230	12.9
+10) Reading of newspapers and magazines	123	6.9
+11) TV and films	189	10.6
+12) The Internet and email	19	1.1
+13) Religious places of worship, such as churches or temples	21	1.2
+Missing	5235
+
+
+303) INFLKPR3
+And if you say 'yes' to [karma in personal relationships], is your view influenced by any of the following people or sources? Please select three from the following list. Third mention
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	1085	7.441	3.371
+1) The elders in the family	52	4.8
+2) Spouse or boyfriend/girlfriend	49	4.5
+3) Other relatives	84	7.7
+4) Neighbors	85	7.8
+5) Co-workers	74	6.8
+6) Classmate at school	41	3.8
+7) Friends	174	16.0
+8) School education	12	1.1
+9) My own reading of books	141	13.0
+10) Reading of newspapers and magazines	60	5.5
+11) TV and films	251	23.1
+12) The Internet and email	34	3.1
+13) Religious places of worship, such as churches or temples	28	2.6
+Missing	5936
+
+
+304) VIEWGODS
+Which one of the following statements is closest to your view of God/gods?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	3.53	1.68
+1) There is only one true God.	279	4.0
+2) There are many gods.	526	7.5
+3) There is no God or gods.	3999	57.0
+4) As humans, we cannot know whether there is God.	1691	24.1
+8) Refuse to answer [do not read]	43	0.6
+9) Hard to say/don't know [do not read]	483	6.9
+
+
+305) ONEGOD
+[IF VIEWGODS = 1] To be more specific, who is this one true God? [please specify]
+RANGE: 998 to 999
+	N	Mean	Std. Deviation
+Total	28	998.929	0.262
+998) Refuse to answer [do not read]	2	7.1
+999) Hard to say/don't know [do not read]	26	92.9
+Missing	6993
+
+
+306) THREEGOD
+[IF VIEWGODS = 2] Please list the three gods that are the most important to you. First mention
+RANGE: 998 to 999
+	N	Mean	Std. Deviation
+Total	49	998.939	0.242
+998) Refuse to answer [do not read]	3	6.1
+999) Hard to say/don't know [do not read]	46	93.9
+Missing	6972
+
+
+307) GODWORLD
+According to your view of God or gods, do you agree with the following statements? First, do you think God or gods is/are concerned with the well-being of the world?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	804	1.787	2.09
+1) Agree	595	74.0
+2) Disagree	148	18.4
+8) Refuse to answer [do not read]	3	0.4
+9) Hard to say/don't know [do not read]	58	7.2
+Missing	6217
+
+
+308) GODPRSNL
+According to your view of God or gods, do you agree with the following statements? God or gods are concerned with my personal well-being.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	804	2.291	2.454
+1) Agree	412	51.2
+2) Disagree	299	37.2
+8) Refuse to answer [do not read]	5	0.6
+9) Hard to say/don't know [do not read]	88	10.9
+Missing	6217
+
+
+309) GODINVLV
+According to your view of God or gods, do you agree with the following statements? God or gods is/are directly involved in worldly affairs.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	804	2.479	2.619
+1) Agree	382	47.5
+2) Disagree	311	38.7
+8) Refuse to answer [do not read]	10	1.2
+9) Hard to say/don't know [do not read]	101	12.6
+Missing	6217
+
+
+310) GODMYAFF
+According to your view of God or gods, do you agree with the following statements? God or gods is/are directly involved in my affairs.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	804	2.611	2.633
+1) Agree	308	38.3
+2) Disagree	381	47.4
+8) Refuse to answer [do not read]	6	0.7
+9) Hard to say/don't know [do not read]	109	13.6
+Missing	6217
+
+
+311) GODANS1
+According to your view of God or gods, do you agree with the following statements? God or gods will answer all prayers.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	804	2.664	2.704
+1) Agree	321	39.9
+2) Disagree	359	44.7
+8) Refuse to answer [do not read]	13	1.6
+9) Hard to say/don't know [do not read]	111	13.8
+Missing	6217
+
+
+312) GODANS2
+According to your view of God or gods, do you agree with the following statements? God or gods will answer certain prayers, not others.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	804	2.266	2.528
+1) Agree	472	58.7
+2) Disagree	232	28.9
+8) Refuse to answer [do not read]	14	1.7
+9) Hard to say/don't know [do not read]	86	10.7
+Missing	6217
+
+
+313) SOULEXST
+Do you think souls exist after death?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	3.36	2.192
+1) Yes	933	13.3
+2) As humans, we cannot know whether we have souls	701	10.0
+3) No	4525	64.4
+8) Refuse to answer [do not read]	75	1.1
+9) Hard to say/don't know [do not read]	787	11.2
+
+
+314) SOULGOES
+Where do you think the soul goes after death?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2394	51.255	47.998
+1) The underworld	237	9.9
+2) Heaven or hell	468	19.5
+3) The soul will wander in the human world	114	4.8
+4) To meet Karl Marx	31	1.3
+5) Become spirits or buddha	59	2.5
+6) Reincarnation	282	11.8
+98) Refuse to answer [do not read]	19	0.8
+99) Hard to say/don't know	1184	49.5
+Missing	4627
+
+
+315) MAININF1
+What are the main influences on your personal actions and moral outlook? [Select three items.] First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	6973	7.26	21.849
+1) The teachings of the elders in the family	5138	73.7
+2) The influence of my spouse or boyfriend/girlfriend	264	3.8
+3) Influence of other relatives	162	2.3
+4) Influence of friends	272	3.9
+5) Influence of school classmates	27	0.4
+6) Influence of co-workers	38	0.5
+7) Influence of the Internet	32	0.5
+8) Influence of the media	274	3.9
+9) Influence of books I've read	205	2.9
+10) Influence of my religion	62	0.9
+11) Influence from a variety of religions	32	0.5
+12) Influence of my teachers or school education	80	1.1
+13) The teachings of the Communist Party and the Youth League	17	0.2
+98) Refuse to answer [do not read]	24	0.3
+99) Hard to say/don't know [do not read]	346	5.0
+Missing	48
+
+
+316) MAININF2
+What are the main influences of your personal actions and moral outlook? [Select three items.] Second mention
+RANGE: 2 to 13
+	N	Mean	Std. Deviation
+Total	5658	6.482	3.528
+2) The influence of my spouse or boyfriend/girlfriend	944	16.7
+3) Influence of other relatives	688	12.2
+4) Influence of friends	886	15.7
+5) Influence of school classmates	151	2.7
+6) Influence of co-workers	148	2.6
+7) Influence of the Internet	76	1.3
+8) Influence of the media	738	13.0
+9) Influence of books I've read	963	17.0
+10) Influence of my religion	139	2.5
+11) Influence from a variety of religions	137	2.4
+12) Influence of my teachers or school education	710	12.5
+13) The teachings of the Communist Party and the Youth League	78	1.4
+Missing	1363
+
+
+317) MAININF3
+What are the main influences of your personal actions and moral outlook? [Select three items.] Third mention
+RANGE: 2 to 13
+	N	Mean	Std. Deviation
+Total	3689	9.343	3.094
+2) The influence of my spouse or boyfriend/girlfriend	1	0.0
+3) Influence of other relatives	199	5.4
+4) Influence of friends	335	9.1
+5) Influence of school classmates	100	2.7
+6) Influence of co-workers	156	4.2
+7) Influence of the Internet	30	0.8
+8) Influence of the media	358	9.7
+9) Influence of books I've read	638	17.3
+10) Influence of my religion	133	3.6
+11) Influence from a variety of religions	181	4.9
+12) Influence of my teachers or school education	1301	35.3
+13) The teachings of the Communist Party and the Youth League	257	7.0
+Missing	3332
+
+
+318) TRUSTFAM
+I will read to you a list of people whom you encounter in everyday life. How much would you say that you trust them? Family members (parents, spouse, children)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	1.175	0.509
+1) A lot	5986	85.3
+2) Some	912	13.0
+3) Only a little	101	1.4
+4) Not at all	11	0.2
+7) I don't know such people	3	0.0
+9) Hard to say/don't know [do not read]	8	0.1
+
+
+319) TRUSTKIN
+I will read to you a list of people whom you encounter in everyday life. How much would you say that you trust them? Other relatives and kin
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	1.895	0.881
+1) A lot	2170	30.9
+2) Some	3762	53.6
+3) Only a little	951	13.5
+4) Not at all	95	1.4
+7) I don't know such people	3	0.0
+8) Refuse to answer [do not read]	1	0.0
+9) Hard to say/don't know [do not read]	39	0.6
+
+
+320) TRUSTFRD
+I will read to you a list of people whom you encounter in everyday life. How much would you say that you trust them? Friends
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.299	1.001
+1) A lot	1017	14.5
+2) Some	3544	50.5
+3) Only a little	2209	31.5
+4) Not at all	154	2.2
+7) I don't know such people	38	0.5
+8) Refuse to answer [do not read]	1	0.0
+9) Hard to say/don't know [do not read]	58	0.8
+
+
+321) TRUSTCOL
+I will read to you a list of people whom you encounter in everyday life. How much would you say that you trust them? Colleagues/co-workers
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	3.187	1.751
+1) A lot	331	4.7
+2) Some	2384	34.0
+3) Only a little	3034	43.2
+4) Not at all	336	4.8
+7) I don't know such people	791	11.3
+8) Refuse to answer [do not read]	14	0.2
+9) Hard to say/don't know [do not read]	131	1.9
+
+
+322) TRUSTBUS
+I will read to you a list of people whom you encounter in everyday life. How much would you say that you trust them? Business associates
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	4.885	2.176
+1) A lot	80	1.1
+2) Some	628	8.9
+3) Only a little	2325	33.1
+4) Not at all	850	12.1
+7) I don't know such people	2812	40.1
+8) Refuse to answer [do not read]	32	0.5
+9) Hard to say/don't know [do not read]	294	4.2
+
+
+323) TRUSTREL
+I will read to you a list of people whom you encounter in everyday life. How much would you say that you trust them? People who share my religion
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	5.834	2.112
+1) A lot	117	1.7
+2) Some	518	7.4
+3) Only a little	1105	15.7
+4) Not at all	468	6.7
+7) I don't know such people	4318	61.5
+8) Refuse to answer [do not read]	59	0.8
+9) Hard to say/don't know [do not read]	436	6.2
+
+
+324) TRUSTPPL
+I will read to you a list of people whom you encounter in everyday life. How much would you say that you trust them? People in general
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	4.368	2.217
+1) A lot	49	0.7
+2) Some	395	5.6
+3) Only a little	3313	47.2
+4) Not at all	1634	23.3
+7) I don't know such people	616	8.8
+8) Refuse to answer [do not read]	87	1.2
+9) Hard to say/don't know [do not read]	927	13.2
+
+
+325) TRUSTMED
+I will read to you a list of people whom you encounter in everyday life. How much would you say that you trust them? The media
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	3.566	1.894
+1) A lot	163	2.3
+2) Some	1507	21.5
+3) Only a little	3312	47.2
+4) Not at all	1078	15.4
+7) I don't know such people	496	7.1
+8) Refuse to answer [do not read]	44	0.6
+9) Hard to say/don't know [do not read]	421	6.0
+
+
+326) TRUSTWRK
+I will read to you a list of people whom you encounter in everyday life. How much would you say that you trust them? My workplace
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	3.51	2.134
+1) A lot	361	5.1
+2) Some	2569	36.6
+3) Only a little	2214	31.5
+4) Not at all	408	5.8
+7) I don't know such people	1158	16.5
+8) Refuse to answer [do not read]	32	0.5
+9) Hard to say/don't know [do not read]	279	4.0
+
+
+327) TRUSTGOV
+I will read to you a list of people whom you encounter in everyday life. How much would you say that you trust them? The government
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.876	1.748
+1) A lot	711	10.1
+2) Some	2889	41.1
+3) Only a little	2285	32.5
+4) Not at all	582	8.3
+7) I don't know such people	208	3.0
+8) Refuse to answer [do not read]	50	0.7
+9) Hard to say/don't know [do not read]	296	4.2
+
+
+328) TRUSTGRP
+I will read to you a list of people whom you encounter in everyday life. How much would you say that you trust them? Religious groups or organizations
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	5.596	2.309
+1) A lot	150	2.1
+2) Some	569	8.1
+3) Only a little	1115	15.9
+4) Not at all	1144	16.3
+7) I don't know such people	3120	44.4
+8) Refuse to answer [do not read]	66	0.9
+9) Hard to say/don't know [do not read]	857	12.2
+
+
+329) RELPOS1
+Do you think religion has any positive impact on society? [Multiple answers.] First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7008	39.761	46.596
+1) Improve moral standards and social ethos	1576	22.5
+2) Cultivate virtues and character	1228	17.5
+3) Achieve good health and longevity	231	3.3
+4) Help make families more harmonious	339	4.8
+5) Teach people to do good deeds	787	11.2
+6) Help the weak	112	1.6
+97) Religion has no positive impact or benefits at all [do not read]	1367	19.5
+98) Refuse to answer [do not read]	75	1.1
+99) Hard to say/don't know [do not read]	1293	18.5
+Missing	13
+
+
+330) RELPOS2
+Do you think religion has any positive impact on society? [Multiple answers.] Second mention
+RANGE: 2 to 6
+	N	Mean	Std. Deviation
+Total	3011	3.782	1.433
+2) Cultivate virtues and character	980	32.5
+3) Achieve good health and longevity	276	9.2
+4) Help make families more harmonious	447	14.8
+5) Teach people to do good deeds	1035	34.4
+6) Help the weak	273	9.1
+Missing	4010
+
+
+331) RELPOS3
+Do you think religion has any positive impact on society? [Multiple answers.] Third mention
+RANGE: 3 to 6
+	N	Mean	Std. Deviation
+Total	1410	4.634	1.039
+3) Achieve good health and longevity	299	21.2
+4) Help make families more harmonious	216	15.3
+5) Teach people to do good deeds	597	42.3
+6) Help the weak	298	21.1
+Missing	5611
+
+
+332) RELPOS4
+Do you think religion has any positive impact on society? [Multiple answers.] Fourth mention
+RANGE: 4 to 6
+	N	Mean	Std. Deviation
+Total	461	4.837	0.814
+4) Help make families more harmonious	196	42.5
+5) Teach people to do good deeds	144	31.2
+6) Help the weak	121	26.2
+Missing	6560
+
+
+333) RELPOS5
+Do you think religion has any positive impact on society? [Multiple answers.] Fifth mention
+RANGE: 5 to 6
+	N	Mean	Std. Deviation
+Total	230	5.239	0.427
+5) Teach people to do good deeds	175	76.1
+6) Help the weak	55	23.9
+Missing	6791
+
+
+334) RELPOS6
+Do you think religion has any positive impact on society? [Multiple answers.] Sixth mention
+RANGE: 6 to 6
+	N	Mean	Std. Deviation
+Total	137	6	0
+6) Help the weak	137	100.0
+Missing	6884
+
+
+335) RELNEG1
+Do you think religion has any negative impact on society? [Multiple answers] First mention
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7015	39.345	46.032
+1) Make people irrational	1223	17.4
+2) Make people easy to be deceived by frauds	1145	16.3
+3) Make people depressed and withdrawn from the world	315	4.5
+4) Create conflicts in families	147	2.1
+5) Create social conflicts	156	2.2
+6) Give bad people a chance to defraud others	967	13.8
+7) Corrupt moral standards and social ethos	197	2.8
+8) Waste financial resources	201	2.9
+97) Religion has no negative impact on society [do not read]	1132	16.1
+98) Refuse to answer [do not read]	85	1.2
+99) Hard to say/don't know [do not read]	1447	20.6
+Missing	6
+
+
+336) RELNEG2
+Do you think religion has any negative impact on society? [Multiple answers] Second mention
+RANGE: 2 to 8
+	N	Mean	Std. Deviation
+Total	2873	5.151	2.02
+2) Make people easy to be deceived by frauds	514	17.9
+3) Make people depressed and withdrawn from the world	287	10.0
+4) Create conflicts in families	226	7.9
+5) Create social conflicts	179	6.2
+6) Give bad people a chance to defraud others	953	33.2
+7) Corrupt moral standards and social ethos	319	11.1
+8) Waste financial resources	395	13.7
+Missing	4148
+
+
+337) RELNEG3
+Do you think religion has any negative impact on society? [Multiple answers] Third mention
+RANGE: 3 to 8
+	N	Mean	Std. Deviation
+Total	1330	6.184	1.629
+3) Make people depressed and withdrawn from the world	155	11.7
+4) Create conflicts in families	87	6.5
+5) Create social conflicts	93	7.0
+6) Give bad people a chance to defraud others	398	29.9
+7) Corrupt moral standards and social ethos	217	16.3
+8) Waste financial resources	380	28.6
+Missing	5691
+
+
+338) RELNEG4
+Do you think religion has any negative impact on society? [Multiple answers] Fourth mention
+RANGE: 4 to 8
+	N	Mean	Std. Deviation
+Total	366	6.246	1.568
+4) Create conflicts in families	92	25.1
+5) Create social conflicts	19	5.2
+6) Give bad people a chance to defraud others	82	22.4
+7) Corrupt moral standards and social ethos	53	14.5
+8) Waste financial resources	120	32.8
+Missing	6655
+
+
+339) RELNEG5
+Do you think religion has any negative impact on society? [Multiple answers] Fifth mention
+RANGE: 5 to 8
+	N	Mean	Std. Deviation
+Total	170	6.329	1.318
+5) Create social conflicts	74	43.5
+6) Give bad people a chance to defraud others	20	11.8
+7) Corrupt moral standards and social ethos	22	12.9
+8) Waste financial resources	54	31.8
+Missing	6851
+
+
+340) RELNEG6
+Do you think religion has any negative impact on society? [Multiple answers] Sixth mention
+RANGE: 6 to 8
+	N	Mean	Std. Deviation
+Total	104	6.452	0.762
+6) Give bad people a chance to defraud others	74	71.2
+7) Corrupt moral standards and social ethos	13	12.5
+8) Waste financial resources	17	16.3
+Missing	6917
+
+
+341) RELNEG7
+Do you think religion has any negative impact on society? [Multiple answers] Seventh mention
+RANGE: 7 to 8
+	N	Mean	Std. Deviation
+Total	74	7.189	0.394
+7) Corrupt moral standards and social ethos	60	81.1
+8) Waste financial resources	14	18.9
+Missing	6947
+
+
+342) RELNEG8
+Do you think religion has any negative impact on society? [Multiple answers] Eighth mention
+RANGE: 8 to 8
+	N	Mean	Std. Deviation
+Total	57	8	0
+8) Waste financial resources	57	100.0
+Missing	6964
+
+
+343) CNTRLFAT
+Some people think that they can control their own fate or destiny, while others think that they can never escape from their fate that has already been predetermined. If 1 means that one can never escape from one's fate, and 10 means that one can control one's own fate, what is your view on a scale of 1 to 10?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7021	9.168	13.208
+1) 	195	2.8
+2) 	97	1.4
+3) 	154	2.2
+4) 	199	2.8
+5) 	646	9.2
+6) 	780	11.1
+7) 	1212	17.3
+8) 	1448	20.6
+9) 	1047	14.9
+10) 	1098	15.6
+98) Refuse to answer [do not read]	12	0.2
+99) Hard to say/don't know [do not read]	133	1.9
+
+
+344) AGREECH1
+There are many religions in China today, and people have different views regarding these religions. Do you agree or disagree with the following statements? Buddhism is a religion that originated in India, hence it is not suitable for Chinese people.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	3.492	3.065
+1) Agree	1131	16.1
+2) Disagree	4213	60.0
+8) Refuse to answer [do not read]	133	1.9
+9) Hard to say/don't know [do not read]	1544	22.0
+
+
+345) AGREECH2
+Islam is an Arabic religion, hence it is not suitable for Chinese people.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	3.724	3.265
+1) Agree	1505	21.4
+2) Disagree	3547	50.5
+8) Refuse to answer [do not read]	175	2.5
+9) Hard to say/don't know [do not read]	1794	25.6
+
+
+346) AGREECH3
+Christianity is a Western religion, hence it is not suitable for Chinese people.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	3.694	3.242
+1) Agree	1446	20.6
+2) Disagree	3648	52.0
+8) Refuse to answer [do not read]	151	2.2
+9) Hard to say/don't know [do not read]	1776	25.3
+
+
+347) AGREECH4
+Daoism is best suited for Chinese people.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	3.864	3.357
+1) Agree	1618	23.0
+2) Disagree	3278	46.7
+8) Refuse to answer [do not read]	172	2.4
+9) Hard to say/don't know [do not read]	1953	27.8
+
+
+348) AGREECH5
+Confucianism is best suited for Chinese people.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	3.965	3.414
+1) Agree	1684	24.0
+2) Disagree	3100	44.2
+8) Refuse to answer [do not read]	182	2.6
+9) Hard to say/don't know [do not read]	2055	29.3
+
+
+349) AGREECH6
+Daoism, Buddhism and Confucianism as Three-Religions-in-One is best suited for Chinese people.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	4.05	3.447
+1) Agree	1648	23.5
+2) Disagree	3057	43.5
+8) Refuse to answer [do not read]	170	2.4
+9) Hard to say/don't know [do not read]	2146	30.6
+
+
+350) AGREECH7
+People should not have any religious belief; instead people should only believe in Communism.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	3.172	3.192
+1) Agree	3102	44.2
+2) Disagree	2270	32.3
+8) Refuse to answer [do not read]	210	3.0
+9) Hard to say/don't know [do not read]	1439	20.5
+
+
+351) AGREECH8
+People should not have any religious belief; instead people should only believe in science.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.46	2.854
+1) Agree	4601	65.5
+2) Disagree	1283	18.3
+8) Refuse to answer [do not read]	127	1.8
+9) Hard to say/don't know [do not read]	1010	14.4
+
+
+352) GENDER
+Respondent gender
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	7021	1.518	0.5
+1) Male	3381	48.2
+2) Female	3640	51.8
+
+
+353) YEARBORN
+Year of birth
+RANGE: 1932 to 9999
+	N	Mean	Std. Deviation
+Total	7021	2009.379	581.682
+1932) 	21	0.3
+1933) 	25	0.4
+1934) 	18	0.3
+1935) 	22	0.3
+1936) 	27	0.4
+1937) 	36	0.5
+1938) 	24	0.3
+1939) 	21	0.3
+1940) 	38	0.5
+1941) 	29	0.4
+1942) 	42	0.6
+1943) 	42	0.6
+1944) 	56	0.8
+1945) 	51	0.7
+1946) 	56	0.8
+1947) 	101	1.4
+1948) 	94	1.3
+1949) 	114	1.6
+1950) 	97	1.4
+1951) 	104	1.5
+1952) 	129	1.8
+1953) 	124	1.8
+1954) 	121	1.7
+1955) 	128	1.8
+1956) 	147	2.1
+1957) 	186	2.6
+1958) 	136	1.9
+1959) 	129	1.8
+1960) 	111	1.6
+1961) 	101	1.4
+1962) 	193	2.7
+1963) 	215	3.1
+1964) 	164	2.3
+1965) 	164	2.3
+1966) 	148	2.1
+1967) 	185	2.6
+1968) 	194	2.8
+1969) 	169	2.4
+1970) 	181	2.6
+1971) 	196	2.8
+1972) 	187	2.7
+1973) 	173	2.5
+1974) 	151	2.2
+1975) 	146	2.1
+1976) 	165	2.4
+1977) 	189	2.7
+1978) 	177	2.5
+1979) 	167	2.4
+1980) 	133	1.9
+1981) 	129	1.8
+1982) 	181	2.6
+1983) 	149	2.1
+1984) 	157	2.2
+1985) 	144	2.1
+1986) 	152	2.2
+1987) 	132	1.9
+1988) 	113	1.6
+1989) 	77	1.1
+1990) 	70	1.0
+1991) 	53	0.8
+9998) Refuse to answer [do not read]	26	0.4
+9999) Do not know [do not read]	11	0.2
+
+
+354) ETHNCGRP
+Which of the following best represents your ethnic group?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7021	1.347	2.94
+1) The Han nationality	6709	95.6
+2) Chuang	84	1.2
+3) Uygur	1	0.0
+4) Zangchu	1	0.0
+5) Manchu	102	1.5
+6) Mongolia	5	0.1
+7) Koreachu	3	0.0
+9) Huichu	31	0.4
+10) Baichu	47	0.7
+13) Buyichu	13	0.2
+15) Tahur	2	0.0
+30) Jingchu	1	0.0
+36) Maonanchu	1	0.0
+38) Miaochu	5	0.1
+39) The Mulam nationality	4	0.1
+40) Naxichu	2	0.0
+45) She nationality	2	0.0
+46) Shui nationality	1	0.0
+54) Yao nationality	2	0.0
+55) Yi nationality	1	0.0
+56) Gelao nationality	1	0.0
+58) Korean	1	0.0
+60) Thai	1	0.0
+99) Refuse to answer [do not read]	1	0.0
+
+
+355) CTYTWNYR
+[City/town residents only] When did you move to this city/town? (year)
+RANGE: 1932 to 9999
+	N	Mean	Std. Deviation
+Total	5283	2171.155	1228.758
+1932) 	5	0.1
+1933) 	4	0.1
+1934) 	3	0.1
+1935) 	7	0.1
+1936) 	5	0.1
+1937) 	10	0.2
+1938) 	4	0.1
+1939) 	9	0.2
+1940) 	9	0.2
+1941) 	7	0.1
+1942) 	10	0.2
+1943) 	8	0.2
+1944) 	16	0.3
+1945) 	18	0.3
+1946) 	21	0.4
+1947) 	40	0.8
+1948) 	40	0.8
+1949) 	44	0.8
+1950) 	53	1.0
+1951) 	59	1.1
+1952) 	60	1.1
+1953) 	65	1.2
+1954) 	64	1.2
+1955) 	81	1.5
+1956) 	89	1.7
+1957) 	123	2.3
+1958) 	88	1.7
+1959) 	80	1.5
+1960) 	77	1.5
+1961) 	57	1.1
+1962) 	99	1.9
+1963) 	114	2.2
+1964) 	83	1.6
+1965) 	75	1.4
+1966) 	67	1.3
+1967) 	83	1.6
+1968) 	93	1.8
+1969) 	78	1.5
+1970) 	100	1.9
+1971) 	80	1.5
+1972) 	86	1.6
+1973) 	75	1.4
+1974) 	60	1.1
+1975) 	65	1.2
+1976) 	85	1.6
+1977) 	77	1.5
+1978) 	75	1.4
+1979) 	66	1.2
+1980) 	79	1.5
+1981) 	74	1.4
+1982) 	92	1.7
+1983) 	81	1.5
+1984) 	78	1.5
+1985) 	98	1.9
+1986) 	90	1.7
+1987) 	109	2.1
+1988) 	89	1.7
+1989) 	82	1.6
+1990) 	107	2.0
+1991) 	47	0.9
+1992) 	55	1.0
+1993) 	54	1.0
+1994) 	41	0.8
+1995) 	79	1.5
+1996) 	77	1.5
+1997) 	113	2.1
+1998) 	76	1.4
+1999) 	70	1.3
+2000) 	122	2.3
+2001) 	86	1.6
+2002) 	110	2.1
+2003) 	122	2.3
+2004) 	133	2.5
+2005) 	136	2.6
+2006) 	192	3.6
+2007) 	47	0.9
+9998) Refuse to answer [do not read]	23	0.4
+9999) Do not know [do not read]	104	2.0
+Missing	1738
+
+
+356) CTYTWNMO
+[City/town residents only] When did you move to this city/town? (month)
+RANGE: 1 to 9999
+	N	Mean	Std. Deviation
+Total	5283	656.918	2465.722
+1) 	447	8.5
+2) 	425	8.0
+3) 	509	9.6
+4) 	390	7.4
+5) 	462	8.7
+6) 	370	7.0
+7) 	365	6.9
+8) 	405	7.7
+9) 	438	8.3
+10) 	542	10.3
+11) 	257	4.9
+12) 	329	6.2
+9998) Refuse to answer [do not read]	6	0.1
+9999) Do not know [do not read]	338	6.4
+Missing	1738
+
+
+357) RESYEAR
+[City/town residents only] When did you move to current household? (year)
+RANGE: 1932 to 9999
+	N	Mean	Std. Deviation
+Total	7021	2434.746	1832.133
+1932) 	3	0.0
+1933) 	3	0.0
+1934) 	1	0.0
+1935) 	3	0.0
+1936) 	3	0.0
+1937) 	4	0.1
+1938) 	3	0.0
+1939) 	1	0.0
+1940) 	7	0.1
+1941) 	6	0.1
+1942) 	3	0.0
+1943) 	8	0.1
+1944) 	7	0.1
+1945) 	9	0.1
+1946) 	5	0.1
+1947) 	16	0.2
+1948) 	20	0.3
+1949) 	27	0.4
+1950) 	19	0.3
+1951) 	22	0.3
+1952) 	30	0.4
+1953) 	33	0.5
+1954) 	34	0.5
+1955) 	29	0.4
+1956) 	26	0.4
+1957) 	39	0.6
+1958) 	45	0.6
+1959) 	37	0.5
+1960) 	37	0.5
+1961) 	30	0.4
+1962) 	34	0.5
+1963) 	42	0.6
+1964) 	36	0.5
+1965) 	40	0.6
+1966) 	31	0.4
+1967) 	37	0.5
+1968) 	38	0.5
+1969) 	38	0.5
+1970) 	54	0.8
+1971) 	39	0.6
+1972) 	40	0.6
+1973) 	31	0.4
+1974) 	24	0.3
+1975) 	49	0.7
+1976) 	50	0.7
+1977) 	53	0.8
+1978) 	58	0.8
+1979) 	53	0.8
+1980) 	102	1.5
+1981) 	50	0.7
+1982) 	97	1.4
+1983) 	81	1.2
+1984) 	94	1.3
+1985) 	118	1.7
+1986) 	116	1.7
+1987) 	124	1.8
+1988) 	123	1.8
+1989) 	103	1.5
+1990) 	205	2.9
+1991) 	101	1.4
+1992) 	108	1.5
+1993) 	115	1.6
+1994) 	103	1.5
+1995) 	173	2.5
+1996) 	178	2.5
+1997) 	254	3.6
+1998) 	224	3.2
+1999) 	203	2.9
+2000) 	410	5.8
+2001) 	225	3.2
+2002) 	282	4.0
+2003) 	320	4.6
+2004) 	313	4.5
+2005) 	348	5.0
+2006) 	592	8.4
+2007) 	213	3.0
+9998) Refuse to answer [do not read]	49	0.7
+9999) Do not know [do not read]	340	4.8
+
+
+358) RESMONTH
+[City/town residents only] When did you move to current household? (month)
+RANGE: 1 to 9999
+	N	Mean	Std. Deviation
+Total	7021	1023.987	3022.328
+1) 	575	8.2
+2) 	520	7.4
+3) 	536	7.6
+4) 	473	6.7
+5) 	725	10.3
+6) 	500	7.1
+7) 	432	6.2
+8) 	491	7.0
+9) 	438	6.2
+10) 	793	11.3
+11) 	303	4.3
+12) 	520	7.4
+9998) Refuse to answer [do not read]	10	0.1
+9999) Do not know [do not read]	705	10.0
+
+
+359) REGRES
+What is your household registration? Is your registered residence local or outward?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5283	1.151	0.423
+1) Local	4521	85.6
+2) Outward	756	14.3
+8) Refuse to answer [do not read]	5	0.1
+9) Do not know [do not read]	1	0.0
+Missing	1738
+
+
+360) BEFORE15
+Before age fifteen, where did you reside?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	2.124	0.946
+1) City	2518	35.9
+2) Town	1185	16.9
+3) Village	3305	47.1
+8) Refuse to answer [do not read]	5	0.1
+9) Do not know [do not read]	8	0.1
+
+
+361) EDUC
+What is your education level?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	3.576	1.196
+1) Less than elementary school	289	4.1
+2) Elementary school	828	11.8
+3) Junior high school	2305	32.8
+4) High school/technical high school	2287	32.6
+5) College	829	11.8
+6) Bachelor's degree	443	6.3
+7) Master's degree and above	27	0.4
+8) Refuse to answer [do not read]	10	0.1
+9) Do not know [do not read]	3	0.0
+
+
+362) OCCCITY1
+[City/town residents] What is your present occupation?
+RANGE: 1 to 112
+	N	Mean	Std. Deviation
+Total	5283	11.757	8.964
+1) Higher-level supervisor for state institutions, government or party organizations	11	0.2
+2) Higher-level owner/employer/manager of enterprises	25	0.5
+3) Supervisor for state institutions, government or party organizations	70	1.3
+4) Manager in enterprises	154	2.9
+5) Office staff in government or party organizations	222	4.2
+6) Office staff in enterprises	413	7.8
+7) Skilled workers, technicians	388	7.3
+8) Professionals, e.g., lawyer, accountant, teacher, etc.	122	2.3
+9) Manual labors	781	14.8
+10) Non-manual labors, services industry	491	9.3
+11) Farmer: has own farm	57	1.1
+12) Member of armed forces, security personnel	19	0.4
+13) Self-employed	847	16.0
+14) Retiree	670	12.7
+15) Housewife	306	5.8
+16) Fired	170	3.2
+17) Unemployed	152	2.9
+18) Laid off	45	0.9
+19) Student	255	4.8
+21) Teacher	33	0.6
+22) Doctor	5	0.1
+23) Nurse	1	0.0
+30) Regional head of All China Women Federation	1	0.0
+32) Collector of discarded material	1	0.0
+77) Part time job	1	0.0
+96) No regular job	4	0.1
+98) Refuse to answer [do not read]	26	0.5
+99) Do not know [do not read]	11	0.2
+112) Lottery salesman	2	0.0
+Missing	1738
+
+
+363) OCCCITY2
+[City/town residents] What was you previous occupation?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1598	12.315	13.852
+1) Higher-level supervisor for state institutions, government or party organizations	9	0.6
+2) Higher-level owner/employer/manager of enterprises	5	0.3
+3) Supervisor for state institutions, government or party organizations	35	2.2
+4) Manager in enterprises	34	2.1
+5) Office staff in government or party organizations	69	4.3
+6) Office staff in enterprises	116	7.3
+7) Skilled workers, technicians	85	5.3
+8) Professionals, e.g., lawyer, accountant, teacher, etc.	27	1.7
+9) Manual labors	479	30.0
+10) Non-manual labors, services industry	148	9.3
+11) Farmer: has own farm	41	2.6
+12) Member of armed forces, security personnel	5	0.3
+13) Self-employed	54	3.4
+14) Housewife	157	9.8
+15) Student	268	16.8
+21) Teacher	14	0.9
+22) Doctor	4	0.3
+26) Always unemployed	10	0.6
+77) Part-time job	2	0.1
+98) Refuse to answer [do not read]	15	0.9
+99) Do not know [do not read]	21	1.3
+Missing	5423
+
+
+364) RURALNOW
+What do you do to sustain your life now? (Rural)
+RANGE: 1 to 115
+	N	Mean	Std. Deviation
+Total	1738	6.482	12.952
+1) Farming	824	47.4
+2) Cattle breeding and aquaculture	13	0.7
+3) Run a company	22	1.3
+4) Full-time job in rural enterprise of the village	61	3.5
+5) Full-time job in rural enterprise of the local town	134	7.7
+6) Full-time job in enterprise of other area	26	1.5
+7) Self-employed: individual owners, vendors, street traders	237	13.6
+8) Part-time job in the village	76	4.4
+9) Part-time job in the local town	97	5.6
+10) Part-time job in other area	27	1.6
+11) Jobless, rely on relatives or government	147	8.5
+21) Teacher	5	0.3
+22) Doctor	3	0.2
+30) Ganbu of the village	3	0.2
+31) Full-time student	10	0.6
+33) Retired	13	0.7
+41) Homemaker	3	0.2
+55) Driver	6	0.3
+64) Tour conductor	3	0.2
+65) Motor mechanic	4	0.2
+68) Maintain by store of money	1	0.1
+96) No regular job	2	0.1
+98) Refuse to answer [do not read]	8	0.5
+99) Do not know [do not read]	12	0.7
+115) Bricklayer	1	0.1
+Missing	5283
+
+
+365) RURALBFR
+What did you do to sustain your life before? (Rural)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	143	24.056	34.682
+1) Farming	44	30.8
+4) Full-time job in rural enterprise of the village	2	1.4
+5) Full-time job in rural enterprise of the local town	11	7.7
+6) Full-time job in enterprise of other area	3	2.1
+7) Self-employed: individual owners, vendors, street traders	6	4.2
+8) Part-time job in the village	11	7.7
+9) Part-time job in the local town	8	5.6
+10) Part-time job in other area	4	2.8
+11) Jobless, rely on relatives or government	12	8.4
+21) Teacher	1	0.7
+31) Full-time student	14	9.8
+54) Homemaker	4	2.8
+98) Refuse to answer [do not read]	7	4.9
+99) Do not know [do not read]	16	11.2
+Missing	6878
+
+
+366) EMPLOYER
+Who is your present employer?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5283	15.1	28.972
+1) Government or Party organizations	119	2.3
+2) State institutions	551	10.4
+3) State owned enterprises	1372	26.0
+4) Foreign invested enterprises	133	2.5
+5) Private business	2044	38.7
+6) Non-profit organizations	58	1.1
+7) Army / Armed forces	16	0.3
+10) No regular Danwei	3	0.1
+11) Work at home	1	0.0
+12) School	27	0.5
+13) No regular job	11	0.2
+14) Foreign investment enterprise	7	0.1
+15) Domestic mixed-owned enterprise	1	0.0
+16) Farmer	44	0.8
+17) Privately or individually-owned business	271	5.1
+18) Trading cooperative	1	0.0
+19) Work with friends	8	0.2
+20) Collective-owned enterprise	22	0.4
+23) Joint-stock enterprise	7	0.1
+39) Town-owned enterprise	1	0.0
+46) Unfixed type	2	0.0
+57) District Community	1	0.0
+58) Motorcade Administration	1	0.0
+96) Unemployed [do not read]	434	8.2
+98) Refuse to answer [do not read]	42	0.8
+99) Do not know [do not read]	106	2.0
+Missing	1738
+
+
+367) INCCITY
+[City/town residents] What is your total income per month? (Including salaries, bonuses, various subsidies, allowances, retirement pensions, living expense grants, alimony, second jobs, and from other income sources)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	4357	5.854	14.818
+1) Less than 500 yuan	299	6.9
+2) 501-1000 yuan	1440	33.1
+3) 1001-1500 yuan	1205	27.7
+4) 1501-2000 yuan	535	12.3
+5) 2001-2500 yuan	281	6.4
+6) 2501-3000 yuan	162	3.7
+7) 3001-3500 yuan	97	2.2
+8) 3501-4000 yuan	39	0.9
+9) 4001-4500 yuan	28	0.6
+10) 4501-5000 yuan	23	0.5
+11) 5001-5500 yuan	24	0.6
+12) 5501-6000 yuan	11	0.3
+13) 6001-6500 yuan	2	0.0
+14) 6501-7000 yuan	3	0.1
+15) 7001-8000 yuan	6	0.1
+16) 8001-9000 yuan	5	0.1
+17) 9001-10000 yuan	6	0.1
+18) More than 10001 yuan	15	0.3
+19) No income [do not read]	17	0.4
+20) No stable income [do not read]	54	1.2
+98) Refuse to answer [do not read]	80	1.8
+99) Do not know [do not read]	25	0.6
+Missing	2664
+
+
+368) INCRURL
+Which of the following best represents your average personal income per year? (Rural)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1594	15.783	19.619
+1) Less than 500 yuan	49	3.1
+2) 501-1000 yuan	86	5.4
+3) 1001-1500 yuan	81	5.1
+4) 1501-2000 yuan	73	4.6
+5) 2001-2500 yuan	66	4.1
+6) 2501-3000 yuan	56	3.5
+7) 3001-3500 yuan	52	3.3
+8) 3501-4000 yuan	55	3.5
+9) 4001-4500 yuan	35	2.2
+10) 4501-5000 yuan	76	4.8
+11) 5001-5500 yuan	103	6.5
+12) 5501-6000 yuan	103	6.5
+13) 6001-6500yuan	32	2.0
+14) 6501-7000 yuan	35	2.2
+15) 7001-8000 yuan	56	3.5
+16) 8001-9000 yuan	33	2.1
+17) 9001-10000 yuan	104	6.5
+18) More than 10001 yuan	257	16.1
+19) No income [do not read]	85	5.3
+20) No regular income [do not read]	80	5.0
+98) Refuse to answer [do not read]	18	1.1
+99) Do not know [do not read]	59	3.7
+Missing	5427
+
+
+369) INCHSCIT
+[City/town residents] What is the monthly total income of your household? (Including salaries, bonuses, various subsidies, allowances, retirement pensions, living expense grants, alimony, second jobs, and from other income sources?)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5283	8.853	20.534
+1) Less than 500 yuan	113	2.1
+2) 501-1000 yuan	586	11.1
+3) 1001-2000 yuan	1598	30.2
+4) 2001-3000 yuan	1298	24.6
+5) 3001-4000 yuan	607	11.5
+6) 4001-5000 yuan	326	6.2
+7) 5001-6001 yuan	199	3.8
+8) 6001-7001 yuan	63	1.2
+9) 7001-8001 yuan	48	0.9
+10) 8001-9001 yuan	29	0.5
+11) 9001-10000 yuan	24	0.5
+12) 10001-12000 yuan	20	0.4
+13) 12001-15000 yuan	7	0.1
+14) 15001-20000 yuan	11	0.2
+15) More than 20001 yuan	25	0.5
+16) No income [do not read]	11	0.2
+17) No stable income [do not read]	58	1.1
+98) Refuse to answer [do not read]	134	2.5
+99) Do not know [do not read]	126	2.4
+Missing	1738
+
+
+370) INCHSRUR
+Which of the following best represents your average household income per month? (Rural)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1738	17.514	22.673
+1) Less than 500 yuan	11	0.6
+2) 501-1000 yuan	19	1.1
+3) 1001-2000 yuan	36	2.1
+4) 2001-3000 yuan	70	4.0
+5) 3001-4000 yuan	54	3.1
+6) 4001-5000 yuan	62	3.6
+7) 5001-6001 yuan	96	5.5
+8) 6001-7001 yuan	86	4.9
+9) 7001-8001 yuan	78	4.5
+10) 8001-9001 yuan	77	4.4
+11) 9001-10000 yuan	101	5.8
+12) 10001-12000 yuan	270	15.5
+13) 12001-15000 yuan	150	8.6
+14) 15001-20000 yuan	144	8.3
+15) 20001-25000 yuan	104	6.0
+16) 25001-30000 yuan	83	4.8
+17) 30001-50000 yuan	69	4.0
+18) 50001-80000 yuan	27	1.6
+19) 80001-100000 yuan	2	0.1
+20) More than 100001 yuan	20	1.2
+21) No income [do not read]	10	0.6
+22) No regular income [do not read]	48	2.8
+98) Refuse to answer [do not read]	18	1.0
+99) Do not know [do not read]	103	5.9
+Missing	5283
+
+
+371) POLITAFF
+What is your political affiliation?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7021	3.991	6.011
+1) Chinese Communist Party	632	9.0
+2) Democratic parties	14	0.2
+3) Communist Youth League	828	11.8
+4) No political affiliation	5517	78.6
+51) Probationary party member	3	0.0
+98) Refuse to answer [do not read]	17	0.2
+99) Do not know [do not read]	10	0.1
+
+
+372) JOINCOMM
+When did you join the Chinese Communist Party?
+RANGE: 1948 to 9999
+	N	Mean	Std. Deviation
+Total	632	2634.242	2183.678
+1948) 	2	0.3
+1949) 	2	0.3
+1952) 	1	0.2
+1953) 	2	0.3
+1954) 	1	0.2
+1955) 	1	0.2
+1956) 	3	0.5
+1957) 	1	0.2
+1958) 	2	0.3
+1959) 	1	0.2
+1960) 	3	0.5
+1961) 	3	0.5
+1963) 	1	0.2
+1964) 	1	0.2
+1965) 	10	1.6
+1966) 	9	1.4
+1967) 	5	0.8
+1968) 	10	1.6
+1969) 	13	2.1
+1970) 	11	1.7
+1971) 	11	1.7
+1972) 	8	1.3
+1973) 	9	1.4
+1974) 	7	1.1
+1975) 	4	0.6
+1976) 	11	1.7
+1977) 	8	1.3
+1978) 	17	2.7
+1979) 	5	0.8
+1980) 	15	2.4
+1981) 	4	0.6
+1982) 	9	1.4
+1983) 	8	1.3
+1984) 	10	1.6
+1985) 	25	4.0
+1986) 	18	2.8
+1987) 	10	1.6
+1988) 	6	0.9
+1989) 	21	3.3
+1990) 	11	1.7
+1991) 	13	2.1
+1992) 	11	1.7
+1993) 	8	1.3
+1994) 	14	2.2
+1995) 	28	4.4
+1996) 	11	1.7
+1997) 	23	3.6
+1998) 	16	2.5
+1999) 	23	3.6
+2000) 	19	3.0
+2001) 	11	1.7
+2002) 	16	2.5
+2003) 	15	2.4
+2004) 	18	2.8
+2005) 	20	3.2
+2006) 	29	4.6
+2007) 	7	1.1
+9998) Refuse to answer [do not read]	16	2.5
+9999) Do not know [do not read]	35	5.5
+Missing	6389
+
+
+373) HHECON
+In the past year, what is the economic status of your household?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	7021	1.968	1.541
+1) Expenditures were greater than earnings, with some savings	2998	42.7
+2) Expenditures were almost equal to earnings	3010	42.9
+3) Expenditures were greater than earnings, without loans	545	7.8
+4) Expenditures were greater than earnings, with loans	193	2.7
+8) Refuse to answer [do not read]	86	1.2
+9) Do not know [do not read]	189	2.7
+
+
+374) CTYTWNCD
+[Interviewers only] City/town code
+RANGE: 1 to 36
+	N	Mean	Std. Deviation
+Total	5283	15.857	10.695
+1) Bei Jing	287	5.4
+2) Shang Hai	286	5.4
+3) Chong Qing	287	5.4
+4) Guang Zhou	171	3.2
+5) Nan Jing	174	3.3
+6) Wu Han	170	3.2
+7) He Hei	171	3.2
+8) Xi'an	177	3.4
+9) Cheng Du	172	3.3
+10) Zhao Qing	140	2.7
+11) Jin Zhou	140	2.7
+12) Qu Zhou	147	2.8
+13) Bao Tou	141	2.7
+14) Lai Bin	141	2.7
+15) Ding Xi	144	2.7
+16) Kai Feng	141	2.7
+17) Huang Gang	156	3.0
+18) Heng Yang	141	2.7
+19) Sui Hua	141	2.7
+20) Yun Cheng	140	2.7
+21) Shang Dong/Jin Ning/Zou Cheng	114	2.2
+22) Zheng Hijang/Ning Bo/Yu Yao	113	2.1
+23) He Bei/Lang Fang/San He	111	2.1
+24) Liao Ning/Ying Kou/Da Shi Qiao	125	2.4
+25) Jiang Su/Yan Cheng/Feng Tai	114	2.2
+26) Guang Dong/QingTuan/Ying De	110	2.1
+27) Fu Juan/Nan Ping/Kian'ou	115	2.2
+28) Yun Nan/Da Li	111	2.1
+29) Shan'xi/Wei Nan/Han Cheng	112	2.1
+30) Si Chuan/Cheng Du/Peng Zhou	114	2.2
+31) Guang Xi/Gui Gang/Gui Ping	111	2.1
+32) Hei Long Jiang/Ha'er Bin/A'cheng	110	2.1
+33) He Nan/Zheng Zhou/Deng Feng	115	2.2
+34) Hu Nan/Chang Sha/ Liu Yang	112	2.1
+35) Shan Xi/Jin Zhong/Jie Xiu	110	2.1
+36) An Hui/An Qing/Tong Cheng	119	2.3
+Missing	1738
+
+
+375) CNTRYCD
+[Interviewers only] Country code
+RANGE: 1 to 20
+	N	Mean	Std. Deviation
+Total	1738	10.547	5.773
+1) Shaoxing Zhuji Zhejiang province	86	4.9
+2) Weihai Rongcheng Shandong province	85	4.9
+3) Suzhou Changshu Jiangsu province	87	5.0
+4) Shenyang Xinmin Liaoning province	86	4.9
+5) Guangzhou Conghua Guangdong province	86	4.9
+6) Nanping Wuyishan Fujian province	89	5.1
+7) Yantai Laiyang Shandong province	85	4.9
+8) Baoding Dingzhou Hebei province	86	4.9
+9) Yangzhou Yizheng Jiangsu province	86	4.9
+10) Deyang Mianzhu Sichuan province	88	5.1
+11) Qujing Xuanwei Yunnan province	86	4.9
+12) Hechuan Chongqing	86	4.9
+13) Guiyang Qingzhen Guizhou province	86	4.9
+14) Zhengzhou Xinzheng Henan province	89	5.1
+15) Yuncheng Hejin,Shanxi province	88	5.1
+16) Xiaogan Yingcheng Hubei province	86	4.9
+17) Shangrao Dexing Jiangxi province	87	5.0
+18) Xiangtan Shaoguan Hunan province	87	5.0
+19) Chuzhou Tianchang Anhui province	94	5.4
+20) Harbin Wuchang Heilongjiang province	85	4.9
+Missing	5283
+
+
+376) CTYTWNCN
+[Interviewers only] City/Town/Country code
+RANGE: 1 to 60
+	N	Mean	Std. Deviation
+Total	7021	24.444	17.846
+1) Bei Jing	287	4.1
+2) Shang Hai	286	4.1
+3) Chong Qing	287	4.1
+4) Guang Zhou	171	2.4
+5) Nan Jing	174	2.5
+6) Wu Han	170	2.4
+7) He Hei	171	2.4
+8) Xi'an	177	2.5
+9) Cheng Du	172	2.4
+10) Zhao Qing	140	2.0
+11) Jin Zhou	140	2.0
+12) Qu Zhou	147	2.1
+13) Bao Tou	141	2.0
+14) Lai Bin	141	2.0
+15) Ding Xi	144	2.1
+16) Kai Feng	141	2.0
+17) Huang Gang	156	2.2
+18) Heng Yang	141	2.0
+19) Sui Hua	141	2.0
+20) Yun Cheng	140	2.0
+21) Shang Dong/Jin Ning/Zou Cheng	114	1.6
+22) Zheng Hijang/Ning Bo/Yu Yao	113	1.6
+23) He Bei/Lang Fang/San He	111	1.6
+24) Liao Ning/Ying Kou/Da Shi Qiao	125	1.8
+25) Jiang Su/Yan Cheng/Feng Tai	114	1.6
+26) Guang Dong/QingTuan/ Ying De	110	1.6
+27) Fu Juan/Nan Ping/Kian'ou	115	1.6
+28) Yun Nan/Da Li	111	1.6
+29) Shan'xi/Wei Nan/Han Cheng	112	1.6
+30) Si Chuan/Cheng Du/Peng Zhou	114	1.6
+31) Guang Xi/Gui Gang/Gui Ping	111	1.6
+32) Hei Long Jiang/Ha'er Bin/A'cheng	110	1.6
+33) He Nan/Zheng Zhou/Deng Feng	115	1.6
+34) Hu Nan/Chang Sha/ Liu Yang	112	1.6
+35) Shan Xi/Jin Zhong/Jie Xiu	110	1.6
+36) An Hui/An Qing/Tong Cheng	119	1.7
+41) Shaoxing Zhuji zhejiang province	86	1.2
+42) Weihai Rongcheng Shandong province	85	1.2
+43) Suzhou Changshu Jiangsu province	87	1.2
+44) Shenyang Xinmin Liaoning province	86	1.2
+45) Guangzhou Conghua Guangdong province	86	1.2
+46) Nanping Wuyishan Fujian province	89	1.3
+47) Yantai Laiyang Shandong province	85	1.2
+48) Baoding Dingzhou Hebei province	86	1.2
+49) Yangzhou Yizheng Jiangsu province	86	1.2
+50) Deyang Mianzhu Sichuan province	88	1.3
+51) Qujing Xuanwei Yunnan province	86	1.2
+52) Hechuan Chongqing	86	1.2
+53) Guiyang Qingzhen Guizhou province	86	1.2
+54) Zhengzhou Xinzheng Henan province	89	1.3
+55) Yuncheng Hejin,Shanxi province	88	1.3
+56) Xiaogan Yingcheng Hubei province	86	1.2
+57) Shangrao Dexing Jiangxi province	87	1.2
+58) Xiangtan Shaoguan Hunan province	87	1.2
+59) Chuzhou Tianchang Anhui province	94	1.3
+60) Harbin Wuchang Heilongjiang province	85	1.2
+
+
+377) COOPERAT
+[Interviewers only] How cooperative was the interviewee?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	7021	1.65	0.577
+1) Very cooperative	2814	40.1
+2) Somewhat cooperative	3867	55.1
+3) Not very cooperative	325	4.6
+4) Not cooperative at all	15	0.2
+
+
+378) CONCERN1
+[Interviewers only] Before the interview began, how much concern about the interview did the interviewee express?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	7021	1.653	0.54
+1) No concern	2660	37.9
+2) Some	4134	58.9
+3) A lot	227	3.2
+
+
+379) CONCERN2
+[Interviewers only] During the interview, how much concern about the interview did the interviewee express?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	7021	1.552	0.535
+1) No concern	3281	46.7
+2) Some	3603	51.3
+3) A lot	137	2.0
+
+
+380) DIFFQSTN
+[Interviewers only] How many of the questions were difficult to understand for the interviewee?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	7021	1.549	0.537
+1) None	3313	47.2
+2) Some	3564	50.8
+3) Most	144	2.1
+
+
+381) INTEREST
+[Interviewers only] How interested in participating in the interview was the interviewee?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	7021	2.285	0.679
+1) Very	715	10.2
+2) Somewhat	3775	53.8
+3) Little	2343	33.4
+4) Not at all	188	2.7
+
+
+382) RELIABLE
+[Interviewers only] How reliable were the interviewee's answers to the questions?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	7021	1.655	0.531
+1) Very	2620	37.3
+2) Some	4203	59.9
+3) Not at all	198	2.8
+
+
+383) RELIGATM
+[Interviewers only] Based on your observation of the religious items present in the interviewee's house, how strong is the religious atmosphere of the interviewee's family?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	7021	2.693	0.519
+1) Very	198	2.8
+2) Some	1758	25.0
+3) Not at all	5065	72.1
+
+
+384) ECONSTAT
+[Interviewers only] Based on your observation, please estimate the economic status of the interviewee's family.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	7021	2.145	0.637
+1) Lower	858	12.2
+2) Average	4418	62.9
+3) Middle-high	1613	23.0
+4) High	132	1.9
+
+
+385) ANYPRES
+[Interviewers only] Was there anybody other than the interviewee present during the interview?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	7021	1.606	0.489
+1) Yes	2764	39.4
+2) No	4257	60.6
+
+
+386) WHOPRES1
+[Interviewers only] Who was that person(s)?
+RANGE: 1 to 79
+	N	Mean	Std. Deviation
+Total	2764	4.23	5.813
+1) Children under 6 years old	377	13.6
+2) Adolescent	356	12.9
+3) Family members older than the respondent	391	14.1
+4) Spouse	1053	38.1
+5) Neighbors	493	17.8
+6) Cadres	13	0.5
+10) Classmates	3	0.1
+12) Daughter-in-law	3	0.1
+14) Colleague	9	0.3
+15) Relatives	8	0.3
+17) Safe guard	1	0.0
+18) Younger sister	1	0.0
+36) Friend	41	1.5
+37) Housekeeper	1	0.0
+55) Girl Friend	12	0.4
+77) Guest	1	0.0
+79) Daughter	1	0.0
+Missing	4257
+
+
+387) WHOPRES2
+[Interviewers only] Who was that person(s)?
+RANGE: 1 to 36
+	N	Mean	Std. Deviation
+Total	286	3.843	2.349
+1) Children under 6 years old	13	4.5
+2) Adolescent	29	10.1
+3) Family members older than the respondent	53	18.5
+4) Spouse	139	48.6
+5) Neighbors	48	16.8
+10) Classmates	1	0.3
+12) Daughter-in-law	1	0.3
+15) Relatives	1	0.3
+36) Friend	1	0.3
+Missing	6735
+
+
+388) WHOPRES3
+[Interviewers only] Who was that person(s)?
+RANGE: 3 to 15
+	N	Mean	Std. Deviation
+Total	38	4.316	1.905
+3) Family members older than the respondent	8	21.1
+4) Spouse	20	52.6
+5) Neighbors	9	23.7
+15) Relatives	1	2.6
+Missing	6983
+
+
+389) AFFOTHER
+[Interviewers only] Was the interview affected by anyone other than the interviewee?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2765	1.949	0.219
+1) Yes	140	5.1
+2) No	2625	94.9
+Missing	4256
+
+
+390) AREATYPE
+Area type
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	7021	1.754	0.825
+1) City	3467	49.4
+2) Town	1816	25.9
+3) Country	1738	24.8
+
+
+391) WEIGHT1
+Weight 1
+RANGE: 0.1114 to 2.2027
+	N	Mean	Std. Deviation
+Total	7021	1	0.613
+
+
+392) WEIGHT2
+Weight 2
+RANGE: 0.47691 to 2.54824
+	N	Mean	Std. Deviation
+Total	7021	1	0.888
+
+
+393) WEIGHT
+WEIGHT1 * WEIGHT2
+RANGE: 0.053127774 to 5.0094066392
+	N	Mean	Std. Deviation
+Total	7021	1	1.067
+
+
+394) I-GENDER
+Respondent gender (for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	7021	1.518	0.5
+1) Male	3381	48.2
+2) Female	3640	51.8
+
+
+395) I-POLITICS
+What is your political affiliation? (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	6991	3.606	0.886
+1) Chinese Communist Party	632	9.0
+2) Democratic parties	14	0.2
+3) Communist Youth League	828	11.8
+4) No political affiliation	5517	78.9
+Missing	30
+
+
+396) I-RELIGION
+Regardless of whether you have been to churches or temples, do you believe in any of the following? First mention (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	6895	5.079	1.887
+1) Buddhism	1168	16.9
+2) Daoism	24	0.3
+3) Confucianism	12	0.2
+4) Protestantism	165	2.4
+5) Other	45	0.7
+6) I don't believe in anything/I don't have any religious beliefs	5481	79.5
+Missing	126
+
+
+397) I-EDUC
+What is your education level? (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	7008	2.609	1.104
+1) Elementary school	1117	15.9
+2) Junior high school	2305	32.9
+3) High school/technical high school	2287	32.6
+4) College	829	11.8
+5) Bachelor's degree	443	6.3
+6) Master's degree and above	27	0.4
+Missing	13
+
+

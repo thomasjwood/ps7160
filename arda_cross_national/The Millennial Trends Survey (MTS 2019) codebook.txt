@@ -1,0 +1,2556 @@
+Data File: MTS19 (Full Data Codebook)
+
+1) CASEID
+A unique identifier number for each record
+RANGE: 8 to 72608
+	N	Mean	Std. Deviation
+Total	2514	21004.459	23022.574
+
+
+2) SURVEY_LANGUAGE
+Language used to complete the survey (as observed at the last question answered)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2514	1.126	0.332
+1) English	2198	87.4
+2) French	316	12.6
+
+
+3) Q1
+What is your age?
+RANGE: 18 to 35
+	N	Mean	Std. Deviation
+Total	2514	26.122	5.31
+18) 	169	6.7
+19) 	172	6.8
+20) 	162	6.4
+21) 	170	6.8
+22) 	182	7.2
+23) 	100	4.0
+24) 	79	3.1
+25) 	124	4.9
+26) 	127	5.1
+27) 	127	5.1
+28) 	160	6.4
+29) 	143	5.7
+30) 	162	6.4
+31) 	130	5.2
+32) 	125	5.0
+33) 	115	4.6
+34) 	137	5.4
+35) 	130	5.2
+
+
+4) Q2
+What is your gender?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2514	1.519	0.568
+1) Male	1261	50.2
+2) Female	1227	48.8
+3) Transgender	12	0.5
+4) Agender	4	0.2
+5) Gender-neutral	8	0.3
+6) Other	2	0.1
+
+
+5) Q3
+In what country do you currently reside (primary residence)?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2514	1.4	0.49
+1) Canada	1508	60.0
+2) USA	1006	40.0
+
+
+6) Q3_1
+In what province or territory do you currently reside (primary residence)?
+RANGE: 0 to 59
+	N	Mean	Std. Deviation
+Total	2514	21.624	20.334
+0) USA	1006	40.0
+10) Newfoundland and Labrador	15	0.6
+11) Prince Edward Island	7	0.3
+12) Nova Scotia	49	1.9
+13) New Brunswick	39	1.6
+24) Quebec	360	14.3
+35) Ontario	571	22.7
+46) Manitoba	53	2.1
+47) Saskatchewan	40	1.6
+48) Alberta	179	7.1
+59) British Columbia	195	7.8
+
+
+7) CAN_REGION
+Canadian Census region based on Q3_1.
+RANGE: 0 to 5
+	N	Mean	Std. Deviation
+Total	2514	1.832	1.725
+0) USA	1006	40.0
+1) Atlantic Canada	110	4.4
+2) Quebec	360	14.3
+3) Ontario	571	22.7
+4) Prairies	272	10.8
+5) BC	195	7.8
+
+
+8) Q3_2
+In which state or territory do you currently reside (primary residence)?
+RANGE: 0 to 56
+	N	Mean	Std. Deviation
+Total	2514	11.013	16.819
+0) Canada	1508	60.0
+1) Alabama	11	0.4
+2) Alaska	3	0.1
+4) Arizona	8	0.3
+5) Arkansas	8	0.3
+6) California	131	5.2
+7) Colorado	11	0.4
+8) Connecticut	7	0.3
+9) District of Columbia	4	0.2
+10) Delaware	3	0.1
+11) Florida	54	2.1
+12) Georgia	38	1.5
+14) Hawaii	6	0.2
+15) Idaho	5	0.2
+16) Illinois	53	2.1
+17) Indiana	16	0.6
+18) Iowa	11	0.4
+19) Kansas	6	0.2
+20) Kentucky	23	0.9
+21) Louisiana	8	0.3
+22) Maine	6	0.2
+23) Maryland	11	0.4
+24) Massachusetts	18	0.7
+25) Michigan	34	1.4
+26) Minnesota	17	0.7
+27) Mississippi	11	0.4
+28) Missouri	19	0.8
+29) Montana	2	0.1
+30) Nebraska	4	0.2
+31) Nevada	17	0.7
+32) New Hampshire	2	0.1
+33) New Jersey	27	1.1
+34) New Mexico	4	0.2
+35) New York	62	2.5
+36) North Carolina	38	1.5
+38) North Dakota	3	0.1
+39) Ohio	47	1.9
+40) Oklahoma	15	0.6
+41) Oregon	16	0.6
+42) Pennsylvania	43	1.7
+44) Rhode Island	5	0.2
+45) South Carolina	8	0.3
+46) South Dakota	5	0.2
+47) Tennessee	23	0.9
+48) Texas	86	3.4
+49) Utah	6	0.2
+50) Vermont	1	0.0
+51) Virginia	26	1.0
+53) Washington	21	0.8
+54) West Virginia	6	0.2
+55) Wisconsin	16	0.6
+56) Wyoming	1	0.0
+
+
+9) US_REGION
+U.S. Census region based on Q3_2.
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	2514	1.064	1.452
+0) Canada	1508	60.0
+1) Northeast	171	6.8
+2) Midwest	231	9.2
+3) South	373	14.8
+4) West	231	9.2
+
+
+10) Q4
+What is the highest level of formal education that you have completed?
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	2514	2.879	1.037
+1) Grade, primary or elementary school	38	1.5
+2) High school or secondary school	1092	43.4
+3) Community college, CEGEP or trade apprenticeship	746	29.7
+4) University with bachelor's or undergraduate degree, or teacher's college (B.A., B.Sc., B.Ed., etc.)	475	18.9
+5) University with master's degree (M.A., M.Sc., M.Ed., MBA, M.Div., etc.)	123	4.9
+6) University with doctorate (Ph.D., D.Sc., D.Ed., etc.)	16	0.6
+7) Professional degree (D.D.S., D.M.D., D.V.M., J.D., LL.B., M.D., O.D., etc.)	24	1.0
+
+
+11) Q5
+Was the school, college or university where you received your highest degree formally affiliated with a religious tradition or group when you were completing your studies (for example, Catholic high school, Christian university, etc.)?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2511	1.775	0.418
+1) Yes	566	22.5
+2) No	1945	77.5
+Missing	3
+
+
+12) Q6_C1
+What is your current household status? Please select all that apply. Living with parent(s) or guardian(s)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.322	0.467
+0) Not selected	1705	67.8
+1) Selected	809	32.2
+
+
+13) Q6_C2
+What is your current household status? Please select all that apply. Living in school/college/university residence
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.051	0.221
+0) Not selected	2385	94.9
+1) Selected	129	5.1
+
+
+14) Q6_C3
+What is your current household status? Please select all that apply. Cohabitating with (common-law) partner
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.158	0.364
+0) Not selected	2118	84.2
+1) Selected	396	15.8
+
+
+15) Q6_C4
+What is your current household status? Please select all that apply. Married and living with spouse
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.23	0.421
+0) Not selected	1937	77.0
+1) Selected	577	23.0
+
+
+16) Q6_C5
+What is your current household status? Please select all that apply. Sharing an apartment or house with roommate(s)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.116	0.32
+0) Not selected	2223	88.4
+1) Selected	291	11.6
+
+
+17) Q6_C6
+What is your current household status? Please select all that apply. Living on my own
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.162	0.369
+0) Not selected	2106	83.8
+1) Selected	408	16.2
+
+
+18) Q6_C7
+What is your current household status? Please select all that apply. Do not have a primary residence at this time
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.008	0.089
+0) Not selected	2494	99.2
+1) Selected	20	0.8
+
+
+19) Q6_C8
+What is your current household status? Please select all that apply. Single parent living with kids
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.006	0.074
+0) Not selected	2500	99.4
+1) Selected	14	0.6
+
+
+20) Q7
+Please indicate the number of children you have
+RANGE: 0 to 999
+	N	Mean	Std. Deviation
+Total	2513	3.747	56.264
+0) 	1721	68.5
+1) 	382	15.2
+2) 	251	10.0
+3) 	96	3.8
+4) 	30	1.2
+5) 	17	0.7
+6) Six or more children	8	0.3
+999) Don't know	8	0.3
+Missing	1
+
+
+21) Q8
+What type of community or city do you currently live in?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2510	2.543	1.338
+1) Metropolitan centre (city with estimated pop of 500,000 or greater	731	29.1
+2) Large urban centre (city with estimated pop 100,000 to 499,999)	629	25.1
+3) Medium urban area (town with estimated pop 50,000 to 99,999)	467	18.6
+4) Small urban area (town with estimated pop 5,000 to 49,999)	423	16.9
+5) Rural village/area (estimated pop that is less than 5,000)	260	10.4
+Missing	4
+
+
+22) Q9
+What is your current primary activity?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2514	2.705	1.844
+1) Full-time paid work	1064	42.3
+2) Part-time paid work	376	15.0
+3) Looking for paid work	199	7.9
+4) Homemaker or stay-at-home parent	178	7.1
+5) Student	596	23.7
+6) Parental leave	30	1.2
+7) Long-term illness disability	55	2.2
+8) Volunteering or unpaid caregiving other than for own children	14	0.6
+9) Other	2	0.1
+
+
+23) Q10
+In what country were you born?
+RANGE: 12 to 840
+	N	Mean	Std. Deviation
+Total	2513	437.168	342.764
+12) Algeria	2	0.1
+28) Antigua and Barbuda	1	0.0
+36) Australia	2	0.1
+50) Bangladesh	3	0.1
+60) Bermuda	1	0.0
+70) Bosnia and Herzegovina	1	0.0
+76) Brazil	9	0.4
+100) Bulgaria	1	0.0
+104) Myanmar	1	0.0
+116) Cambodia	1	0.0
+120) Cameroon	3	0.1
+124) Canada	1258	50.1
+144) Sri Lanka	2	0.1
+156) China	11	0.4
+158) Taiwan, Republic of China	3	0.1
+170) Colombia	2	0.1
+178) Congo, (Brazzaville)	2	0.1
+191) Croatia	1	0.0
+192) Cuba	1	0.0
+222) El Salvador	1	0.0
+231) Ethiopia	1	0.0
+250) France	12	0.5
+276) Germany	3	0.1
+288) Ghana	4	0.2
+308) Grenada	2	0.1
+328) Guyana	1	0.0
+332) Haiti	5	0.2
+344) Hongkong, SAR China	6	0.2
+356) India	45	1.8
+360) Indonesia	1	0.0
+364) Iran, Islamic Republic of	2	0.1
+368) Iraq	2	0.1
+376) Israel	1	0.0
+380) Italy	2	0.1
+384) Côte d'ivoire	2	0.1
+388) Jamaica	5	0.2
+404) Kenya	6	0.2
+410) Korea (South)	8	0.3
+422) Lebanon	3	0.1
+434) Libya	1	0.0
+480) Mauritius	1	0.0
+484) Mexico	7	0.3
+504) Morocco	2	0.1
+524) Nepal	2	0.1
+558) Nicaragua	1	0.0
+562) Niger	1	0.0
+566) Nigeria	5	0.2
+586) Pakistan	11	0.4
+608) Philippines	30	1.2
+616) Poland	5	0.2
+620) Portugal	2	0.1
+642) Romania	4	0.2
+643) Russian Federation	5	0.2
+663) Saint-Martine (French Part)	1	0.0
+670) Saint Vincent and Grenadines	1	0.0
+682) Saudi Arabia	2	0.1
+688) Serbia	3	0.1
+702) Singapore	1	0.0
+704) Vietnam	1	0.0
+710) South Africa	2	0.1
+716) Zimbabwe	1	0.0
+756) Switzerland	2	0.1
+760) Syrian Arab Republic (Syria)	1	0.0
+780) Trinidad and Tobago	1	0.0
+784) United Arab Emirates	1	0.0
+792) Turkey	3	0.1
+804) Ukraine	3	0.1
+818) Egypt	1	0.0
+826) United Kingdom	7	0.3
+834) Tanzania, United Republic of	3	0.1
+840) United States of America	985	39.2
+Missing	1
+
+
+24) Q11
+In what country was your mother born?
+RANGE: 4 to 9999
+	N	Mean	Std. Deviation
+Total	2510	544.396	1003.226
+4) Afghanistan	2	0.1
+8) Albania	1	0.0
+12) Algeria	2	0.1
+28) Antigua and Barbuda	1	0.0
+32) Argentina	1	0.0
+36) Australia	4	0.2
+40) Austria	2	0.1
+50) Bangladesh	4	0.2
+52) Barbados	1	0.0
+68) Bolivia	2	0.1
+70) Bosnia and Herzegovina	1	0.0
+72) Botswana	1	0.0
+76) Brazil	12	0.5
+84) Belize	1	0.0
+100) Bulgaria	1	0.0
+104) Myanmar	1	0.0
+116) Cambodia	3	0.1
+120) Cameroon	3	0.1
+124) Canada	1007	40.1
+144) Siri Lanka	6	0.2
+152) Chile	3	0.1
+156) China	46	1.8
+158) Taiwan, Republic of China	5	0.2
+170) Colombia	6	0.2
+178) Congo, (Brazzaville)	2	0.1
+180) Congo, (Kinshasa)	1	0.0
+191) Croatia	2	0.1
+192) Cuba	4	0.2
+203) Czech Republic	1	0.0
+212) Dominica	3	0.1
+214) Dominican Republic	3	0.1
+218) Ecuador	2	0.1
+222) El Salvador	9	0.4
+231) Ethiopia	1	0.0
+242) Fiji	2	0.1
+250) France	12	0.5
+276) Germany	6	0.2
+288) Ghana	3	0.1
+300) Greece	2	0.1
+308) Grenada	2	0.1
+328) Guyana	7	0.3
+332) Haiti	10	0.4
+340) Honduras	1	0.0
+344) Hongkong, SAR China	18	0.7
+348) Hungary	1	0.0
+356) India	67	2.7
+360) Indonesia	2	0.1
+364) Iran, Islamic Republic of	5	0.2
+368) Iraq	2	0.1
+372) Ireland	4	0.2
+376) Israel	2	0.1
+380) Italy	11	0.4
+384) Côte d'ivoire	2	0.1
+388) Jamaica	16	0.6
+392) Japan	5	0.2
+404) Kenya	7	0.3
+410) Korea (South)	14	0.6
+418) Lao PDR	1	0.0
+422) Lebanon	3	0.1
+430) Liberia	1	0.0
+434) Libya	2	0.1
+442) Luxembourg	1	0.0
+450) Madagascar	1	0.0
+458) Malaysia	1	0.0
+480) Mauritius	1	0.0
+484) Mexico	38	1.5
+504) Morocco	2	0.1
+524) Nepal	3	0.1
+528) Netherlands	2	0.1
+554) New Zealand	1	0.0
+558) Nicaragua	5	0.2
+562) Niger	1	0.0
+566) Nigeria	11	0.4
+586) Pakistan	15	0.6
+604) Peru	1	0.0
+608) Philippines	53	2.1
+616) Poland	11	0.4
+620) Portugal	9	0.4
+630) Puerto Rico	2	0.1
+642) Romania	5	0.2
+643) Russian Federation	8	0.3
+646) Rwanda	1	0.0
+670) Saint Vincent and Grenadines	1	0.0
+682) Saudi Arabia	1	0.0
+688) Serbia	4	0.2
+704) Vietnam	25	1.0
+710) South Africa	2	0.1
+716) Zimbabwe	2	0.1
+736) Sudan	1	0.0
+752) Sweden	1	0.0
+756) Switzerland	1	0.0
+760) Syrian Arab Republic	4	0.2
+780) Trinidad and Tobago	4	0.2
+788) Tunisia	1	0.0
+792) Turkey	4	0.2
+800) Uganda	1	0.0
+804) Ukraine	4	0.2
+818) Egypt	6	0.2
+826) United Kingdom	20	0.8
+834) Tanzania, United Republic of	7	0.3
+840) United States of America	870	34.7
+858) Uruguay	1	0.0
+862) Venezuela (Bolivarian Republic)	1	0.0
+9999) Don't know	25	1.0
+Missing	4
+
+
+25) Q12
+In what country was your father born?
+RANGE: 4 to 9999
+	N	Mean	Std. Deviation
+Total	2508	581.722	1135.325
+4) Afghanistan	1	0.0
+8) Albania	1	0.0
+12) Algeria	2	0.1
+28) Antigua and Barbuda	1	0.0
+36) Australia	2	0.1
+50) Bangladesh	4	0.2
+56) Belgium	2	0.1
+70) Bosnia and Herzegovina	1	0.0
+76) Brazil	11	0.4
+100) Bulgaria	1	0.0
+104) Myanmar	1	0.0
+116) Cambodia	1	0.0
+120) Cameron	3	0.1
+124) Canada	980	39.1
+144) Sri Lanka	7	0.3
+148) Chad	1	0.0
+152) Chile	4	0.2
+156) China	40	1.6
+158) Taiwan, Republic of China	5	0.2
+170) Colombia	4	0.2
+178) Congo, (Brazzaville)	2	0.1
+180) Congo, (Kinshasa)	1	0.0
+191) Croatia	2	0.1
+192) Cuba	5	0.2
+196) Cyprus	1	0.0
+203) Czech Republic	1	0.0
+212) Dominica	2	0.1
+214) Dominican Republic	3	0.1
+222) El Salvador	15	0.6
+231) Ethiopia	2	0.1
+242) Fiji	2	0.1
+246) Cyprus	1	0.0
+250) France	15	0.6
+256) [ARDA note: missing label]	1	0.0
+275) Palestinian Territory	1	0.0
+276) Germany	9	0.4
+288) Ghana	6	0.2
+292) Gibraltar	1	0.0
+300) Greece	3	0.1
+308) Grenada	2	0.1
+312) Guadeloupe	1	0.0
+320) Guatemala	1	0.0
+328) Guyana	7	0.3
+332) Haiti	8	0.3
+340) Honduras	2	0.1
+344) Hong Kong, SAR China	19	0.8
+348) Hungary	2	0.1
+356) India	66	2.6
+360) Indonesia	1	0.0
+364) Iran, Islamic Republic of	5	0.2
+368) Iraq	2	0.1
+372) Ireland	4	0.2
+376) Israel	1	0.0
+380) Italy	13	0.5
+384) Côte d'Ivoire	2	0.1
+388) Jamaica	14	0.6
+392) Japan	2	0.1
+404) Kenya	10	0.4
+410) Korea (South)	10	0.4
+418) Lao PDR	2	0.1
+422) Lebanon	2	0.1
+434) Libya	3	0.1
+450) Madagascar	1	0.0
+458) Malaysia	2	0.1
+480) Mauritius	1	0.0
+484) Mexico	40	1.6
+504) Morocco	3	0.1
+512) Oman	1	0.0
+524) Nepal	3	0.1
+528) Netherlands	4	0.2
+554) New Zealand	1	0.0
+558) Nicaragua	4	0.2
+562) Niger	1	0.0
+566) Nigeria	10	0.4
+586) Pakistan	20	0.8
+604) Peru	3	0.1
+608) Philippines	42	1.7
+616) Poland	11	0.4
+620) Portugal	10	0.4
+642) Romania	3	0.1
+643) Russian Federation	8	0.3
+646) Rwanda	1	0.0
+659) Saint Kitts and Nevis	1	0.0
+670) Saint Vincent and Grenadines	1	0.0
+682) Saudi Arabia	1	0.0
+688) Serbia	4	0.2
+702) Singapore	1	0.0
+703) Slovakia	1	0.0
+704) Vietnam	24	1.0
+710) South Africa	3	0.1
+716) Zimbabwe	2	0.1
+736) Sudan	2	0.1
+752) Sweden	1	0.0
+756) Switzerland	2	0.1
+760) Syrian Arab Republic (Syria)	3	0.1
+764) Thailand	1	0.0
+780) Trinidad and Tobago	6	0.2
+788) Tunisia	1	0.0
+792) Turkey	4	0.2
+794) [ARDA note: missing label]	1	0.0
+800) Uganda	2	0.1
+804) Ukraine	5	0.2
+818) Egypt	5	0.2
+826) United Kingdom	36	1.4
+834) Tanzania, united Republic of	4	0.2
+840) United States of America	869	34.6
+858) Uruguay	1	0.0
+862) Venezuela (Bolivarian Republic)	1	0.0
+9999) Don't know	33	1.3
+Missing	6
+
+
+26) Q13
+What was the first language you learned during childhood and can still understand today?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	2513	1.466	0.915
+1) English	1860	74.0
+2) French	358	14.2
+3) Spanish	73	2.9
+4) Other	222	8.8
+Missing	1
+
+
+27) Q14_C1
+Which of the following best describes your ethno-racial background? (Select as many options as are appropriate.) Aboriginal/Indigenous: First Nations (including American Indian, Native American), Inuit (including Alaskan Inupiaq and Yupik), Métis, or non-Status Indian
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.049	0.216
+0) Not selected	2391	95.1
+1) Selected	123	4.9
+
+
+28) Q14_C2
+Which of the following best describes your ethno-racial background? (Select as many options as are appropriate.) Black (for example, African, Caribbean, Black North American)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.1	0.3
+0) Not selected	2262	90.0
+1) Selected	252	10.0
+
+
+29) Q14_C3
+Which of the following best describes your ethno-racial background? (Select as many options as are appropriate.) Caucasian or white (for example, European, white North American, white Oceanic)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.679	0.467
+0) Not selected	806	32.1
+1) Selected	1708	67.9
+
+
+30) Q14_C4
+Which of the following best describes your ethno-racial background? (Select as many options as are appropriate.) Chinese
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.042	0.201
+0) Not selected	2408	95.8
+1) Selected	106	4.2
+
+
+31) Q14_C5
+Which of the following best describes your ethno-racial background? (Select as many options as are appropriate.) Japanese
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.008	0.087
+0) Not selected	2495	99.2
+1) Selected	19	0.8
+
+
+32) Q14_C6
+Which of the following best describes your ethno-racial background? (Select as many options as are appropriate.) Korean
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.008	0.091
+0) Not selected	2493	99.2
+1) Selected	21	0.8
+
+
+33) Q14_C7
+Which of the following best describes your ethno-racial background? (Select as many options as are appropriate.) Latin American, Central American, South American (for example, Mexican, Brazilian, Chilean, Guatemalan, Venezuelan, Argentinian, Salvadorian, Costa Rican)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.076	0.264
+0) Not selected	2324	92.4
+1) Selected	190	7.6
+
+
+34) Q14_C8
+Which of the following best describes your ethno-racial background? (Select as many options as are appropriate.) South Asian (for example, West and East Indian, Pakistani, Sri Lankan)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.054	0.225
+0) Not selected	2379	94.6
+1) Selected	135	5.4
+
+
+35) Q14_C9
+Which of the following best describes your ethno-racial background? (Select as many options as are appropriate.)Southeast Asian (for example, Vietnamese, Cambodian, Malaysian, Laotian, Filipino)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.041	0.199
+0) Not selected	2410	95.9
+1) Selected	104	4.1
+
+
+36) Q14_C10
+Which of the following best describes your ethno-racial background? (Select as many options as are appropriate.) West Asian or Arab (for example, Egyptian, Saudi Arabian, Syrian, Iranian, Iraqi, Lebanese, Afghani, Palestinian)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.018	0.134
+0) Not selected	2468	98.2
+1) Selected	46	1.8
+
+
+37) Q14_C11
+Which of the following best describes your ethno-racial background? (Select as many options as are appropriate.) Mixed ethno-racial background
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.005	0.069
+0) Not selected	2502	99.5
+1) Selected	12	0.5
+
+
+38) Q15
+What is your best estimate of your total household income (income received by all household members, from all sources, before taxes and deductions, during the year ending December 31, 2018)?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2511	3.425	1.837
+1) Less than $20,000	428	17.0
+2) $20,000 - $39,999	500	19.9
+3) $40,000 - $59,999	480	19.1
+4) $60,000 - $79,999	387	15.4
+5) $80,000 - $99,999	294	11.7
+6) $100,000 - $149,999	284	11.3
+7) $150,000 - $199,999	95	3.8
+8) $200,000 or more	43	1.7
+Missing	3
+
+
+39) Q16
+What, if any, is your religion?
+RANGE: 1 to 18
+	N	Mean	Std. Deviation
+Total	2511	10.103	5.812
+1) Aboriginal/Indigenous spirituality	22	0.9
+2) Buddhism	44	1.8
+3) Chinese religion (e.g., making offerings to ancestors)	17	0.7
+4) Christianity - Catholic	699	27.8
+5) Christianity - Orthodox	92	3.7
+6) Christianity - Protestant. Please specify denomination or church:	274	10.9
+7) Christianity - Other. Please specify tradition, group or church:	57	2.3
+8) Hinduism	59	2.3
+9) Islam	69	2.7
+10) Judaism	23	0.9
+11) Sikhism	21	0.8
+12) Other religion. Please specify:	20	0.8
+13) Multiple religions.	3	0.1
+14) No religion - Agnostic	229	9.1
+15) No religion - Atheist	258	10.3
+16) No religion - Secular humanist	15	0.6
+17) No religion - Spiritual with no religion	203	8.1
+18) No religion - No particular preference	406	16.2
+Missing	3
+
+
+40) Q16_O
+What, if any, is your religion? Specified responses in Q16 for: 6 Christianity - Protestant 7 Christianity - Other 12 Other religion.
+RANGE: 500 to 1227
+	N	Mean	Std. Deviation
+Total	351	581.724	170.227
+500) Presbyterian	6	1.7
+501) Anglican/Episcopalian	16	4.6
+502) United Church of Canada	11	3.1
+503) Lutheran	15	4.3
+504) Baptist	62	17.7
+505) Evangelical/nondenominational Evangelical/charismatic	17	4.8
+508) Nondenominational	48	13.7
+510) Pentecostal	15	4.3
+511) Protestant	18	5.1
+513) Christian Reformed	5	1.4
+515) Pentecostal Assemblies of Canada	1	0.3
+517) Methodist	12	3.4
+518) Mennonite Brethren	2	0.6
+521) Foursquare	1	0.3
+522) Church of Christ	2	0.6
+523) Assemblies of God	2	0.6
+525) Mennonite	3	0.9
+527) Evangelical Free	2	0.6
+530) Apostolic	1	0.3
+531) Seventh day Adventist	8	2.3
+532) Church of the Nazarene	3	0.9
+533) Anabaptist	2	0.6
+534) Christian and Missionary Alliance	3	0.9
+535) Mission chapel	1	0.3
+536) Fort City Church	1	0.3
+537) Hutterite	3	0.9
+538) Christian Life Assembly	1	0.3
+539) Evangelical Chinese Bible Church	1	0.3
+540) Youth with A Mission (YWAM)	1	0.3
+542) Church of God (COG)	1	0.3
+543) Moravian Church	1	0.3
+544) Bethel Christian Reformed Church	1	0.3
+545) African Methodist Episcopal Church	1	0.3
+546) Community of Faith	2	0.6
+547) Church of God in Christ (COGIC)	1	0.3
+548) Canadian Reformed Church	2	0.6
+549) Crusaders of the Divine Church of Christ	1	0.3
+550) Hillsong Church	1	0.3
+551) United Reformed	1	0.3
+700) Christian	35	10.0
+707) Jehovah's Witnesses	7	2.0
+708) Latter-day Saints (Mormon)	14	4.0
+1201) Unitarian Universalist	3	0.9
+1204) Pagan	4	1.1
+1205) Wiccan	6	1.7
+1220) Deism	1	0.3
+1222) African traditional	1	0.3
+1223) Ravidasia	1	0.3
+1224) Norse gods	1	0.3
+1225) Gnostic	1	0.3
+1226) Realism	1	0.3
+1227) LeVayan Satanist	1	0.3
+Missing	2163
+
+
+41) Q17
+Which of the following statements would you say best applies to you?
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	2512	3.036	1.867
+1) I believe in God, according to the teachings of my religion	664	26.4
+2) I believe in God, but in my own way	663	26.4
+3) I believe in a higher, transcendent power or being(s), but I would not call this power or being(s) God	203	8.1
+4) I do not necessarily believe in God or a higher power, but I do believe that we are all part of a mysterious and connected natural world and universe	335	13.3
+5) I believe that life on Earth is purely the result of complex biological, physical, and material processes	321	12.8
+6) I have not made up my mind about my beliefs	200	8.0
+7) I have never thought about it and it does not make any difference to me	126	5.0
+Missing	2
+
+
+42) Q18
+How important are your religious or spiritual beliefs to the way you live your life? Would you say they are:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2512	2.559	1.349
+1) Very important	666	26.5
+2) Somewhat important	739	29.4
+3) Not very important	490	19.5
+4) Not at all important	271	10.8
+5) I do not have any religious or spiritual beliefs	346	13.8
+Missing	2
+
+
+43) Q18_1
+How important is not having any religious or spiritual beliefs to the way you live your own life? Would you say it is: [Response if Q18=5]
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	346	2.951	1.066
+1) Very important	47	13.6
+2) Somewhat important	64	18.5
+3) Not very important	94	27.2
+4) Not at all important	141	40.8
+Missing	2168
+
+
+44) Q19_C1
+Do you identify as (select all that apply): A born-again Christian [Response if: Q16=4, 5, 6, 7, 12, 13, 17, or 18]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1761	0.208	0.406
+0) Not selected	1395	79.2
+1) Selected	366	20.8
+Missing	753
+
+
+45) Q19_C2
+Do you identify as (select all that apply): A charismatic Christian [Response if: Q16=4, 5, 6, 7, 12, 13, 17, or 18]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1761	0.072	0.258
+0) Not selected	1635	92.8
+1) Selected	126	7.2
+Missing	753
+
+
+46) Q19_C3
+Do you identify as (select all that apply): An evangelical Christian [Response if: Q16=4, 5, 6, 7, 12, 13, 17, or 18]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1761	0.072	0.259
+0) Not selected	1634	92.8
+1) Selected	127	7.2
+Missing	753
+
+
+47) Q19_C4
+Do you identify as (select all that apply): A fundamentalist Christian [Response if: Q16=4, 5, 6, 7, 12, 13, 17, or 18]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1761	0.042	0.201
+0) Not selected	1687	95.8
+1) Selected	74	4.2
+Missing	753
+
+
+48) Q19_C5
+Do you identify as (select all that apply):A Pentecostal [Response if: Q16=4, 5, 6, 7, 12, 13, 17, or 18]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1761	0.029	0.168
+0) Not selected	1710	97.1
+1) Selected	51	2.9
+Missing	753
+
+
+49) Q19_C6
+Do you identify as (select all that apply): None of the above [Response if: Q16=4, 5, 6, 7, 12, 13, 17, or 18]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1761	0.628	0.483
+0) Not selected	655	37.2
+1) Selected	1106	62.8
+Missing	753
+
+
+50) Q20
+When you were growing up as a child (between the ages of 5-12 years old), what was your mother's primary religion?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2509	13.263	24.362
+1) Aboriginal/Indigenous spirituality	25	1.0
+2) Buddhism	62	2.5
+3) Chinese religion (e.g., making offerings to ancestors)	32	1.3
+4) Christianity - Catholic	1007	40.1
+5) Christianity - Orthodox	120	4.8
+6) Christianity - Protestant. Please specify denomination or church:	383	15.3
+7) Christianity - Other. Please specify tradition, group or church:	64	2.6
+8) Hinduism	63	2.5
+9) Islam	81	3.2
+10) Judaism	27	1.1
+11) Sikhism	22	0.9
+12) Other religion. Please specify:	9	0.4
+13) No religion	430	17.1
+99) Don't know	184	7.3
+Missing	5
+
+
+51) Q20_O
+When you were growing up as a child (between the ages of 5-12 years old), what was your mother's primary religion? [Specified responses in Q20 for: 06 Christianity - Protestant, 07 Christianity - Other, 12 Other religion
+RANGE: 500 to 1229
+	N	Mean	Std. Deviation
+Total	456	550.985	116.515
+500) Presbyterian	11	2.4
+501) Anglican/Episcopalian	31	6.8
+502) United Church of Canada	22	4.8
+503) Lutheran	32	7.0
+504) Baptist	104	22.8
+505) Evangelical/nondenominational Evangelical/charismatic	20	4.4
+507) Evangelical Lutheran Church in America	1	0.2
+508) Nondenominational	28	6.1
+510) Pentecostal	22	4.8
+511) Protestant	32	7.0
+512) Congregational	1	0.2
+513) Christian Reformed	5	1.1
+517) Methodist	21	4.6
+518) Mennonite Brethren	2	0.4
+520) United Methodist	1	0.2
+521) Foursquare	1	0.2
+522) Church of Christ	1	0.2
+523) Assemblies of God	2	0.4
+525) Mennonite	9	2.0
+528) Salvation Army	2	0.4
+529) Church of the Brethren	1	0.2
+530) Apostolic	2	0.4
+531) Seventh day Adventist	9	2.0
+532) Church of the Nazarene	2	0.4
+534) Christian and Missionary Alliance	1	0.2
+537) Hutterites	2	0.4
+538) Christian Life Assembly	1	0.2
+542) Church of God (COG)	4	0.9
+545) African Methodist Episcopal Church	2	0.4
+546) Community of Faith	2	0.4
+548) Canadian Reformed Church	3	0.7
+549) Crusaders of the Divine Church of Christ	1	0.2
+552) African inland church	1	0.2
+553) St. Thomas CSI church	1	0.2
+554) Nueva Vida Christian Church	1	0.2
+555) Emmanuel Church of Christ	1	0.2
+556) Fountaingate Christian Assembly	1	0.2
+700) Christian	31	6.8
+707) Jehovah's Witnesses	15	3.3
+708) Latter-day Saints (Mormon)	16	3.5
+718) Christian Science	1	0.2
+719) Armenian Apostle	1	0.2
+1204) Pagan	1	0.2
+1205) Wiccan	3	0.7
+1217) Zoroastrian	1	0.2
+1222) African traditional	1	0.2
+1223) Ravidasia	1	0.2
+1228) Voodoo	1	0.2
+1229) Spiritist (Kardecist)	1	0.2
+Missing	2058
+
+
+52) Q21
+When you were growing up as a child (between the ages of 5-12 years old), what was your father's primary religion?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2508	16.778	28.728
+1) Aboriginal/Indigenous spirituality	19	0.8
+2) Buddhism	50	2.0
+3) Chinese religion (e.g., making offerings to ancestors)	32	1.3
+4) Christianity - Catholic	953	38.0
+5) Christianity - Eastern Orthodox	107	4.3
+6) Christianity - Protestant. Please specify denomination or church:	281	11.2
+7) Christianity - Other. Please specify tradition, group or church:	58	2.3
+8) Hinduism	65	2.6
+9) Islam	83	3.3
+10) Judaism	33	1.3
+11) Sikhism	25	1.0
+12) Other religion. Please specify:	6	0.2
+13) No religion	527	21.0
+99) Don't know	269	10.7
+Missing	6
+
+
+53) Q21_O
+When you were growing up as a child (between the ages of 5-12 years old), what was your father's primary religion? [Specified responses in Q21 for: 06 Christianity - Protestant, 07 Christianity - Other, 12 Other religion
+RANGE: 500 to 1230
+	N	Mean	Std. Deviation
+Total	345	555.643	119.614
+500) Presbyterian	12	3.5
+501) Anglican/Episcopalian	22	6.4
+502) United Church of Canada	15	4.3
+503) Lutheran	16	4.6
+504) Baptist	80	23.2
+505) Evangelical/nondenominational Evangelical/charismatic	19	5.5
+507) Evangelical Lutheran Church in America	1	0.3
+508) Nondenominational	13	3.8
+510) Pentecostal	15	4.3
+511) Protestant	29	8.4
+512) Congregational	1	0.3
+513) Christian Reformed	3	0.9
+517) Methodist	11	3.2
+518) Mennonite Brethren	2	0.6
+521) Foursquare	1	0.3
+522) Church of Christ	1	0.3
+523) Assemblies of God	1	0.3
+525) Mennonite	8	2.3
+528) Salvation Army	2	0.6
+529) Church of the Brethren	2	0.6
+530) Apostolic	2	0.6
+531) Seventh day Adventist	9	2.6
+532) Church of the Nazarene	2	0.6
+537) Hutterites	2	0.6
+538) Christian Life Assembly	1	0.3
+542) Church of God (COG)	3	0.9
+545) African Methodist Episcopal Church	1	0.3
+546) Community of Faith	1	0.3
+548) Canadian Reformed Church	3	0.9
+549) Crusaders of the Divine Church of Christ	1	0.3
+553) St. Thomas CSI church	1	0.3
+554) Nueva Vida Christian Church	1	0.3
+555) Emmanuel Church of Christ	1	0.3
+556) Fountaingate Christian Assembly	1	0.3
+700) Christian	21	6.1
+707) Jehovah's Witnesses	14	4.1
+708) Latter-day Saints (Mormon)	17	4.9
+711) Quaker	1	0.3
+718) Christian Science	1	0.3
+719) Armenian Apostle	1	0.3
+1201) Unitarian Universalist	2	0.6
+1217) Zoroastrian	1	0.3
+1222) African traditional	1	0.3
+1223) Ravidasia	1	0.3
+1229) Spiritist (Kardecist)	1	0.3
+1230) Jainism	1	0.3
+Missing	2169
+
+
+54) Q22
+Growing up as a child between the ages of 5-12 years old, how often on average did you receive some form of religious or spiritual education at school, at home, or at a place of worship?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2513	3.054	1.685
+1) Once a day or more often	380	15.1
+2) At least once a week, but less than once a day	969	38.6
+3) At least once a month, but less than once a week	298	11.9
+4) A few times a year, but less than once a month	262	10.4
+5) Once a year	209	8.3
+6) Not at all	395	15.7
+Missing	1
+
+
+55) Q23A
+In the past 12 months how often on average did you practice or take part in the following activities, either in a group or on your own? Prayer
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2504	3.754	1.987
+1) Once a day or more often	503	20.1
+2) At least once a week, but less than once a day	406	16.2
+3) At least once a month, but less than once a week	214	8.5
+4) A few times a year, but less than once a month	336	13.4
+5) Once a year	170	6.8
+6) Not at all	875	34.9
+Missing	10
+
+
+56) Q23B
+In the past 12 months how often on average did you practice or take part in the following activities, either in a group or on your own? Religious services or meetings
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2496	4.323	1.729
+1) Once a day or more often	132	5.3
+2) At least once a week, but less than once a day	457	18.3
+3) At least once a month, but less than once a week	242	9.7
+4) A few times a year, but less than once a month	356	14.3
+5) Once a year	259	10.4
+6) Not at all	1050	42.1
+Missing	18
+
+
+57) Q23C
+In the past 12 months how often on average did you practice or take part in the following activities, either in a group or on your own? Reading scripture, a holy text or other materials from your religious or spiritual community or tradition
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2505	4.374	1.827
+1) Once a day or more often	224	8.9
+2) At least once a week, but less than once a day	372	14.9
+3) At least once a month, but less than once a week	226	9.0
+4) A few times a year, but less than once a month	303	12.1
+5) Once a year	182	7.3
+6) Not at all	1198	47.8
+Missing	9
+
+
+58) Q23D
+In the past 12 months how often on average did you practice or take part in the following activities, either in a group or on your own? Meetings or activities with an atheist, humanist, or secularist organization
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2498	5.237	1.46
+1) Once a day or more often	86	3.4
+2) At least once a week, but less than once a day	161	6.4
+3) At least once a month, but less than once a week	157	6.3
+4) A few times a year, but less than once a month	137	5.5
+5) Once a year	88	3.5
+6) Not at all	1869	74.8
+Missing	16
+
+
+59) Q23E
+In the past 12 months how often on average did you practice or take part in the following activities, either in a group or on your own? Making offerings to your ancestors, or at a temple
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2494	5.243	1.4
+1) Once a day or more often	73	2.9
+2) At least once a week, but less than once a day	152	6.1
+3) At least once a month, but less than once a week	134	5.4
+4) A few times a year, but less than once a month	170	6.8
+5) Once a year	173	6.9
+6) Not at all	1792	71.9
+Missing	20
+
+
+60) Q23F
+In the past 12 months how often on average did you practice or take part in the following activities, either in a group or on your own? Volunteering for a non-profit group or event (religious or secular)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2491	4.834	1.497
+1) Once a day or more often	77	3.1
+2) At least once a week, but less than once a day	188	7.5
+3) At least once a month, but less than once a week	247	9.9
+4) A few times a year, but less than once a month	390	15.7
+5) Once a year	246	9.9
+6) Not at all	1343	53.9
+Missing	23
+
+
+61) Q24A
+In the past 12 months, how often on average did you do the following on the internet? Spent time online (for any reason)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2503	1.621	1.408
+1) Once a day or more often	1967	78.6
+2) At least once a week, but less than once a day	161	6.4
+3) At least once a month, but less than once a week	96	3.8
+4) A few times a year, but less than once a month	73	2.9
+5) Once a year	47	1.9
+6) Not at all	159	6.4
+Missing	11
+
+
+62) Q24B
+In the past 12 months, how often on average did you do the following on the internet? Read or watched online content on religious or spiritual beliefs, values, ideas or practices
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2500	4.276	1.692
+1) Once a day or more often	165	6.6
+2) At least once a week, but less than once a day	327	13.1
+3) At least once a month, but less than once a week	352	14.1
+4) A few times a year, but less than once a month	468	18.7
+5) Once a year	184	7.4
+6) Not at all	1004	40.2
+Missing	14
+
+
+63) Q24C
+In the past 12 months, how often on average did you do the following on the internet? Read or watched online content on atheist, humanist, secularist or non-belief values, ideas, or practices
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2498	4.714	1.59
+1) Once a day or more often	109	4.4
+2) At least once a week, but less than once a day	227	9.1
+3) At least once a month, but less than once a week	255	10.2
+4) A few times a year, but less than once a month	398	15.9
+5) Once a year	198	7.9
+6) Not at all	1311	52.5
+Missing	16
+
+
+64) Q24D
+In the past 12 months, how often on average did you do the following on the internet? Posted on social media (Instagram, Snapchat, Twitter, Facebook, YouTube, Reddit, etc.) about religious or spiritual beliefs, values, views or practices
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2505	4.75	1.714
+1) Once a day or more often	186	7.4
+2) At least once a week, but less than once a day	217	8.7
+3) At least once a month, but less than once a week	208	8.3
+4) A few times a year, but less than once a month	283	11.3
+5) Once a year	144	5.7
+6) Not at all	1467	58.6
+Missing	9
+
+
+65) Q24E
+In the past 12 months, how often on average did you do the following on the internet? Posted on social media (Instagram, Snapchat, Twitter, Facebook, YouTube, Reddit, etc.) about atheist, humanist, secularist or non-belief values, views, or practices
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2498	5.029	1.616
+1) Once a day or more often	140	5.6
+2) At least once a week, but less than once a day	185	7.4
+3) At least once a month, but less than once a week	182	7.3
+4) A few times a year, but less than once a month	169	6.8
+5) Once a year	101	4.0
+6) Not at all	1721	68.9
+Missing	16
+
+
+66) Q25
+How often have you ever celebrated, or plan to celebrate in the future, your own rites of passage events with a religious or faith group (for example, marriage, birth/initiation/baptismal rites for child or funeral in a church, mosque, synagogue, temple or other religious or spiritual space)?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	2501	2.583	1.074
+1) Always	411	16.4
+2) Sometimes	950	38.0
+3) Never in a religious or faith setting	412	16.5
+4) I do not celebrate these rites of passage events at all	728	29.1
+Missing	13
+
+
+67) Q26_1
+For the purposes of this survey, a personal spiritual experience is defined as a profound and usually positive experience that helps individuals find their authentic self, as well as connects them to a mysterious, universal, and overarching reality. List up to three group or private activities (i.e., yoga, mindfulness, activities, meditation, outdoor nature activities, artistic creation, and so forth), if any, you took part in during the past 12 months that are personal spiritual experiences for you in this sense
+RANGE: 1 to 16
+	N	Mean	Std. Deviation
+Total	1082	5.241	3.173
+1) Meditation, mindfulness and breathing activities	234	21.6
+2) Making or listening to music	21	1.9
+3) Friends, family and relationships, including special events/parties	15	1.4
+4) Yoga	229	21.2
+5) Rites of passage (baptisms, marriages, funerals)	52	4.8
+6) Outdoor/nature activities	134	12.4
+7) Religious or spiritual practices (attending church, reading the Bible, indigenous spiritual practices, etc.)	137	12.7
+8) Prayer	162	15.0
+9) Art, writing and dance	35	3.2
+10) Sports/workout	18	1.7
+11) Visiting sacred sites	5	0.5
+12) Home/everyday activities (cooking, sharing on social media, organizing, video games, etc.)	6	0.6
+13) Traveling	3	0.3
+14) Brainstorming/thinking/reading	18	1.7
+15) Consumption of drugs or other substances	6	0.6
+16) Volunteering/charitable giving/community participation/service	7	0.6
+Missing	1432
+
+
+68) Q26_2
+For the purposes of this survey, a personal spiritual experience is defined as a profound and usually positive experience that helps individuals find their authentic self, as well as connects them to a mysterious, universal, and overarching reality. List up to three group or private activities (i.e., yoga, mindfulness, activities, meditation, outdoor nature activities, artistic creation, and so forth), if any, you took part in during the past 12 months that are personal spiritual experiences for you in this sense
+RANGE: 1 to 16
+	N	Mean	Std. Deviation
+Total	705	5.627	3.87
+1) Meditation, mindfulness and breathing activities	186	26.4
+2) Making or listening to music	24	3.4
+3) Friends, family and relationships, including special events\parties	21	3.0
+4) Yoga	62	8.8
+5) Rites of passage (baptisms, marriages, funerals)	12	1.7
+6) Outdoor/nature activities	100	14.2
+7) Religious or spiritual practices (attending church, reading the Bible, indigenous spiritual practices, etc.)	101	14.3
+8) Prayer	56	7.9
+9) Art, writing and dance	57	8.1
+10) Sports/workout	27	3.8
+11) Visiting sacred sites	4	0.6
+12) Home/everyday activities (cooking, sharing on social media, organizing, video games, etc.)	11	1.6
+13) Traveling	3	0.4
+14) Brainstorming/thinking/reading	19	2.7
+15) Consumption of drugs or other substances	9	1.3
+16) Volunteering/charitable giving/community participation/service	13	1.8
+Missing	1809
+
+
+69) Q26_3
+For the purposes of this survey, a personal spiritual experience is defined as a profound and usually positive experience that helps individuals find their authentic self, as well as connects them to a mysterious, universal, and overarching reality. List up to three group or private activities (i.e., yoga, mindfulness, activities, meditation, outdoor nature activities, artistic creation, and so forth), if any, you took part in during the past 12 months that are personal spiritual experiences for you in this sense
+RANGE: 1 to 16
+	N	Mean	Std. Deviation
+Total	306	6.853	4.128
+1) Meditation, mindfulness and breathing activities	50	16.3
+2) Making or listening to music	11	3.6
+3) Friends, family and relationships, including special events\parties	17	5.6
+4) Yoga	15	4.9
+5) Rites of passage (baptisms, marriages, funerals)	1	0.3
+6) Outdoor/nature activities	41	13.4
+7) Religious or spiritual practices (attending church, reading the Bible, indigenous spiritual practices, etc.)	51	16.7
+8) Prayer	22	7.2
+9) Art, writing and dance	35	11.4
+10) Sports/workout	16	5.2
+11) Visiting sacred sites	1	0.3
+12) Home/everyday activities (cooking, sharing on social media, organizing, video games, etc.)	12	3.9
+13) Traveling	3	1.0
+14) Brainstorming/thinking/reading	16	5.2
+15) Consumption of drugs or other substances	3	1.0
+16) Volunteering/charitable giving/community participation/service	12	3.9
+Missing	2208
+
+
+70) Q26_NO
+For the purposes of this survey, a personal spiritual experience is defined as a profound and usually positive experience that helps individuals find their authentic self, as well as connects them to a mysterious, universal, and overarching reality. List up to three group or private activities (i.e., yoga, mindfulness, activities, meditation, outdoor nature activities, artistic creation, and so forth), if any, you took part in during the past 12 months that are personal spiritual experiences for you in this sense. I did not take part in any spiritual activities in the past 12 months.
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.527	0.499
+0) Not selected	1188	47.3
+1) Selected	1326	52.7
+
+
+71) Q26_A1
+How often on average did you take part in [response from Q26_1] in the past 12 months?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1084	2.579	1.216
+1) Once a day or more often	223	20.6
+2) At least once a week, but less than once a day	370	34.1
+3) At least once a month, but less than once a week	217	20.0
+4) A few times a year, but less than once a month	188	17.3
+5) Once in the past year	86	7.9
+Missing	1430
+
+
+72) Q26_A2
+How often on average did you take part in [response from Q26_2] in the past 12 months?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	705	2.638	1.184
+1) Once a day or more often	132	18.7
+2) At least once a week, but less than once a day	221	31.3
+3) At least once a month, but less than once a week	172	24.4
+4) A few times a year, but less than once a month	130	18.4
+5) Once in the past year	50	7.1
+Missing	1809
+
+
+73) Q26_A3
+How often on average did you take part in [response from Q26_3] in the past 12 months?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	310	2.561	1.152
+1) Once a day or more often	63	20.3
+2) At least once a week, but less than once a day	99	31.9
+3) At least once a month, but less than once a week	74	23.9
+4) A few times a year, but less than once a month	59	19.0
+5) Once in the past year	15	4.8
+Missing	2204
+
+
+74) Q27_CALCC1
+Think about your 5 closest friends. Write down their first names or initials in the spaces provided below. If two or more of your friends have the same first name or initials, also include a distinct number at the end (for example, Mavis1, Mavis2, etc.). If you are uncomfortable giving the actual names/initials of your friends, you can instead provide made-up names for them
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2234	0.999	0.037
+0) Included at least one friend's name/initials, but not the first slot.	3	0.1
+1) Wrote friend's name/initials in 1st slot	2231	99.9
+Missing	280
+
+
+75) Q27_CALCC2
+Think about your 5 closest friends. Write down their first names or initials in the spaces provided below. If two or more of your friends have the same first name or initials, also include a distinct number at the end (for example, Mavis1, Mavis2, etc.). If you are uncomfortable giving the actual names/initials of your friends, you can instead provide made-up names for them
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2234	0.947	0.224
+0) Included at least one friend's name/initials, but not the second slot.	118	5.3
+1) Wrote friend's name/initials in 2nd slot	2116	94.7
+Missing	280
+
+
+76) Q27_CALCC3
+Think about your 5 closest friends. Write down their first names or initials in the spaces provided below. If two or more of your friends have the same first name or initials, also include a distinct number at the end (for example, Mavis1, Mavis2, etc.). If you are uncomfortable giving the actual names/initials of your friends, you can instead provide made-up names for them
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2234	0.882	0.323
+0) Included at least one friend's name/initials, but not the third slot.	264	11.8
+1) Wrote friend's name/initials in 3rd slot	1970	88.2
+Missing	280
+
+
+77) Q27_CALCC4
+Think about your 5 closest friends. Write down their first names or initials in the spaces provided below. If two or more of your friends have the same first name or initials, also include a distinct number at the end (for example, Mavis1, Mavis2, etc.). If you are uncomfortable giving the actual names/initials of your friends, you can instead provide made-up names for them
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2234	0.79	0.407
+0) Included at least one friend's name/initials, but not the forth slot.	469	21.0
+1) Wrote friend's name/initials in 4th slot	1765	79.0
+Missing	280
+
+
+78) Q27_CALCC5
+Think about your 5 closest friends. Write down their first names or initials in the spaces provided below. If two or more of your friends have the same first name or initials, also include a distinct number at the end (for example, Mavis1, Mavis2, etc.). If you are uncomfortable giving the actual names/initials of your friends, you can instead provide made-up names for them
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2234	0.739	0.44
+0) Included at least one friend's name/initials, but not the fifth slot.	584	26.1
+1) Wrote friend's name/initials in 5th slot	1650	73.9
+Missing	280
+
+
+79) Q27_Q1_C1
+Of the friends listed in Q27, please select those who you know are involved in a religious group or faith community. [Response if Q27_CALCC1==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2231	0.348	0.476
+0) Not selected	1455	65.2
+1) Selected	776	34.8
+Missing	283
+
+
+80) Q27_Q1_C2
+Of the friends listed in Q27, please select who you know are involved in a religious group or faith community. [Response if Q27_CALCC2==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2116	0.284	0.451
+0) Not selected	1515	71.6
+1) Selected	601	28.4
+Missing	398
+
+
+81) Q27_Q1_C3
+Of the friends listed in Q27, please select who you know are involved in a religious group or faith community. [Response if Q27_CALCC3==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1970	0.274	0.446
+0) Not selected	1430	72.6
+1) Selected	540	27.4
+Missing	544
+
+
+82) Q27_Q1_C4
+Of the friends listed in Q27, please select who you know are involved in a religious group or faith community. [Response if Q27_CALCC4==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1765	0.262	0.44
+0) Not selected	1303	73.8
+1) Selected	462	26.2
+Missing	749
+
+
+83) Q27_Q1_C5
+Of the friends listed in Q27, please select who you know are involved in a religious group or faith community. [Response if Q27_CALCC5==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1650	0.274	0.446
+0) Not selected	1198	72.6
+1) Selected	452	27.4
+Missing	864
+
+
+84) Q27_Q2_C1
+Of the friends listed in Q27, please select those who you know are not religious at all. [Response if Q27_CALCC1==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2231	0.431	0.495
+0) Selected	1269	56.9
+1) Not selected	962	43.1
+Missing	283
+
+
+85) Q27_Q2_C2
+Of the friends listed in Q27, please select those who you know are not religious at all. [Response if Q27_CALCC2==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2116	0.446	0.497
+0) Selected	1173	55.4
+1) Not selected	943	44.6
+Missing	398
+
+
+86) Q27_Q2_C3
+Of the friends listed in Q27, please select those who you know are not religious at all. [Response if Q27_CALCC3==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1970	0.438	0.496
+0) Selected	1108	56.2
+1) Not selected	862	43.8
+Missing	544
+
+
+87) Q27_Q2_C4
+Of the friends listed in Q27, please select those who you know are not religious at all. [Response if Q27_CALCC4==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1765	0.427	0.495
+0) Selected	1011	57.3
+1) Not selected	754	42.7
+Missing	749
+
+
+88) Q27_Q2_C5
+Of the friends listed in Q27, please select those who you know are not religious at all. [Response if Q27_CALCC5==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1650	0.433	0.496
+0) Selected	936	56.7
+1) Not selected	714	43.3
+Missing	864
+
+
+89) Q27_Q3_C1
+Of the friends listed in Q27, please select those who you know belong to a non-Christian religion. [Response if Q27_CALCC1==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2231	0.175	0.38
+0) Not selected	1840	82.5
+1) Selected	391	17.5
+Missing	283
+
+
+90) Q27_Q3_C2
+Of the friends listed in Q27, please select those who you know belong to a non-Christian religion. [Response if Q27_CALCC2==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2116	0.159	0.366
+0) Not selected	1779	84.1
+1) Selected	337	15.9
+Missing	398
+
+
+91) Q27_Q3_C3
+Of the friends listed in Q27, please select those who you know belong to a non-Christian religion. [Response if Q27_CALCC3==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1970	0.174	0.379
+0) Not selected	1628	82.6
+1) Selected	342	17.4
+Missing	544
+
+
+92) Q27_Q3_C4
+Of the friends listed in Q27, please select those who you know belong to a non-Christian religion. [Response if Q27_CALCC4==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1765	0.155	0.362
+0) Not selected	1491	84.5
+1) Selected	274	15.5
+Missing	749
+
+
+93) Q27_Q3_C5
+Of the friends listed in Q27, please select those who you know belong to a non-Christian religion. [Response if Q27_CALCC5==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1650	0.151	0.358
+0) Not selected	1401	84.9
+1) Selected	249	15.1
+Missing	864
+
+
+94) Q27_Q4_C1
+Of the friends listed in Q27, please select those who you know were born outside of the country. [Response if Q27_CALCC1==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2231	0.185	0.388
+0) Not selected	1818	81.5
+1) Selected	413	18.5
+Missing	283
+
+
+95) Q27_Q4_C2
+Of the friends listed in Q27, please select those who you know were born outside of the country. [Response if Q27_CALCC2==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2116	0.171	0.376
+0) Not selected	1755	82.9
+1) Selected	361	17.1
+Missing	398
+
+
+96) Q27_Q4_C3
+Of the friends listed in Q27, please select those who you know were born outside of the country. [Response if Q27_CALCC3==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1970	0.171	0.377
+0) Not selected	1633	82.9
+1) Selected	337	17.1
+Missing	544
+
+
+97) Q27_Q4_C4
+Of the friends listed in Q27, please select those who you know were born outside of the country. [Response if Q27_CALCC4==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1765	0.177	0.382
+0) Not selected	1453	82.3
+1) Selected	312	17.7
+Missing	749
+
+
+98) Q27_Q4_C5
+Of the friends listed in Q27, please select those who you know were born outside of the country. [Response if Q27_CALCC5==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1650	0.185	0.388
+0) Not selected	1345	81.5
+1) Selected	305	18.5
+Missing	864
+
+
+99) Q27_Q5_C1
+Of the friends listed in Q27, please select those who you know are from a different ethno-racial background than you. [Response if Q27_CALCC1==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2231	0.241	0.428
+0) Not selected	1693	75.9
+1) Selected	538	24.1
+Missing	283
+
+
+100) Q27_Q5_C2
+Of the friends listed in Q27, please select those who you know are from a different ethno-racial background than you. [Response if Q27_CALCC2==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2116	0.254	0.435
+0) Not selected	1579	74.6
+1) Selected	537	25.4
+Missing	398
+
+
+101) Q27_Q5_C3
+Of the friends listed in Q27, please select those who you know are from a different ethno-racial background than you. [Response if Q27_CALCC3==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1970	0.256	0.437
+0) Not selected	1465	74.4
+1) Selected	505	25.6
+Missing	544
+
+
+102) Q27_Q5_C4
+Of the friends listed in Q27, please select those who you know are from a different ethno-racial background than you. [Response if Q27_CALCC4==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1765	0.258	0.438
+0) Not selected	1309	74.2
+1) Selected	456	25.8
+Missing	749
+
+
+103) Q27_Q5_C5
+Of the friends listed in Q27, please select those who you know are from a different ethno-racial background than you. [Response if Q27_CALCC5==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1650	0.264	0.441
+0) Not selected	1214	73.6
+1) Selected	436	26.4
+Missing	864
+
+
+104) Q27_Q6_C1
+Of the friends listed in Q27, please select those who you know volunteer regularly for a non-profit group or event. [Response if Q27_CALCC1==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2231	0.205	0.404
+0) Not selected	1773	79.5
+1) Selected	458	20.5
+Missing	283
+
+
+105) Q27_Q6_C2
+Of the friends listed in Q27, please select those who you know volunteer regularly for a non-profit group or event. [Response if Q27_CALCC2==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2116	0.187	0.39
+0) Not selected	1721	81.3
+1) Selected	395	18.7
+Missing	398
+
+
+106) Q27_Q6_C3
+Of the friends listed in Q27, please select those who you know volunteer regularly for a non-profit group or event. [Response if Q27_CALCC3==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1970	0.163	0.369
+0) Not selected	1649	83.7
+1) Selected	321	16.3
+Missing	544
+
+
+107) Q27_Q6_C4
+Of the friends listed in Q27, please select those who you know volunteer regularly for a non-profit group or event. [Response if Q27_CALCC4==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1765	0.168	0.374
+0) Not selected	1469	83.2
+1) Selected	296	16.8
+Missing	749
+
+
+108) Q27_Q6_C5
+Of the friends listed in Q27, please select those who you know volunteer regularly for a non-profit group or event. [Response if Q27_CALCC5==1]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1650	0.161	0.367
+0) Not selected	1385	83.9
+1) Selected	265	16.1
+Missing	864
+
+
+109) Q28_A
+In the past 12 months, how often on average did you do the following with any of your friends (either those listed previously in Q27 or others)? Spend time with them socially.
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2500	2.537	1.378
+1) Once a day or more often	587	23.5
+2) At least once a week, but less than once a day	874	35.0
+3) At least once a month, but less than once a week	560	22.4
+4) A few times a year, but less than once a month	243	9.7
+5) Once a year	61	2.4
+6) Not at all	175	7.0
+Missing	14
+
+
+110) Q28_B
+In the past 12 months, how often on average did you do the following with any of your friends (either those listed previously in Q27 or others)? Discuss religion or spirituality with them.
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2493	4.27	1.578
+1) Once a day or more often	107	4.3
+2) At least once a week, but less than once a day	317	12.7
+3) At least once a month, but less than once a week	387	15.5
+4) A few times a year, but less than once a month	543	21.8
+5) Once a year	262	10.5
+6) Not at all	877	35.2
+Missing	21
+
+
+111) Q28_C
+In the past 12 months, how often on average did you do the following with any of your friends (either those listed previously in Q27 or others)? Attend religious activities, meetings or services with them.
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2490	4.843	1.612
+1) Once a day or more often	93	3.7
+2) At least once a week, but less than once a day	273	11.0
+3) At least once a month, but less than once a week	217	8.7
+4) A few times a year, but less than once a month	239	9.6
+5) Once a year	194	7.8
+6) Not at all	1474	59.2
+Missing	24
+
+
+112) Q28_D
+In the past 12 months, how often on average did you do the following with any of your friends (either those listed previously in Q27 or others)? Attend atheist, humanist or secularist meetings or activities with them.
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2483	5.321	1.373
+1) Once a day or more often	69	2.8
+2) At least once a week, but less than once a day	137	5.5
+3) At least once a month, but less than once a week	140	5.6
+4) A few times a year, but less than once a month	136	5.5
+5) Once a year	101	4.1
+6) Not at all	1900	76.5
+Missing	31
+
+
+113) Q28_E
+In the past 12 months, how often on average did you do the following with any of your friends (either those listed previously in Q27 or others)? Volunteered for a non-profit group or event with them.
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2493	5	1.454
+1) Once a day or more often	70	2.8
+2) At least once a week, but less than once a day	170	6.8
+3) At least once a month, but less than once a week	204	8.2
+4) A few times a year, but less than once a month	301	12.1
+5) Once a year	249	10.0
+6) Not at all	1499	60.1
+Missing	21
+
+
+114) Q29_C1
+Think about your current spouse, partner or significant other, if you have one. Which of the following best describes that person? The person is (select all that apply): Of the same ethno-racial background as you. [Response if Q29_C5=0]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1841	0.438	0.496
+0) Not selected	1035	56.2
+1) Selected	806	43.8
+Missing	673
+
+
+115) Q29_C2
+Think about your current spouse, partner or significant other, if you have one. Which of the following best describes that person? The person is (select all that apply): Of the same religious or faith group as you. [Response if Q29_C5=0]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1841	0.314	0.464
+0) Not selected	1263	68.6
+1) Selected	578	31.4
+Missing	673
+
+
+116) Q29_C3
+Think about your current spouse, partner or significant other, if you have one. Which of the following best describes that person? The person is (select all that apply): Not religious at all. [Response if Q29_C5=0]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1841	0.3	0.458
+0) Not selected	1289	70.0
+1) Selected	552	30.0
+Missing	673
+
+
+117) Q29_C4
+Think about your current spouse, partner or significant other, if you have one. Which of the following best describes that person? The person is (select all that apply): The same sex as you. [Response if Q29_C5=0]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1841	0.074	0.262
+0) Not selected	1705	92.6
+1) Selected	136	7.4
+Missing	673
+
+
+118) Q29_C5
+Think about your current spouse, partner or significant other, if you have one. Which of the following best describes that person? The person is (select all that apply): I do not currently have a spouse, partner or significant other.
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.268	0.443
+0) Not selected	1841	73.2
+1) Selected	673	26.8
+
+
+119) Q29_C6
+Think about your current spouse, partner or significant other, if you have one. Which of the following best describes that person? The person is (select all that apply): None of the above. [Response if Q29_C5=0]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1841	0.177	0.381
+0) Not selected	1516	82.3
+1) Selected	325	17.7
+Missing	673
+
+
+120) Q30_A
+To what extent do you agree or disagree with the following statements or ideas? Government employees should be allowed to wear religious symbols or clothing while they are working, such as Christian cross, a turban (Sikh head covering), a kippah (Jewish head cap), or a hijab (Islamic headscarf).
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2501	2.334	1.224
+1) Strongly agree	777	31.1
+2) Agree	717	28.7
+3) Neither agree nor disagree	614	24.6
+4) Disagree	181	7.2
+5) Strongly disagree	212	8.5
+Missing	13
+
+
+121) Q30_B
+To what extent do you agree or disagree with the following statements or ideas? I want to become more involved with a religious or faith group in the future.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2501	3.347	1.328
+1) Strongly agree	248	9.9
+2) Agree	453	18.1
+3) Neither agree nor disagree	707	28.3
+4) Disagree	370	14.8
+5) Strongly disagree	723	28.9
+Missing	13
+
+
+122) Q30_C
+To what extent do you agree or disagree with the following statements or ideas? I want to pass on my religious, spiritual, or non-religious beliefs to my children.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2489	2.768	1.281
+1) Strongly agree	482	19.4
+2) Agree	582	23.4
+3) Neither agree nor disagree	826	33.2
+4) Disagree	229	9.2
+5) Strongly disagree	370	14.9
+Missing	25
+
+
+123) Q30_D
+To what extent do you agree or disagree with the following statements or ideas? Religious or faith groups should receive tax exemptions.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2499	3.445	1.238
+1) Strongly agree	197	7.9
+2) Agree	330	13.2
+3) Neither agree nor disagree	821	32.9
+4) Disagree	467	18.7
+5) Strongly disagree	684	27.4
+Missing	15
+
+
+124) Q30_E
+To what extent do you agree or disagree with the following statements or ideas? Religious or faith groups should receive government subsidies to provide social services (for example, running immigrant settlement programs, soup kitchens and shelters for the homeless, educational programs, etc.).
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2505	2.776	1.221
+1) Strongly agree	372	14.9
+2) Agree	746	29.8
+3) Neither agree nor disagree	804	32.1
+4) Disagree	236	9.4
+5) Strongly disagree	347	13.9
+Missing	9
+
+
+125) Q31_C1
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. Religion
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.245	0.43
+0) Not selected	1898	75.5
+1) Selected	616	24.5
+
+
+126) Q31_C2
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. Evangelicalism
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.082	0.274
+0) Not selected	2309	91.8
+1) Selected	205	8.2
+
+
+127) Q31_C3
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. Catholicism
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.154	0.361
+0) Not selected	2128	84.6
+1) Selected	386	15.4
+
+
+128) Q31_C4
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. Judaism
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.096	0.294
+0) Not selected	2273	90.4
+1) Selected	241	9.6
+
+
+129) Q31_C5
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. Civic duty
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.284	0.451
+0) Not selected	1799	71.6
+1) Selected	715	28.4
+
+
+130) Q31_C6
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. The economy
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.201	0.401
+0) Not selected	2008	79.9
+1) Selected	506	20.1
+
+
+131) Q31_C7
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. Abortion
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.149	0.356
+0) Not selected	2140	85.1
+1) Selected	374	14.9
+
+
+132) Q31_C8
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. Morality
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.424	0.494
+0) Not selected	1449	57.6
+1) Selected	1065	42.4
+
+
+133) Q31_C9
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. Immigrants
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.263	0.44
+0) Not selected	1854	73.7
+1) Selected	660	26.3
+
+
+134) Q31_C10
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. Christianity
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.296	0.457
+0) Not selected	1769	70.4
+1) Selected	745	29.6
+
+
+135) Q31_C11
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. Human rights
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.61	0.488
+0) Not selected	980	39.0
+1) Selected	1534	61.0
+
+
+136) Q31_C12
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. Multiculturalism
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.344	0.475
+0) Not selected	1649	65.6
+1) Selected	865	34.4
+
+
+137) Q31_C13
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. Hinduism
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.121	0.327
+0) Not selected	2209	87.9
+1) Selected	305	12.1
+
+
+138) Q31_C14
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. Feminism
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.311	0.463
+0) Not selected	1732	68.9
+1) Selected	782	31.1
+
+
+139) Q31_C15
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. Spirituality
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.405	0.491
+0) Not selected	1496	59.5
+1) Selected	1018	40.5
+
+
+140) Q31_C16
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. Islam
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.093	0.291
+0) Not selected	2279	90.7
+1) Selected	235	9.3
+
+
+141) Q31_C17
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. Sikhism
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.091	0.288
+0) Not selected	2285	90.9
+1) Selected	229	9.1
+
+
+142) Q31_C18
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. Nature and the environment
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.558	0.497
+0) Not selected	1112	44.2
+1) Selected	1402	55.8
+
+
+143) Q31_C19
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. Social media
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.25	0.433
+0) Not selected	1886	75.0
+1) Selected	628	25.0
+
+
+144) Q31_C20
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. Yoga
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.429	0.495
+0) Not selected	1436	57.1
+1) Selected	1078	42.9
+
+
+145) Q31_C21
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. Ethics
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.428	0.495
+0) Not selected	1437	57.2
+1) Selected	1077	42.8
+
+
+146) Q31_C22
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. Science
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.473	0.499
+0) Not selected	1324	52.7
+1) Selected	1190	47.3
+
+
+147) Q31_C23
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. Buddhism
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.198	0.398
+0) Not selected	2017	80.2
+1) Selected	497	19.8
+
+
+148) Q31_C24
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. Atheism
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.126	0.332
+0) Not selected	2196	87.4
+1) Selected	318	12.6
+
+
+149) Q31_C25
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. Social justice
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.379	0.485
+0) Not selected	1560	62.1
+1) Selected	954	37.9
+
+
+150) Q31_C26
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. Politics
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.114	0.318
+0) Not selected	2227	88.6
+1) Selected	287	11.4
+
+
+151) Q31_C27
+Please review the words remaining on this list and select all those that generally have positive associations or meanings for you. You can select as many or as few as you wish. Homosexuality
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.271	0.445
+0) Not selected	1832	72.9
+1) Selected	682	27.1
+
+
+152) Q32_C1
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. Religion
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.208	0.406
+0) Not selected	1992	79.2
+1) Selected	522	20.8
+
+
+153) Q32_C2
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. Evangelicalism
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.168	0.374
+0) Not selected	2091	83.2
+1) Selected	423	16.8
+
+
+154) Q32_C3
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. Catholicism
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.17	0.376
+0) Not selected	2086	83.0
+1) Selected	428	17.0
+
+
+155) Q32_C4
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. Judaism
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.099	0.299
+0) Not selected	2264	90.1
+1) Selected	250	9.9
+
+
+156) Q32_C5
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. Civic duty
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.047	0.212
+0) Not selected	2395	95.3
+1) Selected	119	4.7
+
+
+157) Q32_C6
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. The economy
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.204	0.403
+0) Not selected	2001	79.6
+1) Selected	513	20.4
+
+
+158) Q32_C7
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. Abortion
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.326	0.469
+0) Not selected	1694	67.4
+1) Selected	820	32.6
+
+
+159) Q32_C8
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. Morality
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.047	0.212
+0) Not selected	2396	95.3
+1) Selected	118	4.7
+
+
+160) Q32_C9
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. Immigrants
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.113	0.317
+0) Not selected	2229	88.7
+1) Selected	285	11.3
+
+
+161) Q32_C10
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. Christianity
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.14	0.347
+0) Not selected	2163	86.0
+1) Selected	351	14.0
+
+
+162) Q32_C11
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. Human rights
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.031	0.172
+0) Not selected	2437	96.9
+1) Selected	77	3.1
+
+
+163) Q32_C12
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. Multiculturalism
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.051	0.219
+0) Not selected	2387	94.9
+1) Selected	127	5.1
+
+
+164) Q32_C13
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. Hinduism
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.091	0.287
+0) Not selected	2286	90.9
+1) Selected	228	9.1
+
+
+165) Q32_C14
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. Feminism
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.166	0.372
+0) Not selected	2097	83.4
+1) Selected	417	16.6
+
+
+166) Q32_C15
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. Spirituality
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.041	0.197
+0) Not selected	2412	95.9
+1) Selected	102	4.1
+
+
+167) Q32_C16
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. Islam
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.213	0.409
+0) Not selected	1979	78.7
+1) Selected	535	21.3
+
+
+168) Q32_C17
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. Sikhism
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.091	0.288
+0) Not selected	2284	90.9
+1) Selected	230	9.1
+
+
+169) Q32_C18
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. Nature and the environment
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.023	0.151
+0) Not selected	2455	97.7
+1) Selected	59	2.3
+
+
+170) Q32_C19
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. Social media
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.246	0.431
+0) Not selected	1896	75.4
+1) Selected	618	24.6
+
+
+171) Q32_C20
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. Yoga
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.037	0.188
+0) Not selected	2422	96.3
+1) Selected	92	3.7
+
+
+172) Q32_C21
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. Ethics
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.027	0.162
+0) Not selected	2446	97.3
+1) Selected	68	2.7
+
+
+173) Q32_C22
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. Science
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.035	0.183
+0) Not selected	2427	96.5
+1) Selected	87	3.5
+
+
+174) Q32_C23
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. Buddhism
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.074	0.261
+0) Not selected	2329	92.6
+1) Selected	185	7.4
+
+
+175) Q32_C24
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. Atheism
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.168	0.374
+0) Not selected	2092	83.2
+1) Selected	422	16.8
+
+
+176) Q32_C25
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. Social justice
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.106	0.308
+0) Not selected	2247	89.4
+1) Selected	267	10.6
+
+
+177) Q32_C26
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. Politics
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.379	0.485
+0) Not selected	1560	62.1
+1) Selected	954	37.9
+
+
+178) Q32_C27
+Please review the words remaining on this list and select all those that generally have negative associations or meanings for you. You can select as many or as few as you wish. Homosexuality
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2514	0.152	0.359
+0) Not selected	2131	84.8
+1) Selected	383	15.2
+
+
+179) Q34
+In the past 12 months, how often have you personally experienced discrimination due to your religious, spiritual or non-religious beliefs or views?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2495	5.126	1.406
+1) Once a day or more often	76	3.0
+2) At least once a week, but less than once a day	114	4.6
+3) At least once a month, but less than once a week	198	7.9
+4) A few times a year, but less than once a month	290	11.6
+5) Once a year	171	6.9
+6) Not at all	1646	66.0
+Missing	19
+
+
+180) Q33A_1
+On a scale from 0 to 10 (0 indicate very uncomfortable; 10 indicating very comfortable), please indicate what level of comfort you would feel if the following type of person became your relative by marriage (in-law): A spiritual person
+RANGE: 0 to 10
+	N	Mean	Std. Deviation
+Total	2494	7.23	2.64
+0) - Very uncomfortable	65	2.6
+1) 	24	1.0
+2) 	51	2.0
+3) 	62	2.5
+4) 	132	5.3
+5) 	402	16.1
+6) 	191	7.7
+7) 	276	11.1
+8) 	309	12.4
+9) 	189	7.6
+10) - Very comfortable	793	31.8
+Missing	20
+
+
+181) Q33B_1
+On a scale from 0 to 10 (0 indicate very uncomfortable; 10 indicating very comfortable), please indicate what level of comfort you would feel if the following type of person became your relative by marriage (in-law): A Muslim
+RANGE: 0 to 10
+	N	Mean	Std. Deviation
+Total	2490	5.992	3.157
+0) - Very uncomfortable	222	8.9
+1) 	74	3.0
+2) 	98	3.9
+3) 	144	5.8
+4) 	159	6.4
+5) 	453	18.2
+6) 	187	7.5
+7) 	236	9.5
+8) 	254	10.2
+9) 	120	4.8
+10) - Very comfortable	543	21.8
+Missing	24
+
+
+182) Q33C_1
+On a scale from 0 to 10 (0 indicate very uncomfortable; 10 indicating very comfortable), please indicate what level of comfort you would feel if the following type of person became your relative by marriage (in-law): A Christian
+RANGE: 0 to 10
+	N	Mean	Std. Deviation
+Total	2484	7.358	2.697
+0) - Very uncomfortable	74	3.0
+1) 	31	1.2
+2) 	53	2.1
+3) 	69	2.8
+4) 	89	3.6
+5) 	363	14.6
+6) 	171	6.9
+7) 	236	9.5
+8) 	339	13.6
+9) 	217	8.7
+10) - Very comfortable	842	33.9
+Missing	30
+
+
+183) Q33D_1
+On a scale from 0 to 10 (0 indicate very uncomfortable; 10 indicating very comfortable), please indicate what level of comfort you would feel if the following type of person became your relative by marriage (in-law): An atheist
+RANGE: 0 to 10
+	N	Mean	Std. Deviation
+Total	2491	6.674	3.128
+0) - Very uncomfortable	187	7.5
+1) 	58	2.3
+2) 	71	2.9
+3) 	83	3.3
+4) 	98	3.9
+5) 	414	16.6
+6) 	170	6.8
+7) 	228	9.2
+8) 	268	10.8
+9) 	187	7.5
+10) - Very comfortable	727	29.2
+Missing	23
+
+
+184) Q33E_1
+On a scale from 0 to 10 (0 indicate very uncomfortable; 10 indicating very comfortable), please indicate what level of comfort you would feel if the following type of person became your relative by marriage (in-law): A religious person
+RANGE: 0 to 10
+	N	Mean	Std. Deviation
+Total	2485	6.95	2.664
+0) - Very uncomfortable	77	3.1
+1) 	29	1.2
+2) 	45	1.8
+3) 	91	3.7
+4) 	131	5.3
+5) 	453	18.2
+6) 	211	8.5
+7) 	277	11.1
+8) 	313	12.6
+9) 	200	8.0
+10) - Very comfortable	658	26.5
+Missing	29
+
+
+185) Q33F_1
+On a scale from 0 to 10 (0 indicate very uncomfortable; 10 indicating very comfortable), please indicate what level of comfort you would feel if the following type of person became your relative by marriage (in-law): An evangelical Christian
+RANGE: 0 to 10
+	N	Mean	Std. Deviation
+Total	2481	6.029	2.974
+0) - Very uncomfortable	189	7.6
+1) 	52	2.1
+2) 	93	3.7
+3) 	127	5.1
+4) 	171	6.9
+5) 	509	20.5
+6) 	205	8.3
+7) 	271	10.9
+8) 	257	10.4
+9) 	144	5.8
+10) - Very comfortable	463	18.7
+Missing	33
+
+
+186) WEIGHTCND_FINAL
+Post-stratification weight for Canadian respondents (q3=1), based on age, gender, region of residence, level of education, country of birth, household income, and race/ethnicity
+RANGE: 0.21034187078476 to 10.3012886047363
+	N	Mean	Std. Deviation
+Total	2514	1	0.638
+
+
+187) WEIGHTUSA_FINAL
+Post-stratification weight for U.S. respondents (q3=2), based on age, gender, region of residence, level of education, country of birth, household income, and race/ethnicity
+RANGE: 0.157374277710915 to 12.9909524917603
+	N	Mean	Std. Deviation
+Total	2514	1	0.769
+
+

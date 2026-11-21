@@ -1,0 +1,1694 @@
+Data File: NSL2014 (Full Data Codebook)
+
+1) CASEID
+Respondent identifier
+RANGE: 1 to 60000567
+	N	Mean	Std. Deviation
+Total	1520	21040502.179	15415133.019
+
+
+2) S1
+First can you tell me, including yourself, how many adults, 18 or older, are there living in your household?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	481	2.634	4.637
+1) 	119	24.7
+2) 	181	37.6
+3) 	92	19.1
+4) 	60	12.5
+5) 	16	3.3
+6) 	8	1.7
+7) 	1	0.2
+8) 	1	0.2
+10) 	1	0.2
+18) 	1	0.2
+99) Refused	1	0.2
+Missing	1039
+
+
+3) S1A
+(ASK IF S1=1) And is this adult Hispanic or Latino?
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	119	1	0
+1) Yes	119	100.0
+Missing	1401
+
+
+4) S2
+[ASK IF S1=2+ OR 99] And how many of the (INSERT ANSWER FROM S1) adults in your household are Hispanic or Latino?
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	362	2.613	1.261
+1) 	56	15.5
+2) 	146	40.3
+3) 	82	22.7
+4) 	54	14.9
+5) 	15	4.1
+6) 	6	1.7
+7) 	1	0.3
+8) 	1	0.3
+10) 	1	0.3
+Missing	1158
+
+
+5) S2A
+[ASK IF S1A=1 OR S2=1] May I please speak with the Hispanic adult living in this household?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	175	1.006	0.076
+1) Qualified ADULT is on phone	174	99.4
+2) Qualified ADULT is available (not on phone)	1	0.6
+Missing	1345
+
+
+6) S2B
+[ASK IF S2=2+] May I please speak with the Hispanic (male/female), 18 years of age or older, living in this household who had the most recent birthday?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	306	1.81	1.07
+1) Qualified (male/female) is on phone	189	61.8
+2) Qualified (male/female) is available (not on phone)	6	2.0
+3) Qualified (male/female) is not available at this time	91	29.7
+4) No (male/female) 18+ living in household	20	6.5
+Missing	1214
+
+
+7) S3
+[ASK IF S2B=3] Then may I speak to any Hispanic (male/female), 18 years of age or older, living in this household?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	91	2.703	0.863
+1) Qualified (male/female) is on phone	17	18.7
+3) Qualified (male/female) is not available at this time	67	73.6
+4) No (male/female) 18+ living in household	7	7.7
+Missing	1429
+
+
+8) S4A
+[ASK IF S2B=4 OR S3=3,4] Then may I speak to any Hispanic, 18 years of age or older, living in this household?
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	94	1	0
+1) Qualified respondent is on phone	94	100.0
+Missing	1426
+
+
+9) CELL0
+Before we continue, are you driving or doing anything that requires your full attention right now?
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1039	1	0
+1) No, respondent not driving	1039	100.0
+Missing	481
+
+
+10) CELL1
+First, can you tell me, are you Hispanic or Latino?
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1039	1	0
+1) Yes	1039	100.0
+Missing	481
+
+
+11) CELL2
+Could you please tell me if you are 18 or older?
+RANGE: 2 to 2
+	N	Mean	Std. Deviation
+Total	1039	2	0
+2) 18 or older	1039	100.0
+Missing	481
+
+
+12) GENDER
+Record Gender
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1520	1.501	0.5
+1) Male	758	49.9
+2) Female	762	50.1
+
+
+13) Q1
+Just to confirm, are you, yourself of Hispanic or Latino origin or descent?
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1520	1	0
+1) Yes	1520	100.0
+
+
+14) Q2
+The terms Hispanic and Latino are both used to describe people who are of Hispanic or Latino origin or descent. Do you happen to prefer one of these terms more than the other?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	2.219	1.273
+1) Hispanic	555	36.5
+2) Latino	248	16.3
+3) No preference	685	45.1
+8) Don't know	21	1.4
+9) Refused	11	0.7
+
+
+15) Q3
+Now I want to ask you about you and your family's heritage. Are you Mexican, Puerto Rican, Cuban, Dominican, Salvadoran, or are you and your ancestors from another country?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1520	14.719	32.4
+1) Mexican (Mexico)	863	56.8
+2) Puerto Rican (Puerto Rico)	142	9.3
+3) Cuban (Cuba)	72	4.7
+4) Dominican (the Dominican Republic)	64	4.2
+5) Salvadoran (El Salvador)	64	4.2
+6) Other Central American (Central America)	64	4.2
+7) Other South American (South America)	48	3.2
+97) Other country	184	12.1
+98) Don't know (your country of origin)	15	1.0
+99) Refused (your country of origin)	4	0.3
+
+
+16) Q3Q3OT_COMBO
+Q3/Q3OT combo
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1520	25.03	23.412
+1) Argentina	5	0.3
+3) Belize	2	0.1
+4) Bolivia	1	0.1
+5) Brazil	2	0.1
+6) Chile	3	0.2
+7) Colombia	19	1.3
+8) Costa Rica	3	0.2
+9) Cuba	72	4.7
+10) The Dominican Republic	64	4.2
+11) Ecuador	2	0.1
+12) El Salvador	64	4.2
+14) Guatemala	25	1.6
+15) Guyana	2	0.1
+17) Honduras	20	1.3
+18) Mexico	863	56.8
+19) Nicaragua	5	0.3
+20) Panama	6	0.4
+22) Peru	7	0.5
+23) Portugal	3	0.2
+24) Puerto Rico	142	9.3
+25) Spain	47	3.1
+26) Suriname	1	0.1
+28) Venezuela	4	0.3
+32) Italy	1	0.1
+33) Africa	1	0.1
+34) United States	10	0.7
+91) ANSWER FROM (Q3OT)	11	0.7
+95) Other Central America	64	4.2
+96) Other South American	48	3.2
+98) Don't know	16	1.1
+99) Refused	7	0.5
+
+
+17) Q4
+Were you born on the island of Puerto Rico, in the United States, or in another country?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	2.502	0.648
+1) Puerto Rico	87	5.7
+2) U.S.	595	39.1
+3) Another country	836	55.0
+9) Refused	2	0.1
+
+
+18) Q5
+[ASK IF BORN IN ANOTHER COUNTRY Q4=3,9] In what country were you born?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	838	19.632	17.92
+1) Argentina	6	0.7
+3) Belize	1	0.1
+4) Bolivia	2	0.2
+5) Brazil	5	0.6
+6) Chile	3	0.4
+7) Colombia	32	3.8
+8) Costa Rica	2	0.2
+9) Cuba	55	6.6
+10) The Dominican Republic	41	4.9
+11) Ecuador	12	1.4
+12) El Salvador	51	6.1
+14) Guatemala	41	4.9
+16) Haiti	2	0.2
+17) Honduras	27	3.2
+18) Mexico	469	56.0
+19) Nicaragua	12	1.4
+20) Panama	8	1.0
+22) Peru	13	1.6
+25) Spain	8	1.0
+28) Venezuela	6	0.7
+31) Trinidad/the Caribbean Islands	2	0.2
+97) Other	31	3.7
+98) Don't know	6	0.7
+99) Refused	3	0.4
+Missing	682
+
+
+19) NATIVITY1
+Nativity with Puerto Rico as native born
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1520	1.551	0.498
+1) Native born w/ Puerto Rico	682	44.9
+2) Foreign born w/o Puerto Rico	838	55.1
+
+
+20) NATIVITY2
+Nativity with Puerto Rico as foreign born
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1520	1.609	0.488
+1) Native born w/o Puerto Rico	595	39.1
+2) Foreign born w/o Puerto Rico	925	60.9
+
+
+21) Q6_COMBO
+[ASK IF Q4=1,3,9] How many years have you lived in the United States (excluding Puerto Rico)?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	925	3.197	1.148
+1) 0-5 years	91	9.8
+2) 6-10 years	128	13.8
+3) 11-20 years	265	28.6
+4) More than 20 years	429	46.4
+8) Don't know	9	1.0
+9) Refused	3	0.3
+Missing	595
+
+
+22) Q7
+[ASK IF Q4=1,2] Was your mother born on the island of Puerto Rico, in the United States, or in another country?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	682	2.227	0.85
+1) Puerto Rico	111	16.3
+2) U.S.	330	48.4
+3) Another country	236	34.6
+8) Don't know	5	0.7
+Missing	838
+
+
+23) Q8
+[ASK IF Q4=1,2] Was your father born on the island of Puerto Rico, in the United States, or in another country?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	682	2.326	1.09
+1) Puerto Rico	120	17.6
+2) U.S.	290	42.5
+3) Another country	258	37.8
+8) Don't know	14	2.1
+Missing	838
+
+
+24) Q9
+[ASK IF Q4=3,9 OR Q5 IS NOT 24] Are you a citizen of the United States?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	838	1.628	0.818
+1) Yes	359	42.8
+2) No	472	56.3
+8) Don't know	2	0.2
+9) Refused	5	0.6
+Missing	682
+
+
+25) Q10_11_ROTATE
+10. And 11. rotate
+RANGE: 1011 to 1110
+	N	Mean	Std. Deviation
+Total	1520	1060.956	49.514
+1011) 	753	49.5
+1110) 	767	50.5
+
+
+26) Q10
+All in all, are you satisfied or dissatisfied with the way things are going in this country today?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	1.971	1.778
+1) Satisfied	705	46.4
+2) Dissatisfied	708	46.6
+8) Don't know	88	5.8
+9) Refused	19	1.3
+
+
+27) Q11
+Do you approve or disapprove of the way Barack Obama is handling his job as President?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	2.409	2.433
+1) Approve	752	49.5
+2) Disapprove	545	35.9
+8) Don't know	187	12.3
+9) Refused	36	2.4
+
+
+28) THOUGHT
+[ASK IF Q9=1 OR Q4=1, 2 OR Q5=24 - BORN IN U.S. OR A CITIZEN OF U.S.] How much thought have you given to the coming November election. . . Quite a lot, or only a little?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1041	2.491	1.337
+1) Quite a lot	336	32.3
+2) Some	61	5.9
+3) Only a little	541	52.0
+4) None	79	7.6
+8) Don't know	20	1.9
+9) Refused	4	0.4
+Missing	479
+
+
+29) Q13_ROTATE
+13. rotate
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1520	1.508	0.5
+1) 1-2	748	49.2
+2) 2-1	772	50.8
+
+
+30) Q13
+[ASK IF Q9=1 OR Q4=1,2 OR Q5=24 - BORN IN U.S. OR A CITIZEN OF U.S.] If the elections for U.S. Congress were being held TODAY, would you vote for ['the Republican Party's candidate' OR 'the Democratic Party's candidate'] for Congress in your district?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1041	3.045	2.589
+1) Republican Party's candidate	242	23.2
+2) Democratic Party's candidate	531	51.0
+3) Other	61	5.9
+8) Don't know	180	17.3
+9) Refused	27	2.6
+Missing	479
+
+
+31) Q14
+[ASK IF 'OTHER' 'DON'T KNOW/REFUSED' (Q13=3,8,9)] As of TODAY, do you LEAN more to the ['the Republican Party's candidate' OR 'the Democratic Party's candidate'; IF NECESSARY: 'for U.S. Congress in your district']?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	268	5.007	3.135
+1) Yes	33	12.3
+2) No	64	23.9
+3) Other	43	16.0
+8) Don't know	100	37.3
+9) Refused	28	10.4
+Missing	1252
+
+
+32) PLANTO1
+[ASK IF Q9=1 OR Q4=1,2 OR Q5=24- BORN IN U.S. OR A CITIZEN OF U.S.] Thinking ahead to November, do you yourself plan to vote in the congressional election this November, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1041	1.554	1.505
+1) Yes	761	73.1
+2) No	231	22.2
+8) Don't know	46	4.4
+9) Refused	3	0.3
+Missing	479
+
+
+33) PLANTO2
+[ASK IF PLANTO1=1] How certain are you that you will vote? Are you absolutely certain, fairly certain, or not certain?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	761	1.54	1.041
+1) Absolutely certain	478	62.8
+2) Fairly certain	214	28.1
+3) Not certain	58	7.6
+8) Don't know	7	0.9
+9) Refused	4	0.5
+Missing	759
+
+
+34) Q15
+Would you like to see your representative in Congress be re-elected in the next congressional election, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	2.713	2.711
+1) Yes	754	49.6
+2) No	459	30.2
+3) Congressman is not running	6	0.4
+8) Don't know	275	18.1
+9) Refused	26	1.7
+
+
+35) Q16
+Regardless of how you feel about your own representative, would you like to see most members of Congress re-elected in the next congressional election, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	2.353	2.196
+1) Yes	600	39.5
+2) No	733	48.2
+8) Don't know	173	11.4
+9) Refused	14	0.9
+
+
+36) Q17_ROTATE
+17. rotate
+RANGE: 12 to 21
+	N	Mean	Std. Deviation
+Total	1520	16.311	4.497
+12) 	792	52.1
+21) 	728	47.9
+
+
+37) Q17
+[(INSERT 'Hispanics' IF Q2=1, INSERT 'Latinos' IF Q2=2,3,8,9)] Which party do you think has more concern for (HISPANICS/LATINOS) - (READ LIST), or is there no difference?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	2.374	1.929
+1) The Democratic Party	702	46.2
+2) The Republican Party	190	12.5
+3) No difference	501	33.0
+8) Don't know	120	7.9
+9) Refused	7	0.5
+
+
+38) Q18_ROTATE
+18. rotate
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1520	0	0
+
+
+39) Q18A
+Now I'm going to read you a list of issues that might be discussed during this year's congressional campaign. For each item I name, please tell me how important this issue is to you personally. Is the issue of [Education] extremely important, very important, somewhat important, or not too important to you personally?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	1.63	0.711
+1) Extremely important	689	45.3
+2) Very important	744	48.9
+3) Somewhat important	61	4.0
+4) Not too important	23	1.5
+8) Don't know	1	0.1
+9) Refused	2	0.1
+
+
+40) Q18B
+Now I'm going to read you a list of issues that might be discussed during this year's congressional campaign. For each item I name, please tell me how important this issue is to you personally. Is the issue of [Jobs and the Economy] extremely important, very important, somewhat important, or not too important to you personally?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	1.743	0.901
+1) Extremely important	607	39.9
+2) Very important	793	52.2
+3) Somewhat important	84	5.5
+4) Not too important	22	1.4
+8) Don't know	10	0.7
+9) Refused	4	0.3
+
+
+41) Q18C
+Now I'm going to read you a list of issues that might be discussed during this year's congressional campaign. For each item I name, please tell me how important this issue is to you personally. Is the issue of [Health care] extremely important, very important, somewhat important, or not too important to you personally?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	1.82	0.843
+1) Extremely important	534	35.1
+2) Very important	808	53.2
+3) Somewhat important	127	8.4
+4) Not too important	44	2.9
+8) Don't know	4	0.3
+9) Refused	3	0.2
+
+
+42) Q18D
+Now I'm going to read you a list of issues that might be discussed during this year's congressional campaign. For each item I name, please tell me how important this issue is to you personally. Is the issue of [Immigration] extremely important, very important, somewhat important, or not too important to you personally?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	2.079	1.141
+1) Extremely important	464	30.5
+2) Very important	706	46.4
+3) Somewhat important	205	13.5
+4) Not too important	124	8.2
+8) Don't know	16	1.1
+9) Refused	5	0.3
+
+
+43) Q18E
+Now I'm going to read you a list of issues that might be discussed during this year's congressional campaign. For each item I name, please tell me how important this issue is to you personally. Is the issue of [The conflicts in the Middle East] extremely important, very important, somewhat important, or not too important to you personally?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	2.526	1.568
+1) Extremely important	352	23.2
+2) Very important	596	39.2
+3) Somewhat important	285	18.8
+4) Not too important	215	14.1
+8) Don't know	67	4.4
+9) Refused	5	0.3
+
+
+44) Q19
+[(INSERT 'Hispanics' IF Q2=1, INSERT 'Latinos' IF Q2=2,3,8,9)] Compared with 1 year ago, do you think the situation of (HISPANICS/LATINOS) in this country today is better, worse, or about the same?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	2.425	1.202
+1) Better	363	23.9
+2) Worse	327	21.5
+3) About the same	795	52.3
+8) Don't know	31	2.0
+9) Refused	4	0.3
+
+
+45) Q23_ROTATE
+23. rotate
+RANGE: 12 to 21
+	N	Mean	Std. Deviation
+Total	1520	16.595	4.5
+12) 	744	48.9
+21) 	776	51.1
+
+
+46) Q23
+What should be the priority for dealing with illegal immigration in the U.S.?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	2.413	1.13
+1) Better border security and stronger enforcement of our immigration laws	200	13.2
+2) Creating a way for illegal immigrants already here to become citizens if they meet certain requirements	692	45.5
+3) Should BOTH be given equal priority	573	37.7
+4) None of these	21	1.4
+8) Don't know	25	1.6
+9) Refused	9	0.6
+
+
+47) Q24_ROTATE
+24. rotate
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1520	0	0
+
+
+48) Q24A
+Please tell me if you think the REPUBLICAN Party or the DEMOCRATIC Party could do the better job in each of the following areas. First, which party could do a better job of [Dealing with economy]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	2.553	2.154
+1) Republican Party	507	33.4
+2) Democratic Party	639	42.0
+3) Both equally	127	8.4
+4) Neither	69	4.5
+8) Don't know	163	10.7
+9) Refused	15	1.0
+
+
+49) Q24B
+Please tell me if you think the REPUBLICAN Party or the DEMOCRATIC Party could do the better job in each of the following areas. First, which party could do a better job of [Dealing with immigration]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	2.613	2.098
+1) Republican Party	398	26.2
+2) Democratic Party	757	49.8
+3) Both equally	102	6.7
+4) Neither	92	6.1
+8) Don't know	153	10.1
+9) Refused	18	1.2
+
+
+50) Q24D
+Please tell me if you think the REPUBLICAN Party or the DEMOCRATIC Party could do the better job in each of the following areas. First, which party could do a better job of [Making wise decisions about foreign policy]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	2.692	2.256
+1) Republican Party	468	30.8
+2) Democratic Party	652	42.9
+3) Both equally	113	7.4
+4) Neither	82	5.4
+8) Don't know	192	12.6
+9) Refused	13	0.9
+
+
+51) Q26
+How important is it to you that the president and Congress pass significant new immigration legislation soon - extremely important, very important, somewhat important, not too important, or not important at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	2.127	1.249
+1) Extremely important	488	32.1
+2) Very important	642	42.2
+3) Somewhat important	248	16.3
+4) Not too important	69	4.5
+5) Not important at all	51	3.4
+8) Don't know	12	0.8
+9) Refused	10	0.7
+
+
+52) Q27_ROTATE
+27. rotate
+RANGE: 123 to 321
+	N	Mean	Std. Deviation
+Total	1520	218.891	77.159
+123) 	256	16.8
+132) 	273	18.0
+213) 	265	17.4
+231) 	246	16.2
+312) 	240	15.8
+321) 	240	15.8
+
+
+53) Q27
+Just your best guess, who do you think is most responsible that the president and Congress have NOT passed significant new immigration legislation so far?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1520	10.412	26.755
+1) The Republicans in Congress	647	42.6
+2) The Democrats in Congress	238	15.7
+3) President Obama	334	22.0
+4) The Democrats in Congress AND President Obama equally	12	0.8
+5) Both Republicans in Congress AND Democrats in Congress	64	4.2
+6) Both Republicans in Congress AND President Obama	11	0.7
+7) All of these	65	4.3
+8) None of these	20	1.3
+98) Don't know	119	7.8
+99) Refused	10	0.7
+
+
+54) Q28A
+How much, if anything, have you heard about President Obama's recent decision to delay any action to extend deportation relief to immigrants already living in the U.S. illegally until after the November elections.?...A lot, a little, nothing at all
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	2.089	1.257
+1) A lot	487	32.0
+2) A little	621	40.9
+3) Nothing at all	371	24.4
+8) Don't know	35	2.3
+9) Refused	6	0.4
+
+
+55) Q28B
+[ASK IF Q28=1,2] Does President Obama's decision (to delay any action to extend deportation relief to immigrants already living in the U.S. illegally until after the November elections.) make you very happy, pleased, disappointed, or angry?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1108	3.004	1.529
+1) 	123	11.1
+2) Pleased	273	24.6
+3) Disappointed	469	42.3
+4) Angry	138	12.5
+5) None of the above	50	4.5
+8) Don't know	45	4.1
+9) Refused	10	0.9
+11) Very happy	0	0.0
+Missing	412
+
+
+56) Q36_ROTATE
+26. rotate
+RANGE: 12 to 21
+	N	Mean	Std. Deviation
+Total	1520	16.393	4.5
+12) 	778	51.2
+21) 	742	48.8
+
+
+57) Q36
+Which of these do you think is MORE IMPORTANT for undocumented immigrants currently living in the U.S.?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	1.714	1.205
+1) Being able to live and work in the U.S. legally without the threat of being deported	803	52.8
+2) Having a pathway to citizenship for those who meet certain requirements	586	38.6
+3) Neither	23	1.5
+4) Both equally	77	5.1
+8) Don't know	25	1.6
+9) Refused	6	0.4
+
+
+58) LAN1_ROTATE_01
+1 LAN1. rotate
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1520	1.516	0.5
+1) LAN1-LAN2	735	48.4
+2) LAN3-LAN4	785	51.6
+
+
+59) LAN1_ROTATE_02
+2 LAN1. rotate
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1520	1.484	0.5
+1) LAN1-LAN2	785	51.6
+2) LAN3-LAN4	735	48.4
+
+
+60) LAN1
+Would you say you can carry on a conversation in Spanish, both understanding and speaking -- very well, pretty well, just a little, or not at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	1.714	0.939
+1) Very well	810	53.3
+2) Pretty well	420	27.6
+3) Just a little	224	14.7
+4) Not at all	62	4.1
+8) Don't know	1	0.1
+9) Refused	3	0.2
+
+
+61) LAN2
+Would you say you can read a newspaper or book in Spanish -- very well, pretty well, just a little, or not at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	1.84	1.025
+1) Very well	758	49.9
+2) Pretty well	388	25.5
+3) Just a little	247	16.3
+4) Not at all	124	8.2
+8) Don't know	1	0.1
+9) Refused	2	0.1
+
+
+62) LAN3
+Would you say you can carry on a conversation in English, both understanding and speaking -- very well, pretty well, just a little, or not at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	1.97	1.1
+1) Very well	754	49.6
+2) Pretty well	206	13.6
+3) Just a little	426	28.0
+4) Not at all	131	8.6
+8) Don't know	1	0.1
+9) Refused	2	0.1
+
+
+63) LAN4
+Would you say you can read a newspaper or book in English -- very well, pretty well, just a little, or not at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	1.951	1.129
+1) Very well	791	52.0
+2) Pretty well	189	12.4
+3) Just a little	378	24.9
+4) Not at all	159	10.5
+8) Don't know	1	0.1
+9) Refused	2	0.1
+
+
+64) EMPLOY2
+Are you now employed full-time, part-time, retired or are you not employed for pay?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1520	2.676	6.205
+1) Employed full-time	693	45.6
+2) Employed part-time	190	12.5
+3) Retired	249	16.4
+4) Not employed for pay	319	21.0
+5) Have own business/self-employed	21	1.4
+6) Disabled	25	1.6
+7) Student	10	0.7
+8) Other	7	0.5
+98) Don't know	3	0.2
+99) Refused	3	0.2
+
+
+65) Q38
+[ASK IF EMPLOYED (EMPLOY2=1,2)] Overall, how satisfied are you with your job?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	883	1.713	1.017
+1) Completely satisfied	423	47.9
+2) Mostly satisfied	371	42.0
+3) Mostly dissatisfied	51	5.8
+4) Completely dissatisfied	28	3.2
+8) Don't know	7	0.8
+9) Refused	3	0.3
+Missing	637
+
+
+66) Q40
+[ASK IF EMPLOYED (EMPLOY2=1,2)] Do you think of your current job as a career, a stepping stone to a career, or do you think of it as just a job to get you by?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	883	2.247	1.075
+1) 1 A career	281	31.8
+2) A stepping stone to a career	150	17.0
+3) Just a job to get you by	443	50.2
+8) Don't know	7	0.8
+9) Refused	2	0.2
+Missing	637
+
+
+67) Q41
+[ASK IF EMPLOYED (EMPLOY2=1,2)] Still thinking about your current job, would you say you have more qualifications than the job requires, the right amount of qualifications, or only some of the qualifications the job requires?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	883	1.79	0.976
+1) More	325	36.8
+2) Right amount	485	54.9
+3) Only some	60	6.8
+8) Don't know	11	1.2
+9) Refused	2	0.2
+Missing	637
+
+
+68) Q42_ROTATE
+42. rotate
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1520	0	0
+
+
+69) Q42A
+[ASKED IF EMPLOYED (EMPLOY2=1,2)] Now I'll read you a list of job characteristics.  For each, please tell me how satisfied you are with YOUR current job in this regard. First, are you completely satisfied, mostly satisfied, mostly dissatisfied, or completely dissatisfied with [Your job security]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	883	1.814	1.083
+1) Completely satisfied	399	45.2
+2) Mostly satisfied	359	40.7
+3) Mostly dissatisfied	62	7.0
+4) Completely dissatisfied	44	5.0
+5) Does not apply	10	1.1
+8) Don't know	8	0.9
+9) Refused	1	0.1
+Missing	637
+
+
+70) Q42B
+[ASKED IF EMPLOYED (EMPLOY2=1,2)] Now I'll read you a list of job characteristics.  For each, please tell me how satisfied you are with YOUR current job in this regard. Next, are you completely satisfied, mostly satisfied, mostly dissatisfied, or completely dissatisfied with [Your chances for promotion]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	883	2.275	1.487
+1) Completely satisfied	316	35.8
+2) Mostly satisfied	302	34.2
+3) Mostly dissatisfied	108	12.2
+4) Completely dissatisfied	88	10.0
+5) Does not apply	47	5.3
+8) Don't know	20	2.3
+9) Refused	2	0.2
+Missing	637
+
+
+71) Q42C
+[ASKED IF EMPLOYED (EMPLOY2=1,2)] Now I'll read you a list of job characteristics.  For each, please tell me how satisfied you are with YOUR current job in this regard. Next, are you completely satisfied, mostly satisfied, mostly dissatisfied, or completely dissatisfied with [The health insurance benefits your employer offers]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	883	2.452	1.501
+1) Completely satisfied	287	32.5
+2) Mostly satisfied	264	29.9
+3) Mostly dissatisfied	109	12.3
+4) Completely dissatisfied	144	16.3
+5) Does not apply	63	7.1
+8) Don't know	12	1.4
+9) Refused	4	0.5
+Missing	637
+
+
+72) Q42D
+[ASKED IF EMPLOYED (EMPLOY2=1,2)] Now I'll read you a list of job characteristics.  For each, please tell me how satisfied you are with YOUR current job in this regard. Next, are you completely satisfied, mostly satisfied, mostly dissatisfied, or completely dissatisfied with [The amount of money you earn]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	883	2.105	1.137
+1) Completely satisfied	277	31.4
+2) Mostly satisfied	370	41.9
+3) Mostly dissatisfied	146	16.5
+4) Completely dissatisfied	78	8.8
+5) Does not apply	3	0.3
+8) Don't know	4	0.5
+9) Refused	5	0.6
+Missing	637
+
+
+73) Q42E
+[ASKED IF EMPLOYED (EMPLOY2=1,2)] Now I'll read you a list of job characteristics.  For each, please tell me how satisfied you are with YOUR current job in this regard. Next, are you completely satisfied, mostly satisfied, mostly dissatisfied, or completely dissatisfied with [The retirement plan your employer offers]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	883	2.623	1.689
+1) Completely satisfied	251	28.4
+2) Mostly satisfied	286	32.4
+3) Mostly dissatisfied	113	12.8
+4) Completely dissatisfied	120	13.6
+5) Does not apply	78	8.8
+8) Don't know	31	3.5
+9) Refused	4	0.5
+Missing	637
+
+
+74) Q44
+[ASKED IF EMPLOYED (EMPLOY2=1,2)] Do you know of any instances in the last year where someone felt they were treated unfairly at your workplace because of their race or ethnicity, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	883	1.908	0.769
+1) Yes	143	16.2
+2) No	730	82.7
+8) Don't know	8	0.9
+9) Refused	2	0.2
+Missing	637
+
+
+75) Q45
+[ASKED IF EMPLOYED (EMPLOY2=1,2)] Has there been any instance in the last year where you felt YOU were treated unfairly at your workplace because of your race or ethnicity, or not?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	883	1.897	0.532
+1) Yes	115	13.0
+2) No	764	86.5
+8) Don't know	4	0.5
+Missing	637
+
+
+76) Q47
+[ASKED IF EMPLOYED (EMPLOY2=1,2)] How long have you worked in your current job for your present employer?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	883	4.434	1.806
+1) 0-5 months	95	10.8
+2) 6-11 months	83	9.4
+3) 1 year	88	10.0
+4) 2 years	91	10.3
+5) 3-4 years	147	16.6
+6) 5 years or more	371	42.0
+8) Don't know	7	0.8
+9) Refused	1	0.1
+Missing	637
+
+
+77) Q48
+[ASKED IF EMPLOYED (EMPLOY2=1,2)] Including all its locations and worksites, not just your own, about how many people are employed by the company or organization you work for?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	883	3.066	1.803
+1) Fewer than 20 employees	246	27.9
+2) 20 to under 50 employees	145	16.4
+3) 50 to under 250 employees	151	17.1
+4) 250 to under 500 employees	70	7.9
+5) 500 or more employees	244	27.6
+8) Don't know	25	2.8
+9) Refused	2	0.2
+Missing	637
+
+
+78) Q50
+People sometimes use different terms to describe themselves. In general which ONE of the following terms do you use to describe yourself MOST OFTEN?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	1.86	1.138
+1) A/An (country of origin)	760	50.0
+2) A (Hispanic/Latino)	370	24.3
+3) An American	325	21.4
+4) Depends	18	1.2
+5) None of the above	33	2.2
+8) Don't know	11	0.7
+9) Refused	3	0.2
+
+
+79) Q50A
+Overall, how much, if at all, do you think your (HISPANIC/LATINO) identity matters in your daily life? Would you say your (HISPANIC/LATINO) identity matters a lot, some, not much, not at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	1.889	1.297
+1) A lot	822	54.1
+2) Some	327	21.5
+3) Not much	190	12.5
+4) Not at all	153	10.1
+5) Depends	6	0.4
+8) Don't know	14	0.9
+9) Refused	8	0.5
+
+
+80) Q52A
+Thinking about your parents...Is your [Mother] of Hispanic, Latino or Spanish origin, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	1.134	0.716
+1) Hispanic	1395	91.8
+2) NOT Hispanic	113	7.4
+8) Don't know	5	0.3
+9) Refused	7	0.5
+
+
+81) Q52B
+Thinking about your parents...Is your [Father] of Hispanic, Latino or Spanish origin, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	1.17	0.866
+1) Hispanic	1387	91.3
+2) NOT Hispanic	113	7.4
+8) Don't know	14	0.9
+9) Refused	6	0.4
+
+
+82) Q53
+Thinking now about your grandparents...are they ALL of Hispanic, Latino or Spanish origin OR are any of them NOT (HISPANIC/LATINO)?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	1.301	1.029
+1) All are Hispanic	1241	81.6
+2) At least one is NOT Hispanic	250	16.4
+8) Don't know	24	1.6
+9) Refused	5	0.3
+
+
+83) Q54_ROTATE_01
+54. rotate 01
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1520	2.04	0.809
+1) 54-55	468	30.8
+2) 56-57	523	34.4
+3) 58-59	529	34.8
+
+
+84) Q54_ROTATE_02
+54. rotate 02
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1520	1.991	0.818
+1) 54-55	515	33.9
+2) 56-57	503	33.1
+3) 58-59	502	33.0
+
+
+85) Q54_ROTATE_03
+54. rotate 03
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1520	1.968	0.821
+1) 54-55	537	35.3
+2) 56-57	494	32.5
+3) 58-59	489	32.2
+
+
+86) Q54
+Do you consider yourself to be mixed race, that is belonging to more than one racial group, such as Mestizo, Mulatto or some other mixed race, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	1.795	1.041
+1) Yes, some mixed race	507	33.4
+2) No, not mixed race	981	64.5
+8) Don't know	28	1.8
+9) Refused	4	0.3
+
+
+87) Q55
+What about your parents or grandparents, were any of them of mixed race, Mestizos or Mulattos, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	2.007	1.451
+1) Yes, at least one is mixed race	444	29.2
+2) No, none is mixed race	1001	65.9
+8) Don't know	71	4.7
+9) Refused	4	0.3
+
+
+88) Q56
+Do you consider yourself to be Afro-(HISPANIC/LATINO), [Afro-Caribbean, or Afro-(INSERT 'COUNTRY OF ORIGIN' SINGULAR FROM LIST)/ or Afro-Caribbean], or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	1.996	1.297
+1) Yes	359	23.6
+2) No	1104	72.6
+8) Don't know	46	3.0
+9) Refused	11	0.7
+
+
+89) Q57
+Are any of your parents or grandparents Afro-(HISPANIC/LATINO), [Afro-Caribbean, or Afro-(INSERT 'COUNTRY OF ORIGIN' SINGULAR FROM LIST)/ or Afro-Caribbean], or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	2.04	1.304
+1) Yes, at least one is	311	20.5
+2) No, none are	1148	75.5
+8) Don't know	55	3.6
+9) Refused	6	0.4
+
+
+90) Q58
+Do you consider yourself to be indigenous or Native American, such as (Purepecha, Mixteco, Zapoteco, Nahua, Maya, Tzotzil/ Taino, Arawak/ Maya, Quiche, Aymara, Quechua, Kwichua, Mapuche, Guarani/ Maya, Nahua, Taino, Quiche, Aymara, Quechua) or some other indigenous or Native American origin, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	1.991	1.302
+1) Yes, indigenous or Native American origin	373	24.5
+2) No, not indigenous or Native American origin	1088	71.6
+8) Don't know	53	3.5
+9) Refused	6	0.4
+
+
+91) Q59
+Are any of your parents or grandparents of indigenous or Native American origin?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	2.043	1.405
+1) Yes, at least one of indigenous or Native American origin	370	24.3
+2) No, none of indigenous or Native American origin	1078	70.9
+8) Don't know	69	4.5
+9) Refused	3	0.2
+
+
+92) RACE_COMBO
+Race Combo
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1520	14.401	31.245
+1) White	733	48.2
+2) Black or African-American	116	7.6
+3) Asian or Asian-American	10	0.7
+4) Some other race	6	0.4
+5) Mixed race	90	5.9
+6) Hispanic/Latino	347	22.8
+7) Native American/American Indian/Alaska Native	32	2.1
+8) Pacific Islander/Native Hawaiian	2	0.1
+98) Don't know	117	7.7
+99) Refused	67	4.4
+
+
+93) Q25
+Would you vote for a candidate who DISAGREES with you about immigration policy, if they AGREE with you on most other issues?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	1.851	1.615
+1) Yes, would	794	52.2
+2) No, would not	585	38.5
+3) Depends	58	3.8
+8) Don't know	71	4.7
+9) Refused	12	0.8
+
+
+94) Q31
+Do you personally know someone who has been deported or detained by the federal government for immigration reasons in the last twelve months?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	1.766	0.618
+1) Yes	395	26.0
+2) No	1119	73.6
+8) Don't know	2	0.1
+9) Refused	4	0.3
+
+
+95) Q32
+In general, do you approve or disapprove of the way the Obama administration is handling the issue of deportations?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	2.426	2.09
+1) Approve	411	27.0
+2) Disapprove	936	61.6
+8) Don't know	152	10.0
+9) Refused	21	1.4
+
+
+96) PARTY
+In politics today, do you consider yourself a Republican, Democrat, or Independent?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	2.564	1.266
+1) Republican	188	12.4
+2) Democrat	589	38.8
+3) Independent	650	42.8
+4) No preference	39	2.6
+5) Other party	5	0.3
+8) Don't know	40	2.6
+9) Refused	9	0.6
+
+
+97) PARTYLN
+[ASK IF PARTY=3,4,5,8,9] As of today do you lean more to the Republican Party or more to the Democratic Party?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	743	3.778	3.117
+1) Republican Party	173	23.3
+2) Democratic Party	331	44.5
+8) Don't know	179	24.1
+9) Refused	60	8.1
+Missing	777
+
+
+98) PARTY_COMBO
+PARTY/PARTYLN combo
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	2.051	1.16
+1) Republican/Lean R	361	23.8
+2) Democrat/Lean D	920	60.5
+3) Other/Refused to lean	201	13.2
+8) Don't know	29	1.9
+9) Refused	9	0.6
+
+
+99) PARENT
+Are you the parent or guardian of any children under 18 now living in your household?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	1.609	0.65
+1) Yes	630	41.4
+2) No	885	58.2
+9) Refused	5	0.3
+
+
+100) MARITAL
+Are you currently married, do you have a partner, are you widowed, divorced, or separated, or have you never been married?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	3.017	2.141
+1) Married	642	42.2
+2) Living with a partner	179	11.8
+3) Widowed	95	6.3
+4) Divorced	133	8.8
+5) Separated	92	6.1
+6) Never been married	366	24.1
+8) Don't know	4	0.3
+9) Refused	9	0.6
+
+
+101) EDUC
+What is the highest level of school you have completed or the highest degree you have received?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1520	6.272	15.91
+1) Less than high school (Grades 1-8 or no formal schooling)	268	17.6
+2) High school incomplete (Grades 9-11 or Grade 12 with NO diploma)	185	12.2
+3) High school graduate (Grade 12 with diploma or GED certificate)	358	23.6
+4) Some college, no degree (includes community college)	248	16.3
+5) Two year associate degree from a college or university	121	8.0
+6) Four year college or university degree/Bachelor's degree (e.g., BS, BA, AB)	187	12.3
+7) Some postgraduate or professional schooling, no postgraduate degree	26	1.7
+8) Postgraduate or professional degree, including master's, doctorate, medical or law degree (e.g., MA, MS, PhD, MD, JD)	84	5.5
+98) Don't know	9	0.6
+99) Refused	34	2.2
+
+
+102) REG
+Which of these statements best describes you?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1041	1.662	1.328
+1) Are you ABSOLUTELY CERTAIN that you are registered to vote at your current address	733	70.4
+2) Are you PROBABLY registered, but there is a chance your registration has lapsed	66	6.3
+3) Are you NOT registered to vote at your current address	211	20.3
+4) Was in prison/Not eligible to vote	5	0.5
+8) Don't know	22	2.1
+9) Refused	4	0.4
+Missing	479
+
+
+103) REGISTERED
+Registered voters
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1520	0.482	0.5
+0) Not absolutely certain if registered to vote	787	51.8
+1) Registered to vote - Absolutely certain	733	48.2
+
+
+104) RELIG
+What is your present religion, if any? Are you Protestant, Roman Catholic, Mormon, Orthodox such as Greek or Russian Orthodox, Jewish, Muslim, Buddhist, Hindu, atheist, agnostic, something else, or nothing in particular?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1520	6.401	14.196
+1) Protestant (Baptist, Methodist, Non-denominational, Lutheran, Presbyterian, Pentecostal, Episcopalian, Reformed, Church of Christ, Jehovah's Witness, etc.)	181	11.9
+2) Roman Catholic (Catholic)	901	59.3
+3) Mormon (Church of Jesus Christ of Latter-day Saints/LDS)	12	0.8
+4) Orthodox (Greek, Russian, or some other orthodox church)	6	0.4
+5) Jewish (Judaism)	6	0.4
+6) Muslim (Islam)	3	0.2
+7) Buddhist	4	0.3
+8) Hindu	2	0.1
+9) Atheist (do not believe in God)	19	1.3
+10) Agnostic (not sure if there is a God)	18	1.2
+11) Something else	71	4.7
+12) Nothing in particular	137	9.0
+13) Christian	126	8.3
+14) Unitarian (Universalist)	2	0.1
+98) Don't know	16	1.1
+99) Refused	16	1.1
+
+
+105) CHR
+[ASK IF (RELIG=11,98,99)] Do you think of yourself as a Christian or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	103	1.689	1.76
+1) Yes	71	68.9
+2) No	26	25.2
+8) Don't know	3	2.9
+9) Refused	3	2.9
+Missing	1417
+
+
+106) BORN
+[ASK IF RELIG=1-4 OR 13 OR CHR=1] Would you describe yourself as a 'born-again' or evangelical Christian, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1297	1.892	1.347
+1) Yes, would	449	34.6
+2) No, would not	798	61.5
+8) Don't know	41	3.2
+9) Refused	9	0.7
+Missing	223
+
+
+107) ATTEND
+Aside from weddings and funerals, how often do you attend religious services - more than once a week, once a week, once or twice a month, a few times a year, seldom, or never?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	3.259	1.625
+1) More than once a week	215	14.1
+2) Once a week	397	26.1
+3) Once or twice a month	251	16.5
+4) A few times a year	282	18.6
+5) Seldom	224	14.7
+6) Never	136	8.9
+8) Don't know	8	0.5
+9) Refused	7	0.5
+
+
+108) AGE
+What is your age?
+RANGE: 18 to 99
+	N	Mean	Std. Deviation
+Total	1520	45.627	18.734
+18) 	41	2.7
+19) 	35	2.3
+20) 	25	1.6
+21) 	24	1.6
+22) 	35	2.3
+23) 	21	1.4
+24) 	32	2.1
+25) 	32	2.1
+26) 	23	1.5
+27) 	20	1.3
+28) 	35	2.3
+29) 	21	1.4
+30) 	28	1.8
+31) 	24	1.6
+32) 	40	2.6
+33) 	34	2.2
+34) 	25	1.6
+35) 	34	2.2
+36) 	20	1.3
+37) 	26	1.7
+38) 	26	1.7
+39) 	26	1.7
+40) 	51	3.4
+41) 	17	1.1
+42) 	29	1.9
+43) 	34	2.2
+44) 	30	2.0
+45) 	37	2.4
+46) 	26	1.7
+47) 	22	1.4
+48) 	27	1.8
+49) 	22	1.4
+50) 	47	3.1
+51) 	24	1.6
+52) 	31	2.0
+53) 	21	1.4
+54) 	29	1.9
+55) 	28	1.8
+56) 	20	1.3
+57) 	19	1.3
+58) 	14	0.9
+59) 	21	1.4
+60) 	17	1.1
+61) 	11	0.7
+62) 	24	1.6
+63) 	14	0.9
+64) 	19	1.3
+65) 	19	1.3
+66) 	16	1.1
+67) 	15	1.0
+68) 	15	1.0
+69) 	11	0.7
+70) 	18	1.2
+71) 	12	0.8
+72) 	15	1.0
+73) 	13	0.9
+74) 	14	0.9
+75) 	11	0.7
+76) 	9	0.6
+77) 	7	0.5
+78) 	8	0.5
+79) 	4	0.3
+80) 	12	0.8
+81) 	10	0.7
+82) 	2	0.1
+83) 	2	0.1
+84) 	5	0.3
+85) 	2	0.1
+86) 	1	0.1
+87) 	1	0.1
+90) 	1	0.1
+93) 	1	0.1
+94) 	1	0.1
+99) Refused	34	2.2
+
+
+109) AGE2
+[ASK IF AGE=9] Would you say you are...?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	34	5.147	3.164
+1) 18 to 29	2	5.9
+2) 30 to 49	6	17.6
+3) 50 to 64	8	23.5
+4) 65 or older	5	14.7
+9) Refused	13	38.2
+Missing	1486
+
+
+110) AGE_COMBO
+[ASK IF AGE=9] AGE/AGE2 combo
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	2.363	1.162
+1) 18 to 29	346	22.8
+2) 30 to 49	584	38.4
+3) 50 to 64	347	22.8
+4) 65 or older	230	15.1
+9) Refused	13	0.9
+
+
+111) INCOME
+Last year, that is in 2013, what was your total family income from all sources, before taxes?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1520	15.947	31.776
+1) Less than $10,000	208	13.7
+2) 10 to under $20,000	281	18.5
+3) 20 to under $30,000	246	16.2
+4) 30 to under $40,000	179	11.8
+5) 40 to under $50,000	92	6.1
+6) 50 to under $75,000	115	7.6
+7) 75 to under $100,000	82	5.4
+8) 100 to under $150,000	68	4.5
+9) $150,000 or more	53	3.5
+98) Don't know	133	8.8
+99) Refused	63	4.1
+
+
+112) HH1
+How many people, including yourself, live in your household?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	3.428	1.817
+1) 	211	13.9
+2) 	327	21.5
+3) 	307	20.2
+4) 	300	19.7
+5) 	199	13.1
+6) 	88	5.8
+7) 	34	2.2
+8) 8 or more	23	1.5
+9) Don't know/refused	31	2.0
+
+
+113) HH3
+[ASK IF MORE THAN ONE PERSON IN HH (HH1 IS LARGER THAN 1)] How many, including yourself, are adults, age 18 and older?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1278	2.606	1.115
+1) 	106	8.3
+2) 	635	49.7
+3) 	308	24.1
+4) 	158	12.4
+5) 	46	3.6
+6) 	16	1.3
+7) 	2	0.2
+8) 8 or more	4	0.3
+9) Don't know/refused	3	0.2
+Missing	242
+
+
+114) L1
+[ASK IF LANDLINE SAMPLE] Now thinking about your telephone use...Do you have a working cell phone?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	481	1.339	0.677
+1) Yes, respondent has cell phone	332	69.0
+2) No	147	30.6
+9) Refused	2	0.4
+Missing	1039
+
+
+115) L1A
+[ASK IF NO CELL PHONE AND MULTI-PERSON HOUSEHOLD (L1=2,8,9 AND HH1 IS LARGER THAN 1)] Does anyone in your household have a working cell phone?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	111	1.667	0.994
+1) Yes, someone in household has cell phone	49	44.1
+2) No	60	54.1
+8) Don't know	2	1.8
+Missing	1409
+
+
+116) C1
+[ASK IF CELL PHONE SAMPLE] Now thinking about your telephone use, is there at least one telephone INSIDE your home that is currently working and is not a cell phone?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1039	1.746	0.771
+1) Yes, has a home telephone	318	30.6
+2) No, no home telephone	713	68.6
+8) Don't know	2	0.2
+9) Refused	6	0.6
+Missing	481
+
+
+117) Q70
+[ASK IF Q9=2] Earlier you said you are not a citizen of the U.S. Do you have a green card or have you been approved for one?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	472	1.674	1.109
+1) Yes	215	45.6
+2) No	248	52.5
+8) Don't know	2	0.4
+9) Refused	7	1.5
+Missing	1048
+
+
+118) ENDLANG
+Language at end of interview
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1520	0	0
+
+
+119) CURRLANG
+Language at start of interview
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1520	3.001	1.949
+1) All Spanish	719	47.3
+2) Mostly Spanish	26	1.7
+3) Part Spanish/Part English	12	0.8
+4) Mostly English	61	4.0
+5) All English	702	46.2
+
+
+120) SAMP30
+Ident2 - Strata
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1520	3.061	2.093
+1) Surname	226	14.9
+2) High	716	47.1
+3) Medium	263	17.3
+7) Low Prescreened	315	20.7
+
+
+121) SAMP31
+Ident3 - Phone frame
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1520	1.684	0.465
+1) Landline	481	31.6
+2) Cell Phone	1039	68.4
+
+
+122) METRO_STATUS
+Metro Status
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1520	2.799	2.607
+1) Urban- Center City (Metro)	737	48.5
+2) Urban- Center City County (Metro)	258	17.0
+3) Suburban (Metro)	134	8.8
+4) Suburban- Non-Center City (Metro)	92	6.1
+5) Rural- Non-Metro	115	7.6
+9) Undetermined	184	12.1
+
+
+123) SAMPLE_REGION
+Sample Region
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1520	3.059	1.032
+1) Northeast	228	15.0
+2) North Central	83	5.5
+3) South	581	38.2
+4) West	628	41.3
+
+
+124) PRIMARY_LANGUAGE
+[NOTE: Moved to the end of the interview. (DO NOT ASK)] Primary language of respondent
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1520	2.104	0.743
+1) English dominant	349	23.0
+2) Bilingual	664	43.7
+3) Spanish dominant	507	33.4
+
+
+125) WEIGHT
+Weight
+RANGE: 0.2 to 4.09
+	N	Mean	Std. Deviation
+Total	1520	1	0.815
+
+
+126) I-EDUC
+What is the highest level of school you have completed or the highest degree you have received? (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1477	2.309	1.367
+1) No high school diploma	453	30.7
+2) High school diploma, no college degree	606	41.0
+3) 2-year college degree/associate's	121	8.2
+4) 4-year college degree/bachelor's	187	12.7
+5) Some grad school, no degree	26	1.8
+6) Graduate or professional degree	84	5.7
+Missing	43
+
+
+127) I-GENDER
+Record Gender (for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1520	1.501	0.5
+1) Male	758	49.9
+2) Female	762	50.1
+
+
+128) I-INCOME
+Last year, that is in 2013, what was your total family income from all sources, before taxes? (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1324	2.779	1.848
+1) 0 to under $20,000	489	36.9
+2) 20 to under $30,000	246	18.6
+3) 30 to under $40,000	179	13.5
+4) 40 to under $50,000	92	6.9
+5) 50 to under $75,000	115	8.7
+6) $75,000 or more	203	15.3
+Missing	196
+
+
+129) I-PARTYID
+In politics today, do you consider yourself a Republican, Democrat, or Independent? (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1471	2.374	0.742
+1) Republican	188	12.8
+2) Democrat	589	40.0
+3) Independent	650	44.2
+4) Other party or no preference	44	3.0
+Missing	49
+
+
+130) I-RELIGION
+What is your present religion, if any? Are you Protestant, Roman Catholic, Mormon, Orthodox such as Greek or Russian Orthodox, Jewish, Muslim, Buddhist, Hindu, atheist, agnostic, something else, or nothing in particular? (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1488	2.191	1.082
+1) Protestant	307	20.6
+2) Roman Catholic (Catholic)	901	60.6
+3) Other	106	7.1
+4) Atheist/Agnostic	37	2.5
+5) Nothing in particular	137	9.2
+Missing	32
+
+

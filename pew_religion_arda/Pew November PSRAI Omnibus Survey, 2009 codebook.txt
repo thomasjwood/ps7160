@@ -1,0 +1,946 @@
+Data File: OMNOV09 (Full Data Codebook)
+
+1) PSRAID
+Unique ID
+RANGE: 100001 to 205429
+	N	Mean	Std. Deviation
+Total	1003	132032.16	48178.726
+
+
+2) DATE
+Interview date
+RANGE: 1112 to 1115
+	N	Mean	Std. Deviation
+Total	1003	1113.591	1.081
+1112) November 12, 2009	202	20.1
+1113) November 13, 2009	268	26.7
+1114) November 14, 2009	271	27.0
+1115) November 15, 2009	262	26.1
+
+
+3) SAMPLE
+Sample type
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1003	1.302	0.459
+1) Landline	700	69.8
+2) Cell	303	30.2
+
+
+4) CREGION
+Census region from ZIP merge
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1003	2.58	1.006
+1) Northeast	192	19.1
+2) Midwest	230	22.9
+3) South	388	38.7
+4) West	193	19.2
+
+
+5) STATE
+State from ZIP merge
+RANGE: 1 to 56
+	N	Mean	Std. Deviation
+Total	1003	29.184	16.219
+1) Alabama	29	2.9
+4) Arizona	19	1.9
+5) Arkansas	8	0.8
+6) California	82	8.2
+8) Colorado	14	1.4
+9) Connecticut	19	1.9
+10) Delaware	5	0.5
+12) Florida	52	5.2
+13) Georgia	25	2.5
+16) Idaho	5	0.5
+17) Illinois	50	5.0
+18) Indiana	23	2.3
+19) Iowa	12	1.2
+20) Kansas	10	1.0
+21) Kentucky	17	1.7
+22) Louisiana	14	1.4
+23) Maine	5	0.5
+24) Maryland	20	2.0
+25) Massachusetts	17	1.7
+26) Michigan	23	2.3
+27) Minnesota	17	1.7
+28) Mississippi	13	1.3
+29) Missouri	20	2.0
+30) Montana	4	0.4
+31) Nebraska	8	0.8
+32) Nevada	4	0.4
+33) New Hampshire	6	0.6
+34) New Jersey	20	2.0
+35) New Mexico	3	0.3
+36) New York	59	5.9
+37) North Carolina	40	4.0
+38) North Dakota	1	0.1
+39) Ohio	36	3.6
+40) Oklahoma	12	1.2
+41) Oregon	16	1.6
+42) Pennsylvania	57	5.7
+44) Rhode Island	6	0.6
+45) South Carolina	17	1.7
+46) South Dakota	2	0.2
+47) Tennessee	22	2.2
+48) Texas	79	7.9
+49) Utah	11	1.1
+50) Vermont	3	0.3
+51) Virginia	31	3.1
+53) Washington	31	3.1
+54) West Virginia	4	0.4
+55) Wisconsin	28	2.8
+56) Wyoming	4	0.4
+
+
+6) DENSITY
+Recorded population density from ZIP merge
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1003	2.779	1.355
+1) Lowest	240	23.9
+2) 	202	20.1
+3) 	234	23.3
+4) 	194	19.3
+5) Highest	133	13.3
+
+
+7) MSA
+MSA core-based statistical area from ZIP merge
+RANGE: 0 to 49740
+	N	Mean	Std. Deviation
+Total	1003	27848.215	13739.155
+
+
+8) USR
+USR Community type from ZIP merge - alpha [R=rural, S=suburban, U=urban]
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	942	0	0
+
+
+9) SCREGION
+SC Census region - sample [ARDA note: labels missing]
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1003	2.561	1.023
+1) 	204	20.3
+2) 	229	22.8
+3) 	373	37.2
+4) 	197	19.6
+
+
+10) SSTATE
+State from FIPS - sample
+RANGE: 1 to 56
+	N	Mean	Std. Deviation
+Total	1003	29.429	16.093
+
+
+11) SMSA
+MSA code - sample
+RANGE: 0 to 49740
+	N	Mean	Std. Deviation
+Total	1003	24833.28	15712.653
+
+
+12) SUSR
+SURS community type (alpha) - sample [R=rural, S=suburban, U=urban]
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	700	0	0
+
+
+13) PEW1
+How much through have you given to the debate in Washington over health care reform?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1003	1.527	1.039
+1) A lot	638	63.6
+2) A little	273	27.2
+3) None at all	80	8.0
+9) Don't know/Refused	12	1.2
+
+
+14) PEW2
+As of right now, do you generally favor or generally oppose the health care proposals being discussed in Congress?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1003	2.819	2.86
+1) Generally favor	390	38.9
+2) Generally oppose	440	43.9
+9) Don't know/Refused	173	17.2
+
+
+15) PEW3
+[If PEW2 = generally oppose] What would you say is the main reason you (favor/oppose) the health care proposals being discussed in Congress? (open-ended)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	830	1.887	2.513
+1) Answer given	738	88.9
+9) Don't know/Refused	92	11.1
+Missing	173
+
+
+16) PEW3VB
+Open-ended responses to health care question
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	738	0	0
+
+
+17) PEW3OE_1
+First mention - what would you say is the main reason you (favor/oppose) the health care proposals being discussed in Congress? (Open-ended)
+RANGE: 10 to 99
+	N	Mean	Std. Deviation
+Total	830	49.398	31.318
+10) Support universal health coverage/covering more people/insuring more people	133	16.0
+12) Help poor/unemployed with health care	15	1.8
+13) Help children with health care	2	0.2
+14) Help elderly with health care	8	1.0
+20) Control costs/increase affordability/boost economy	29	3.5
+21) Insurance companies do a bad job/reduce their influence	6	0.7
+22) Personal experiences/reasons	26	3.1
+25) Need to do something/change/overdue/right direction/country needs it	71	8.6
+29) Trust/support Obama/Democrats	13	1.6
+30) Abortion	1	0.1
+34) Support public option	8	1.0
+40) Too expensive/cannot afford it/will increase deficit and taxes	107	12.9
+50) Do not want government to run healthcare/socialism/bureaucracy	111	13.4
+53) Redistributive/free-ride/people should earn own health care	10	1.2
+60) Will reduce quality and access/take away choice/lead to rationing and waiting	8	1.0
+63) Will worsen care for certain groups/will not be fair	15	1.8
+65) Will hurt me/will not help me/like what I have	25	3.0
+70) Will not work/current system works	21	2.5
+77) Benefits illegal immigrants	3	0.4
+80) Hurts business/economy/costs jobs	7	0.8
+85) Has not been explained/too complex/hidden details/not well thought out	34	4.1
+86) Moving too fast	5	0.6
+87) Distrust Congress/Obama/political process	11	1.3
+90) Abortion	7	0.8
+91) Oppose public opinion	7	0.8
+93) Cuts in Medicare	10	1.2
+97) Other	44	5.3
+99) Don't know	93	11.2
+Missing	173
+
+
+18) PEW3OE_2
+Second mention - what would you say is the main reason you (favor/oppose) the health care proposals being discussed in Congress?
+RANGE: 10 to 97
+	N	Mean	Std. Deviation
+Total	177	43.554	26.045
+10) Support universal health coverage/covering more people/insuring more people	11	6.2
+12) Help poor/unemployed with health care	8	4.5
+13) Help children with health care	1	0.6
+14) Help elderly with health care	3	1.7
+20) Control costs/increase affordability/boost economy	29	16.4
+21) Insurance companies do a bad job/reduce their influence	7	4.0
+22) Personal experiences/reasons	5	2.8
+25) Need to do something/change/overdue/right direction/country needs it	5	2.8
+30) Abortion	1	0.6
+33) Pre-existing conditions	5	2.8
+34) Support public option	1	0.6
+40) Too expensive/cannot afford it/will increase deficit and taxes	27	15.3
+50) Do not want government to run healthcare/socialism/bureaucracy	19	10.7
+53) Redistributive/free-ride/people should earn own health care	2	1.1
+60) Will reduce quality and access/take away choice/lead to rationing and waiting	7	4.0
+63) Will worsen care for certain groups/will not be fair	5	2.8
+65) Will hurt me/will not help me/like what I have	3	1.7
+70) Will not work/current system works	5	2.8
+77) Benefits illegal immigrants	7	4.0
+80) Hurts business/economy/costs jobs	3	1.7
+85) Has not been explained/too complex/hidden details/not well thought out	4	2.3
+86) Moving too fast	3	1.7
+87) Distrust Congress/Obama/political process	2	1.1
+90) Abortion	4	2.3
+91) Oppose public opinion	4	2.3
+93) Cuts in Medicare	4	2.3
+97) Other	2	1.1
+Missing	826
+
+
+19) PEW3OE_3
+Third mention - what would you say is the main reason you (favor/oppose) the health care proposals being discussed in Congress?
+RANGE: 10 to 97
+	N	Mean	Std. Deviation
+Total	35	47.257	28.184
+10) Support universal health coverage/covering more people/insuring more people	3	8.6
+12) Help poor/unemployed with health care	1	2.9
+13) Help children with health care	1	2.9
+14) Help elderly with health care	1	2.9
+20) Control costs/increase affordability/boost economy	2	5.7
+21) Insurance companies do a bad job/reduce their influence	2	5.7
+25) Need to do something/change/overdue/right direction/country needs it	2	5.7
+29) Trust/support Obama/Democrats	1	2.9
+34) Support public option	1	2.9
+40) Too expensive/cannot afford it/will increase deficit and taxes	3	8.6
+50) Do not want government to run healthcare/socialism/bureaucracy	4	11.4
+53) Redistributive/free-ride/people should earn own health care	2	5.7
+60) Will reduce quality and access/take away choice/lead to rationing and waiting	1	2.9
+63) Will worsen care for certain groups/will not be fair	1	2.9
+70) Will not work/current system works	1	2.9
+77) Benefits illegal immigrants	3	8.6
+80) Hurts business/economy/costs jobs	1	2.9
+90) Abortion	3	8.6
+93) Cuts in Medicare	1	2.9
+97) Other	1	2.9
+Missing	968
+
+
+20) PEW4A
+[If PEW2 = 2] Please tell me if each one is a major reason, a minor reason, or not a reason why you oppose the health the health care reform proposals being discussed in Congress. Too much government involvement in health care
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	440	1.245	0.9
+1) Major reason	385	87.5
+2) Minor reason	26	5.9
+3) Not a reason	25	5.7
+9) Don't know/Refused	4	0.9
+Missing	563
+
+
+21) PEW4B
+[If PEW2 = 2] Please tell me if each one is a major reason, a minor reason, or not a reason why you oppose the health care reform proposals being discussed in Congress. Your own health care may suffer
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	440	1.493	1.008
+1) Major reason	307	69.8
+2) Minor reason	73	16.6
+3) Not a reason	56	12.7
+9) Don't know/refused	4	0.9
+Missing	563
+
+
+22) PEW4C
+[If PEW2 = 2] Please tell me if each one is a major reason, a minor reason, or not a reason why you oppose the health care reform proposals being discussed in Congress. Health care reform is too expensive for the country
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	440	1.373	1.068
+1) Major reason	349	79.3
+2) Minor reason	54	12.3
+3) Not a reason	31	7.0
+9) Don't know/Refused	6	1.4
+Missing	563
+
+
+23) PEW4D
+[If PEW2 = 2] Please tell me if each one is a major reason, a minor reason, or not a reason why you oppose the health care reform proposals being discussed in Congress. Government money might pay for abortions
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	440	1.739	1.218
+1) Major reason	251	57.0
+2) Minor reason	95	21.6
+3) Not a reason	87	19.8
+9) Don't know/Refused	7	1.6
+Missing	563
+
+
+24) PEW4E
+[If PEW2 = 2] Please tell me if each one is a major reason, a minor reason, or not a reason why you oppose the health care reform proposals being discussed in Congress. The plan might cover illegal immigrants
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	440	1.43	0.835
+1) Major reason	308	70.0
+2) Minor reason	87	19.8
+3) Not a reason	43	9.8
+9) Don't know/Refused	2	0.5
+Missing	563
+
+
+25) PEW5
+[If more than one selected in items in PEW4A through E] And of the ones you mentioned as major reasons, which is the most important reason why you oppose the health care reform proposals (Read only the items mentioned as major reason. Read in same order as in PEW4)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	410	2.588	1.913
+1) Too much government involvement in health care	166	40.5
+2) Your own health care may suffer	52	12.7
+3) Health care reform is too expensive for the country	108	26.3
+4) Government money might pay for abortions	32	7.8
+5) The plan might cover illegal immigrants	27	6.6
+6) Other reason	7	1.7
+9) Don't know/Refused	18	4.4
+Missing	593
+
+
+26) PEW5TOT
+[If more than one selected in items in PEW4A through E] And of the ones you mentioned as major reasons, which is the most important reason why you oppose the health care reform proposals? (Summary of PEW4A through E and PEW5)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	440	2.652	1.964
+1) Too much government involvement in health care	175	39.8
+2) Your own health care may suffer	56	12.7
+3) Health care reform is too expensive for the country	114	25.9
+4) Government money might pay for abortions	32	7.3
+5) The plan might over illegal immigrants	30	6.8
+6) Other reason	7	1.6
+7) None are major reasons	8	1.8
+9) Don't know/Refused	18	4.1
+Missing	563
+
+
+27) PEW6
+If the government health care reform plan guarantees certain medical benefits for all Americans, do you think that abortion should or should not be included as one of those benefits?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1003	2.302	1.901
+1) Abortion should be included	277	27.6
+2) Abortion should not be included	554	55.2
+3) Depends	104	10.4
+9) Don't know/Refused	68	6.8
+
+
+28) PEW7A
+Please tell me whether you agree or disagree with each of the following statements. The United States should cooperate fully with the United Nations
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1003	2.157	2.227
+1) Agree	487	48.6
+2) Disagree	424	42.3
+9) Don't know/Refused	92	9.2
+
+
+29) PEW7B
+Please tell me whether you agree or disagree with each of the following statements. In deciding on its foreign policies, the U.S. should take into account the views of its major allies
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1003	1.632	1.952
+1) Agree	817	81.5
+2) Disagree	122	12.2
+9) Don't know/Refused	64	6.4
+
+
+30) PEW7C
+Please tell me whether you agree or disagree with each of the following statements. Since the U.S. is the most powerful nation in the world, we should go our own way in international matters, not worrying too much about whether other countries agree with us or not
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1003	1.944	1.687
+1) Agree	406	40.5
+2) Disagree	547	54.5
+9) Don't know/Refused	50	5.0
+
+
+31) PEW7D
+Please tell me whether you agree or disagree with each of the following statements. The U.S. should mind its own business internationally and let other countries get along the best they can on their own
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1003	2.025	1.928
+1) Agree	444	44.3
+2) Disagree	492	49.1
+9) Don't know/Refused	67	6.7
+
+
+32) PEW7E
+Please tell me whether you agree or disagree with each of the following statements. We should not think so much in international terms but concentrate more on our own national problems and building up our strength and prosperity here at home
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1003	1.576	1.661
+1) Agree	740	73.8
+2) Disagree	218	21.7
+9) Don't know/Refused	45	4.5
+
+
+33) PEW8
+Compared with the past, would you say the U.S. is MORE respected by other countries these days, LESS respected by other countries, or AS respected as it has been in the past?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1003	2.267	1.472
+1) More respected	190	18.9
+2) Less respected	583	58.1
+3) As respected as in the past	192	19.1
+9) Don't know/Refused	38	3.8
+
+
+34) PEW9
+Do you think less respect for America is a major problem, a minor problem, or not a problem at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	583	1.465	0.968
+1) Major problem	386	66.2
+2) Minor problem	159	27.3
+3) Not a problem	32	5.5
+9) Don't know/Refused	6	1.0
+Missing	420
+
+
+35) PEW10
+And on a more general topic... How concerned, if at all, are you about the rise of Islamic extremism around the WORLD these days? Are you very concerned, somewhat concerned, not too concerned or not at all concerned about the rise of Islamic extremism around the world these days?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1003	1.804	1.293
+1) Very concerned	535	53.3
+2) Somewhat concerned	295	29.4
+3) Not too concerned	93	9.3
+4) Not at all concerned	63	6.3
+9) Don't know/Refused	17	1.7
+
+
+36) PEW11
+How concerned, if at all, are you about the possible rise of Islamic extremism IN THE U.S.? Are you very concerned, somewhat concerned, not too concerned or not at all concerned about the possible rise of Islamic extremism in the U.S.?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1003	1.827	1.369
+1) Very concerned	542	54.0
+2) Somewhat concerned	277	27.6
+3) Not too concerned	105	10.5
+4) Not at all concerned	58	5.8
+9) Don't know/Refused	21	2.1
+
+
+37) PEW12
+Do you strongly favor, favor, oppose, or strongly oppose making it more DIFFICULT for a woman to get an abortion?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1003	3.585	2.631
+1) Strongly favor	210	20.9
+2) Favor	195	19.4
+3) Oppose	236	23.5
+4) Strongly oppose	194	19.3
+9) Don't know/Refused	168	16.7
+
+
+38) PEW14
+Today, which ONE of the following do you think is the world's leading ECONOMIC power [randomize responses]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1003	2.563	2.15
+1) The United States	283	28.2
+2) China	465	46.4
+3) Japan	110	11.0
+4) The countries of the European Union	49	4.9
+5) Other (specify)	2	0.2
+6) None/There is no leading economic power	8	0.8
+9) Don't know/Refused	86	8.6
+
+
+39) PEW14OS
+Specific other responses from PEW14
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	2	0	0
+
+
+40) PEW15
+Today, which ONE of the following do you think is the world's leading MILITARY power [randomize responses]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1003	2.069	2.272
+1) The United States	663	66.1
+2) China	177	17.6
+3) Russia	45	4.5
+4) The countries of the European Union	21	2.1
+5) Other (specify)	1	0.1
+6) None/There is no leading military power	10	1.0
+9) Don't know/refused	86	8.6
+
+
+41) PEW15OS
+Specific other responses from PEW15
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1	0	0
+
+
+42) SEX
+Respondent's sex
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1003	1.497	0.5
+1) Male	505	50.3
+2) Female	498	49.7
+
+
+43) AGE
+What is your age?
+RANGE: 18 to 99
+	N	Mean	Std. Deviation
+Total	1003	52.726	18.396
+
+
+44) RECAGE
+Recoded age
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1003	4.218	1.686
+1) 18-24	62	6.2
+2) 25-34	127	12.7
+3) 35-44	148	14.8
+4) 45-54	189	18.8
+5) 55-64	201	20.0
+6) 65+	258	25.7
+9) Don't know/refused	18	1.8
+
+
+45) QD3
+Are you now employed full-time, part-time, are you retired, or are you not employed for pay?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1003	2.17	1.325
+1) Employed full-time	467	46.6
+2) Employed part-time	113	11.3
+3) Retired	286	28.5
+4) Not employed	89	8.9
+5) Disabled	30	3.0
+6) Student	10	1.0
+7) Other	6	0.6
+9) Refused	2	0.2
+
+
+46) QD4
+In politics TODAY, do you consider yourself a Republican, Democrat, or Independent?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1003	2.21	1.158
+1) Republican	290	28.9
+2) Democrat	335	33.4
+3) Independent	321	32.0
+4) No preference	35	3.5
+5) Other party	11	1.1
+9) Don't know/Refused	11	1.1
+
+
+47) QD4A
+[If answered 3, 4, 5, or 9 to POLITICAL] As of today do you lean more to the Republican Party or more to the Democratic Party?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	378	3.939	3.564
+1) Republican	135	35.7
+2) Democrat	119	31.5
+9) Other/Don't know/Refused	124	32.8
+Missing	625
+
+
+48) RELIG
+What is your present religion, if any? Are you Protestant, Roman Catholic, Mormon, Orthodox such as Greek or Russian Orthodox, Jewish, Muslim, Buddhist, Hindu, atheist, agnostic, something else, or nothing in particular?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1003	5.868	14.334
+1) Protestant (Baptist, Methodist, non-denominational, Lutheran, Presbyterian, Pentecostal, Episcopalian, Reformed, Church of Christ, Jehovah's Witnesses, etc.)	510	50.8
+2) Roman Catholic (Catholic)	202	20.1
+3) Mormon (Church of Jesus Christ of Latter-day Saints/LDS)	12	1.2
+4) Orthodox (Greek, Russian, or some other Orthodox church)	5	0.5
+5) Jewish (Judaism)	15	1.5
+6) Muslim (Islam)	7	0.7
+7) Buddhist	5	0.5
+8) Hindu	4	0.4
+9) Atheist (do not believe in God)	13	1.3
+10) Agnostic (not sure if there is a God)	19	1.9
+11) Something else (SPECIFY)	4	0.4
+12) Nothing in particular	116	11.6
+13) Christian (VOL)	70	7.0
+99) Don't know/Refused	21	2.1
+
+
+49) RELIGOS
+Specific responses to Something else category in RELIGION
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	4	0	0
+
+
+50) CHR
+[If RELIGION= 11 or 99; if Non-Christian religion previously specified (open-ended), enter 2 for this question] CHR Do you think of yourself as a Christian or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	25	3.48	3.537
+1) Yes	12	48.0
+2) No	6	24.0
+9) Don't know/Refused	7	28.0
+Missing	978
+
+
+51) BORN
+[If RELIGION = 1-4, 13 or CHR= 1] Would you describe yourself as a 'born again' or evangelical Christian, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	811	1.742	1.139
+1) Yes, would	321	39.6
+2) No, would not	474	58.4
+9) Don't know/Refused	16	2.0
+Missing	192
+
+
+52) ATTEND
+Aside from weddings and funerals, how often do you attend religious services... more than once a week, once a week, once or twice a month, a few times a year, seldom, or never?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1003	3.325	1.675
+1) More than once a week	114	11.4
+2) Once a week	305	30.4
+3) Once or twice a month	156	15.6
+4) A few times a year	154	15.4
+5) Seldom	147	14.7
+6) Never	117	11.7
+9) Don't know/Refused	10	1.0
+
+
+53) QD5
+Are you married, living with a partner, divorced, separated, widowed, or have you never been married [probe to determine appropriate category if respondent says 'single']?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1003	2.341	1.93
+1) Married	617	61.5
+2) Living with a partner	42	4.2
+3) Divorced	98	9.8
+4) Separated	18	1.8
+5) Widowed	93	9.3
+6) Never been married	133	13.3
+9) Refused	2	0.2
+
+
+54) EDUC
+What is the last grade or class you completed in school?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1003	4.847	1.608
+1) None, or grade one to eight	13	1.3
+2) High school incomplete (grades nine to 11)	49	4.9
+3) High school graduate, grade 12, or GED certificate	253	25.2
+4) Technical, trade or vocational school AFTER high school	31	3.1
+5) Some college or university work, but no four-year degree	237	23.6
+6) College or university graduate (BA, BS or other four-year degree received)	261	26.0
+7) Post graduate or professional schooling after college (including work towards an MA, MS, Ph.D., JD, DDS, or MD degree)	157	15.7
+9) Refused	2	0.2
+
+
+55) RECEDUC
+Recoded education
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1003	3.022	1.01
+1) Less than high school	62	6.2
+2) High school graduate	284	28.3
+3) Some college	237	23.6
+4) College plus	418	41.7
+9) Don't know/refused	2	0.2
+
+
+56) HISP
+Are you of Hispanic or Latino background, such as Mexican, Puerto Rican, Cuban or other Spanish background?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1003	1.999	0.615
+1) Yes	49	4.9
+2) No	947	94.4
+8) Don't know	1	0.1
+9) Refused	6	0.6
+
+
+57) RACE
+What is your race? Are you white, Black, Asian, or some other race [if R says Hispanic or Latino, probe whether they consider themselves a white or Black Hispanic/Latino]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1003	1.352	1.08
+1) White	827	82.5
+2) Black or African-American	115	11.5
+3) Asian or Pacific Islander	17	1.7
+4) Mixed race	17	1.7
+5) Native American/American Indian	12	1.2
+6) Other (SPECIFY)	5	0.5
+9) Refused	10	1.0
+
+
+58) RACEOS
+[If RACE = 6] Specific Other responses to RACE
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	5	0	0
+
+
+59) RACEHTN
+Race/Ethnicity
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1003	1.394	1.036
+1) White-Hispanic	798	79.6
+2) AA-Hispanic	108	10.8
+3) Hispanic	49	4.9
+4) Other-Hispanic	39	3.9
+9) Don't know/refused	9	0.9
+
+
+60) PEW13
+Do you have an immediate family member or close relative who is married to someone of a different race?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1003	1.831	1.122
+1) Yes	310	30.9
+2) No	673	67.1
+9) Don't know/Refused	20	2.0
+
+
+61) QD9
+Last year, that is in 2008, approximately what was your total family income before taxes - just tell me when I get to the right category.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1003	18.53	32.787
+1) Less than $10,000	64	6.4
+2) $10,000 to under $20,000	70	7.0
+3) $20,000 to under $30,000	94	9.4
+4) $30,000 to under $40,000	87	8.7
+5) $40,000 to under $50,000	110	11.0
+6) $50,000 to under $75,000	161	16.1
+7) $75,000 to under $100,000	126	12.6
+8) $100,000 to under $150,000	96	9.6
+9) $150,000 or over	52	5.2
+98) Don't know	39	3.9
+99) Refused	104	10.4
+
+
+62) QL1
+[If SAMPLE = 1] Now thinking about your telephone use... Do you have a working cell phone?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	700	1.23	0.646
+1) Yes, have cell phone	560	80.0
+2) No, do not	137	19.6
+9) Don't know/Refused	3	0.4
+Missing	303
+
+
+63) QL1A
+[If CELLPHON = 2 or 9] Does anyone else in your household have a working cell phone?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	140	1.971	1.28
+1) Yes, someone in household has cell phone	32	22.9
+2) No	104	74.3
+9) Don't know/Refused	4	2.9
+Missing	863
+
+
+64) QL2
+[If CELLPHON = 1 or HSHLDCP = 1] Of all the telephone calls that you and the other people in your household receive, are...?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	592	2.198	0.914
+1) All or almost all calls received on a cell phone	116	19.6
+2) Some received on a cell phone and some on a regular home phone	267	45.1
+3) Very few or none received on a cell phone	205	34.6
+9) Don't know/Refused	4	0.7
+Missing	411
+
+
+65) QC1
+[If SAMPLE = 2] Now thinking about your telephone use...Is there at least one telephone INSIDE your home that is currently working and is not a cell phone?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	303	1.33	0.638
+1) Yes, has a home telephone	210	69.3
+2) No, no home telephone	92	30.4
+9) Don't know/Refused	1	0.3
+Missing	700
+
+
+66) QC2
+[If TELEHOM= 1] Of all the telephone calls that you and the other people in your household receive, are...?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	210	1.981	0.603
+1) All or almost all calls received on a cell phone	40	19.0
+2) Some received on a cell phone and some on a regular home phone	134	63.8
+3) Very few or none received on a cell phone	36	17.1
+Missing	793
+
+
+67) HH1
+How many adults currently live in your household, INCLUDING YOURSELF [if necessary: That is, how many people age 18 and over, INCLUDING YOURSELF]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1003	2.113	1.002
+1) 	218	21.7
+2) 	580	57.8
+3) 	131	13.1
+4) 	49	4.9
+5) 	13	1.3
+6) 	7	0.7
+9) Refused	5	0.5
+
+
+68) PHONEUSE
+Household phone use
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1003	2.263	0.803
+1) Landline only	104	10.4
+2) Dual - few/some cell	642	64.0
+3) Dual - mostly cell	156	15.6
+4) Cell phone only	92	9.2
+5) Landline, unknown cell	8	0.8
+6) Cell, unknown landline	1	0.1
+
+
+69) PHONEUSE2
+Telephone use by frame
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1003	2.257	0.805
+1) Landline only	137	13.7
+2) Dual from landline	563	56.1
+3) Dual from cell	211	21.0
+4) Cell phone only	92	9.2
+
+
+70) WEIGHT
+Total sample weight
+RANGE: 1 to 16.8636363636364
+	N	Mean	Std. Deviation
+Total	1003	4.323	3.155
+
+
+71) I-EDUC
+Recoded education (Recoded for use with online analysis)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1001	2.072	0.871
+1) High school graduate or less	346	34.6
+2) Some college	237	23.7
+3) College or more	418	41.8
+Missing	2
+
+
+72) I-MARITAL
+Are you married, living with a partner, divorced, separated, widowed, or have you never been married? (Recoded for use with online analysis)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1001	1.475	0.718
+1) Married or living with a partner	659	65.8
+2) Divorced, separated, or widowed	209	20.9
+3) Never been married	133	13.3
+Missing	2
+
+
+73) I-RELIGION
+What is your present religion, if any? Are you Protestant, Roman Catholic, Mormon, Orthodox such as Greek or Russian Orthodox, Jewish, Muslim, Buddhist, Hindu, atheist, agnostic, something else, or nothing in particular? (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	982	1.91	1.119
+1) Protestant	510	51.9
+2) Catholic	202	20.6
+3) Other (Mormon/Orthodox/Just Christian/Jewish/Muslim/Buddhist/Hindu)	118	12.0
+4) Atheist, agnostic, or nothing in particular	152	15.5
+Missing	21
+
+
+74) I-AGE
+Recorded age (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	985	3.194	1.461
+1) 18-34	189	19.2
+2) 35-44	148	15.0
+3) 45-54	189	19.2
+4) 55-64	201	20.4
+5) 65 plus	258	26.2
+Missing	18
+
+
+75) I-SEX
+Respondent's sex (for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1003	1.497	0.5
+1) Male	505	50.3
+2) Female	498	49.7
+
+

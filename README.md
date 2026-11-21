@@ -8,7 +8,7 @@ Raw-URL reads only work for files under 100 MB.
 
 | folder | what | coverage |
 |---|---|---|
-| `anes` | ANES cumulative file, 2024 time series, 2016-2020-2024 panel merged file (May 2026 release, .sav and .rds), 2018 pilot, 2012 turnout extract | 1948-2024 |
+| `anes` | ANES cumulative file, 2024 time series, 2016-2020-2024 panel merged file (May 2026 release, .sav and .rds), 2018 pilot, 2012 turnout extract; 2008-2009 panel and 2020 Social Media Study from the ARDA (`anes/arda_manifest.tsv`) | 1948-2024 |
 | `cces` | CES common content 2018, 2020, 2022, 2024 (validated vote), older cumulative files, and the CES cumulative file 2006-2025 (`ces_cumulative_2006_2025.rds`) with guides | 2006-2025 |
 | `cmps` | Collaborative Multiracial Post-election Survey | 2008-2020 |
 | `vsg` | Democracy Fund VOTER Survey panel | 2011-2020 |
@@ -86,7 +86,7 @@ Raw-URL reads only work for files under 100 MB.
 
 | folder | what | coverage |
 |---|---|---|
-| `prri` | PRRI surveys | 2010-2024 |
+| `prri` | PRRI surveys; plus 20 more from the ARDA (clergy surveys, IFYC vaccine trust, Hispanic/Jewish Values, 2023-2025 specials), listed in `prri/arda_manifest.tsv` | 2008-2025 |
 | `baylor_religion` | Baylor Religion Survey waves I-VI | 2005-2021 |
 | `relig_freed_ind` | Religious Freedom Index | 2019-2024 |
 | `springtide` | Springtide young people surveys | 2022-2024 |
@@ -107,7 +107,22 @@ Raw-URL reads only work for files under 100 MB.
 | `oecd_trust` | OECD Trust Survey | 2021-2025 |
 | `wvs` | World Values Survey wave 7 and time series | 1981-2022 |
 | `ispp` | ISSP module ZA4747 | |
-| `gss` | General Social Survey cumulative file, release 3a (July 2026), with codebook and release notes; recommended weight `wtssps` | 1972-2024 |
+| `nsyr` | National Study of Youth and Religion, waves 1-4 (ARDA) | 2003-2013 |
+| `pals` | Portraits of American Life Study, waves 1-2 and merged (ARDA) | 2006-2012 |
+| `nsfg` | National Survey of Family Growth respondent and pregnancy files (ARDA) | 1995-2017 |
+| `nhanes` | NHANES demographic, exam, lab and questionnaire files (ARDA) | 1999-2008 |
+| `first_amendment` | State of the First Amendment surveys (ARDA) | 1997-2006 |
+| `arda_news_polls` | ABC/ABC-WaPo religion polls, American Catholic Laity polls, Harris and Gallup Catholic polls (ARDA) | 1979-2005 |
+| `pew_religion_arda` | Pew religion studies not in `pew`/`atp`: Religion and Public Life 2001-2012, U.S. Jews 2013/2020, Muslim Americans 2007/2017, Latinos 2012-2018, Values combined 1987-2012, teens 2019 and more (ARDA) | 1987-2020 |
+| `pew_spirit_power` | Pew Spirit and Power: 10-country Pentecostal survey and country files (ARDA) | 2006 |
+| `arda_other_national` | other U.S. national religion surveys: ARIS, Faith Matters, ISPU American Muslim Poll, Study of Spirituality, American Mosaic, Social Capital Benchmark, NHIS 2002 and more (ARDA) | 1967-2025 |
+| `arda_cross_national` | multi-country religion surveys: ISSP Religion II-III, Arab and Caucasus Barometers, Muslim Attitudes, World's Muslims 2012, Religion in Latin America 2014, Pew science 2019 and more (ARDA) | 1979-2019 |
+| `project_canada` | Project Canada and Project Teen Canada, cross-sections and panels (ARDA) | 1975-2008 |
+| `taiwan_scs` | Taiwan Social Change Survey religion modules (ARDA) | 1985-2018 |
+| `arda_single_nation` | single-country religion surveys: Religion in Dutch Society, Korean GSS, Northern Ireland Life and Times, Survey of the Afghan People, Pew India/Israel and more (ARDA) | 1977-2023 |
+
+ARDA folders hold one labelled gzip `.rds` per dataset (variable labels = question wording; value labels including ARDA's missing codes such as 777/888/999, which are left as values), the ARDA full codebook (`... codebook.txt`), and `manifest.tsv` (ARDA file ID, title, md5, source URL). ARDA asks that publications cite it and the original collectors: "The data were downloaded from the Association of Religion Data Archives, www.theARDA.com, and were collected by [PIs]." Not included: Add Health (its terms bar AI processing), the Australian Survey of Social Attitudes and the Philanthropy Panel Study (ARDA links out to registration-only archives).
+| `gss` | General Social Survey cumulative file, release 3a (July 2026), with codebook and release notes; recommended weight `wtssps`; GSS panels 2006-2010 and 2016-2020 from the ARDA (`gss/arda_manifest.tsv`) | 1972-2024 |
 
 ## Course materials
 

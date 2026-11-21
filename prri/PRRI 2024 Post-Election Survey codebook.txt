@@ -1,0 +1,1549 @@
+Data File: AVSPOST24 (Full Data Codebook)
+
+1) RESPID
+Respid
+RANGE: 120300001 to 120305772
+	N	Mean	Std. Deviation
+Total	5772	120302886.5	1666.377
+
+
+2) WEIGHT
+Weight
+RANGE: 0.0897 to 4.6876
+	N	Mean	Std. Deviation
+Total	5772	1	0.886
+
+
+3) SAMPLE_TYPE
+HIDE QUES SCREEN - ONLY FOR TESTING  Sample Punching Question
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	5772	1.04	0.195
+1) KP	5544	96.0
+2) Opt-in sample from specific states	228	4.0
+
+
+4) QVOTEREG
+Are you currently registered to vote in the U.S.? Select one answer only.
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	5772	1.312	0.926
+-1) Skipped	1	0.0
+1) Yes, I am registered to vote	5118	88.7
+3) No, I am not registered to vote	368	6.4
+4) Not sure	76	1.3
+5) No, I am not eligible to vote	209	3.6
+
+
+5) Q38
+[IF QVOTEREG=1] Thinking back to the 2024 Presidential election, who did you vote for?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	5760	2.318	1.812
+1) Kamala Harris, the Democratic candidate	2525	43.8
+2) Donald Trump, the Republican candidate	2083	36.2
+3) Jill Stein, the Green Party candidate	39	0.7
+4) Cornell West, an independent candidate	23	0.4
+5) Another candidate	87	1.5
+6) I did not vote for president this year	1003	17.4
+Missing	12
+
+
+6) Q38_5_TEXT
+[IF QVOTEREG=1] Thinking back to the 2024 Presidential election, who did you vote for? - Another candidate - Text
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	5772	0	0
+
+
+7) Q39
+How did you vote in this year's election?
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	4757	2.005	0.823
+-1) Skipped	2	0.0
+1) I voted in person, on Election Day (November 5, 2024)	1586	33.3
+2) I voted in person, at an early polling station before Election Day	1551	32.6
+3) I voted by mail	1618	34.0
+Missing	1015
+
+
+8) Q40_1
+Please indicate whether you or anyone you know experienced any of the following when trying to vote in this year's presidential election... Was told I did not have the correct identification
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	3137	3.952	0.357
+-1) Skipped	4	0.1
+1) Yes, happened to me	24	0.8
+2) Yes, happened to someone in my household	16	0.5
+3) Yes, happened to someone I know	28	0.9
+4) No	3065	97.7
+Missing	2635
+
+
+9) Q40_2
+Please indicate whether you or anyone you know experienced any of the following when trying to vote in this year's presidential election... Was harassed or bothered.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	3137	3.931	0.431
+-1) Skipped	3	0.1
+1) Yes, happened to me	49	1.6
+2) Yes, happened to someone in my household	13	0.4
+3) Yes, happened to someone I know	29	0.9
+4) No	3043	97.0
+Missing	2635
+
+
+10) Q40_3
+Please indicate whether you or anyone you know experienced any of the following when trying to vote in this year's presidential election... Was told my name was not on the list even though I am registered.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	3137	3.942	0.381
+-1) Skipped	3	0.1
+1) Yes, happened to me	33	1.1
+2) Yes, happened to someone in my household	13	0.4
+3) Yes, happened to someone I know	41	1.3
+4) No	3047	97.1
+Missing	2635
+
+
+11) Q40_4
+Please indicate whether you or anyone you know experienced any of the following when trying to vote in this year's presidential election... Found long lines at my polling place.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	3137	3.418	1.135
+-1) Skipped	3	0.1
+1) Yes, happened to me	524	16.7
+2) Yes, happened to someone in my household	38	1.2
+3) Yes, happened to someone I know	164	5.2
+4) No	2408	76.8
+Missing	2635
+
+
+12) Q40_5
+Please indicate whether you or anyone you know experienced any of the following when trying to vote in this year's presidential election... Received a flier, email, text, or message on social media containing misinformation about when and where to vote.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	3137	3.833	0.667
+-1) Skipped	3	0.1
+1) Yes, happened to me	142	4.5
+2) Yes, happened to someone in my household	24	0.8
+3) Yes, happened to someone I know	34	1.1
+4) No	2934	93.5
+Missing	2635
+
+
+13) Q41
+HELD FOR FURTHER ANALYSIS
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	4757	0	0
+
+
+14) Q42_A
+Thinking about the 2024 presidential election, how confident are you about each of the following? The election was conducted fairly and accurately.
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	5772	1.566	0.73
+-1) Skipped	56	1.0
+1) Very confident	2996	51.9
+2) Somewhat confident	2059	35.7
+3) Not at all confident	661	11.5
+
+
+15) Q42_B
+Thinking about the 2024 presidential election, how confident are you about each of the following? Our democracy will remain strong over the next four years.
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	5772	2.02	0.906
+-1) Skipped	51	0.9
+1) Very confident	2007	34.8
+2) Somewhat confident	1437	24.9
+3) Not at all confident	2277	39.4
+
+
+16) Q42_C
+Thinking about the 2024 presidential election, how confident are you about each of the following? Donald Trump will peacefully leave office at the end of his upcoming term.
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	5772	2.027	0.943
+-1) Skipped	69	1.2
+1) Very confident	2078	36.0
+2) Somewhat confident	1187	20.6
+3) Not at all confident	2438	42.2
+
+
+17) Q42_D
+Thinking about the 2024 presidential election, how confident are you about each of the following? Americans will be able to freely express their political views, even if they differ from the incoming presidential administration.
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	5772	1.953	0.882
+-1) Skipped	51	0.9
+1) Very confident	2083	36.1
+2) Somewhat confident	1674	29.0
+3) Not at all confident	1964	34.0
+
+
+18) Q42_E
+Thinking about the 2024 presidential election, how confident are you about each of the following? Donald Trump will use the power of the federal government to punish his enemies.
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	5772	1.867	0.928
+-1) Skipped	101	1.7
+1) Very confident	2311	40.0
+2) Somewhat confident	1513	26.2
+3) Not at all confident	1847	32.0
+
+
+19) Q43_A
+How much do you agree or disagree with the following statements? Presidential elections should be decided by the popular vote rather than the Electoral College.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.131	1.206
+-1) Skipped	113	2.0
+1) Completely agree	2041	35.4
+2) Mostly agree	1630	28.2
+3) Mostly disagree	840	14.6
+4) Completely disagree	1148	19.9
+
+
+20) Q43_B
+How much do you agree or disagree with the following statements? A college education is a smart investment in the future.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.07	0.853
+-1) Skipped	47	0.8
+1) Completely agree	1277	22.1
+2) Mostly agree	2978	51.6
+3) Mostly disagree	1116	19.3
+4) Completely disagree	354	6.1
+
+
+21) Q43_C
+How much do you agree or disagree with the following statements? The American Dream - that if you work hard, you'll get ahead - still holds true today. 
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.393	0.974
+-1) Skipped	52	0.9
+1) Completely agree	868	15.0
+2) Mostly agree	2430	42.1
+3) Mostly disagree	1554	26.9
+4) Completely disagree	868	15.0
+
+
+22) Q43_D
+How much do you agree or disagree with the following statements? This holiday season, I will be spending less time with certain family members because of their political views.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	3.442	0.966
+-1) Skipped	58	1.0
+1) Completely agree	309	5.4
+2) Mostly agree	473	8.2
+3) Mostly disagree	1057	18.3
+4) Completely disagree	3875	67.1
+
+
+23) Q43_E
+How much do you agree or disagree with the following statements? Increasing costs of housing and everyday expenses was the most critical issue to my vote this election year.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.42	1.114
+-1) Skipped	99	1.7
+1) Completely agree	1094	19.0
+2) Mostly agree	1948	33.7
+3) Mostly disagree	1444	25.0
+4) Completely disagree	1187	20.6
+
+
+24) Q44
+Which of the following best describes how you feel about the outcome of this election?
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	5772	2.88	1.56
+-1) Skipped	31	0.5
+1) Satisfied	1610	27.9
+2) Excited	828	14.3
+3) Disappointed	889	15.4
+4) Worried	1724	29.9
+5) Angry	314	5.4
+6) Other	376	6.5
+
+
+25) Q44_6_TEXT
+Which of the following best describes how you feel about the outcome of this election? - Other - Text
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	5771	0	0
+
+
+26) Q45_A
+How much do you agree or disagree with the following statements? Society as a whole has become too soft and feminine.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.695	1.179
+-1) Skipped	99	1.7
+1) Completely agree	894	15.5
+2) Mostly agree	1486	25.7
+3) Mostly disagree	1381	23.9
+4) Completely disagree	1912	33.1
+
+
+27) Q45_B
+How much do you agree or disagree with the following statements? Society is better off when men and women stick to the jobs and tasks they are naturally suited for.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.843	1.139
+-1) Skipped	129	2.2
+1) Completely agree	501	8.7
+2) Mostly agree	1472	25.5
+3) Mostly disagree	1587	27.5
+4) Completely disagree	2083	36.1
+
+
+28) Q45_C
+How much do you agree or disagree with the following statements? The immigrants entering the country illegally today are poisoning the blood of our country.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.815	1.221
+-1) Skipped	126	2.2
+1) Completely agree	836	14.5
+2) Mostly agree	1169	20.3
+3) Mostly disagree	1363	23.6
+4) Completely disagree	2278	39.5
+
+
+29) Q45_D
+How much do you agree or disagree with the following statements? In America today, the biggest dangers we face are not from outsiders but from those living among us who want to destroy our country.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.078	0.993
+-1) Skipped	99	1.7
+1) Completely agree	1510	26.2
+2) Mostly agree	2441	42.3
+3) Mostly disagree	1188	20.6
+4) Completely disagree	534	9.3
+
+
+30) Q45_E
+How much do you agree or disagree with the following statements? God ordained Donald Trump to be the winner of the 2024 presidential election.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	3.171	1.259
+-1) Skipped	174	3.0
+1) Completely agree	543	9.4
+2) Mostly agree	793	13.7
+3) Mostly disagree	702	12.2
+4) Completely disagree	3560	61.7
+
+
+31) Q46_1
+Do you feel that the policies of each of the following generally move the country in the right direction, are somewhat misguided but not dangerous, or are they so misguided they pose a serious threat to the country? The Democratic Party
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	5772	1.997	0.875
+-1) Skipped	113	2.0
+1) Right direction	1541	26.7
+2) Misguided but not dangerous	2258	39.1
+3) Pose a serious threat	1860	32.2
+
+
+32) Q46_2
+Do you feel that the policies of each of the following generally move the country in the right direction, are somewhat misguided but not dangerous, or are they so misguided they pose a serious threat to the country? The Republican Party
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	5772	2.026	0.958
+-1) Skipped	106	1.8
+1) Right direction	1939	33.6
+2) Misguided but not dangerous	1320	22.9
+3) Pose a serious threat	2407	41.7
+
+
+33) Q14_B
+Please indicate how much you agree or disagree with each of the following: America was chosen by God to be a new promised land for European Christians.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	3.216	1.236
+-1) Skipped	250	4.3
+1) Completely agree	235	4.1
+2) Mostly agree	714	12.4
+3) Mostly disagree	1144	19.8
+4) Completely disagree	3429	59.4
+
+
+34) Q14_C
+Please indicate how much you agree or disagree with each of the following: Because things have gotten so far off track, true American patriots may have to resort to violence in order to save our country.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	3.347	1.015
+-1) Skipped	131	2.3
+1) Completely agree	158	2.7
+2) Mostly agree	538	9.3
+3) Mostly disagree	1567	27.1
+4) Completely disagree	3378	58.5
+
+
+35) Q14_D
+Please indicate how much you agree or disagree with each of the following: There is a storm coming soon that will sweep away the elites in power and restore the rightful leaders.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	3.024	1.195
+-1) Skipped	209	3.6
+1) Completely agree	325	5.6
+2) Mostly agree	985	17.1
+3) Mostly disagree	1642	28.4
+4) Completely disagree	2611	45.2
+
+
+36) Q14_E
+Please indicate how much you agree or disagree with each of the following: The government, media, and financial worlds in the U.S. are controlled by a group of Satan-worshipping pedophiles who run a global child sex trafficking operation.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	3.252	1.177
+-1) Skipped	197	3.4
+1) Completely agree	271	4.7
+2) Mostly agree	673	11.7
+3) Mostly disagree	1174	20.3
+4) Completely disagree	3457	59.9
+
+
+37) Q14_F
+Please indicate how much you agree or disagree with each of the following: The U.S. military should put immigrants who are in the country illegally into internment camps until they can be deported.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	3.059	1.171
+-1) Skipped	150	2.6
+1) Completely agree	449	7.8
+2) Mostly agree	947	16.4
+3) Mostly disagree	1442	25.0
+4) Completely disagree	2784	48.2
+
+
+38) Q10_A
+How much do you favor or oppose each of the following? Laws that would protect gay, lesbian, bisexual, and transgender people against discrimination in jobs, public accommodations, and housing.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	1.735	0.987
+-1) Skipped	170	2.9
+1) Strongly favor	2423	42.0
+2) Favor	2115	36.6
+3) Oppose	726	12.6
+4) Strongly oppose	338	5.9
+
+
+39) Q10_B
+How much do you favor or oppose each of the following? Allowing a small business owner in your state to refuse to provide products or services to gay or lesbian people, if doing so violates their religious beliefs.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.72	1.209
+-1) Skipped	136	2.4
+1) Strongly favor	889	15.4
+2) Favor	1225	21.2
+3) Oppose	1593	27.6
+4) Strongly oppose	1929	33.4
+
+
+40) Q10_C
+How much do you favor or oppose each of the following? Allowing same-sex couples to marry legally.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	1.895	1.115
+-1) Skipped	156	2.7
+1) Strongly favor	2338	40.5
+2) Favor	1728	29.9
+3) Oppose	901	15.6
+4) Strongly oppose	649	11.2
+
+
+41) Q10_D
+How much do you favor or oppose each of the following? Laws that prevent parents from allowing their child to receive medical care for a gender transition.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.437	1.274
+-1) Skipped	177	3.1
+1) Strongly favor	1438	24.9
+2) Favor	1136	19.7
+3) Oppose	1548	26.8
+4) Strongly oppose	1473	25.5
+
+
+42) Q10_E
+How much do you favor or oppose each of the following? Laws that require driver's licenses or government ID to display the person's sex at birth rather than their gender identity.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.207	1.206
+-1) Skipped	171	3.0
+1) Strongly favor	1667	28.9
+2) Favor	1590	27.5
+3) Oppose	1315	22.8
+4) Strongly oppose	1029	17.8
+
+
+43) Q11A_A
+Do you think the following should be legal or illegal? Abortion
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.023	0.979
+-1) Skipped	116	2.0
+1) Legal in all cases	1675	29.0
+2) Legal in most cases	2159	37.4
+3) Illegal in most cases	1490	25.8
+4) Illegal in all cases	332	5.8
+
+
+44) Q11A_B
+Do you think the following should be legal or illegal? Capital punishment, also known as the death penalty.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.304	1.036
+-1) Skipped	130	2.3
+1) Legal in all cases	878	15.2
+2) Legal in most cases	2571	44.5
+3) Illegal in most cases	1362	23.6
+4) Illegal in all cases	831	14.4
+
+
+45) Q11A_C
+Do you think the following should be legal or illegal? Allowing doctors to legally prescribe lethal drugs to help terminally ill patients end their own lives.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.261	1.052
+-1) Skipped	127	2.2
+1) Legal in all cases	1028	17.8
+2) Legal in most cases	2547	44.1
+3) Illegal in most cases	1224	21.2
+4) Illegal in all cases	846	14.7
+
+
+46) Q11A_D
+Do you think the following should be legal or illegal? Use of marijuana or cannabis.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.007	1.027
+-1) Skipped	103	1.8
+1) Legal in all cases	1885	32.7
+2) Legal in most cases	2071	35.9
+3) Illegal in most cases	1193	20.7
+4) Illegal in all cases	520	9.0
+
+
+47) Q11A_E
+Do you think the following should be legal or illegal? Use of hallucinogens or psychedelics, such as magic mushrooms/psilocybin or LSD.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.901	1.108
+-1) Skipped	128	2.2
+1) Legal in all cases	447	7.7
+2) Legal in most cases	1238	21.4
+3) Illegal in most cases	1887	32.7
+4) Illegal in all cases	2072	35.9
+
+
+48) Q13_A
+How much do you agree or disagree with the following statements? U.S. laws should be based on Christian values.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.735	1.255
+-1) Skipped	170	2.9
+1) Completely agree	748	13.0
+2) Mostly agree	1572	27.2
+3) Mostly disagree	1064	18.4
+4) Completely disagree	2218	38.4
+
+
+49) Q13_B
+How much do you agree or disagree with the following statements? Being Christian is an important part of being truly American.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.969	1.223
+-1) Skipped	168	2.9
+1) Completely agree	541	9.4
+2) Mostly agree	1104	19.1
+3) Mostly disagree	1278	22.1
+4) Completely disagree	2681	46.4
+
+
+50) Q13_C
+How much do you agree or disagree with the following statements? The U.S. government should declare America a Christian nation.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	3.019	1.255
+-1) Skipped	190	3.3
+1) Completely agree	550	9.5
+2) Mostly agree	938	16.3
+3) Mostly disagree	1184	20.5
+4) Completely disagree	2910	50.4
+
+
+51) Q13_D
+How much do you agree or disagree with the following statements? If the U.S. moves away from our Christian foundations, we will not have a country anymore.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.808	1.26
+-1) Skipped	150	2.6
+1) Completely agree	800	13.9
+2) Mostly agree	1346	23.3
+3) Mostly disagree	1040	18.0
+4) Completely disagree	2436	42.2
+
+
+52) Q13_E
+How much do you agree or disagree with the following statements? God has called Christians to exercise dominion over all areas of American society.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	3.195	1.216
+-1) Skipped	228	4.0
+1) Completely agree	274	4.7
+2) Mostly agree	715	12.4
+3) Mostly disagree	1257	21.8
+4) Completely disagree	3298	57.1
+
+
+53) Q47_A
+How much do you agree or disagree with the following statements? The only way our country can get through the crisis ahead is to get back to our traditional values, put some tough leaders in power, and silence the troublemakers spreading bad ideas. 
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.573	1.272
+-1) Skipped	216	3.7
+1) Completely agree	861	14.9
+2) Mostly agree	1681	29.1
+3) Mostly disagree	1209	20.9
+4) Completely disagree	1805	31.3
+
+
+54) Q47_B
+How much do you agree or disagree with the following statements? Our country will be destroyed someday if we do not smash the perversions eating away at our moral fiber and traditional beliefs.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.505	1.274
+-1) Skipped	214	3.7
+1) Completely agree	975	16.9
+2) Mostly agree	1752	30.4
+3) Mostly disagree	1129	19.6
+4) Completely disagree	1702	29.5
+
+
+55) Q47_C
+How much do you agree or disagree with the following statements? What our country really needs is a strong, determined leader who will crush evil, and take us back to our true path.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.399	1.287
+-1) Skipped	218	3.8
+1) Completely agree	1188	20.6
+2) Mostly agree	1814	31.4
+3) Mostly disagree	958	16.6
+4) Completely disagree	1594	27.6
+
+
+56) Q47_D
+How much do you agree or disagree with the following statements? Our country will be great if we honor the ways of our forefathers, do what the authorities tell us to do, and get rid of the 'rotten apples' who are ruining everything.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.573	1.27
+-1) Skipped	266	4.6
+1) Completely agree	696	12.1
+2) Mostly agree	1666	28.9
+3) Mostly disagree	1488	25.8
+4) Completely disagree	1656	28.7
+
+
+57) Q47_E
+How much do you agree or disagree with the following statements? Because things have gotten so far off track in this country, we need a leader who is willing to break some rules if that's what it takes to set things right.
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.975	1.207
+-1) Skipped	198	3.4
+1) Completely agree	430	7.4
+2) Mostly agree	1006	17.4
+3) Mostly disagree	1625	28.2
+4) Completely disagree	2513	43.5
+
+
+58) ATTEND_A
+Over the past year, how often have you done each of the following? Aside from weddings and funerals, attended religious services either virtually or in person
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	5772	4.121	1.842
+-1) Skipped	69	1.2
+1) More than once a week	522	9.0
+2) Once a week	996	17.3
+3) Once or twice a month	386	6.7
+4) A few times a year	750	13.0
+5) Seldom	1110	19.2
+6) Never	1939	33.6
+
+
+59) ATTEND_B
+Over the past year, how often have you done each of the following? Prayed personally, outside of religious services
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	5772	2.936	2.115
+-1) Skipped	82	1.4
+1) More than once a week	2552	44.2
+2) Once a week	367	6.4
+3) Once or twice a month	400	6.9
+4) A few times a year	512	8.9
+5) Seldom	659	11.4
+6) Never	1200	20.8
+
+
+60) ATTEND_C
+Over the past year, how often have you done each of the following? Read the Bible, Torah, Qur'an, or other sacred text
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	5772	4.131	1.965
+-1) Skipped	74	1.3
+1) More than once a week	1013	17.6
+2) Once a week	402	7.0
+3) Once or twice a month	354	6.1
+4) A few times a year	671	11.6
+5) Seldom	1195	20.7
+6) Never	2063	35.7
+
+
+61) ATTEND_D
+Over the past year, how often have you done each of the following? Donated money to a church or other religious congregation or charity
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	5772	4.341	1.693
+-1) Skipped	80	1.4
+1) More than once a week	264	4.6
+2) Once a week	667	11.6
+3) Once or twice a month	719	12.5
+4) A few times a year	944	16.4
+5) Seldom	980	17.0
+6) Never	2118	36.7
+
+
+62) ATTEND_H
+Over the past year, how often have you done each of the following? Volunteered with a local organization that was not religiously affiliated
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	5772	4.702	1.566
+-1) Skipped	94	1.6
+1) More than once a week	239	4.1
+2) Once a week	242	4.2
+3) Once or twice a month	432	7.5
+4) A few times a year	1078	18.7
+5) Seldom	1220	21.1
+6) Never	2467	42.7
+
+
+63) TV
+Which of the following television news sources do you trust the MOST to provide accurate information about politics and current events?
+RANGE: -1 to 11
+	N	Mean	Std. Deviation
+Total	5772	5.107	2.929
+-1) Skipped	74	1.3
+1) Broadcast network news, such as NBC, ABC or CBS	888	15.4
+2) CNN	426	7.4
+3) Fox News	760	13.2
+4) MSNBC	259	4.5
+5) Local television news	580	10.0
+6) Public television	543	9.4
+7) Other (please specify)	318	5.5
+8) Do not watch television news	1685	29.2
+11) Conservative media, such as One America News or Newsmax	239	4.1
+
+
+64) TV_7_TEXT
+Which of the following television news sources do you trust the MOST to provide accurate information about politics and current events? - Other (please specify) - Text
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	5772	0	0
+
+
+65) QRELIGION
+What is your religion?
+RANGE: -1 to 13
+	N	Mean	Std. Deviation
+Total	5772	5.701	5.189
+-1) Skipped	60	1.0
+1) Catholic	1281	22.2
+2) Evangelical or Protestant Christian (Baptist, Lutheran, Methodist, Presbyterian, Episcopalian, Pentecostal, Church of Christ, etc.)	1985	34.4
+3) Jehovah's Witness	51	0.9
+4) Mormon	90	1.6
+5) Jewish	128	2.2
+6) Islam/Muslim	34	0.6
+7) Greek or Russian Orthodox	21	0.4
+8) Hindu	32	0.6
+9) Buddhist	26	0.5
+10) Unitarian (Universalist)	43	0.7
+11) Other Christian religion	452	7.8
+12) Other non-Christian religion	80	1.4
+13) No religion	1489	25.8
+
+
+66) QRELIGION2
+Would you describe yourself as a born-again or evangelical Christian?
+RANGE: -1 to 2
+	N	Mean	Std. Deviation
+Total	3880	1.604	0.543
+-1) Skipped	36	0.9
+1) Yes	1428	36.8
+2) No	2416	62.3
+Missing	1892
+
+
+67) QRELIGION3
+[QID311-ChoiceGroup-SelectedChoices] - Selected Choice
+RANGE: -1 to 4
+	N	Mean	Std. Deviation
+Total	1489	2.444	0.89
+-1) Skipped	7	0.5
+1) Agnostic	286	19.2
+2) Atheist	306	20.6
+3) Nothing in particular	812	54.5
+4) Something else	78	5.2
+Missing	4283
+
+
+68) QRELIGION3_4_TEXT
+[QID311-ChoiceGroup-SelectedChoices] - Something else  - Text
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1489	0	0
+
+
+69) QPID100
+Generally speaking, do you think of yourself as...
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	5772	2.243	1.327
+-1) Skipped	15	0.3
+1) Republican	1844	31.9
+2) Democrat	1932	33.5
+3) Independent	1545	26.8
+6) Something else	436	7.6
+
+
+70) QPID110
+Would you call yourself a...
+RANGE: -1 to 2
+	N	Mean	Std. Deviation
+Total	1844	1.371	0.525
+-1) Skipped	13	0.7
+1) Strong Republican	1121	60.8
+2) Not very strong Republican	710	38.5
+Missing	3928
+
+
+71) QPID120
+Would you call yourself a...
+RANGE: -1 to 2
+	N	Mean	Std. Deviation
+Total	1932	1.367	0.501
+-1) Skipped	6	0.3
+1) Strong Democrat	1204	62.3
+2) Not very strong Democrat	722	37.4
+Missing	3840
+
+
+72) QPID130
+Do you think of yourself as closer to the...
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	1996	2.056	0.882
+-1) Skipped	26	1.3
+1) Republican Party	567	28.4
+2) Democratic Party	646	32.4
+3) Do not lean either way	757	37.9
+Missing	3776
+
+
+73) QIDEOLOGY
+In general, do you think of yourself as...
+RANGE: -1 to 7
+	N	Mean	Std. Deviation
+Total	5772	4.025	1.728
+-1) Skipped	115	2.0
+1) Extremely liberal	278	4.8
+2) Liberal	879	15.2
+3) Slightly liberal	518	9.0
+4) Moderate, middle of the road	1889	32.7
+5) Slightly conservative	628	10.9
+6) Conservative	1196	20.7
+7) Extremely conservative	269	4.7
+
+
+74) REC
+We often conduct opinion polls for clients who will publish the results. The sponsor of this research, Public Religion Research Institute, may want to contact some of the respondents to hear more of their opinions about the topics asked about in this survey. If you are willing to be contacted, we will need to pass along your name and phone number, as well as some of your responses connected to this survey. This information would be used only to facilitate contacting you. If you would be willing to participate in an interview (on-the-record and for attribution), please check 'yes' below. If not, please check 'no.' Your information will not be shared without your consent.
+RANGE: -1 to 2
+	N	Mean	Std. Deviation
+Total	5544	1.692	0.484
+-1) Skipped	20	0.4
+1) Yes, I am willing to be interviewed	1646	29.7
+2) No, I am not willing to be interviewed	3878	69.9
+Missing	228
+
+
+75) QHHSIZE_ADULTS
+Including yourself, how many people are 18 years of age or older and currently live in your household at least 50% of the time? Please include unrelated individuals (such as roommates), and also include those now away traveling, away at school, or in a hospital. Type in the number of adults 18 years of ...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	228	2.193	1.269
+1) 	72	31.6
+2) 	93	40.8
+3) 	32	14.0
+4) 	19	8.3
+5) 	7	3.1
+6) 	2	0.9
+7) 	2	0.9
+9) 	1	0.4
+Missing	5544
+
+
+76) QAGEGROUP_1_1
+How many members are there in each age group in your household? Type in the number for the answer. Please review your response. The total must be less than or equal to [QID135-ChoiceTextEntryValue] - 0 to 1 year old
+RANGE: -1 to 2
+	N	Mean	Std. Deviation
+Total	75	-0.373	0.731
+-1) Skipped	38	50.7
+0) 	28	37.3
+1) 	8	10.7
+2) 	1	1.3
+Missing	5697
+
+
+77) QAGEGROUP_2_1
+How many members are there in each age group in your household? Type in the number for the answer. Please review your response, The total must be less than or equal to [QID135-ChoiceTextEntryValue] - 2 to 5 years old
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	75	-0.053	0.943
+-1) Skipped	29	38.7
+0) 	26	34.7
+1) 	16	21.3
+2) 	3	4.0
+3) 	1	1.3
+Missing	5697
+
+
+78) QAGEGROUP_3_1
+How many members are there in each age group in your household? Type in the number for the answer. Please review your response, The total must be less than or equal to [QID135-ChoiceTextEntryValue] - 6 to 9 years old
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	75	-0.08	0.997
+-1) Skipped	32	42.7
+0) 	24	32.0
+1) 	13	17.3
+2) 	5	6.7
+3) 	1	1.3
+Missing	5697
+
+
+79) QAGEGROUP_4_1
+How many members are there in each age group in your household? Type in the number for the answer.  Please review your response, The total must be less than or equal to [QID135-ChoiceTextEntryValue] - 10 to 12 years old
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	75	-0.093	0.932
+-1) Skipped	31	41.3
+0) 	24	32.0
+1) 	17	22.7
+2) 	2	2.7
+3) 	1	1.3
+Missing	5697
+
+
+80) QAGEGROUP_5_1
+How many members are there in each age group in your household? Type in the number for the answer. Please review your response, The total must be less than or equal to [QID135-ChoiceTextEntryValue] - 13 to 17 years old
+RANGE: -1 to 3
+	N	Mean	Std. Deviation
+Total	75	0.4	1.04
+-1) Skipped	18	24.0
+0) 	21	28.0
+1) 	25	33.3
+2) 	10	13.3
+3) 	1	1.3
+Missing	5697
+
+
+81) KIDAGES_1
+Which of the following age groups are the children in your household in?
+RANGE: -1 to 1
+	N	Mean	Std. Deviation
+Total	1378	-0.541	0.841
+-1) Skipped	1062	77.1
+1) Under 5 Years	316	22.9
+Missing	4394
+
+
+82) KIDAGES_2
+Which of the following age groups are the children in your household in?
+RANGE: -1 to 1
+	N	Mean	Std. Deviation
+Total	1378	-0.187	0.983
+-1) Skipped	818	59.4
+1) 5 to 11 years old	560	40.6
+Missing	4394
+
+
+83) KIDAGES_3
+Which of the following age groups are the children in your household in?
+RANGE: -1 to 1
+	N	Mean	Std. Deviation
+Total	1378	0.03	1
+-1) Skipped	668	48.5
+1) 12 to 17 years old	710	51.5
+Missing	4394
+
+
+84) KIDAGES_4
+Which of the following age groups are the children in your household in?
+RANGE: -1 to 1
+	N	Mean	Std. Deviation
+Total	1378	-0.563	0.827
+-1) Skipped	1077	78.2
+1) 18 years old or older	301	21.8
+Missing	4394
+
+
+85) KIDAGES_5
+Which of the following age groups are the children in your household in?
+RANGE: -1 to 1
+	N	Mean	Std. Deviation
+Total	1378	-0.845	0.535
+-1) Skipped	1271	92.2
+1) I do not have any children in my household	107	7.8
+Missing	4394
+
+
+86) PPWORKA
+Please indicate your work status.
+RANGE: -1 to 10
+	N	Mean	Std. Deviation
+Total	5772	3.752	2.813
+-1) Skipped	19	0.3
+1) Employed full-time (by someone else)	2302	39.9
+2) Employed part-time (by someone else)	451	7.8
+3) Self-employed	346	6.0
+4) Currently laid off	98	1.7
+5) On furlough	16	0.3
+6) Retired	1853	32.1
+7) Homemaker	305	5.3
+9) Full-time student	114	2.0
+10) Other	268	4.6
+
+
+87) XPARTY4
+Political Party Affiliation (partyid4)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5544	2.142	0.969
+1) Republican	1697	30.6
+2) Democrat	1856	33.5
+3) Independent	1523	27.5
+4) Something else	463	8.4
+9) Missing	5	0.1
+Missing	228
+
+
+88) PARTYID7
+DERIVED: Political party affiliation (7 categories)
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	5544	4.091	2.169
+1) Strong Republican	1005	18.1
+2) Not Strong Republican	692	12.5
+3) Leans Republican	539	9.7
+4) Undecided/Independent/Other	880	15.9
+5) Leans Democrat	572	10.3
+6) Not Strong Democrat	700	12.6
+7) Strong Democrat	1156	20.9
+Missing	228
+
+
+89) XVOTE2020
+Did you happen to vote in the November 2020 elections for the U.S. President and Congress?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	5772	1.313	0.638
+1) Yes	4517	78.3
+2) No	701	12.1
+3) Not asked	554	9.6
+
+
+90) XCANDIDATE2020
+Which candidate did you vote for in the 2020 Presidential election?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.03	1.144
+1) Joe Biden (Democrat)	2438	42.2
+2) Donald Trump (Republican)	1975	34.2
+3) Another candidate	104	1.8
+4) Not asked	1255	21.7
+
+
+91) VOTE5
+Combination of XVOTE2020 and XCANDIDATE2020
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.03	1.144
+1) Joe Biden	2438	42.2
+2) Donald Trump	1975	34.2
+3) Another candidate	104	1.8
+4) Did not vote	1255	21.7
+
+
+92) PPETHM
+Race/Ethnicity, Census categories
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	5772	1.655	1.179
+1) White, Non-Hispanic	4132	71.6
+2) Black, Non-Hispanic	537	9.3
+3) Other, Non-Hispanic	251	4.3
+4) Hispanic	669	11.6
+5) 2+ Races, Non-Hispanic	183	3.2
+
+
+93) XPPRACEM
+Race, census categories
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	5544	1.396	1.076
+1) White	4559	82.2
+2) Black	546	9.8
+3) American Indian or Alaskan native	49	0.9
+4) Asian	198	3.6
+5) Native Hawaiian/Pacific Islander	4	0.1
+6) 2+ Races	188	3.4
+Missing	228
+
+
+94) XSPANISH
+Survey Language
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	5544	1.037	0.188
+1) English	5341	96.3
+2) Spanish	203	3.7
+Missing	228
+
+
+95) XACSLANG
+Primary Language
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	5772	4.628	1.052
+1) English Proficient	232	4.0
+2) Bilingual	344	6.0
+3) Spanish Proficient	93	1.6
+5) Non-Hispanics, not asked	5103	88.4
+
+
+96) PPAGE
+Age - profile and Recruitment
+RANGE: 18 to 100
+	N	Mean	Std. Deviation
+Total	5772	54.284	17.247
+18) 	57	1.0
+19) 	37	0.6
+20) 	36	0.6
+21) 	43	0.7
+22) 	46	0.8
+23) 	42	0.7
+24) 	65	1.1
+25) 	44	0.8
+26) 	50	0.9
+27) 	48	0.8
+28) 	51	0.9
+29) 	46	0.8
+30) 	54	0.9
+31) 	62	1.1
+32) 	68	1.2
+33) 	76	1.3
+34) 	61	1.1
+35) 	74	1.3
+36) 	89	1.5
+37) 	75	1.3
+38) 	86	1.5
+39) 	80	1.4
+40) 	100	1.7
+41) 	105	1.8
+42) 	125	2.2
+43) 	96	1.7
+44) 	103	1.8
+45) 	70	1.2
+46) 	92	1.6
+47) 	80	1.4
+48) 	86	1.5
+49) 	96	1.7
+50) 	82	1.4
+51) 	80	1.4
+52) 	93	1.6
+53) 	121	2.1
+54) 	101	1.7
+55) 	113	2.0
+56) 	105	1.8
+57) 	107	1.9
+58) 	105	1.8
+59) 	110	1.9
+60) 	113	2.0
+61) 	116	2.0
+62) 	146	2.5
+63) 	138	2.4
+64) 	134	2.3
+65) 	137	2.4
+66) 	118	2.0
+67) 	123	2.1
+68) 	113	2.0
+69) 	130	2.3
+70) 	119	2.1
+71) 	108	1.9
+72) 	107	1.9
+73) 	103	1.8
+74) 	94	1.6
+75) 	83	1.4
+76) 	84	1.5
+77) 	94	1.6
+78) 	84	1.5
+79) 	59	1.0
+80) 	53	0.9
+81) 	53	0.9
+82) 	44	0.8
+83) 	36	0.6
+84) 	25	0.4
+85) 	18	0.3
+86) 	22	0.4
+87) 	15	0.3
+88) 	11	0.2
+89) 	6	0.1
+90) 	5	0.1
+91) 	3	0.1
+92) 	6	0.1
+93) 	5	0.1
+94) 	1	0.0
+95) 	1	0.0
+96) 	1	0.0
+97) 	3	0.1
+100) 	1	0.0
+
+
+97) PPEDUCAT
+Education
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	5772	3.153	0.915
+1) Less than high school	275	4.8
+2) High school	1215	21.0
+3) Some college	1634	28.3
+4) Bachelor's degree or higher	2648	45.9
+
+
+98) PPEDUC5
+Education, 5 Categories
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	5772	3.364	1.167
+1) No high school diploma or GED	275	4.8
+2) High school graduate (high school diploma or the equivalent GED)	1215	21.0
+3) Some college or Associate's degree	1634	28.3
+4) Bachelor's degree	1429	24.8
+5) Master's degree or above	1219	21.1
+
+
+99) PPGENDER
+Gender
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	5772	1.53	0.499
+1) Male	2714	47.0
+2) Female	3058	53.0
+
+
+100) PPHHSIZE
+Household Size
+RANGE: 1 to 17
+	N	Mean	Std. Deviation
+Total	5772	2.554	1.425
+1) 	1167	20.2
+2) 	2431	42.1
+3) 	952	16.5
+4) 	676	11.7
+5) 	322	5.6
+6) 	120	2.1
+7) 	55	1.0
+8) 	25	0.4
+9) 	14	0.2
+10) 	6	0.1
+11) 	1	0.0
+12) 	2	0.0
+17) 	1	0.0
+
+
+101) PPHOUSE4
+PPHOUSE4
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	5544	1.466	0.859
+1) A one-family house detached from any other house	4109	74.1
+2) One-family condo or townhouse attached to other units	495	8.9
+3) Building with 2 or more apartments	733	13.2
+4) Other (mobile home, boat, RV, Van, etc.)	207	3.7
+Missing	228
+
+
+102) PPINC7
+Household Income
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	5772	4.856	1.763
+1) Less than $10,000	188	3.3
+2) $10,000 to $24,999	427	7.4
+3) $25,000 to $49,999	914	15.8
+4) $50,000 to $74,999	896	15.5
+5) $75,000 to $99,999	791	13.7
+6) $100,000 to $149,999	1187	20.6
+7) $150,000 or more	1369	23.7
+
+
+103) PPMARIT5
+Marital Status
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	5772	2.256	1.66
+1) Now married	3340	57.9
+2) Widowed	349	6.0
+3) Divorced	669	11.6
+4) Separated	91	1.6
+5) Never married	1323	22.9
+
+
+104) XURBANICITY
+Urbanicty
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	5544	2.078	0.89
+1) Urban	1999	36.1
+2) Rural	1116	20.1
+3) Suburban	2429	43.8
+Missing	228
+
+
+105) PPMSACAT
+MSA Status
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	5772	0.85	0.357
+0) Non-Metro	864	15.0
+1) Metro	4908	85.0
+
+
+106) PPREG4
+Region 4 - Based on State of Residence
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	5772	2.65	1.044
+1) NorthEast	1052	18.2
+2) MidWest	1357	23.5
+3) South	1925	33.4
+4) West	1438	24.9
+
+
+107) PPRENT
+Ownership status of living quarters
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	5544	1.23	0.443
+1) Owned or being bought by you or someone in your household	4325	78.0
+2) Rented for cash	1165	21.0
+3) Occupied without payment of cash rent	54	1.0
+Missing	228
+
+
+108) PPSTATEN
+State
+RANGE: 11 to 95
+	N	Mean	Std. Deviation
+Total	5772	54.806	25.758
+11) Maine	62	1.1
+12) New Hampshire	77	1.3
+13) Vermont	48	0.8
+14) Massachusetts	103	1.8
+15) Rhode Island	29	0.5
+16) Connecticut	83	1.4
+21) New York	273	4.7
+22) New Jersey	126	2.2
+23) Pennsylvania	251	4.3
+31) Ohio	214	3.7
+32) Indiana	120	2.1
+33) Illinois	180	3.1
+34) Michigan	173	3.0
+35) Wisconsin	235	4.1
+41) Minnesota	106	1.8
+42) Iowa	53	0.9
+43) Missouri	101	1.7
+44) North Dakota	57	1.0
+45) South Dakota	39	0.7
+46) Nebraska	42	0.7
+47) Kansas	37	0.6
+51) Delaware	81	1.4
+52) Maryland	92	1.6
+53) District of Columbia	53	0.9
+54) Virginia	148	2.6
+55) West Virginia	26	0.5
+56) North Carolina	171	3.0
+57) South Carolina	72	1.2
+58) Georgia	134	2.3
+59) Florida	339	5.9
+61) Kentucky	54	0.9
+62) Tennessee	114	2.0
+63) Alabama	85	1.5
+64) Mississippi	30	0.5
+71) Arkansas	38	0.7
+72) Louisiana	62	1.1
+73) Oklahoma	47	0.8
+74) Texas	379	6.6
+81) Montana	60	1.0
+82) Idaho	49	0.8
+83) Wyoming	42	0.7
+84) Colorado	196	3.4
+85) New Mexico	48	0.8
+86) Arizona	105	1.8
+87) Utah	55	1.0
+88) Nevada	59	1.0
+91) Washington	123	2.1
+92) Oregon	66	1.1
+93) California	535	9.3
+94) Alaska	55	1.0
+95) Hawaii	45	0.8
+
+
+109) PPEMPLOY
+Current Employment Status
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	5544	1.966	0.925
+1) Working full-time	2466	44.5
+2) Working part-time	799	14.4
+3) Not working	2279	41.1
+Missing	228
+
+
+110) PPT18OV
+Total number of HH members age 18 or older
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	5772	2.125	0.97
+1) 	1360	23.6
+2) 	3052	52.9
+3) 	855	14.8
+4) 	354	6.1
+5) 	105	1.8
+6) 	35	0.6
+7) 	7	0.1
+8) 	1	0.0
+9) 	1	0.0
+10) 	2	0.0
+
+
+111) PPKID017
+Household members age 0 to 17
+RANGE: 0 to 10
+	N	Mean	Std. Deviation
+Total	5772	0.429	0.911
+0) 	4394	76.1
+1) 	651	11.3
+2) 	486	8.4
+3) 	161	2.8
+4) 	50	0.9
+5) 	20	0.3
+6) 	5	0.1
+7) 	2	0.0
+8) 	2	0.0
+10) 	1	0.0
+
+
+112) XPPPA_LGB
+Sexual Orientation
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	5772	2.055	0.429
+1) Gay or lesbian	183	3.2
+2) Straight	5250	91.0
+3) Bisexual	212	3.7
+4) Something else	92	1.6
+5) Refused/missing	35	0.6
+
+
+113) XPPPAGNID
+Gender Identification
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	5772	3.974	0.252
+1) Transgender	23	0.4
+2) Other	28	0.5
+3) Non-binary	39	0.7
+4) Cisgender	5670	98.2
+5) Refused/missing	12	0.2
+
+
+114) FIPS
+FIPS code: 2020 Census
+RANGE: 1001 to 56037
+	N	Mean	Std. Deviation
+Total	5544	28111.529	16395.234
+Missing	228
+
+
+115) I-ETHNIC
+Race/Ethnicity, Census categories (for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	5772	1.655	1.179
+1) White, Non-Hispanic	4132	71.6
+2) Black, Non-Hispanic	537	9.3
+3) Other, Non-Hispanic	251	4.3
+4) Hispanic	669	11.6
+5) 2+ Races, Non-Hispanic	183	3.2
+
+
+116) I-PARTYID
+Political Party Affiliation (partyid4) (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	5539	2.136	0.947
+1) Republican	1697	30.6
+2) Democrat	1856	33.5
+3) Independent	1523	27.5
+4) Something else	463	8.4
+Missing	233
+
+
+117) I-RELIGION
+What is your religion? (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	5712	2.778	1.514
+1) Catholic	1281	22.4
+2) Evangelical or Protestant Christian	1985	34.8
+3) Other Christian religion	657	11.5
+4) Other non-Christian religion	300	5.3
+5) No religion	1489	26.1
+Missing	60
+
+
+118) I-ATTEND
+Over the past year, how often have you done each of the following? Aside from weddings and funerals, attended religious services either virtually or in person (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	5703	4.183	1.764
+1) More than once a week	522	9.2
+2) Once a week	996	17.5
+3) Once or twice a month	386	6.8
+4) A few times a year	750	13.2
+5) Seldom	1110	19.5
+6) Never	1939	34.0
+Missing	69
+
+
+119) I-EMPLOY
+Current Employment Status (for use with online analysis)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	5544	1.966	0.925
+1) Working full-time	2466	44.5
+2) Working part-time	799	14.4
+3) Not working	2279	41.1
+Missing	228
+
+

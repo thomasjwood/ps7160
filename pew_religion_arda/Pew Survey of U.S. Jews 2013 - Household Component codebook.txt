@@ -1,0 +1,2025 @@
+Data File: JEWH13(Full Data Codebook)
+
+1) QKEY
+Unique Respondent Identification Number
+RANGE: 1000034 to 3022910
+	N	Mean	Std. Deviation
+Total	95503	1761035.722	438197.06
+
+
+2) COMPTYP
+Type of Interview
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	95503	1.858	0.349
+1) Long interview (with eligible respondent)	13581	14.2
+2) Short interview with ineligible (screened out) respondent, demographics asked	81922	85.8
+
+
+3) HHMEM
+Household Member Number
+RANGE: 1 to 29
+	N	Mean	Std. Deviation
+Total	95503	6.448	7.889
+1) Respondent	35929	37.6
+2) Spouse in Eligible HH	3093	3.2
+3) Adult	22837	23.9
+4) Adult	7484	7.8
+5) Adult	2902	3.0
+6) Adult	858	0.9
+7) Adult	329	0.3
+8) Adult	191	0.2
+9) Adult	143	0.1
+10) Adult	118	0.1
+11) Adult	67	0.1
+12) Adult	57	0.1
+13) Adult	48	0.1
+20) Child	10953	11.5
+21) Child	6392	6.7
+22) Child	2366	2.5
+23) Child	891	0.9
+24) Child	343	0.4
+25) Child	186	0.2
+26) Child	122	0.1
+27) Child	93	0.1
+28) Child	77	0.1
+29) Child	24	0.0
+
+
+4) TOTALADU
+Number of Adults (HHADULT or SCRNHHADULT)
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	95503	2.595	1.534
+1)	13168	13.8
+2)	47440	49.7
+3)	18034	18.9
+4)	10164	10.6
+5)	3343	3.5
+6)	1068	1.1
+7)	478	0.5
+8)	221	0.2
+9)	661	0.7
+10)	107	0.1
+11)	74	0.1
+12)	745	0.8
+
+
+5) TOTALCHI
+Number of Children (HHCHILD or SCRNHHCHILD)
+RANGE: 0 to 10
+	N	Mean	Std. Deviation
+Total	95503	1.163	1.637
+0)	48013	50.3
+1)	15502	16.2
+2)	17162	18.0
+3)	7885	8.3
+4)	3607	3.8
+5)	1195	1.3
+6)	579	0.6
+7)	283	0.3
+8)	167	0.2
+9)	736	0.8
+10)	374	0.4
+
+
+6) ROSTERLI
+Link to respondent (ROSTERLINK)
+RANGE: 1 to 4200
+	N	Mean	Std. Deviation
+Total	95503	2641.413	1428.415
+1) Boyfriend/girlfriend (includes fiance)	14	0.0
+2) Parent (including mother/father/mother-in-law/father-in-law/stepparent)	390	0.4
+3) Child / stepchild	558	0.6
+4) Grandparent	12	0.0
+5) Grandchild	9	0.0
+6) Roommate	61	0.1
+7) Sibling (including brother, sister, step-brother, step-sister)	126	0.1
+11) Aunt/uncle	5	0.0
+12) Niece/nephew	2	0.0
+13) Cousin	11	0.0
+14) In-law (other than mother-in-law/father-in-law)	9	0.0
+15) Renter/boarder	2	0.0
+16) Friend	22	0.0
+17) Ex-spouse/Ex-partner	2	0.0
+97) Other	5	0.0
+99) Don't know/refused	15	0.0
+1000) Respondent	35929	37.6
+2000) Spouse/Partner	3093	3.2
+3100) Children in Eligible HHs	3059	3.2
+3200) Children in Ineligible HHs	18388	19.3
+4100) Ineligible Adult in Eligible HH	1054	1.1
+4200) Ineligible Adult in Ineligible HH	32737	34.3
+
+
+7) ROSTERSE
+Sex [ROSTERSEX]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	40265	1.53	0.52
+1) Male	19035	47.3
+2) Female	21213	52.7
+3) Other (VOL.)	2	0.0
+9) Don't know/refused	15	0.0
+Missing	55238
+
+
+8) ROSTERAG
+Age [ROSTERAGE]
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	43324	50.984	23.656
+
+
+9) ROSTERRE
+Religion [ROSTERREL]
+RANGE: 1 to 9102
+	N	Mean	Std. Deviation
+Total	43324	190.772	1272.719
+1) Protestant	10871	25.1
+2) Roman Catholic	8797	20.3
+5) Jewish	7024	16.2
+6) Muslim	445	1.0
+7) Buddhist	287	0.7
+8) Hindu	385	0.9
+9) Atheist	1209	2.8
+10) Agnostic	1039	2.4
+12) Or nothing in particular	5997	13.8
+13) [VOL. - DO NOT READ] Christian	4161	9.6
+14) [VOL. - DO NOT READ] Jewish and Christian - Messianic Jew	51	0.1
+15) [VOL. - DO NOT READ] Jewish and Christian (not including Messianic Jews)	50	0.1
+16) [VOL. - DO NOT READ] Jewish and non-Christian religion	12	0.0
+17) [VOL. - DO NOT READ] Jewish and no religion/Atheist/Agnostic	9	0.0
+21) [VOL. - DO NOT READ] Mormon	173	0.4
+22) [VOL. - DO NOT READ] Orthodox Christian	160	0.4
+40) [VOL. - DO NOT READ] Unitarian	87	0.2
+41) [VOL. - DO NOT READ] Wiccan/Pagan	57	0.1
+42) [VOL. - DO NOT READ] Spiritual	89	0.2
+43) [VOL. - DO NOT READ] Non-denominational	54	0.1
+44) [VOL. - DO NOT READ] Own beliefs	5	0.0
+45) [VOL. - DO NOT READ] Believer/Believe in God	20	0.0
+46) [VOL. - DO NOT READ] Sikh	19	0.0
+47) [VOL. - DO NOT READ] Humanist/Secular humanist	16	0.0
+48) [VOL. - DO NOT READ] Hebrew Israelite	5	0.0
+49) [VOL. - DO NOT READ] Deist	10	0.0
+50) [VOL. - DO NOT READ] Bahai	10	0.0
+97) [VOL. - DO NOT READ] Other - Christian	16	0.0
+98) [VOL. - DO NOT READ] Other - not Christian	439	1.0
+99) [VOL. - DO NOT READ] Don't know/refused	961	2.2
+9101) Another Religion (child)	534	1.2
+9102) Partly Jewish and partly else (child)	332	0.8
+Missing	52179
+
+
+10) ROSTERID
+Consider Self Jewish
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	35846	3.039	0.971
+1) Yes	858	2.4
+2) Yes, partially Jewish	1673	4.7
+3) No, do not	32516	90.7
+9) Don't know/refused	799	2.2
+Missing	59657
+
+
+11) ROSTERJN
+Raised Jewish/Had Jewish parents (adults only) [ROSTERJNBR]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	40265	1.926	0.967
+1) Yes	7351	18.3
+2) No	32291	80.2
+9) Don't know/refused (VOL.)	623	1.5
+Missing	55238
+
+
+12) CATEGORY
+Type of Jewish identity for Adults\V
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	95503	25.825	39.391
+1) Jews by religion	5283	5.5
+2) Jews of no religion	854	0.9
+3) Jewish background	1401	1.5
+4) Jewish affinity	633	0.7
+5) Not Jewish in any way	65885	69.0
+99) Child	21447	22.5
+
+
+13) CHILDCAT
+Type of Jewish identity for Children [CHILDCATEGORY]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	95503	78.603	37.918
+1) Jewish alone by religion	1741	1.8
+2) No religion, raised fully Jewish	18	0.0
+3) No religion, raised partly Jewish	80	0.1
+4) Raised Jewish by religion and in another religion	332	0.3
+5) Other religion, raised fully Jewish	13	0.0
+6) Other religion, raised partly Jewish	98	0.1
+7) Other religion, not raised Jewish	460	0.5
+8) No religion, not raised Jewish	317	0.3
+9) Screenout HH [Child in ineligible household]	18388	19.3
+99) Adult	74056	77.5
+
+
+14) HHWEIGHT
+Recommended for use in estimating the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)
+RANGE: 41.62855 to 38544.436
+	N	Mean	Std. Deviation
+Total	95503	2715.616	2971.874
+
+
+15) BSHW1
+BSHW1 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 107685.2
+	N	Mean	Std. Deviation
+Total	95503	2717.964	4496.36
+
+
+16) BSHW2
+BSHW2 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 114869.02
+	N	Mean	Std. Deviation
+Total	95503	2710.283	4539.599
+
+
+17) BSHW3
+BSHW3 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 109259.9
+	N	Mean	Std. Deviation
+Total	95503	2714.226	4394.721
+
+
+18) BSHW4
+BSHW4 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 120077.4
+	N	Mean	Std. Deviation
+Total	95503	2714.386	4542.217
+
+
+19) BSHW5
+BSHW5 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 104198.34
+	N	Mean	Std. Deviation
+Total	95503	2716.91	4539.762
+
+
+20) BSHW6
+BSHW6 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 87315.117
+	N	Mean	Std. Deviation
+Total	95503	2714.59	4426.589
+
+
+21) BSHW7
+BSHW7 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 114802.91
+	N	Mean	Std. Deviation
+Total	95503	2710.408	4508.198
+
+
+22) BSHW8
+BSHW8 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 100325.37
+	N	Mean	Std. Deviation
+Total	95503	2719.383	4523.019
+
+
+23) BSHW9
+BSHW9 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 99607.586
+	N	Mean	Std. Deviation
+Total	95503	2713.072	4491.067
+
+
+24) BSHW10
+BSHW10 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 103902.18
+	N	Mean	Std. Deviation
+Total	95503	2705.616	4474.1
+
+
+25) BSHW11
+BSHW11 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 109802.34
+	N	Mean	Std. Deviation
+Total	95503	2715.318	4577.861
+
+
+26) BSHW12
+BSHW12 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 105562.52
+	N	Mean	Std. Deviation
+Total	95503	2718.223	4498.069
+
+
+27) BSHW13
+BSHW13 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 141390
+	N	Mean	Std. Deviation
+Total	95503	2717.245	4536.191
+
+
+28) BSHW14
+BSHW14 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 116495.48
+	N	Mean	Std. Deviation
+Total	95503	2712.474	4547.422
+
+
+29) BSHW15
+BSHW15 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 119726.52
+	N	Mean	Std. Deviation
+Total	95503	2714.909	4541.861
+
+
+30) BSHW16
+BSHW16 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 111603.93
+	N	Mean	Std. Deviation
+Total	95503	2712.647	4508.587
+
+
+31) BSHW17
+BSHW17 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 98618.484
+	N	Mean	Std. Deviation
+Total	95503	2715.417	4444.077
+
+
+32) BSHW18
+BSHW18 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 103403.54
+	N	Mean	Std. Deviation
+Total	95503	2717.711	4512.472
+
+
+33) BSHW19
+BSHW19 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 101524.74
+	N	Mean	Std. Deviation
+Total	95503	2717.274	4504.165
+
+
+34) BSHW20
+BSHW20 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 97618.945
+	N	Mean	Std. Deviation
+Total	95503	2714.33	4427.618
+
+
+35) BSHW21
+BSHW21 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 95937.758
+	N	Mean	Std. Deviation
+Total	95503	2711.527	4517.364
+
+
+36) BSHW22
+BSHW22 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 114496.64
+	N	Mean	Std. Deviation
+Total	95503	2712.286	4492.635
+
+
+37) BSHW23
+BSHW23 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 104368.45
+	N	Mean	Std. Deviation
+Total	95503	2714.83	4493.054
+
+
+38) BSHW24
+BSHW24 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 110324.25
+	N	Mean	Std. Deviation
+Total	95503	2711.232	4481.921
+
+
+39) BSHW25
+BSHW25 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 108867.77
+	N	Mean	Std. Deviation
+Total	95503	2717.843	4580.613
+
+
+40) BSHW26
+BSHW26 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 85782.125
+	N	Mean	Std. Deviation
+Total	95503	2714.646	4439.557
+
+
+41) BSHW27
+BSHW27 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 126676.83
+	N	Mean	Std. Deviation
+Total	95503	2711.532	4558.59
+
+
+42) BSHW28
+BSHW28 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 91308.297
+	N	Mean	Std. Deviation
+Total	95503	2718.243	4538.814
+
+
+43) BSHW29
+BSHW29 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 85876.992
+	N	Mean	Std. Deviation
+Total	95503	2711.818	4511.63
+
+
+44) BSHW30
+BSHW30 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 88330.133
+	N	Mean	Std. Deviation
+Total	95503	2715.083	4493.585
+
+
+45) BSHW31
+BSHW31 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 101699.8
+	N	Mean	Std. Deviation
+Total	95503	2718.904	4498.607
+
+
+46) BSHW32
+BSHW32 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 123777.26
+	N	Mean	Std. Deviation
+Total	95503	2715.766	4526.949
+
+
+47) BSHW33
+BSHW33 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 104893.02
+	N	Mean	Std. Deviation
+Total	95503	2715.395	4511.811
+
+
+48) BSHW34
+BSHW34 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 124582.58
+	N	Mean	Std. Deviation
+Total	95503	2714.349	4488.913
+
+
+49) BSHW35
+BSHW35 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 106744.02
+	N	Mean	Std. Deviation
+Total	95503	2718.342	4476.509
+
+
+50) BSHW36
+BSHW36 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 109580.47
+	N	Mean	Std. Deviation
+Total	95503	2717.647	4500.192
+
+
+51) BSHW37
+BSHW37 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 133884.83
+	N	Mean	Std. Deviation
+Total	95503	2724.546	4619.469
+
+
+52) BSHW38
+BSHW38 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 114353.74
+	N	Mean	Std. Deviation
+Total	95503	2714.739	4524.018
+
+
+53) BSHW39
+BSHW39 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 110123.98
+	N	Mean	Std. Deviation
+Total	95503	2714.3	4523.999
+
+
+54) BSHW40
+BSHW40 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 126461.87
+	N	Mean	Std. Deviation
+Total	95503	2714.367	4513.981
+
+
+55) BSHW41
+BSHW41 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 113554.69
+	N	Mean	Std. Deviation
+Total	95503	2715.158	4461.18
+
+
+56) BSHW42
+BSHW42 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 118474.8
+	N	Mean	Std. Deviation
+Total	95503	2717.078	4460.173
+
+
+57) BSHW43
+BSHW43 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 105435.27
+	N	Mean	Std. Deviation
+Total	95503	2719.176	4476.34
+
+
+58) BSHW44
+BSHW44 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 109974.46
+	N	Mean	Std. Deviation
+Total	95503	2718.882	4544.127
+
+
+59) BSHW45
+BSHW45 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 110310.15
+	N	Mean	Std. Deviation
+Total	95503	2718.905	4484.676
+
+
+60) BSHW46
+BSHW46 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 99400.336
+	N	Mean	Std. Deviation
+Total	95503	2718.306	4431.926
+
+
+61) BSHW47
+BSHW47 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 98346.906
+	N	Mean	Std. Deviation
+Total	95503	2722.036	4525.684
+
+
+62) BSHW48
+BSHW48 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 96171.836
+	N	Mean	Std. Deviation
+Total	95503	2707.611	4443.344
+
+
+63) BSHW49
+BSHW49 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 119622.57
+	N	Mean	Std. Deviation
+Total	95503	2722.423	4562.558
+
+
+64) BSHW50
+BSHW50 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 110889.84
+	N	Mean	Std. Deviation
+Total	95503	2717.513	4508.541
+
+
+65) BSHW51
+BSHW51 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 104461.11
+	N	Mean	Std. Deviation
+Total	95503	2713.428	4495.623
+
+
+66) BSHW52
+BSHW52 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 140982.14
+	N	Mean	Std. Deviation
+Total	95503	2711.598	4537.632
+
+
+67) BSHW53
+BSHW53 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 147691.06
+	N	Mean	Std. Deviation
+Total	95503	2710.726	4575.635
+
+
+68) BSHW54
+BSHW54 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 111627.39
+	N	Mean	Std. Deviation
+Total	95503	2709.299	4491.628
+
+
+69) BSHW55
+BSHW55 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 94586.563
+	N	Mean	Std. Deviation
+Total	95503	2715.13	4476.627
+
+
+70) BSHW56
+BSHW56 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 98357.883
+	N	Mean	Std. Deviation
+Total	95503	2714.533	4532.49
+
+
+71) BSHW57
+BSHW57 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 139706.3
+	N	Mean	Std. Deviation
+Total	95503	2721.71	4536.317
+
+
+72) BSHW58
+BSHW58 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 128059.2
+	N	Mean	Std. Deviation
+Total	95503	2717.136	4481.512
+
+
+73) BSHW59
+BSHW59 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 96963.633
+	N	Mean	Std. Deviation
+Total	95503	2715.382	4519.206
+
+
+74) BSHW60
+BSHW60 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 110695.04
+	N	Mean	Std. Deviation
+Total	95503	2723.236	4530.136
+
+
+75) BSHW61
+BSHW61 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 116938.72
+	N	Mean	Std. Deviation
+Total	95503	2715.426	4500.683
+
+
+76) BSHW62
+BSHW62 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 106614.72
+	N	Mean	Std. Deviation
+Total	95503	2713.323	4538.486
+
+
+77) BSHW63
+BSHW63 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 122786.38
+	N	Mean	Std. Deviation
+Total	95503	2719.842	4476.008
+
+
+78) BSHW64
+BSHW64 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 110570.47
+	N	Mean	Std. Deviation
+Total	95503	2715.477	4450.165
+
+
+79) BSHW65
+BSHW65 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 104200.72
+	N	Mean	Std. Deviation
+Total	95503	2710.662	4531.851
+
+
+80) BSHW66
+BSHW66 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 104874.25
+	N	Mean	Std. Deviation
+Total	95503	2716.312	4601.637
+
+
+81) BSHW67
+BSHW67 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 122307.45
+	N	Mean	Std. Deviation
+Total	95503	2718.442	4495.844
+
+
+82) BSHW68
+BSHW68 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 86125.93
+	N	Mean	Std. Deviation
+Total	95503	2709.749	4455.019
+
+
+83) BSHW69
+BSHW69 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 88766.133
+	N	Mean	Std. Deviation
+Total	95503	2713.799	4489.764
+
+
+84) BSHW70
+BSHW70 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 96848.711
+	N	Mean	Std. Deviation
+Total	95503	2714.115	4475.849
+
+
+85) BSHW71
+BSHW71 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 99685
+	N	Mean	Std. Deviation
+Total	95503	2718.77	4511.727
+
+
+86) BSHW72
+BSHW72 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 99400.602
+	N	Mean	Std. Deviation
+Total	95503	2716.421	4432.803
+
+
+87) BSHW73
+BSHW73 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 117926.99
+	N	Mean	Std. Deviation
+Total	95503	2721.176	4598.027
+
+
+88) BSHW74
+BSHW74 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 113212.26
+	N	Mean	Std. Deviation
+Total	95503	2715.72	4520.244
+
+
+89) BSHW75
+BSHW75 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 110520.23
+	N	Mean	Std. Deviation
+Total	95503	2717.383	4442.03
+
+
+90) BSHW76
+BSHW76 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 105689.63
+	N	Mean	Std. Deviation
+Total	95503	2716.041	4479.273
+
+
+91) BSHW77
+BSHW77 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 87845.391
+	N	Mean	Std. Deviation
+Total	95503	2711.754	4498.449
+
+
+92) BSHW78
+BSHW78 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 116851.73
+	N	Mean	Std. Deviation
+Total	95503	2717.379	4512.633
+
+
+93) BSHW79
+BSHW79 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 95816.922
+	N	Mean	Std. Deviation
+Total	95503	2715.86	4461.472
+
+
+94) BSHW80
+BSHW80 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 108054.34
+	N	Mean	Std. Deviation
+Total	95503	2720.472	4554.42
+
+
+95) BSHW81
+BSHW81 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 142414.3
+	N	Mean	Std. Deviation
+Total	95503	2713.687	4438.779
+
+
+96) BSHW82
+BSHW82 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 146602.5
+	N	Mean	Std. Deviation
+Total	95503	2711.617	4548.331
+
+
+97) BSHW83
+BSHW83 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 109343.57
+	N	Mean	Std. Deviation
+Total	95503	2721.468	4606.583
+
+
+98) BSHW84
+BSHW84 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 95521.078
+	N	Mean	Std. Deviation
+Total	95503	2717.2	4506.029
+
+
+99) BSHW85
+BSHW85 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 101133.71
+	N	Mean	Std. Deviation
+Total	95503	2710.508	4466.822
+
+
+100) BSHW86
+BSHW86 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 114782.49
+	N	Mean	Std. Deviation
+Total	95503	2712.484	4457
+
+
+101) BSHW87
+BSHW87 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 93169.727
+	N	Mean	Std. Deviation
+Total	95503	2715.747	4437.594
+
+
+102) BSHW88
+BSHW88 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 141876.61
+	N	Mean	Std. Deviation
+Total	95503	2715.068	4508.004
+
+
+103) BSHW89
+BSHW89 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 153462.13
+	N	Mean	Std. Deviation
+Total	95503	2712.527	4477.204
+
+
+104) BSHW90
+BSHW90 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 114899.96
+	N	Mean	Std. Deviation
+Total	95503	2713.837	4494.954
+
+
+105) BSHW91
+BSHW91 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 119604.25
+	N	Mean	Std. Deviation
+Total	95503	2718.255	4528.22
+
+
+106) BSHW92
+BSHW92 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 98700.438
+	N	Mean	Std. Deviation
+Total	95503	2720.292	4512.278
+
+
+107) BSHW93
+BSHW93 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 136856.75
+	N	Mean	Std. Deviation
+Total	95503	2720.373	4596.606
+
+
+108) BSHW94
+BSHW94 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 104816.02
+	N	Mean	Std. Deviation
+Total	95503	2716.245	4505.674
+
+
+109) BSHW95
+BSHW95 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 135452.88
+	N	Mean	Std. Deviation
+Total	95503	2716.575	4486.808
+
+
+110) BSHW96
+BSHW96 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 112122.52
+	N	Mean	Std. Deviation
+Total	95503	2715.786	4499.624
+
+
+111) BSHW97
+BSHW97 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 105476.52
+	N	Mean	Std. Deviation
+Total	95503	2708.223	4534.196
+
+
+112) BSHW98
+BSHW98 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 92841.023
+	N	Mean	Std. Deviation
+Total	95503	2714.89	4508.659
+
+
+113) BSHW99
+BSHW99 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 93704.305
+	N	Mean	Std. Deviation
+Total	95503	2713.693	4520.724
+
+
+114) BSHW100
+BSHW100 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 89721.07
+	N	Mean	Std. Deviation
+Total	95503	2714.313	4445.833
+
+
+115) BSHW101
+BSHW101 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 137379.59
+	N	Mean	Std. Deviation
+Total	95503	2718.899	4423.179
+
+
+116) BSHW102
+BSHW102 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 102224.37
+	N	Mean	Std. Deviation
+Total	95503	2716.392	4479.723
+
+
+117) BSHW103
+BSHW103 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 126993.66
+	N	Mean	Std. Deviation
+Total	95503	2716.296	4533.401
+
+
+118) BSHW104
+BSHW104 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 108527.34
+	N	Mean	Std. Deviation
+Total	95503	2709.475	4486.079
+
+
+119) BSHW105
+BSHW105 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 100712.45
+	N	Mean	Std. Deviation
+Total	95503	2716.597	4539.672
+
+
+120) BSHW106
+BSHW106 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 113659.7
+	N	Mean	Std. Deviation
+Total	95503	2713.873	4480.719
+
+
+121) BSHW107
+BSHW107 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 90649.023
+	N	Mean	Std. Deviation
+Total	95503	2714.776	4589.194
+
+
+122) BSHW108
+BSHW108 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 118966.77
+	N	Mean	Std. Deviation
+Total	95503	2711.733	4586.65
+
+
+123) BSHW109
+BSHW109 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 109969.23
+	N	Mean	Std. Deviation
+Total	95503	2720.255	4603.533
+
+
+124) BSHW110
+BSHW110 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 103854.45
+	N	Mean	Std. Deviation
+Total	95503	2724.489	4554.616
+
+
+125) BSHW111
+BSHW111 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 88409.836
+	N	Mean	Std. Deviation
+Total	95503	2719.099	4460.911
+
+
+126) BSHW112
+BSHW112 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 108610.97
+	N	Mean	Std. Deviation
+Total	95503	2709.592	4518.127
+
+
+127) BSHW113
+BSHW113 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 116044.14
+	N	Mean	Std. Deviation
+Total	95503	2714.655	4562.855
+
+
+128) BSHW114
+BSHW114 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 112135.85
+	N	Mean	Std. Deviation
+Total	95503	2713.467	4493.452
+
+
+129) BSHW115
+BSHW115 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 122578.06
+	N	Mean	Std. Deviation
+Total	95503	2712.424	4541.385
+
+
+130) BSHW116
+BSHW116 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 116623.91
+	N	Mean	Std. Deviation
+Total	95503	2707.421	4487.775
+
+
+131) BSHW117
+BSHW117 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 130803.73
+	N	Mean	Std. Deviation
+Total	95503	2723.026	4632.782
+
+
+132) BSHW118
+BSHW118 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 121662.27
+	N	Mean	Std. Deviation
+Total	95503	2714.403	4650.961
+
+
+133) BSHW119
+BSHW119 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 95340.141
+	N	Mean	Std. Deviation
+Total	95503	2712.976	4444.061
+
+
+134) BSHW120
+BSHW120 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 113398.68
+	N	Mean	Std. Deviation
+Total	95503	2719.742	4552.265
+
+
+135) BSHW121
+BSHW121 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 86876.422
+	N	Mean	Std. Deviation
+Total	95503	2715.526	4513.151
+
+
+136) BSHW122
+BSHW122 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 106644.25
+	N	Mean	Std. Deviation
+Total	95503	2716.04	4449.74
+
+
+137) BSHW123
+BSHW123 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 119584.04
+	N	Mean	Std. Deviation
+Total	95503	2714.153	4511.709
+
+
+138) BSHW124
+BSHW124 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 154834.55
+	N	Mean	Std. Deviation
+Total	95503	2718.778	4509.393
+
+
+139) BSHW125
+BSHW125 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 101694.52
+	N	Mean	Std. Deviation
+Total	95503	2710.08	4484.151
+
+
+140) BSHW126
+BSHW126 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 103878.04
+	N	Mean	Std. Deviation
+Total	95503	2715.778	4499.533
+
+
+141) BSHW127
+BSHW127 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 124685.27
+	N	Mean	Std. Deviation
+Total	95503	2718.052	4594.259
+
+
+142) BSHW128
+BSHW128 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 113822.37
+	N	Mean	Std. Deviation
+Total	95503	2711.96	4510.449
+
+
+143) BSHW129
+BSHW129 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 114607.79
+	N	Mean	Std. Deviation
+Total	95503	2714.366	4447.887
+
+
+144) BSHW130
+BSHW130 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 192578.66
+	N	Mean	Std. Deviation
+Total	95503	2716.739	4521.772
+
+
+145) BSHW131
+BSHW131 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 96246.758
+	N	Mean	Std. Deviation
+Total	95503	2713.452	4524.375
+
+
+146) BSHW132
+BSHW132 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 123851.22
+	N	Mean	Std. Deviation
+Total	95503	2714.376	4455.42
+
+
+147) BSHW133
+BSHW133 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 124048.66
+	N	Mean	Std. Deviation
+Total	95503	2718.191	4525.097
+
+
+148) BSHW134
+BSHW134 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 94655.539
+	N	Mean	Std. Deviation
+Total	95503	2723.304	4496.653
+
+
+149) BSHW135
+BSHW135 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 96900.031
+	N	Mean	Std. Deviation
+Total	95503	2717.872	4432.252
+
+
+150) BSHW136
+BSHW136 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 113105.15
+	N	Mean	Std. Deviation
+Total	95503	2718.864	4526.293
+
+
+151) BSHW137
+BSHW137 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 105033.88
+	N	Mean	Std. Deviation
+Total	95503	2710.325	4498.812
+
+
+152) BSHW138
+BSHW138 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 113523.84
+	N	Mean	Std. Deviation
+Total	95503	2714.308	4519.075
+
+
+153) BSHW139
+BSHW139 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 125691.55
+	N	Mean	Std. Deviation
+Total	95503	2712.843	4575.315
+
+
+154) BSHW140
+BSHW140 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 101269.48
+	N	Mean	Std. Deviation
+Total	95503	2714.924	4530.225
+
+
+155) BSHW141
+BSHW141 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 121069.27
+	N	Mean	Std. Deviation
+Total	95503	2712.661	4487.214
+
+
+156) BSHW142
+BSHW142 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 105256.04
+	N	Mean	Std. Deviation
+Total	95503	2712.304	4626.977
+
+
+157) BSHW143
+BSHW143 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 103401.02
+	N	Mean	Std. Deviation
+Total	95503	2708.862	4510.228
+
+
+158) BSHW144
+BSHW144 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 108436.56
+	N	Mean	Std. Deviation
+Total	95503	2712.769	4511.698
+
+
+159) BSHW145
+BSHW145 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 122392.8
+	N	Mean	Std. Deviation
+Total	95503	2714.131	4532.414
+
+
+160) BSHW146
+BSHW146 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 95922.945
+	N	Mean	Std. Deviation
+Total	95503	2712.194	4530.913
+
+
+161) BSHW147
+BSHW147 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 114077.38
+	N	Mean	Std. Deviation
+Total	95503	2714.31	4568.932
+
+
+162) BSHW148
+BSHW148 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 87553.352
+	N	Mean	Std. Deviation
+Total	95503	2719.404	4447.841
+
+
+163) BSHW149
+BSHW149 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 106147.32
+	N	Mean	Std. Deviation
+Total	95503	2716.206	4497.072
+
+
+164) BSHW150
+BSHW150 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 106324.58
+	N	Mean	Std. Deviation
+Total	95503	2719.356	4593.012
+
+
+165) BSHW151
+BSHW151 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 106822.26
+	N	Mean	Std. Deviation
+Total	95503	2718.736	4502.123
+
+
+166) BSHW152
+BSHW152 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 131866.08
+	N	Mean	Std. Deviation
+Total	95503	2721.762	4470.841
+
+
+167) BSHW153
+BSHW153 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 97103.328
+	N	Mean	Std. Deviation
+Total	95503	2721.182	4558.172
+
+
+168) BSHW154
+BSHW154 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 112162.55
+	N	Mean	Std. Deviation
+Total	95503	2710.84	4433.881
+
+
+169) BSHW155
+BSHW155 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 104153.59
+	N	Mean	Std. Deviation
+Total	95503	2722.04	4563.827
+
+
+170) BSHW156
+BSHW156 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 123711.09
+	N	Mean	Std. Deviation
+Total	95503	2714.581	4545.15
+
+
+171) BSHW157
+BSHW157 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 140633.06
+	N	Mean	Std. Deviation
+Total	95503	2715.235	4513.945
+
+
+172) BSHW158
+BSHW158 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 130219.7
+	N	Mean	Std. Deviation
+Total	95503	2712.974	4630.705
+
+
+173) BSHW159
+BSHW159 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 134698.09
+	N	Mean	Std. Deviation
+Total	95503	2717.987	4662.379
+
+
+174) BSHW160
+BSHW160 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 114591.99
+	N	Mean	Std. Deviation
+Total	95503	2716.735	4522.657
+
+
+175) BSHW161
+BSHW161 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 111642.72
+	N	Mean	Std. Deviation
+Total	95503	2711.564	4472.789
+
+
+176) BSHW162
+BSHW162 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 97322.813
+	N	Mean	Std. Deviation
+Total	95503	2714.901	4506.911
+
+
+177) BSHW163
+BSHW163 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 106594.9
+	N	Mean	Std. Deviation
+Total	95503	2717.043	4491.07
+
+
+178) BSHW164
+BSHW164 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 130208.34
+	N	Mean	Std. Deviation
+Total	95503	2715.72	4495.989
+
+
+179) BSHW165
+BSHW165 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 123644.34
+	N	Mean	Std. Deviation
+Total	95503	2712.534	4524.725
+
+
+180) BSHW166
+BSHW166 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 133597.95
+	N	Mean	Std. Deviation
+Total	95503	2716.015	4572.036
+
+
+181) BSHW167
+BSHW167 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 108974.5
+	N	Mean	Std. Deviation
+Total	95503	2717.357	4432.033
+
+
+182) BSHW168
+BSHW168 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 95676.57
+	N	Mean	Std. Deviation
+Total	95503	2716.778	4522.786
+
+
+183) BSHW169
+BSHW169 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 105835.51
+	N	Mean	Std. Deviation
+Total	95503	2714.731	4526.62
+
+
+184) BSHW170
+BSHW170 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 108974.84
+	N	Mean	Std. Deviation
+Total	95503	2715.12	4537.241
+
+
+185) BSHW171
+BSHW171 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 102541.44
+	N	Mean	Std. Deviation
+Total	95503	2714.668	4539.641
+
+
+186) BSHW172
+BSHW172 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 123124.71
+	N	Mean	Std. Deviation
+Total	95503	2718.158	4479.01
+
+
+187) BSHW173
+BSHW173 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 108002.1
+	N	Mean	Std. Deviation
+Total	95503	2713.401	4589.255
+
+
+188) BSHW174
+BSHW174 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 104957.84
+	N	Mean	Std. Deviation
+Total	95503	2710.998	4442.352
+
+
+189) BSHW175
+BSHW175 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 113347.23
+	N	Mean	Std. Deviation
+Total	95503	2714.558	4617.327
+
+
+190) BSHW176
+BSHW176 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 114527.78
+	N	Mean	Std. Deviation
+Total	95503	2719.969	4520.332
+
+
+191) BSHW177
+BSHW177 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 99863.055
+	N	Mean	Std. Deviation
+Total	95503	2714.611	4516.568
+
+
+192) BSHW178
+BSHW178 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 107628.09
+	N	Mean	Std. Deviation
+Total	95503	2723.355	4483.322
+
+
+193) BSHW179
+BSHW179 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 190555.81
+	N	Mean	Std. Deviation
+Total	95503	2714.91	4526.457
+
+
+194) BSHW180
+BSHW180 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 119480.95
+	N	Mean	Std. Deviation
+Total	95503	2715.148	4473.7
+
+
+195) BSHW181
+BSHW181 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 104984.41
+	N	Mean	Std. Deviation
+Total	95503	2715.207	4545.759
+
+
+196) BSHW182
+BSHW182 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 118905.49
+	N	Mean	Std. Deviation
+Total	95503	2715.699	4468.271
+
+
+197) BSHW183
+BSHW183 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 106725.75
+	N	Mean	Std. Deviation
+Total	95503	2717.94	4556.505
+
+
+198) BSHW184
+BSHW184 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 141486.66
+	N	Mean	Std. Deviation
+Total	95503	2709.073	4554.101
+
+
+199) BSHW185
+BSHW185 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 125551.09
+	N	Mean	Std. Deviation
+Total	95503	2712.776	4476.135
+
+
+200) BSHW186
+BSHW186 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 111975.46
+	N	Mean	Std. Deviation
+Total	95503	2720.269	4568.975
+
+
+201) BSHW187
+BSHW187 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 134433.56
+	N	Mean	Std. Deviation
+Total	95503	2711.691	4572.647
+
+
+202) BSHW188
+BSHW188 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 113762.79
+	N	Mean	Std. Deviation
+Total	95503	2715.219	4490.989
+
+
+203) BSHW189
+BSHW189 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 106585.95
+	N	Mean	Std. Deviation
+Total	95503	2715.77	4526.125
+
+
+204) BSHW190
+BSHW190 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 92810.43
+	N	Mean	Std. Deviation
+Total	95503	2712.106	4422.215
+
+
+205) BSHW191
+BSHW191 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 98456.039
+	N	Mean	Std. Deviation
+Total	95503	2715.881	4497.181
+
+
+206) BSHW192
+BSHW192 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 141470.42
+	N	Mean	Std. Deviation
+Total	95503	2722.366	4505.385
+
+
+207) BSHW193
+BSHW193 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 98925.289
+	N	Mean	Std. Deviation
+Total	95503	2713.253	4413.593
+
+
+208) BSHW194
+BSHW194 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 102471.44
+	N	Mean	Std. Deviation
+Total	95503	2717.992	4465.814
+
+
+209) BSHW195
+BSHW195 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 90037.367
+	N	Mean	Std. Deviation
+Total	95503	2712.973	4448.116
+
+
+210) BSHW196
+BSHW196 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 117954.84
+	N	Mean	Std. Deviation
+Total	95503	2709.351	4417.372
+
+
+211) BSHW197
+BSHW197 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 123753.45
+	N	Mean	Std. Deviation
+Total	95503	2717.1	4504.709
+
+
+212) BSHW198
+BSHW198 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 117877.48
+	N	Mean	Std. Deviation
+Total	95503	2711.056	4647.453
+
+
+213) BSHW199
+BSHW199 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 91388.539
+	N	Mean	Std. Deviation
+Total	95503	2708.657	4495.809
+
+
+214) BSHW200
+BSHW200 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 91692.336
+	N	Mean	Std. Deviation
+Total	95503	2716.22	4513.819
+
+
+215) BSHW201
+BSHW201 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 113616.59
+	N	Mean	Std. Deviation
+Total	95503	2717.09	4503.172
+
+
+216) BSHW202
+BSHW202 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 127587.06
+	N	Mean	Std. Deviation
+Total	95503	2709.597	4587.931
+
+
+217) BSHW203
+BSHW203 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 106738.81
+	N	Mean	Std. Deviation
+Total	95503	2719.133	4560.077
+
+
+218) BSHW204
+BSHW204 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 129256.45
+	N	Mean	Std. Deviation
+Total	95503	2709.021	4566.168
+
+
+219) BSHW205
+BSHW205 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 107332.9
+	N	Mean	Std. Deviation
+Total	95503	2716.331	4495.519
+
+
+220) BSHW206
+BSHW206 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 108982.27
+	N	Mean	Std. Deviation
+Total	95503	2727.106	4580.835
+
+
+221) BSHW207
+BSHW207 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 124835.61
+	N	Mean	Std. Deviation
+Total	95503	2722.966	4620.853
+
+
+222) BSHW208
+BSHW208 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 112961.26
+	N	Mean	Std. Deviation
+Total	95503	2712.927	4538.125
+
+
+223) BSHW209
+BSHW209 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 109625.28
+	N	Mean	Std. Deviation
+Total	95503	2715.605	4592.36
+
+
+224) BSHW210
+BSHW210 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 99891.711
+	N	Mean	Std. Deviation
+Total	95503	2715.374	4463.6
+
+
+225) BSHW211
+BSHW211 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 96965.664
+	N	Mean	Std. Deviation
+Total	95503	2711.217	4471.586
+
+
+226) BSHW212
+BSHW212 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 89401.391
+	N	Mean	Std. Deviation
+Total	95503	2713.646	4428.095
+
+
+227) BSHW213
+BSHW213 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 136026.58
+	N	Mean	Std. Deviation
+Total	95503	2716.559	4509.582
+
+
+228) BSHW214
+BSHW214 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 101415.09
+	N	Mean	Std. Deviation
+Total	95503	2721.575	4465.689
+
+
+229) BSHW215
+BSHW215 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 123008.05
+	N	Mean	Std. Deviation
+Total	95503	2714.959	4535.246
+
+
+230) BSHW216
+BSHW216 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 93959.977
+	N	Mean	Std. Deviation
+Total	95503	2715.012	4565.787
+
+
+231) BSHW217
+BSHW217 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 97215.891
+	N	Mean	Std. Deviation
+Total	95503	2720.862	4509.834
+
+
+232) BSHW218
+BSHW218 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 96342.711
+	N	Mean	Std. Deviation
+Total	95503	2714.058	4480.53
+
+
+233) BSHW219
+BSHW219 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 114050.24
+	N	Mean	Std. Deviation
+Total	95503	2716.688	4483.154
+
+
+234) BSHW220
+BSHW220 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 118578.81
+	N	Mean	Std. Deviation
+Total	95503	2720.482	4517.121
+
+
+235) BSHW221
+BSHW221 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 136785.34
+	N	Mean	Std. Deviation
+Total	95503	2717.217	4617.427
+
+
+236) BSHW222
+BSHW222 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 135712.56
+	N	Mean	Std. Deviation
+Total	95503	2718.896	4525.735
+
+
+237) BSHW223
+BSHW223 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 95066.008
+	N	Mean	Std. Deviation
+Total	95503	2714.435	4424.334
+
+
+238) BSHW224
+BSHW224 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 121128.27
+	N	Mean	Std. Deviation
+Total	95503	2721.163	4513.519
+
+
+239) BSHW225
+BSHW225 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 116341.97
+	N	Mean	Std. Deviation
+Total	95503	2715.013	4467.787
+
+
+240) BSHW226
+BSHW226 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 107123.13
+	N	Mean	Std. Deviation
+Total	95503	2709.632	4517.038
+
+
+241) BSHW227
+BSHW227 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 110918.52
+	N	Mean	Std. Deviation
+Total	95503	2716.025	4458.784
+
+
+242) BSHW228
+BSHW228 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 99549.617
+	N	Mean	Std. Deviation
+Total	95503	2717.914	4462.856
+
+
+243) BSHW229
+BSHW229 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 87689.188
+	N	Mean	Std. Deviation
+Total	95503	2715.863	4417.8
+
+
+244) BSHW230
+BSHW230 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 131020.68
+	N	Mean	Std. Deviation
+Total	95503	2711.337	4554.177
+
+
+245) BSHW231
+BSHW231 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 119790.88
+	N	Mean	Std. Deviation
+Total	95503	2708.513	4524.966
+
+
+246) BSHW232
+BSHW232 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 93944.227
+	N	Mean	Std. Deviation
+Total	95503	2714.946	4484.186
+
+
+247) BSHW233
+BSHW233 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 116405.56
+	N	Mean	Std. Deviation
+Total	95503	2714.899	4506.559
+
+
+248) BSHW234
+BSHW234 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 102921.59
+	N	Mean	Std. Deviation
+Total	95503	2709.932	4579.2
+
+
+249) BSHW235
+BSHW235 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 92123.742
+	N	Mean	Std. Deviation
+Total	95503	2712.919	4488.16
+
+
+250) BSHW236
+BSHW236 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 98016.586
+	N	Mean	Std. Deviation
+Total	95503	2712.07	4442.449
+
+
+251) BSHW237
+BSHW237 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 128186.48
+	N	Mean	Std. Deviation
+Total	95503	2720.618	4554.357
+
+
+252) BSHW238
+BSHW238 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 131844.16
+	N	Mean	Std. Deviation
+Total	95503	2709.479	4522.34
+
+
+253) BSHW239
+BSHW239 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 99655.383
+	N	Mean	Std. Deviation
+Total	95503	2713.319	4558.985
+
+
+254) BSHW240
+BSHW240 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 98589.281
+	N	Mean	Std. Deviation
+Total	95503	2719.597	4545.226
+
+
+255) BSHW241
+BSHW241 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 98805.906
+	N	Mean	Std. Deviation
+Total	95503	2714.633	4556.034
+
+
+256) BSHW242
+BSHW242 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 110219.45
+	N	Mean	Std. Deviation
+Total	95503	2718.509	4536.095
+
+
+257) BSHW243
+BSHW243 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 93651.664
+	N	Mean	Std. Deviation
+Total	95503	2721.265	4521.473
+
+
+258) BSHW244
+BSHW244 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 101402.16
+	N	Mean	Std. Deviation
+Total	95503	2718.255	4498.423
+
+
+259) BSHW245
+BSHW245 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 144564.78
+	N	Mean	Std. Deviation
+Total	95503	2714.698	4646.421
+
+
+260) BSHW246
+BSHW246 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 116136.27
+	N	Mean	Std. Deviation
+Total	95503	2711.996	4513.528
+
+
+261) BSHW247
+BSHW247 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 113742.05
+	N	Mean	Std. Deviation
+Total	95503	2715.86	4523.64
+
+
+262) BSHW248
+BSHW248 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 113173.35
+	N	Mean	Std. Deviation
+Total	95503	2712.61	4495.919
+
+
+263) BSHW249
+BSHW249 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 126160.61
+	N	Mean	Std. Deviation
+Total	95503	2716.301	4561.198
+
+
+264) BSHW250
+BSHW250 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 118424.85
+	N	Mean	Std. Deviation
+Total	95503	2714.988	4562.159
+
+
+265) BSHW251
+BSHW251 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 113708.96
+	N	Mean	Std. Deviation
+Total	95503	2715.553	4536.924
+
+
+266) BSHW252
+BSHW252 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 122957.44
+	N	Mean	Std. Deviation
+Total	95503	2717.223	4494.108
+
+
+267) BSHW253
+BSHW253 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 147854.27
+	N	Mean	Std. Deviation
+Total	95503	2721.847	4610.536
+
+
+268) BSHW254
+BSHW254 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 117004.51
+	N	Mean	Std. Deviation
+Total	95503	2711.476	4470.503
+
+
+269) BSHW255
+BSHW255 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 111007.89
+	N	Mean	Std. Deviation
+Total	95503	2716.144	4485.295
+
+
+270) BSHW256
+BSHW256 [BSHW1-BSHW256 Bootstrap weights used to calculate standard errors when analyzing the characteristics of all people in the surveyed households (including both respondents and other people residing in respondents' households; see survey for details on how the data were weighted)]
+RANGE: 0 to 106777.08
+	N	Mean	Std. Deviation
+Total	95503	2715.004	4512.326
+
+

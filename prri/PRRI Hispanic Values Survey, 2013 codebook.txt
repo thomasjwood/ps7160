@@ -1,0 +1,2104 @@
+Data File: PRRIHVS13 (Full Data Codebook)
+
+1) CASEID
+Case ID
+RANGE: 3 to 1670
+	N	Mean	Std. Deviation
+Total	1563	827.198	481.31
+
+
+2) TM_START
+Interview start time (GMT)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1563	0	0
+
+
+3) TM_FINISH
+Interview finish time (GMT)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1563	0	0
+
+
+4) XSPANISH
+Spanish survey taker
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1563	1.341	0.474
+1) English	1030	65.9
+2) Spanish	533	34.1
+
+
+5) XPRIMELAN
+Primary language
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1563	1.95	0.787
+1) English	525	33.6
+2) Bilingual	591	37.8
+3) Spanish proficient	447	28.6
+
+
+6) XHISPAN
+Are you of Spanish, Hispanic, or Latino descent?
+RANGE: 2 to 8
+	N	Mean	Std. Deviation
+Total	1563	3.585	2.203
+2) Yes, Mexican, Mexican-American, Chicano	875	56.0
+3) Yes, Puerto Rican	143	9.1
+4) Yes, Cuban	112	7.2
+5) Yes, Central American	79	5.1
+6) Yes, South American	109	7.0
+7) Yes, Caribbean	33	2.1
+8) Yes, other Spanish/Hispanic/Latino	212	13.6
+
+
+7) Q1
+Do you approve or disapprove of the way Barack Obama is handling his job as President?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.083	1.084
+1) Approve	585	37.4
+2) Disapprove	341	21.8
+3) Mixed/Approve and disapprove	624	39.9
+9) Refused	13	0.8
+
+
+8) Q2
+Over the last two years do you think your own financial situation has gotten better, gotten worse or stayed about the same? [ROTATE Q2 & Q3]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.279	1.004
+1) Better	378	24.2
+2) Worse	443	28.3
+3) About the same	730	46.7
+9) Refused	12	0.8
+
+
+9) Q3
+Over the last two years do you think the economy has gotten better, gotten worse or stayed about the same? [ROTATE Q2 & Q3]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.154	1.143
+1) Better	520	33.3
+2) Worse	397	25.4
+3) About the same	627	40.1
+9) Refused	19	1.2
+
+
+10) REGIST
+These days, many people are so busy they can't find time to register to vote, or move around so often they don't get a chance to re-­register. Are you NOW registered to vote in your precinct or election district or haven't you been able to register so far? ASK ALL:
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	1.508	0.992
+1) Yes, registered	985	63.0
+2) No, not registered	464	29.7
+3) Not sure if registered	97	6.2
+9) Refused	17	1.1
+
+
+11) Q4
+Thinking about the 2012 presidential election... A lot of people have been telling us they didn't get a chance to vote in this past election. How about you... did things come up that kept you from voting, or did you happen to vote?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	1.703	1.18
+1) Yes, voted	905	57.9
+2) No, did not vote	355	22.7
+3) Not eligible to vote	280	17.9
+9) Refused	23	1.5
+
+
+12) DOV_CAN1
+INSERT FOR Q5:OBAMA ROMNEY
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1563	0.509	0.5
+0) No	768	49.1
+1) Yes	795	50.9
+
+
+13) DOV_CAN2
+INSERT FOR Q5:ROMNEY OBAMA
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1563	0.491	0.5
+0) No	795	50.9
+1) Yes	768	49.1
+
+
+14) Q5
+Did you happen to vote for [INSERT; RANDOMIZE], [INSERT], or for some other candidate? IF VOTED (Q4=1), ASK [N=908]:
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	905	1.439	0.962
+1) Barack Obama, the Democrat	605	66.9
+2) Mitt Romney, the Republican	263	29.1
+3) Some other candidate/independent/third party candidate	27	3.0
+9) Refused	10	1.1
+Missing	658
+
+
+15) Q6
+Would you say that your vote for Barack Obama was more of a vote for Obama or a vote against Mitt Romney? IF VOTED FOR OBAMA (Q5=1), ASK [N=605]:
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	605	1.245	0.702
+1) Vote for Obama	487	80.5
+2) Vote against Romney	106	17.5
+3) Other [SPECIFY]	9	1.5
+9) Refused	3	0.5
+Missing	958
+
+
+16) Q6_OTHER
+Would you say that your vote for Barack Obama was more of a vote for Obama or a vote against Mitt Romney? IF VOTED FOR OBAMA (Q5=1), ASK [N=605]: Other
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	13	0	0
+
+
+17) Q7
+Would you say that your vote for Mitt Romney was more of a vote for Romney or a vote against Barack Obama? IF VOTED FOR ROMNEY (Q5=2), ASK [N=263]:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	263	1.494	0.552
+1) Vote for Romney	140	53.2
+2) Vote against Obama	116	44.1
+3) Other [SPECIFY]	7	2.7
+Missing	1300
+
+
+18) Q7_OTHER
+Would you say that your vote for Mitt Romney was more of a vote for Romney or a vote against Barack Obama? IF VOTED FOR ROMNEY (Q5=2), ASK [N=263]: Other
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	6	0	0
+
+
+19) Q8
+Regardless of whether you voted in 2012, in general how often would you say you vote...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.689	1.779
+1) Always	593	37.9
+2) Nearly always	318	20.3
+3) Part of the time	136	8.7
+4) Seldom	90	5.8
+5) Never	407	26.0
+9) Refused	19	1.2
+
+
+20) DOV_FORM1
+DOV_FORM=1
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1563	0.479	0.5
+0) No	814	52.1
+1) Yes	749	47.9
+
+
+21) DOV_FORM2
+DOV_FORM=2
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1563	0.521	0.5
+0) No	749	47.9
+1) Yes	814	52.1
+
+
+22) Q9A
+What is the first word or phrase that comes to your mind when you think about the Republican Party? ASK FORM 1 ONLY [N=638]:
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	638	0	0
+
+
+23) Q9B
+What is the first word or phrase that comes to mind when you think about the Democratic Party? ASK FORM 2 ONLY [625]:
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	695	0	0
+
+
+24) Q10A
+Now we would like your views on some political leaders and groups. Please say whether your overall opinion of each of the following is very favorable, mostly favorable, mostly unfavorable, or very unfavorable. [RANDOMIZE LIST] Barack Obama
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.48	1.57
+1) Very favorable	407	26.0
+2) Mostly favorable	595	38.1
+3) Mostly unfavorable	232	14.8
+4) Very unfavorable	246	15.7
+5) Have not heard of	37	2.4
+9) Refused	46	2.9
+
+
+25) Q10B
+Now we would like your views on some political leaders and groups. Please say whether your overall opinion of each of the following is very favorable, mostly favorable, mostly unfavorable, or very unfavorable. [RANDOMIZE LIST] The Democratic Party
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.581	1.555
+1) Very favorable	309	19.8
+2) Mostly favorable	636	40.7
+3) Mostly unfavorable	320	20.5
+4) Very unfavorable	193	12.3
+5) Have not heard of	56	3.6
+9) Refused	49	3.1
+
+
+26) Q10C
+Now we would like your views on some political leaders and groups. Please say whether your overall opinion of each of the following is very favorable, mostly favorable, mostly unfavorable, or very unfavorable. [RANDOMIZE LIST] The Republican Party
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	3.303	1.427
+1) Very favorable	92	5.9
+2) Mostly favorable	321	20.5
+3) Mostly unfavorable	500	32.0
+4) Very unfavorable	522	33.4
+5) Have not heard of	78	5.0
+9) Refused	50	3.2
+
+
+27) Q10D
+Now we would like your views on some political leaders and groups. Please say whether your overall opinion of each of the following is very favorable, mostly favorable, mostly unfavorable, or very unfavorable. [RANDOMIZE LIST] The Tea Party
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	3.672	1.538
+1) Very favorable	68	4.4
+2) Mostly favorable	266	17.0
+3) Mostly unfavorable	383	24.5
+4) Very unfavorable	480	30.7
+5) Have not heard of	306	19.6
+9) Refused	60	3.8
+
+
+28) Q10E
+Now we would like your views on some political leaders and groups. Please say whether your overall opinion of each of the following is very favorable, mostly favorable, mostly unfavorable, or very unfavorable. [RANDOMIZE LIST] ASK FORM 1 [N=749]: Senator Marco Rubio
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	749	3.543	1.578
+1) Very favorable	51	6.8
+2) Mostly favorable	162	21.6
+3) Mostly unfavorable	178	23.8
+4) Very unfavorable	129	17.2
+5) Have not heard of	208	27.8
+9) Refused	21	2.8
+Missing	814
+
+
+29) Q10F
+Now we would like your views on some political leaders and groups. Please say whether your overall opinion of each of the following is very favorable, mostly favorable, mostly unfavorable, or very unfavorable. [RANDOMIZE LIST] Joe Biden
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	749	3.119	1.598
+1) Very favorable	79	10.5
+2) Mostly favorable	238	31.8
+3) Mostly unfavorable	168	22.4
+4) Very unfavorable	131	17.5
+5) Have not heard of	111	14.8
+9) Refused	22	2.9
+Missing	814
+
+
+30) Q10G
+Now we would like your views on some political leaders and groups. Please say whether your overall opinion of each of the following is very favorable, mostly favorable, mostly unfavorable, or very unfavorable. [RANDOMIZE LIST] The Catholic Church
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	749	2.644	1.522
+1) Very favorable	148	19.8
+2) Mostly favorable	273	36.4
+3) Mostly unfavorable	157	21.0
+4) Very unfavorable	120	16.0
+5) Have not heard of	31	4.1
+9) Refused	20	2.7
+Missing	814
+
+
+31) Q10H
+Now we would like your views on some political leaders and groups. Please say whether your overall opinion of each of the following is very favorable, mostly favorable, mostly unfavorable, or very unfavorable. [RANDOMIZE LIST] ASK FORM 2 [N=814]: Hillary Clinton
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	814	2.445	1.608
+1) Very favorable	242	29.7
+2) Mostly favorable	281	34.5
+3) Mostly unfavorable	134	16.5
+4) Very unfavorable	97	11.9
+5) Have not heard of	36	4.4
+9) Refused	24	2.9
+Missing	749
+
+
+32) Q10I
+Now we would like your views on some political leaders and groups. Please say whether your overall opinion of each of the following is very favorable, mostly favorable, mostly unfavorable, or very unfavorable. [RANDOMIZE LIST] Senator Ted Cruz
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	814	4.033	1.563
+1) Very favorable	42	5.2
+2) Mostly favorable	119	14.6
+3) Mostly unfavorable	121	14.9
+4) Very unfavorable	120	14.7
+5) Have not heard of	387	47.5
+9) Refused	25	3.1
+Missing	749
+
+
+33) Q10J
+Now we would like your views on some political leaders and groups. Please say whether your overall opinion of each of the following is very favorable, mostly favorable, mostly unfavorable, or very unfavorable. [RANDOMIZE LIST] Pope Francis
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	814	2.441	1.713
+1) Very favorable	280	34.4
+2) Mostly favorable	278	34.2
+3) Mostly unfavorable	83	10.2
+4) Very unfavorable	51	6.3
+5) Have not heard of	100	12.3
+9) Refused	22	2.7
+Missing	749
+
+
+34) Q11A
+Thinking about some issues in the country today, please read the issues below and indicate whether you think it is a critical issue facing the country, one among many important issues, or not that important compared to other issues. [RANDOMIZE LIST] Same-sex marriage
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.329	1.206
+1) Critical issue	333	21.3
+2) One among many	562	36.0
+3) Not that important	638	40.8
+9) Refused	30	1.9
+
+
+35) Q11B
+Thinking about some issues in the country today, please read the issues below and indicate whether you think it is a critical issue facing the country, one among many important issues, or not that important compared to other issues. [RANDOMIZE LIST] Immigration
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	1.702	1.283
+1) Critical issue	832	53.2
+2) One among many	580	37.1
+3) Not that important	115	7.4
+9) Refused	36	2.3
+
+
+36) Q11C
+Thinking about some issues in the country today, please read the issues below and indicate whether you think it is a critical issue facing the country, one among many important issues, or not that important compared to other issues. [RANDOMIZE LIST] Jobs and Unemployment
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	1.388	1.126
+1) Critical issue	1174	75.1
+2) One among many	340	21.8
+3) Not that important	21	1.3
+9) Refused	28	1.8
+
+
+37) Q11D
+Thinking about some issues in the country today, please read the issues below and indicate whether you think it is a critical issue facing the country, one among many important issues, or not that important compared to other issues. [RANDOMIZE LIST] The cost of health care
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	1.484	1.233
+1) Critical issue	1085	69.4
+2) One among many	404	25.8
+3) Not that important	40	2.6
+9) Refused	34	2.2
+
+
+38) Q11E
+Thinking about some issues in the country today, please read the issues below and indicate whether you think it is a critical issue facing the country, one among many important issues, or not that important compared to other issues. [RANDOMIZE LIST] Abortion
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.104	1.231
+1) Critical issue	438	28.0
+2) One among many	716	45.8
+3) Not that important	377	24.1
+9) Refused	32	2.0
+
+
+39) Q11F
+Thinking about some issues in the country today, please read the issues below and indicate whether you think it is a critical issue facing the country, one among many important issues, or not that important compared to other issues. [RANDOMIZE LIST] Growing gap between rich and poor
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	1.781	1.162
+1) Critical issue	697	44.6
+2) One among many	674	43.1
+3) Not that important	165	10.6
+9) Refused	27	1.7
+
+
+40) Q11G
+Thinking about some issues in the country today, please read the issues below and indicate whether you think it is a critical issue facing the country, one among many important issues, or not that important compared to other issues. [RANDOMIZE LIST] The federal deficit
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	1.631	1.244
+1) Critical issue	889	56.9
+2) One among many	565	36.1
+3) Not that important	75	4.8
+9) Refused	34	2.2
+
+
+41) Q11H
+Thinking about some issues in the country today, please read the issues below and indicate whether you think it is a critical issue facing the country, one among many important issues, or not that important compared to other issues. [RANDOMIZE LIST] ASK FORM 1 ONLY [N=749]: The quality of public schools
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	749	1.609	1.256
+1) Critical issue	437	58.3
+2) One among many	270	36.0
+3) Not that important	25	3.3
+9) Refused	17	2.3
+Missing	814
+
+
+42) Q11I
+Thinking about some issues in the country today, please read the issues below and indicate whether you think it is a critical issue facing the country, one among many important issues, or not that important compared to other issues. [RANDOMIZE LIST] ASK FORM 2 ONLY [N=814]: Cost of college
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	814	1.676	1.169
+1) Critical issue	415	51.0
+2) One among many	338	41.5
+3) Not that important	46	5.7
+9) Refused	15	1.8
+Missing	749
+
+
+43) Q12A
+We would like to get your views on some issues that are being discussed in the country today. Do you strongly favor, favor, oppose or strongly oppose the following... [RANDOMIZE LIST] Allowing gay and lesbian couples to marry legally
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.599	1.483
+1) Strongly favor	341	21.8
+2) Favor	533	34.1
+3) Oppose	301	19.3
+4) Strongly oppose	348	22.3
+9) Refused	40	2.6
+
+
+44) Q12B
+We would like to get your views on some issues that are being discussed in the country today. Do you strongly favor, favor, oppose or strongly oppose the following... [RANDOMIZE LIST] Increasing the tax rate on Americans earning more than $250,000 a year
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.017	1.415
+1) Strongly favor	644	41.2
+2) Favor	572	36.6
+3) Oppose	219	14.0
+4) Strongly oppose	89	5.7
+9) Refused	39	2.5
+
+
+45) Q12C
+We would like to get your views on some issues that are being discussed in the country today. Do you strongly favor, favor, oppose or strongly oppose the following... [RANDOMIZE LIST] Allowing immigrants who were brought to the U.S. illegally as children to gain legal resident status if they join the military or go to college
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	1.955	1.407
+1) Strongly favor	683	43.7
+2) Favor	583	37.3
+3) Oppose	177	11.3
+4) Strongly oppose	81	5.2
+9) Refused	39	2.5
+
+
+46) Q12D
+We would like to get your views on some issues that are being discussed in the country today. Do you strongly favor, favor, oppose or strongly oppose the following... [RANDOMIZE LIST] Increasing the minimum wage from $7.25 an hour to $10.00 an hour
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	1.818	1.328
+1) Strongly favor	817	52.3
+2) Favor	477	30.5
+3) Oppose	161	10.3
+4) Strongly oppose	77	4.9
+9) Refused	31	2.0
+
+
+47) Q12E
+We would like to get your views on some issues that are being discussed in the country today. Do you strongly favor, favor, oppose or strongly oppose the following... [RANDOMIZE LIST] Repealing and eliminating the 2010 health care law
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.725	1.593
+1) Strongly favor	293	18.7
+2) Favor	461	29.5
+3) Oppose	497	31.8
+4) Strongly oppose	251	16.1
+9) Refused	61	3.9
+
+
+48) DOV_13_1
+IN ORDER
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1563	0.488	0.5
+0) No	800	51.2
+1) Yes	763	48.8
+
+
+49) DOV_13_2
+IN REVERSE
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1563	0.512	0.5
+0) No	763	48.8
+1) Yes	800	51.2
+
+
+50) Q13
+Do you think abortion should be... [RANDOMIZE LIST ORDER 1-4; 4-1]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.555	1.258
+1) Legal in all cases	284	18.2
+2) Legal in most cases	542	34.7
+3) Illegal in most cases	438	28.0
+4) Illegal in all cases	276	17.7
+9) Refused	23	1.5
+
+
+51) DOV_DEATH1
+DOV_DEATH = 1
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1563	0.498	0.5
+0) No	784	50.2
+1) Yes	779	49.8
+
+
+52) DOV_DEATH2
+DOV_DEATH = 2
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1563	0.502	0.5
+0) No	779	49.8
+1) Yes	784	50.2
+
+
+53) Q14
+Which punishment do you prefer for people convicted of murder: [INSERT; ROTATE OPTIONS]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	1.808	1.122
+1) The death penalty	618	39.5
+2) Life in prison with no chance of parole	811	51.9
+3) Depends on situation	70	4.5
+4) Other [SPECIFY]	40	2.6
+9) Refused	24	1.5
+
+
+54) Q14_OTHER
+Which punishment do you prefer for people convicted of murder: [INSERT; ROTATE OPTIONS]? OTHER
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	126	0	0
+
+
+55) Q15
+On a different subject... Which statement comes closest to your view about how the immigration system should deal with immigrants who are currently living in the U.S. illegally? The immigration system should... (FORM 1 READ 1-3 IN ORDER, FORM 2 READ 1-3 REVERSE ORDER)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	1.651	1.262
+1) Allow them a way to become citizens provided they meet certain requirements	1004	64.2
+2) Allow them to become permanent legal residents, but not citizens	304	19.4
+3) Identify and deport them	187	12.0
+4) Other [SPECIFY]	41	2.6
+9) Refused	27	1.7
+
+
+56) Q15_OTHER
+Which statement comes closest to your view about how the immigration system should deal with immigrants who are currently living in the U.S. illegally? The immigration system should... (FORM 1 READ 1-3 IN ORDER, FORM 2 READ 1-3 REVERSE ORDER) OTHER
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	53	0	0
+
+
+57) Q16A
+Next, I'm going to read you a series of statements about personal behavior. Regardless of whether or not you think it should be legal, for each one, please indicate whether you personally believe that it is MORALLY ACCEPTABLE or MORALLY WRONG. Please indicate whether each of the following is morally acceptable, or morally wrong... [RANDOMIZE LIST] Having an abortion
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.683	1.135
+1) Morally acceptable	160	10.2
+2) Morally wrong	477	30.5
+3) Depends on the situation	750	48.0
+4) Not a moral issue	151	9.7
+9) Refused	25	1.6
+
+
+58) Q16B
+Next, I'm going to read you a series of statements about personal behavior. Regardless of whether or not you think it should be legal, for each one, please indicate whether you personally believe that it is MORALLY ACCEPTABLE or MORALLY WRONG. Please indicate whether each of the following is morally acceptable, or morally wrong... [RANDOMIZE LIST] Sex between two adults of the same gender
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.569	1.399
+1) Morally acceptable	290	18.6
+2) Morally wrong	689	44.1
+3) Depends on the situation	138	8.8
+4) Not a moral issue	416	26.6
+9) Refused	30	1.9
+
+
+59) Q16C
+Next, I'm going to read you a series of statements about personal behavior. Regardless of whether or not you think it should be legal, for each one, please indicate whether you personally believe that it is MORALLY ACCEPTABLE or MORALLY WRONG. Please indicate whether each of the following is morally acceptable, or morally wrong... [RANDOMIZE LIST] Using artificial birth control methods also known as contraceptives
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.3	1.583
+1) Morally acceptable	782	50.0
+2) Morally wrong	105	6.7
+3) Depends on the situation	246	15.7
+4) Not a moral issue	401	25.7
+9) Refused	29	1.9
+
+
+60) DOV_Q17A_1
+Placement of statement: It is not really that big a problem if some people have more of a chance in life than others
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1563	2.475	1.113
+1) 	391	25.0
+2) 	420	26.9
+3) 	370	23.7
+4) 	382	24.4
+
+
+61) DOV_Q17A_2
+Placement of statement: One of the big problems in this country is that we don't give everyone an equal chance in life
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1563	2.449	1.122
+1) 	420	26.9
+2) 	391	25.0
+3) 	382	24.4
+4) 	370	23.7
+
+
+62) DOV_Q17B_1
+Placement of statement: The federal government should provide more services, even if it means higher taxes
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1563	2.553	1.113
+1) 	360	23.0
+2) 	392	25.1
+3) 	397	25.4
+4) 	414	26.5
+
+
+63) DOV_Q17B_2
+Placement of statement: The federal government should provide fewer services and reduce taxes
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1563	2.522	1.122
+1) 	392	25.1
+2) 	360	23.0
+3) 	414	26.5
+4) 	397	25.4
+
+
+64) Q17A
+Now, as I read a pair of statements, please indicate whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. [RANDOMIZE LIST; ROTATE OPTIONS]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.257	1.421
+1) It is not really that big a problem if some people have more of a chance in life than others	518	33.1
+2) One of the big problems in this country is that we don't give everyone an equal chance in life	526	33.7
+3) Neither	289	18.5
+4) Both equally	196	12.5
+9) Refused	34	2.2
+
+
+65) Q17B
+Now, as I read a pair of statements, please indicate whether the FIRST statement or the SECOND statement comes closer to your own views - even if neither is exactly right. [RANDOMIZE LIST; ROTATE OPTIONS]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.319	1.396
+1) The federal government should provide more services, even if it means higher taxes	493	31.5
+2) The federal government should provide fewer services and reduce taxes	444	28.4
+3) Neither	426	27.3
+4) Both equally	167	10.7
+9) Refused	33	2.1
+
+
+66) Q18
+Which do you think is the best way to promote economic growth in the U.S.? [ROTATE STATEMENTS]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	1.881	1.144
+1) Lower taxes on individuals and businesses and pay for those tax cuts by cutting spending on some government services and programs	496	31.7
+2) Spend more on education and the nation's infrastructure, and raise taxes on wealthy individuals and businesses to pay for that spending	937	59.9
+3) Other [SPECIFY]	100	6.4
+9) Refused	30	1.9
+
+
+67) Q18_OTHER
+Which do you think is the best way to promote economic growth in the U.S.? [ROTATE STATEMENTS] OTHER
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	101	0	0
+
+
+68) Q19
+In your view, are most people who receive welfare payments genuinely in need of help or are they taking advantage of the system?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	1.91	1.172
+1) In need of help	534	34.2
+2) Taking advantage of the system	845	54.1
+3) Other/Depends (VOL.)	109	7.0
+4) Both (VOL.)	48	3.1
+9) Refused	27	1.7
+
+
+69) Q19_OTHER
+In your view, are most people who receive welfare payments genuinely in need of help or are they taking advantage of the system? OTHER
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	156	0	0
+
+
+70) Q20A
+Now, as you read some statements on a few different topics, please indicate if you completely agree, mostly agree, mostly disagree or completely disagree with each one. [RANDOMIZE LIST] It is the responsibility of the government to take care of people who can't take care of themselves.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.473	1.329
+1) Completely agree	289	18.5
+2) Mostly agree	632	40.4
+3) Mostly disagree	426	27.3
+4) Completely disagree	182	11.6
+9) Refused	34	2.2
+
+
+71) Q20B
+Now, as you read some statements on a few different topics, please indicate if you completely agree, mostly agree, mostly disagree or completely disagree with each one. [RANDOMIZE LIST] The government should do more to reduce the gap between the rich and poor.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.161	1.401
+1) Completely agree	523	33.5
+2) Mostly agree	614	39.3
+3) Mostly disagree	262	16.8
+4) Completely disagree	127	8.1
+9) Refused	37	2.4
+
+
+72) Q20C
+Now, as you read some statements on a few different topics, please indicate if you completely agree, mostly agree, mostly disagree or completely disagree with each one. [RANDOMIZE LIST] The government should guarantee health insurance for all citizens, even if it means raising taxes.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.408	1.387
+1) Completely agree	381	24.4
+2) Mostly agree	571	36.5
+3) Mostly disagree	378	24.2
+4) Completely disagree	198	12.7
+9) Refused	35	2.2
+
+
+73) Q20D
+Now, as you read some statements on a few different topics, please indicate if you completely agree, mostly agree, mostly disagree or completely disagree with each one. [RANDOMIZE LIST] In the United States today, children from all income groups have adequate opportunities to be successful.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.486	1.365
+1) Completely agree	323	20.7
+2) Mostly agree	569	36.4
+3) Mostly disagree	434	27.8
+4) Completely disagree	202	12.9
+9) Refused	35	2.2
+
+
+74) Q20E
+Now, as you read some statements on a few different topics, please indicate if you completely agree, mostly agree, mostly disagree or completely disagree with each one. [RANDOMIZE LIST] The economic system in this country unfairly favors the wealthy.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.084	1.36
+1) Completely agree	571	36.5
+2) Mostly agree	593	37.9
+3) Mostly disagree	266	17.0
+4) Completely disagree	99	6.3
+9) Refused	34	2.2
+
+
+75) Q20F
+Now, as you read some statements on a few different topics, please indicate if you completely agree, mostly agree, mostly disagree or completely disagree with each one. [RANDOMIZE LIST] Hard work and determination are no guarantee of success for most people.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.427	1.388
+1) Completely agree	356	22.8
+2) Mostly agree	586	37.5
+3) Mostly disagree	404	25.8
+4) Completely disagree	180	11.5
+9) Refused	37	2.4
+
+
+76) DOV_CAN_21_1
+DOV_CAN2 = 1
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1563	0.484	0.5
+0) No	807	51.6
+1) Yes	756	48.4
+
+
+77) DOV_CAN_21_2
+DOV_CAN2 = 2
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1563	0.516	0.5
+0) No	756	48.4
+1) Yes	807	51.6
+
+
+78) Q21
+On a different topic, thinking ahead to the 2014 elections... If the 2014 Congressional elections were being held today, would you vote for the [INSERT AND ROTATE] or the [INSERT] in your election district?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	1.928	1.752
+1) Democratic candidate	884	56.6
+2) Republican candidate	358	22.9
+3) Independent/Third Party candidate	246	15.7
+9) Refused	75	4.8
+
+
+79) Q22A
+Thinking again about your vote for Congress next year, that is 2014, please tell me whether a candidate's views on the following issues would make you more likely to vote for them or less likely to vote for them. Would you be MORE likely or LESS likely to vote for a candidate who... [RANDOMIZE LIST] Opposes immigration reform that includes a path to citizenship for immigrants who are living in the U.S. illegally
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.135	1.316
+1) More likely	380	24.3
+2) Less likely	844	54.0
+3) Would not make a difference	297	19.0
+9) Refused	42	2.7
+
+
+80) Q22B
+Thinking again about your vote for Congress next year, that is 2014, please tell me whether a candidate's views on the following issues would make you more likely to vote for them or less likely to vote for them. Would you be MORE likely or LESS likely to vote for a candidate who... [RANDOMIZE LIST] Supports allowing gay and lesbian couples to marry
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.228	1.356
+1) More likely	437	28.0
+2) Less likely	578	37.0
+3) Would not make a difference	507	32.4
+9) Refused	41	2.6
+
+
+81) Q22C
+Thinking again about your vote for Congress next year, that is 2014, please tell me whether a candidate's views on the following issues would make you more likely to vote for them or less likely to vote for them. Would you be MORE likely or LESS likely to vote for a candidate who... [RANDOMIZE LIST] Supports legalized abortion
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.216	1.41
+1) More likely	454	29.0
+2) Less likely	593	37.9
+3) Would not make a difference	470	30.1
+9) Refused	46	2.9
+
+
+82) Q23A
+Please indicate if you think each of the following phrases better describes the REPUBLICAN Party and its leaders or the DEMOCRATIC Party and its leaders? Which party do you think is better described the phrase... [RANDOMIZE LIST] Shares your values
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.571	1.477
+1) The Republican Party	250	16.0
+2) The Democratic Party	668	42.7
+3) Neither	402	25.7
+4) Both equally	192	12.3
+9) Refused	51	3.3
+
+
+83) Q23B
+Please indicate if you think each of the following phrases better describes the REPUBLICAN Party and its leaders or the DEMOCRATIC Party and its leaders? Which party do you think is better described the phrase... [RANDOMIZE LIST] Looks out for the interests of people from different backgrounds
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.616	1.32
+1) The Republican Party	150	9.6
+2) The Democratic Party	742	47.5
+3) Neither	424	27.1
+4) Both equally	208	13.3
+9) Refused	39	2.5
+
+
+84) Q23C
+Please indicate if you think each of the following phrases better describes the REPUBLICAN Party and its leaders or the DEMOCRATIC Party and its leaders? Which party do you think is better described the phrase... [RANDOMIZE LIST] Cares about people like you
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.601	1.368
+1) The Republican Party	174	11.1
+2) The Democratic Party	715	45.7
+3) Neither	454	29.0
+4) Both equally	176	11.3
+9) Refused	44	2.8
+
+
+85) Q23D
+Please indicate if you think each of the following phrases better describes the REPUBLICAN Party and its leaders or the DEMOCRATIC Party and its leaders? Which party do you think is better described the phrase... [RANDOMIZE LIST] Is more extreme in its positions
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.24	1.616
+1) The Republican Party	723	46.3
+2) The Democratic Party	272	17.4
+3) Neither	253	16.2
+4) Both equally	272	17.4
+9) Refused	43	2.8
+
+
+86) Q24A
+And which party, the REPUBLICAN Party or the DEMOCRATIC Party could do a better job of... Improving the job situation
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.685	1.539
+1) The Republican Party	294	18.8
+2) The Democratic Party	542	34.7
+3) Neither	340	21.8
+4) Both equally	337	21.6
+9) Refused	50	3.2
+
+
+87) Q24B
+And which party, the REPUBLICAN Party or the DEMOCRATIC Party could do a better job of... Improving the education system
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.767	1.522
+1) The Republican Party	219	14.0
+2) The Democratic Party	597	38.2
+3) Neither	336	21.5
+4) Both equally	359	23.0
+9) Refused	52	3.3
+
+
+88) Q24C
+And which party, the REPUBLICAN Party or the DEMOCRATIC Party could do a better job of... Dealing with immigration
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.597	1.519
+1) The Republican Party	254	16.3
+2) The Democratic Party	687	44.0
+3) Neither	322	20.6
+4) Both equally	247	15.8
+9) Refused	53	3.4
+
+
+89) Q24D
+And which party, the REPUBLICAN Party or the DEMOCRATIC Party could do a better job of... Dealing with the issue of abortion
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.761	1.488
+1) The Republican Party	231	14.8
+2) The Democratic Party	534	34.2
+3) Neither	421	26.9
+4) Both equally	328	21.0
+9) Refused	49	3.1
+
+
+90) DOV_Q25
+ORDER SHOWN
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1563	1.493	0.5
+1) SAME ORDER	793	50.7
+2) REVERSE ORDER	770	49.3
+
+
+91) Q25
+Which of the following best describes how your feelings about the two political parties have changed in recent years?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	3.258	1.823
+1) I feel much closer to the Republicans than I used to	147	9.4
+2) I feel somewhat closer to the Republicans than I used to	324	20.7
+3) I feel somewhat closer to the Democrats than I used to	631	40.4
+4) I feel much closer to the Democrats than I used to	349	22.3
+9) Refused	112	7.2
+
+
+92) Q26
+Do you think the Republican Party's position on immigration has helped or hurt the party in recent elections, or do you think it has not made a difference?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.457	1.196
+1) Helped	126	8.1
+2) Hurt	825	52.8
+3) Not made a difference	574	36.7
+9) Refused	38	2.4
+
+
+93) RELIG
+Now just a few questions for statistical purposes only... What is your present religion, if any?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1563	6.451	13.047
+1) Protestant (Baptist, Methodist, non-denominational, Lutheran, Presbyterian, Pentecostal, Episcopalian, Reformed, Church of Christ, Jehovah's Witnesses, etc.)	201	12.9
+2) Roman Catholic (Catholic)	818	52.3
+3) Mormon (Church of Jesus Christ of Latter-day Saints/LDS)	21	1.3
+4) Orthodox (Greek, Russian, or some other Orthodox church)	3	0.2
+5) Jewish (Judaism)	10	0.6
+6) Muslim (Islam)	5	0.3
+7) Buddhist	6	0.4
+8) Hindu	2	0.1
+9) Atheist (do not believe in God)	40	2.6
+10) Agnostic (not sure if there is God)	44	2.8
+11) Nothing in particular	139	8.9
+12) Just Christian	210	13.4
+13) Unitarian (Universalist)	7	0.4
+14) Something else [SPECIFY]	30	1.9
+99) Refused	27	1.7
+
+
+94) RELIG_OTHER
+What is your present religion, if any? OTHER
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	51	0	0
+
+
+95) BORN
+Would you describe yourself as a 'born-again' or evangelical Christian, or not? IF CHRISTIAN (RELIG=1-4, 12 OR 14), ASK (N=1,290):
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1290	1.809	0.848
+1) Yes	337	26.1
+2) No	940	72.9
+9) Refused	13	1.0
+Missing	273
+
+
+96) SECULAR
+In general would you describe yourself more as a religious person or as secular, that is someone who is NOT religious? IF NOTHING IN PARTICULAR (RELIG=11), ASK (N=132):
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	132	1.939	0.521
+1) Religious	22	16.7
+2) Secular	96	72.7
+3) Other [SPECIFY - VOL.]	14	10.6
+Missing	1431
+
+
+97) SECULAR_OTHER
+In general would you describe yourself more as a religious person or as secular, that is someone who is NOT religious? IF NOTHING IN PARTICULAR (RELIG=11), ASK (N=132): OTHER
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	13	0	0
+
+
+98) RELIG2
+Thinking about when you were a child, in what religion were you raised, if any? ASK ALL:
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1563	4.776	12.699
+1) Protestant (Baptist, Methodist, non-denominational, Lutheran, Presbyterian, Pentecostal, Episcopalian, Reformed, Church of Christ, Jehovah's Witnesses, etc.)	188	12.0
+2) Roman Catholic (Catholic)	1113	71.2
+3) Mormon (Church of Jesus Christ of Latter-day Saints/LDS)	21	1.3
+4) Orthodox (Greek, Russian, or some other Orthodox church)	1	0.1
+5) Jewish (Judaism)	7	0.4
+6) Muslim (Islam)	3	0.2
+7) Buddhist	3	0.2
+8) Hindu	3	0.2
+9) Atheist (do not believe in God)	11	0.7
+10) Agnostic (not sure if there is God)	7	0.4
+11) Nothing in particular	60	3.8
+12) Just Christian	98	6.3
+13) Unitarian (Universalist)	1	0.1
+14) Something else [SPECIFY]	21	1.3
+99) Refused	26	1.7
+
+
+99) RELIG2_OTHER
+Thinking about when you were a child, in what religion were you raised, if any? OTHER
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	29	0	0
+
+
+100) BORN2
+Would you describe the religion you were raised in as a 'born-again' or evangelical Christian religion, or not? IF CHRISTIAN (RELIG=1‑4, 12, 14), ASK (N=1,444):
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1444	1.875	0.808
+1) Yes	279	19.3
+2) No	1151	79.7
+9) Refused	14	1.0
+Missing	119
+
+
+101) Q27
+Which of the following comes closest to how you think about the place of religion in your life? [READ IN ORDER] ASK ALL:
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.536	1.408
+1) Religion is the most important thing in my life	257	16.4
+2) Religion is one among many important things in my life	733	46.9
+3) Religion is not as important as other things in my life	269	17.2
+4) Religion is not important in my life	231	14.8
+5) Other [SPECIFY]	37	2.4
+9) Refused	36	2.3
+
+
+102) Q27_OTHER
+Which of the following comes closest to how you think about the place of religion in your life? [READ IN ORDER] ASK ALL: OTHER
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	49	0	0
+
+
+103) ATTEND
+And currently... Aside from weddings and funerals, how often do you attend religious services?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	3.777	1.799
+1) More than once a week	166	10.6
+2) Once a week	351	22.5
+3) Once or twice a month	151	9.7
+4) A few times a year	263	16.8
+5) Seldom	345	22.1
+6) Never	259	16.6
+9) Refused	28	1.8
+
+
+104) BIB1
+Which comes closest to your view? [READ, IN ORDER] [Holy book: If Christian or no religion (RELIG=1-4, 9-12) insert 'the Bible'; If Jewish (RELIG=5), insert 'the Torah'; If Muslim (RELIG=6), insert, 'the Koran'; If other non‑Christian affiliations (RELIG=7,8,13,14) insert 'the Holy Scripture'; IF REFUSED IN RELIGION insert 'the Bible']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	1.614	1.342
+1) [Holy book] is the word of God, OR	984	63.0
+2) [Holy book] is a book written by men and is not the word of God.	438	28.0
+3) Other [SPECIFY]	101	6.5
+9) Refused	40	2.6
+
+
+105) BIB1_OTHER
+Which comes closest to your view? [READ, IN ORDER] OTHER
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	113	0	0
+
+
+106) BIB2
+And would you say that [READ, IN ORDER]? IF BELIEVE HOLY BOOK IS WORD OF GOD (BIB1=1), ASK: [Holy book: If Christian or no religion (RELIG=1-4, 9-12) insert 'the Bible'; If Jewish (RELIG=5), insert 'the Torah'; If Muslim (RELIG=6), insert, 'the Koran'; If other non‑Christian affiliations (RELIG=7,8,13,14) insert 'the Holy Scripture'; IF REFUSED IN RELIGION insert 'the Bible']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	988	1.718	1.219
+1) [Holy book] is to be taken literally, word for word, OR	471	47.7
+2) Not everything in [Holy book] should be taken literally, word for word.	451	45.6
+3) Other [SPECIFY]	45	4.6
+9) Refused	21	2.1
+Missing	575
+
+
+107) BIB2_OTHER
+And would you say that [READ, IN ORDER]? IF BELIEVE HOLY BOOK IS WORD OF GOD (BIB1=1), ASK: OTHER
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	26	0	0
+
+
+108) GOD
+Which statement comes closest to your view of God?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	1.811	1.503
+1) God is a person with whom people can have a relationship	897	57.4
+2) God is an impersonal force	433	27.7
+3) I do not believe in God	90	5.8
+4) Other [SPECIFY]	98	6.3
+9) Refused	45	2.9
+
+
+109) GOD_OTHER
+Which statement comes closest to your view of God? OTHER
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	110	0	0
+
+
+110) Q28A
+Thinking about your religion, which of the following statements comes CLOSEST to your view? My church or denomination should [READ IN ORDER] IF HAS A RELIGIOUS AFFILIATION (RELIG=1-8, 12-14), ASK [N=1,320]:
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1320	1.853	1.358
+1) Preserve its traditional beliefs and practices OR	672	50.9
+2) Adjust traditional beliefs and practices in light of new circumstances OR	405	30.7
+3) Adopt modern beliefs and practices.	148	11.2
+4) Other [VOL. - SPECIFY]	67	5.1
+9) Refused	28	2.1
+Missing	243
+
+
+111) Q28A_OTHER
+Thinking about your religion, which of the following statements comes CLOSEST to your view? My church or denomination should [READ IN ORDER] IF HAS A RELIGIOUS AFFILIATION (RELIG=1-8, 12-14), ASK [N=1,320]: OTHER
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	51	0	0
+
+
+112) Q28B
+Thinking about religious groups in the U.S., which of the following statements comes CLOSEST to your view? Churches and religious denominations should [READ IN ORDER] IF HAS NO RELIGIOUS AFFILIATION (RELIG=9,10,11), ASK [N=216]:
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	216	2.745	1.285
+1) Preserve traditional beliefs and practices OR	20	9.3
+2) Adjust traditional beliefs and practices in light of new circumstances OR	77	35.6
+3) Adopt modern beliefs and practices.	82	38.0
+4) Other [VOL. - SPECIFY]	32	14.8
+9) Refused	5	2.3
+Missing	1347
+
+
+113) Q28B_OTHER
+Thinking about religious groups in the U.S., which of the following statements comes CLOSEST to your view? Churches and religious denominations should [READ IN ORDER] IF HAS NO RELIGIOUS AFFILIATION (RELIG=9,10,11), ASK [N=216]: OTHER
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	27	0	0
+
+
+114) Q29A
+Now, read each statement and please say if you completely agree, mostly agree, mostly disagree or completely disagree with each one. [RANDOMIZE LIST] ASK ALL: Women are naturally better suited to raise children than men
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.384	1.423
+1) Completely agree	347	22.2
+2) Mostly agree	689	44.1
+3) Mostly disagree	317	20.3
+4) Completely disagree	168	10.7
+9) Refused	42	2.7
+
+
+115) Q29B
+Now, read each statement and please say if you completely agree, mostly agree, mostly disagree or completely disagree with each one. [RANDOMIZE LIST] ASK ALL: It is necessary to believe in God in order to be moral and have good values
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.466	1.512
+1) Completely agree	470	30.1
+2) Mostly agree	445	28.5
+3) Mostly disagree	287	18.4
+4) Completely disagree	323	20.7
+9) Refused	38	2.4
+
+
+116) Q29C
+Now, read each statement and please say if you completely agree, mostly agree, mostly disagree or completely disagree with each one. [RANDOMIZE LIST] ASK ALL: Blacks and other minorities receive equal treatment as whites in the criminal justice system
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.915	1.442
+1) Completely agree	197	12.6
+2) Mostly agree	401	25.7
+3) Mostly disagree	538	34.4
+4) Completely disagree	380	24.3
+9) Refused	47	3.0
+
+
+117) Q30A
+Thinking about the teachings of your religion on certain social and political issues, do you think you can disagree with your church's teachings on any of the following issues and still be considered a good Christian? IF CHRISTIAN (RELG=1-4, 12), ASK (N=1,226): Homosexuality
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1226	1.672	1.207
+1) Possible	613	50.0
+2) Not possible	558	45.5
+3) Other [SPECIFY]	29	2.4
+9) Refused	26	2.1
+Missing	337
+
+
+118) Q30_A_OTHER
+Thinking about the teachings of your religion on certain social and political issues, do you think you can disagree with your church's teachings on any of the following issues and still be considered a good Christian? IF CHRISTIAN (RELG=1-4, 12), ASK (N=1,226): Homosexuality. OTHER
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	26	0	0
+
+
+119) Q30B
+Thinking about the teachings of your religion on certain social and political issues, do you think you can disagree with your church's teachings on any of the following issues and still be considered a good Christian? IF CHRISTIAN (RELG=1-4, 12), ASK (N=1,226): Abortion
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1226	1.779	1.333
+1) Possible	539	44.0
+2) Not possible	623	50.8
+3) Other [SPECIFY]	30	2.4
+9) Refused	34	2.8
+Missing	337
+
+
+120) Q30_B_OTHER
+Thinking about the teachings of your religion on certain social and political issues, do you think you can disagree with your church's teachings on any of the following issues and still be considered a good Christian? IF CHRISTIAN (RELG=1-4, 12), ASK (N=1,226): Abortion. OTHER
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	28	0	0
+
+
+121) Q30C
+Thinking about the teachings of your religion on certain social and political issues, do you think you can disagree with your church's teachings on any of the following issues and still be considered a good Christian? IF CHRISTIAN (RELG=1-4, 12), ASK (N=1,226): Contraception or birth control
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1226	1.559	1.425
+1) Possible	836	68.2
+2) Not possible	323	26.3
+3) Other [SPECIFY]	29	2.4
+9) Refused	38	3.1
+Missing	337
+
+
+122) Q30_C_OTHER
+Thinking about the teachings of your religion on certain social and political issues, do you think you can disagree with your church's teachings on any of the following issues and still be considered a good Christian? IF CHRISTIAN (RELG=1-4, 12), ASK (N=1,226): Contraception or birth control. OTHER
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	25	0	0
+
+
+123) Q31
+What worries you more, public officials who don't pay enough attention to religion or public officials who are too close to religious leaders? [ROTATE ITEMS]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	1.892	1.516
+1) Not enough attention	692	44.3
+2) Too close	690	44.1
+3) Other [SPECIFY]	124	7.9
+9) Refused	57	3.6
+
+
+124) Q31_OTHER
+What worries you more, public officials who don't pay enough attention to religion or public officials who are too close to religious leaders? [ROTATE ITEMS] OTHER
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	101	0	0
+
+
+125) Q32
+Were you born in the mainland United States, on the island of Puerto Rico, or in another country?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	1.662	1.13
+1) Born in U.S.	797	51.0
+2) Born in another country	663	42.4
+3) Born in Puerto Rico	68	4.4
+4) Born in other U.S. territories (Guam, Samoa, Virgin Islands)	9	0.6
+9) Refused	26	1.7
+
+
+126) Q33
+In what country were you born? IF BORN OUTSIDE THE U.S. [Q32=2], ASK (N=663):
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	663	6.246	17.456
+1) Mexico	396	59.7
+2) El Salvador	21	3.2
+3) Cuba	76	11.5
+4) Dominican Republic	21	3.2
+5) Guatemala	19	2.9
+7) Colombia	30	4.5
+9) Honduras	9	1.4
+10) Ecuador	9	1.4
+11) Peru	16	2.4
+12) Argentina	9	1.4
+13) Other South American country	24	3.6
+14) Other Central American/Caribbean country	11	1.7
+98) Other [SPECIFY]	13	2.0
+99) Refused	9	1.4
+Missing	900
+
+
+127) Q33_OTHER
+In what country were you born? IF BORN OUTSIDE THE U.S. [Q32=2], ASK (N=663): OTHER
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	100	0	0
+
+
+128) Q34
+When did you first arrive to live in the (mainland) United States? IF BORN OUTSIDE THE U.S. (Q32=2-4 or Refused), ASK [N=767]:
+RANGE: 9 to 2013
+	N	Mean	Std. Deviation
+Total	767	1895.439	419.175
+9) Refused	36	4.7
+1905) 	1	0.1
+1936) 	1	0.1
+1942) 	1	0.1
+1943) 	1	0.1
+1945) 	2	0.3
+1947) 	1	0.1
+1948) 	1	0.1
+1949) 	1	0.1
+1950) 	3	0.4
+1952) 	2	0.3
+1953) 	2	0.3
+1954) 	4	0.5
+1955) 	3	0.4
+1956) 	5	0.7
+1957) 	4	0.5
+1958) 	2	0.3
+1959) 	3	0.4
+1960) 	9	1.2
+1961) 	7	0.9
+1962) 	3	0.4
+1963) 	3	0.4
+1964) 	8	1.0
+1965) 	1	0.1
+1966) 	3	0.4
+1967) 	5	0.7
+1968) 	10	1.3
+1969) 	10	1.3
+1970) 	7	0.9
+1971) 	6	0.8
+1972) 	9	1.2
+1973) 	9	1.2
+1974) 	8	1.0
+1975) 	8	1.0
+1976) 	10	1.3
+1977) 	8	1.0
+1978) 	16	2.1
+1979) 	8	1.0
+1980) 	29	3.8
+1981) 	6	0.8
+1982) 	10	1.3
+1983) 	9	1.2
+1984) 	18	2.3
+1985) 	18	2.3
+1986) 	11	1.4
+1987) 	10	1.3
+1988) 	20	2.6
+1989) 	18	2.3
+1990) 	26	3.4
+1991) 	6	0.8
+1992) 	15	2.0
+1993) 	15	2.0
+1994) 	21	2.7
+1995) 	17	2.2
+1996) 	22	2.9
+1997) 	17	2.2
+1998) 	23	3.0
+1999) 	28	3.7
+2000) 	32	4.2
+2001) 	28	3.7
+2002) 	20	2.6
+2003) 	18	2.3
+2004) 	20	2.6
+2005) 	22	2.9
+2006) 	20	2.6
+2007) 	13	1.7
+2008) 	6	0.8
+2009) 	11	1.4
+2010) 	7	0.9
+2011) 	6	0.8
+2012) 	3	0.4
+2013) 	1	0.1
+Missing	796
+
+
+129) Q35
+Are you currently a citizen of the United States, or not? IF BORN OUTSIDE THE U.S. (Q32=2), ASK [N=664]:
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	664	1.572	0.931
+1) Yes	343	51.7
+2) No	304	45.8
+3) Other [SPECIFY]	10	1.5
+9) Refused	7	1.1
+Missing	899
+
+
+130) Q35_OTHER
+Are you currently a citizen of the United States, or not? IF BORN OUTSIDE THE U.S. (Q32=2), ASK [N=664]: OTHER
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	10	0	0
+
+
+131) Q36
+How would you describe your heritage? IF BORN IN THE U.S. (Q32=1), ASK (N=796):
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	796	23.489	38.7
+1) Mexican	444	55.8
+2) Salvadorian	8	1.0
+3) Cuban	24	3.0
+4) Dominican	5	0.6
+5) Guatemalan	5	0.6
+7) Colombian	7	0.9
+9) Honduran	4	0.5
+10) Ecuadorian	4	0.5
+11) Puerto Rican	58	7.3
+12) American (Hispanic American)	32	4.0
+13) Spanish background	25	3.1
+14) Hispanic	11	1.4
+97) Mixed background [SPECIFY]	96	12.1
+98) Other [SPECIFY]	45	5.7
+99) Refused	28	3.5
+Missing	767
+
+
+132) Q36_MULTIPLE
+How would you describe your heritage? IF BORN IN THE U.S. (Q32=1), ASK (N=796): MULTIPLE
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	120	0	0
+
+
+133) Q36_OTHER
+How would you describe your heritage? IF BORN IN THE U.S. (Q32=1), ASK (N=796): OTHER
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	104	0	0
+
+
+134) GEN
+Where were your parents born? Were they both born in the U.S., was one born in the U.S., or were both born in another country? IF BORN IN THE U.S. (32=1), ASK:
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	796	1.793	0.999
+1) Both parents born in the U.S.	412	51.8
+2) Only one parent born in the U.S.	161	20.2
+3) Both parents born in another country	219	27.5
+9) Refused	4	0.5
+Missing	767
+
+
+135) Q37
+Do you currently have a close friend or family member living in the U.S. illegally?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	1.85	1.11
+1) Yes	466	29.8
+2) No	1045	66.9
+3) Other [SPECIFY]	22	1.4
+9) Refused	30	1.9
+
+
+136) Q37_OTHER
+Do you currently have a close friend or family member living in the U.S. illegally? OTHER
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	15	0	0
+
+
+137) PARTY
+In politics TODAY, do you consider yourself a Republican, Democrat, or Independent?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.425	1.453
+1) Republican	269	17.2
+2) Democrat	775	49.6
+3) Independent	381	24.4
+4) Other [SPECIFY]	62	4.0
+5) Neither (VOL.)	26	1.7
+9) Refused	50	3.2
+
+
+138) PARTY_OTHER
+In politics TODAY, do you consider yourself a Republican, Democrat, or Independent? OTHER
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	69	0	0
+
+
+139) PARTYLN
+As of today do you lean more toward the Republican Party or more toward the Democratic Party?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	470	2.14	1.407
+1) Republican	142	30.2
+2) Democrat	204	43.4
+3) Other [SPECIFY]	110	23.4
+9) Refused	14	3.0
+Missing	1093
+
+
+140) PARTYLN_OTHER
+As of today do you lean more toward the Republican Party or more toward the Democratic Party? OTHER
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	91	0	0
+
+
+141) IDEO
+In general, would you describe your political views as...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	3.152	1.428
+1) Very conservative	88	5.6
+2) Conservative	339	21.7
+3) Moderate	732	46.8
+4) Liberal	272	17.4
+5) Very liberal	78	5.0
+9) Refused	54	3.5
+
+
+142) MEDIA
+Thinking about your sources of news about politics and current events, would you say you get your news...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	2.356	1.605
+1) Only in English	644	41.2
+2) Mostly in English, but some in Spanish	329	21.0
+3) About equally in English and Spanish	252	16.1
+4) Mostly in Spanish, but some in English	198	12.7
+5) Only in Spanish	95	6.1
+6) Other [SPECIFY]	16	1.0
+9) Refused	29	1.9
+
+
+143) MEDIA_OTHER
+Thinking about your sources of news about politics and current events, would you say you get your news... OTHER
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	10	0	0
+
+
+144) AGE
+Age
+RANGE: 18 to 87
+	N	Mean	Std. Deviation
+Total	1563	44.961	15.402
+18) 	15	1.0
+19) 	20	1.3
+20) 	25	1.6
+21) 	26	1.7
+22) 	25	1.6
+23) 	27	1.7
+24) 	24	1.5
+25) 	32	2.0
+26) 	29	1.9
+27) 	25	1.6
+28) 	22	1.4
+29) 	27	1.7
+30) 	28	1.8
+31) 	28	1.8
+32) 	34	2.2
+33) 	24	1.5
+34) 	33	2.1
+35) 	43	2.8
+36) 	28	1.8
+37) 	32	2.0
+38) 	30	1.9
+39) 	29	1.9
+40) 	50	3.2
+41) 	26	1.7
+42) 	35	2.2
+43) 	45	2.9
+44) 	27	1.7
+45) 	37	2.4
+46) 	28	1.8
+47) 	30	1.9
+48) 	31	2.0
+49) 	35	2.2
+50) 	40	2.6
+51) 	36	2.3
+52) 	38	2.4
+53) 	29	1.9
+54) 	25	1.6
+55) 	34	2.2
+56) 	23	1.5
+57) 	28	1.8
+58) 	26	1.7
+59) 	22	1.4
+60) 	25	1.6
+61) 	24	1.5
+62) 	18	1.2
+63) 	21	1.3
+64) 	21	1.3
+65) 	32	2.0
+66) 	18	1.2
+67) 	22	1.4
+68) 	20	1.3
+69) 	17	1.1
+70) 	15	1.0
+71) 	13	0.8
+72) 	8	0.5
+73) 	15	1.0
+74) 	6	0.4
+75) 	3	0.2
+76) 	6	0.4
+77) 	9	0.6
+78) 	4	0.3
+80) 	2	0.1
+81) 	3	0.2
+82) 	4	0.3
+84) 	2	0.1
+85) 	1	0.1
+87) 	3	0.2
+
+
+145) PPAGECAT
+Age - seven categories
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1563	3.546	1.569
+1) 18-24	162	10.4
+2) 25-34	282	18.0
+3) 35-44	345	22.1
+4) 45-54	329	21.0
+5) 55-64	242	15.5
+6) 65-74	166	10.6
+7) 75+	37	2.4
+
+
+146) PPAGECT4
+Age - four categories
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1563	2.505	1.015
+1) 18-29	297	19.0
+2) 30-44	492	31.5
+3) 45-59	462	29.6
+4) 60+	312	20.0
+
+
+147) EDUC
+Education (highest degree received)
+RANGE: 1 to 14
+	N	Mean	Std. Deviation
+Total	1563	9.424	2.731
+1) No formal education	14	0.9
+2) First, second, third, or fourth grade	26	1.7
+3) Fifth or sixth grade	61	3.9
+4) Seventh or eighth grade	31	2.0
+5) Ninth grade	52	3.3
+6) 10th grade	31	2.0
+7) 11th grade	33	2.1
+8) 12th grade NO DIPLOMA	57	3.6
+9) High school graduate	401	25.7
+10) Some college, no degree	354	22.6
+11) Associate degree	131	8.4
+12) Bachelor's degree	238	15.2
+13) Master's degree	98	6.3
+14) Professional or doctorate degree	36	2.3
+
+
+148) EDUCCAT1
+Education (categorical)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1563	2.591	1.053
+1) Less than high school	305	19.5
+2) High school	401	25.7
+3) Some college	485	31.0
+4) Bachelor's degree or higher	372	23.8
+
+
+149) ETHNIC
+Race / ethnicity
+RANGE: 4 to 4
+	N	Mean	Std. Deviation
+Total	1563	4	0
+4) Hispanic	1563	100.0
+
+
+150) SEX
+Gender
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1563	1.456	0.498
+1) Male	851	54.4
+2) Female	712	45.6
+
+
+151) HHHEAD
+Household head
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1563	0.718	0.45
+0) No	440	28.2
+1) Yes	1123	71.8
+
+
+152) HHSIZE
+Household size
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	1563	2.351	1.389
+1) 	452	28.9
+2) 	595	38.1
+3) 	246	15.7
+4) 	155	9.9
+5) 	63	4.0
+6) 	26	1.7
+7) 	13	0.8
+8) 	8	0.5
+9) 	3	0.2
+10) 	1	0.1
+11) 	1	0.1
+
+
+153) HOUSING
+Housing type
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1563	1.701	0.961
+1) A one-family house detached from any other house	953	61.0
+2) A one-family house attached to one or more houses	195	12.5
+3) A building with two or more apartments	344	22.0
+4) A mobile home	71	4.5
+
+
+154) INCOME
+Household income
+RANGE: 1 to 19
+	N	Mean	Std. Deviation
+Total	1563	10.634	4.456
+1) Less than $5,000	47	3.0
+2) $5,000 to $7,499	38	2.4
+3) $7,500 to $9,999	28	1.8
+4) $10,000 to $12,499	56	3.6
+5) $12,500 to $14,999	59	3.8
+6) $15,000 to $19,999	74	4.7
+7) $20,000 to $24,999	88	5.6
+8) $25,000 to $29,999	102	6.5
+9) $30,000 to $34,999	100	6.4
+10) $35,000 to $39,999	111	7.1
+11) $40,000 to $49,999	132	8.4
+12) $50,000 to $59,999	158	10.1
+13) $60,000 to $74,999	142	9.1
+14) $75,000 to $84,999	92	5.9
+15) $85,000 to $99,999	90	5.8
+16) $100,000 to $124,999	117	7.5
+17) $125,000 to $149,999	58	3.7
+18) $150,000 to $174,999	30	1.9
+19) $175,000 or more	41	2.6
+
+
+155) MARITAL
+Marital status
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1563	2.594	1.96
+1) Married	863	55.2
+2) Widowed	48	3.1
+3) Divorced	151	9.7
+4) Separated	35	2.2
+5) Never married	294	18.8
+6) Living with partner	172	11.0
+
+
+156) REGION
+Region four - Based on state of residence
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1563	3.118	0.953
+1) Northeast	169	10.8
+2) Midwest	121	7.7
+3) South	629	40.2
+4) West	644	41.2
+
+
+157) DIVISION
+Region nine - Based on state of residence
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1563	6.548	2.421
+1) New England	35	2.2
+2) Mid-Atlantic	134	8.6
+3) East-North Central	86	5.5
+4) West-North Central	35	2.2
+5) South Atlantic	253	16.2
+6) East-South Central	16	1.0
+7) West-South Central	360	23.0
+8) Mountain	143	9.1
+9) Pacific	501	32.1
+
+
+158) OWNHOME
+Ownership status of living quarters
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1563	1.42	0.552
+1) Owned or being bought by you or someone in your household	955	61.1
+2) Rented for cash	560	35.8
+3) Occupied without payment of cash rent	48	3.1
+
+
+159) STATE
+State
+RANGE: 11 to 95
+	N	Mean	Std. Deviation
+Total	1563	69.634	24.08
+11) ME	1	0.1
+12) NH	1	0.1
+13) VT	1	0.1
+14) MA	14	0.9
+15) RI	4	0.3
+16) CT	14	0.9
+21) NY	77	4.9
+22) NJ	40	2.6
+23) PA	17	1.1
+31) OH	9	0.6
+32) IN	9	0.6
+33) IL	48	3.1
+34) MI	10	0.6
+35) WI	10	0.6
+41) MN	8	0.5
+42) IA	4	0.3
+43) MO	8	0.5
+44) ND	1	0.1
+45) SD	2	0.1
+46) NE	5	0.3
+47) KS	7	0.4
+51) DE	3	0.2
+52) MD	11	0.7
+53) DC	2	0.1
+54) VA	14	0.9
+56) NC	19	1.2
+57) SC	3	0.2
+58) GA	19	1.2
+59) FL	182	11.6
+61) KY	2	0.1
+62) TN	8	0.5
+63) AL	5	0.3
+64) MS	1	0.1
+71) AR	3	0.2
+72) LA	8	0.5
+73) OK	7	0.4
+74) TX	342	21.9
+81) MT	1	0.1
+82) ID	5	0.3
+83) WY	1	0.1
+84) CO	21	1.3
+85) NM	26	1.7
+86) AZ	65	4.2
+87) UT	7	0.4
+88) NV	17	1.1
+91) WA	22	1.4
+92) OR	9	0.6
+93) CA	463	29.6
+94) AK	4	0.3
+95) HI	3	0.2
+
+
+160) HH01
+Presence of household members - children zero to one
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	1563	0.002	0.057
+0) 	1561	99.9
+1) 	1	0.1
+2) 	1	0.1
+
+
+161) HH25
+Presence of household members - children two to five
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1563	0.003	0.051
+0) 	1559	99.7
+1) 	4	0.3
+
+
+162) HH612
+Presence of household members - children six to 12
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	1563	0.021	0.176
+0) 	1537	98.3
+1) 	20	1.3
+2) 	5	0.3
+3) 	1	0.1
+
+
+163) HH1317
+Presence of household members - children 13 to 17
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1563	0.129	0.4
+0) 	1393	89.1
+1) 	142	9.1
+2) 	25	1.6
+3) 	2	0.1
+4) 	1	0.1
+
+
+164) HH18OV
+Presence of household members - adults 18 or older
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	1563	2.196	1.241
+1) 	471	30.1
+2) 	660	42.2
+3) 	233	14.9
+4) 	118	7.5
+5) 	47	3.0
+6) 	16	1.0
+7) 	10	0.6
+8) 	5	0.3
+9) Refused	2	0.1
+11) 	1	0.1
+
+
+165) EMPLOY
+Current employment status
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	1563	2.935	2.287
+1) Working - as a paid employee	787	50.4
+2) Working - self-employed	125	8.0
+3) Not working - on temporary layoff from a job	18	1.2
+4) Not working - looking for work	157	10.0
+5) Not working - retired	190	12.2
+6) Not working - disabled	84	5.4
+7) Not working - other	202	12.9
+
+
+166) PPNET
+HH internet access
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1563	0.806	0.396
+0) No	304	19.4
+1) Yes	1259	80.6
+
+
+167) WEIGHT
+Post-stratification weight
+RANGE: 0.0866 to 5.1027
+	N	Mean	Std. Deviation
+Total	1563	1	1.112
+
+
+168) I-AGE
+Age (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1563	2.528	1.06
+1) 18-29	297	19.0
+2) 30-44	492	31.5
+3) 45-59	462	29.6
+4) 60-74	275	17.6
+5) 75 or older	37	2.4
+
+
+169) I-EDUC
+Education (highest degree received) (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1563	2.591	1.053
+1) No high school diploma	305	19.5
+2) High school graduate	401	25.7
+3) Some college	485	31.0
+4) Bachelor's or above	372	23.8
+
+
+170) I-INCOME
+Household income (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1563	2.665	1.589
+1) Less than $30,000	492	31.5
+2) $30,000 to $49,999	343	21.9
+3) $50,000 to $74,999	300	19.2
+4) $75,000 to $99,999	182	11.6
+5) $100,000 to $124,999	117	7.5
+6) $125,000 or more	129	8.3
+
+
+171) I-MARITAL
+Marital status (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1563	1.856	1.077
+1) Married	863	55.2
+2) Widowed/Divorced/Separated	234	15.0
+3) Never married	294	18.8
+4) Living with partner	172	11.0
+
+
+172) I-RELIGION
+Now just a few questions for statistical purposes only... What is your present religion, if any? (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1536	2.077	0.947
+1) Protestant (Baptist, Methodist, non-denominational, Lutheran, Presbyterian, Pentecostal, Episcopalian, Reformed, Church of Christ, Jehovah's Witnesses, other Christian, etc.)	411	26.8
+2) Roman Catholic (Catholic)	818	53.3
+3) Other (Mormon, Orthodox, Jewish, Muslim, Buddhist, Hindu, Unitarian, something else)	84	5.5
+4) Atheist/Agnostic/Nothing in particular	223	14.5
+Missing	27
+
+
+173) I-SEX
+Gender (for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1563	1.456	0.498
+1) Male	851	54.4
+2) Female	712	45.6
+
+

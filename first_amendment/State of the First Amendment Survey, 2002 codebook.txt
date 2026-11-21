@@ -1,0 +1,933 @@
+Data File: SOFA02 (Full Data Codebook)
+
+1) CASEID
+Sequential Record ID
+RANGE: 1 to 1000
+	N	Mean	Std. Deviation
+Total	1000	500.5	288.819
+
+
+2) WGTAGE
+Age category for weight
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	988	2.572	0.889
+1) 18-24	109	11.0
+2) 25-44	365	36.9
+3) 45-64	354	35.8
+4) 65+	160	16.2
+Missing	12
+
+
+3) WGTEDUC
+Education category for weight
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	999	2.417	5.367
+1) Less than high school	282	28.2
+2) Some college	306	30.6
+3) College graduate	408	40.8
+99) Missing	3	0.3
+Missing	1
+
+
+4) WGTSEX
+Sex category for weight
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	999	1.54	0.499
+1) Male	460	46.0
+2) Female	539	54.0
+Missing	1
+
+
+5) WGTCLAS
+Class category for weight
+RANGE: 111 to 243
+	N	Mean	Std. Deviation
+Total	986	181.669	51.193
+111) Male 18-24, Less than high school/High school graduate/some college	49	5.0
+113) Male 18-24, College graduate/post-graduate	7	0.7
+121) Male 25-44, Less than high school/high school graduate	42	4.3
+122) Male 25-44, Some college	53	5.4
+123) Male 25-44, College graduate/post-graduate	81	8.2
+131) Male 45-64, Less than high school/high school graduate	42	4.3
+132) Male 45-64, Some college	44	4.5
+133) Male 45-64, College graduate/post-graduate	68	6.9
+141) Male 65+, Less than high school/high school graduate	19	1.9
+142) Male 65+, Some college	23	2.3
+143) Male 65+, College graduate/post-graduate	27	2.7
+211) Female 18-24, Less than high school/high school graduate/some college	40	4.1
+213) Female 18-24, College graduate/post-graduate	12	1.2
+221) Female 25-44, Less than high school/high school graduate	41	4.2
+222) Female 25-44, Some college	48	4.9
+223) Female 25-44, College graduate/post-graduate	100	10.1
+231) Female 45-64, Less than high school/high school graduate	57	5.8
+232) Female 45-64, Some college	56	5.7
+233) Female 45-64, College graduate/post-graduate	86	8.7
+241) Female 65+, Less than high school/high school graduate	33	3.3
+242) Female 65+, Some college	32	3.2
+243) Female 65+, College graduate/post-graduate	26	2.6
+Missing	14
+
+
+6) WEIGHT
+Weight
+RANGE: 0.39 to 2.12
+	N	Mean	Std. Deviation
+Total	1000	0.977	0.531
+
+
+7) AGE
+Respondent's age
+RANGE: 18 to 999
+	N	Mean	Std. Deviation
+Total	999	56.969	100.844
+18) 	5	0.5
+19) 	17	1.7
+20) 	17	1.7
+21) 	18	1.8
+22) 	15	1.5
+23) 	20	2.0
+24) 	17	1.7
+25) 	19	1.9
+26) 	15	1.5
+27) 	15	1.5
+28) 	16	1.6
+29) 	11	1.1
+30) 	12	1.2
+31) 	15	1.5
+32) 	24	2.4
+33) 	10	1.0
+34) 	12	1.2
+35) 	23	2.3
+36) 	19	1.9
+37) 	20	2.0
+38) 	23	2.3
+39) 	23	2.3
+40) 	20	2.0
+41) 	22	2.2
+42) 	27	2.7
+43) 	29	2.9
+44) 	10	1.0
+45) 	17	1.7
+46) 	24	2.4
+47) 	19	1.9
+48) 	24	2.4
+49) 	14	1.4
+50) 	23	2.3
+51) 	32	3.2
+52) 	14	1.4
+53) 	18	1.8
+54) 	17	1.7
+55) 	22	2.2
+56) 	24	2.4
+57) 	15	1.5
+58) 	14	1.4
+59) 	18	1.8
+60) 	11	1.1
+61) 	16	1.6
+62) 	14	1.4
+63) 	9	0.9
+64) 	9	0.9
+65) 	9	0.9
+66) 	6	0.6
+67) 	12	1.2
+68) 	12	1.2
+69) 	10	1.0
+70) 	7	0.7
+71) 	11	1.1
+72) 	10	1.0
+73) 	11	1.1
+74) 	10	1.0
+75) 	9	0.9
+76) 	9	0.9
+77) 	9	0.9
+78) 	3	0.3
+79) 	5	0.5
+80) 	4	0.4
+81) 	4	0.4
+82) 	1	0.1
+83) 	4	0.4
+84) 	2	0.2
+85) 	1	0.1
+86) 	3	0.3
+87) 	2	0.2
+88) 	5	0.5
+102) 	1	0.1
+999) 	11	1.1
+Missing	1
+
+
+8) SPECRTS1
+As you may know, the First Amendment is part of the U.S. Constitution.  Can you name any of the specific rights that are guaranteed by the First Amendment? (PROBE: Are there any others you can name?) Mentioned freedom of the press. (Recode 1)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1000	1.848	0.359
+1) Yes	152	15.2
+2) No	848	84.8
+
+
+9) SPECRTS2
+As you may know, the First Amendment is part of the U.S. Constitution.  Can you name any of the specific rights that are guaranteed by the First Amendment? Mentioned freedom of speech. (Recode 2) 
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1000	1.371	0.483
+1) Yes	629	62.9
+2) No	371	37.1
+
+
+10) SPECRTS3
+As you may know, the First Amendment is part of the U.S. Constitution.  Can you name any of the specific rights that are guaranteed by the First Amendment? Mentioned freedom of religion. (Recode 3)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1000	1.799	0.401
+1) Yes	201	20.1
+2) No	799	79.9
+
+
+11) SPECRTS4
+As you may know, the First Amendment is part of the U.S. Constitution.  Can you name any of the specific rights that are guaranteed by the First Amendment? Mentioned freedom to petition. (Recode 4)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1000	1.975	0.156
+1) Yes	25	2.5
+2) No	975	97.5
+
+
+12) SPECRTS5
+As you may know, the First Amendment is part of the U.S. Constitution.  Can you name any of the specific rights that are guaranteed by the First Amendment? Mentioned freedom to assemble. (Recode 5)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1000	1.872	0.334
+1) Yes	128	12.8
+2) No	872	87.2
+
+
+13) SPECRTS0
+As you may know, the First Amendment is part of the U.S. Constitution.  Can you name any of the specific rights that are guaranteed by the First Amendment? Mentioned another freedom. (Recode 6)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1000	1.791	0.407
+1) Yes	209	20.9
+2) No	791	79.1
+
+
+14) FSTOOFR1
+The First Amendment became part of the U.S. Constitution more than 200 years ago. This is what it says: "Congress shall make no law respecting an establishment of religion or prohibiting the free exercise thereof, or abridging the freedom of speech or of the press, or the right of the people peaceably to assemble, and to petition the government for a redress of grievances."  Based on your own feelings about the First Amendment, please tell me whether you agree or disagree with the following statement: The First Amendment goes too far in the rights it guarantees.(Probe: Do you agree/disagree strongly or mildly?)[Recode]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1000	4.254	16.096
+1) Agree	462	46.2
+2) Disagree	510	51.0
+98) Don't know	0	0.0
+99) Refused	28	2.8
+
+
+15) PRSMIL1
+Now please tell me whether you agree or disagree with the following statements.  Newpapers should be allowed to freely criticize the U.S. military about its strategy and performance. (PROBE: strongly or mildly?)[Recode 1]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1000	2.828	11.769
+1) Agree	613	61.3
+2) Disagree	372	37.2
+98) Don't know	14	1.4
+99) Refused	1	0.1
+
+
+16) FREEPRS1
+Even though the U.S. Constitution guarantees freedom of the press, government has placed some restrictions on it.  Overall, do you think Americans have too much press freedom, too little press freedom, or is the amount of press freedom in America about right? (Recode 1)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1000	4.646	15.143
+1) Too much	314	31.4
+2) Too little	126	12.6
+3) Right amount	535	53.5
+98) Don't know	0	0.0
+99) Refused	25	2.5
+
+
+17) RSTFRPR1
+Overall, do you think the press in America has too much freedom to do what it wants, too little freedom to do what it wants, or is the amount of freedom the press has about right?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1000	3.866	12.921
+1) Too much	392	39.2
+2) Too little	78	7.8
+3) Right amount	512	51.2
+98) Don't know	0	0.0
+99) Refused	18	1.8
+
+
+18) RSTFRSP1
+Even though the U.S. Constitution guarantees freedom of speech, government has placed some restrictions on it.  Overall, do you think Americans have too much freedom to speak freely, too little freedom to speak freely, or is the amount of freedom to speak freely about right? (Recode 1)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1000	3.976	11.347
+1) Too much	89	8.9
+2) Too little	190	19.0
+3) Right amount	707	70.7
+99) Refused	14	1.4
+
+
+19) RSTFRRL1
+Even though the U.S. Constitution guarantees freedom of religion, government has placed some restrictions on it.  Overall, do you think Americans have too much religious freedom, too little religious freedom, or is the amount of religious freedom about right? (Recode 1)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1000	5.778	16.967
+1) Too much	54	5.4
+2) Too little	186	18.6
+3) Right amount	728	72.8
+99) Refused	32	3.2
+
+
+20) UNPOPOP1
+Now please tell me whether you agree or disagree with the following statements.  People should be allowed to express unpopular opinions. (Recode 1)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1000	1.438	3.147
+1) Strongly agree	716	71.6
+2) Mildly agree	240	24.0
+3) Mildly disagree	29	2.9
+4) Strongly disagree	14	1.4
+99) Refused	1	0.1
+
+
+21) FLAGBRN1
+Some people feel that the U.S. Constitution should be amended to make it illegal to burn or desecrate the American flag as a form of political dissent.  Others say that the U.S. Constitution should not be amended to specifically prohibit flag burning or desecration.  Do you think the U.S. Constitution should or should not be amended to prohibit burning or desecrating the American flag? (Recode 1)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1000	3.694	14.639
+1) Should not	537	53.7
+2) Should	440	44.0
+99) Refused	23	2.3
+
+
+22) GVMONREL
+Please tell me whether you agree or disagree with the following statement. In the interest of national security, government should be able to monitor religious groups even if that means infringing upon the religious freedom of the group's members.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	999	6.764	19.911
+1) Strongly agree	272	27.2
+2) Mildly agree	241	24.1
+3) Mildly disagree	182	18.2
+4) Strong disagree	259	25.9
+98) Don't know	34	3.4
+99) Refused	11	1.1
+Missing	1
+
+
+23) MONACTS1
+In light of the government's war on terrorism in response to the World Trade Center attacks, some people think that the government should have more power to monitor the activities of Muslims legally living in the United States than it has to monitor other religious groups.  Others say that monitoring Muslims more closely than others would violate the Muslims' right to free exercise of their religion.  Which of these comes closest to your own opinion? (Recode 2)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	999	8.796	25.477
+1) More power to monitor Muslims	423	42.3
+2) Different treatment violates rights	501	50.2
+98) Don't know	63	6.3
+99) Refused	12	1.2
+Missing	1
+
+
+24) AGECAT
+Respondent's age (Recoded into categories)
+RANGE: 1 to 999
+	N	Mean	Std. Deviation
+Total	999	13.487	104.044
+1) 18-30	197	19.7
+2) 31-44	277	27.7
+3) 45-61	322	32.2
+4) 62+	192	19.2
+999) Don't know/Refused	11	1.1
+Missing	1
+
+
+25) EDUC1
+What was the last grade of school you completed? Grade school or less, some high school, high school, some college, college grad, post graduate.(Recode 1)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	999	2.417	5.367
+1) High School or less	282	28.2
+2) Some College/Trade School	306	30.6
+3) College or more	408	40.8
+99) Refused	3	0.3
+Missing	1
+
+
+26) RACE1
+Are you White, Black, Hispanic, Asian or something else? (Recode 1)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	999	3.327	14.369
+1) White	808	80.9
+2) Non-white	169	16.9
+99) Refused	22	2.2
+Missing	1
+
+
+27) YRINCOM1
+For classification purposes only, what is the total yearly income of all the members of your family now living at home?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	999	10.7	22.824
+1) Under $10,000	64	6.4
+2) $10,000 to $20,000	124	12.4
+3) $20,000 to $30,000	109	10.9
+4) $30,000 to $40,000	93	9.3
+5) $40,000 to $50,000	119	11.9
+6) $50,000 to $75,000	185	18.5
+7) $75,000 to $100,000	109	10.9
+8) $100,000 or more	134	13.4
+99) Don't know/Refused	62	6.2
+Missing	1
+
+
+28) POLAFF1
+In politics today, are you a Democrat, a Republican, an Independent or what? (Recode 1)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	904	4.519	15.632
+1) Democrat	307	34.0
+2) Republican	317	35.1
+3) Independent	256	28.3
+99) Don't know/Refused	24	2.7
+Missing	96
+
+
+29) REGION
+Region 2
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1000	2.58	1.035
+1) Northeast	200	20.0
+2) Midwest	233	23.3
+3) South	354	35.4
+4) West	213	21.3
+
+
+30) KIDS12
+[Follow-up if "Yes, have children under the age of 18":]  Do you have any children under the age of 12?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	342	1.254	0.436
+1) Yes	255	74.6
+2) No	87	25.4
+Missing	658
+
+
+31) KIDS6
+[Follow-up if "Yes, have children under the age of 12":]  Do you have any children under the age of 6?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	342	1.547	0.499
+1) Yes	155	45.3
+2) No	187	54.7
+99) Don't know/Refused	0	0.0
+Missing	658
+
+
+32) BIRTHYR
+What year were you born? (Recoded)
+RANGE: 1900 to 1984
+	N	Mean	Std. Deviation
+Total	988	1955.519	16.811
+1900) 	1	0.1
+1914) 	5	0.5
+1915) 	2	0.2
+1916) 	3	0.3
+1917) 	1	0.1
+1918) 	2	0.2
+1919) 	4	0.4
+1920) 	1	0.1
+1921) 	4	0.4
+1922) 	4	0.4
+1923) 	5	0.5
+1924) 	3	0.3
+1925) 	9	0.9
+1926) 	9	0.9
+1927) 	9	0.9
+1928) 	10	1.0
+1929) 	11	1.1
+1930) 	10	1.0
+1931) 	11	1.1
+1932) 	7	0.7
+1933) 	10	1.0
+1934) 	12	1.2
+1935) 	12	1.2
+1936) 	6	0.6
+1937) 	9	0.9
+1938) 	9	0.9
+1939) 	9	0.9
+1940) 	14	1.4
+1941) 	16	1.6
+1942) 	11	1.1
+1943) 	18	1.8
+1944) 	14	1.4
+1945) 	15	1.5
+1946) 	24	2.4
+1947) 	22	2.2
+1948) 	17	1.7
+1949) 	18	1.8
+1950) 	14	1.4
+1951) 	32	3.2
+1952) 	23	2.3
+1953) 	14	1.4
+1954) 	24	2.4
+1955) 	19	1.9
+1956) 	24	2.4
+1957) 	17	1.7
+1958) 	10	1.0
+1959) 	29	2.9
+1960) 	27	2.7
+1961) 	22	2.2
+1962) 	20	2.0
+1963) 	23	2.3
+1964) 	23	2.3
+1965) 	20	2.0
+1966) 	19	1.9
+1967) 	23	2.3
+1968) 	12	1.2
+1969) 	10	1.0
+1970) 	24	2.4
+1971) 	15	1.5
+1972) 	12	1.2
+1973) 	11	1.1
+1974) 	16	1.6
+1975) 	15	1.5
+1976) 	15	1.5
+1977) 	19	1.9
+1978) 	17	1.7
+1979) 	20	2.0
+1980) 	15	1.5
+1981) 	18	1.8
+1982) 	17	1.7
+1983) 	17	1.7
+1984) 	5	0.5
+Missing	12
+
+
+33) EDUC
+What was the last grade of school you completed? Grade school or less, some high school, high school, some college, college grad, post graduate.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	999	5.197	5.375
+1) Grade school or less	8	0.8
+2) Some high school	50	5.0
+3) High school	224	22.4
+4) Trade school (volunteered)	18	1.8
+5) Some college	288	28.8
+6) College graduate	253	25.3
+7) Post graduate	155	15.5
+99) Don't know/Refused	3	0.3
+Missing	1
+
+
+34) RACE
+Are you White, Black, Hispanic, Asian, or something else?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	999	3.575	14.372
+1) White	808	80.9
+2) Black	76	7.6
+3) Hispanic	31	3.1
+4) Asian	12	1.2
+5) Bi-Racial (Volunteered)	8	0.8
+6) Other	42	4.2
+99) Don't know/Refused	22	2.2
+Missing	1
+
+
+35) YRINCOM
+For classification purposes only, is the total yearly income of all the members of your family now living at home $40,000 or more, or would it be less than $40,000? (Questions 51a through c recoded into 51x.)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	999	7.678	23.507
+1) Less than $40,000	342	34.2
+2) $40,000 or more	595	59.6
+99) Don't know/Refused	62	6.2
+Missing	1
+
+
+36) YRINCMP1
+For classification purposes only, is the total yearly income of all the members of your family now living at home $40,000 or more, or would it be less than $40,000? And that is...
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	342	10.699	26.424
+1) Under $10,000	36	10.5
+2) $10,000 to less than $20,000	76	22.2
+3) $20,000 to less than $30,000	109	31.9
+4) $30,000 to less than $40,000	93	27.2
+99) Don't know/Refused	28	8.2
+Missing	658
+
+
+37) YRINCMP2
+For classification purposes only, is the total yearly income of all the members of your family now living at home $40,000 or more, or would it be less than $40,000? And that is...
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	595	10.259	26.33
+1) $40,000 to less than $50,000	119	20.0
+2) $50,000 to less than $75,000	185	31.1
+3) $75,000 to less than $100,000	109	18.3
+4) $100,000 or more	134	22.5
+99) Don't know/Refused	48	8.1
+Missing	405
+
+
+38) RELIGION
+Are you Catholic, Protestant, Jewish, or some other religion?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	999	6.241	18.252
+1) Catholic	242	24.2
+2) Protestant	313	31.3
+3) Jewish	23	2.3
+4) Other (specify)	285	28.5
+5) None (vol)	99	9.9
+99) Don't know/Refused	37	3.7
+Missing	1
+
+
+39) TYPCHRS
+Would you describe yourself as either a Fundamentalist or Evangelical Christian, or would you not describe yourself that way?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	939	4.57	15.953
+1) Fundamentalist/Evangelical	195	20.8
+2) Neither	632	67.3
+3) Not sure (volunteered)	86	9.2
+99) Don't know/Refused	26	2.8
+Missing	61
+
+
+40) POLAFF
+In politics, today, are you a Democrat, a Republican, an Independent or what? (Recode 1)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	999	4.497	14.87
+1) Democrat	307	30.7
+2) Republican	317	31.7
+3) Independent	256	25.6
+4) No preference (volunteered)	67	6.7
+5) Other (volunteered)	28	2.8
+99) Don't know/Refused	24	2.4
+Missing	1
+
+
+41) KIDS
+Do you have any children under the age of 18?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	999	2.143	6.889
+1) Yes	342	34.2
+2) No	652	65.3
+99) Don't know/Refused	5	0.5
+Missing	1
+
+
+42) SEX
+Respondent's sex:
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	999	1.54	0.499
+1) Male	460	46.0
+2) Female	539	54.0
+Missing	1
+
+
+43) FREEPRS
+Overall, do you think the press in America has too much freedom to do what it wants, too little freedom to do what it wants, or is the amount of freedom the press has about right?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1000	3.694	14.639
+1) Too much freedom	537	53.7
+2) Too little freedom	440	44.0
+99) Don't know/Refused	23	2.3
+
+
+44) RSTFRPR
+Overall, do you think the press in America has too much freedom to do what it wants, too little freedom to do what it wants, or is the amount of freedom the press has about right?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	440	3.136	13.873
+1) Too much freedom	373	84.8
+2) Too little freedom	58	13.2
+99) Don't know/Refused	9	2.0
+Missing	560
+
+
+45) PUBLISH
+Now please tell me whether you agree or disagree with the following statements. Newspapers should be allowed to publish freely without government approval of a story.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	999	8.633	22.667
+1) Strongly agree	46	4.6
+2) Mildly agree	242	24.2
+3) Mildly disagree	355	35.5
+4) Strongly disagree	297	29.7
+99) Don't know/Refused	59	5.9
+Missing	1
+
+
+46) CRITMIL
+Now please tell me whether you agree or disagree with the following statements. Newspapers should be allowed to freely criticize the U.S military about its strategy and performance.  (PROBE: strongly or mildly?)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	999	6.079	18.495
+1) Strongly agree	36	3.6
+2) Mildly agree	500	50.1
+3) Mildly disagree	425	42.5
+99) Refused	38	3.8
+Missing	1
+
+
+47) FRMPRS
+Some people believe that the media has too much freedom to publish whatever it wants.  Others believe there is too much government censorship.  Which of these beliefs lies closest to your own?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	979	2.225	4.537
+1) There is too much media freedom	478	48.8
+2) There is too much government censorship	186	19.0
+3) Neither (volunteered)	122	12.5
+4) Both (volunteered)	191	19.5
+99) Don't know/Refused	2	0.2
+Missing	21
+
+
+48) SPCRTS
+As you may know, the First Amendment is part of the U.S. Constitution.  Can you name any of the specific rights that are guaranteed by the First Amendment? (PROBE: Are there any others you can name?) Mentioned freedom of the press. (Recode 1)
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	999	1	0
+1) Freedom of the press	999	100.0
+Missing	1
+
+
+49) SPCRTS1
+As you may know, the First Amendment is part of the U.S. Constitution.  Can you name any of the specific rights that are guaranteed by the First Amendment? Mentioned freedom of speech. (Recode 2) 
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	999	4.416	14.884
+1) Freedom of the press	357	35.7
+2) Freedom of speech	336	33.6
+3) Freedom of religion	121	12.1
+4) Right to petition	161	16.1
+99) Don't know/Refused	24	2.4
+Missing	1
+
+
+50) SPCRTS2
+As you may know, the First Amendment is part of the U.S. Constitution.  Can you name any of the specific rights that are guaranteed by the First Amendment? Mentioned freedom of religion. (Recode 3)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	979	3.395	11.147
+1) Freedom of the press	335	34.2
+2) Freedom of speech	359	36.7
+3) Freedom of religion	104	10.6
+4) Right to petition	168	17.2
+99) Don't know/Refused	13	1.3
+Missing	21
+
+
+51) SPCRTS3
+As you may know, the First Amendment is part of the U.S. Constitution.  Can you name any of the specific rights that are guaranteed by the First Amendment? Mentioned freedom to petition. (Recode 4)
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1000	1	0
+1) Freedom of the press	1000	100.0
+
+
+52) SPCRTS4
+As you may know, the First Amendment is part of the U.S. Constitution.  Can you name any of the specific rights that are guaranteed by the First Amendment? Mentioned freedom to assemble. (Recode 5)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	945	2.669	5.475
+1) Freedom of the press	75	7.9
+2) Freedom of speech	451	47.7
+3) Freedom of religion	416	44.0
+99) Don't know/Refused	3	0.3
+Missing	55
+
+
+53) SPCRTS5
+As you may know, the First Amendment is part of the U.S. Constitution.  Can you name any of the specific rights that are guaranteed by the First Amendment? Mentioned another freedom. (Recode 6)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	934	2.664	6.364
+1) Freedom of the press	165	17.7
+2) Freedom of speech	368	39.4
+3) Freedom of religion	397	42.5
+99) Don't know/Refused	4	0.4
+Missing	66
+
+
+54) FSTOOFAR
+The First Amendment became part of the U.S. Constitution more than 200 years ago. This is what it says: "Congress shall make no law respecting an establishment of religion or prohibiting the free exercise thereof, or abridging the freedom of speech or of the press, or the right of the people peaceably to assemble, and to petition the government for a redress of grievances."  Based on your own feelings about the First Amendment, please tell me whether you agree or disagree with the following statement: The First Amendment goes too far in the rights it guarantees. (Recode 1) (Probe: Do you agree/disagree strongly or mildly?)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	964	1.855	3.274
+1) Strongly agree	585	60.7
+2) Mildly agree	30	3.1
+3) Mildly disagree	348	36.1
+99) Refused	1	0.1
+Missing	36
+
+
+55) ESSNRT1
+The US Constitution protects certain rights, but not everyone considers each right important. I am going to read you some rights guaranteed by the U.S. Constitution. For each, please tell me how important it is that you have that right.  First, how important is it that you have the right to assemble, petition, march, protest or petition the government?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	925	1.446	3.261
+1) Essential	656	70.9
+2) Important, but not essential	221	23.9
+3) Not important	47	5.1
+99) Refused	1	0.1
+Missing	75
+
+
+56) ESSNRT2
+The U.S. Constitution protects certain rights, but not everyone considers each right important. I am going to read you some rights guaranteed by the U.S. Constitution. For each, please tell me how important it is that you have that right.  First how important is it that you have the right to speak freely about whatever you want?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	954	1.308	3.201
+1) Essential	784	82.2
+2) Important, but not essential	142	14.9
+3) Not important	27	2.8
+99) Refused	1	0.1
+Missing	46
+
+
+57) ESSNRT3
+The U.S. Constitution protects certain rights, but not everyone considers each right important. I am going to read you some rights guaranteed by the U.S. Constitution. For each, please tell me how important it is that you have that right.  First how important is it that you have the right to practice the religion of your choice?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	893	1.525	0.687
+1) Essential	523	58.6
+2) Important, but not essential	271	30.3
+3) Not important	99	11.1
+99) Refused	0	0.0
+Missing	107
+
+
+58) ESSNTT4
+The U.S. Constitution protects certain rights, but not everyone considers each right important. I am going to read you some rights guaranteed by the U.S. Constitution. For each, please tell me how important it is that you have that right.  First how important is it that you have the right to practice no religion?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	974	1.24	0.477
+1) Essential	762	78.2
+2) Important, but not essential	190	19.5
+3) Not important	22	2.3
+99) Refused	0	0.0
+Missing	26
+
+
+59) ESSNRT5
+The U.S. Constitution protects certain rights, but not everyone considers each right important. I am going to read you some rights guaranteed by the U.S. Constitution. For each, please tell me how important it is that you have that right.  First how important is it that you have the right to be informed by a free press?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	977	1.163	0.416
+1) Essential	836	85.6
+2) Important, but not essential	123	12.6
+3) Not important	18	1.8
+99) Refused	0	0.0
+Missing	23
+
+
+60) ESSNRT6
+The U.S. Constitution protects certain rights, but not everyone considers each right important. I am going to read you some rights guaranteed by the U.S. Constitution. For each, please tell me how important it is that you have that right.  First how important is it that you have the right to own firearms?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	877	1.749	3.367
+1) Essential	447	51.0
+2) Important, but not essential	299	34.1
+3) Not important	130	14.8
+99) Refused	1	0.1
+Missing	123
+
+
+61) ESSNRT7
+The U.S. Constitution protects certain rights, but not everyone considers each right important. I am going to read you some rights guaranteed by the U.S. Constitution. For each, please tell me how important it is that you have that right.  First how important is it that you have the right to privacy?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	884	1.732	3.354
+1) Essential	462	52.3
+2) Important, but not essential	293	33.1
+3) Not important	128	14.5
+99) Refused	1	0.1
+Missing	116
+
+
+62) I-AGE
+Respondent's age (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	988	2.572	0.889
+1) 18-24	109	11.0
+2) 25-44	365	36.9
+3) 45-64	354	35.8
+4) 65+	160	16.2
+Missing	12
+
+
+63) I-EDUC
+What was the last grade of school you completed? Grade school or less, some high school, high school, some college, college grad, post graduate.(Recode 1) (Recoded for use with online analysis)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	996	2.127	0.823
+1) High School or less	282	28.3
+2) Some College/Trade School	306	30.7
+3) College or more	408	41.0
+Missing	4
+
+
+64) I-GENDER
+Respondent's sex: (for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	999	1.54	0.499
+1) Male	460	46.0
+2) Female	539	54.0
+Missing	1
+
+
+65) I-INCOME
+For classification purposes only, what is the total yearly income of all the members of your family now living at home? (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	937	3.126	1.818
+1) Less than $30,000	297	31.7
+2) $30,000 to $40,000	93	9.9
+3) $40,000 to $50,000	119	12.7
+4) $50,000 to $75,000	185	19.7
+5) $75,000 to $100,000	109	11.6
+6) $100,000 or more	134	14.3
+Missing	63
+
+
+66) I-RACE
+Are you White, Black, Hispanic, Asian, or something else? (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	977	1.426	1.158
+1) White	808	82.7
+2) Black	76	7.8
+3) Hispanic	31	3.2
+4) Asian	12	1.2
+5) Bi-Racial (Volunteered)	8	0.8
+6) Other	42	4.3
+Missing	23
+
+
+67) I-RELIGION
+Are you Catholic, Protestant, Jewish, or some other religion? (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	962	2.674	1.391
+1) Catholic	242	25.2
+2) Protestant	313	32.5
+3) Jewish	23	2.4
+4) Other (specify)	285	29.6
+5) None (vol)	99	10.3
+Missing	38
+
+

@@ -1,0 +1,1988 @@
+Data File: RELPUB05 (Full Data Codebook)
+
+1) PSRAID
+Unique ID
+RANGE: 1 to 2000
+	N	Mean	Std. Deviation
+Total	2000	1000.5	577.495
+
+
+2) INT_DATE
+Interview date
+RANGE: 70705 to 71705
+	N	Mean	Std. Deviation
+Total	2000	71112.9	299.838
+70705) July 7, 2005	235	11.8
+70805) July 8, 2005	262	13.1
+70905) July 9, 2005	278	13.9
+71005) July 10, 2005	189	9.5
+71105) July 11, 2005	208	10.4
+71205) July 12, 2005	172	8.6
+71305) July 13, 2005	173	8.7
+71405) July 14, 2005	113	5.7
+71505) July 15, 2005	146	7.3
+71605) July 16, 2005	156	7.8
+71705) July 17, 2005	68	3.4
+
+
+3) CREGION
+Census Region
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	2000	2.607	0.996
+1) Northeast	347	17.4
+2) Midwest	497	24.9
+3) South	751	37.6
+4) West	405	20.3
+
+
+4) USR1
+Community type- numeric
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	2000	1.911	0.709
+1) Urban	599	30.0
+2) Suburban	980	49.0
+3) Rural	421	21.1
+
+
+5) REP
+Rep
+RANGE: 1 to 188
+	N	Mean	Std. Deviation
+Total	2000	93.373	53.587
+
+
+6) MSA
+Metropolitan Statistical Area
+RANGE: 0 to 49700
+	N	Mean	Std. Deviation
+Total	2000	24189.65	15859.894
+
+
+7) FIPS
+FIPS code
+RANGE: 1003 to 56021
+	N	Mean	Std. Deviation
+Total	2000	28944.403	15750.19
+
+
+8) STATE
+State name (from FIPS code)
+RANGE: 1 to 56
+	N	Mean	Std. Deviation
+Total	2000	28.857	15.727
+1) Alabama	36	1.8
+4) Arizona	44	2.2
+5) Arkansas	16	0.8
+6) California	176	8.8
+8) Colorado	27	1.4
+9) Connecticut	24	1.2
+10) Delaware	10	0.5
+11) District of Columbia	4	0.2
+12) Florida	115	5.8
+13) Georgia	52	2.6
+16) Idaho	15	0.8
+17) Illinois	65	3.3
+18) Indiana	41	2.1
+19) Iowa	24	1.2
+20) Kansas	21	1.1
+21) Kentucky	40	2.0
+22) Louisiana	34	1.7
+23) Maine	12	0.6
+24) Maryland	44	2.2
+25) Massachusetts	33	1.7
+26) Michigan	89	4.5
+27) Minnesota	32	1.6
+28) Mississippi	23	1.2
+29) Missouri	59	3.0
+30) Montana	9	0.5
+31) Nebraska	16	0.8
+32) Nevada	13	0.7
+33) New Hampshire	12	0.6
+34) New Jersey	52	2.6
+35) New Mexico	17	0.9
+36) New York	94	4.7
+37) North Carolina	67	3.4
+38) North Dakota	5	0.3
+39) Ohio	86	4.3
+40) Oklahoma	29	1.5
+41) Oregon	37	1.9
+42) Pennsylvania	100	5.0
+44) Rhode Island	8	0.4
+45) South Carolina	32	1.6
+46) South Dakota	4	0.2
+47) Tennessee	50	2.5
+48) Texas	120	6.0
+49) Utah	19	1.0
+50) Vermont	12	0.6
+51) Virginia	63	3.2
+53) Washington	45	2.3
+54) West Virginia	16	0.8
+55) Wisconsin	55	2.8
+56) Wyoming	3	0.2
+
+
+9) AREA
+Area code
+RANGE: 201 to 989
+	N	Mean	Std. Deviation
+Total	2000	591.277	233.367
+
+
+10) TZREC
+Time zone
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2000	2.169	1.152
+1) Central	576	28.8
+2) Eastern	974	48.7
+3) Mountain	98	4.9
+4) Pacific	274	13.7
+5) Arizona	44	2.2
+6) Indiana	34	1.7
+
+
+11) VERSION
+Created to capture missing cases in the BORNAGN question instead of recoding the INT_DATA variable.  [See the summary document of this file for more information on the variables VERSION and BORNAGN.]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2000	1.877	0.329
+
+
+12) SCREEN
+Screening for respondent
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2000	1.519	0.5
+1) Oldest female	962	48.1
+2) Youngest female	1038	51.9
+
+
+13) FORM
+Form number of survey (sample split).
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2000	1.5	0.5
+1) Form 1	1000	50.0
+2) Form 2	1000	50.0
+
+
+14) SEX
+Sex.  (Enter respondent's sex.)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2000	1.536	0.499
+1) Male	929	46.5
+2) Female	1071	53.6
+
+
+15) APPBUSH
+Do you approve or disapprove of the way George W. Bush is handling his job as president?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	2.044	2.004
+1) Approve	928	46.4
+2) Disapprove	927	46.4
+9) Don't know/Refused	145	7.3
+
+
+16) SATCTRY
+All in all, are you satisfied or dissatisfied with the way things are going in this country today?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	2.138	1.94
+1) Satisfied	704	35.2
+2) Dissatisfied	1156	57.8
+9) Don't know/Refused	140	7.0
+
+
+17) BOMBNEWS
+How closely have you been following news about the terrorist bombings in London, England: very closely, fairly closely, not too closely, or not at all closely?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	1.961	1.052
+1) Very closely	711	35.6
+2) Fairly closely	853	42.7
+3) Not too closely	320	16.0
+4) Not at all closely	100	5.0
+9) Don't know/Refused	16	0.8
+
+
+18) VIEWDTH
+I'd like to get your views on some issues that are being discussed in this country today.  All in all, do you strongly favor, favor, oppose, or strongly oppose the death penalty for persons convicted of murder?  [Answered only if FORM = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.476	2.001
+1) Strongly favor	326	32.6
+2) Favor	372	37.2
+3) Oppose	152	15.2
+4) Strongly oppose	80	8.0
+9) Don't know/Refused	70	7.0
+Missing	1000
+
+
+19) VIEWEUTH
+I'd like to get your views on some issues that are being discussed in this country today.  All in all, do you strongly favor, favor, oppose, or strongly oppose making it legal for doctors to give terminally ill patients the means to end their lives?  [Answered only if FORM = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.983	2.101
+1) Stongly favor	187	18.7
+2) Favor	332	33.2
+3) Oppose	232	23.2
+4) Strongly oppose	161	16.1
+9) Don't know/Refused	88	8.8
+Missing	1000
+
+
+20) VIEWFUND
+I'd like to get your views on some issues that are being discussed in this country today.  All in all, do you strongly favor, favor, oppose, or strongly oppose allowing churches and other houses of worship to apply, along with other organizations, for government funding to provide social services such as job training or drug treatment counseling to people who need them?  [Answered only if FORM = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.447	1.611
+1) Stongly favor	240	24.0
+2) Favor	405	40.5
+3) Oppose	223	22.3
+4) Strongly oppose	92	9.2
+9) Don't know/Refused	40	4.0
+Missing	1000
+
+
+21) VIEWHLTH
+I'd like to get your views on some issues that are being discussed in this country today.  All in all, do you strongly favor, favor, oppose, or strongly oppose the U.S. government guaranteeing health insurance for all citizens, even if it means raising taxes?  [Answered only if FORM = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.548	1.853
+1) Stongly favor	258	25.8
+2) Favor	384	38.4
+3) Oppose	205	20.5
+4) Strongly oppose	94	9.4
+9) Don't know/Refused	59	5.9
+Missing	1000
+
+
+22) VIEWFLAG
+I'd like to get your views on some issues that are being discussed in this country today.  All in all, do you strongly favor, favor, oppose, or strongly oppose passing a constitutional amendment that would allow federal and state governments to make flag burning illegal?  [Answered only if FORM = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.771	2.066
+1) Stongly favor	297	29.7
+2) Favor	242	24.2
+3) Oppose	234	23.4
+4) Strongly oppose	151	15.1
+9) Don't know/Refused	76	7.6
+Missing	1000
+
+
+23) ISSDEATH
+I'd like to get your views on some issues that are being discussed in this country today.  All in all, do you strongly favor, favor, oppose, or strongly oppose the death penalty for persons convicted of murder when they were under the age of 18?  [Answered only if FORM = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	3.269	2.04
+1) Strongly favor	115	11.5
+2) Favor	241	24.1
+3) Oppose	369	36.9
+4) Strongly oppose	182	18.2
+9) Don't know/Refused	93	9.3
+Missing	1000
+
+
+24) ISSEUTH
+I'd like to get your views on some issues that are being discussed in this country today.  All in all, do you strongly favor, favor, oppose, or strongly oppose making it legal for doctors to assist terminally ill patients in committing suicide?  [Answered only if FORM = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	3.097	1.98
+1) Strongly favor	129	12.9
+2) Favor	327	32.7
+3) Oppose	262	26.2
+4) Strongly oppose	202	20.2
+9) Don't know/Refused	80	8.0
+Missing	1000
+
+
+25) ISSPOOR
+I'd like to get your views on some issues that are being discussed in this country today.  All in all, do you strongly favor, favor, oppose, or strongly oppose providing more generous government assistance to the poor?  [Answered only if FORM = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.485	1.865
+1) Strongly favor	270	27.0
+2) Favor	403	40.3
+3) Oppose	204	20.4
+4) Strongly oppose	62	6.2
+9) Don't know/Refused	61	6.1
+Missing	1000
+
+
+26) ISSHOMO
+I'd like to get your views on some issues that are being discussed in this country today.  All in all, do you strongly favor, favor, oppose, or strongly oppose allowing gays and lesbians to serve openly in the military?  [Answered only if FORM = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	3.003	2.159
+1) Strongly favor	146	14.6
+2) Favor	434	43.4
+3) Oppose	176	17.6
+4) Strongly oppose	147	14.7
+9) Don't know/Refused	97	9.7
+Missing	1000
+
+
+27) ISSFUND
+I'd like to get your views on some issues that are being discussed in this country today.  All in all, do you strongly favor, favor, oppose, or strongly oppose taking some of the federal funds spent on government anti-poverty programs and giving them to religious groups to provide social service?  [Answered only if FORM = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	3.336	1.926
+1) Strongly favor	61	6.1
+2) Favor	269	26.9
+3) Oppose	373	37.3
+4) Strongly oppose	211	21.1
+9) Don't know/Refused	86	8.6
+Missing	1000
+
+
+28) ISRAPAL
+In the dispute between Israel and the Palestinians, which side do you sympathize with more, Israel or the Palestinians?  [Asked only if FORM =1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	3.822	3.236
+1) Israel	388	38.8
+2) The Palestinians	123	12.3
+3) Both	58	5.8
+4) Neither	173	17.3
+9) Don't know/Refused	258	25.8
+Missing	1000
+
+
+29) INFLUENC
+[Asked only if FORM = 1 and ISRAPAL = 1, 2, 3, or 4.]  Which one of the following has had the biggest influence on your thinking on this issue: a personal experience, the views of your friends and family, what you have seen or read in the media, your religious beliefs, your education, or something else?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	742	3.877	1.646
+1) A personal experience	66	8.9
+2) The views of your friends and family	43	5.8
+3) What you have seen or read in the media	226	30.5
+4) Your religious beliefs	160	21.6
+5) Your education	141	19.0
+6) Something else	84	11.3
+9) Don't know/Refused	22	3.0
+Missing	1258
+
+
+30) MIDEAST
+Thinking about the Mideast situation these days, do you think the U.S. should take Israel's side more, less or about as much as it has in the past?  [Asked only if FORM = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	3.412	2.477
+1) More	143	14.3
+2) Less	220	22.0
+3) As much as in the past	484	48.4
+9) Don't know/Refused	153	15.3
+Missing	1000
+
+
+31) PPLBUSH
+Now I'd like your views on some people.  Would you say your overall opinion of George W. Bush is very favorable, mostly favorable, mostly unfavorable, or very unfavorable?  [Asked only if FORM = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.62	1.442
+1) Very favorable	236	23.6
+2) Mostly favorable	288	28.8
+3) Mostly unfavorable	209	20.9
+4) Very unfavorable	241	24.1
+8) Can't rate	17	1.7
+9) Refused	9	0.9
+Missing	1000
+
+
+32) PPLPOPE
+Now I'd like your views on some people.  Would you say your overall opinion of Pope Benedict the sixteenth is very favorable, mostly favorable, mostly unfavorable, or very unfavorable?  [Asked only if FORM = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	4.64	2.976
+1) Very favorable	106	10.6
+2) Mostly favorable	344	34.4
+3) Mostly unfavorable	70	7.0
+4) Very unfavorable	34	3.4
+5) Never heard of	28	2.8
+8) Can't rate	402	40.2
+9) Refused	16	1.6
+Missing	1000
+
+
+33) PPLBLAIR
+Now I'd like your views on some people.  Would you say your overall opinion of British Prime Minister Tony Blair is very favorable, mostly favorable, mostly unfavorable, or very unfavorable?  [Asked only if FORM = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.992	2.413
+1) Very favorable	240	24.0
+2) Mostly favorable	462	46.2
+3) Mostly unfavorable	68	6.8
+4) Very unfavorable	30	3.0
+5) Never heard of	35	3.5
+8) Can't rate	156	15.6
+9) Refused	9	0.9
+Missing	1000
+
+
+34) RELCATH
+Now thinking about some specific religious groups... Is your overall opinion of Catholics very favorable, mostly favorable, mostly unfavorable, or very unfavorable?  [Asked only if FORM = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.756	2.241
+1) Very favorable	225	22.5
+2) Mostly favorable	516	51.6
+3) Mostly unfavorable	95	9.5
+4) Very unfavorable	32	3.2
+8) Can't rate	102	10.2
+9) Refused	30	3.0
+Missing	1000
+
+
+35) RELJEWS
+Now thinking about some specific religious groups... Is your overall opinion of Jews very favorable, mostly favorable, mostly unfavorable, or very unfavorable?  [Asked only if FORM = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.835	2.407
+1) Very favorable	228	22.8
+2) Mostly favorable	554	55.4
+3) Mostly unfavorable	44	4.4
+4) Very unfavorable	12	1.2
+5) Never heard of	3	0.3
+8) Can't rate	127	12.7
+9) Refused	32	3.2
+Missing	1000
+
+
+36) RELEVANG
+Now thinking about some specific religious groups... Is your overall opinion of Evangelical Christians very favorable, mostly favorable, mostly unfavorable, or very unfavorable?  [Asked only if FORM = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	3.35	2.497
+1) Very favorable	174	17.4
+2) Mostly favorable	403	40.3
+3) Mostly unfavorable	146	14.6
+4) Very unfavorable	48	4.8
+5) Never heard of	41	4.1
+8) Can't rate	157	15.7
+9) Refused	31	3.1
+Missing	1000
+
+
+37) RELMUSL
+Now thinking about some specific religious groups... Is your overall opinion of Muslim Americans very favorable, mostly favorable, mostly unfavorable, or very unfavorable?  [Asked only if FORM = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	3.527	2.493
+1) Very favorable	86	8.6
+2) Mostly favorable	467	46.7
+3) Mostly unfavorable	155	15.5
+4) Very unfavorable	78	7.8
+5) Never heard of	4	0.4
+8) Can't rate	180	18.0
+9) Refused	30	3.0
+Missing	1000
+
+
+38) RELATHEI
+Now thinking about some specific religious groups... Is your overall opinion of Atheists, that is, people who don't believe in God very favorable, mostly favorable, mostly unfavorable, or very unfavorable?  [Asked only if FORM = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	3.604	2.126
+1) Very favorable	72	7.2
+2) Mostly favorable	293	29.3
+3) Mostly unfavorable	222	22.2
+4) Very unfavorable	262	26.2
+5) Never heard of	0	0.0
+8) Can't rate	127	12.7
+9) Refused	24	2.4
+Missing	1000
+
+
+39) ORGCONS
+Now I'd like your opinion of some groups and organizations in the news.  Would you say your overall opinion of the Christian conservative movement is very favorable, mostly favorable, mostly unfavorable, or very unfavorable?  [Asked only if FORM = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	3.515	2.184
+1) Very favorable	106	10.6
+2) Mostly favorable	316	31.6
+3) Mostly unfavorable	217	21.7
+4) Very unfavorable	138	13.8
+5) Never heard of	74	7.4
+8) Can't rate	137	13.7
+9) Refused	12	1.2
+Missing	1000
+
+
+40) ORGBUSIN
+Now I'd like your opinion of some groups and organizations in the news.  Would you say your overall opinion of business corporations is very favorable, mostly favorable, mostly unfavorable, or very unfavorable?  [Asked only if FORM = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	3.108	1.93
+1) Very favorable	79	7.9
+2) Mostly favorable	410	41.0
+3) Mostly unfavorable	290	29.0
+4) Very unfavorable	107	10.7
+5) Never heard of	5	0.5
+8) Can't rate	95	9.5
+9) Refused	14	1.4
+Missing	1000
+
+
+41) ORGACLU
+Now I'd like your opinion of some groups and organizations in the news.  Would you say your overall opinion of the ACLU (American Civil Liberties Union) is very favorable, mostly favorable, mostly unfavorable, or very unfavorable?  [Asked only if FORM = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	3.626	2.151
+1) Very favorable	82	8.2
+2) Mostly favorable	307	30.7
+3) Mostly unfavorable	216	21.6
+4) Very unfavorable	151	15.1
+5) Never heard of	95	9.5
+8) Can't rate	138	13.8
+9) Refused	11	1.1
+Missing	1000
+
+
+42) ORGCONGR
+Now I'd like your opinion of some groups and organizations in the news.  Would you say your overall opinion of Congress is very favorable, mostly favorable, mostly unfavorable, or very unfavorable?  [Asked only if FORM = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	3.066	1.798
+1) Very favorable	55	5.5
+2) Mostly favorable	426	42.6
+3) Mostly unfavorable	308	30.8
+4) Very unfavorable	113	11.3
+5) Never heard of	3	0.3
+8) Can't rate	87	8.7
+9) Refused	8	0.8
+Missing	1000
+
+
+43) ORGSUPCT
+Now I'd like your opinion of some groups and organizations in the news.  Would you say your overall opinion of the Supreme Court is very favorable, mostly favorable, mostly unfavorable, or very unfavorable?  [Asked only if FORM = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.959	2.011
+1) Very favorable	114	11.4
+2) Mostly favorable	493	49.3
+3) Mostly unfavorable	183	18.3
+4) Very unfavorable	95	9.5
+5) Never heard of	1	0.1
+8) Can't rate	101	10.1
+9) Refused	13	1.3
+Missing	1000
+
+
+44) ORGREPUB
+Now I'd like your opinion of some groups and organizations in the news.  Would you say your overall opinion of the Republican Party is very favorable, mostly favorable, mostly unfavorable, or very unfavorable?  [Asked only if FORM = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	3	1.841
+1) Very favorable	132	13.2
+2) Mostly favorable	356	35.6
+3) Mostly unfavorable	253	25.3
+4) Very unfavorable	172	17.2
+5) Never heard of	1	0.1
+8) Can't rate	70	7.0
+9) Refused	16	1.6
+Missing	1000
+
+
+45) ORGDEMOC
+Now I'd like your opinion of some groups and organizations in the news.  Would you say your overall opinion of the Democratic Party is very favorable, mostly favorable, mostly unfavorable, or very unfavorable?  [Asked only if FORM = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.967	1.852
+1) Very favorable	136	13.6
+2) Mostly favorable	361	36.1
+3) Mostly unfavorable	274	27.4
+4) Very unfavorable	139	13.9
+5) Never heard of	1	0.1
+8) Can't rate	75	7.5
+9) Refused	14	1.4
+Missing	1000
+
+
+46) TERRATT
+How worried are you that there will soon be another terrorist attack in the United States?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	2.225	1.134
+1) Very worried	499	25.0
+2) Somewhat worried	881	44.1
+3) Not too worried	387	19.4
+4) Not at all worried	214	10.7
+9) Don't know/Refused	19	1.0
+
+
+47) CHRCHPOL
+On a different subject... in your opinion, should churches and other houses of worship keep out of political matters - or should they express their views on day-to-day social and political questions?  [Asked only if FORM = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	1.864	1.642
+1) Should keep out	458	45.8
+2) Should express views	496	49.6
+9) No opinion	46	4.6
+Missing	1000
+
+
+48) POLPULP
+Do you think it is ever right for clergy to discuss political candidates or issues from the pulpit?  [Asked only if FORM = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.063	1.688
+1) Yes	301	30.1
+2) No	647	64.7
+9) Don't know/Refused	52	5.2
+Missing	1000
+
+
+49) SAMPSPLT
+This variable splits the sample for questions EXPFAITH and BUSHREL.  Half of the sample was asked EXPFAITH and the other half was asked BUSHREL.
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1000	1.501	0.5
+1) Ask EXPFAITH	499	49.9
+2) Ask BUSHREL	501	50.1
+Missing	1000
+
+
+50) EXPFAITH
+Do you think there has been too much, too little or the right amount of expressions of religious faith and prayer by political leaders?  [Asked only if SAMPSPLT = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	499	2.541	2.023
+1) Too much	138	27.7
+2) Too little	187	37.5
+3) Right amount	135	27.1
+9) Don't know/Refused	39	7.8
+Missing	1501
+
+
+51) BUSHREL
+Do you think George W. Bush mentions his religious faith and prayer too much, too little, or about the right amount?  [Asked only if SAMPSPLT = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	501	2.88	2.135
+1) Too much	147	29.3
+2) Too little	42	8.4
+3) Right amount	266	53.1
+9) Don't know/Refused	46	9.2
+Missing	1499
+
+
+52) SOLVPROB
+These days, how much do you think churches, synagogues and other houses of worship contribute to solving important social problems: a great deal, some, not much, or nothing at all?  [Asked only if FORM = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.409	1.513
+1) A great deal	201	20.1
+2) Some	470	47.0
+3) Not much	228	22.8
+4) Nothing at all	65	6.5
+9) Don't know/Refused	36	3.6
+Missing	1000
+
+
+53) RELIGDEM
+Do you feel that the Democratic Party is generally friendly toward religion, neutral toward religion, or unfriendly toward religion?  [Asked only if FORM = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.795	2.478
+1) Friendly	297	29.7
+2) Neutral	379	37.9
+3) Unfriendly	196	19.6
+9) Don't know/Refused	128	12.8
+Missing	1000
+
+
+54) RELIGREP
+Do you feel that the Republican Party is generally friendly toward religion, neutral toward religion, or unfriendly toward religion?  [Asked only if FORM = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.392	2.583
+1) Friendly	567	56.7
+2) Neutral	230	23.0
+3) Unfriendly	77	7.7
+9) Don't know/Refused	126	12.6
+Missing	1000
+
+
+55) PARTREP
+Here are a couple of statements about the political parties.  For each, please tell me if you completely agree, mostly agree, mostly disagree, or completely disagree with it.  Religious conservatives have too much control over the Republican Party.  [Asked only if FORM = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	3.148	2.223
+1) Completely agree	145	14.5
+2) Mostly agree	321	32.1
+3) Mostly disagree	325	32.5
+4) Completely disagree	99	9.9
+9) Don't know/Refused	110	11.0
+Missing	1000
+
+
+56) PARTDEM
+Here are a couple of statements about the political parties.  For each, please tell me if you completely agree, mostly agree, mostly disagree, or completely disagree with it.  Liberals who are not religious have too much control over the Democratic Party.  [Asked only if FORM = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	3.374	2.404
+1) Completely agree	120	12.0
+2) Mostly agree	325	32.5
+3) Mostly disagree	311	31.1
+4) Completely disagree	105	10.5
+9) Don't know/Refused	139	13.9
+Missing	1000
+
+
+57) CONCVALU
+Thinking about the two major political parties in this country, which one would you say is most concerned with protecting religious values: the Republicans or the Democrats?  [Asked only if FORM = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.321	2.351
+1) The Republicans	525	52.5
+2) The Democrats	272	27.2
+3) Neither	55	5.5
+4) Both equally	49	4.9
+9) Don't know/Refused	99	9.9
+Missing	1000
+
+
+58) CONCFREE
+Thinking about the two major political parties in this country, which one would you say is most concerned with protecting the freedom of citizens to make personal choices, the Republicans or the Democrats?  [Asked only if FORM = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.345	1.992
+1) The Republicans	313	31.3
+2) The Democrats	506	50.6
+3) Neither	64	6.4
+4) Both equally	45	4.5
+9) Don't know/Refused	72	7.2
+Missing	1000
+
+
+59) FARCONS
+Do you think that Conservative Christians have gone too far in trying to impose their religious values on the country, or don't you think Conservative Christians have gone too far?  [Asked only if FORM = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.218	2.274
+1) Yes, I think that Conservative Christians have gone too far	461	46.1
+2) No, don't think that Conservative Christians have gone too far	442	44.2
+9) Don't know/Refused	97	9.7
+Missing	1000
+
+
+60) FARLIB
+Do you think that liberals have gone too far in trying to keep religion out of the schools and the government, or don't you think liberals have gone too far?  [Asked only if FORM = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	1.67	1.739
+1) Yes, I think that liberals have gone too far.	680	68.0
+2) Not, I don't think that liberals have gone too far.	270	27.0
+9) Don't know/Refused	50	5.0
+Missing	1000
+
+
+61) IMPTISS
+Which of these kinds of issues are more important in the United States today: issues like abortion and gay marriage or issues like poverty and homelessness?  [Asked only if FORM = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.026	1.056
+1) Issues like abortion and gay marriage	179	17.9
+2) Issues like poverty and homelessness	726	72.6
+3) Both	70	7.0
+4) Neither	8	0.8
+9) Don't know/Refused	17	1.7
+Missing	1000
+
+
+62) MILFORCE
+Do you agree or disagree that the U.S. and other Western powers have a moral obligation to use military force if necessary, to prevent one group of people from committing genocide against another?  [Asked only if FORM = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	1.968	2.338
+1) Agree	711	71.1
+2) Disagree	192	19.2
+9) Don't know/Refused	97	9.7
+Missing	1000
+
+
+63) USDEMOC
+In your opinion, should the United States work to promote democracy around the world, or shouldn't the United States do this?  [Asked only if FORM = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	1.986	2.173
+1) Yes, should work to promote democracy	602	60.2
+2) No, shouldn't work to promote democracy	314	31.4
+9) Don't know/Refused	84	8.4
+Missing	1000
+
+
+64) TERROR
+Do you think that the terrorist attacks over the past few years are a part of a major conflict between the people of America and Europe versus the people of Islam, or is it only a conflict with a small, radical group?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	2.466	2.286
+1) Major conflict	545	27.3
+2) Conflict with a radical group	1244	62.2
+9) Don't know/Refused	211	10.6
+
+
+65) CONFLICT
+Do you think this conflict is going to grow into a major world conflict, or do you think it will remain limited to a small, radical group?  [Asked only if TERROR = 2 'conflict with radical group.']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1244	2.063	1.928
+1) Is going to grow into a major world conflict	510	41.0
+2) Will remain limited to a small, radical group	650	52.3
+9) Don't know/Refused	84	6.8
+Missing	756
+
+
+66) BELGOD
+On another subject, which of the following statements comes closest to your belief about God: 1. you believe in God; or 2. you don't believe in God, but you do believe in a universal spirit or higher power, or 3. you don't believe in either?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	1.281	1.003
+1) You believe in God	1692	84.6
+2) You don't believe in God, but you do believe in a universal spirit/higher power	216	10.8
+3) You don't believe in either	61	3.1
+4) Other	5	0.3
+9) Don't know/Refused	26	1.3
+
+
+67) GODCREAT
+Do you think that God was responsible for the creation of life on earth, or don't you believe this?  [Asked only if BELGOD = 1 'you believe in God.']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1692	1.298	1.39
+1) Yes, believe God was responsible	1552	91.7
+2) No, don't believe this	88	5.2
+9) Don't know/Refused	52	3.1
+Missing	308
+
+
+68) POWCREAT
+Do you think that a universal spirit or higher power was responsible for the creation of life on earth, or don't you believe this?  [Asked only if BELGOD = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	216	2.319	2.467
+1) Yes, believe universal spirit/higher power was responsible	106	49.1
+2) No, don't believe this	85	39.4
+9) Don't know/Refused	25	11.6
+Missing	1784
+
+
+69) HUMEVOLV
+Some people think that humans and other living things have evolved over time.  Others think that humans and other living things have existed in their present form since the beginning of time.  Which of these comes closest to your view?  [Asked only if FORM = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.206	2.302
+1) Evolved over time	487	48.7
+2) Existed in their present form since the beginning of time	414	41.4
+9) Don't know/Refused	99	9.9
+Missing	1000
+
+
+70) HUMEXIST
+Some people think that humans and other living things have existed in their present form since the beginning of time.  Others think that humans and other living things have evolved over time.  Which of these comes closest to your view?  [Asked only if FORM = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.222	2.21
+1) Existed in their present form since the beginning of time	422	42.2
+2) Evolved over time	486	48.6
+9) Don't know/Refused	92	9.2
+Missing	1000
+
+
+71) HUMANS
+And do you think that humans and other living things have evolved due to natural processes such as natural selection, or that a supreme being guided the evolution of living things for the purpose of creating humans and other life in the form it exists today?  [Asked only if HUMEVOLV = 1 'evolved over time' or if HUMEXIST = 2 'evolved over time.']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	973	2.134	2.269
+1) Humans and other living things have evolved due to natural processes such as natural selection.	514	52.8
+2) A supreme being guided the evolution of living things for the purpose of creating humans and other life in the form it exists today.	367	37.7
+9) Don't know/Refused	92	9.5
+Missing	1027
+
+
+72) LIFECERT
+How certain are you about how life developed on Earth: very certain, fairly certain, not too certain, or not at all certain?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	2.014	1.494
+1) Very certain	918	45.9
+2) Fairly certain	627	31.4
+3) Not too certain	235	11.8
+4) Not at all certain	166	8.3
+9) Don't know/Refused	54	2.7
+
+
+73) INFLBEL
+Which one of the following has had the biggest influence on your thinking about how life developed: a personal experience, the views of your friends and family, what you have seen or read in the media, your religious beliefs, your education, or something else?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	4.059	1.575
+1) A personal experience	240	12.0
+2) The views of your friends and family	105	5.3
+3) What you have seen or read in the media	42	2.1
+4) Your religious beliefs	851	42.6
+5) Your education	584	29.2
+6) Something else	128	6.4
+9) Don't know/Refused	50	2.5
+
+
+74) SCIEVOLV
+From what you've heard or read, is there general agreement among scientists that humans evolved over time, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	2.318	2.561
+1) Yes, there is agreement among scientists that humans evolved over time.	1108	55.4
+2) No, there is not agreement among scientists that humans evolved over time.	643	32.2
+9) Don't know/Refused	249	12.5
+
+
+75) RELPREF
+Now, a few questions about your religious affiliation.  What is your religious preference?  Do you consider yourself Christian, Jewish, Muslim, other non-Christian such as Buddhist or Hindu, atheist, agnostic, something else, or don't you have a religious preference?  ['Christian' includes Catholic, Mormon, Orthodox religions, Protestant religions such as Baptist, Episcopal, Jehovah's Witness, Lutheran, Methodist, Presbyterian, Episcopalian, Pentecostal, Church of Christ, etc.  See variable RELOTH1 for verbatim responses.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	1.989	2.289
+1) Christian (includes Catholic, Mormon, Orthodox religions, Protestant religions such as Baptist, Episcopal, Jehovah's Witness, Lutheran, Methodist, Presbyterian, Episcopalian, Pentecostal, Church of Christ, etc.)	1645	82.3
+2) Jewish	29	1.5
+3) Muslim (includes Islam/Islamic)	8	0.4
+4) Other non-Christian	30	1.5
+5) Atheist	24	1.2
+6) Agnostic	39	2.0
+7) Something else	30	1.5
+8) No preference	188	9.4
+9) Don't know/Refused	7	0.4
+
+
+76) RELPREF2
+Are you Protestant, Roman Catholic, Mormon, Orthodox - such as Greek or Russian Orthodox, or something else?  [Asked only if respondent is Christian, i.e. if RELPREF = 1.  'Protestant' includes Baptist, Episcopal, Jehovah's Witness, Lutheran, Methodist, Presbyterian, Episcopalian, Pentecostal, Church of Christ, etc.  See variable RELOTH2 for verbatim responses.] 
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1636	1.682	1.375
+1) Protestant (includes Baptist, Episcopal, Jehovah's Witness, Lutheran, Methodist, Presbyterian, Episcopalian, Pentecostal, Church of Christ, etc.)	1049	64.1
+2) Roman Catholic (includes Catholic)	422	25.8
+3) Mormon (includes Church of Jesus Christ of Latter Day Saints	28	1.7
+4) Orthodox (includes Greek or Russian Orthodox, etc.)	11	0.7
+5) Something else	101	6.2
+9) Don't know/Refused	25	1.5
+Missing	364
+
+
+77) TYPECHRS
+As I read a list, tell me which if any of these denominations you are affiliated with: Baptist, Methodist, Lutheran, Presbyterian, Congregational or United Church of Christ, Nondenominational or Independent Church, Pentecostal, Episcopalian, Reformed, or something else?  [Asked only if RELPREF2 = 1 'Protestant' or 5 'something else'.  See variable RELOTH3 for verbatim responses.]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1150	4.703	8.507
+1) Baptist	369	32.1
+2) Methodist	163	14.2
+3) Lutheran	106	9.2
+4) Presbyterian	67	5.8
+5) Congregational or United Church of Christ	44	3.8
+6) Nondenominational or Independent Church	137	11.9
+7) Pentecostal	68	5.9
+8) Episcopalian	44	3.8
+9) Reformed, or	9	0.8
+10) Something else	100	8.7
+11) Nothing in particular	35	3.0
+99) Don't know/Refused	8	0.7
+Missing	850
+
+
+78) BORNAGN
+Would you describe yourself as a 'born-again' or evangelical Christian, or not?  [Asked only if RELPREF = 1 'Christian' or 7 'something else.'  For notes on a programming error affecting this particular variable, please see the summary document for this file.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1609	1.889	1.667
+1) Yes	717	44.6
+2) No	815	50.7
+9) Don't know/Refused	77	4.8
+Missing	391
+
+
+79) CHRPENT
+As I read from a list, please tell me which if any of the following descriptions apply to you.  Pentecostal Christian - does this apply to you, or not?  [Asked only if RELPREF = 1 'Christian.']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1636	2.304	1.76
+1) Yes, applies	217	13.3
+2) No, does not apply	1317	80.5
+9) Don't know/Refused	102	6.2
+Missing	364
+
+
+80) CHRCHAR
+As I read from a list, please tell me which if any of the following descriptions apply to you.  Charismatic or Spirit-Filled Christian - does this apply to you, or not?  [Asked only if RELPREF = 1 'Christian.']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1636	2.028	1.757
+1) Yes, applies	591	36.1
+2) No, does not apply	954	58.3
+9) Don't know/Refused	91	5.6
+Missing	364
+
+
+81) CHRPROG
+As I read from a list, please tell me which if any of the following descriptions apply to you.  Liberal or Progressive Christian - does this apply to you, or not?  [Asked only if RELPREF = 1 'Christian.']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1636	2.229	2.132
+1) Yes, applies	612	37.4
+2) No, does not apply	883	54.0
+9) Don't know/Refused	141	8.6
+Missing	364
+
+
+82) ATTEND
+Aside from weddings and funerals how often do you attend religious services: more than once a week, once a week, once a month, a few times a year, seldom, or never?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	3.249	1.689
+1) More than once a week	294	14.7
+2) Once a week	569	28.5
+3) Once or twice a month	275	13.8
+4) A few times a year	358	17.9
+5) Seldom	281	14.1
+6) Never	201	10.1
+9) Don't know/Refused	22	1.1
+
+
+83) RELIMP
+How important would you say religion is in your own life: very important, fairly important, or not very important?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	1.585	1.008
+1) Very important	1225	61.3
+2) Fairly important	489	24.5
+3) Not very important	268	13.4
+9) Don't know/Refused	18	0.9
+
+
+84) FEELBIBL
+Which of these statements comes closest to describing your feelings about the Bible? The Bible is the actual word of God and is to be taken literally, word for word; or the Bible is the word of God, but not everything should be taken literally, word for word; or the Bible is a book written by men and is not the word of God.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	2.122	1.557
+1) The Bible is the actual word of God and is to be taken literally, word for word.	708	35.4
+2) The Bible is the word of God, but not everything should be taken literally, word for word.	824	41.2
+3) The Bible is a book written by men and is not the word of God.	359	18.0
+4) Other	34	1.7
+9) Don't know/Refused	75	3.8
+
+
+85) KNOWMUSL
+On another subject, how much would you say you know about the Muslim religion and its practices?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	2.922	0.998
+1) A great deal	98	4.9
+2) Some	592	29.6
+3) Not very much	744	37.2
+4) Nothing at all	553	27.7
+9) Don't know/Refused	13	0.7
+
+
+86) CHR_MUSL
+From what you know, do you think that the Muslim religion and your own religion have a lot in common, or do you think that the Muslim religion and your religion are very different?  [Asked only if respondent has a religion other than Islam, i.e. if RELPREF = 1, 2, 4, or 7.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1735	2.707	2.596
+1) A lot in common	496	28.6
+2) Very different	993	57.2
+9) Don't know/Refused	246	14.2
+Missing	265
+
+
+87) FAVISLAM
+Would you say you have a generally favorable or unfavorable opinion of Islam?  [Asked only if FORM = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	3.16	3.179
+1) Favorable	415	41.5
+2) Unfavorable	360	36.0
+9) No opinion	225	22.5
+Missing	1000
+
+
+88) FAVMUSL
+Would you say you have a generally favorable or unfavorable opinion of Islam - the Muslim religion?  [Asked only if FORM = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	3.534	3.378
+1) Favorable	377	37.7
+2) Unfavorable	350	35.0
+9) No opinion	273	27.3
+Missing	1000
+
+
+89) ALLAH
+Do you happen to know what name Muslims use to refer to God?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	3.976	3.735
+1) Correct answer	1005	50.3
+2) Incorrect answer	287	14.4
+9) Don't know/Refused	708	35.4
+
+
+90) KORAN
+Do you happen to know the name of the Islamic equivalent to the Bible?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	3.938	3.775
+1) Correct answer	1108	55.4
+2) Incorrect answer	180	9.0
+9) Don't know/Refused	712	35.6
+
+
+91) RELVIOL
+As I read you a pair of statements, tell me whether the first statement or the second statement comes closer to your own views, even if neither is exactly right.  A. Some religions are more likely than others to encourage violence among believers, or B. Religions are all about the same in this regard.  [Asked only if FORM = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.057	1.963
+1) Some religions are more likely than others to encourage violence among believers.	469	46.9
+2) Religions are all about the same in this regard.	413	41.3
+3) Neither	50	5.0
+9) Don't know	68	6.8
+Missing	1000
+
+
+92) ISLAVIOL
+As I read you a pair of statements, tell me whether the first statement or the second statement comes closer to your own views even if neither is exactly right.  A. The Islamic religion is more likely than others to encourage violence among its believers, or B. The Islamic religion does not encourage violence more than others.  [Asked only if FORM = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.659	2.609
+1) The Islamic religion is more likely than others to encourage violence among its believers.	347	34.7
+2) Religions are all about the same in this regard.	487	48.7
+3) Neither	26	2.6
+9) Don't know	140	14.0
+Missing	1000
+
+
+93) VIORELIG
+Which one of the religions that I name do you think of as most violent: Christianity, Islam, Judaism, or Hinduism?  [Asked only if RELVIOL = 1 and if FORM = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	469	3.258	2.652
+1) Christianity	49	10.4
+2) Islam	294	62.7
+3) Judaism	13	2.8
+4) Hinduism	17	3.6
+5) None	20	4.3
+9) Don't know/Refused	76	16.2
+Missing	1531
+
+
+94) RELWAR
+How much of a role does religion play in causing most wars and conflicts in the world?  [Asked only if FORM = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.099	1.561
+1) A great deal	408	40.8
+2) A fair amount	355	35.5
+3) Only a little	132	13.2
+4) None at all	72	7.2
+9) Don't know/Refused	33	3.3
+Missing	1000
+
+
+95) RELCONFL
+How much of a role does religion play in causing political conflict in the United States?  [Asked only if FORM = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1000	2.29	1.491
+1) A great deal	289	28.9
+2) A fair amount	370	37.0
+3) Only a little	263	26.3
+4) None at all	46	4.6
+9) Don't know/Refused	32	3.2
+Missing	1000
+
+
+96) SCHRELIG
+I'd like to get your impression of how the public schools in your area are dealing with a few topics.  Do the public schools in your area do an excellent job, a good job, only a fair job, or a poor job of dealing with religion?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	4.751	2.771
+1) Excellent job	84	4.2
+2) Good job	309	15.5
+3) Only a fair job	439	22.0
+4) Poor job	606	30.3
+9) Don't know/Refused	562	28.1
+
+
+97) SCHSEXED
+I'd like to get your impression of how the public schools in your area are dealing with a few topics.  Do the public schools in your area do an excellent job, a good job, only a fair job, or a poor job of dealing with sex education?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	4.468	2.873
+1) Excellent job	109	5.5
+2) Good job	478	23.9
+3) Only a fair job	492	24.6
+4) Poor job	379	19.0
+9) Don't know/Refused	542	27.1
+
+
+98) SCHHOMO
+I'd like to get your impression of how the public schools in your area are dealing with a few topics.  Do the public schools in your area do an excellent job, a good job, only a fair job, or a poor job of dealing with homosexuality?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	5.375	2.919
+1) Excellent job	50	2.5
+2) Good job	245	12.3
+3) Only a fair job	406	20.3
+4) Poor job	540	27.0
+9) Don't know/Refused	759	38.0
+
+
+99) SCHEVOL
+I'd like to get your impression of how the public schools in your area are dealing with a few topics.  Do the public schools in your area do an excellent job, a good job, only a fair job, or a poor job of dealing with evolution?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	4.932	3.019
+1) Excellent job	79	4.0
+2) Good job	396	19.8
+3) Only a fair job	532	26.6
+4) Poor job	308	15.4
+9) Don't know/Refused	685	34.3
+
+
+100) SCHKIDS
+Did you have any children living in your household who were enrolled in kindergarten through 12th grade this past year?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	1.727	0.476
+1) Yes	554	27.7
+2) No	1445	72.3
+9) Don't know/Refused	1	0.1
+
+
+101) SCHMANY
+How many?  [Asked only if SCHKIDS = 1.]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	554	1.545	0.498
+1) One	252	45.5
+2) More than one	302	54.5
+Missing	1446
+
+
+102) PUBPRIV
+Does your child attend a public school, or a private school?  ['Both' indicates one child/children in public school and one child/children in private school.  Asked only if SCHKIDS = 1 and SCHMANY = 2.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	554	1.222	0.688
+1) Public	468	84.5
+2) Private	65	11.7
+3) Both - one child/children in public school and one child/children in private school	15	2.7
+4) Neither/Home school	4	0.7
+9) Don't know/Refused	2	0.4
+Missing	1446
+
+
+103) RELAFFIL
+Is this a religious or church affiliated school, or not?  [Asked only if PUBPRIV = 2 or 3.]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	80	1.35	0.48
+1) Yes	52	65.0
+2) No	28	35.0
+Missing	1920
+
+
+104) RELSUBJ
+Has your child ever mentioned feeling uncomfortable when the subject of religion came up at school, or not?  [Asked if SCHKIDS = 1.  If SCHMANY = 2, then ask: 'Have any of your children ever mentioned feeling uncomfortable when the subject of religion came up at school, or not?']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	554	2.014	0.595
+1) Yes, has mentioned feeling uncomfortable	31	5.6
+2) No, hasn't mentioned feeling uncomfortable	502	90.6
+3) Did not come up/Not applicable	18	3.2
+9) Don't know/Refused	3	0.5
+Missing	1446
+
+
+105) RELOFTEN
+Has this happened often, or not?  [Asked only if RELSUBJ = 1 'yes'.]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	31	1.548	0.506
+1) Yes	14	45.2
+2) No	17	54.8
+Missing	1969
+
+
+106) RELGROUP
+As far as you know, are there Bible study groups, prayer groups, or other religious groups at your child's [children's] school for students to participate in, or aren't there any groups like this at your child's [children's] school?  [Asked only if SCHKIDS = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	554	2.366	2.136
+1) Yes, there are religious groups	147	26.5
+2) No, there aren't religious groups	357	64.4
+9) Don't know/Refused	50	9.0
+Missing	1446
+
+
+107) RELENC
+As far as you know, do teachers invite or encourage students to participate in these groups, or doesn't this happen?  [Asked only if RELGROUPS = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	147	2.027	2.047
+1) Yes	73	49.7
+2) No	63	42.9
+9) Don't know/Refused	11	7.5
+Missing	1853
+
+
+108) HOMOSUBJ
+Has your child ever mentioned feeling uncomfortable when the subject of homosexuality came up at school, or not?  [Asked only if SCHKIDS = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	554	2.123	0.894
+1) Yes, has mentioned feeling uncomfortable	44	7.9
+2) No, hasn't mentioned feeling uncomfortable	440	79.4
+3) Did not come up/Not applicable	63	11.4
+9) Don't know/Refused	7	1.3
+Missing	1446
+
+
+109) HOMOOFT
+Has this happened often, or not?  [Asked only if HOMOSUBJ = 1.]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	44	1.659	0.479
+1) Yes	15	34.1
+2) No	29	65.9
+Missing	1956
+
+
+110) EVOLSUBJ
+Has your child ever mentioned feeling uncomfortable when the subject of evolution came up at school, or not?  [Asked only if SCHKIDS = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	554	2.11	0.859
+1) Yes, has mentioned feeling uncomfortable	30	5.4
+2) No, hasn't mentioned feeling uncomfortable	475	85.7
+3) Did not come up/Not applicable	42	7.6
+9) Don't know/Refused	7	1.3
+Missing	1446
+
+
+111) EVOLOFT
+Has this happened often, or not?  [Asked only if EVOLSUBJ = 1.]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	30	1.8	0.407
+1) Yes	6	20.0
+2) No	24	80.0
+Missing	1970
+
+
+112) EVOLSCI
+I'd like to get your views on who should and who should not have a say on how evolution is taught in public schools.  In your opinion, should scientists and science teachers have a say in how evolution is addressed, or should they not have a say?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	1.75	1.95
+1) Should have a say	1404	70.2
+2) Should not have a say	467	23.4
+9) Don't know/Refused	129	6.5
+
+
+113) EVOLPAR
+I'd like to get your views on who should and who should not have a say on how evolution is taught in public schools.  In your opinion, should parents have a say in how evolution is addressed, or should they not have a say?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	1.507	1.613
+1) Should have a say	1575	78.8
+2) Should not have a say	341	17.1
+9) Don't know/Refused	84	4.2
+
+
+114) EVOLSCH
+I'd like to get your views on who should and who should not have a say on how evolution is taught in public schools.  In your opinion, should school boards have a say in how evolution is addressed, or should they not have a say?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	1.877	1.979
+1) Should have a say	1198	59.9
+2) Should not have a say	666	33.3
+9) Don't know/Refused	136	6.8
+
+
+115) EVOLRESP
+And who should have the primary responsibility for deciding how evolution is taught in public schools?  Should it be scientists and science teachers, parents, or school boards?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	2.644	2.238
+1) Scientists and science teachers	555	27.8
+2) Parents	809	40.5
+3) School boards	435	21.8
+9) Don't know/Refused	201	10.1
+
+
+116) CREATEVO
+And what's your view: would you generally favor or oppose teaching creationism along with evolution in public schools?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	2.092	2.381
+1) Favor	1259	63.0
+2) Oppose	535	26.8
+9) Don't know/Refused	206	10.3
+
+
+117) CREATION
+Would you generally favor or oppose teaching creationism instead of evolution in public schools?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	2.577	2.563
+1) Favor	716	35.8
+2) Oppose	1017	50.9
+9) Don't know/Refused	267	13.4
+
+
+118) AGE
+What is your age?
+RANGE: 18 to 99
+	N	Mean	Std. Deviation
+Total	2000	49.432	18.389
+18) 	44	2.2
+19) 	29	1.5
+20) 	20	1.0
+21) 	21	1.1
+22) 	17	0.9
+23) 	21	1.1
+24) 	14	0.7
+25) 	31	1.6
+26) 	22	1.1
+27) 	25	1.3
+28) 	41	2.1
+29) 	29	1.5
+30) 	35	1.8
+31) 	37	1.9
+32) 	39	2.0
+33) 	24	1.2
+34) 	25	1.3
+35) 	30	1.5
+36) 	32	1.6
+37) 	28	1.4
+38) 	38	1.9
+39) 	36	1.8
+40) 	42	2.1
+41) 	46	2.3
+42) 	43	2.2
+43) 	37	1.9
+44) 	28	1.4
+45) 	54	2.7
+46) 	29	1.5
+47) 	42	2.1
+48) 	35	1.8
+49) 	37	1.9
+50) 	58	2.9
+51) 	36	1.8
+52) 	45	2.3
+53) 	29	1.5
+54) 	39	2.0
+55) 	44	2.2
+56) 	34	1.7
+57) 	44	2.2
+58) 	44	2.2
+59) 	31	1.6
+60) 	42	2.1
+61) 	24	1.2
+62) 	34	1.7
+63) 	22	1.1
+64) 	21	1.1
+65) 	35	1.8
+66) 	19	1.0
+67) 	23	1.2
+68) 	20	1.0
+69) 	19	1.0
+70) 	28	1.4
+71) 	14	0.7
+72) 	20	1.0
+73) 	23	1.2
+74) 	12	0.6
+75) 	22	1.1
+76) 	12	0.6
+77) 	24	1.2
+78) 	16	0.8
+79) 	11	0.6
+80) 	16	0.8
+81) 	16	0.8
+82) 	12	0.6
+83) 	6	0.3
+84) 	6	0.3
+85) 	11	0.6
+86) 	9	0.5
+87) 	4	0.2
+88) 	2	0.1
+89) 	1	0.1
+90) 	1	0.1
+91) 	1	0.1
+92) 	2	0.1
+94) 	2	0.1
+95) 	2	0.1
+99) Don't know/Refused	33	1.7
+
+
+119) EDUC
+What is the last grade or class that you completed in school?  [Interviewer did not read a list of responses.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	4.629	1.652
+1) None, or grade 1-8	33	1.7
+2) High school incomplete (Grades 9-11)	125	6.3
+3) High school graduate (Grade 12 or GED certificate)	589	29.5
+4) Technical, trade, or vocational school AFTER high school	72	3.6
+5) Some college, no 4-year degree (including associate degree)	465	23.3
+6) College graduate (B.S., B.A., or other 4-year degree)	429	21.5
+7) Post-graduate training or professional schooling after college (e.g., toward a master's degree or Ph. D.; law or medical school)	281	14.1
+9) Don't know/Refused	6	0.3
+
+
+120) HISPANIC
+Are you, yourself, of Hispanic origin or descent, such as Mexican, Puerto Rican, Cuban, or some other Spanish background?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	1.955	0.428
+1) Yes	126	6.3
+2) No	1869	93.5
+9) Don't know/Refused	5	0.3
+
+
+121) RACE
+What is your race?  Are you white, black, Asian, or some other?  [INTERVIEWER: If Respondent answered 1 'Yes' in HISPANIC, ask: 'Are you white Hispanic, black Hispanic, or some other race?']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	1.34	0.997
+1) White	1644	82.2
+2) Black	224	11.2
+3) Asian	26	1.3
+4) Other or mixed race	89	4.5
+9) Don't know/Refused	17	0.9
+
+
+122) MARITAL
+Are you married, divorced, separated, widowed, or never been married?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	2.289	1.717
+1) Married	1127	56.4
+2) Divorced	232	11.6
+3) Separated	30	1.5
+4) Widowed	199	10.0
+5) Never been married	402	20.1
+9) Don't know/Refused	10	0.5
+
+
+123) INCOME
+Last year, that is in 2004, what was your total family income from all sources, before taxes?  Just stop me when I get to the right category.
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	2000	5.779	2.754
+1) Less than $10,000	121	6.1
+2) 10 to under $20,000	173	8.7
+3) 20 to under $30,000	202	10.1
+4) 30 to under $40,000	216	10.8
+5) 40 to under $50,000	179	9.0
+6) 50 to under $75,000	313	15.7
+7) 75 to under $100,000	223	11.2
+8) 100 to under $150,000	160	8.0
+9) $150,000 or more	124	6.2
+10) Don't know/Refused	289	14.5
+
+
+124) REGIST
+These days, many people are so busy they can't find time to register to vote, or move around so often they don't get a chance to re-register.  Are you now registered to vote in your precinct or election district or haven't you been able to register so far?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	1.192	0.638
+1) Yes, registered	1679	84.0
+2) No, not registered	312	15.6
+9) Don't know/Refused	9	0.5
+
+
+125) REGICERT
+Are you absolutely certain that you are registered to vote, or is there a chance that your registration has lapsed because you moved or for some other reason?  [Asked only if REGIST = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1679	1.054	0.43
+1) Absolutely certain	1616	96.2
+2) Chance registration has lapsed	59	3.5
+9) Don't know/Refused	4	0.2
+Missing	321
+
+
+126) PARTY
+In politics today, do you consider yourself a Republican, Democrat, or Independent?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	2.231	1.426
+1) Republican	665	33.3
+2) Democrat	623	31.2
+3) Independent	562	28.1
+4) No preference	89	4.5
+5) Other party	10	0.5
+9) Don't know/Refused	51	2.6
+
+
+127) PARTYLN
+As of today do you lean more to the Republican Party or more to the Democratic Party?  [Asked only if PARTY = 3,4,5, or 9.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	712	4.042	3.517
+1) Republican	198	27.8
+2) Democrat	278	39.0
+9) Other/Don't know/Refused	236	33.1
+Missing	1288
+
+
+128) IDEO
+In general, would you describe your political views as: very conservative, conservative, moderate, liberal, or very liberal?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	3.082	1.637
+1) Very conservative	142	7.1
+2) Conservative	592	29.6
+3) Moderate	812	40.6
+4) Liberal, OR	269	13.5
+5) Very liberal	85	4.3
+9) Don't know/Refused	100	5.0
+
+
+129) PVOTE04A
+In this past year's presidential election between George W. Bush and John Kerry, did things come up that kept you from voting, or did you happen to vote?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	1.252	0.729
+1) Voted	1588	79.4
+2) Did not vote (includes too young to vote)	398	19.9
+8) Don't remember if voted	7	0.4
+9) Refused	7	0.4
+
+
+130) PVOTE04B
+Did you vote for Bush, Kerry or someone else?  [Asked if PVOTE04A = 1.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1588	1.947	1.857
+1) Bush	801	50.4
+2) Kerry	641	40.4
+3) Other candidate	45	2.8
+4) Don't remember which candidate	7	0.4
+9) Refused	94	5.9
+Missing	412
+
+
+131) OWNRENT
+Do you own or rent your home?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	1.352	0.87
+1) Own	1488	74.4
+2) Rent	416	20.8
+3) Other arrangement	80	4.0
+9) Don't know/Refused	16	0.8
+
+
+132) EMPLOY
+Are you now employed full-time, part-time, or not employed?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	1.903	1.104
+1) Full-time	1032	51.6
+2) Part-time	215	10.8
+3) Not employed	739	37.0
+9) Don't know/Refused	14	0.7
+
+
+133) VETERAN
+Are you yourself [if respondent is married, add: 'or is your husband/wife'] a veteran of the armed services?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	5.666	2.398
+1) Yes, respondent	291	14.6
+2) Yes, spouse	171	8.6
+3) Yes, both	10	0.5
+4) Yes, respondent still active/in the reserves	11	0.6
+5) Yes, spouse still active/in the reserves	4	0.2
+6) Yes, both still active/in the reserves	0	0.0
+7) No	1506	75.3
+9) Don't know/Refused	7	0.4
+
+
+134) LABOR
+Are you [if respondent is married, add: 'or is your spouse') a member of a labor union?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	3.709	0.957
+1) Yes, respondent is	152	7.6
+2) Yes, spouse is	73	3.7
+3) Yes, both	40	2.0
+4) No, neither are	1723	86.2
+9) Don't know/Refused	12	0.6
+
+
+135) CONTACT
+At a later date, news reporters may want to talk further with people who took part in this survey.  Would you be willing to talk to a reporter about the survey topics at a convenient time?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	1.561	0.959
+1) Yes	1046	52.3
+2) No	930	46.5
+9) Don't know/Refused	24	1.2
+
+
+136) NAME
+So that a reporter might reach you more easily, can you tell me your first name?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1046	1.029	0.167
+1) Gave name	1016	97.1
+2) Declined to be contacted at this point	30	2.9
+Missing	954
+
+
+137) WEBSITE
+Thank you very much for your time.  This survey is being conducted by the Pew Research Center for the People and the Press and the Pew Forum on Religion and Public Life.  They will be issuing a report on the results of this survey in the coming.
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2000	1.483	0.5
+1) Yes, website requested	1035	51.8
+2) No, website not requested	965	48.3
+
+
+138) RECAGE2
+Recoded age for banner
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	2.621	1.278
+1) 18-29	314	15.7
+2) 30-49	717	35.9
+3) 50-64	547	27.4
+4) 65+	389	19.5
+9) Refused	33	1.7
+
+
+139) ZIP
+Zip code
+RANGE: 9 to 99999
+	N	Mean	Std. Deviation
+Total	2000	48554.897	29301.459
+
+
+140) RELOTH1
+Verbatim response is included here if Respondent answered 7 'Something else' to RELPREF.  Note: the question wording for RELPREF is: Now, a few questions about your religious affiliation.  What is your religious preference?  Do you consider yourself Christian, Jewish, Muslim, other non-Christian such as Buddhist or Hindu, atheist, agnostic, something else, or don't you have a religious preference?  ['Christian' includes Catholic, Mormon, Orthodox religions, Protestant religions such as Baptist, Episcopal, Jehovah's Witness, Lutheran, Methodist, Presbyterian, Episcopalian, Pentecostal, Church of Christ, etc.]
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	41	0	0
+
+
+141) RELOTH2
+Verbatim response is included here if Respondent answered 5 'Something else' to RELPREF2.  Note: the question wording for RELPREF2 is: Are you Protestant, Roman Catholic, Mormon, Orthodox- such as Greek or Russian Orthodox, or something else?  [Asked only if respondent is Christian, i.e. if RELPREF = 1.  'Protestant' includes Baptist, Episcopal, Jehovah's Witness, Lutheran, Methodist, Presbyterian, Episcopalian, Pentecostal, Church of Christ, etc]
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	91	0	0
+
+
+142) RELOTH3
+Verbatim response is included here if Respondent answered 10 'Something else' to TYPECHRS.  Note: the question wording for TYPECHRS is: As I read a list, tell me which if any of these denominations you are affiliated with: Baptist, Methodist, Lutheran, Presbyterian, Congregational or United Church of Christ, Nondenominational or Independent Church, Pentecostal, Episcopalian, Reformed, or something else?  [Asked only if RELPREF2 = 1 'Protestant' or 5 'something else'.]
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	93	0	0
+
+
+143) CNTYNAME
+County name
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	2000	0	0
+
+
+144) DENSITY3
+Recoded population density
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2000	2.793	1.375
+1) Lowest population density	460	23.0
+2) 	464	23.2
+3) 	403	20.2
+4) 	377	18.9
+5) Highest population density	296	14.8
+
+
+145) RED_BLUE
+Red/Blue County based on 2000 election
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2000	3.198	1.432
+1) Strong Dem	372	18.6
+2) Dem	306	15.3
+3) Even	346	17.3
+4) Rep	507	25.4
+5) Strong Rep	469	23.5
+
+
+146) RECAGE
+Recoded age
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	3.905	1.702
+1) 18-24	166	8.3
+2) 25-34	308	15.4
+3) 35-44	360	18.0
+4) 45-54	404	20.2
+5) 55-64	340	17.0
+6) 65 or older	389	19.5
+9) Refused	33	1.7
+
+
+147) RECEDUC
+Recoded education (recoded, based on the variable named EDUC).
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	2.885	1.047
+1) Less than high school	158	7.9
+2) High school graduate	661	33.1
+3) Some college	465	23.3
+4) College graduate	710	35.5
+9) Don't know/Refused	6	0.3
+
+
+148) RACETHN
+Race/Ethnicity (based on variables named HISP and RACE).
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2000	1.397	0.934
+1) White, non-Hispanic	1565	78.3
+2) Black, non-Hispanic	215	10.8
+3) Hispanic	126	6.3
+4) Other	85	4.3
+9) Don't know/Refused	9	0.5
+
+
+149) COMMIT
+Commitment index: This variable is a combination of the variables ATTEND (attending religious services) and RELIMP (importance of religion in your life).  This coding differs slightly from the commit index used in 2001 and 2002.  [Recode details: first recode RELIMP so that 1=1, 2=3, and 3=5.  Then recode DK/Ref to the midpoints for each variable.  If ATTEND = 9, then recode it to 3.5; if RELIMP = 9, then recode it to 3.  Then add ATTEND and RELIMP.  For more information on this variable, see the summary document of this survey.]  Low on the scale indicates high commitment, and high on the scale indicates low commitment. [ARDA Note: 2=High commitment and 11=Low commitment]
+RANGE: 2 to 11
+	N	Mean	Std. Deviation
+Total	2000	5.232	2.693
+2) 	287	14.4
+3) 	488	24.4
+4) 	168	8.4
+4.5) 	8	0.4
+5) 	224	11.2
+6) 	199	10.0
+6.5) 	12	0.6
+7) 	201	10.1
+8) 	110	5.5
+8.5) 	2	0.1
+9) 	102	5.1
+10) 	86	4.3
+11) 	113	5.7
+
+
+150) WEIGHT
+Weight variable by density and cross race
+RANGE: 1 to 4.45
+	N	Mean	Std. Deviation
+Total	2000	2.204	0.912
+
+
+151) ATTEMPT
+Call attempt
+RANGE: 1 to 25
+	N	Mean	Std. Deviation
+Total	2000	3.578	3.243
+
+
+152) FCALL
+Date of first call
+RANGE: 50707 to 50716
+	N	Mean	Std. Deviation
+Total	2000	50708.659	2.224
+50707) July 7, 2005	717	35.9
+50708) July 8, 2005	661	33.1
+50709) July 9, 2005	225	11.3
+50710) July 10, 2005	86	4.3
+50711) July 11, 2005	48	2.4
+50712) July 12, 2005	80	4.0
+50713) July 13, 2005	58	2.9
+50714) July 14, 2005	24	1.2
+50715) July 15, 2005	68	3.4
+50716) July 16, 2005	33	1.7
+
+
+153) I-AGE
+Recoded age (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1967	3.819	1.582
+1) 18 to 24	166	8.4
+2) 25 to 34	308	15.7
+3) 35 to 44	360	18.3
+4) 45 to 54	404	20.5
+5) 55 to 64	340	17.3
+6) 65 or older	389	19.8
+Missing	33
+
+
+154) I-ATTEND
+Aside from weddings and funerals how often do you attend religious services: more than once a week, once a week, once a month, a few times a year, seldom, or never? (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1978	3.185	1.585
+1) More than once a week	294	14.9
+2) Once a week	569	28.8
+3) Once or twice a month	275	13.9
+4) A few times a year	358	18.1
+5) Seldom	281	14.2
+6) Never	201	10.2
+Missing	22
+
+
+155) I-EDUC
+Recoded education (recoded, based on the variable named EDUC). (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1994	2.866	0.994
+1) Less than high school	158	7.9
+2) High school graduate	661	33.1
+3) Some college	465	23.3
+4) College graduate	710	35.6
+Missing	6
+
+
+156) I-GENDER
+Sex.  (Enter respondent's sex.) (for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2000	1.536	0.499
+1) Male	929	46.5
+2) Female	1071	53.6
+
+
+157) I-INCOME
+Last year, that is in 2004, what was your total family income from all sources, before taxes?  Just stop me when I get to the right category. (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1711	3.48	1.666
+1) Less than $20,000	294	17.2
+2) $20,000 to under $30,000	202	11.8
+3) $30,000 to under $50,000	395	23.1
+4) $50,000 to under $75,000	313	18.3
+5) $75,000 to under $100,000	223	13.0
+6) $100,000 or more	284	16.6
+Missing	289
+
+
+158) I-PARTYID
+In politics today, do you consider yourself a Republican, Democrat, or Independent? (Recoded for use with online analysis)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1850	1.944	0.813
+1) Republican	665	35.9
+2) Democrat	623	33.7
+3) Independent	562	30.4
+Missing	150
+
+

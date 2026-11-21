@@ -1,0 +1,464 @@
+Data File: PPFE (Full Data Codebook)
+
+1) CASEID
+Case ID, a unique identifier for each case
+RANGE: 2 to 1460
+	N	Mean	Std. Deviation
+Total	1023	673.489	401.703
+
+
+2) TREATMENT
+Indicates the treatment condition to which the subject was randomly assigned
+RANGE: 0 to 8
+	N	Mean	Std. Deviation
+Total	1023	3.957	2.622
+0) Control	136	13.3
+1) Democrat: no religion, Republican: high religion	102	10.0
+2) Democrat: moderate religion, Republican: high religion	108	10.6
+3) Democrat: high religion, Republican: high religion	117	11.4
+4) Democrat: no religion, Republican: moderate religion	98	9.6
+5) Democrat: moderate religion, Republican: moderate religion	116	11.3
+6) Democrat: high religion, Republican: moderate religion	129	12.6
+7) Democrat: moderate religion, Republican: no religion	103	10.1
+8) Democrat: high religion, Republican: no religion	114	11.1
+
+
+3) PID1_PRE
+Generally speaking, do you usually think of yourself as a Republican, a Democrat, an independent, or what?
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	1023	2.329	1.338
+-1) Refused	11	1.1
+1) Republican	305	29.8
+2) Democrat	324	31.7
+3) Independent	230	22.5
+4) Other party	14	1.4
+5) No preference	139	13.6
+
+
+4) PID2_PRE
+[If Democrat or Republican] Would you call yourself a strong (Democrat/Republican) or a not very strong (Democrat/Republican)?
+RANGE: -1 to 2
+	N	Mean	Std. Deviation
+Total	629	1.475	0.519
+-1) Refused	2	0.3
+1) Strong	324	51.5
+2) Not very strong	303	48.2
+Missing	394
+
+
+5) PID3_PRE
+[If independent] Do you think of yourself as closer to the Republican Party or to the Democratic Party?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	383	2.123	0.833
+1) Closer to the Republicans	112	29.2
+2) Closer to the Democrats	112	29.2
+3) Neither	159	41.5
+Missing	640
+
+
+6) RELIG_POST
+What is your present religion, if any?
+RANGE: -1 to 25
+	N	Mean	Std. Deviation
+Total	1023	12.482	8.869
+-1) Refused	54	5.3
+1) Baptist	121	11.8
+2) Methodist	60	5.9
+3) Lutheran	42	4.1
+4) Presbyterian	39	3.8
+5) Pentecostal	28	2.7
+6) Episcopalian	22	2.2
+7) Church of Christ or Disciples of Christ	12	1.2
+8) Congregational or United Church of Christ	7	0.7
+9) Holiness	1	0.1
+10) Reformed	3	0.3
+11) Adventist	2	0.2
+12) Jehovah's Witnesses	3	0.3
+13) Nondenominational or independent church	32	3.1
+14) Roman Catholic	244	23.9
+15) Mormon	12	1.2
+16) Eastern or Greek Orthodox	3	0.3
+17) Jewish	17	1.7
+18) Muslim	1	0.1
+19) Buddhist	10	1.0
+20) Hindu	5	0.5
+21) Atheist	25	2.4
+22) Agnostic	25	2.4
+23) Just a Christian	104	10.2
+24) Nothing in particular	108	10.6
+25) Something else (please specify)	43	4.2
+
+
+7) RELIG_PRE
+What is your present religion, if any?
+RANGE: -1 to 25
+	N	Mean	Std. Deviation
+Total	1023	13.028	8.49
+-1) Refused	11	1.1
+1) Baptist	124	12.1
+2) Methodist	66	6.5
+3) Lutheran	42	4.1
+4) Presbyterian	40	3.9
+5) Pentecostal	25	2.4
+6) Episcopalian	23	2.2
+7) Church of Christ or Disciples of Christ	12	1.2
+8) Congregational or United Church of Christ	8	0.8
+9) Holiness	2	0.2
+10) Reformed	4	0.4
+11) Adventist	2	0.2
+12) Jehovah's Witnesses	3	0.3
+13) Nondenominational or independent church	42	4.1
+14) Roman Catholic	258	25.2
+15) Mormon	12	1.2
+16) Eastern or Greek Orthodox	3	0.3
+17) Jewish	20	2.0
+18) Muslim	2	0.2
+19) Buddhist	8	0.8
+20) Hindu	4	0.4
+21) Atheist	30	2.9
+22) Agnostic	22	2.2
+23) Just a Christian	116	11.3
+24) Nothing in particular	106	10.4
+25) Something else (please specify)	38	3.7
+
+
+8) TERM_3_POST
+Do any of the following terms describe you? [Agnostic]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1023	0.051	0.22
+0) No	971	94.9
+1) Yes	52	5.1
+
+
+9) TERM_3_PRE
+Do any of the following terms describe you? [Agnostic]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1023	0.045	0.207
+0) No	977	95.5
+1) Yes	46	4.5
+
+
+10) TERM_4_POST
+Do any of the following terms describe you? [Atheist]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1023	0.037	0.189
+0) No	985	96.3
+1) Yes	38	3.7
+
+
+11) TERM_4_PRE
+Do any of the following terms describe you? [Atheist]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1023	0.033	0.179
+0) No	989	96.7
+1) Yes	34	3.3
+
+
+12) BLVGOD_POST
+On the following, please place yourself between two opposing positions. [Sliding scale coded 0-100, where 0=absolutely certain there is a God and 100= absolutely certain there is not a God]
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	961	21.692	29.816
+
+
+13) BLVGOD_PRE
+On the following, please place yourself between two opposing positions. [Sliding scale coded 0-100, where 0=absolutely certain there is a God and 100= absolutely certain there is not a God]
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	1002	20.236	28.818
+
+
+14) RELIMPALL_POST
+Scale formed from responses to two questions: (1) Do you consider religion to be an important part of your life or not?, (2) Would you say that religion provides some guidance, quite a bit of guidance, or a great deal of guidance in your day-to-day life?
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	968	1.389	1.168
+0) No guidance (no to question one)	312	32.2
+1) Some guidance	199	20.6
+2) Quite a bit of guidance	225	23.2
+3) A great deal of guidance	232	24.0
+Missing	55
+
+
+15) RELIMPALL_PRE
+Scale formed from responses to two questions: (1) Do you consider religion to be an important part of your life or not?, (2) Would you say that religion provides some guidance, quite a bit of guidance, or a great deal of guidance in your day-to-day life?
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	1012	1.39	1.168
+0) No guidance (no to question one)	325	32.1
+1) Some guidance	211	20.8
+2) Quite a bit of guidance	232	22.9
+3) A great deal of guidance	244	24.1
+Missing	11
+
+
+16) RELATEND_POST
+Aside from weddings and funerals, how often do you attend religious services?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	964	4.534	2.907
+1) Never	195	20.2
+2) Less than one a year	143	14.8
+3) Once or twice a year	105	10.9
+4) Several times a year	109	11.3
+5) Once a month	30	3.1
+6) Two or three times a month	59	6.1
+7) About once a week	45	4.7
+8) Once a week	182	18.9
+9) More than once a week	96	10.0
+Missing	59
+
+
+17) RELATEND_PRE
+Aside from weddings and funerals, how often do you attend religious services?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1009	4.546	2.929
+1) Never	208	20.6
+2) Less than one a year	146	14.5
+3) Once or twice a year	115	11.4
+4) Several times a year	110	10.9
+5) Once a month	25	2.5
+6) Two or three times a month	59	5.8
+7) About once a week	42	4.2
+8) Once a week	207	20.5
+9) More than once a week	97	9.6
+Missing	14
+
+
+18) EVIDENCE_POST
+Factual evidence from the natural world is the source of true beliefs.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	961	2.717	0.904
+1) Strongly agree	81	8.4
+2) Agree	286	29.8
+3) Neither agree nor disagree	456	47.5
+4) Disagree	100	10.4
+5) Strongly disagree	38	4.0
+Missing	62
+
+
+19) EVIDENCE_PRE
+Factual evidence from the natural world is the source of true beliefs.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1004	2.689	0.947
+1) Strongly agree	103	10.3
+2) Agree	303	30.2
+3) Neither agree nor disagree	443	44.1
+4) Disagree	113	11.3
+5) Strongly disagree	42	4.2
+Missing	19
+
+
+20) BOOKS_POST
+The great books of philosophy and science are the best source of truth, wisdom, and ethics.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	964	3.182	0.897
+1) Strongly agree	20	2.1
+2) Agree	176	18.3
+3) Neither agree nor disagree	457	47.4
+4) Disagree	231	24.0
+5) Strongly disagree	80	8.3
+Missing	59
+
+
+21) BOOKS_PRE
+The great books of philosophy and science are the best source of truth, wisdom, and ethics.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1000	3.196	0.924
+1) Strongly agree	33	3.3
+2) Agree	159	15.9
+3) Neither agree nor disagree	477	47.7
+4) Disagree	241	24.1
+5) Strongly disagree	90	9.0
+Missing	23
+
+
+22) GOODLIFE_POST
+It is hard to live a good life based on reason and facts alone.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	960	2.851	1.009
+1) Strongly agree	69	7.2
+2) Agree	311	32.4
+3) Neither agree nor disagree	326	34.0
+4) Disagree	202	21.0
+5) Strongly disagree	52	5.4
+Missing	63
+
+
+23) GOODLIFE_PRE
+It is hard to live a good life based on reason and facts alone.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	998	2.867	1.021
+1) Strongly agree	79	7.9
+2) Agree	301	30.2
+3) Neither agree nor disagree	349	35.0
+4) Disagree	212	21.2
+5) Strongly disagree	57	5.7
+Missing	25
+
+
+24) FREEMIND_POST
+To understand the world, we must free our minds from old traditions and beliefs.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	963	3.155	1.006
+1) Strongly agree	47	4.9
+2) Agree	199	20.7
+3) Neither agree nor disagree	359	37.3
+4) Disagree	274	28.5
+5) Strongly disagree	84	8.7
+Missing	60
+
+
+25) FREEMIND_PRE
+To understand the world, we must free our minds from old traditions and beliefs.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	999	3.2	1.004
+1) Strongly agree	45	4.5
+2) Agree	194	19.4
+3) Neither agree nor disagree	370	37.0
+4) Disagree	296	29.6
+5) Strongly disagree	94	9.4
+Missing	24
+
+
+26) VALUES_POST
+Values are more important than factual evidence in making moral decisions.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	964	2.604	0.943
+1) Strongly agree	106	11.0
+2) Agree	348	36.1
+3) Neither agree nor disagree	361	37.4
+4) Disagree	120	12.4
+5) Strongly disagree	29	3.0
+Missing	59
+
+
+27) VALUES_PRE
+Values are more important than factual evidence in making moral decisions.
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1003	2.564	0.97
+1) Strongly agree	129	12.9
+2) Agree	369	36.8
+3) Neither agree nor disagree	344	34.3
+4) Disagree	132	13.2
+5) Strongly disagree	29	2.9
+Missing	20
+
+
+28) NONREL_POST2
+Scale formed from responses to two questions: (1) Do you consider non-religious beliefs, such as derived from science or philosophy, to be an important part of your life or not?, (2) Would you say that non-religious beliefs, such as derived from science or philosophy, provide some guidance, quite a bit of guidance, or a great deal of guidance in your day-to-day life?
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	960	0.668	0.886
+0) No guidance (no to question one)	540	56.3
+1) Some guidance	248	25.8
+2) Quite a bit of guidance	123	12.8
+3) A great deal of guidance	49	5.1
+Missing	63
+
+
+29) NONREL_PRE2
+Scale formed from responses to two questions: (1) Do you consider non-religious beliefs, such as derived from science or philosophy, to be an important part of your life or not?, (2) Would you say that non-religious beliefs, such as derived from science or philosophy, provide some guidance, quite a bit of guidance, or a great deal of guidance in your day-to-day life?
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	1009	0.703	0.909
+0) No guidance (no to question one)	552	54.7
+1) Some guidance	264	26.2
+2) Quite a bit of guidance	134	13.3
+3) A great deal of guidance	59	5.8
+Missing	14
+
+
+30) SECULAR_POST
+Do any of the following terms describe you? [Secular]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1023	0.028	0.166
+0) No	994	97.2
+1) Yes	29	2.8
+
+
+31) SECULAR_PRE
+Do any of the following terms describe you? [Secular]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1023	0.029	0.169
+0) No	993	97.1
+1) Yes	30	2.9
+
+
+32) HUMANIST_POST
+Do any of the following terms describe you? [Humanist]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1023	0.049	0.216
+0) No	973	95.1
+1) Yes	50	4.9
+
+
+33) HUMANIST_PRE
+Do any of the following terms describe you? [Humanist]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1023	0.045	0.207
+0) No	977	95.5
+1) Yes	46	4.5
+
+
+34) I-PARTYID
+Generally speaking, do you usually think of yourself as a Republican, a Democrat, an independent, or what? (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	998	2.203	1.026
+1) Republican	305	30.6
+2) Democrat	324	32.5
+3) Independent	230	23.0
+4) No preference	139	13.9
+Missing	25
+
+
+35) I-RELIGION
+What is your present religion, if any? (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1012	3.286	1.82
+1) Mainline Protestant (Baptist, Methodist, Lutheran, Presbyterian, Episcopalian, Church of Christ, United Church of Christ, Reformed)	319	31.5
+2) Evangelical Protestant (Pentecostal, Holiness, Seventh-day Adventist, nondenominational)	71	7.0
+3) Other affiliation (Jehovah's Witnesses, Church of Jesus Christ of Latter-day Saints, Buddhist, Hindu, Muslim, Eastern or Greek Orthodox, Jewish)	52	5.1
+4) Roman Catholic	258	25.5
+5) Atheist, agnostic, nothing in particular, or something else	196	19.4
+6) Just a Christian	116	11.5
+Missing	11
+
+
+36) I-ATTEND
+Aside from weddings and funerals, how often do you attend religious services? (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1009	3.194	1.727
+1) Never	208	20.6
+2) Less than once or twice a year	261	25.9
+3) Several times a year	110	10.9
+4) One to three times a month	84	8.3
+5) About once a week or once a week	249	24.7
+6) More than once a week	97	9.6
+Missing	14
+
+

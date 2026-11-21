@@ -1,0 +1,2114 @@
+Data File: RELPOL11 (Full Data Codebook)
+
+1) PSRAID
+Unique ID
+RANGE: 100001 to 402864
+	N	Mean	Std. Deviation
+Total	2001	145844.45	56672.807
+
+
+2) SAMPLE
+Sample type
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2001	1.4	0.49
+1) Landline	1200	60.0
+2) Cell	801	40.0
+
+
+3) INT_DATE
+Interview date
+RANGE: 110911 to 111511
+	N	Mean	Std. Deviation
+Total	2001	111141.035	161.841
+
+
+4) FCALL
+Date of first call
+RANGE: 111109 to 111112
+	N	Mean	Std. Deviation
+Total	2001	111110.048	0.967
+
+
+5) ATTEMPT
+Call attempt
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	2001	2.128	1.371
+
+
+6) REFUSAL
+Refusal conversion
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2001	0.164	0.37
+0) No	1673	83.6
+1) Yes	328	16.4
+
+
+7) LANG
+Language of interview
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2001	1.031	0.175
+1) English	1938	96.9
+2) Spanish	63	3.1
+
+
+8) FORM
+Form split
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2001	1.51	0.5
+1) Form 1	981	49.0
+2) Form 2	1020	51.0
+
+
+9) CREGION
+Census region - from zip merge
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	2001	2.658	1.024
+1) Northeast	345	17.2
+2) Midwest	472	23.6
+3) South	706	35.3
+4) West	478	23.9
+
+
+10) STATE
+State - from zip merge
+RANGE: 1 to 56
+	N	Mean	Std. Deviation
+Total	2001	27.603	16.104
+1) Alabama	27	1.3
+2) Alaska	4	0.2
+4) Arizona	46	2.3
+5) Arkansas	24	1.2
+6) California	228	11.4
+8) Colorado	45	2.2
+9) Connecticut	21	1.0
+10) Delaware	5	0.2
+11) District of Columbia	7	0.3
+12) Florida	113	5.6
+13) Georgia	53	2.6
+15) Hawaii	3	0.1
+16) Idaho	17	0.8
+17) Illinois	82	4.1
+18) Indiana	36	1.8
+19) Iowa	28	1.4
+20) Kansas	24	1.2
+21) Kentucky	37	1.8
+22) Louisiana	37	1.8
+23) Maine	13	0.6
+24) Maryland	37	1.8
+25) Massachusetts	43	2.1
+26) Michigan	76	3.8
+27) Minnesota	34	1.7
+28) Mississippi	19	0.9
+29) Missouri	44	2.2
+30) Montana	4	0.2
+31) Nebraska	10	0.5
+32) Nevada	9	0.4
+33) New Hampshire	4	0.2
+34) New Jersey	49	2.4
+35) New Mexico	13	0.6
+36) New York	118	5.9
+37) North Carolina	54	2.7
+38) North Dakota	9	0.4
+39) Ohio	70	3.5
+40) Oklahoma	25	1.2
+41) Oregon	37	1.8
+42) Pennsylvania	86	4.3
+44) Rhode Island	8	0.4
+45) South Carolina	36	1.8
+46) South Dakota	5	0.2
+47) Tennessee	36	1.8
+48) Texas	123	6.1
+49) Utah	14	0.7
+50) Vermont	3	0.1
+51) Virginia	58	2.9
+53) Washington	53	2.6
+54) West Virginia	15	0.7
+55) Wisconsin	54	2.7
+56) Wyoming	5	0.2
+
+
+11) USR
+Community type from zip merge
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1919	0	0
+
+
+12) DENSITY
+Recoded population density - from zip merge
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2001	2.817	1.38
+1) Lowest	445	22.2
+2) 	468	23.4
+3) 	415	20.7
+4) 	355	17.7
+5) Highest	318	15.9
+
+
+13) SCREGION
+Census region - sample
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	2001	2.652	1.024
+1) Northeast	347	17.3
+2) Midwest	476	23.8
+3) South	704	35.2
+4) West	474	23.7
+
+
+14) SSTATE
+State from FIPS - sample
+RANGE: 1 to 56
+	N	Mean	Std. Deviation
+Total	2001	27.652	16.075
+1) Alabama	27	1.3
+2) Alaska	4	0.2
+4) Arizona	40	2.0
+5) Arkansas	27	1.3
+6) California	225	11.2
+8) Colorado	47	2.3
+9) Connecticut	23	1.1
+10) Delaware	4	0.2
+11) District of Columbia	8	0.4
+12) Florida	108	5.4
+13) Georgia	56	2.8
+15) Hawaii	4	0.2
+16) Idaho	18	0.9
+17) Illinois	84	4.2
+18) Indiana	36	1.8
+19) Iowa	25	1.2
+20) Kansas	25	1.2
+21) Kentucky	38	1.9
+22) Louisiana	36	1.8
+23) Maine	13	0.6
+24) Maryland	39	1.9
+25) Massachusetts	40	2.0
+26) Michigan	74	3.7
+27) Minnesota	36	1.8
+28) Mississippi	20	1.0
+29) Missouri	44	2.2
+30) Montana	4	0.2
+31) Nebraska	11	0.5
+32) Nevada	10	0.5
+33) New Hampshire	5	0.2
+34) New Jersey	48	2.4
+35) New Mexico	13	0.6
+36) New York	116	5.8
+37) North Carolina	49	2.4
+38) North Dakota	9	0.4
+39) Ohio	72	3.6
+40) Oklahoma	25	1.2
+41) Oregon	35	1.7
+42) Pennsylvania	92	4.6
+44) Rhode Island	8	0.4
+45) South Carolina	35	1.7
+46) South Dakota	7	0.3
+47) Tennessee	37	1.8
+48) Texas	126	6.3
+49) Utah	14	0.7
+50) Vermont	2	0.1
+51) Virginia	56	2.8
+53) Washington	55	2.7
+54) West Virginia	13	0.6
+55) Wisconsin	53	2.6
+56) Wyoming	5	0.2
+
+
+15) SUSR
+Community type - sample
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1200	0	0
+
+
+16) SMSA
+MSA code - sample
+RANGE: 0 to 49740
+	N	Mean	Std. Deviation
+Total	2001	25084.448	15389.153
+
+
+17) IGENDER
+Interviewer gender
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1965	1.67	0.47
+1) Male	648	33.0
+2) Female	1317	67.0
+Missing	36
+
+
+18) IRACE
+Interviewer race/ethnicity
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1965	1.953	1.013
+1) White	660	33.6
+2) Black or African American	1013	51.6
+3) Hispanic	139	7.1
+4) Asian or Asian American	31	1.6
+5) Some other race	122	6.2
+Missing	36
+
+
+19) LLITEXT
+Introduction rotation for landline sample
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	1200	1.513	0.5
+1) Male first	585	48.8
+2) Female first	615	51.3
+Missing	801
+
+
+20) OLDER18
+Are you under 18 years old, or are you 18 and older?
+RANGE: 2 to 2
+	N	Mean	Std. Deviation
+Total	801	2	0
+2) 18 or older	801	100.0
+Missing	1200
+
+
+21) Q1
+Do you approve or disapprove of the way Barack Obama is handling his job as President? [IF DK ENTER AS DK. IF DEPENDS PROBE ONCE WITH:  Overall do you approve or disapprove of the way Barack Obama is handling his job as President? IF STILL DEPENDS ENTER AS DK]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	2.079	2.008
+1) Approve	871	43.5
+2) Disapprove	983	49.1
+9) Don't know/Refused (Vol.)	147	7.3
+
+
+22) Q3A
+Do you approve or disapprove of the way Barack Obama is handling [INSERT ITEM, RANDOMIZE; OBSERVE FORM SPLITS] How about [NEXT ITEM]? [REPEAT INTRODUCTION AS NECESSARY] a. The economy
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	2.08	1.817
+1) Approve	686	34.3
+2) Disapprove	1194	59.7
+9) Don't know/Refused (Vol.)	121	6.0
+
+
+23) Q3B
+Do you approve or disapprove of the way Barack Obama is handling [INSERT ITEM, RANDOMIZE; OBSERVE FORM SPLITS] How about [NEXT ITEM]? [REPEAT INTRODUCTION AS NECESSARY] b. The federal budget deficit
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	2.212	2.028
+1) Approve	668	33.4
+2) Disapprove	1177	58.8
+9) Don't know/Refused (Vol.)	156	7.8
+
+
+24) Q3C
+Do you approve or disapprove of the way Barack Obama is handling [INSERT ITEM, RANDOMIZE; OBSERVE FORM SPLITS] How about [NEXT ITEM]? [REPEAT INTRODUCTION AS NECESSARY] c. The nation's foreign policy
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	2.437	2.546
+1) Approve	904	45.2
+2) Disapprove	843	42.1
+9) Don't know/Refused (Vol.)	254	12.7
+
+
+25) Q3DF1
+FORM 1: Do you approve or disapprove of the way Barack Obama is handling [INSERT ITEM, RANDOMIZE; OBSERVE FORM SPLITS] How about [NEXT ITEM]? [REPEAT INTRODUCTION AS NECESSARY] d. The nation's immigration policy
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	981	3.01	2.902
+1) Approve	290	29.6
+2) Disapprove	508	51.8
+9) Don't know/Refused (Vol.)	183	18.7
+Missing	1020
+
+
+26) Q3EF2
+FORM 2: Do you approve or disapprove of the way Barack Obama is handling [INSERT ITEM, RANDOMIZE; OBSERVE FORM SPLITS] How about [NEXT ITEM]? [REPEAT INTRODUCTION AS NECESSARY] e. Energy policy
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1020	2.791	2.863
+1) Approve	418	41.0
+2) Disapprove	427	41.9
+9) Don't know/Refused (Vol.)	175	17.2
+Missing	981
+
+
+27) Q4A
+Do you approve or disapprove of the job the [INSERT ITEM; RANDOMIZE] are doing? [IF DK ENTER AS DK. IF DEPENDS PROBE ONCE WITH:  Overall do you approve or disapprove of the job the [ITEM] are doing? IF STILL DEPENDS ENTER AS DK]. a. Republican leaders in Congress
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	2.375	2.067
+1) Approve	446	22.3
+2) Disapprove	1384	69.2
+9) Don't know/Refused (Vol.)	171	8.5
+
+
+28) Q4B
+Do you approve or disapprove of the job the [INSERT ITEM; RANDOMIZE] are doing? [IF DK ENTER AS DK. IF DEPENDS PROBE ONCE WITH:  Overall do you approve or disapprove of the job the [ITEM] are doing? IF STILL DEPENDS ENTER AS DK]. b. Democratic leaders in Congress
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	2.294	2.038
+1) Approve	545	27.2
+2) Disapprove	1294	64.7
+9) Don't know/Refused (Vol.)	162	8.1
+
+
+29) Q10A
+As I read some names, please tell me if you have a favorable or unfavorable opinion of each person. First, [INSERT NAME; RANDOMIZE] would you say your overall opinion of [INSERT NAME] is very favorable, mostly favorable, mostly unfavorable, or very unfavorable? How about [NEXT NAME]? [IF NECESSARY: would you say your overall opinion of [NAME] is very favorable, mostly favorable, mostly unfavorable, or very unfavorable?] a. Barack Obama
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	2.709	1.436
+1) Very favorable	407	20.3
+2) Mostly favorable	593	29.6
+3) Mostly unfavorable	409	20.4
+4) Very unfavorable	531	26.5
+5) Never heard of (Vol.)	1	0.0
+6) Can't rate (Vol.)	23	1.1
+9) Refused (Vol.)	37	1.8
+
+
+30) Q10B
+As I read some names, please tell me if you have a favorable or unfavorable opinion of each person. First, [INSERT NAME; RANDOMIZE] would you say your overall opinion of [INSERT NAME] is very favorable, mostly favorable, mostly unfavorable, or very unfavorable? How about [NEXT NAME]? [IF NECESSARY: would you say your overall opinion of [NAME] is very favorable, mostly favorable, mostly unfavorable, or very unfavorable?] b. Mitt Romney
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	3.254	1.71
+1) Very favorable	149	7.4
+2) Mostly favorable	651	32.5
+3) Mostly unfavorable	542	27.1
+4) Very unfavorable	297	14.8
+5) Never heard of (Vol.)	127	6.3
+6) Can't rate (Vol.)	168	8.4
+9) Refused (Vol.)	67	3.3
+
+
+31) Q10C
+As I read some names, please tell me if you have a favorable or unfavorable opinion of each person. First, [INSERT NAME; RANDOMIZE] would you say your overall opinion of [INSERT NAME] is very favorable, mostly favorable, mostly unfavorable, or very unfavorable? How about [NEXT NAME]? [IF NECESSARY: would you say your overall opinion of [NAME] is very favorable, mostly favorable, mostly unfavorable, or very unfavorable?] c. Rick Perry
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	3.63	1.598
+1) Very favorable	76	3.8
+2) Mostly favorable	414	20.7
+3) Mostly unfavorable	551	27.5
+4) Very unfavorable	533	26.6
+5) Never heard of (Vol.)	173	8.6
+6) Can't rate (Vol.)	192	9.6
+9) Refused (Vol.)	62	3.1
+
+
+32) Q10D
+As I read some names, please tell me if you have a favorable or unfavorable opinion of each person. First, [INSERT NAME; RANDOMIZE] would you say your overall opinion of [INSERT NAME] is very favorable, mostly favorable, mostly unfavorable, or very unfavorable? How about [NEXT NAME]? [IF NECESSARY: would you say your overall opinion of [NAME] is very favorable, mostly favorable, mostly unfavorable, or very unfavorable?] d. Herman Cain
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	3.446	1.642
+1) Very favorable	180	9.0
+2) Mostly favorable	417	20.8
+3) Mostly unfavorable	503	25.1
+4) Very unfavorable	524	26.2
+5) Never heard of (Vol.)	150	7.5
+6) Can't rate (Vol.)	172	8.6
+9) Refused (Vol.)	55	2.7
+
+
+33) Q10E
+As I read some names, please tell me if you have a favorable or unfavorable opinion of each person. First, [INSERT NAME; RANDOMIZE] would you say your overall opinion of [INSERT NAME] is very favorable, mostly favorable, mostly unfavorable, or very unfavorable? How about [NEXT NAME]? [IF NECESSARY: would you say your overall opinion of [NAME] is very favorable, mostly favorable, mostly unfavorable, or very unfavorable?] e. Newt Gingrich
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	3.323	1.624
+1) Very favorable	203	10.1
+2) Mostly favorable	467	23.3
+3) Mostly unfavorable	500	25.0
+4) Very unfavorable	490	24.5
+5) Never heard of (Vol.)	146	7.3
+6) Can't rate (Vol.)	144	7.2
+9) Refused (Vol.)	51	2.5
+
+
+34) Q11
+In your opinion, is President Obama doing as much as he can to improve economic conditions or do you think he could be doing more?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	1.937	1.535
+1) Doing as much as he can	701	35.0
+2) Could be doing more	1218	60.9
+9) Don't know/Refused (Vol.)	82	4.1
+
+
+35) Q12
+Which of the following national economic issues worries you most?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	3.206	1.56
+1) Problems in the financial and housing markets	256	12.8
+2) The federal budget deficit	481	24.0
+3) Rising prices	245	12.2
+4) The job situation	924	46.2
+7) Other - specify (Vol.)	40	2.0
+8) None/Not worried about any (Vol.)	9	0.4
+9) Don't know/Refused (Vol.)	46	2.3
+
+
+36) Q12OTH
+Which of the following national economic issues worries you most? Other
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	40	0	0
+
+
+37) REGIST
+These days, many people are so busy they can't find time to register to vote, or move around so often they don't get a chance to re-register. Are you now registered to vote in your precinct or election district or haven't you been able to register so far?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	1.212	0.669
+1) Yes, registered	1647	82.3
+2) No, not registered	344	17.2
+9) Don't know/Refused (Vol.)	10	0.5
+
+
+38) REGICERT
+IF REGIST = 1: Are you absolutely certain that you are registered to vote, or is there a chance that your registration has lapsed because you moved or for some other reason?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1647	1.073	0.553
+1) Absolutely certain	1576	95.7
+2) Chance registration has lapsed	64	3.9
+9) Don't know/Refused (Vol.)	7	0.4
+Missing	354
+
+
+39) VOTER
+Voter status
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2001	1.212	0.409
+1) Registered voter	1576	78.8
+2) Not registered voter	425	21.2
+
+
+40) Q20
+How much thought, if any, have you given to candidates who may be running for president in 2012?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	2.108	1.308
+1) A lot	823	41.1
+2) Some	541	27.0
+3) Not much	365	18.2
+4) None at all	246	12.3
+9) Don't know/Refused (Vol.)	26	1.3
+
+
+41) Q22
+IF REGICERT = 1: Overall, what's your impression of the candidates running for the Republican presidential nomination? As a group, would you say they are excellent candidates, good candidates, only fair candidates or poor candidates?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1576	3.318	1.712
+1) Excellent	87	5.5
+2) Good	375	23.8
+3) Only fair	564	35.8
+4) Poor	450	28.6
+9) Don't know/Refused (Vol.)	100	6.3
+Missing	425
+
+
+42) Q23
+IF REGICERT = 1: As I name some possible Republican candidates for president in 2012, please tell me which one, if any, you would most like to see nominated as the Republican Party's candidate? [PROBE IF NECESSARY: As of today, who would you say you lean toward?]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1576	9.983	19.973
+1) Michele Bachmann	85	5.4
+2) Herman Cain	223	14.1
+3) Newt Gingrich	184	11.7
+4) Jon Huntsman	96	6.1
+5) Ron Paul	135	8.6
+6) Rick Perry	102	6.5
+7) Mitt Romney	375	23.8
+8) Rick Santorum	24	1.5
+9) Other - specify (Vol.)	7	0.4
+10) None (Vol.)	208	13.2
+11) Too early to tell (Vol.)	63	4.0
+99) Don't know/Refused (Vol.)	74	4.7
+Missing	425
+
+
+43) Q23OTH
+IF REGICERT = 1: As I name some possible Republican candidates for president in 2012, please tell me which one, if any, you would most like to see nominated as the Republican Party's candidate? [PROBE IF NECESSARY: As of today, who would you say you lean toward?] Other
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	7	0	0
+
+
+44) Q24
+IF NAMED FIRST CHOICE: Who, if anyone would be your second choice for the Republican nomination in 2012?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1231	10.157	20.667
+1) Michele Bachmann	88	7.1
+2) Herman Cain	157	12.8
+3) Newt Gingrich	185	15.0
+4) Jon Huntsman	57	4.6
+5) Ron Paul	73	5.9
+6) Rick Perry	109	8.9
+7) Mitt Romney	245	19.9
+8) Rick Santorum	45	3.7
+9) Other - specify (Vol.)	23	1.9
+10) None (Vol.)	178	14.5
+11) Too early to tell (Vol.)	9	0.7
+99) Don't know/Refused (Vol.)	62	5.0
+Missing	770
+
+
+45) Q24OTH
+IF NAMED FIRST CHOICE: Who, if anyone, would be your second choice for the Republican nomination in 2012? Other
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	24	0	0
+
+
+46) Q25
+IF REGICERT = 1: Apart from who you would like to see nominated, which Republican candidate do you think has the best chance of defeating Barack Obama next November? [OPEN END; RECORD FIRST MENTION ONLY.] [IF PERSON OFFERS MULTIPLE CANDIDATES, PROBE WITH: Which of those do you think has the best chance of defeating Obama?]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1576	39.263	44.8
+1) Michele Bachmann	23	1.5
+2) Herman Cain	174	11.0
+3) Newt Gingrich	145	9.2
+4) Jon Huntsman	17	1.1
+5) Ron Paul	30	1.9
+6) Rick Perry	89	5.6
+7) Mitt Romney	520	33.0
+96) All	12	0.8
+97) None	244	15.5
+98) Other - specify	17	1.1
+99) Don't know/Refused	305	19.4
+Missing	425
+
+
+47) Q25OTH
+IF REGICERT = 1: Apart from who you would like to see nominated, which Republican candidate do you think has the best chance of defeating Barack Obama next November? [OPEN END; RECORD FIRST MENTION ONLY.] [IF PERSON OFFERS MULTIPLE CANDIDATES, PROBE WITH: Which of those do you think has the best chance of defeating Obama?] Other
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	25	0	0
+
+
+48) OBAMAROM
+IF REGICERT = 1: Obama-Romney horserace
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1576	1.772	1.428
+1) Obama/lean Obama	735	46.6
+2) Romney/lean Romney	777	49.3
+3) Other/refused to lean	12	0.8
+9) Don't know/refused to lean	52	3.3
+Missing	425
+
+
+49) Q30
+IF REGICERT = 1: Now, suppose the 2012 presidential election were being held today and you had to choose between, [READ AND RANDOMIZE], who would you vote for?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1576	1.912	1.735
+1) Barack Obama, the Democrat	724	45.9
+2) Mitt Romney, the Republican	758	48.1
+3) Other candidate (Vol.)	12	0.8
+9) Don't know/Refused (Vol.)	82	5.2
+Missing	425
+
+
+50) Q30A
+IF OTHER OR DK: As of today, do you lean more to [READ IN SAME ORDER AS VOTETDY1]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	94	6.202	3.518
+1) Barack Obama, the Democrat	11	11.7
+2) Mitt Romney, the Republican	19	20.2
+3) Other candidate (Vol.)	7	7.4
+9) Don't know/Refused (Vol.)	57	60.6
+Missing	1907
+
+
+51) Q30B
+IF OBAMA OR ROMNEY: Would you support [INSERT LAST NAME OF CANDIDATE CHOSEN] over [INSERT LAST NAME OF CANDIDATE NOT CHOSEN] strongly, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1482	1.239	0.887
+1) Strongly	1240	83.7
+2) Not strongly	226	15.2
+9) Don't know/Refused (Vol.)	16	1.1
+Missing	519
+
+
+52) OBAMAPER
+IF REGICERT = 1: Obama-Perry horserace
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1576	1.791	1.593
+1) Obama/lean Obama	813	51.6
+2) Perry/lean Perry	676	42.9
+3) Other/refused to lean	21	1.3
+9) Don't know/refused to lean	66	4.2
+Missing	425
+
+
+53) Q31
+IF REGICERT = 1: Now, suppose the 2012 presidential election were being held today and you had to choose between, [READ AND RANDOMIZE], who would you vote for?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1576	1.972	1.947
+1) Barack Obama, the Democrat	802	50.9
+2) Rick Perry, the Republican	646	41.0
+3) Other candidate (Vol.)	23	1.5
+9) Don't know/Refused (Vol.)	105	6.7
+Missing	425
+
+
+54) Q31A
+IF OTHER OR DK: As of today, do you lean more to [READ IN SAME ORDER AS VOTETDY1]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	128	6.016	3.48
+1) Barack Obama, the Democrat	11	8.6
+2) Rick Perry, the Republican	30	23.4
+3) Other candidate (Vol.)	14	10.9
+9) Don't know/Refused (Vol.)	73	57.0
+Missing	1873
+
+
+55) Q31B
+IF OBAMA OR PERRY: Would you support [INSERT LAST NAME OF CANDIDATE CHOSEN] over [INSERT LAST NAME OF CANDIDATE NOT CHOSEN] strongly, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1448	1.244	0.959
+1) Strongly	1228	84.8
+2) Not strongly	201	13.9
+9) Don't know/Refused (Vol.)	19	1.3
+Missing	553
+
+
+56) OBAMCAIN
+IF REGICERT = 1: Obama-Cain horserace
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1576	1.732	1.477
+1) Obama/lean Obama	831	52.7
+2) Cain/lean Cain	666	42.3
+3) Other/refused to lean	24	1.5
+9) Don't know/refused to lean	55	3.5
+Missing	425
+
+
+57) Q32
+IF REGICERT = 1: Now, suppose the 2012 presidential election were being held today and you had to choose between, [READ AND RANDOMIZE], who would you vote for?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1576	1.891	1.807
+1) Barack Obama, the Democrat	819	52.0
+2) Herman Cain, the Republican	638	40.5
+3) Other candidate (Vol.)	31	2.0
+9) Don't know/Refused (Vol.)	88	5.6
+Missing	425
+
+
+58) Q32A
+IF OTHER OR DK: As of today, do you lean more to [READ IN SAME ORDER AS VOTETDY1]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	119	5.79	3.51
+1) Barack Obama, the Democrat	12	10.1
+2) Herman Cain, the Republican	28	23.5
+3) Other candidate (Vol.)	15	12.6
+9) Don't know/Refused (Vol.)	64	53.8
+Missing	1882
+
+
+59) Q32B
+IF OBAMA OR CAIN: Would you support [INSERT LAST NAME OF CANDIDATE CHOSEN] over [INSERT LAST NAME OF CANDIDATE NOT CHOSEN] strongly, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1457	1.192	0.785
+1) Strongly	1261	86.5
+2) Not strongly	184	12.6
+9) Don't know/Refused (Vol.)	12	0.8
+Missing	544
+
+
+60) OBAMAGIN
+IF REGICERT = 1: Obama-Gingrich horserace
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1576	1.72	1.439
+1) Obama/lean Obama	820	52.0
+2) Gingrich/lean Gingrich	689	43.7
+3) Other/refused to lean	15	1.0
+9) Don't know/refused to lean	52	3.3
+Missing	425
+
+
+61) Q33
+IF REGICERT = 1: Now, suppose the 2012 presidential election were being held today and you had to choose between, [READ AND RANDOMIZE], who would you vote for?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1576	1.89	1.793
+1) Barack Obama, the Democrat	802	50.9
+2) Newt Gingrich, the Republican	668	42.4
+3) Other candidate (Vol.)	19	1.2
+9) Don't know/Refused (Vol.)	87	5.5
+Missing	425
+
+
+62) Q33A
+IF OTHER OR DK: As of today, do you lean more to [READ IN SAME ORDER AS VOTETDY1]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	106	5.632	3.618
+1) Barack Obama, the Democrat	18	17.0
+2) Newt Gingrich, the Republican	21	19.8
+3) Other candidate (Vol.)	11	10.4
+9) Don't know/Refused (Vol.)	56	52.8
+Missing	1895
+
+
+63) Q33B
+IF OBAMA OR GINGRICH: Would you support [INSERT LAST NAME OF CANDIDATE CHOSEN] over [INSERT LAST NAME OF CANDIDATE NOT CHOSEN] strongly, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1470	1.203	0.834
+1) Strongly	1270	86.4
+2) Not strongly	186	12.7
+9) Don't know/Refused (Vol.)	14	1.0
+Missing	531
+
+
+64) Q34A
+IF REGICERT = 1: As I read some phrases, please tell me whether you think each one describes Mitt Romney. First, [INSERT FIRST ITEM; RANDOMIZE], does this describe Mitt Romney, or not? How about [INSERT NEXT ITEM]? [REPEAT IF NECESSARY: does this describe Mitt Romney, or not]? a. A strong conservative
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1576	2.637	2.814
+1) Yes, describes Mitt Romney	760	48.2
+2) No	564	35.8
+9) Don't know/Refused (Vol.)	252	16.0
+Missing	425
+
+
+65) Q34B
+IF REGICERT = 1: As I read some phrases, please tell me whether you think each one describes Mitt Romney. First, [INSERT FIRST ITEM; RANDOMIZE], does this describe Mitt Romney, or not? How about [INSERT NEXT ITEM]? [REPEAT IF NECESSARY: does this describe Mitt Romney, or not]? b. Shares your religious beliefs
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1576	3.4	3.066
+1) Yes, describes Mitt Romney	306	19.4
+2) No	911	57.8
+9) Don't know/Refused (Vol.)	359	22.8
+Missing	425
+
+
+66) Q34C
+IF REGICERT = 1: As I read some phrases, please tell me whether you think each one describes Mitt Romney. First, [INSERT FIRST ITEM; RANDOMIZE], does this describe Mitt Romney, or not? How about [INSERT NEXT ITEM]? [REPEAT IF NECESSARY: does this describe Mitt Romney, or not]? c. Takes consistent positions on issues
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1576	2.964	2.962
+1) Yes, describes Mitt Romney	580	36.8
+2) No	696	44.2
+9) Don't know/Refused (Vol.)	300	19.0
+Missing	425
+
+
+67) Q34D
+IF REGICERT = 1: As I read some phrases, please tell me whether you think each one describes Mitt Romney. First, [INSERT FIRST ITEM; RANDOMIZE], does this describe Mitt Romney, or not? How about [INSERT NEXT ITEM]? [REPEAT IF NECESSARY: does this describe Mitt Romney, or not]? d. Understands the needs of people like you
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1576	2.655	2.697
+1) Yes, describes Mitt Romney	613	38.9
+2) No	728	46.2
+9) Don't know/Refused (Vol.)	235	14.9
+Missing	425
+
+
+68) Q34E
+IF REGICERT = 1: As I read some phrases, please tell me whether you think each one describes Mitt Romney. First, [INSERT FIRST ITEM; RANDOMIZE], does this describe Mitt Romney, or not? How about [INSERT NEXT ITEM]? [REPEAT IF NECESSARY: does this describe Mitt Romney, or not]? e. Well-qualified to be president
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1576	2.307	2.556
+1) Yes, describes Mitt Romney	881	55.9
+2) No	500	31.7
+9) Don't know/Refused (Vol.)	195	12.4
+Missing	425
+
+
+69) Q34F
+IF REGICERT = 1: As I read some phrases, please tell me whether you think each one describes Mitt Romney. First, [INSERT FIRST ITEM; RANDOMIZE], does this describe Mitt Romney, or not? How about [INSERT NEXT ITEM]? [REPEAT IF NECESSARY: does this describe Mitt Romney, or not]? f. Honest and trustworthy
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1576	2.519	2.789
+1) Yes, describes Mitt Romney	869	55.1
+2) No	466	29.6
+9) Don't know/Refused (Vol.)	241	15.3
+Missing	425
+
+
+70) Q35A
+IF REGICERT = 1: As I read some phrases, please tell me whether you think each one describes Herman Cain. First, [INSERT FIRST ITEM; RANDOMIZE], does this describe Herman Cain, or not? How about [INSERT NEXT ITEM]? [REPEAT IF NECESSARY: does this describe Herman Cain, or not]? a. A strong conservative
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1576	2.855	3.095
+1) Yes, describes Herman Cain	851	54.0
+2) No	411	26.1
+9) Don't know/Refused (Vol.)	314	19.9
+Missing	425
+
+
+71) Q35B
+IF REGICERT = 1: As I read some phrases, please tell me whether you think each one describes Herman Cain. First, [INSERT FIRST ITEM; RANDOMIZE], does this describe Herman Cain, or not? How about [INSERT NEXT ITEM]? [REPEAT IF NECESSARY: does this describe Herman Cain, or not]? b. Shares your religious beliefs
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1576	4.294	3.56
+1) Yes, describes Herman Cain	368	23.4
+2) No	639	40.5
+9) Don't know/Refused (Vol.)	569	36.1
+Missing	425
+
+
+72) Q35C
+IF REGICERT = 1: As I read some phrases, please tell me whether you think each one describes Herman Cain. First, [INSERT FIRST ITEM; RANDOMIZE], does this describe Herman Cain, or not? How about [INSERT NEXT ITEM]? [REPEAT IF NECESSARY: does this describe Herman Cain, or not]? c. Takes consistent positions on issues
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1576	3.016	3.129
+1) Yes, describes Herman Cain	729	46.3
+2) No	514	32.6
+9) Don't know/Refused (Vol.)	333	21.1
+Missing	425
+
+
+73) Q35D
+IF REGICERT = 1: As I read some phrases, please tell me whether you think each one describes Herman Cain. First, [INSERT FIRST ITEM; RANDOMIZE], does this describe Herman Cain, or not? How about [INSERT NEXT ITEM]? [REPEAT IF NECESSARY: does this describe Herman Cain, or not]? d. Understands the needs of people like you
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1576	2.7	2.755
+1) Yes, describes Herman Cain	626	39.7
+2) No	703	44.6
+9) Don't know/Refused (Vol.)	247	15.7
+Missing	425
+
+
+74) Q35E
+IF REGICERT = 1: As I read some phrases, please tell me whether you think each one describes Herman Cain. First, [INSERT FIRST ITEM; RANDOMIZE], does this describe Herman Cain, or not? How about [INSERT NEXT ITEM]? [REPEAT IF NECESSARY: does this describe Herman Cain, or not]? e. Well-qualified to be president
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1576	2.687	2.629
+1) Yes, describes Herman Cain	506	32.1
+2) No	843	53.5
+9) Don't know/Refused (Vol.)	227	14.4
+Missing	425
+
+
+75) Q35F
+IF REGICERT = 1: As I read some phrases, please tell me whether you think each one describes Herman Cain. First, [INSERT FIRST ITEM; RANDOMIZE], does this describe Herman Cain, or not? How about [INSERT NEXT ITEM]? [REPEAT IF NECESSARY: does this describe Herman Cain, or not]? f. Honest and trustworthy
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1576	2.978	2.924
+1) Yes, describes Herman Cain	523	33.2
+2) No	758	48.1
+9) Don't know/Refused (Vol.)	295	18.7
+Missing	425
+
+
+76) Q36
+IF REGICERT = 1: How much, if anything, have you heard about a Massachusetts health care law that Mitt Romney supported when he was governor? Have you heard a lot, a little, or nothing at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1576	2.156	1.001
+1) A lot	413	26.2
+2) A little	582	36.9
+3) Nothing at all	568	36.0
+9) Don't know/Refused (Vol.)	13	0.8
+Missing	425
+
+
+77) Q37
+IF A LOT OR A LITTLE: From what you've heard, do you have a favorable or unfavorable impression of the Massachusetts health care law?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	995	2.939	2.99
+1) Favorable	403	40.5
+2) Unfavorable	401	40.3
+9) Don't know/Refused (Vol.)	191	19.2
+Missing	1006
+
+
+78) Q38
+IF REGICERT = 1: How much, if anything, have you heard about accusations that Herman Cain sexually harassed several women in the 1990s? Have you heard a lot, a little, or nothing at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1576	1.433	0.944
+1) A lot	1129	71.6
+2) A little	290	18.4
+3) Nothing at all	144	9.1
+9) Don't know/Refused (Vol.)	13	0.8
+Missing	425
+
+
+79) Q39
+IF A LOT OR A LITTLE: From what you've read and heard, do you think the allegations of sexual harassment against Herman Cain are true or false?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1419	3.328	3.329
+1) True	629	44.3
+2) False	431	30.4
+9) Don't know/Refused (Vol.)	359	25.3
+Missing	582
+
+
+80) Q40
+In your view, what is the best way to reduce the federal budget deficit? Should we mostly focus on [RANDOMIZE: Cutting major programs / Increasing taxes] mostly focus on [increasing taxes / cutting major programs] or should we do a combination of both?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	3.197	2.151
+1) Cutting major programs	371	18.5
+2) Increasing taxes	162	8.1
+3) Combination of both	1234	61.7
+4) Deficit is not a priority/Don't focus on deficit (Vol.)	21	1.0
+9) Don't know/Refused (Vol.)	213	10.6
+
+
+81) Q42
+How much, if anything, have you heard about a Congressional 'super committee' whose job is to propose a plan to significantly reduce the federal budget deficit? Have you heard a lot, a little, or nothing at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	2.125	0.966
+1) A lot	509	25.4
+2) A little	823	41.1
+3) Nothing at all	654	32.7
+9) Don't know/Refused (Vol.)	15	0.7
+
+
+82) Q43
+When it comes to the federal budget deficit, would you like lawmakers who share your views to [READ AND RANDOMIZE]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	2.406	2.211
+1) Stand by their principles, even if that means no progress is made	552	27.6
+2) Be willing to compromise, even if that means they strike a deal you disagree with	1254	62.7
+9) Don't know/Refused (Vol.)	195	9.7
+
+
+83) Q44
+As you may know, if this super committee does not come up with a plan that passes by the end of this year it will trigger automatic cuts in government spending, including both defense and domestic programs. Do you think this is a good idea or a bad idea?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	2.319	2.232
+1) Good idea	712	35.6
+2) Bad idea	1096	54.8
+9) Don't know/Refused (Vol.)	193	9.6
+
+
+84) Q50A
+Do you feel that [INSERT ITEM; RANDOMIZE] is generally friendly toward religion, neutral toward religion, or unfriendly toward religion? a. The Democratic Party
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	2.685	2.351
+1) Friendly	606	30.3
+2) Neutral	762	38.1
+3) Unfriendly	409	20.4
+9) Don't know/Refused (Vol.)	224	11.2
+
+
+85) Q50B
+Do you feel that [INSERT ITEM; RANDOMIZE] is generally friendly toward religion, neutral toward religion, or unfriendly toward religion? b. The Republican Party
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	2.588	2.544
+1) Friendly	917	45.8
+2) Neutral	508	25.4
+3) Unfriendly	323	16.1
+9) Don't know/Refused (Vol.)	253	12.6
+
+
+86) Q51A
+Do you happen to know if [INSERT FIRST NAME; RANDOMIZE] is Protestant, Catholic, Mormon, Jewish, Muslim, atheist, agnostic, or some other religion? How about [INSERT NEXT NAME]? Is he Protestant, Catholic, Mormon, Jewish, Muslim, atheist, agnostic, or some other religion? a. Mitt Romney
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2001	45.077	47.214
+1) Protestant (includes Baptist, Methodist, Presbyterian, Episcopalian, Church of Christ, etc.)	58	2.9
+2) Catholic (Roman Catholic)	47	2.3
+3) Mormon (Church of Jesus Christ of Latter-day Saints/LDS)	970	48.5
+4) Jewish (Judaism)	5	0.2
+5) Muslim (Islam)	8	0.4
+6) Atheist (does not believe in God)	3	0.1
+7) Agnostic (not sure if there is a God)	2	0.1
+9) Christian (Vol.)	22	1.1
+98) Don't know (Vol.)	866	43.3
+99) Refused (Vol.)	20	1.0
+
+
+87) Q51AOTH
+Do you happen to know if [INSERT FIRST NAME; RANDOMIZE] is Protestant, Catholic, Mormon, Jewish, Muslim, atheist, agnostic, or some other religion? How about [INSERT NEXT NAME]? Is he Protestant, Catholic, Mormon, Jewish, Muslim, atheist, agnostic, or some other religion? a. Mitt Romney (Other religion)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	2	0	0
+
+
+88) Q51B
+Do you happen to know if [INSERT FIRST NAME; RANDOMIZE] is Protestant, Catholic, Mormon, Jewish, Muslim, atheist, agnostic, or some other religion? How about [INSERT NEXT NAME]? Is he Protestant, Catholic, Mormon, Jewish, Muslim, atheist, agnostic, or some other religion? b. Rick Perry
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2001	64.219	45.756
+1) Protestant (includes Baptist, Methodist, Presbyterian, Episcopalian, Church of Christ, etc.)	498	24.9
+2) Catholic (Roman Catholic)	64	3.2
+3) Mormon (Church of Jesus Christ of Latter-day Saints/LDS)	34	1.7
+4) Jewish (Judaism)	5	0.2
+5) Muslim (Islam)	3	0.1
+6) Atheist (does not believe in God)	3	0.1
+7) Agnostic (not sure if there is a God)	1	0.0
+8) Some other religion	2	0.1
+9) Christian (Vol.)	97	4.8
+98) Don't know (Vol.)	1280	64.0
+99) Refused (Vol.)	14	0.7
+
+
+89) Q51BOTH
+Do you happen to know if [INSERT FIRST NAME; RANDOMIZE] is Protestant, Catholic, Mormon, Jewish, Muslim, atheist, agnostic, or some other religion? How about [INSERT NEXT NAME]? Is he Protestant, Catholic, Mormon, Jewish, Muslim, atheist, agnostic, or some other religion? b. Rick Perry (Other religion)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	11	0	0
+
+
+90) Q51C
+Do you happen to know if [INSERT FIRST NAME; RANDOMIZE] is Protestant, Catholic, Mormon, Jewish, Muslim, atheist, agnostic, or some other religion? How about [INSERT NEXT NAME]? Is he Protestant, Catholic, Mormon, Jewish, Muslim, atheist, agnostic, or some other religion? c. Herman Cain
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2001	70.69	43.221
+1) Protestant (includes Baptist, Methodist, Presbyterian, Episcopalian, Church of Christ, etc.)	414	20.7
+2) Catholic (Roman Catholic)	44	2.2
+3) Mormon (Church of Jesus Christ of Latter-day Saints/LDS)	11	0.5
+4) Jewish (Judaism)	5	0.2
+5) Muslim (Islam)	6	0.3
+6) Atheist (does not believe in God)	4	0.2
+7) Agnostic (not sure if there is a God)	4	0.2
+9) Christian (Vol.)	84	4.2
+98) Don't know (Vol.)	1413	70.6
+99) Refused (Vol.)	16	0.8
+
+
+91) Q51COTH
+Do you happen to know if [INSERT FIRST NAME; RANDOMIZE] is Protestant, Catholic, Mormon, Jewish, Muslim, atheist, agnostic, or some other religion? How about [INSERT NEXT NAME]? Is he Protestant, Catholic, Mormon, Jewish, Muslim, atheist, agnostic, or some other religion? c. Herman Cain (Other religion)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	6	0	0
+
+
+92) Q52A
+IF Q51A = 1 OR 9: And, do you happen to know if [INSERT NAME; OBSERVE FILTERS] is an evangelical or 'born-again' Christian, or not? a. Mitt Romney
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	80	5.15	3.796
+1) Yes, evangelical or born again Christian	21	26.3
+2) No, not evangelical or born again Christian	20	25.0
+9) Don't know/Refused (Vol.)	39	48.8
+Missing	1921
+
+
+93) Q52B
+IF Q51B = 1, 8, OR 9: And, do you happen to know if [INSERT NAME; OBSERVE FILTERS] is an evangelical or 'born-again' Christian, or not? b. Rick Perry
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	595	3.852	3.746
+1) Yes, evangelical or born again Christian	333	56.0
+2) No, not evangelical or born again Christian	57	9.6
+9) Don't know/Refused (Vol.)	205	34.5
+Missing	1406
+
+
+94) Q52C
+IF Q51C = 1 OR 9: And, do you happen to know if [INSERT NAME; OBSERVE FILTERS] is an evangelical or 'born-again' Christian, or not? c. Herman Cain
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	498	5.38	3.848
+1) Yes, evangelical or born again Christian	158	31.7
+2) No, not evangelical or born again Christian	77	15.5
+9) Don't know/Refused (Vol.)	263	52.8
+Missing	1503
+
+
+95) Q53A
+IF Q51A = 1-9: Does [INSERT NAME]'s religion make you more likely to vote for him, less likely to vote for him or make no difference in your vote? a. Mitt Romney
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1115	3.055	1.328
+1) More likely	52	4.7
+2) Less likely	138	12.4
+3) No difference	868	77.8
+8) No contact in callbacks	39	3.5
+9) Don't know/Refused (Vol.)	18	1.6
+Missing	886
+
+
+96) Q53B
+IF Q51B = 1-9: Does [INSERT NAME]'s religion make you more likely to vote for him, less likely to vote for him or make no difference in your vote? b. Rick Perry
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	707	2.878	1.294
+1) More likely	67	9.5
+2) Less likely	103	14.6
+3) No difference	509	72.0
+8) No contact in callbacks	17	2.4
+9) Don't know/Refused (Vol.)	11	1.6
+Missing	1294
+
+
+97) Q53C
+IF Q51C = 1-9: Does [INSERT NAME]'s religion make you more likely to vote for him, less likely to vote for him or make no difference in your vote? c. Herman Cain
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	572	2.934	1.307
+1) More likely	62	10.8
+2) Less likely	37	6.5
+3) No difference	451	78.8
+8) No contact in callbacks	9	1.6
+9) Don't know/Refused (Vol.)	13	2.3
+Missing	1429
+
+
+98) Q56
+Do you think the U.S. made the right decision or the wrong decision in using military force in Iraq?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	1.984	1.905
+1) Right decision	935	46.7
+2) Wrong decision	937	46.8
+9) Don't know/Refused (Vol.)	129	6.4
+
+
+99) Q57F1
+FORM 1: Do you approve or disapprove of Barack Obama's decision to withdraw all combat troops from Iraq by the end of this year?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	981	1.598	1.677
+1) Approve	709	72.3
+2) Disapprove	227	23.1
+9) Don't know/Refused (Vol.)	45	4.6
+Missing	1020
+
+
+100) Q58F2
+FORM 2: Do you approve or disapprove of the government's decision to withdraw all combat troops from Iraq by the end of this year?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1020	1.624	1.759
+1) Approve	748	73.3
+2) Disapprove	220	21.6
+9) Don't know/Refused (Vol.)	52	5.1
+Missing	981
+
+
+101) Q59
+Overall, do you think the United States has mostly succeeded or mostly failed in achieving its goals in Iraq?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	2.222	2.444
+1) Mostly succeeded	1116	55.8
+2) Mostly failed	662	33.1
+9) Don't know/Refused (Vol.)	223	11.1
+
+
+102) Q65
+From what you've read and heard, is there solid evidence that the average temperature on earth has been getting warmer over the past few decades, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	1.923	2.092
+1) Yes	1249	62.4
+2) No	576	28.8
+3) Mixed/some evidence (Vol.)	23	1.1
+9) Don't know/Refused (Vol.)	153	7.6
+
+
+103) Q66
+IF Q65 = 1: Do you believe that the earth is getting warmer [READ AND RANDOMIZE]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1249	2.171	2.429
+1) Mostly because of human activity such as burning fossil fuels	738	59.1
+2) Mostly because of natural patterns in the earth's environment	375	30.0
+9) Don't know/Refused (Vol.)	136	10.9
+Missing	752
+
+
+104) Q67
+In your view, is global warming a very serious problem, somewhat serious, not too serious, or not a problem?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	2.299	1.462
+1) Very serious	725	36.2
+2) Somewhat serious	557	27.8
+3) Not too serious	315	15.7
+4) Not a problem	364	18.2
+9) Don't know/Refused (Vol.)	40	2.0
+
+
+105) Q68
+Do you strongly favor, favor, oppose or strongly oppose the death penalty for persons convicted of murder?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	2.663	1.985
+1) Strongly favor	527	26.3
+2) Favor	695	34.7
+3) Oppose	410	20.5
+4) Strongly oppose	228	11.4
+9) Don't know/Refused (Vol.)	141	7.0
+
+
+106) Q69
+IF FAVOR: Why do you favor the death penalty for persons convicted of murder? [OPEN-ENDED; ACCEPT UP TO THREE RESPONSES; PROBE ONCE WITH 'ANYTHING ELSE?']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1222	1.196	1.238
+1) Answer given	1192	97.5
+9) Don't know/Refused (Vol.)	30	2.5
+Missing	779
+
+
+107) Q69RESP1
+IF FAVOR: Why do you favor the death penalty for persons convicted of murder? [OPEN-ENDED; ACCEPT UP TO THREE RESPONSES; PROBE ONCE WITH 'ANYTHING ELSE?']
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1222	15.781	25.397
+1) An eye for an eye/A life for a life	129	10.6
+2) Biblical/religious reasons	52	4.3
+3) It's fair/appropriate punishment/It fits the crime/It's deserved/It's just	359	29.4
+6) Person doesn't deserve to live	31	2.5
+9) Support death penalty if there's no doubt person did it	53	4.3
+10) Depends on nature/severity of the crime	90	7.4
+11) Serves as deterrent/example for others	66	5.4
+12) Prevents person from committing more crimes	60	4.9
+13) Person could get out/Should not get out	16	1.3
+14) Burden on/Cost to taxpayers for life in prison/Relieves prison overcrowding	144	11.8
+16) Don't believe person can be rehabilitated	12	1.0
+17) Know a victim/Sympathize with families of victims	21	1.7
+18) Support death penalty, generally	20	1.6
+19) Because it's murder/Because murder is wrong	49	4.0
+88) Other	89	7.3
+99) Don't know/Refused	31	2.5
+Missing	779
+
+
+108) Q69RESP2
+IF FAVOR: Why do you favor the death penalty for persons convicted of murder? [OPEN-ENDED; ACCEPT UP TO THREE RESPONSES; PROBE ONCE WITH 'ANYTHING ELSE?']
+RANGE: 1 to 88
+	N	Mean	Std. Deviation
+Total	192	13.26	20.103
+1) An eye for an eye/A life for a life	40	20.8
+2) Biblical/religious reasons	5	2.6
+3) It's fair/appropriate punishment/It fits the crime/It's deserved/It's just	25	13.0
+6) Person doesn't deserve to live	7	3.6
+9) Support death penalty if there's no doubt person did it	11	5.7
+10) Depends on nature/severity of the crime	7	3.6
+11) Serves as deterrent/example for others	14	7.3
+12) Prevents person from committing more crimes	9	4.7
+13) Person could get out/Should not get out	2	1.0
+14) Burden on/Cost to taxpayers for life in prison/Relieves prison overcrowding	51	26.6
+16) Don't believe person can be rehabilitated	1	0.5
+17) Know a victim/Sympathize with families of victims	8	4.2
+88) Other	12	6.3
+Missing	1809
+
+
+109) Q70
+IF OPPOSE: Why do you oppose the death penalty for persons convicted of murder? [OPEN-ENDED; ACCEPT UP TO THREE RESPONSES; PROBE ONCE WITH 'ANYTHING ELSE?']
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	638	1.176	1.173
+1) Answer given	624	97.8
+9) Don't know/Refused (Vol.)	14	2.2
+Missing	1363
+
+
+110) Q70RESP1
+IF OPPOSE: Why do you oppose the death penalty for persons convicted of murder? [OPEN-ENDED; ACCEPT UP TO THREE RESPONSES; PROBE ONCE WITH 'ANYTHING ELSE?']
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	638	14.861	29.903
+1) It's wrong/immoral to kill someone/It's not our right to kill/for the government to kill	166	26.0
+2) The justice system is imperfect/Wrong person maybe convicted/executed	174	27.3
+3) Death penalty not fairly applied/Concerns about race, ability to pay lawyers	11	1.7
+4) Religious reasons/Judgment should be left to God/Humans should not judge	78	12.2
+5) Person needs to pay/suffer more/Life sentence more appropriate	50	7.8
+6) Cost of capital cases/appeals	15	2.4
+7) Not a deterrent	16	2.5
+8) Possibility of rehabilitation/People deserve second chances	16	2.5
+9) Depends on situation/Not always right punishment	18	2.8
+10) Don't believe in an eye for an eye	7	1.1
+88) Other	73	11.4
+99) Don't know/Refused	14	2.2
+Missing	1363
+
+
+111) Q70RESP2
+IF OPPOSE: Why do you oppose the death penalty for persons convicted of murder? [OPEN-ENDED; ACCEPT UP TO THREE RESPONSES; PROBE ONCE WITH 'ANYTHING ELSE?']
+RANGE: 1 to 88
+	N	Mean	Std. Deviation
+Total	91	10.593	22.606
+1) It's wrong/immoral to kill someone/It's not our right to kill/for the government to kill	14	15.4
+2) The justice system is imperfect/Wrong person maybe convicted/executed	17	18.7
+3) Death penalty not fairly applied/Concerns about race, ability to pay lawyers	4	4.4
+4) Religious reasons/Judgment should be left to God/Humans should not judge	16	17.6
+5) Person needs to pay/suffer more/Life sentence more appropriate	10	11.0
+6) Cost of capital cases/appeals	8	8.8
+7) Not a deterrent	6	6.6
+8) Possibility of rehabilitation/People deserve second chances	2	2.2
+9) Depends on situation/Not always right punishment	2	2.2
+10) Don't believe in an eye for an eye	5	5.5
+88) Other	7	7.7
+Missing	1910
+
+
+112) Q71
+Do you think abortion should be [READ; READ CATEGORIES IN REVERSE ORDER FOR HALF OF SAMPLE]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	2.777	1.823
+1) Legal in all cases	405	20.2
+2) Legal in most cases	642	32.1
+3) Illegal in most cases	529	26.4
+4) Illegal in all cases	309	15.4
+9) Don't know/Refused (Vol.)	116	5.8
+
+
+113) Q72
+What should be the priority for dealing with illegal immigration in the U.S.? [RANDOMIZE 1-2] or should both be given equal priority?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	2.301	1.361
+1) Better border security and stronger enforcement of our immigration laws	627	31.3
+2) Creating a way for illegal immigrants already here to become citizens if they meet certain requirements	455	22.7
+3) Should both be given equal priority	843	42.1
+4) None of these (Vol.)	29	1.4
+9) Don't know/Refused (Vol.)	47	2.3
+
+
+114) Q73
+Do you think an illegal immigrant who went to high school in your state and is accepted to a public college should be eligible for the in-state tuition rate, or shouldn't they?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	1.906	1.715
+1) Should be eligible	903	45.1
+2) Should not be eligible	996	49.8
+9) Don't know/Refused (Vol.)	102	5.1
+
+
+115) CHR
+IF RELIG = 11, 12, 99: Do you think of yourself as a Christian or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	351	2.071	2.246
+1) Yes	199	56.7
+2) No	120	34.2
+9) Don't know/Refused (Vol.)	32	9.1
+Missing	1650
+
+
+116) RELIG
+What is your present religion, if any? Are you Protestant, Roman Catholic, Mormon, Orthodox such as Greek or Russian Orthodox, Jewish, Muslim, Buddhist, Hindu, atheist, agnostic, something else, or nothing in particular? [INTERVIEWER: IF R VOLUNTEERS 'nothing in particular, none, no religion, etc.' BEFORE REACHING END OF LIST, PROMPT WITH: And would you say that's atheist, agnostic, or just nothing in particular?]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2001	6.632	14.907
+1) Protestant (Baptist, Methodist, Non-denominational, Lutheran, Presbyterian, Pentecostal, Episcopalian, Reformed, Church of Christ, Jehovah's Witness, etc.)	839	41.9
+2) Roman Catholic (Catholic)	449	22.4
+3) Mormon (Church of Jesus Christ of Latter-day Saints/LDS)	39	1.9
+4) Orthodox (Greek, Russian, or some other Orthodox church)	15	0.7
+5) Jewish (Judaism)	28	1.4
+6) Muslim (Islam)	13	0.6
+7) Buddhist	20	1.0
+8) Hindu	6	0.3
+9) Atheist (do not believe in God)	54	2.7
+10) Agnostic (not sure if there is a God)	62	3.1
+11) Something else (SPECIFY)	37	1.8
+12) Nothing in particular	230	11.5
+13) Christian (Vol.)	158	7.9
+14) Unitarian (Universalist) (Vol.)	5	0.2
+99) Don't know/Refused (Vol.)	46	2.3
+
+
+117) BORN
+IF RELIG = 1-4, 13 OR CHR=1: Would you describe yourself as 'born again' or evangelical Christian, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1665	2.002	1.804
+1) Yes, would	675	40.5
+2) No, would not	893	53.6
+8) Undesignated	1	0.1
+9) Don't know/Refused (Vol.)	96	5.8
+Missing	336
+
+
+118) ATTEND
+Aside from weddings and funerals, how often do you attend religious services -- more than once a week, once a week, once or twice a month, a few times a year, seldom, or never?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	3.37	1.772
+1) More than once a week	287	14.3
+2) Once a week	528	26.4
+3) Once or twice a month	285	14.2
+4) A few times a year	332	16.6
+5) Seldom	299	14.9
+6) Never	236	11.8
+9) Don't know/Refused (Vol.)	34	1.7
+
+
+119) Q76
+How much would you say you know about the Mormon religion and its practices? [READ IN ORDER]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	2.516	1.164
+1) A great deal	315	15.7
+2) Some	797	39.8
+3) Not very much	540	27.0
+4) Nothing at all	327	16.3
+9) Don't know/Refused (Vol.)	22	1.1
+
+
+120) Q77
+Please tell me what one word best describes your impression of the Mormon religion. Tell me just the one best word that comes to mind. [OPEN-ENDED. PROBE ONCE IF RESPONDENT ANSWERS 'DON'T KNOW.' ACCEPT UP TO TWO RESPONSES, BUT DO NOT PROBE FOR SECOND RESPONSE.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	3.079	3.509
+1) Answer given	1481	74.0
+9) Don't know/Refused (Vol.)	520	26.0
+
+
+121) Q77STRNG
+Please tell me what one word best describes your impression of the Mormon religion. Tell me just the one best word that comes to mind. [OPEN-ENDED. PROBE ONCE IF RESPONDENT ANSWERS 'DON'T KNOW.' ACCEPT UP TO TWO RESPONSES, BUT DO NOT PROBE FOR SECOND RESPONSE.]
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	1481	0	0
+
+
+122) Q77RESP1
+Please tell me what one word best describes your impression of the Mormon religion. Tell me just the one best word that comes to mind. [OPEN-ENDED. PROBE ONCE IF RESPONDENT ANSWERS 'DON'T KNOW.' ACCEPT UP TO TWO RESPONSES, BUT DO NOT PROBE FOR SECOND RESPONSE.]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2001	61.645	37.374
+1) Acceptable	8	0.4
+2) Christian	25	1.2
+4) Family/Family values	57	2.8
+5) Cult	100	5.0
+6) Different	55	2.7
+8) Devout/Devoted	19	0.9
+9) Good/Good people	45	2.2
+11) Faith/Faithful	19	0.9
+12) Another religion	6	0.3
+13) Belief/Believers	8	0.4
+14) Confused/Confusing	24	1.2
+15) Conservative	34	1.7
+16) Crazy	12	0.6
+17) Dedicated	28	1.4
+18) False	13	0.6
+19) Fake	7	0.3
+20) Friendly	14	0.7
+21) Honest	17	0.8
+22) Hypocrite	8	0.4
+23) Interesting	17	0.8
+24) Misguided	14	0.7
+25) Nice	8	0.4
+26) Odd	10	0.5
+27) OK	15	0.7
+28) Polygamy	49	2.4
+29) Strange	18	0.9
+30) Strict/Restrictive	35	1.7
+31) True	9	0.4
+32) Utah	14	0.7
+33) Favorable	7	0.3
+34) Mislead/Misleading	6	0.3
+35) Misunderstood	8	0.4
+36) Multiple marriages/Multiple wives	17	0.8
+37) Non-Christian	4	0.2
+38) Organized	6	0.3
+39) Peaceful	9	0.4
+40) Religion	10	0.5
+41) Religious	8	0.4
+43) Silly	4	0.2
+44) Strong	7	0.3
+45) The true church/The truth	4	0.2
+46) Weird	8	0.4
+47) All right	5	0.2
+48) Caring	6	0.3
+49) Committed/Commitment	6	0.3
+50) Control/Controlling	4	0.2
+51) Excessive	6	0.3
+52) Fanatical	4	0.2
+53) Kind	4	0.2
+54) Love/Loving	4	0.2
+55) Loyal	5	0.2
+56) Moral/Morality	4	0.2
+57) Neutral	5	0.2
+58) Respect/Respectful	6	0.3
+59) Unique	4	0.2
+60) Great	4	0.2
+61) Deluded	4	0.2
+62) Controversial	4	0.2
+63) Clean/Clean living	5	0.2
+64) Scary	4	0.2
+65) Disagree/Disagreement	4	0.2
+66) Fine/Fine people	4	0.2
+67) Ignorant/Ignorance	4	0.2
+68) Ridiculous	4	0.2
+69) Lies/liars	4	0.2
+70) Wrong	9	0.4
+88) Other	561	28.0
+99) Don't know/Refused	541	27.0
+
+
+123) Q77RESP2
+Please tell me what one word best describes your impression of the Mormon religion. Tell me just the one best word that comes to mind. [OPEN-ENDED. PROBE ONCE IF RESPONDENT ANSWERS 'DON'T KNOW.' ACCEPT UP TO TWO RESPONSES, BUT DO NOT PROBE FOR SECOND RESPONSE.]
+RANGE: 2 to 88
+	N	Mean	Std. Deviation
+Total	8	23.75	28.634
+2) Christian	1	12.5
+5) Cult	1	12.5
+9) Good/Good people	2	25.0
+11) Faith/Faithful	1	12.5
+30) Strict/Restrictive	1	12.5
+36) Multiple marriages/Multiple wives	1	12.5
+88) Other	1	12.5
+Missing	1993
+
+
+124) Q77CODE
+Please tell me what one word best describes your impression of the Mormon religion. Tell me just the one best word that comes to mind. [OPEN-ENDED. PROBE ONCE IF RESPONDENT ANSWERS 'DON'T KNOW.' ACCEPT UP TO TWO RESPONSES, BUT DO NOT PROBE FOR SECOND RESPONSE.]
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	1460	2.065	0.793
+1) Positive	414	28.4
+2) Neutral	537	36.8
+3) Negative	509	34.9
+Missing	541
+
+
+125) Q78
+IF R HAS RELIGION OTHER THAN MORMONISM: From what you know, do you think that the Mormon religion and your own religion have a lot in common, or do you think that the Mormon religion and your religion are very different?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1591	2.586	2.378
+1) A lot in common	377	23.7
+2) Very different	1027	64.6
+9) Don't know/Refused (Vol.)	187	11.8
+Missing	410
+
+
+126) Q79
+IF R IS ATHEIST, AGNOSTIC, NOTHING IN PARTICULAR OR DK & NOT CHRISTIAN: From what you know, do you think that the Mormon religion and your own beliefs have a lot in common, or do you think that the Mormon religion and your beliefs are very different?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	371	2.838	2.545
+1) A lot in common	60	16.2
+2) Very different	258	69.5
+9) Don't know/Refused (Vol.)	53	14.3
+Missing	1630
+
+
+127) Q80
+IF NOT MORMON: Do you, yourself happen to know anyone who is Mormon?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1962	1.533	0.874
+1) Yes	1042	53.1
+2) No	902	46.0
+9) Don't know/Refused (Vol.)	18	0.9
+Missing	39
+
+
+128) Q81
+IF NOT MORMON: Based on what you have read or heard about Mormons, do you think their religion is a Christian religion, or do you think it is not a Christian religion?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1962	2.574	2.819
+1) Yes, their religion is a Christian religion	1044	53.2
+2) No, their religion is not a Christian religion	608	31.0
+9) Don't know/Refused (Vol.)	310	15.8
+Missing	39
+
+
+129) SEX
+Respondent's sex
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2001	1.524	0.5
+1) Male	953	47.6
+2) Female	1048	52.4
+
+
+130) AGE
+What is your age?
+RANGE: 18 to 99
+	N	Mean	Std. Deviation
+Total	2001	52.643	19.454
+18) 	39	1.9
+19) 	33	1.6
+20) 	23	1.1
+21) 	39	1.9
+22) 	24	1.2
+23) 	28	1.4
+24) 	23	1.1
+25) 	24	1.2
+26) 	21	1.0
+27) 	23	1.1
+28) 	32	1.6
+29) 	12	0.6
+30) 	19	0.9
+31) 	24	1.2
+32) 	25	1.2
+33) 	20	1.0
+34) 	23	1.1
+35) 	28	1.4
+36) 	17	0.8
+37) 	21	1.0
+38) 	16	0.8
+39) 	17	0.8
+40) 	22	1.1
+41) 	26	1.3
+42) 	29	1.4
+43) 	31	1.5
+44) 	21	1.0
+45) 	40	2.0
+46) 	29	1.4
+47) 	32	1.6
+48) 	33	1.6
+49) 	38	1.9
+50) 	46	2.3
+51) 	23	1.1
+52) 	41	2.0
+53) 	42	2.1
+54) 	42	2.1
+55) 	53	2.6
+56) 	36	1.8
+57) 	44	2.2
+58) 	42	2.1
+59) 	44	2.2
+60) 	42	2.1
+61) 	28	1.4
+62) 	46	2.3
+63) 	44	2.2
+64) 	47	2.3
+65) 	36	1.8
+66) 	20	1.0
+67) 	33	1.6
+68) 	35	1.7
+69) 	33	1.6
+70) 	32	1.6
+71) 	24	1.2
+72) 	18	0.9
+73) 	24	1.2
+74) 	18	0.9
+75) 	23	1.1
+76) 	19	0.9
+77) 	25	1.2
+78) 	23	1.1
+79) 	14	0.7
+80) 	21	1.0
+81) 	17	0.8
+82) 	13	0.6
+83) 	14	0.7
+84) 	17	0.8
+85) 	12	0.6
+86) 	13	0.6
+87) 	4	0.2
+88) 	4	0.2
+89) 	5	0.2
+90) 	6	0.3
+91) 	4	0.2
+92) 	3	0.1
+93) 	3	0.1
+99) Don't know/Refused	36	1.8
+
+
+131) EDUC
+What is the last grade or class that you completed in school?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	4.773	1.689
+1) None, or grades 1-8	46	2.3
+2) High school incomplete (grades 9-11)	117	5.8
+3) High school graduate (grade 12 or GED certificate)	499	24.9
+4) Technical, trade, or vocational school after high school	63	3.1
+5) Some college, associate degree, no four-year degree	510	25.5
+6) College graduate (B.S., B.A., or other four-year degree)	415	20.7
+7) Postgraduate training or professional schooling after college	339	16.9
+9) Don't know/Refused (Vol.)	12	0.6
+
+
+132) HISP
+Are you Hispanic, Latino, or Spanish origin, such as Mexican, Puerto Rican or Cuban?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	1.991	0.808
+1) Yes	180	9.0
+2) No	1798	89.9
+9) Don't know/Refused (Vol.)	23	1.1
+
+
+133) RACEM1
+Which of the following describes your race? You can select as many as apply. [READ LIST. RECORD UP TO FOUR RESPONSES IN ORDER MENTIONED BUT DO NOT PROBE FOR ADDITIONAL MENTIONS] First mention
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	1.454	1.2
+1) White	1587	79.3
+2) Black or African American	213	10.6
+3) Asian or Asian American	43	2.1
+4) Some other race	131	6.5
+9) Don't know/Refused (Vol.)	27	1.3
+
+
+134) RACEM2
+Which of the following describes your race? You can select as many as apply. [READ LIST. RECORD UP TO FOUR RESPONSES IN ORDER MENTIONED BUT DO NOT PROBE FOR ADDITIONAL MENTIONS] Second mention
+RANGE: 2 to 4
+	N	Mean	Std. Deviation
+Total	30	3.1	0.923
+2) Black or African American	11	36.7
+3) Asian or Asian American	5	16.7
+4) Some other race	14	46.7
+Missing	1971
+
+
+135) RACEM3
+Which of the following describes your race? You can select as many as apply. [READ LIST. RECORD UP TO FOUR RESPONSES IN ORDER MENTIONED BUT DO NOT PROBE FOR ADDITIONAL MENTIONS] Third mention
+RANGE: 3 to 4
+	N	Mean	Std. Deviation
+Total	3	3.667	0.577
+3) Asian or Asian American	1	33.3
+4) Some other race	2	66.7
+Missing	1998
+
+
+136) RACEOTH
+IF SOME OTHER RACE: And how would you describe your race? [OPEN-ENDED; RECORD VERBATIM RESPONSE]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	147	1.435	1.821
+1) Answer given	139	94.6
+9) Don't know/Refused (Vol.)	8	5.4
+Missing	1854
+
+
+137) RACECMB
+Combined race
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	1.561	1.386
+1) White	1563	78.1
+2) Black	207	10.3
+3) Asian	43	2.1
+4) Mixed race	30	1.5
+5) Some other race	131	6.5
+9) Don't know/Refused (Vol.)	27	1.3
+
+
+138) RACETHN
+Race/ethnicity
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	1.569	1.205
+1) White, non-Hispanic	1470	73.5
+2) Black, non-Hispanic	192	9.6
+3) Hispanic	180	9.0
+4) Other	137	6.8
+9) Don't know/Refused (Vol.)	22	1.1
+
+
+139) BRTHHISP
+IF HISP = 1: Were you born in the United States, on the island of Puerto Rico, or in another country?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	180	1.994	1.235
+1) United States	95	52.8
+2) Puerto Rico	3	1.7
+3) Another country	80	44.4
+9) Don't know/Refused (Vol.)	2	1.1
+Missing	1821
+
+
+140) INCOME
+Last year, that is in 2010, what was your total family income from all sources, before taxes? Just stop me when I get to the right category.
+RANGE: 1 to 10
+	N	Mean	Std. Deviation
+Total	2001	5.649	2.761
+1) Less than $10,000	146	7.3
+2) $10,000 to under $20,000	177	8.8
+3) $20,000 to under $30,000	232	11.6
+4) $30,000 to under $40,000	194	9.7
+5) $40,000 to under $50,000	158	7.9
+6) $50,000 to under $75,000	290	14.5
+7) $75,000 to under $100,000	231	11.5
+8) $100,000 to under $150,000	207	10.3
+9) $150,000 or more	132	6.6
+10) Don't know/Refused (Vol.)	234	11.7
+
+
+141) PARTY
+In politics today, do you consider yourself a Republican, Democrat, or independent?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	2.277	1.271
+1) Republican	549	27.4
+2) Democrat	638	31.9
+3) Independent	723	36.1
+4) No preference (Vol.)	45	2.2
+5) Other party (Vol.)	8	0.4
+9) Don't know/Refused (Vol.)	38	1.9
+
+
+142) PARTYLN
+IF PARTY = 3, 4, 5, OR 9: As of today do you lean more to the Republican Party or more to the Democratic Party?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	814	3.412	3.315
+1) Republican	314	38.6
+2) Democrat	291	35.7
+9) Don't know/Refused (Vol.)	209	25.7
+Missing	1187
+
+
+143) IDEO
+In general, would describe your political views as very conservative, conservative, moderate, liberal, or very liberal?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	2.994	1.484
+1) Very conservative	185	9.2
+2) Conservative	577	28.8
+3) Moderate	741	37.0
+4) Liberal	318	15.9
+5) Very liberal	116	5.8
+9) Don't know/Refused (Vol.)	64	3.2
+
+
+144) TEAPRTY2
+From what you know, do you agree or disagree with the Tea Party movement, or don't you have an opinion either way?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2001	2.374	1.227
+1) Agree	449	22.4
+2) Disagree	607	30.3
+3) No opinion either way	899	44.9
+8) Haven't heard of (Vol.)	24	1.2
+9) Refused (Vol.)	22	1.1
+
+
+145) HH1
+How many people, including yourself, live in your household?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2001	3.529	9.037
+1) 	435	21.7
+2) 	710	35.5
+3) 	335	16.7
+4) 	268	13.4
+5) 	136	6.8
+6) 	49	2.4
+7) 	28	1.4
+8) 	10	0.5
+9) 	2	0.1
+10) 	3	0.1
+11) 	2	0.1
+12) 	1	0.0
+14) 	1	0.0
+15) 	1	0.0
+20) 	1	0.0
+25) 	1	0.0
+40) 	1	0.0
+99) Don't know/Refused (Vol.)	17	0.8
+
+
+146) HH2
+IF MORE THAN ONE PERSON IN HH: How many of these are children under the age of 18?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	1549	0.843	3.728
+0) 	968	62.5
+1) 	255	16.5
+2) 	213	13.8
+3) 	65	4.2
+4) 	24	1.5
+5) 	13	0.8
+6) 	3	0.2
+7) 	2	0.1
+8) 	2	0.1
+9) 	1	0.1
+14) 	1	0.1
+99) Don't know/Refused (Vol.)	2	0.1
+Missing	452
+
+
+147) CELLPHON
+LANDLINE SAMPLE: Now thinking about your telephone use . . . Do you have a working cell phone?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1200	1.209	0.594
+1) Yes, have cell phone	977	81.4
+2) No, do not	219	18.3
+9) Don't know/Refused (Vol.)	4	0.3
+Missing	801
+
+
+148) HHCELL
+IF NO CELL PHONE AND MULTI-PERSON HH: Does anyone in your household have a working cell phone?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	129	1.884	1.652
+1) Yes, someone in household has cell phone	57	44.2
+2) No	66	51.2
+9) Don't know/Refused (Vol.)	6	4.7
+Missing	1872
+
+
+149) NOTCELL
+CELL PHONE SAMPLE: Now thinking about your telephone use . . . Is there at least one telephone inside your home that is currently working and is not a cell phone?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	801	1.536	0.727
+1) Yes	400	49.9
+2) No	397	49.6
+9) Don't know/Refused (Vol.)	4	0.5
+Missing	1200
+
+
+150) CALLS1
+IF CELLPHON = 1 or HHCELL = 1 AND HH1= 1: Of all the telephone calls that you receive, do you get [READ AND RANDOMIZE OPTIONS 1 AND 3-KEEP 2 ALWAYS IN THE MIDDLE]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	250	2.512	1.169
+1) All or almost all calls on cell phone	34	13.6
+2) Some on a cell phone and some on a regular home phone	84	33.6
+3) All or almost all calls on a regular home phone	127	50.8
+9) Don't know/Refused (Vol.)	5	2.0
+Missing	1751
+
+
+151) CALLS2
+IF CELLPHON = 1 or HHCELL = 1 AND MULTI-PERSON HOUSEHOLD: Of all the telephone calls that you receive, do you get [READ AND RANDOMIZE OPTIONS 1 AND 3-KEEP 2 ALWAYS IN THE MIDDLE]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1184	2.089	1.019
+1) All or almost all calls on cell phone	293	24.7
+2) Some on a cell phone and some on a regular home phone	571	48.2
+3) All or almost all calls on a regular home phone	307	25.9
+9) Don't know/Refused (Vol.)	13	1.1
+Missing	817
+
+
+152) MONEY2
+CELL PHONE SAMPLE: That's the end of the interview. If you would like to be reimbursed for you cell phone minutes, we can send you $5. I will need your full name and a mailing address where we can send you the money.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	801	6.303	3.784
+1) Gave information	270	33.7
+9) Respondent does not want the money (Vol.)	531	66.3
+Missing	1200
+
+
+153) PHONEUSE
+Household phone use by call type
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2001	2.499	0.923
+1) Landline only	159	7.9
+2) Dual/few, some cell	1107	55.3
+3) Dual/most cell	327	16.3
+4) Cell phone only	397	19.8
+5) Landline, don't know if cell	7	0.3
+6) Cell, don't know if landline	4	0.2
+
+
+154) LLWEIGHT
+Weight for landline sample
+RANGE: 1 to 17.4375
+	N	Mean	Std. Deviation
+Total	1200	5.505	4.54
+
+
+155) COWEIGHT
+Weight for landline sample plus cell phone only
+RANGE: 1 to 8.66666666666667
+	N	Mean	Std. Deviation
+Total	1597	3.937	2.239
+
+
+156) WEIGHT
+Final weight for combined landline and cell sample
+RANGE: 1 to 7.54545454545455
+	N	Mean	Std. Deviation
+Total	2001	3.23	1.816
+
+
+157) I-AGE
+What is your age? (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	1965	3.691	1.693
+1) 18-29 years old	321	16.3
+2) 30-39 years old	210	10.7
+3) 40-49 years old	301	15.3
+4) 50-59 years old	413	21.0
+5) 60-69 years old	364	18.5
+6) 70 years and older	356	18.1
+Missing	36
+
+
+158) I-EDUC
+What is the last grade or class that you completed in school? (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1989	3.135	1.205
+1) High school incomplete (grades 1-11)	163	8.2
+2) High school graduate (grade 12 or GED certificate)	499	25.1
+3) Some college, associate degree, no four-year degree or Technical, trade, or vocational school after high school	573	28.8
+4) College graduate (B.S., B.A., or other four-year degree)	415	20.9
+5) Postgraduate training or professional schooling after college	339	17.0
+Missing	12
+
+
+159) I-RACE
+Race/ethnicity (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1979	1.487	0.921
+1) White, non-Hispanic	1470	74.3
+2) Black, non-Hispanic	192	9.7
+3) Hispanic	180	9.1
+4) Other	137	6.9
+Missing	22
+
+
+160) I-RELIGION
+What is your present religion, if any? Are you Protestant, Roman Catholic, Mormon, Orthodox such as Greek or Russian Orthodox, Jewish, Muslim, Buddhist, Hindu, atheist, agnostic, something else, or nothing in particular? [INTERVIEWER: IF R VOLUNTEERS 'nothing in particular, none, no religion, etc.' BEFORE REACHING END OF LIST, PROMPT WITH: And would you say that's atheist, agnostic, or just nothing in particular?] (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1955	2.089	1.138
+1) Protestant	839	42.9
+2) Roman Catholic	449	23.0
+3) Other	321	16.4
+4) None	346	17.7
+Missing	46
+
+
+161) I-SEX
+Respondent's sex (for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2001	1.524	0.5
+1) Male	953	47.6
+2) Female	1048	52.4
+
+
+162) I-POLITICS
+In general, would describe your political views as very conservative, conservative, moderate, liberal, or very liberal? (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	1937	2.795	1.021
+1) Very conservative	185	9.6
+2) Conservative	577	29.8
+3) Moderate	741	38.3
+4) Liberal	318	16.4
+5) Very liberal	116	6.0
+Missing	64
+
+

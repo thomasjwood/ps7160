@@ -1,0 +1,2037 @@
+Data File: NSL2013 (Full Data Codebook)
+
+1) CASEID
+Unique identifier
+RANGE: 47 to 90004441
+	N	Mean	Std. Deviation
+Total	5103	38749237.678	29128605.083
+
+
+2) TOTALWT
+Weight Veriable used to analyze full sample
+RANGE: 0.1 to 5.28572375287718
+	N	Mean	Std. Deviation
+Total	5103	1	1.148
+
+
+3) FORM
+Version of the religion question administered
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	5103	1.711	0.846
+1) Form 12 (received RELIG)	2777	54.4
+2) Form 06 (received REL06)	1023	20.0
+3) Form NCO (non-Catholic oversample - received RELIG)	1303	25.5
+
+
+4) SAMP30
+Sample strata
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	5103	2.777	1.544
+1) Surname	1215	23.8
+2) High	1562	30.6
+3) Medium	679	13.3
+4) Low	805	15.8
+5) Very high	478	9.4
+6) Medium prescreened	364	7.1
+
+
+5) SAMP31
+Phone type
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	5103	1.471	0.499
+1) Landline	2698	52.9
+2) Cellphone	2405	47.1
+
+
+6) SAMP34
+High/low Mexican strata
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	5103	1.541	0.498
+1) High Mexican	2344	45.9
+2) Low Mexican	2759	54.1
+
+
+7) REGION
+Census region (based on zip code)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	5103	2.792	1.153
+1) Northeast	1236	24.2
+2) North Central	327	6.4
+3) South	1802	35.3
+4) West	1738	34.1
+
+
+8) FORM06WT
+Weight variable recommended for use in analyses that focus ONLY on FORM06 (FORM=2)
+RANGE: 0.1 to 5.00127540927306
+	N	Mean	Std. Deviation
+Total	1023	1	1.124
+
+
+9) FORM12NCOWT
+Weight variable recommended for use in analyses that focus ONLY on FORM12 and FORMNCO (FORM=1 or 3)
+RANGE: 0.1 to 5.29384962437797
+	N	Mean	Std. Deviation
+Total	4080	1	1.167
+
+
+10) GENDER
+Record gender
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	5103	1.54	0.498
+1) Male	2349	46.0
+2) Female	2754	54.0
+
+
+11) Q1
+Just to confirm, are you, yourself of Hispanic or Latino origin or descent? (IF NECESSARY: such as Mexican, Puerto Rican, Cuban, Dominican, Central or South American, Caribbean or some other Latin American background) (INTERVIEWER INSTRUCTIONS: IF RESPONDENT SEEMS HESITANT OR HAS AN ACCENT, PROBE FOR HISPANIC OR LATINO ORIGIN) 2= No, 9= Do NOT READ) Don't know/Refused (If Q.1=2, OR 9, THANK & TERMINATE INTERVIEW)
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	5103	1	0
+1) Yes	5103	100.0
+
+
+12) Q2
+The terms Hispanic and Latino are both used to describe people who are of Hispanic or Latino origin or descent.  Do you happen to prefer one of these terms more than the other? (GET ANSWER, THEN ASK: Which term do you prefer, Hispanic or Latino?)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	2.262	1.212
+1) Hispanic	1680	32.9
+2) Latino	855	16.8
+3) No preference	2493	48.9
+9) Don't know/Refused	75	1.5
+
+
+13) Q3REC
+Recoded variable that primarily reflects answers to the questions below. If responses to the questions below were unclear, variable reflects answers given in Q5. Now I want to ask you about your family's heritage. Are you Mexican, Puerto Rican, Cuban, Dominican, Salvadoran, or are you and your ancestors from another country? (IF ANOTHER COUNTRY: What country is that?) (IF STILL NOT SURE, ASK: Are you and your ancestors from Central America, South America or somewhere else?) (ACCEPT ONE ANSWER, IF MORE THAN ONE ANSWER GIVEN, ASK: Which do you identify more with?)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5103	23.143	39.68
+1) Mexican (Mexico)	2346	46.0
+2) Puerto Rican (Puerto Rico)	659	12.9
+3) Cuban (Cuba)	349	6.8
+4) Dominican (the Dominican Republic)	338	6.6
+5) Salvadoran (El Salvador)	271	5.3
+97) Other country (SPECIFY)	1090	21.4
+99) Don't know/refused	50	1.0
+
+
+14) RACECOM
+Recoded variable reflecting responses to the following question: Which of the following describes your race? You can select as many as apply. (READ LIST, RECORD UP TO FOUR RESPONSES IN ORDER MENTIONED BUT DO NOT PROB FOR ADDITIONAL MENTIONS) (INTERVIEWER: IF RESPONDENT SAYS A NATIONALITY SUCH AS 'Mexican' OR 'Cuban' CODE AS 'Some other Race')
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	3.096	2.36
+1) White	2411	47.2
+2) Black or African-American	281	5.5
+3) Asian or Asian-American	31	0.6
+4) Some other race	980	19.2
+5) Mixed race	309	6.1
+6) Hispanic/Latino	850	16.7
+9) Don't know/Refused	241	4.7
+
+
+15) Q4
+Were you born on the island of Puerto Rico, in the United States, or in another country?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	2.511	0.71
+1) Puerto Rico	353	6.9
+2) U.S.	1871	36.7
+3) Another country	2865	56.1
+9) Don't know/Refused	14	0.3
+
+
+16) Q5REC
+[ASK IF BORN IN ANOTHER COUNTRY Q4=3,9] In what country were you born?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2879	14.536	26.495
+1) Colombia	91	3.2
+2) Cuba	286	9.9
+3) The Dominican Republic	275	9.6
+4) Ecuador	78	2.7
+5) El Salvador	226	7.8
+6) Guatemala	155	5.4
+7) Honduras	102	3.5
+8) Mexico	1287	44.7
+9) Nicaragua	55	1.9
+10) Peru	57	2.0
+97) Other	260	9.0
+99) Don't know/Refused	7	0.2
+Missing	2224
+
+
+17) Q6REC
+[ASK IF Q4=1,3,9] How many years have you lived in the United States (excluding Puerto Rico)? (Note: Response shown as year respondent came to the United States)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3232	4.645	1.553
+1) Before 1960	116	3.6
+2) 1960-1969	246	7.6
+3) 1970-1979	343	10.6
+4) 1980-1989	615	19.0
+5) 1990-1999	844	26.1
+6) 2000-2009	847	26.2
+7) 2010-2013	187	5.8
+9) Don't know/Refused	34	1.1
+Missing	1871
+
+
+18) RELIG
+[ASK FORM12 AND FORMNCO] What is your present religion, if any? Are you Protestant, Roman Catholic, Mormon, Orthodox such as Greek or Russian Orthodox, Jewish, Muslim, Buddhist, Hindu, atheist, agnostic, something else, or nothing in particular?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	4080	5.157	7.607
+1) Protestant (Baptist, Methodist, Non-denominational, Lutheran, Presbyterian, Pentecostal, Episcopalian, Reformed, Church of Christ, etc.)	1134	27.8
+2) Roman Catholic (Catholic)	1658	40.6
+3) Mormon (Church of Jesus Christ of Latter-day Saints/LDS)	45	1.1
+4) Orthodox (Greek, Russian or some other orthodox church)	2	0.0
+5) Jewish (Judaism)	36	0.9
+6) Muslim (Islam)	10	0.2
+7) Buddhist	19	0.5
+8) Hindu	2	0.0
+9) Atheist	89	2.2
+10) Atheist (do not believe in God)	75	1.8
+11) Agnostic (not sure if there is a God)	32	0.8
+12) Nothing in particular	704	17.3
+13) Christian	150	3.7
+14) Unitarian (Universalist)	6	0.1
+22) Jehovah's Witness	104	2.5
+99) Don't know/Refused	14	0.3
+Missing	1023
+
+
+19) CHR
+[ASK IF (RELIG=11,99)] Do you think of yourself as a Christian, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	96	1.896	2.193
+1) Yes	66	68.8
+2) No	22	22.9
+9) Don't know/Refused	8	8.3
+Missing	5007
+
+
+20) REL06
+[ASK FORM06] What is your religion - Catholic, Evangelical or Protestant Christian, Jehovah's Witness, Mormon, Jewish, Muslim, or an orthodox church such as the Greek or Russian Orthodox Church?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1023	4.582	14.613
+1) Catholic	623	60.9
+2) Evangelical or Protestant Christian (include Baptist, Lutheran, Methodist, Presbyterian, Episcopalian, Pentecostal, Church of Christ, etc.)	215	21.0
+3) Jehovah's Witness	26	2.5
+4) Mormon	9	0.9
+5) Jewish	6	0.6
+8) Other religion - Christian (SPECIFY)	7	0.7
+9) Other religion - non-Christian (SPECIFY)	7	0.7
+10) No religion, not a believer, atheist, agnostic	96	9.4
+11) Buddhist	6	0.6
+12) Hindu	1	0.1
+14) Unitarian (Universalist)	4	0.4
+99) Don't know/Refused	23	2.2
+Missing	4080
+
+
+21) Q7
+[IF PROTESTANT OR CHRISTIAN (RELIG=1,13 OR (RELIG=11 AND CHR=1) OR REL06=2,8)] As far as your present religion, what denomination or church, if any, do you identify with most closely? Just stop me when I get to the right one. Are you (READ)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1636	9.501	12.796
+1) Baptist	257	15.7
+2) Methodist	28	1.7
+3) Lutheran	27	1.7
+4) Presbyterian	30	1.8
+5) Pentecostal (Assemblies of God, Four-Square Gospel)	509	31.1
+6) Episcopalian or Anglican	26	1.6
+7) Church of Christ, or Disciples of Christ (Christian Church)	101	6.2
+8) Congregational or United Church of Christ	14	0.9
+9) Holiness (Nazarenes, Wesleyan Church, Salvation Army)	23	1.4
+10) Reformed (include Reformed Church in America; Christian Reformed)	5	0.3
+11) Church of God	25	1.5
+12) Nondenominational or Independent Church	146	8.9
+13) Something else (SPECIFY) __________	28	1.7
+14) Or none in particular	82	5.0
+15) Jehovah's Witness	130	7.9
+16) Just a Protestant	7	0.4
+17) Just a Christian	103	6.3
+18) Adventist (Seventh-Day Adventist, Worldwide Church of God)	65	4.0
+19) Quaker (Friends)	3	0.2
+99) Don't know/Refused	27	1.7
+Missing	3467
+
+
+22) BORN
+[ASK IF RELIG=1-4,13 OR CHR=1 OR REL06=1-4,7-8] Would you describe yourself as a 'born-again' or evangelical Christian, or not?
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	3990	10.801	281.254
+1) Yes, would	1611	40.4
+2) No, would not	2206	55.3
+9) Don't know/Refused	169	4.2
+8888) Undesignated	4	0.1
+Missing	1113
+
+
+23) ATTEND
+Aside from weddings and funerals, how often do you attend religious services - more than once a week, once a week, once or twice a month, a few times a year, seldom, or never?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	3.246	1.707
+1) More than once a week	869	17.0
+2) Once a week	1319	25.8
+3) Once or twice a month	723	14.2
+4) A few times a year	844	16.5
+5) Seldom	643	12.6
+6) Never	682	13.4
+9) Don't know/Refused	23	0.5
+
+
+24) Q11
+Overall, are you satisfied or dissatisfied with the way things are going in your life today?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.267	1.166
+1) Satisfied	4484	87.9
+2) Dissatisfied	513	10.1
+9) Don't know/Refused	106	2.1
+
+
+25) Q12
+Looking ahead to the next ten years, do you think your life, overall, will be better, worse, or about the same as it is now?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.954	1.978
+1) Will be better	3446	67.5
+2) Will be worse	349	6.8
+3) About the same	991	19.4
+9) Don't know/Refused	317	6.2
+
+
+26) Q15
+In your opinion, should churches and other houses of worship keep out of political matters - or should they express their views on day-to-day social and political questions?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	2.242	2.263
+1) Should keep out	2222	43.5
+2) Should express views	2387	46.8
+9) Don't know/Refused	494	9.7
+
+
+27) Q16
+If you had to choose, would you rather have a smaller government providing fewer services, or a bigger government providing more services?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	2.444	2.085
+1) Smaller government, fewer services	1077	21.1
+2) Bigger government, more services	3366	66.0
+3) Depends	213	4.2
+9) Don't know/Refused	447	8.8
+
+
+28) Q17
+Do you strongly favor, favor, oppose, or strongly oppose allowing gays and lesbians to marry legally?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	3.762	2.758
+1) Strongly favor	726	14.2
+2) Favor	1460	28.6
+3) Oppose	1216	23.8
+4) Strongly oppose	681	13.3
+9) Don't know/Refused	1020	20.0
+
+
+29) Q18
+Do you think abortion should be legal in all cases, legal in most cases, illegal in most cases, or illegal in all cases?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	3.199	2.018
+1) Legal in all cases	746	14.6
+2) Legal in most cases	1354	26.5
+3) Illegal in most cases	1271	24.9
+4) Illegal in all cases	1306	25.6
+9) Don't know/Refused	426	8.3
+
+
+30) Q101
+In your opinion, who is the most important (HISPANIC/LATINO) leader in the country today?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5103	71.241	40.513
+1) Antonio Villaraigosa	133	2.6
+2) Bill Richardson	19	0.4
+3) Brian Sandoval	8	0.2
+4) Dolores Huerta	11	0.2
+5) Eva Longoria	21	0.4
+6) Jorge Ramos	63	1.2
+7) Julian Castro	45	0.9
+8) Luis Gutierrez	106	2.1
+9) Marco Rubio	310	6.1
+10) Robert (Bob) Menendez	74	1.5
+11) Sonia Sotomayor	287	5.6
+12) Susana Martinez	31	0.6
+13) Ted Cruz	41	0.8
+14) Other (Specify)	311	6.1
+15) Pope Francis	24	0.5
+16) President Obama	34	0.7
+17) Cesar Chavez	26	0.5
+97) No one	516	10.1
+98) Don't know	2943	57.7
+99) Refused	100	2.0
+
+
+31) Q102
+In your opinion, how important is it for the U.S. (HISPANIC/LATINO) community to have a national leader advancing the concerns of (HISPANICS/LATINOS)?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	2.176	1.375
+1) Extremely important	1531	30.0
+2) Very important	2267	44.4
+3) Somewhat important	841	16.5
+4) Not at all important	314	6.2
+8) Don't know	90	1.8
+9) Refused	60	1.2
+
+
+32) Q105
+Overall, what is the effect of UNDOCUMENTED or ILLEGAL immigration on (HISPANICS/LATINOS) already living in the U.S.?  Would you say it's ...?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	2.398	2.185
+1) A positive effect	2310	45.3
+2) A negative effect	1098	21.5
+3) Or would you say it has had no effect one way or the other	1254	24.6
+9) Don't know/Refused	441	8.6
+
+
+33) Q111
+People sometimes use different terms to describe themselves. In general, which ONE of the following terms do you use to describe yourself MOST OFTEN?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.816	1.17
+1) (A/An (INSERT 'COUNTRY OF ORIGIN' FROM Q3/Q5 IF POSSIBLE)/The term used to describe people from the country you came from/The term used to describe people of your heritage)	2726	53.4
+2) A (LATINO/HISPANIC)	1039	20.4
+3) An American	1179	23.1
+4) Depends	101	2.0
+9) Don't know/Refused	58	1.1
+
+
+34) Q113
+How much do you think (INSERT 'COUNTRY OF ORIGIN' PLURAL FROM Q3/Q5 IF POSSIBLE) living in the U.S. and (LATINOS/HISPANICS) from different countries living in the U.S. today share values in common? Would you say...a lot in common, some in common, only a little in common, or almost nothing in common?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	2.079	1.538
+1) A lot in common	2045	40.1
+2) Some in common	1882	36.9
+3) Only a little in common	750	14.7
+4) Almost nothing in common	257	5.0
+9) Don't know/Refused	169	3.3
+
+
+35) Q114
+How much do you think (INSERT 'COUNTRY OF ORIGIN' PLURAL FROM Q3/Q5 IF POSSIBLE) living in the U.S. and people living in [INSERT COUNTRY OF ORIGIN] today share values in common?  Would you say...a lot in common, some in common, only a little in common, or almost nothing in common?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	2.156	1.57
+1) A lot in common	2047	40.1
+2) Some in common	1612	31.6
+3) Only a little in common	879	17.2
+4) Almost nothing in common	398	7.8
+9) Don't know/Refused	167	3.3
+
+
+36) Q130
+Overall, do you think of yourself as a typical American OR very different from a typical American?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	2.02	2.043
+1) Typical American	2573	50.4
+2) Very different from typical American	2148	42.1
+9) Don't know/Refused	382	7.5
+
+
+37) Q131A
+Next I would like to talk with you about volunteer activity. By volunteer activity, I mean not just belonging to an organization, but actually spending your time helping without being paid for it. In the PAST 12 MONTHS have you volunteered your time to [Any church or religious group]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.665	0.577
+1) Yes, volunteered	1779	34.9
+2) No, did not volunteer	3314	64.9
+9) Don't know/Refused	10	0.2
+
+
+38) Q131B
+Next I would like to talk with you about volunteer activity. By volunteer activity, I mean not just belonging to an organization, but actually spending your time helping without being paid for it. In the PAST 12 MONTHS have you volunteered your time to [Any school or tutoring program]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.772	0.534
+1) Yes, volunteered	1232	24.1
+2) No, did not volunteer	3861	75.7
+9) Don't know/Refused	10	0.2
+
+
+39) Q131C
+Next I would like to talk with you about volunteer activity. By volunteer activity, I mean not just belonging to an organization, but actually spending your time helping without being paid for it. In the PAST 12 MONTHS have you volunteered your time to [Any neighborhood, business, or youth group]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.751	0.62
+1) Yes, volunteered	1396	27.4
+2) No, did not volunteer	3689	72.3
+9) Don't know/Refused	18	0.4
+
+
+40) Q230
+If you could, would you prefer to attend (worship service/mass) in Spanish, or doesn't this matter to you?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.779	0.929
+1) Prefer to attend (worship service/mass) in Spanish	1955	38.3
+2) Doesn't matter if (worship service/mass) is in Spanish or not	2611	51.2
+3) Prefer to attend (worship service/mass) in English	461	9.0
+4) Other	33	0.6
+9) Don't know/Refused	43	0.8
+
+
+41) Q231
+If you could, would you prefer to attend (worship service/mass) where there is a (HISPANIC/LATINO) (minister/priest), or doesn't this matter to you?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.878	0.915
+1) Prefer to attend where there is a Latino (minister/priest)	1138	22.3
+2) Doesn't matter if there is a Latino (minister/priest) or not	3854	75.5
+3) Prefer to attend with a non-Latino (minister/priest)	22	0.4
+4) Other	26	0.5
+9) Don't know/Refused	63	1.2
+
+
+42) Q232
+If you could, would you prefer to attend (worship service/mass) where most of the other people are (HISPANIC/LATINO), or doesn't this matter to you?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.906	0.83
+1) Prefer to attend (worship service/mass) where most of the other people are (HISPANIC/LATINO)	906	17.8
+2) Doesn't matter if most other people are (HISPANIC/LATINO) or not	4107	80.5
+3) Prefer to attend where most other people are NOT (HISPANIC/LATINO)	15	0.3
+4) Other	23	0.5
+9) Don't know/Refused	52	1.0
+
+
+43) Q233
+[ASK IF EVER ATTEND (ATTEND=1-5)] Thinking about the (synagogue/mosque/church) you attend most often, are there any (HISPANIC/LATINO) (priests/rabbis/imams/pastors) there, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	4398	1.492	1.452
+1) Yes	3258	74.1
+2) No	994	22.6
+9) Don't know/Refused	146	3.3
+Missing	705
+
+
+44) Q234
+[ASK OF EVER ATTEND (ATTEND=1-5)] If you wanted to attend a (Mass/worship service) in Spanish, is one available at the (synagogue/mosque/church) you attend most often?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	4398	1.413	1.373
+1) Yes	3484	79.2
+2) No	785	17.8
+9) Don't know/Refused	129	2.9
+Missing	705
+
+
+45) Q235
+Thinking about when you have gone to (Mass/worship service) over the past year, how often was the (Mass/worship service) celebrated in Spanish? Would you say that ...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	2.607	1.723
+1) Every time you went to (Mass/a worship service) it was in Spanish	1701	33.3
+2) Most times (Mass/the worship service) was in Spanish	1183	23.2
+3) Most times (Mass/the worship service) was in English	756	14.8
+4) Every time you went to (Mass/a worship service) it was in English	976	19.1
+5) Did not go to (Mass/worship) in past year	330	6.5
+9) Don't know/Refused	157	3.1
+
+
+46) Q236
+[ASK IF EVER ATTEND (ATTEND=1-5)] Typically, when you attend (Mass/worship service), would you say that most of the other people in the (synagogue/mosque/church) are (HISPANICS/LATINOS), are some of them (HISPANICS/LATINOS), or are only a few of them (HISPANICS/LATINOS)?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	4398	1.772	1.341
+1) Most are (HISPANICS/LATINOS)	2559	58.2
+2) Some are (HISPANICS/LATINOS)	951	21.6
+3) Only a few are (HISPANICS/LATINOS)	705	16.0
+4) None are (HISPANICS/LATINOS)	43	1.0
+5) All are (HISPANICS/LATINOS)	54	1.2
+9) Don't know/Refused	86	2.0
+Missing	705
+
+
+47) Q237
+[ASK IF EVER ATTEND (ATTEND=1-5)] Does the (church/place of worship) you attend most often maintain close ties to countries in Latin America by sending money or missionaries or by receiving clergy who visit from there, or doesn't it do this?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	4398	2.82	3.121
+1) Yes, my (church/place of worship) maintains close ties to countries in Latin America	2566	58.3
+2) No, my (church/place of worship) does not maintain close ties to countries in Latin America	950	21.6
+9) Don't know/Refused	882	20.1
+Missing	705
+
+
+48) Q238A
+[ASK IF EVER ATTEND (ATTEND=1-5)] And still thinking of the (church/place of worship) that you attend most often, are you [a (Eucharistic minister or other lay minister/lay minister/lay worship leader) there], or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	4398	2.059	1.01
+1) Yes	336	7.6
+2) No	3977	90.4
+9) Don't know/Refused	85	1.9
+Missing	705
+
+
+49) Q238B
+[ASK IF EVER ATTEND (ATTEND=1-5)] And still thinking of the (church/place of worship) that you attend most often, are you [a member of the (parish/church/leadership) council there], or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	4398	1.903	0.617
+1) Yes	586	13.3
+2) No	3789	86.2
+9) Don't know/Refused	23	0.5
+Missing	705
+
+
+50) Q238C
+[ASK IF EVER ATTEND (ATTEND=1-5)] And still thinking of the (church/place of worship) that you attend most often, are you [the leader of any small groups or ministries there], or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	4398	1.915	0.506
+1) Yes	472	10.7
+2) No	3912	88.9
+9) Don't know/Refused	14	0.3
+Missing	705
+
+
+51) Q238D
+[ASK IF EVER ATTEND (ATTEND=1-5)] And still thinking of the (church/place of worship) that you attend most often, are you [a teacher in Sunday school or other religious education classes], or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	4398	1.937	0.537
+1) Yes	405	9.2
+2) No	3975	90.4
+9) Don't know/Refused	18	0.4
+Missing	705
+
+
+52) Q242A
+[If CHRISTIAN (RELIG=1-4,13 OR CHR=1 OR REL06=1-4,7,8)] Would you describe yourself as a [Pentecostal (Catholic/Christian)], or not?
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	3990	10.992	281.248
+1) Yes	1088	27.3
+2) No	2695	67.5
+9) Don't know/Refused	203	5.1
+8888) Undesignated	4	0.1
+Missing	1113
+
+
+53) Q242B
+[If CHRISTIAN (RELIG=1-4,13 OR CHR=1 OR REL06=1-4,7,8)] Would you describe yourself as a [Charismatic (Catholic/Christian)], or not?
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	3990	10.957	281.251
+1) Yes	1738	43.6
+2) No	1972	49.4
+9) Don't know/Refused	276	6.9
+8888) Undesignated	4	0.1
+Missing	1113
+
+
+54) Q243
+How important is religion in your life - very important, somewhat important, not too important, or not at all important?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.677	1.155
+1) Very important	3169	62.1
+2) Somewhat important	1097	21.5
+3) Not too important	370	7.3
+4) Not at all important	424	8.3
+9) Don't know/Refused	43	0.8
+
+
+55) Q245
+People practice their religion in different ways. Outside of attending religious services, do you pray...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	2.765	2.063
+1) Several times a day	1886	37.0
+2) Once a day	1316	25.8
+3) A few times a week	563	11.0
+4) Once a week	205	4.0
+5) A few times a month	268	5.3
+6) Seldom	384	7.5
+7) Never	446	8.7
+9) Don't know/Refused	35	0.7
+
+
+56) Q247A
+[ASK IF AFFILIATED WITH A RELIGION (RELIG=01-08,11,13,14 or REL06=01-09,11-14)] How often do you [share your faith with non-believers]? Would you say...?
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	4102	5.818	138.73
+1) Every day	755	18.4
+2) At least once a week	761	18.6
+3) Once or twice a month	454	11.1
+4) A few times a year	458	11.2
+5) Seldom	770	18.8
+6) Never	823	20.1
+9) Don't know/Refused	80	2.0
+8888) Undesignated	1	0.0
+Missing	1001
+
+
+57) Q247B
+[ASK IF AFFILIATED WITH A RELIGION (RELIG=01-08,11,13,14 or REL06=01-09,11-14)] How often do you [read the scripture outside of worship]? Would you say...?
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	4102	5.269	138.737
+1) Every day	996	24.3
+2) At least once a week	1037	25.3
+3) Once or twice a month	499	12.2
+4) A few times a year	403	9.8
+5) Seldom	548	13.4
+6) Never	585	14.3
+9) Don't know/Refused	33	0.8
+8888) Undesignated	1	0.0
+Missing	1001
+
+
+58) Q247C
+[ASK IF AFFILIATED WITH A RELIGION (RELIG=01-08,11,13,14 or REL06=01-09,11-14)] How often do you [participate in prayer or Bible study groups]? Would you say...?
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	4102	6.164	138.722
+1) Every day	191	4.7
+2) At least once a week	1137	27.7
+3) Once or twice a month	454	11.1
+4) A few times a year	405	9.9
+5) Seldom	618	15.1
+6) Never	1268	30.9
+9) Don't know/Refused	28	0.7
+8888) Undesignated	1	0.0
+Missing	1001
+
+
+59) Q248
+[ASK IF CATHOLIC (RELIG=2 OR REL06=1)] About how often do you go to confession with a priest ... would you say more than once a week, once a week, once or twice a month, a few times a year, seldom, or never?
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	2281	8.717	186.001
+1) Every day	13	0.6
+2) At least once a week	67	2.9
+3) Once or twice a month	198	8.7
+4) A few times a year	641	28.1
+5) Seldom	542	23.8
+6) Never	797	34.9
+9) Don't know/Refused	22	1.0
+8888) Undesignated	1	0.0
+Missing	2822
+
+
+60) Q249
+Do you have a crucifix or other religious objects displayed in your home?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.424	0.595
+1) Yes	3010	59.0
+2) No	2083	40.8
+9) Don't know/Refused	10	0.2
+
+
+61) Q250
+Do you ever pray to the Virgin Mary?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.576	0.665
+1) Yes	2292	44.9
+2) No	2793	54.7
+9) Don't know/Refused	18	0.4
+
+
+62) Q251
+Do you ever pray to specific saints to ask for help when you face difficult moments in your life?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.648	0.709
+1) Yes	1970	38.6
+2) No	3108	60.9
+9) Don't know/Refused	25	0.5
+
+
+63) Q251A
+[ASK IF Q251=1] Which saint do you pray to most often?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1970	1.491	1.921
+1) Answer given (SPECIFY)	1849	93.9
+9) Don't know/Refused	121	6.1
+Missing	3133
+
+
+64) Q251OE_1REC
+[ASK IF Q251=1] Which saint do you pray to most often? Coded open end responses - first mention
+RANGE: 1 to 999
+	N	Mean	Std. Deviation
+Total	1849	260.631	433.264
+1) Virgen (not specified, not clear)	41	2.2
+2) Virgen de Guadalupe	300	16.2
+3) Virgin Mary/Maria/Mary/mother of God	266	14.4
+4) Anthony/Antonio	76	4.1
+5) Jude	226	12.2
+6) Michael	50	2.7
+7) Jesus/Jesucristo/Christ/Cristo	159	8.6
+8) El Divino Nino	48	2.6
+9) Sagrado Corazon/Sacred Heart	34	1.8
+10) God/El Senor/the Lord	171	9.2
+994) Other	440	23.8
+995) None/no specific saint	24	1.3
+998) Unclear	5	0.3
+999) Don't know/Refused	9	0.5
+Missing	3254
+
+
+65) Q251OE_2REC
+[ASK IF Q251=1] Which saint do you pray to most often? Coded open end responses - second mention
+RANGE: 1 to 994
+	N	Mean	Std. Deviation
+Total	444	288.05	447.344
+1) Virgen (not specified, not clear)	10	2.3
+2) Virgen de Guadalupe	48	10.8
+3) Virgin Mary/Maria/Mary/mother of God	75	16.9
+4) Anthony/Antonio	8	1.8
+5) Jude	41	9.2
+6) Michael	15	3.4
+7) Jesus/Jesucristo/Christ/Cristo	54	12.2
+8) El Divino Nino	11	2.5
+9) Sagrado Corazon/Sacred Heart	18	4.1
+10) God/El Senor/the Lord	37	8.3
+994) Other	127	28.6
+Missing	4659
+
+
+66) Q251OE_3REC
+[ASK IF Q251=1] Which saint do you pray to most often? Coded open end responses - third mention
+RANGE: 1 to 994
+	N	Mean	Std. Deviation
+Total	150	433.893	491.444
+1) Virgen (not specified, not clear)	1	0.7
+2) Virgen de Guadalupe	14	9.3
+3) Virgin Mary/Maria/Mary/mother of God	10	6.7
+4) Anthony/Antonio	2	1.3
+5) Jude	21	14.0
+6) Michael	5	3.3
+7) Jesus/Jesucristo/Christ/Cristo	9	6.0
+8) El Divino Nino	7	4.7
+9) Sagrado Corazon/Sacred Heart	7	4.7
+10) God/El Senor/the Lord	9	6.0
+994) Other	65	43.3
+Missing	4953
+
+
+67) Q253A
+Which comes closest to your view?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.607	1.69
+1) The [Bible/Holy Scripture] is the word of God	3752	73.5
+2) The [Bible/Holy Scripture] is a book written by men and is not the word of God	1016	19.9
+3) Other	100	2.0
+9) Don't know/Refused	235	4.6
+
+
+68) Q253B
+And would you say that ...?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3752	1.796	1.716
+1) The [Bible/Holy Scripture] is to be taken literally, word for word	2121	56.5
+2) Not everything in the [Bible/Holy Scripture] should be taken literally, word of word	1379	36.8
+3) Other	68	1.8
+9) Don't know/Refused	184	4.9
+Missing	1351
+
+
+69) Q254
+[ASK IF CATHOLIC (RELIG=2 OR REL06=1)] Do you believe that in Mass, the bread and wine actually become the body and blood of Christ, or not?
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	2281	5.556	186.073
+1) Yes	1727	75.7
+2) No	417	18.3
+9) Don't know/Refused	136	6.0
+8888) Undesignated	1	0.0
+Missing	2822
+
+
+70) Q255A
+[ASK IF CHRISTIAN (RELIG=1-4,13 OR CHR=1 OR REL06=1-4,7,8)] Please tell me if you agree or disagree with the following statements: If enough people were brought to Christ, social ills would take care of themselves. Do you agree or disagree?
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	3990	10.81	281.257
+1) Agree	2417	60.6
+2) Disagree	1280	32.1
+9) Don't know/Refused	289	7.2
+8888) Undesignated	4	0.1
+Missing	1113
+
+
+71) Q255D
+Please tell me if you agree or disagree with the following statements: Mary is the virgin mother of God and watches over believers. Do you agree or disagree?
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	3990	10.482	281.264
+1) Agree	2743	68.7
+2) Disagree	1094	27.4
+9) Don't know/Refused	149	3.7
+8888) Undesignated	4	0.1
+Missing	1113
+
+
+72) Q255E
+How likely do you think it is that Jesus Christ will return to earth during your lifetime? Do you think this will definitely happen, will probably happen, will probably NOT happen, or will definitely not happen in your lifetime?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	3.112	2.358
+1) Will definitely happen	1300	25.5
+2) Will probably happen	1294	25.4
+3) Will probably NOT happen	951	18.6
+4) Will definitely not happen	976	19.1
+9) Don't know/Refused	582	11.4
+
+
+73) Q256
+Which statement comes closer to your own views, even if neither is exactly right?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	2.03	1.893
+1) God will grant wealth and good health to all believers who have enough faith.	2409	47.2
+2) God doesn't always give wealth and good health	2035	39.9
+3) Both/Neither	342	6.7
+9) Don't know/Refused	317	6.2
+
+
+74) Q257C
+Do you agree or disagree with each of the following? Men have a duty to serve as the religious leaders in the marriage and family. Would you say you completely agree, mostly agree, mostly disagree, or completely disagree?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	2.684	1.673
+1) Completely agree	1358	26.6
+2) Mostly agree	1327	26.0
+3) Mostly disagree	925	18.1
+4) Completely disagree	1306	25.6
+9) Don't know/Refused	187	3.7
+
+
+75) Q257D
+Do you agree or disagree with each of the following? A husband should have the final say in family matters. Would you say you completely agree, mostly agree, mostly disagree, or completely disagree?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	3.022	1.468
+1) Completely agree	805	15.8
+2) Mostly agree	1032	20.2
+3) Mostly disagree	1179	23.1
+4) Completely disagree	1954	38.3
+9) Don't know/Refused	133	2.6
+
+
+76) Q257E
+What kind of marriage do you think is the more satisfying way of life?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	2.074	1.401
+1) One where the husband provides for the family and the wife takes care of the house and children, or	926	18.1
+2) One where the husband and wife both have jobs and both take care of the house and children	3991	78.2
+9) Don't know/Refused	186	3.6
+
+
+77) Q258
+Is your overall opinion of Pope Francis very favorable, mostly favorable, mostly unfavorable, or very unfavorable?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	3.351	2.85
+1) Very favorable	1562	30.6
+2) Mostly favorable	1677	32.9
+3) Mostly unfavorable	299	5.9
+4) Very unfavorable	368	7.2
+5) Never heard of	103	2.0
+8) Can't rate	548	10.7
+9) Don't know/Refused	546	10.7
+
+
+78) Q259
+Do you see Francis becoming Pope as a major change for the Catholic Church or only a minor change?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	2.853	2.931
+1) Major change	2278	44.6
+2) Minor change	1715	33.6
+3) No change	190	3.7
+9) Don't know/Refused	920	18.0
+
+
+79) Q260
+How welcoming is the Catholic Church in the United States to new immigrants? Would you say the church is very welcoming to new immigrants, somewhat welcoming, not too welcoming, or not at all welcoming?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	2.808	2.82
+1) Very welcoming	2324	45.5
+2) Somewhat welcoming	1501	29.4
+3) Not too welcoming	246	4.8
+4) Not at all welcoming	205	4.0
+9) Don't know/Refused	827	16.2
+
+
+80) Q261
+Thinking about what the Catholic Church has done to address the sex abuse scandal, in your view does the church still need to do a lot more, a little more, or nothing more to address this issue?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.71	1.973
+1) A lot more	3953	77.5
+2) A little more	655	12.8
+3) Nothing more	165	3.2
+9) Don't know/Refused	330	6.5
+
+
+81) Q262A
+[ASK IF CATHOLIC (RELIG=2 OR REL06=1)] Do you think the Catholic Church should or should not [Allow priests to get married]?
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	2281	5.695	186.069
+1) Should	1361	59.7
+2) Should not	790	34.6
+9) Don't know/Refused	129	5.7
+8888) Undesignated	1	0.0
+Missing	2822
+
+
+82) Q262B
+Do you think the Catholic Church should or should not [Allow women to become priests]?
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	2281	5.915	186.068
+1) Should	1250	54.8
+2) Should not	845	37.0
+9) Don't know/Refused	185	8.1
+8888) Undesignated	1	0.0
+Missing	2822
+
+
+83) Q262C
+Do you think the Catholic Church should or should not [Allow Catholics to use birth control]?
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	2281	5.695	186.072
+1) Should	1661	72.8
+2) Should not	447	19.6
+9) Don't know/Refused	172	7.5
+8888) Undesignated	1	0.0
+Missing	2822
+
+
+84) Q262D
+Do you think the Catholic Church should or should not [Allow Catholics to divorce]?
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	2281	5.651	186.07
+1) Should	1481	64.9
+2) Should not	667	29.2
+9) Don't know/Refused	132	5.8
+8888) Undesignated	1	0.0
+Missing	2822
+
+
+85) Q275A
+Have you [Yourself ever received a divine healing of an illness or injury]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.762	0.934
+1) Yes	1655	32.4
+2) No	3385	66.3
+9) Don't know/Refused	63	1.2
+
+
+86) Q275B
+Have you [Ever received a direct revelation from God]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.81	1.094
+1) Yes	1634	32.0
+2) No	3374	66.1
+9) Don't know/Refused	95	1.9
+
+
+87) Q275C
+Have you [Ever experienced or witnessed the devil or evil spirits being driven out of a person]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.876	0.844
+1) Yes	1016	19.9
+2) No	4032	79.0
+9) Don't know/Refused	55	1.1
+
+
+88) Q275D
+Have you [Ever spoken or prayed in tongues]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.978	1.048
+1) Yes	800	15.7
+2) No	4205	82.4
+9) Don't know/Refused	98	1.9
+
+
+89) Q276
+[ASK IF EVER ATTEND (ATTEND=1-5)] When you attend (Catholic Masses/worship services), how often do they include people displaying signs of excitement and enthusiasm, such as raising their hands in praise, clapping, shouting, or jumping? Do you see these kinds of things at (Mass/worship services) always, frequently, occasionally, or never?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	4398	2.68	1.391
+1) Always	1181	26.9
+2) Frequently	693	15.8
+3) Occasionally	1191	27.1
+4) Never	1270	28.9
+9) Don't know/Refused	63	1.4
+Missing	705
+
+
+90) Q277
+[ASK IF EVER ATTEND (ATTEND=1-5)] When you attend (Catholic Masses/worship services), how often do they include people speaking or praising in tongues, prophesying or receiving a word of knowledge, or praying for miraculous healings and deliverance? Do you see these kinds of things at (Mass/worship services) always, frequently, occasionally, or never?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	4398	3.146	1.281
+1) Always	618	14.1
+2) Frequently	516	11.7
+3) Occasionally	1188	27.0
+4) Never	2012	45.7
+9) Don't know/Refused	64	1.5
+Missing	705
+
+
+91) Q278
+[ASK IF CATHOLIC AND EVER ATTEND ((RELIG=2 OR REL06=1) AND ATTEND=1-5)] Do you ever attend worship services at a non-Catholic church, such as an evangelical or Pentecostal church?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2141	1.728	0.658
+1) Yes	645	30.1
+2) No	1487	69.5
+9) Don't know/Refused	9	0.4
+Missing	2962
+
+
+92) Q279
+[ASK IF PROTESTANT/CHRISTIAN AND EVER ATTEND ((RELIG=1,13 OR CHR=1 OR REL06=2,3,8) AND ATTEND=1-5)] Do you ever attend worship services at a Catholic church?
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	1574	35.595	547.775
+1) Yes	479	30.4
+2) No	1083	68.8
+9) Don't know/Refused	6	0.4
+8888) Undesignated	6	0.4
+Missing	3529
+
+
+93) Q285
+(As far as you know) is the typical Catholic Mass in the U.S. lively and exciting, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	2.699	2.748
+1) Yes, typical Mass is lively and exciting	2006	39.3
+2) No, typical Mass is not lively and exciting	2301	45.1
+9) Don't know/Refused	796	15.6
+
+
+94) Q301A
+Do you believe [in the 'evil eye' or that certain people can cast curses or spells that cause bad things to happen to someone], or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.803	1.272
+1) Yes	1937	38.0
+2) No	3033	59.4
+9) Don't know/Refused	133	2.6
+
+
+95) Q301B
+Do you believe [that people can be possessed by spirits], or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.704	1.582
+1) Yes	2972	58.2
+2) No	1922	37.7
+9) Don't know/Refused	209	4.1
+
+
+96) Q301C
+Do you believe [that it is possible to communicate with spiritual beings or saints], or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.975	1.722
+1) Yes	2006	39.3
+2) No	2829	55.4
+9) Don't know/Refused	268	5.3
+
+
+97) Q301D
+Do you believe [in reincarnation, that people will be reborn in this world again and again], or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	2.104	1.72
+1) Yes	1430	28.0
+2) No	3393	66.5
+9) Don't know/Refused	280	5.5
+
+
+98) Q301E
+Do you believe that magic, sorcery, or witchcraft can influence people's lives, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.747	1.318
+1) Yes	2279	44.7
+2) No	2683	52.6
+9) Don't know/Refused	141	2.8
+
+
+99) Q301F
+Do you believe in astrology, or that the position of the stars and planets can affect people's lives, or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	2.008	1.558
+1) Yes	1511	29.6
+2) No	3370	66.0
+9) Don't know/Refused	222	4.4
+
+
+100) Q302A
+Have you ever [made offerings such as food, drink, candles, or flowers to spiritual beings or saints], or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.773	0.583
+1) Yes	1261	24.7
+2) No	3827	75.0
+9) Don't know/Refused	15	0.3
+
+
+101) Q302B
+Have you ever [used materials such as incense, herbs, tobacco or liquor in ceremonies for spiritual cleansing or healing], or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.888	0.525
+1) Yes	686	13.4
+2) No	4401	86.2
+9) Don't know/Refused	16	0.3
+
+
+102) Q302C
+Have you ever [sought help from a curandero, shaman, spiritist or someone else with special powers to heal the sick], or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.904	0.523
+1) Yes	609	11.9
+2) No	4477	87.7
+9) Don't know/Refused	17	0.3
+
+
+103) Q302D
+Have you ever [had witchcraft or black magic practiced upon you or someone close to you], or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.982	1.019
+1) Yes	741	14.5
+2) No	4269	83.7
+9) Don't know/Refused	93	1.8
+
+
+104) Q303
+Do you pray to any popular or folk saints to ask for help when you face difficult moments in your life?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.863	0.677
+1) Yes	918	18.0
+2) No	4154	81.4
+9) Don't know/Refused	31	0.6
+
+
+105) Q303A
+Which popular or folk saint do you pray to most often?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	918	1.758	2.344
+1) Answer given (SPECIFY)	831	90.5
+9) Don't know/Refused	87	9.5
+Missing	4185
+
+
+106) Q303OE_1REC
+[ASK IF Q303=1] Which popular or folk saint do you pray to most often? Coded open end responses - first mention
+RANGE: 1 to 999
+	N	Mean	Std. Deviation
+Total	831	459.77	494.478
+1) Virgen de Guadalupe	103	12.4
+2) Virgin Mary/Maria/Mary/mother of God	96	11.6
+3) Jude	103	12.4
+4) Jesus/Jesusristo/Christ/Christo	59	7.1
+5) God/El Senor/the Lord	87	10.5
+994) Other	354	42.6
+995) None/no specific saint	13	1.6
+998) Unclear	1	0.1
+999) Don't know/refused	15	1.8
+Missing	4272
+
+
+107) Q303OE_2REC
+[ASK IF Q303=1] Which popular or folk saint do you pray to most often? Coded open end responses - second mention
+RANGE: 1 to 998
+	N	Mean	Std. Deviation
+Total	175	472.914	496.409
+1) Virgen de Guadalupe	19	10.9
+2) Virgin Mary/Maria/Mary/mother of God	28	16.0
+3) Jude	12	6.9
+4) Jesus/Jesusristo/Christ/Christo	22	12.6
+5) God/El Senor/the Lord	11	6.3
+994) Other	82	46.9
+998) Unclear	1	0.6
+Missing	4928
+
+
+108) Q303OE_3REC
+[ASK IF Q303=1] Which popular or folk saint do you pray to most often? Coded open end responses - third mention
+RANGE: 1 to 994
+	N	Mean	Std. Deviation
+Total	52	536.5	498.978
+1) Virgen de Guadalupe	4	7.7
+2) Virgin Mary/Maria/Mary/mother of God	8	15.4
+3) Jude	6	11.5
+4) Jesus/Jesusristo/Christ/Christo	2	3.8
+5) God/El Senor/the Lord	4	7.7
+994) Other	28	53.8
+Missing	5051
+
+
+109) Q320
+Thinking about when you were a child, in what religion were you raised, if any? Were you Protestant, Roman Catholic, Mormon, Orthodox such as Greek or Russian Orthodox, Jewish, Muslim, Buddhist, Hindu, atheist, agnostic, something else, or nothing in particular?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5103	3.976	9.861
+1) Protestant (Baptist, Methodist, Non-denominational, Lutheran, Presbyterian, Pentecostal, Episcopalian, Reformed, Church of Christ, Jehovah's Witness, etc.)	735	14.4
+2) Roman Catholic (Catholic)	3690	72.3
+3) Mormon (Church of Jesus Christ of Latter-day Saints/LDS)	33	0.6
+4) Orthodox (Greek, Russian, or some other orthodox church)	7	0.1
+5) Jewish (Judaism)	37	0.7
+6) Muslim (Islam)	1	0.0
+7) Buddhist	5	0.1
+8) Hindu	1	0.0
+9) Atheist (do not believe in God)	13	0.3
+10) Agnostic (do not believe in God)	5	0.1
+11) Something else (SPECIFY)	20	0.4
+12) Nothing in particular	346	6.8
+13) Christian	106	2.1
+14) Unitarian (Universalist)	1	0.0
+22) Jehovah's Witness	56	1.1
+99) Don't know/Refused	47	0.9
+
+
+110) Q320B
+[ASK IF PROTESTANT OR CHRISTIAN (Q320=1,13)] What denomination or church, if any, was that? Just stop me when I get to the right one. Were you
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	897	29.533	39.799
+1) Baptist	138	15.4
+2) Methodist	34	3.8
+3) Lutheran	15	1.7
+4) Presbyterian	22	2.5
+5) Pentecostal (Assemblies of God, Four-Square Gospel)	207	23.1
+6) Episcopalian or Anglican	12	1.3
+7) Church of Christ, or Disciples of Christ (Christian Church)	34	3.8
+8) Congregational or United Church of Christ	11	1.2
+9) Holiness (Nazarenes, Wesleyan Church, Salvation Army)	5	0.6
+10) Reformed (Reformed Church in America; Christian Reformed)	4	0.4
+11) Church of God	20	2.2
+12) Nondenominational or Independent Church	26	2.9
+13) Something else (SPECIFY)	4	0.4
+14) Or none in particular	14	1.6
+15) Jehovah's Witness	56	6.2
+16) Just a Protestant	3	0.3
+17) Just a Christian	32	3.6
+18) Seventh-Day Adventist	38	4.2
+19) Quaker (Friends)	3	0.3
+99) Don't know/Refused	219	24.4
+Missing	4206
+
+
+111) RELCHANGE
+Variable indicates whether a respondent has changed religious affiliation from childhood religion to current religion. Shifts across Protestant denominations are not counted as change (e.g., from Baptist in childhood religion to Methodist in current religion), nor are shifts from one unaffiliated group (atheist, agnostic, or nothing in particular) to another.
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	5103	0.532	1.18
+0) Current religion (RELIG or REL06) same as childhood religion (Q320)	3034	59.5
+1) Current religion (RELIG or REL06) different than childhood religion (Q320)	1988	39.0
+9) Respondent declined to answer either current religion (RELIG or REL06) or childhood religion (Q320)	81	1.6
+
+
+112) Q321
+[ASK IF CHANGED RELIGION (RELCHANGE=1)] You mentioned that your current religion is different than your childhood religion.  Just in your own words, what is the main reason that you are no longer (INSERT CHILDHOOD RELIGION)?
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	1988	63.979	743.306
+1) Answer given (SPECIFY)	1876	94.4
+9) Don't know/Refused	98	4.9
+8888) Undesignated	14	0.7
+Missing	3115
+
+
+113) Q321OE_1
+[ASK IF CHANGED RELIGION (RELCHANGE=1)] Q321 coded open end responses - first mention
+RANGE: 5 to 8888
+	N	Mean	Std. Deviation
+Total	1988	119.331	739.201
+5) More focus on Bible/word of God/truth in current religion/not enough in old religion	109	5.5
+6) Other issues with beliefs/teachings/scriptural interpretation in general	83	4.2
+10) Saints worship/Mary/idolatry	95	4.8
+11) Don't need/like priests/mediators to talk to God; Don't like/agree with concept of confession	8	0.4
+12) Didn't like practices/mass/worship services, general	37	1.9
+15) Previous religion boring/current religion more lively/exciting	19	1.0
+25) Dissatisfied with leadership	12	0.6
+27) Because of priest sex abuse/how church handled sex abuse/scandals	38	1.9
+30) Disagree over political or social issues; politics in general	8	0.4
+35) Disagree with policies (e.g., women preaching, priests marrying, divorce, baptism, etc.)	15	0.8
+40) Previous religion too strict/restrictive/too much guilt/fear	16	0.8
+41) Previous religion not strict enough	6	0.3
+43) Found religion they liked better; wanted/looking for something different/more comfortable/welcoming	85	4.3
+44) Unhappy in/with previous religion/church; didn't like it; something missing/lacking	75	3.8
+46) Bad experience	18	0.9
+48) Don't help people; don't help the poor	8	0.4
+49) Once care about money	8	0.4
+52) Hypocrisy/corruption/deception/lies/contradictions	69	3.5
+54) Don't like organized religion; negative view of religion	28	1.4
+55) Don't need organized religion (in general/to be religious/to be a good person	15	0.8
+56) Religious institutions/practice/people, other	33	1.7
+58) Grew up; started thinking for oneself; only in childhood religion because of parents/family	131	6.6
+60) Stopped believing/don't believe; started questioning; lost faith	127	6.4
+61) Religion doesn't make sense to me; is irrelevant to me; doesn't speak to me; doesn't interest me	33	1.7
+62) Religion is man-made; don't believe in/have faith in men	10	0.5
+63) Don't really follow it; not committed	10	0.5
+64) My personal preference; my own point of view/beliefs	35	1.8
+65) God called/spoke to them; touched them; experienced God; closer to God	46	2.3
+66) Found Jesus; learned about Jesus; was born again	48	2.4
+67) Started reading/studying Bible	51	2.6
+68) Life changing experience (including miracle)	13	0.7
+69) Personal spirituality, other	8	0.4
+70) Because of a marriage/spouse/partner	42	2.1
+72) Because of family/family member	92	4.6
+74) Family problem	4	0.2
+76) Because of a friend/acquaintance	6	0.3
+79) Moved; location; convenience	25	1.3
+80) Came to U.S.; religion not practiced/practiced differently in other country	21	1.1
+81) New circumstances, other	1	0.1
+82) No time; scheduling conflict	18	0.9
+84) Never really practiced in the first place; didn't have religion	33	1.7
+85) Just stopped going; don't attend anymore; drifted away; not religious	66	3.3
+87) Because of education/science	34	1.7
+88) All/many religions have some value or truth; no single religion is right	13	0.7
+89) Tried many religions; looking for right religion for me	13	0.7
+90) Didn't really leave/change; still both; don't see it as a change	55	2.8
+95) No particular reason; just changed; things change; I am [religion]	40	2.0
+97) Other	75	3.8
+98) Unclear	7	0.4
+99) Don't know/refused	132	6.6
+8888) Undesignated	14	0.7
+Missing	3115
+
+
+114) Q321OE_2
+[ASK IF CHANGED RELIGION (RELCHANGE=1)] Q321 coded open end responses - second mention
+RANGE: 5 to 97
+	N	Mean	Std. Deviation
+Total	252	40.167	25.915
+5) More focus on Bible/word of God/truth in current religion/not enough in old religion	25	9.9
+6) Other issues with beliefs/teachings/scriptural interpretation in general	11	4.4
+10) Saints worship/Mary/idolatry	24	9.5
+11) Don't need/like priests/mediators to talk to God; Don't like/agree with concept of confession	3	1.2
+12) Didn't like practices/mass/worship services, general	4	1.6
+15) Previous religion boring/current religion more lively/exciting	9	3.6
+25) Dissatisfied with leadership	5	2.0
+27) Because of priest sex abuse/how church handled sex abuse/scandals	15	6.0
+30) Disagree over political or social issues; politics in general	10	4.0
+35) Disagree with policies (e.g., women preaching, priests marrying, divorce, baptism, etc.)	6	2.4
+40) Previous religion too strict/restrictive/too much guilt/fear	2	0.8
+41) Previous religion not strict enough	3	1.2
+43) Found religion they liked better; wanted/looking for something different/more comfortable/welcoming	18	7.1
+44) Unhappy in/with previous religion/church; didn't like it; something missing/lacking	8	3.2
+46) Bad experience	4	1.6
+48) Don't help people; don't help the poor	2	0.8
+49) Once care about money	6	2.4
+52) Hypocrisy/corruption/deception/lies/contradictions	11	4.4
+54) Don't like organized religion; negative view of religion	6	2.4
+55) Don't need organized religion (in general/to be religious/to be a good person	4	1.6
+56) Religious institutions/practice/people, other	2	0.8
+58) Grew up; started thinking for oneself; only in childhood religion because of parents/family	2	0.8
+60) Stopped believing/don't believe; started questioning; lost faith	11	4.4
+61) Religion doesn't make sense to me; is irrelevant to me; doesn't speak to me; doesn't interest me	1	0.4
+62) Religion is man-made; don't believe in/have faith in men	3	1.2
+64) My personal preference; my own point of view/beliefs	2	0.8
+65) God called/spoke to them; touched them; experienced God; closer to God	4	1.6
+66) Found Jesus; learned about Jesus; was born again	2	0.8
+67) Started reading/studying Bible	9	3.6
+68) Life changing experience (including miracle)	5	2.0
+69) Personal spirituality, other	1	0.4
+70) Because of a marriage/spouse/partner	3	1.2
+72) Because of family/family member	9	3.6
+74) Family problem	1	0.4
+76) Because of a friend/acquaintance	1	0.4
+79) Moved; location; convenience	1	0.4
+80) Came to U.S.; religion not practiced/practiced differently in other country	1	0.4
+82) No time; scheduling conflict	2	0.8
+85) Just stopped going; don't attend anymore; drifted away; not religious	3	1.2
+87) Because of education/science	5	2.0
+88) All/many religions have some value or truth; no single religion is right	3	1.2
+90) Didn't really leave/change; still both; don't see it as a change	3	1.2
+97) Other	2	0.8
+Missing	4851
+
+
+115) Q321OE_3
+[ASK IF CHANGED RELIGION (RELCHANGE=1)] Q321 coded open end responses - third mention
+RANGE: 5 to 68
+	N	Mean	Std. Deviation
+Total	39	33.769	22.517
+5) More focus on Bible/word of God/truth in current religion/not enough in old religion	8	20.5
+6) Other issues with beliefs/teachings/scriptural interpretation in general	2	5.1
+10) Saints worship/Mary/idolatry	2	5.1
+11) Don't need/like priests/mediators to talk to God; Don't like/agree with concept of confession	0	0.0
+12) Didn't like practices/mass/worship services, general	2	5.1
+25) Dissatisfied with leadership	1	2.6
+27) Because of priest sex abuse/how church handled sex abuse/scandals	1	2.6
+35) Disagree with policies (e.g., women preaching, priests marrying, divorce, baptism, etc.)	2	5.1
+41) Previous religion not strict enough	2	5.1
+43) Found religion they liked better; wanted/looking for something different/more comfortable/welcoming	4	10.3
+44) Unhappy in/with previous religion/church; didn't like it; something missing/lacking	1	2.6
+46) Bad experience	1	2.6
+49) Once care about money	3	7.7
+54) Don't like organized religion; negative view of religion	1	2.6
+55) Don't need organized religion (in general/to be religious/to be a good person	1	2.6
+58) Grew up; started thinking for oneself; only in childhood religion because of parents/family	1	2.6
+60) Stopped believing/don't believe; started questioning; lost faith	3	7.7
+61) Religion doesn't make sense to me; is irrelevant to me; doesn't speak to me; doesn't interest me	1	2.6
+65) God called/spoke to them; touched them; experienced God; closer to God	1	2.6
+67) Started reading/studying Bible	1	2.6
+68) Life changing experience (including miracle)	1	2.6
+Missing	5064
+
+
+116) Q323REC
+[ASK IF CHANGED RELIGION (RELCHANGE=1)] How old were you when you stopped being [INSERT CHILDHOOD RELIGION]?
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	1988	76.247	742.794
+1) Age 4 or younger	84	4.2
+2) Age 5-9	126	6.3
+3) 10-14	403	20.3
+4) 15-19	474	23.8
+5) 20-24	234	11.8
+6) 25-29	157	7.9
+7) 30-34	110	5.5
+8) 35-39	56	2.8
+9) 40-44	63	3.2
+10) 45-49	23	1.2
+11) 50-54	23	1.2
+12) 55-59	14	0.7
+13) 60-64	6	0.3
+14) 65 or older	9	0.5
+98) Cannot give specific age	53	2.7
+99) Don't know/Refused	139	7.0
+8888) Undesignated	14	0.7
+Missing	3115
+
+
+117) Q324
+[ASK IF CHANGED RELIGION AND BORN OUTSIDE OF U.S. (RELCHANGE=1 AND Q4=1,3,9)] And was this before or after you came to live in the United States?
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	1203	60.867	722.541
+1) Before moving to the U.S.	579	48.1
+2) After moving to the U.S	572	47.5
+9) Don't know/Refused	44	3.7
+8888) Undesignated	8	0.7
+Missing	3900
+
+
+118) Q325A
+[ASK IF CHANGED RELIGION (RELCHANGE=1)] Please tell me whether or not each of the following is an important reason for why you are no longer [INSERT CHILDHOOD RELIGION]. [Because you married someone who practiced a different religion]
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	1988	64.636	743.249
+1) Yes, important reason	191	9.6
+2) No, not an important reason	1739	87.5
+9) Don't know/Refused	44	2.2
+8888) Undesignated	14	0.7
+Missing	3115
+
+
+119) Q325B
+[ASK IF CHANGED RELIGION (RELCHANGE=1)] Please tell me whether or not each of the following is an important reason for why you are no longer [INSERT CHILDHOOD RELIGION]. [Because of a deep personal crisis]
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	1988	64.524	743.259
+1) Yes, important reason	471	23.7
+2) No, not an important reason	1451	73.0
+9) Don't know/Refused	52	2.6
+8888) Undesignated	14	0.7
+Missing	3115
+
+
+120) Q325C
+[ASK IF CHANGED RELIGION (RELCHANGE=1)] Please tell me whether or not each of the following is an important reason for why you are no longer [INSERT CHILDHOOD RELIGION]. [Because you stopped believing in the religion's teachings]
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	1988	64.279	743.28
+1) Yes, important reason	1112	55.9
+2) No, not an important reason	788	39.6
+9) Don't know/Refused	74	3.7
+8888) Undesignated	14	0.7
+Missing	3115
+
+
+121) Q325D
+[ASK IF CHANGED RELIGION (RELCHANGE=1)] Please tell me whether or not each of the following is an important reason for why you are no longer [INSERT CHILDHOOD RELIGION]. [Because you just gradually drifted away from the religion]
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	1988	64.291	743.279
+1) Yes, important reason	1102	55.4
+2) No, not an important reason	796	40.0
+9) Don't know/Refused	76	3.8
+8888) Undesignated	14	0.7
+Missing	3115
+
+
+122) Q325E
+[ASK IF CHANGED RELIGION (RELCHANGE=1)] Please tell me whether or not each of the following is an important reason for why you are no longer [INSERT CHILDHOOD RELIGION]. [Because you moved to a new community]
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	1988	64.581	743.254
+1) Yes, important reason	363	18.3
+2) No, not an important reason	1558	78.4
+9) Don't know/Refused	53	2.7
+8888) Undesignated	14	0.7
+Missing	3115
+
+
+123) Q325F
+[ASK IF CHANGED RELIGION (RELCHANGE=1)] Please tell me whether or not each of the following is an important reason for why you are no longer [INSERT CHILDHOOD RELIGION]. [Because you found a congregation that reaches out and helps its members more]
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	1988	64.435	743.266
+1) Yes, important reason	669	33.7
+2) No, not an important reason	1250	62.9
+9) Don't know/Refused	55	2.8
+8888) Undesignated	14	0.7
+Missing	3115
+
+
+124) Q326
+[ASK IF BORN OUTSIDE OF U.S. AND BORN-AGAIN PROTESTANT/CHRISTIAN (Q4=1,3,9 AND RELIG=1,13,22 OR CHR=1 OR REL06=2,3,8) AND BORN=1)] And did you become a 'born-again' or evangelical Christian before or after you came to live in the U.S.?
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	783	35.662	549.351
+1) Before moving to the U.S.	399	51.0
+2) After moving to the U.S.	367	46.9
+9) Don't know/Refused	14	1.8
+8888) Undesignated	3	0.4
+Missing	4320
+
+
+125) Q328
+[ASK IF CATHOLIC (RELIG=2 OR REL06=1)] Some people tell us [that no matter what, they could never leave the Catholic Church].  Others say that [they could imagine leaving the Catholic Church someday].  Which of these comes closest to your view?
+RANGE: 1 to 8888
+	N	Mean	Std. Deviation
+Total	2281	5.58	186.071
+1) That no matter what, they could never leave the Catholic Church	1512	66.3
+2) That they could imagine leaving the Catholic Church someday	655	28.7
+9) Don't know /Refused	113	5.0
+8888) Undesignated	1	0.0
+Missing	2822
+
+
+126) Q385
+Would you say you can carry on a conversation in Spanish, both understanding and speaking -- very well, pretty well, just a little, or not at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.718	0.957
+1) Very well	2727	53.4
+2) Pretty well	1396	27.4
+3) Just a little	747	14.6
+4) Not at all	218	4.3
+9) Don't know/Refused	15	0.3
+
+
+127) Q386
+Would you say you can read a newspaper or book in Spanish -- very well, pretty well, just a little, or not at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.836	1.049
+1) Very well	2604	51.0
+2) Pretty well	1229	24.1
+3) Just a little	838	16.4
+4) Not at all	419	8.2
+9) Don't know/Refused	13	0.3
+
+
+128) Q387
+Would you say you can carry on a conversation in English, both understanding and speaking -- very well, pretty well, just a little, or not at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	2.08	1.145
+1) Very well	2358	46.2
+2) Pretty well	642	12.6
+3) Just a little	1485	29.1
+4) Not at all	609	11.9
+9) Don't know/Refused	9	0.2
+
+
+129) Q388
+Would you say you can read a newspaper or book in English -- very well, pretty well, just a little, or not at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	2.067	1.184
+1) Very well	2466	48.3
+2) Pretty well	602	11.8
+3) Just a little	1323	25.9
+4) Not at all	700	13.7
+9) Don't know/Refused	12	0.2
+
+
+130) PRIMARY_LANGUAGE
+Created variable summarizing language proficiency
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	5103	2.154	0.788
+1) English dominant	1251	24.5
+2) Bilingual	1816	35.6
+3) Spanish dominant	2036	39.9
+
+
+131) PARTY
+In politics today, do you consider yourself a Republican, Democrat, or Independent?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	2.785	1.771
+1) Republican	631	12.4
+2) Democrat	2121	41.6
+3) Independent	1630	31.9
+4) No preference	392	7.7
+5) Other party	20	0.4
+9) Don't know/Refused	309	6.1
+
+
+132) PARTYLN
+[ASK IF PARTY=3,4,5 or 9] As of today do you lean more to the Republican Party or more to the Democratic Party?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2351	5.143	3.677
+1) Republican Party	409	17.4
+2) Democratic Party	828	35.2
+9) Other/Don't know/Refused	1114	47.4
+Missing	2752
+
+
+133) EMPLOY2REC
+Are you now employed full-time, part-time, retired or are you not employed for pay?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	2.28	1.434
+1) Employed full-time	2324	45.5
+2) Employed part-time	710	13.9
+3) Retired	777	15.2
+4) Not employed for pay	1033	20.2
+5) Other	226	4.4
+9) Don't know/Refused	33	0.6
+
+
+134) Q402
+Are you the parent or guardian of any children under 18 now living in your household?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	1.638	0.663
+1) Yes	1980	38.8
+2) No	3104	60.8
+9) Don't know/Refused	19	0.4
+
+
+135) Q403
+Are you currently married, do you have a partner, are you widowed, divorced, or separated, or have you never been married?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	2.904	2.127
+1) Married	2304	45.1
+2) Have a partner	563	11.0
+3) Widowed	307	6.0
+4) Divorced	467	9.2
+5) Separated	311	6.1
+6) Never been married	1104	21.6
+9) Don't know/Refused	47	0.9
+
+
+136) Q410
+[ASK IF Q4=1,2] Was your mother born on the island of Puerto Rico, in the United States, or in another country?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2224	2.117	0.871
+1) Puerto Rico	497	22.3
+2) United States	1035	46.5
+3) In another country	681	30.6
+9) Don't know/Refused	11	0.5
+Missing	2879
+
+
+137) Q411
+[ASK IF Q4=1,2] Was your father born on the island of Puerto Rico, in the United States, or in another country?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2224	2.231	1.186
+1) Puerto Rico	526	23.7
+2) United States	898	40.4
+3) In another country	760	34.2
+9) Don't know/Refused	40	1.8
+Missing	2879
+
+
+138) Q412
+[ASK IF BORN IN ANOTHER COUNTRY (Q4=3,9] Are you a citizen of the United States?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2879	1.618	0.884
+1) Yes	1297	45.1
+2) No	1554	54.0
+9) Don't know/Refused	28	1.0
+Missing	2224
+
+
+139) EDUC
+What is the highest level of school you have completed or the highest degree you have received?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5103	3.513	2.088
+1) Less than high school (Grades 1-8 or no formal schooling)	1048	20.5
+2) High school incomplete (Grades 9-11 or Grade 12 with NO diploma)	791	15.5
+3) High school graduate (Grade 12 with diploma or GED certificate)	1109	21.7
+4) Some college, no degree (includes community college)	707	13.9
+5) Two-year Associate's degree from a college or university	387	7.6
+6) Four-year college or university degree/Bachelor's degree (e.g., BS, BA, AB)	630	12.3
+7) Some postgraduate or professional schooling, no postgraduate degree	77	1.5
+8) Postgraduate or professional degree, including Master's, doctorate, medical or law degree (e.g., MA, MS, PhD, MD, JD)	300	5.9
+9) Don't know/Refused	54	1.1
+
+
+140) Q414
+[ASK IF Q412=1 or Q4=1,2 - BORN IN THE U.S. OR A CITIZEN OF U.S.] Which of these statements best describes you?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3521	1.478	1.134
+1) Are you absolutely certain that you are registered to vote at your current address	2730	77.5
+2) Are you probably registered, but there is a chance your registration has lapsed	172	4.9
+3) Are you not registered at your current address	566	16.1
+4) Was in prison/Not eligible to vote	9	0.3
+9) Don't know/Refused	44	1.2
+Missing	1582
+
+
+141) Q420REC
+What is your age?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5103	8.685	16.895
+1) Age 18-24	674	13.2
+2) 25-29	415	8.1
+3) 30-34	477	9.3
+4) 35-39	476	9.3
+5) 40-44	476	9.3
+6) 45-49	482	9.4
+7) 50-44	488	9.6
+8) 55-59	399	7.8
+9) 60-64	315	6.2
+10) 65-69	249	4.9
+11) 70-74	218	4.3
+12) 75-79	130	2.5
+13) 80-84	71	1.4
+14) 85-89	42	0.8
+15) Age 90 or older	25	0.5
+99) Refused	166	3.3
+
+
+142) Q421
+[ASK IF Q420=99] Would you say you are ...?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	166	4.494	3.086
+1) 18 to 29	9	5.4
+2) 30 to 49	55	33.1
+3) 50 to 64	36	21.7
+4) 65 or older	15	9.0
+9) Refused	51	30.7
+Missing	4937
+
+
+143) INCOME
+Last year, that is in 2012, what was your total family income from all sources, before taxes? Just stop me when I get to the right category (READ LIST)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5103	20.709	36.464
+1) Less than $10,000	727	14.2
+2) 10 to under $20,000	852	16.7
+3) 20 to under $30,000	730	14.3
+4) 30 to under $40,000	461	9.0
+5) 40 to under $50,000	348	6.8
+6) 50 to under $75,000	414	8.1
+7) 75 to under $100,000	279	5.5
+8) 100 to under $150,000	220	4.3
+9) $150,000 or more	165	3.2
+99) Don't know/Refused	907	17.8
+
+
+144) HH1REC
+[ASK IF CELL SAMPLE OR Q.S1=99] Including yourself, how many adults, 18 or older, are there living in your household?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2418	3.37	9.837
+1) One	510	21.1
+2) Two	1003	41.5
+3) Three	489	20.2
+4) Four	264	10.9
+5) Five or more	127	5.3
+99) Refused	25	1.0
+Missing	2685
+
+
+145) FERTREC
+How many children have you ever had? Please count all your biological children who were born alive at any time in your life
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	5103	3.379	11.313
+0) 	1293	25.3
+1) One	622	12.2
+2) Two	1118	21.9
+3) Three	973	19.1
+4) Four	504	9.9
+5) Five or more	524	10.3
+99) Don't know/Refused	69	1.4
+
+
+146) LL1
+[ASK IF LANDLINE SAMPLE] Now thinking about your telephone use... Does anyone in your household, including yourself, have a working cell phone?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2698	1.4	1.045
+1) Yes, respondent or someone in household has cell phone	1907	70.7
+2) No	750	27.8
+9) Don't know/Refused	41	1.5
+Missing	2405
+
+
+147) LL2
+[ASK IF LL1=1] Of all the telephone calls that you and the other people in your household receive, are...? (READ ITEMS)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1907	2.002	0.958
+1) All or almost all calls received on a cell phone	558	29.3
+2) Some received on a cell phone and some on a regular home phone	878	46.0
+3) All or almost all calls received on a regular home phone	456	23.9
+9) Don't know/Refused	15	0.8
+Missing	3196
+
+
+148) CP1
+[ASK IF CELL PHONE SAMPLE] Now thinking about your telephone use, is there at least one telephone INSIDE your home that is currently working and is not a cell phone?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2405	1.794	0.779
+1) Yes, has a home telephone	629	26.2
+2) No, no home telephone	1757	73.1
+9) Don't know/Refused	19	0.8
+Missing	2698
+
+
+149) CP2
+[ASK IF CP1=1] Of all the telephone calls that you and the other people in your household receive, are...? (READ ITEMS)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	629	1.649	0.895
+1) All or almost all calls received on a cell phone	317	50.4
+2) Some received on a cell phone and some on a regular home phone	240	38.2
+3) All or almost all calls received on a regular home phone	68	10.8
+9) Don't know/Refused	4	0.6
+Missing	4474
+
+
+150) I-RELIGION
+[ASK FORM12 AND FORMNCO] What is your present religion, if any? Are you Protestant, Roman Catholic, Mormon, Orthodox such as Greek or Russian Orthodox, Jewish, Muslim, Buddhist, Hindu, atheist, agnostic, something else, or nothing in particular? (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	4066	2.355	1.413
+1) Protestant	1284	31.6
+2) Roman Catholic (Catholic)	1658	40.8
+3) Other religious tradition	224	5.5
+4) Atheist or agnostic	196	4.8
+5) Nothing in particular	704	17.3
+Missing	1037
+
+
+151) I-ATTEND
+Aside from weddings and funerals, how often do you attend religious services - more than once a week, once a week, once or twice a month, a few times a year, seldom, or never? (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	5080	3.22	1.666
+1) More than once a week	869	17.1
+2) Once a week	1319	26.0
+3) Once or twice a month	723	14.2
+4) A few times a year	844	16.6
+5) Seldom	643	12.7
+6) Never	682	13.4
+Missing	23
+
+
+152) I-PARTYID
+In politics today, do you consider yourself a Republican, Democrat, or Independent? (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	4794	2.376	0.813
+1) Republican	631	13.2
+2) Democrat	2121	44.2
+3) Independent or other party	1650	34.4
+4) No preference	392	8.2
+Missing	309
+
+
+153) I-REGION
+Census region (based on zip code) (for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	5103	2.792	1.153
+1) Northeast	1236	24.2
+2) North Central	327	6.4
+3) South	1802	35.3
+4) West	1738	34.1
+
+
+154) I-EDUC
+What is the highest level of school you have completed or the highest degree you have received? (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	5049	2.602	1.663
+1) Less than high school or high school incomplete	1839	36.4
+2) High school graduate (Grade 12 with diploma or GED certificate)	1109	22.0
+3) Some college, no degree (includes community college)	707	14.0
+4) Two-year Associate's degree from a college or university	387	7.7
+5) Four-year college or university degree/Bachelor's degree (e.g., BS, BA, AB)	630	12.5
+6) Some postgraduate or professional schooling or Postgraduate or professional degree	377	7.5
+Missing	54
+
+

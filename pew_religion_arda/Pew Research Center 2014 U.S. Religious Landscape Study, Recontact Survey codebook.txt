@@ -1,0 +1,1053 @@
+Data File: PRCRLS (Full Data Codebook)
+
+1) RWEIGHT
+Weight variable for recontact respondents
+RANGE: 0.12337533 to 4.40536233
+	N	Mean	Std. Deviation
+Total	5000	1	1.013
+
+
+2) RESP
+Unique respondent identification number.  All recontact respondents have the same RESP number in both this dataset and the main RLS 2014 dataset.
+RANGE: 1000006 to 3500928
+	N	Mean	Std. Deviation
+Total	5000	2335279.246	859111.153
+
+
+3) RELTRAD
+Respondent's current religious tradition
+RANGE: 1100 to 900000
+	N	Mean	Std. Deviation
+Total	5000	32006.593	65336.212
+1100) Theologically Evangelical Protestant Churches	1043	20.9
+1200) Historic Mainline Protestant Churches	1175	23.5
+1300) Historically Black Protestant Churches	335	6.7
+10000) Catholic	956	19.1
+20000) Mormon	61	1.2
+30000) Orthodox Christian	18	0.4
+40001) Jehovah's Witnesses	18	0.4
+40002) Other Christian	19	0.4
+50000) Jewish	87	1.7
+60000) Muslim	18	0.4
+70000) Buddhist	29	0.6
+80000) Hindu	17	0.3
+90001) Other world religions	8	0.2
+90002) Other faiths	50	1.0
+100000) Unaffiliated	1149	23.0
+900000) Don't know/Refused (VOL.)	17	0.3
+
+
+4) CHRELTRAD
+Respondent's childhood religious tradition
+RANGE: 1100 to 900000
+	N	Mean	Std. Deviation
+Total	5000	19448.626	54456.846
+1100) Theologically Evangelical Protestant Churches	1036	20.7
+1200) Historic Mainline Protestant Churches	1241	24.8
+1300) Historically Black Protestant Churches	334	6.7
+10000) Catholic	1516	30.3
+20000) Mormon	87	1.7
+30000) Orthodox Christian	21	0.4
+40001) Jehovah's Witnesses	21	0.4
+40002) Other Christian	30	0.6
+50000) Jewish	110	2.2
+60000) Muslim	16	0.3
+70000) Buddhist	15	0.3
+80000) Hindu	17	0.3
+90001) Other world religions	4	0.1
+90002) Other faiths	22	0.4
+100000) Unaffiliated	517	10.3
+900000) Don't know/Refused (VOL.)	13	0.3
+
+
+5) CREGION
+Respondent's current region of residence
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	5000	2.655	1.03
+1) Northeast	875	17.5
+2) Midwest	1188	23.8
+3) South	1725	34.5
+4) West	1212	24.2
+
+
+6) QA1
+[ASK IF BORN IN THE U.S. (BASED ON THE NAVITY QUESTION IN MAIN SURVEY)]: Have you lived in or near your local community your entire life, aside from the time you may have spent away in school or college or have you lived in other places?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	4597	1.698	0.591
+1) Yes, entire life	1494	32.5
+2) Lived in other places	3055	66.5
+3) Yes, except during active military duty (VOL.)	38	0.8
+9) Don't know/Refused (VOL.)	10	0.2
+Missing	403
+
+
+7) QA2
+[ASK ALL MOVERS (QA1=2 OR RESPONDENT WAS BORN OUTSIDE THE U.S.)]: About how many years have you lived in your local community?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	3458	19.787	16.663
+0) Less than one year	76	2.2
+1) 	108	3.1
+2) 	160	4.6
+3) 	151	4.4
+4) 	146	4.2
+5) 	140	4.0
+6) 	75	2.2
+7) 	115	3.3
+8) 	106	3.1
+9) 	67	1.9
+10) 	199	5.8
+11) 	50	1.4
+12) 	87	2.5
+13) 	57	1.6
+14) 	55	1.6
+15) 	187	5.4
+16) 	54	1.6
+17) 	44	1.3
+18) 	61	1.8
+19) 	29	0.8
+20) 	198	5.7
+21) 	28	0.8
+22) 	41	1.2
+23) 	46	1.3
+24) 	26	0.8
+25) 	138	4.0
+26) 	20	0.6
+27) 	27	0.8
+28) 	31	0.9
+29) 	16	0.5
+30) 	175	5.1
+31) 	12	0.3
+32) 	21	0.6
+33) 	18	0.5
+34) 	15	0.4
+35) 	95	2.7
+36) 	19	0.5
+37) 	18	0.5
+38) 	20	0.6
+39) 	14	0.4
+40) 	119	3.4
+41) 	6	0.2
+42) 	14	0.4
+43) 	15	0.4
+44) 	12	0.3
+45) 	63	1.8
+46) 	17	0.5
+47) 	12	0.3
+48) 	7	0.2
+49) 	5	0.1
+50) 	70	2.0
+51) 	7	0.2
+52) 	10	0.3
+53) 	8	0.2
+54) 	2	0.1
+55) 	22	0.6
+56) 	4	0.1
+57) 	4	0.1
+58) 	3	0.1
+59) 	2	0.1
+60) 	35	1.0
+61) 61 years or more	57	1.6
+99) Don't know/Refused (VOL.)	19	0.5
+Missing	1542
+
+
+8) QA3
+Thinking about all the places you have lived in the United States, how many different states have you lived in? Have you lived in one state, two different states, three different states or more than three states? [IF RESPONDENT SAYS DISTRICT OF COLUMBIA, INCLUDE IN STATE COUNT (e.g., '2 states, plus DC' WOULD EQUAL 3 STATES)]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3458	2.729	1.138
+1) One state	628	18.2
+2) Two different states,	888	25.7
+3) Three different states,	754	21.8
+4) More than three states	1184	34.2
+9) Don't know/Refused (VOL.)	4	0.1
+Missing	1542
+
+
+9) RAISEDREGION
+Census region in which the respondent was raised. Combines current region of residence (CREGION) for people who have always lived in the same place with childhood region (See question A4 in full questionnaire for wording and filtering) for those who grew up in a state different from the one in which they currently live.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5000	2.947	1.868
+1) Northeast	986	19.7
+2) Midwest	1388	27.8
+3) South	1320	26.4
+4) West	864	17.3
+8) Outside of the U.S.	423	8.5
+9) Don't know/Refused (vol.)	19	0.4
+
+
+10) RAISEDBY
+Summary variable that combines responses from branching questions about who raised the respondent [See questions Q.B1-Q.B2C in full questionnaire for wording and filtering]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5000	2.574	8.79
+1) Raised by 2 parents - biological mother and father	3946	78.9
+2) Raised by 2 parents - biological mother and stepfather	217	4.3
+3) Raised by 2 parents - biological father and stepmother	51	1.0
+4) Raised by 2 parents - adoptive parents	63	1.3
+5) Raised by2 people - other arrangement	116	2.3
+6) Raised by single parent - mother	463	9.3
+7) Raised by single parent -  father	44	0.9
+8) Raised by one person - other arrangement	60	1.2
+98) Unclear	23	0.5
+99) Don't know/Refused (VOL.)	17	0.3
+
+
+11) QB3
+Which of your parents was more responsible for your religious upbringing? Your [mother/stepmother], your [father/stepfather] or did they share this about equally?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	4277	2.379	1.225
+1) Mother/Stepmother	1450	33.9
+2) Father/Stepfather	235	5.5
+3) Shared about equally	2381	55.7
+4) Not raised in any religion (VOL.)	156	3.6
+8) Undesignated	9	0.2
+9) Don't know/Refused (VOL.)	46	1.1
+Missing	723
+
+
+12) PARENT1RELTRAD
+Religious tradition of the respondent's mother, stepmother or the parent most responsible for raising them if the respondent was not raised by mother and father. Combines race and religion questions (See questions HISP1 to Q.B8 in full questionnaire for wording and filtering).
+RANGE: 1100 to 900000
+	N	Mean	Std. Deviation
+Total	4956	19019.507	71654.494
+1100) Theologically Evangelical Protestant Churches	1053	21.2
+1200) Historic Mainline Protestant Churches	1339	27.0
+1300) Historically Black Protestant Churches	335	6.8
+10000) Catholic	1514	30.5
+20000) Mormon	87	1.8
+30000) Orthodox Christian	22	0.4
+40001) Jehovah's Witnesses	22	0.4
+40002) Other Christian	12	0.2
+50000) Jewish	115	2.3
+60000) Muslim	17	0.3
+70000) Buddhist	14	0.3
+80000) Hindu	21	0.4
+90001) Other world religions	1	0.0
+90002) Other faiths	16	0.3
+100000) Unaffiliated	360	7.3
+900000) Don't know/Refused (VOL.)	28	0.6
+Missing	44
+
+
+13) PARENT2RELTRAD
+Religious tradition of the respondent's father, stepfather or a second childhood guardian if the respondent was raised by two parents, but not mother and father. Combines race and religion questions (See questions HISP2 to Q.B13 in full questionnaire for wording and filtering)
+RANGE: 1100 to 900000
+	N	Mean	Std. Deviation
+Total	4437	39712.653	125657.778
+1100) Theologically Evangelical Protestant Churches	769	17.3
+1200) Historic Mainline Protestant Churches	1106	24.9
+1300) Historically Black Protestant Churches	216	4.9
+10000) Catholic	1254	28.3
+20000) Mormon	71	1.6
+30000) Orthodox Christian	25	0.6
+40001) Jehovah's Witnesses	13	0.3
+40002) Other Christian	5	0.1
+50000) Jewish	128	2.9
+60000) Muslim	19	0.4
+70000) Buddhist	10	0.2
+80000) Hindu	18	0.4
+90001) Other world religions	2	0.0
+90002) Other faiths	15	0.3
+100000) Unaffiliated	700	15.8
+888888) Undesignated	26	0.6
+900000) Don't know/Refused (VOL.)	60	1.4
+Missing	563
+
+
+14) QB15
+When you were growing up how much did your parents [or guardians] talk about religion, if at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	4393	2.26	1.203
+1) A lot	1159	26.4
+2) Some	1680	38.2
+3) Not much	1106	25.2
+4) Not at all	384	8.7
+8) Undesignated	22	0.5
+9) Don't know/Refused (VOL.)	42	1.0
+Missing	607
+
+
+15) QB16
+As far as you know, how much did your parents [or guardians] disagree with each other about religion, if at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	4393	3.697	1.394
+1) A lot	169	3.8
+2) Some	364	8.3
+3) Not much	1088	24.8
+4) Not at all	2569	58.5
+8) Undesignated	22	0.5
+9) Don't know/Refused (VOL.)	181	4.1
+Missing	607
+
+
+16) QB17
+When you were growing up, how important was religion to you personally - very important, somewhat important, not too important or not at all important?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5000	2.069	1.118
+1) Very important	1743	34.9
+2) Somewhat important	1861	37.2
+3) Not too important	877	17.5
+4) Not at all important	484	9.7
+9) Don't know/Refused (VOL.)	35	0.7
+
+
+17) QB18
+And when you were growing up, how important was religion to your family - very important, somewhat important, not too important or not at all important? [IF RESPONDENT SAYS IT WAS IMPORTANT FOR ONE PARENT BUT NOT BOTH, ASK: How important was religion to your family overall?]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5000	1.956	1.106
+1) Very important	1973	39.5
+2) Somewhat important	1878	37.6
+3) Not too important	747	14.9
+4) Not at all important	362	7.2
+9) Don't know/Refused (VOL.)	40	0.8
+
+
+18) QB19
+Do you think of yourself as having been raised in more than one religion or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5000	1.929	0.481
+1) Yes, raised in more than one religion	516	10.3
+2) No, not raised in more than one religion	4396	87.9
+3) Raised in no religion (VOL.)	76	1.5
+9) Don't know/Refused (VOL.)	12	0.2
+
+
+19) QB200E_1
+In what way were you raised in more than one religion? (Respondents were able to give more than one answer. Most only gave one, and only the first response is included in the dataset.)
+RANGE: 10 to 99
+	N	Mean	Std. Deviation
+Total	516	29.682	19.697
+10) Conversion  miscellaneous	16	3.1
+11) Respondent/family switch churches	16	3.1
+12) Respondent/family switch religions	50	9.7
+20) Belonging to multiple at once miscellaneous	59	11.4
+21) Went/go to different churches at the same time	59	11.4
+22) Practice(d) elements of multiple faiths	9	1.7
+23) Went/go to church different from own	9	1.7
+24) All religions are the same/all religions are right	4	0.8
+25) Open minded/spiritual but not religious	3	0.6
+26) Accept beliefs from multiple/personal belief system	6	1.2
+30) Exposure - miscellaneous	21	4.1
+31) Family members of various religions (parents, spouse, etc.), Family member(s) have different religion than respondent	159	30.8
+32) Was taught multiple religions/studied multiple religions/allowed to explore multiple religions	30	5.8
+33) Went to religious school/camp/etc. for a different religion	27	5.2
+34) Close friend/neighbors of various religions	14	2.7
+98) Uninterpretable	23	4.5
+99) Don't know/Refused (VOL.)	11	2.1
+Missing	4484
+
+
+20) QB21
+Do you CURRENTLY think of yourself as belonging to more than one religion or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5000	2.026	0.687
+1) Yes, think of self as belonging to more than one religion	318	6.4
+2) No, do not belong to more than one religion	4464	89.3
+3) Not part of any religion (VOL.)	180	3.6
+9) Don't know/refused (VOL.)	38	0.8
+
+
+21) QB22OE_1
+In what way do you think of yourself as belonging to more than one religion? (Respondents were able to give more than one answer. Most only gave one, and only the first response is included in the dataset.)
+RANGE: 11 to 99
+	N	Mean	Std. Deviation
+Total	318	36.506	29.432
+11) Respondent/family switch churches	6	1.9
+12) Respondent/family switch religions	19	6.0
+13) Questioning current faith/searching for a new religion or set of beliefs	9	2.8
+20) Belonging to multiple at once - miscellaneous	34	10.7
+21) Went/go to different churches at the same time	33	10.4
+22) Practice(d) elements of multiple faiths	10	3.1
+23) Went/go to church different from own	14	4.4
+24) All religions are the same/all religions are right	41	12.9
+25) Open minded/spiritual but not religious	18	5.7
+26) Accept beliefs from multiple/personal belief system	30	9.4
+30) Exposure - miscellaneous	9	2.8
+31) Family members of various religions (parents, spouse, etc.)/family member(s) have different religion than respondent	32	10.1
+32) Was taught multiple religions/studied multiple religions/allowed to explore multiple religions	5	1.6
+34) Close friend/neighbors of various religions	1	0.3
+98) Uninterpretable	30	9.4
+99) Don't know/Refused (VOL.)	27	8.5
+Missing	4682
+
+
+22) QC1A
+Many people look for a new congregation or house of worship at some point in their adult lives. Please tell me if you have ever looked for a new congregation for any of the following reasons. First, have you ever looked for a new congregation or house of worship because [INSERT ITEM A]? Next, have you ever looked for a new congregation because [INSERT B-D; RANDOMIZE]? How about because [INSERT ITEM B-D; RANDOMIZE]? READ IF NECESSARY 'Have you ever looked for a new congregation because [ITEM]?'[ IF RESPONDENT SAYS THEY HAVE NEVER LOOKED FOR A NEW CONGREGATION AT ANY POINT IN THEIR LIFE, DO NOT READ THE REST OF THE LIST. ENTER 'NEVER LOOKED' CODE (3) FOR ALL REMAINING ITEMS IN THE LIST] [You had recently moved]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5000	1.785	0.803
+1) Yes	1949	39.0
+2) No/Did not happen	2268	45.4
+3) Never looked for a new congregation at any point in their adult life (VOL.)	768	15.4
+9) Don't know/refused (VOL.)	15	0.3
+
+
+23) QC1B
+Many people look for a new congregation or house of worship at some point in their adult lives. Please tell me if you have ever looked for a new congregation for any of the following reasons. First, have you ever looked for a new congregation or house of worship because [INSERT ITEM A]? Next, have you ever looked for a new congregation because [INSERT B-D; RANDOMIZE]? How about because [INSERT ITEM B-D; RANDOMIZE]? READ IF NECESSARY 'Have you ever looked for a new congregation because [ITEM]?'[ IF RESPONDENT SAYS THEY HAVE NEVER LOOKED FOR A NEW CONGREGATION AT ANY POINT IN THEIR LIFE, DO NOT READ THE REST OF THE LIST. ENTER 'NEVER LOOKED' CODE (3) FOR ALL REMAINING ITEMS IN THE LIST] [You had gotten married or divorced]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5000	2.052	0.634
+1) Yes	670	13.4
+2) No/Did not happen	3460	69.2
+3) Never looked for a new congregation at any point in their adult life (VOL.)	860	17.2
+9) Don't know/refused (VOL.)	10	0.2
+
+
+24) QC1D
+Many people look for a new congregation or house of worship at some point in their adult lives. Please tell me if you have ever looked for a new congregation for any of the following reasons. First, have you ever looked for a new congregation or house of worship because [INSERT ITEM A]? Next, have you ever looked for a new congregation because [INSERT B-D; RANDOMIZE]? How about because [INSERT ITEM B-D; RANDOMIZE]? READ IF NECESSARY 'Have you ever looked for a new congregation because [ITEM]?'[ IF RESPONDENT SAYS THEY HAVE NEVER LOOKED FOR A NEW CONGREGATION AT ANY POINT IN THEIR LIFE, DO NOT READ THE REST OF THE LIST. ENTER 'NEVER LOOKED' CODE (3) FOR ALL REMAINING ITEMS IN THE LIST] [You had a disagreement with a clergy member or other people at your previous house of worship]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5000	2.07	0.653
+1) Yes	608	12.2
+2) No/Did not happen	3519	70.4
+3) Never looked for a new congregation at any point in their adult life (VOL.)	859	17.2
+9) Don't know/refused (VOL.)	14	0.3
+
+
+25) QC2
+[ASK IF RESPONDENT MAY HAVE LOOKED FOR A NEW CONGREGATION (QC1a≠3, QC1b≠3, QC1d ≠3,)]  As an adult, has there ever been a time where you looked for a new congregation or house of worship for some other reason?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	4118	1.809	0.79
+1) Yes	1043	25.3
+2) No	3035	73.7
+8) Undesignated	22	0.5
+9) Don't know/refused (VOL.)	18	0.4
+Missing	882
+
+
+26) QC2_1
+[IF RESPONDENT MAY HAVE LOOKED FOR A NEW CONGREGATION FOR SOME OTHER REASON (QC2=1)As an adult, has there ever been a time where you looked for a new congregation or house of worship for some other reason? (Specify reason) Respondents were able to give more than one answer. Most only gave one, and only the first response is included in the dataset.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1043	22.133	20.889
+1) Children's need and education	77	7.4
+2) Want to attend with friends/family	48	4.6
+5) Looking for a sense of fellowship	51	4.9
+6) Networking/finding friends	9	0.9
+10) Changed religions or denominations	35	3.4
+11) Seeking/exploring	164	15.7
+12) Personal growth/beliefs evolved	52	5.0
+20) Leadership change	20	1.9
+21) Prefer different leadership	47	4.5
+22) Church programs	16	1.5
+23) Church theology/beliefs	136	13.0
+24) Dissatisfaction with church	154	14.8
+30) Language barriers	5	0.5
+31) Moved/distance/convenience	101	9.7
+32) Previous church closed/never had a previous church	27	2.6
+33) Life events	43	4.1
+98) Uncodable	44	4.2
+99) No answer	14	1.3
+Missing	3957
+
+
+27) QC3
+[ASK ALL WHO LOOKED FOR A NEW CONGREGATION (QC1a=1, QC1b=1, QC1d=1, OR QC2=1)]:When looking for a new congregation or house of worship, did you only consider congregations in the religion or [IF RELTRAD=1100,1200 OR 1300 INSERT 'Protestant']denomination you were part of at the time or did you ever consider one in a different religion
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2709	1.693	1.305
+1) Only considered congregations in the denomination I was part of at the time	1337	49.4
+2) Considered different denomination	1300	48.0
+9) Don't know/Refused (VOL.)	72	2.7
+Missing	2291
+
+
+28) QC4A
+Which of the following, if any, have you ever done when looking for a congregation or house of worship? First, have you ever [INSERT; RANDOMIZE] or not? Next, have you ever [INSERT;RANDOMIZE] or not? Have you ever [INSERT;RANDOMIZE] or not? [Looked for information online about a church or house of worship you were considering]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2709	1.673	0.621
+1) Yes, did this	942	34.8
+2) No, did not do this	1759	64.9
+9) Don't know/Refused (VOL.)	8	0.3
+Missing	2291
+
+
+29) QC4B
+Which of the following, if any, have you ever done when looking for a congregation or house of worship? First, have you ever [INSERT; RANDOMIZE] or not? Next, have you ever [INSERT;RANDOMIZE] or not? Have you ever [INSERT;RANDOMIZE] or not? [Made a phone call to a church or house of worship you were considering]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2709	1.842	0.618
+1) Yes, did this	513	18.9
+2) No, did not do this	2184	80.6
+9) Don't know/Refused (VOL.)	12	0.4
+Missing	2291
+
+
+30) QC4C
+Which of the following, if any, have you ever done when looking for a congregation or house of worship? First, have you ever [INSERT; RANDOMIZE] or not? Next, have you ever [INSERT;RANDOMIZE] or not? Have you ever [INSERT;RANDOMIZE] or not? [Talked to members of a congregation you were considering]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2709	1.347	0.718
+1) Yes, did this	1868	69.0
+2) No, did not do this	827	30.5
+9) Don't know/Refused (VOL.)	14	0.5
+Missing	2291
+
+
+31) QC4D
+Which of the following, if any, have you ever done when looking for a congregation or house of worship? First, have you ever [INSERT; RANDOMIZE] or not? Next, have you ever [INSERT;RANDOMIZE] or not? Have you ever [INSERT;RANDOMIZE] or not? [Talked to a minister or clergy person at a church or house of worship you were considering]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2709	1.488	0.734
+1) Yes, did this	1485	54.8
+2) No, did not do this	1210	44.7
+9) Don't know/Refused (VOL.)	14	0.5
+Missing	2291
+
+
+32) QC4E
+Which of the following, if any, have you ever done when looking for a congregation or house of worship? First, have you ever [INSERT; RANDOMIZE] or not? Next, have you ever [INSERT;RANDOMIZE] or not? Have you ever [INSERT;RANDOMIZE] or not? [Attended a worship service at a church or house of worship you were considering]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2709	1.148	0.479
+1) Yes, did this	2342	86.5
+2) No, did not do this	362	13.4
+9) Don't know/Refused (VOL.)	5	0.2
+Missing	2291
+
+
+33) QC4F
+Which of the following, if any, have you ever done when looking for a congregation or house of worship? First, have you ever [INSERT; RANDOMIZE] or not? Next, have you ever [INSERT;RANDOMIZE] or not? Have you ever [INSERT;RANDOMIZE] or not? [Talked to friends or colleagues about a church or house of worship you were considering]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2709	1.358	0.721
+1) Yes, did this	1836	67.8
+2) No, did not do this	859	31.7
+9) Don't know/Refused (VOL.)	14	0.5
+Missing	2291
+
+
+34) QC5A
+And which if any of the following factors have played an important role in your choice of congregation? First, has [INSERT; RANDOMIZE] ever played an important role in your choice of congregation or not? Next, has [INSERT; RANDOMIZE] ever played an important role in your choice of congregation or not? Has [INSERT; RANDOMIZE], ever played an important role in your choice of congregation? How about [INSERT; RANDOMIZE]? [READ AS NECESSARY: Has this ever played an important role in your choice of congregation or not [Location]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2709	1.312	0.649
+1) Yes, played an important role	1935	71.4
+2) No, has not ever played an important role	764	28.2
+9) Don't know/Refused (VOL.)	10	0.4
+Missing	2291
+
+
+35) QC5B
+And which if any of the following factors have played an important role in your choice of congregation? First, has [INSERT; RANDOMIZE] ever played an important role in your choice of congregation or not? Next, has [INSERT; RANDOMIZE] ever played an important role in your choice of congregation or not? Has [INSERT; RANDOMIZE], ever played an important role in your choice of congregation? How about [INSERT; RANDOMIZE]? [READ AS NECESSARY: Has this ever played an important role in your choice of congregation or not? [Feeling welcomed by clergy or lay leaders]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2709	1.252	0.691
+1) Yes, played an important role	2125	78.4
+2) No, has not ever played an important role	570	21.0
+9) Don't know/Refused (VOL.)	14	0.5
+Missing	2291
+
+
+36) QC5C
+And which if any of the following factors have played an important role in your choice of congregation? First, has [INSERT; RANDOMIZE] ever played an important role in your choice of congregation or not? Next, has [INSERT; RANDOMIZE] ever played an important role in your choice of congregation or not? Has [INSERT; RANDOMIZE], ever played an important role in your choice of congregation? How about [INSERT; RANDOMIZE]? [READ AS NECESSARY: Has this ever played an important role in your choice of congregation or not? [The quality of religious education for children]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2709	1.518	0.814
+1) Yes, played an important role	1447	53.4
+2) No, has not ever played an important role	1242	45.8
+9) Don't know/Refused (VOL.)	20	0.7
+Missing	2291
+
+
+37) QC5D
+And which if any of the following factors have played an important role in your choice of congregation? First, has [INSERT; RANDOMIZE] ever played an important role in your choice of congregation or not? Next, has [INSERT; RANDOMIZE] ever played an important role in your choice of congregation or not? Has [INSERT; RANDOMIZE], ever played an important role in your choice of congregation? How about [INSERT; RANDOMIZE]? [READ AS NECESSARY: Has this ever played an important role in your choice of congregation or not [Having friends or family members who were already going there]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2709	1.56	0.718
+1) Yes, played an important role	1284	47.4
+2) No, has not ever played an important role	1412	52.1
+9) Don't know/Refused (VOL.)	13	0.5
+Missing	2291
+
+
+38) QC5E
+And which if any of the following factors have played an important role in your choice of congregation? First, has [INSERT; RANDOMIZE] ever played an important role in your choice of congregation or not? Next, has [INSERT; RANDOMIZE] ever played an important role in your choice of congregation or not? Has [INSERT; RANDOMIZE], ever played an important role in your choice of congregation? How about [INSERT; RANDOMIZE]? [READ AS NECESSARY: Has this ever played an important role in your choice of congregation or not? [The style of worship services]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2709	1.337	0.952
+1) Yes, played an important role	2027	74.8
+2) No, has not ever played an important role	649	24.0
+9) Don't know/Refused (VOL.)	33	1.2
+Missing	2291
+
+
+39) QC5F
+And which if any of the following factors have played an important role in your choice of congregation? First, has [INSERT; RANDOMIZE] ever played an important role in your choice of congregation or not? Next, has [INSERT; RANDOMIZE] ever played an important role in your choice of congregation or not? Has [INSERT; RANDOMIZE], ever played an important role in your choice of congregation? How about [INSERT; RANDOMIZE]? [READ AS NECESSARY: Has this ever played an important role in your choice of congregation or not? [The quality of sermons or preaching]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2709	1.231	0.755
+1) Yes, played an important role	2216	81.8
+2) No, has not ever played an important role	474	17.5
+9) Don't know/Refused (VOL.)	19	0.7
+Missing	2291
+
+
+40) QC5G
+And which if any of the following factors have played an important role in your choice of congregation? First, has [INSERT; RANDOMIZE] ever played an important role in your choice of congregation or not? Next, has [INSERT; RANDOMIZE] ever played an important role in your choice of congregation or not? Has [INSERT; RANDOMIZE], ever played an important role in your choice of congregation? How about [INSERT; RANDOMIZE]? [READ AS NECESSARY: Has this ever played an important role in your choice of congregation or not? [The availability of volunteering and community service opportunities]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2709	1.641	0.749
+1) Yes, played an important role	1085	40.1
+2) No, has not ever played an important role	1608	59.4
+9) Don't know/Refused (VOL.)	16	0.6
+Missing	2291
+
+
+41) QC5H_1
+And which if any of the following factors have played an important role in your choice of congregation? First, has [INSERT; RANDOMIZE] ever played an important role in your choice of congregation or not? Next, has [INSERT; RANDOMIZE] ever played an important role in your choice of congregation or not? Has [INSERT; RANDOMIZE], ever played an important role in your choice of congregation? How about [INSERT; RANDOMIZE]? [READ AS NECESSARY: Has this ever played an important role in your choice of congregation or not? Are there any other factors that have played an important role in your choice of congregation? [Respondents were able to give more than one answer. Most only gave one, and only the first response is included in the dataset.)
+RANGE: 1 to 100
+	N	Mean	Std. Deviation
+Total	2709	73.861	40.663
+1) Church's politics	35	1.3
+2) Church leadership	55	2.0
+3) Church programs	52	1.9
+7) Church's theology	214	7.9
+9) Other church programs/teaching	3	0.1
+10) Congregation size/demographics	36	1.3
+11) Misc. environment	13	0.5
+13) Welcoming/fellowship	153	5.6
+14) Music/style of worship	84	3.1
+20) Convenience	53	2.0
+21) Family situations	75	2.8
+29) Misc. non-church related factors	22	0.8
+98) Uncodable	31	1.1
+99) No answer	15	0.6
+100) No additional factors named	1868	69.0
+Missing	2291
+
+
+42) QC6
+Thinking specifically about the most recent time you looked for a new congregation or house of worship, about how long ago was that? Was it [READ IN ORDER]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2709	2.828	1.3
+1) Within the last year	437	16.1
+2) Between one and five years ago	755	27.9
+3) Between five and 10 years ago [OR]	519	19.2
+4) More than 10 years ago	965	35.6
+9) Don't know/Refused (VOL.)	33	1.2
+Missing	2291
+
+
+43) QC7
+Still thinking about the most recent time you looked, how difficult or easy would you say it was to find a new church or house of worship? Would you say it was [READ IN ORDER TO RANDOM HALF OF SAMPLE, IN REVERSE ORDER TO OTHER HALF OF SAMPLE]?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2709	3.258	1.261
+1) Very difficult	185	6.8
+2) Somewhat difficult	508	18.8
+3) Somewhat easy	740	27.3
+4) Very easy	1209	44.6
+8) Did not find a new house of worship (VOL.)	35	1.3
+9) Don't know/Refused (VOL.)	32	1.2
+Missing	2291
+
+
+44) EASYQC8VB1
+What made it easy to find a new congregation? (Based on Q.C8. Respondents were able to give more than one answer. Most only gave one, and only the first two response are included in the dataset.) [First response]
+RANGE: 2 to 99
+	N	Mean	Std. Deviation
+Total	1949	18.412	15.841
+2) General satisfaction	40	2.1
+3) Liked church's leadership	36	1.8
+4) Agreed with theology	91	4.7
+5) Liked previous church more	21	1.1
+10) Family/family situation	164	8.4
+11) Felt a sense of fellowship	102	5.2
+12) Invited/friends	340	17.4
+20) Availability/location/logistics	837	42.9
+21) Did research	254	13.0
+98) Uncodable	24	1.2
+99) No answer	40	2.1
+Missing	3051
+
+
+45) EASYQC8VB2
+What made it easy to find a new congregation? (Based on Q.C8. Respondents were able to give more than one answer. Most only gave one, and only the first two response are included in the dataset.) [Second response]
+RANGE: 2 to 21
+	N	Mean	Std. Deviation
+Total	203	11.473	5.839
+2) General satisfaction	1	0.5
+3) Liked church's leadership	31	15.3
+4) Agreed with theology	12	5.9
+5) Liked previous church more	2	1.0
+10) Family/family situation	25	12.3
+11) Felt a sense of fellowship	48	23.6
+12) Invited/friends	38	18.7
+20) Availability/location/logistics	24	11.8
+21) Did research	22	10.8
+Missing	4797
+
+
+46) HARDQC8VB1
+What made it difficult to find a new congregation? (Based on Q.C8. Respondents were able to give more than one answer. Most only gave one, and only the first two response are included in the dataset.)
+RANGE: 2 to 99
+	N	Mean	Std. Deviation
+Total	728	18.029	23.815
+2) General concerns about religion	45	6.2
+3) Disliked church's leadership	18	2.5
+4) Disagreed with theology	142	19.5
+5) Like previous church more	25	3.4
+6) Beliefs/practices evolved	16	2.2
+10) Family/family situation	39	5.4
+11) Lack of fellowship	153	21.0
+20) Availability/location/logistics	163	22.4
+21) Limited information	73	10.0
+98) Uncodable	20	2.7
+99) No answer	34	4.7
+Missing	4272
+
+
+47) HARDQC8VB2
+What made it difficult to find a new congregation? (Based on Q.C8. Respondents were able to give more than one answer. Most only gave one, and only the first two response are included in the dataset.)
+RANGE: 2 to 21
+	N	Mean	Std. Deviation
+Total	60	8.083	5.512
+2) General concerns about religion	1	1.7
+3) Disliked church's leadership	6	10.0
+4) Disagreed with theology	25	41.7
+5) Like previous church more	0	0.0
+6) Beliefs/practices evolved	1	1.7
+10) Family/family situation	2	3.3
+11) Lack of fellowship	18	30.0
+20) Availability/location/logistics	6	10.0
+21) Limited information	1	1.7
+Missing	4940
+
+
+48) QC9
+Since you were 18 years old, has there ever been a time in your life when you attended religious services LESS often than you do now?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2370	1.478	0.792
+1) Yes	1349	56.9
+2) No	1005	42.4
+9) Don't know/Refused (VOL.)	16	0.7
+Missing	2630
+
+
+49) QC10OE_1
+What is the main reason that you attend religious services more often now than you used to?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1349	19.306	22.219
+1) Have time now/scheduling	142	10.5
+2) Convenience/habit	69	5.1
+3) Found a congregation they like more	55	4.1
+10) Family changes	202	15.0
+11) Desire for fellowship/church life	83	6.2
+12) Life phase/lifestyle changes	94	7.0
+20) Become more religious	253	18.8
+21) Need God/religion/church in their life	179	13.3
+22) Older/more mature	184	13.6
+97) Other	7	0.5
+98) Uncodable	27	2.0
+99) No answer	54	4.0
+Missing	3651
+
+
+50) QC11
+Since you were 18 years old, has there ever been a time in your life when you attended religious services MORE often than you do now?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2610	1.554	0.809
+1) Yes	1297	49.7
+2) No	1294	49.6
+9) Don't know/Refused (VOL.)	19	0.7
+Missing	2390
+
+
+51) QC120E_1
+What is the main reason that you attend religious services LESS often now than you used to?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1297	16.176	24.369
+1) Practical difficulties	95	7.3
+2) Personal priorities	178	13.7
+3) Too busy	210	16.2
+4) Looking for a congregation	62	4.8
+5) Old age/health reasons	75	5.8
+10) Family changes	89	6.9
+11) Attended with someone	36	2.8
+12) No longer expected to attend	54	4.2
+13) Life phase/life event	18	1.4
+14) Other social reasons	15	1.2
+20) Beliefs changed	259	20.0
+21) Disagree with church teachings	87	6.7
+22) Church has changed	24	1.9
+97) Other	11	0.8
+98) Uncodable	20	1.5
+99) No answer	64	4.9
+Missing	3703
+
+
+52) QC13VB1
+Last year you told us you currently think of yourself as [IF UNAFFILIATEDTYPE=1 'an atheist'/IF UNAFFILIATEDTYPE=2 'an agnostic'/IF UNAFFILIATEDTYPE=3 'having no particular religion], and you were raised [IF CHRELTAD=1100, 1200, 1300, 20000,30000,40001,40002 'Christian'/ IF CHRELTRAD =10000 'Catholic'/IF CHRELTRAD =50000 'Jewish' /IF CHRELTRAD=60000 'Muslim'/IF CHRELTRAD=70000 'Buddhist'/IF CHRELTRAD=80000 'Hindu'/IF CHRELTRAD=90001, 90002 'in a religion']. Just in your own words, what would you say is the main reason that you now think of yourself as [IF UNAFFILIATEDTYPE=1 'an atheist'/IF UNAFFILIATEDTYPE=2 'an agnostic'/IF UNAFFILIATEDTYPE=3 'having no particular religion?]? (Respondents were able to give more than one answer. Most only gave one, and only the first response is included in the dataset.)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	956	18.414	22.777
+1) Anti-institutional religion	136	14.2
+2) Religion focuses on power/politics	28	2.9
+3) Religion causes conflict	23	2.4
+10) Disenchanted/don't believe	356	37.2
+11) Views evolved	53	5.5
+12) Went through a crisis of faith	15	1.6
+14) Not interested in/no need for religion	51	5.3
+20) Too busy	16	1.7
+21) Non-practicing	75	7.8
+30) Unaffiliated but religious	49	5.1
+31) Uncertain about beliefs	16	1.7
+32) Seeking/open-minded	50	5.2
+33) Spiritual but not religious	28	2.9
+97) Other	6	0.6
+98) Uncodeable	7	0.7
+99) No answer	47	4.9
+Missing	4044
+
+
+53) QD1A
+Here is a list of things which some people think make for a successful marriage. Please tell me, for each one, whether you think it is very important, somewhat important or not important for a successful marriage. First, how important is [INSERT ITEM; RANDOMIZE a-f, c should never be first, g should always be last] for a successful marriage - very important, somewhat important or not important? Next, how important is [INSERT ITEM; RANDOMIZE a-f, c should never be first, g should always be last] for a successful marriage? How about [INSERT ITEM; RANDOMIZE a-f, c should never be first, g should always be last]. READ EVERY FEW ITEMS AND AS NECESSARY: How important is this for a successful marriage -- very important, somewhat important or not important? a. An adequate income
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5000	1.691	0.954
+1) Very important	2239	44.8
+2) Somewhat important	2368	47.4
+3) Not important	343	6.9
+9) Don't know/Refused (VOL.)	50	1.0
+
+
+54) QD1B
+Here is a list of things which some people think make for a successful marriage. Please tell me, for each one, whether you think it is very important, somewhat important or not important for a successful marriage. First, how important is [INSERT ITEM; RANDOMIZE a-f, c should never be first, g should always be last] for a successful marriage - very important, somewhat important or not important? Next, how important is [INSERT ITEM; RANDOMIZE a-f, c should never be first, g should always be last] for a successful marriage? How about [INSERT ITEM; RANDOMIZE a-f, c should never be first, g should always be last]. READ EVERY FEW ITEMS AND AS NECESSARY: How important is this for a successful marriage -- very important, somewhat important or not important? b. Agreement on politics
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5000	2.294	1.054
+1) Very important	746	14.9
+2) Somewhat important	2471	49.4
+3) Not important	1711	34.2
+9) Don't know/Refused (VOL.)	72	1.4
+
+
+55) QD1C
+Here is a list of things which some people think make for a successful marriage. Please tell me, for each one, whether you think it is very important, somewhat important or not important for a successful marriage. First, how important is [INSERT ITEM; RANDOMIZE a-f, c should never be first, g should always be last] for a successful marriage - very important, somewhat important or not important? Next, how important is [INSERT ITEM; RANDOMIZE a-f, c should never be first, g should always be last] for a successful marriage? How about [INSERT ITEM; RANDOMIZE a-f, c should never be first, g should always be last]. READ EVERY FEW ITEMS AND AS NECESSARY: How important is this for a successful marriage -- very important, somewhat important or not important? c. A satisfying sexual relationship
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5000	1.504	1.009
+1) Very important	3056	61.1
+2) Somewhat important	1751	35.0
+3) Not important	129	2.6
+9) Don't know/Refused (VOL.)	64	1.3
+
+
+56) QD1D
+Here is a list of things which some people think make for a successful marriage. Please tell me, for each one, whether you think it is very important, somewhat important or not important for a successful marriage. First, how important is [INSERT ITEM; RANDOMIZE a-f, c should never be first, g should always be last] for a successful marriage - very important, somewhat important or not important? Next, how important is [INSERT ITEM; RANDOMIZE a-f, c should never be first, g should always be last] for a successful marriage? How about [INSERT ITEM; RANDOMIZE a-f, c should never be first, g should always be last]. READ EVERY FEW ITEMS AND AS NECESSARY: How important is this for a successful marriage -- very important, somewhat important or not important? d. Sharing household chores
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5000	1.518	0.865
+1) Very important	2904	58.1
+2) Somewhat important	1820	36.4
+3) Not important	240	4.8
+9) Don't know/Refused (VOL.)	36	0.7
+
+
+57) QD1E
+Here is a list of things which some people think make for a successful marriage. Please tell me, for each one, whether you think it is very important, somewhat important or not important for a successful marriage. First, how important is [INSERT ITEM; RANDOMIZE a-f, c should never be first, g should always be last] for a successful marriage - very important, somewhat important or not important? Next, how important is [INSERT ITEM; RANDOMIZE a-f, c should never be first, g should always be last] for a successful marriage? How about [INSERT ITEM; RANDOMIZE a-f, c should never be first, g should always be last]. READ EVERY FEW ITEMS AND AS NECESSARY: How important is this for a successful marriage -- very important, somewhat important or not important? e. Having children
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5000	2.043	1.352
+1) Very important	1947	38.9
+2) Somewhat important	1609	32.2
+3) Not important	1324	26.5
+9) Don't know/Refused (VOL.)	120	2.4
+
+
+58) QD1F
+Here is a list of things which some people think make for a successful marriage. Please tell me, for each one, whether you think it is very important, somewhat important or not important for a successful marriage. First, how important is [INSERT ITEM; RANDOMIZE a-f, c should never be first, g should always be last] for a successful marriage - very important, somewhat important or not important? Next, how important is [INSERT ITEM; RANDOMIZE a-f, c should never be first, g should always be last] for a successful marriage? How about [INSERT ITEM; RANDOMIZE a-f, c should never be first, g should always be last]. READ EVERY FEW ITEMS AND AS NECESSARY: How important is this for a successful marriage -- very important, somewhat important or not important? f. Having shared interests
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5000	1.412	0.76
+1) Very important	3232	64.6
+2) Somewhat important	1632	32.6
+3) Not important	110	2.2
+9) Don't know/Refused (VOL.)	26	0.5
+
+
+59) QD1G
+Here is a list of things which some people think make for a successful marriage. Please tell me, for each one, whether you think it is very important, somewhat important or not important for a successful marriage. First, how important is [INSERT ITEM; RANDOMIZE a-f, c should never be first, g should always be last] for a successful marriage - very important, somewhat important or not important? Next, how important is [INSERT ITEM; RANDOMIZE a-f, c should never be first, g should always be last] for a successful marriage? How about [INSERT ITEM; RANDOMIZE a-f, c should never be first, g should always be last]. READ EVERY FEW ITEMS AND AS NECESSARY: How important is this for a successful marriage -- very important, somewhat important or not important? g. Shared religious beliefs
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	5000	1.878	0.96
+1) Very important	1872	37.4
+2) Somewhat important	2090	41.8
+3) Not important	1001	20.0
+9) Don't know/Refused (VOL.)	37	0.7
+
+
+60) QD2
+Would you say your [spouse/partner] is [READ IN ORDER TO RANDOM HALF OF SAMPLE, REVERSE ORDER OF 1 AND 2 TO OTHER HALF OF SAMPLE]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3574	2.382	1
+1) More religious than you	800	22.4
+2) Less religious than you	799	22.4
+3) About as religious as you	1909	53.4
+4) No longer married/no longer together (VOL.)	41	1.1
+9) Don't know/Refused (VOL.)	25	0.7
+Missing	1426
+
+
+61) QD3
+When you attend religious services, is it typically with your [IF MARITAL=1 'spouse'; IF MARITAL=2 'partner'] or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2344	1.347	0.908
+1) Yes	1706	72.8
+2) No	613	26.2
+9) Don't know/Refused (VOL.)	25	1.1
+Missing	2656
+
+
+62) QD4
+How much do you and your [IF MARITAL=1 'spouse'; IF MARITAL=2 'partner'] talk about religion, if at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3533	2.332	1.008
+1) A lot	688	19.5
+2) Some	1444	40.9
+3) Not much	1027	29.1
+4) Not at all	357	10.1
+9) Don't know/Refused (VOL.)	17	0.5
+Missing	1467
+
+
+63) QD5
+How much do you and your [IF MARITAL=1 'spouse'; IF MARITAL=2 'partner'] disagree about religion, if at all?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3533	3.186	1.026
+1) A lot	183	5.2
+2) Some	639	18.1
+3) Not much	1184	33.5
+4) Not at all	1500	42.5
+9) Don't know/Refused (VOL.)	27	0.8
+Missing	1467
+
+
+64) QD6A
+Thinking about when you got married, how important a factor was your spouse's religion in deciding whether to marry them? Was it [READ LIST]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	3166	2.852	1.259
+1) Very important	640	20.2
+2) Somewhat important	590	18.6
+3) Not too important or	626	19.8
+4) Not at all important	1292	40.8
+9) Don't know/Refused (VOL.)	18	0.6
+Missing	1834
+
+
+65) QD6B
+If you were considering marriage, how important a factor do you think your potential spouse's religion would be in deciding whether to marry them? Would it be [READ LIST]? [INTERVIEWER INSTRUCTION: IF RESPONDENT SAYS THEY ARE CURRENTLY MARRIED, ASK 'Thinking about when you got married, how important a factor was your spouse's religion in deciding whether to marry them? Was it [AND THEN RE-READ LIST]?'
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1808	2.381	1.457
+1) Very important	572	31.6
+2) Somewhat important	552	30.5
+3) Not too important or	292	16.2
+4) Not at all important	355	19.6
+9) Don't know/Refused (VOL.)	37	2.0
+Missing	3192
+
+
+66) WD7
+When you attend religious services, is it typically with [IF PARENT=1: this child; IF PARENT=2: any of these children] or not?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	974	1.226	0.99
+1) Yes	852	87.5
+2) No	108	11.1
+9) Don't know/Refused (VOL.)	14	1.4
+Missing	4026
+
+
+67) QD8
+Would you say you are more responsible for your [IF PARENT=1:child's, IF PARENT=2: children's] religious upbringing, that your [IF MARITAL=1 and QD2≠4: spouse, MARITAL =2 and QD2≠4: partner, IF (MARITAL= 3,4,5,6,9 OR QD2=4) AND PARENT=1 child's other parent, IF (MARITAL= 3,4,5,6,9 OR QD2=4) AND PARENT=2: children's other parent] is more responsible for their religious upbringing or do you share this about equally?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1419	2.508	1.181
+1) Respondent does more	351	24.7
+2) Spouse/partner/other parent does more	143	10.1
+3) Share about equally	892	62.9
+4) Someone else does it (VOL.)	4	0.3
+5) Depends on which child/parent (VOL.)	1	0.1
+6) There is no other parent (VOL.)	9	0.6
+9) Don't know/Refused (VOL.)	19	1.3
+Missing	3581
+
+
+68) QD9A
+Are you raising your [IF PARENT=1:child; IF PARENT=2:children] in
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1035	1.486	1.351
+1) Your current religion [OR]	867	83.8
+2) Another religion [OR]	25	2.4
+3) More than one religion [OR]	48	4.6
+4) With no religion	74	7.1
+5) Some children in your current religion and some not (VOL.)	2	0.2
+9) Don't know/Refused (VOL.)	19	1.8
+Missing	3965
+
+
+69) QD9B
+Are you raising your [IF PARENT=1:child; IF PARENT=2:children] in
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	384	2.547	1.499
+1) A religion [OR]	108	28.1
+2) More than one religion [OR]	38	9.9
+3) With no religion	223	58.1
+4) Depends on which child (VOL.)	2	0.5
+9) Don't know/Refused (VOL.)	13	3.4
+Missing	4616
+
+
+70) I-REGION
+Respondent's current region of residence (for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	5000	2.655	1.03
+1) Northeast	875	17.5
+2) Midwest	1188	23.8
+3) South	1725	34.5
+4) West	1212	24.2
+
+
+71) I-RELIGION
+Respondent's current religious tradition (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	4983	3.36	1.863
+1) Theologically Evangelical Protestant Churches	1043	20.9
+2) Historic Mainline Protestant Churches	1175	23.6
+3) Historically Black Protestant Churches	335	6.7
+4) Catholic	956	19.2
+5) Other faiths	325	6.5
+6) Unaffiliated	1149	23.1
+Missing	17
+
+
