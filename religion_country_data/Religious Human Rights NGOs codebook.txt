@@ -1,0 +1,583 @@
+Data File: RELHRNGO(Full Data Codebook)
+
+1) ORGNAME
+The organization's most recent name, as of 2011. (ORG_NAME)
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	640		
+
+
+2) CNTRYHDQ
+Many NGOs have offices and/or operations in multiple countries.  This variable refers to the country that the NGO identifies as the location of its headquarters (or, in some cases, 'international branch' or similar designation). (CNTRY_HEADQRTR)
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	640		
+
+
+3) HASWEBST
+Does the NGO or parent organization have a website? (HAS_WBST)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	640	0.517	0.5
+0) No. A current website could not be located.  Information was taken solely from HRI	309	48.3
+1) Yes. The NGO or parent organization has a functioning website (as of 2011)	331	51.7
+
+
+4) CODWEBST
+Whether the information from the NGO or parent organization's website was used in coding (CODED_WBST)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	640	0.492	0.5
+0) No. All information was taken from HRI or other online directories.	325	50.8
+1) Yes. The information from the NGO or parent organization's website was used in coding.	315	49.2
+
+
+5) INFOQUAL
+Quality/Amount of information (INFO_QUALITY)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	640	2.367	0.728
+1) Poor	95	14.8
+2) Just okay	215	33.6
+3) Good	330	51.6
+
+
+6) YEARESTB
+Year that the organization or HR program was established (YEAR_ESTAB)
+RANGE: 9 to 2005
+	N	Mean	Std. Deviation
+Total	640	1522.673	820.775
+
+
+7) YPRNTEST
+Some HR programs were affiliated with pre-existing organizations. This variable refers to the date this pre-existing organization was founded.  However, not all programs had identifiable parent organizations, and among those that did, quite often the date of the parent organization's founding could not be located. (YEAR_PRNT_ESTB)
+RANGE: 1831 to 1991
+	N	Mean	Std. Deviation
+Total	54	1941.37	39.415
+
+
+8) PRGDEFUN
+Is Program Defunct? (PROG_DEFUNCT)
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	640	2.292	3.822
+0) No	421	65.8
+1) Yes	63	9.8
+9) Not sure	156	24.4
+
+
+9) RELIGID1
+Religious Identity and 2nd Religious Identity (RELIGID1 and RELIGID2):  These two variables refer to the faith tradition(s) that the organization explicitly identifies as relevant to its organizational identity or mission. Some groups identified as 'interfaith' (multiple distinct religions) or 'ecumenical' (multiple denominations within Christianity). (REL_IDENT)
+RANGE: 1 to 999
+	N	Mean	Std. Deviation
+Total	640	43.57	192.9
+1) Ecumenical	160	25.0
+2) Catholic	174	27.2
+3) Christian Unspecified	88	13.8
+4) Jewish	33	5.2
+5) Muslim	24	3.8
+6) Buddhist	14	2.2
+7) Interfaith	27	4.2
+8) Presbyterian	6	0.9
+9) Seventh Day Adventist	5	0.8
+10) Quaker	7	1.1
+11) Protestant Unspecified	11	1.7
+12) Orthodox	4	0.6
+13) Anglican	5	0.8
+14) Evangelical	15	2.3
+15) Baha'i'	1	0.2
+16) Baptist	4	0.6
+17) Coptic	1	0.2
+18) Jewish and Christian	3	0.5
+19) Methodist	6	0.9
+20) Church of Christ	1	0.2
+21) Lutheran	7	1.1
+22) Pentecostal	1	0.2
+23) Episcopalian	3	0.5
+24) Hare Krishna	1	0.2
+25) Hindu	1	0.2
+26) Mennonite	2	0.3
+27) Sikh	2	0.3
+28) Unitarian	5	0.8
+29) United Church of Canada	1	0.2
+30) United Church of Christ	1	0.2
+31) Netherlands Reformed Church	1	0.2
+99) Non-sectarian	1	0.2
+999) Not sure	25	3.9
+
+
+10) RELIGID2
+Religious Identity and 2nd Religious Identity (RELIGID1 and RELIGID2):  These two variables refer to the faith tradition(s) that the organization explicitly identifies as relevant to its organizational identity or mission. Some groups identified as 'interfaith' (multiple distinct religions) or 'ecumenical' (multiple denominations within Christianity). (REL_IDENT2)
+RANGE: 12 to 99
+	N	Mean	Std. Deviation
+Total	640	97.581	10.75
+12) Orthodox	4	0.6
+14) Evangelical	1	0.2
+16) Baptist	1	0.2
+19) Methodist	1	0.2
+21) Lutheran	4	0.6
+99) N/A	629	98.3
+
+
+11) INSTAFFL
+Affiliation with Religious Institution (INST_AFFIL)
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	640	1.838	2.554
+0) No evidence of formal affiliation with a formal religious organization or institution.	256	40.0
+1) The organization is itself a religious organization, such as a church, temple, yearly meeting (Quaker), etc., or the organization is itself a 'council of churches,' 'conference of bishops,' or other organizational structure that represents a formal alliance of church bodies or other religious equivalents.	83	13.0
+2) The 'organization' is actually a program of a church, temple, synagogue, council of churches, etc.	189	29.5
+3) The organization is a Roman Catholic 'justice and peace commission' inspired by Vatican II, usually led by bishops.	38	5.9
+4) The organization has been formally recognized by the Holy See as an International Catholic Organization (ICO).	13	2.0
+9) Not clear, but some evidence suggests that it is probably a religious organization or a program of a religious organization (1, 2, 3 or 4).	61	9.5
+
+
+12) RELNAME
+Evidence of Religious Association: Religion is mentioned in the NGO's name (REL_NAME)
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	640	4.836	4.154
+0) No, neither a particular religion nor religion in general is explicitly mentioned in the NGO's name	89	13.9
+1) Yes, a particular religion, or religion in general is explicitly mentioned in the NGO's name	233	36.4
+9) N/A	318	49.7
+
+
+13) RELINSP
+Evidence of Religious Association: Inspired by Religion (REL_INSPIRE)
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	640	4.641	4.349
+0) No, evidence was not found that the NGO identifies its human rights mission as rooted in the teachings of a particular religion or religions.	214	33.4
+1) Yes, evidence was found that the NGO identifies its human rights mission as rooted in the teachings of a particular religion or religions.	108	16.9
+9) N/A	318	49.7
+
+
+14) RELACTIV
+Evidence of Religious Association: Religious Activities (REL_ACTIV)
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	640	4.638	4.352
+0) No, evidence did not suggest that the NGO engages in activities such as prayer, worship, observance of religious practice, or religious teaching.  There were no scriptural or other explicitly religious references on the organization's website.	216	33.8
+1) Yes, the NGO engages in activities such as prayer, worship, observance of religious practice, religious teaching, or the use of religious references (such as scripture) on its website.	106	16.6
+9) N/A	318	49.7
+
+
+15) RELMOBIL
+Evidence of Religious Association: Religious Mobilization (REL_MOBILIZE)
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	640	4.789	4.202
+0) No, evidence was not found that the mobilization of religious persons, whether clergy or laity, around human rights concerns was among the NGO's activities.	119	18.6
+1) Yes, evidence was found that the mobilization of religious persons, whether clergy or laity, around human rights concerns was among the NGO's activities.  This would also include organizations that were founded by clergy (priests, nuns, rabbis, etc.).	203	31.7
+9) N/A	318	49.7
+
+
+16) EVANGPRE
+Evidence of Religious Association: Evangelism (EVANG_PRES)
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	640	4.606	4.381
+0) No, there was no evidence suggesting the organization engages in some attempt to share its religion with others.	236	36.9
+1) Yes, there was evidence suggesting the organization engages in some attempt to share its religion with others.	86	13.4
+9) N/A	318	49.7
+
+
+17) EVANGTYP
+Type Evidence of Evangelism (EVANG_TYPE)
+RANGE: 1 to 24
+	N	Mean	Std. Deviation
+Total	640	8.328	2.853
+1) Seeking Converts or New Members of Religion	28	4.4
+2) Religious Education Only	26	4.1
+3) Social Evangelism Only	18	2.8
+4) Distribution of Religious Materials Only	6	0.9
+9) Not applicable	554	86.6
+23) Engages in both Religious Education and Social Evangelism.	6	0.9
+24) Engages in both Religious Education and Distribution of Religious Materials.	2	0.3
+
+
+18) UNCNSLT
+Consultative Status (UN_CNSLT)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	640	0.563	0.875
+0) No. The organization does not have UN consultative status.	431	67.3
+1) Yes. The organization does have UN consultative status.	73	11.4
+2) The organization does not itself have consultative status but is a formal entity of the Roman Catholic Church, which itself has observer (quasi-state) status at the UN.	121	18.9
+3) The organization does not itself have consultative status but is a 'child' (e.g. program) of a parent organization that does have UN consultative status.	15	2.3
+
+
+19) UNCNSLTY
+The year the organization was granted consultative status. (UN_CNSLT_YEAR)
+RANGE: 8 to 2007
+	N	Mean	Std. Deviation
+Total	640	285.419	661.001
+8) Not sure. The organization has consultative status, but the year it was obtained could not be located.	1	0.2
+9) Not applicable (neither the organization nor its parent has consultative status).	431	67.3
+99) The organization does not itself have consultative status, but is a formal entity of the Roman Catholic Church, which itself has observer (quasi-state) status at the UN.	124	19.4
+1947)	6	0.9
+1948)	5	0.8
+1949)	2	0.3
+1951)	1	0.2
+1952)	4	0.6
+1967)	1	0.2
+1969)	1	0.2
+1970)	2	0.3
+1972)	1	0.2
+1973)	1	0.2
+1974)	2	0.3
+1975)	1	0.2
+1979)	6	0.9
+1982)	1	0.2
+1983)	1	0.2
+1985)	6	0.9
+1987)	1	0.2
+1989)	1	0.2
+1995)	5	0.8
+1996)	5	0.8
+1997)	9	1.4
+1998)	7	1.1
+1999)	1	0.2
+2000)	3	0.5
+2001)	1	0.2
+2002)	1	0.2
+2003)	1	0.2
+2004)	5	0.8
+2005)	1	0.2
+2006)	1	0.2
+2007)	1	0.2
+
+
+20) UNCNSTYP
+Type of Consultative Status: (UN_CNSLT_TYPE)
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	640	6.417	2.355
+1) General	16	2.5
+2) Special	57	8.9
+3) Roster	15	2.3
+4) The organization does not itself have consultative status, but is formal entity of the Roman Catholic Church, which itself has observer (quasi-state) status at the UN.	121	18.9
+8) N/A	431	67.3
+
+
+21) HRNONREL
+Human Rights Focus: Non-Religious Human Rights (HR1)
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	640	0.909	0.649
+0) No	82	12.8
+1) Yes	555	86.7
+9) No info	3	0.5
+
+
+22) HRRELFRD
+Human Rights Focus: Religious Freedom (HR2)
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	640	0.288	0.737
+0) No	480	75.0
+1) Yes	157	24.5
+9) No info	3	0.5
+
+
+23) HRRELGRP
+Human Rights Focus: Human rights for a particular religion (HR3)
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	640	1.18	7.124
+0) None. Does not focus on human rights for a particular religious group.	530	82.8
+1) Jewish	33	5.2
+2) Muslim	14	2.2
+3) Buddhist	7	1.1
+4) Christian unspecified	30	4.7
+5) Baha'i'	2	0.3
+6) Presbyterian	2	0.3
+7) Baptist	1	0.2
+8) Coptic	1	0.2
+9) Catholic	4	0.6
+10) Protestant unspecified	1	0.2
+11) Evangelical	1	0.2
+12) Orthodox	3	0.5
+13) Jewish and Christian	2	0.3
+14) Hare Krishna	2	0.3
+15) Sikh	1	0.2
+16) Dalit	1	0.2
+17) Jews and Palestinians	1	0.2
+24) Muslim and Christian	1	0.2
+99) Not sure (no info)	3	0.5
+
+
+24) HREVANG
+Human Rights Focus: Right to Evangelize (HR4)
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	640	0.148	0.682
+0) No	569	88.9
+1) Yes	68	10.6
+9) No info	3	0.5
+
+
+25) HRINDIGE
+Human Rights Focus: Indigenous Rights (HR5)
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	640	0.064	0.631
+0) No	623	97.3
+1) Yes	14	2.2
+9) No info	3	0.5
+
+
+26) CNTYFCS1
+Country Focus (CNTYFCS1, CNTYFCS2, CNTYFCS3): There are three 'country focus' variables, which account for organizational focuses on up to three individual countries.  The individual countries are not themselves coded (instead the actual names of the countries are in the dataset).  Organizations that focus on more than three countries are coded as '3,' and information is provided on the regions on which they focus. (CNTRY_FOCUS)
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	640		
+
+
+27) CNTYFCS2
+Country Focus (CNTYFCS1, CNTYFCS2, CNTYFCS3): There are three 'country focus' variables, which account for organizational focuses on up to three individual countries.  The individual countries are not themselves coded (instead the actual names of the countries are in the dataset).  Organizations that focus on more than three countries are coded as '3,' and information is provided on the regions on which they focus. (CNTRY_FOCUS2)
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	640		
+
+
+28) CNTYFCS3
+Country Focus (CNTYFCS1, CNTYFCS2, CNTYFCS3): There are three 'country focus' variables, which account for organizational focuses on up to three individual countries.  The individual countries are not themselves coded (instead the actual names of the countries are in the dataset).  Organizations that focus on more than three countries are coded as '3,' and information is provided on the regions on which they focus. (CNTRY_FOCUS3)
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	640		
+
+
+29) REGNFCS1
+Region Focus (REGNFCS1, REGNFCS2, REGNFCS3): For organizations that focus on more than three countries, three 'regional focus' variables were created. (REGION_FOCUS)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	640	64.063	39.919
+1) Africa	36	5.6
+2) Latin America and/or Caribbean	31	4.8
+3) Former USSR	19	3.0
+4) Central, Southern, or Western Asia	14	2.2
+5) East or South-East Asia	1	0.2
+6) Eastern Europe only	4	0.6
+7) Europe	2	0.3
+8) Oceania	3	0.5
+33) More than three regions.	178	27.8
+99) N/A	352	55.0
+
+
+30) REGNFCS2
+Region Focus (REGNFCS1, REGNFCS2, REGNFCS3): For organizations that focus on more than three countries, three 'regional focus' variables were created. (REGION_FOCUS2)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	640	93.689	21.774
+1) Africa	2	0.3
+2) Latin America and/or Caribbean	4	0.6
+3) Former USSR	1	0.2
+4) Central, Southern, or Western Asia	4	0.6
+5) East or South-East Asia	17	2.7
+6) Eastern Europe only	5	0.8
+7) Europe	3	0.5
+99) N/A	604	94.4
+
+
+31) REGNFCS3
+Region Focus (REGNFCS1, REGNFCS2, REGNFCS3): For organizations that focus on more than three countries, three 'regional focus' variables were created. (REGION_FOCUS3)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	639	98.255	8.396
+1) Africa	1	0.2
+4) Central, Southern, or Western Asia	2	0.3
+5) East or South-East Asia	2	0.3
+99) N/A	634	99.2
+Missing	1
+
+
+32) CASENUM
+Original Case Number: The original case numbers, combined with the variables ORGTIE and DUPLTYPE (see below) allow users to link HR programs with the religious organizations that sponsor them in cases where both the organization and the program were listed in the directory (see above and below). (CASE_NUM)
+RANGE: 1 to 834
+	N	Mean	Std. Deviation
+Total	640	417.964	232.385
+
+
+33) NUMBRNCH
+Number of Branches: For international organizations that were coded as either '0' or '4' for the variable INSTAFFL (Affiliation with Religious Institution) this variable refers the number of countries in which the organization has branches. (NUM_BRANCHES)
+RANGE: 1 to 163
+	N	Mean	Std. Deviation
+Total	46	39.261	41.624
+1)	5	10.9
+2)	1	2.2
+3)	4	8.7
+4)	3	6.5
+5)	2	4.3
+7)	1	2.2
+8)	2	4.3
+10)	1	2.2
+14)	1	2.2
+15)	2	4.3
+18)	1	2.2
+28)	1	2.2
+29)	1	2.2
+35)	1	2.2
+36)	1	2.2
+38)	2	4.3
+43)	1	2.2
+50)	2	4.3
+57)	1	2.2
+76)	1	2.2
+78)	1	2.2
+79)	1	2.2
+80)	1	2.2
+83)	1	2.2
+84)	1	2.2
+85)	1	2.2
+101)	2	4.3
+108)	1	2.2
+109)	1	2.2
+119)	1	2.2
+163)	1	2.2
+Missing	594
+
+
+34) BRAFRICA
+Location of Branches: Africa (BR_AFRICA)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	46	0.63	0.488
+0) No	17	37.0
+1) Yes	29	63.0
+Missing	594
+
+
+35) BRLTNAMR
+Location of Branches: Latin America and/or Caribbean (BR_LTN_AMER)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	46	0.63	0.488
+0) No	17	37.0
+1) Yes	29	63.0
+Missing	594
+
+
+36) BRNRTHAM
+Location of Branches: North America (BR_NRTH_AMER)
+RANGE: 0 to 8
+	N	Mean	Std. Deviation
+Total	46	0.935	1.143
+0) No	10	21.7
+1) Yes	35	76.1
+8) Not sure	1	2.2
+Missing	594
+
+
+37) BRWASIA
+Location of Branches: Central, Southern, or Western Asia (BR_W_ASIA)
+RANGE: 0 to 8
+	N	Mean	Std. Deviation
+Total	46	0.739	1.201
+0) No	19	41.3
+1) Yes	26	56.5
+8) Not sure	1	2.2
+Missing	594
+
+
+38) BREASIA
+Location of Branches: East or South-East Asia (BR_E_ASIA)
+RANGE: 0 to 8
+	N	Mean	Std. Deviation
+Total	46	0.717	1.205
+0) No	20	43.5
+1) Yes	25	54.3
+8) Not sure	1	2.2
+Missing	594
+
+
+39) BREEURO
+Location of Branches: Eastern Europe only (BR_E_EUROPE)
+RANGE: 0 to 8
+	N	Mean	Std. Deviation
+Total	46	0.696	1.209
+0) No	21	45.7
+1) Yes	24	52.2
+8) Not sure	1	2.2
+Missing	594
+
+
+40) BRWEURO
+Location of Branches: Europe (BR_W_EUROPE)
+RANGE: 0 to 8
+	N	Mean	Std. Deviation
+Total	46	1	1.116
+0) No	7	15.2
+1) Yes	38	82.6
+8) Not sure	1	2.2
+Missing	594
+
+
+41) BROCEANI
+Location of Branches: Oceania (BR_OCEANIA)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	46	0.435	0.501
+0) No	26	56.5
+1) Yes	20	43.5
+Missing	594
+
+
+42) ORGTIE
+Organizational Tie: Some of the cases in the dataset are actually human rights programs that are affiliated with religious organizations that also have profiles in the HRI directory.  To avoid counting these 'duplicates,' for each such human rights program, this variable indicates the original case number (CASENUM) for the parent religious organization to which it belongs. (ORG_TIE)
+RANGE: 24 to 831
+	N	Mean	Std. Deviation
+Total	56	381.875	268.805
+24)	1	1.8
+28)	1	1.8
+35)	1	1.8
+69)	7	12.5
+75)	1	1.8
+94)	1	1.8
+102)	1	1.8
+115)	4	7.1
+117)	1	1.8
+202)	4	7.1
+275)	1	1.8
+306)	1	1.8
+315)	1	1.8
+316)	3	5.4
+381)	1	1.8
+384)	2	3.6
+428)	2	3.6
+444)	2	3.6
+548)	1	1.8
+568)	1	1.8
+571)	1	1.8
+599)	1	1.8
+600)	3	5.4
+602)	2	3.6
+657)	1	1.8
+725)	1	1.8
+748)	1	1.8
+764)	2	3.6
+766)	1	1.8
+767)	2	3.6
+771)	2	3.6
+801)	1	1.8
+831)	1	1.8
+Missing	584
+
+
+43) DUPLTYPE
+Type of Duplicate: Some of the cases in the dataset are actually human rights programs that are affiliated with religious organizations that also have profiles in the HRI directory.  For such programs, this variable indicates whether the case is the 'parent' religious organization, or the human rights program. (DUPLICATE_TYPE)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	87	1.644	0.482
+1) Religious organization that has a human rights program(s) in the dataset	31	35.6
+2) Human rights program affiliated with the religious organization in the dataset	56	64.4
+Missing	553
+
+
+44) NOTES
+Notes
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	5		
+
+

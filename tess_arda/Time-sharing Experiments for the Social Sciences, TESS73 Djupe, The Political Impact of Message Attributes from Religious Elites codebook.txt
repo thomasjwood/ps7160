@@ -1,0 +1,730 @@
+Data File: TESS73(Full Data Codebook)
+
+1) CASEID
+Case Indentifier
+RANGE: 1 to 948
+	N	Mean	Std. Deviation
+Total	948	474.5	273.808
+
+
+2) WEIGHT
+Post-stratification weights: Gen. pop. cases
+RANGE: 0.13 to 3.85
+	N	Mean	Std. Deviation
+Total	583	1	0.753
+
+
+3) WEIGHT2
+Post-stratification weights: Protestant cases
+RANGE: 0.14 to 8.87
+	N	Mean	Std. Deviation
+Total	537	1	1.258
+
+
+4) QFLAG
+DATA ONLY: Qualification flag
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	948	1.004	0.065
+1) Qualified	944	99.6
+2) Not Qualified	4	0.4
+
+
+5) INCLUDE
+Cases to include in final analyses
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	948	0.996	0.065
+0) Exclude (cases that refused more than one-third of all variables)	4	0.4
+1) Include (cases who answered two-thirds or more of all variables)	944	99.6
+
+
+6) CONDITIO
+Data only: condition
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	948	2.507	1.115
+1) Condition 1: source absent, process absent	232	24.5
+2) Condition 2: source absent, process present	241	25.4
+3) Condition 3: source present, process absent	237	25.0
+4) Condition 4: source present, process present	238	25.1
+
+
+7) Q1
+Q1: At this point, we would like your thoughts on this issue.  Do you agree or disagree with the following statement: The U.S. government needs to do more to address the issue of global warming
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	948	1.968	1.108
+-1) Refused	1	0.1
+1) Strongly agree	411	43.4
+2) Somewhat agree	289	30.5
+3) Neither agree nor disagree	153	16.1
+4) Somewhat disagree	51	5.4
+5) Strongly disagree	43	4.5
+
+
+8) Q2
+Q2: How important is the issue of global warming for you personally?
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	948	3.154	1.191
+-1) Refused	3	0.3
+1) Not at all important	77	8.1
+2) Slightly important	214	22.6
+3) Fairly important	263	27.7
+4) Very important	256	27.0
+5) Extremely important	135	14.2
+
+
+9) Q3
+Q3: Do you agree or disagree with the following statement?  I consider myself an environmentalist.
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	948	2.595	1.063
+-1) Refused	4	0.4
+1) Strongly agree	125	13.2
+2) Somewhat agree	330	34.8
+3) Neither agree nor disagree	337	35.5
+4) Somewhat disagree	92	9.7
+5) Strongly disagree	60	6.3
+
+
+10) Q4
+Q4: Switching subjects, what religious denomination or faith, if any, do you consider yourself?
+RANGE: -1 to 7
+	N	Mean	Std. Deviation
+Total	948	2.3	2.022
+-1) Refused	3	0.3
+1) Protestant	537	56.6
+2) Catholic	133	14.0
+3) Some other Christian	111	11.7
+4) Jewish	15	1.6
+5) Muslim	1	0.1
+6) Other	54	5.7
+7) None, nothing, secular	94	9.9
+
+
+11) Q4A
+Q4A: What denomination is that?
+RANGE: -2 to 17
+	N	Mean	Std. Deviation
+Total	948	2.514	5.645
+-2) Not asked	411	43.4
+-1) Refused	3	0.3
+1) Baptist	46	4.9
+2) Lutheran	91	9.6
+3) Methodist	137	14.5
+4) Presbyterian	76	8.0
+5) Reformed	5	0.5
+6) Christian Church	13	1.4
+7) United Church of Christ	16	1.7
+8) Episcopal	42	4.4
+10) Assemblies of God	5	0.5
+11) Disciples of Christ	1	0.1
+12) Pentecostal	7	0.7
+13) Holiness	1	0.1
+14) Brethren	3	0.3
+15) Friends	2	0.2
+16) Some other Protestant	29	3.1
+17) Just Protestant	60	6.3
+
+
+12) Q5
+Q5: Do you agree or disagree with the following statement? I would describe myself as a ‘born again' or evangelical Christian.
+RANGE: -1 to 5
+	N	Mean	Std. Deviation
+Total	948	3.359	1.622
+-1) Refused	9	0.9
+1) Strongly agree	192	20.3
+2) Somewhat agree	88	9.3
+3) Neither agree nor disagree	194	20.5
+4) Somewhat disagree	82	8.6
+5) Strongly disagree	383	40.4
+
+
+13) Q6
+Q6: Lots of things come up that keep people from attending religious services even if they want to.  Apart from occasional weddings, baptisms or funerals, do you go to religious services more than once a week, every week, almost every week, once or twice a month, a few times a year, or never?
+RANGE: -1 to 6
+	N	Mean	Std. Deviation
+Total	948	4.096	1.834
+-1) Refused	6	0.6
+1) More than once a week	82	8.6
+2) Every week	184	19.4
+3) Almost every week	97	10.2
+4) Once or twice a month	67	7.1
+5) A few times a year	192	20.3
+6) Seldom to never	320	33.8
+
+
+14) Q7
+Q7: We'd like to get your feelings toward some groups who are in the news these days using something called a feeling thermometer.  Your can choose any number between 0 and 100.  The higher the number, the warmer or more favorable you feel toward that group; the lower the number, the colder or less favorable.  You would rate a group at the 50 degree mark if you feel neither warm nor cold toward them. [INSERT picture of thermometer here with 0=Cold, 100=Warm]  How would you rate evangelical Protestants?
+RANGE: -1 to 100
+	N	Mean	Std. Deviation
+Total	948	48.669	26.856
+-1) Refused	2	0.2
+5)	96	10.1
+10)	33	3.5
+15)	28	3.0
+20)	29	3.1
+25)	44	4.6
+30)	27	2.8
+35)	23	2.4
+40)	25	2.6
+45)	32	3.4
+50)	310	32.7
+55)	33	3.5
+60)	26	2.7
+65)	24	2.5
+70)	24	2.5
+75)	31	3.3
+80)	29	3.1
+85)	31	3.3
+90)	23	2.4
+95)	18	1.9
+100)	60	6.3
+
+
+15) Q8
+Q8: We'd like to get your feelings toward some groups who are in the news these days using something called a feeling thermometer.  Your can choose any number between 0 and 100.  The higher the number, the warmer or more favorable you feel towards that group; the lower the number, the colder or less favorable.  You would rate a group at the 50 degree mark if you feel neither warm nor cold towards them.  [INSERT picture of thermometer here with 0=Cold, 100=Warm]  How would you rate environmentalists?
+RANGE: -1 to 100
+	N	Mean	Std. Deviation
+Total	948	58.531	25.318
+-1) Refused	3	0.3
+5)	45	4.7
+10)	12	1.3
+15)	16	1.7
+20)	22	2.3
+25)	21	2.2
+30)	32	3.4
+35)	27	2.8
+40)	34	3.6
+45)	30	3.2
+50)	192	20.3
+55)	38	4.0
+60)	56	5.9
+65)	54	5.7
+70)	62	6.5
+75)	60	6.3
+80)	58	6.1
+85)	44	4.6
+90)	49	5.2
+95)	33	3.5
+100)	60	6.3
+
+
+16) PARTY3
+DATA-ONLY: Combined data PARTY3. Generally speaking, do you consider yourself a:?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	948	2.007	0.974
+1) Republican	446	47.0
+2) Other	49	5.2
+3) Democrat	453	47.8
+
+
+17) PARTY7
+DATA-ONLY: Combined data PARTY7
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	948	3.999	2.203
+1) Strong Republican	184	19.4
+2) Not strong Republican	129	13.6
+3) Leans Republican	133	14.0
+4) Undecided/Independent/Other	49	5.2
+5) Leans Democrat	149	15.7
+6) Not strong Democrat	119	12.6
+7) Strong Democrat	185	19.5
+
+
+18) IDEOLOGY
+Political ideology
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	948	4.272	1.476
+1) Extremely liberal	19	2.0
+2) Liberal	133	14.0
+3) Slightly liberal	84	8.9
+4) Moderate, middle of the road	325	34.3
+5) Slightly conservative	153	16.1
+6) Conservative	202	21.3
+7) Extremely conservative	26	2.7
+9) Missing data	6	0.6
+
+
+19) PPAGE
+Age
+RANGE: 18 to 97
+	N	Mean	Std. Deviation
+Total	948	51.81	17.368
+18)	3	0.3
+19)	13	1.4
+20)	5	0.5
+21)	8	0.8
+22)	7	0.7
+23)	15	1.6
+24)	9	0.9
+25)	17	1.8
+26)	9	0.9
+27)	17	1.8
+28)	17	1.8
+29)	10	1.1
+30)	9	0.9
+31)	11	1.2
+32)	10	1.1
+33)	12	1.3
+34)	8	0.8
+35)	14	1.5
+36)	11	1.2
+37)	11	1.2
+38)	21	2.2
+39)	15	1.6
+40)	8	0.8
+41)	18	1.9
+42)	16	1.7
+43)	16	1.7
+44)	26	2.7
+45)	14	1.5
+46)	19	2.0
+47)	10	1.1
+48)	24	2.5
+49)	20	2.1
+50)	24	2.5
+51)	17	1.8
+52)	19	2.0
+53)	17	1.8
+54)	21	2.2
+55)	19	2.0
+56)	16	1.7
+57)	21	2.2
+58)	14	1.5
+59)	26	2.7
+60)	17	1.8
+61)	16	1.7
+62)	17	1.8
+63)	14	1.5
+64)	22	2.3
+65)	14	1.5
+66)	13	1.4
+67)	18	1.9
+68)	17	1.8
+69)	15	1.6
+70)	14	1.5
+71)	17	1.8
+72)	10	1.1
+73)	9	0.9
+74)	12	1.3
+75)	16	1.7
+76)	12	1.3
+77)	12	1.3
+78)	7	0.7
+79)	8	0.8
+80)	10	1.1
+81)	11	1.2
+82)	7	0.7
+83)	3	0.3
+84)	5	0.5
+85)	5	0.5
+86)	2	0.2
+87)	1	0.1
+88)	1	0.1
+89)	1	0.1
+90)	1	0.1
+92)	2	0.2
+94)	1	0.1
+97)	1	0.1
+
+
+20) AGEGROUP
+Age group
+RANGE: 2 to 8
+	N	Mean	Std. Deviation
+Total	948	5.213	1.727
+2) 18-24	60	6.3
+3) 25-34	120	12.7
+4) 35-44	156	16.5
+5) 45-54	185	19.5
+6) 55-64	182	19.2
+7) 65-74	139	14.7
+8) 75 and over	106	11.2
+
+
+21) PPDAULIN
+Dual income household
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	948	0.539	0.499
+0) No	437	46.1
+1) Yes	511	53.9
+
+
+22) PPEDUC
+Education (highest degree received)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	948	4.239	1.753
+1) Less than high school	27	2.8
+2) Some high school, no diploma	87	9.2
+3) Graduated from high school, diploma or equivalent (GED)	309	32.6
+4) Some college, no degree	171	18.0
+5) Associate degree (AA, AS)	70	7.4
+6) Bachelor's degree	166	17.5
+7) Master's degree	94	9.9
+8) Professional degree (MD, DDS, LLB, JD)	13	1.4
+9) Doctorate degree	11	1.2
+
+
+23) PPEDUCAT
+Education (categorical)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	948	2.733	1.018
+1) Less than high school	114	12.0
+2) High school	309	32.6
+3) Some college	241	25.4
+4) Bachelor's degree or higher	284	30.0
+
+
+24) PPETHM
+Race/ethnicity
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	948	1.455	1.022
+1) White, non-Hispanic	757	79.9
+2) Black, non-Hispanic	69	7.3
+3) Other, non-Hispanic	23	2.4
+4) Hispanic	80	8.4
+5) Two-plus races, non-Hispanic	19	2.0
+
+
+25) PPGENDER
+Gender
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	948	1.526	0.5
+1) Male	449	47.4
+2) Female	499	52.6
+
+
+26) PPHHHEAD
+Household head
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	948	0.829	0.377
+0) No	162	17.1
+1) Yes	786	82.9
+
+
+27) PPHHSIZE
+Household size
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	948	2.493	1.293
+1)	201	21.2
+2)	389	41.0
+3)	158	16.7
+4)	126	13.3
+5)	49	5.2
+6)	18	1.9
+7)	4	0.4
+8)	2	0.2
+9)	1	0.1
+
+
+28) PPHOUSE
+Housing type
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	948	1.878	1.539
+1) A single-family house detached	644	67.9
+2) A single-family house attached	57	6.0
+3) An apartment	129	13.6
+4) A condominium or co-op	42	4.4
+5) College dormitory	1	0.1
+6) A manufactured or mobile home	63	6.6
+7) Other	12	1.3
+
+
+29) PPINCIMP
+Household income
+RANGE: 1 to 19
+	N	Mean	Std. Deviation
+Total	948	10.551	4.096
+1) Less than $5,000	19	2.0
+2) $5,000 to $7,499	27	2.8
+3) $7,500 to $9,999	15	1.6
+4) $10,000 to $12,499	26	2.7
+5) $12,500 to $14,999	25	2.6
+6) $15,000 to $19,999	47	5.0
+7) $20,000 to $24,999	61	6.4
+8) $25,000 to $29,999	61	6.4
+9) $30,000 to $34,999	63	6.6
+10) $35,000 to $39,999	76	8.0
+11) $40,000 to $49,999	110	11.6
+12) $50,000 to $59,999	102	10.8
+13) $60,000 to $74,999	101	10.7
+14) $75,000 to $84,999	56	5.9
+15) $85,000 to $99,999	48	5.1
+16) $100,000 to $124,999	55	5.8
+17) $125,000 to $149,999	26	2.7
+18) $150,000 to $174,999	12	1.3
+19) $175,000 or more	18	1.9
+
+
+30) PPMARIT
+Marital status
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	948	1.709	1.01
+1) Married	559	59.0
+2) Single (never married)	197	20.8
+3) Divorced	112	11.8
+4) Widowed	69	7.3
+5) Separated	11	1.2
+
+
+31) PPMSACAT
+MSA status
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	948	0.826	0.379
+0) Non-Metro	165	17.4
+1) Metro	783	82.6
+
+
+32) PPNET
+Household with Internet access
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	948	0.636	0.481
+0) No	345	36.4
+1) Yes	603	63.6
+
+
+33) PPREG4
+Region 4: based on state of residence
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	948	2.598	1.068
+1) Northeast	203	21.4
+2) Midwest	198	20.9
+3) South	324	34.2
+4) West	223	23.5
+
+
+34) PPRENT
+Ownership status of living quarters
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	948	1.343	0.595
+1) Own	684	72.2
+2) Rent	203	21.4
+3) Do not pay for housing	61	6.4
+
+
+35) PPSTATEN
+State
+RANGE: 11 to 95
+	N	Mean	Std. Deviation
+Total	948	54.297	26.152
+11) ME	6	0.6
+12) NH	7	0.7
+13) VT	4	0.4
+14) MA	31	3.3
+15) RI	3	0.3
+16) CT	13	1.4
+21) NY	54	5.7
+22) NJ	23	2.4
+23) PA	62	6.5
+31) OH	35	3.7
+32) IN	18	1.9
+33) IL	22	2.3
+34) MI	33	3.5
+35) WI	23	2.4
+41) MN	14	1.5
+42) IA	12	1.3
+43) MO	22	2.3
+44) ND	3	0.3
+45) SD	3	0.3
+46) NE	5	0.5
+47) KS	8	0.8
+51) DE	3	0.3
+52) MD	22	2.3
+53) DC	1	0.1
+54) VA	18	1.9
+55) WV	11	1.2
+56) NC	29	3.1
+57) SC	9	0.9
+58) GA	24	2.5
+59) FL	59	6.2
+61) KY	13	1.4
+62) TN	22	2.3
+63) AL	11	1.2
+64) MS	6	0.6
+71) AR	15	1.6
+72) LA	8	0.8
+73) OK	15	1.6
+74) TX	58	6.1
+81) MT	5	0.5
+82) ID	8	0.8
+83) WY	3	0.3
+84) CO	15	1.6
+85) NM	1	0.1
+86) AZ	26	2.7
+88) NV	10	1.1
+91) WA	35	3.7
+92) OR	14	1.5
+93) CA	101	10.7
+94) AK	3	0.3
+95) HI	2	0.2
+
+
+36) PPT01
+Presence of household members: children under 2
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	948	0.022	0.161
+0)	929	98.0
+1)	17	1.8
+2)	2	0.2
+
+
+37) PPT1317
+Presence of household members: children 13-17
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	948	0.133	0.425
+0)	851	89.8
+1)	70	7.4
+2)	25	2.6
+3)	2	0.2
+
+
+38) PPT18OV
+Presence of household members: adults 18+
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	948	2.073	0.896
+1)	220	23.2
+2)	530	55.9
+3)	132	13.9
+4)	49	5.2
+5)	12	1.3
+6)	3	0.3
+7)	1	0.1
+8)	1	0.1
+
+
+39) PPT25
+Presence of household members: children 2-5
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	948	0.103	0.382
+0)	872	92.0
+1)	57	6.0
+2)	16	1.7
+3)	3	0.3
+
+
+40) PPT612
+Presence of household members: children 6-12
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	948	0.161	0.489
+0)	836	88.2
+1)	77	8.1
+2)	31	3.3
+3)	2	0.2
+4)	2	0.2
+
+
+41) PPWORK
+Current employment status
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	948	3.855	2.889
+1) I work as a paid employee	417	44.0
+2) I am self-employed	56	5.9
+3) I am an owner/partner in small business, professional practice, farm	16	1.7
+4) I work at least 15 hours per week without pay in family business/farm	1	0.1
+5) I am unemployed, temporarily laid off, but looking for work	32	3.4
+6) I am retired	233	24.6
+7) I am disabled	66	7.0
+8) I am a homemaker	89	9.4
+9) Other	38	4.0
+
+
+42) DT_START
+Date interview started
+RANGE: 20060526 to 20060531
+	N	Mean	Std. Deviation
+Total	948	20060527.339	1.709
+20060526)	349	36.8
+20060527)	253	26.7
+20060528)	114	12.0
+20060529)	143	15.1
+20060530)	86	9.1
+20060531)	3	0.3
+
+
+43) TM_START
+Time interview started
+RANGE: 751 to 234942
+	N	Mean	Std. Deviation
+Total	948	129453.514	53695.825
+
+
+44) DT_END
+Date interview ended
+RANGE: 20060526 to 20060531
+	N	Mean	Std. Deviation
+Total	948	20060527.377	1.73
+20060526)	337	35.5
+20060527)	255	26.9
+20060528)	114	12.0
+20060529)	149	15.7
+20060530)	90	9.5
+20060531)	3	0.3
+
+
+45) TM_END
+Time interview ended
+RANGE: 1100 to 235324
+	N	Mean	Std. Deviation
+Total	948	130205.919	53758.865
+
+
+46) INT_DUR
+Survey length in minutes
+RANGE: 0.366666666666667 to 6241.35
+	N	Mean	Std. Deviation
+Total	948	59.377	476.459
+
+
+47) CAT_DUR
+Survey length in categories
+RANGE: 1 to 21
+	N	Mean	Std. Deviation
+Total	948	2.27	2.856
+1) Less than five minutes	284	30.0
+2) 5 to 9:59	542	57.2
+3) 10 to 14:59	72	7.6
+4) 15 to 19:59	17	1.8
+5) 20 to 24:59	6	0.6
+6) 25 to 29:59	2	0.2
+7) 30 to 34:59	1	0.1
+8) 35 to 39:59	2	0.2
+9) 40 to 44:59	1	0.1
+11) 50 to 54:59	1	0.1
+16) 75 to 79:59	1	0.1
+21) More than 100 minutes	19	2.0
+
+
+48) RESUME
+Interview type
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	948	0.02	0.14
+0) Not a resumed interview (duration less than 100 minutes)	929	98.0
+1) Resumed interview (duration 100 minutes or more)	19	2.0
+
+

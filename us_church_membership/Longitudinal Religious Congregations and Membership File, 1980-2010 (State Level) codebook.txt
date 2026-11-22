@@ -1,0 +1,136 @@
+Data File: RCMSMGST (Full Data Codebook)
+
+1) STFIP
+State FIPS Code
+RANGE: 1 to 56
+	N	Mean	Std. Deviation
+Total	18310	28.597	15.481
+
+
+2) STATEAB
+State abbreviation
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	18310	0	0
+
+
+3) YEAR
+Year of data collection
+RANGE: 1980 to 2010
+	N	Mean	Std. Deviation
+Total	18310	1997.943	11.184
+1980) 	3299	18.0
+1990) 	3824	20.9
+2000) 	4532	24.8
+2010) 	6655	36.3
+
+
+4) TOTPOP
+Total population
+RANGE: 406681 to 37253956
+	N	Mean	Std. Deviation
+Total	18223	6482855.419	6599806.758
+
+
+5) GRPCODE
+Religious group three-digit code (GROUPCODE)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	18310	0	0
+
+
+6) GRPNAME
+Religious group name description GROUPNAME)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	18310	0	0
+
+
+7) ADHERENT
+Number of adherents (ADHERENTS)
+RANGE: 0 to 10233334
+	N	Mean	Std. Deviation
+Total	18310	32536.059	233072.444
+
+
+8) CONGREG
+Number of congregations (CONGREGATIONS)
+RANGE: 0 to 12501
+	N	Mean	Std. Deviation
+Total	18310	72.492	281.742
+
+
+9) RELTRAD
+Religious tradition category - based on Steensland et al (2000)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	18310	1.995	1.495
+1) Evangelical Protestant	10827	59.1
+2) Mainline Protestant	3281	17.9
+3) Catholic	232	1.3
+4) Other	2022	11.0
+5) Orthodox	1341	7.3
+6) Black Protestant	607	3.3
+
+
+10) FAMILY
+Religious family category - created by theARDA.com
+RANGE: 87 to 115
+	N	Mean	Std. Deviation
+Total	18139	95.376	6.844
+87) Catholicism	250	1.4
+88) Episcopalianism/Anglicanism	482	2.7
+89) Eastern Liturgical (Orthodox)	1341	7.4
+90) Lutheran	1353	7.5
+91) Presbyterian-Reformed	2236	12.3
+92) Methodist/Pietist	1321	7.3
+93) Holiness	1328	7.3
+94) Pentecostal	1843	10.2
+95) European Free-Church	2086	11.5
+96) Baptist	2311	12.7
+97) Independent Fundamentalist	260	1.4
+98) Adventist	508	2.8
+99) Liberal	204	1.1
+100) Latter-day Saints	311	1.7
+101) Communal	50	0.3
+102) Christian Science	102	0.6
+103) Spiritualist	76	0.4
+106) Judaism	359	2.0
+113) Other groups	1127	6.2
+115) Restoration Movement	591	3.3
+Missing	171
+
+
+11) NOTE_MIS
+Flag variable indicating how group is affected by new missing data estimates -- see Appendices A and B for details (NOTE_MISSING)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	18310	0.553	1.282
+0) No missing data estimated for this group	15111	82.5
+1) Adherents estimated from congregation size in this year	367	2.0
+2) Adherents estimated from congregation size in another year for this group	478	2.6
+3) Interpolated or extrapolated values in this year	606	3.3
+4) Interpolated or extrapolated values in another year	1748	9.5
+
+
+12) NOTE_COM
+Flag variable indicating how group is affected by combined group changes -- see appendix A for details (NOTE_COMBINED)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	18310	0.193	0.517
+0) Not affected by combined groupings	15801	86.3
+1) Included in a combined grouping	1487	8.1
+2) Combined grouping	1022	5.6
+
+
+13) NOTE_MEA
+Flag variable indicating how group is affected by measurement changes in one or more years -- see Appendix A for details (NOTE_MEASURE)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	18310	0.243	0.704
+0) Affected by zero or minor measurement changes	15903	86.9
+1) Both adherent and congregation counts affected by measurement change	1183	6.5
+2) Only adherent counts affected by measurement change	407	2.2
+3) Only congregation counts affected by measurement change	817	4.5
+
+

@@ -1,0 +1,2419 @@
+Data File: SEA22 (Full Data Codebook)
+
+1) QRID
+Unique identification number for each respondent
+RANGE: 1004209 to 7007956
+	N	Mean	Std. Deviation
+Total	13122	4245349.301	2134978.724
+
+
+2) WEIGHT
+Weight variable. Data were weighted to account for differences in probability of selection and to match the demographic characteristics of the population.
+RANGE: 0.150520017452954 to 5.19031440718154
+	N	Mean	Std. Deviation
+Total	13122	1	0.699
+
+
+3) COUNTRY
+Country name
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	13122	4.223	2.134
+1) Cambodia	1502	11.4
+2) Indonesia	2571	19.6
+3) Malaysia	1999	15.2
+5) Singapore	2036	15.5
+6) Sri Lanka	2510	19.1
+7) Thailand	2504	19.1
+
+
+4) DEMONYM
+Demonym of respondent. Used as an insert in various questions.
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	13122	4.223	2.134
+1) Cambodian	1502	11.4
+2) Indonesian	2571	19.6
+3) Malaysian	1999	15.2
+5) Singaporean	2036	15.5
+6) Sri Lankan	2510	19.1
+7) Thai	2504	19.1
+
+
+5) Q1
+Thinking about your current personal economic situation, how would you describe it?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	2.654	4.654
+1) Very good	1098	8.4
+2) Somewhat good	7071	53.9
+3) Somewhat bad	3053	23.3
+4) Very bad	1870	14.3
+98) (DO NOT READ) Don't know	21	0.2
+99) (DO NOT READ) Refused	9	0.1
+
+
+6) QSPKREC
+Which of these two statements is closest to your opinion even if neither is exactly right? [ROTATE ANSWER OPTIONS 1 AND 2]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	2.612	9.825
+1) People should be allowed to speak their opinions publicly even if they upset other people	5254	40.0
+2) Harmony with others is more important than the right to speak one's opinion	7611	58.0
+3) (DO NOT READ) Other/Both/Neither/Depends on situation	120	0.9
+98) (DO NOT READ) Don't know	119	0.9
+99) (DO NOT READ) Refused	18	0.1
+
+
+7) QCRITREC
+DO NOT ASK IN CAMBODIA (COUNTRY≠1): Do you think people who disagree with our government's actions should or should not be able to publicly criticize the government?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	11620	2.847	12.104
+1) Yes, should be able to publicly criticize the government	8008	68.9
+2) No, should not be able to publicly criticize the government	3279	28.2
+3) (DO NOT READ) Other/Both/Neither/Depends on situation	149	1.3
+98) (DO NOT READ) Don't know	150	1.3
+99) (DO NOT READ) Refused	34	0.3
+Missing	1502
+
+
+8) QGOVREC
+DO NOT ASK IN CAMBODIA (COUNTRY≠1): Some feel that we should rely on a democratic form of government to solve [COUNTRY]'s problems. Others feel that we should rely on a leader with a strong hand to solve [COUNTRY]'s problems. Which comes closer to your opinion?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	11620	3.299	13.339
+1) Democratic form of government	6543	56.3
+2) Leader with a strong hand	4852	41.8
+98) (DO NOT READ) Don't know	189	1.6
+99) (DO NOT READ) Refused	36	0.3
+Missing	1502
+
+
+9) QCURREL
+[DO NOT READ IN SRI LANKA (COUNTRY=6) 'Regardless of how the government records your religion,'] what is your religion, if any?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	2.121	3.288
+1) Buddhist	6169	47.0
+2) Muslim	4658	35.5
+3) Christian (DO NOT READ: Catholic, Protestant)	989	7.5
+4) Hindu	558	4.3
+5) Chinese traditional religions, such as Tao, Confucian or Chinese local religions [DO NOT READ IN SRI LANKA (COUNTRY≠6)]	110	0.8
+6) Local beliefs or Indigenous religions [DO NOT READ IN SRI LANKA (COUNTRY≠6)]	17	0.1
+8) Some other religion [SPECIFY IN QCURRELB]	77	0.6
+9) No religion	533	4.1
+98) (DO NOT READ) Don't know	5	0.0
+99) (DO NOT READ) Refused	6	0.0
+
+
+10) Q15A
+ASK IF HAS A RELIGION (RELSING=1,2,3,4,5 OR QCURREL=6,8) Just based on what you know, do you think each of the following descriptions fits [INSERT RELSYS], or not? a. a family tradition must follow
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	12578	2.649	11.825
+1) Yes	10086	80.2
+2) No	2302	18.3
+98) (DO NOT READ) Don't know	175	1.4
+99) (DO NOT READ) Refused	15	0.1
+Missing	544
+
+
+11) Q15B
+ASK IF HAS A RELIGION (RELSING=1,2,3,4,5 OR QCURREL=6,8) Just based on what you know, do you think each of the following descriptions fits [INSERT RELSYS], or not? b. an ethnicity one is born into
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	12578	5.336	19.545
+1) Yes	9419	74.9
+2) No	2624	20.9
+98) (DO NOT READ) Don't know	512	4.1
+99) (DO NOT READ) Refused	23	0.2
+Missing	544
+
+
+12) Q15C
+ASK IF HAS A RELIGION (RELSING=1,2,3,4,5 OR QCURREL=6,8) Just based on what you know, do you think each of the following descriptions fits [INSERT RELSYS], or not? c. a culture one is part of
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	12578	3.246	14.15
+1) Yes	10637	84.6
+2) No	1667	13.3
+98) (DO NOT READ) Don't know	264	2.1
+99) (DO NOT READ) Refused	10	0.1
+Missing	544
+
+
+13) Q15D
+ASK IF HAS A RELIGION (RELSING=1,2,3,4,5 OR QCURREL=6,8) Just based on what you know, do you think each of the following descriptions fits [INSERT RELSYS], or not? d. a religion one chooses to follow [ALWAYS ASK LAST]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	12578	2.406	11.038
+1) Yes	10750	85.5
+2) No	1663	13.2
+98) (DO NOT READ) Don't know	150	1.2
+99) (DO NOT READ) Refused	15	0.1
+Missing	544
+
+
+14) Q25A
+ASK IF HAS A RELIGION (RELSING=1,2,3,4,5): In your opinion, can a person be truly [INSERT RELSING] if they do each of the following things? [INTERVIEWER: BEFORE FOLLOW-UP ITEMS YOU CAN ASK, 'What about ...?' OR 'Next ...?' a. do not respect elders
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	12484	3.332	11.984
+1) Yes, can be	2363	18.9
+2) No, cannot be	9922	79.5
+97) (DO NOT READ) Depends on situation	121	1.0
+98) (DO NOT READ) Don't know	69	0.6
+99) (DO NOT READ) Refused	9	0.1
+Missing	638
+
+
+15) Q25B
+ASK IF HAS A RELIGION (RELSING=1,2,3,4,5): In your opinion, can a person be truly [INSERT RELSING] if they do each of the following things? b. do not respect [COUNTRY]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	12484	4.124	14.852
+1) Yes, can be	2841	22.8
+2) No, cannot be	9336	74.8
+97) (DO NOT READ) Depends on situation	140	1.1
+98) (DO NOT READ) Don't know	145	1.2
+99) (DO NOT READ) Refused	22	0.2
+Missing	638
+
+
+16) Q25C
+ASK IF HAS A RELIGION (RELSING=1,2,3,4,5): In your opinion, can a person be truly [INSERT RELSING] if they do each of the following things? c. do not believe in God [ASK IF MUSLIM, CHRISTIAN OR HINDU (RELSING=2,3,4)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	6205	2.801	9.201
+1) Yes, can be	569	9.2
+2) No, cannot be	5578	89.9
+97) (DO NOT READ) Depends on situation	36	0.6
+98) (DO NOT READ) Don't know	17	0.3
+99) (DO NOT READ) Refused	5	0.1
+Missing	6917
+
+
+17) Q25D
+ASK IF HAS A RELIGION (RELSING=1,2,3,4,5): In your opinion, can a person be truly [INSERT RELSING] if they do each of the following things? d. do not respect deities or spirits [ASK IF BUDDHIST OR CHINESE TRADITIONAL RELIGION (RELSING =1,5)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	6279	7.056	22.326
+1) Yes, can be	2607	41.5
+2) No, cannot be	3313	52.8
+97) (DO NOT READ) Depends on situation	127	2.0
+98) (DO NOT READ) Don't know	217	3.5
+99) (DO NOT READ) Refused	15	0.2
+Missing	6843
+
+
+18) Q25E
+ASK IF HAS A RELIGION (RELSING=1,2,3,4,5): In your opinion, can a person be truly [INSERT RELSING] if they do each of the following things? e. never go to [INSERT IF BUDDHIST (RELSING=1) 'temple, pagoda or dhamma hall'; INSERT IF HINDU (RELSING=4) 'temple'; INSERT IF CHINESE TRADITIONAL RELIGION (RELSING=5) 'temple'; INSERT IF MUSLIM (RELSING=2) 'mosque'; INSERT IF CHRISTIAN (RELSING=3) 'church']
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	12484	3.773	14.264
+1) Yes, can be	4861	38.9
+2) No, cannot be	7340	58.8
+97) (DO NOT READ) Depends on situation	192	1.5
+98) (DO NOT READ) Don't know	77	0.6
+99) (DO NOT READ) Refused	14	0.1
+Missing	638
+
+
+19) Q25F
+ASK IF HAS A RELIGION (RELSING=1,2,3,4,5): In your opinion, can a person be truly [INSERT RELSING] if they do each of the following things? f. do not pray
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	12484	3.712	13.925
+1) Yes, can be	4316	34.6
+2) No, cannot be	7899	63.3
+97) (DO NOT READ) Depends on situation	146	1.2
+98) (DO NOT READ) Don't know	115	0.9
+99) (DO NOT READ) Refused	8	0.1
+Missing	638
+
+
+20) Q25G
+ASK IF HAS A RELIGION (RELSING=1,2,3,4,5): In your opinion, can a person be truly [INSERT RELSING] if they do each of the following things? g. drink alcohol
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	12484	4.496	16.321
+1) Yes, can be	4496	36.0
+2) No, cannot be	7614	61.0
+97) (DO NOT READ) Depends on situation	261	2.1
+98) (DO NOT READ) Don't know	106	0.8
+99) (DO NOT READ) Refused	7	0.1
+Missing	638
+
+
+21) Q25H
+ASK IF HAS A RELIGION (RELSING=1,2,3,4,5): In your opinion, can a person be truly [INSERT RELSING] if they do each of the following things? h. celebrate the Buddhist festival of [INSERT 'Vesak' IN INDONESIA, MALAYSIA, SINGAPORE, SRI LANKA, THAILAND (COUNTRY=2,3,5,6,7); INSERT 'Pchum ben' IN CAMBODIA (COUNTRY=1)] [ASK IF NOT BUDDHIST (RELSING≠1)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	6315	3.483	12.801
+1) Yes, can be	1605	25.4
+2) No, cannot be	4595	72.8
+97) (DO NOT READ) Depends on situation	70	1.1
+98) (DO NOT READ) Don't know	43	0.7
+99) (DO NOT READ) Refused	2	0.0
+Missing	6807
+
+
+22) Q25I
+ASK IF HAS A RELIGION (RELSING=1,2,3,4,5): In your opinion, can a person be truly [INSERT RELSING] if they do each of the following things? i. celebrate the Christian festival of Christmas [ASK IF NOT CHRISTIAN (RELSING≠3)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	11495	4.816	17.287
+1) Yes, can be	4452	38.7
+2) No, cannot be	6658	57.9
+97) (DO NOT READ) Depends on situation	151	1.3
+98) (DO NOT READ) Don't know	222	1.9
+99) (DO NOT READ) Refused	12	0.1
+Missing	1627
+
+
+23) Q25J
+ASK IF HAS A RELIGION (RELSING=1,2,3,4,5): In your opinion, can a person be truly [INSERT RELSING] if they do each of the following things? j. celebrate the Muslim festival of Eid [ASK IF NOT MUSLIM (RELSING≠2)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7826	7.857	23.792
+1) Yes, can be	3186	40.7
+2) No, cannot be	4128	52.7
+97) (DO NOT READ) Depends on situation	137	1.8
+98) (DO NOT READ) Don't know	364	4.7
+99) (DO NOT READ) Refused	11	0.1
+Missing	5296
+
+
+24) Q25K
+ASK IF HAS A RELIGION (RELSING=1,2,3,4,5): In your opinion, can a person be truly [INSERT RELSING] if they do each of the following things? k. make offerings to spirits of deceased relatives [MODIFIED TO 'worship ancestors' IN CHINESE TRANSLATION IN MALAYSIA AND SINGAPORE (COUNTRY=3 AND COUNTRY=5); DO NOT ASK IN SRI LANKA (COUNTRY≠6); ASK IF NOT CHINESE TRADITIONAL RELIGION (RELSING≠5)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	9868	2.584	10.508
+1) Yes, can be	5611	56.9
+2) No, cannot be	4138	41.9
+97) (DO NOT READ) Depends on situation	53	0.5
+98) (DO NOT READ) Don't know	62	0.6
+99) (DO NOT READ) Refused	4	0.0
+Missing	3254
+
+
+25) QATTEND
+[INSERT IF CHRISTIAN (RELSING=3) 'Aside from weddings and funerals,'] how often, if at all, do you [INSERT IF BUDDHIST (RELSING=1) 'go to temple, pagoda or dhamma hall'; INSERT IF HINDU (RELSING=4) 'go to temple'; INSERT IF CHINESE TRADITIONAL RELIGION, OTHER RELIGION OR NO RELIGION (RELSING=5,6,7) 'go to temple'; INSERT IF MUSLIM (RELSING=2) 'attend mosque'; INSERT IF CHRISTIAN (RELSING=3) 'go to church']?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	3.756	3.919
+1) Every day	1530	11.7
+2) More than once a week	1624	12.4
+3) Once a week	2870	21.9
+4) Once or twice a month	3164	24.1
+5) A few times a year	2601	19.8
+6) Less often than that	827	6.3
+7) Never	487	3.7
+98) (DO NOT READ) Don't know	14	0.1
+99) (DO NOT READ) Refused	5	0.0
+
+
+26) Q26A
+Do you feel a personal connection to each of the following ways of life, or not? a. The Buddhist way of life
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	2.186	8.546
+1) Yes, I do	7454	56.8
+2) No, I do not	5565	42.4
+98) (DO NOT READ) Don't know	92	0.7
+99) (DO NOT READ) Refused	11	0.1
+
+
+27) Q26B
+Do you feel a personal connection to each of the following ways of life, or not? b. The Muslim way of life
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	3.309	12.968
+1) Yes, I do	5972	45.5
+2) No, I do not	6909	52.7
+98) (DO NOT READ) Don't know	230	1.8
+99) (DO NOT READ) Refused	11	0.1
+
+
+28) Q26C
+Do you feel a personal connection to each of the following ways of life, or not? c. The Christian way of life
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	3.479	12.807
+1) Yes, I do	3263	24.9
+2) No, I do not	9623	73.3
+98) (DO NOT READ) Don't know	223	1.7
+99) (DO NOT READ) Refused	13	0.1
+
+
+29) Q26D
+Do you feel a personal connection to each of the following ways of life, or not? d. The Hindu way of life
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	4.49	15.805
+1) Yes, I do	2278	17.4
+2) No, I do not	10480	79.9
+98) (DO NOT READ) Don't know	353	2.7
+99) (DO NOT READ) Refused	11	0.1
+
+
+30) Q26E
+Do you feel a personal connection to each of the following ways of life, or not? e. The Chinese traditional way of life [DO NOT ASK IN SRI LANKA (COUNTRY≠6)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	10612	3.261	12.102
+1) Yes, I do	2946	27.8
+2) No, I do not	7496	70.6
+98) (DO NOT READ) Don't know	163	1.5
+99) (DO NOT READ) Refused	7	0.1
+Missing	2510
+
+
+31) Q26F
+Do you feel a personal connection to each of the following ways of life, or not? f. Local religions'/Indigenous religions' way of life [DO NOT ASK IN SRI LANKA (COUNTRY≠6)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	10612	3.44	13.55
+1) Yes, I do	5175	48.8
+2) No, I do not	5224	49.2
+98) (DO NOT READ) Don't know	202	1.9
+99) (DO NOT READ) Refused	11	0.1
+Missing	2510
+
+
+32) Q28
+How important is religion in your life, if at all?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	1.48	3.849
+1) Very important	9999	76.2
+2) Somewhat important	2161	16.5
+3) Not very important	639	4.9
+4) Not at all important	303	2.3
+98) (DO NOT READ) Don't know	11	0.1
+99) (DO NOT READ) Refused	9	0.1
+
+
+33) QGODA
+Do you believe in God, or not?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	3.019	13.091
+1) Yes	10074	76.8
+2) No	2804	21.4
+98) (DO NOT READ) Don't know	226	1.7
+99) (DO NOT READ) Refused	18	0.1
+
+
+34) QGODB
+ASK IF BELIEVES IN GOD (QGODA=1): How certain are you about this belief, if at all?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	10074	1.529	4.243
+1) Absolutely certain	7081	70.3
+2) Fairly certain	2522	25.0
+3) Not very certain	399	4.0
+4) Not at all certain	53	0.5
+98) (DO NOT READ) Don't know	15	0.1
+99) (DO NOT READ) Refused	4	0.0
+Missing	3048
+
+
+35) QGODC
+Do you think that there are unseen beings in the world, like deities or spirits?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	3.51	14.42
+1) Yes	8810	67.1
+2) No	4014	30.6
+98) (DO NOT READ) Don't know	283	2.2
+99) (DO NOT READ) Refused	15	0.1
+
+
+36) QGODD
+ASK IF BELIEVES IN GODS OR SPIRITS (QGODC=1): How certain are you, if at all, about the existence of unseen beings in the world?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8810	2.282	6.833
+1) Absolutely certain	3357	38.1
+2) Fairly certain	3974	45.1
+3) Not very certain	1260	14.3
+4) Not at all certain	175	2.0
+98) (DO NOT READ) Don't know	38	0.4
+99) (DO NOT READ) Refused	6	0.1
+Missing	4312
+
+
+37) Q34
+ASK IF HAS A RELIGION (RELSING=1,2,3,4,5,6): Which statement comes closer to your view even if neither is exactly right? [ROTATE ANSWER OPTIONS 1 AND 2]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	12589	2.111	8.078
+1) My religion is the only true religion	7134	56.7
+2) Many religions can be true	5298	42.1
+3) (DO NOT READ) Other/Neither/Depends on situation	69	0.5
+98) (DO NOT READ) Don't know	71	0.6
+99) (DO NOT READ) Refused	17	0.1
+Missing	533
+
+
+38) QCHREL
+Thinking about when you were a child, in what religion were you raised, if any?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	2.075	4.042
+1) Buddhist	6359	48.5
+2) Muslim	4627	35.3
+3) Christian (DO NOT READ: Catholic, Protestant)	853	6.5
+4) Hindu	596	4.5
+5) Chinese traditional religions, such as Tao, Confucian or Chinese local religions [DO NOT ASK IN SRI LANKA (COUNTRY≠6)]	289	2.2
+6) Local beliefs/Indigenous religions [DO NOT ASK IN SRI LANKA (COUNTRY≠6)]	30	0.2
+8) Some other religion (SPECIFY IN QCHRELB)	55	0.4
+9) No religion	293	2.2
+98) (DO NOT READ) Don't know	14	0.1
+99) (DO NOT READ) Refused	6	0.0
+
+
+39) QFIGURESA
+Do you currently pray or offer your respects to each of the following figures, or not? a. Ganesh
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	2.995	10.993
+1) Yes	3551	27.1
+2) No	9398	71.6
+98) (DO NOT READ) Don't know	170	1.3
+99) (DO NOT READ) Refused	3	0.0
+
+
+40) QFIGURESB
+Do you currently pray or offer your respects to each of the following figures, or not? b. Buddha
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	1.744	5.149
+1) Yes	6916	52.7
+2) No	6169	47.0
+98) (DO NOT READ) Don't know	33	0.3
+99) (DO NOT READ) Refused	4	0.0
+
+
+41) QFIGURESC
+Do you currently pray or offer your respects to each of the following figures, or not? c. Shiva
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	3.589	13.058
+1) Yes	2766	21.1
+2) No	10110	77.0
+98) (DO NOT READ) Don't know	243	1.9
+99) (DO NOT READ) Refused	3	0.0
+
+
+42) QFIGURESD
+Do you currently pray or offer your respects to each of the following figures, or not? d. Mother Mary
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	3.683	13.313
+1) Yes	2495	19.0
+2) No	10371	79.0
+98) (DO NOT READ) Don't know	252	1.9
+99) (DO NOT READ) Refused	4	0.0
+
+
+43) QFIGURESE
+Do you currently pray or offer your respects to each of the following figures, or not? e. Protector spirits/guardian deities of the area where you live
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	2.25	8.411
+1) Yes	6329	48.2
+2) No	6693	51.0
+98) (DO NOT READ) Don't know	94	0.7
+99) (DO NOT READ) Refused	6	0.0
+
+
+44) QFIGURESH
+Do you currently pray or offer your respects to each of the following figures, or not? h. Jesus Christ
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	2.506	8.467
+1) Yes	3158	24.1
+2) No	9862	75.2
+98) (DO NOT READ) Don't know	98	0.7
+99) (DO NOT READ) Refused	4	0.0
+
+
+45) QFIGURESI
+Do you currently pray or offer your respects to each of the following figures, or not? i. Guanyin, or the Guanyi Bodhisattva [DO NOT ASK IN SRI LANKA (COUNTRY≠6)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	10612	2.784	9.712
+1) Yes	2145	20.2
+2) No	8358	78.8
+98) (DO NOT READ) Don't know	105	1.0
+99) (DO NOT READ) Refused	4	0.0
+Missing	2510
+
+
+46) QFIGURESJ
+Do you currently pray or offer your respects to each of the following figures, or not? j. Allah
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	2.85	11.206
+1) Yes	6034	46.0
+2) No	6909	52.7
+98) (DO NOT READ) Don't know	171	1.3
+99) (DO NOT READ) Refused	8	0.1
+
+
+47) Q38A
+If you were planning the funeral for a family member or loved one, how important would it be for you to do each of the following, if at all? a. Invite [INSERT IF BUDDHIST (RELSYS=1): 'a monk or learned person'; INSERT IF MUSLIM (RELSYS=2): 'an imam or sheikh'; INSERT IF CHRISTIAN (RELSYS=3): 'a priest or pastor'; INSERT IF HINDU (RELSYS=4): 'a pundit or learned person'; INSERT FOR ALL OTHERS: (RELSYS=5,6,7): 'a religious leader'] to recite sacred texts or preach
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	1.81	5.827
+1) Very important	8860	67.5
+2) Somewhat important	2810	21.4
+3) Not very important	961	7.3
+4) Not at all important	444	3.4
+98) (DO NOT READ) Don't know	41	0.3
+99) (DO NOT READ) Refused	6	0.0
+
+
+48) Q38B
+If you were planning the funeral for a family member or loved one, how important would it be for you to do each of the following, if at all? b. Offer donations in the name of the deceased relative
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	2.07	6.67
+1) Very important	7504	57.2
+2) Somewhat important	3674	28.0
+3) Not very important	1300	9.9
+4) Not at all important	582	4.4
+98) (DO NOT READ) Don't know	55	0.4
+99) (DO NOT READ) Refused	7	0.1
+
+
+49) Q38C
+If you were planning the funeral for a family member or loved one, how important would it be for you to do each of the following, if at all? c. Set up [INSERT IF MUSLIM OR CHRISTIAN (RELSING=2,3): 'a shrine'; INSERT IF NOT MUSLIM OR CHRISTIAN (RELSING≠2,3): 'an altar'] for the deceased relative
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	3.248	10.333
+1) Very important	5639	43.0
+2) Somewhat important	2664	20.3
+3) Not very important	1925	14.7
+4) Not at all important	2742	20.9
+98) (DO NOT READ) Don't know	142	1.1
+99) (DO NOT READ) Refused	10	0.1
+
+
+50) Q38G
+If you were planning the funeral for a family member or loved one, how important would it be for you to do each of the following, if at all? g. Perform rituals in [INSERT IF BUDDHIST (RELSING=1) 'temples, pagodas or dhamma halls'; INSERT IF HINDU (RELSING=4) 'temples'; INSERT IF CHINESE TRADITIONAL RELIGION, OTHER RELIGION OR NO RELIGION (RELSING=5,6,7) 'temples'; INSERT IF MUSLIM (RELSING=2) 'mosques'; INSERT IF CHRISTIAN (RELSING=3) 'churches'] for the soul of the deceased relative
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	2.188	7.244
+1) Very important	7738	59.0
+2) Somewhat important	3061	23.3
+3) Not very important	1319	10.1
+4) Not at all important	931	7.1
+98) (DO NOT READ) Don't know	55	0.4
+99) (DO NOT READ) Refused	18	0.1
+
+
+51) Q39A
+Do you or someone in your household perform rituals on each of the following occasions, or not? a. On the death anniversary of a deceased loved one
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	1.508	4.804
+1) Yes	9542	72.7
+2) No	3548	27.0
+98) (DO NOT READ) Don't know	24	0.2
+99) (DO NOT READ) Refused	8	0.1
+
+
+52) Q39B
+Do you or someone in your household perform rituals on each of the following occasions, or not? b. On other special days
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	1.751	6.098
+1) Yes	8262	63.0
+2) No	4808	36.6
+98) (DO NOT READ) Don't know	46	0.4
+99) (DO NOT READ) Refused	6	0.0
+
+
+53) Q40A
+Do you have a family gravesite where the remains of deceased family members reside, or not? [INTERVIEWER INSTRUCTION: IF RESPONDENT ASKS HOW MANY PEOPLE NEED TO BE BURIED THERE FOR IT TO BE A 'FAMILY GRAVESITE,' SAY 'ALL OR MOST' FAMILY MEMBERS.]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	1.857	5.208
+1) Yes	5531	42.2
+2) No	7553	57.6
+98) (DO NOT READ) Don't know	36	0.3
+99) (DO NOT READ) Refused	2	0.0
+
+
+54) Q40B
+ASK IF HAS A FAMILY GRAVESITE (Q40a=1): Do you or someone in your household pay money to maintain the family gravesite, or not?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5531	2.727	10.409
+1) Yes	2225	40.2
+2) No	3241	58.6
+98) (DO NOT READ) Don't know	61	1.1
+99) (DO NOT READ) Refused	4	0.1
+Missing	7591
+
+
+55) Q40C
+ASK IF HAS A FAMILY GRAVESITE (Q40a=1): Do you or someone in your household look after the family gravesite by sweeping or cleaning it?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	5531	1.491	5.534
+1) Yes	4546	82.2
+2) No	967	17.5
+98) (DO NOT READ) Don't know	16	0.3
+99) (DO NOT READ) Refused	2	0.0
+Missing	7591
+
+
+56) Q41B
+Do you think each of the following statements is true, or not? b. A person can know the afterlife destination or the destination of rebirth for a deceased family member
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	6.764	21.573
+1) Yes, is true	4136	31.5
+2) No, is not true	8292	63.2
+98) (DO NOT READ) Don't know	673	5.1
+99) (DO NOT READ) Refused	21	0.2
+
+
+57) Q41D
+Do you think each of the following statements is true, or not? d. A person can feel the presence of a deceased family member
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	4.922	17.835
+1) Yes, is true	6211	47.3
+2) No, is not true	6447	49.1
+98) (DO NOT READ) Don't know	448	3.4
+99) (DO NOT READ) Refused	16	0.1
+
+
+58) Q46A
+Do you think each of the following things exists, or not? a. evil eye
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	6.207	20.982
+1) Yes, exists	7304	55.7
+2) No, does not exist	5167	39.4
+98) (NO NOT READ) Don't know	643	4.9
+99) (DO NOT READ) Refused	8	0.1
+
+
+59) Q46B
+Do you think each of the following things exists, or not? b. rebirth
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	6.114	20.698
+1) Yes, exists	6799	51.8
+2) No, does not exist	5690	43.4
+98) (NO NOT READ) Don't know	619	4.7
+99) (DO NOT READ) Refused	14	0.1
+
+
+60) Q46C
+Do you think each of the following things exists, or not? c. fate
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	3.05	13.432
+1) Yes, exists	10903	83.1
+2) No, does not exist	1962	15.0
+98) (NO NOT READ) Don't know	244	1.9
+99) (DO NOT READ) Refused	13	0.1
+
+
+61) Q46D
+Do you think each of the following things exists, or not? d. spells, curses or other magic influencing people's lives
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	4.499	17.038
+1) Yes, exists	7642	58.2
+2) No, does not exist	5059	38.6
+98) (NO NOT READ) Don't know	403	3.1
+99) (DO NOT READ) Refused	18	0.1
+
+
+62) Q46E
+Do you think each of the following things exists, or not? e. Heaven
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	7.394	23.779
+1) Yes, exists	10353	78.9
+2) No, does not exist	1924	14.7
+98) (NO NOT READ) Don't know	828	6.3
+99) (DO NOT READ) Refused	17	0.1
+
+
+63) Q46F
+Do you think each of the following things exists, or not? f. Hell
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	4.096	16.681
+1) Yes, exists	10998	83.8
+2) No, does not exist	1723	13.1
+98) (NO NOT READ) Don't know	391	3.0
+99) (DO NOT READ) Refused	10	0.1
+
+
+64) Q46G
+Do you think each of the following things exists, or not? g. Judgment Day [ASK IF MUSLIM OR MUSLIM AFFINITY (RELSING=2 OR Q26B=1), OR CHRISTIAN OR CHRISTIAN AFFINITY (RELSING=3 OR Q26C=1)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7667	4.689	18.079
+1) Yes, exists	5986	78.1
+2) No, does not exist	1404	18.3
+98) (NO NOT READ) Don't know	265	3.5
+99) (DO NOT READ) Refused	12	0.2
+Missing	5455
+
+
+65) Q46H
+Do you think each of the following things exists, or not? h. Nirvana [ASK IF BUDDHIST (RELSING=1) OR BUDDHIST AFFINITY (Q26A =1)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7725	10.013	27.762
+1) Yes, exists	5214	67.5
+2) No, does not exist	1812	23.5
+98) (NO NOT READ) Don't know	690	8.9
+99) (DO NOT READ) Refused	9	0.1
+Missing	5397
+
+
+66) Q46I
+Do you think each of the following things exists, or not? i. Moksha [ASK IF HINDU (RELSING=4) OR HINDU AFFINITY (Q26D=1)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2309	20.332	38.336
+1) Yes, exists	1070	46.3
+2) No, does not exist	787	34.1
+98) (NO NOT READ) Don't know	446	19.3
+99) (DO NOT READ) Refused	6	0.3
+Missing	10813
+
+
+67) Q46J
+Do you think each of the following things exists, or not? j. Karma
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	2.766	12.473
+1) Yes, exists	11174	85.2
+2) No, does not exist	1727	13.2
+98) (NO NOT READ) Don't know	216	1.6
+99) (DO NOT READ) Refused	5	0.0
+
+
+68) Q46K
+Do you think each of the following things exists, or not? k. angels or helpful deities
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	4.368	17.308
+1) Yes, exists	10511	80.1
+2) No, does not exist	2178	16.6
+98) (NO NOT READ) Don't know	417	3.2
+99) (DO NOT READ) Refused	16	0.1
+
+
+69) Q46L
+Do you think each of the following things exists, or not? l. demons or evil deities
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	5.21	18.936
+1) Yes, exists	8191	62.4
+2) No, does not exist	4407	33.6
+98) (NO NOT READ) Don't know	511	3.9
+99) (DO NOT READ) Refused	13	0.1
+
+
+70) Q48D
+Have you had the following experiences, or not? d. Changed your fate by performing rituals
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	2.586	8.868
+1) Yes	3071	23.4
+2) No	9939	75.7
+98) (DO NOT READ) Don't know	106	0.8
+99) (DO NOT READ) Refused	6	0.0
+
+
+71) Q48E
+Have you had the following experiences, or not? e. Visited a medium to communicate with a spirit
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	2.76	9.202
+1) Yes	1649	12.6
+2) No	11352	86.5
+98) (DO NOT READ) Don't know	111	0.8
+99) (DO NOT READ) Refused	10	0.1
+
+
+72) Q49A
+How often, if at all, do you have each of the following experiences? a. the feeling of being protected by an unseen power
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	7.529	12.803
+1) Every day	1415	10.8
+2) More than once a week	253	1.9
+3) Once a week	266	2.0
+4) Once or twice a month	485	3.7
+5) A few times a year	1149	8.8
+6) Less often than that	1350	10.3
+7) Never	7953	60.6
+98) (DO NOT READ) Don't know	229	1.7
+99) (DO NOT READ) Refused	22	0.2
+
+
+73) Q49B
+How often, if at all, do you have each of the following experiences? b. the feeling of being attacked by an unseen power
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	7.621	10.187
+1) Every day	264	2.0
+2) More than once a week	136	1.0
+3) Once a week	174	1.3
+4) Once or twice a month	291	2.2
+5) A few times a year	772	5.9
+6) Less often than that	1235	9.4
+7) Never	10088	76.9
+98) (DO NOT READ) Don't know	148	1.1
+99) (DO NOT READ) Refused	14	0.1
+
+
+74) Q50
+How often do you pray, if at all?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	2.825	3.597
+1) Several times a day	5273	40.2
+2) Once a day	2863	21.8
+3) A few times a week	851	6.5
+4) Once a week	1067	8.1
+5) A few times a month	1114	8.5
+6) Less often than that	1180	9.0
+7) Never	761	5.8
+98) (DO NOT READ) Don't know	10	0.1
+99) (DO NOT READ) Refused	3	0.0
+
+
+75) Q51
+ASK IF MUSLIM OR MUSLIM AFFINITY (RELSING=2 OR Q26B=1) AND PRAYS SEVERAL TIMES A DAY (Q50=1): Do you pray five salah every day, or not?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	4292	1.916	8.478
+1) Yes	3533	82.3
+2) No	726	16.9
+98) (DO NOT READ) Don't know	29	0.7
+99) (DO NOT READ) Refused	4	0.1
+Missing	8830
+
+
+76) Q54
+Is there an altar or shrine in your home, or not?
+RANGE: 1 to 98
+	N	Mean	Std. Deviation
+Total	13122	1.717	4.152
+1) Yes	6015	45.8
+2) No	7083	54.0
+98) (DO NOT READ) Don't know	24	0.2
+
+
+77) Q57
+ASK IF BUDDHIST OR BUDDHIST AFFINITY (RELSYS=1 OR Q26A=1): How important is it for you to make merit in your life, if at all?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7725	1.714	5.95
+1) Very important	5556	71.9
+2) Somewhat important	1711	22.1
+3) Not very important	294	3.8
+4) Not at all important	135	1.7
+98) (DO NOT READ) Don't know	27	0.3
+99) (DO NOT READ) Refused	2	0.0
+Missing	5397
+
+
+78) Q58B
+Do you ever do each of the following practices, or not? b. Practice meditation
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	2.566	9.337
+1) Yes	4482	34.2
+2) No	8516	64.9
+98) (DO NOT READ) Don't know	120	0.9
+99) (DO NOT READ) Refused	4	0.0
+
+
+79) Q58C
+Do you ever do each of the following practices, or not? c. Burn incense
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	1.694	4.792
+1) Yes	7095	54.1
+2) No	5995	45.7
+98) (DO NOT READ) Don't know	29	0.2
+99) (DO NOT READ) Refused	3	0.0
+
+
+80) Q58D
+Do you ever do each of the following practices, or not? d. Do Tai Chi
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	11.86	29.2
+1) Yes	417	3.2
+2) No	11353	86.5
+98) (DO NOT READ) Don't know	1339	10.2
+99) (DO NOT READ) Refused	13	0.1
+
+
+81) Q58F
+Do you ever do each of the following practices, or not? f. Use special objects for blessings or protection
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	2.199	6.564
+1) Yes	3253	24.8
+2) No	9808	74.7
+98) (DO NOT READ) Don't know	59	0.4
+99) (DO NOT READ) Refused	2	0.0
+
+
+82) Q70A
+Do you think it is acceptable or unacceptable for a person to do each of the following things? a. Try to persuade others to join his or her religion
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	2.568	8.635
+1) Acceptable	2942	22.4
+2) Unacceptable	9868	75.2
+3) (DO NOT READ) Depends on situation	206	1.6
+98) (DO NOT READ) Don't know	93	0.7
+99) (DO NOT READ) Refused	13	0.1
+
+
+83) Q70C
+Do you think it is acceptable or unacceptable for a person to do each of the following things? c. Leave [INSERT RELSYS] for another religion [ASK IF HAS A RELIGION (RELSING=1,2,3,4,5,6)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	12589	2.77	9.523
+1) Acceptable	2487	19.8
+2) Unacceptable	9724	77.2
+3) (DO NOT READ) Depends on situation	254	2.0
+98) (DO NOT READ) Don't know	106	0.8
+99) (DO NOT READ) Refused	18	0.1
+Missing	533
+
+
+84) QLEGAL
+Now I would like to ask you about several groups in society. Do you strongly favor, somewhat favor, somewhat oppose or strongly oppose allowing gays and lesbians to marry legally?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	7.068	19.055
+1) Strongly favor	1609	12.3
+2) Somewhat favor	2575	19.6
+3) Somewhat oppose	1377	10.5
+4) Strongly oppose	7013	53.4
+98) (DO NOT READ) Don't know	445	3.4
+99) (DO NOT READ) Refused	103	0.8
+
+
+85) Q74
+Overall, do you think having people of many different religions, ethnic groups and cultures makes this country a better place to live, a worse place to live or doesn't make much difference either way?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	3.497	12.016
+1) A better place to live	6174	47.1
+2) A worse place to live	936	7.1
+3) Doesn't make much difference	5678	43.3
+4) (DO NOT READ) Other/Both/Neither/Depends on situation	127	1.0
+98) (DO NOT READ) Don't know	188	1.4
+99) (DO NOT READ) Refused	19	0.1
+
+
+86) Q75A
+Overall do you think each of the following religions is very peaceful, somewhat peaceful, not very peaceful or not at all peaceful? a. Buddhism
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	6.272	20.633
+1) Very peaceful	6660	50.8
+2) Somewhat peaceful	4165	31.7
+3) Not very peaceful	1152	8.8
+4) Not at all peaceful	515	3.9
+98) (DO NOT READ) Don't know	581	4.4
+99) (DO NOT READ) Refused	49	0.4
+
+
+87) Q75B
+Overall do you think each of the following religions is very peaceful, somewhat peaceful, not very peaceful or not at all peaceful? b. Islam
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	13.317	31.376
+1) Very peaceful	6053	46.1
+2) Somewhat peaceful	3549	27.0
+3) Not very peaceful	1238	9.4
+4) Not at all peaceful	700	5.3
+98) (DO NOT READ) Don't know	1542	11.8
+99) (DO NOT READ) Refused	40	0.3
+
+
+88) Q75C
+Overall do you think each of the following religions is very peaceful, somewhat peaceful, not very peaceful or not at all peaceful? c. Christianity
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	14.176	32.109
+1) Very peaceful	4258	32.4
+2) Somewhat peaceful	4973	37.9
+3) Not very peaceful	1433	10.9
+4) Not at all peaceful	781	6.0
+98) (DO NOT READ) Don't know	1629	12.4
+99) (DO NOT READ) Refused	48	0.4
+
+
+89) Q75D
+Overall do you think each of the following religions is very peaceful, somewhat peaceful, not very peaceful or not at all peaceful? d. Hinduism
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	19.594	37.183
+1) Very peaceful	3660	27.9
+2) Somewhat peaceful	4591	35.0
+3) Not very peaceful	1531	11.7
+4) Not at all peaceful	933	7.1
+98) (DO NOT READ) Don't know	2353	17.9
+99) (DO NOT READ) Refused	54	0.4
+
+
+90) Q78A
+Would you be willing to accept each of the following people as neighbors, or not? a. Buddhists [ASK IF NOT BUDDHIST (RELSING≠1)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	6953	1.633	6.669
+1) Yes	5747	82.7
+2) No	1146	16.5
+3) (DO NOT READ) Other/Both/Neither/Depends on situation	27	0.4
+98) (DO NOT READ) Don't know	32	0.5
+99) (DO NOT READ) Refused	1	0.0
+Missing	6169
+
+
+91) Q78B
+Would you be willing to accept each of the following people as neighbors, or not? b. Muslims [ASK IF NOT MUSLIM (RELSING≠2)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8464	2.691	11.869
+1) Yes	6611	78.1
+2) No	1651	19.5
+3) (DO NOT READ) Other/Both/Neither/Depends on situation	73	0.9
+98) (DO NOT READ) Don't know	125	1.5
+99) (DO NOT READ) Refused	4	0.0
+Missing	4658
+
+
+92) Q78C
+Would you be willing to accept each of the following people as neighbors, or not? c. Christians [ASK IF NOT CHRISTIAN (RELSING≠3)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	12133	2.072	9.188
+1) Yes	9765	80.5
+2) No	2183	18.0
+3) (DO NOT READ) Other/Both/Neither/Depends on situation	75	0.6
+98) (DO NOT READ) Don't know	107	0.9
+99) (DO NOT READ) Refused	3	0.0
+Missing	989
+
+
+93) Q78D
+Would you be willing to accept each of the following people as neighbors, or not? d. Hindus [ASK IF NOT HINDU (RELSING≠4)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	12564	2.932	12.731
+1) Yes	9581	76.3
+2) No	2685	21.4
+3) (DO NOT READ) Other/Both/Neither/Depends on situation	77	0.6
+98) (DO NOT READ) Don't know	218	1.7
+99) (DO NOT READ) Refused	3	0.0
+Missing	558
+
+
+94) Q78E
+Would you be willing to accept each of the following people as neighbors, or not? e. People who practice Chinese traditional religions [ASK IF NOT CHINESE TRADITIONAL RELIGION (RELSING≠5)] [DO NOT ASK IN SRI LANKA (COUNTRY≠6)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	10502	2.248	10.001
+1) Yes	8304	79.1
+2) No	2030	19.3
+3) (DO NOT READ) Other/Both/Neither/Depends on situation	55	0.5
+98) (DO NOT READ) Don't know	107	1.0
+99) (DO NOT READ) Refused	6	0.1
+Missing	2620
+
+
+95) Q78F
+Would you be willing to accept each of the following people as neighbors, or not? f. People who practice local beliefs/Indigenous religions [ASK IF DOES NOT FOLLOW LOCAL BELIEFS/INDIGENOUS RELIGIONS (QCURREL≠6)] [DO NOT ASK IN SRI LANKA (COUNTRY≠6)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	10595	2.366	10.715
+1) Yes	8755	82.6
+2) No	1657	15.6
+3) (DO NOT READ) Other/Both/Neither/Depends on situation	52	0.5
+98) (DO NOT READ) Don't know	123	1.2
+99) (DO NOT READ) Refused	8	0.1
+Missing	2527
+
+
+96) Q80A
+Do you think each of the following religions is compatible with or incompatible with [DEMONYM] culture and values? a. Buddhism [ASK IN INDONESIA AND MALAYSIA (COUNTRY=2,3)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	4570	5.248	19.069
+1) Compatible	2954	64.6
+2) Incompatible	1404	30.7
+3) (DO NOT READ) Other/Both/Neither/Depends on situation	27	0.6
+98) (DO NOT READ) Don't know	176	3.9
+99) (DO NOT READ) Refused	9	0.2
+Missing	8552
+
+
+97) Q80B
+Do you think each of the following religions is compatible with or incompatible with [DEMONYM] culture and values? b. Islam [ASK IN CAMBODIA, SINGAPORE, SRI LANKA AND THAILAND (COUNTRY=1,5,6,7)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	8552	8.701	25.649
+1) Compatible	5367	62.8
+2) Incompatible	2378	27.8
+3) (DO NOT READ) Other/Both/Neither/Depends on situation	156	1.8
+98) (DO NOT READ) Don't know	628	7.3
+99) (DO NOT READ) Refused	23	0.3
+Missing	4570
+
+
+98) Q80C
+Do you think each of the following religions is compatible with or incompatible with [DEMONYM] culture and values? c. Christianity
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	6.762	22.367
+1) Compatible	9030	68.8
+2) Incompatible	3182	24.2
+3) (DO NOT READ) Other/Both/Neither/Depends on situation	167	1.3
+98) (DO NOT READ) Don't know	716	5.5
+99) (DO NOT READ) Refused	27	0.2
+
+
+99) Q80D
+Do you think each of the following religions is compatible with or incompatible with [DEMONYM] culture and values? d. Hinduism
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	9.628	27.114
+1) Compatible	8382	63.9
+2) Incompatible	3455	26.3
+3) (DO NOT READ) Other/Both/Neither/Depends on situation	157	1.2
+98) (DO NOT READ) Don't know	1099	8.4
+99) (DO NOT READ) Refused	29	0.2
+
+
+100) Q80E
+Do you think each of the following religions is compatible with or incompatible with [DEMONYM] culture and values? e. Chinese traditional religions [DO NOT ASK IN SRI LANKA (COUNTRY≠6)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	10612	6.155	21.156
+1) Compatible	7282	68.6
+2) Incompatible	2708	25.5
+3) (DO NOT READ) Other/Both/Neither/Depends on situation	88	0.8
+98) (DO NOT READ) Don't know	516	4.9
+99) (DO NOT READ) Refused	18	0.2
+Missing	2510
+
+
+101) Q80F
+Do you think each of the following religions is compatible with or incompatible with [DEMONYM] culture and values? f. Local beliefs/Indigenous religions [DO NOT ASK IN SRI LANKA (COUNTRY≠6)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	10612	4.973	18.664
+1) Compatible	7908	74.5
+2) Incompatible	2214	20.9
+3) (DO NOT READ) Other/Both/Neither/Depends on situation	80	0.8
+98) (DO NOT READ) Don't know	391	3.7
+99) (DO NOT READ) Refused	19	0.2
+Missing	2510
+
+
+102) Q81A
+Some people say that the following things are important to be truly [DEMONYM]. Others say that they are not important. How important, if at all, do you think each is to being truly [DEMONYM]? a. To be able to speak [INSERT IN CAMBODIA (COUNTRY=1): 'Khmer'; INSERT IN INDONESIA (COUNTRY=2): 'Bahasa Indonesia'; INSERT IN MALAYSIA (COUNTRY=3): 'Bahasa Malaysia'; INSERT IN SINGAPORE (COUNTRY=5): 'Mandarin Chinese'; INSERT IF SRI LANKA (COUNTRY=6): 'Sinhalese'; INSERT IN THAILAND (COUNTRY=7): 'Thai']
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	1.692	5.052
+1) Very important	9631	73.4
+2) Somewhat important	1891	14.4
+3) Not very important	907	6.9
+4) Not at all important	658	5.0
+98) (DO NOT READ) Don't know	33	0.3
+99) (DO NOT READ) Refused	2	0.0
+
+
+103) Q81B
+Some people say that the following things are important to be truly [DEMONYM]. Others say that they are not important. How important, if at all, do you think each is to being truly [DEMONYM]? b. To be able to speak Tamil [ASK IN SRI LANKA (COUNTRY=6)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2510	2.915	11.18
+1) Very important	1369	54.5
+2) Somewhat important	816	32.5
+3) Not very important	182	7.3
+4) Not at all important	109	4.3
+98) (DO NOT READ) Don't know	32	1.3
+99) (DO NOT READ) Refused	2	0.1
+Missing	10612
+
+
+104) Q81C
+Some people say that the following things are important to be truly [DEMONYM]. Others say that they are not important. How important, if at all, do you think each is to being truly [DEMONYM]? c. To be able to speak Singlish [ASK IN SINGAPORE (COUNTRY=5)]
+RANGE: 1 to 98
+	N	Mean	Std. Deviation
+Total	2036	3.219	7.956
+1) Very important	381	18.7
+2) Somewhat important	581	28.5
+3) Not very important	602	29.6
+4) Not at all important	458	22.5
+98) (DO NOT READ) Don't know	14	0.7
+Missing	11086
+
+
+105) Q81D
+Some people say that the following things are important to be truly [DEMONYM]. Others say that they are not important. How important, if at all, do you think each is to being truly [DEMONYM]? d. To be [INSERT IN CAMBODIA, SINGAPORE, SRI LANKA OR THAILAND (COUNTRY=1,5,6,7): 'Buddhist'; INSERT IN INDONESIA OR MALAYSIA (COUNTRY=2,3): 'Muslim']
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	2.667	9.719
+1) Very important	8311	63.3
+2) Somewhat important	1849	14.1
+3) Not very important	1380	10.5
+4) Not at all important	1449	11.0
+98) (DO NOT READ) Don't know	112	0.9
+99) (DO NOT READ) Refused	21	0.2
+
+
+106) Q81E
+Some people say that the following things are important to be truly [DEMONYM]. Others say that they are not important. How important, if at all, do you think each is to being truly [DEMONYM]? e. To respect [COUNTRY]'s institutions and laws
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	1.629	6.607
+1) Very important	11159	85.0
+2) Somewhat important	1575	12.0
+3) Not very important	225	1.7
+4) Not at all important	102	0.8
+98) (DO NOT READ) Don't know	58	0.4
+99) (DO NOT READ) Refused	3	0.0
+
+
+107) Q81F
+Some people say that the following things are important to be truly [DEMONYM]. Others say that they are not important. How important, if at all, do you think each is to being truly [DEMONYM]? f. To be [INSERT 'Khmer ethnicity' IN CAMBODIA (COUNTRY=1); INSERT 'Pribumi' IN INDONESIA (COUNTRY=2); INSERT 'Bumiputera' IN MALAYSIA (COUNTRY=3); INSERT 'of Chinese descent' IN SINGAPORE (COUNTRY=5); INSERT 'Sinhalese' IN SRI LANKA (COUNTRY=6); INSERT 'Thai ethnicity' IN THAILAND (COUNTRY=7)]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	2.562	9.569
+1) Very important	8535	65.0
+2) Somewhat important	2069	15.8
+3) Not very important	1266	9.6
+4) Not at all important	1123	8.6
+98) (DO NOT READ) Don't know	117	0.9
+99) (DO NOT READ) Refused	12	0.1
+
+
+108) Q81G
+Some people say that the following things are important to be truly [DEMONYM]. Others say that they are not important. How important, if at all, do you think each is to being truly [DEMONYM]? g. To have been born in [COUNTRY]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	1.927	6.784
+1) Very important	9333	71.1
+2) Somewhat important	2066	15.7
+3) Not very important	1094	8.3
+4) Not at all important	565	4.3
+98) (DO NOT READ) Don't know	57	0.4
+99) (DO NOT READ) Refused	7	0.1
+
+
+109) Q81H
+Some people say that the following things are important to be truly [DEMONYM]. Others say that they are not important. How important, if at all, do you think each is to being truly [DEMONYM]? h. To be polite and welcoming
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	1.501	5.627
+1) Very important	11189	85.3
+2) Somewhat important	1586	12.1
+3) Not very important	192	1.5
+4) Not at all important	111	0.8
+98) (DO NOT READ) Don't know	37	0.3
+99) (DO NOT READ) Refused	7	0.1
+
+
+110) Q81I
+Some people say that the following things are important to be truly [DEMONYM]. Others say that they are not important. How important, if at all, do you think each is to being truly [DEMONYM]? i. To be willing to support [COUNTRY] when others criticize it
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	2.733	11.338
+1) Very important	9452	72.0
+2) Somewhat important	2337	17.8
+3) Not very important	721	5.5
+4) Not at all important	430	3.3
+98) (DO NOT READ) Don't know	159	1.2
+99) (DO NOT READ) Refused	23	0.2
+
+
+111) Q82
+Please tell me if you completely agree, somewhat agree, somewhat disagree or completely disagree with the following statement: [DEMONYM] people are not perfect, but [DEMONYM] culture is superior to others.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	2.831	10.494
+1) Completely agree	7150	54.5
+2) Somewhat agree	3704	28.2
+3) Somewhat disagree	1165	8.9
+4) Completely disagree	947	7.2
+98) (DO NOT READ) Don't know	134	1.0
+99) (DO NOT READ) Refused	22	0.2
+
+
+112) Q86A
+Should religious leaders do each of the following things, or not? a. talk publicly about what politicians or political parties they support
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	4.864	17.571
+1) Yes	5655	43.1
+2) No	7017	53.5
+98) (DO NOT READ) Don't know	420	3.2
+99) (DO NOT READ) Refused	30	0.2
+
+
+113) Q86B
+Should religious leaders do each of the following things, or not? b. be politicians
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	5.426	18.749
+1) Yes	4610	35.1
+2) No	7996	60.9
+98) (DO NOT READ) Don't know	484	3.7
+99) (DO NOT READ) Refused	32	0.2
+
+
+114) Q86C
+Should religious leaders do each of the following things, or not? c. participate in political protests
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	4.87	17.429
+1) Yes	4896	37.3
+2) No	7783	59.3
+98) (DO NOT READ) Don't know	411	3.1
+99) (DO NOT READ) Refused	32	0.2
+
+
+115) Q86D
+Should religious leaders do each of the following things, or not? d. vote in political elections
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	3.063	13.115
+1) Yes	9587	73.1
+2) No	3290	25.1
+98) (DO NOT READ) Don't know	223	1.7
+99) (DO NOT READ) Refused	22	0.2
+
+
+116) Q87
+Do you personally feel that using violence against people because of their political beliefs or religion can often be justified, sometimes be justified, rarely be justified or never be justified?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	4.995	12.138
+1) Often justified	768	5.9
+2) Sometimes justified	1749	13.3
+3) Rarely justified	1654	12.6
+4) Never justified	8733	66.6
+98) (DO NOT READ) Don't know	196	1.5
+99) (DO NOT READ) Refused	22	0.2
+
+
+117) Q88A
+ASK IF BUDDHIST (RELSING=1) OR BUDDHIST AFFINITY (Q26A=1): Do you favor or oppose basing the law on Buddhist dharma in [IN INDONESIA OR MALAYSIA (COUNTRY=2,3) INSERT: 'the areas where Buddhists are a majority'; IN OTHER COUNTRIES (COUNTRY=1,5,6,7) INSERT: '[COUNTRY]']?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7725	4.164	16.326
+1) Favor	5118	66.3
+2) Oppose	2278	29.5
+3) (DO NOT READ) Other/Depends on situation	103	1.3
+98) (DO NOT READ) Don't know	191	2.5
+99) (DO NOT READ) Refused	35	0.5
+Missing	5397
+
+
+118) Q88B
+ASK IF MUSLIM OR MUSLIM AFFINITY IN INDONESIA, MALAYSIA, SINGAPORE, SRI LANKA AND THAILAND ((RELSING=2 OR Q26B=1) AND COUNTRY=2,3,5,6,7): Do you favor or oppose making sharia the official law of the land in [IN SINGAPORE, SRI LANKA AND THAILAND (COUNTRY=5,6,7) INSERT: 'the areas where Muslims are a majority'; IN INDONESIA AND MALAYSIA (COUNTRY=2,3) INSERT: '[COUNTRY]']?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	6080	5.394	19.283
+1) Favor	3648	60.0
+2) Oppose	2110	34.7
+3) (DO NOT READ) Other/Depends on situation	70	1.2
+98) (DO NOT READ) Don't know	230	3.8
+99) (DO NOT READ) Refused	22	0.4
+Missing	7042
+
+
+119) Q96A
+ASK IF BUDDHIST (RELSING=1) OR BUDDHIST AFFINITY (Q26A=1): Do you think each of the following is a threat to Buddhism in [COUNTRY], or not? a. Tourists from other countries
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7725	6.319	20.431
+1) Yes	1693	21.9
+2) No	5667	73.4
+98) (DO NOT READ) Don't know	351	4.5
+99) (DO NOT READ) Refused	14	0.2
+Missing	5397
+
+
+120) Q96B
+ASK IF BUDDHIST (RELSING=1) OR BUDDHIST AFFINITY (Q26A=1): Do you think each of the following is a threat to Buddhism in [COUNTRY], or not? b. The influence of China
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7725	10.157	27.304
+1) Yes	2284	29.6
+2) No	4761	61.6
+98) (DO NOT READ) Don't know	663	8.6
+99) (DO NOT READ) Refused	17	0.2
+Missing	5397
+
+
+121) Q96C
+ASK IF BUDDHIST (RELSING=1) OR BUDDHIST AFFINITY (Q26A=1): Do you think each of the following is a threat to Buddhism in [COUNTRY], or not? c. The influence of the United States
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7725	11.989	29.819
+1) Yes	2350	30.4
+2) No	4547	58.9
+98) (DO NOT READ) Don't know	800	10.4
+99) (DO NOT READ) Refused	28	0.4
+Missing	5397
+
+
+122) Q96D
+ASK IF BUDDHIST (RELSING=1) OR BUDDHIST AFFINITY (Q26A=1): Do you think each of the following is a threat to Buddhism in [COUNTRY], or not? d. The growing number of Muslims
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7725	8.975	25.684
+1) Yes	3062	39.6
+2) No	4070	52.7
+98) (DO NOT READ) Don't know	577	7.5
+99) (DO NOT READ) Refused	16	0.2
+Missing	5397
+
+
+123) Q96E
+ASK IF BUDDHIST (RELSING=1) OR BUDDHIST AFFINITY (Q26A=1): Do you think each of the following is a threat to Buddhism in [COUNTRY], or not? e. The growing number of Christians
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7725	7.535	23.039
+1) Yes	2379	30.8
+2) No	4876	63.1
+98) (DO NOT READ) Don't know	456	5.9
+99) (DO NOT READ) Refused	14	0.2
+Missing	5397
+
+
+124) Q96F
+ASK IF BUDDHIST (RELSING=1) OR BUDDHIST AFFINITY (Q26A=1): Do you think each of the following is a threat to Buddhism in [COUNTRY], or not? f. Buddhist extremists
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	7725	7.56	23.503
+1) Yes	3917	50.7
+2) No	3320	43.0
+98) (DO NOT READ) Don't know	467	6.0
+99) (DO NOT READ) Refused	21	0.3
+Missing	5397
+
+
+125) Q97A
+ASK IF MUSLIM (RELSING=2) OR MUSLIM AFFINITY (Q26B=1): Do you think each of the following is a threat to Islam in [COUNTRY], or not? a. Tourists from other countries
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	6181	4.805	16.967
+1) Yes	1679	27.2
+2) No	4304	69.6
+98) (DO NOT READ) Don't know	191	3.1
+99) (DO NOT READ) Refused	7	0.1
+Missing	6941
+
+
+126) Q97B
+ASK IF MUSLIM (RELSING=2) OR MUSLIM AFFINITY (Q26B=1): Do you think each of the following is a threat to Islam in [COUNTRY], or not? b. The influence of China
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	6181	5.701	19.437
+1) Yes	2292	37.1
+2) No	3627	58.7
+98) (DO NOT READ) Don't know	249	4.0
+99) (DO NOT READ) Refused	13	0.2
+Missing	6941
+
+
+127) Q97C
+ASK IF MUSLIM (RELSING=2) OR MUSLIM AFFINITY (Q26B=1): Do you think each of the following is a threat to Islam in [COUNTRY], or not? c. The influence of the United States
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	6181	5.955	20.179
+1) Yes	2737	44.3
+2) No	3161	51.1
+98) (DO NOT READ) Don't know	271	4.4
+99) (DO NOT READ) Refused	12	0.2
+Missing	6941
+
+
+128) Q97D
+ASK IF MUSLIM (RELSING=2) OR MUSLIM AFFINITY (Q26B=1): Do you think each of the following is a threat to Islam in [COUNTRY], or not? d. The growing number of Christians
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	6181	5.03	17.753
+1) Yes	2119	34.3
+2) No	3845	62.2
+98) (DO NOT READ) Don't know	204	3.3
+99) (DO NOT READ) Refused	13	0.2
+Missing	6941
+
+
+129) Q97E
+ASK IF MUSLIM (RELSING=2) OR MUSLIM AFFINITY (Q26B=1): Do you think each of the following is a threat to Islam in [COUNTRY], or not? e. The growing number of Buddhists
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	6181	5.044	17.705
+1) Yes	1930	31.2
+2) No	4035	65.3
+98) (DO NOT READ) Don't know	206	3.3
+99) (DO NOT READ) Refused	10	0.2
+Missing	6941
+
+
+130) Q97F
+ASK IF MUSLIM (RELSING=2) OR MUSLIM AFFINITY (Q26B=1): Do you think each of the following is a threat to Islam in [COUNTRY], or not? f. Muslim extremists
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	6181	6.404	21.388
+1) Yes	3424	55.4
+2) No	2438	39.4
+98) (DO NOT READ) Don't know	300	4.9
+99) (DO NOT READ) Refused	19	0.3
+Missing	6941
+
+
+131) Q98A
+ASK ALL EXCEPT IN INDONESIA AND MALAYSIA; ASK ONLY BUDDHISTS AND BUDDHIST AFFINITY IN INDONESIA AND MALAYSIA (COUNTRY=1,5,6,7 OR ((RELSING=1 OR Q26A=1) AND COUNTRY=2,3)) Q98 Do you think it is appropriate or inappropriate for non-Buddhist people from other countries to do the following things? a. Wear images of Buddha or other Buddhist symbols
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	9201	4.126	15.489
+1) Appropriate	3982	43.3
+2) Inappropriate	4784	52.0
+3) (DO NOT READ) Depends on situation	192	2.1
+98) (DO NOT READ) Don't know	217	2.4
+99) (DO NOT READ) Refused	26	0.3
+Missing	3921
+
+
+132) Q98B
+ASK ALL EXCEPT IN INDONESIA AND MALAYSIA; ASK ONLY BUDDHISTS AND BUDDHIST AFFINITY IN INDONESIA AND MALAYSIA (COUNTRY=1,5,6,7 OR ((RELSING=1 OR Q26A=1) AND COUNTRY=2,3)) Q98 Do you think it is appropriate or inappropriate for non-Buddhist people from other countries to do the following things? b. Have Buddhist symbols or images tattooed on their body wherever they like
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	9201	4.29	15.557
+1) Appropriate	2785	30.3
+2) Inappropriate	5955	64.7
+3) (DO NOT READ) Depends on situation	215	2.3
+98) (DO NOT READ) Don't know	222	2.4
+99) (DO NOT READ) Refused	24	0.3
+Missing	3921
+
+
+133) Q98C
+ASK ALL EXCEPT IN INDONESIA AND MALAYSIA; ASK ONLY BUDDHISTS AND BUDDHIST AFFINITY IN INDONESIA AND MALAYSIA (COUNTRY=1,5,6,7 OR ((RELSING=1 OR Q26A=1) AND COUNTRY=2,3)) Q98 Do you think it is appropriate or inappropriate for non-Buddhist people from other countries to do the following things? [INTERVIEWER: BEFORE FOLLOW-UP ITEMS YOU CAN ASK, 'What about ...?' OR 'Next ...?' YOU CAN ALSO REREAD THE FIRST PART OF THE QUESTION AS NEEDED] [RANDOMIZE BATTERY ITEMS] c. Visit Buddhist temples, pagodas or dhamma halls for tourism
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	9201	2.586	11.792
+1) Appropriate	7946	86.4
+2) Inappropriate	1040	11.3
+3) (DO NOT READ) Depends on situation	77	0.8
+98) (DO NOT READ) Don't know	124	1.3
+99) (DO NOT READ) Refused	14	0.2
+Missing	3921
+
+
+134) Q98D
+ASK ALL EXCEPT IN INDONESIA AND MALAYSIA; ASK ONLY BUDDHISTS AND BUDDHIST AFFINITY IN INDONESIA AND MALAYSIA (COUNTRY=1,5,6,7 OR ((RELSING=1 OR Q26A=1) AND COUNTRY=2,3)) Q98 Do you think it is appropriate or inappropriate for non-Buddhist people from other countries to do the following things? d. Participate in Buddhist practices such as meditation and chanting
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	9201	2.888	12.835
+1) Appropriate	7688	83.6
+2) Inappropriate	1250	13.6
+3) (DO NOT READ) Depends on situation	99	1.1
+98) (DO NOT READ) Don't know	145	1.6
+99) (DO NOT READ) Refused	19	0.2
+Missing	3921
+
+
+135) Q98E
+ASK ALL EXCEPT IN INDONESIA AND MALAYSIA; ASK ONLY BUDDHISTS AND BUDDHIST AFFINITY IN INDONESIA AND MALAYSIA (COUNTRY=1,5,6,7 OR ((RELSING=1 OR Q26A=1) AND COUNTRY=2,3)) Q98 Do you think it is appropriate or inappropriate for non-Buddhist people from other countries to do the following things? e. Marry Buddhists from [COUNTRY]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	9201	4.656	17.807
+1) Appropriate	6845	74.4
+2) Inappropriate	1702	18.5
+3) (DO NOT READ) Depends on situation	332	3.6
+98) (DO NOT READ) Don't know	283	3.1
+99) (DO NOT READ) Refused	39	0.4
+Missing	3921
+
+
+136) GENDERREC
+Combines QGEN, QGENB and QGENC into one gender variable (see full questionnaire for exact skip patterns and question wordings)
+RANGE: 1 to 999
+	N	Mean	Std. Deviation
+Total	13122	2.831	35.884
+1) Man	6049	46.1
+2) Woman	7056	53.8
+999) Other/DK/Ref	17	0.1
+
+
+137) QAGE
+How old are you? [INTERVIEWER: IF RESPONDENT DOES NOT PROVIDE A SPECIFIC AGE NUMBER, GENTLY PROBE, 'If you had to estimate it, about what age would you be?'] [RECORD AGE IN YEARS]
+RANGE: 18 to 999
+	N	Mean	Std. Deviation
+Total	13122	43.728	39.782
+18) 	275	2.1
+19) 	307	2.3
+20) 	300	2.3
+21) 	259	2.0
+22) 	307	2.3
+23) 	267	2.0
+24) 	260	2.0
+25) 	328	2.5
+26) 	265	2.0
+27) 	285	2.2
+28) 	267	2.0
+29) 	276	2.1
+30) 	405	3.1
+31) 	222	1.7
+32) 	335	2.6
+33) 	229	1.7
+34) 	239	1.8
+35) 	363	2.8
+36) 	266	2.0
+37) 	235	1.8
+38) 	310	2.4
+39) 	235	1.8
+40) 	418	3.2
+41) 	203	1.5
+42) 	342	2.6
+43) 	248	1.9
+44) 	175	1.3
+45) 	332	2.5
+46) 	203	1.5
+47) 	204	1.6
+48) 	232	1.8
+49) 	183	1.4
+50) 	342	2.6
+51) 	141	1.1
+52) 	244	1.9
+53) 	191	1.5
+54) 	191	1.5
+55) 	224	1.7
+56) 	174	1.3
+57) 	187	1.4
+58) 	184	1.4
+59) 	140	1.1
+60) 	261	2.0
+61) 	117	0.9
+62) 	187	1.4
+63) 	159	1.2
+64) 	116	0.9
+65) 	193	1.5
+66) 	119	0.9
+67) 	109	0.8
+68) 	117	0.9
+69) 	98	0.7
+70) 	152	1.2
+71) 	64	0.5
+72) 	94	0.7
+73) 	72	0.5
+74) 	61	0.5
+75) 	72	0.5
+76) 	50	0.4
+77) 	32	0.2
+78) 	56	0.4
+79) 	20	0.2
+80) 	41	0.3
+81) 	13	0.1
+82) 	18	0.1
+83) 	19	0.1
+84) 	16	0.1
+85) 	17	0.1
+86) 	11	0.1
+87) 	7	0.1
+88) 	8	0.1
+89) 	3	0.0
+90) 	3	0.0
+91) 	2	0.0
+93) 	1	0.0
+95) 	1	0.0
+96) 	1	0.0
+999) (DO NOT READ) Refused	19	0.1
+
+
+138) QETHKHM
+CAMBODIA (COUNTRY=1) What is your ethnicity?
+RANGE: 1 to 97
+	N	Mean	Std. Deviation
+Total	1502	1.734	8.18
+1) Khmer	1449	96.5
+2) Cham	36	2.4
+3) Vietnamese	6	0.4
+96) Chinese	1	0.1
+97) Some other ethnicity	10	0.7
+Missing	11620
+
+
+139) QETHIDN
+INDONESIA (COUNTRY=2) What is your ethnicity?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2571	11.952	27.886
+1) Javanese	1185	46.1
+2) Sundanese	504	19.6
+3) Malay	185	7.2
+4) (DO NOT READ) Batak	69	2.7
+5) (DO NOT READ) Madurese	35	1.4
+6) (DO NOT READ) Betawi	33	1.3
+7) (DO NOT READ) Minangkabau	57	2.2
+8) (DO NOT READ) Buginese	68	2.6
+10) (DO NOT READ) Banjarese	33	1.3
+11) (DO NOT READ) Balinese	37	1.4
+12) (DO NOT READ) Acehnese	16	0.6
+13) (DO NOT READ) Dayak	9	0.4
+14) (DO NOT READ) Sasak	46	1.8
+15) (DO NOT READ) Papuan	1	0.0
+16) (DO NOT READ) Makassarese	16	0.6
+17) (DO NOT READ) Gorontaloan	6	0.2
+18) (DO NOT READ) Minahasan	20	0.8
+19) (DO NOT READ) Nias	1	0.0
+20) (DO NOT READ) Moluccans	4	0.2
+96) Chinese	5	0.2
+97) Some other ethnicity	235	9.1
+98) (DO NOT READ) Don't know	3	0.1
+99) (DO NOT READ) Refused	3	0.1
+Missing	10551
+
+
+140) QETHMYS
+MALAYSIA (COUNTRY=3) What is your ethnicity?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1999	18.437	36.619
+1) Malay	1378	68.9
+2) Indian	106	5.3
+3) Aboriginal	154	7.7
+96) Chinese	217	10.9
+97) Some other ethnicity	141	7.1
+98) (DO NOT READ) Don't know	2	0.1
+99) (DO NOT READ) Refused	1	0.1
+Missing	11123
+
+
+141) QETHSGP
+SINGAPORE (COUNTRY=5) What is your ethnicity?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2036	73.585	40.287
+1) Malay	260	12.8
+2) Indian	224	11.0
+96) Chinese	1445	71.0
+97) Some other ethnicity	100	4.9
+98) (DO NOT READ) Don't know	2	0.1
+99) (DO NOT READ) Refused	5	0.2
+Missing	11086
+
+
+142) QETHLKA
+SRI LANKA (COUNTRY=6) What is your ethnicity?
+RANGE: 1 to 98
+	N	Mean	Std. Deviation
+Total	2510	1.45	2.849
+1) Sinhalese	1955	77.9
+2) Sri Lankan Tamil	347	13.8
+3) Indian Tamil	34	1.4
+4) Sri Lankan Moor	169	6.7
+5) Burgher	2	0.1
+6) Malay	1	0.0
+98) (DO NOT READ) Don't know	2	0.1
+Missing	10612
+
+
+143) QETHTHA
+THAILAND (COUNTRY=7) What is your ethnicity?
+RANGE: 1 to 97
+	N	Mean	Std. Deviation
+Total	2504	1.276	5.029
+1) Thai (DO NOT READ: Siamese, Isan, Yuan, Thai Pak Tai)	2491	99.5
+3) Khmer	1	0.0
+4) Karen	2	0.1
+7) Lao	3	0.1
+96) Chinese (DO NOT READ: Teochew, Hakka, Luk Chin)	6	0.2
+97) Some other ethnicity	1	0.0
+Missing	10618
+
+
+144) Q102
+How emotionally attached, if at all, do you feel to China?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	5.679	15.009
+1) Very emotionally attached	575	4.4
+2) Somewhat emotionally attached	2389	18.2
+3) Not very emotionally attached	3077	23.4
+4) Not at all emotionally attached	6745	51.4
+98) (DO NOT READ) Don't know	304	2.3
+99) (DO NOT READ) Refused	32	0.2
+
+
+145) QFERT
+How many children have you had, if any? Please count all children born at any time in your life. [INTERVIEWER: IF RESPONDENT ASKS WHETHER ADOPTED CHILDREN OR STEPCHILDREN SHOULD BE INCLUDED, SAY: 'No, please do not include adopted children or stepchildren, we're asking you only to count all children born at any time in your life.'] [RECORD NUMBER]
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	13122	2.345	7.413
+0) 	3926	29.9
+1) 	2009	15.3
+2) 	3331	25.4
+3) 	2012	15.3
+4) 	921	7.0
+5) 	399	3.0
+6) 	197	1.5
+7) 	147	1.1
+8) 	53	0.4
+9) 	24	0.2
+10) 	18	0.1
+11) 	5	0.0
+12) 	3	0.0
+13) 	2	0.0
+16) 	2	0.0
+98) (DO NOT READ) Don't know	19	0.1
+99) (DO NOT READ) Refused	54	0.4
+
+
+146) QHH1
+How many people, including yourself, live in your household? [INTERVIEWER: IF RESPONDENT ASKS, HOUSEHOLD MEMBERS INCLUDE: Infants, children and adults, people who normally live at this address but are away for less than 10 weeks, people away at work for whom this is the main address, boarders and lodgers, domestic servants who live at this address. EXCLUDE: People away for 10 weeks or more, people who live elsewhere due to work/study, spouses who are separated and no longer resident, domestic servants whose main residence is at another address] [RECORD NUMBER]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	4.173	5.237
+1) 	879	6.7
+2) 	2139	16.3
+3) 	2653	20.2
+4) 	3041	23.2
+5) 	2257	17.2
+6) 	1151	8.8
+7) 	509	3.9
+8) 	201	1.5
+9) 	117	0.9
+10) 	81	0.6
+11) 	17	0.1
+12) 	22	0.2
+13) 	5	0.0
+14) 	2	0.0
+15) 	3	0.0
+16) 	1	0.0
+17) 	1	0.0
+20) 	3	0.0
+21) 	2	0.0
+22) 	1	0.0
+24) 	1	0.0
+25) 	1	0.0
+98) (DO NOT READ) Don't know	7	0.1
+99) (DO NOT READ) Refused	28	0.2
+
+
+147) QHH2
+ASK IF MORE THAN ONE PERSON LIVES IN HOUSEHOLD (QHH1 is greater than 1): And how many, including yourself, are adults, age 18 and older? [RECORD NUMBER]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	12236	3.166	4.925
+1) 	562	4.6
+2) 	5400	44.1
+3) 	2919	23.9
+4) 	1940	15.9
+5) 	856	7.0
+6) 	320	2.6
+7) 	109	0.9
+8) 	47	0.4
+9) 	25	0.2
+10) 	14	0.1
+11) 	2	0.0
+12) 	5	0.0
+13) 	1	0.0
+15) 	1	0.0
+16) 	1	0.0
+17) 	1	0.0
+18) 	1	0.0
+20) 	2	0.0
+98) (DO NOT READ) Don't know	9	0.1
+99) (DO NOT READ) Refused	21	0.2
+Missing	886
+
+
+148) QMARRIED
+What is your current marital status?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	2.271	3.989
+1) Married	8229	62.7
+2) Divorced	327	2.5
+3) Separated	235	1.8
+4) Unmarried/Single	3244	24.7
+5) Widow/Widower	1050	8.0
+6) (DO NOT READ) Living with a partner	18	0.1
+98) (DO NOT READ) Don't know	1	0.0
+99) (DO NOT READ) Refused	18	0.1
+
+
+149) QHHCH
+Are you the parent or legal guardian of any children under the age of 18 who currently live in your household, or not?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	2.504	9.791
+1) Yes	6356	48.4
+2) No	6632	50.5
+98) (DO NOT READ) Don't know	31	0.2
+99) (DO NOT READ) Refused	103	0.8
+
+
+150) QCHILD_1
+ASK IF HAS CHILDREN IN HOME (QHHCH=1): In what religion, if any, are you raising your child/children? [INTERVIEWER: SELECT ALL THAT APPLY. IF RESPONDENT SAYS HIS/HER CHILDREN ARE TOO YOUNG, ASK: 'How do you plan to raise your child/children?'] [ALLOW FOR MULTIPLE RESPONSES] 1. Buddhist
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	6356	1.539	0.499
+1) Selected	2933	46.1
+2) Not selected	3423	53.9
+Missing	6766
+
+
+151) QCHILD_2
+ASK IF HAS CHILDREN IN HOME (QHHCH=1): In what religion, if any, are you raising your child/children? [INTERVIEWER: SELECT ALL THAT APPLY. IF RESPONDENT SAYS HIS/HER CHILDREN ARE TOO YOUNG, ASK: 'How do you plan to raise your child/children?'] [ALLOW FOR MULTIPLE RESPONSES] 2. Muslim
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	6356	1.612	0.487
+1) Selected	2467	38.8
+2) Not selected	3889	61.2
+Missing	6766
+
+
+152) QCHILD_3
+ASK IF HAS CHILDREN IN HOME (QHHCH=1): In what religion, if any, are you raising your child/children? [INTERVIEWER: SELECT ALL THAT APPLY. IF RESPONDENT SAYS HIS/HER CHILDREN ARE TOO YOUNG, ASK: 'How do you plan to raise your child/children?'] [ALLOW FOR MULTIPLE RESPONSES] 3. Christian (DO NOT READ: Catholic, Protestant)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	6356	1.938	0.241
+1) Selected	395	6.2
+2) Not selected	5961	93.8
+Missing	6766
+
+
+153) QCHILD_4
+ASK IF HAS CHILDREN IN HOME (QHHCH=1): In what religion, if any, are you raising your child/children? [INTERVIEWER: SELECT ALL THAT APPLY. IF RESPONDENT SAYS HIS/HER CHILDREN ARE TOO YOUNG, ASK: 'How do you plan to raise your child/children?'] [ALLOW FOR MULTIPLE RESPONSES] 4. Hindu
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	6356	1.951	0.216
+1) Selected	313	4.9
+2) Not selected	6043	95.1
+Missing	6766
+
+
+154) QCHILD_5
+ASK IF HAS CHILDREN IN HOME (QHHCH=1): In what religion, if any, are you raising your child/children? [INTERVIEWER: SELECT ALL THAT APPLY. IF RESPONDENT SAYS HIS/HER CHILDREN ARE TOO YOUNG, ASK: 'How do you plan to raise your child/children?'] [ALLOW FOR MULTIPLE RESPONSES] 5. Chinese traditional religion, such as Tao, Confucian or Chinese local religions [DO NOT ASK IN SRI LANKA (COUNTRY≠6)]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	5031	1.994	0.077
+1) Selected	30	0.6
+2) Not selected	5001	99.4
+Missing	8091
+
+
+155) QCHILD_6
+ASK IF HAS CHILDREN IN HOME (QHHCH=1): In what religion, if any, are you raising your child/children? [INTERVIEWER: SELECT ALL THAT APPLY. IF RESPONDENT SAYS HIS/HER CHILDREN ARE TOO YOUNG, ASK: 'How do you plan to raise your child/children?'] [ALLOW FOR MULTIPLE RESPONSES] 6. Local beliefs/Indigenous religions [DO NOT ASK IN SRI LANKA (COUNTRY≠6)]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	5031	1.998	0.047
+1) Selected	11	0.2
+2) Not selected	5020	99.8
+Missing	8091
+
+
+156) QCHILD_8
+ASK IF HAS CHILDREN IN HOME (QHHCH=1): In what religion, if any, are you raising your child/children? [INTERVIEWER: SELECT ALL THAT APPLY. IF RESPONDENT SAYS HIS/HER CHILDREN ARE TOO YOUNG, ASK: 'How do you plan to raise your child/children?'] [ALLOW FOR MULTIPLE RESPONSES] 8. Some other religion
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	6356	1.996	0.06
+1) Selected	23	0.4
+2) Not selected	6333	99.6
+Missing	6766
+
+
+157) QCHILD_9
+ASK IF HAS CHILDREN IN HOME (QHHCH=1): In what religion, if any, are you raising your child/children? [INTERVIEWER: SELECT ALL THAT APPLY. IF RESPONDENT SAYS HIS/HER CHILDREN ARE TOO YOUNG, ASK: 'How do you plan to raise your child/children?'] [ALLOW FOR MULTIPLE RESPONSES] 9. No religion
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	6356	1.967	0.179
+1) Selected	210	3.3
+2) Not selected	6146	96.7
+Missing	6766
+
+
+158) QCHILD_98
+ASK IF HAS CHILDREN IN HOME (QHHCH=1): In what religion, if any, are you raising your child/children? [INTERVIEWER: SELECT ALL THAT APPLY. IF RESPONDENT SAYS HIS/HER CHILDREN ARE TOO YOUNG, ASK: 'How do you plan to raise your child/children?'] [ALLOW FOR MULTIPLE RESPONSES] 98. (DO NOT READ) Don't know
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	6356	1.999	0.038
+1) Selected	9	0.1
+2) Not selected	6347	99.9
+Missing	6766
+
+
+159) QCHILD_99
+ASK IF HAS CHILDREN IN HOME (QHHCH=1): In what religion, if any, are you raising your child/children? [INTERVIEWER: SELECT ALL THAT APPLY. IF RESPONDENT SAYS HIS/HER CHILDREN ARE TOO YOUNG, ASK: 'How do you plan to raise your child/children?'] [ALLOW FOR MULTIPLE RESPONSES] 99. (DO NOT READ) Refused
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	6356	1.999	0.025
+1) Selected	4	0.1
+2) Not selected	6352	99.9
+Missing	6766
+
+
+160) KHMPROVINCE
+Cambodia Province (based on fieldwork location information)
+RANGE: 1 to 97
+	N	Mean	Std. Deviation
+Total	1502	26.344	32.503
+1) Banteay Meanchey	80	5.3
+2) Battambang	100	6.7
+3) Kampong Cham	80	5.3
+4) Kampong Chhnang	40	2.7
+5) Kampong Speu	80	5.3
+6) Kampong Thom	71	4.7
+7) Kampot	60	4.0
+8) Kandal	110	7.3
+10) Koh Kong	20	1.3
+11) Kratie	40	2.7
+13) Otdar Meanchey	20	1.3
+16) Preah Sihanouk	30	2.0
+17) Preah Vihear	20	1.3
+18) Prey Veng	110	7.3
+19) Pursat	50	3.3
+21) Siemreap	100	6.7
+22) Stung Treng	30	2.0
+23) Svay Rieng	41	2.7
+24) Takeo	90	6.0
+25) Tboung Khmum	80	5.3
+97) Other	250	16.6
+Missing	11620
+
+
+161) IDNREGION
+Indonesia Region (based on fieldwork location information)
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	2571	2.846	2.553
+1) Java	1553	60.4
+2) Kalimantan	145	5.6
+3) Maluku Islands	11	0.4
+4) Nusa Tenggara	130	5.1
+5) Papua	10	0.4
+6) Sulawesi	182	7.1
+7) Sumatra	540	21.0
+Missing	10551
+
+
+162) ZIPMALREC
+ASK IN MALAYSIA (COUNTRY=3): What state do you live in? [INTERVIEWER INSTRUCTION: READ IF NEEDED]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1999	8.831	8.629
+1) Johor	226	11.3
+2) Kedah	118	5.9
+3) Kelantan	102	5.1
+4) Melaka	75	3.8
+5) Negeri Sembilan	78	3.9
+6) Pahang	109	5.5
+7) Perak	146	7.3
+8) Perlis	19	1.0
+9) Penang	100	5.0
+10) Sabah	168	8.4
+11) Sarawak	104	5.2
+12) Selangor	504	25.2
+13) Terengganu	74	3.7
+14) Federal Territory of Kuala Lumpur	162	8.1
+97) Other	10	0.5
+99) (DO NOT READ) Refused	4	0.2
+Missing	11123
+
+
+163) ZIPSINREC
+ASK IN SINGAPORE (COUNTRY=5): Can you please tell me in which of the following five regions you live?
+RANGE: 1 to 999
+	N	Mean	Std. Deviation
+Total	2036	6.876	62.345
+1) Central	421	20.7
+2) East	477	23.4
+3) North	351	17.2
+4) North-East	315	15.5
+5) West	464	22.8
+999) Did not provide region or planning area	8	0.4
+Missing	11086
+
+
+164) LKAPROVINCE
+Sri Lanka Province (based on fieldwork location information)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2510	5.68	2.903
+1) Central	326	13.0
+2) Eastern	190	7.6
+3) North Central	160	6.4
+4) North Western	300	12.0
+5) Northern	121	4.8
+6) Sabaragamuwa	232	9.2
+7) Southern	298	11.9
+8) Uva	158	6.3
+9) Western	725	28.9
+Missing	10612
+
+
+165) THAREGION
+Thailand Region (based on fieldwork location information)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2504	3.5	1.261
+1) Bangkok	182	7.3
+2) North	381	15.2
+3) Northeast	692	27.6
+4) Central	500	20.0
+5) South	749	29.9
+Missing	10618
+
+
+166) URBANREC
+Urbanicity variable. In CAPI locations, based on fieldwork location information. In Malaysia, based on question listed in full questionnaire. In Singapore, all respondents are considered to live in urban locations.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	1.569	3.087
+1) Urban (includes suburban in Malaysia)	6905	52.6
+2) Rural	6204	47.3
+98) Don't know	9	0.1
+99) Refused	4	0.0
+
+
+167) QEDUKHM
+CAMBODIA (COUNTRY=1) What is the highest level of school you have completed or the highest degree you have received, if any?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1502	3.573	8.279
+1) Pre-primary	191	12.7
+2) Incomplete primary (Grades one through five completed, Grade six incomplete)	653	43.5
+3) Primary (Grade six completed, Grade seven incomplete)	140	9.3
+4) Secondary school (Grade seven through nine completed and receives lower secondary education diploma, Grade 10 incomplete)	308	20.5
+5) High school (Grade 10 through 12 completed and receives upper secondary educational diploma)	150	10.0
+6) Secondary or post-secondary level technical or vocational training (Technical/vocational Certificate 1, 2, or 3; teacher training diploma)	3	0.2
+7) Associate's degree	2	0.1
+8) Bachelor's degree (including Bachelor of Technology or Bachelor of Engineering)	41	2.7
+9) Master's degree (Including Bachelor of Medicine)	3	0.2
+98) (DO NOT READ) Don't know	8	0.5
+99) (DO NOT READ) Refused	3	0.2
+Missing	11620
+
+
+168) QEDUIDN
+INDONESIA (COUNTRY=2) What is the highest level of school you have completed or the highest degree you have received, if any?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2571	5.701	2.727
+1) No formal schooling (Preschool or Kindergarten)	12	0.5
+2) Did not finish elementary school (grade 1-5 SD) or Madrasah Ibtidaiyah	133	5.2
+3) Finished elementary school (finishing class 6 SD) or Madrasah Ibtidaiyah	482	18.7
+4) Did not finish first school (class 7-8, SMP); Incomplete junior high school (completed secondary grades 7-8), Madrasah Tsanawiyah or SMP Kejuruan	59	2.3
+5) Finished Junior High School (SMP, class 9), Madrasah Tsanawiyah or SMP Kejuruan	479	18.6
+6) Did not finish high school (class 10-11, SMA); Incomplete high school (completed high school grades 10-11), Did not finish Madrasah Aliyah or Did not finish Sekolah Menengah Kejuruan	91	3.5
+7) Finished High School (class 12, SMA), Madrasah Aliyah or Sekolah Menengah Kejuruan	1077	41.9
+8) Diploma programmes (DI thru DIII)	53	2.1
+9) Diploma programmes (DIV) or Program Sarjana (Bachelors Degree/S1)	151	5.9
+10) Program Spesialis 1 (Graduate diploma) and Profesi Dokter (Medical Doctor Diploma)	29	1.1
+11) Program Master S2 (Masters degree)	4	0.2
+99) Refused	1	0.0
+Missing	10551
+
+
+169) QEDUMYS
+MALAYSIA (COUNTRY=3) What is the highest level of school you have completed or the highest degree you have received, if any?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	1999	6.425	5.857
+1) No formal education	33	1.7
+2) Primary school (Standard 1 to Standard 6/UPSR)	95	4.8
+3) Lower secondary school (Form 1 to Form 3, pre-secondary foundation for religion school/PMR/SRP/LCE)	147	7.4
+4) Vocational/technical (vocation/technical school certificates, eg, SPVM/MCVE)	14	0.7
+5) Upper secondary school (Form 4 to Form 5/SPM/MCE/SC/GCE 'O' level)	660	33.0
+6) Trade and technical skills institutions (studies in trade and technical skills institution to earn diploma, e.g., diploma from SKM)	115	5.8
+7) Pre-university (post-secondary studies, e.g., STPM/STP/STA/4THANAWI/HSC/GCE 'A' Level, diploma)	328	16.4
+8) Tertiary studies (e.g., post-diploma/college/polytechnic/university education)	280	14.0
+9) Post graduate Master/Post graduate Diploma	292	14.6
+10) Post graduate PhD	28	1.4
+98) Don't know	3	0.2
+99) Refused	4	0.2
+Missing	11123
+
+
+170) QEDUSGP
+SINGAPORE (COUNTRY=5) What is the highest level of school you have completed or the highest degree you have received, if any?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2036	6.425	7.269
+1) No formal education (Nursery, Kindergarten)	9	0.4
+2) Primary school (PSLE)	74	3.6
+3) Lower secondary school (WISE 1-3, basic vocational certificate)	71	3.5
+4) Upper secondary (GCE 'N'/'O' level, National ITE certificate (Intermediate), ITE Skills Certificate (ISC))	298	14.6
+5) Junior college/Polytechnic Foundation Program (PFP)/Institute of Technical Education (National ITE Certificate, Higher National ITE Certificate)/Polytechnic (Year 1)	237	11.6
+6) Polytechnic (Year 2 and 3)/Advanced Diploma in Polytechnic	377	18.5
+7) Bachelor's degree/University (1st degree or post-graduate diploma)	791	38.9
+8) Master's degree/MBBS	151	7.4
+9) Doctorate	16	0.8
+98) Don't know	5	0.2
+99) Refused	7	0.3
+Missing	11086
+
+
+171) QEDULKA
+SRI LANKA (COUNTRY=6) What is the highest level of school you have completed or the highest degree you have received, if any?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2510	4.349	3.627
+1) No formal education (No schooling)	45	1.8
+2) Primary (Grade one to Grade five)	237	9.4
+3) Junior secondary (Grade six to Grade nine)	352	14.0
+4) Senior secondary (GCE O-Level/Grade 10 and Grade 11)	997	39.7
+5) Collegiate level (GCE A-Level/Grade 12 and Grade 13)	653	26.0
+6) Vocational training authority; technical colleges (NVQ Level 3 and Level 4 Certificates)	45	1.8
+7) Colleges of Technology; university colleges; VTA (NVQ Level 5 Diploma/Non-NVQ Diploma)	42	1.7
+8) National Diploma in Technology; National Diploma in Engineering Sciences (NDT/NDES NVQ Level 6/Dtech/HNDE/HNDA)	20	0.8
+9) Bachelor's degree (NVQ Level 7/MBBS)	100	4.0
+10) Master's degree	7	0.3
+11) Doctorate (PhD/MD)	9	0.4
+98) Don't know	1	0.0
+99) Refused	2	0.1
+Missing	10612
+
+
+172) QEDUTHA
+THAILAND (COUNTRY=7) What is the highest level of school you have completed or the highest degree you have received, if any?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2504	5.12	2.904
+1) No education	53	2.1
+2) Pre-primary	144	5.8
+3) Incomplete primary	234	9.3
+4) Primary (Grade 6 certificate)	926	37.0
+5) Lower secondary education (Grade 9 certificate)	365	14.6
+6) Upper secondary, vocational (Vocational education certificate)	162	6.5
+7) Upper secondary, general (Grade 12 certificate)	275	11.0
+8) Post-secondary non-tertiary (Associate degree/Technical certificate)	49	2.0
+9) Diploma in vocational education (Higher vocational certificate)	102	4.1
+10) Bachelor's degree	181	7.2
+11) Master's degree, graduate diploma, license degree	11	0.4
+12) Doctor's degree (Ph.D./Doctorate)	1	0.0
+99) Refused	1	0.0
+Missing	10618
+
+
+173) ISCED
+ISCED education level as coded by Pew (using UNESCO 2011 standards)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	13122	3.012	5.137
+1) ISCED Level one or less	3520	26.8
+2) ISCED Level two	1827	13.9
+3) ISCED Level three	4763	36.3
+4) ISCED Level four	279	2.1
+5) ISCED Level five or more	2698	20.6
+98) Don't know	17	0.1
+99) Refused	18	0.1
+
+
+174) LANGUAGE
+Language in which interview was conducted
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	13122	4.43	2.416
+1) Khmer	1502	11.4
+2) Bahasa Indonesian	2571	19.6
+3) Malay	1860	14.2
+4) Mandarin Chinese	345	2.6
+5) English	1830	13.9
+6) Sinhala	2231	17.0
+7) Tamil	279	2.1
+8) Thai	2504	19.1
+
+
+175) I-AGE
+How old are you? [INTERVIEWER: IF RESPONDENT DOES NOT PROVIDE A SPECIFIC AGE NUMBER, GENTLY PROBE, 'If you had to estimate it, about what age would you be?'] [RECORD AGE IN YEARS] (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	13103	2.835	1.55
+1) 18 to 29	3396	25.9
+2) 30 to 39	2839	21.7
+3) 40 to 49	2540	19.4
+4) 50 to 59	2018	15.4
+5) 60 to 69	1476	11.3
+6) 70 or older	834	6.4
+Missing	19
+
+
+176) I-ATTEND
+[INSERT IF CHRISTIAN (RELSING=3) 'Aside from weddings and funerals,'] how often, if at all, do you [INSERT IF BUDDHIST (RELSING=1) 'go to temple, pagoda or dhamma hall'; INSERT IF HINDU (RELSING=4) 'go to temple'; INSERT IF CHINESE TRADITIONAL RELIGION, OTHER RELIGION OR NO RELIGION (RELSING=5,6,7) 'go to temple'; INSERT IF MUSLIM (RELSING=2) 'attend mosque'; INSERT IF CHRISTIAN (RELSING=3) 'go to church']? (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	13103	2.86	1.255
+1) Every day	1530	11.7
+2) Once a week or more often	4494	34.3
+3) Once or twice a month	3164	24.1
+4) A few times a year	2601	19.9
+5) Less often than that	827	6.3
+6) Never	487	3.7
+Missing	19
+
+
+177) I-MARITAL
+What is your current marital status? (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	13103	2.131	1.537
+1) Married	8229	62.8
+2) Divorced	327	2.5
+3) Separated	235	1.8
+4) Unmarried/Single	3244	24.8
+5) Widow/Widower	1050	8.0
+6) Living with a partner	18	0.1
+Missing	19
+
+
+178) I-RELIGION
+[DO NOT READ IN SRI LANKA (COUNTRY=6) 'Regardless of how the government records your religion,'] what is your religion, if any? (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	13111	1.899	1.223
+1) Buddhist	6169	47.1
+2) Muslim	4658	35.5
+3) Christian	989	7.5
+4) Hindu	558	4.3
+5) Some other religion (including Chinese traditional religions and Indigenous religions)	204	1.6
+6) No religion	533	4.1
+Missing	11
+
+
+179) I-SEX
+Combines QGEN, QGENB and QGENC into one gender variable (see full questionnaire for exact skip patterns and question wordings) (Recoded for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	13105	1.538	0.499
+1) Man	6049	46.2
+2) Woman	7056	53.8
+Missing	17
+
+

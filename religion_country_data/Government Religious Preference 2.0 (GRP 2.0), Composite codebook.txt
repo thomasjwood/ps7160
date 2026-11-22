@@ -1,0 +1,6123 @@
+Data File: GRPCOMP(Full Data Codebook)
+
+1) CCODE
+Country Code assigned by RCS, following the RCS convention (See Appendix A for codes by country)
+RANGE: 2 to 990
+	N	Mean	Std. Deviation
+Total	18240	399.995	258.345
+
+
+2) ABBREV
+3-letter abbreviation assigned by RCS, generally following COW (See Appendix A for abbreviations by country)
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	18240		
+
+
+3) YEAR
+Year
+RANGE: 1800 to 2015
+	N	Mean	Std. Deviation
+Total	18240	1943.052	58.51
+
+
+4) SCODE
+Country code in Systemic Peace dataset (Polity)
+RANGE: 2 to 950
+	N	Mean	Std. Deviation
+Total	16239	401.567	250.953
+
+
+5) SABBREV
+3-letter abbreviation in Systemic Peace dataset (Polity)
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	16239		
+
+
+6) ARDAID
+Country Code assigned by Association of Religion Data Archives (ARDA)
+RANGE: 1 to 250
+	N	Mean	Std. Deviation
+Total	17185	125.74	70.554
+
+
+7) NUMISO
+Country Code assigned by International Standards Organization (used by Religion And State dataset)
+RANGE: 4 to 894
+	N	Mean	Std. Deviation
+Total	17319	425.177	253.367
+
+
+8) ISO3
+3-letter abbreviation assigned by International Standards Organization (used by Religion And State dataset)
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	17319		
+
+
+9) UNCODE
+Country/Region Code assigned by United Nations
+RANGE: 4 to 894
+	N	Mean	Std. Deviation
+Total	17319	425.177	253.367
+
+
+10) INDEP
+Whether state is independent on December 31 of observed year
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.997	0.052
+0) No	49	0.3
+1) Yes	18191	99.7
+
+
+11) INPOLIT
+Whether state is in Polity dataset at any time during observed year
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.886	0.318
+0) No	2077	11.4
+1) Yes	16163	88.6
+
+
+12) INCOW
+Whether state is in COW dataset at any point during the observed year
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.855	0.353
+0) No	2653	14.5
+1) Yes	15587	85.5
+
+
+13) CHRPF
+Christian Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.773	0.419
+0) Christian Religion is not the (or a) Preferred religion in the observed state-year.	4137	22.7
+1) Christian Religion is the (or a) Preferred religion in the observed state-year.	14103	77.3
+
+
+14) WCHRPF
+Western Christian Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.706	0.456
+0) Western Christian Religion is not the (or a) Preferred religion in the observed state-year.	5359	29.4
+1) Western Christian Religion is the (or a) Preferred religion in the observed state-year.	12881	70.6
+
+
+15) CATPF
+Catholic Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.62	0.486
+0) Catholic Religion is not the (or a) Preferred religion in the observed state-year.	6939	38.0
+1) Catholic Religion is the (or a) Preferred religion in the observed state-year.	11301	62.0
+
+
+16) XPRTPF
+Extended Protestant Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.277	0.448
+0) Extended Protestant Religion is not the (or a) Preferred religion in the observed state-year.	13188	72.3
+1) Extended Protestant Religion is the (or a) Preferred religion in the observed state-year.	5052	27.7
+
+
+17) PRTPF
+Protestant Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.265	0.441
+0) Protestant Religion is not the (or a) Preferred religion in the observed state-year.	13404	73.5
+1) Protestant Religion is the (or a) Preferred religion in the observed state-year.	4836	26.5
+
+
+18) ANGPF
+Anglican Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.214	0.41
+0) Anglican Religion is not the (or a) Preferred religion in the observed state-year.	14333	78.6
+1) Anglican Religion is the (or a) Preferred religion in the observed state-year.	3907	21.4
+
+
+19) PENPF
+Pentecostal Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.202	0.402
+0) Pentecostal Religion is not the (or a) Preferred religion in the observed state-year.	14549	79.8
+1) Pentecostal Religion is the (or a) Preferred religion in the observed state-year.	3691	20.2
+
+
+20) ORTPF
+Orthodox Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.088	0.283
+0) Orthodox Religion is not the (or a) Preferred religion in the observed state-year.	16644	91.3
+1) Orthodox Religion is the (or a) Preferred religion in the observed state-year.	1596	8.8
+
+
+21) CSYNPF
+Christian Syncretic Preference (binary)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	18240	0	0
+0) Christian Syncretic Religion is not the (or a) Preferred religion in the observed state-year.	18240	100.0
+
+
+22) JEWPF
+Jewish Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.004	0.061
+0) Jewish Religion is not the (or a) Preferred religion in the observed state-year.	18172	99.6
+1) Jewish Religion is the (or a) Preferred religion in the observed state-year.	68	0.4
+
+
+23) MUSPF
+Muslim Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.228	0.419
+0) Muslim Religion is not the (or a) Preferred religion in the observed state-year.	14085	77.2
+1) Muslim Religion is the (or a) Preferred religion in the observed state-year.	4155	22.8
+
+
+24) SUNPF
+Sunni Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.215	0.411
+0) Sunni Religion is not the (or a) Preferred religion in the observed state-year.	14327	78.5
+1) Sunni Religion is the (or a) Preferred religion in the observed state-year.	3913	21.5
+
+
+25) SHIPF
+Shia Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.073	0.259
+0) Shia Religion is not the (or a) Preferred religion in the observed state-year.	16917	92.7
+1) Shia Religion is the (or a) Preferred religion in the observed state-year.	1323	7.3
+
+
+26) IBAPF
+Ibadi Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.047	0.212
+0) Ibadi Religion is not the (or a) Preferred religion in the observed state-year.	17376	95.3
+1) Ibadi Religion is the (or a) Preferred religion in the observed state-year.	864	4.7
+
+
+27) ZORPF
+Zoroastrian Preference (binary)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	18240	0	0
+0) Zoroastrian Religion is not the (or a) Preferred religion in the observed state-year.	18240	100.0
+
+
+28) BAHPF
+Baha'i Preference (binary)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	18240	0	0
+0) Baha'i Religion is not the (or a) Preferred religion in the observed state-year.	18240	100.0
+
+
+29) JAIPF
+Jain Preference (binary)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	18240	0	0
+0) Jain Religion is not the (or a) Preferred religion in the observed state-year.	18240	100.0
+
+
+30) SIKPF
+Sikh Preference (binary)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	18240	0	0
+0) Sikh Religion is not the (or a) Preferred religion in the observed state-year.	18240	100.0
+
+
+31) HINPF
+Hindu Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.021	0.144
+0) Hindu Religion is not the (or a) Preferred religion in the observed state-year.	17851	97.9
+1) Hindu Religion is the (or a) Preferred religion in the observed state-year.	389	2.1
+
+
+32) BUDPF
+Buddhist Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.049	0.217
+0) Buddhist Religion is not the (or a) Preferred religion in the observed state-year.	17340	95.1
+1) Buddhist Religion is the (or a) Preferred religion in the observed state-year.	900	4.9
+
+
+33) THEPF
+Theravada Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.033	0.178
+0) Theravada Religion is not the (or a) Preferred religion in the observed state-year.	17645	96.7
+1) Theravada Religion is the (or a) Preferred religion in the observed state-year.	595	3.3
+
+
+34) MAHPF
+Mahayana Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.018	0.132
+0) Mahayana Religion is not the (or a) Preferred religion in the observed state-year.	17917	98.2
+1) Mahayana Religion is the (or a) Preferred religion in the observed state-year.	323	1.8
+
+
+35) TIBPF
+Tibetan Buddhist Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.012	0.108
+0) Tibetan Buddhist Religion is not the (or a) Preferred religion in the observed state-year.	18024	98.8
+1) Tibetan Buddhist Religion is the (or a) Preferred religion in the observed state-year.	216	1.2
+
+
+36) SHNPF
+Shinto Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.012	0.108
+0) Shinto Religion is not the (or a) Preferred religion in the observed state-year.	18024	98.8
+1) Shinto Religion is the (or a) Preferred religion in the observed state-year.	216	1.2
+
+
+37) CNFPF
+Confucianist Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.018	0.133
+0) Confucianist Religion is not the (or a) Preferred religion in the observed state-year.	17913	98.2
+1) Confucianist Religion is the (or a) Preferred religion in the observed state-year.	327	1.8
+
+
+38) TAOPF
+Taoist Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.004	0.06
+0) Taoist Religion is not the (or a) Preferred religion in the observed state-year.	18173	99.6
+1) Taoist Religion is the (or a) Preferred religion in the observed state-year.	67	0.4
+
+
+39) CHFPF
+Chinese Folk Religionist Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.004	0.06
+0) Chinese Folk Religionist Religion is not the (or a) Preferred religion in the observed state-year.	18173	99.6
+1) Chinese Folk Religionist Religion is the (or a) Preferred religion in the observed state-year.	67	0.4
+
+
+40) BUDCPF
+Buddhist Complex Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.061	0.24
+0) Buddhist Complex Religion is not the (or a) Preferred religion in the observed state-year.	17120	93.9
+1) Buddhist Complex Religion is the (or a) Preferred religion in the observed state-year.	1120	6.1
+
+
+41) INDPF
+Indigenous (Ethnoreligionist) Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.001	0.033
+0) Indigenous (Ethnoreligionist) Religion is not the (or a) Preferred religion in the observed state-year.	18220	99.9
+1) Indigenous (Ethnoreligionist) Religion is the (or a) Preferred religion in the observed state-year.	20	0.1
+
+
+42) NEWPF
+Neo-Religionist Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0	0.018
+0) Neo-Religionist Religion is not the (or a) Preferred religion in the observed state-year.	18234	100.0
+1) Neo-Religionist Religion is the (or a) Preferred religion in the observed state-year.	6	0.0
+
+
+43) ATHPF
+Atheist Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.025	0.155
+0) Atheist Religion is not the (or a) Preferred religion in the observed state-year.	17792	97.5
+1) Atheist Religion is the (or a) Preferred religion in the observed state-year.	448	2.5
+
+
+44) PRFID
+ID Code of Preferred Religion(s)
+RANGE: 101 to 9100
+	N	Mean	Std. Deviation
+Total	18240	1923.295	1927.242
+101)	101	0.6
+111)	59	0.3
+112)	141	0.8
+113)	95	0.5
+114)	525	2.9
+115)	68	0.4
+121)	25	0.1
+122)	29	0.2
+123)	219	1.2
+124)	48	0.3
+125)	544	3.0
+126)	20	0.1
+127)	22	0.1
+161)	200	1.1
+501)	36	0.2
+1100)	2483	13.6
+1200)	6922	37.9
+1300)	219	1.2
+1400)	1145	6.3
+1510)	216	1.2
+1600)	1022	5.6
+2100)	68	0.4
+3000)	491	2.7
+3100)	1441	7.9
+3200)	241	1.3
+3300)	1	0.0
+5000)	285	1.6
+6100)	478	2.6
+6300)	99	0.5
+7100)	77	0.4
+7200)	139	0.8
+7300)	260	1.4
+7800)	67	0.4
+8900)	6	0.0
+9100)	448	2.5
+
+
+45) PRFDS
+Description of Preferred Religion(s)
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	18240		
+
+
+46) PRFGRP
+Preferred Religion GRP composite
+RANGE: 0.375 to 4
+	N	Mean	Std. Deviation
+Total	18224	2.5	0.649
+
+
+47) PRFG1C
+Preferred Religion G1 composite (Official Religion)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	17224	2.595	1.058
+0)	44	0.3
+0.5)	151	0.9
+0.666666686534882)	45	0.3
+1)	2575	15.0
+1.33333337306976)	38	0.2
+1.5)	969	5.6
+1.66666662693024)	150	0.9
+1.75)	2	0.0
+1.83333337306976)	8	0.0
+2)	3241	18.8
+2.16666674613953)	17	0.1
+2.25)	35	0.2
+2.33333325386047)	90	0.5
+2.375)	5	0.0
+2.40000009536743)	14	0.1
+2.5)	1147	6.7
+2.66666674613953)	234	1.4
+2.75)	126	0.7
+2.83333325386047)	265	1.5
+3)	2211	12.8
+3.16666674613953)	75	0.4
+3.20000004768372)	47	0.3
+3.25)	70	0.4
+3.29999995231628)	3	0.0
+3.33333325386047)	330	1.9
+3.33500003814697)	25	0.1
+3.375)	62	0.4
+3.40000009536743)	24	0.1
+3.5)	1186	6.9
+3.59999990463257)	2	0.0
+3.625)	11	0.1
+3.66666674613953)	429	2.5
+3.75)	201	1.2
+3.83333325386047)	122	0.7
+3.875)	61	0.4
+4)	3209	18.6
+Missing	1016
+
+
+48) PRFG2C
+Preferred Religion G2 composite (Religious Education)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11973	2.404	1.085
+0)	80	0.7
+0.25)	13	0.1
+0.5)	30	0.3
+1)	2814	23.5
+1.5)	102	0.9
+2)	3389	28.3
+2.5)	139	1.2
+3)	2901	24.2
+3.5)	108	0.9
+4)	2397	20.0
+Missing	6267
+
+
+49) PRFG3C
+Preferred Religion G3 composite (Financial Support)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	11858	2.763	0.861
+1)	771	6.5
+1.5)	639	5.4
+1.75)	29	0.2
+2)	2299	19.4
+2.33333325386047)	16	0.1
+2.5)	953	8.0
+2.66666674613953)	97	0.8
+2.83333325386047)	1	0.0
+3)	4046	34.1
+3.16666674613953)	2	0.0
+3.33333325386047)	91	0.8
+3.5)	747	6.3
+3.66666674613953)	56	0.5
+3.83333325386047)	30	0.3
+4)	2081	17.5
+Missing	6382
+
+
+50) PRFG4C
+Preferred Religion G4 composite (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16387	2.224	0.621
+0)	153	0.9
+0.333333343267441)	10	0.1
+0.5)	119	0.7
+0.666666686534882)	16	0.1
+0.75)	110	0.7
+1)	620	3.8
+1.16666662693024)	37	0.2
+1.25)	41	0.3
+1.33333337306976)	273	1.7
+1.5)	493	3.0
+1.60000002384186)	7	0.0
+1.625)	16	0.1
+1.66666662693024)	342	2.1
+1.75)	132	0.8
+1.79999995231628)	80	0.5
+1.83333337306976)	71	0.4
+1.875)	20	0.1
+1.89999997615814)	25	0.2
+2)	5606	34.2
+2.08333325386047)	4	0.0
+2.09999990463257)	13	0.1
+2.125)	34	0.2
+2.16666674613953)	73	0.4
+2.20000004768372)	315	1.9
+2.25)	760	4.6
+2.28571438789368)	26	0.2
+2.33333325386047)	914	5.6
+2.375)	48	0.3
+2.40000009536743)	393	2.4
+2.42857146263123)	8	0.0
+2.5)	1261	7.7
+2.57142853736877)	93	0.6
+2.59999990463257)	292	1.8
+2.66666674613953)	494	3.0
+2.71428561210632)	110	0.7
+2.75)	405	2.5
+2.79999995231628)	135	0.8
+2.83333325386047)	90	0.5
+2.85714292526245)	7	0.0
+2.875)	4	0.0
+3)	2031	12.4
+3.16666674613953)	57	0.3
+3.20000004768372)	57	0.3
+3.25)	22	0.1
+3.33333325386047)	173	1.1
+3.40000009536743)	7	0.0
+3.5)	140	0.9
+3.59999990463257)	65	0.4
+3.66666674613953)	11	0.1
+3.75)	5	0.0
+3.79999995231628)	48	0.3
+4)	121	0.7
+Missing	1853
+
+
+51) PRFG5C
+Preferred Religion G5 composite (Free Exercise)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16203	2.32	0.598
+0)	30	0.2
+0.5)	2	0.0
+0.666666686534882)	1	0.0
+1)	102	0.6
+1.20000004768372)	29	0.2
+1.25)	3	0.0
+1.33333337306976)	40	0.2
+1.39999997615814)	20	0.1
+1.5)	176	1.1
+1.60000002384186)	10	0.1
+1.66666662693024)	127	0.8
+1.75)	14	0.1
+1.79999995231628)	15	0.1
+1.83333337306976)	3	0.0
+2)	9965	61.5
+2.25)	204	1.3
+2.33333325386047)	545	3.4
+2.40000009536743)	9	0.1
+2.5)	1160	7.2
+2.59999990463257)	30	0.2
+2.625)	1	0.0
+2.66666674613953)	165	1.0
+2.70000004768372)	6	0.0
+2.75)	155	1.0
+2.79999995231628)	122	0.8
+2.875)	5	0.0
+2.90000009536743)	20	0.1
+3)	1634	10.1
+3.09999990463257)	6	0.0
+3.16666674613953)	13	0.1
+3.20000004768372)	60	0.4
+3.25)	244	1.5
+3.29999995231628)	2	0.0
+3.33333325386047)	150	0.9
+3.40000009536743)	45	0.3
+3.41666674613953)	1	0.0
+3.42857146263123)	5	0.0
+3.5)	177	1.1
+3.57142853736877)	10	0.1
+3.59999990463257)	6	0.0
+3.625)	8	0.0
+3.70000004768372)	1	0.0
+4)	882	5.4
+Missing	2037
+
+
+52) NPRFGRP
+Non-Preferred Religions GRP composite
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	18156	1.219	0.36
+
+
+53) NPRFG1C
+Non-Preferred Religions G1 composite (Official Religion)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	16187	0.942	0.2
+0)	239	1.5
+0.25)	18	0.1
+0.333333343267441)	190	1.2
+0.5)	881	5.4
+0.625)	49	0.3
+0.666666686534882)	481	3.0
+0.75)	148	0.9
+0.800000011920929)	26	0.2
+0.833333313465118)	115	0.7
+0.875)	23	0.1
+0.899999976158142)	3	0.0
+1)	13736	84.9
+1.16666662693024)	69	0.4
+1.25)	2	0.0
+1.33333337306976)	71	0.4
+1.5)	95	0.6
+2)	41	0.3
+Missing	2053
+
+
+54) NPRFG2C
+Non-Preferred Religions G2 composite (Religious Education)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	12070	0.8	0.464
+0)	2526	20.9
+0.5)	520	4.3
+0.75)	41	0.3
+1)	8611	71.3
+2)	356	2.9
+3)	16	0.1
+Missing	6170
+
+
+55) NPRFG3C
+Non-Preferred Religions G3 composite (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.091	0.654
+0)	1839	15.5
+0.16666667163372)	30	0.3
+0.333333343267441)	13	0.1
+0.5)	1016	8.6
+0.666666686534882)	127	1.1
+0.75)	6	0.1
+0.833333313465118)	52	0.4
+1)	4299	36.2
+1.16666662693024)	1	0.0
+1.25)	26	0.2
+1.33333337306976)	105	0.9
+1.5)	1764	14.9
+1.66666662693024)	4	0.0
+1.75)	29	0.2
+2)	2555	21.5
+3)	3	0.0
+Missing	6371
+
+
+56) NPRFG4C
+Non-Preferred Religions G4 composite (Regulatory Burdens)
+RANGE: 0 to 2.5
+	N	Mean	Std. Deviation
+Total	15194	1.518	0.537
+0)	529	3.5
+0.25)	38	0.3
+0.333333343267441)	3	0.0
+0.400000005960464)	46	0.3
+0.5)	380	2.5
+0.600000023841858)	41	0.3
+0.666666686534882)	310	2.0
+0.75)	218	1.4
+0.800000011920929)	46	0.3
+0.833333313465118)	1	0.0
+1)	2495	16.4
+1.125)	1	0.0
+1.16666662693024)	14	0.1
+1.20000004768372)	76	0.5
+1.25)	401	2.6
+1.28571426868439)	40	0.3
+1.33333337306976)	584	3.8
+1.375)	38	0.3
+1.39999997615814)	190	1.3
+1.5)	1134	7.5
+1.57142853736877)	3	0.0
+1.58333337306976)	51	0.3
+1.60000002384186)	178	1.2
+1.66666662693024)	1124	7.4
+1.70000004768372)	12	0.1
+1.75)	823	5.4
+1.79999995231628)	318	2.1
+1.83333337306976)	162	1.1
+1.89999997615814)	1	0.0
+2)	5913	38.9
+2.33333325386047)	23	0.2
+2.5)	1	0.0
+Missing	3046
+
+
+57) NPRFG5C
+Non-Preferred Religions G5 composite (Free Exercise)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	15907	1.698	0.512
+0)	589	3.7
+0.100000001490116)	28	0.2
+0.200000002980232)	60	0.4
+0.25)	7	0.0
+0.375)	8	0.1
+0.400000005960464)	6	0.0
+0.5)	93	0.6
+0.600000023841858)	3	0.0
+0.666666686534882)	131	0.8
+0.699999988079071)	2	0.0
+0.75)	32	0.2
+0.800000011920929)	33	0.2
+0.875)	16	0.1
+0.899999976158142)	6	0.0
+1)	1500	9.4
+1.20000004768372)	15	0.1
+1.25)	423	2.7
+1.29999995231628)	9	0.1
+1.33333337306976)	313	2.0
+1.375)	1	0.0
+1.39999997615814)	14	0.1
+1.5)	1437	9.0
+1.60000002384186)	11	0.1
+1.625)	43	0.3
+1.66666662693024)	538	3.4
+1.75)	129	0.8
+1.79999995231628)	6	0.0
+2)	10454	65.7
+Missing	2333
+
+
+58) CHRGRP
+Christian GRP composite
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	18189	2.076	0.821
+
+
+59) CHRG1C
+Christian G1 composite (Official Religion)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	17164	2.037	1.134
+0)	105	0.6
+0.25)	18	0.1
+0.333333343267441)	116	0.7
+0.5)	824	4.8
+0.625)	107	0.6
+0.666666686534882)	297	1.7
+0.75)	80	0.5
+0.800000011920929)	26	0.2
+0.833333313465118)	57	0.3
+0.875)	23	0.1
+0.899999976158142)	3	0.0
+1)	4717	27.5
+1.25)	66	0.4
+1.33333337306976)	72	0.4
+1.39999997615814)	17	0.1
+1.5)	1066	6.2
+1.66666662693024)	158	0.9
+2)	3076	17.9
+2.25)	7	0.0
+2.33333325386047)	69	0.4
+2.5)	860	5.0
+2.66666674613953)	132	0.8
+2.75)	124	0.7
+2.83333325386047)	111	0.6
+3)	1655	9.6
+3.16666674613953)	126	0.7
+3.25)	47	0.3
+3.33333325386047)	191	1.1
+3.33500003814697)	25	0.1
+3.5)	643	3.7
+3.66666674613953)	100	0.6
+3.75)	48	0.3
+4)	2198	12.8
+Missing	1076
+
+
+60) CHRG2C
+Christian G2 composite (Religious Education)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12210	1.938	1.173
+0)	1093	9.0
+0.5)	83	0.7
+1)	3923	32.1
+1.5)	66	0.5
+2)	2886	23.6
+2.5)	167	1.4
+3)	2514	20.6
+3.5)	77	0.6
+4)	1401	11.5
+Missing	6030
+
+
+61) CHRG3C
+Christian G3 composite (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11945	2.471	1.011
+0)	285	2.4
+0.5)	50	0.4
+1)	1359	11.4
+1.5)	1116	9.3
+1.75)	29	0.2
+2)	2578	21.6
+2.33333325386047)	16	0.1
+2.5)	773	6.5
+2.66666674613953)	41	0.3
+2.83333325386047)	1	0.0
+3)	3246	27.2
+3.16666674613953)	2	0.0
+3.33333325386047)	91	0.8
+3.5)	576	4.8
+3.66666674613953)	50	0.4
+3.83333325386047)	30	0.3
+4)	1702	14.2
+Missing	6295
+
+
+62) CHRG4C
+Christian G4 composite (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16328	2.038	0.754
+0)	659	4.0
+0.200000002980232)	8	0.0
+0.25)	10	0.1
+0.333333343267441)	12	0.1
+0.5)	183	1.1
+0.600000023841858)	24	0.1
+0.666666686534882)	89	0.5
+0.699999988079071)	36	0.2
+0.75)	227	1.4
+0.800000011920929)	31	0.2
+0.833333313465118)	7	0.0
+1)	847	5.2
+1.10000002384186)	9	0.1
+1.125)	28	0.2
+1.20000004768372)	118	0.7
+1.25)	43	0.3
+1.28571426868439)	40	0.2
+1.33333337306976)	221	1.4
+1.39999997615814)	86	0.5
+1.5)	481	2.9
+1.58333337306976)	51	0.3
+1.60000002384186)	11	0.1
+1.66666662693024)	478	2.9
+1.70000004768372)	37	0.2
+1.75)	296	1.8
+1.79999995231628)	94	0.6
+1.83333337306976)	155	0.9
+1.875)	18	0.1
+1.89999997615814)	17	0.1
+2)	5406	33.1
+2.09999990463257)	7	0.0
+2.16666674613953)	30	0.2
+2.20000004768372)	265	1.6
+2.25)	457	2.8
+2.28571438789368)	26	0.2
+2.29999995231628)	32	0.2
+2.33333325386047)	817	5.0
+2.375)	12	0.1
+2.40000009536743)	451	2.8
+2.42857146263123)	3	0.0
+2.5)	987	6.0
+2.59999990463257)	256	1.6
+2.66666674613953)	496	3.0
+2.71428561210632)	110	0.7
+2.75)	183	1.1
+2.79999995231628)	75	0.5
+3)	1846	11.3
+3.20000004768372)	1	0.0
+3.25)	51	0.3
+3.33333325386047)	163	1.0
+3.5)	217	1.3
+3.66666674613953)	2	0.0
+3.75)	14	0.1
+4)	105	0.6
+Missing	1912
+
+
+63) CHRG5C
+Christian G5 composite (Free Exercise)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16215	2.008	0.663
+0)	365	2.3
+0.200000002980232)	88	0.5
+0.25)	84	0.5
+0.333333343267441)	7	0.0
+0.375)	8	0.0
+0.5)	16	0.1
+0.583333313465118)	6	0.0
+0.600000023841858)	7	0.0
+0.666666686534882)	73	0.5
+0.699999988079071)	31	0.2
+0.75)	54	0.3
+0.800000011920929)	11	0.1
+0.833333313465118)	1	0.0
+0.875)	3	0.0
+0.899999976158142)	8	0.0
+1)	623	3.8
+1.10000002384186)	16	0.1
+1.20000004768372)	97	0.6
+1.25)	153	0.9
+1.29999995231628)	16	0.1
+1.33333337306976)	86	0.5
+1.375)	2	0.0
+1.39999997615814)	36	0.2
+1.5)	774	4.8
+1.60000002384186)	20	0.1
+1.625)	1	0.0
+1.66666662693024)	277	1.7
+1.70000004768372)	5	0.0
+1.75)	143	0.9
+1.79999995231628)	12	0.1
+2)	9947	61.3
+2.08333325386047)	12	0.1
+2.25)	92	0.6
+2.33333325386047)	460	2.8
+2.5)	926	5.7
+2.66666674613953)	138	0.9
+2.70000004768372)	5	0.0
+2.75)	39	0.2
+3)	863	5.3
+3.25)	81	0.5
+3.33333325386047)	50	0.3
+3.40000009536743)	1	0.0
+3.5)	72	0.4
+4)	506	3.1
+Missing	2025
+
+
+64) WCHRGRP
+Western Christian GRP composite
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	18187	2.006	0.812
+
+
+65) WCHRG1C
+Western Christian G1 composite (Official Religion)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	17159	1.945	1.106
+0)	105	0.6
+0.25)	18	0.1
+0.333333343267441)	149	0.9
+0.5)	816	4.8
+0.625)	107	0.6
+0.666666686534882)	276	1.6
+0.75)	80	0.5
+0.800000011920929)	26	0.2
+0.833333313465118)	57	0.3
+0.875)	23	0.1
+0.899999976158142)	3	0.0
+1)	5135	29.9
+1.16666662693024)	56	0.3
+1.25)	67	0.4
+1.33333337306976)	82	0.5
+1.39999997615814)	14	0.1
+1.5)	1218	7.1
+1.66666662693024)	196	1.1
+2)	3123	18.2
+2.25)	4	0.0
+2.33333325386047)	40	0.2
+2.5)	843	4.9
+2.66666674613953)	70	0.4
+2.75)	124	0.7
+2.83333325386047)	79	0.5
+3)	1531	8.9
+3.16666674613953)	126	0.7
+3.25)	35	0.2
+3.33333325386047)	68	0.4
+3.33500003814697)	25	0.1
+3.5)	600	3.5
+3.66666674613953)	76	0.4
+3.75)	48	0.3
+4)	1939	11.3
+Missing	1081
+
+
+66) WCHRG2C
+Western Christian G2 composite (Religious Education)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12186	1.833	1.167
+0)	1322	10.8
+0.5)	141	1.2
+1)	4057	33.3
+1.5)	66	0.5
+2)	2774	22.8
+2.5)	266	2.2
+3)	2310	19.0
+3.5)	65	0.5
+4)	1185	9.7
+Missing	6054
+
+
+67) WCHRG3C
+Western Christian G3 composite (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11939	2.375	1.047
+0)	364	3.0
+0.16666667163372)	30	0.3
+0.5)	118	1.0
+0.666666686534882)	33	0.3
+1)	1526	12.8
+1.16666662693024)	1	0.0
+1.5)	1166	9.8
+1.75)	29	0.2
+2)	2578	21.6
+2.33333325386047)	16	0.1
+2.5)	733	6.1
+2.66666674613953)	41	0.3
+3)	3100	26.0
+3.33333325386047)	58	0.5
+3.5)	498	4.2
+3.66666674613953)	50	0.4
+4)	1598	13.4
+Missing	6301
+
+
+68) WCHRG4C
+Western Christian G4 composite (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16148	2.003	0.761
+0)	659	4.1
+0.200000002980232)	8	0.0
+0.25)	10	0.1
+0.333333343267441)	12	0.1
+0.5)	219	1.4
+0.600000023841858)	24	0.1
+0.666666686534882)	106	0.7
+0.699999988079071)	36	0.2
+0.75)	235	1.5
+0.800000011920929)	53	0.3
+0.833333313465118)	8	0.0
+0.916666686534882)	5	0.0
+1)	864	5.4
+1.16666662693024)	12	0.1
+1.20000004768372)	133	0.8
+1.25)	72	0.4
+1.28571426868439)	40	0.2
+1.33333337306976)	282	1.7
+1.375)	7	0.0
+1.39999997615814)	95	0.6
+1.5)	555	3.4
+1.58333337306976)	51	0.3
+1.60000002384186)	13	0.1
+1.66666662693024)	515	3.2
+1.70000004768372)	37	0.2
+1.75)	284	1.8
+1.79999995231628)	98	0.6
+1.83333337306976)	178	1.1
+1.875)	17	0.1
+1.89999997615814)	17	0.1
+2)	5407	33.5
+2.09999990463257)	7	0.0
+2.16666674613953)	17	0.1
+2.20000004768372)	186	1.2
+2.25)	457	2.8
+2.28571438789368)	26	0.2
+2.29999995231628)	32	0.2
+2.33333325386047)	705	4.4
+2.375)	12	0.1
+2.40000009536743)	411	2.5
+2.42857146263123)	3	0.0
+2.5)	1151	7.1
+2.59999990463257)	229	1.4
+2.66666674613953)	447	2.8
+2.71428561210632)	69	0.4
+2.75)	165	1.0
+2.79999995231628)	59	0.4
+3)	1603	9.9
+3.25)	51	0.3
+3.33333325386047)	67	0.4
+3.5)	201	1.2
+3.66666674613953)	2	0.0
+3.75)	14	0.1
+4)	182	1.1
+Missing	2092
+
+
+69) WCHRG5C
+Western Christian G5 composite (Free Exercise)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16215	1.966	0.653
+0)	365	2.3
+0.200000002980232)	89	0.5
+0.25)	84	0.5
+0.333333343267441)	7	0.0
+0.375)	8	0.0
+0.400000005960464)	5	0.0
+0.5)	17	0.1
+0.583333313465118)	6	0.0
+0.600000023841858)	7	0.0
+0.625)	10	0.1
+0.666666686534882)	73	0.5
+0.699999988079071)	31	0.2
+0.75)	56	0.3
+0.800000011920929)	11	0.1
+0.833333313465118)	39	0.2
+0.875)	26	0.2
+0.899999976158142)	8	0.0
+1)	644	4.0
+1.10000002384186)	16	0.1
+1.16666662693024)	12	0.1
+1.20000004768372)	68	0.4
+1.25)	172	1.1
+1.29999995231628)	16	0.1
+1.33333337306976)	96	0.6
+1.375)	2	0.0
+1.39999997615814)	36	0.2
+1.5)	982	6.1
+1.60000002384186)	20	0.1
+1.625)	1	0.0
+1.66666662693024)	421	2.6
+1.70000004768372)	5	0.0
+1.75)	105	0.6
+1.79999995231628)	12	0.1
+2)	10098	62.3
+2.25)	63	0.4
+2.33333325386047)	332	2.0
+2.5)	791	4.9
+2.66666674613953)	97	0.6
+3)	822	5.1
+3.25)	9	0.1
+3.40000009536743)	14	0.1
+3.5)	33	0.2
+4)	506	3.1
+Missing	2025
+
+
+70) CATGRP
+Catholic GRP composite
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	18218	1.866	0.755
+
+
+71) CATG1C
+Catholic G1 composite (Official Religion)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	17187	1.712	0.989
+0)	133	0.8
+0.25)	18	0.1
+0.333333343267441)	296	1.7
+0.5)	1047	6.1
+0.625)	107	0.6
+0.666666686534882)	464	2.7
+0.75)	81	0.5
+0.800000011920929)	26	0.2
+0.833333313465118)	57	0.3
+0.875)	23	0.1
+0.899999976158142)	3	0.0
+1)	5513	32.1
+1.16666662693024)	56	0.3
+1.25)	99	0.6
+1.33333337306976)	104	0.6
+1.39999997615814)	14	0.1
+1.5)	1344	7.8
+1.66666662693024)	308	1.8
+1.83333337306976)	8	0.0
+2)	3303	19.2
+2.25)	17	0.1
+2.33333325386047)	62	0.4
+2.5)	942	5.5
+2.66666674613953)	142	0.8
+2.75)	172	1.0
+3)	1274	7.4
+3.25)	35	0.2
+3.33333325386047)	53	0.3
+3.33500003814697)	25	0.1
+3.5)	331	1.9
+3.66666674613953)	9	0.1
+4)	1121	6.5
+Missing	1053
+
+
+72) CATG2C
+Catholic G2 composite (Religious Education)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12195	1.8	1.148
+0)	1323	10.8
+0.5)	146	1.2
+1)	4197	34.4
+1.5)	66	0.5
+2)	2755	22.6
+2.5)	266	2.2
+3)	2333	19.1
+3.5)	65	0.5
+4)	1044	8.6
+Missing	6045
+
+
+73) CATG3C
+Catholic G3 composite (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11903	2.214	1.086
+0)	523	4.4
+0.16666667163372)	30	0.3
+0.5)	380	3.2
+0.666666686534882)	33	0.3
+1)	1731	14.5
+1.16666662693024)	1	0.0
+1.5)	1177	9.9
+1.75)	29	0.2
+2)	2590	21.8
+2.33333325386047)	16	0.1
+2.5)	722	6.1
+2.66666674613953)	41	0.3
+3)	2894	24.3
+3.33333325386047)	58	0.5
+3.5)	230	1.9
+3.66666674613953)	56	0.5
+4)	1392	11.7
+Missing	6337
+
+
+74) CATG4C
+Catholic G4 composite (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16593	1.827	0.758
+0)	866	5.2
+0.200000002980232)	8	0.0
+0.25)	23	0.1
+0.333333343267441)	52	0.3
+0.5)	315	1.9
+0.600000023841858)	24	0.1
+0.666666686534882)	127	0.8
+0.699999988079071)	36	0.2
+0.75)	239	1.4
+0.800000011920929)	53	0.3
+0.833333313465118)	24	0.1
+1)	1359	8.2
+1.16666662693024)	12	0.1
+1.20000004768372)	133	0.8
+1.25)	102	0.6
+1.28571426868439)	40	0.2
+1.33333337306976)	514	3.1
+1.375)	7	0.0
+1.39999997615814)	81	0.5
+1.5)	1013	6.1
+1.58333337306976)	51	0.3
+1.60000002384186)	8	0.0
+1.625)	16	0.1
+1.66666662693024)	583	3.5
+1.70000004768372)	37	0.2
+1.75)	483	2.9
+1.79999995231628)	119	0.7
+1.83333337306976)	212	1.3
+1.875)	20	0.1
+1.89999997615814)	42	0.3
+2)	5322	32.1
+2.09999990463257)	7	0.0
+2.125)	28	0.2
+2.16666674613953)	18	0.1
+2.20000004768372)	186	1.1
+2.25)	488	2.9
+2.28571438789368)	26	0.2
+2.29999995231628)	32	0.2
+2.33333325386047)	590	3.6
+2.375)	12	0.1
+2.40000009536743)	266	1.6
+2.42857146263123)	3	0.0
+2.5)	920	5.5
+2.59999990463257)	118	0.7
+2.66666674613953)	263	1.6
+2.71428561210632)	69	0.4
+2.75)	119	0.7
+2.79999995231628)	98	0.6
+3)	1172	7.1
+3.20000004768372)	14	0.1
+3.25)	12	0.1
+3.33333325386047)	27	0.2
+3.5)	88	0.5
+4)	116	0.7
+Missing	1647
+
+
+75) CATG5C
+Catholic G5 composite (Free Exercise)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16252	1.913	0.683
+0)	402	2.5
+0.200000002980232)	89	0.5
+0.25)	84	0.5
+0.333333343267441)	51	0.3
+0.375)	8	0.0
+0.400000005960464)	5	0.0
+0.5)	24	0.1
+0.583333313465118)	6	0.0
+0.600000023841858)	97	0.6
+0.625)	10	0.1
+0.666666686534882)	147	0.9
+0.699999988079071)	31	0.2
+0.75)	84	0.5
+0.800000011920929)	53	0.3
+0.833333313465118)	1	0.0
+0.875)	26	0.2
+0.899999976158142)	8	0.0
+1)	779	4.8
+1.10000002384186)	16	0.1
+1.16666662693024)	12	0.1
+1.20000004768372)	96	0.6
+1.25)	154	0.9
+1.29999995231628)	16	0.1
+1.33333337306976)	155	1.0
+1.375)	2	0.0
+1.39999997615814)	71	0.4
+1.5)	1014	6.2
+1.60000002384186)	6	0.0
+1.625)	1	0.0
+1.66666662693024)	536	3.3
+1.70000004768372)	5	0.0
+1.75)	261	1.6
+1.79999995231628)	6	0.0
+2)	9615	59.2
+2.25)	63	0.4
+2.33333325386047)	136	0.8
+2.5)	769	4.7
+2.66666674613953)	82	0.5
+3)	778	4.8
+3.40000009536743)	14	0.1
+3.5)	33	0.2
+4)	506	3.1
+Missing	1988
+
+
+76) XPRTGRP
+Extended Protestant GRP composite
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	18167	1.58	0.653
+
+
+77) XPRTG1C
+Extended Protestant G1 composite (Official Religion)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	17142	1.48	0.831
+0)	106	0.6
+0.25)	18	0.1
+0.333333343267441)	181	1.1
+0.5)	841	4.9
+0.625)	107	0.6
+0.666666686534882)	329	1.9
+0.75)	102	0.6
+0.800000011920929)	26	0.2
+0.833333313465118)	57	0.3
+0.875)	23	0.1
+0.899999976158142)	3	0.0
+1)	7667	44.7
+1.25)	45	0.3
+1.33333337306976)	131	0.8
+1.39999997615814)	14	0.1
+1.5)	2309	13.5
+1.66666662693024)	144	0.8
+2)	2835	16.5
+2.25)	28	0.2
+2.33333325386047)	28	0.2
+2.5)	433	2.5
+2.75)	4	0.0
+2.83333325386047)	79	0.5
+3)	593	3.5
+3.16666674613953)	126	0.7
+3.33333325386047)	15	0.1
+3.5)	166	1.0
+3.66666674613953)	67	0.4
+3.75)	48	0.3
+4)	617	3.6
+Missing	1098
+
+
+78) XPRTG2C
+Extended Protestant G2 composite (Religious Education)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12026	1.322	0.972
+0)	2006	16.7
+0.5)	166	1.4
+0.75)	21	0.2
+1)	5819	48.4
+1.5)	66	0.5
+2)	2209	18.4
+2.5)	209	1.7
+3)	1159	9.6
+3.5)	40	0.3
+4)	331	2.8
+Missing	6214
+
+
+79) XPRTG3C
+Extended Protestant G3 composite (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11891	1.637	1.031
+0)	1534	12.9
+0.16666667163372)	30	0.3
+0.333333343267441)	13	0.1
+0.5)	502	4.2
+0.666666686534882)	90	0.8
+1)	2598	21.8
+1.16666662693024)	1	0.0
+1.33333337306976)	105	0.9
+1.5)	1344	11.3
+1.66666662693024)	4	0.0
+1.75)	35	0.3
+2)	2707	22.8
+2.25)	26	0.2
+2.33333325386047)	5	0.0
+2.5)	533	4.5
+2.66666674613953)	26	0.2
+3)	1788	15.0
+3.5)	266	2.2
+4)	284	2.4
+Missing	6349
+
+
+80) XPRTG4C
+Extended Protestant G4 composite (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15973	1.755	0.702
+0)	791	5.0
+0.200000002980232)	8	0.1
+0.25)	10	0.1
+0.333333343267441)	11	0.1
+0.375)	7	0.0
+0.5)	290	1.8
+0.600000023841858)	60	0.4
+0.666666686534882)	156	1.0
+0.75)	288	1.8
+0.800000011920929)	41	0.3
+0.833333313465118)	29	0.2
+0.916666686534882)	1	0.0
+1)	1673	10.5
+1.125)	1	0.0
+1.16666662693024)	15	0.1
+1.20000004768372)	140	0.9
+1.25)	141	0.9
+1.28571426868439)	40	0.3
+1.33333337306976)	318	2.0
+1.375)	45	0.3
+1.39999997615814)	99	0.6
+1.5)	885	5.5
+1.58333337306976)	51	0.3
+1.60000002384186)	63	0.4
+1.625)	30	0.2
+1.66666662693024)	686	4.3
+1.70000004768372)	13	0.1
+1.75)	311	1.9
+1.79999995231628)	117	0.7
+1.83333337306976)	180	1.1
+2)	5943	37.2
+2.16666674613953)	71	0.4
+2.20000004768372)	187	1.2
+2.25)	416	2.6
+2.28571438789368)	26	0.2
+2.33333325386047)	441	2.8
+2.40000009536743)	382	2.4
+2.42857146263123)	3	0.0
+2.5)	779	4.9
+2.59999990463257)	175	1.1
+2.66666674613953)	214	1.3
+2.75)	79	0.5
+3)	671	4.2
+3.5)	9	0.1
+4)	77	0.5
+Missing	2267
+
+
+81) XPRTG5C
+Extended Protestant G5 composite (Free Exercise)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16151	1.784	0.59
+0)	618	3.8
+0.125)	10	0.1
+0.200000002980232)	89	0.6
+0.25)	84	0.5
+0.333333343267441)	7	0.0
+0.375)	31	0.2
+0.400000005960464)	5	0.0
+0.5)	45	0.3
+0.583333313465118)	6	0.0
+0.600000023841858)	7	0.0
+0.666666686534882)	95	0.6
+0.699999988079071)	31	0.2
+0.75)	74	0.5
+0.800000011920929)	11	0.1
+0.833333313465118)	39	0.2
+0.875)	3	0.0
+0.899999976158142)	8	0.0
+0.916666686534882)	4	0.0
+1)	1122	6.9
+1.08333337306976)	9	0.1
+1.10000002384186)	16	0.1
+1.16666662693024)	12	0.1
+1.20000004768372)	68	0.4
+1.25)	243	1.5
+1.29999995231628)	22	0.1
+1.33333337306976)	127	0.8
+1.375)	2	0.0
+1.39999997615814)	20	0.1
+1.5)	1334	8.3
+1.625)	1	0.0
+1.66666662693024)	442	2.7
+1.75)	172	1.1
+1.79999995231628)	6	0.0
+2)	10067	62.3
+2.33333325386047)	209	1.3
+2.5)	573	3.5
+2.66666674613953)	72	0.4
+2.83333325386047)	13	0.1
+3)	374	2.3
+3.25)	9	0.1
+3.40000009536743)	1	0.0
+3.5)	14	0.1
+4)	56	0.3
+Missing	2089
+
+
+82) PRTGRP
+Protestant GRP composite
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	18167	1.573	0.647
+
+
+83) PRTG1C
+Protestant G1 composite (Official Religion)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	17142	1.469	0.817
+0)	106	0.6
+0.25)	18	0.1
+0.333333343267441)	181	1.1
+0.5)	836	4.9
+0.625)	107	0.6
+0.666666686534882)	329	1.9
+0.75)	134	0.8
+0.800000011920929)	26	0.2
+0.833333313465118)	57	0.3
+0.875)	23	0.1
+0.899999976158142)	3	0.0
+1)	7703	44.9
+1.25)	13	0.1
+1.33333337306976)	131	0.8
+1.5)	2295	13.4
+1.66666662693024)	144	0.8
+2)	2844	16.6
+2.25)	28	0.2
+2.33333325386047)	244	1.4
+2.5)	430	2.5
+2.75)	4	0.0
+3)	584	3.4
+3.16666674613953)	4	0.0
+3.5)	166	1.0
+3.66666674613953)	67	0.4
+3.75)	48	0.3
+4)	617	3.6
+Missing	1098
+
+
+84) PRTG2C
+Protestant G2 composite (Religious Education)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12025	1.316	0.968
+0)	2006	16.7
+0.5)	166	1.4
+0.75)	21	0.2
+1)	5853	48.7
+1.5)	66	0.5
+2)	2209	18.4
+2.5)	209	1.7
+3)	1124	9.3
+3.5)	40	0.3
+4)	331	2.8
+Missing	6215
+
+
+85) PRTG3C
+Protestant G3 composite (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11838	1.63	1.034
+0)	1580	13.3
+0.16666667163372)	30	0.3
+0.333333343267441)	13	0.1
+0.5)	449	3.8
+0.666666686534882)	90	0.8
+1)	2598	21.9
+1.16666662693024)	1	0.0
+1.33333337306976)	105	0.9
+1.5)	1363	11.5
+1.66666662693024)	4	0.0
+1.75)	35	0.3
+2)	2707	22.9
+2.25)	26	0.2
+2.33333325386047)	5	0.0
+2.5)	468	4.0
+2.66666674613953)	26	0.2
+3)	1788	15.1
+3.5)	266	2.2
+4)	284	2.4
+Missing	6402
+
+
+86) PRTG4C
+Protestant G4 composite (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15975	1.74	0.699
+0)	791	5.0
+0.200000002980232)	8	0.1
+0.25)	10	0.1
+0.333333343267441)	11	0.1
+0.375)	7	0.0
+0.5)	297	1.9
+0.600000023841858)	60	0.4
+0.666666686534882)	160	1.0
+0.75)	288	1.8
+0.800000011920929)	42	0.3
+0.833333313465118)	18	0.1
+0.916666686534882)	1	0.0
+1)	1675	10.5
+1.125)	1	0.0
+1.16666662693024)	15	0.1
+1.20000004768372)	139	0.9
+1.25)	141	0.9
+1.28571426868439)	40	0.3
+1.33333337306976)	424	2.7
+1.375)	45	0.3
+1.39999997615814)	99	0.6
+1.5)	946	5.9
+1.58333337306976)	51	0.3
+1.60000002384186)	63	0.4
+1.625)	30	0.2
+1.66666662693024)	741	4.6
+1.70000004768372)	13	0.1
+1.75)	344	2.2
+1.79999995231628)	231	1.4
+1.83333337306976)	134	0.8
+2)	5836	36.5
+2.16666674613953)	71	0.4
+2.20000004768372)	187	1.2
+2.25)	399	2.5
+2.28571438789368)	26	0.2
+2.33333325386047)	441	2.8
+2.40000009536743)	254	1.6
+2.42857146263123)	3	0.0
+2.5)	724	4.5
+2.59999990463257)	87	0.5
+2.66666674613953)	235	1.5
+2.75)	130	0.8
+3)	671	4.2
+3.5)	9	0.1
+4)	77	0.5
+Missing	2265
+
+
+87) PRTG5C
+Protestant G5 composite (Free Exercise)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16147	1.78	0.589
+0)	613	3.8
+0.125)	10	0.1
+0.200000002980232)	89	0.6
+0.25)	84	0.5
+0.333333343267441)	7	0.0
+0.375)	31	0.2
+0.400000005960464)	5	0.0
+0.5)	36	0.2
+0.583333313465118)	6	0.0
+0.600000023841858)	7	0.0
+0.666666686534882)	99	0.6
+0.699999988079071)	31	0.2
+0.75)	74	0.5
+0.800000011920929)	60	0.4
+0.833333313465118)	1	0.0
+0.875)	3	0.0
+0.899999976158142)	8	0.0
+0.916666686534882)	4	0.0
+1)	1157	7.2
+1.08333337306976)	9	0.1
+1.10000002384186)	16	0.1
+1.16666662693024)	12	0.1
+1.20000004768372)	69	0.4
+1.25)	248	1.5
+1.29999995231628)	22	0.1
+1.33333337306976)	133	0.8
+1.375)	2	0.0
+1.39999997615814)	20	0.1
+1.5)	1313	8.1
+1.60000002384186)	3	0.0
+1.625)	1	0.0
+1.66666662693024)	447	2.8
+1.75)	172	1.1
+1.79999995231628)	3	0.0
+2)	10121	62.7
+2.33333325386047)	148	0.9
+2.5)	557	3.4
+2.66666674613953)	59	0.4
+2.83333325386047)	13	0.1
+3)	374	2.3
+3.25)	9	0.1
+3.40000009536743)	1	0.0
+3.5)	14	0.1
+4)	56	0.3
+Missing	2093
+
+
+88) ANGGRP
+Anglican GRP composite
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	18163	1.424	0.531
+
+
+89) ANGG1C
+Anglican G1 composite (Official Religion)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	17136	1.299	0.593
+0)	107	0.6
+0.25)	18	0.1
+0.333333343267441)	183	1.1
+0.5)	900	5.3
+0.625)	107	0.6
+0.666666686534882)	347	2.0
+0.75)	115	0.7
+0.800000011920929)	26	0.2
+0.833333313465118)	57	0.3
+0.875)	23	0.1
+0.899999976158142)	3	0.0
+1)	8615	50.3
+1.25)	32	0.2
+1.33333337306976)	127	0.7
+1.39999997615814)	14	0.1
+1.5)	2680	15.6
+1.66666662693024)	82	0.5
+2)	2748	16.0
+2.5)	279	1.6
+2.83333325386047)	51	0.3
+3)	436	2.5
+3.16666674613953)	71	0.4
+3.25)	79	0.5
+4)	36	0.2
+Missing	1104
+
+
+90) ANGG2C
+Anglican G2 composite (Religious Education)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11958	1.172	0.879
+0)	2150	18.0
+0.5)	233	1.9
+0.75)	21	0.2
+1)	6597	55.2
+1.5)	33	0.3
+2)	1661	13.9
+2.5)	15	0.1
+3)	1112	9.3
+4)	136	1.1
+Missing	6282
+
+
+91) ANGG3C
+Anglican G3 composite (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11840	1.273	0.819
+0)	1757	14.8
+0.16666667163372)	30	0.3
+0.333333343267441)	13	0.1
+0.5)	806	6.8
+0.666666686534882)	90	0.8
+0.75)	6	0.1
+0.833333313465118)	1	0.0
+1)	3710	31.3
+1.16666662693024)	1	0.0
+1.25)	26	0.2
+1.33333337306976)	116	1.0
+1.5)	1519	12.8
+1.66666662693024)	4	0.0
+1.75)	29	0.2
+2)	2679	22.6
+2.5)	393	3.3
+3)	618	5.2
+4)	42	0.4
+Missing	6400
+
+
+92) ANGG4C
+Anglican G4 composite (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15735	1.645	0.665
+0)	793	5.0
+0.200000002980232)	8	0.1
+0.25)	10	0.1
+0.333333343267441)	11	0.1
+0.375)	7	0.0
+0.5)	294	1.9
+0.600000023841858)	60	0.4
+0.666666686534882)	214	1.4
+0.75)	298	1.9
+0.800000011920929)	41	0.3
+0.833333313465118)	29	0.2
+0.916666686534882)	1	0.0
+1)	1996	12.7
+1.125)	1	0.0
+1.16666662693024)	15	0.1
+1.20000004768372)	155	1.0
+1.25)	191	1.2
+1.28571426868439)	40	0.3
+1.33333337306976)	465	3.0
+1.375)	38	0.2
+1.39999997615814)	141	0.9
+1.5)	1270	8.1
+1.58333337306976)	51	0.3
+1.60000002384186)	86	0.5
+1.625)	30	0.2
+1.66666662693024)	711	4.5
+1.70000004768372)	13	0.1
+1.75)	462	2.9
+1.79999995231628)	159	1.0
+1.83333337306976)	139	0.9
+1.85714280605316)	3	0.0
+2)	5845	37.1
+2.16666674613953)	58	0.4
+2.20000004768372)	236	1.5
+2.25)	279	1.8
+2.28571438789368)	26	0.2
+2.33333325386047)	318	2.0
+2.40000009536743)	242	1.5
+2.5)	326	2.1
+2.59999990463257)	136	0.9
+2.66666674613953)	49	0.3
+2.75)	31	0.2
+3)	380	2.4
+4)	77	0.5
+Missing	2505
+
+
+93) ANGG5C
+Anglican G5 composite (Free Exercise)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16014	1.737	0.567
+0)	615	3.8
+0.125)	10	0.1
+0.200000002980232)	89	0.6
+0.25)	84	0.5
+0.333333343267441)	7	0.0
+0.375)	31	0.2
+0.400000005960464)	5	0.0
+0.5)	73	0.5
+0.583333313465118)	6	0.0
+0.600000023841858)	9	0.1
+0.666666686534882)	141	0.9
+0.699999988079071)	31	0.2
+0.75)	94	0.6
+0.800000011920929)	11	0.1
+0.833333313465118)	14	0.1
+0.875)	3	0.0
+0.899999976158142)	8	0.0
+0.916666686534882)	4	0.0
+1)	1293	8.1
+1.08333337306976)	9	0.1
+1.10000002384186)	16	0.1
+1.16666662693024)	12	0.1
+1.20000004768372)	67	0.4
+1.25)	236	1.5
+1.29999995231628)	22	0.1
+1.33333337306976)	124	0.8
+1.375)	2	0.0
+1.39999997615814)	20	0.1
+1.5)	1492	9.3
+1.625)	1	0.0
+1.66666662693024)	453	2.8
+1.75)	172	1.1
+1.79999995231628)	6	0.0
+2)	9988	62.4
+2.33333325386047)	162	1.0
+2.5)	423	2.6
+2.66666674613953)	70	0.4
+3)	188	1.2
+3.5)	14	0.1
+4)	9	0.1
+Missing	2226
+
+
+94) PENGRP
+Pentecostal GRP composite
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	13645	1.471	0.482
+
+
+95) PENG1C
+Pentecostal G1 composite (Official Religion)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	12723	1.255	0.545
+0)	83	0.7
+0.25)	2	0.0
+0.333333343267441)	142	1.1
+0.5)	739	5.8
+0.625)	49	0.4
+0.666666686534882)	294	2.3
+0.75)	134	1.1
+0.800000011920929)	26	0.2
+0.833333313465118)	15	0.1
+0.875)	23	0.2
+0.899999976158142)	3	0.0
+1)	6690	52.6
+1.33333337306976)	126	1.0
+1.5)	1763	13.9
+1.66666662693024)	28	0.2
+2)	2067	16.2
+2.5)	266	2.1
+3)	273	2.1
+Missing	5517
+
+
+96) PENG2C
+Pentecostal G2 composite (Religious Education)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	9951	1.218	0.866
+0)	1442	14.5
+0.5)	196	2.0
+0.75)	21	0.2
+1)	5792	58.2
+1.5)	39	0.4
+2)	1357	13.6
+2.5)	15	0.2
+3)	953	9.6
+4)	136	1.4
+Missing	8289
+
+
+97) PENG3C
+Pentecostal G3 composite (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	9667	1.309	0.771
+0)	1242	12.8
+0.16666667163372)	30	0.3
+0.5)	601	6.2
+0.666666686534882)	69	0.7
+1)	2783	28.8
+1.16666662693024)	1	0.0
+1.25)	4	0.0
+1.33333337306976)	107	1.1
+1.5)	1713	17.7
+1.66666662693024)	5	0.1
+1.75)	35	0.4
+2)	2433	25.2
+2.25)	22	0.2
+2.33333325386047)	4	0.0
+2.5)	113	1.2
+3)	497	5.1
+4)	8	0.1
+Missing	8573
+
+
+98) PENG4C
+Pentecostal G4 composite (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12742	1.685	0.611
+0)	468	3.7
+0.200000002980232)	8	0.1
+0.25)	29	0.2
+0.333333343267441)	11	0.1
+0.5)	204	1.6
+0.600000023841858)	60	0.5
+0.666666686534882)	203	1.6
+0.75)	275	2.2
+0.800000011920929)	82	0.6
+0.833333313465118)	18	0.1
+0.916666686534882)	1	0.0
+1)	1105	8.7
+1.125)	1	0.0
+1.16666662693024)	15	0.1
+1.20000004768372)	113	0.9
+1.25)	178	1.4
+1.28571426868439)	40	0.3
+1.33333337306976)	388	3.0
+1.375)	38	0.3
+1.39999997615814)	129	1.0
+1.5)	960	7.5
+1.58333337306976)	51	0.4
+1.60000002384186)	65	0.5
+1.625)	30	0.2
+1.66666662693024)	577	4.5
+1.70000004768372)	13	0.1
+1.75)	539	4.2
+1.79999995231628)	159	1.2
+1.83333337306976)	116	0.9
+2)	5363	42.1
+2.14285707473755)	3	0.0
+2.16666674613953)	59	0.5
+2.20000004768372)	167	1.3
+2.25)	205	1.6
+2.28571438789368)	26	0.2
+2.33333325386047)	286	2.2
+2.40000009536743)	65	0.5
+2.5)	262	2.1
+2.59999990463257)	48	0.4
+2.66666674613953)	2	0.0
+2.75)	44	0.3
+3)	311	2.4
+4)	25	0.2
+Missing	5498
+
+
+99) PENG5C
+Pentecostal G5 composite (Free Exercise)
+RANGE: 0 to 3.5
+	N	Mean	Std. Deviation
+Total	12807	1.782	0.506
+0)	318	2.5
+0.125)	10	0.1
+0.200000002980232)	89	0.7
+0.25)	1	0.0
+0.333333343267441)	7	0.1
+0.375)	31	0.2
+0.400000005960464)	5	0.0
+0.5)	52	0.4
+0.583333313465118)	6	0.0
+0.600000023841858)	43	0.3
+0.666666686534882)	109	0.9
+0.699999988079071)	31	0.2
+0.75)	59	0.5
+0.800000011920929)	22	0.2
+0.833333313465118)	20	0.2
+0.875)	3	0.0
+0.899999976158142)	8	0.1
+0.916666686534882)	4	0.0
+1)	672	5.2
+1.08333337306976)	9	0.1
+1.10000002384186)	16	0.1
+1.16666662693024)	12	0.1
+1.20000004768372)	67	0.5
+1.25)	289	2.3
+1.29999995231628)	16	0.1
+1.33333337306976)	122	1.0
+1.375)	2	0.0
+1.39999997615814)	20	0.2
+1.5)	1040	8.1
+1.625)	1	0.0
+1.66666662693024)	413	3.2
+1.75)	167	1.3
+1.79999995231628)	6	0.0
+2)	8604	67.2
+2.33333325386047)	55	0.4
+2.5)	292	2.3
+2.66666674613953)	41	0.3
+3)	131	1.0
+3.5)	14	0.1
+Missing	5433
+
+
+100) ORTGRP
+Orthodox GRP composite
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	18158	1.455	0.566
+
+
+101) ORTG1C
+Orthodox G1 composite (Official Religion)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	17122	1.344	0.688
+0)	151	0.9
+0.25)	18	0.1
+0.333333343267441)	148	0.9
+0.5)	933	5.4
+0.625)	107	0.6
+0.666666686534882)	364	2.1
+0.75)	85	0.5
+0.800000011920929)	26	0.2
+0.833333313465118)	57	0.3
+0.875)	23	0.1
+0.899999976158142)	3	0.0
+1)	8418	49.2
+1.25)	81	0.5
+1.33333337306976)	73	0.4
+1.39999997615814)	17	0.1
+1.5)	2453	14.3
+1.66666662693024)	137	0.8
+2)	2809	16.4
+2.25)	3	0.0
+2.33333325386047)	138	0.8
+2.5)	93	0.5
+2.66666674613953)	62	0.4
+2.83333325386047)	32	0.2
+3)	441	2.6
+3.25)	12	0.1
+3.33333325386047)	40	0.2
+3.5)	96	0.6
+4)	302	1.8
+Missing	1118
+
+
+102) ORTG2C
+Orthodox G2 composite (Religious Education)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12073	1.118	0.858
+0)	2004	16.6
+0.5)	271	2.2
+0.75)	20	0.2
+1)	7604	63.0
+1.5)	33	0.3
+2)	1005	8.3
+2.5)	55	0.5
+3)	768	6.4
+3.5)	12	0.1
+4)	301	2.5
+Missing	6167
+
+
+103) ORTG3C
+Orthodox G3 composite (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11932	1.332	0.882
+0)	1689	14.2
+0.333333343267441)	13	0.1
+0.5)	844	7.1
+0.666666686534882)	94	0.8
+0.75)	6	0.1
+0.833333313465118)	41	0.3
+1)	3495	29.3
+1.25)	22	0.2
+1.33333337306976)	40	0.3
+1.5)	1768	14.8
+1.66666662693024)	5	0.0
+1.75)	29	0.2
+2)	2728	22.9
+2.25)	4	0.0
+2.33333325386047)	4	0.0
+2.5)	143	1.2
+2.83333325386047)	1	0.0
+3)	709	5.9
+3.16666674613953)	2	0.0
+3.33333325386047)	33	0.3
+3.5)	78	0.7
+3.83333325386047)	30	0.3
+4)	154	1.3
+Missing	6308
+
+
+104) ORTG4C
+Orthodox G4 composite (Regulatory Burdens)
+RANGE: 0 to 3.5
+	N	Mean	Std. Deviation
+Total	15913	1.675	0.649
+0)	787	4.9
+0.200000002980232)	8	0.1
+0.25)	10	0.1
+0.333333343267441)	11	0.1
+0.5)	300	1.9
+0.600000023841858)	28	0.2
+0.666666686534882)	112	0.7
+0.75)	303	1.9
+0.800000011920929)	28	0.2
+0.833333313465118)	7	0.0
+1)	1894	11.9
+1.125)	1	0.0
+1.16666662693024)	37	0.2
+1.20000004768372)	124	0.8
+1.25)	258	1.6
+1.28571426868439)	40	0.3
+1.33333337306976)	362	2.3
+1.375)	33	0.2
+1.39999997615814)	104	0.7
+1.5)	1180	7.4
+1.58333337306976)	51	0.3
+1.60000002384186)	52	0.3
+1.66666662693024)	716	4.5
+1.70000004768372)	37	0.2
+1.75)	514	3.2
+1.79999995231628)	183	1.2
+1.83333337306976)	168	1.1
+1.89999997615814)	17	0.1
+2)	6465	40.6
+2.09999990463257)	1	0.0
+2.16666674613953)	80	0.5
+2.20000004768372)	181	1.1
+2.25)	308	1.9
+2.33333325386047)	328	2.1
+2.40000009536743)	236	1.5
+2.42857146263123)	3	0.0
+2.5)	87	0.5
+2.59999990463257)	81	0.5
+2.66666674613953)	102	0.6
+2.71428561210632)	110	0.7
+2.75)	75	0.5
+2.79999995231628)	16	0.1
+3)	362	2.3
+3.20000004768372)	1	0.0
+3.33333325386047)	96	0.6
+3.5)	16	0.1
+Missing	2327
+
+
+105) ORTG5C
+Orthodox G5 composite (Free Exercise)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15997	1.783	0.593
+0)	631	3.9
+0.100000001490116)	18	0.1
+0.200000002980232)	70	0.4
+0.25)	84	0.5
+0.333333343267441)	7	0.0
+0.375)	8	0.1
+0.5)	79	0.5
+0.583333313465118)	6	0.0
+0.600000023841858)	9	0.1
+0.666666686534882)	103	0.6
+0.699999988079071)	31	0.2
+0.75)	63	0.4
+0.800000011920929)	33	0.2
+0.833333313465118)	12	0.1
+0.875)	3	0.0
+0.899999976158142)	9	0.1
+1)	1232	7.7
+1.10000002384186)	31	0.2
+1.20000004768372)	67	0.4
+1.25)	145	0.9
+1.29999995231628)	15	0.1
+1.33333337306976)	156	1.0
+1.375)	2	0.0
+1.39999997615814)	7	0.0
+1.5)	1256	7.9
+1.625)	1	0.0
+1.66666662693024)	346	2.2
+1.70000004768372)	11	0.1
+1.75)	190	1.2
+1.79999995231628)	6	0.0
+2)	10073	63.0
+2.08333325386047)	12	0.1
+2.25)	29	0.2
+2.33333325386047)	152	1.0
+2.5)	512	3.2
+2.66666674613953)	100	0.6
+2.75)	39	0.2
+3)	273	1.7
+3.125)	5	0.0
+3.25)	72	0.5
+3.33333325386047)	50	0.3
+3.40000009536743)	1	0.0
+3.5)	39	0.2
+4)	9	0.1
+Missing	2243
+
+
+106) CSYNGRP
+Christian Syncretic GRP composite
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	18163	1.215	0.361
+
+
+107) CSYNG1C
+Christian Syncretic G1 composite (Official Religion)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	16187	0.945	0.208
+0)	239	1.5
+0.25)	18	0.1
+0.333333343267441)	190	1.2
+0.5)	893	5.5
+0.625)	49	0.3
+0.666666686534882)	481	3.0
+0.75)	148	0.9
+0.800000011920929)	26	0.2
+0.833333313465118)	115	0.7
+0.875)	23	0.1
+0.899999976158142)	3	0.0
+1)	13653	84.3
+1.16666662693024)	69	0.4
+1.25)	2	0.0
+1.33333337306976)	71	0.4
+1.5)	132	0.8
+2)	74	0.5
+3)	1	0.0
+Missing	2053
+
+
+108) CSYNG2C
+Christian Syncretic G2 composite (Religious Education)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	12070	0.8	0.464
+0)	2526	20.9
+0.5)	520	4.3
+0.75)	41	0.3
+1)	8611	71.3
+2)	356	2.9
+3)	16	0.1
+Missing	6170
+
+
+109) CSYNG3C
+Christian Syncretic G3 composite (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11911	1.085	0.657
+0)	1881	15.8
+0.16666667163372)	30	0.3
+0.333333343267441)	13	0.1
+0.5)	1057	8.9
+0.666666686534882)	127	1.1
+0.75)	6	0.1
+0.833333313465118)	52	0.4
+1)	4258	35.7
+1.16666662693024)	1	0.0
+1.25)	26	0.2
+1.33333337306976)	105	0.9
+1.5)	1764	14.8
+1.66666662693024)	4	0.0
+1.75)	29	0.2
+2)	2555	21.5
+3)	3	0.0
+Missing	6329
+
+
+110) CSYNG4C
+Christian Syncretic G4 composite (Regulatory Burdens)
+RANGE: 0 to 2.5
+	N	Mean	Std. Deviation
+Total	15285	1.501	0.539
+0)	580	3.8
+0.25)	38	0.2
+0.333333343267441)	3	0.0
+0.400000005960464)	46	0.3
+0.5)	380	2.5
+0.600000023841858)	41	0.3
+0.666666686534882)	310	2.0
+0.75)	218	1.4
+0.800000011920929)	46	0.3
+0.833333313465118)	1	0.0
+1)	2579	16.9
+1.125)	1	0.0
+1.16666662693024)	14	0.1
+1.20000004768372)	76	0.5
+1.25)	401	2.6
+1.28571426868439)	40	0.3
+1.33333337306976)	555	3.6
+1.375)	38	0.2
+1.39999997615814)	231	1.5
+1.5)	1258	8.2
+1.57142853736877)	3	0.0
+1.58333337306976)	51	0.3
+1.60000002384186)	136	0.9
+1.66666662693024)	1223	8.0
+1.70000004768372)	12	0.1
+1.75)	959	6.3
+1.79999995231628)	305	2.0
+1.83333337306976)	162	1.1
+1.89999997615814)	1	0.0
+2)	5536	36.2
+2.20000004768372)	16	0.1
+2.33333325386047)	23	0.2
+2.5)	2	0.0
+Missing	2955
+
+
+111) CSYNG5C
+Christian Syncretic G5 composite (Free Exercise)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	15907	1.691	0.514
+0)	601	3.8
+0.100000001490116)	28	0.2
+0.200000002980232)	60	0.4
+0.25)	7	0.0
+0.333333343267441)	5	0.0
+0.375)	8	0.1
+0.400000005960464)	6	0.0
+0.5)	95	0.6
+0.600000023841858)	3	0.0
+0.666666686534882)	131	0.8
+0.699999988079071)	2	0.0
+0.75)	32	0.2
+0.800000011920929)	33	0.2
+0.875)	16	0.1
+0.899999976158142)	6	0.0
+1)	1492	9.4
+1.20000004768372)	15	0.1
+1.25)	423	2.7
+1.29999995231628)	9	0.1
+1.33333337306976)	318	2.0
+1.375)	1	0.0
+1.39999997615814)	14	0.1
+1.5)	1584	10.0
+1.60000002384186)	11	0.1
+1.625)	43	0.3
+1.66666662693024)	562	3.5
+1.75)	146	0.9
+1.79999995231628)	6	0.0
+2)	10250	64.4
+Missing	2333
+
+
+112) JEWGRP
+Jewish GRP composite
+RANGE: 0 to 2.71666669845581
+	N	Mean	Std. Deviation
+Total	18189	1.287	0.442
+
+
+113) JEWG1C
+Jewish G1 composite (Official Religion)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16388	0.981	0.397
+0)	263	1.6
+0.16666667163372)	1	0.0
+0.200000002980232)	1	0.0
+0.25)	19	0.1
+0.333333343267441)	321	2.0
+0.375)	2	0.0
+0.400000005960464)	23	0.1
+0.5)	1240	7.6
+0.600000023841858)	94	0.6
+0.625)	10	0.1
+0.666666686534882)	436	2.7
+0.699999988079071)	15	0.1
+0.75)	249	1.5
+0.800000011920929)	65	0.4
+0.833333313465118)	105	0.6
+0.899999976158142)	13	0.1
+1)	12395	75.6
+1.10000002384186)	7	0.0
+1.125)	64	0.4
+1.16666662693024)	25	0.2
+1.25)	27	0.2
+1.33333337306976)	124	0.8
+1.375)	8	0.0
+1.5)	273	1.7
+1.66666662693024)	53	0.3
+2)	258	1.6
+2.20000004768372)	2	0.0
+2.40000009536743)	14	0.1
+2.5)	146	0.9
+3)	35	0.2
+4)	100	0.6
+Missing	1852
+
+
+114) JEWG2C
+Jewish G2 composite (Religious Education)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	12150	0.869	0.562
+0)	2439	20.1
+0.5)	406	3.3
+0.75)	41	0.3
+1)	8426	69.3
+1.5)	7	0.1
+2)	600	4.9
+2.5)	15	0.1
+3)	216	1.8
+Missing	6090
+
+
+115) JEWG3C
+Jewish G3 composite (Financial Support)
+RANGE: 0 to 3.5
+	N	Mean	Std. Deviation
+Total	11855	1.31	0.838
+0)	1734	14.6
+0.16666667163372)	30	0.3
+0.333333343267441)	13	0.1
+0.5)	822	6.9
+0.666666686534882)	54	0.5
+1)	3410	28.8
+1.16666662693024)	1	0.0
+1.25)	5	0.0
+1.33333337306976)	152	1.3
+1.5)	1676	14.1
+1.66666662693024)	4	0.0
+1.75)	35	0.3
+2)	2825	23.8
+2.25)	21	0.2
+2.33333325386047)	5	0.0
+2.5)	149	1.3
+3)	851	7.2
+3.5)	68	0.6
+Missing	6385
+
+
+116) JEWG4C
+Jewish G4 composite (Regulatory Burdens)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	16215	1.513	0.634
+0)	985	6.1
+0.16666667163372)	13	0.1
+0.25)	48	0.3
+0.333333343267441)	88	0.5
+0.400000005960464)	2	0.0
+0.5)	657	4.1
+0.600000023841858)	24	0.1
+0.625)	2	0.0
+0.666666686534882)	326	2.0
+0.75)	296	1.8
+0.800000011920929)	10	0.1
+0.833333313465118)	2	0.0
+0.875)	2	0.0
+1)	2138	13.2
+1.125)	1	0.0
+1.16666662693024)	16	0.1
+1.20000004768372)	66	0.4
+1.25)	383	2.4
+1.28571426868439)	40	0.2
+1.33333337306976)	512	3.2
+1.375)	38	0.2
+1.39999997615814)	129	0.8
+1.5)	1097	6.8
+1.58333337306976)	51	0.3
+1.60000002384186)	233	1.4
+1.66666662693024)	964	5.9
+1.70000004768372)	12	0.1
+1.75)	620	3.8
+1.79999995231628)	382	2.4
+1.83333337306976)	89	0.5
+1.85714280605316)	26	0.2
+1.89999997615814)	1	0.0
+2)	5998	37.0
+2.14285707473755)	3	0.0
+2.16666674613953)	74	0.5
+2.20000004768372)	110	0.7
+2.25)	179	1.1
+2.33333325386047)	174	1.1
+2.40000009536743)	75	0.5
+2.5)	207	1.3
+2.59999990463257)	16	0.1
+2.66666674613953)	64	0.4
+2.75)	13	0.1
+3)	49	0.3
+Missing	2025
+
+
+117) JEWG5C
+Jewish G5 composite (Free Exercise)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	16482	1.702	0.569
+0)	813	4.9
+0.100000001490116)	28	0.2
+0.200000002980232)	60	0.4
+0.25)	7	0.0
+0.333333343267441)	2	0.0
+0.375)	8	0.0
+0.400000005960464)	6	0.0
+0.5)	112	0.7
+0.600000023841858)	3	0.0
+0.666666686534882)	163	1.0
+0.699999988079071)	2	0.0
+0.75)	35	0.2
+0.800000011920929)	105	0.6
+0.875)	16	0.1
+0.899999976158142)	6	0.0
+1)	1361	8.3
+1.20000004768372)	45	0.3
+1.25)	291	1.8
+1.29999995231628)	9	0.1
+1.33333337306976)	269	1.6
+1.375)	1	0.0
+1.39999997615814)	31	0.2
+1.5)	1484	9.0
+1.60000002384186)	11	0.1
+1.625)	43	0.3
+1.66666662693024)	646	3.9
+1.75)	121	0.7
+1.79999995231628)	6	0.0
+2)	10294	62.5
+2.25)	69	0.4
+2.33333325386047)	26	0.2
+2.5)	203	1.2
+2.66666674613953)	16	0.1
+3)	190	1.2
+Missing	1758
+
+
+118) MUSGRP
+Muslim GRP composite
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	18160	1.566	0.725
+
+
+119) MUSG1C
+Muslim G1 composite (Official Religion)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16436	1.396	0.934
+0)	132	0.8
+0.333333343267441)	81	0.5
+0.5)	778	4.7
+0.600000023841858)	6	0.0
+0.666666686534882)	189	1.1
+0.75)	26	0.2
+0.833333313465118)	106	0.6
+1)	11100	67.5
+1.125)	18	0.1
+1.16666662693024)	39	0.2
+1.25)	46	0.3
+1.33333337306976)	112	0.7
+1.5)	545	3.3
+1.60000002384186)	22	0.1
+1.66666662693024)	72	0.4
+1.75)	19	0.1
+2)	712	4.3
+2.16666674613953)	4	0.0
+2.25)	18	0.1
+2.33333325386047)	58	0.4
+2.375)	5	0.0
+2.5)	94	0.6
+2.66666674613953)	113	0.7
+3)	224	1.4
+3.20000004768372)	47	0.3
+3.25)	23	0.1
+3.29999995231628)	3	0.0
+3.33333325386047)	236	1.4
+3.40000009536743)	24	0.1
+3.5)	382	2.3
+3.59999990463257)	2	0.0
+3.625)	11	0.1
+3.66666674613953)	350	2.1
+3.75)	153	0.9
+3.83333325386047)	11	0.1
+3.875)	61	0.4
+4)	614	3.7
+Missing	1804
+
+
+120) MUSG2C
+Muslim G2 composite (Religious Education)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12061	1.284	1.023
+0)	1652	13.7
+0.25)	13	0.1
+0.5)	419	3.5
+0.75)	61	0.5
+1)	6994	58.0
+1.5)	20	0.2
+2)	1342	11.1
+2.5)	28	0.2
+3)	657	5.4
+3.5)	31	0.3
+4)	844	7.0
+Missing	6179
+
+
+121) MUSG3C
+Muslim G3 composite (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12001	1.451	0.978
+0)	1567	13.1
+0.16666667163372)	30	0.2
+0.333333343267441)	13	0.1
+0.5)	876	7.3
+0.666666686534882)	57	0.5
+0.75)	6	0.0
+0.833333313465118)	30	0.2
+1)	3316	27.6
+1.16666662693024)	31	0.3
+1.25)	26	0.2
+1.33333337306976)	93	0.8
+1.5)	1400	11.7
+1.66666662693024)	4	0.0
+1.75)	29	0.2
+1.83333337306976)	1	0.0
+2)	2538	21.1
+2.16666674613953)	2	0.0
+2.33333325386047)	39	0.3
+2.5)	231	1.9
+2.66666674613953)	56	0.5
+3)	1250	10.4
+3.5)	83	0.7
+4)	323	2.7
+Missing	6239
+
+
+122) MUSG4C
+Muslim G4 composite (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15529	1.752	0.655
+0)	445	2.9
+0.200000002980232)	4	0.0
+0.5)	371	2.4
+0.571428596973419)	6	0.0
+0.666666686534882)	157	1.0
+0.714285731315613)	2	0.0
+0.75)	257	1.7
+0.800000011920929)	46	0.3
+0.833333313465118)	1	0.0
+1)	1750	11.3
+1.125)	1	0.0
+1.20000004768372)	41	0.3
+1.25)	144	0.9
+1.33333337306976)	350	2.3
+1.375)	33	0.2
+1.39999997615814)	79	0.5
+1.5)	1193	7.7
+1.57142853736877)	36	0.2
+1.58333337306976)	51	0.3
+1.60000002384186)	221	1.4
+1.66666662693024)	873	5.6
+1.70000004768372)	12	0.1
+1.71428573131561)	11	0.1
+1.75)	679	4.4
+1.79999995231628)	358	2.3
+1.83333337306976)	159	1.0
+1.875)	7	0.0
+1.89999997615814)	7	0.0
+1.91666662693024)	1	0.0
+2)	5882	37.9
+2.16666674613953)	100	0.6
+2.20000004768372)	152	1.0
+2.25)	125	0.8
+2.33333325386047)	274	1.8
+2.375)	4	0.0
+2.40000009536743)	117	0.8
+2.5)	224	1.4
+2.57142853736877)	87	0.6
+2.59999990463257)	87	0.6
+2.66666674613953)	142	0.9
+2.75)	86	0.6
+2.79999995231628)	12	0.1
+2.83333325386047)	109	0.7
+2.85714292526245)	47	0.3
+2.875)	4	0.0
+3)	474	3.1
+3.16666674613953)	22	0.1
+3.20000004768372)	35	0.2
+3.25)	11	0.1
+3.33333325386047)	35	0.2
+3.40000009536743)	7	0.0
+3.5)	30	0.2
+3.59999990463257)	65	0.4
+3.66666674613953)	11	0.1
+3.79999995231628)	48	0.3
+4)	44	0.3
+Missing	2711
+
+
+123) MUSG5C
+Muslim G5 composite (Free Exercise)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16032	1.934	0.64
+0)	439	2.7
+0.100000001490116)	28	0.2
+0.200000002980232)	12	0.1
+0.25)	1	0.0
+0.333333343267441)	4	0.0
+0.400000005960464)	4	0.0
+0.5)	62	0.4
+0.600000023841858)	4	0.0
+0.625)	19	0.1
+0.666666686534882)	18	0.1
+0.75)	146	0.9
+0.800000011920929)	5	0.0
+0.899999976158142)	4	0.0
+1)	1055	6.6
+1.10000002384186)	5	0.0
+1.125)	4	0.0
+1.20000004768372)	2	0.0
+1.25)	38	0.2
+1.29999995231628)	7	0.0
+1.33333337306976)	213	1.3
+1.39999997615814)	30	0.2
+1.5)	968	6.0
+1.60000002384186)	23	0.1
+1.625)	25	0.2
+1.66666662693024)	461	2.9
+1.75)	178	1.1
+1.79999995231628)	30	0.2
+1.83333337306976)	6	0.0
+2)	10059	62.7
+2.20000004768372)	3	0.0
+2.25)	75	0.5
+2.33333325386047)	172	1.1
+2.40000009536743)	9	0.1
+2.5)	308	1.9
+2.625)	1	0.0
+2.66666674613953)	20	0.1
+2.75)	60	0.4
+2.79999995231628)	59	0.4
+2.90000009536743)	20	0.1
+3)	742	4.6
+3.09999990463257)	6	0.0
+3.16666674613953)	13	0.1
+3.20000004768372)	60	0.4
+3.25)	134	0.8
+3.29999995231628)	2	0.0
+3.33333325386047)	82	0.5
+3.40000009536743)	48	0.3
+3.41666674613953)	1	0.0
+3.42857146263123)	5	0.0
+3.5)	97	0.6
+3.57142853736877)	10	0.1
+3.59999990463257)	11	0.1
+3.625)	8	0.0
+3.70000004768372)	1	0.0
+3.85714292526245)	12	0.1
+4)	223	1.4
+Missing	2208
+
+
+124) SUNGRP
+Sunni GRP composite
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	18116	1.548	0.698
+
+
+125) SUNG1C
+Sunni G1 composite (Official Religion)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16392	1.372	0.904
+0)	132	0.8
+0.333333343267441)	81	0.5
+0.5)	778	4.7
+0.600000023841858)	6	0.0
+0.666666686534882)	189	1.2
+0.75)	26	0.2
+0.833333313465118)	106	0.6
+1)	11101	67.7
+1.125)	18	0.1
+1.16666662693024)	39	0.2
+1.25)	46	0.3
+1.33333337306976)	184	1.1
+1.5)	582	3.6
+1.60000002384186)	22	0.1
+1.66666662693024)	72	0.4
+1.75)	19	0.1
+2)	712	4.3
+2.16666674613953)	4	0.0
+2.25)	18	0.1
+2.33333325386047)	82	0.5
+2.375)	5	0.0
+2.5)	94	0.6
+2.66666674613953)	89	0.5
+3)	223	1.4
+3.20000004768372)	47	0.3
+3.25)	23	0.1
+3.29999995231628)	3	0.0
+3.33333325386047)	228	1.4
+3.40000009536743)	24	0.1
+3.5)	382	2.3
+3.59999990463257)	2	0.0
+3.625)	11	0.1
+3.66666674613953)	286	1.7
+3.75)	153	0.9
+3.83333325386047)	11	0.1
+3.875)	61	0.4
+4)	533	3.3
+Missing	1848
+
+
+126) SUNG2C
+Sunni G2 composite (Religious Education)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12035	1.274	1.014
+0)	1664	13.8
+0.25)	13	0.1
+0.5)	419	3.5
+0.75)	61	0.5
+1)	7000	58.2
+1.5)	20	0.2
+2)	1335	11.1
+2.5)	28	0.2
+3)	657	5.5
+3.5)	31	0.3
+4)	807	6.7
+Missing	6205
+
+
+127) SUNG3C
+Sunni G3 composite (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12001	1.433	0.967
+0)	1567	13.1
+0.16666667163372)	30	0.2
+0.333333343267441)	13	0.1
+0.5)	876	7.3
+0.666666686534882)	57	0.5
+0.75)	6	0.0
+0.833333313465118)	30	0.2
+1)	3423	28.5
+1.16666662693024)	31	0.3
+1.25)	26	0.2
+1.33333337306976)	93	0.8
+1.5)	1400	11.7
+1.66666662693024)	4	0.0
+1.75)	29	0.2
+1.83333337306976)	1	0.0
+2)	2543	21.2
+2.16666674613953)	2	0.0
+2.33333325386047)	39	0.3
+2.5)	231	1.9
+2.66666674613953)	56	0.5
+3)	1138	9.5
+3.5)	83	0.7
+4)	323	2.7
+Missing	6239
+
+
+128) SUNG4C
+Sunni G4 composite (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15432	1.744	0.656
+0)	445	2.9
+0.200000002980232)	4	0.0
+0.5)	371	2.4
+0.571428596973419)	6	0.0
+0.666666686534882)	157	1.0
+0.714285731315613)	2	0.0
+0.75)	257	1.7
+0.800000011920929)	46	0.3
+0.833333313465118)	1	0.0
+1)	1754	11.4
+1.125)	1	0.0
+1.16666662693024)	4	0.0
+1.20000004768372)	43	0.3
+1.25)	144	0.9
+1.33333337306976)	352	2.3
+1.375)	33	0.2
+1.39999997615814)	79	0.5
+1.5)	1226	7.9
+1.57142853736877)	36	0.2
+1.58333337306976)	51	0.3
+1.60000002384186)	221	1.4
+1.66666662693024)	913	5.9
+1.70000004768372)	12	0.1
+1.71428573131561)	11	0.1
+1.75)	633	4.1
+1.79999995231628)	352	2.3
+1.83333337306976)	157	1.0
+1.875)	7	0.0
+1.89999997615814)	7	0.0
+1.91666662693024)	1	0.0
+2)	5874	38.1
+2.09999990463257)	43	0.3
+2.16666674613953)	101	0.7
+2.20000004768372)	95	0.6
+2.25)	118	0.8
+2.29999995231628)	12	0.1
+2.33333325386047)	240	1.6
+2.375)	4	0.0
+2.40000009536743)	113	0.7
+2.5)	249	1.6
+2.57142853736877)	156	1.0
+2.59999990463257)	34	0.2
+2.66666674613953)	133	0.9
+2.75)	123	0.8
+2.79999995231628)	11	0.1
+2.83333325386047)	72	0.5
+2.85714292526245)	47	0.3
+2.875)	4	0.0
+3)	374	2.4
+3.20000004768372)	12	0.1
+3.25)	11	0.1
+3.33333325386047)	35	0.2
+3.5)	27	0.2
+3.59999990463257)	65	0.4
+3.66666674613953)	11	0.1
+3.79999995231628)	48	0.3
+4)	94	0.6
+Missing	2808
+
+
+129) SUNG5C
+Sunni G5 composite (Free Exercise)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16031	1.917	0.63
+0)	473	3.0
+0.100000001490116)	28	0.2
+0.200000002980232)	12	0.1
+0.25)	1	0.0
+0.333333343267441)	4	0.0
+0.400000005960464)	4	0.0
+0.5)	62	0.4
+0.600000023841858)	4	0.0
+0.625)	19	0.1
+0.666666686534882)	18	0.1
+0.75)	146	0.9
+0.800000011920929)	5	0.0
+0.899999976158142)	4	0.0
+1)	1056	6.6
+1.10000002384186)	5	0.0
+1.125)	4	0.0
+1.20000004768372)	2	0.0
+1.25)	38	0.2
+1.29999995231628)	7	0.0
+1.33333337306976)	213	1.3
+1.39999997615814)	30	0.2
+1.5)	971	6.1
+1.60000002384186)	27	0.2
+1.625)	25	0.2
+1.66666662693024)	482	3.0
+1.75)	181	1.1
+1.79999995231628)	35	0.2
+1.83333337306976)	9	0.1
+2)	10093	63.0
+2.25)	70	0.4
+2.33333325386047)	142	0.9
+2.40000009536743)	9	0.1
+2.5)	393	2.5
+2.625)	1	0.0
+2.66666674613953)	20	0.1
+2.75)	115	0.7
+2.79999995231628)	59	0.4
+2.90000009536743)	20	0.1
+3)	602	3.8
+3.09999990463257)	6	0.0
+3.16666674613953)	13	0.1
+3.20000004768372)	60	0.4
+3.25)	134	0.8
+3.29999995231628)	2	0.0
+3.33333325386047)	82	0.5
+3.40000009536743)	11	0.1
+3.41666674613953)	1	0.0
+3.42857146263123)	5	0.0
+3.5)	97	0.6
+3.57142853736877)	10	0.1
+3.59999990463257)	11	0.1
+3.625)	8	0.0
+3.70000004768372)	1	0.0
+3.85714292526245)	12	0.1
+4)	189	1.2
+Missing	2209
+
+
+130) SHIGRP
+Shia GRP composite
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	18157	1.46	0.587
+
+
+131) SHIG1C
+Shia G1 composite (Official Religion)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16421	1.243	0.718
+0)	211	1.3
+0.333333343267441)	81	0.5
+0.5)	851	5.2
+0.600000023841858)	6	0.0
+0.666666686534882)	274	1.7
+0.75)	26	0.2
+0.833333313465118)	106	0.6
+1)	11274	68.7
+1.125)	18	0.1
+1.16666662693024)	60	0.4
+1.25)	68	0.4
+1.33333337306976)	198	1.2
+1.39999997615814)	22	0.1
+1.5)	552	3.4
+1.60000002384186)	1	0.0
+1.625)	33	0.2
+1.66666662693024)	89	0.5
+1.75)	60	0.4
+1.875)	9	0.1
+2)	921	5.6
+2.16666674613953)	9	0.1
+2.25)	39	0.2
+2.33333325386047)	150	0.9
+2.375)	5	0.0
+2.5)	153	0.9
+2.66666674613953)	57	0.3
+2.75)	15	0.1
+2.83333325386047)	5	0.0
+3)	386	2.4
+3.125)	3	0.0
+3.29999995231628)	3	0.0
+3.33333325386047)	187	1.1
+3.375)	11	0.1
+3.5)	201	1.2
+3.66666674613953)	45	0.3
+3.75)	16	0.1
+3.875)	6	0.0
+4)	270	1.6
+Missing	1819
+
+
+132) SHIG2C
+Shia G2 composite (Religious Education)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11922	1.074	0.85
+0)	2014	16.9
+0.25)	13	0.1
+0.5)	435	3.6
+0.75)	61	0.5
+1)	7538	63.2
+1.5)	20	0.2
+2)	955	8.0
+2.5)	28	0.2
+3)	429	3.6
+3.5)	17	0.1
+4)	412	3.5
+Missing	6318
+
+
+133) SHIG3C
+Shia G3 composite (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11874	1.383	0.926
+0)	1645	13.9
+0.16666667163372)	30	0.3
+0.333333343267441)	13	0.1
+0.5)	876	7.4
+0.666666686534882)	57	0.5
+0.75)	6	0.1
+0.833333313465118)	30	0.3
+1)	3358	28.3
+1.16666662693024)	31	0.3
+1.25)	26	0.2
+1.33333337306976)	93	0.8
+1.5)	1479	12.5
+1.66666662693024)	4	0.0
+1.75)	29	0.2
+1.83333337306976)	1	0.0
+2)	2615	22.0
+2.16666674613953)	2	0.0
+2.33333325386047)	39	0.3
+2.5)	127	1.1
+2.66666674613953)	56	0.5
+3)	1112	9.4
+3.5)	59	0.5
+4)	186	1.6
+Missing	6366
+
+
+134) SHIG4C
+Shia G4 composite (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15575	1.688	0.613
+0)	460	3.0
+0.200000002980232)	4	0.0
+0.25)	5	0.0
+0.333333343267441)	32	0.2
+0.5)	389	2.5
+0.571428596973419)	6	0.0
+0.666666686534882)	174	1.1
+0.714285731315613)	2	0.0
+0.75)	268	1.7
+0.800000011920929)	46	0.3
+0.833333313465118)	1	0.0
+1)	1866	12.0
+1.125)	1	0.0
+1.16666662693024)	2	0.0
+1.20000004768372)	72	0.5
+1.25)	147	0.9
+1.29999995231628)	9	0.1
+1.33333337306976)	371	2.4
+1.375)	33	0.2
+1.39999997615814)	149	1.0
+1.41666662693024)	4	0.0
+1.5)	1250	8.0
+1.57142853736877)	36	0.2
+1.58333337306976)	51	0.3
+1.60000002384186)	251	1.6
+1.66666662693024)	886	5.7
+1.70000004768372)	12	0.1
+1.71428573131561)	11	0.1
+1.75)	743	4.8
+1.79999995231628)	376	2.4
+1.83333337306976)	171	1.1
+1.875)	7	0.0
+1.89999997615814)	7	0.0
+1.91666662693024)	1	0.0
+2)	5886	37.8
+2.16666674613953)	67	0.4
+2.20000004768372)	146	0.9
+2.25)	198	1.3
+2.28571438789368)	18	0.1
+2.33333325386047)	288	1.8
+2.375)	4	0.0
+2.40000009536743)	86	0.6
+2.42857146263123)	59	0.4
+2.5)	148	1.0
+2.57142853736877)	46	0.3
+2.59999990463257)	90	0.6
+2.66666674613953)	110	0.7
+2.75)	78	0.5
+2.79999995231628)	57	0.4
+2.83333325386047)	34	0.2
+2.875)	4	0.0
+3)	261	1.7
+3.20000004768372)	23	0.1
+3.33333325386047)	14	0.1
+3.40000009536743)	55	0.4
+3.5)	16	0.1
+4)	44	0.3
+Missing	2665
+
+
+135) SHIG5C
+Shia G5 composite (Free Exercise)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15983	1.871	0.586
+0)	439	2.7
+0.100000001490116)	28	0.2
+0.200000002980232)	12	0.1
+0.25)	7	0.0
+0.333333343267441)	4	0.0
+0.400000005960464)	5	0.0
+0.5)	62	0.4
+0.600000023841858)	4	0.0
+0.625)	19	0.1
+0.666666686534882)	21	0.1
+0.75)	160	1.0
+0.800000011920929)	5	0.0
+0.899999976158142)	4	0.0
+1)	1096	6.9
+1.10000002384186)	5	0.0
+1.125)	4	0.0
+1.20000004768372)	16	0.1
+1.25)	70	0.4
+1.29999995231628)	7	0.0
+1.33333337306976)	314	2.0
+1.375)	3	0.0
+1.39999997615814)	30	0.2
+1.5)	1042	6.5
+1.60000002384186)	23	0.1
+1.625)	30	0.2
+1.66666662693024)	496	3.1
+1.75)	217	1.4
+1.79999995231628)	35	0.2
+1.83333337306976)	6	0.0
+1.875)	5	0.0
+1.89999997615814)	5	0.0
+2)	10222	64.0
+2.14285707473755)	12	0.1
+2.20000004768372)	34	0.2
+2.25)	21	0.1
+2.33333325386047)	95	0.6
+2.375)	44	0.3
+2.40000009536743)	9	0.1
+2.5)	287	1.8
+2.59999990463257)	4	0.0
+2.625)	1	0.0
+2.66666674613953)	69	0.4
+2.75)	41	0.3
+2.90000009536743)	16	0.1
+3)	586	3.7
+3.20000004768372)	25	0.2
+3.25)	97	0.6
+3.33333325386047)	49	0.3
+3.40000009536743)	37	0.2
+3.5)	27	0.2
+3.625)	8	0.1
+4)	125	0.8
+Missing	2257
+
+
+136) IBAGRP
+Ibadi GRP composite
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	18111	1.447	0.56
+
+
+137) IBAG1C
+Ibadi G1 composite (Official Religion)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16377	1.224	0.698
+0)	211	1.3
+0.333333343267441)	81	0.5
+0.5)	800	4.9
+0.600000023841858)	6	0.0
+0.666666686534882)	301	1.8
+0.75)	26	0.2
+0.833333313465118)	106	0.6
+1)	11390	69.5
+1.125)	18	0.1
+1.16666662693024)	39	0.2
+1.25)	91	0.6
+1.33333337306976)	277	1.7
+1.5)	553	3.4
+1.625)	33	0.2
+1.66666662693024)	89	0.5
+1.75)	74	0.5
+1.875)	9	0.1
+2)	911	5.6
+2.16666674613953)	9	0.1
+2.25)	54	0.3
+2.33333325386047)	51	0.3
+2.375)	5	0.0
+2.5)	246	1.5
+2.66666674613953)	33	0.2
+2.75)	2	0.0
+2.83333325386047)	5	0.0
+3)	278	1.7
+3.125)	3	0.0
+3.29999995231628)	3	0.0
+3.33333325386047)	47	0.3
+3.5)	215	1.3
+3.66666674613953)	71	0.4
+3.75)	16	0.1
+3.83333325386047)	11	0.1
+3.875)	6	0.0
+4)	307	1.9
+Missing	1863
+
+
+138) IBAG2C
+Ibadi G2 composite (Religious Education)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11885	1.054	0.826
+0)	2054	17.3
+0.25)	13	0.1
+0.5)	419	3.5
+0.75)	61	0.5
+1)	7561	63.6
+1.5)	20	0.2
+2)	934	7.9
+2.5)	28	0.2
+3)	429	3.6
+3.5)	17	0.1
+4)	349	2.9
+Missing	6355
+
+
+139) IBAG3C
+Ibadi G3 composite (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11874	1.356	0.907
+0)	1645	13.9
+0.16666667163372)	30	0.3
+0.333333343267441)	13	0.1
+0.5)	876	7.4
+0.666666686534882)	57	0.5
+0.75)	6	0.1
+0.833333313465118)	30	0.3
+1)	3515	29.6
+1.16666662693024)	31	0.3
+1.25)	26	0.2
+1.33333337306976)	93	0.8
+1.5)	1480	12.5
+1.66666662693024)	4	0.0
+1.75)	29	0.2
+1.83333337306976)	1	0.0
+2)	2617	22.0
+2.16666674613953)	2	0.0
+2.33333325386047)	39	0.3
+2.5)	126	1.1
+2.66666674613953)	56	0.5
+3)	953	8.0
+3.5)	59	0.5
+4)	186	1.6
+Missing	6366
+
+
+140) IBAG4C
+Ibadi G4 composite (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15430	1.693	0.617
+0)	446	2.9
+0.200000002980232)	4	0.0
+0.5)	371	2.4
+0.571428596973419)	6	0.0
+0.666666686534882)	180	1.2
+0.714285731315613)	2	0.0
+0.75)	262	1.7
+0.800000011920929)	46	0.3
+0.833333313465118)	15	0.1
+1)	1860	12.1
+1.125)	1	0.0
+1.16666662693024)	6	0.0
+1.20000004768372)	45	0.3
+1.25)	145	0.9
+1.29999995231628)	9	0.1
+1.33333337306976)	387	2.5
+1.375)	33	0.2
+1.39999997615814)	170	1.1
+1.41666662693024)	4	0.0
+1.5)	1249	8.1
+1.57142853736877)	36	0.2
+1.58333337306976)	51	0.3
+1.60000002384186)	252	1.6
+1.66666662693024)	886	5.7
+1.70000004768372)	12	0.1
+1.71428573131561)	11	0.1
+1.75)	745	4.8
+1.79999995231628)	369	2.4
+1.83333337306976)	153	1.0
+1.875)	7	0.0
+1.89999997615814)	7	0.0
+1.91666662693024)	1	0.0
+2)	5918	38.4
+2.09999990463257)	43	0.3
+2.16666674613953)	67	0.4
+2.20000004768372)	97	0.6
+2.25)	218	1.4
+2.28571438789368)	18	0.1
+2.29999995231628)	12	0.1
+2.33333325386047)	245	1.6
+2.375)	4	0.0
+2.40000009536743)	43	0.3
+2.42857146263123)	59	0.4
+2.5)	163	1.1
+2.59999990463257)	27	0.2
+2.66666674613953)	106	0.7
+2.75)	146	0.9
+2.79999995231628)	40	0.3
+2.875)	4	0.0
+3)	275	1.8
+3.33333325386047)	2	0.0
+3.5)	51	0.3
+3.75)	48	0.3
+4)	73	0.5
+Missing	2810
+
+
+141) IBAG5C
+Ibadi G5 composite (Free Exercise)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15974	1.867	0.583
+0)	473	3.0
+0.100000001490116)	28	0.2
+0.200000002980232)	12	0.1
+0.25)	7	0.0
+0.333333343267441)	4	0.0
+0.400000005960464)	5	0.0
+0.5)	62	0.4
+0.600000023841858)	4	0.0
+0.625)	19	0.1
+0.666666686534882)	21	0.1
+0.75)	160	1.0
+0.800000011920929)	5	0.0
+0.899999976158142)	4	0.0
+1)	1086	6.8
+1.10000002384186)	5	0.0
+1.125)	4	0.0
+1.20000004768372)	14	0.1
+1.25)	71	0.4
+1.29999995231628)	7	0.0
+1.33333337306976)	303	1.9
+1.375)	3	0.0
+1.39999997615814)	30	0.2
+1.5)	1023	6.4
+1.60000002384186)	23	0.1
+1.625)	30	0.2
+1.66666662693024)	519	3.2
+1.75)	182	1.1
+1.79999995231628)	20	0.1
+1.83333337306976)	6	0.0
+2)	10176	63.7
+2.20000004768372)	10	0.1
+2.25)	21	0.1
+2.33333325386047)	171	1.1
+2.5)	359	2.2
+2.59999990463257)	4	0.0
+2.625)	1	0.0
+2.66666674613953)	186	1.2
+2.75)	92	0.6
+2.90000009536743)	16	0.1
+3)	483	3.0
+3.20000004768372)	19	0.1
+3.25)	97	0.6
+3.33333325386047)	76	0.5
+3.5)	28	0.2
+3.625)	8	0.1
+3.75)	6	0.0
+4)	91	0.6
+Missing	2266
+
+
+142) ZORGRP
+Zoroastrian GRP composite
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	18156	1.22	0.36
+
+
+143) ZORG1C
+Zoroastrian G1 composite (Official Religion)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	16187	0.948	0.209
+0)	239	1.5
+0.25)	18	0.1
+0.333333343267441)	190	1.2
+0.5)	881	5.4
+0.625)	49	0.3
+0.666666686534882)	444	2.7
+0.75)	148	0.9
+0.800000011920929)	26	0.2
+0.833333313465118)	115	0.7
+0.875)	23	0.1
+0.899999976158142)	3	0.0
+1)	13685	84.5
+1.25)	2	0.0
+1.33333337306976)	71	0.4
+1.5)	164	1.0
+1.66666662693024)	88	0.5
+2)	41	0.3
+Missing	2053
+
+
+144) ZORG2C
+Zoroastrian G2 composite (Religious Education)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	12070	0.8	0.464
+0)	2526	20.9
+0.5)	520	4.3
+0.75)	41	0.3
+1)	8611	71.3
+2)	356	2.9
+3)	16	0.1
+Missing	6170
+
+
+145) ZORG3C
+Zoroastrian G3 composite (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.091	0.654
+0)	1839	15.5
+0.16666667163372)	30	0.3
+0.333333343267441)	13	0.1
+0.5)	1016	8.6
+0.666666686534882)	127	1.1
+0.75)	6	0.1
+0.833333313465118)	52	0.4
+1)	4299	36.2
+1.16666662693024)	1	0.0
+1.25)	26	0.2
+1.33333337306976)	105	0.9
+1.5)	1764	14.9
+1.66666662693024)	4	0.0
+1.75)	29	0.2
+2)	2555	21.5
+3)	3	0.0
+Missing	6371
+
+
+146) ZORG4C
+Zoroastrian G4 composite (Regulatory Burdens)
+RANGE: 0 to 2.5
+	N	Mean	Std. Deviation
+Total	15194	1.518	0.537
+0)	530	3.5
+0.25)	38	0.3
+0.333333343267441)	2	0.0
+0.400000005960464)	46	0.3
+0.5)	380	2.5
+0.600000023841858)	41	0.3
+0.666666686534882)	310	2.0
+0.75)	218	1.4
+0.800000011920929)	46	0.3
+0.833333313465118)	1	0.0
+1)	2499	16.4
+1.125)	1	0.0
+1.16666662693024)	14	0.1
+1.20000004768372)	76	0.5
+1.25)	398	2.6
+1.28571426868439)	40	0.3
+1.33333337306976)	584	3.8
+1.375)	38	0.3
+1.39999997615814)	194	1.3
+1.5)	1133	7.5
+1.57142853736877)	3	0.0
+1.58333337306976)	51	0.3
+1.60000002384186)	174	1.1
+1.66666662693024)	1124	7.4
+1.70000004768372)	12	0.1
+1.75)	823	5.4
+1.79999995231628)	320	2.1
+1.83333337306976)	162	1.1
+1.89999997615814)	1	0.0
+2)	5911	38.9
+2.33333325386047)	23	0.2
+2.5)	1	0.0
+Missing	3046
+
+
+147) ZORG5C
+Zoroastrian G5 composite (Free Exercise)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	15907	1.696	0.507
+0)	552	3.5
+0.100000001490116)	28	0.2
+0.200000002980232)	60	0.4
+0.25)	7	0.0
+0.375)	8	0.1
+0.400000005960464)	6	0.0
+0.5)	93	0.6
+0.600000023841858)	3	0.0
+0.666666686534882)	131	0.8
+0.699999988079071)	2	0.0
+0.75)	69	0.4
+0.800000011920929)	33	0.2
+0.875)	16	0.1
+0.899999976158142)	6	0.0
+1)	1500	9.4
+1.20000004768372)	15	0.1
+1.25)	423	2.7
+1.29999995231628)	9	0.1
+1.33333337306976)	316	2.0
+1.375)	1	0.0
+1.39999997615814)	14	0.1
+1.5)	1541	9.7
+1.60000002384186)	11	0.1
+1.625)	43	0.3
+1.66666662693024)	538	3.4
+1.75)	129	0.8
+1.79999995231628)	6	0.0
+2)	10347	65.0
+Missing	2333
+
+
+148) BAHGRP
+Baha'i GRP composite
+RANGE: 0 to 2.25333333015442
+	N	Mean	Std. Deviation
+Total	16678	1.234	0.364
+
+
+149) BAHG1C
+Baha'i G1 composite (Official Religion)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	14816	0.936	0.207
+0)	216	1.5
+0.200000002980232)	1	0.0
+0.25)	17	0.1
+0.333333343267441)	164	1.1
+0.400000005960464)	23	0.2
+0.5)	920	6.2
+0.600000023841858)	32	0.2
+0.625)	41	0.3
+0.666666686534882)	500	3.4
+0.75)	252	1.7
+0.833333313465118)	71	0.5
+0.875)	23	0.2
+0.899999976158142)	3	0.0
+1)	12242	82.6
+1.16666662693024)	69	0.5
+1.25)	47	0.3
+1.33333337306976)	59	0.4
+1.5)	95	0.6
+2)	41	0.3
+Missing	3424
+
+
+150) BAHG2C
+Baha'i G2 composite (Religious Education)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11490	0.816	0.461
+0)	2268	19.7
+0.5)	476	4.1
+0.75)	41	0.4
+1)	8321	72.4
+2)	365	3.2
+3)	19	0.2
+Missing	6750
+
+
+151) BAHG3C
+Baha'i G3 composite (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11440	1.108	0.657
+0)	1730	15.1
+0.16666667163372)	30	0.3
+0.333333343267441)	13	0.1
+0.5)	942	8.2
+0.666666686534882)	118	1.0
+0.75)	6	0.1
+0.833333313465118)	50	0.4
+1)	4047	35.4
+1.16666662693024)	1	0.0
+1.25)	26	0.2
+1.33333337306976)	105	0.9
+1.5)	1811	15.8
+1.66666662693024)	4	0.0
+1.75)	29	0.3
+2)	2510	21.9
+3)	18	0.2
+Missing	6800
+
+
+152) BAHG4C
+Baha'i G4 composite (Regulatory Burdens)
+RANGE: 0 to 2.75
+	N	Mean	Std. Deviation
+Total	14565	1.517	0.563
+0)	542	3.7
+0.200000002980232)	40	0.3
+0.25)	51	0.4
+0.333333343267441)	41	0.3
+0.400000005960464)	82	0.6
+0.5)	446	3.1
+0.600000023841858)	90	0.6
+0.666666686534882)	276	1.9
+0.75)	289	2.0
+0.800000011920929)	53	0.4
+0.833333313465118)	1	0.0
+1)	2024	13.9
+1.125)	1	0.0
+1.16666662693024)	22	0.2
+1.20000004768372)	70	0.5
+1.25)	368	2.5
+1.28571426868439)	40	0.3
+1.33333337306976)	407	2.8
+1.375)	38	0.3
+1.39999997615814)	88	0.6
+1.5)	1022	7.0
+1.57142853736877)	3	0.0
+1.58333337306976)	51	0.4
+1.60000002384186)	146	1.0
+1.66666662693024)	1110	7.6
+1.70000004768372)	12	0.1
+1.75)	864	5.9
+1.79999995231628)	325	2.2
+1.83333337306976)	207	1.4
+1.89999997615814)	1	0.0
+2)	5787	39.7
+2.25)	8	0.1
+2.33333325386047)	29	0.2
+2.5)	9	0.1
+2.59999990463257)	9	0.1
+2.75)	13	0.1
+Missing	3675
+
+
+153) BAHG5C
+Baha'i G5 composite (Free Exercise)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	15118	1.688	0.533
+0)	615	4.1
+0.100000001490116)	28	0.2
+0.200000002980232)	60	0.4
+0.25)	7	0.0
+0.375)	8	0.1
+0.400000005960464)	9	0.1
+0.5)	119	0.8
+0.571428596973419)	9	0.1
+0.600000023841858)	21	0.1
+0.666666686534882)	148	1.0
+0.699999988079071)	2	0.0
+0.75)	120	0.8
+0.800000011920929)	46	0.3
+0.875)	16	0.1
+0.899999976158142)	6	0.0
+1)	1324	8.8
+1.16666662693024)	5	0.0
+1.20000004768372)	85	0.6
+1.25)	277	1.8
+1.29999995231628)	9	0.1
+1.33333337306976)	241	1.6
+1.375)	1	0.0
+1.39999997615814)	22	0.1
+1.5)	1301	8.6
+1.60000002384186)	11	0.1
+1.625)	43	0.3
+1.66666662693024)	507	3.4
+1.75)	142	0.9
+1.79999995231628)	6	0.0
+2)	9907	65.5
+2.66666674613953)	9	0.1
+3)	14	0.1
+Missing	3122
+
+
+154) JAIGRP
+Jain GRP composite
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	18156	1.219	0.36
+
+
+155) JAIG1C
+Jain G1 composite (Official Religion)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	16187	0.941	0.2
+0)	239	1.5
+0.25)	18	0.1
+0.333333343267441)	190	1.2
+0.5)	881	5.4
+0.625)	49	0.3
+0.666666686534882)	481	3.0
+0.75)	148	0.9
+0.800000011920929)	26	0.2
+0.833333313465118)	184	1.1
+0.875)	23	0.1
+0.899999976158142)	3	0.0
+1)	13736	84.9
+1.25)	2	0.0
+1.33333337306976)	71	0.4
+1.5)	95	0.6
+2)	41	0.3
+Missing	2053
+
+
+156) JAIG2C
+Jain G2 composite (Religious Education)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	12070	0.8	0.464
+0)	2526	20.9
+0.5)	520	4.3
+0.75)	41	0.3
+1)	8611	71.3
+2)	356	2.9
+3)	16	0.1
+Missing	6170
+
+
+157) JAIG3C
+Jain G3 composite (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.091	0.654
+0)	1839	15.5
+0.16666667163372)	30	0.3
+0.333333343267441)	13	0.1
+0.5)	1016	8.6
+0.666666686534882)	127	1.1
+0.75)	6	0.1
+0.833333313465118)	52	0.4
+1)	4299	36.2
+1.16666662693024)	1	0.0
+1.25)	26	0.2
+1.33333337306976)	105	0.9
+1.5)	1764	14.9
+1.66666662693024)	4	0.0
+1.75)	29	0.2
+2)	2555	21.5
+3)	3	0.0
+Missing	6371
+
+
+158) JAIG4C
+Jain G4 composite (Regulatory Burdens)
+RANGE: 0 to 2.5
+	N	Mean	Std. Deviation
+Total	15194	1.519	0.538
+0)	529	3.5
+0.25)	38	0.3
+0.333333343267441)	3	0.0
+0.400000005960464)	46	0.3
+0.5)	380	2.5
+0.600000023841858)	41	0.3
+0.666666686534882)	310	2.0
+0.75)	218	1.4
+0.800000011920929)	46	0.3
+0.833333313465118)	1	0.0
+1)	2495	16.4
+1.125)	1	0.0
+1.16666662693024)	14	0.1
+1.20000004768372)	76	0.5
+1.25)	401	2.6
+1.28571426868439)	40	0.3
+1.33333337306976)	584	3.8
+1.375)	38	0.3
+1.39999997615814)	194	1.3
+1.5)	1132	7.5
+1.57142853736877)	3	0.0
+1.60000002384186)	174	1.1
+1.66666662693024)	1124	7.4
+1.75)	819	5.4
+1.79999995231628)	320	2.1
+1.83333337306976)	162	1.1
+1.89999997615814)	1	0.0
+1.91666662693024)	51	0.3
+2)	5911	38.9
+2.08333325386047)	4	0.0
+2.09999990463257)	12	0.1
+2.16666674613953)	2	0.0
+2.33333325386047)	23	0.2
+2.5)	1	0.0
+Missing	3046
+
+
+159) JAIG5C
+Jain G5 composite (Free Exercise)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	15907	1.698	0.512
+0)	589	3.7
+0.100000001490116)	28	0.2
+0.200000002980232)	60	0.4
+0.25)	7	0.0
+0.375)	8	0.1
+0.400000005960464)	6	0.0
+0.5)	93	0.6
+0.600000023841858)	3	0.0
+0.666666686534882)	131	0.8
+0.699999988079071)	2	0.0
+0.75)	32	0.2
+0.800000011920929)	33	0.2
+0.875)	16	0.1
+0.899999976158142)	6	0.0
+1)	1503	9.4
+1.20000004768372)	15	0.1
+1.25)	423	2.7
+1.29999995231628)	9	0.1
+1.33333337306976)	316	2.0
+1.375)	1	0.0
+1.39999997615814)	14	0.1
+1.5)	1434	9.0
+1.60000002384186)	11	0.1
+1.625)	43	0.3
+1.66666662693024)	538	3.4
+1.75)	129	0.8
+1.79999995231628)	6	0.0
+2)	10451	65.7
+Missing	2333
+
+
+160) SIKGRP
+Sikh GRP composite
+RANGE: 0 to 2.16666674613953
+	N	Mean	Std. Deviation
+Total	18156	1.221	0.362
+
+
+161) SIKG1C
+Sikh G1 composite (Official Religion)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	16187	0.942	0.2
+0)	239	1.5
+0.25)	18	0.1
+0.333333343267441)	190	1.2
+0.5)	881	5.4
+0.625)	47	0.3
+0.666666686534882)	480	3.0
+0.75)	148	0.9
+0.800000011920929)	26	0.2
+0.833333313465118)	115	0.7
+0.875)	23	0.1
+0.899999976158142)	3	0.0
+1)	13736	84.9
+1.125)	2	0.0
+1.16666662693024)	69	0.4
+1.25)	2	0.0
+1.33333337306976)	72	0.4
+1.5)	95	0.6
+2)	41	0.3
+Missing	2053
+
+
+162) SIKG2C
+Sikh G2 composite (Religious Education)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	12070	0.801	0.465
+0)	2526	20.9
+0.5)	520	4.3
+0.75)	41	0.3
+1)	8599	71.2
+2)	368	3.0
+3)	16	0.1
+Missing	6170
+
+
+163) SIKG3C
+Sikh G3 composite (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.096	0.662
+0)	1839	15.5
+0.16666667163372)	30	0.3
+0.333333343267441)	13	0.1
+0.5)	1016	8.6
+0.666666686534882)	127	1.1
+0.75)	6	0.1
+0.833333313465118)	52	0.4
+1)	4267	36.0
+1.16666662693024)	1	0.0
+1.25)	26	0.2
+1.33333337306976)	105	0.9
+1.5)	1764	14.9
+1.66666662693024)	4	0.0
+1.75)	29	0.2
+2)	2555	21.5
+3)	35	0.3
+Missing	6371
+
+
+164) SIKG4C
+Sikh G4 composite (Regulatory Burdens)
+RANGE: 0 to 2.66666674613953
+	N	Mean	Std. Deviation
+Total	15194	1.522	0.54
+0)	532	3.5
+0.25)	38	0.3
+0.400000005960464)	46	0.3
+0.5)	380	2.5
+0.600000023841858)	41	0.3
+0.666666686534882)	313	2.1
+0.75)	218	1.4
+0.800000011920929)	46	0.3
+0.833333313465118)	1	0.0
+1)	2480	16.3
+1.125)	1	0.0
+1.16666662693024)	14	0.1
+1.20000004768372)	76	0.5
+1.25)	379	2.5
+1.28571426868439)	40	0.3
+1.33333337306976)	578	3.8
+1.375)	38	0.3
+1.39999997615814)	194	1.3
+1.5)	1132	7.5
+1.57142853736877)	3	0.0
+1.60000002384186)	183	1.2
+1.66666662693024)	1130	7.4
+1.75)	846	5.6
+1.79999995231628)	320	2.1
+1.83333337306976)	164	1.1
+1.89999997615814)	13	0.1
+1.91666662693024)	8	0.1
+2)	5896	38.8
+2.25)	20	0.1
+2.33333325386047)	29	0.2
+2.5)	25	0.2
+2.66666674613953)	10	0.1
+Missing	3046
+
+
+165) SIKG5C
+Sikh G5 composite (Free Exercise)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	15907	1.698	0.512
+0)	589	3.7
+0.100000001490116)	28	0.2
+0.200000002980232)	60	0.4
+0.25)	7	0.0
+0.375)	8	0.1
+0.400000005960464)	6	0.0
+0.5)	93	0.6
+0.600000023841858)	9	0.1
+0.666666686534882)	131	0.8
+0.699999988079071)	2	0.0
+0.75)	26	0.2
+0.800000011920929)	33	0.2
+0.875)	16	0.1
+0.899999976158142)	6	0.0
+1)	1503	9.4
+1.16666662693024)	4	0.0
+1.20000004768372)	15	0.1
+1.25)	382	2.4
+1.29999995231628)	9	0.1
+1.33333337306976)	308	1.9
+1.375)	1	0.0
+1.39999997615814)	31	0.2
+1.5)	1458	9.2
+1.60000002384186)	11	0.1
+1.625)	43	0.3
+1.66666662693024)	542	3.4
+1.75)	129	0.8
+1.79999995231628)	6	0.0
+2)	10451	65.7
+Missing	2333
+
+
+166) HINGRP
+Hindu GRP composite
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	18156	1.269	0.465
+
+
+167) HING1C
+Hindu G1 composite (Official Religion)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16207	1.007	0.429
+0)	172	1.1
+0.25)	18	0.1
+0.333333343267441)	190	1.2
+0.5)	881	5.4
+0.625)	14	0.1
+0.666666686534882)	469	2.9
+0.75)	148	0.9
+0.800000011920929)	26	0.2
+0.833333313465118)	115	0.7
+0.875)	15	0.1
+0.899999976158142)	3	0.0
+1)	13389	82.6
+1.125)	35	0.2
+1.25)	2	0.0
+1.33333337306976)	112	0.7
+1.375)	8	0.0
+1.5)	143	0.9
+2)	158	1.0
+2.16666674613953)	2	0.0
+2.83333325386047)	67	0.4
+3)	33	0.2
+4)	207	1.3
+Missing	2033
+
+
+168) HING2C
+Hindu G2 composite (Religious Education)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	12076	0.829	0.513
+0)	2475	20.5
+0.5)	520	4.3
+0.75)	41	0.3
+1)	8467	70.1
+1.5)	33	0.3
+2)	415	3.4
+3)	125	1.0
+Missing	6164
+
+
+169) HING3C
+Hindu G3 composite (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.128	0.691
+0)	1789	15.1
+0.16666667163372)	30	0.3
+0.333333343267441)	13	0.1
+0.5)	999	8.4
+0.666666686534882)	127	1.1
+0.75)	6	0.1
+0.833333313465118)	52	0.4
+1)	4179	35.2
+1.16666662693024)	1	0.0
+1.25)	22	0.2
+1.33333337306976)	105	0.9
+1.5)	1716	14.5
+1.66666662693024)	4	0.0
+1.75)	29	0.2
+2)	2592	21.8
+2.25)	4	0.0
+2.5)	48	0.4
+3)	153	1.3
+Missing	6371
+
+
+170) HING4C
+Hindu G4 composite (Regulatory Burdens)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	15194	1.545	0.559
+0)	532	3.5
+0.25)	38	0.3
+0.400000005960464)	46	0.3
+0.5)	380	2.5
+0.600000023841858)	41	0.3
+0.666666686534882)	267	1.8
+0.75)	209	1.4
+0.800000011920929)	46	0.3
+0.833333313465118)	1	0.0
+1)	2440	16.1
+1.125)	10	0.1
+1.16666662693024)	60	0.4
+1.20000004768372)	76	0.5
+1.25)	338	2.2
+1.28571426868439)	40	0.3
+1.33333337306976)	578	3.8
+1.375)	38	0.3
+1.39999997615814)	184	1.2
+1.5)	1095	7.2
+1.57142853736877)	3	0.0
+1.60000002384186)	132	0.9
+1.66666662693024)	1081	7.1
+1.75)	799	5.3
+1.79999995231628)	305	2.0
+1.83333337306976)	162	1.1
+1.89999997615814)	1	0.0
+2)	5930	39.0
+2.08333325386047)	4	0.0
+2.09999990463257)	12	0.1
+2.20000004768372)	20	0.1
+2.25)	67	0.4
+2.33333325386047)	38	0.3
+2.5)	71	0.5
+2.59999990463257)	10	0.1
+2.66666674613953)	10	0.1
+2.75)	31	0.2
+3)	99	0.7
+Missing	3046
+
+
+171) HING5C
+Hindu G5 composite (Free Exercise)
+RANGE: 0 to 3.5
+	N	Mean	Std. Deviation
+Total	15922	1.711	0.518
+0)	589	3.7
+0.100000001490116)	28	0.2
+0.200000002980232)	60	0.4
+0.25)	7	0.0
+0.375)	8	0.1
+0.400000005960464)	6	0.0
+0.5)	79	0.5
+0.600000023841858)	9	0.1
+0.666666686534882)	111	0.7
+0.699999988079071)	16	0.1
+0.75)	26	0.2
+0.800000011920929)	33	0.2
+0.875)	16	0.1
+0.899999976158142)	6	0.0
+1)	1496	9.4
+1.16666662693024)	4	0.0
+1.20000004768372)	83	0.5
+1.25)	310	1.9
+1.29999995231628)	4	0.0
+1.33333337306976)	278	1.7
+1.375)	1	0.0
+1.39999997615814)	14	0.1
+1.5)	1427	9.0
+1.60000002384186)	11	0.1
+1.66666662693024)	515	3.2
+1.75)	129	0.8
+1.79999995231628)	6	0.0
+2)	10491	65.9
+2.33333325386047)	20	0.1
+2.375)	6	0.0
+2.5)	86	0.5
+2.66666674613953)	22	0.1
+2.70000004768372)	11	0.1
+3.5)	14	0.1
+Missing	2318
+
+
+172) BUDGRP
+Buddhist GRP composite
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	18156	1.298	0.472
+
+
+173) BUDG1C
+Buddhist G1 composite (Official Religion)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16196	1.05	0.525
+0)	173	1.1
+0.25)	18	0.1
+0.333333343267441)	180	1.1
+0.5)	865	5.3
+0.625)	49	0.3
+0.666666686534882)	476	2.9
+0.75)	168	1.0
+0.833333313465118)	79	0.5
+0.875)	23	0.1
+0.899999976158142)	3	0.0
+1)	13067	80.7
+1.25)	7	0.0
+1.33333337306976)	71	0.4
+1.5)	114	0.7
+1.625)	105	0.6
+1.75)	2	0.0
+2)	195	1.2
+2.16666674613953)	11	0.1
+2.5)	149	0.9
+2.66666674613953)	1	0.0
+2.75)	2	0.0
+2.83333325386047)	15	0.1
+3)	57	0.4
+3.33333325386047)	1	0.0
+3.5)	86	0.5
+3.66666674613953)	3	0.0
+4)	276	1.7
+Missing	2044
+
+
+174) BUDG2C
+Buddhist G2 composite (Religious Education)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12001	0.863	0.56
+0)	2404	20.0
+0.5)	492	4.1
+0.75)	41	0.3
+1)	8265	68.9
+1.5)	13	0.1
+2)	573	4.8
+3)	206	1.7
+4)	7	0.1
+Missing	6239
+
+
+175) BUDG3C
+Buddhist G3 composite (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11869	1.199	0.773
+0)	1701	14.3
+0.16666667163372)	30	0.3
+0.333333343267441)	13	0.1
+0.5)	973	8.2
+0.666666686534882)	127	1.1
+0.75)	6	0.1
+0.833333313465118)	52	0.4
+1)	4037	34.0
+1.16666662693024)	1	0.0
+1.25)	22	0.2
+1.33333337306976)	105	0.9
+1.5)	1610	13.6
+1.66666662693024)	12	0.1
+1.75)	29	0.2
+2)	2572	21.7
+2.25)	4	0.0
+2.33333325386047)	4	0.0
+2.5)	133	1.1
+3)	324	2.7
+3.5)	26	0.2
+4)	88	0.7
+Missing	6371
+
+
+176) BUDG4C
+Buddhist G4 composite (Regulatory Burdens)
+RANGE: 0 to 3.33333325386047
+	N	Mean	Std. Deviation
+Total	15287	1.568	0.561
+0)	512	3.3
+0.25)	3	0.0
+0.333333343267441)	23	0.2
+0.400000005960464)	46	0.3
+0.5)	318	2.1
+0.600000023841858)	41	0.3
+0.666666686534882)	256	1.7
+0.75)	209	1.4
+0.800000011920929)	71	0.5
+0.833333313465118)	1	0.0
+1)	2377	15.5
+1.125)	1	0.0
+1.16666662693024)	14	0.1
+1.20000004768372)	48	0.3
+1.25)	321	2.1
+1.28571426868439)	40	0.3
+1.33333337306976)	618	4.0
+1.375)	38	0.2
+1.39999997615814)	170	1.1
+1.5)	1138	7.4
+1.57142853736877)	3	0.0
+1.60000002384186)	172	1.1
+1.66666662693024)	1085	7.1
+1.75)	889	5.8
+1.79999995231628)	374	2.4
+1.83333337306976)	162	1.1
+1.89999997615814)	1	0.0
+1.91666662693024)	51	0.3
+2)	5850	38.3
+2.08333325386047)	4	0.0
+2.09999990463257)	12	0.1
+2.16666674613953)	8	0.1
+2.20000004768372)	12	0.1
+2.25)	40	0.3
+2.40000009536743)	4	0.0
+2.5)	61	0.4
+2.59999990463257)	50	0.3
+2.66666674613953)	52	0.3
+2.75)	40	0.3
+2.83333325386047)	11	0.1
+3)	132	0.9
+3.20000004768372)	7	0.0
+3.25)	6	0.0
+3.33333325386047)	16	0.1
+Missing	2953
+
+
+177) BUDG5C
+Buddhist G5 composite (Free Exercise)
+RANGE: 0 to 3.5
+	N	Mean	Std. Deviation
+Total	15911	1.724	0.523
+0)	601	3.8
+0.100000001490116)	16	0.1
+0.200000002980232)	60	0.4
+0.25)	7	0.0
+0.375)	8	0.1
+0.400000005960464)	6	0.0
+0.5)	101	0.6
+0.600000023841858)	3	0.0
+0.666666686534882)	92	0.6
+0.699999988079071)	2	0.0
+0.75)	15	0.1
+0.800000011920929)	14	0.1
+0.875)	16	0.1
+0.899999976158142)	6	0.0
+1)	1445	9.1
+1.20000004768372)	15	0.1
+1.25)	427	2.7
+1.29999995231628)	9	0.1
+1.33333337306976)	251	1.6
+1.375)	1	0.0
+1.5)	1436	9.0
+1.625)	43	0.3
+1.66666662693024)	460	2.9
+1.75)	129	0.8
+1.79999995231628)	25	0.2
+2)	10452	65.7
+2.33333325386047)	14	0.1
+2.5)	58	0.4
+2.59999990463257)	19	0.1
+2.66666674613953)	32	0.2
+2.75)	57	0.4
+2.79999995231628)	69	0.4
+3)	8	0.1
+3.5)	14	0.1
+Missing	2329
+
+
+178) THEGRP
+Theravada GRP composite
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	18156	1.274	0.461
+
+
+179) THEG1C
+Theravada G1 composite (Official Religion)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16196	1.019	0.465
+0)	173	1.1
+0.25)	18	0.1
+0.333333343267441)	190	1.2
+0.5)	865	5.3
+0.625)	49	0.3
+0.666666686534882)	473	2.9
+0.75)	148	0.9
+0.800000011920929)	26	0.2
+0.833333313465118)	79	0.5
+0.875)	23	0.1
+0.899999976158142)	3	0.0
+1)	13264	81.9
+1.16666662693024)	105	0.6
+1.25)	7	0.0
+1.33333337306976)	71	0.4
+1.5)	128	0.8
+1.75)	2	0.0
+2)	185	1.1
+2.16666674613953)	11	0.1
+2.5)	44	0.3
+2.66666674613953)	1	0.0
+2.75)	2	0.0
+2.83333325386047)	8	0.0
+3)	32	0.2
+3.5)	59	0.4
+4)	230	1.4
+Missing	2044
+
+
+180) THEG2C
+Theravada G2 composite (Religious Education)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12070	0.848	0.551
+0)	2473	20.5
+0.5)	492	4.1
+0.75)	41	0.3
+1)	8387	69.5
+1.5)	13	0.1
+2)	451	3.7
+3)	206	1.7
+4)	7	0.1
+Missing	6170
+
+
+181) THEG3C
+Theravada G3 composite (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11831	1.16	0.729
+0)	1765	14.9
+0.16666667163372)	30	0.3
+0.333333343267441)	13	0.1
+0.5)	973	8.2
+0.666666686534882)	127	1.1
+0.75)	6	0.1
+0.833333313465118)	52	0.4
+1)	4063	34.3
+1.16666662693024)	1	0.0
+1.25)	22	0.2
+1.33333337306976)	105	0.9
+1.5)	1655	14.0
+1.66666662693024)	12	0.1
+1.75)	29	0.2
+2)	2625	22.2
+2.25)	4	0.0
+2.33333325386047)	4	0.0
+2.5)	59	0.5
+3)	236	2.0
+3.5)	26	0.2
+4)	24	0.2
+Missing	6409
+
+
+182) THEG4C
+Theravada G4 composite (Regulatory Burdens)
+RANGE: 0 to 3.33333325386047
+	N	Mean	Std. Deviation
+Total	15297	1.562	0.57
+0)	583	3.8
+0.333333343267441)	3	0.0
+0.400000005960464)	46	0.3
+0.5)	318	2.1
+0.600000023841858)	41	0.3
+0.666666686534882)	256	1.7
+0.75)	209	1.4
+0.800000011920929)	71	0.5
+0.833333313465118)	1	0.0
+1)	2390	15.6
+1.125)	1	0.0
+1.16666662693024)	14	0.1
+1.20000004768372)	48	0.3
+1.25)	330	2.2
+1.28571426868439)	40	0.3
+1.33333337306976)	600	3.9
+1.375)	38	0.2
+1.39999997615814)	170	1.1
+1.5)	1162	7.6
+1.57142853736877)	3	0.0
+1.60000002384186)	172	1.1
+1.66666662693024)	1085	7.1
+1.75)	843	5.5
+1.79999995231628)	336	2.2
+1.83333337306976)	162	1.1
+1.89999997615814)	1	0.0
+1.91666662693024)	51	0.3
+2)	5876	38.4
+2.08333325386047)	4	0.0
+2.09999990463257)	12	0.1
+2.16666674613953)	8	0.1
+2.20000004768372)	4	0.0
+2.25)	40	0.3
+2.33333325386047)	23	0.2
+2.40000009536743)	4	0.0
+2.5)	47	0.3
+2.59999990463257)	20	0.1
+2.66666674613953)	28	0.2
+2.75)	61	0.4
+2.83333325386047)	11	0.1
+3)	156	1.0
+3.20000004768372)	7	0.0
+3.25)	6	0.0
+3.33333325386047)	16	0.1
+Missing	2943
+
+
+183) THEG5C
+Theravada G5 composite (Free Exercise)
+RANGE: 0 to 3.5
+	N	Mean	Std. Deviation
+Total	15906	1.717	0.521
+0)	589	3.7
+0.100000001490116)	28	0.2
+0.200000002980232)	60	0.4
+0.25)	7	0.0
+0.375)	8	0.1
+0.400000005960464)	6	0.0
+0.5)	101	0.6
+0.600000023841858)	3	0.0
+0.666666686534882)	92	0.6
+0.699999988079071)	2	0.0
+0.75)	15	0.1
+0.800000011920929)	14	0.1
+0.875)	16	0.1
+0.899999976158142)	6	0.0
+1)	1483	9.3
+1.20000004768372)	15	0.1
+1.25)	408	2.6
+1.29999995231628)	9	0.1
+1.33333337306976)	297	1.9
+1.375)	1	0.0
+1.5)	1453	9.1
+1.625)	43	0.3
+1.66666662693024)	460	2.9
+1.75)	129	0.8
+1.79999995231628)	6	0.0
+2)	10447	65.7
+2.33333325386047)	14	0.1
+2.5)	58	0.4
+2.59999990463257)	19	0.1
+2.66666674613953)	24	0.2
+2.75)	9	0.1
+2.79999995231628)	62	0.4
+3)	8	0.1
+3.5)	14	0.1
+Missing	2334
+
+
+184) MAHGRP
+Mahayana GRP composite
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	18105	1.258	0.42
+
+
+185) MAHG1C
+Mahayana G1 composite (Official Religion)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16138	0.981	0.343
+0)	174	1.1
+0.25)	18	0.1
+0.333333343267441)	190	1.2
+0.5)	1007	6.2
+0.600000023841858)	26	0.2
+0.625)	49	0.3
+0.666666686534882)	448	2.8
+0.75)	142	0.9
+0.833333313465118)	79	0.5
+0.875)	23	0.1
+0.899999976158142)	3	0.0
+1)	13238	82.0
+1.16666662693024)	105	0.7
+1.25)	7	0.0
+1.33333337306976)	71	0.4
+1.5)	183	1.1
+1.75)	10	0.1
+2)	187	1.2
+2.5)	68	0.4
+2.75)	2	0.0
+3)	10	0.1
+3.5)	7	0.0
+4)	91	0.6
+Missing	2102
+
+
+186) MAHG2C
+Mahayana G2 composite (Religious Education)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11896	0.846	0.541
+0)	2404	20.2
+0.5)	492	4.1
+0.75)	41	0.3
+1)	8324	70.0
+1.5)	13	0.1
+2)	432	3.6
+3)	183	1.5
+4)	7	0.1
+Missing	6344
+
+
+187) MAHG3C
+Mahayana G3 composite (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11777	1.143	0.708
+0)	1788	15.2
+0.16666667163372)	30	0.3
+0.333333343267441)	13	0.1
+0.5)	973	8.3
+0.666666686534882)	127	1.1
+0.75)	6	0.1
+0.833333313465118)	52	0.4
+1)	4091	34.7
+1.16666662693024)	1	0.0
+1.25)	22	0.2
+1.33333337306976)	105	0.9
+1.5)	1610	13.7
+1.66666662693024)	12	0.1
+1.75)	29	0.2
+2)	2596	22.0
+2.25)	4	0.0
+2.33333325386047)	4	0.0
+2.5)	133	1.1
+3)	181	1.5
+Missing	6463
+
+
+188) MAHG4C
+Mahayana G4 composite (Regulatory Burdens)
+RANGE: 0 to 3.33333325386047
+	N	Mean	Std. Deviation
+Total	15325	1.537	0.566
+0)	654	4.3
+0.333333343267441)	21	0.1
+0.400000005960464)	46	0.3
+0.5)	320	2.1
+0.600000023841858)	41	0.3
+0.666666686534882)	283	1.8
+0.75)	209	1.4
+0.800000011920929)	71	0.5
+0.833333313465118)	1	0.0
+1)	2413	15.7
+1.125)	1	0.0
+1.16666662693024)	14	0.1
+1.20000004768372)	48	0.3
+1.25)	330	2.2
+1.28571426868439)	40	0.3
+1.33333337306976)	626	4.1
+1.375)	38	0.2
+1.39999997615814)	170	1.1
+1.5)	1162	7.6
+1.57142853736877)	3	0.0
+1.60000002384186)	172	1.1
+1.66666662693024)	1085	7.1
+1.75)	843	5.5
+1.79999995231628)	336	2.2
+1.83333337306976)	168	1.1
+1.89999997615814)	1	0.0
+1.91666662693024)	51	0.3
+2)	5879	38.4
+2.08333325386047)	4	0.0
+2.09999990463257)	12	0.1
+2.16666674613953)	2	0.0
+2.20000004768372)	5	0.0
+2.25)	51	0.3
+2.33333325386047)	23	0.2
+2.40000009536743)	4	0.0
+2.5)	52	0.3
+2.59999990463257)	20	0.1
+2.66666674613953)	4	0.0
+2.75)	31	0.2
+2.83333325386047)	11	0.1
+3)	51	0.3
+3.20000004768372)	7	0.0
+3.25)	6	0.0
+3.33333325386047)	16	0.1
+Missing	2915
+
+
+189) MAHG5C
+Mahayana G5 composite (Free Exercise)
+RANGE: 0 to 3.5
+	N	Mean	Std. Deviation
+Total	15922	1.708	0.524
+0)	600	3.8
+0.100000001490116)	16	0.1
+0.200000002980232)	72	0.5
+0.25)	7	0.0
+0.375)	8	0.1
+0.400000005960464)	6	0.0
+0.5)	201	1.3
+0.600000023841858)	3	0.0
+0.666666686534882)	92	0.6
+0.699999988079071)	2	0.0
+0.75)	15	0.1
+0.800000011920929)	14	0.1
+0.875)	16	0.1
+0.899999976158142)	6	0.0
+1)	1400	8.8
+1.20000004768372)	15	0.1
+1.25)	427	2.7
+1.29999995231628)	9	0.1
+1.33333337306976)	271	1.7
+1.375)	1	0.0
+1.5)	1459	9.2
+1.625)	43	0.3
+1.66666662693024)	469	2.9
+1.75)	129	0.8
+1.79999995231628)	25	0.2
+2)	10468	65.7
+2.25)	27	0.2
+2.33333325386047)	14	0.1
+2.5)	38	0.2
+2.59999990463257)	11	0.1
+2.66666674613953)	20	0.1
+2.79999995231628)	24	0.2
+3.5)	14	0.1
+Missing	2318
+
+
+190) TIBGRP
+Tibetan Buddhist GRP composite
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	18105	1.27	0.44
+
+
+191) TIBG1C
+Tibetan Buddhist G1 composite (Official Religion)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16138	0.998	0.393
+0)	174	1.1
+0.25)	18	0.1
+0.333333343267441)	180	1.1
+0.5)	866	5.4
+0.625)	49	0.3
+0.666666686534882)	470	2.9
+0.75)	148	0.9
+0.800000011920929)	26	0.2
+0.833333313465118)	79	0.5
+0.875)	23	0.1
+0.899999976158142)	3	0.0
+1)	13369	82.8
+1.25)	7	0.0
+1.33333337306976)	71	0.4
+1.5)	169	1.0
+1.625)	105	0.7
+1.75)	10	0.1
+2)	115	0.7
+2.5)	37	0.2
+2.75)	2	0.0
+2.83333325386047)	7	0.0
+3)	35	0.2
+3.33333325386047)	1	0.0
+3.5)	34	0.2
+3.66666674613953)	3	0.0
+4)	137	0.8
+Missing	2102
+
+
+192) TIBG2C
+Tibetan Buddhist G2 composite (Religious Education)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11965	0.84	0.542
+0)	2473	20.7
+0.5)	492	4.1
+0.75)	41	0.3
+1)	8336	69.7
+1.5)	13	0.1
+2)	420	3.5
+3)	183	1.5
+4)	7	0.1
+Missing	6275
+
+
+193) TIBG3C
+Tibetan Buddhist G3 composite (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11739	1.16	0.73
+0)	1724	14.7
+0.16666667163372)	30	0.3
+0.333333343267441)	13	0.1
+0.5)	973	8.3
+0.666666686534882)	127	1.1
+0.75)	6	0.1
+0.833333313465118)	52	0.4
+1)	4065	34.6
+1.16666662693024)	1	0.0
+1.25)	22	0.2
+1.33333337306976)	105	0.9
+1.5)	1655	14.1
+1.66666662693024)	12	0.1
+1.75)	29	0.2
+2)	2601	22.2
+2.25)	4	0.0
+2.33333325386047)	4	0.0
+2.5)	59	0.5
+3)	193	1.6
+4)	64	0.5
+Missing	6501
+
+
+194) TIBG4C
+Tibetan Buddhist G4 composite (Regulatory Burdens)
+RANGE: 0 to 3.33333325386047
+	N	Mean	Std. Deviation
+Total	15168	1.554	0.555
+0)	512	3.4
+0.25)	23	0.2
+0.333333343267441)	21	0.1
+0.400000005960464)	46	0.3
+0.5)	350	2.3
+0.600000023841858)	41	0.3
+0.666666686534882)	253	1.7
+0.75)	209	1.4
+0.800000011920929)	71	0.5
+0.833333313465118)	1	0.0
+1)	2394	15.8
+1.125)	1	0.0
+1.16666662693024)	14	0.1
+1.20000004768372)	48	0.3
+1.25)	321	2.1
+1.28571426868439)	40	0.3
+1.33333337306976)	592	3.9
+1.375)	38	0.3
+1.39999997615814)	170	1.1
+1.5)	1124	7.4
+1.57142853736877)	3	0.0
+1.60000002384186)	172	1.1
+1.66666662693024)	1085	7.2
+1.75)	843	5.6
+1.79999995231628)	336	2.2
+1.83333337306976)	168	1.1
+1.89999997615814)	1	0.0
+1.91666662693024)	51	0.3
+2)	5916	39.0
+2.08333325386047)	4	0.0
+2.09999990463257)	12	0.1
+2.16666674613953)	2	0.0
+2.20000004768372)	5	0.0
+2.25)	13	0.1
+2.33333325386047)	46	0.3
+2.40000009536743)	4	0.0
+2.5)	61	0.4
+2.59999990463257)	20	0.1
+2.66666674613953)	27	0.2
+2.75)	39	0.3
+2.83333325386047)	11	0.1
+3)	51	0.3
+3.20000004768372)	7	0.0
+3.25)	6	0.0
+3.33333325386047)	16	0.1
+Missing	3072
+
+
+195) TIBG5C
+Tibetan Buddhist G5 composite (Free Exercise)
+RANGE: 0 to 3.5
+	N	Mean	Std. Deviation
+Total	15906	1.716	0.522
+0)	589	3.7
+0.100000001490116)	28	0.2
+0.200000002980232)	60	0.4
+0.25)	7	0.0
+0.333333343267441)	21	0.1
+0.375)	8	0.1
+0.400000005960464)	6	0.0
+0.5)	118	0.7
+0.600000023841858)	3	0.0
+0.666666686534882)	92	0.6
+0.699999988079071)	2	0.0
+0.75)	15	0.1
+0.800000011920929)	14	0.1
+0.875)	16	0.1
+0.899999976158142)	6	0.0
+1)	1431	9.0
+1.20000004768372)	15	0.1
+1.25)	413	2.6
+1.29999995231628)	9	0.1
+1.33333337306976)	265	1.7
+1.375)	1	0.0
+1.5)	1466	9.2
+1.625)	43	0.3
+1.66666662693024)	469	2.9
+1.75)	129	0.8
+1.79999995231628)	6	0.0
+2)	10463	65.8
+2.25)	27	0.2
+2.33333325386047)	14	0.1
+2.5)	38	0.2
+2.59999990463257)	11	0.1
+2.66666674613953)	28	0.2
+2.75)	48	0.3
+2.79999995231628)	31	0.2
+3.5)	14	0.1
+Missing	2334
+
+
+196) SHNGRP
+Shinto GRP composite
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	18156	1.238	0.408
+
+
+197) SHNG1C
+Shinto G1 composite (Official Religion)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16187	0.967	0.335
+0)	239	1.5
+0.25)	18	0.1
+0.333333343267441)	190	1.2
+0.5)	881	5.4
+0.625)	49	0.3
+0.666666686534882)	481	3.0
+0.75)	148	0.9
+0.800000011920929)	26	0.2
+0.833333313465118)	115	0.7
+0.875)	23	0.1
+0.899999976158142)	3	0.0
+1)	13591	84.0
+1.16666662693024)	69	0.4
+1.25)	2	0.0
+1.33333337306976)	71	0.4
+1.5)	95	0.6
+2)	41	0.3
+3.5)	63	0.4
+4)	82	0.5
+Missing	2053
+
+
+198) SHNG2C
+Shinto G2 composite (Religious Education)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	12001	0.805	0.461
+0)	2457	20.5
+0.5)	520	4.3
+0.75)	41	0.3
+1)	8611	71.8
+2)	356	3.0
+3)	16	0.1
+Missing	6239
+
+
+199) SHNG3C
+Shinto G3 composite (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11869	1.099	0.666
+0)	1825	15.4
+0.16666667163372)	30	0.3
+0.333333343267441)	13	0.1
+0.5)	1016	8.6
+0.666666686534882)	127	1.1
+0.75)	6	0.1
+0.833333313465118)	52	0.4
+1)	4299	36.2
+1.16666662693024)	1	0.0
+1.25)	26	0.2
+1.33333337306976)	105	0.9
+1.5)	1719	14.5
+1.66666662693024)	4	0.0
+1.75)	29	0.2
+2)	2555	21.5
+2.5)	45	0.4
+3)	3	0.0
+4)	14	0.1
+Missing	6371
+
+
+200) SHNG4C
+Shinto G4 composite (Regulatory Burdens)
+RANGE: 0 to 2.5
+	N	Mean	Std. Deviation
+Total	15178	1.517	0.537
+0)	529	3.5
+0.25)	38	0.3
+0.333333343267441)	3	0.0
+0.400000005960464)	46	0.3
+0.5)	380	2.5
+0.600000023841858)	41	0.3
+0.666666686534882)	310	2.0
+0.75)	218	1.4
+0.800000011920929)	46	0.3
+0.833333313465118)	1	0.0
+1)	2479	16.3
+1.125)	1	0.0
+1.16666662693024)	14	0.1
+1.20000004768372)	76	0.5
+1.25)	401	2.6
+1.28571426868439)	40	0.3
+1.33333337306976)	584	3.8
+1.375)	38	0.3
+1.39999997615814)	194	1.3
+1.5)	1124	7.4
+1.57142853736877)	3	0.0
+1.58333337306976)	51	0.3
+1.60000002384186)	307	2.0
+1.66666662693024)	1124	7.4
+1.70000004768372)	12	0.1
+1.75)	690	4.5
+1.79999995231628)	320	2.1
+1.83333337306976)	162	1.1
+1.89999997615814)	1	0.0
+2)	5921	39.0
+2.33333325386047)	23	0.2
+2.5)	1	0.0
+Missing	3062
+
+
+201) SHNG5C
+Shinto G5 composite (Free Exercise)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15913	1.703	0.524
+0)	589	3.7
+0.100000001490116)	28	0.2
+0.200000002980232)	60	0.4
+0.25)	7	0.0
+0.375)	8	0.1
+0.400000005960464)	6	0.0
+0.5)	93	0.6
+0.600000023841858)	3	0.0
+0.666666686534882)	131	0.8
+0.699999988079071)	2	0.0
+0.75)	32	0.2
+0.800000011920929)	33	0.2
+0.875)	16	0.1
+0.899999976158142)	6	0.0
+1)	1524	9.6
+1.20000004768372)	15	0.1
+1.25)	423	2.7
+1.29999995231628)	9	0.1
+1.33333337306976)	316	2.0
+1.375)	1	0.0
+1.39999997615814)	14	0.1
+1.5)	1434	9.0
+1.60000002384186)	11	0.1
+1.625)	43	0.3
+1.66666662693024)	538	3.4
+1.75)	129	0.8
+1.79999995231628)	6	0.0
+2)	10358	65.1
+3)	58	0.4
+4)	20	0.1
+Missing	2327
+
+
+202) CNFGRP
+Confucianist GRP composite
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	18156	1.251	0.417
+
+
+203) CNFG1C
+Confucianist G1 composite (Official Religion)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16187	0.986	0.403
+0)	229	1.4
+0.25)	18	0.1
+0.333333343267441)	190	1.2
+0.5)	912	5.6
+0.600000023841858)	26	0.2
+0.625)	49	0.3
+0.666666686534882)	456	2.8
+0.75)	142	0.9
+0.833333313465118)	10	0.1
+0.875)	23	0.1
+0.899999976158142)	3	0.0
+1)	13581	83.9
+1.16666662693024)	69	0.4
+1.25)	2	0.0
+1.33333337306976)	71	0.4
+1.5)	95	0.6
+2)	83	0.5
+2.5)	4	0.0
+3)	5	0.0
+3.83333325386047)	105	0.6
+4)	114	0.7
+Missing	2053
+
+
+204) CNFG2C
+Confucianist G2 composite (Religious Education)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12070	0.842	0.554
+0)	2417	20.0
+0.5)	520	4.3
+0.75)	41	0.3
+1)	8539	70.7
+2)	428	3.5
+3)	19	0.2
+4)	106	0.9
+Missing	6170
+
+
+205) CNFG3C
+Confucianist G3 composite (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.092	0.654
+0)	1839	15.5
+0.16666667163372)	30	0.3
+0.333333343267441)	13	0.1
+0.5)	1006	8.5
+0.666666686534882)	127	1.1
+0.75)	6	0.1
+0.833333313465118)	52	0.4
+1)	4299	36.2
+1.16666662693024)	1	0.0
+1.25)	26	0.2
+1.33333337306976)	105	0.9
+1.5)	1764	14.9
+1.66666662693024)	4	0.0
+1.75)	29	0.2
+2)	2565	21.6
+3)	3	0.0
+Missing	6371
+
+
+206) CNFG4C
+Confucianist G4 composite (Regulatory Burdens)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	15194	1.515	0.539
+0)	529	3.5
+0.25)	38	0.3
+0.333333343267441)	3	0.0
+0.400000005960464)	46	0.3
+0.5)	380	2.5
+0.600000023841858)	65	0.4
+0.666666686534882)	316	2.1
+0.75)	218	1.4
+0.800000011920929)	46	0.3
+0.833333313465118)	1	0.0
+1)	2466	16.2
+1.125)	1	0.0
+1.16666662693024)	14	0.1
+1.20000004768372)	76	0.5
+1.25)	401	2.6
+1.28571426868439)	40	0.3
+1.33333337306976)	610	4.0
+1.375)	38	0.3
+1.39999997615814)	194	1.3
+1.5)	1134	7.5
+1.57142853736877)	3	0.0
+1.58333337306976)	51	0.3
+1.60000002384186)	307	2.0
+1.66666662693024)	1124	7.4
+1.70000004768372)	12	0.1
+1.75)	690	4.5
+1.79999995231628)	320	2.1
+1.83333337306976)	162	1.1
+1.89999997615814)	1	0.0
+2)	5874	38.7
+2.33333325386047)	23	0.2
+2.5)	1	0.0
+3)	10	0.1
+Missing	3046
+
+
+207) CNFG5C
+Confucianist G5 composite (Free Exercise)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	15912	1.702	0.512
+0)	605	3.8
+0.100000001490116)	28	0.2
+0.200000002980232)	60	0.4
+0.25)	7	0.0
+0.375)	8	0.1
+0.400000005960464)	6	0.0
+0.5)	93	0.6
+0.600000023841858)	3	0.0
+0.666666686534882)	113	0.7
+0.699999988079071)	2	0.0
+0.75)	32	0.2
+0.800000011920929)	52	0.3
+0.875)	16	0.1
+0.899999976158142)	6	0.0
+1)	1418	8.9
+1.20000004768372)	15	0.1
+1.25)	423	2.7
+1.29999995231628)	9	0.1
+1.33333337306976)	305	1.9
+1.375)	1	0.0
+1.39999997615814)	14	0.1
+1.5)	1434	9.0
+1.60000002384186)	11	0.1
+1.625)	43	0.3
+1.66666662693024)	538	3.4
+1.75)	129	0.8
+1.79999995231628)	6	0.0
+2)	10535	66.2
+Missing	2328
+
+
+208) TAOGRP
+Taoist GRP composite
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	18156	1.226	0.361
+
+
+209) TAOG1C
+Taoist G1 composite (Official Religion)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	16187	0.947	0.207
+0)	239	1.5
+0.25)	18	0.1
+0.333333343267441)	160	1.0
+0.5)	912	5.6
+0.600000023841858)	26	0.2
+0.625)	49	0.3
+0.666666686534882)	486	3.0
+0.75)	142	0.9
+0.833333313465118)	10	0.1
+0.875)	23	0.1
+0.899999976158142)	3	0.0
+1)	13692	84.6
+1.16666662693024)	174	1.1
+1.25)	2	0.0
+1.33333337306976)	71	0.4
+1.5)	102	0.6
+2)	78	0.5
+Missing	2053
+
+
+210) TAOG2C
+Taoist G2 composite (Religious Education)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	12070	0.806	0.472
+0)	2526	20.9
+0.5)	520	4.3
+0.75)	41	0.3
+1)	8544	70.8
+2)	423	3.5
+3)	16	0.1
+Missing	6170
+
+
+211) TAOG3C
+Taoist G3 composite (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.097	0.663
+0)	1839	15.5
+0.16666667163372)	30	0.3
+0.333333343267441)	13	0.1
+0.5)	1016	8.6
+0.666666686534882)	127	1.1
+0.75)	6	0.1
+0.833333313465118)	52	0.4
+1)	4261	35.9
+1.16666662693024)	1	0.0
+1.25)	26	0.2
+1.33333337306976)	105	0.9
+1.5)	1764	14.9
+1.66666662693024)	4	0.0
+1.75)	29	0.2
+2)	2555	21.5
+3)	41	0.3
+Missing	6371
+
+
+212) TAOG4C
+Taoist G4 composite (Regulatory Burdens)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	15187	1.523	0.537
+0)	522	3.4
+0.333333343267441)	3	0.0
+0.400000005960464)	46	0.3
+0.5)	380	2.5
+0.600000023841858)	41	0.3
+0.666666686534882)	307	2.0
+0.75)	218	1.4
+0.800000011920929)	46	0.3
+0.833333313465118)	1	0.0
+1)	2503	16.5
+1.125)	1	0.0
+1.16666662693024)	14	0.1
+1.20000004768372)	76	0.5
+1.25)	401	2.6
+1.28571426868439)	40	0.3
+1.33333337306976)	610	4.0
+1.375)	38	0.3
+1.39999997615814)	194	1.3
+1.5)	1134	7.5
+1.57142853736877)	3	0.0
+1.58333337306976)	51	0.3
+1.60000002384186)	307	2.0
+1.66666662693024)	1124	7.4
+1.70000004768372)	12	0.1
+1.75)	690	4.5
+1.79999995231628)	320	2.1
+1.83333337306976)	162	1.1
+1.89999997615814)	1	0.0
+2)	5880	38.7
+2.33333325386047)	23	0.2
+2.5)	1	0.0
+3)	38	0.3
+Missing	3053
+
+
+213) TAOG5C
+Taoist G5 composite (Free Exercise)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	15907	1.705	0.508
+0)	589	3.7
+0.100000001490116)	28	0.2
+0.200000002980232)	60	0.4
+0.25)	7	0.0
+0.375)	8	0.1
+0.400000005960464)	6	0.0
+0.5)	93	0.6
+0.600000023841858)	3	0.0
+0.666666686534882)	112	0.7
+0.699999988079071)	2	0.0
+0.75)	32	0.2
+0.800000011920929)	14	0.1
+0.875)	16	0.1
+0.899999976158142)	6	0.0
+1)	1418	8.9
+1.20000004768372)	15	0.1
+1.25)	442	2.8
+1.29999995231628)	9	0.1
+1.33333337306976)	316	2.0
+1.375)	1	0.0
+1.39999997615814)	14	0.1
+1.5)	1434	9.0
+1.60000002384186)	11	0.1
+1.625)	43	0.3
+1.66666662693024)	538	3.4
+1.75)	129	0.8
+1.79999995231628)	25	0.2
+2)	10536	66.2
+Missing	2333
+
+
+214) CHFGRP
+Chinese Folk Religionist GRP composite
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	18156	1.221	0.363
+
+
+215) CHFG1C
+Chinese Folk Religionist G1 composite (Official Religion)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	16187	0.946	0.208
+0)	239	1.5
+0.25)	18	0.1
+0.333333343267441)	190	1.2
+0.5)	912	5.6
+0.600000023841858)	26	0.2
+0.625)	49	0.3
+0.666666686534882)	456	2.8
+0.75)	142	0.9
+0.833333313465118)	10	0.1
+0.875)	23	0.1
+0.899999976158142)	3	0.0
+1)	13692	84.6
+1.16666662693024)	174	1.1
+1.25)	2	0.0
+1.33333337306976)	71	0.4
+1.5)	102	0.6
+2)	78	0.5
+Missing	2053
+
+
+216) CHFG2C
+Chinese Folk Religionist G2 composite (Religious Education)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	12070	0.806	0.472
+0)	2526	20.9
+0.5)	520	4.3
+0.75)	41	0.3
+1)	8544	70.8
+2)	423	3.5
+3)	16	0.1
+Missing	6170
+
+
+217) CHFG3C
+Chinese Folk Religionist G3 composite (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.091	0.654
+0)	1839	15.5
+0.16666667163372)	30	0.3
+0.333333343267441)	13	0.1
+0.5)	1016	8.6
+0.666666686534882)	127	1.1
+0.75)	6	0.1
+0.833333313465118)	52	0.4
+1)	4299	36.2
+1.16666662693024)	1	0.0
+1.25)	26	0.2
+1.33333337306976)	105	0.9
+1.5)	1764	14.9
+1.66666662693024)	4	0.0
+1.75)	29	0.2
+2)	2555	21.5
+3)	3	0.0
+Missing	6371
+
+
+218) CHFG4C
+Chinese Folk Religionist G4 composite (Regulatory Burdens)
+RANGE: 0 to 2.5
+	N	Mean	Std. Deviation
+Total	15194	1.515	0.536
+0)	529	3.5
+0.25)	38	0.3
+0.333333343267441)	3	0.0
+0.400000005960464)	46	0.3
+0.5)	380	2.5
+0.600000023841858)	41	0.3
+0.666666686534882)	310	2.0
+0.75)	218	1.4
+0.800000011920929)	46	0.3
+0.833333313465118)	1	0.0
+1)	2506	16.5
+1.125)	1	0.0
+1.16666662693024)	14	0.1
+1.20000004768372)	76	0.5
+1.25)	401	2.6
+1.28571426868439)	40	0.3
+1.33333337306976)	610	4.0
+1.375)	38	0.3
+1.39999997615814)	194	1.3
+1.5)	1134	7.5
+1.57142853736877)	3	0.0
+1.58333337306976)	51	0.3
+1.60000002384186)	307	2.0
+1.66666662693024)	1124	7.4
+1.70000004768372)	12	0.1
+1.75)	690	4.5
+1.79999995231628)	320	2.1
+1.83333337306976)	162	1.1
+1.89999997615814)	1	0.0
+2)	5874	38.7
+2.33333325386047)	23	0.2
+2.5)	1	0.0
+Missing	3046
+
+
+219) CHFG5C
+Chinese Folk Religionist G5 composite (Free Exercise)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	15907	1.696	0.514
+0)	594	3.7
+0.100000001490116)	28	0.2
+0.200000002980232)	60	0.4
+0.25)	7	0.0
+0.375)	8	0.1
+0.400000005960464)	6	0.0
+0.5)	114	0.7
+0.600000023841858)	3	0.0
+0.666666686534882)	112	0.7
+0.699999988079071)	2	0.0
+0.75)	32	0.2
+0.800000011920929)	52	0.3
+0.875)	16	0.1
+0.899999976158142)	6	0.0
+1)	1500	9.4
+1.20000004768372)	15	0.1
+1.25)	423	2.7
+1.29999995231628)	9	0.1
+1.33333337306976)	316	2.0
+1.375)	1	0.0
+1.39999997615814)	14	0.1
+1.5)	1413	8.9
+1.60000002384186)	11	0.1
+1.625)	43	0.3
+1.66666662693024)	538	3.4
+1.75)	129	0.8
+1.79999995231628)	6	0.0
+2)	10449	65.7
+Missing	2333
+
+
+220) BUDCGRP
+Buddhist Complex GRP composite
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	18156	1.331	0.53
+
+
+221) BUDCG1C
+Buddhist Complex G1 composite (Official Religion)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16187	1.105	0.658
+0)	171	1.1
+0.25)	18	0.1
+0.333333343267441)	160	1.0
+0.5)	856	5.3
+0.625)	49	0.3
+0.666666686534882)	496	3.1
+0.75)	168	1.0
+0.833333313465118)	10	0.1
+0.875)	23	0.1
+0.899999976158142)	3	0.0
+1)	12871	79.5
+1.16666662693024)	69	0.4
+1.25)	17	0.1
+1.33333337306976)	71	0.4
+1.5)	114	0.7
+1.75)	2	0.0
+2)	188	1.2
+2.16666674613953)	11	0.1
+2.5)	76	0.5
+2.66666674613953)	5	0.0
+2.75)	2	0.0
+2.83333325386047)	15	0.1
+3)	62	0.4
+3.33333325386047)	1	0.0
+3.5)	149	0.9
+3.625)	105	0.6
+3.66666674613953)	6	0.0
+4)	469	2.9
+Missing	2053
+
+
+222) BUDCG2C
+Buddhist Complex G2 composite (Religious Education)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12070	0.893	0.629
+0)	2367	19.6
+0.5)	492	4.1
+0.75)	41	0.3
+1)	8265	68.5
+1.5)	13	0.1
+2)	573	4.7
+3)	206	1.7
+4)	113	0.9
+Missing	6170
+
+
+223) BUDCG3C
+Buddhist Complex G3 composite (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11869	1.204	0.778
+0)	1687	14.2
+0.16666667163372)	30	0.3
+0.333333343267441)	13	0.1
+0.5)	973	8.2
+0.666666686534882)	127	1.1
+0.75)	6	0.1
+0.833333313465118)	52	0.4
+1)	4037	34.0
+1.16666662693024)	1	0.0
+1.25)	22	0.2
+1.33333337306976)	105	0.9
+1.5)	1610	13.6
+1.66666662693024)	12	0.1
+1.75)	29	0.2
+2)	2572	21.7
+2.25)	4	0.0
+2.33333325386047)	4	0.0
+2.5)	133	1.1
+3)	324	2.7
+3.5)	26	0.2
+4)	102	0.9
+Missing	6371
+
+
+224) BUDCG4C
+Buddhist Complex G4 composite (Regulatory Burdens)
+RANGE: 0 to 3.33333325386047
+	N	Mean	Std. Deviation
+Total	15286	1.571	0.558
+0)	503	3.3
+0.25)	3	0.0
+0.333333343267441)	3	0.0
+0.400000005960464)	46	0.3
+0.5)	318	2.1
+0.600000023841858)	41	0.3
+0.666666686534882)	256	1.7
+0.75)	218	1.4
+0.800000011920929)	46	0.3
+0.833333313465118)	1	0.0
+1)	2401	15.7
+1.125)	1	0.0
+1.16666662693024)	14	0.1
+1.20000004768372)	58	0.4
+1.25)	321	2.1
+1.28571426868439)	40	0.3
+1.33333337306976)	618	4.0
+1.375)	38	0.2
+1.39999997615814)	170	1.1
+1.5)	1091	7.1
+1.57142853736877)	3	0.0
+1.60000002384186)	305	2.0
+1.66666662693024)	1085	7.1
+1.75)	747	4.9
+1.79999995231628)	375	2.5
+1.83333337306976)	162	1.1
+1.89999997615814)	1	0.0
+1.91666662693024)	51	0.3
+2)	5915	38.7
+2.08333325386047)	4	0.0
+2.09999990463257)	12	0.1
+2.16666674613953)	8	0.1
+2.20000004768372)	12	0.1
+2.25)	40	0.3
+2.40000009536743)	4	0.0
+2.5)	61	0.4
+2.59999990463257)	50	0.3
+2.66666674613953)	52	0.3
+2.75)	40	0.3
+2.83333325386047)	11	0.1
+3)	132	0.9
+3.20000004768372)	7	0.0
+3.25)	6	0.0
+3.33333325386047)	16	0.1
+Missing	2954
+
+
+225) BUDCG5C
+Buddhist Complex G5 composite (Free Exercise)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15933	1.738	0.528
+0)	579	3.6
+0.100000001490116)	28	0.2
+0.200000002980232)	60	0.4
+0.25)	7	0.0
+0.375)	8	0.1
+0.400000005960464)	6	0.0
+0.5)	79	0.5
+0.600000023841858)	3	0.0
+0.666666686534882)	92	0.6
+0.699999988079071)	2	0.0
+0.75)	15	0.1
+0.800000011920929)	14	0.1
+0.875)	16	0.1
+0.899999976158142)	6	0.0
+1)	1346	8.4
+1.20000004768372)	34	0.2
+1.25)	408	2.6
+1.29999995231628)	9	0.1
+1.33333337306976)	251	1.6
+1.375)	1	0.0
+1.5)	1467	9.2
+1.625)	43	0.3
+1.66666662693024)	479	3.0
+1.75)	129	0.8
+1.79999995231628)	6	0.0
+2)	10496	65.9
+2.33333325386047)	14	0.1
+2.5)	58	0.4
+2.59999990463257)	19	0.1
+2.66666674613953)	32	0.2
+2.75)	57	0.4
+2.79999995231628)	69	0.4
+3)	66	0.4
+3.5)	14	0.1
+4)	20	0.1
+Missing	2307
+
+
+226) INDGRP
+Indigenous (Ethnoreligionist) GRP composite
+RANGE: 0 to 2.16666674613953
+	N	Mean	Std. Deviation
+Total	18159	1.221	0.36
+
+
+227) INDG1C
+Indigenous (Ethnoreligionist) G1 composite (Official Religion)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	16267	0.944	0.217
+0)	287	1.8
+0.25)	18	0.1
+0.333333343267441)	190	1.2
+0.5)	893	5.5
+0.625)	49	0.3
+0.666666686534882)	481	3.0
+0.75)	148	0.9
+0.800000011920929)	26	0.2
+0.833333313465118)	115	0.7
+0.875)	23	0.1
+0.899999976158142)	3	0.0
+1)	13632	83.8
+1.16666662693024)	69	0.4
+1.25)	2	0.0
+1.33333337306976)	82	0.5
+1.5)	164	1.0
+2)	85	0.5
+Missing	1973
+
+
+228) INDG2C
+Indigenous (Ethnoreligionist) G2 composite (Religious Education)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	12070	0.801	0.464
+0)	2526	20.9
+0.5)	520	4.3
+0.75)	41	0.3
+1)	8610	71.3
+2)	357	3.0
+3)	16	0.1
+Missing	6170
+
+
+229) INDG3C
+Indigenous (Ethnoreligionist) G3 composite (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.09	0.655
+0)	1839	15.5
+0.16666667163372)	30	0.3
+0.333333343267441)	13	0.1
+0.5)	1038	8.7
+0.666666686534882)	127	1.1
+0.75)	6	0.1
+0.833333313465118)	52	0.4
+1)	4277	36.0
+1.16666662693024)	1	0.0
+1.25)	26	0.2
+1.33333337306976)	105	0.9
+1.5)	1759	14.8
+1.66666662693024)	4	0.0
+1.75)	29	0.2
+2)	2555	21.5
+2.5)	5	0.0
+3)	3	0.0
+Missing	6371
+
+
+230) INDG4C
+Indigenous (Ethnoreligionist) G4 composite (Regulatory Burdens)
+RANGE: 0 to 2.66666674613953
+	N	Mean	Std. Deviation
+Total	15194	1.517	0.54
+0)	529	3.5
+0.25)	38	0.3
+0.333333343267441)	3	0.0
+0.400000005960464)	46	0.3
+0.5)	380	2.5
+0.600000023841858)	41	0.3
+0.666666686534882)	310	2.0
+0.75)	218	1.4
+0.800000011920929)	46	0.3
+0.833333313465118)	1	0.0
+1)	2465	16.2
+1.125)	1	0.0
+1.16666662693024)	14	0.1
+1.20000004768372)	118	0.8
+1.25)	385	2.5
+1.28571426868439)	40	0.3
+1.33333337306976)	660	4.3
+1.375)	38	0.3
+1.39999997615814)	203	1.3
+1.5)	1201	7.9
+1.57142853736877)	3	0.0
+1.58333337306976)	51	0.3
+1.60000002384186)	174	1.1
+1.66666662693024)	1022	6.7
+1.70000004768372)	12	0.1
+1.75)	857	5.6
+1.79999995231628)	320	2.1
+1.83333337306976)	162	1.1
+1.89999997615814)	1	0.0
+2)	5774	38.0
+2.33333325386047)	23	0.2
+2.5)	4	0.0
+2.66666674613953)	54	0.4
+Missing	3046
+
+
+231) INDG5C
+Indigenous (Ethnoreligionist) G5 composite (Free Exercise)
+RANGE: 0 to 3.5
+	N	Mean	Std. Deviation
+Total	15935	1.699	0.517
+0)	647	4.1
+0.200000002980232)	60	0.4
+0.25)	7	0.0
+0.375)	8	0.1
+0.400000005960464)	6	0.0
+0.5)	117	0.7
+0.600000023841858)	3	0.0
+0.666666686534882)	111	0.7
+0.699999988079071)	2	0.0
+0.75)	32	0.2
+0.800000011920929)	33	0.2
+0.875)	16	0.1
+0.899999976158142)	6	0.0
+1)	1366	8.6
+1.20000004768372)	15	0.1
+1.25)	440	2.8
+1.29999995231628)	9	0.1
+1.33333337306976)	272	1.7
+1.375)	1	0.0
+1.39999997615814)	1	0.0
+1.5)	1651	10.4
+1.60000002384186)	11	0.1
+1.625)	43	0.3
+1.66666662693024)	547	3.4
+1.75)	130	0.8
+1.79999995231628)	19	0.1
+2)	10315	64.7
+2.33333325386047)	30	0.2
+2.5)	11	0.1
+2.66666674613953)	20	0.1
+3.5)	6	0.0
+Missing	2305
+
+
+232) ATHGRP
+Atheist GRP composite
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	18159	1.286	0.439
+
+
+233) ATHG1C
+Atheist G1 composite (Official Religion)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16147	1.065	0.503
+0)	204	1.3
+0.200000002980232)	1	0.0
+0.25)	17	0.1
+0.333333343267441)	63	0.4
+0.400000005960464)	1	0.0
+0.5)	636	3.9
+0.625)	49	0.3
+0.666666686534882)	462	2.9
+0.75)	132	0.8
+0.800000011920929)	26	0.2
+0.833333313465118)	110	0.7
+0.875)	23	0.1
+1)	13266	82.2
+1.16666662693024)	69	0.4
+1.25)	2	0.0
+1.29999995231628)	3	0.0
+1.33333337306976)	88	0.5
+1.5)	104	0.6
+1.75)	4	0.0
+2)	93	0.6
+2.83333325386047)	6	0.0
+3)	635	3.9
+3.375)	62	0.4
+3.5)	62	0.4
+3.83333325386047)	6	0.0
+4)	23	0.1
+Missing	2093
+
+
+234) ATHG2C
+Atheist G2 composite (Religious Education)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11673	0.825	0.517
+0)	2368	20.3
+0.5)	511	4.4
+0.75)	41	0.4
+1)	8268	70.8
+1.5)	62	0.5
+2)	356	3.0
+4)	67	0.6
+Missing	6567
+
+
+235) ATHG3C
+Atheist G3 composite (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11606	1.089	0.656
+0)	1809	15.6
+0.16666667163372)	30	0.3
+0.333333343267441)	13	0.1
+0.5)	1016	8.8
+0.666666686534882)	127	1.1
+0.75)	6	0.1
+0.833333313465118)	51	0.4
+1)	4178	36.0
+1.16666662693024)	1	0.0
+1.25)	26	0.2
+1.33333337306976)	105	0.9
+1.5)	1696	14.6
+1.66666662693024)	4	0.0
+1.75)	29	0.2
+2)	2512	21.6
+3)	3	0.0
+Missing	6634
+
+
+236) ATHG4C
+Atheist G4 composite (Regulatory Burdens)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	15138	1.566	0.517
+0)	441	2.9
+0.333333343267441)	3	0.0
+0.400000005960464)	46	0.3
+0.5)	308	2.0
+0.600000023841858)	41	0.3
+0.666666686534882)	183	1.2
+0.75)	171	1.1
+0.800000011920929)	37	0.2
+0.833333313465118)	1	0.0
+1)	2398	15.8
+1.125)	1	0.0
+1.16666662693024)	14	0.1
+1.20000004768372)	58	0.4
+1.25)	384	2.5
+1.28571426868439)	40	0.3
+1.33333337306976)	567	3.7
+1.375)	38	0.3
+1.39999997615814)	190	1.3
+1.5)	1133	7.5
+1.57142853736877)	3	0.0
+1.58333337306976)	51	0.3
+1.60000002384186)	325	2.1
+1.66666662693024)	1124	7.4
+1.70000004768372)	12	0.1
+1.75)	714	4.7
+1.79999995231628)	295	1.9
+1.83333337306976)	162	1.1
+1.89999997615814)	1	0.0
+2)	6299	41.6
+2.33333325386047)	23	0.2
+2.40000009536743)	23	0.2
+2.5)	14	0.1
+3)	38	0.3
+Missing	3102
+
+
+237) ATHG5C
+Atheist G5 composite (Free Exercise)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15789	1.756	0.525
+0)	435	2.8
+0.200000002980232)	48	0.3
+0.25)	6	0.0
+0.333333343267441)	17	0.1
+0.375)	8	0.1
+0.400000005960464)	12	0.1
+0.5)	93	0.6
+0.600000023841858)	3	0.0
+0.666666686534882)	111	0.7
+0.699999988079071)	2	0.0
+0.75)	26	0.2
+0.800000011920929)	14	0.1
+0.875)	16	0.1
+0.899999976158142)	6	0.0
+1)	1404	8.9
+1.20000004768372)	15	0.1
+1.25)	404	2.6
+1.29999995231628)	9	0.1
+1.33333337306976)	261	1.7
+1.375)	1	0.0
+1.5)	1434	9.1
+1.625)	43	0.3
+1.66666662693024)	484	3.1
+1.75)	129	0.8
+1.79999995231628)	6	0.0
+2)	10526	66.7
+2.25)	4	0.0
+2.40000009536743)	19	0.1
+2.5)	21	0.1
+2.59999990463257)	11	0.1
+2.79999995231628)	14	0.1
+3)	8	0.1
+3.25)	10	0.1
+3.29999995231628)	28	0.2
+3.33333325386047)	51	0.3
+3.5)	17	0.1
+4)	93	0.6
+Missing	2451
+
+

@@ -1,0 +1,4054 @@
+Data File: GRPFINSP(Full Data Codebook)
+
+1) CCODE
+Country Code assigned by RCS, following the RCS convention (See Appendix A for codes by country)
+RANGE: 2 to 990
+	N	Mean	Std. Deviation
+Total	18240	399.995	258.345
+
+
+2) ABBREV
+3-letter abbreviation assigned by RCS, generally following COW (See Appendix A for abbreviations by country)
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	18240		
+
+
+3) YEAR
+Year
+RANGE: 1800 to 2015
+	N	Mean	Std. Deviation
+Total	18240	1943.052	58.51
+
+
+4) SCODE
+Country Code in Systemic Peace dataset (Polity)
+RANGE: 2 to 950
+	N	Mean	Std. Deviation
+Total	16239	401.567	250.953
+
+
+5) SABBREV
+3-letter abbreviation in Systemic Peace dataset (Polity)
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	16239		
+
+
+6) ARDAID
+Country Code assigned by Association of Religion Data Archives (ARDA)
+RANGE: 1 to 250
+	N	Mean	Std. Deviation
+Total	17185	125.74	70.554
+
+
+7) NUMISO
+Country Code assigned by International Standards Organization (used by Religion And State dataset)
+RANGE: 4 to 894
+	N	Mean	Std. Deviation
+Total	17319	425.177	253.367
+
+
+8) ISO3
+3-letter abbreviation assigned by International Standards Organization (used by Religion And State dataset)
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	17319		
+
+
+9) UNCODE
+Country/Region Code assigned by United Nations
+RANGE: 4 to 894
+	N	Mean	Std. Deviation
+Total	17319	425.177	253.367
+
+
+10) INDEP
+Whether state is independent on December 31 of observed year
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.997	0.052
+0) No	49	0.3
+1) Yes	18191	99.7
+
+
+11) INPOLIT
+Whether state is in Polity dataset at any time during observed year
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.886	0.318
+0) No	2077	11.4
+1) Yes	16163	88.6
+
+
+12) INCOW
+Whether state is in COW dataset at any time during the observed year
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.855	0.353
+0) No	2653	14.5
+1) Yes	15587	85.5
+
+
+13) CHRPF
+Christian Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.773	0.419
+0) Christian Religion is not the (or a) Preferred religion in the observed state-year.	4137	22.7
+1) Christian Religion is the (or a) Preferred religion in the observed state-year.	14103	77.3
+
+
+14) WCHRPF
+Western Christian Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.706	0.456
+0) Western Christian Religion is not the (or a) Preferred religion in the observed state-year.	5359	29.4
+1) Western Christian Religion is the (or a) Preferred religion in the observed state-year.	12881	70.6
+
+
+15) CATPF
+Catholic Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.62	0.486
+0) Catholic Religion is not the (or a) Preferred religion in the observed state-year.	6939	38.0
+1) Catholic Religion is the (or a) Preferred religion in the observed state-year.	11301	62.0
+
+
+16) XPRTPF
+Extended Protestant Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.277	0.448
+0) Extended Protestant Religion is not the (or a) Preferred religion in the observed state-year.	13188	72.3
+1) Extended Protestant Religion is the (or a) Preferred religion in the observed state-year.	5052	27.7
+
+
+17) PRTPF
+Protestant Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.265	0.441
+0) Protestant Religion is not the (or a) Preferred religion in the observed state-year.	13404	73.5
+1) Protestant Religion is the (or a) Preferred religion in the observed state-year.	4836	26.5
+
+
+18) ANGPF
+Anglican Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.214	0.41
+0) Anglican Religion is not the (or a) Preferred religion in the observed state-year.	14333	78.6
+1) Anglican Religion is the (or a) Preferred religion in the observed state-year.	3907	21.4
+
+
+19) PENPF
+Pentecostal Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.202	0.402
+0) Pentecostal Religion is not the (or a) Preferred religion in the observed state-year.	14549	79.8
+1) Pentecostal Religion is the (or a) Preferred religion in the observed state-year.	3691	20.2
+
+
+20) ORTPF
+Orthodox Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.088	0.283
+0) Orthodox Religion is not the (or a) Preferred religion in the observed state-year.	16644	91.3
+1) Orthodox Religion is the (or a) Preferred religion in the observed state-year.	1596	8.8
+
+
+21) CSYNPF
+Christian Syncretic Preference (binary)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	18240	0	0
+0) Christian Syncretic Religion is not the (or a) Preferred religion in the observed state-year.	18240	100.0
+
+
+22) JEWPF
+Jewish Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.004	0.061
+0) Jewish Religion is not the (or a) Preferred religion in the observed state-year.	18172	99.6
+1) Jewish Religion is the (or a) Preferred religion in the observed state-year.	68	0.4
+
+
+23) MUSPF
+Muslim Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.228	0.419
+0) Muslim Religion is not the (or a) Preferred religion in the observed state-year.	14085	77.2
+1) Muslim Religion is the (or a) Preferred religion in the observed state-year.	4155	22.8
+
+
+24) SUNPF
+Sunni Muslim Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.215	0.411
+0) Sunni Muslim Religion is not the (or a) Preferred religion in the observed state-year.	14327	78.5
+1) Sunni Muslim Religion is the (or a) Preferred religion in the observed state-year.	3913	21.5
+
+
+25) SHIPF
+Shia Muslim Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.073	0.259
+0) Shia Muslim Religion is not the (or a) Preferred religion in the observed state-year.	16917	92.7
+1) Shia Muslim Religion is the (or a) Preferred religion in the observed state-year.	1323	7.3
+
+
+26) IBAPF
+Ibadi Muslim Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.047	0.212
+0) Ibadi Muslim Religion is not the (or a) Preferred religion in the observed state-year.	17376	95.3
+1) Ibadi Muslim Religion is the (or a) Preferred religion in the observed state-year.	864	4.7
+
+
+27) ZORPF
+Zoroastrian Preference (binary)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	18240	0	0
+0) Zoroastrian Religion is not the (or a) Preferred religion in the observed state-year.	18240	100.0
+
+
+28) BAHPF
+Baha'i Preference (binary)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	18240	0	0
+0) Baha'i Religion is not the (or a) Preferred religion in the observed state-year.	18240	100.0
+
+
+29) JAIPF
+Jain Preference (binary)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	18240	0	0
+0) Jain Religion is not the (or a) Preferred religion in the observed state-year.	18240	100.0
+
+
+30) SIKPF
+Sikh Preference (binary)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	18240	0	0
+0) Sikh Religion is not the (or a) Preferred religion in the observed state-year.	18240	100.0
+
+
+31) HINPF
+Hindu Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.021	0.144
+0) Hindu Religion is not the (or a) Preferred religion in the observed state-year.	17851	97.9
+1) Hindu Religion is the (or a) Preferred religion in the observed state-year.	389	2.1
+
+
+32) BUDPF
+Buddhist Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.049	0.217
+0) Buddhist Religion is not the (or a) Preferred religion in the observed state-year.	17340	95.1
+1) Buddhist Religion is the (or a) Preferred religion in the observed state-year.	900	4.9
+
+
+33) THEPF
+Theravada Buddhist Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.033	0.178
+0) Theravada Buddhist Religion is not the (or a) Preferred religion in the observed state-year.	17645	96.7
+1) Theravada Buddhist Religion is the (or a) Preferred religion in the observed state-year.	595	3.3
+
+
+34) MAHPF
+Mahayana Buddhist Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.018	0.132
+0) Mahayana Buddhist Religion is not the (or a) Preferred religion in the observed state-year.	17917	98.2
+1) Mahayana Buddhist Religion is the (or a) Preferred religion in the observed state-year.	323	1.8
+
+
+35) TIBPF
+Tibetan Buddhist Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.012	0.108
+0) Tibetan Buddhist Religion is not the (or a) Preferred religion in the observed state-year.	18024	98.8
+1) Tibetan Buddhist Religion is the (or a) Preferred religion in the observed state-year.	216	1.2
+
+
+36) SHNPF
+Shinto Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.012	0.108
+0) Shinto is not the (or a) Preferred religion in the observed state-year.	18024	98.8
+1) Shinto is the (or a) Preferred religion in the observed state-year.	216	1.2
+
+
+37) CNFPF
+Confucianist Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.018	0.133
+0) Confucianist Religion is not the (or a) Preferred religion in the observed state-year.	17913	98.2
+1) Confucianist Religion is the (or a) Preferred religion in the observed state-year.	327	1.8
+
+
+38) TAOPF
+Taoist Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.004	0.06
+0) Taoist Religion is not the (or a) Preferred religion in the observed state-year.	18173	99.6
+1) Taoist Religion is the (or a) Preferred religion in the observed state-year.	67	0.4
+
+
+39) CHFPF
+Chinese Folk Religionist Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.004	0.06
+0) Chinese Folk Religionist Religion is not the (or a) Preferred religion in the observed state-year.	18173	99.6
+1) Chinese Folk Religionist Religion is the (or a) Preferred religion in the observed state-year.	67	0.4
+
+
+40) BUDCPF
+Buddhist Complex Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.061	0.24
+0) Buddhist Complex Religion is not the (or a) Preferred religion in the observed state-year.	17120	93.9
+1) Buddhist Complex Religion is the (or a) Preferred religion in the observed state-year.	1120	6.1
+
+
+41) INDPF
+Indigenous (Ethnoreligionist) Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.001	0.033
+0) Indigenous (Ethnoreligionist) Religion is not the (or a) Preferred religion in the observed state-year.	18220	99.9
+1) Indigenous (Ethnoreligionist) Religion is the (or a) Preferred religion in the observed state-year.	20	0.1
+
+
+42) NEWPF
+Neo-Religionist Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0	0.018
+0) Neo-Religionist Religion is not the (or a) Preferred religion in the observed state-year.	18234	100.0
+1) Neo-Religionist Religion is the (or a) Preferred religion in the observed state-year.	6	0.0
+
+
+43) ATHPF
+Atheist Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.025	0.155
+0) Atheist is not the (or a) Preferred religion in the observed state-year.	17792	97.5
+1) Atheist is the (or a) Preferred religion in the observed state-year.	448	2.5
+
+
+44) PRFID
+ID code of Preferred religion (unordered categorical)
+RANGE: 101 to 9100
+	N	Mean	Std. Deviation
+Total	18240	1923.295	1927.242
+
+
+45) PRFDS
+Description of Preferred denomination(s) (string)
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	18240		
+
+
+46) PRFG3LO
+Preferred Religion G3 Lowest score (Financial Support)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	11858	2.581	0.92
+1)	1451	12.2
+1.5)	36	0.3
+2)	4136	34.9
+3)	4071	34.3
+3.5)	83	0.7
+4)	2081	17.5
+Missing	6382
+
+
+47) PRFG3C
+Preferred Religion G3 Composite score (Financial Support)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	11858	2.763	0.861
+
+
+48) PRFG3HI
+Preferred Religion G3 Highest score (Financial Support)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	11858	2.941	0.908
+1)	771	6.5
+1.5)	7	0.1
+2)	2951	24.9
+3)	4285	36.1
+3.5)	89	0.8
+4)	3755	31.7
+Missing	6382
+
+
+49) NPRFG3LO
+Non-Preferred Religions G3 Lowest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	0.926	0.706
+0)	3353	28.3
+0.5)	202	1.7
+1)	5725	48.2
+1.5)	36	0.3
+2)	2550	21.5
+3)	3	0.0
+Missing	6371
+
+
+50) NPRFG3C
+Non-Preferred Religions G3 Composite score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.091	0.654
+
+
+51) NPRFG3HI
+Non-Preferred Religions G3 Highest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.261	0.719
+0)	1839	15.5
+0.5)	196	1.7
+1)	4805	40.5
+1.5)	7	0.1
+2)	5014	42.2
+3)	8	0.1
+Missing	6371
+
+
+52) CHRG3LO
+Christian G3 Lowest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11945	2.272	1.073
+0)	472	4.0
+1)	2525	21.1
+1.5)	36	0.3
+2)	3920	32.8
+3)	3207	26.8
+3.5)	83	0.7
+4)	1702	14.2
+Missing	6295
+
+
+53) CHRG3C
+Christian G3 Composite score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11945	2.471	1.011
+
+
+54) CHRG3HI
+Christian G3 Highest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11945	2.667	1.055
+0)	285	2.4
+1)	1340	11.2
+1.5)	7	0.1
+2)	3562	29.8
+3)	3576	29.9
+3.5)	89	0.7
+4)	3086	25.8
+Missing	6295
+
+
+55) WCHRG3LO
+Western Christian G3 Lowest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11939	2.176	1.111
+0)	707	5.9
+0.5)	36	0.3
+1)	2678	22.4
+1.5)	36	0.3
+2)	3837	32.1
+3)	2994	25.1
+3.5)	53	0.4
+4)	1598	13.4
+Missing	6301
+
+
+56) WCHRG3C
+Western Christian G3 Composite score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11939	2.375	1.047
+
+
+57) WCHRG3HI
+Western Christian G3 Highest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11939	2.573	1.084
+0)	364	3.0
+0.5)	30	0.3
+1)	1562	13.1
+1.5)	7	0.1
+2)	3645	30.5
+3)	3454	28.9
+3.5)	53	0.4
+4)	2824	23.7
+Missing	6301
+
+
+58) CATG3LO
+Catholic G3 Lowest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11903	2.013	1.162
+0)	1219	10.2
+0.5)	36	0.3
+1)	2815	23.6
+1.5)	36	0.3
+2)	3735	31.4
+3)	2617	22.0
+3.5)	53	0.4
+4)	1392	11.7
+Missing	6337
+
+
+59) CATG3C
+Catholic G3 Composite score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11903	2.214	1.086
+
+
+60) CATG3HI
+Catholic G3 Highest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11903	2.413	1.107
+0)	523	4.4
+0.5)	30	0.3
+1)	1938	16.3
+1.5)	7	0.1
+2)	3747	31.5
+3)	3340	28.1
+3.5)	53	0.4
+4)	2265	19.0
+Missing	6337
+
+
+61) XPRTG3LO
+Extended Protestant G3 Lowest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11891	1.446	1.064
+0)	2523	21.2
+0.5)	97	0.8
+1)	3793	31.9
+1.5)	36	0.3
+2)	3307	27.8
+3)	1851	15.6
+4)	284	2.4
+Missing	6349
+
+
+62) XPRTG3C
+Extended Protestant G3 Composite score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11891	1.637	1.031
+
+
+63) XPRTG3HI
+Extended Protestant G3 Highest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11891	1.829	1.098
+0)	1534	12.9
+0.5)	91	0.8
+1)	2804	23.6
+1.5)	7	0.1
+2)	4258	35.8
+3)	2418	20.3
+4)	779	6.6
+Missing	6349
+
+
+64) PRTG3LO
+Protestant G3 Lowest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11838	1.445	1.064
+0)	2523	21.3
+0.5)	44	0.4
+1)	3858	32.6
+1.5)	36	0.3
+2)	3242	27.4
+3)	1851	15.6
+4)	284	2.4
+Missing	6402
+
+
+65) PRTG3C
+Protestant G3 Composite score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11838	1.63	1.034
+
+
+66) PRTG3HI
+Protestant G3 Highest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11838	1.818	1.097
+0)	1580	13.3
+0.5)	38	0.3
+1)	2804	23.7
+1.5)	7	0.1
+2)	4323	36.5
+3)	2307	19.5
+4)	779	6.6
+Missing	6402
+
+
+67) ANGG3LO
+Anglican G3 Lowest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11840	1.09	0.857
+0)	3143	26.5
+0.5)	128	1.1
+1)	4908	41.5
+1.5)	36	0.3
+2)	3037	25.7
+3)	546	4.6
+4)	42	0.4
+Missing	6400
+
+
+68) ANGG3C
+Anglican G3 Composite score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11840	1.273	0.819
+
+
+69) ANGG3HI
+Anglican G3 Highest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11840	1.462	0.901
+0)	1757	14.8
+0.5)	122	1.0
+1)	4064	34.3
+1.5)	7	0.1
+2)	4638	39.2
+3)	1112	9.4
+4)	140	1.2
+Missing	6400
+
+
+70) PENG3LO
+Pentecostal G3 Lowest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	9667	1.107	0.823
+0)	2341	24.2
+0.5)	67	0.7
+1)	4269	44.2
+1.5)	36	0.4
+2)	2521	26.1
+3)	425	4.4
+4)	8	0.1
+Missing	8573
+
+
+71) PENG3C
+Pentecostal G3 Composite score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	9667	1.309	0.771
+0)	1242	12.8
+0.16666667163372)	30	0.3
+0.5)	601	6.2
+0.666666686534882)	69	0.7
+1)	2783	28.8
+1.16666662693024)	1	0.0
+1.25)	4	0.0
+1.33333337306976)	107	1.1
+1.5)	1713	17.7
+1.66666662693024)	5	0.1
+1.75)	35	0.4
+2)	2433	25.2
+2.25)	22	0.2
+2.33333325386047)	4	0.0
+2.5)	113	1.2
+3)	497	5.1
+4)	8	0.1
+Missing	8573
+
+
+72) PENG3HI
+Pentecostal G3 Highest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	9667	1.512	0.848
+0)	1242	12.8
+0.5)	61	0.6
+1)	3036	31.4
+1.5)	7	0.1
+2)	4526	46.8
+3)	689	7.1
+4)	106	1.1
+Missing	8573
+
+
+73) ORTG3LO
+Orthodox G3 Lowest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11932	1.145	0.923
+0)	3025	25.4
+0.5)	166	1.4
+1)	4984	41.8
+1.5)	36	0.3
+2)	2792	23.4
+3)	745	6.2
+3.5)	30	0.3
+4)	154	1.3
+Missing	6308
+
+
+74) ORTG3C
+Orthodox G3 Composite score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11932	1.332	0.882
+
+
+75) ORTG3HI
+Orthodox G3 Highest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11932	1.521	0.949
+0)	1689	14.2
+0.5)	166	1.4
+1)	3863	32.4
+1.5)	7	0.1
+2)	4793	40.2
+3)	1035	8.7
+3.5)	36	0.3
+4)	343	2.9
+Missing	6308
+
+
+76) CSYNG3LO
+Christian Syncretic G3 Lowest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11911	0.919	0.709
+0)	3436	28.8
+0.5)	202	1.7
+1)	5684	47.7
+1.5)	36	0.3
+2)	2550	21.4
+3)	3	0.0
+Missing	6329
+
+
+77) CSYNG3C
+Christian Syncretic G3 Composite score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11911	1.085	0.657
+
+
+78) CSYNG3HI
+Christian Syncretic G3 Highest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11911	1.256	0.721
+0)	1881	15.8
+0.5)	196	1.6
+1)	4805	40.3
+1.5)	7	0.1
+2)	5014	42.1
+3)	8	0.1
+Missing	6329
+
+
+79) JEWG3LO
+Jewish G3 Lowest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11855	1.108	0.883
+0)	3176	26.8
+0.5)	89	0.8
+1)	4920	41.5
+1.5)	36	0.3
+2)	2787	23.5
+3)	847	7.1
+Missing	6385
+
+
+80) JEWG3C
+Jewish G3 Composite score (Financial Support)
+RANGE: 0 to 3.5
+	N	Mean	Std. Deviation
+Total	11855	1.31	0.838
+
+
+81) JEWG3HI
+Jewish G3 Highest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11855	1.518	0.922
+0)	1734	14.6
+0.5)	83	0.7
+1)	3777	31.9
+1.5)	7	0.1
+2)	4738	40.0
+3)	1376	11.6
+4)	140	1.2
+Missing	6385
+
+
+82) MUSG3LO
+Muslim G3 Lowest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12001	1.274	1.03
+0)	2903	24.2
+0.5)	176	1.5
+1)	4512	37.6
+1.5)	36	0.3
+2)	2814	23.4
+3)	1237	10.3
+4)	323	2.7
+Missing	6239
+
+
+83) MUSG3C
+Muslim G3 Composite score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12001	1.451	0.978
+
+
+84) MUSG3HI
+Muslim G3 Highest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12001	1.634	1.028
+0)	1567	13.1
+0.5)	196	1.6
+1)	3699	30.8
+1.5)	7	0.1
+2)	4359	36.3
+3)	1602	13.3
+4)	571	4.8
+Missing	6239
+
+
+85) SUNG3LO
+Sunni Muslim G3 Lowest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12001	1.255	1.016
+0)	2903	24.2
+0.5)	176	1.5
+1)	4624	38.5
+1.5)	36	0.3
+2)	2814	23.4
+3)	1125	9.4
+4)	323	2.7
+Missing	6239
+
+
+86) SUNG3C
+Sunni Muslim G3 Composite score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12001	1.433	0.967
+
+
+87) SUNG3HI
+Sunni Muslim G3 Highest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12001	1.617	1.022
+0)	1567	13.1
+0.5)	196	1.6
+1)	3806	31.7
+1.5)	7	0.1
+2)	4359	36.3
+3)	1495	12.5
+4)	571	4.8
+Missing	6239
+
+
+88) SHIG3LO
+Shia Muslim G3 Lowest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11874	1.205	0.975
+0)	2981	25.1
+0.5)	176	1.5
+1)	4638	39.1
+1.5)	36	0.3
+2)	2782	23.4
+3)	1075	9.1
+4)	186	1.6
+Missing	6366
+
+
+89) SHIG3C
+Shia Muslim G3 Composite score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11874	1.383	0.926
+
+
+90) SHIG3HI
+Shia Muslim G3 Highest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11874	1.567	0.986
+0)	1645	13.9
+0.5)	196	1.7
+1)	3741	31.5
+1.5)	7	0.1
+2)	4510	38.0
+3)	1365	11.5
+4)	410	3.5
+Missing	6366
+
+
+91) IBAG3LO
+Ibadi Muslim G3 Lowest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11874	1.179	0.953
+0)	2981	25.1
+0.5)	176	1.5
+1)	4798	40.4
+1.5)	36	0.3
+2)	2781	23.4
+3)	916	7.7
+4)	186	1.6
+Missing	6366
+
+
+92) IBAG3C
+Ibadi Muslim G3 Composite score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11874	1.356	0.907
+
+
+93) IBAG3HI
+Ibadi Muslim G3 Highest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11874	1.54	0.974
+0)	1645	13.9
+0.5)	196	1.7
+1)	3898	32.8
+1.5)	7	0.1
+2)	4511	38.0
+3)	1207	10.2
+4)	410	3.5
+Missing	6366
+
+
+94) ZORG3LO
+Zoroastrian G3 Lowest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	0.926	0.706
+0)	3353	28.3
+0.5)	202	1.7
+1)	5725	48.2
+1.5)	36	0.3
+2)	2550	21.5
+3)	3	0.0
+Missing	6371
+
+
+95) ZORG3C
+Zoroastrian G3 Composite score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.091	0.654
+
+
+96) ZORG3HI
+Zoroastrian G3 Highest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.261	0.719
+0)	1839	15.5
+0.5)	196	1.7
+1)	4805	40.5
+1.5)	7	0.1
+2)	5014	42.2
+3)	8	0.1
+Missing	6371
+
+
+97) BAHG3LO
+Baha'i G3 Lowest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11440	0.935	0.712
+0)	3226	28.2
+0.5)	163	1.4
+1)	5492	48.0
+1.5)	36	0.3
+2)	2505	21.9
+3)	18	0.2
+Missing	6800
+
+
+98) BAHG3C
+Baha'i G3 Composite score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11440	1.108	0.657
+
+
+99) BAHG3HI
+Baha'i G3 Highest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11440	1.286	0.727
+0)	1730	15.1
+0.5)	157	1.4
+1)	4535	39.6
+1.5)	7	0.1
+2)	4941	43.2
+3)	70	0.6
+Missing	6800
+
+
+100) JAIG3LO
+Jain G3 Lowest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	0.926	0.706
+0)	3353	28.3
+0.5)	202	1.7
+1)	5725	48.2
+1.5)	36	0.3
+2)	2550	21.5
+3)	3	0.0
+Missing	6371
+
+
+101) JAIG3C
+Jain G3 Composite score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.091	0.654
+
+
+102) JAIG3HI
+Jain G3 Highest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.261	0.719
+0)	1839	15.5
+0.5)	196	1.7
+1)	4805	40.5
+1.5)	7	0.1
+2)	5014	42.2
+3)	8	0.1
+Missing	6371
+
+
+103) SIKG3LO
+Sikh G3 Lowest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	0.931	0.714
+0)	3353	28.3
+0.5)	202	1.7
+1)	5693	48.0
+1.5)	36	0.3
+2)	2550	21.5
+3)	35	0.3
+Missing	6371
+
+
+104) SIKG3C
+Sikh G3 Composite score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.096	0.662
+
+
+105) SIKG3HI
+Sikh G3 Highest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.266	0.724
+0)	1839	15.5
+0.5)	196	1.7
+1)	4773	40.2
+1.5)	7	0.1
+2)	5014	42.2
+3)	40	0.3
+Missing	6371
+
+
+106) HING3LO
+Hindu G3 Lowest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	0.963	0.743
+0)	3286	27.7
+0.5)	202	1.7
+1)	5574	47.0
+1.5)	36	0.3
+2)	2618	22.1
+3)	153	1.3
+Missing	6371
+
+
+107) HING3C
+Hindu G3 Composite score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.128	0.691
+
+
+108) HING3HI
+Hindu G3 Highest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.299	0.749
+0)	1789	15.1
+0.5)	196	1.7
+1)	4668	39.3
+1.5)	7	0.1
+2)	4982	42.0
+3)	227	1.9
+Missing	6371
+
+
+109) BUDG3LO
+Buddhist G3 Lowest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11869	1.031	0.822
+0)	3169	26.7
+0.5)	202	1.7
+1)	5341	45.0
+1.5)	36	0.3
+2)	2707	22.8
+3)	326	2.7
+4)	88	0.7
+Missing	6371
+
+
+110) BUDG3C
+Buddhist G3 Composite score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11869	1.199	0.773
+
+
+111) BUDG3HI
+Buddhist G3 Highest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11869	1.371	0.826
+0)	1701	14.3
+0.5)	196	1.7
+1)	4511	38.0
+1.5)	7	0.1
+2)	4845	40.8
+3)	471	4.0
+4)	138	1.2
+Missing	6371
+
+
+112) THEG3LO
+Theravada Buddhist G3 Lowest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11831	0.995	0.781
+0)	3233	27.3
+0.5)	202	1.7
+1)	5412	45.7
+1.5)	36	0.3
+2)	2662	22.5
+3)	262	2.2
+4)	24	0.2
+Missing	6409
+
+
+113) THEG3C
+Theravada Buddhist G3 Composite score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11831	1.16	0.729
+
+
+114) THEG3HI
+Theravada Buddhist G3 Highest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11831	1.33	0.783
+0)	1765	14.9
+0.5)	196	1.7
+1)	4537	38.3
+1.5)	7	0.1
+2)	4943	41.8
+3)	333	2.8
+4)	50	0.4
+Missing	6409
+
+
+115) MAHG3LO
+Mahayana Buddhist G3 Lowest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11777	0.977	0.757
+0)	3256	27.6
+0.5)	202	1.7
+1)	5395	45.8
+1.5)	36	0.3
+2)	2707	23.0
+3)	181	1.5
+Missing	6463
+
+
+116) MAHG3C
+Mahayana Buddhist G3 Composite score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11777	1.143	0.708
+
+
+117) MAHG3HI
+Mahayana Buddhist G3 Highest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11777	1.313	0.769
+0)	1788	15.2
+0.5)	196	1.7
+1)	4565	38.8
+1.5)	7	0.1
+2)	4869	41.3
+3)	352	3.0
+Missing	6463
+
+
+118) TIBG3LO
+Tibetan Buddhist G3 Lowest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11739	0.993	0.781
+0)	3192	27.2
+0.5)	202	1.7
+1)	5414	46.1
+1.5)	36	0.3
+2)	2662	22.7
+3)	169	1.4
+4)	64	0.5
+Missing	6501
+
+
+119) TIBG3C
+Tibetan Buddhist G3 Composite score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11739	1.16	0.73
+
+
+120) TIBG3HI
+Tibetan Buddhist G3 Highest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11739	1.332	0.786
+0)	1724	14.7
+0.5)	196	1.7
+1)	4539	38.7
+1.5)	7	0.1
+2)	4919	41.9
+3)	266	2.3
+4)	88	0.7
+Missing	6501
+
+
+121) SHNG3LO
+Shinto G3 Lowest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11869	0.934	0.716
+0)	3339	28.1
+0.5)	202	1.7
+1)	5680	47.9
+1.5)	36	0.3
+2)	2595	21.9
+3)	3	0.0
+4)	14	0.1
+Missing	6371
+
+
+122) SHNG3C
+Shinto G3 Composite score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11869	1.099	0.666
+
+
+123) SHNG3HI
+Shinto G3 Highest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11869	1.269	0.73
+0)	1825	15.4
+0.5)	196	1.7
+1)	4805	40.5
+1.5)	7	0.1
+2)	4969	41.9
+3)	53	0.4
+4)	14	0.1
+Missing	6371
+
+
+124) CNFG3LO
+Confucianist G3 Lowest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	0.927	0.705
+0)	3343	28.2
+0.5)	202	1.7
+1)	5735	48.3
+1.5)	36	0.3
+2)	2550	21.5
+3)	3	0.0
+Missing	6371
+
+
+125) CNFG3C
+Confucianist G3 Composite score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.092	0.654
+
+
+126) CNFG3HI
+Confucianist G3 Highest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.263	0.72
+0)	1839	15.5
+0.5)	196	1.7
+1)	4795	40.4
+1.5)	7	0.1
+2)	5014	42.2
+3)	18	0.2
+Missing	6371
+
+
+127) TAOG3LO
+Taoist G3 Lowest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	0.932	0.715
+0)	3353	28.3
+0.5)	202	1.7
+1)	5687	47.9
+1.5)	36	0.3
+2)	2550	21.5
+3)	41	0.3
+Missing	6371
+
+
+128) TAOG3C
+Taoist G3 Composite score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.097	0.663
+
+
+129) TAOG3HI
+Taoist G3 Highest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.267	0.725
+0)	1839	15.5
+0.5)	196	1.7
+1)	4767	40.2
+1.5)	7	0.1
+2)	5014	42.2
+3)	46	0.4
+Missing	6371
+
+
+130) CHFG3LO
+Chinese Folk Religionist G3 Lowest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	0.926	0.706
+0)	3353	28.3
+0.5)	202	1.7
+1)	5725	48.2
+1.5)	36	0.3
+2)	2550	21.5
+3)	3	0.0
+Missing	6371
+
+
+131) CHFG3C
+Chinese Folk Religionist G3 Composite score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.091	0.654
+
+
+132) CHFG3HI
+Chinese Folk Religionist G3 Highest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.261	0.719
+0)	1839	15.5
+0.5)	196	1.7
+1)	4805	40.5
+1.5)	7	0.1
+2)	5014	42.2
+3)	8	0.1
+Missing	6371
+
+
+133) BUDCG3LO
+Buddhist Complex G3 Lowest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11869	1.036	0.828
+0)	3155	26.6
+0.5)	202	1.7
+1)	5341	45.0
+1.5)	36	0.3
+2)	2707	22.8
+3)	326	2.7
+4)	102	0.9
+Missing	6371
+
+
+134) BUDCG3C
+Buddhist Complex G3 Composite score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11869	1.204	0.778
+
+
+135) BUDCG3HI
+Buddhist Complex G3 Highest score (Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11869	1.376	0.829
+0)	1687	14.2
+0.5)	196	1.7
+1)	4511	38.0
+1.5)	7	0.1
+2)	4845	40.8
+3)	471	4.0
+4)	152	1.3
+Missing	6371
+
+
+136) INDG3LO
+Indigenous (Ethnoreligionist) G3 Lowest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	0.926	0.706
+0)	3353	28.3
+0.5)	202	1.7
+1)	5720	48.2
+1.5)	36	0.3
+2)	2555	21.5
+3)	3	0.0
+Missing	6371
+
+
+137) INDG3C
+Indigenous (Ethnoreligionist) G3 Composite score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.09	0.655
+
+
+138) INDG3HI
+Indigenous (Ethnoreligionist) G3 Highest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11869	1.259	0.719
+0)	1839	15.5
+0.5)	196	1.7
+1)	4827	40.7
+1.5)	7	0.1
+2)	4987	42.0
+3)	13	0.1
+Missing	6371
+
+
+139) ATHG3LO
+Atheist G3 Lowest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11606	0.925	0.708
+0)	3300	28.4
+0.5)	202	1.7
+1)	5558	47.9
+1.5)	36	0.3
+2)	2507	21.6
+3)	3	0.0
+Missing	6634
+
+
+140) ATHG3C
+Atheist G3 Composite score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11606	1.089	0.656
+
+
+141) ATHG3HI
+Atheist G3 Highest score (Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11606	1.258	0.719
+0)	1809	15.6
+0.5)	196	1.7
+1)	4706	40.5
+1.5)	7	0.1
+2)	4880	42.0
+3)	8	0.1
+Missing	6634
+
+
+142) PRFG30
+Preferred Religion G30 (General Financial Support)
+RANGE: 2 to 4
+	N	Mean	Std. Deviation
+Total	65	2.338	0.756
+2)	54	83.1
+4)	11	16.9
+Missing	18175
+
+
+143) PRFG30N
+Preferred Religion G30 Coding Event Number
+RANGE: 10054 to 29484
+	N	Mean	Std. Deviation
+Total	65	13342.154	7342.084
+
+
+144) NPRFG30
+Non-Preferred Religions G30 (General Financial Support)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	86	1.628	0.486
+1)	32	37.2
+2)	54	62.8
+Missing	18154
+
+
+145) NPRFG30N
+Non-Preferred Religions G30 Coding Event Number
+RANGE: 10054 to 19707
+	N	Mean	Std. Deviation
+Total	86	13645.814	4693.269
+
+
+146) CHRG30
+Christian G30 (General Financial Support)
+RANGE: 2 to 3
+	N	Mean	Std. Deviation
+Total	86	2.372	0.486
+2)	54	62.8
+3)	32	37.2
+Missing	18154
+
+
+147) CHRG30N
+Christian G30 Coding Event Number
+RANGE: 10054 to 19706
+	N	Mean	Std. Deviation
+Total	86	13645.442	4692.783
+
+
+148) WCHRG30
+Western Christian G30 (General Financial Support)
+RANGE: 2 to 3
+	N	Mean	Std. Deviation
+Total	86	2.372	0.486
+2)	54	62.8
+3)	32	37.2
+Missing	18154
+
+
+149) WCHRG30N
+Western Christian G30 Coding Event Number
+RANGE: 10054 to 19706
+	N	Mean	Std. Deviation
+Total	86	13645.442	4692.783
+
+
+150) CATG30
+Catholic G30 (General Financial Support)
+RANGE: 2 to 2
+	N	Mean	Std. Deviation
+Total	54	2	0
+2)	54	100.0
+Missing	18186
+
+
+151) CATG30N
+Catholic G30 Coding Event Number
+RANGE: 10054 to 10054
+	N	Mean	Std. Deviation
+Total	54	10054	0
+
+
+152) XPRTG30
+Extended Protestant G30 (General Financial Support)
+RANGE: 2 to 3
+	N	Mean	Std. Deviation
+Total	86	2.372	0.486
+2)	54	62.8
+3)	32	37.2
+Missing	18154
+
+
+153) XPRTG30N
+Extended Protestant G30 Coding Event Number
+RANGE: 10054 to 19706
+	N	Mean	Std. Deviation
+Total	86	13645.442	4692.783
+
+
+154) PRTG30
+Protestant G30 (General Financial Support)
+RANGE: 2 to 3
+	N	Mean	Std. Deviation
+Total	86	2.372	0.486
+2)	54	62.8
+3)	32	37.2
+Missing	18154
+
+
+155) PRTG30N
+Protestant G30 Coding Event Number
+RANGE: 10054 to 19706
+	N	Mean	Std. Deviation
+Total	86	13645.442	4692.783
+
+
+156) ANGG30
+Anglican G30 (General Financial Support)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	86	1.628	0.486
+1)	32	37.2
+2)	54	62.8
+Missing	18154
+
+
+157) ANGG30N
+Anglican G30 Coding Event Number
+RANGE: 10054 to 19707
+	N	Mean	Std. Deviation
+Total	86	13645.814	4693.269
+
+
+158) PENG30
+Pentecostal G30 (General Financial Support)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	86	2.279	0.546
+1)	4	4.7
+2)	54	62.8
+3)	28	32.6
+Missing	18154
+
+
+159) PENG30N
+Pentecostal G30 Coding Event Number
+RANGE: 10054 to 19707
+	N	Mean	Std. Deviation
+Total	86	13645.488	4692.844
+10054)	54	62.8
+19706)	28	32.6
+19707)	4	4.7
+Missing	18154
+
+
+160) ORTG30
+Orthodox G30 (General Financial Support)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	86	1.721	0.546
+1)	28	32.6
+2)	54	62.8
+3)	4	4.7
+Missing	18154
+
+
+161) ORTG30N
+Orthodox G30 Coding Event Number
+RANGE: 10054 to 19707
+	N	Mean	Std. Deviation
+Total	86	13645.767	4693.209
+
+
+162) CSYNG30
+Christian Syncretic G30 (General Financial Support)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	86	1.628	0.486
+1)	32	37.2
+2)	54	62.8
+Missing	18154
+
+
+163) CSYNG30N
+Christian Syncretic G30 Coding Event Number
+RANGE: 10054 to 19707
+	N	Mean	Std. Deviation
+Total	86	13645.814	4693.269
+
+
+164) JEWG30
+Jewish G30 (General Financial Support)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	86	2.256	0.557
+1)	5	5.8
+2)	54	62.8
+3)	27	31.4
+Missing	18154
+
+
+165) JEWG30N
+Jewish G30 Coding Event Number
+RANGE: 10054 to 19707
+	N	Mean	Std. Deviation
+Total	86	13645.5	4692.859
+
+
+166) MUSG30
+Muslim G30 (General Financial Support)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	97	1.897	0.884
+1)	32	33.0
+2)	54	55.7
+4)	11	11.3
+Missing	18143
+
+
+167) MUSG30N
+Muslim G30 Coding Event Number
+RANGE: 10054 to 29484
+	N	Mean	Std. Deviation
+Total	97	15441.897	6707.188
+
+
+168) SUNG30
+Sunni Muslim G30 (General Financial Support)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	97	1.897	0.884
+1)	32	33.0
+2)	54	55.7
+4)	11	11.3
+Missing	18143
+
+
+169) SUNG30N
+Sunni Muslim G30 Coding Event Number
+RANGE: 10054 to 29484
+	N	Mean	Std. Deviation
+Total	97	15441.897	6707.188
+
+
+170) SHIG30
+Shia Muslim G30 (General Financial Support)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	97	1.897	0.884
+1)	32	33.0
+2)	54	55.7
+4)	11	11.3
+Missing	18143
+
+
+171) SHIG30N
+Shia Muslim G30 Coding Event Number
+RANGE: 10054 to 29484
+	N	Mean	Std. Deviation
+Total	97	15441.897	6707.188
+
+
+172) IBAG30
+Ibadi Muslim G30 (General Financial Support)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	97	1.897	0.884
+1)	32	33.0
+2)	54	55.7
+4)	11	11.3
+Missing	18143
+
+
+173) IBAG30N
+Ibadi Muslim G30 Coding Event Number
+RANGE: 10054 to 29484
+	N	Mean	Std. Deviation
+Total	97	15441.897	6707.188
+
+
+174) ZORG30
+Zoroastrian G30 (General Financial Support)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	86	1.628	0.486
+1)	32	37.2
+2)	54	62.8
+Missing	18154
+
+
+175) ZORG30N
+Zoroastrian G30 Coding Event Number
+RANGE: 10054 to 19707
+	N	Mean	Std. Deviation
+Total	86	13645.814	4693.269
+
+
+176) BAHG30
+Baha'i G30 (General Financial Support)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	86	1.628	0.486
+1)	32	37.2
+2)	54	62.8
+Missing	18154
+
+
+177) BAHG30N
+Baha'i G30 Coding Event Number
+RANGE: 10054 to 19707
+	N	Mean	Std. Deviation
+Total	86	13645.814	4693.269
+
+
+178) JAIG30
+Jain G30 (General Financial Support)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	86	1.628	0.486
+1)	32	37.2
+2)	54	62.8
+Missing	18154
+
+
+179) JAIG30N
+Jain G30 Coding Event Number
+RANGE: 10054 to 19707
+	N	Mean	Std. Deviation
+Total	86	13645.814	4693.269
+
+
+180) SIKG30
+Sikh G30 (General Financial Support)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	86	1.628	0.486
+1)	32	37.2
+2)	54	62.8
+Missing	18154
+
+
+181) SIKG30N
+Sikh G30 Coding Event Number
+RANGE: 10054 to 19707
+	N	Mean	Std. Deviation
+Total	86	13645.814	4693.269
+
+
+182) HING30
+Hindu G30 (General Financial Support)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	86	1.721	0.546
+1)	28	32.6
+2)	54	62.8
+3)	4	4.7
+Missing	18154
+
+
+183) HING30N
+Hindu G30 Coding Event Number
+RANGE: 10054 to 19707
+	N	Mean	Std. Deviation
+Total	86	13645.767	4693.209
+
+
+184) BUDG30
+Buddhist G30 (General Financial Support)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	86	1.721	0.546
+1)	28	32.6
+2)	54	62.8
+3)	4	4.7
+Missing	18154
+
+
+185) BUDG30N
+Buddhist G30 Coding Event Number
+RANGE: 10054 to 19707
+	N	Mean	Std. Deviation
+Total	86	13645.767	4693.209
+
+
+186) THEG30
+Theravada Buddhist G30 (General Financial Support)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	86	1.721	0.546
+1)	28	32.6
+2)	54	62.8
+3)	4	4.7
+Missing	18154
+
+
+187) THEG30N
+Theravada Buddhist G30 Coding Event Number
+RANGE: 10054 to 19707
+	N	Mean	Std. Deviation
+Total	86	13645.767	4693.209
+
+
+188) MAHG30
+Mahayana Buddhist G30 (General Financial Support)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	86	1.721	0.546
+1)	28	32.6
+2)	54	62.8
+3)	4	4.7
+Missing	18154
+
+
+189) MAHG30N
+Mahayana Buddhist G30 Coding Event Number
+RANGE: 10054 to 19707
+	N	Mean	Std. Deviation
+Total	86	13645.767	4693.209
+
+
+190) TIBG30
+Tibetan Buddhist G30 (General Financial Support)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	86	1.721	0.546
+1)	28	32.6
+2)	54	62.8
+3)	4	4.7
+Missing	18154
+
+
+191) TIBG30N
+Tibetan Buddhist G30 Coding Event Number
+RANGE: 10054 to 19707
+	N	Mean	Std. Deviation
+Total	86	13645.767	4693.209
+
+
+192) SHNG30
+Shinto G30 (General Financial Support)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	86	1.628	0.486
+1)	32	37.2
+2)	54	62.8
+Missing	18154
+
+
+193) SHNG30N
+Shinto G30 Coding Event Number
+RANGE: 10054 to 19707
+	N	Mean	Std. Deviation
+Total	86	13645.814	4693.269
+
+
+194) CNFG30
+Confucianist G30 (General Financial Support)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	86	1.628	0.486
+1)	32	37.2
+2)	54	62.8
+Missing	18154
+
+
+195) CNFG30N
+Confucianist G30 Coding Event Number
+RANGE: 10054 to 19707
+	N	Mean	Std. Deviation
+Total	86	13645.814	4693.269
+
+
+196) TAOG30
+Taoist G30 (General Financial Support)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	86	1.628	0.486
+1)	32	37.2
+2)	54	62.8
+Missing	18154
+
+
+197) TAOG30N
+Taoist G30 Coding Event Number
+RANGE: 10054 to 19707
+	N	Mean	Std. Deviation
+Total	86	13645.814	4693.269
+
+
+198) CHFG30
+Chinese Folk Religionist G30 (General Financial Support)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	86	1.628	0.486
+1)	32	37.2
+2)	54	62.8
+Missing	18154
+
+
+199) CHFG30N
+Chinese Folk Religionist G30 Coding Event Number
+RANGE: 10054 to 19707
+	N	Mean	Std. Deviation
+Total	86	13645.814	4693.269
+
+
+200) BUDCG30
+Buddhist Complex G30 (General Financial Support)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	86	1.721	0.546
+1)	28	32.6
+2)	54	62.8
+3)	4	4.7
+Missing	18154
+
+
+201) BUDCG30N
+Buddhist Complex G30 Coding Event Number
+RANGE: 10054 to 19707
+	N	Mean	Std. Deviation
+Total	86	13645.767	4693.209
+
+
+202) INDG30
+Indigenous (Ethnoreligionist) G30 (General Financial Support)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	86	1.628	0.486
+1)	32	37.2
+2)	54	62.8
+Missing	18154
+
+
+203) INDG30N
+Indigenous (Ethnoreligionist) G30 Coding Event Number
+RANGE: 10054 to 19707
+	N	Mean	Std. Deviation
+Total	86	13645.814	4693.269
+
+
+204) ATHG30
+Atheist G30 (General Financial Support)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	86	1.628	0.486
+1)	32	37.2
+2)	54	62.8
+Missing	18154
+
+
+205) ATHG30N
+Atheist G30 Coding Event Number
+RANGE: 10054 to 19707
+	N	Mean	Std. Deviation
+Total	86	13645.814	4693.269
+
+
+206) PRFG31
+Preferred Religion G31 (Discriminatory Financial Support)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	10317	2.923	1.003
+1)	1369	13.3
+1.5)	36	0.3
+2)	1455	14.1
+3)	3980	38.6
+3.5)	53	0.5
+4)	3424	33.2
+Missing	7923
+
+
+207) PRFG31N
+Preferred Religion G31 Coding Event Number
+RANGE: 10066 to 40208
+	N	Mean	Std. Deviation
+Total	10317	21910.643	8495.431
+
+
+208) NPRFG31
+Non-Preferred Religions G31 (Discriminatory Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	10265	0.879	0.681
+0)	2995	29.2
+0.5)	216	2.1
+1)	5175	50.4
+1.5)	36	0.4
+2)	1840	17.9
+3)	3	0.0
+Missing	7975
+
+
+209) NPRFG31N
+Non-Preferred Religions G31 Coding Event Number
+RANGE: 10066 to 40249
+	N	Mean	Std. Deviation
+Total	10265	22847.528	9046.67
+
+
+210) CHRG31
+Christian G31 (Discriminatory Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	10392	2.583	1.197
+0)	446	4.3
+1)	2017	19.4
+1.5)	36	0.3
+2)	1727	16.6
+3)	3321	32.0
+3.5)	53	0.5
+4)	2792	26.9
+Missing	7848
+
+
+211) CHRG31N
+Christian G31 Coding Event Number
+RANGE: 10066 to 40249
+	N	Mean	Std. Deviation
+Total	10392	21931.826	8471.953
+
+
+212) WCHRG31
+Western Christian G31 (Discriminatory Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	10387	2.467	1.244
+0)	648	6.2
+1)	2202	21.2
+1.5)	36	0.3
+2)	1727	16.6
+3)	3158	30.4
+3.5)	53	0.5
+4)	2563	24.7
+Missing	7853
+
+
+213) WCHRG31N
+Western Christian G31 Coding Event Number
+RANGE: 10066 to 40249
+	N	Mean	Std. Deviation
+Total	10387	21895.253	8435.961
+
+
+214) CATG31
+Catholic G31 (Discriminatory Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	10351	2.251	1.3
+0)	1132	10.9
+1)	2318	22.4
+1.5)	36	0.3
+2)	1727	16.7
+3)	3053	29.5
+3.5)	53	0.5
+4)	2032	19.6
+Missing	7889
+
+
+215) CATG31N
+Catholic G31 Coding Event Number
+RANGE: 10066 to 40249
+	N	Mean	Std. Deviation
+Total	10391	22018.008	8505.413
+
+
+216) XPRTG31
+Extended Protestant G31 (Discriminatory Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	10283	1.559	1.216
+0)	2275	22.1
+0.5)	61	0.6
+1)	3275	31.8
+1.5)	36	0.4
+2)	1876	18.2
+3)	2119	20.6
+4)	641	6.2
+Missing	7957
+
+
+217) XPRTG31N
+Extended Protestant G31 Coding Event Number
+RANGE: 10066 to 40249
+	N	Mean	Std. Deviation
+Total	10283	22430.035	8784.042
+
+
+218) PRTG31
+Protestant G31 (Discriminatory Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	10230	1.552	1.212
+0)	2275	22.2
+0.5)	8	0.1
+1)	3340	32.6
+1.5)	36	0.4
+2)	1876	18.3
+3)	2054	20.1
+4)	641	6.3
+Missing	8010
+
+
+219) PRTG31N
+Protestant G31 Coding Event Number
+RANGE: 10066 to 40249
+	N	Mean	Std. Deviation
+Total	10330	22435.092	8782.952
+
+
+220) ANGG31
+Anglican G31 (Discriminatory Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	10236	1.096	0.927
+0)	2891	28.2
+0.5)	92	0.9
+1)	4309	42.1
+1.5)	36	0.4
+2)	1947	19.0
+3)	927	9.1
+4)	34	0.3
+Missing	8004
+
+
+221) ANGG31N
+Anglican G31 Coding Event Number
+RANGE: 10066 to 40249
+	N	Mean	Std. Deviation
+Total	10268	22515.412	8860.771
+
+
+222) PENG31
+Pentecostal G31 (Discriminatory Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	8469	1.101	0.855
+0)	2129	25.1
+0.5)	31	0.4
+1)	3862	45.6
+1.5)	36	0.4
+2)	1837	21.7
+3)	574	6.8
+Missing	9771
+
+
+223) PENG31N
+Pentecostal G31 Coding Event Number
+RANGE: 10066 to 40249
+	N	Mean	Std. Deviation
+Total	8501	23267.704	8934.807
+
+
+224) ORTG31
+Orthodox G31 (Discriminatory Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	10327	1.147	0.992
+0)	2731	26.4
+0.5)	207	2.0
+1)	4363	42.2
+1.5)	36	0.3
+2)	1924	18.6
+3)	787	7.6
+4)	279	2.7
+Missing	7913
+
+
+225) ORTG31N
+Orthodox G31 Coding Event Number
+RANGE: 10066 to 40249
+	N	Mean	Std. Deviation
+Total	10327	22838.28	9004
+
+
+226) CSYNG31
+Christian Syncretic G31 (Discriminatory Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	10265	0.879	0.681
+0)	2995	29.2
+0.5)	216	2.1
+1)	5175	50.4
+1.5)	36	0.4
+2)	1840	17.9
+3)	3	0.0
+Missing	7975
+
+
+227) CSYNG31N
+Christian Syncretic G31 Coding Event Number
+RANGE: 10066 to 40249
+	N	Mean	Std. Deviation
+Total	10265	22847.528	9046.67
+
+
+228) JEWG31
+Jewish G31 (Discriminatory Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	10230	1.11	0.947
+0)	2882	28.2
+0.5)	53	0.5
+1)	4363	42.6
+1.5)	36	0.4
+2)	1844	18.0
+3)	984	9.6
+4)	68	0.7
+Missing	8010
+
+
+229) JEWG31N
+Jewish G31 Coding Event Number
+RANGE: 10066 to 40167
+	N	Mean	Std. Deviation
+Total	10230	22442.509	8789.941
+
+
+230) MUSG31
+Muslim G31 (Discriminatory Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	10405	1.273	1.105
+0)	2593	24.9
+0.5)	196	1.9
+1)	4241	40.8
+1.5)	36	0.3
+2)	1647	15.8
+3)	1208	11.6
+4)	484	4.7
+Missing	7835
+
+
+231) MUSG31N
+Muslim G31 Coding Event Number
+RANGE: 10066 to 40172
+	N	Mean	Std. Deviation
+Total	10405	22856.232	8974.408
+
+
+232) SUNG31
+Sunni Muslim G31 (Discriminatory Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	10405	1.273	1.105
+0)	2593	24.9
+0.5)	196	1.9
+1)	4241	40.8
+1.5)	36	0.3
+2)	1647	15.8
+3)	1208	11.6
+4)	484	4.7
+Missing	7835
+
+
+233) SUNG31N
+Sunni Muslim G31 Coding Event Number
+RANGE: 10066 to 40172
+	N	Mean	Std. Deviation
+Total	10405	22856.232	8974.408
+
+
+234) SHIG31
+Shia Muslim G31 (Discriminatory Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	10212	1.19	1.038
+0)	2671	26.2
+0.5)	196	1.9
+1)	4280	41.9
+1.5)	36	0.4
+2)	1694	16.6
+3)	1012	9.9
+4)	323	3.2
+Missing	8028
+
+
+235) SHIG31N
+Shia Muslim G31 Coding Event Number
+RANGE: 10066 to 40296
+	N	Mean	Std. Deviation
+Total	10280	22796.005	9037.36
+
+
+236) IBAG31
+Ibadi Muslim G31 (Discriminatory Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	10212	1.18	1.031
+0)	2671	26.2
+0.5)	196	1.9
+1)	4330	42.4
+1.5)	36	0.4
+2)	1694	16.6
+3)	962	9.4
+4)	323	3.2
+Missing	8028
+
+
+237) IBAG31N
+Ibadi Muslim G31 Coding Event Number
+RANGE: 10066 to 40172
+	N	Mean	Std. Deviation
+Total	10280	22761.226	8985.091
+
+
+238) ZORG31
+Zoroastrian G31 (Discriminatory Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	10265	0.879	0.681
+0)	2995	29.2
+0.5)	216	2.1
+1)	5175	50.4
+1.5)	36	0.4
+2)	1840	17.9
+3)	3	0.0
+Missing	7975
+
+
+239) ZORG31N
+Zoroastrian G31 Coding Event Number
+RANGE: 10066 to 40249
+	N	Mean	Std. Deviation
+Total	10265	22847.528	9046.67
+
+
+240) BAHG31
+Baha'i G31 (Discriminatory Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	9948	0.891	0.687
+0)	2868	28.8
+0.5)	177	1.8
+1)	5029	50.6
+1.5)	36	0.4
+2)	1820	18.3
+3)	18	0.2
+Missing	8292
+
+
+241) BAHG31N
+Baha'i G31 Coding Event Number
+RANGE: 10066 to 40249
+	N	Mean	Std. Deviation
+Total	9948	22903.102	9039.28
+
+
+242) JAIG31
+Jain G31 (Discriminatory Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	10265	0.879	0.681
+0)	2995	29.2
+0.5)	216	2.1
+1)	5175	50.4
+1.5)	36	0.4
+2)	1840	17.9
+3)	3	0.0
+Missing	7975
+
+
+243) JAIG31N
+Jain G31 Coding Event Number
+RANGE: 10066 to 40249
+	N	Mean	Std. Deviation
+Total	10265	22847.528	9046.67
+
+
+244) SIKG31
+Sikh G31 (Discriminatory Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	10265	0.886	0.691
+0)	2995	29.2
+0.5)	216	2.1
+1)	5143	50.1
+1.5)	36	0.4
+2)	1840	17.9
+3)	35	0.3
+Missing	7975
+
+
+245) SIKG31N
+Sikh G31 Coding Event Number
+RANGE: 10066 to 40249
+	N	Mean	Std. Deviation
+Total	10265	22847.525	9046.665
+
+
+246) HING31
+Hindu G31 (Discriminatory Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	10265	0.93	0.745
+0)	2928	28.5
+0.5)	216	2.1
+1)	5003	48.7
+1.5)	36	0.4
+2)	1860	18.1
+3)	222	2.2
+Missing	7975
+
+
+247) HING31N
+Hindu G31 Coding Event Number
+RANGE: 10066 to 40249
+	N	Mean	Std. Deviation
+Total	10265	22847.464	9046.594
+
+
+248) BUDG31
+Buddhist G31 (Discriminatory Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	10265	1.016	0.859
+0)	2837	27.6
+0.5)	216	2.1
+1)	4765	46.4
+1.5)	36	0.4
+2)	1840	17.9
+3)	459	4.5
+4)	112	1.1
+Missing	7975
+
+
+249) BUDG31N
+Buddhist G31 Coding Event Number
+RANGE: 10066 to 40249
+	N	Mean	Std. Deviation
+Total	10265	22847.539	9046.528
+
+
+250) THEG31
+Theravada Buddhist G31 (Discriminatory Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	10174	0.957	0.786
+0)	2901	28.5
+0.5)	216	2.1
+1)	4836	47.5
+1.5)	36	0.4
+2)	1840	18.1
+3)	321	3.2
+4)	24	0.2
+Missing	8066
+
+
+251) THEG31N
+Theravada Buddhist G31 Coding Event Number
+RANGE: 10066 to 40249
+	N	Mean	Std. Deviation
+Total	10224	22806.674	9041.558
+
+
+252) MAHG31
+Mahayana Buddhist G31 (Discriminatory Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	10149	0.946	0.772
+0)	2924	28.8
+0.5)	216	2.1
+1)	4819	47.5
+1.5)	36	0.4
+2)	1840	18.1
+3)	314	3.1
+Missing	8091
+
+
+253) MAHG31N
+Mahayana Buddhist G31 Coding Event Number
+RANGE: 10066 to 40249
+	N	Mean	Std. Deviation
+Total	10262	22844.496	9046.105
+
+
+254) TIBG31
+Tibetan Buddhist G31 (Discriminatory Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	10106	0.961	0.799
+0)	2860	28.3
+0.5)	216	2.1
+1)	4838	47.9
+1.5)	36	0.4
+2)	1840	18.2
+3)	228	2.3
+4)	88	0.9
+Missing	8134
+
+
+255) TIBG31N
+Tibetan Buddhist G31 Coding Event Number
+RANGE: 10066 to 40249
+	N	Mean	Std. Deviation
+Total	10227	22809.785	9042.06
+
+
+256) SHNG31
+Shinto G31 (Discriminatory Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	10265	0.894	0.704
+0)	2981	29.0
+0.5)	216	2.1
+1)	5130	50.0
+1.5)	36	0.4
+2)	1840	17.9
+3)	48	0.5
+4)	14	0.1
+Missing	7975
+
+
+257) SHNG31N
+Shinto G31 Coding Event Number
+RANGE: 10066 to 40249
+	N	Mean	Std. Deviation
+Total	10265	22847.523	9046.663
+
+
+258) CNFG31
+Confucianist G31 (Discriminatory Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	10265	0.882	0.684
+0)	2985	29.1
+0.5)	216	2.1
+1)	5175	50.4
+1.5)	36	0.4
+2)	1840	17.9
+3)	13	0.1
+Missing	7975
+
+
+259) CNFG31N
+Confucianist G31 Coding Event Number
+RANGE: 10066 to 40249
+	N	Mean	Std. Deviation
+Total	10265	22847.521	9046.66
+
+
+260) TAOG31
+Taoist G31 (Discriminatory Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	10265	0.887	0.693
+0)	2995	29.2
+0.5)	216	2.1
+1)	5137	50.0
+1.5)	36	0.4
+2)	1840	17.9
+3)	41	0.4
+Missing	7975
+
+
+261) TAOG31N
+Taoist G31 Coding Event Number
+RANGE: 10066 to 40249
+	N	Mean	Std. Deviation
+Total	10265	22847.525	9046.666
+
+
+262) CHFG31
+Chinese Folk Religionist G31 (Discriminatory Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	10265	0.879	0.681
+0)	2995	29.2
+0.5)	216	2.1
+1)	5175	50.4
+1.5)	36	0.4
+2)	1840	17.9
+3)	3	0.0
+Missing	7975
+
+
+263) CHFG31N
+Chinese Folk Religionist G31 Coding Event Number
+RANGE: 10066 to 40249
+	N	Mean	Std. Deviation
+Total	10265	22847.528	9046.67
+
+
+264) BUDCG31
+Buddhist Complex G31 (Discriminatory Financial Support)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	10265	1.022	0.866
+0)	2823	27.5
+0.5)	216	2.1
+1)	4765	46.4
+1.5)	36	0.4
+2)	1840	17.9
+3)	459	4.5
+4)	126	1.2
+Missing	7975
+
+
+265) BUDCG31N
+Buddhist Complex G31 Coding Event Number
+RANGE: 10066 to 40249
+	N	Mean	Std. Deviation
+Total	10265	22847.537	9046.527
+
+
+266) INDG31
+Indigenous (Ethnoreligionist) G31 (Discriminatory Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	10265	0.88	0.683
+0)	2995	29.2
+0.5)	216	2.1
+1)	5170	50.4
+1.5)	36	0.4
+2)	1840	17.9
+3)	8	0.1
+Missing	7975
+
+
+267) INDG31N
+Indigenous (Ethnoreligionist) G31 Coding Event Number
+RANGE: 10066 to 40249
+	N	Mean	Std. Deviation
+Total	10265	22847.544	9046.688
+
+
+268) ATHG31
+Atheist G31 (Discriminatory Financial Support)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	9991	0.872	0.682
+0)	2965	29.7
+0.5)	215	2.2
+1)	4998	50.0
+1.5)	36	0.4
+2)	1774	17.8
+3)	3	0.0
+Missing	8249
+
+
+269) ATHG31N
+Atheist G31 Coding Event Number
+RANGE: 10066 to 40249
+	N	Mean	Std. Deviation
+Total	9991	22751.833	9084.768
+
+
+270) PRFG32
+Preferred Religion G32 (Discriminatory Tax Exemptions)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	5436	2.332	0.687
+1)	151	2.8
+2)	3864	71.1
+3)	871	16.0
+3.5)	33	0.6
+4)	517	9.5
+Missing	12804
+
+
+271) PRFG32N
+Preferred Religion G32 Coding Event Number
+RANGE: 10051 to 40193
+	N	Mean	Std. Deviation
+Total	5436	21127.649	8693.226
+
+
+272) NPRFG32
+Non-Preferred Religions G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5419	1.636	0.622
+0)	402	7.4
+0.5)	33	0.6
+1)	1125	20.8
+2)	3854	71.1
+3)	5	0.1
+Missing	12821
+
+
+273) NPRFG32N
+Non-Preferred Religions G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5419	21375.932	8765.051
+
+
+274) CHRG32
+Christian G32 (Discriminatory Tax Exemptions)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	5512	2.301	0.699
+1)	237	4.3
+2)	3910	70.9
+3)	815	14.8
+3.5)	33	0.6
+4)	517	9.4
+Missing	12728
+
+
+275) CHRG32N
+Christian G32 Coding Event Number
+RANGE: 10051 to 40193
+	N	Mean	Std. Deviation
+Total	5512	21162.538	8639.477
+
+
+276) WCHRG32
+Western Christian G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	5504	2.229	0.726
+0)	74	1.3
+0.5)	33	0.6
+1)	237	4.3
+2)	3910	71.0
+3)	807	14.7
+4)	443	8.0
+Missing	12736
+
+
+277) WCHRG32N
+Western Christian G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5504	21161.612	8645.735
+
+
+278) CATG32
+Catholic G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	5504	2.229	0.726
+0)	74	1.3
+0.5)	33	0.6
+1)	237	4.3
+2)	3910	71.0
+3)	807	14.7
+4)	443	8.0
+Missing	12736
+
+
+279) CATG32N
+Catholic G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5504	21161.612	8645.735
+
+
+280) XPRTG32
+Extended Protestant G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	5419	1.832	0.686
+0)	352	6.5
+0.5)	33	0.6
+1)	684	12.6
+2)	3826	70.6
+3)	520	9.6
+4)	4	0.1
+Missing	12821
+
+
+281) XPRTG32N
+Extended Protestant G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5419	21375.99	8764.843
+
+
+282) PRTG32
+Protestant G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	5419	1.807	0.698
+0)	398	7.3
+0.5)	33	0.6
+1)	684	12.6
+2)	3826	70.6
+3)	474	8.7
+4)	4	0.1
+Missing	12821
+
+
+283) PRTG32N
+Protestant G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5419	21375.998	8764.852
+
+
+284) ANGG32
+Anglican G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5372	1.765	0.663
+0)	356	6.6
+0.5)	33	0.6
+1)	828	15.4
+2)	3827	71.2
+3)	328	6.1
+Missing	12868
+
+
+285) ANGG32N
+Anglican G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5404	21393.366	8768.312
+
+
+286) PENG32
+Pentecostal G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	4971	1.737	0.675
+0)	376	7.6
+0.5)	33	0.7
+1)	769	15.5
+2)	3531	71.0
+3)	262	5.3
+Missing	13269
+
+
+287) PENG32N
+Pentecostal G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5003	21949.018	8656.274
+
+
+288) ORTG32
+Orthodox G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	5427	1.876	0.686
+
+
+289) ORTG32N
+Orthodox G32 Coding Event Number
+RANGE: 10051 to 40193
+	N	Mean	Std. Deviation
+Total	5427	21376.457	8758.551
+
+
+290) CSYNG32
+Christian Syncretic G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5502	1.611	0.648
+0)	485	8.8
+0.5)	33	0.6
+1)	1125	20.4
+2)	3854	70.0
+3)	5	0.1
+Missing	12738
+
+
+291) CSYNG32N
+Christian Syncretic G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5502	21477.804	8737.543
+
+
+292) JEWG32
+Jewish G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5432	1.805	0.667
+0)	334	6.1
+0.5)	33	0.6
+1)	777	14.3
+2)	3853	70.9
+3)	435	8.0
+Missing	12808
+
+
+293) JEWG32N
+Jewish G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5432	21352.012	8768.037
+
+
+294) MUSG32
+Muslim G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5419	1.829	0.679
+0)	360	6.6
+0.5)	7	0.1
+1)	698	12.9
+2)	3853	71.1
+3)	501	9.2
+Missing	12821
+
+
+295) MUSG32N
+Muslim G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5419	21281.43	8667.198
+
+
+296) SUNG32
+Sunni Muslim G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5419	1.827	0.678
+0)	360	6.6
+0.5)	7	0.1
+1)	703	13.0
+2)	3853	71.1
+3)	496	9.2
+Missing	12821
+
+
+297) SUNG32N
+Sunni Muslim G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5419	21281.431	8667.198
+
+
+298) SHIG32
+Shia Muslim G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5419	1.827	0.678
+0)	360	6.6
+0.5)	7	0.1
+1)	703	13.0
+2)	3853	71.1
+3)	496	9.2
+Missing	12821
+
+
+299) SHIG32N
+Shia Muslim G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5419	21281.431	8667.198
+
+
+300) IBAG32
+Ibadi Muslim G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5419	1.8	0.671
+
+
+301) IBAG32N
+Ibadi Muslim G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5419	21281.446	8667.212
+
+
+302) ZORG32
+Zoroastrian G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5419	1.636	0.622
+0)	402	7.4
+0.5)	33	0.6
+1)	1125	20.8
+2)	3854	71.1
+3)	5	0.1
+Missing	12821
+
+
+303) ZORG32N
+Zoroastrian G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5419	21375.932	8765.051
+
+
+304) BAHG32
+Baha'i G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5353	1.66	0.618
+0)	357	6.7
+0.5)	33	0.6
+1)	1110	20.7
+2)	3801	71.0
+3)	52	1.0
+Missing	12887
+
+
+305) BAHG32N
+Baha'i G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5353	21488.582	8755.564
+
+
+306) JAIG32
+Jain G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5419	1.636	0.622
+0)	402	7.4
+0.5)	33	0.6
+1)	1125	20.8
+2)	3854	71.1
+3)	5	0.1
+Missing	12821
+
+
+307) JAIG32N
+Jain G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5419	21375.932	8765.051
+
+
+308) SIKG32
+Sikh G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5419	1.648	0.628
+0)	402	7.4
+0.5)	33	0.6
+1)	1093	20.2
+2)	3854	71.1
+3)	37	0.7
+Missing	12821
+
+
+309) SIKG32N
+Sikh G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5419	21375.926	8765.042
+
+
+310) HING32
+Hindu G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5419	1.648	0.628
+0)	402	7.4
+0.5)	33	0.6
+1)	1093	20.2
+2)	3854	71.1
+3)	37	0.7
+Missing	12821
+
+
+311) HING32N
+Hindu G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5419	21375.926	8765.042
+
+
+312) BUDG32
+Buddhist G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5419	1.661	0.636
+0)	402	7.4
+0.5)	33	0.6
+1)	1056	19.5
+2)	3854	71.1
+3)	74	1.4
+Missing	12821
+
+
+313) BUDG32N
+Buddhist G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5419	21375.937	8765.038
+
+
+314) THEG32
+Theravada Buddhist G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5419	1.661	0.636
+0)	402	7.4
+0.5)	33	0.6
+1)	1056	19.5
+2)	3854	71.1
+3)	74	1.4
+Missing	12821
+
+
+315) THEG32N
+Theravada Buddhist G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5419	21375.937	8765.038
+
+
+316) MAHG32
+Mahayana Buddhist G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5419	1.661	0.636
+0)	402	7.4
+0.5)	33	0.6
+1)	1056	19.5
+2)	3854	71.1
+3)	74	1.4
+Missing	12821
+
+
+317) MAHG32N
+Mahayana Buddhist G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5419	21375.937	8765.038
+
+
+318) TIBG32
+Tibetan Buddhist G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5419	1.661	0.636
+0)	402	7.4
+0.5)	33	0.6
+1)	1056	19.5
+2)	3854	71.1
+3)	74	1.4
+Missing	12821
+
+
+319) TIBG32N
+Tibetan Buddhist G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5419	21375.937	8765.038
+
+
+320) SHNG32
+Shinto G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5419	1.636	0.622
+0)	402	7.4
+0.5)	33	0.6
+1)	1125	20.8
+2)	3854	71.1
+3)	5	0.1
+Missing	12821
+
+
+321) SHNG32N
+Shinto G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5419	21375.932	8765.051
+
+
+322) CNFG32
+Confucianist G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5419	1.636	0.622
+0)	402	7.4
+0.5)	33	0.6
+1)	1125	20.8
+2)	3854	71.1
+3)	5	0.1
+Missing	12821
+
+
+323) CNFG32N
+Confucianist G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5419	21375.932	8765.051
+
+
+324) TAOG32
+Taoist G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5419	1.636	0.622
+0)	402	7.4
+0.5)	33	0.6
+1)	1125	20.8
+2)	3854	71.1
+3)	5	0.1
+Missing	12821
+
+
+325) TAOG32N
+Taoist G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5419	21375.932	8765.051
+
+
+326) CHFG32
+Chinese Folk Religionist G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5419	1.636	0.622
+0)	402	7.4
+0.5)	33	0.6
+1)	1125	20.8
+2)	3854	71.1
+3)	5	0.1
+Missing	12821
+
+
+327) CHFG32N
+Chinese Folk Religionist G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5419	21375.932	8765.051
+
+
+328) BUDCG32
+Buddhist Complex G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5419	1.661	0.636
+0)	402	7.4
+0.5)	33	0.6
+1)	1056	19.5
+2)	3854	71.1
+3)	74	1.4
+Missing	12821
+
+
+329) BUDCG32N
+Buddhist Complex G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5419	21375.937	8765.038
+
+
+330) INDG32
+Indigenous (Ethnoreligionist) G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5419	1.632	0.622
+0)	402	7.4
+0.5)	33	0.6
+1)	1147	21.2
+2)	3832	70.7
+3)	5	0.1
+Missing	12821
+
+
+331) INDG32N
+Indigenous (Ethnoreligionist) G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5419	21375.94	8765.046
+
+
+332) ATHG32
+Atheist G32 (Discriminatory Tax Exemptions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5321	1.631	0.625
+0)	402	7.6
+0.5)	33	0.6
+1)	1113	20.9
+2)	3768	70.8
+3)	5	0.1
+Missing	12919
+
+
+333) ATHG32N
+Atheist G32 Coding Event Number
+RANGE: 10051 to 40194
+	N	Mean	Std. Deviation
+Total	5321	21341.159	8838.659
+
+
+334) PRFG33
+Preferred Religion G33 (Levy of Religious Taxes/Tithes)
+RANGE: 2 to 4
+	N	Mean	Std. Deviation
+Total	1795	3.145	0.357
+2)	12	0.7
+3)	1475	82.2
+3.5)	71	4.0
+4)	237	13.2
+Missing	16445
+
+
+335) PRFG33N
+Preferred Religion G33 Coding Event Number
+RANGE: 12252 to 40108
+	N	Mean	Std. Deviation
+Total	1822	24066.13	7739.467
+
+
+336) NPRFG33
+Non-Preferred Religions G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1719	0.858	0.334
+0)	209	12.2
+0.5)	71	4.1
+1)	1439	83.7
+Missing	16521
+
+
+337) NPRFG33N
+Non-Preferred Religions G33 Coding Event Number
+RANGE: 12253 to 40219
+	N	Mean	Std. Deviation
+Total	1719	25738.304	8775.222
+
+
+338) CHRG33
+Christian G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1795	2.574	1.054
+0)	26	1.4
+1)	461	25.7
+2)	12	0.7
+3)	1014	56.5
+3.5)	71	4.0
+4)	211	11.8
+Missing	16445
+
+
+339) CHRG33N
+Christian G33 Coding Event Number
+RANGE: 12252 to 40199
+	N	Mean	Std. Deviation
+Total	1795	24846.988	8138.308
+
+
+340) WCHRG33
+Western Christian G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1795	2.375	1.14
+0)	26	1.4
+0.5)	71	4.0
+1)	533	29.7
+2)	12	0.7
+3)	942	52.5
+4)	211	11.8
+Missing	16445
+
+
+341) WCHRG33N
+Western Christian G33 Coding Event Number
+RANGE: 12252 to 40199
+	N	Mean	Std. Deviation
+Total	1795	24847.068	8138.284
+
+
+342) CATG33
+Catholic G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1723	1.955	1.207
+0)	54	3.1
+0.5)	71	4.1
+1)	816	47.4
+2)	12	0.7
+3)	587	34.1
+4)	183	10.6
+Missing	16517
+
+
+343) CATG33N
+Catholic G33 Coding Event Number
+RANGE: 12252 to 40219
+	N	Mean	Std. Deviation
+Total	1750	24906.925	8564.683
+
+
+344) XPRTG33
+Extended Protestant G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1795	1.858	1.194
+0)	103	5.7
+0.5)	71	4.0
+1)	849	47.3
+3)	638	35.5
+4)	134	7.5
+Missing	16445
+
+
+345) XPRTG33N
+Extended Protestant G33 Coding Event Number
+RANGE: 12253 to 40199
+	N	Mean	Std. Deviation
+Total	1795	25142.148	8302.329
+
+
+346) PRTG33
+Protestant G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1795	1.858	1.194
+0)	103	5.7
+0.5)	71	4.0
+1)	849	47.3
+3)	638	35.5
+4)	134	7.5
+Missing	16445
+
+
+347) PRTG33N
+Protestant G33 Coding Event Number
+RANGE: 12253 to 40199
+	N	Mean	Std. Deviation
+Total	1795	25142.148	8302.329
+
+
+348) ANGG33
+Anglican G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1719	1.191	0.873
+0)	103	6.0
+0.5)	71	4.1
+1)	1365	79.4
+3)	74	4.3
+4)	106	6.2
+Missing	16521
+
+
+349) ANGG33N
+Anglican G33 Coding Event Number
+RANGE: 12253 to 40219
+	N	Mean	Std. Deviation
+Total	1719	25738.118	8775.369
+
+
+350) PENG33
+Pentecostal G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1263	1.32	0.96
+0)	26	2.1
+0.5)	71	5.6
+1)	986	78.1
+3)	74	5.9
+4)	106	8.4
+Missing	16977
+
+
+351) PENG33N
+Pentecostal G33 Coding Event Number
+RANGE: 15878 to 40219
+	N	Mean	Std. Deviation
+Total	1263	25562.596	7987.299
+
+
+352) ORTG33
+Orthodox G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1719	1.224	0.902
+0)	178	10.4
+1)	1293	75.2
+3)	146	8.5
+3.5)	71	4.1
+4)	31	1.8
+Missing	16521
+
+
+353) ORTG33N
+Orthodox G33 Coding Event Number
+RANGE: 12253 to 40219
+	N	Mean	Std. Deviation
+Total	1719	25738.079	8775.375
+
+
+354) CSYNG33
+Christian Syncretic G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1719	0.858	0.334
+0)	209	12.2
+0.5)	71	4.1
+1)	1439	83.7
+Missing	16521
+
+
+355) CSYNG33N
+Christian Syncretic G33 Coding Event Number
+RANGE: 12253 to 40219
+	N	Mean	Std. Deviation
+Total	1719	25738.304	8775.222
+
+
+356) JEWG33
+Jewish G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1798	1.312	0.969
+0)	145	8.1
+0.5)	71	3.9
+1)	1247	69.4
+3)	263	14.6
+4)	72	4.0
+Missing	16442
+
+
+357) JEWG33N
+Jewish G33 Coding Event Number
+RANGE: 12253 to 40219
+	N	Mean	Std. Deviation
+Total	1798	25693.315	8582.809
+
+
+358) MUSG33
+Muslim G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1721	1.58	1.115
+0)	135	7.8
+0.5)	71	4.1
+1)	969	56.3
+3)	470	27.3
+4)	76	4.4
+Missing	16519
+
+
+359) MUSG33N
+Muslim G33 Coding Event Number
+RANGE: 12253 to 40219
+	N	Mean	Std. Deviation
+Total	1721	25096.227	8410.838
+
+
+360) SUNG33
+Sunni Muslim G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1793	1.437	1.042
+0)	135	7.5
+0.5)	71	4.0
+1)	1148	64.0
+3)	363	20.2
+4)	76	4.2
+Missing	16447
+
+
+361) SUNG33N
+Sunni Muslim G33 Coding Event Number
+RANGE: 12253 to 40219
+	N	Mean	Std. Deviation
+Total	1793	25092.061	8240.251
+
+
+362) SHIG33
+Shia Muslim G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1658	1.427	1.052
+0)	135	8.1
+0.5)	71	4.3
+1)	1051	63.4
+3)	325	19.6
+4)	76	4.6
+Missing	16582
+
+
+363) SHIG33N
+Shia Muslim G33 Coding Event Number
+RANGE: 12253 to 40219
+	N	Mean	Std. Deviation
+Total	1721	25096.348	8410.98
+
+
+364) IBAG33
+Ibadi Muslim G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1658	1.298	0.971
+0)	135	8.1
+0.5)	71	4.3
+1)	1158	69.8
+3)	218	13.1
+4)	76	4.6
+Missing	16582
+
+
+365) IBAG33N
+Ibadi Muslim G33 Coding Event Number
+RANGE: 12253 to 40219
+	N	Mean	Std. Deviation
+Total	1721	25096.41	8411.07
+
+
+366) ZORG33
+Zoroastrian G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1719	0.858	0.334
+0)	209	12.2
+0.5)	71	4.1
+1)	1439	83.7
+Missing	16521
+
+
+367) ZORG33N
+Zoroastrian G33 Coding Event Number
+RANGE: 12253 to 40219
+	N	Mean	Std. Deviation
+Total	1719	25738.304	8775.222
+
+
+368) BAHG33
+Baha'i G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1601	0.853	0.338
+0)	200	12.5
+0.5)	71	4.4
+1)	1330	83.1
+Missing	16639
+
+
+369) BAHG33N
+Baha'i G33 Coding Event Number
+RANGE: 12253 to 40219
+	N	Mean	Std. Deviation
+Total	1601	25589.25	8721.979
+
+
+370) JAIG33
+Jain G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1719	0.858	0.334
+0)	209	12.2
+0.5)	71	4.1
+1)	1439	83.7
+Missing	16521
+
+
+371) JAIG33N
+Jain G33 Coding Event Number
+RANGE: 12253 to 40219
+	N	Mean	Std. Deviation
+Total	1719	25738.304	8775.222
+
+
+372) SIKG33
+Sikh G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1719	0.858	0.334
+0)	209	12.2
+0.5)	71	4.1
+1)	1439	83.7
+Missing	16521
+
+
+373) SIKG33N
+Sikh G33 Coding Event Number
+RANGE: 12253 to 40219
+	N	Mean	Std. Deviation
+Total	1719	25738.304	8775.222
+
+
+374) HING33
+Hindu G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1719	0.858	0.334
+0)	209	12.2
+0.5)	71	4.1
+1)	1439	83.7
+Missing	16521
+
+
+375) HING33N
+Hindu G33 Coding Event Number
+RANGE: 12253 to 40219
+	N	Mean	Std. Deviation
+Total	1719	25738.304	8775.222
+
+
+376) BUDG33
+Buddhist G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1719	0.957	0.573
+0)	183	10.6
+0.5)	71	4.1
+1)	1406	81.8
+3)	33	1.9
+4)	26	1.5
+Missing	16521
+
+
+377) BUDG33N
+Buddhist G33 Coding Event Number
+RANGE: 12253 to 40219
+	N	Mean	Std. Deviation
+Total	1719	25738.347	8775.161
+
+
+378) THEG33
+Theravada Buddhist G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1719	0.957	0.573
+0)	183	10.6
+0.5)	71	4.1
+1)	1406	81.8
+3)	33	1.9
+4)	26	1.5
+Missing	16521
+
+
+379) THEG33N
+Theravada Buddhist G33 Coding Event Number
+RANGE: 12253 to 40219
+	N	Mean	Std. Deviation
+Total	1719	25738.347	8775.161
+
+
+380) MAHG33
+Mahayana Buddhist G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	1693	0.91	0.434
+0)	183	10.8
+0.5)	71	4.2
+1)	1406	83.0
+3)	33	1.9
+Missing	16547
+
+
+381) MAHG33N
+Mahayana Buddhist G33 Coding Event Number
+RANGE: 12253 to 40219
+	N	Mean	Std. Deviation
+Total	1719	25738.377	8775.191
+
+
+382) TIBG33
+Tibetan Buddhist G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	1693	0.91	0.434
+0)	183	10.8
+0.5)	71	4.2
+1)	1406	83.0
+3)	33	1.9
+Missing	16547
+
+
+383) TIBG33N
+Tibetan Buddhist G33 Coding Event Number
+RANGE: 12253 to 40219
+	N	Mean	Std. Deviation
+Total	1719	25738.377	8775.191
+
+
+384) SHNG33
+Shinto G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1719	0.858	0.334
+0)	209	12.2
+0.5)	71	4.1
+1)	1439	83.7
+Missing	16521
+
+
+385) SHNG33N
+Shinto G33 Coding Event Number
+RANGE: 12253 to 40219
+	N	Mean	Std. Deviation
+Total	1719	25738.304	8775.222
+
+
+386) CNFG33
+Confucianist G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1719	0.858	0.334
+0)	209	12.2
+0.5)	71	4.1
+1)	1439	83.7
+Missing	16521
+
+
+387) CNFG33N
+Confucianist G33 Coding Event Number
+RANGE: 12253 to 40219
+	N	Mean	Std. Deviation
+Total	1719	25738.304	8775.222
+
+
+388) TAOG33
+Taoist G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1719	0.858	0.334
+0)	209	12.2
+0.5)	71	4.1
+1)	1439	83.7
+Missing	16521
+
+
+389) TAOG33N
+Taoist G33 Coding Event Number
+RANGE: 12253 to 40219
+	N	Mean	Std. Deviation
+Total	1719	25738.304	8775.222
+
+
+390) CHFG33
+Chinese Folk Religionist G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1719	0.858	0.334
+0)	209	12.2
+0.5)	71	4.1
+1)	1439	83.7
+Missing	16521
+
+
+391) CHFG33N
+Chinese Folk Religionist G33 Coding Event Number
+RANGE: 12253 to 40219
+	N	Mean	Std. Deviation
+Total	1719	25738.304	8775.222
+
+
+392) BUDCG33
+Buddhist Complex G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1719	0.957	0.573
+0)	183	10.6
+0.5)	71	4.1
+1)	1406	81.8
+3)	33	1.9
+4)	26	1.5
+Missing	16521
+
+
+393) BUDCG33N
+Buddhist Complex G33 Coding Event Number
+RANGE: 12253 to 40219
+	N	Mean	Std. Deviation
+Total	1719	25738.347	8775.161
+
+
+394) INDG33
+Indigenous (Ethnoreligionist) G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1719	0.858	0.334
+0)	209	12.2
+0.5)	71	4.1
+1)	1439	83.7
+Missing	16521
+
+
+395) INDG33N
+Indigenous (Ethnoreligionist) G33 Coding Event Number
+RANGE: 12253 to 40219
+	N	Mean	Std. Deviation
+Total	1719	25738.304	8775.222
+
+
+396) ATHG33
+Atheist G33 (Levy of Religious Taxes/Tithes)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1696	0.869	0.321
+0)	186	11.0
+0.5)	71	4.2
+1)	1439	84.8
+Missing	16544
+
+
+397) ATHG33N
+Atheist G33 Coding Event Number
+RANGE: 12253 to 40219
+	N	Mean	Std. Deviation
+Total	1696	25872.009	8758.568
+
+

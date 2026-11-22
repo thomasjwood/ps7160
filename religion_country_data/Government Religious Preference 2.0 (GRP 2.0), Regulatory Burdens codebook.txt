@@ -1,0 +1,6096 @@
+Data File: GRPREG(Full Data Codebook)
+
+1) CCODE
+Country Code assigned by RCS, following the RCS convention (See Appendix A for codes by country)
+RANGE: 2 to 990
+	N	Mean	Std. Deviation
+Total	18240	399.995	258.345
+
+
+2) ABBREV
+3-letter abbreviation assigned by RCS, generally following COW (See Appendix A for abbreviations by country)
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	18240		
+
+
+3) YEAR
+Year
+RANGE: 1800 to 2015
+	N	Mean	Std. Deviation
+Total	18240	1943.052	58.51
+
+
+4) SCODE
+Country Code in Systemic Peace dataset (Polity)
+RANGE: 2 to 950
+	N	Mean	Std. Deviation
+Total	16239	401.567	250.953
+
+
+5) SABBREV
+3-letter abbreviation in Systemic Peace dataset (Polity)
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	16239		
+
+
+6) ARDAID
+Country Code assigned by Association of Religion Data Archives (ARDA)
+RANGE: 1 to 250
+	N	Mean	Std. Deviation
+Total	17185	125.74	70.554
+
+
+7) NUMISO
+Country Code assigned by International Standards Organization (used by Religion And State dataset)
+RANGE: 4 to 894
+	N	Mean	Std. Deviation
+Total	17319	425.177	253.367
+
+
+8) ISO3
+3-letter abbreviation assigned by International Standards Organization (used by Religion And State dataset)
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	17319		
+
+
+9) UNCODE
+Country/Region Code assigned by United Nations
+RANGE: 4 to 894
+	N	Mean	Std. Deviation
+Total	17319	425.177	253.367
+
+
+10) INDEP
+Whether state is independent on December 31 of observed year
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.997	0.052
+0) No	49	0.3
+1) Yes	18191	99.7
+
+
+11) INPOLIT
+Whether state is in Polity dataset at any time during observed year
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.886	0.318
+0) No	2077	11.4
+1) Yes	16163	88.6
+
+
+12) INCOW
+Whether state is in COW dataset at any time during the observed year
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.855	0.353
+0) No	2653	14.5
+1) Yes	15587	85.5
+
+
+13) CHRPF
+Christian Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.773	0.419
+0) Christian Religion is not the (or a) Preferred religion in the observed state-year.	4137	22.7
+1) Christian Religion is the (or a) Preferred religion in the observed state-year.	14103	77.3
+
+
+14) WCHRPF
+Western Christian Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.706	0.456
+0) Western Christian Religion is not the (or a) Preferred religion in the observed state-year.	5359	29.4
+1) Western Christian Religion is the (or a) Preferred religion in the observed state-year.	12881	70.6
+
+
+15) CATPF
+Catholic Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.62	0.486
+0) Catholic Religion is not the (or a) Preferred religion in the observed state-year.	6939	38.0
+1) Catholic Religion is the (or a) Preferred religion in the observed state-year.	11301	62.0
+
+
+16) XPRTPF
+Extended Protestant Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.277	0.448
+0) Extended Protestant Religion is not the (or a) Preferred religion in the observed state-year.	13188	72.3
+1) Extended Protestant Religion is the (or a) Preferred religion in the observed state-year.	5052	27.7
+
+
+17) PRTPF
+Protestant Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.265	0.441
+0) Protestant Religion is not the (or a) Preferred religion in the observed state-year.	13404	73.5
+1) Protestant Religion is the (or a) Preferred religion in the observed state-year.	4836	26.5
+
+
+18) ANGPF
+Anglican Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.214	0.41
+0) Anglican Religion is not the (or a) Preferred religion in the observed state-year.	14333	78.6
+1) Anglican Religion is the (or a) Preferred religion in the observed state-year.	3907	21.4
+
+
+19) PENPF
+Pentecostal Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.202	0.402
+0) Pentecostal Religion is not the (or a) Preferred religion in the observed state-year.	14549	79.8
+1) Pentecostal Religion is the (or a) Preferred religion in the observed state-year.	3691	20.2
+
+
+20) ORTPF
+Orthodox Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.088	0.283
+0) Orthodox Religion is not the (or a) Preferred religion in the observed state-year.	16644	91.3
+1) Orthodox Religion is the (or a) Preferred religion in the observed state-year.	1596	8.8
+
+
+21) CSYNPF
+Christian Syncretic Preference (binary)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	18240	0	0
+0) Christian Syncretic Religion is not the (or a) Preferred religion in the observed state-year.	18240	100.0
+
+
+22) JEWPF
+Jewish Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.004	0.061
+0) Jewish Religion is not the (or a) Preferred religion in the observed state-year.	18172	99.6
+1) Jewish Religion is the (or a) Preferred religion in the observed state-year.	68	0.4
+
+
+23) MUSPF
+Muslim Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.228	0.419
+0) Muslim Religion is not the (or a) Preferred religion in the observed state-year.	14085	77.2
+1) Muslim Religion is the (or a) Preferred religion in the observed state-year.	4155	22.8
+
+
+24) SUNPF
+Sunni Muslim Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.215	0.411
+0) Sunni Muslim Religion is not the (or a) Preferred religion in the observed state-year.	14327	78.5
+1) Sunni Muslim Religion is the (or a) Preferred religion in the observed state-year.	3913	21.5
+
+
+25) SHIPF
+Shia Muslim Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.073	0.259
+0) Shia Muslim Religion is not the (or a) Preferred religion in the observed state-year.	16917	92.7
+1) Shia Muslim Religion is the (or a) Preferred religion in the observed state-year.	1323	7.3
+
+
+26) IBAPF
+Ibadi Muslim Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.047	0.212
+0) Ibadi Muslim Religion is not the (or a) Preferred religion in the observed state-year.	17376	95.3
+1) Ibadi Muslim Religion is the (or a) Preferred religion in the observed state-year.	864	4.7
+
+
+27) ZORPF
+Zoroastrian Preference (binary)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	18240	0	0
+0) Zoroastrian Religion is not the (or a) Preferred religion in the observed state-year.	18240	100.0
+
+
+28) BAHPF
+Baha'i Preference (binary)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	18240	0	0
+0) Baha'i Religion is not the (or a) Preferred religion in the observed state-year.	18240	100.0
+
+
+29) JAIPF
+Jain Preference (binary)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	18240	0	0
+0) Jain Religion is not the (or a) Preferred religion in the observed state-year.	18240	100.0
+
+
+30) SIKPF
+Sikh Preference (binary)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	18240	0	0
+0) Sikh Religion is not the (or a) Preferred religion in the observed state-year.	18240	100.0
+
+
+31) HINPF
+Hindu Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.021	0.144
+0) Hindu Religion is not the (or a) Preferred religion in the observed state-year.	17851	97.9
+1) Hindu Religion is the (or a) Preferred religion in the observed state-year.	389	2.1
+
+
+32) BUDPF
+Buddhist Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.049	0.217
+0) Buddhist Religion is not the (or a) Preferred religion in the observed state-year.	17340	95.1
+1) Buddhist Religion is the (or a) Preferred religion in the observed state-year.	900	4.9
+
+
+33) THEPF
+Theravada Buddhist Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.033	0.178
+0) Theravada Buddhist Religion is not the (or a) Preferred religion in the observed state-year.	17645	96.7
+1) Theravada Buddhist Religion is the (or a) Preferred religion in the observed state-year.	595	3.3
+
+
+34) MAHPF
+Mahayana Buddhist Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.018	0.132
+0) Mahayana Buddhist Religion is not the (or a) Preferred religion in the observed state-year.	17917	98.2
+1) Mahayana Buddhist Religion is the (or a) Preferred religion in the observed state-year.	323	1.8
+
+
+35) TIBPF
+Tibetan Buddhist Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.012	0.108
+0) Tibetan Buddhist Religion is not the (or a) Preferred religion in the observed state-year.	18024	98.8
+1) Tibetan Buddhist Religion is the (or a) Preferred religion in the observed state-year.	216	1.2
+
+
+36) SHNPF
+Shinto Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.012	0.108
+0) Shinto is not the (or a) Preferred religion in the observed state-year.	18024	98.8
+1) Shinto is the (or a) Preferred religion in the observed state-year.	216	1.2
+
+
+37) CNFPF
+Confucianist Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.018	0.133
+0) Confucianist Religion is not the (or a) Preferred religion in the observed state-year.	17913	98.2
+1) Confucianist Religion is the (or a) Preferred religion in the observed state-year.	327	1.8
+
+
+38) TAOPF
+Taoist Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.004	0.06
+0) Taoist Religion is not the (or a) Preferred religion in the observed state-year.	18173	99.6
+1) Taoist Religion is the (or a) Preferred religion in the observed state-year.	67	0.4
+
+
+39) CHFPF
+Chinese Folk Religionist Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.004	0.06
+0) Chinese Folk Religionist Religion is not the (or a) Preferred religion in the observed state-year.	18173	99.6
+1) Chinese Folk Religionist Religion is the (or a) Preferred religion in the observed state-year.	67	0.4
+
+
+40) BUDCPF
+Buddhist Complex Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.061	0.24
+0) Buddhist Complex Religion is not the (or a) Preferred religion in the observed state-year.	17120	93.9
+1) Buddhist Complex Religion is the (or a) Preferred religion in the observed state-year.	1120	6.1
+
+
+41) INDPF
+Indigenous (Ethnoreligionist) Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.001	0.033
+0) Indigenous (Ethnoreligionist) Religion is not the (or a) Preferred religion in the observed state-year.	18220	99.9
+1) Indigenous (Ethnoreligionist) Religion is the (or a) Preferred religion in the observed state-year.	20	0.1
+
+
+42) NEWPF
+Neo-Religionist Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0	0.018
+0) Neo-Religionist Religion is not the (or a) Preferred religion in the observed state-year.	18234	100.0
+1) Neo-Religionist Religion is the (or a) Preferred religion in the observed state-year.	6	0.0
+
+
+43) ATHPF
+Atheist Preference (binary)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	18240	0.025	0.155
+0) Atheist is not the (or a) Preferred religion in the observed state-year.	17792	97.5
+1) Atheist is the (or a) Preferred religion in the observed state-year.	448	2.5
+
+
+44) PRFID
+ID code of Preferred religion (unordered categorical)
+RANGE: 101 to 9100
+	N	Mean	Std. Deviation
+Total	18240	1923.295	1927.242
+101)	101	0.6
+111)	59	0.3
+112)	141	0.8
+113)	95	0.5
+114)	525	2.9
+115)	68	0.4
+121)	25	0.1
+122)	29	0.2
+123)	219	1.2
+124)	48	0.3
+125)	544	3.0
+126)	20	0.1
+127)	22	0.1
+161)	200	1.1
+501)	36	0.2
+1100)	2483	13.6
+1200)	6922	37.9
+1300)	219	1.2
+1400)	1145	6.3
+1510)	216	1.2
+1600)	1022	5.6
+2100)	68	0.4
+3000)	491	2.7
+3100)	1441	7.9
+3200)	241	1.3
+3300)	1	0.0
+5000)	285	1.6
+6100)	478	2.6
+6300)	99	0.5
+7100)	77	0.4
+7200)	139	0.8
+7300)	260	1.4
+7800)	67	0.4
+8900)	6	0.0
+9100)	448	2.5
+
+
+45) PRFDS
+Description of Preferred denomination(s) (string)
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	18240		
+
+
+46) PRFG4LO
+Preferred Religion G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16387	1.701	0.799
+0)	1494	9.1
+1)	3798	23.2
+1.5)	28	0.2
+2)	9291	56.7
+3)	1647	10.1
+3.5)	8	0.0
+4)	121	0.7
+Missing	1853
+
+
+47) PRFG4C
+Preferred Religion G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16387	2.224	0.621
+
+
+48) PRFG4HI
+Preferred Religion G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16387	2.725	0.827
+0)	153	0.9
+1)	508	3.1
+1.5)	35	0.2
+2)	5963	36.4
+2.5)	44	0.3
+3)	6591	40.2
+3.5)	164	1.0
+4)	2929	17.9
+Missing	1853
+
+
+49) NPRFG4LO
+Non-Preferred Religions G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	15194	1.221	0.714
+0)	2507	16.5
+0.5)	170	1.1
+1)	6543	43.1
+1.5)	44	0.3
+2)	5930	39.0
+Missing	3046
+
+
+50) NPRFG4C
+Non-Preferred Religions G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 2.5
+	N	Mean	Std. Deviation
+Total	15194	1.518	0.537
+
+
+51) NPRFG4HI
+Non-Preferred Religions G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	15194	1.767	0.506
+0)	529	3.5
+0.5)	86	0.6
+1)	2370	15.6
+1.5)	35	0.2
+2)	12143	79.9
+3)	31	0.2
+Missing	3046
+
+
+52) CHRG4LO
+Christian G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16328	1.663	0.87
+0)	2246	13.8
+1)	2976	18.2
+1.5)	6	0.0
+2)	9272	56.8
+3)	1645	10.1
+3.5)	78	0.5
+4)	105	0.6
+Missing	1912
+
+
+53) CHRG4C
+Christian G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16328	2.038	0.754
+
+
+54) CHRG4HI
+Christian G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16328	2.459	0.892
+0)	659	4.0
+1)	731	4.5
+1.5)	35	0.2
+2)	7099	43.5
+2.5)	44	0.3
+3)	5900	36.1
+3.5)	169	1.0
+4)	1691	10.4
+Missing	1912
+
+
+55) WCHRG4LO
+Western Christian G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16148	1.631	0.878
+0)	2297	14.2
+1)	3200	19.8
+1.5)	6	0.0
+2)	9031	55.9
+3)	1354	8.4
+3.5)	78	0.5
+4)	182	1.1
+Missing	2092
+
+
+56) WCHRG4C
+Western Christian G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16148	2.003	0.761
+
+
+57) WCHRG4HI
+Western Christian G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16148	2.422	0.885
+0)	659	4.1
+1)	735	4.6
+1.5)	35	0.2
+2)	7467	46.2
+2.5)	44	0.3
+3)	5471	33.9
+3.5)	169	1.0
+4)	1568	9.7
+Missing	2092
+
+
+58) CATG4LO
+Catholic G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16593	1.39	0.861
+0)	3049	18.4
+1)	5011	30.2
+1.5)	31	0.2
+2)	7613	45.9
+3)	770	4.6
+3.5)	3	0.0
+4)	116	0.7
+Missing	1647
+
+
+59) CATG4C
+Catholic G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16593	1.827	0.758
+
+
+60) CATG4HI
+Catholic G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16593	2.291	0.922
+0)	866	5.2
+1)	1245	7.5
+1.5)	35	0.2
+2)	8105	48.8
+2.5)	44	0.3
+3)	4704	28.3
+3.5)	169	1.0
+4)	1425	8.6
+Missing	1647
+
+
+61) XPRTG4LO
+Extended Protestant G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15973	1.425	0.818
+0)	2574	16.1
+0.5)	141	0.9
+1)	4497	28.2
+1.5)	26	0.2
+2)	8123	50.9
+3)	535	3.3
+4)	77	0.5
+Missing	2267
+
+
+62) XPRTG4C
+Extended Protestant G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15973	1.755	0.702
+
+
+63) XPRTG4HI
+Extended Protestant G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15973	2.112	0.823
+0)	791	5.0
+0.5)	86	0.5
+1)	1526	9.6
+1.5)	35	0.2
+2)	9028	56.5
+2.5)	42	0.3
+3)	3912	24.5
+4)	553	3.5
+Missing	2267
+
+
+64) PRTG4LO
+Protestant G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15975	1.408	0.817
+0)	2590	16.2
+0.5)	141	0.9
+1)	4739	29.7
+1.5)	16	0.1
+2)	7877	49.3
+3)	535	3.3
+4)	77	0.5
+Missing	2265
+
+
+65) PRTG4C
+Protestant G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15975	1.74	0.699
+
+
+66) PRTG4HI
+Protestant G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15975	2.095	0.815
+0)	791	5.0
+0.5)	86	0.5
+1)	1528	9.6
+1.5)	35	0.2
+2)	9290	58.2
+2.5)	42	0.3
+3)	3650	22.8
+4)	553	3.5
+Missing	2265
+
+
+67) ANGG4LO
+Anglican G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15735	1.334	0.8
+0)	2745	17.4
+0.5)	141	0.9
+1)	5172	32.9
+1.5)	26	0.2
+2)	7314	46.5
+3)	260	1.7
+4)	77	0.5
+Missing	2505
+
+
+68) ANGG4C
+Anglican G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15735	1.645	0.665
+
+
+69) ANGG4HI
+Anglican G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15735	1.97	0.755
+0)	793	5.0
+0.5)	86	0.5
+1)	1848	11.7
+1.5)	35	0.2
+2)	10180	64.7
+2.5)	42	0.3
+3)	2421	15.4
+4)	330	2.1
+Missing	2505
+
+
+70) PENG4LO
+Pentecostal G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12742	1.352	0.796
+0)	2269	17.8
+0.5)	66	0.5
+1)	3876	30.4
+1.5)	26	0.2
+2)	6265	49.2
+3)	215	1.7
+4)	25	0.2
+Missing	5498
+
+
+71) PENG4C
+Pentecostal G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12742	1.685	0.611
+
+
+72) PENG4HI
+Pentecostal G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12742	2.029	0.666
+0)	468	3.7
+0.5)	11	0.1
+1)	1003	7.9
+1.5)	11	0.1
+2)	9120	71.6
+2.5)	42	0.3
+3)	1867	14.7
+4)	220	1.7
+Missing	5498
+
+
+73) ORTG4LO
+Orthodox G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	15913	1.346	0.781
+0)	2637	16.6
+0.5)	165	1.0
+1)	5226	32.8
+1.5)	29	0.2
+2)	7504	47.2
+3)	352	2.2
+Missing	2327
+
+
+74) ORTG4C
+Orthodox G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 3.5
+	N	Mean	Std. Deviation
+Total	15913	1.675	0.649
+
+
+75) ORTG4HI
+Orthodox G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15913	2.014	0.776
+0)	787	4.9
+0.5)	86	0.5
+1)	1674	10.5
+1.5)	35	0.2
+2)	10170	63.9
+2.5)	18	0.1
+3)	2670	16.8
+4)	473	3.0
+Missing	2327
+
+
+76) CSYNG4LO
+Christian Syncretic G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	15285	1.186	0.71
+0)	2635	17.2
+0.5)	170	1.1
+1)	6894	45.1
+1.5)	44	0.3
+2)	5542	36.3
+Missing	2955
+
+
+77) CSYNG4C
+Christian Syncretic G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 2.5
+	N	Mean	Std. Deviation
+Total	15285	1.501	0.539
+
+
+78) CSYNG4HI
+Christian Syncretic G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	15285	1.762	0.521
+0)	580	3.8
+0.5)	86	0.6
+1)	2410	15.8
+1.5)	35	0.2
+2)	12097	79.1
+3)	77	0.5
+Missing	2955
+
+
+79) JEWG4LO
+Jewish G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	16215	1.153	0.772
+0)	3664	22.6
+0.5)	192	1.2
+1)	6148	37.9
+1.5)	44	0.3
+2)	6118	37.7
+3)	49	0.3
+Missing	2025
+
+
+80) JEWG4C
+Jewish G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	16215	1.513	0.634
+
+
+81) JEWG4HI
+Jewish G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	16215	1.839	0.711
+0)	985	6.1
+0.5)	101	0.6
+1)	2336	14.4
+1.5)	35	0.2
+2)	11004	67.9
+2.5)	42	0.3
+3)	1584	9.8
+4)	128	0.8
+Missing	2025
+
+
+82) MUSG4LO
+Muslim G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15529	1.319	0.755
+0)	2149	13.8
+0.5)	165	1.1
+1)	6501	41.9
+1.5)	51	0.3
+2)	6217	40.0
+3)	402	2.6
+4)	44	0.3
+Missing	2711
+
+
+83) MUSG4C
+Muslim G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15529	1.752	0.655
+
+
+84) MUSG4HI
+Muslim G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15529	2.115	0.842
+0)	445	2.9
+0.5)	86	0.6
+1)	1895	12.2
+1.5)	35	0.2
+2)	9663	62.2
+2.5)	25	0.2
+3)	2061	13.3
+4)	1319	8.5
+Missing	2711
+
+
+85) SUNG4LO
+Sunni Muslim G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15432	1.297	0.756
+0)	2180	14.1
+0.5)	165	1.1
+1)	6688	43.3
+1.5)	51	0.3
+2)	5969	38.7
+3)	285	1.8
+4)	94	0.6
+Missing	2808
+
+
+86) SUNG4C
+Sunni Muslim G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15432	1.744	0.656
+
+
+87) SUNG4HI
+Sunni Muslim G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15432	2.108	0.841
+0)	445	2.9
+0.5)	86	0.6
+1)	1895	12.3
+1.5)	35	0.2
+2)	9683	62.7
+2.5)	25	0.2
+3)	1944	12.6
+4)	1319	8.5
+Missing	2808
+
+
+88) SHIG4LO
+Shia Muslim G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15575	1.26	0.745
+0)	2431	15.6
+0.5)	166	1.1
+1)	6674	42.9
+1.5)	51	0.3
+2)	6010	38.6
+3)	199	1.3
+4)	44	0.3
+Missing	2665
+
+
+89) SHIG4C
+Shia Muslim G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15575	1.688	0.613
+
+
+90) SHIG4HI
+Shia Muslim G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15575	2.063	0.804
+0)	460	3.0
+0.5)	86	0.6
+1)	1978	12.7
+1.5)	35	0.2
+2)	10028	64.4
+2.5)	25	0.2
+3)	1919	12.3
+4)	1044	6.7
+Missing	2665
+
+
+91) IBAG4LO
+Ibadi Muslim G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15430	1.266	0.75
+0)	2392	15.5
+0.5)	166	1.1
+1)	6583	42.7
+1.5)	51	0.3
+2)	6000	38.9
+3)	165	1.1
+4)	73	0.5
+Missing	2810
+
+
+92) IBAG4C
+Ibadi Muslim G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15430	1.693	0.617
+
+
+93) IBAG4HI
+Ibadi Muslim G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15430	2.065	0.798
+0)	446	2.9
+0.5)	86	0.6
+1)	1895	12.3
+1.5)	35	0.2
+2)	10064	65.2
+2.5)	25	0.2
+3)	1835	11.9
+4)	1044	6.8
+Missing	2810
+
+
+94) ZORG4LO
+Zoroastrian G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	15194	1.22	0.715
+0)	2519	16.6
+0.5)	170	1.1
+1)	6533	43.0
+1.5)	44	0.3
+2)	5928	39.0
+Missing	3046
+
+
+95) ZORG4C
+Zoroastrian G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 2.5
+	N	Mean	Std. Deviation
+Total	15194	1.518	0.537
+
+
+96) ZORG4HI
+Zoroastrian G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	15194	1.767	0.506
+0)	530	3.5
+0.5)	86	0.6
+1)	2362	15.5
+1.5)	35	0.2
+2)	12150	80.0
+3)	31	0.2
+Missing	3046
+
+
+97) BAHG4LO
+Baha'i G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	14565	1.2	0.747
+0)	2850	19.6
+0.5)	151	1.0
+1)	5708	39.2
+1.5)	44	0.3
+2)	5812	39.9
+Missing	3675
+
+
+98) BAHG4C
+Baha'i G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 2.75
+	N	Mean	Std. Deviation
+Total	14565	1.517	0.563
+
+
+99) BAHG4HI
+Baha'i G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	14565	1.779	0.524
+0)	542	3.7
+0.5)	67	0.5
+1)	2181	15.0
+1.5)	35	0.2
+2)	11587	79.6
+3)	139	1.0
+4)	14	0.1
+Missing	3675
+
+
+100) JAIG4LO
+Jain G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	15194	1.222	0.714
+0)	2507	16.5
+0.5)	170	1.1
+1)	6527	43.0
+1.5)	62	0.4
+2)	5928	39.0
+Missing	3046
+
+
+101) JAIG4C
+Jain G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 2.5
+	N	Mean	Std. Deviation
+Total	15194	1.519	0.538
+
+
+102) JAIG4HI
+Jain G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	15194	1.771	0.513
+0)	529	3.5
+0.5)	86	0.6
+1)	2370	15.6
+1.5)	35	0.2
+2)	12074	79.5
+3)	100	0.7
+Missing	3046
+
+
+103) SIKG4LO
+Sikh G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	15194	1.227	0.713
+0)	2467	16.2
+0.5)	170	1.1
+1)	6522	42.9
+1.5)	62	0.4
+2)	5973	39.3
+Missing	3046
+
+
+104) SIKG4C
+Sikh G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 2.66666674613953
+	N	Mean	Std. Deviation
+Total	15194	1.522	0.54
+
+
+105) SIKG4HI
+Sikh G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	15194	1.771	0.513
+0)	532	3.5
+0.5)	86	0.6
+1)	2367	15.6
+1.5)	35	0.2
+2)	12079	79.5
+3)	95	0.6
+Missing	3046
+
+
+106) HING4LO
+Hindu G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	15194	1.24	0.714
+0)	2428	16.0
+0.5)	170	1.1
+1)	6421	42.3
+1.5)	44	0.3
+2)	6131	40.4
+Missing	3046
+
+
+107) HING4C
+Hindu G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	15194	1.545	0.559
+
+
+108) HING4HI
+Hindu G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15194	1.801	0.565
+0)	532	3.5
+0.5)	86	0.6
+1)	2367	15.6
+1.5)	35	0.2
+2)	11717	77.1
+3)	358	2.4
+4)	99	0.7
+Missing	3046
+
+
+109) BUDG4LO
+Buddhist G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	15287	1.244	0.722
+0)	2439	16.0
+0.5)	170	1.1
+1)	6470	42.3
+1.5)	62	0.4
+2)	6065	39.7
+3)	81	0.5
+Missing	2953
+
+
+110) BUDG4C
+Buddhist G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 3.33333325386047
+	N	Mean	Std. Deviation
+Total	15287	1.568	0.561
+
+
+111) BUDG4HI
+Buddhist G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15287	1.833	0.595
+0)	512	3.3
+0.5)	86	0.6
+1)	2295	15.0
+1.5)	35	0.2
+2)	11642	76.2
+3)	523	3.4
+4)	194	1.3
+Missing	2953
+
+
+112) THEG4LO
+Theravada Buddhist G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	15297	1.249	0.725
+0)	2428	15.9
+0.5)	170	1.1
+1)	6456	42.2
+1.5)	62	0.4
+2)	6076	39.7
+3)	105	0.7
+Missing	2943
+
+
+113) THEG4C
+Theravada Buddhist G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 3.33333325386047
+	N	Mean	Std. Deviation
+Total	15297	1.562	0.57
+
+
+114) THEG4HI
+Theravada Buddhist G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15297	1.816	0.589
+0)	583	3.8
+0.5)	86	0.6
+1)	2272	14.9
+1.5)	35	0.2
+2)	11667	76.3
+2.5)	38	0.2
+3)	485	3.2
+4)	131	0.9
+Missing	2943
+
+
+115) MAHG4LO
+Mahayana Buddhist G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	15325	1.221	0.718
+0)	2574	16.8
+0.5)	170	1.1
+1)	6509	42.5
+1.5)	62	0.4
+2)	6010	39.2
+Missing	2915
+
+
+116) MAHG4C
+Mahayana Buddhist G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 3.33333325386047
+	N	Mean	Std. Deviation
+Total	15325	1.537	0.566
+
+
+117) MAHG4HI
+Mahayana Buddhist G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15325	1.795	0.59
+0)	654	4.3
+0.5)	86	0.6
+1)	2319	15.1
+1.5)	35	0.2
+2)	11699	76.3
+2.5)	38	0.2
+3)	381	2.5
+4)	113	0.7
+Missing	2915
+
+
+118) TIBG4LO
+Tibetan Buddhist G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	15168	1.243	0.705
+0)	2317	15.3
+0.5)	170	1.1
+1)	6564	43.3
+1.5)	62	0.4
+2)	6055	39.9
+Missing	3072
+
+
+119) TIBG4C
+Tibetan Buddhist G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 3.33333325386047
+	N	Mean	Std. Deviation
+Total	15168	1.554	0.555
+
+
+120) TIBG4HI
+Tibetan Buddhist G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15168	1.814	0.581
+0)	512	3.4
+0.5)	86	0.6
+1)	2342	15.4
+1.5)	35	0.2
+2)	11674	77.0
+3)	343	2.3
+4)	176	1.2
+Missing	3072
+
+
+121) SHNG4LO
+Shinto G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	15178	1.222	0.715
+0)	2507	16.5
+0.5)	170	1.1
+1)	6519	43.0
+1.5)	44	0.3
+2)	5938	39.1
+Missing	3062
+
+
+122) SHNG4C
+Shinto G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 2.5
+	N	Mean	Std. Deviation
+Total	15178	1.517	0.537
+
+
+123) SHNG4HI
+Shinto G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	15178	1.768	0.506
+0)	529	3.5
+0.5)	86	0.6
+1)	2354	15.5
+1.5)	35	0.2
+2)	12143	80.0
+3)	31	0.2
+Missing	3062
+
+
+124) CNFG4LO
+Confucianist G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	15194	1.217	0.715
+0)	2534	16.7
+0.5)	170	1.1
+1)	6545	43.1
+1.5)	44	0.3
+2)	5901	38.8
+Missing	3046
+
+
+125) CNFG4C
+Confucianist G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	15194	1.515	0.539
+
+
+126) CNFG4HI
+Confucianist G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15194	1.767	0.51
+0)	529	3.5
+0.5)	86	0.6
+1)	2394	15.8
+1.5)	35	0.2
+2)	12109	79.7
+3)	31	0.2
+4)	10	0.1
+Missing	3046
+
+
+127) TAOG4LO
+Taoist G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	15187	1.225	0.718
+0)	2493	16.4
+0.5)	170	1.1
+1)	6545	43.1
+1.5)	44	0.3
+2)	5897	38.8
+3)	38	0.3
+Missing	3053
+
+
+128) TAOG4C
+Taoist G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	15187	1.523	0.537
+0)	522	3.4
+0.333333343267441)	3	0.0
+0.400000005960464)	46	0.3
+0.5)	380	2.5
+0.600000023841858)	41	0.3
+0.666666686534882)	307	2.0
+0.75)	218	1.4
+0.800000011920929)	46	0.3
+0.833333313465118)	1	0.0
+1)	2503	16.5
+1.125)	1	0.0
+1.16666662693024)	14	0.1
+1.20000004768372)	76	0.5
+1.25)	401	2.6
+1.28571426868439)	40	0.3
+1.33333337306976)	610	4.0
+1.375)	38	0.3
+1.39999997615814)	194	1.3
+1.5)	1134	7.5
+1.57142853736877)	3	0.0
+1.58333337306976)	51	0.3
+1.60000002384186)	307	2.0
+1.66666662693024)	1124	7.4
+1.70000004768372)	12	0.1
+1.75)	690	4.5
+1.79999995231628)	320	2.1
+1.83333337306976)	162	1.1
+1.89999997615814)	1	0.0
+2)	5880	38.7
+2.33333325386047)	23	0.2
+2.5)	1	0.0
+3)	38	0.3
+Missing	3053
+
+
+129) TAOG4HI
+Taoist G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	15187	1.773	0.507
+0)	522	3.4
+0.5)	86	0.6
+1)	2332	15.4
+1.5)	35	0.2
+2)	12143	80.0
+3)	69	0.5
+Missing	3053
+
+
+130) CHFG4LO
+Chinese Folk Religionist G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	15194	1.216	0.716
+0)	2544	16.7
+0.5)	170	1.1
+1)	6545	43.1
+1.5)	44	0.3
+2)	5891	38.8
+Missing	3046
+
+
+131) CHFG4C
+Chinese Folk Religionist G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 2.5
+	N	Mean	Std. Deviation
+Total	15194	1.515	0.536
+
+
+132) CHFG4HI
+Chinese Folk Religionist G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	15194	1.767	0.506
+0)	529	3.5
+0.5)	86	0.6
+1)	2370	15.6
+1.5)	35	0.2
+2)	12143	79.9
+3)	31	0.2
+Missing	3046
+
+
+133) BUDCG4LO
+Buddhist Complex G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	15286	1.249	0.723
+0)	2428	15.9
+0.5)	170	1.1
+1)	6415	42.0
+1.5)	62	0.4
+2)	6130	40.1
+3)	81	0.5
+Missing	2954
+
+
+134) BUDCG4C
+Buddhist Complex G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 3.33333325386047
+	N	Mean	Std. Deviation
+Total	15286	1.571	0.558
+
+
+135) BUDCG4HI
+Buddhist Complex G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15286	1.835	0.593
+0)	503	3.3
+0.5)	86	0.6
+1)	2275	14.9
+1.5)	35	0.2
+2)	11670	76.3
+3)	523	3.4
+4)	194	1.3
+Missing	2954
+
+
+136) INDG4LO
+Indigenous (Ethnoreligionist) G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	15194	1.21	0.718
+0)	2592	17.1
+0.5)	170	1.1
+1)	6540	43.0
+1.5)	44	0.3
+2)	5848	38.5
+Missing	3046
+
+
+137) INDG4C
+Indigenous (Ethnoreligionist) G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 2.66666674613953
+	N	Mean	Std. Deviation
+Total	15194	1.517	0.54
+
+
+138) INDG4HI
+Indigenous (Ethnoreligionist) G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	15194	1.775	0.525
+0)	529	3.5
+0.5)	86	0.6
+1)	2375	15.6
+1.5)	35	0.2
+2)	12072	79.5
+3)	40	0.3
+4)	57	0.4
+Missing	3046
+
+
+139) ATHG4LO
+Atheist G4 Lowest score (Regulatory Burdens)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	15138	1.289	0.693
+0)	1980	13.1
+0.5)	170	1.1
+1)	6566	43.4
+1.5)	44	0.3
+2)	6340	41.9
+3)	38	0.3
+Missing	3102
+
+
+140) ATHG4C
+Atheist G4 Composite score (Regulatory Burdens)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	15138	1.566	0.517
+
+
+141) ATHG4HI
+Atheist G4 Highest score (Regulatory Burdens)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	15138	1.79	0.502
+0)	441	2.9
+0.5)	86	0.6
+1)	2328	15.4
+1.5)	35	0.2
+2)	12067	79.7
+3)	181	1.2
+Missing	3102
+
+
+142) PRFG40
+Preferred Religion G40 (General Religious Equality)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	12156	2.132	0.441
+1)	34	0.3
+2)	10938	90.0
+3)	733	6.0
+4)	451	3.7
+Missing	6084
+
+
+143) PRFG40N
+Preferred Religion G40 Coding Event Number
+RANGE: 10415 to 40275
+	N	Mean	Std. Deviation
+Total	12156	23601.967	8262.672
+
+
+144) NPRFG40
+Non-Preferred Religions G40 (General Religious Equality)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	11539	1.865	0.44
+0)	440	3.8
+1)	680	5.9
+2)	10419	90.3
+Missing	6701
+
+
+145) NPRFG40N
+Non-Preferred Religions G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	11725	23526.224	8168.335
+
+
+146) CHRG40
+Christian G40 (General Religious Equality)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12253	1.907	0.498
+0)	546	4.5
+1)	457	3.7
+2)	10883	88.8
+3)	321	2.6
+4)	46	0.4
+Missing	5987
+
+
+147) CHRG40N
+Christian G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	12253	23579.121	8146.455
+
+
+148) WCHRG40
+Western Christian G40 (General Religious Equality)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12253	1.887	0.494
+0)	546	4.5
+1)	581	4.7
+2)	10883	88.8
+3)	197	1.6
+4)	46	0.4
+Missing	5987
+
+
+149) WCHRG40N
+Western Christian G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	12253	23579.127	8146.455
+
+
+150) CATG40
+Catholic G40 (General Religious Equality)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12418	1.851	0.554
+0)	755	6.1
+1)	659	5.3
+2)	10736	86.5
+3)	222	1.8
+4)	46	0.4
+Missing	5822
+
+
+151) CATG40N
+Catholic G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	12418	23621.311	8121.918
+
+
+152) XPRTG40
+Extended Protestant G40 (General Religious Equality)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	12192	1.861	0.465
+0)	512	4.2
+1)	745	6.1
+2)	10858	89.1
+3)	77	0.6
+Missing	6048
+
+
+153) XPRTG40N
+Extended Protestant G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	12192	23542.575	8141.886
+
+
+154) PRTG40
+Protestant G40 (General Religious Equality)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	12192	1.861	0.465
+0)	512	4.2
+1)	745	6.1
+2)	10858	89.1
+3)	77	0.6
+Missing	6048
+
+
+155) PRTG40N
+Protestant G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	12192	23542.575	8141.886
+
+
+156) ANGG40
+Anglican G40 (General Religious Equality)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	12027	1.851	0.474
+0)	537	4.5
+1)	771	6.4
+2)	10668	88.7
+3)	51	0.4
+Missing	6213
+
+
+157) ANGG40N
+Anglican G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	12027	23636.077	8157.847
+
+
+158) PENG40
+Pentecostal G40 (General Religious Equality)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	10624	1.857	0.469
+0)	469	4.4
+1)	631	5.9
+2)	9473	89.2
+3)	51	0.5
+Missing	7616
+
+
+159) PENG40N
+Pentecostal G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	10624	24165.477	8167.234
+
+
+160) ORTG40
+Orthodox G40 (General Religious Equality)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	12023	1.889	0.483
+0)	512	4.3
+1)	579	4.8
+2)	10687	88.9
+3)	220	1.8
+4)	25	0.2
+Missing	6217
+
+
+161) ORTG40N
+Orthodox G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	12023	23638.392	8158.159
+
+
+162) CSYNG40
+Christian Syncretic G40 (General Religious Equality)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	11539	1.865	0.44
+0)	440	3.8
+1)	680	5.9
+2)	10419	90.3
+Missing	6701
+
+
+163) CSYNG40N
+Christian Syncretic G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	11725	23526.224	8168.335
+
+
+164) JEWG40
+Jewish G40 (General Religious Equality)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	12458	1.786	0.578
+0)	987	7.9
+1)	732	5.9
+2)	10694	85.8
+3)	45	0.4
+Missing	5782
+
+
+165) JEWG40N
+Jewish G40 Coding Event Number
+RANGE: 10415 to 40213
+	N	Mean	Std. Deviation
+Total	12458	23469.075	8051.666
+
+
+166) MUSG40
+Muslim G40 (General Religious Equality)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11842	2.016	0.544
+0)	323	2.7
+1)	342	2.9
+2)	10349	87.4
+3)	480	4.1
+4)	348	2.9
+Missing	6398
+
+
+167) MUSG40N
+Muslim G40 Coding Event Number
+RANGE: 10415 to 40275
+	N	Mean	Std. Deviation
+Total	11894	23932.029	8373.175
+
+
+168) SUNG40
+Sunni Muslim G40 (General Religious Equality)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11794	2	0.537
+0)	330	2.8
+1)	367	3.1
+2)	10408	88.2
+3)	348	3.0
+4)	341	2.9
+Missing	6446
+
+
+169) SUNG40N
+Sunni Muslim G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	11893	23798.718	8263.594
+
+
+170) SHIG40
+Shia Muslim G40 (General Religious Equality)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11904	1.899	0.521
+0)	561	4.7
+1)	557	4.7
+2)	10354	87.0
+3)	392	3.3
+4)	40	0.3
+Missing	6336
+
+
+171) SHIG40N
+Shia Muslim G40 Coding Event Number
+RANGE: 10415 to 40275
+	N	Mean	Std. Deviation
+Total	12003	23959.78	8385.652
+
+
+172) IBAG40
+Ibadi Muslim G40 (General Religious Equality)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	11649	1.889	0.482
+0)	512	4.4
+1)	502	4.3
+2)	10433	89.6
+3)	169	1.5
+4)	33	0.3
+Missing	6591
+
+
+173) IBAG40N
+Ibadi Muslim G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	11747	23684.092	8248.96
+
+
+174) ZORG40
+Zoroastrian G40 (General Religious Equality)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	11546	1.864	0.443
+0)	455	3.9
+1)	665	5.8
+2)	10426	90.3
+Missing	6694
+
+
+175) ZORG40N
+Zoroastrian G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	11732	23529.97	8167.327
+
+
+176) BAHG40
+Baha'i G40 (General Religious Equality)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	11462	1.812	0.531
+0)	738	6.4
+1)	683	6.0
+2)	10041	87.6
+Missing	6778
+
+
+177) BAHG40N
+Baha'i G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	11624	23777.259	8133.599
+
+
+178) JAIG40
+Jain G40 (General Religious Equality)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	11539	1.865	0.44
+0)	440	3.8
+1)	680	5.9
+2)	10419	90.3
+Missing	6701
+
+
+179) JAIG40N
+Jain G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	11725	23526.224	8168.335
+
+
+180) SIKG40
+Sikh G40 (General Religious Equality)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	11539	1.864	0.441
+0)	446	3.9
+1)	674	5.8
+2)	10419	90.3
+Missing	6701
+
+
+181) SIKG40N
+Sikh G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	11725	23526.268	8168.385
+
+
+182) HING40
+Hindu G40 (General Religious Equality)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11539	1.872	0.448
+0)	460	4.0
+1)	609	5.3
+2)	10419	90.3
+3)	51	0.4
+Missing	6701
+
+
+183) HING40N
+Hindu G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	11725	23526.24	8168.352
+
+
+184) BUDG40
+Buddhist G40 (General Religious Equality)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11548	1.88	0.459
+0)	480	4.2
+1)	550	4.8
+2)	10388	90.0
+3)	130	1.1
+Missing	6692
+
+
+185) BUDG40N
+Buddhist G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	11548	23532.779	8218.861
+
+
+186) THEG40
+Theravada Buddhist G40 (General Religious Equality)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11510	1.877	0.455
+0)	480	4.2
+1)	550	4.8
+2)	10388	90.3
+3)	92	0.8
+Missing	6730
+
+
+187) THEG40N
+Theravada Buddhist G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	11696	23502.904	8165.038
+
+
+188) MAHG40
+Mahayana Buddhist G40 (General Religious Equality)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11659	1.856	0.49
+0)	591	5.1
+1)	591	5.1
+2)	10388	89.1
+3)	89	0.8
+Missing	6581
+
+
+189) MAHG40N
+Mahayana Buddhist G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	11845	23626.908	8187.587
+
+
+190) TIBG40
+Tibetan Buddhist G40 (General Religious Equality)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11510	1.87	0.453
+0)	480	4.2
+1)	591	5.1
+2)	10388	90.3
+3)	51	0.4
+Missing	6730
+
+
+191) TIBG40N
+Tibetan Buddhist G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	11696	23503.342	8165.553
+
+
+192) SHNG40
+Shinto G40 (General Religious Equality)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	11539	1.865	0.44
+0)	440	3.8
+1)	680	5.9
+2)	10419	90.3
+Missing	6701
+
+
+193) SHNG40N
+Shinto G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	11725	23526.224	8168.335
+
+
+194) CNFG40
+Confucianist G40 (General Religious Equality)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	11539	1.861	0.448
+0)	464	4.0
+1)	680	5.9
+2)	10395	90.1
+Missing	6701
+
+
+195) CNFG40N
+Confucianist G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	11725	23526.071	8168.095
+
+
+196) TAOG40
+Taoist G40 (General Religious Equality)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11539	1.871	0.442
+0)	440	3.8
+1)	642	5.6
+2)	10419	90.3
+3)	38	0.3
+Missing	6701
+
+
+197) TAOG40N
+Taoist G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	11725	23526.399	8168.54
+
+
+198) CHFG40
+Chinese Folk Religionist G40 (General Religious Equality)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	11539	1.865	0.44
+0)	440	3.8
+1)	680	5.9
+2)	10419	90.3
+Missing	6701
+
+
+199) CHFG40N
+Chinese Folk Religionist G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	11725	23526.224	8168.335
+
+
+200) BUDCG40
+Buddhist Complex G40 (General Religious Equality)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11547	1.886	0.448
+0)	448	3.9
+1)	550	4.8
+2)	10419	90.2
+3)	130	1.1
+Missing	6693
+
+
+201) BUDCG40N
+Buddhist Complex G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	11547	23531.599	8218.291
+
+
+202) INDG40
+Indigenous (Ethnoreligionist) G40 (General Religious Equality)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	11539	1.865	0.44
+0)	440	3.8
+1)	680	5.9
+2)	10419	90.3
+Missing	6701
+
+
+203) INDG40N
+Indigenous (Ethnoreligionist) G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	11725	23526.224	8168.335
+
+
+204) ATHG40
+Atheist G40 (General Religious Equality)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	11535	1.878	0.427
+0)	399	3.5
+1)	642	5.6
+2)	10456	90.6
+3)	38	0.3
+Missing	6705
+
+
+205) ATHG40N
+Atheist G40 Coding Event Number
+RANGE: 10415 to 40188
+	N	Mean	Std. Deviation
+Total	11721	23522.004	8166.535
+
+
+206) PRFG41
+Preferred Religion G41 (Religionist Person)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	6460	2.592	0.74
+1)	582	9.0
+1.5)	35	0.5
+2)	1809	28.0
+2.5)	41	0.6
+3)	3527	54.6
+3.5)	107	1.7
+4)	359	5.6
+Missing	11780
+
+
+207) PRFG41N
+Preferred Religion G41 Coding Event Number
+RANGE: 10193 to 40332
+	N	Mean	Std. Deviation
+Total	6460	21099.978	8313.245
+
+
+208) NPRFG41
+Non-Preferred Religions G41 (Religionist Person)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5463	1.267	0.637
+0)	527	9.6
+0.5)	107	2.0
+1)	2795	51.2
+2)	2027	37.1
+3)	7	0.1
+Missing	12777
+
+
+209) NPRFG41N
+Non-Preferred Religions G41 Coding Event Number
+RANGE: 10194 to 40203
+	N	Mean	Std. Deviation
+Total	5463	21329.694	7779.139
+
+
+210) CHRG41
+Christian G41 (Religionist Person)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	6325	2.154	0.957
+0)	303	4.8
+0.5)	36	0.6
+1)	1323	20.9
+2)	1876	29.7
+2.5)	83	1.3
+3)	2441	38.6
+3.5)	107	1.7
+4)	156	2.5
+Missing	11915
+
+
+211) CHRG41N
+Christian G41 Coding Event Number
+RANGE: 10193 to 40273
+	N	Mean	Std. Deviation
+Total	6352	20794.285	8248.646
+
+
+212) WCHRG41
+Western Christian G41 (Religionist Person)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	6311	2.105	0.961
+0)	303	4.8
+0.5)	36	0.6
+1)	1455	23.1
+2)	1907	30.2
+2.5)	83	1.3
+3)	2264	35.9
+3.5)	107	1.7
+4)	156	2.5
+Missing	11929
+
+
+213) WCHRG41N
+Western Christian G41 Coding Event Number
+RANGE: 10193 to 40273
+	N	Mean	Std. Deviation
+Total	6338	20788.42	8256.93
+
+
+214) CATG41
+Catholic G41 (Religionist Person)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	6354	2.05	0.954
+0)	303	4.8
+0.5)	36	0.6
+1)	1568	24.7
+1.5)	35	0.6
+2)	2018	31.8
+2.5)	83	1.3
+3)	2048	32.2
+3.5)	107	1.7
+4)	156	2.5
+Missing	11886
+
+
+215) CATG41N
+Catholic G41 Coding Event Number
+RANGE: 10193 to 40273
+	N	Mean	Std. Deviation
+Total	6381	20788.524	8223.788
+
+
+216) XPRTG41
+Extended Protestant G41 (Religionist Person)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5986	1.603	0.868
+0)	459	7.7
+0.5)	143	2.4
+1)	2274	38.0
+2)	2059	34.4
+2.5)	42	0.7
+3)	1009	16.9
+Missing	12254
+
+
+217) XPRTG41N
+Extended Protestant G41 Coding Event Number
+RANGE: 10193 to 40273
+	N	Mean	Std. Deviation
+Total	5986	21329.878	8332.137
+
+
+218) PRTG41
+Protestant G41 (Religionist Person)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5844	1.561	0.836
+0)	459	7.9
+0.5)	143	2.4
+1)	2248	38.5
+2)	2159	36.9
+2.5)	42	0.7
+3)	793	13.6
+Missing	12396
+
+
+219) PRTG41N
+Protestant G41 Coding Event Number
+RANGE: 10193 to 40273
+	N	Mean	Std. Deviation
+Total	5871	21279.423	8268.244
+
+
+220) ANGG41
+Anglican G41 (Religionist Person)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5936	1.519	0.829
+0)	459	7.7
+0.5)	143	2.4
+1)	2514	42.4
+2)	2009	33.8
+2.5)	42	0.7
+3)	769	13.0
+Missing	12304
+
+
+221) ANGG41N
+Anglican G41 Coding Event Number
+RANGE: 10193 to 40273
+	N	Mean	Std. Deviation
+Total	5963	21358.145	8338.106
+
+
+222) PENG41
+Pentecostal G41 (Religionist Person)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	4581	1.506	0.781
+0)	303	6.6
+0.5)	68	1.5
+1)	2057	44.9
+2)	1630	35.6
+2.5)	42	0.9
+3)	481	10.5
+Missing	13659
+
+
+223) PENG41N
+Pentecostal G41 Coding Event Number
+RANGE: 10193 to 40273
+	N	Mean	Std. Deviation
+Total	4608	22908.296	8611.401
+
+
+224) ORTG41
+Orthodox G41 (Religionist Person)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5631	1.507	0.814
+0)	459	8.2
+0.5)	143	2.5
+1)	2299	40.8
+2)	2054	36.5
+2.5)	42	0.7
+3)	634	11.3
+Missing	12609
+
+
+225) ORTG41N
+Orthodox G41 Coding Event Number
+RANGE: 10193 to 40273
+	N	Mean	Std. Deviation
+Total	5658	21404.49	8318.035
+
+
+226) CSYNG41
+Christian Syncretic G41 (Religionist Person)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5687	1.263	0.634
+0)	527	9.3
+0.5)	107	1.9
+1)	3002	52.8
+2)	2027	35.6
+3)	24	0.4
+Missing	12553
+
+
+227) CSYNG41N
+Christian Syncretic G41 Coding Event Number
+RANGE: 10194 to 40203
+	N	Mean	Std. Deviation
+Total	5687	20992.93	7881.572
+
+
+228) JEWG41
+Jewish G41 (Religionist Person)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	7391	1.207	0.833
+0)	1430	19.3
+0.5)	109	1.5
+1)	3326	45.0
+2)	2014	27.2
+2.5)	42	0.6
+3)	470	6.4
+Missing	10849
+
+
+229) JEWG41N
+Jewish G41 Coding Event Number
+RANGE: 10194 to 40259
+	N	Mean	Std. Deviation
+Total	7414	21713.431	7928.536
+
+
+230) MUSG41
+Muslim G41 (Religionist Person)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	6959	1.677	0.955
+0)	478	6.9
+0.5)	107	1.5
+1)	2815	40.5
+1.5)	29	0.4
+2)	2038	29.3
+3)	1289	18.5
+4)	203	2.9
+Missing	11281
+
+
+231) MUSG41N
+Muslim G41 Coding Event Number
+RANGE: 10193 to 40335
+	N	Mean	Std. Deviation
+Total	6959	22498.915	8669.518
+
+
+232) SUNG41
+Sunni Muslim G41 (Religionist Person)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	6915	1.669	0.952
+0)	478	6.9
+0.5)	107	1.5
+1)	2815	40.7
+1.5)	29	0.4
+2)	2001	28.9
+2.5)	55	0.8
+3)	1227	17.7
+4)	203	2.9
+Missing	11325
+
+
+233) SUNG41N
+Sunni Muslim G41 Coding Event Number
+RANGE: 10193 to 40335
+	N	Mean	Std. Deviation
+Total	6915	22471.496	8708.546
+
+
+234) SHIG41
+Shia Muslim G41 (Religionist Person)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	6820	1.62	0.922
+0)	478	7.0
+0.5)	107	1.6
+1)	2836	41.6
+1.5)	29	0.4
+2)	2198	32.2
+3)	969	14.2
+4)	203	3.0
+Missing	11420
+
+
+235) SHIG41N
+Shia Muslim G41 Coding Event Number
+RANGE: 10193 to 40335
+	N	Mean	Std. Deviation
+Total	6820	22518.121	8966.402
+
+
+236) IBAG41
+Ibadi Muslim G41 (Religionist Person)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	6623	1.584	0.919
+0)	478	7.2
+0.5)	107	1.6
+1)	2905	43.9
+1.5)	29	0.4
+2)	2001	30.2
+2.5)	55	0.8
+3)	845	12.8
+4)	203	3.1
+Missing	11617
+
+
+237) IBAG41N
+Ibadi Muslim G41 Coding Event Number
+RANGE: 10193 to 40335
+	N	Mean	Std. Deviation
+Total	6623	22072.898	8678.71
+
+
+238) ZORG41
+Zoroastrian G41 (Religionist Person)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5463	1.267	0.637
+0)	527	9.6
+0.5)	107	2.0
+1)	2795	51.2
+2)	2027	37.1
+3)	7	0.1
+Missing	12777
+
+
+239) ZORG41N
+Zoroastrian G41 Coding Event Number
+RANGE: 10194 to 40203
+	N	Mean	Std. Deviation
+Total	5463	21329.18	7778.579
+
+
+240) BAHG41
+Baha'i G41 (Religionist Person)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5133	1.273	0.672
+0)	587	11.4
+0.5)	88	1.7
+1)	2458	47.9
+2)	1970	38.4
+3)	30	0.6
+Missing	13107
+
+
+241) BAHG41N
+Baha'i G41 Coding Event Number
+RANGE: 10194 to 40267
+	N	Mean	Std. Deviation
+Total	5133	21710.886	8005.88
+
+
+242) JAIG41
+Jain G41 (Religionist Person)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5463	1.293	0.665
+0)	527	9.6
+0.5)	107	2.0
+1)	2726	49.9
+2)	2027	37.1
+3)	76	1.4
+Missing	12777
+
+
+243) JAIG41N
+Jain G41 Coding Event Number
+RANGE: 10194 to 40203
+	N	Mean	Std. Deviation
+Total	5463	21329.682	7779.118
+
+
+244) SIKG41
+Sikh G41 (Religionist Person)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5478	1.278	0.642
+0)	527	9.6
+0.5)	107	2.0
+1)	2750	50.2
+2)	2083	38.0
+3)	11	0.2
+Missing	12762
+
+
+245) SIKG41N
+Sikh G41 Coding Event Number
+RANGE: 10194 to 40203
+	N	Mean	Std. Deviation
+Total	5478	21382.049	7925.957
+
+
+246) HING41
+Hindu G41 (Religionist Person)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5463	1.357	0.728
+0)	527	9.6
+0.5)	107	2.0
+1)	2550	46.7
+2)	2027	37.1
+3)	252	4.6
+Missing	12777
+
+
+247) HING41N
+Hindu G41 Coding Event Number
+RANGE: 10193 to 40203
+	N	Mean	Std. Deviation
+Total	5463	21315.756	7795.097
+
+
+248) BUDG41
+Buddhist G41 (Religionist Person)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5658	1.334	0.738
+0)	602	10.6
+0.5)	107	1.9
+1)	2673	47.2
+2)	2008	35.5
+3)	268	4.7
+Missing	12582
+
+
+249) BUDG41N
+Buddhist G41 Coding Event Number
+RANGE: 10194 to 40332
+	N	Mean	Std. Deviation
+Total	5658	21660.625	8028.166
+
+
+250) THEG41
+Theravada Buddhist G41 (Religionist Person)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5560	1.347	0.722
+0)	527	9.5
+0.5)	107	1.9
+1)	2667	48.0
+2)	2008	36.1
+3)	251	4.5
+Missing	12680
+
+
+251) THEG41N
+Theravada Buddhist G41 Coding Event Number
+RANGE: 10194 to 40332
+	N	Mean	Std. Deviation
+Total	5560	21596.704	7972.84
+
+
+252) MAHG41
+Mahayana Buddhist G41 (Religionist Person)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5544	1.319	0.712
+0)	564	10.2
+0.5)	107	1.9
+1)	2687	48.5
+2)	1988	35.9
+3)	198	3.6
+Missing	12696
+
+
+253) MAHG41N
+Mahayana Buddhist G41 Coding Event Number
+RANGE: 10194 to 40331
+	N	Mean	Std. Deviation
+Total	5544	21388.6	7871.648
+
+
+254) TIBG41
+Tibetan Buddhist G41 (Religionist Person)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5568	1.323	0.717
+0)	565	10.1
+0.5)	107	1.9
+1)	2693	48.4
+2)	1988	35.7
+3)	215	3.9
+Missing	12672
+
+
+255) TIBG41N
+Tibetan Buddhist G41 Coding Event Number
+RANGE: 10194 to 40331
+	N	Mean	Std. Deviation
+Total	5568	21577.143	7913.808
+
+
+256) SHNG41
+Shinto G41 (Religionist Person)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5596	1.261	0.631
+0)	527	9.4
+0.5)	107	1.9
+1)	2928	52.3
+2)	2027	36.2
+3)	7	0.1
+Missing	12644
+
+
+257) SHNG41N
+Shinto G41 Coding Event Number
+RANGE: 10194 to 40203
+	N	Mean	Std. Deviation
+Total	5596	21774.287	8197.375
+
+
+258) CNFG41
+Confucianist G41 (Religionist Person)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5633	1.256	0.641
+0)	564	10.0
+0.5)	107	1.9
+1)	2918	51.8
+2)	2027	36.0
+3)	17	0.3
+Missing	12607
+
+
+259) CNFG41N
+Confucianist G41 Coding Event Number
+RANGE: 10194 to 40203
+	N	Mean	Std. Deviation
+Total	5633	21712.481	8205.685
+
+
+260) TAOG41
+Taoist G41 (Religionist Person)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5633	1.253	0.637
+0)	564	10.0
+0.5)	107	1.9
+1)	2928	52.0
+2)	2027	36.0
+3)	7	0.1
+Missing	12607
+
+
+261) TAOG41N
+Taoist G41 Coding Event Number
+RANGE: 10194 to 40203
+	N	Mean	Std. Deviation
+Total	5633	21712.483	8205.688
+
+
+262) CHFG41
+Chinese Folk Religionist G41 (Religionist Person)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5633	1.253	0.637
+0)	564	10.0
+0.5)	107	1.9
+1)	2928	52.0
+2)	2027	36.0
+3)	7	0.1
+Missing	12607
+
+
+263) CHFG41N
+Chinese Folk Religionist G41 Coding Event Number
+RANGE: 10194 to 40203
+	N	Mean	Std. Deviation
+Total	5633	21712.483	8205.688
+
+
+264) BUDCG41
+Buddhist Complex G41 (Religionist Person)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5791	1.334	0.733
+0)	602	10.4
+0.5)	107	1.8
+1)	2759	47.6
+2)	2055	35.5
+3)	268	4.6
+Missing	12449
+
+
+265) BUDCG41N
+Buddhist Complex G41 Coding Event Number
+RANGE: 10194 to 40332
+	N	Mean	Std. Deviation
+Total	5791	22082.468	8399.385
+
+
+266) INDG41
+Indigenous (Ethnoreligionist) G41 (Religionist Person)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5545	1.277	0.641
+0)	527	9.5
+0.5)	107	1.9
+1)	2810	50.7
+2)	2085	37.6
+3)	16	0.3
+Missing	12695
+
+
+267) INDG41N
+Indigenous (Ethnoreligionist) G41 Coding Event Number
+RANGE: 10194 to 40348
+	N	Mean	Std. Deviation
+Total	5545	21383.363	7871.427
+
+
+268) ATHG41
+Atheist G41 (Religionist Person)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	5445	1.317	0.633
+0)	391	7.2
+0.5)	107	2.0
+1)	2849	52.3
+2)	2027	37.2
+3)	71	1.3
+Missing	12795
+
+
+269) ATHG41N
+Atheist G41 Coding Event Number
+RANGE: 10194 to 40203
+	N	Mean	Std. Deviation
+Total	5445	21590.398	8179.17
+
+
+270) PRFG42
+Preferred Religion G42 (Religionist-Owned Businesses)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	1392	3.045	0.299
+1)	6	0.4
+2)	14	1.0
+3)	1283	92.2
+4)	89	6.4
+Missing	16848
+
+
+271) PRFG42N
+Preferred Religion G42 Coding Event Number
+RANGE: 10614 to 40031
+	N	Mean	Std. Deviation
+Total	1392	24362.055	10560.777
+
+
+272) NPRFG42
+Non-Preferred Religions G42 (Religionist-Owned Businesses)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1372	0.935	0.246
+0)	89	6.5
+1)	1283	93.5
+Missing	16868
+
+
+273) NPRFG42N
+Non-Preferred Religions G42 Coding Event Number
+RANGE: 10608 to 40032
+	N	Mean	Std. Deviation
+Total	1372	24326.937	10634.628
+
+
+274) CHRG42
+Christian G42 (Religionist-Owned Businesses)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	1409	2.368	1.022
+0)	89	6.3
+1)	305	21.6
+2)	14	1.0
+3)	1001	71.0
+Missing	16831
+
+
+275) CHRG42N
+Christian G42 Coding Event Number
+RANGE: 10614 to 40031
+	N	Mean	Std. Deviation
+Total	1409	24386.629	10499.328
+
+
+276) WCHRG42
+Western Christian G42 (Religionist-Owned Businesses)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	1409	2.309	1.041
+0)	89	6.3
+1)	346	24.6
+2)	14	1.0
+3)	960	68.1
+Missing	16831
+
+
+277) WCHRG42N
+Western Christian G42 Coding Event Number
+RANGE: 10614 to 40031
+	N	Mean	Std. Deviation
+Total	1409	24386.658	10499.317
+
+
+278) CATG42
+Catholic G42 (Religionist-Owned Businesses)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	1409	2.309	1.041
+0)	89	6.3
+1)	346	24.6
+2)	14	1.0
+3)	960	68.1
+Missing	16831
+
+
+279) CATG42N
+Catholic G42 Coding Event Number
+RANGE: 10614 to 40031
+	N	Mean	Std. Deviation
+Total	1409	24386.658	10499.317
+
+
+280) XPRTG42
+Extended Protestant G42 (Religionist-Owned Businesses)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	1409	2.21	1.066
+0)	89	6.3
+1)	416	29.5
+2)	14	1.0
+3)	890	63.2
+Missing	16831
+
+
+281) XPRTG42N
+Extended Protestant G42 Coding Event Number
+RANGE: 10614 to 40031
+	N	Mean	Std. Deviation
+Total	1409	24386.708	10499.349
+
+
+282) PRTG42
+Protestant G42 (Religionist-Owned Businesses)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	1409	2.21	1.066
+0)	89	6.3
+1)	416	29.5
+2)	14	1.0
+3)	890	63.2
+Missing	16831
+
+
+283) PRTG42N
+Protestant G42 Coding Event Number
+RANGE: 10614 to 40031
+	N	Mean	Std. Deviation
+Total	1409	24386.708	10499.349
+
+
+284) ANGG42
+Anglican G42 (Religionist-Owned Businesses)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	1409	2.21	1.066
+0)	89	6.3
+1)	416	29.5
+2)	14	1.0
+3)	890	63.2
+Missing	16831
+
+
+285) ANGG42N
+Anglican G42 Coding Event Number
+RANGE: 10614 to 40031
+	N	Mean	Std. Deviation
+Total	1409	24386.708	10499.349
+
+
+286) PENG42
+Pentecostal G42 (Religionist-Owned Businesses)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	1185	2.061	1.1
+0)	89	7.5
+1)	416	35.1
+2)	14	1.2
+3)	666	56.2
+Missing	17055
+
+
+287) PENG42N
+Pentecostal G42 Coding Event Number
+RANGE: 10614 to 40031
+	N	Mean	Std. Deviation
+Total	1185	26641.28	9896.071
+
+
+288) ORTG42
+Orthodox G42 (Religionist-Owned Businesses)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	1409	2.273	1.052
+0)	89	6.3
+1)	372	26.4
+2)	14	1.0
+3)	934	66.3
+Missing	16831
+
+
+289) ORTG42N
+Orthodox G42 Coding Event Number
+RANGE: 10614 to 40031
+	N	Mean	Std. Deviation
+Total	1409	24386.676	10499.293
+
+
+290) CSYNG42
+Christian Syncretic G42 (Religionist-Owned Businesses)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1372	0.935	0.246
+0)	89	6.5
+1)	1283	93.5
+Missing	16868
+
+
+291) CSYNG42N
+Christian Syncretic G42 Coding Event Number
+RANGE: 10608 to 40032
+	N	Mean	Std. Deviation
+Total	1372	24326.937	10634.628
+
+
+292) JEWG42
+Jewish G42 (Religionist-Owned Businesses)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	2060	1.062	0.678
+0)	256	12.4
+0.5)	62	3.0
+1)	1461	70.9
+2)	147	7.1
+3)	134	6.5
+Missing	16180
+
+
+293) JEWG42N
+Jewish G42 Coding Event Number
+RANGE: 10378 to 40041
+	N	Mean	Std. Deviation
+Total	2060	24237.391	9311.402
+
+
+294) MUSG42
+Muslim G42 (Religionist-Owned Businesses)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1444	1.563	1.026
+0)	28	1.9
+1)	1040	72.0
+3)	287	19.9
+4)	89	6.2
+Missing	16796
+
+
+295) MUSG42N
+Muslim G42 Coding Event Number
+RANGE: 10608 to 40032
+	N	Mean	Std. Deviation
+Total	1444	24514.154	10472.531
+
+
+296) SUNG42
+Sunni Muslim G42 (Religionist-Owned Businesses)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1444	1.563	1.026
+0)	28	1.9
+1)	1040	72.0
+3)	287	19.9
+4)	89	6.2
+Missing	16796
+
+
+297) SUNG42N
+Sunni Muslim G42 Coding Event Number
+RANGE: 10608 to 40032
+	N	Mean	Std. Deviation
+Total	1444	24514.154	10472.531
+
+
+298) SHIG42
+Shia Muslim G42 (Religionist-Owned Businesses)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1442	1.561	1.025
+0)	28	1.9
+1)	1040	72.1
+3)	285	19.8
+4)	89	6.2
+Missing	16798
+
+
+299) SHIG42N
+Shia Muslim G42 Coding Event Number
+RANGE: 10608 to 40032
+	N	Mean	Std. Deviation
+Total	1442	24510.233	10479.266
+
+
+300) IBAG42
+Ibadi Muslim G42 (Religionist-Owned Businesses)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	1442	1.464	0.978
+0)	28	1.9
+1)	1110	77.0
+3)	215	14.9
+4)	89	6.2
+Missing	16798
+
+
+301) IBAG42N
+Ibadi Muslim G42 Coding Event Number
+RANGE: 10608 to 40032
+	N	Mean	Std. Deviation
+Total	1442	24510.282	10479.297
+
+
+302) ZORG42
+Zoroastrian G42 (Religionist-Owned Businesses)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1372	0.935	0.246
+0)	89	6.5
+1)	1283	93.5
+Missing	16868
+
+
+303) ZORG42N
+Zoroastrian G42 Coding Event Number
+RANGE: 10608 to 40032
+	N	Mean	Std. Deviation
+Total	1372	24326.937	10634.628
+
+
+304) BAHG42
+Baha'i G42 (Religionist-Owned Businesses)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1356	0.907	0.29
+0)	126	9.3
+1)	1230	90.7
+Missing	16884
+
+
+305) BAHG42N
+Baha'i G42 Coding Event Number
+RANGE: 10608 to 40032
+	N	Mean	Std. Deviation
+Total	1356	24990.885	10393.089
+
+
+306) JAIG42
+Jain G42 (Religionist-Owned Businesses)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1372	0.935	0.246
+0)	89	6.5
+1)	1283	93.5
+Missing	16868
+
+
+307) JAIG42N
+Jain G42 Coding Event Number
+RANGE: 10608 to 40032
+	N	Mean	Std. Deviation
+Total	1372	24326.937	10634.628
+
+
+308) SIKG42
+Sikh G42 (Religionist-Owned Businesses)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1372	0.935	0.246
+0)	89	6.5
+1)	1283	93.5
+Missing	16868
+
+
+309) SIKG42N
+Sikh G42 Coding Event Number
+RANGE: 10608 to 40032
+	N	Mean	Std. Deviation
+Total	1372	24326.937	10634.628
+
+
+310) HING42
+Hindu G42 (Religionist-Owned Businesses)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1372	0.935	0.246
+0)	89	6.5
+1)	1283	93.5
+Missing	16868
+
+
+311) HING42N
+Hindu G42 Coding Event Number
+RANGE: 10608 to 40032
+	N	Mean	Std. Deviation
+Total	1372	24326.937	10634.628
+
+
+312) BUDG42
+Buddhist G42 (Religionist-Owned Businesses)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1372	0.935	0.246
+0)	89	6.5
+1)	1283	93.5
+Missing	16868
+
+
+313) BUDG42N
+Buddhist G42 Coding Event Number
+RANGE: 10608 to 40032
+	N	Mean	Std. Deviation
+Total	1372	24326.937	10634.628
+
+
+314) THEG42
+Theravada Buddhist G42 (Religionist-Owned Businesses)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1372	0.935	0.246
+0)	89	6.5
+1)	1283	93.5
+Missing	16868
+
+
+315) THEG42N
+Theravada Buddhist G42 Coding Event Number
+RANGE: 10608 to 40032
+	N	Mean	Std. Deviation
+Total	1372	24326.937	10634.628
+
+
+316) MAHG42
+Mahayana Buddhist G42 (Religionist-Owned Businesses)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1372	0.935	0.246
+0)	89	6.5
+1)	1283	93.5
+Missing	16868
+
+
+317) MAHG42N
+Mahayana Buddhist G42 Coding Event Number
+RANGE: 10608 to 40032
+	N	Mean	Std. Deviation
+Total	1372	24326.937	10634.628
+
+
+318) TIBG42
+Tibetan Buddhist G42 (Religionist-Owned Businesses)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1372	0.935	0.246
+0)	89	6.5
+1)	1283	93.5
+Missing	16868
+
+
+319) TIBG42N
+Tibetan Buddhist G42 Coding Event Number
+RANGE: 10608 to 40032
+	N	Mean	Std. Deviation
+Total	1372	24326.937	10634.628
+
+
+320) SHNG42
+Shinto G42 (Religionist-Owned Businesses)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1372	0.935	0.246
+0)	89	6.5
+1)	1283	93.5
+Missing	16868
+
+
+321) SHNG42N
+Shinto G42 Coding Event Number
+RANGE: 10608 to 40032
+	N	Mean	Std. Deviation
+Total	1372	24326.937	10634.628
+
+
+322) CNFG42
+Confucianist G42 (Religionist-Owned Businesses)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1372	0.935	0.246
+0)	89	6.5
+1)	1283	93.5
+Missing	16868
+
+
+323) CNFG42N
+Confucianist G42 Coding Event Number
+RANGE: 10608 to 40032
+	N	Mean	Std. Deviation
+Total	1372	24326.937	10634.628
+
+
+324) TAOG42
+Taoist G42 (Religionist-Owned Businesses)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1372	0.935	0.246
+0)	89	6.5
+1)	1283	93.5
+Missing	16868
+
+
+325) TAOG42N
+Taoist G42 Coding Event Number
+RANGE: 10608 to 40032
+	N	Mean	Std. Deviation
+Total	1372	24326.937	10634.628
+
+
+326) CHFG42
+Chinese Folk Religionist G42 (Religionist-Owned Businesses)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1372	0.935	0.246
+0)	89	6.5
+1)	1283	93.5
+Missing	16868
+
+
+327) CHFG42N
+Chinese Folk Religionist G42 Coding Event Number
+RANGE: 10608 to 40032
+	N	Mean	Std. Deviation
+Total	1372	24326.937	10634.628
+
+
+328) BUDCG42
+Buddhist Complex G42 (Religionist-Owned Businesses)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1372	0.935	0.246
+0)	89	6.5
+1)	1283	93.5
+Missing	16868
+
+
+329) BUDCG42N
+Buddhist Complex G42 Coding Event Number
+RANGE: 10608 to 40032
+	N	Mean	Std. Deviation
+Total	1372	24326.937	10634.628
+
+
+330) INDG42
+Indigenous (Ethnoreligionist) G42 (Religionist-Owned Businesses)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1372	0.935	0.246
+0)	89	6.5
+1)	1283	93.5
+Missing	16868
+
+
+331) INDG42N
+Indigenous (Ethnoreligionist) G42 Coding Event Number
+RANGE: 10608 to 40032
+	N	Mean	Std. Deviation
+Total	1372	24326.937	10634.628
+
+
+332) ATHG42
+Atheist G42 (Religionist-Owned Businesses)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1372	0.935	0.246
+0)	89	6.5
+1)	1283	93.5
+Missing	16868
+
+
+333) ATHG42N
+Atheist G42 Coding Event Number
+RANGE: 10608 to 40032
+	N	Mean	Std. Deviation
+Total	1372	24326.937	10634.628
+
+
+334) PRFG43
+Preferred Religion G43 (Religionist Institutions)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	7727	2.298	1.071
+0)	794	10.3
+1)	569	7.4
+1.5)	65	0.8
+2)	2427	31.4
+2.5)	82	1.1
+3)	3132	40.5
+4)	658	8.5
+Missing	10513
+
+
+335) PRFG43N
+Preferred Religion G43 Coding Event Number
+RANGE: 10026 to 40301
+	N	Mean	Std. Deviation
+Total	7748	21559.586	8237.744
+
+
+336) NPRFG43
+Non-Preferred Religions G43 (Religionist Institutions)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9713	1.346	0.713
+0)	1372	14.1
+0.5)	12	0.1
+1)	3555	36.6
+1.5)	69	0.7
+2)	4705	48.4
+Missing	8527
+
+
+337) NPRFG43N
+Non-Preferred Religions G43 Coding Event Number
+RANGE: 10026 to 40303
+	N	Mean	Std. Deviation
+Total	9761	22867.181	8120.217
+
+
+338) CHRG43
+Christian G43 (Religious Institutions)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	10055	1.967	0.976
+0)	1132	11.3
+1)	1204	12.0
+1.5)	115	1.1
+2)	4734	47.1
+3)	2549	25.4
+4)	321	3.2
+Missing	8185
+
+
+339) CHRG43N
+Christian G43 Coding Event Number
+RANGE: 10026 to 40345
+	N	Mean	Std. Deviation
+Total	10055	22939.324	8359.065
+
+
+340) WCHRG43
+Western Christian G43 (Religionist Institutions)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	9176	1.87	1.013
+0)	1262	13.8
+1)	1341	14.6
+1.5)	82	0.9
+2)	4007	43.7
+3)	2258	24.6
+4)	226	2.5
+Missing	9064
+
+
+341) WCHRG43N
+Western Christian G43 Coding Event Number
+RANGE: 10026 to 40345
+	N	Mean	Std. Deviation
+Total	9176	22646.077	8378.446
+
+
+342) CATG43
+Catholic G43 (Religionist Institutions)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	9051	1.72	1.104
+0)	1806	20.0
+1)	1450	16.0
+1.5)	107	1.2
+2)	3329	36.8
+3)	2133	23.6
+4)	226	2.5
+Missing	9189
+
+
+343) CATG43N
+Catholic G43 Coding Event Number
+RANGE: 10026 to 40345
+	N	Mean	Std. Deviation
+Total	9051	22531.933	8596.212
+
+
+344) XPRTG43
+Extended Protestant G43 (Religionist Institutions)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	9115	1.646	0.943
+0)	1346	14.8
+0.5)	60	0.7
+1)	2035	22.3
+1.5)	82	0.9
+2)	3971	43.6
+3)	1607	17.6
+4)	14	0.2
+Missing	9125
+
+
+345) XPRTG43N
+Extended Protestant G43 Coding Event Number
+RANGE: 10026 to 40293
+	N	Mean	Std. Deviation
+Total	9115	22578.239	8220.377
+
+
+346) PRTG43
+Protestant G43 (Religionist Institutions)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	9149	1.631	0.938
+0)	1346	14.7
+0.5)	60	0.7
+1)	2145	23.4
+1.5)	82	0.9
+2)	3941	43.1
+3)	1561	17.1
+4)	14	0.2
+Missing	9091
+
+
+347) PRTG43N
+Protestant G43 Coding Event Number
+RANGE: 10026 to 40293
+	N	Mean	Std. Deviation
+Total	9149	22540.06	8221.588
+
+
+348) ANGG43
+Anglican G43 (Religionist Institutions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	9004	1.445	0.862
+0)	1432	15.9
+0.5)	60	0.7
+1)	2787	31.0
+1.5)	75	0.8
+2)	3866	42.9
+3)	784	8.7
+Missing	9236
+
+
+349) ANGG43N
+Anglican G43 Coding Event Number
+RANGE: 10026 to 40293
+	N	Mean	Std. Deviation
+Total	9004	22600.784	8145.346
+
+
+350) PENG43
+Pentecostal G43 (Religionist Institutions)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	7891	1.447	0.876
+0)	1320	16.7
+0.5)	53	0.7
+1)	2307	29.2
+1.5)	75	1.0
+2)	3446	43.7
+3)	676	8.6
+4)	14	0.2
+Missing	10349
+
+
+351) PENG43N
+Pentecostal G43 Coding Event Number
+RANGE: 10026 to 40293
+	N	Mean	Std. Deviation
+Total	7891	23139.645	8085.894
+
+
+352) ORTG43
+Orthodox G43 (Religionist Institutions)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	10079	1.66	0.889
+0)	1200	11.9
+1)	2532	25.1
+1.5)	115	1.1
+2)	4781	47.4
+3)	1342	13.3
+4)	109	1.1
+Missing	8161
+
+
+353) ORTG43N
+Orthodox G43 Coding Event Number
+RANGE: 10026 to 40302
+	N	Mean	Std. Deviation
+Total	10079	23171.095	8302.676
+
+
+354) CSYNG43
+Christian Syncretic G43 (Religionist Institutions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	9831	1.337	0.714
+0)	1384	14.1
+0.5)	12	0.1
+1)	3726	37.9
+1.5)	69	0.7
+2)	4611	46.9
+3)	29	0.3
+Missing	8409
+
+
+355) CSYNG43N
+Christian Syncretic G43 Coding Event Number
+RANGE: 10026 to 40303
+	N	Mean	Std. Deviation
+Total	9879	22747.453	8187.057
+
+
+356) JEWG43
+Jewish G43 (Religionist Institutions)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	9826	1.574	0.873
+0)	1378	14.0
+0.5)	12	0.1
+1)	2534	25.8
+1.5)	69	0.7
+2)	4688	47.7
+3)	1131	11.5
+4)	14	0.1
+Missing	8414
+
+
+357) JEWG43N
+Jewish G43 Coding Event Number
+RANGE: 10026 to 40303
+	N	Mean	Std. Deviation
+Total	9873	22771.572	8029.586
+
+
+358) MUSG43
+Muslim G43 (Religionist Institutions)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	9620	1.758	0.889
+0)	804	8.4
+1)	2535	26.4
+1.5)	94	1.0
+2)	4581	47.6
+2.5)	21	0.2
+3)	1316	13.7
+4)	269	2.8
+Missing	8620
+
+
+359) MUSG43N
+Muslim G43 Coding Event Number
+RANGE: 10026 to 40310
+	N	Mean	Std. Deviation
+Total	9620	23139.506	8448.927
+
+
+360) SUNG43
+Sunni Muslim G43 (Religionist Institutions)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	8905	1.734	0.918
+0)	804	9.0
+1)	2541	28.5
+1.5)	94	1.1
+2)	3897	43.8
+2.5)	21	0.2
+3)	1279	14.4
+4)	269	3.0
+Missing	9335
+
+
+361) SUNG43N
+Sunni Muslim G43 Coding Event Number
+RANGE: 10026 to 40310
+	N	Mean	Std. Deviation
+Total	8973	22800.525	8664.829
+
+
+362) SHIG43
+Shia Muslim G43 (Religionist Institutions)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	9614	1.673	0.887
+0)	991	10.3
+0.5)	12	0.1
+1)	2592	27.0
+1.5)	94	1.0
+2)	4663	48.5
+2.5)	20	0.2
+3)	997	10.4
+4)	245	2.5
+Missing	8626
+
+
+363) SHIG43N
+Shia Muslim G43 Coding Event Number
+RANGE: 10026 to 40349
+	N	Mean	Std. Deviation
+Total	9692	23089.161	8428.935
+
+
+364) IBAG43
+Ibadi Muslim G43 (Religionist Institutions)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	9476	1.664	0.877
+0)	927	9.8
+0.5)	12	0.1
+1)	2686	28.3
+1.5)	94	1.0
+2)	4569	48.2
+2.5)	20	0.2
+3)	923	9.7
+4)	245	2.6
+Missing	8764
+
+
+365) IBAG43N
+Ibadi Muslim G43 Coding Event Number
+RANGE: 10026 to 40303
+	N	Mean	Std. Deviation
+Total	9554	22902.58	8327.136
+
+
+366) ZORG43
+Zoroastrian G43 (Religionist Institutions)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9714	1.346	0.712
+0)	1370	14.1
+0.5)	12	0.1
+1)	3563	36.7
+1.5)	69	0.7
+2)	4700	48.4
+Missing	8526
+
+
+367) ZORG43N
+Zoroastrian G43 Coding Event Number
+RANGE: 10026 to 40303
+	N	Mean	Std. Deviation
+Total	9762	22867.691	8120.021
+
+
+368) BAHG43
+Baha'i G43 (Religionist Institutions)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	9483	1.354	0.761
+0)	1528	16.1
+0.5)	12	0.1
+1)	3138	33.1
+1.5)	69	0.7
+2)	4627	48.8
+3)	95	1.0
+4)	14	0.1
+Missing	8757
+
+
+369) BAHG43N
+Baha'i G43 Coding Event Number
+RANGE: 10026 to 40303
+	N	Mean	Std. Deviation
+Total	9506	22968.334	8137.306
+
+
+370) JAIG43
+Jain G43 (Religionist Institutions)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9714	1.346	0.713
+0)	1372	14.1
+0.5)	12	0.1
+1)	3561	36.7
+1.5)	69	0.7
+2)	4700	48.4
+Missing	8526
+
+
+371) JAIG43N
+Jain G43 Coding Event Number
+RANGE: 10026 to 40303
+	N	Mean	Std. Deviation
+Total	9762	22867.378	8119.795
+
+
+372) SIKG43
+Sikh G43 (Religionist Institutions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	9714	1.35	0.716
+0)	1372	14.1
+0.5)	12	0.1
+1)	3541	36.5
+1.5)	69	0.7
+2)	4700	48.4
+3)	20	0.2
+Missing	8526
+
+
+373) SIKG43N
+Sikh G43 Coding Event Number
+RANGE: 10026 to 40303
+	N	Mean	Std. Deviation
+Total	9762	22867.376	8119.793
+
+
+374) HING43
+Hindu G43 (Religionist Institutions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	9605	1.375	0.726
+0)	1315	13.7
+0.5)	12	0.1
+1)	3425	35.7
+1.5)	55	0.6
+2)	4662	48.5
+2.5)	69	0.7
+3)	67	0.7
+Missing	8635
+
+
+375) HING43N
+Hindu G43 Coding Event Number
+RANGE: 10026 to 40326
+	N	Mean	Std. Deviation
+Total	9653	22904.198	8188.077
+
+
+376) BUDG43
+Buddhist G43 (Religionist Institutions)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	9731	1.427	0.775
+0)	1282	13.2
+0.5)	12	0.1
+1)	3343	34.4
+1.5)	69	0.7
+2)	4715	48.5
+3)	239	2.5
+4)	71	0.7
+Missing	8509
+
+
+377) BUDG43N
+Buddhist G43 Coding Event Number
+RANGE: 10026 to 40303
+	N	Mean	Std. Deviation
+Total	9731	22919.014	8136.717
+
+
+378) THEG43
+Theravada Buddhist G43 (Religionist Institutions)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	9625	1.404	0.747
+0)	1290	13.4
+0.5)	12	0.1
+1)	3343	34.7
+1.5)	69	0.7
+2)	4664	48.5
+2.5)	38	0.4
+3)	201	2.1
+4)	8	0.1
+Missing	8615
+
+
+379) THEG43N
+Theravada Buddhist G43 Coding Event Number
+RANGE: 10026 to 40325
+	N	Mean	Std. Deviation
+Total	9673	22801.651	8150.685
+
+
+380) MAHG43
+Mahayana Buddhist G43 (Religionist Institutions)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	9609	1.404	0.749
+0)	1290	13.4
+0.5)	12	0.1
+1)	3343	34.8
+1.5)	69	0.7
+2)	4637	48.3
+2.5)	38	0.4
+3)	212	2.2
+4)	8	0.1
+Missing	8631
+
+
+381) MAHG43N
+Mahayana Buddhist G43 Coding Event Number
+RANGE: 10026 to 40325
+	N	Mean	Std. Deviation
+Total	9684	22821.013	8164.133
+
+
+382) TIBG43
+Tibetan Buddhist G43 (Religionist Institutions)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	9706	1.41	0.77
+0)	1322	13.6
+0.5)	12	0.1
+1)	3343	34.4
+1.5)	69	0.7
+2)	4715	48.6
+3)	174	1.8
+4)	71	0.7
+Missing	8534
+
+
+383) TIBG43N
+Tibetan Buddhist G43 Coding Event Number
+RANGE: 10026 to 40303
+	N	Mean	Std. Deviation
+Total	9781	22891.388	8130.11
+
+
+384) SHNG43
+Shinto G43 (Religionist Institutions)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9714	1.346	0.713
+0)	1372	14.1
+0.5)	12	0.1
+1)	3561	36.7
+1.5)	69	0.7
+2)	4700	48.4
+Missing	8526
+
+
+385) SHNG43N
+Shinto G43 Coding Event Number
+RANGE: 10026 to 40303
+	N	Mean	Std. Deviation
+Total	9762	22867.378	8119.795
+
+
+386) CNFG43
+Confucianist G43 (Religionist Institutions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	9656	1.342	0.716
+0)	1381	14.3
+0.5)	12	0.1
+1)	3551	36.8
+1.5)	69	0.7
+2)	4633	48.0
+3)	10	0.1
+Missing	8584
+
+
+387) CNFG43N
+Confucianist G43 Coding Event Number
+RANGE: 10026 to 40303
+	N	Mean	Std. Deviation
+Total	9704	22804.181	8102.666
+
+
+388) TAOG43
+Taoist G43 (Religionist Institutions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	9647	1.353	0.716
+0)	1334	13.8
+0.5)	12	0.1
+1)	3561	36.9
+1.5)	69	0.7
+2)	4633	48.0
+3)	38	0.4
+Missing	8593
+
+
+389) TAOG43N
+Taoist G43 Coding Event Number
+RANGE: 10026 to 40303
+	N	Mean	Std. Deviation
+Total	9695	22794.325	8099.952
+
+
+390) CHFG43
+Chinese Folk Religionist G43 (Religionist Institutions)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9647	1.341	0.713
+0)	1372	14.2
+0.5)	12	0.1
+1)	3561	36.9
+1.5)	69	0.7
+2)	4633	48.0
+Missing	8593
+
+
+391) CHFG43N
+Chinese Folk Religionist G43 Coding Event Number
+RANGE: 10026 to 40303
+	N	Mean	Std. Deviation
+Total	9695	22794.437	8100.095
+
+
+392) BUDCG43
+Buddhist Complex G43 (Religionist Institutions)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	9741	1.434	0.773
+0)	1266	13.0
+0.5)	12	0.1
+1)	3313	34.0
+1.5)	69	0.7
+2)	4771	49.0
+3)	239	2.5
+4)	71	0.7
+Missing	8499
+
+
+393) BUDCG43N
+Buddhist Complex G43 Coding Event Number
+RANGE: 0 to 40303
+	N	Mean	Std. Deviation
+Total	9741	22897.57	8162.229
+
+
+394) INDG43
+Indigenous (Ethnoreligionist) G43 (Religionist Institutions)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	9714	1.343	0.712
+0)	1372	14.1
+0.5)	12	0.1
+1)	3586	36.9
+1.5)	69	0.7
+2)	4675	48.1
+Missing	8526
+
+
+395) INDG43N
+Indigenous (Ethnoreligionist) G43 Coding Event Number
+RANGE: 10026 to 40303
+	N	Mean	Std. Deviation
+Total	9762	22867.423	8119.821
+
+
+396) ATHG43
+Atheist G43 (Religionist Institutions)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	9255	1.419	0.678
+0)	955	10.3
+0.5)	12	0.1
+1)	3466	37.5
+1.5)	69	0.7
+2)	4705	50.8
+3)	48	0.5
+Missing	8985
+
+
+397) ATHG43N
+Atheist G43 Coding Event Number
+RANGE: 10026 to 40303
+	N	Mean	Std. Deviation
+Total	9303	22642.485	8128.214
+
+
+398) PRFG44
+Preferred Religion G44 (State Religious Governance)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	9058	1.788	1.017
+0)	859	9.5
+1)	3102	34.2
+1.5)	35	0.4
+2)	2298	25.4
+3)	2610	28.8
+4)	154	1.7
+Missing	9182
+
+
+399) PRFG44N
+Preferred Religion G44 Coding Event Number
+RANGE: 10042 to 40183
+	N	Mean	Std. Deviation
+Total	9058	21280.981	7673.796
+
+
+400) NPRFG44
+Non-Preferred Religions G44 (State Religious Governance)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	3033	1.558	0.717
+0)	385	12.7
+1)	576	19.0
+1.5)	35	1.2
+2)	2013	66.4
+3)	24	0.8
+Missing	15207
+
+
+401) NPRFG44N
+Non-Preferred Religions G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	3033	20728.121	7466.229
+
+
+402) CHRG44
+Christian G44 (State Religious Governance)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	6071	2.065	0.91
+0)	465	7.7
+1)	815	13.4
+1.5)	35	0.6
+2)	2707	44.6
+3)	1941	32.0
+4)	108	1.8
+Missing	12169
+
+
+403) CHRG44N
+Christian G44 Coding Event Number
+RANGE: 10042 to 40183
+	N	Mean	Std. Deviation
+Total	6071	19948.938	6743.046
+
+
+404) WCHRG44
+Western Christian G44 (State Religious Governance)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	5591	2.005	0.916
+0)	481	8.6
+1)	768	13.7
+1.5)	35	0.6
+2)	2640	47.2
+3)	1559	27.9
+4)	108	1.9
+Missing	12649
+
+
+405) WCHRG44N
+Western Christian G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	5591	19805.442	6968.273
+
+
+406) CATG44
+Catholic G44 (State Religious Governance)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	6560	1.539	0.898
+0)	746	11.4
+1)	2494	38.0
+1.5)	35	0.5
+2)	2413	36.8
+3)	764	11.6
+4)	108	1.6
+Missing	11680
+
+
+407) CATG44N
+Catholic G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	6560	18768.205	6578.862
+
+
+408) XPRTG44
+Extended Protestant G44 (State Religious Governance)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	4431	1.88	0.845
+0)	378	8.5
+1)	730	16.5
+1.5)	35	0.8
+2)	2315	52.2
+3)	973	22.0
+Missing	13809
+
+
+409) XPRTG44N
+Extended Protestant G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	4431	20983.007	6840.897
+
+
+410) PRTG44
+Protestant G44 (State Religious Governance)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	4536	1.831	0.835
+0)	394	8.7
+1)	833	18.4
+1.5)	35	0.8
+2)	2402	53.0
+3)	872	19.2
+Missing	13704
+
+
+411) PRTG44N
+Protestant G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	4536	20919.14	6795.654
+
+
+412) ANGG44
+Anglican G44 (State Religious Governance)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	3420	1.592	0.777
+0)	434	12.7
+1)	698	20.4
+1.5)	35	1.0
+2)	2064	60.4
+3)	189	5.5
+Missing	14820
+
+
+413) ANGG44N
+Anglican G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	3420	20782.423	7508.236
+
+
+414) PENG44
+Pentecostal G44 (State Religious Governance)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	2601	1.603	0.788
+0)	405	15.6
+1)	308	11.8
+1.5)	11	0.4
+2)	1785	68.6
+3)	92	3.5
+Missing	15639
+
+
+415) PENG44N
+Pentecostal G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	2601	22265.953	7657.888
+
+
+416) ORTG44
+Orthodox G44 (State Religious Governance)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	4097	1.698	0.848
+0)	490	12.0
+1)	793	19.4
+1.5)	35	0.9
+2)	2225	54.3
+3)	554	13.5
+Missing	14143
+
+
+417) ORTG44N
+Orthodox G44 Coding Event Number
+RANGE: 10042 to 40183
+	N	Mean	Std. Deviation
+Total	4097	21898.132	7425.528
+
+
+418) CSYNG44
+Christian Syncretic G44 (State Religious Governance)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	3033	1.558	0.717
+0)	385	12.7
+1)	576	19.0
+1.5)	35	1.2
+2)	2013	66.4
+3)	24	0.8
+Missing	15207
+
+
+419) CSYNG44N
+Christian Syncretic G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	3033	20728.121	7466.229
+
+
+420) JEWG44
+Jewish G44 (State Religious Governance)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	3313	1.5	0.712
+0)	382	11.5
+0.5)	55	1.7
+1)	818	24.7
+1.5)	35	1.1
+2)	1997	60.3
+3)	26	0.8
+Missing	14927
+
+
+421) JEWG44N
+Jewish G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	3313	20515.596	7189.287
+
+
+422) MUSG44
+Muslim G44 (State Religious Governance)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	4921	1.452	0.906
+0)	926	18.8
+1)	1311	26.6
+1.5)	35	0.7
+2)	2165	44.0
+3)	483	9.8
+4)	1	0.0
+Missing	13319
+
+
+423) MUSG44N
+Muslim G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	4921	24749.961	8371.299
+
+
+424) SUNG44
+Sunni Muslim G44 (State Religious Governance)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	4936	1.406	0.898
+0)	950	19.2
+1)	1462	29.6
+1.5)	35	0.7
+2)	2042	41.4
+3)	446	9.0
+4)	1	0.0
+Missing	13304
+
+
+425) SUNG44N
+Sunni Muslim G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	4936	24754.006	8343.181
+
+
+426) SHIG44
+Shia Muslim G44 (State Religious Governance)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	4927	1.421	0.885
+0)	925	18.8
+1)	1395	28.3
+1.5)	35	0.7
+2)	2165	43.9
+3)	406	8.2
+4)	1	0.0
+Missing	13313
+
+
+427) SHIG44N
+Shia Muslim G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	4927	24820.09	8437.609
+
+
+428) IBAG44
+Ibadi Muslim G44 (State Religious Governance)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	4677	1.406	0.891
+0)	925	19.8
+1)	1281	27.4
+1.5)	35	0.7
+2)	2066	44.2
+3)	369	7.9
+4)	1	0.0
+Missing	13563
+
+
+429) IBAG44N
+Ibadi Muslim G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	4677	24368.412	8402.705
+
+
+430) ZORG44
+Zoroastrian G44 (State Religious Governance)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	3033	1.558	0.717
+0)	385	12.7
+1)	576	19.0
+1.5)	35	1.2
+2)	2013	66.4
+3)	24	0.8
+Missing	15207
+
+
+431) ZORG44N
+Zoroastrian G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	3033	20728.121	7466.229
+
+
+432) BAHG44
+Baha'i G44 (State Religious Governance)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	2855	1.574	0.726
+0)	384	13.5
+1)	456	16.0
+1.5)	35	1.2
+2)	1956	68.5
+3)	24	0.8
+Missing	15385
+
+
+433) BAHG44N
+Baha'i G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	2855	21104.986	7510.578
+
+
+434) JAIG44
+Jain G44 (State Religious Governance)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	3033	1.558	0.717
+0)	385	12.7
+1)	576	19.0
+1.5)	35	1.2
+2)	2013	66.4
+3)	24	0.8
+Missing	15207
+
+
+435) JAIG44N
+Jain G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	3033	20728.121	7466.229
+
+
+436) SIKG44
+Sikh G44 (State Religious Governance)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	3033	1.558	0.717
+0)	385	12.7
+1)	576	19.0
+1.5)	35	1.2
+2)	2013	66.4
+3)	24	0.8
+Missing	15207
+
+
+437) SIKG44N
+Sikh G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	3033	20728.121	7466.229
+
+
+438) HING44
+Hindu G44 (State Religious Governance)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	3101	1.568	0.742
+0)	385	12.4
+1)	643	20.7
+1.5)	35	1.1
+2)	1946	62.8
+3)	92	3.0
+Missing	15139
+
+
+439) HING44N
+Hindu G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	3101	21035.116	7663.344
+
+
+440) BUDG44
+Buddhist G44 (State Religious Governance)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	3375	1.644	0.819
+0)	411	12.2
+1)	659	19.5
+1.5)	35	1.0
+2)	2013	59.6
+3)	217	6.4
+4)	40	1.2
+Missing	14865
+
+
+441) BUDG44N
+Buddhist G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	3375	22165.136	8272.715
+
+
+442) THEG44
+Theravada Buddhist G44 (State Religious Governance)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	3346	1.642	0.831
+0)	437	13.1
+1)	604	18.1
+1.5)	35	1.0
+2)	2013	60.2
+3)	217	6.5
+4)	40	1.2
+Missing	14894
+
+
+443) THEG44N
+Theravada Buddhist G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	3346	22068.143	8242.75
+
+
+444) MAHG44
+Mahayana Buddhist G44 (State Religious Governance)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	3209	1.608	0.795
+0)	411	12.8
+1)	604	18.8
+1.5)	35	1.1
+2)	2013	62.7
+3)	106	3.3
+4)	40	1.2
+Missing	15031
+
+
+445) MAHG44N
+Mahayana Buddhist G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	3209	21511.619	7954.601
+
+
+446) TIBG44
+Tibetan Buddhist G44 (State Religious Governance)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	3294	1.583	0.803
+0)	441	13.4
+1)	659	20.0
+1.5)	35	1.1
+2)	2013	61.1
+3)	106	3.2
+4)	40	1.2
+Missing	14946
+
+
+447) TIBG44N
+Tibetan Buddhist G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	3294	21826.68	8086.69
+
+
+448) SHNG44
+Shinto G44 (State Religious Governance)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	3033	1.558	0.717
+0)	385	12.7
+1)	576	19.0
+1.5)	35	1.2
+2)	2013	66.4
+3)	24	0.8
+Missing	15207
+
+
+449) SHNG44N
+Shinto G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	3033	20728.121	7466.229
+
+
+450) CNFG44
+Confucianist G44 (State Religious Governance)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	3033	1.558	0.717
+0)	385	12.7
+1)	576	19.0
+1.5)	35	1.2
+2)	2013	66.4
+3)	24	0.8
+Missing	15207
+
+
+451) CNFG44N
+Confucianist G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	3033	20728.121	7466.229
+
+
+452) TAOG44
+Taoist G44 (State Religious Governance)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	2979	1.587	0.691
+0)	331	11.1
+1)	576	19.3
+1.5)	35	1.2
+2)	2013	67.6
+3)	24	0.8
+Missing	15261
+
+
+453) TAOG44N
+Taoist G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	2979	20505.51	7346.509
+
+
+454) CHFG44
+Chinese Folk Religionist G44 (State Religious Governance)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	3033	1.558	0.717
+0)	385	12.7
+1)	576	19.0
+1.5)	35	1.2
+2)	2013	66.4
+3)	24	0.8
+Missing	15207
+
+
+455) CHFG44N
+Chinese Folk Religionist G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	3033	20728.121	7466.229
+
+
+456) BUDCG44
+Buddhist Complex G44 (State Religious Governance)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	3375	1.644	0.819
+0)	411	12.2
+1)	659	19.5
+1.5)	35	1.0
+2)	2013	59.6
+3)	217	6.4
+4)	40	1.2
+Missing	14865
+
+
+457) BUDCG44N
+Buddhist Complex G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	3375	22165.136	8272.715
+
+
+458) INDG44
+Indigenous (Ethnoreligionist) G44 (State Religious Governance)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	3033	1.558	0.717
+0)	385	12.7
+1)	576	19.0
+1.5)	35	1.2
+2)	2013	66.4
+3)	24	0.8
+Missing	15207
+
+
+459) INDG44N
+Indigenous (Ethnoreligionist) G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	3033	20728.121	7466.229
+
+
+460) ATHG44
+Atheist G44 (State Religious Governance)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	2737	1.708	0.553
+0)	115	4.2
+1)	576	21.0
+1.5)	35	1.3
+2)	1987	72.6
+3)	24	0.9
+Missing	15503
+
+
+461) ATHG44N
+Atheist G44 Coding Event Number
+RANGE: 10042 to 40139
+	N	Mean	Std. Deviation
+Total	2737	19798.753	6989.298
+
+
+462) PRFG45
+Preferred Religion G45 (Registration Requirements)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	6988	2.525	0.807
+0)	37	0.5
+1)	263	3.8
+2)	3701	53.0
+2.5)	44	0.6
+3)	1868	26.7
+3.5)	62	0.9
+4)	1013	14.5
+Missing	11252
+
+
+463) PRFG45N
+Preferred Religion G45 Coding Event Number
+RANGE: 10077 to 40215
+	N	Mean	Std. Deviation
+Total	7089	23779.98	8504.574
+
+
+464) NPRFG45
+Non-Preferred Religions G45 (Registration Requirements)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	7117	1.61	0.616
+0)	484	6.8
+0.5)	63	0.9
+1)	1689	23.7
+1.5)	44	0.6
+2)	4837	68.0
+Missing	11123
+
+
+465) NPRFG45N
+Non-Preferred Religions G45 Coding Event Number
+RANGE: 10077 to 40099
+	N	Mean	Std. Deviation
+Total	7193	24312.647	8577.228
+
+
+466) CHRG45
+Christian G45 (Registration Requirements)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	7694	2.099	1.034
+0)	644	8.4
+1)	964	12.5
+2)	3937	51.2
+2.5)	44	0.6
+3)	1189	15.5
+3.5)	62	0.8
+4)	854	11.1
+Missing	10546
+
+
+467) CHRG45N
+Christian G45 Coding Event Number
+RANGE: 0 to 40334
+	N	Mean	Std. Deviation
+Total	7734	24544.327	8772.64
+
+
+468) WCHRG45
+Western Christian G45 (Registration Requirements)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	7686	2.056	1.031
+0)	651	8.5
+0.5)	5	0.1
+1)	1081	14.1
+2)	3963	51.6
+2.5)	44	0.6
+3)	1056	13.7
+3.5)	62	0.8
+4)	824	10.7
+Missing	10554
+
+
+469) WCHRG45N
+Western Christian G45 Coding Event Number
+RANGE: 0 to 40334
+	N	Mean	Std. Deviation
+Total	7726	24443.689	8706.441
+
+
+470) CATG45
+Catholic G45 (Registration Requirements)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	7661	2.019	0.997
+0)	645	8.4
+1)	1099	14.3
+2)	4074	53.2
+2.5)	44	0.6
+3)	1056	13.8
+3.5)	62	0.8
+4)	681	8.9
+Missing	10579
+
+
+471) CATG45N
+Catholic G45 Coding Event Number
+RANGE: 10077 to 40334
+	N	Mean	Std. Deviation
+Total	7737	24508.1	8624.928
+
+
+472) XPRTG45
+Extended Protestant G45 (Registration Requirements)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	7610	1.793	0.896
+0)	700	9.2
+0.5)	52	0.7
+1)	1473	19.4
+1.5)	44	0.6
+2)	4260	56.0
+3)	763	10.0
+4)	318	4.2
+Missing	10630
+
+
+473) XPRTG45N
+Extended Protestant G45 Coding Event Number
+RANGE: 10077 to 40334
+	N	Mean	Std. Deviation
+Total	7650	24618.987	8707.698
+
+
+474) PRTG45
+Protestant G45 (Registration Requirements)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	7610	1.791	0.9
+0)	719	9.4
+0.5)	52	0.7
+1)	1455	19.1
+1.5)	44	0.6
+2)	4259	56.0
+3)	763	10.0
+4)	318	4.2
+Missing	10630
+
+
+475) PRTG45N
+Protestant G45 Coding Event Number
+RANGE: 10077 to 40334
+	N	Mean	Std. Deviation
+Total	7728	24707.259	8713.183
+
+
+476) ANGG45
+Anglican G45 (Registration Requirements)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	7507	1.657	0.792
+0)	709	9.4
+0.5)	52	0.7
+1)	1732	23.1
+1.5)	44	0.6
+2)	4404	58.7
+3)	457	6.1
+4)	109	1.5
+Missing	10733
+
+
+477) ANGG45N
+Anglican G45 Coding Event Number
+RANGE: 10077 to 40334
+	N	Mean	Std. Deviation
+Total	7657	24647.703	8613.692
+
+
+478) PENG45
+Pentecostal G45 (Registration Requirements)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	6976	1.642	0.74
+0)	640	9.2
+0.5)	52	0.7
+1)	1535	22.0
+1.5)	44	0.6
+2)	4324	62.0
+3)	344	4.9
+4)	37	0.5
+Missing	11264
+
+
+479) PENG45N
+Pentecostal G45 Coding Event Number
+RANGE: 10077 to 40334
+	N	Mean	Std. Deviation
+Total	7175	24703.554	8448.876
+
+
+480) ORTG45
+Orthodox G45 (Registration Requirements)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	7488	1.699	0.808
+0)	698	9.3
+0.5)	58	0.8
+1)	1532	20.5
+1.5)	26	0.3
+2)	4562	60.9
+2.5)	18	0.2
+3)	423	5.6
+4)	171	2.3
+Missing	10752
+
+
+481) ORTG45N
+Orthodox G45 Coding Event Number
+RANGE: 10077 to 40334
+	N	Mean	Std. Deviation
+Total	7564	25011.403	8859.126
+
+
+482) CSYNG45
+Christian Syncretic G45 (Registration Requirements)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	7168	1.581	0.645
+0)	600	8.4
+0.5)	63	0.9
+1)	1689	23.6
+1.5)	44	0.6
+2)	4772	66.6
+Missing	11072
+
+
+483) CSYNG45N
+Christian Syncretic G45 Coding Event Number
+RANGE: 10076 to 40099
+	N	Mean	Std. Deviation
+Total	7244	24339.544	8552.954
+
+
+484) JEWG45
+Jewish G45 (Registration Requirements)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	7043	1.738	0.719
+0)	455	6.5
+0.5)	63	0.9
+1)	1369	19.4
+1.5)	44	0.6
+2)	4673	66.3
+3)	325	4.6
+4)	114	1.6
+Missing	11197
+
+
+485) JEWG45N
+Jewish G45 Coding Event Number
+RANGE: 10077 to 40165
+	N	Mean	Std. Deviation
+Total	7202	24120.414	8527.303
+
+
+486) MUSG45
+Muslim G45 (Registration Requirements)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	7250	1.996	0.81
+0)	287	4.0
+0.5)	58	0.8
+1)	1127	15.5
+1.5)	26	0.4
+2)	4257	58.7
+2.5)	18	0.2
+3)	1190	16.4
+4)	287	4.0
+Missing	10990
+
+
+487) MUSG45N
+Muslim G45 Coding Event Number
+RANGE: 10077 to 40099
+	N	Mean	Std. Deviation
+Total	7290	24292.358	8512.513
+
+
+488) SUNG45
+Sunni Muslim G45 (Registration Requirements)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	7250	1.994	0.81
+0)	287	4.0
+0.5)	58	0.8
+1)	1136	15.7
+1.5)	26	0.4
+2)	4257	58.7
+2.5)	18	0.2
+3)	1181	16.3
+4)	287	4.0
+Missing	10990
+
+
+489) SUNG45N
+Sunni Muslim G45 Coding Event Number
+RANGE: 10077 to 40099
+	N	Mean	Std. Deviation
+Total	7326	24353.349	8535.792
+
+
+490) SHIG45
+Shia Muslim G45 (Registration Requirements)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	7071	1.851	0.769
+0)	378	5.3
+0.5)	59	0.8
+1)	1229	17.4
+1.5)	26	0.4
+2)	4549	64.3
+2.5)	18	0.3
+3)	597	8.4
+4)	215	3.0
+Missing	11169
+
+
+491) SHIG45N
+Shia Muslim G45 Coding Event Number
+RANGE: 10077 to 40099
+	N	Mean	Std. Deviation
+Total	7189	24205.572	8534.112
+
+
+492) IBAG45
+Ibadi Muslim G45 (Registration Requirements)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	7047	1.867	0.747
+0)	303	4.3
+0.5)	59	0.8
+1)	1256	17.8
+1.5)	26	0.4
+2)	4582	65.0
+2.5)	18	0.3
+3)	588	8.3
+4)	215	3.1
+Missing	11193
+
+
+493) IBAG45N
+Ibadi Muslim G45 Coding Event Number
+RANGE: 10077 to 40099
+	N	Mean	Std. Deviation
+Total	7165	24216.158	8545.864
+
+
+494) ZORG45
+Zoroastrian G45 (Registration Requirements)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	7117	1.61	0.616
+0)	484	6.8
+0.5)	63	0.9
+1)	1689	23.7
+1.5)	44	0.6
+2)	4837	68.0
+Missing	11123
+
+
+495) ZORG45N
+Zoroastrian G45 Coding Event Number
+RANGE: 10077 to 40099
+	N	Mean	Std. Deviation
+Total	7193	24312.647	8577.228
+
+
+496) BAHG45
+Baha'i G45 (Registration Requirements)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	7095	1.561	0.68
+0)	720	10.1
+0.5)	63	0.9
+1)	1591	22.4
+1.5)	44	0.6
+2)	4647	65.5
+3)	30	0.4
+Missing	11145
+
+
+497) BAHG45N
+Baha'i G45 Coding Event Number
+RANGE: 10077 to 40160
+	N	Mean	Std. Deviation
+Total	7171	24309.196	8578.829
+
+
+498) JAIG45
+Jain G45 (Registration Requirements)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	7117	1.61	0.616
+0)	484	6.8
+0.5)	63	0.9
+1)	1689	23.7
+1.5)	44	0.6
+2)	4837	68.0
+Missing	11123
+
+
+499) JAIG45N
+Jain G45 Coding Event Number
+RANGE: 10077 to 40099
+	N	Mean	Std. Deviation
+Total	7193	24312.647	8577.228
+
+
+500) SIKG45
+Sikh G45 (Registration Requirements)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	7117	1.619	0.621
+0)	484	6.8
+0.5)	63	0.9
+1)	1657	23.3
+1.5)	44	0.6
+2)	4837	68.0
+3)	32	0.4
+Missing	11123
+
+
+501) SIKG45N
+Sikh G45 Coding Event Number
+RANGE: 10077 to 40099
+	N	Mean	Std. Deviation
+Total	7193	24312.643	8577.222
+
+
+502) HING45
+Hindu G45 (Registration Requirements)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	7142	1.678	0.68
+0)	484	6.8
+0.5)	63	0.9
+1)	1535	21.5
+1.5)	44	0.6
+2)	4742	66.4
+3)	226	3.2
+4)	48	0.7
+Missing	11098
+
+
+503) HING45N
+Hindu G45 Coding Event Number
+RANGE: 10077 to 40165
+	N	Mean	Std. Deviation
+Total	7218	24361.115	8592.865
+
+
+504) BUDG45
+Buddhist G45 (Registration Requirements)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	7090	1.719	0.641
+0)	373	5.3
+0.5)	63	0.9
+1)	1476	20.8
+1.5)	44	0.6
+2)	4785	67.5
+3)	349	4.9
+Missing	11150
+
+
+505) BUDG45N
+Buddhist G45 Coding Event Number
+RANGE: 10077 to 40165
+	N	Mean	Std. Deviation
+Total	7130	24224.162	8555.806
+
+
+506) THEG45
+Theravada Buddhist G45 (Registration Requirements)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	7052	1.709	0.632
+0)	373	5.3
+0.5)	63	0.9
+1)	1476	20.9
+1.5)	44	0.6
+2)	4808	68.2
+3)	288	4.1
+Missing	11188
+
+
+507) THEG45N
+Theravada Buddhist G45 Coding Event Number
+RANGE: 10077 to 40165
+	N	Mean	Std. Deviation
+Total	7128	24239.961	8578.475
+
+
+508) MAHG45
+Mahayana Buddhist G45 (Registration Requirements)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	7132	1.68	0.636
+0)	415	5.8
+0.5)	63	0.9
+1)	1570	22.0
+1.5)	44	0.6
+2)	4808	67.4
+3)	232	3.3
+Missing	11108
+
+
+509) MAHG45N
+Mahayana Buddhist G45 Coding Event Number
+RANGE: 10077 to 40165
+	N	Mean	Std. Deviation
+Total	7208	24347.349	8591.163
+
+
+510) TIBG45
+Tibetan Buddhist G45 (Registration Requirements)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	6985	1.702	0.603
+0)	306	4.4
+0.5)	63	0.9
+1)	1570	22.5
+1.5)	44	0.6
+2)	4785	68.5
+3)	217	3.1
+Missing	11255
+
+
+511) TIBG45N
+Tibetan Buddhist G45 Coding Event Number
+RANGE: 10077 to 40165
+	N	Mean	Std. Deviation
+Total	7061	24150.266	8569.487
+
+
+512) SHNG45
+Shinto G45 (Registration Requirements)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	7045	1.61	0.617
+0)	484	6.9
+0.5)	63	0.9
+1)	1663	23.6
+1.5)	44	0.6
+2)	4791	68.0
+Missing	11195
+
+
+513) SHNG45N
+Shinto G45 Coding Event Number
+RANGE: 10077 to 40099
+	N	Mean	Std. Deviation
+Total	7121	24216.887	8567.179
+
+
+514) CNFG45
+Confucianist G45 (Registration Requirements)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	7117	1.613	0.617
+0)	484	6.8
+0.5)	63	0.9
+1)	1679	23.6
+1.5)	44	0.6
+2)	4837	68.0
+3)	10	0.1
+Missing	11123
+
+
+515) CNFG45N
+Confucianist G45 Coding Event Number
+RANGE: 10077 to 40099
+	N	Mean	Std. Deviation
+Total	7193	24312.697	8577.298
+
+
+516) TAOG45
+Taoist G45 (Registration Requirements)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	7117	1.626	0.613
+0)	446	6.3
+0.5)	63	0.9
+1)	1689	23.7
+1.5)	44	0.6
+2)	4837	68.0
+3)	38	0.5
+Missing	11123
+
+
+517) TAOG45N
+Taoist G45 Coding Event Number
+RANGE: 10077 to 40099
+	N	Mean	Std. Deviation
+Total	7193	24312.637	8577.217
+
+
+518) CHFG45
+Chinese Folk Religionist G45 (Registration Requirements)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	7117	1.61	0.616
+0)	484	6.8
+0.5)	63	0.9
+1)	1689	23.7
+1.5)	44	0.6
+2)	4837	68.0
+Missing	11123
+
+
+519) CHFG45N
+Chinese Folk Religionist G45 Coding Event Number
+RANGE: 10077 to 40099
+	N	Mean	Std. Deviation
+Total	7193	24312.647	8577.228
+
+
+520) BUDCG45
+Buddhist Complex G45 (Registration Requirements)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	7090	1.721	0.638
+0)	363	5.1
+0.5)	63	0.9
+1)	1486	21.0
+1.5)	44	0.6
+2)	4785	67.5
+3)	349	4.9
+Missing	11150
+
+
+521) BUDCG45N
+Buddhist Complex G45 Coding Event Number
+RANGE: 10077 to 40165
+	N	Mean	Std. Deviation
+Total	7130	24224.139	8555.813
+
+
+522) INDG45
+Indigenous (Ethnoreligionist) G45 (Registration Requirements)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	7065	1.606	0.673
+0)	569	8.1
+0.5)	63	0.9
+1)	1642	23.2
+1.5)	44	0.6
+2)	4690	66.4
+4)	57	0.8
+Missing	11175
+
+
+523) INDG45N
+Indigenous (Ethnoreligionist) G45 Coding Event Number
+RANGE: 10077 to 40099
+	N	Mean	Std. Deviation
+Total	7153	24304.324	8600.096
+
+
+524) ATHG45
+Atheist G45 (Registration Requirements)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	6909	1.646	0.591
+0)	376	5.4
+0.5)	63	0.9
+1)	1599	23.1
+1.5)	44	0.6
+2)	4804	69.5
+3)	23	0.3
+Missing	11331
+
+
+525) ATHG45N
+Atheist G45 Coding Event Number
+RANGE: 10077 to 40099
+	N	Mean	Std. Deviation
+Total	7010	24192.851	8607.674
+
+
+526) PRFG46
+Preferred Religion G46 (Blasphemy Laws)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	4239	2.674	0.898
+1)	138	3.3
+2)	2211	52.2
+3)	784	18.5
+4)	1106	26.1
+Missing	14001
+
+
+527) PRFG46N
+Preferred Religion G46 Coding Event Number
+RANGE: 10200 to 40294
+	N	Mean	Std. Deviation
+Total	4239	24481.029	7475.082
+
+
+528) NPRFG46
+Non-Preferred Religions G46 (Blasphemy Laws)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	4215	1.412	0.69
+0)	494	11.7
+1)	1491	35.4
+2)	2230	52.9
+Missing	14025
+
+
+529) NPRFG46N
+Non-Preferred Religions G46 Coding Event Number
+RANGE: 10201 to 40295
+	N	Mean	Std. Deviation
+Total	4215	24466.114	7466.176
+
+
+530) CHRG46
+Christian G46 (Blasphemy Laws)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	4245	2.027	0.975
+0)	294	6.9
+1)	699	16.5
+2)	2230	52.5
+3)	641	15.1
+4)	381	9.0
+Missing	13995
+
+
+531) CHRG46N
+Christian G46 Coding Event Number
+RANGE: 10200 to 40295
+	N	Mean	Std. Deviation
+Total	4245	24442.229	7449.745
+
+
+532) WCHRG46
+Western Christian G46 (Blasphemy Laws)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	4245	1.963	0.971
+0)	338	8.0
+1)	743	17.5
+2)	2230	52.5
+3)	608	14.3
+4)	326	7.7
+Missing	13995
+
+
+533) WCHRG46N
+Western Christian G46 Coding Event Number
+RANGE: 10200 to 40295
+	N	Mean	Std. Deviation
+Total	4245	24442.25	7449.754
+
+
+534) CATG46
+Catholic G46 (Blasphemy Laws)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	4245	1.772	0.944
+0)	338	8.0
+1)	1148	27.0
+2)	2230	52.5
+3)	203	4.8
+4)	326	7.7
+Missing	13995
+
+
+535) CATG46N
+Catholic G46 Coding Event Number
+RANGE: 10200 to 40295
+	N	Mean	Std. Deviation
+Total	4245	24442.492	7449.523
+
+
+536) XPRTG46
+Extended Protestant G46 (Blasphemy Laws)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	4233	1.872	0.929
+0)	351	8.3
+1)	856	20.2
+2)	2230	52.7
+3)	575	13.6
+4)	221	5.2
+Missing	14007
+
+
+537) XPRTG46N
+Extended Protestant G46 Coding Event Number
+RANGE: 10200 to 40295
+	N	Mean	Std. Deviation
+Total	4233	24508.408	7478.996
+
+
+538) PRTG46
+Protestant G46 (Blasphemy Laws)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	4233	1.774	0.91
+0)	351	8.3
+1)	1063	25.1
+2)	2230	52.7
+3)	368	8.7
+4)	221	5.2
+Missing	14007
+
+
+539) PRTG46N
+Protestant G46 Coding Event Number
+RANGE: 10200 to 40295
+	N	Mean	Std. Deviation
+Total	4233	24508.604	7478.764
+
+
+540) ANGG46
+Anglican G46 (Blasphemy Laws)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	4193	1.767	0.907
+0)	351	8.4
+1)	1054	25.1
+2)	2230	53.2
+3)	337	8.0
+4)	221	5.3
+Missing	14047
+
+
+541) ANGG46N
+Anglican G46 Coding Event Number
+RANGE: 10200 to 40295
+	N	Mean	Std. Deviation
+Total	4233	24508.474	7479.022
+
+
+542) PENG46
+Pentecostal G46 (Blasphemy Laws)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	3849	1.681	0.853
+0)	346	9.0
+1)	1004	26.1
+2)	2200	57.2
+3)	130	3.4
+4)	169	4.4
+Missing	14391
+
+
+543) PENG46N
+Pentecostal G46 Coding Event Number
+RANGE: 10200 to 40295
+	N	Mean	Std. Deviation
+Total	3889	24788.116	7455.697
+
+
+544) ORTG46
+Orthodox G46 (Blasphemy Laws)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	4233	1.669	0.898
+0)	398	9.4
+1)	1217	28.8
+2)	2230	52.7
+3)	163	3.9
+4)	225	5.3
+Missing	14007
+
+
+545) ORTG46N
+Orthodox G46 Coding Event Number
+RANGE: 10200 to 40295
+	N	Mean	Std. Deviation
+Total	4233	24508.651	7478.787
+
+
+546) CSYNG46
+Christian Syncretic G46 (Blasphemy Laws)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	4215	1.412	0.69
+0)	494	11.7
+1)	1491	35.4
+2)	2230	52.9
+Missing	14025
+
+
+547) CSYNG46N
+Christian Syncretic G46 Coding Event Number
+RANGE: 10201 to 40295
+	N	Mean	Std. Deviation
+Total	4215	24466.114	7466.176
+
+
+548) JEWG46
+Jewish G46 (Blasphemy Laws)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	4257	1.561	0.769
+0)	424	10.0
+1)	1328	31.2
+2)	2196	51.6
+3)	309	7.3
+Missing	13983
+
+
+549) JEWG46N
+Jewish G46 Coding Event Number
+RANGE: 10201 to 40295
+	N	Mean	Std. Deviation
+Total	4257	24407.719	7453.403
+
+
+550) MUSG46
+Muslim G46 (Blasphemy Laws)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	4237	2.246	0.981
+0)	36	0.8
+1)	800	18.9
+2)	2225	52.5
+3)	437	10.3
+4)	739	17.4
+Missing	14003
+
+
+551) MUSG46N
+Muslim G46 Coding Event Number
+RANGE: 10201 to 40294
+	N	Mean	Std. Deviation
+Total	4237	24508.44	7469.914
+
+
+552) SUNG46
+Sunni Muslim G46 (Blasphemy Laws)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	4237	2.246	0.981
+0)	36	0.8
+1)	800	18.9
+2)	2225	52.5
+3)	437	10.3
+4)	739	17.4
+Missing	14003
+
+
+553) SUNG46N
+Sunni Muslim G46 Coding Event Number
+RANGE: 10201 to 40294
+	N	Mean	Std. Deviation
+Total	4237	24508.44	7469.914
+
+
+554) SHIG46
+Shia Muslim G46 (Blasphemy Laws)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	4062	2.102	0.928
+0)	81	2.0
+1)	833	20.5
+2)	2225	54.8
+3)	437	10.8
+4)	486	12.0
+Missing	14178
+
+
+555) SHIG46N
+Shia Muslim G46 Coding Event Number
+RANGE: 10201 to 40294
+	N	Mean	Std. Deviation
+Total	4150	24381.214	7490.427
+
+
+556) IBAG46
+Ibadi Muslim G46 (Blasphemy Laws)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	4062	2.102	0.928
+0)	81	2.0
+1)	833	20.5
+2)	2225	54.8
+3)	437	10.8
+4)	486	12.0
+Missing	14178
+
+
+557) IBAG46N
+Ibadi Muslim G46 Coding Event Number
+RANGE: 10201 to 40294
+	N	Mean	Std. Deviation
+Total	4150	24381.214	7490.427
+
+
+558) ZORG46
+Zoroastrian G46 (Blasphemy Laws)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	4215	1.412	0.69
+0)	494	11.7
+1)	1491	35.4
+2)	2230	52.9
+Missing	14025
+
+
+559) ZORG46N
+Zoroastrian G46 Coding Event Number
+RANGE: 10201 to 40295
+	N	Mean	Std. Deviation
+Total	4215	24466.114	7466.176
+
+
+560) BAHG46
+Baha'i G46 (Blasphemy Laws)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	4100	1.424	0.695
+0)	490	12.0
+1)	1383	33.7
+2)	2227	54.3
+Missing	14140
+
+
+561) BAHG46N
+Baha'i G46 Coding Event Number
+RANGE: 10201 to 40295
+	N	Mean	Std. Deviation
+Total	4100	24558.854	7460.504
+
+
+562) JAIG46
+Jain G46 (Blasphemy Laws)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	4215	1.412	0.69
+0)	494	11.7
+1)	1491	35.4
+2)	2230	52.9
+Missing	14025
+
+
+563) JAIG46N
+Jain G46 Coding Event Number
+RANGE: 10201 to 40295
+	N	Mean	Std. Deviation
+Total	4215	24466.114	7466.176
+
+
+564) SIKG46
+Sikh G46 (Blasphemy Laws)
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	4215	1.44	0.694
+0)	454	10.8
+1)	1491	35.4
+2)	2230	52.9
+3)	40	0.9
+Missing	14025
+
+
+565) SIKG46N
+Sikh G46 Coding Event Number
+RANGE: 10201 to 40295
+	N	Mean	Std. Deviation
+Total	4215	24466.105	7466.163
+
+
+566) HING46
+Hindu G46 (Blasphemy Laws)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	4215	1.49	0.731
+0)	403	9.6
+1)	1488	35.3
+2)	2230	52.9
+3)	43	1.0
+4)	51	1.2
+Missing	14025
+
+
+567) HING46N
+Hindu G46 Coding Event Number
+RANGE: 10201 to 40295
+	N	Mean	Std. Deviation
+Total	4215	24466.095	7466.146
+
+
+568) BUDG46
+Buddhist G46 (Blasphemy Laws)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	4233	1.527	0.789
+0)	403	9.5
+1)	1460	34.5
+2)	2230	52.7
+3)	17	0.4
+4)	123	2.9
+Missing	14007
+
+
+569) BUDG46N
+Buddhist G46 Coding Event Number
+RANGE: 10201 to 40295
+	N	Mean	Std. Deviation
+Total	4233	24508.559	7478.526
+
+
+570) THEG46
+Theravada Buddhist G46 (Blasphemy Laws)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	4233	1.527	0.789
+0)	403	9.5
+1)	1460	34.5
+2)	2230	52.7
+3)	17	0.4
+4)	123	2.9
+Missing	14007
+
+
+571) THEG46N
+Theravada Buddhist G46 Coding Event Number
+RANGE: 10201 to 40295
+	N	Mean	Std. Deviation
+Total	4233	24508.559	7478.526
+
+
+572) MAHG46
+Mahayana Buddhist G46 (Blasphemy Laws)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	4215	1.513	0.772
+0)	403	9.6
+1)	1466	34.8
+2)	2230	52.9
+3)	11	0.3
+4)	105	2.5
+Missing	14025
+
+
+573) MAHG46N
+Mahayana Buddhist G46 Coding Event Number
+RANGE: 10201 to 40295
+	N	Mean	Std. Deviation
+Total	4215	24465.94	7465.922
+
+
+574) TIBG46
+Tibetan Buddhist G46 (Blasphemy Laws)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	4215	1.513	0.772
+0)	403	9.6
+1)	1466	34.8
+2)	2230	52.9
+3)	11	0.3
+4)	105	2.5
+Missing	14025
+
+
+575) TIBG46N
+Tibetan Buddhist G46 Coding Event Number
+RANGE: 10201 to 40295
+	N	Mean	Std. Deviation
+Total	4215	24465.94	7465.922
+
+
+576) SHNG46
+Shinto G46 (Blasphemy Laws)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	4215	1.412	0.69
+0)	494	11.7
+1)	1491	35.4
+2)	2230	52.9
+Missing	14025
+
+
+577) SHNG46N
+Shinto G46 Coding Event Number
+RANGE: 10201 to 40295
+	N	Mean	Std. Deviation
+Total	4215	24466.114	7466.176
+
+
+578) CNFG46
+Confucianist G46 (Blasphemy Laws)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	4215	1.421	0.698
+0)	484	11.5
+1)	1491	35.4
+2)	2230	52.9
+4)	10	0.2
+Missing	14025
+
+
+579) CNFG46N
+Confucianist G46 Coding Event Number
+RANGE: 10201 to 40295
+	N	Mean	Std. Deviation
+Total	4215	24466.112	7466.173
+
+
+580) TAOG46
+Taoist G46 (Blasphemy Laws)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	4215	1.412	0.69
+0)	494	11.7
+1)	1491	35.4
+2)	2230	52.9
+Missing	14025
+
+
+581) TAOG46N
+Taoist G46 Coding Event Number
+RANGE: 10201 to 40295
+	N	Mean	Std. Deviation
+Total	4215	24466.114	7466.176
+
+
+582) CHFG46
+Chinese Folk Religionist G46 (Blasphemy Laws)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	4215	1.412	0.69
+0)	494	11.7
+1)	1491	35.4
+2)	2230	52.9
+Missing	14025
+
+
+583) CHFG46N
+Chinese Folk Religionist G46 Coding Event Number
+RANGE: 10201 to 40295
+	N	Mean	Std. Deviation
+Total	4215	24466.114	7466.176
+
+
+584) BUDCG46
+Buddhist Complex G46 (Blasphemy Laws)
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	4233	1.527	0.789
+0)	403	9.5
+1)	1460	34.5
+2)	2230	52.7
+3)	17	0.4
+4)	123	2.9
+Missing	14007
+
+
+585) BUDCG46N
+Buddhist Complex G46 Coding Event Number
+RANGE: 10201 to 40295
+	N	Mean	Std. Deviation
+Total	4233	24508.559	7478.526
+
+
+586) INDG46
+Indigenous (Ethnoreligionist) G46 (Blasphemy Laws)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	4215	1.412	0.69
+0)	494	11.7
+1)	1491	35.4
+2)	2230	52.9
+Missing	14025
+
+
+587) INDG46N
+Indigenous (Ethnoreligionist) G46 Coding Event Number
+RANGE: 10201 to 40295
+	N	Mean	Std. Deviation
+Total	4215	24466.114	7466.176
+
+
+588) ATHG46
+Atheist G46 (Blasphemy Laws)
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	4137	1.42	0.681
+0)	454	11.0
+1)	1491	36.0
+2)	2192	53.0
+Missing	14103
+
+
+589) ATHG46N
+Atheist G46 Coding Event Number
+RANGE: 10201 to 40295
+	N	Mean	Std. Deviation
+Total	4137	24511.304	7510.467
+
+

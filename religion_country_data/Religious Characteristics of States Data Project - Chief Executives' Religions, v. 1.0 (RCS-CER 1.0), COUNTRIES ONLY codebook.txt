@@ -1,0 +1,293 @@
+Data File: RCS1COU (Full Data Codebook)
+
+1) CCODE
+Country Code assigned by RCS, generally following COW
+RANGE: 2 to 990
+	N	Mean	Std. Deviation
+Total	11333	457.018	261.696
+
+
+2) ABBREV
+Three-letter abbreviation assigned by RCS, generally following COW
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	11333	0	0
+
+
+3) YEAR
+Calendar year of observation
+RANGE: 1946 to 2018
+	N	Mean	Std. Deviation
+Total	11335	1987.278	19.686
+1946) 	73	0.6
+1947) 	75	0.7
+1948) 	80	0.7
+1949) 	84	0.7
+1950) 	84	0.7
+1951) 	85	0.7
+1952) 	85	0.7
+1953) 	87	0.8
+1954) 	89	0.8
+1955) 	89	0.8
+1956) 	92	0.8
+1957) 	94	0.8
+1958) 	95	0.8
+1959) 	95	0.8
+1960) 	113	1.0
+1961) 	116	1.0
+1962) 	123	1.1
+1963) 	125	1.1
+1964) 	128	1.1
+1965) 	131	1.2
+1966) 	135	1.2
+1967) 	136	1.2
+1968) 	140	1.2
+1969) 	140	1.2
+1970) 	142	1.3
+1971) 	147	1.3
+1972) 	147	1.3
+1973) 	148	1.3
+1974) 	150	1.3
+1975) 	157	1.4
+1976) 	157	1.4
+1977) 	158	1.4
+1978) 	161	1.4
+1979) 	164	1.4
+1980) 	165	1.5
+1981) 	167	1.5
+1982) 	167	1.5
+1983) 	169	1.5
+1984) 	170	1.5
+1985) 	170	1.5
+1986) 	172	1.5
+1987) 	172	1.5
+1988) 	172	1.5
+1989) 	172	1.5
+1990) 	175	1.5
+1991) 	186	1.6
+1992) 	188	1.7
+1993) 	191	1.7
+1994) 	193	1.7
+1995) 	193	1.7
+1996) 	193	1.7
+1997) 	193	1.7
+1998) 	193	1.7
+1999) 	193	1.7
+2000) 	193	1.7
+2001) 	193	1.7
+2002) 	194	1.7
+2003) 	194	1.7
+2004) 	194	1.7
+2005) 	194	1.7
+2006) 	195	1.7
+2007) 	195	1.7
+2008) 	196	1.7
+2009) 	196	1.7
+2010) 	196	1.7
+2011) 	197	1.7
+2012) 	197	1.7
+2013) 	197	1.7
+2014) 	197	1.7
+2015) 	197	1.7
+2016) 	197	1.7
+2017) 	197	1.7
+2018) 	197	1.7
+
+
+4) SCODE
+Country Code in Systemic Peace dataset (Polity) [country-year only]. Field missing if state-year missing from Polity dataset
+RANGE: 2 to 950
+	N	Mean	Std. Deviation
+Total	9858	458.659	244.281
+
+
+5) SABBREV
+Three-letter abbreviation in Systemic Peace dataset (Polity) [country-year only]. Field missing if state-year missing from Polity dataset
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	9858	0	0
+
+
+6) ARDAID
+Country Code assigned by Association of Religion Data Archives (ARDA). Field missing if state not included in ARDA National Profiles
+RANGE: 1 to 250
+	N	Mean	Std. Deviation
+Total	11104	126.212	70.41
+
+
+7) NUMISO
+Country Code assigned by International Standards Organization (used by Religion And State dataset) [country-year only]. Field missing if state not included in ISO 3166
+RANGE: 4 to 894
+	N	Mean	Std. Deviation
+Total	11178	425.581	250.911
+
+
+8) ISO3
+Three-letter abbreviation assigned by International Standards Organization (used by Religion And State dataset) [country-year only]. Field missing if state not included in ISO 3166
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	11178	0	0
+
+
+9) UNCODE
+Country/Region Code assigned by United Nations [country-year only]. Field missing if state not assigned code by UN
+RANGE: 4 to 894
+	N	Mean	Std. Deviation
+Total	11178	425.581	250.911
+
+
+10) INDEP
+Whether state is independent on December 31 of observed year [country-year only]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	11335	0.995	0.074
+0) No	62	0.5
+1) Yes	11273	99.5
+
+
+11) INPOLITY
+Whether state is in Polity dataset at any time during observed year [country-year only]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	11335	0.868	0.338
+0) No	1494	13.2
+1) Yes	9841	86.8
+
+
+12) INCOW
+Whether state is in COW dataset at any time during observed year [country-year only]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	11335	0.962	0.191
+0) No	428	3.8
+1) Yes	10907	96.2
+
+
+13) XCNUM
+Number of persons holding the office of chief executive in the observed year
+RANGE: 0 to 12
+	N	Mean	Std. Deviation
+Total	11330	1.226	0.646
+0) 	8	0.1
+1) 	9490	83.8
+2) 	1435	12.7
+3) 	247	2.2
+4) 	52	0.5
+5) 	19	0.2
+6) 	77	0.7
+8) 	1	0.0
+12) 	1	0.0
+Missing	5
+
+
+14) XCRNAME
+Name of chief executive's religion for the most days in the observed year
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	9632	0	0
+
+
+15) XCRID
+ID code of the chief executive's religion/denomination (unordered categorical). Uses the narrowest RCS ID code available for the religion/denomination.
+RANGE: 1000 to 9100
+	N	Mean	Std. Deviation
+Total	9632	2822.377	2396.199
+1000) 	153	1.6
+1100) 	60	0.6
+1222) 	3176	33.0
+1223) 	69	0.7
+1300) 	3	0.0
+1400) 	248	2.6
+1401) 	24	0.2
+1410) 	280	2.9
+1421) 	5	0.1
+1422) 	210	2.2
+1423) 	28	0.3
+1440) 	70	0.7
+1450) 	23	0.2
+1460) 	269	2.8
+1470) 	34	0.4
+1480) 	7	0.1
+1510) 	308	3.2
+1520) 	57	0.6
+1600) 	2	0.0
+1610) 	83	0.9
+1620) 	375	3.9
+1700) 	10	0.1
+1900) 	25	0.3
+2100) 	89	0.9
+3000) 	308	3.2
+3100) 	1833	19.0
+3120) 	30	0.3
+3200) 	111	1.2
+3210) 	11	0.1
+3211) 	23	0.2
+3212) 	10	0.1
+3213) 	53	0.6
+3230) 	50	0.5
+3300) 	50	0.5
+4800) 	10	0.1
+5000) 	194	2.0
+6000) 	19	0.2
+6100) 	235	2.4
+6200) 	33	0.3
+6300) 	75	0.8
+7100) 	13	0.1
+7200) 	6	0.1
+7300) 	11	0.1
+7500) 	6	0.1
+7700) 	8	0.1
+9000) 	24	0.2
+9001) 	236	2.5
+9100) 	675	7.0
+Missing	1703
+
+
+16) XCRDAYS
+Number of days in the observed in which the XCRID (above) is that of the chief executive. Note: If more than one chief executive is of the observed religion, XCRDAYS reflects the number of days that all of that religion's affiliates were in office.
+RANGE: 5 to 366
+	N	Mean	Std. Deviation
+Total	11309	356.469	36.442
+
+
+17) XCR2ID
+Second - or top-tier RCS ID code of the chief executive's religion (unordered categorical)
+RANGE: 1000 to 9100
+	N	Mean	Std. Deviation
+Total	9632	2790.664	2415.121
+1000) 	153	1.6
+1100) 	60	0.6
+1200) 	3245	33.7
+1300) 	1528	15.9
+1460) 	38	0.4
+1600) 	460	4.8
+1700) 	10	0.1
+1900) 	25	0.3
+2100) 	89	0.9
+3000) 	308	3.2
+3100) 	1863	19.3
+3200) 	258	2.7
+3300) 	50	0.5
+4800) 	10	0.1
+5000) 	194	2.0
+6000) 	19	0.2
+6100) 	235	2.4
+6200) 	33	0.3
+6300) 	75	0.8
+7100) 	13	0.1
+7200) 	6	0.1
+7300) 	11	0.1
+7500) 	6	0.1
+7700) 	8	0.1
+9000) 	260	2.7
+9100) 	675	7.0
+Missing	1703
+
+
+18) XCR2DAYS
+Number of days in the observed in which the XCR2ID (above) is that of the chief executive. Note: If more than one chief executive is of the second - or top-tier religion, XCR2DAYS reflects the number of days that all of that religion's affiliates were in office.
+RANGE: 5 to 366
+	N	Mean	Std. Deviation
+Total	11294	356.968	35.696
+
+

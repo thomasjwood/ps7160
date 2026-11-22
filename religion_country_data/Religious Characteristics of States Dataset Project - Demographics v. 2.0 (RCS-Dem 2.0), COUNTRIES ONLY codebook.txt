@@ -1,0 +1,1677 @@
+Data File: RCSDEM2(Full Data Codebook)
+
+1) CCODE
+Country Code assigned by RCS, generally following Correlates of War (See Appendix A for codes by country)
+RANGE: 2 to 9620
+	N	Mean	Std. Deviation
+Total	42747	740.289	1342.294
+
+
+2) ABBREV
+3-letter abbreviation assigned by RCS, generally following COW (See Appendix A for abbreviations by country)
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	42747		
+
+
+3) YEAR
+Year
+RANGE: 1700 to 2015
+	N	Mean	Std. Deviation
+Total	42747	1921.67	61.809
+
+
+4) SCODE
+Country code in Systemic Peace dataset (Polity)
+RANGE: 2 to 950
+	N	Mean	Std. Deviation
+Total	30002	436.316	240.468
+
+
+5) SABBREV
+3-letter abbreviation in Systemic Peace dataset (Polity)
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	30002		
+
+
+6) ARDAID
+Country Code assigned by Association of Religion Data Archives (ARDA)
+RANGE: 1 to 252
+	N	Mean	Std. Deviation
+Total	37949	124.93	70.801
+
+
+7) NUMISO
+Country Code assigned by International Standards Organization (used by Religion And State dataset)
+RANGE: 4 to 894
+	N	Mean	Std. Deviation
+Total	38431	430.861	250.204
+
+
+8) ISO3
+3-letter abbreviation assigned by International Standards Organization (used by Religion And State dataset)
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	38266		
+
+
+9) UNCODE
+Country/Region Code assigned by United Nations
+RANGE: 4 to 894
+	N	Mean	Std. Deviation
+Total	38431	430.872	250.204
+
+
+10) INDEP
+Whether state is independent on December 31 of observed year
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	42691	0.449	0.497
+0) No	23505	55.1
+1) Yes	19186	44.9
+Missing	56
+
+
+11) INPOLIT
+Whether state is in Polity dataset at any time during observed year
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	42688	0.386	0.487
+0) No	26211	61.4
+1) Yes	16477	38.6
+Missing	59
+
+
+12) INCOW
+Whether state is in COW dataset at any point during the observed year
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	42688	0.365	0.482
+0) No	27087	63.5
+1) Yes	15601	36.5
+Missing	59
+
+
+13) MAJID
+ID code of religion of majority of population (50% plus one)
+RANGE: 0 to 9100
+	N	Mean	Std. Deviation
+Total	41861	2375.618	2183.571
+0) None	2486	5.9
+1000)	722	1.7
+1100)	2007	4.8
+1150)	88	0.2
+1200)	7	0.0
+1220)	173	0.4
+1222)	12830	30.6
+1223)	119	0.3
+1300)	1667	4.0
+1400)	1172	2.8
+1410)	2178	5.2
+1420)	2	0.0
+1421)	96	0.2
+1422)	373	0.9
+1423)	666	1.6
+1450)	134	0.3
+1460)	252	0.6
+1470)	112	0.3
+1500)	13	0.0
+1510)	967	2.3
+1600)	18	0.0
+1610)	143	0.3
+1620)	2282	5.5
+1900)	148	0.4
+2100)	65	0.2
+3000)	402	1.0
+3100)	1534	3.7
+3110)	1565	3.7
+3120)	1668	4.0
+3130)	1207	2.9
+3140)	307	0.7
+3200)	442	1.1
+3230)	216	0.5
+3300)	145	0.3
+5000)	457	1.1
+6000)	48	0.1
+6100)	770	1.8
+6200)	235	0.6
+6300)	142	0.3
+7000)	125	0.3
+7700)	649	1.6
+8000)	103	0.2
+8100)	2785	6.7
+8300)	24	0.1
+9000)	244	0.6
+9001)	59	0.1
+9100)	14	0.0
+Missing	886
+
+
+14) SUPID
+ID code of religion of supermajority of population (66 2/3% or greater)
+RANGE: 0 to 9000
+	N	Mean	Std. Deviation
+Total	41644	1897.808	1994.261
+0) None	7486	18.0
+1000)	1121	2.7
+1100)	3654	8.8
+1150)	88	0.2
+1200)	29	0.1
+1220)	261	0.6
+1222)	10885	26.1
+1223)	105	0.3
+1300)	1885	4.5
+1400)	648	1.6
+1410)	2038	4.9
+1421)	26	0.1
+1423)	393	0.9
+1450)	132	0.3
+1460)	160	0.4
+1470)	60	0.1
+1500)	1	0.0
+1510)	435	1.0
+1600)	9	0.0
+1610)	23	0.1
+1620)	1580	3.8
+2100)	19	0.0
+3000)	973	2.3
+3100)	1541	3.7
+3110)	1107	2.7
+3120)	1466	3.5
+3130)	980	2.4
+3140)	146	0.4
+3200)	216	0.5
+3230)	151	0.4
+3300)	109	0.3
+5000)	364	0.9
+6100)	523	1.3
+6200)	154	0.4
+6300)	126	0.3
+7000)	400	1.0
+7700)	148	0.4
+7900)	79	0.2
+8000)	102	0.2
+8100)	1925	4.6
+8300)	21	0.1
+9000)	75	0.2
+Missing	1103
+
+
+15) TOTPP
+RCS estimate of total population
+RANGE: 16 to 1409051936
+	N	Mean	Std. Deviation
+Total	42744	16068355.633	78401372.616
+
+
+16) RELPP
+Total population of known religionists (vice non-religionists)
+RANGE: 16 to 1262714050
+	N	Mean	Std. Deviation
+Total	42678	13180315.093	56149022.103
+
+
+17) RELPC
+Total percentage of known religionists (vice non-religionists)
+RANGE: 5.72924900054932 to 100.201736450195
+	N	Mean	Std. Deviation
+Total	42678	93.097	13.623
+
+
+18) CHRPP
+1000-Population of Christians
+RANGE: 0 to 220753356
+	N	Mean	Std. Deviation
+Total	42735	4343742.565	13678420.82
+
+
+19) CHRPC
+1000-Percentage of Christians
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	42735	57.882	39.99
+
+
+20) UCHRPP
+1001-Population of unspecified Christians
+RANGE: -9804330 to 33003848
+	N	Mean	Std. Deviation
+Total	42489	73326.408	877252.875
+
+
+21) UCHRPC
+1001-Percentage of unspecified Christians
+RANGE: -19.1506118774414 to 41.7526550292969
+	N	Mean	Std. Deviation
+Total	42486	0.787	3.546
+
+
+22) WCHRPP
+1100-Population of Western Christians
+RANGE: -267925 to 176518520
+	N	Mean	Std. Deviation
+Total	40232	3503314.416	11571500.259
+
+
+23) WCHRPC
+1100-Percentage of Western Christians
+RANGE: -3.09613466262817 to 100
+	N	Mean	Std. Deviation
+Total	40232	50.699	41.699
+
+
+24) ECHRPP
+1150-Population of Eastern Christians
+RANGE: -9753867 to 138669980
+	N	Mean	Std. Deviation
+Total	41465	687469.006	5109533.75
+
+
+25) ECHRPC
+1150-Percentage of Eastern Christians
+RANGE: -19.1411437988281 to 98.925163269043
+	N	Mean	Std. Deviation
+Total	41465	6.134	18.317
+
+
+26) CATPP
+1200-Population of Catholics
+RANGE: 0 to 126131974
+	N	Mean	Std. Deviation
+Total	42202	2256508.148	7725232.994
+
+
+27) CATPC
+1200-Percentage of Catholics
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	42202	31.809	37.402
+
+
+28) RCCPP
+1220-Population of Roman Catholics
+RANGE: 0 to 125572895
+	N	Mean	Std. Deviation
+Total	42202	2245440.535	7670386.594
+
+
+29) RCCPC
+1220-Percentage of Roman Catholics
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	42202	31.76	37.353
+
+
+30) RCLPP
+1222-Population of Latin-Rite Roman Catholics
+RANGE: 0 to 124197426
+	N	Mean	Std. Deviation
+Total	41496	2219908.006	7645001.877
+
+
+31) RCLPC
+1222-Percentage of Latin-Rite Roman Catholics
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	41496	31.672	37.38
+
+
+32) RCNPP
+1223-Population of Non-Latin-Rite Roman Catholics
+RANGE: 0 to 5737890
+	N	Mean	Std. Deviation
+Total	41878	62923.028	374725.622
+
+
+33) RCNPC
+1223-Percentage of Non-Latin-Rite Roman Catholics
+RANGE: 0 to 72.0284194946289
+	N	Mean	Std. Deviation
+Total	41878	0.616	4.67
+
+
+34) OCATPP
+1270-Population of Other Catholics
+RANGE: 0 to 2007000
+	N	Mean	Std. Deviation
+Total	42568	10972.611	103953.995
+
+
+35) OCATPC
+1270-Percentage of Other Catholics
+RANGE: 0 to 10.6719722747803
+	N	Mean	Std. Deviation
+Total	42568	0.048	0.467
+
+
+36) XPRTPP
+1300-Population of Extended Protestants
+RANGE: 0 to 94307739
+	N	Mean	Std. Deviation
+Total	42050	1205250.185	5802323.171
+
+
+37) XPRTPC
+1300-Percentage of Extended Protestants
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	42050	19.451	30.833
+
+
+38) PTANPP
+1320-Population of Protestants and Anglicans
+RANGE: 0 to 82182075
+	N	Mean	Std. Deviation
+Total	42050	1077606.889	5273572.181
+
+
+39) PTANPC
+1320-Percentage of Protestants and Anglicans
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	42050	18.613	30.414
+
+
+40) PTPNPP
+1330-Population of Protestants and Pentecostals
+RANGE: 0 to 92037470
+	N	Mean	Std. Deviation
+Total	42050	1001991.01	5187291.702
+
+
+41) PTPNPC
+1330-Percentage of Protestants and Pentecostals
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	42050	15.43	26.835
+
+
+42) PRTPP
+1400-Population of Protestants
+RANGE: 0 to 78761778
+	N	Mean	Std. Deviation
+Total	42000	875388.59	4654589.27
+
+
+43) PRTPC
+1400-Percentage of Protestants
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	42000	14.609	26.437
+
+
+44) UPRTPP
+1401-Population of unspecified Protestants
+RANGE: -566565 to 34385208
+	N	Mean	Std. Deviation
+Total	41732	146997.12	1643522.353
+
+
+45) UPRTPC
+1401-Percentage of unspecified Protestants
+RANGE: -29.068323135376 to 70.8926315307617
+	N	Mean	Std. Deviation
+Total	41732	0.822	3.817
+
+
+46) LUTPP
+1410-Population of Lutherans
+RANGE: 0 to 19307130
+	N	Mean	Std. Deviation
+Total	40843	241465.547	1204140.62
+
+
+47) LUTPC
+1410-Percentage of Lutherans
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	40843	5.841	21.004
+
+
+48) REFPP
+1420-Population of Reformed Protestants
+RANGE: 0 to 9287870
+	N	Mean	Std. Deviation
+Total	41068	150829.528	630565.405
+
+
+49) REFPC
+1420-Percentage of Reformed Protestants
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	41068	3.732	12.555
+
+
+50) UREFPP
+1421-Population of unspecified Reformed Protestants
+RANGE: 0 to 2672024
+	N	Mean	Std. Deviation
+Total	41550	8596.334	94741.556
+
+
+51) UREFPC
+1421-Percentage of unspecified Reformed Protestants
+RANGE: 0 to 73.2531204223633
+	N	Mean	Std. Deviation
+Total	41550	0.371	3.773
+
+
+52) PRSPP
+1422-Population of Presbyterial Reformed Protestants
+RANGE: 0 to 6860522
+	N	Mean	Std. Deviation
+Total	39317	137556.246	565639.975
+
+
+53) PRSPC
+1422-Percentage of Presbyterial Reformed Protestants
+RANGE: 0 to 62.5614585876465
+	N	Mean	Std. Deviation
+Total	39317	1.609	6.748
+
+
+54) CNGPP
+1423-Population of Congregational Reformed Protestants
+RANGE: 0 to 991798
+	N	Mean	Std. Deviation
+Total	40734	10526.95	64501.137
+
+
+55) CNGPC
+1423-Percentage of Congregational Reformed Protestants
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	40734	1.831	10.342
+
+
+56) ABPPP
+1430-Population of Anabaptists, Brethren, and Pietists
+RANGE: 0 to 875811
+	N	Mean	Std. Deviation
+Total	41374	5986.796	41150.34
+
+
+57) ABPPC
+1430-Percentage of Anabaptists, Brethren, and Pietists
+RANGE: 0 to 35.1497917175293
+	N	Mean	Std. Deviation
+Total	41374	0.263	1.92
+
+
+58) BAPPP
+1440-Population of Baptists
+RANGE: 0 to 42086463
+	N	Mean	Std. Deviation
+Total	41410	113186.039	1496241.895
+
+
+59) BAPPC
+1440-Percentage of Baptists
+RANGE: 0 to 44.1998596191406
+	N	Mean	Std. Deviation
+Total	41410	0.593	2.784
+
+
+60) ADVPP
+1450-Population of Adventists
+RANGE: 0 to 1735214
+	N	Mean	Std. Deviation
+Total	41537	14300.961	76453.085
+
+
+61) ADVPC
+1450-Percentage of Adventists
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	41537	0.677	5.612
+
+
+62) WESPP
+1460-Population of Wesleyans
+RANGE: 0 to 18784523
+	N	Mean	Std. Deviation
+Total	41104	86679.661	782345.29
+
+
+63) WESPC
+1460-Percentage of Wesleyans
+RANGE: 0 to 85.1699981689453
+	N	Mean	Std. Deviation
+Total	41104	1.991	7.464
+
+
+64) MPRTPP
+1470-Population of Multidenominational Protestants
+RANGE: 0 to 20501441
+	N	Mean	Std. Deviation
+Total	40958	112447.078	1102870.92
+
+
+65) MPRTPC
+1470-Percentage of Multidenominational Protestants
+RANGE: 0 to 68.9155731201172
+	N	Mean	Std. Deviation
+Total	40958	0.71	4.649
+
+
+66) OPRTPP
+1480-Population of Other Protestants
+RANGE: 0 to 7778744
+	N	Mean	Std. Deviation
+Total	40114	22227.963	169416.464
+
+
+67) OPRTPC
+1480-Percentage of Other Protestants
+RANGE: 0 to 20.6338920593262
+	N	Mean	Std. Deviation
+Total	40114	0.323	1.399
+
+
+68) QPRTPP
+1500-Population of Quasi-Protestants
+RANGE: -81 to 43626681
+	N	Mean	Std. Deviation
+Total	42342	328627.417	2076798.943
+
+
+69) QPRTPC
+1500-Percentage of Quasi-Protestants
+RANGE: -0.149195998907089 to 100
+	N	Mean	Std. Deviation
+Total	42342	4.826	13.135
+
+
+70) ANGPP
+1510-Population of Anglicans
+RANGE: -254 to 28461037
+	N	Mean	Std. Deviation
+Total	41551	205706.126	1702149.715
+
+
+71) ANGPC
+1510-Percentage of Anglicans
+RANGE: -0.149195998907089 to 100
+	N	Mean	Std. Deviation
+Total	41551	4.069	12.822
+
+
+72) PENPP
+1520-Population of Pentecostals
+RANGE: 0 to 30659701
+	N	Mean	Std. Deviation
+Total	42157	127320.418	942285.335
+
+
+73) PENPC
+1520-Percentage of Pentecostals
+RANGE: 0 to 30.243371963501
+	N	Mean	Std. Deviation
+Total	42157	0.836	2.644
+
+
+74) ORTPP
+1600-Population of Orthodox
+RANGE: 0 to 133203072
+	N	Mean	Std. Deviation
+Total	42256	732760.425	5544629.947
+
+
+75) ORTPC
+1600-Percentage of Orthodox
+RANGE: 0 to 98.8567047119141
+	N	Mean	Std. Deviation
+Total	42256	6.174	18.254
+
+
+76) UORTPP
+1601-Population of unspecified Orthodox
+RANGE: -2 to 693030
+	N	Mean	Std. Deviation
+Total	42641	3580.763	29377.117
+
+
+77) UORTPC
+1601-Percentage of unspecified Orthodox
+RANGE: -8.83273605722934E-05 to 2.75055003166199
+	N	Mean	Std. Deviation
+Total	42641	0.019	0.16
+
+
+78) OORTPP
+1610-Population of Oriental Orthodox
+RANGE: 0 to 38764123
+	N	Mean	Std. Deviation
+Total	42368	77380.951	989234.956
+
+
+79) OORTPC
+1610-Percentage of Oriental Orthodox
+RANGE: 0 to 93.2089614868164
+	N	Mean	Std. Deviation
+Total	42368	0.751	5.038
+
+
+80) EORTPP
+1620-Population of Eastern Orthodox
+RANGE: 0 to 131465338
+	N	Mean	Std. Deviation
+Total	41961	656157.759	5405015.143
+
+
+81) EORTPC
+1620-Percentage of Eastern Orthodox
+RANGE: 0 to 98.8495712280273
+	N	Mean	Std. Deviation
+Total	41961	5.44	17.597
+
+
+82) OCHRPP
+1700-Population of Other Non-Liminal Christians
+RANGE: 0 to 56824682
+	N	Mean	Std. Deviation
+Total	42265	94382.667	1805101.386
+
+
+83) OCHRPC
+1700-Percentage of Other Non-Liminal Christians
+RANGE: 0 to 12.5147218704224
+	N	Mean	Std. Deviation
+Total	42265	0.098	0.442
+
+
+84) LCHRPP
+1800-Population of Liminal Christians
+RANGE: -3016 to 10771940
+	N	Mean	Std. Deviation
+Total	42302	39608.784	379698.711
+
+
+85) LCHRPC
+1800-Percentage of Liminal Christians
+RANGE: -1.70930232852697E-02 to 19.073184967041
+	N	Mean	Std. Deviation
+Total	42302	0.34	1.322
+
+
+86) ULCHPP
+1801-Population of unspecified Liminal Christians
+RANGE: -3016 to 1377763
+	N	Mean	Std. Deviation
+Total	42415	2221.443	42365.928
+
+
+87) ULCHPC
+1801-Percentage of unspecified Liminal Christians
+RANGE: -1.70930232852697E-02 to 1.69233798980713
+	N	Mean	Std. Deviation
+Total	42415	0.004	0.049
+
+
+88) ECCPP
+1810-Population of Extra-Canonical Christians
+RANGE: 0 to 6724310
+	N	Mean	Std. Deviation
+Total	42381	11581.231	172190.888
+
+
+89) ECCPC
+1810-Percentage of Extra-Canonical Christians
+RANGE: 0 to 18.5721015930176
+	N	Mean	Std. Deviation
+Total	42381	0.134	0.899
+
+
+90) LDSPP
+1812-Population of Latter-Day Saints (Mormons)
+RANGE: 0 to 6531656
+	N	Mean	Std. Deviation
+Total	41971	10760.538	163590.008
+
+
+91) LDSPC
+1812-Percentage of Latter-Day Saints (Mormons)
+RANGE: 0 to 18.5721015930176
+	N	Mean	Std. Deviation
+Total	41971	0.133	0.903
+
+
+92) OECCPP
+1813-Population of Other Extra-Canonical Christians
+RANGE: 0 to 321013
+	N	Mean	Std. Deviation
+Total	41187	951.597	12748.041
+
+
+93) OECCPC
+1813-Percentage of Other Extra-Canonical Christians
+RANGE: 0 to 0.246383294463158
+	N	Mean	Std. Deviation
+Total	41187	0.002	0.014
+
+
+94) NTCPP
+1820-Population of Non-Trinitarian Christians
+RANGE: 0 to 7999517
+	N	Mean	Std. Deviation
+Total	42368	23505.8	239779.665
+
+
+95) NTCPC
+1820-Percentage of Non-Trinitarian Christians
+RANGE: 0 to 19.0300388336182
+	N	Mean	Std. Deviation
+Total	42368	0.19	0.85
+
+
+96) JWTPP
+1822-Population of Jehovah's Witnesses
+RANGE: 0 to 2097870
+	N	Mean	Std. Deviation
+Total	42179	12848.934	84795.372
+
+
+97) JWTPC
+1822-Percentage of Jehovah's Witnesses
+RANGE: 0 to 11.5721025466919
+	N	Mean	Std. Deviation
+Total	42179	0.144	0.456
+
+
+98) UNIPP
+1823-Population of Unitarians
+RANGE: 0 to 225693
+	N	Mean	Std. Deviation
+Total	41752	1396.718	11220.186
+
+
+99) UNIPC
+1823-Percentage of Unitarians
+RANGE: 0 to 0.694196820259094
+	N	Mean	Std. Deviation
+Total	41752	0.006	0.037
+
+
+100) ONTCPP
+1827-Population of Other Non-Trinitarian Christians
+RANGE: 0 to 7500000
+	N	Mean	Std. Deviation
+Total	42402	9330.274	206884.727
+
+
+101) ONTCPC
+1827-Percentage of Other Non-Trinitarian Christians
+RANGE: 0 to 17.8518199920654
+	N	Mean	Std. Deviation
+Total	42402	0.041	0.696
+
+
+102) OLCHPP
+1870-Population of Other Liminal Christians
+RANGE: 0 to 705520
+	N	Mean	Std. Deviation
+Total	41990	2252.689	26406.439
+
+
+103) OLCHPC
+1870-Percentage of Other Liminal Christians
+RANGE: 0 to 2.34224939346313
+	N	Mean	Std. Deviation
+Total	41990	0.011	0.114
+
+
+104) CSYNPP
+1900-Population of Christian Syncretics
+RANGE: 0 to 8613592
+	N	Mean	Std. Deviation
+Total	42018	26387.255	278692.405
+
+
+105) CSYNPC
+1900-Percentage of Christian Syncretics
+RANGE: 0 to 52.8837890625
+	N	Mean	Std. Deviation
+Total	42018	0.565	3.561
+
+
+106) CSYNDS
+1900-Description of Christian Syncretics (string)
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	9528		
+
+
+107) JEWPP
+2100-Population of Jews
+RANGE: 0 to 7188277
+	N	Mean	Std. Deviation
+Total	41506	65769.498	399976.459
+
+
+108) JEWPC
+2100-Percentage of Jews
+RANGE: 0 to 87.7197952270508
+	N	Mean	Std. Deviation
+Total	41506	0.668	3.299
+
+
+109) MANPP
+2500-Population of Mandaeans
+RANGE: 0 to 53569
+	N	Mean	Std. Deviation
+Total	42722	89.549	1255.888
+
+
+110) MANPC
+2500-Percentage of Mandaeans
+RANGE: 0 to 0.181488528847694
+	N	Mean	Std. Deviation
+Total	42722	0.001	0.011
+
+
+111) MUSPP
+3000-Population of Muslims
+RANGE: 0 to 201961620
+	N	Mean	Std. Deviation
+Total	42123	2315979.917	10666519.576
+
+
+112) MUSPC
+3000-Percentage of Muslims
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	42123	18.833	33.482
+
+
+113) UMUSPP
+3001-Population of unspecified Muslims
+RANGE: -5426778 to 5202837
+	N	Mean	Std. Deviation
+Total	42237	1822.131	191261.957
+
+
+114) UMUSPC
+3001-Percentage of unspecified Muslims
+RANGE: -11.559175491333 to 60.5744094848633
+	N	Mean	Std. Deviation
+Total	42237	0.266	3.114
+
+
+115) SUNPP
+3100-Population of Sunni Muslims
+RANGE: 0 to 201582187
+	N	Mean	Std. Deviation
+Total	41387	2023157.746	9488365.26
+
+
+116) SUNPC
+3100-Percentage of Sunni Muslims
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	41387	16.3	30.275
+
+
+117) USUNPP
+3101-Population of unspecified Sunni Muslims
+RANGE: -3072 to 117775932
+	N	Mean	Std. Deviation
+Total	41275	329872.802	3271298.431
+
+
+118) USUNPC
+3101-Percentage of unspecified Sunni Muslims
+RANGE: -3.42826533317566 to 99.5
+	N	Mean	Std. Deviation
+Total	41275	3.47	14.354
+
+
+119) HNFPP
+3110-Population of Hanafi Sunnis
+RANGE: 0 to 150017177
+	N	Mean	Std. Deviation
+Total	31829	1310978.64	7413919.695
+
+
+120) HNFPC
+3110-Percentage of Hanafi Sunnis
+RANGE: 0 to 97.8809280395508
+	N	Mean	Std. Deviation
+Total	31829	5.626	17.812
+
+
+121) MLKPP
+3120-Population of Maliki Sunnis
+RANGE: 0 to 65253886
+	N	Mean	Std. Deviation
+Total	35928	347890.133	2476813.578
+
+
+122) MLKPC
+3120-Percentage of Maliki Sunnis
+RANGE: 0 to 99.5608215332031
+	N	Mean	Std. Deviation
+Total	35928	4.868	18.562
+
+
+123) SHFPP
+3130-Population of Shafii Sunnis
+RANGE: 0 to 201582187
+	N	Mean	Std. Deviation
+Total	31147	490686.992	6152180.689
+
+
+124) SHFPC
+3130-Percentage of Shafii Sunnis
+RANGE: 0 to 100
+	N	Mean	Std. Deviation
+Total	31147	4.862	17.861
+
+
+125) HNBPP
+3140-Population of Hanbali Sunnis
+RANGE: 0 to 10753996
+	N	Mean	Std. Deviation
+Total	34474	17667.788	286705.723
+
+
+126) HNBPC
+3140-Percentage of Hanbali Sunnis
+RANGE: 0 to 99.8915863037109
+	N	Mean	Std. Deviation
+Total	34474	0.753	7.576
+
+
+127) OSUNPP
+3170-Population of Other Sunnis
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	34714	0	0
+
+
+128) OSUNPC
+3170-Percentage of Other Sunnis
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	34714	0	0
+
+
+129) SHIPP
+3200-Population of Shiites
+RANGE: 0 to 70905644
+	N	Mean	Std. Deviation
+Total	41201	320682.476	2607677.251
+
+
+130) SHIPC
+3200-Percentage of Shiites
+RANGE: 0 to 92.1388854980469
+	N	Mean	Std. Deviation
+Total	41201	2.306	10.342
+
+
+131) USHIPP
+3201-Population of unspecified Shiites
+RANGE: 0 to 70905644
+	N	Mean	Std. Deviation
+Total	41005	259196.753	2562335.522
+
+
+132) USHIPC
+3201-Percentage of unspecified Shiites
+RANGE: 0 to 92.1388854980469
+	N	Mean	Std. Deviation
+Total	41005	1.369	8.244
+
+
+133) TWLPP
+3210-Population of Twelvers
+RANGE: 0 to 11200853
+	N	Mean	Std. Deviation
+Total	28631	56239.77	443587.028
+
+
+134) TWLPC
+3210-Percentage of Twelvers
+RANGE: 0 to 65.8362503051758
+	N	Mean	Std. Deviation
+Total	28631	0.782	4.757
+
+
+135) UTWLPP
+3211-Population of unspecified Twelvers
+RANGE: 0 to 287758
+	N	Mean	Std. Deviation
+Total	28572	3671.772	21650.322
+
+
+136) UTWLPC
+3211-Percentage of unspecified Twelvers
+RANGE: 0 to 27.0793037414551
+	N	Mean	Std. Deviation
+Total	28572	0.231	1.99
+
+
+137) JAFPP
+3212-Population of Jafari Twelvers
+RANGE: 0 to 6315657
+	N	Mean	Std. Deviation
+Total	26593	25102.276	228155.535
+
+
+138) JAFPC
+3212-Percentage of Jafari Twelvers
+RANGE: 0 to 65.8362503051758
+	N	Mean	Std. Deviation
+Total	26593	0.4	4.253
+
+
+139) BATPP
+3213-Population of Batini Twelvers
+RANGE: 0 to 9334044
+	N	Mean	Std. Deviation
+Total	28880	29007.831	323792.511
+
+
+140) BATPC
+3213-Percentage of Batini Twelvers
+RANGE: 0 to 13.0000047683716
+	N	Mean	Std. Deviation
+Total	28880	0.178	1.338
+
+
+141) ISMPP
+3220-Population of Ismailis (Seveners)
+RANGE: 0 to 1260465
+	N	Mean	Std. Deviation
+Total	28347	3324.896	35201.083
+
+
+142) ISMPC
+3220-Percentage of Ismailis (Seveners)
+RANGE: 0 to 6.24111127853394
+	N	Mean	Std. Deviation
+Total	28347	0.06	0.518
+
+
+143) ZAYPP
+3230-Population of Zaydis
+RANGE: 0 to 13865118
+	N	Mean	Std. Deviation
+Total	35633	24182.726	339002.865
+
+
+144) ZAYPC
+3230-Percentage of Zaydis
+RANGE: 0 to 69.3456649780273
+	N	Mean	Std. Deviation
+Total	35633	0.413	5.024
+
+
+145) OSHIPP
+3270-Population of Other Shiites
+RANGE: 0 to 18464
+	N	Mean	Std. Deviation
+Total	28947	44.16	551.481
+
+
+146) OSHIPC
+3270-Percentage of Other Shiites
+RANGE: 0 to 1.05130910873413
+	N	Mean	Std. Deviation
+Total	28947	0.003	0.05
+
+
+147) KHAPP
+3300-Population of Khariji Muslims
+RANGE: 0 to 2684203
+	N	Mean	Std. Deviation
+Total	42461	2752.679	43640.431
+
+
+148) KHAPC
+3300-Percentage of Khariji Muslims
+RANGE: 0 to 74.9987106323242
+	N	Mean	Std. Deviation
+Total	42461	0.269	4.136
+
+
+149) IBAPP
+3310-Population of Ibadi Muslims
+RANGE: 0 to 2684203
+	N	Mean	Std. Deviation
+Total	42461	2752.679	43640.431
+
+
+150) IBAPC
+3310-Percentage of Ibadi Muslims
+RANGE: 0 to 74.9987106323242
+	N	Mean	Std. Deviation
+Total	42461	0.269	4.136
+
+
+151) OMUSPP
+3700-Population of Other Non-Liminal Muslims
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	42250	0	0
+
+
+152) OMUSPC
+3700-Percentage of Other Non-Liminal Muslims
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	42250	0	0
+
+
+153) LMUSPP
+3800-Population of Liminal Muslims
+RANGE: 0 to 5230626
+	N	Mean	Std. Deviation
+Total	41987	14494.961	143725.555
+
+
+154) LMUSPC
+3800-Percentage of Liminal Muslims
+RANGE: 0 to 17.300666809082
+	N	Mean	Std. Deviation
+Total	41987	0.138	0.859
+
+
+155) DRZPP
+3810-Population of Druzes
+RANGE: 0 to 545183
+	N	Mean	Std. Deviation
+Total	41730	2143.614	20292.808
+
+
+156) DRZPC
+3810-Percentage of Druzes
+RANGE: 0 to 17.1121654510498
+	N	Mean	Std. Deviation
+Total	41730	0.088	0.782
+
+
+157) AHMPP
+3820-Population of Ahmadi Muslims
+RANGE: 0 to 5230626
+	N	Mean	Std. Deviation
+Total	40774	11737.583	143595.749
+
+
+158) AHMPC
+3820-Percentage of Ahmadi Muslims
+RANGE: 0 to 6.36965751647949
+	N	Mean	Std. Deviation
+Total	40774	0.044	0.348
+
+
+159) OLMUPP
+3870-Population of Other Liminal Muslims
+RANGE: 0 to 599591
+	N	Mean	Std. Deviation
+Total	42588	491.567	13920.54
+
+
+160) OLMUPC
+3870-Percentage of Other Liminal Muslims
+RANGE: 0 to 0.186339378356934
+	N	Mean	Std. Deviation
+Total	42588	0	0.005
+
+
+161) MSYNPP
+3900-Population of Muslim Syncretics
+RANGE: 0 to 3807684
+	N	Mean	Std. Deviation
+Total	42730	16489.307	215035.211
+
+
+162) MSYNPC
+3900-Percentage of Muslim Syncretics
+RANGE: 0 to 17.8470039367676
+	N	Mean	Std. Deviation
+Total	42730	0.057	0.733
+
+
+163) MSYNDS
+3900-Description of Muslim Syncretics (string)
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	2539		
+
+
+164) ZORPP
+4100-Population of Zoroastrians
+RANGE: 0 to 121484
+	N	Mean	Std. Deviation
+Total	42735	588.366	6573.113
+
+
+165) ZORPC
+4100-Percentage of Zoroastrians
+RANGE: 0 to 0.166800007224083
+	N	Mean	Std. Deviation
+Total	42735	0.002	0.011
+
+
+166) BAHPP
+4300-Population of Bahais
+RANGE: -45 to 2044595
+	N	Mean	Std. Deviation
+Total	41999	6807.798	55541.13
+
+
+167) BAHPC
+4300-Percentage of Bahais
+RANGE: -0.010526217520237 to 20
+	N	Mean	Std. Deviation
+Total	41999	0.104	0.563
+
+
+168) JAIPP
+4500-Population of Jains
+RANGE: 0 to 4662924
+	N	Mean	Std. Deviation
+Total	42461	9007.265	153185.32
+
+
+169) JAIPC
+4500-Percentage of Jains
+RANGE: 0 to 0.587890207767487
+	N	Mean	Std. Deviation
+Total	42461	0.005	0.037
+
+
+170) SIKPP
+4800-Population of Sikhs
+RANGE: 0 to 23844506
+	N	Mean	Std. Deviation
+Total	42496	36713.081	638827.748
+
+
+171) SIKPC
+4800-Percentage of Sikhs
+RANGE: 0 to 10.4706201553345
+	N	Mean	Std. Deviation
+Total	42496	0.029	0.328
+
+
+172) HINPP
+5000-Population of Hindus
+RANGE: 0 to 1004491268
+	N	Mean	Std. Deviation
+Total	42466	1706772.847	28528900.633
+
+
+173) HINPC
+5000-Percentage of Hindus
+RANGE: 0 to 89.5547637939453
+	N	Mean	Std. Deviation
+Total	42466	1.605	8.688
+
+
+174) BUDPP
+6000-Population of Buddhists
+RANGE: 0 to 225219817
+	N	Mean	Std. Deviation
+Total	42201	1208880.605	9415230.82
+
+
+175) BUDPC
+6000-Percentage of Buddhists
+RANGE: 0 to 90.7841262817383
+	N	Mean	Std. Deviation
+Total	42201	2.823	12.469
+
+
+176) UBUDPP
+6001-Population of unspecified Buddhists
+RANGE: -174039 to 11966619
+	N	Mean	Std. Deviation
+Total	42301	36871.041	390932.21
+
+
+177) UBUDPC
+6001-Percentage of unspecified Buddhists
+RANGE: -0.791866540908813 to 41.3213081359863
+	N	Mean	Std. Deviation
+Total	42301	0.247	2.028
+
+
+178) THEPP
+6100-Population of Theravada Buddhists
+RANGE: 0 to 47764305
+	N	Mean	Std. Deviation
+Total	38079	207850.641	2034719.583
+
+
+179) THEPC
+6100-Percentage of Theravada Buddhists
+RANGE: 0 to 84.5993881225586
+	N	Mean	Std. Deviation
+Total	38079	1.47	9.968
+
+
+180) MAHPP
+6200-Population of Mahayana Buddhists
+RANGE: 0 to 214536608
+	N	Mean	Std. Deviation
+Total	38905	1010077.844	9084682.55
+
+
+181) MAHPC
+6200-Percentage of Mahayana Buddhists
+RANGE: 0 to 79.5672073364258
+	N	Mean	Std. Deviation
+Total	38905	0.917	5.027
+
+
+182) TIBPP
+6300-Population of Tibetan Buddhists
+RANGE: 0 to 9986050
+	N	Mean	Std. Deviation
+Total	37485	51880.624	479523.791
+
+
+183) TIBPC
+6300-Percentage of Tibetan Buddhists
+RANGE: 0 to 84.0712127685547
+	N	Mean	Std. Deviation
+Total	37485	0.448	4.973
+
+
+184) OBUDPP
+6700-Population of Other Buddhists
+RANGE: 0 to 8417284
+	N	Mean	Std. Deviation
+Total	36802	10523.194	227630.717
+
+
+185) OBUDPC
+6700-Percentage of Other Buddhists
+RANGE: 0 to 2.09999895095825
+	N	Mean	Std. Deviation
+Total	36802	0.006	0.084
+
+
+186) BSYNPP
+6900-Population of Buddhist Syncretics
+RANGE: 0 to 3553548
+	N	Mean	Std. Deviation
+Total	42735	10875.331	154359.344
+
+
+187) BSYNPC
+6900-Percentage of Buddhists Syncretics
+RANGE: 0 to 22.8846626281738
+	N	Mean	Std. Deviation
+Total	42735	0.062	0.918
+
+
+188) BSYNDS
+6900-Description of Buddhist Syncretics (string)
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	1070		
+
+
+189) EACPP
+7000-Population of East Asian Religious Complex
+RANGE: -254552 to 325776350
+	N	Mean	Std. Deviation
+Total	40299	2819566.367	27171696.139
+
+
+190) EACPC
+7000-Percentage of East Asian Religious Complex
+RANGE: -4.36817932128906 to 92.0939559936523
+	N	Mean	Std. Deviation
+Total	40299	1.489	9.076
+
+
+191) SHNPP
+7100-Population of Shintoists
+RANGE: 0 to 35697978
+	N	Mean	Std. Deviation
+Total	41884	65664.653	1323171.577
+
+
+192) SHNPC
+7100-Percentage of Shintoists
+RANGE: 0 to 28.9855880737305
+	N	Mean	Std. Deviation
+Total	41884	0.091	1.463
+
+
+193) CNFPP
+7300-Population of Confucianists
+RANGE: -126688 to 4352175
+	N	Mean	Std. Deviation
+Total	41295	19843.35	164452.668
+
+
+194) CNFPC
+7300-Percentage of Confucianists
+RANGE: -4.97033223509789E-02 to 14.6999998092651
+	N	Mean	Std. Deviation
+Total	41295	0.103	0.93
+
+
+195) TAOPP
+7500-Population of Taoists
+RANGE: 0 to 55895780
+	N	Mean	Std. Deviation
+Total	41782	420056.347	4445155.221
+
+
+196) TAOPC
+7500-Percentage of Taoists
+RANGE: 0 to 17.1812076568604
+	N	Mean	Std. Deviation
+Total	41782	0.299	1.769
+
+
+197) CHFPP
+7700-Population of Chinese Folk Religionists
+RANGE: 0 to 296012231
+	N	Mean	Std. Deviation
+Total	41732	2358284.718	23104275.448
+
+
+198) CHFPC
+7700-Percentage of Chinese Folk Religionists
+RANGE: 0 to 74.9127502441406
+	N	Mean	Std. Deviation
+Total	41732	1.435	8.343
+
+
+199) BUDCPP
+7900-Population of Buddhist Complex
+RANGE: 0 to 239898314
+	N	Mean	Std. Deviation
+Total	42417	1790126.638	13042549.168
+
+
+200) BUDCPC
+7900-Percentage of Buddhist Complex
+RANGE: 0 to 99.8360214233398
+	N	Mean	Std. Deviation
+Total	42417	3.59	14.269
+
+
+201) INDPP
+8000-Population of Indigenous Religionists (Ethnoreligionists) 
+RANGE: 0 to 60473765
+	N	Mean	Std. Deviation
+Total	41935	586119.358	3115950.307
+
+
+202) INDPC
+8000-Percentage of Indigenous Religionists (Ethnoreligionists)
+RANGE: 0 to 99.995002746582
+	N	Mean	Std. Deviation
+Total	41935	8.642	20.793
+
+
+203) UINDPP
+8001-Population of unspecified Indigenous Religionists (Ethnoreligionists)
+RANGE: -282633 to 360915
+	N	Mean	Std. Deviation
+Total	42579	558.917	14310.016
+
+
+204) UINDPC
+8001-Percentage of unspecified Indigenous Religionists (Ethnoreligionists)
+RANGE: -9.8313455581665 to 99.995002746582
+	N	Mean	Std. Deviation
+Total	42579	0.364	4.842
+
+
+205) ANMPP
+8100-Population of Animists
+RANGE: 0 to 35769291
+	N	Mean	Std. Deviation
+Total	41661	485998.94	2142504.01
+
+
+206) ANMPC
+8100-Percentage of Animists
+RANGE: 0 to 99.8670806884766
+	N	Mean	Std. Deviation
+Total	41661	8.051	20.375
+
+
+207) SHMPP
+8200-Population of Shamanists
+RANGE: 0 to 5132208
+	N	Mean	Std. Deviation
+Total	41090	24740.054	246999.4
+
+
+208) SHMPC
+8200-Percentage of Shamanists
+RANGE: 0 to 34.1749992370605
+	N	Mean	Std. Deviation
+Total	41090	0.159	1.201
+
+
+209) OINDPP
+8700-Population of Other Indigenous Religionists (Ethnoreligionists)
+RANGE: 0 to 19572266
+	N	Mean	Std. Deviation
+Total	41727	78863.227	921488.649
+
+
+210) OINDPC
+8700-Percentage of Other Indigenous Religionists (Ethnoreligionists)
+RANGE: 0 to 80
+	N	Mean	Std. Deviation
+Total	41727	0.095	1.839
+
+
+211) OINDDS
+8700-Description of Other Indigenous Religionists (string)
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	2038		
+
+
+212) NEWPP
+8900-Population of New Age Religionists
+RANGE: 0 to 5335343
+	N	Mean	Std. Deviation
+Total	42033	11791.32	151928.291
+
+
+213) NEWPC
+8900-Percentage of New Age Religionists
+RANGE: 0 to 6.79736280441284
+	N	Mean	Std. Deviation
+Total	42033	0.037	0.292
+
+
+214) NEWDS
+8900-Description of New Age Religionists (string)
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	1531		
+
+
+215) NREPP
+9000-Population of Not Religious
+RANGE: 0 to 678977518
+	N	Mean	Std. Deviation
+Total	41828	2017764.627	29344728.128
+
+
+216) NREPC
+9000-Percentage of Not Religious
+RANGE: 0 to 79.6231155395508
+	N	Mean	Std. Deviation
+Total	41828	2.796	8.364
+
+
+217) UNREPP
+9001-Population of unspecified Not Religious
+RANGE: -783434 to 547907372
+	N	Mean	Std. Deviation
+Total	41593	1618553.385	23818657.732
+
+
+218) UNREPC
+9001-Percentage of unspecified Not Religious
+RANGE: -10.8561449050903 to 59.9743041992188
+	N	Mean	Std. Deviation
+Total	41593	2.206	6.423
+
+
+219) ATHPP
+9100-Population of Atheist
+RANGE: 0 to 131070146
+	N	Mean	Std. Deviation
+Total	41526	410040.445	5711206.727
+
+
+220) ATHPC
+9100-Percentage of Atheist
+RANGE: 0 to 35.5295295715332
+	N	Mean	Std. Deviation
+Total	41526	0.576	2.429
+
+
+221) OREPP
+9800-Population of Other Religionists
+RANGE: -254552 to 0
+	N	Mean	Std. Deviation
+Total	42735	-236.947	4733.066
+
+
+222) OREPC
+9800-Percentage of Other Religionists
+RANGE: -8.66692543029785 to 0
+	N	Mean	Std. Deviation
+Total	42735	-0.01	0.176
+
+
+223) OREDS
+9800-Description of Other Religionists (string)
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	785		
+
+
+224) UNKPP
+9900-Population of Unknown
+RANGE: -1415 to 133952264
+	N	Mean	Std. Deviation
+Total	42682	943770.713	6486887.825
+
+
+225) UNKPC
+9900-Percentage of Unknown
+RANGE: -5.37634417414665E-02 to 100
+	N	Mean	Std. Deviation
+Total	42682	4.213	10.617
+
+

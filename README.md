@@ -116,7 +116,7 @@ Raw-URL reads only work for files under 100 MB.
 | `pew_religion_arda` | Pew religion studies not in `pew`/`atp`: Religion and Public Life 2001-2012, U.S. Jews 2013/2020, Muslim Americans 2007/2017, Latinos 2012-2018, Values combined 1987-2012, teens 2019 and more (ARDA) | 1987-2020 |
 | `pew_spirit_power` | Pew Spirit and Power: 10-country Pentecostal survey and country files (ARDA) | 2006 |
 | `arda_other_national` | other U.S. national religion surveys: ARIS, Faith Matters, ISPU American Muslim Poll, Study of Spirituality, American Mosaic, Social Capital Benchmark, NHIS 2002 and more (ARDA) | 1967-2025 |
-| `arda_cross_national` | multi-country religion surveys: ISSP Religion II-III, Arab and Caucasus Barometers, Muslim Attitudes, World's Muslims 2012, Religion in Latin America 2014, Pew science 2019 and more (ARDA) | 1979-2019 |
+| `arda_cross_national` | multi-country religion surveys: ISSP Religion II-III, Arab and Caucasus Barometers, Muslim Attitudes, World's Muslims 2012, Religion in Latin America 2014, Pew science 2019, Pew Central/Eastern Europe 2017 and South/Southeast Asia 2022, East Asian religion and spirituality, Many-Analysts Religion Project, Attitudes and Behaviors of Youth and more (ARDA) | 1979-2022 |
 | `project_canada` | Project Canada and Project Teen Canada, cross-sections and panels (ARDA) | 1975-2008 |
 | `taiwan_scs` | Taiwan Social Change Survey religion modules (ARDA) | 1985-2018 |
 | `arda_single_nation` | single-country religion surveys: Religion in Dutch Society, Korean GSS, Northern Ireland Life and Times, Survey of the Afghan People, Pew India/Israel and more (ARDA) | 1977-2023 |
@@ -125,6 +125,10 @@ Raw-URL reads only work for files under 100 MB.
 | `nebraska_nasis` | Nebraska Annual Social Indicators Survey (ARDA) | 1988-2022 |
 | `middletown` | Middletown Area Studies, Muncie, Indiana (ARDA) | 1978-2004 |
 | `arda_regional` | other regional and local surveys: American Values Scale, Detroit Area Study, Houston Area Survey, Buckeye State Poll, Eagleton Poll, Little Rock Congregations Study, Longitudinal Study of Generations, Chicago Catholics, Indianapolis and Tulsa surveys, religiosity scale validation samples and more (ARDA) | 1855-2020 |
+| `us_church_membership` | U.S. church membership by county, metro area and state: Census of Religious Bodies 1890-1936, Churches and Church Membership 1952-1990, U.S. Religion Census (RCMS) 2000/2010/2020, longitudinal RCMS 1980-2010, History of American Religion 1770-1930 (ARDA) | 1770-2020 |
+| `religion_country_data` | country-level religion data: Religion and State Project rounds 1-3 and modules, Government Religious Preference 2.0, Religious Characteristics of States, Pew Global Restrictions on Religion 2007-2022, World Religion Project, International Religious Freedom data, ARDA National Profiles, WVS aggregates (ARDA) | 1700-2022 |
+| `arda_catholic` | Catholic surveys: Catholic Laity Polls 2011/2017, priests 1985-2020, deacons, seminarians, Notre Dame Study of Catholic Parish Life, Catholic Pluralism Project, religious education and more (ARDA) | 1962-2020 |
+| `tess_arda` | TESS survey experiments on religion: Islam, terrorism suspects, providential beliefs, clergy cues and more (ARDA) | |
 
 ARDA folders hold one labelled gzip `.rds` per dataset (variable labels = question wording; value labels including ARDA's missing codes such as 777/888/999, which are left as values), the ARDA full codebook (`... codebook.txt`), and `manifest.tsv` (ARDA file ID, title, md5, source URL). ARDA asks that publications cite it and the original collectors: "The data were downloaded from the Association of Religion Data Archives, www.theARDA.com, and were collected by [PIs]." Not included: Add Health (its terms bar AI processing), the Australian Survey of Social Attitudes and the Philanthropy Panel Study (ARDA links out to registration-only archives).
 

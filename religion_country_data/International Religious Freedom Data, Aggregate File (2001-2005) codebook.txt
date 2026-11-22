@@ -1,0 +1,5504 @@
+Data File: IRFAGG(Full Data Codebook)
+
+1) ARDACODE
+ARDA code for country
+RANGE: 1 to 1001
+	N	Mean	Std. Deviation
+Total	198	129.601	94.2
+
+
+2) COUNTRAG
+ARDA country name
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	198		
+
+
+3) ISO3
+ISO 3-alpha
+RANGE:  to 
+	N	Mean	Std. Deviation
+Total	195		
+
+
+4) NUMISO
+Numeric ISO
+RANGE: 0 to 894
+	N	Mean	Std. Deviation
+Total	196	423.362	253.703
+
+
+5) COWCODE
+Correlates of War
+RANGE: 20 to 990
+	N	Mean	Std. Deviation
+Total	193	472.694	262.636
+
+
+6) WAVEAG
+Approximate year(s) for the data (Primary year of data, then numbers after decimal indicate range of years covered by variables.)
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	198	0	0
+0) Aggregate	198	100.0
+
+
+7) ESTIMAAG
+Considering the entire Report, estimate the number of people who were physically abused or displaced due to religion in this country.
+RANGE: 0 to 5
+	N	Mean	Std. Deviation
+Total	198	1.311	1.456
+0) None	62	31.3
+0.333)	18	9.1
+0.667)	23	11.6
+1) Less than 10	14	7.1
+1.333)	9	4.5
+1.667)	13	6.6
+2) 10-200	10	5.1
+2.333)	9	4.5
+2.66696296296296)	9	4.5
+3) 201-1,000	7	3.5
+3.333)	1	0.5
+3.66696296296296)	5	2.5
+4) 1,001-10,000	4	2.0
+4.333)	3	1.5
+4.66696296296296)	3	1.5
+5) Greater than 10,000	8	4.0
+
+
+8) PERSECAG
+Considering the entire Report, estimate the number of people who were physically abused, displaced from home, imprisoned, or killed due to religion in this country.  [This is a sum of the following variables (20AG dataset only): ABUS#AG + IMPRI#AG + DISPL#AG + KILLE#AG.]
+RANGE: 0 to 10000191
+	N	Mean	Std. Deviation
+Total	198	108510.177	939630.747
+
+
+9) GRI_AG
+GRI: Government Regulation Index.
+RANGE: 0 to 9.72196296296296
+	N	Mean	Std. Deviation
+Total	198	3.318	3.087
+0)	31	15.7
+0.185)	3	1.5
+0.278)	9	4.5
+0.37)	1	0.5
+0.463)	6	3.0
+0.556)	5	2.5
+0.648)	1	0.5
+0.695)	1	0.5
+0.741)	6	3.0
+0.833)	2	1.0
+0.926)	2	1.0
+1.01896296296296)	6	3.0
+1.11096296296296)	2	1.0
+1.20396296296296)	6	3.0
+1.296)	3	1.5
+1.389)	1	0.5
+1.482)	1	0.5
+1.574)	3	1.5
+1.667)	3	1.5
+1.759)	4	2.0
+1.945)	1	0.5
+2.03696296296296)	2	1.0
+2.222)	2	1.0
+2.31496296296296)	3	1.5
+2.5)	1	0.5
+2.778)	2	1.0
+2.963)	1	0.5
+3.056)	3	1.5
+3.148)	1	0.5
+3.333)	3	1.5
+3.704)	1	0.5
+3.88896296296296)	3	1.5
+4.07396296296296)	1	0.5
+4.16696296296296)	2	1.0
+4.259)	2	1.0
+4.352)	1	0.5
+4.445)	2	1.0
+4.63)	1	0.5
+4.722)	1	0.5
+4.815)	2	1.0
+5)	1	0.5
+5.18496296296296)	4	2.0
+5.27796296296296)	3	1.5
+5.556)	2	1.0
+5.74096296296296)	2	1.0
+5.833)	2	1.0
+5.926)	2	1.0
+6.019)	1	0.5
+6.11096296296296)	1	0.5
+6.296)	2	1.0
+6.389)	2	1.0
+6.482)	2	1.0
+6.57396296296296)	2	1.0
+6.66696296296296)	2	1.0
+6.759)	3	1.5
+6.852)	1	0.5
+7.03696296296296)	1	0.5
+7.12996296296296)	1	0.5
+7.222)	2	1.0
+7.315)	1	0.5
+7.5)	2	1.0
+7.593)	1	0.5
+7.68496296296296)	1	0.5
+7.77796296296296)	1	0.5
+7.87)	3	1.5
+7.963)	1	0.5
+8.05596296296296)	3	1.5
+8.14796296296296)	2	1.0
+8.24096296296296)	1	0.5
+8.333)	2	1.0
+8.79596296296296)	5	2.5
+8.88896296296296)	2	1.0
+8.98196296296296)	2	1.0
+9.259)	1	0.5
+9.444)	1	0.5
+9.445)	1	0.5
+9.72196296296296)	1	0.5
+
+
+10) GRI_A_AG
+According to the Report, are foreign or other missionaries allowed to operate?  (Rescaled to range from 0 to 1.)  [Category labels are the following: 0 = Allowed with no limits reported.  0.5 = Allowed, but within restrictive limits.  1 = Prohibited.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.214	0.258
+
+
+11) GRI_B_AG
+According to the Report, is proselytizing, public preaching, or conversion limited or restricted?  (Rescaled to range from 0 to 1.)  [Category labels for responses are the following: 0 = No.  0.5 = Yes, but for all religions.  1 = Yes, but only for some religions.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.311	0.381
+0)	103	52.0
+0.167)	10	5.1
+0.333)	17	8.6
+0.5)	12	6.1
+0.667)	16	8.1
+0.833)	15	7.6
+1)	25	12.6
+
+
+12) GRI_C_AG
+According to the Report, does the Government interfere with an individual's right to worship? (Rescaled to range from 0 to 1.)  [Category labels for responses are the following: 0 = No. 0.5 = Some interference.  1 = Severe interference.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.374	0.319
+0)	50	25.3
+0.167)	30	15.2
+0.25)	2	1.0
+0.333)	37	18.7
+0.5)	27	13.6
+0.667)	19	9.6
+0.833)	18	9.1
+1)	15	7.6
+
+
+13) GRI_D_AG
+In the Report, how is freedom of religion described?  (Rescaled to range from 0 to 1.)  [Category responses are the following: 0 = Law/Constitution provides for freedom of religion and the Government 'generally respects' this right in practice.  0.333 =  Law/Constitution provides for freedom of religion and the Government generally respects this right in practice, but some problems exist, e.g., in certain localities.  0.6667 = Limited and/or rights not protected or restricted.  1 = Does not exist.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.308	0.27
+0)	49	24.7
+0.110962962962963)	27	13.6
+0.167)	1	0.5
+0.222)	22	11.1
+0.333)	30	15.2
+0.444)	1	0.5
+0.445)	16	8.1
+0.556)	18	9.1
+0.667)	19	9.6
+0.778)	8	4.0
+0.889)	4	2.0
+1)	3	1.5
+
+
+14) GRI_E_AG
+Does the Introduction section of the Report mention that the Government 'generally respects' this right (to religious freedom) in practice?  (Rescaled to range from 0 to 1.)  [Category labels are the following: 0 = Yes.  0.5 = Yes, but exceptions or restrictions are mentioned.  1= The phrase 'generally respects' is not used.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.336	0.378
+0)	87	43.9
+0.167)	19	9.6
+0.25)	1	0.5
+0.333)	15	7.6
+0.5)	27	13.6
+0.667)	9	4.5
+0.833)	8	4.0
+1)	32	16.2
+
+
+15) GRI_F_AG
+Does the Introduction section of the Report specifically mention that the government policy contributes to the generally free practice of religion?  (Rescaled to range from 0 to 1.)  [Category labels are the following: 0 = Yes.  0.5 = Yes, but exceptions are mentioned.  1 = No.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.448	0.431
+0)	81	40.9
+0.167)	7	3.5
+0.333)	14	7.1
+0.5)	10	5.1
+0.667)	18	9.1
+0.833)	13	6.6
+1)	55	27.8
+
+
+16) SRI_AG
+SRI: Social Regulation Index
+RANGE: 0 to 10
+	N	Mean	Std. Deviation
+Total	198	3.611	2.922
+0)	26	13.1
+0.222)	8	4.0
+0.444)	2	1.0
+0.445)	2	1.0
+0.667)	5	2.5
+0.889)	7	3.5
+1.11096296296296)	6	3.0
+1.333)	3	1.5
+1.556)	4	2.0
+1.778)	6	3.0
+2)	7	3.5
+2.222)	3	1.5
+2.44496296296296)	6	3.0
+2.66696296296296)	3	1.5
+2.88896296296296)	7	3.5
+3.111)	4	2.0
+3.334)	1	0.5
+3.556)	6	3.0
+3.778)	8	4.0
+4)	6	3.0
+4.222)	5	2.5
+4.445)	3	1.5
+4.66696296296296)	8	4.0
+4.889)	4	2.0
+5.11096296296296)	4	2.0
+5.333)	4	2.0
+5.33396296296296)	1	0.5
+5.556)	4	2.0
+5.77796296296296)	1	0.5
+6)	4	2.0
+6.445)	2	1.0
+6.66696296296296)	3	1.5
+6.889)	2	1.0
+7.11096296296296)	2	1.0
+7.333)	1	0.5
+7.33396296296296)	1	0.5
+7.556)	4	2.0
+7.77796296296296)	3	1.5
+8)	1	0.5
+8.22196296296296)	2	1.0
+8.444)	1	0.5
+8.445)	3	1.5
+8.66696296296296)	1	0.5
+9.111)	4	2.0
+9.333)	3	1.5
+9.55596296296296)	3	1.5
+9.778)	1	0.5
+10)	3	1.5
+
+
+17) SRI_ADAG
+SRI: Social Regulation Index - adjusted (using SRI_A2AG & SRI_B2AG) used in Grim & Finke 2007.
+RANGE: 0 to 10
+	N	Mean	Std. Deviation
+Total	198	4.006	3.101
+
+
+18) SRI_A_AG
+According to the Report, societal attitudes toward other or non-traditional religions are reported to be... (Rescaled to range from 0 to 1.)  [Category labels are the following: 0 = Open and tolerant.  0.333 = Isolated discrimination.  0.666 = Negative just in certain regions or just towards certain religious brands.  1 = Hostile.]\L
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.475	0.324
+0)	31	15.7
+0.110962962962963)	18	9.1
+0.222)	13	6.6
+0.333)	19	9.6
+0.444)	11	5.6
+0.445)	11	5.6
+0.556)	12	6.1
+0.667)	31	15.7
+0.778)	18	9.1
+0.833)	1	0.5
+0.889)	20	10.1
+1)	13	6.6
+
+
+19) SRI_A2AG
+According to the Report, societal attitudes toward other or non-traditional religions are reported to be... (Rescaled to range from 0 to 1.)  [Category labels are the following: 0 = Open and tolerant.  0.5 = Isolated discrimination.  1 = (Either A or B): a) Negative just in certain regions or just towards certain religious brands, or b) Hostile.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.607	0.376
+0)	31	15.7
+0.167)	18	9.1
+0.333)	16	8.1
+0.5)	16	8.1
+0.667)	29	14.6
+0.833)	21	10.6
+1)	67	33.8
+
+
+20) SRI_B_AG
+According to the Report, what are social attitudes towards conversions to other religions?  (Rescaled to range from 0 to 1.)  [Category labels are the following: 0 = No problems reported.  0.333 = Some tension.  0.666 = Negative.  1 = Hostile.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.221	0.311
+0)	106	53.5
+0.110962962962963)	15	7.6
+0.222)	22	11.1
+0.333)	5	2.5
+0.444)	6	3.0
+0.445)	2	1.0
+0.556)	8	4.0
+0.667)	12	6.1
+0.778)	7	3.5
+0.889)	8	4.0
+1)	7	3.5
+
+
+21) SRI_B2AG
+According to the Report, what are social attitudes towards conversions to other religions?  (Rescaled to range from 0 to 1.)  [Category labels are the following: 0 = No problems reported.  0.5 = Some tension.  1 = (Either A or B): a) Negative or b) Hostile.]\L 
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.286	0.38
+0)	106	53.5
+0.167)	15	7.6
+0.333)	23	11.6
+0.5)	5	2.5
+0.667)	12	6.1
+0.833)	6	3.0
+1)	31	15.7
+
+
+22) SRI_C_AG
+According to the Report, do traditional attitudes and/or edicts of the clerical establishment strongly discourage proselytizing [trying to win converts]?  (Rescaled to range from 0 to 1.)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.27	0.391
+0) No	125	63.1
+0.333)	18	9.1
+0.5)	1	0.5
+0.667)	21	10.6
+1) Attitudes and/or clerics	33	16.7
+
+
+23) SRI_D_AG
+According to the Report, do established or existing religions try to shut out other religions in any way?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.504	0.385
+0) No	54	27.3
+0.333)	41	20.7
+0.5)	1	0.5
+0.667)	49	24.7
+1) Yes	53	26.8
+
+
+24) SRI_E_AG
+According to the Report, what is the situation regarding social movements in relation to religious brands in the country?  [Answers to SOCMV2AG+ SOCMVAG are combined]  (Rescaled to range from 0 to 1.)  Category labels to decimal responses are the following: 0.0 = [Either A or B]: a) Social movement(s) do not exist that seek national or regional hegemony for a religious brand through nationally coordinated means. [no national & organized activity], or b) All social movement(s) that are reported either promote religious freedom or are amicable and do not intimidate people from (other) religious brands.  0.333 = [Either A or B]: a) Social movement(s) exist that seek national or regional hegemony for a religious brand through unconnected, but regionally coordinated means. [regional & organized activity], or b) Social movement(s) exist that campaign against certain religious brands, but they are uncoordinated at either national or regional levels. [flashes of activity].  0.666 = [Either A or B]: a) Social movement(s) exist that seek national or regional hegemony for a religious brand, but they are uncoordinated at either national or regional levels. [flashes of activity], or b) Social movement(s) exist that campaign against certain religious brands through unconnected, but regionally coordinated means. [regional & organized activity]  1 = [Either A or B]: a) All social movement(s) that are reported either promote religious freedom or are amicable and do not intimidate people from (other) religious brands, or b) Social movement(s) exist that campaign against certain religious brands through nationally coordinated means. [national & organized activity]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.335	0.327
+0)	58	29.3
+0.110962962962963)	26	13.1
+0.222)	16	8.1
+0.333)	24	12.1
+0.444)	15	7.6
+0.445)	3	1.5
+0.5)	1	0.5
+0.556)	9	4.5
+0.667)	13	6.6
+0.778)	11	5.6
+0.889)	7	3.5
+1)	15	7.6
+
+
+25) GFI_AG
+GFI: Government Favoritism Index
+RANGE: 0 to 9.38896296296296
+	N	Mean	Std. Deviation
+Total	198	4.849	2.776
+
+
+26) GFI_A_AG
+According to the Report, what is the balance of Government funding (including 'in kind' such as funding buildings) to the religious sector?  [Category labels are the following: 0 = No funding.  0.333 = A proportional balance.  0.666 = Has imbalance.  1 = Only goes to one religion or belief.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.433	0.299
+0)	37	18.7
+0.110962962962963)	9	4.5
+0.222)	22	11.1
+0.333)	19	9.6
+0.444)	23	11.6
+0.556)	15	7.6
+0.667)	38	19.2
+0.778)	19	9.6
+0.889)	10	5.1
+1)	6	3.0
+
+
+27) GFI_B_AG
+According to the Report, to what extent is there a Favored (or Established) Religious Brand?  (Rescaled to range from 0 to 1.)  [Category labels are the following: 0 = None or all religious brands are treated the same.  0.333 = Cultural or Historical legacies only, e.g., former established religious brand inherits buildings or properties.  0.666 = Some religious brands have privileges or government access unavailable to other religious brands.  1 = [Either A or B]: a) One religious brand has privileges or government access unavailable to other religions; or b) One single State or Official (Established) Religious Brand/Religion.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.649	0.336
+0)	15	7.6
+0.110962962962963)	10	5.1
+0.222)	13	6.6
+0.333)	7	3.5
+0.444)	21	10.6
+0.556)	13	6.6
+0.667)	24	12.1
+0.778)	18	9.1
+0.833)	1	0.5
+0.889)	11	5.6
+1)	65	32.8
+
+
+28) GFI_C_AG
+According to the Report, how does the Government subsidize religion [including 'in kind' to organizations run by religions, e.g., hospitals, schools, etc.]? (Rescaled to range from 0 to 1.)  [Category labels are the following: 0 = No subsidies or equal to all (e.g., all are tax exempt).  0.2 = Subsidies not mentioned, but subsidies are implied by level of government support for a particular religion.  0.4 = Cultural or historical legacies only (e.g., religion inherits cathedrals from previous Government spending).  0.6 = Only some religions are excluded from available subsidies.  0.8 = Only an approved set of religions receive government subsidies.  1 = Only one religion is subsidized (including 'in kind' subsidies).]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.501	0.332
+0)	29	14.6
+0.067)	8	4.0
+0.133)	8	4.0
+0.2)	11	5.6
+0.267)	11	5.6
+0.333)	5	2.5
+0.4)	9	4.5
+0.467)	12	6.1
+0.533)	7	3.5
+0.6)	17	8.6
+0.667)	8	4.0
+0.733)	11	5.6
+0.8)	22	11.1
+0.867)	21	10.6
+0.933)	9	4.5
+1)	10	5.1
+
+
+29) GFI_D_AG
+According to the Report, does the Government fund some things related to religion?  (Rescaled to range from 0 to 1.)  [Category labels are the following: 0 = No.  0.5 = [Either A or B]: a) The Report does not mention funding, but it gives support that probably includes funding; or b) Yes, but equal funding for each religion.  1 = Yes, but funding is not equal for all.
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.625	0.379
+0)	35	17.7
+0.167)	9	4.5
+0.333)	15	7.6
+0.5)	19	9.6
+0.667)	25	12.6
+0.833)	23	11.6
+1)	72	36.4
+
+
+30) FUNDEXAG
+Sum of the following variables: SCHOOLAG + BLDGSAG + SALARYAG + MEDIAAG + CHARITAG + ACTIVAG.
+RANGE: 0 to 8.66696296296296
+	N	Mean	Std. Deviation
+Total	198	2.596	2.413
+0)	38	19.2
+0.333)	12	6.1
+0.667)	11	5.6
+1)	12	6.1
+1.333)	9	4.5
+1.667)	19	9.6
+2)	5	2.5
+2.333)	5	2.5
+2.66696296296296)	8	4.0
+3)	9	4.5
+3.333)	12	6.1
+3.66696296296296)	7	3.5
+4)	2	1.0
+4.333)	2	1.0
+4.66696296296296)	6	3.0
+5)	6	3.0
+5.333)	2	1.0
+5.66696296296296)	1	0.5
+6)	8	4.0
+6.333)	8	4.0
+6.66696296296296)	4	2.0
+7)	2	1.0
+7.333)	2	1.0
+7.66696296296296)	1	0.5
+8)	1	0.5
+8.333)	4	2.0
+8.66696296296296)	2	1.0
+
+
+31) GFI_E_AG
+Sum of the following variables: SCHOOLAG + BLDGSAG + SALARYAG + MEDIAAG + CHARITAG + ACTIVAG (Rescaled to range from 0 to 1.)
+RANGE: 0 to 0.722
+	N	Mean	Std. Deviation
+Total	198	0.216	0.201
+0)	38	19.2
+0.027962962962963)	12	6.1
+0.055962962962963)	11	5.6
+0.083)	12	6.1
+0.110962962962963)	9	4.5
+0.139)	19	9.6
+0.167)	5	2.5
+0.194)	5	2.5
+0.222)	8	4.0
+0.25)	9	4.5
+0.278)	12	6.1
+0.306)	7	3.5
+0.333)	2	1.0
+0.361)	2	1.0
+0.389)	6	3.0
+0.417)	6	3.0
+0.444)	2	1.0
+0.472)	1	0.5
+0.5)	8	4.0
+0.528)	8	4.0
+0.556)	4	2.0
+0.583)	2	1.0
+0.611)	2	1.0
+0.639)	1	0.5
+0.667)	1	0.5
+0.694)	4	2.0
+0.722)	2	1.0
+
+
+32) UNREGAG
+United Nations Region
+RANGE: 0 to 22
+	N	Mean	Std. Deviation
+Total	198	12.884	6.471
+0)	2	1.0
+2) Australia/New Zealand	2	1.0
+3) Caribbean	12	6.1
+4) Central America	8	4.0
+5) East Africa	17	8.6
+6) East Asia	9	4.5
+7) Eastern Europe	10	5.1
+8) Melanesia	4	2.0
+9) Micronesia (Region)	5	2.5
+10) Middle Africa	9	4.5
+11) Northern Africa	7	3.5
+12) Northern America	1	0.5
+13) Northern Europe	10	5.1
+14) Polynesia	3	1.5
+15) South-central Asia	14	7.1
+16) South-eastern Asia	11	5.6
+17) South America	12	6.1
+18) Southern Africa	5	2.5
+19) Southern Europe	14	7.1
+20) Western Africa	16	8.1
+21) Western Asia	18	9.1
+22) Western Europe	9	4.5
+
+
+33) REGIONAG
+State Department Reporting Region
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	198	3.04	1.721
+1) Africa	48	24.2
+2) East Asia and Pacific	34	17.2
+3) Europe and Eurasia	54	27.3
+4) Near East and North Africa	20	10.1
+5) South Asia	8	4.0
+6) Western Hemisphere	34	17.2
+
+
+34) RPTYRAG
+What year is this Report for?
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	198	0	0
+0)	198	100.0
+
+
+35) PAGESAG
+How many pages long is the Report?
+RANGE: 2 to 18.667
+	N	Mean	Std. Deviation
+Total	198	4.282	2.859
+2)	35	17.7
+2.333)	19	9.6
+2.66696296296296)	13	6.6
+3)	27	13.6
+3.333)	15	7.6
+3.66696296296296)	9	4.5
+4)	5	2.5
+4.333)	11	5.6
+4.66696296296296)	3	1.5
+5)	14	7.1
+5.333)	6	3.0
+5.66696296296296)	7	3.5
+6)	4	2.0
+6.333)	3	1.5
+6.66696296296296)	5	2.5
+7)	4	2.0
+7.333)	2	1.0
+8.66696296296296)	3	1.5
+9.333)	1	0.5
+9.5)	1	0.5
+9.66696296296296)	1	0.5
+10.333)	1	0.5
+10.666962962963)	2	1.0
+11.666962962963)	1	0.5
+13.666962962963)	1	0.5
+14)	1	0.5
+14.333)	1	0.5
+15.333)	1	0.5
+18.667)	2	1.0
+
+
+36) APPXAG
+Is there an 'Appended Report' on embedded territory [indicated at top of Report]? [Non-integer responses indicate that the response to this question changed in one or more of the International Religious Freedom Reports]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.034	0.176
+0) No	190	96.0
+0.3)	1	0.5
+0.5)	1	0.5
+1) Yes	6	3.0
+
+
+37) CONST_AG
+Does the Introduction section of the Report mention that there is a constitution? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.173	0.47
+0) Yes	168	84.8
+0.333)	7	3.5
+0.667)	2	1.0
+1) No constitution, but Report says 'law functions in its place'	6	3.0
+1.333)	6	3.0
+1.667)	4	2.0
+2) No	5	2.5
+
+
+38) FREECOAG
+Does the Introduction section of the Report mention that the constitution provides for freedom of religion? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.259	0.541
+0) Yes	152	76.8
+0.333)	6	3.0
+0.667)	10	5.1
+1) No constitution, but Report says law provides for 'freedom of religion'	11	5.6
+1.333)	9	4.5
+1.667)	1	0.5
+2) No	9	4.5
+
+
+39) GVRESPAG
+Does the Introduction section of the Report mention that the Government 'generally respects' this right in practice? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.673	0.756
+0) Yes	87	43.9
+0.333)	19	9.6
+0.5)	1	0.5
+0.667)	15	7.6
+1) Yes, but exceptions or restrictions are mentioned	27	13.6
+1.333)	9	4.5
+1.667)	8	4.0
+2) The phrase 'generally respects' is not used	32	16.2
+
+
+40) ESTRL0AG
+Does the Introduction section or any other section of the Report mention that there is some sort of favored religion(s)? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.571	0.228
+0) No	4	2.0
+0.333)	70	35.4
+0.5)	2	1.0
+0.667)	100	50.5
+1) Yes	22	11.1
+
+
+41) ESTRL1AG
+Does the Introduction section or any other section of the Report mention that there is some sort of state religion(s)? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.19	0.364
+0) No	150	75.8
+0.333)	11	5.6
+0.667)	9	4.5
+1) Yes	28	14.1
+
+
+42) ESTRL2AG
+Does the Introduction section or any other section of the Report mention that there is some sort of official religion(s)? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.178	0.298
+0) No	140	70.7
+0.333)	16	8.1
+0.667)	36	18.2
+1) Yes	6	3.0
+
+
+43) ESTRL3AG
+Does the Introduction section or any other section of the Report mention that there is some sort of established religion(s)? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.24	0.286
+0) No	106	53.5
+0.333)	43	21.7
+0.5)	1	0.5
+0.667)	46	23.2
+1) Yes	2	1.0
+
+
+44) ESTRL4AG
+Does the Introduction section or any other section of the Report mention that there is some sort of historical religion(s)? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.348	0.31
+0) No	68	34.3
+0.333)	66	33.3
+0.667)	51	25.8
+1) Yes	13	6.6
+
+
+45) ESTRL5AG
+Does the Introduction section or any other section of the Report mention that there is some sort of official religious philosophy or doctrine(s)? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.126	0.218
+0) No	141	71.2
+0.333)	40	20.2
+0.667)	16	8.1
+1) Yes	1	0.5
+
+
+46) ESTRL6AG
+Does the Introduction section or any other section of the Report mention that there is some sort of favored religion: other (explain in notes)? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.069	0.158
+0) No	162	81.8
+0.333)	32	16.2
+0.667)	3	1.5
+1) Yes	1	0.5
+
+
+47) ESTRELAG
+Does the Introduction section of the Report mention that there is some sort of favored religion?
+RANGE: 0 to 6
+	N	Mean	Std. Deviation
+Total	198	1.101	1.662
+0) No	115	58.1
+1) State religion(s)	31	15.7
+2) Official religion(s)	14	7.1
+3) Established religion(s)	7	3.5
+4) Historical religion(s)	23	11.6
+5) Official religious philosophy or doctrine(s)	2	1.0
+6) Other	6	3.0
+
+
+48) CHNGAG
+Does the Introduction section of the Report mention that there was a change in the status of respect for religious freedom? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.151	0.354
+0) No change	156	78.8
+0.333)	17	8.6
+0.5)	1	0.5
+0.667)	12	6.1
+1) Positive change	5	2.5
+1.333)	4	2.0
+1.667)	2	1.0
+2) Negative change	1	0.5
+
+
+49) GPOLICAG
+Does the Introduction section of the Report specifically mention that the government policy contributes to the generally free practice of religion? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.896	0.862
+0) Yes	81	40.9
+0.333)	7	3.5
+0.667)	14	7.1
+1) Yes, but exceptions are mentioned.	10	5.1
+1.333)	18	9.1
+1.667)	13	6.6
+2) No	55	27.8
+
+
+50) AMICAG
+Does the Introduction section of the Report mention that the relationships among religions in society are generally amicable? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.667	0.747
+0) Yes	92	46.5
+0.333)	10	5.1
+0.667)	15	7.6
+1) Yes, but exceptions are mentioned.	34	17.2
+1.333)	10	5.1
+1.667)	8	4.0
+2) No	29	14.6
+
+
+51) USGOVAG
+Does the Introduction section of the Report mention that the US Government discusses religious freedom issues with the government? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.04	0.152
+0) Yes	182	91.9
+0.333)	10	5.1
+0.667)	4	2.0
+1) No	2	1.0
+
+
+52) TENSE1AG
+In the Report, are isolated social tensions (tensions caused by infrequent and unrelated incidents) reported? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1.667
+	N	Mean	Std. Deviation
+Total	198	0.673	0.304
+0) No	13	6.6
+0.333)	38	19.2
+0.667)	81	40.9
+1) Yes	65	32.8
+1.667)	1	0.5
+
+
+53) TENSE2AG
+In the Report, are regional social tensions (tensions associated with a specific region of the country) reported? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.408	0.365
+0) No	73	36.9
+0.333)	35	17.7
+0.5)	1	0.5
+0.667)	61	30.8
+1) Yes	28	14.1
+
+
+54) TENSE3AG
+In the Report, are national social tensions (tensions which affect the whole country) reported? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.389	0.374
+0) No	80	40.4
+0.333)	35	17.7
+0.667)	53	26.8
+1) Yes	30	15.2
+
+
+55) TENSE4AG
+In the Report, are international social tensions (tensions due to events occurring in another country or a relationship with another country) reported? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1.333
+	N	Mean	Std. Deviation
+Total	198	0.203	0.293
+0) No	120	60.6
+0.333)	44	22.2
+0.5)	1	0.5
+0.667)	25	12.6
+1)	7	3.5
+1.333)	1	0.5
+
+
+56) TENSE_AG
+In the Report, are the following types of social tensions reported?
+RANGE: 0 to 5
+	N	Mean	Std. Deviation
+Total	198	1.399	1.586
+0) None	74	37.4
+1) Isolated	60	30.3
+2) Regional	17	8.6
+3) National	24	12.1
+4) International	4	2.0
+5) Combination of isolated, regional, national, or international	19	9.6
+
+
+57) TNSCHGAG
+In the Report, what is mentioned about social tension(s)? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.284	0.473
+0) No change	131	66.2
+0.333)	11	5.6
+0.667)	33	16.7
+1) Decreasing	12	6.1
+1.333)	4	2.0
+1.5)	1	0.5
+1.667)	1	0.5
+2) Increasing	5	2.5
+
+
+58) TEROR1AG
+According to the Report, was this country a victim of terrorism? In coding, the word 'terrorism' must have appeared in the Report. Terrorism is not inferred to exist if it was not specifically mentioned. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.084	0.214
+0) No	166	83.8
+0.333)	18	9.1
+0.667)	10	5.1
+1) Some	4	2.0
+
+
+59) TEROR2AG
+According to the Report, was this country a respondent of terrorism? The word 'terrorism' must appear in the Report. Terrorism is not inferred to exist if it was not specifically mentioned. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.069	0.188
+0) No	170	85.9
+0.333)	17	8.6
+0.667)	9	4.5
+1) Limited	2	1.0
+
+
+60) TEROR3AG
+According to the Report, was this country a perpetrator of Terrorism? The word 'terrorism' must appear in the Report. Terrorism is not inferred to exist if it was not specifically mentioned. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.037	0.125
+0) No	179	90.4
+0.333)	17	8.6
+0.667)	1	0.5
+1) Limited	1	0.5
+
+
+61) TERRORAG
+In the Report, what is mentioned about the situation regarding terrorism* (as reported by the State Department) during the period covered by the Report?
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.172	0.58
+0) None or no mention	180	90.9
+1) Victim of terror	5	2.5
+2) Victim and respondent to terror	10	5.1
+3) Perpetrator of terrorism	3	1.5
+
+
+62) TERRLFAG
+According to the Report, how did terrorism affect daily life during the period of the Report? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2.66696296296296
+	N	Mean	Std. Deviation
+Total	198	0.13	0.418
+0) Did not impede	174	87.9
+0.333)	4	2.0
+0.667)	8	4.0
+1) One impediment	4	2.0
+1.333)	2	1.0
+1.667)	2	1.0
+2) More than one impediment	2	1.0
+2.333)	1	0.5
+2.66696296296296)	1	0.5
+3) Daily threat/impediments	0	0.0
+
+
+63) TERRRLAG
+According to the Report, did terrorism impede religious practice? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.059	0.179
+0) No	174	87.9
+0.333)	16	8.1
+0.667)	5	2.5
+1) Yes	3	1.5
+
+
+64) AREA_AG
+According to the Report, what is the land area in square miles?
+RANGE: 0.933 to 6530923
+	N	Mean	Std. Deviation
+Total	198	286733.291	813854.963
+
+
+65) POP_AG
+According to the Report, what is the approximate population?
+RANGE: 10000 to 1300000000
+	N	Mean	Std. Deviation
+Total	198	28191506.419	107171454.662
+
+
+66) LGREL1AG
+What is the percentage of the first largest religion or religious brand? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 17.332962962963
+	N	Mean	Std. Deviation
+Total	198	5.159	3.691
+0) Atheism	1	0.5
+0.5)	1	0.5
+1) Christian unspecified	10	5.1
+1.333)	5	2.5
+1.667)	3	1.5
+2) Catholic	56	28.3
+2.333)	1	0.5
+2.66696296296296)	4	2.0
+3) Orthodox Christian	9	4.5
+3.66696296296296)	1	0.5
+4) Protestant	5	2.5
+4.333)	3	1.5
+4.66696296296296)	4	2.0
+5) Anglican/Episcopal	4	2.0
+6) Muslim unspecified	9	4.5
+6.333)	10	5.1
+6.66696296296296)	4	2.0
+7) Muslim Sunni	23	11.6
+7.333)	2	1.0
+7.66696296296296)	2	1.0
+8) Muslim Shi'a	13	6.6
+8.333)	4	2.0
+8.66696296296296)	1	0.5
+9) Muslim (other)	3	1.5
+9.333)	2	1.0
+9.66696296296296)	1	0.5
+10) Jewish	0	0.0
+11) Animist/Indigenous/Traditional	0	0.0
+12) Hindu unspecified	4	2.0
+13) Hindu (other)	1	0.5
+13.666962962963)	1	0.5
+14) Buddhist unspecified	5	2.5
+14.333)	3	1.5
+14.666962962963)	1	0.5
+15) Buddhist (other)	0	0.0
+16) Tao	1	0.5
+17) Shinto	0	0.0
+17.332962962963)	1	0.5
+18) Oriental (not Tao or Shinto)	0	0.0
+19) Other (please specify)	0	0.0
+
+
+67) JW_AG
+Are Jehovah's Witnesses mentioned anywhere in Report? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.392	0.299
+0) Not mentioned	64	32.3
+0.333)	36	18.2
+0.5)	1	0.5
+0.667)	96	48.5
+1) Mentioned	1	0.5
+
+
+68) BHAI_AG
+Is Ba'hai mentioned anywhere in Report? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.346	0.312
+0) Not mentioned	83	41.9
+0.333)	24	12.1
+0.5)	1	0.5
+0.667)	90	45.5
+1) Mentioned	0	0.0
+
+
+69) JEW_AG
+Are the Jewish mentioned anywhere in Report? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.39	0.309
+0) Not mentioned	69	34.8
+0.333)	28	14.1
+0.5)	1	0.5
+0.667)	98	49.5
+1) Mentioned	2	1.0
+
+
+70) BAPT_AG
+Are Baptists mentioned anywhere in Report? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.322	0.309
+0) Not mentioned	87	43.9
+0.333)	31	15.7
+0.5)	1	0.5
+0.667)	78	39.4
+1) Mentioned	1	0.5
+
+
+71) MORM_AG
+Are Mormons mentioned anywhere in Report? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.338	0.314
+0) Not mentioned	86	43.4
+0.333)	23	11.6
+0.5)	1	0.5
+0.667)	88	44.4
+1) Mentioned	0	0.0
+
+
+72) SUFI_AG
+Is Sufi mentioned anywhere in Report? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.034	0.116
+0) Not mentioned	181	91.4
+0.333)	14	7.1
+0.667)	3	1.5
+1) Mentioned	0	0.0
+
+
+73) SCIENTAG
+Is Scientology mentioned anywhere in Report? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.076	0.194
+0) Not mentioned	169	85.4
+0.333)	13	6.6
+0.667)	16	8.1
+1) Mentioned	0	0.0
+
+
+74) OTHERSAG
+Are other religions mentioned anywhere in Report? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.586	0.171
+0) Not mentioned	6	3.0
+0.333)	37	18.7
+0.5)	2	1.0
+0.667)	151	76.3
+1) Mentioned	2	1.0
+
+
+75) RESIDEAG
+According to the Report, is living in some sections of the country related to religious affiliation? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2.39996296296296
+	N	Mean	Std. Deviation
+Total	198	0.698	0.573
+0) No or not related	49	24.7
+0.333)	32	16.2
+0.667)	28	14.1
+0.903)	1	0.5
+1) Yes, but only in some parts of the country	57	28.8
+1.333)	13	6.6
+1.667)	10	5.1
+2) Yes, where you live largely seems to determine religious affiliation.	5	2.5
+2.333)	2	1.0
+2.39996296296296)	1	0.5
+
+
+76) EMMIGRAG
+According to the Report, do religious considerations affect out migration, i.e., moving out of the country? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.359	0.561
+0) No or not affected	128	64.6
+0.333)	10	5.1
+0.667)	21	10.6
+1) People choose to move due to religious considerations.	11	5.6
+1.333)	13	6.6
+1.667)	14	7.1
+2) People are forced to move due to religious considerations.	1	0.5
+
+
+77) IMMIGRAG
+According to the Report, do religious considerations affect internal migration, i.e., movement within or into the country (incl. denying entry)? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.421	0.551
+0) No or not affected	112	56.6
+0.333)	7	3.5
+0.667)	37	18.7
+1) People choose to move due to religious considerations.	8	4.0
+1.333)	26	13.1
+1.667)	7	3.5
+2) People are forced to move due to religious considerations.	1	0.5
+
+
+78) NATIDAG
+According to the Report, do people face hassles if they do not belong to the dominant religion(s) of the country? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	1.025	0.601
+0) No	29	14.6
+0.333)	12	6.1
+0.667)	32	16.2
+1) Yes, but the hassles are spoken of in general, undocumented terms.	15	7.6
+1.333)	85	42.9
+1.667)	2	1.0
+2) Yes, in ways documented in the Report	23	11.6
+
+
+79) ETHNICAG
+According to the Report, is ethnic identity related to religious affiliation? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	1.079	0.842
+0) No or not related	46	23.2
+0.333)	15	7.6
+0.667)	24	12.1
+1) For one ethnicity it is related	22	11.1
+1.333)	19	9.6
+1.667)	26	13.1
+2) Many ethnicities are related to specific religious affiliations.	24	12.1
+2.333)	17	8.6
+2.66696296296296)	2	1.0
+3) Ethnicity seems inseparable from religious affiliation.	3	1.5
+
+
+80) LANDAG
+According to the Report, were there any land or property disputes? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1.667
+	N	Mean	Std. Deviation
+Total	198	0.426	0.457
+0) No	86	43.4
+0.333)	29	14.6
+0.667)	40	20.2
+1) Yes, internal	34	17.2
+1.333)	3	1.5
+1.667)	6	3.0
+2) Yes, international	0	0.0
+
+
+81) LANDRLAG
+According to the Report, were there any religiously-related land or property disputes? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1.667
+	N	Mean	Std. Deviation
+Total	198	0.364	0.405
+0) No	90	45.5
+0.333)	35	17.7
+0.5)	1	0.5
+0.667)	44	22.2
+1) Yes, internal	23	11.6
+1.333)	2	1.0
+1.667)	3	1.5
+2) Yes, international	0	0.0
+
+
+82) SACREDAG
+According to the Report, what type of 'holy sites' are in the country, e.g., shrines or places of pilgrimage? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.236	0.6
+0) None	158	79.8
+0.333)	11	5.6
+0.667)	4	2.0
+1) Local	13	6.6
+1.333)	1	0.5
+1.667)	1	0.5
+2) National	5	2.5
+2.333)	1	0.5
+3) International	4	2.0
+
+
+83) SACRE2AG
+According to the Report, did tensions occur related to holy sites? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.19	0.465
+0) No	161	81.3
+0.333)	3	1.5
+0.667)	19	9.6
+1) Yes, in the past	3	1.5
+1.333)	4	2.0
+1.667)	1	0.5
+2) Yes, during present Report	7	3.5
+
+
+84) HONST1AG
+According to the Report, do the numbers or percentages of religious adherents reported by officials have the following characteristics: some evidence suggests officials inflate the numbers or percentages? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.05	0.141
+0) No	173	87.4
+0.333)	20	10.1
+0.667)	5	2.5
+1) Yes	0	0.0
+
+
+85) HONST2AG
+According to the Report, do the numbers or percentages of religious adherents reported by officials have the following characteristics: officials inflate the numbers or percentages? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.01	0.074
+0) No	194	98.0
+0.333)	2	1.0
+0.667)	2	1.0
+1) Yes	0	0.0
+
+
+86) HONST3AG
+According to the Report, do the numbers or percentages of religious adherents reported by officials have the following characteristics: not permitted to collect such information? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.333
+	N	Mean	Std. Deviation
+Total	198	0.008	0.052
+0) No	193	97.5
+0.333)	5	2.5
+1) Yes	0	0.0
+
+
+87) HONST4AG
+According to the Report, do the numbers or percentages of religious adherents reported by officials have the following characteristics: numbers not officially collected? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.146	0.237
+0) No	133	67.2
+0.333)	47	23.7
+0.5)	1	0.5
+0.667)	13	6.6
+1) Yes	4	2.0
+
+
+88) HONST5AG
+According to the Report, do the numbers or percentages of religious adherents reported by officials have the following characteristics: officials ignore or deflate the numbers or percentages of some religions? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.035	0.118
+0) No	180	90.9
+0.333)	15	7.6
+0.667)	3	1.5
+1) Yes	0	0.0
+
+
+89) HONESTAG
+Does the Report mention whether numbers or percentages of religious adherents reported by officials in the country are artificially inflated?
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.303	0.482
+0) No	140	70.7
+1) Some evidence suggests this	56	28.3
+2) Systematic inflation of official percentages of reported religious adherent	2	1.0
+
+
+90) EXACTAG
+According to the Report, are census numbers (not just %) reported? Assume census numbers if they are specific to the last digit or if the Report specifically mentions that the numbers come from census data. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0.667 to 3
+	N	Mean	Std. Deviation
+Total	198	2.578	0.489
+0) Yes for religions and population figures
+0.667)	1	0.5
+1) Yes for population only	2	1.0
+1.333)	3	1.5
+1.667)	10	5.1
+2) Yes for religions only	18	9.1
+2.333)	50	25.3
+2.5)	1	0.5
+2.66696296296296)	21	10.6
+3) No	92	46.5
+
+
+91) MSSYAG
+According to the Report, are there foreign missionaries working in the country? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.349	0.424
+0) Yes	95	48.0
+0.333)	34	17.2
+0.667)	49	24.7
+1) Yes, but limited to certain regions or limited in some other way	12	6.1
+1.333)	4	2.0
+1.667)	1	0.5
+2) No	3	1.5
+
+
+92) FREERLAG
+According to the Report, how is freedom of religion described?  [Category labels are the following: 0 = Law/Constitution provides for freedom of religion and the Government 'generally respects' this right in practice.  1 = Law/Constitution provides for freedom of religion and the Government generally respects this right in practice, but some problems exist, e.g., in certain localities.  2 = Limited and/or rights not protected or restricted.  3 = Does not exist. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.925	0.809
+0)	49	24.7
+0.333)	27	13.6
+0.5)	1	0.5
+0.667)	22	11.1
+1)	30	15.2
+1.333)	17	8.6
+1.667)	18	9.1
+2)	19	9.6
+2.333)	8	4.0
+2.66696296296296)	4	2.0
+3)	3	1.5
+
+
+93) GVLVLSAG
+What does the Report indicate about Government protection for religious freedom? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.694	0.655
+0) Protects at all levels	59	29.8
+0.333)	33	16.7
+0.5)	2	1.0
+0.667)	33	16.7
+1) Protects at some levels	21	10.6
+1.333)	21	10.6
+1.667)	11	5.6
+2) Does not protect	18	9.1
+
+
+94) GVTYPEAG
+According to the Report, what is the type of State or Official Religion? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 5
+	N	Mean	Std. Deviation
+Total	198	0.736	1.255
+0) Secular (or no state religion specified)	137	69.2
+0.333)	2	1.0
+0.667)	7	3.5
+1) Atheistic	1	0.5
+1.333)	1	0.5
+1.667)	2	1.0
+2) Christian	16	8.1
+2.333)	2	1.0
+3) Islamic	24	12.1
+3.333)	1	0.5
+4) Jewish	2	1.0
+4.66696296296296)	1	0.5
+5) Buddhist	2	1.0
+6) Nonsecular/Theistic	0	0.0
+7) Hindu	0	0.0
+
+
+95) GVINTFAG
+According to the Report, does the Government interfere with an individual's right to worship? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.747	0.639
+0) No	50	25.3
+0.333)	30	15.2
+0.5)	2	1.0
+0.667)	37	18.7
+1) Some interference	27	13.6
+1.333)	19	9.6
+1.667)	18	9.1
+2) Severe interference	15	7.6
+
+
+96) UNDERSAG
+Does the Report say the Government promotes interfaith understanding? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1.667
+	N	Mean	Std. Deviation
+Total	198	0.567	0.358
+0) Yes	37	18.7
+0.333)	37	18.7
+0.667)	75	37.9
+1) No	47	23.7
+1.333)	1	0.5
+1.667)	1	0.5
+
+
+97) GVHOLIAG
+According to the Report, what is the nature of government or public holidays?
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	1.25	1.021
+0) Not religious or equally respectful of all religions	41	20.7
+0.333)	16	8.1
+0.667)	17	8.6
+1) Includes holidays from more than one religion	45	22.7
+1.333)	6	3.0
+1.5)	1	0.5
+1.667)	6	3.0
+2) Dominated by one religion	22	11.1
+2.333)	8	4.0
+2.66696296296296)	13	6.6
+3) Only one religion's holidays are mentioned.	23	11.6
+
+
+98) RELEDUAG
+Does the Report mention that the Government requires religious education in public schools?
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	198	1.126	1.449
+0) Not required	109	55.1
+1) Yes, but optional for students	22	11.1
+2) Yes, but not just one for religion	20	10.1
+3) Yes, but only the approved religion is taught.	27	13.6
+4) Prohibited in public schools	20	10.1
+
+
+99) RELED1AG
+According to the Report, is religious education prohibited for children?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.111	0.315
+0) No	176	88.9
+1) Yes	22	11.1
+
+
+100) RELED2AG
+According to the Report, is religious education optionally offered in public schools?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.111	0.315
+0) No	176	88.9
+1) Yes	22	11.1
+
+
+101) RELED3AG
+According to the Report, is religious education required in public schools?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.237	0.427
+0) No	151	76.3
+1) Yes	47	23.7
+
+
+102) RELED4AG
+In the Report, is it mentioned that only one religion's education is permitted?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.136	0.344
+0) No	171	86.4
+1) Yes	27	13.6
+
+
+103) RELED5AG
+According to the Report, is religious education optionally offered in non-government schools?
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	198	0	0
+0) No	198	100.0
+1) Yes	0	0.0
+
+
+104) RELED6AG
+According to the Report, is religious education required in non-government schools?
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	198	0	0
+0) No	198	100.0
+1) Yes	0	0.0
+
+
+105) GVFUNDAG
+According to the Report, does the Government fund some things related to religion? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	1.899	1.143
+0) No	35	17.7
+0.333)	4	2.0
+0.667)	5	2.5
+1) The Report does not mention funding, but it gives support that probably includes funding.	14	7.1
+1.333)	10	5.1
+1.667)	7	3.5
+2) Yes, but equal funding for each religion	24	12.1
+2.333)	11	5.6
+2.66696296296296)	16	8.1
+3) Yes, but funding is not equal for all.	72	36.4
+
+
+106) SCHOOLAG
+[Answered if GVFUNDAG = 2 or 3.] If the Report indicates that the Government does fund some things related to religion, what religious things does the Report say are funded by the Government: education/schools? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.805	0.688
+0) No	64	32.3
+0.333)	19	9.6
+0.667)	11	5.6
+1) Yes, but funding is not proportional for all.	35	17.7
+1.333)	16	8.1
+1.667)	50	25.3
+2) Yes, but proportional funding for each religion	3	1.5
+
+
+107) BLDGSAG
+[Answered if GVFUNDAG = 2 or 3.] If the Report indicates that the Government does fund some things related to religion, what religious things does the Report say are funded by the Government:  buildings/upkeep/repair? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.599	0.643
+0) No	84	42.4
+0.333)	21	10.6
+0.5)	1	0.5
+0.667)	23	11.6
+1) Yes, but funding is not proportional for all.	25	12.6
+1.333)	10	5.1
+1.667)	32	16.2
+2) Yes, but proportional funding for each religion	2	1.0
+
+
+108) SALARYAG
+[Answered if GVFUNDAG = 2 or 3.] If the Report indicates that the Government does fund some things related to religion, what religious things does the Report say are funded by the Government: clergy salary/benefits? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1.667
+	N	Mean	Std. Deviation
+Total	198	0.37	0.583
+0) No	127	64.1
+0.333)	12	6.1
+0.5)	1	0.5
+0.667)	19	9.6
+1) Yes, but funding is not proportional for all.	12	6.1
+1.333)	3	1.5
+1.667)	24	12.1
+2) Yes, but proportional funding for each religion	0	0.0
+
+
+109) MEDIAAG
+[Answered if GVFUNDAG = 2 or 3.] If the Report indicates that the Government does fund some things related to religion, what religious things does the Report say are funded by the Government: print/broadcast media? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.247	0.454
+0) No	143	72.2
+0.333)	8	4.0
+0.667)	21	10.6
+1) Yes, but funding is not proportional for all.	14	7.1
+1.333)	6	3.0
+1.667)	5	2.5
+2) Yes, but proportional funding for each religion	1	0.5
+
+
+110) CHARITAG
+[Answered if GVFUNDAG = 2 or 3.] If the Report indicates that the Government does fund some things related to religion, what religious things does the Report say are funded by the Government: charity/public service work? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.232	0.421
+0) No	140	70.7
+0.333)	12	6.1
+0.667)	27	13.6
+1) Yes, but funding is not proportional for all.	10	5.1
+1.333)	4	2.0
+1.667)	4	2.0
+2) Yes, but proportional funding for each religion	1	0.5
+
+
+111) ACTIVAG
+[Answered if GVFUNDAG = 2 or 3.] If the Report indicates that the Government does fund some things related to religion, what religious things does the Report say are funded by the Government: religious practice or mission work? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.343	0.494
+0) No	117	59.1
+0.333)	19	9.6
+0.667)	25	12.6
+1) Yes, but funding is not proportional for all.	23	11.6
+1.333)	5	2.5
+1.667)	8	4.0
+2) Yes, but proportional funding for each religion	1	0.5
+
+
+112) REGISTAG
+According to the Report, does the Government require religions to register for any reason? This includes registration to get privileges, legal status, etc. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.978	0.642
+0) No	32	16.2
+0.333)	16	8.1
+0.667)	32	16.2
+1) Yes, but in a non-discriminatory way	43	21.7
+1.333)	31	15.7
+1.667)	16	8.1
+2) Yes, in a discriminatory way	28	14.1
+
+
+113) REGED1AG
+Does the Report mention if religious education is prohibited for children or those less than 18 years old? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.043	0.173
+0) No	185	93.4
+0.5)	9	4.5
+1) Yes	4	2.0
+
+
+114) REGED2AG
+Does the Report mention if religious education is optionally offered in public schools? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.409	0.427
+0) No	93	47.0
+0.5)	48	24.2
+1) Yes	57	28.8
+
+
+115) REGED3AG
+Does the Report mention if religious education is required in public schools? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.298	0.418
+0) No	125	63.1
+0.5)	28	14.1
+1) Yes	45	22.7
+
+
+116) REGED4AG
+Does the Report mention if religious education is only one religion's education is permitted in any school? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.134	0.282
+0) No	157	79.3
+0.5)	29	14.6
+1) Yes	12	6.1
+
+
+117) REGED5AG
+Does the Report mention if religious education is optionally offered in non-government schools? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.535	0.42
+0) No	63	31.8
+0.5)	58	29.3
+1) Yes	77	38.9
+
+
+118) REGED6AG
+Does the Report mention if religious education is required in non-government schools? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.083	0.206
+0) No	168	84.8
+0.5)	27	13.6
+1) Yes	3	1.5
+
+
+119) GVCLG1AG
+According to the Report, what does the Government do in relationship to civilian clergy: regulates civilian clergy? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.135	0.232
+0) No	142	71.7
+0.333)	32	16.2
+0.667)	24	12.1
+1) Yes	0	0.0
+
+
+120) GVCLG2AG
+According to the Report, what does the Government do in relationship to civilian clergy: subsidize civilian clergy? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.139	0.234
+0) No	140	70.7
+0.333)	33	16.7
+0.5)	1	0.5
+0.667)	24	12.1
+1) Yes	0	0.0
+
+
+121) GVCLG3AG
+According to the Report, what does the Government do in relationship to civilian clergy: approve civilian clergy (approval power)? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.192	0.304
+0) No	127	64.1
+0.333)	43	21.7
+0.667)	13	6.6
+1) Yes	15	7.6
+
+
+122) GVCLGYAG
+Does the Report mention if the government approves, pays, or regulates civilian clergy?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.258	0.438
+0) No	147	74.2
+1) Yes	51	25.8
+
+
+123) PROSELAG
+According to the Report, is proselytizing limited or restricted? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.621	0.762
+0) No	103	52.0
+0.333)	10	5.1
+0.667)	17	8.6
+1) Yes, but for all religions	12	6.1
+1.333)	16	8.1
+1.667)	15	7.6
+2) Yes, but only for some religions	25	12.6
+
+
+124) PREACHAG
+According to the Report, is public preaching limited or restricted?
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.54	0.841
+0) No	136	68.7
+1) Yes, but for all religions	17	8.6
+2) Yes, but only for some religions	45	22.7
+
+
+125) CONVERAG
+According to the Report, is conversion limited or restricted?
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.409	0.806
+0) No	157	79.3
+1) Yes, but for all religions	1	0.5
+2) Yes, but only for some religions	40	20.2
+
+
+126) LITBRDAG
+According to the Report, is religious literature and/or broadcasting limited or restricted? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.719	0.885
+0) No	97	49.0
+0.333)	6	3.0
+0.667)	25	12.6
+1) Literature is limited or restricted.	12	6.1
+1.333)	18	9.1
+1.667)	11	5.6
+2) Broadcasting/audio-visual media is limited or restricted.	11	5.6
+2.333)	9	4.5
+2.66696296296296)	2	1.0
+3) Both are limited or restricted.	7	3.5
+
+
+127) PROPTYAG
+According to the Report, does the Government regulate or grant religious property or construction rights in special ways? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.455	0.421
+0) No	77	38.9
+0.333)	29	14.6
+0.667)	35	17.7
+1) Yes	57	28.8
+
+
+128) STATUSAG
+According to the Report, do laws (e.g., personal status laws) and/or official practices take into account a person's religion (e.g., do official ID cards state a person's religion)? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.247	0.365
+0) No	125	63.1
+0.333)	24	12.1
+0.667)	24	12.1
+1) Yes	25	12.6
+
+
+129) MSSNRYAG
+According to the Report, are foreign missionaries allowed to operate? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.428	0.516
+0) Allowed with no limits reported	97	49.0
+0.333)	27	13.6
+0.667)	20	10.1
+1) Allowed, but within restrictive limits	40	20.2
+1.333)	7	3.5
+1.667)	3	1.5
+2) Prohibited	4	2.0
+
+
+130) NATMSYAG
+According to the Report, are national missionaries allowed to operate?
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.162	0.444
+0) Allowed with no limits reported	172	86.9
+1) Allowed, but within restrictive limits	20	10.1
+2) Prohibited	6	3.0
+
+
+131) MSYREGAG
+According to the Report, must foreign missionaries register with or obtain special missionary visas from the Government? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.69	0.8
+0) No	96	48.5
+0.333)	4	2.0
+0.667)	34	17.2
+1) Yes, but only some must	1	0.5
+1.333)	20	10.1
+1.667)	3	1.5
+2) Yes they must	40	20.2
+
+
+132) CATHOLAG
+According to the Report, what is the Government's relationship to the Vatican or other such international religious authorities (Anglican, Orthodox, Dalai Lama, etc.)? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.343	0.619
+0) None	137	69.2
+0.333)	10	5.1
+0.667)	15	7.6
+1) Historical ties only	11	5.6
+1.333)	9	4.5
+1.667)	4	2.0
+2) Concordat or other privileged status	11	5.6
+3) Antagonisms	1	0.5
+
+
+133) TAXORGAG
+According to the Report, are religious organizations taxed? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.512	0.63
+0) No	103	52.0
+0.333)	8	4.0
+0.667)	32	16.2
+1) Yes	12	6.1
+1.333)	30	15.2
+1.667)	2	1.0
+2) Yes, but only some are	11	5.6
+
+
+134) TAXEMTAG
+According to the Report, are donations to religious organizations tax deductible (for the donors)? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2.66696296296296
+	N	Mean	Std. Deviation
+Total	198	0.16	0.441
+0) No	165	83.3
+0.333)	6	3.0
+0.667)	16	8.1
+1) Yes	2	1.0
+1.333)	2	1.0
+1.667)	2	1.0
+2) Yes, but must be a registered religious organization	3	1.5
+2.333)	1	0.5
+2.66696296296296)	1	0.5
+3) Yes, but only for some religious brands	0	0.0
+
+
+135) TAXSPTAG
+According to the Report, do Government revenues [including those from taxes] support religious organizations? Assume tax revenues are involved if government gives support. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.894	0.61
+0) No	47	23.7
+0.333)	3	1.5
+0.667)	39	19.7
+1) Yes, with explicit citizen consent	16	8.1
+1.333)	74	37.4
+1.667)	8	4.0
+2) Yes, but must be a registered religious organization	11	5.6
+
+
+136) PARTYAG
+According to the Report, what is the nature of political parties (in practice)? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2.333
+	N	Mean	Std. Deviation
+Total	198	0.36	0.499
+0) All political parties are secular	99	50.0
+0.333)	45	22.7
+0.667)	25	12.6
+1) Correlation between political party and religion	12	6.1
+1.333)	7	3.5
+1.667)	6	3.0
+2) Political parties can be religious or secular	3	1.5
+2.333)	1	0.5
+3) Political parties must be religious	0	0.0
+
+
+137) RELIFEAG
+According to the Report, are there laws regulating daily life based on (biased towards) religion? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.219	0.365
+0) No	136	68.7
+0.333)	22	11.1
+0.667)	12	6.1
+1) Yes	28	14.1
+
+
+138) SABBAG
+According to the Report, are there religiously-biased laws (e.g., laws specifically supporting a religious brand) regarding the Sabbath (e.g., blue laws)?  Answered if RELIFEAG = 0. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.062	0.199
+0) Nothing or no law(s)	176	88.9
+0.333)	12	6.1
+0.667)	5	2.5
+1) Law(s) exist	5	2.5
+
+
+139) TRAVELAG
+According to the Report, are there religiously-biased laws (e.g., laws specifically supporting a religious brand) regarding travel?  Answered if RELIFEAG = 0. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.111	0.267
+0) Nothing or no law(s)	163	82.3
+0.333)	14	7.1
+0.667)	11	5.6
+1) Law(s) exist	10	5.1
+
+
+140) WORKAG
+According to the Report, are there religiously-biased laws (e.g., laws specifically supporting a religious brand) regarding employment?  Answered if RELIFEAG = 0. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.089	0.208
+0) Nothing or no law(s)	161	81.3
+0.333)	24	12.1
+0.667)	10	5.1
+1) Law(s) exist	3	1.5
+
+
+141) ECONAG
+According to the Report, are there religiously-biased laws (e.g., laws specifically supporting a religious brand) regarding economic activities?  Answered if RELIFEAG = 0. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.079	0.196
+0) Nothing or no law(s)	164	82.8
+0.333)	24	12.1
+0.667)	7	3.5
+1) Law(s) exist	3	1.5
+
+
+142) ENTMAG
+According to the Report, are there religiously-biased laws (e.g., laws specifically supporting a religious brand) regarding entertainment?  Answered if RELIFEAG = 0. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.054	0.173
+0) Nothing or no law(s)	177	89.4
+0.333)	12	6.1
+0.667)	7	3.5
+1) Law(s) exist	2	1.0
+
+
+143) DIETAG
+According to the Report, are there religiously-biased laws (e.g., laws specifically supporting a religious brand) regarding diet(food, alcohol, fasting)?  Answered if RELIFEAG = 0. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.056	0.183
+0) Nothing or no law(s)	178	89.9
+0.333)	10	5.1
+0.667)	7	3.5
+1) Law(s) exist	3	1.5
+
+
+144) LEADERAG
+According to the Report, does the Government have the power to recognize or not recognize religious leaders (i.e.,'defrock' them)? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.478	0.765
+0) No	128	64.6
+0.333)	3	1.5
+0.667)	14	7.1
+1) Yes, but not practiced	21	10.6
+1.333)	6	3.0
+1.667)	7	3.5
+2) Yes, practiced for main religion	10	5.1
+2.333)	4	2.0
+2.66696296296296)	2	1.0
+3) Yes, practiced for other religions	3	1.5
+
+
+145) GVCHAPAG
+According to the Report, does the Government have the power to recognize or not recognize religious chaplains (i.e.,'defrock' them)? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2.333
+	N	Mean	Std. Deviation
+Total	198	0.152	0.387
+0) No	166	83.8
+0.333)	2	1.0
+0.667)	13	6.6
+1) Yes, but not practiced or just some evidence	13	6.6
+1.667)	2	1.0
+2) Yes, practiced for state or dominant religion	1	0.5
+2.333)	1	0.5
+3) Yes, practiced for other religions	0	0.0
+
+
+146) MLCHAPAG
+According to the Report, does the military have the power to recognize or not recognize religious chaplains (i.e.,'defrock' them)? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.173	0.501
+0) No	172	86.9
+0.333)	1	0.5
+0.667)	3	1.5
+1) Yes, but not practiced or just some evidence	13	6.6
+2) Yes, practiced for state or dominant religion	8	4.0
+3) Yes, practiced for other religions	1	0.5
+
+
+147) MLCHP2AG
+According to the Report, does the military have religious chaplains? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	198	0.36	0.81
+0) No	154	77.8
+0.333)	2	1.0
+0.667)	8	4.0
+1) Yes, for any religion that has service members	6	3.0
+1.333)	11	5.6
+1.667)	1	0.5
+2) Yes, for some religions	4	2.0
+2.333)	4	2.0
+2.66696296296296)	4	2.0
+3) Yes, for only majority religions	0	0.0
+3.333)	1	0.5
+3.66696296296296)	1	0.5
+4) Yes, for one religion only	2	1.0
+
+
+148) CONCORAG
+According to the Report, is there a Concordat with the Vatican?  A Concordat is a special agreement or contact with the Vatican. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.256	0.697
+0) No	167	84.3
+0.333)	3	1.5
+0.667)	5	2.5
+1) No, but there is a historic relationship	4	2.0
+1.333)	4	2.0
+1.667)	2	1.0
+2) No, but there is a special relationship	3	1.5
+2.333)	3	1.5
+2.66696296296296)	1	0.5
+3) Yes	6	3.0
+
+
+149) AGRRMAG
+According to the Report, does the Government have agreements or special arrangements with religions (including with religious institutions such as hospitals)? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.902	0.637
+0) No	31	15.7
+0.333)	28	14.1
+0.667)	41	20.7
+1) Yes with a certain set	31	15.7
+1.333)	24	12.1
+1.5)	1	0.5
+1.667)	20	10.1
+2) Yes with only one religious brand	22	11.1
+
+
+150) BLASPHAG
+According to the Report, is blasphemy prohibited by law?  Note: Blasphemy is speaking against God; Apostasy is denying one's religion. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.145	0.503
+0) No	177	89.4
+0.333)	1	0.5
+0.667)	7	3.5
+1) Yes, but it is not enforced	5	2.5
+1.667)	1	0.5
+2) Yes, but enforced only for adherents of certain religions.	4	2.0
+3) Yes, it is enforced for all within the country's borders.	3	1.5
+
+
+151) POLICYAG
+According to the Report, does Government policy and practice contribute to the relatively free practice of religion? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	1.638	1.245
+0) No	46	23.2
+0.333)	16	8.1
+0.667)	10	5.1
+1) Only policy does.	8	4.0
+1.333)	6	3.0
+1.667)	12	6.1
+2) Only practice does.	14	7.1
+2.333)	14	7.1
+2.66696296296296)	1	0.5
+3) Both do.	71	35.9
+
+
+152) RPRISOAG
+According to the Report, were there reports of religious prisoners or detainees? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.41	0.634
+0) No	118	59.6
+0.333)	22	11.1
+0.5)	1	0.5
+0.667)	17	8.6
+1) Yes, but very limited	9	4.5
+1.333)	10	5.1
+1.667)	7	3.5
+2) Yes and numerous	14	7.1
+
+
+153) AGREMTAG
+According to the Report, are religious groups required to subscribe to an Agreement or other set of religion-specific regulations for public activities including registration needed for public meetings? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.444	0.554
+0) No	104	52.5
+0.333)	16	8.1
+0.667)	26	13.1
+1) Yes, all are.	25	12.6
+1.333)	17	8.6
+1.5)	1	0.5
+1.667)	6	3.0
+2) Yes, but only some are.	3	1.5
+
+
+154) LAWPRAAG
+In the Report, count the number of cases of restrictions on religious practice due to laws.  A case includes numbers of people and/or types of laws. You will need to consider the whole Report. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	1.705	1.079
+0) No cases given	20	10.1
+0.333)	18	9.1
+0.5)	1	0.5
+0.667)	17	8.6
+1) One case given.	14	7.1
+1.333)	18	9.1
+1.667)	15	7.6
+2) Two to three cases given.	14	7.1
+2.333)	14	7.1
+2.5)	1	0.5
+2.66696296296296)	13	6.6
+3) More than three cases given	53	26.8
+
+
+155) DISCRMAG
+According to the Report, are people, based on religious identity or activity, discriminated against? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1.667
+	N	Mean	Std. Deviation
+Total	198	0.757	0.396
+0) No	26	13.1
+0.333)	22	11.1
+0.5)	1	0.5
+0.667)	37	18.7
+1) Yes, some are.	99	50.0
+1.333)	10	5.1
+1.667)	3	1.5
+2) Yes, all are.	0	0.0
+
+
+156) THRTGVAG
+According to the Report, are people threatened by the Government or its security/military forces, based on religion? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.379	0.459
+0) No	105	53.0
+0.5)	42	21.2
+1) Yes, some are.	47	23.7
+1.5)	2	1.0
+2) Yes, all are.	2	1.0
+
+
+157) THRTMVAG
+According to the Report, are people threatened by social movements or political parties, based on religion? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1.667
+	N	Mean	Std. Deviation
+Total	198	0.443	0.413
+0) No	66	33.3
+0.333)	53	26.8
+0.667)	37	18.7
+1) Yes, some are.	33	16.7
+1.333)	8	4.0
+1.667)	1	0.5
+2) Yes, all are.	0	0.0
+
+
+158) PRISONAG
+According to the Report, are people put into prison based on religion? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1.333
+	N	Mean	Std. Deviation
+Total	198	0.327	0.41
+0) No	104	52.5
+0.333)	35	17.7
+0.5)	1	0.5
+0.667)	21	10.6
+1) Yes, some are.	32	16.2
+1.333)	5	2.5
+2) Yes, all are.	0	0.0
+
+
+159) STIGMAAG
+According to the Report, are people 'stigmatized' by the government (e.g., caste designation, different passport cover, etc.) based on religion? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1.333
+	N	Mean	Std. Deviation
+Total	198	0.185	0.325
+0) No	138	69.7
+0.333)	27	13.6
+0.667)	18	9.1
+1) Yes, some are.	13	6.6
+1.333)	2	1.0
+2) Yes, all are.	0	0.0
+
+
+160) JOBEXCAG
+According to the Report, are people excluded from certain (nonreligious) jobs based on religion? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1.333
+	N	Mean	Std. Deviation
+Total	198	0.308	0.397
+0) No	107	54.0
+0.333)	36	18.2
+0.667)	22	11.1
+1) Yes, some are.	29	14.6
+1.333)	4	2.0
+2) Yes, all are.	0	0.0
+
+
+161) PERMITAG
+According to the Report, must religions receive a permit or be registered (for any purpose mentioned in the Reports)? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1.667
+	N	Mean	Std. Deviation
+Total	198	0.512	0.364
+0) No	25	12.6
+0.333)	92	46.5
+0.667)	46	23.2
+1) Yes, all must.	23	11.6
+1.333)	9	4.5
+1.667)	3	1.5
+2) Yes, but only some.	0	0.0
+
+
+162) JAILRSAG
+According to the Report, are people in jail permitted to practice their religion, including having access to Scripture? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.701	0.283
+0) Yes, all are.	10	5.1
+0.333)	3	1.5
+0.667)	162	81.8
+1) Yes, but only some are.	10	5.1
+1.333)	8	4.0
+1.667)	3	1.5
+2) No	2	1.0
+
+
+163) ARMYAG
+According to the Report, are people in the military permitted to practice their religion, including non-participation in religion? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.352	0.168
+0) Yes	15	7.6
+0.333)	161	81.3
+0.5)	2	1.0
+0.667)	15	7.6
+1) No	5	2.5
+
+
+164) LIFEAG
+According to the Report, does the State (i.e., Government) defer to religious authorities on life issues [see below]? This variable was marked as 'Yes' if any variable below between MARRYAG and SITEAG had a response other than '0' = 'Without control by religion.' [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.261	0.387
+0) No	125	63.1
+0.333)	25	12.6
+0.667)	14	7.1
+1) Yes	34	17.2
+
+
+165) MARRYAG
+If the Report indicates that the State (i.e., Government) defers to religious authorities on life issues, how are life issues such as marriages recognized by the state?  Answered if LIFEAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.394	0.735
+0) Without control by religion(s)	141	71.2
+0.333)	10	5.1
+0.667)	4	2.0
+1) With some controls by a religion(s)	11	5.6
+1.333)	9	4.5
+1.667)	3	1.5
+2) Only if recognized by an approved religion(s)	13	6.6
+2.333)	4	2.0
+2.66696296296296)	1	0.5
+3) State defers to a single religious authority	2	1.0
+
+
+166) DIVORCAG
+If the Report indicates that the State (i.e., Government) defers to religious authorities on life issues, how are life issues such as divorces recognized by the state?  Answered if LIFEAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.33	0.696
+0) Without control by religion(s)	154	77.8
+0.333)	2	1.0
+0.667)	4	2.0
+1) With some controls by a religion(s)	11	5.6
+1.333)	10	5.1
+1.667)	1	0.5
+2) Only if recognized by an approved religion(s)	10	5.1
+2.333)	3	1.5
+3) State defers to a single religious authority	3	1.5
+
+
+167) BURYAG
+If the Report indicates that the State (i.e., Government) defers to religious authorities on life issues, how are life issues such as burials recognized by the state?  Answered if LIFEAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2.66696296296296
+	N	Mean	Std. Deviation
+Total	198	0.121	0.377
+0) Without control by religion(s)	171	86.4
+0.333)	10	5.1
+0.667)	3	1.5
+1) With some controls by a religion(s)	8	4.0
+1.333)	3	1.5
+2) Only if recognized by an approved religion(s)	2	1.0
+2.66696296296296)	1	0.5
+3) State defers to a single religious authority	0	0.0
+
+
+168) CITZAG
+If the Report indicates that the State (i.e., Government) defers to religious authorities on life issues, how are life issues such as citizenship rights recognized by the state?   Answered if LIFEAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.178	0.495
+0) Without control by religion(s)	166	83.8
+0.333)	7	3.5
+0.667)	8	4.0
+1) With some controls by a religion(s)	5	2.5
+1.333)	3	1.5
+1.667)	2	1.0
+2) Only if recognized by an approved religion(s)	5	2.5
+2.333)	1	0.5
+3) State defers to a single religious authority	1	0.5
+
+
+169) RESIAG
+If the Report indicates that the State (i.e., Government) defers to religious authorities on life issues, how are life issues such as residence rights recognized by the state?  Answered if LIFEAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1.667
+	N	Mean	Std. Deviation
+Total	198	0.098	0.303
+0) Without control by religion(s)	173	87.4
+0.333)	10	5.1
+0.667)	4	2.0
+1) With some controls by a religion(s)	7	3.5
+1.333)	1	0.5
+1.667)	3	1.5
+2) Only if recognized by an approved religion(s)	0	0.0
+3) State defers to a single religious authority	0	0.0
+
+
+170) IMMIAG
+If the Report indicates that the State (i.e., Government) defers to religious authorities on life issues, how are life issues such as immigration rights recognized by the state?  Answered if LIFEAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2.333
+	N	Mean	Std. Deviation
+Total	198	0.076	0.28
+0) Without control by religion(s)	177	89.4
+0.333)	11	5.6
+0.667)	3	1.5
+1) With some controls by a religion(s)	4	2.0
+1.333)	1	0.5
+1.667)	1	0.5
+2) Only if recognized by an approved religion(s)	0	0.0
+2.333)	1	0.5
+3) State defers to a single religious authority	0	0.0
+
+
+171) ETHNATAG
+If the Report indicates that the State (i.e., Government) defers to religious authorities on life issues, how are life issues such as ethnic (nationality) rights recognized by the state?  Answered if LIFEAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1.667
+	N	Mean	Std. Deviation
+Total	198	0.061	0.234
+0) Without control by religion(s)	183	92.4
+0.333)	4	2.0
+0.667)	3	1.5
+1) With some controls by a religion(s)	7	3.5
+1.667)	1	0.5
+2) Only if recognized by an approved religion(s)	0	0.0
+3) State defers to a single religious authority	0	0.0
+
+
+172) ADULTYAG
+If the Report indicates that the State (i.e., Government) defers to religious authorities on life issues, how are life issues such as adultery recognized by the state?  Answered if LIFEAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.163	0.459
+0) Without control by religion(s)	168	84.8
+0.333)	4	2.0
+0.667)	9	4.5
+1) With some controls by a religion(s)	9	4.5
+1.667)	3	1.5
+2) Only if recognized by an approved religion(s)	4	2.0
+3) State defers to a single religious authority	1	0.5
+
+
+173) CONVR2AG
+If the Report indicates that the State (i.e., Government) defers to religious authorities on life issues, how are life issues such as the right to convert recognized by the state?  Answered if LIFEAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.288	0.717
+0) Without control by religion(s)	163	82.3
+0.333)	3	1.5
+0.667)	5	2.5
+1) With some controls by a religion(s)	5	2.5
+1.333)	3	1.5
+1.667)	4	2.0
+2) Only if recognized by an approved religion(s)	5	2.5
+2.333)	3	1.5
+2.66696296296296)	3	1.5
+3) State defers to a single religious authority	4	2.0
+
+
+174) HAJJAG
+If the Report indicates that the State (i.e., Government) defers to religious authorities on life issues, how are life issues such as the right to hajj or other pilgrimage recognized by the state?  Answered if LIFEAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2.333
+	N	Mean	Std. Deviation
+Total	198	0.101	0.331
+0) Without control by religion(s)	174	87.9
+0.333)	9	4.5
+0.667)	3	1.5
+1) With some controls by a religion(s)	9	4.5
+1.667)	1	0.5
+2) Only if recognized by an approved religion(s)	1	0.5
+2.333)	1	0.5
+3) State defers to a single religious authority	0	0.0
+
+
+175) VISITAG
+If the Report indicates that the State (i.e., Government) defers to religious authorities on life issues, how are life issues such as visiting this country for religious purposes recognized by the state?  Answered if LIFEAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.108	0.345
+0) Without control by religion(s)	173	87.4
+0.333)	9	4.5
+0.667)	6	3.0
+1) With some controls by a religion(s)	4	2.0
+1.333)	1	0.5
+1.667)	3	1.5
+2) Only if recognized by an approved religion(s)	2	1.0
+3) State defers to a single religious authority	0	0.0
+
+
+176) SITEAG
+If the Report indicates that the State (i.e., Government) defers to religious authorities on life issues, how are life issues such as the following ones recognized by the state?  How are holy sites or religious properties protected by and recognized by the State?  Answered if LIFEAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.109	0.361
+0) Without control by religion(s)	174	87.9
+0.333)	7	3.5
+0.667)	5	2.5
+1) With some controls by a religion(s)	7	3.5
+1.333)	2	1.0
+1.667)	2	1.0
+2) Only if recognized by an approved religion(s)	0	0.0
+3) State defers to a single religious authority	1	0.5
+
+
+177) COMITYAG
+According to the Report, do comity agreements (e.g., agreement that gives a missionary group dominance over an area) exist between missionaries and the state?
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.084	0.222
+0) No	173	87.4
+0.667)	25	12.6
+1) Yes, in past only	0	0.0
+2) Yes, with some missions	0	0.0
+3) Yes, disproportionately with one mission	0	0.0
+
+
+178) DISCR2AG
+According to the Report, are allegations reported of discrimination in education, housing and/or employment based on religion? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.691	0.701
+0) No discrimination	66	33.3
+0.333)	34	17.2
+0.5)	1	0.5
+0.667)	23	11.6
+1) Some discrimination	22	11.1
+1.333)	21	10.6
+1.667)	15	7.6
+2) Widespread discrimination	10	5.1
+2.333)	5	2.5
+3) Caste-like system	1	0.5
+
+
+179) UNIVAG
+According to the Report, what is the religious proportional balance at universities by proportion of the nation's population? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2.333
+	N	Mean	Std. Deviation
+Total	198	0.152	0.401
+0) A proportional balance	165	83.3
+0.333)	10	5.1
+0.667)	6	3.0
+1) Have some imbalance	7	3.5
+1.333)	5	2.5
+1.667)	4	2.0
+2) Are highly imbalanced	0	0.0
+2.333)	1	0.5
+3) Only have students of one religion or belief	0	0.0
+
+
+180) PROFAG
+According to the Report, what is the religious proportional balance of professional jobs by proportion of the nation's population? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.202	0.428
+0) A proportional balance	145	73.2
+0.333)	22	11.1
+0.667)	16	8.1
+1) Have some imbalance	5	2.5
+1.333)	3	1.5
+1.667)	3	1.5
+2) Are highly imbalanced	4	2.0
+
+
+181) BUSINEAG
+According to the Report, what is the religious proportional balance of business jobs by proportion of the nation's population? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.177	0.414
+0) A proportional balance	152	76.8
+0.333)	21	10.6
+0.667)	10	5.1
+1) Have some imbalance	7	3.5
+1.333)	1	0.5
+1.667)	3	1.5
+2) Are highly imbalanced	4	2.0
+3) Only have workers of one religion or belief	0	0.0
+
+
+182) FUNDRLAG
+According to the Report, what is the balance of Government funding (including 'in kind' such as funding buildings) to the religious sector? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	1.3	0.897
+0) No funding	37	18.7
+0.333)	9	4.5
+0.667)	22	11.1
+1) A proportional balance	19	9.6
+1.333)	23	11.6
+1.667)	15	7.6
+2) Has imbalance	38	19.2
+2.333)	19	9.6
+2.66696296296296)	10	5.1
+3) Only goes to one religion or belief	6	3.0
+
+
+183) LANDBAG
+According to the Report, when a person sells or buys land or property, do laws or practices benefit or discriminate based on religion? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.209	0.432
+0) Has nothing to do with religion beyond religious sites	144	72.7
+0.333)	21	10.6
+0.667)	16	8.1
+1) Favors religions based on locale	7	3.5
+1.333)	5	2.5
+2) Favors one religion or religious brand	5	2.5
+
+
+184) STTLMTAG
+According to the Report, do settlement and expansion policies (e.g., internal migration policies) have anything to do with religion? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.168	0.393
+0) Nothing to do with religion beyond holy sites	155	78.3
+0.333)	17	8.6
+0.667)	10	5.1
+1) Some general relation to religion	7	3.5
+1.333)	6	3.0
+2) Highly related to religion or belief	3	1.5
+
+
+185) GENDERAG
+According to the Report, do legal rights of males and females have anything to do with religion? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.551	1.104
+0) No	154	77.8
+0.667)	1	0.5
+1) Yes, with no favoritism	8	4.0
+1.333)	1	0.5
+2) Yes, gender inequities for both males and females	1	0.5
+2.66696296296296)	6	3.0
+3) Yes, gender inequities for one gender	27	13.6
+
+
+186) GENDR2AG
+According to the Report, do divorce rights and/or adultery's legal status have anything to do with religion? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2.333
+	N	Mean	Std. Deviation
+Total	198	0.3	0.656
+0) No	158	79.8
+0.333)	4	2.0
+0.667)	4	2.0
+1) Yes, with no favoritism	3	1.5
+1.333)	8	4.0
+1.667)	2	1.0
+2) Yes, and favors men	18	9.1
+2.333)	1	0.5
+
+
+187) DRESS1AG
+According to the Report, are the following prohibited or required by law or policy: scarves or head coverings for women? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.106	0.241
+0) No	159	80.3
+0.333)	21	10.6
+0.667)	12	6.1
+1) Yes	6	3.0
+
+
+188) DRESS2AG
+According to the Report, are the following prohibited or required by law or policy: beards for men? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.007	0.058
+0) No	195	98.5
+0.333)	2	1.0
+0.667)	1	0.5
+1) Yes	0	0.0
+
+
+189) DRESS3AG
+According to the Report, are the following prohibited or required by law or policy: any religiously-worn symbol like a cross? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.029	0.115
+0) No	184	92.9
+0.333)	12	6.1
+0.667)	1	0.5
+1) Yes	1	0.5
+
+
+190) DRESS4AG
+According to the Report, are the following prohibited or required by law or policy: other (explain in notes)? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.034	0.126
+0) No	182	91.9
+0.333)	13	6.6
+0.667)	2	1.0
+1) Yes	1	0.5
+
+
+191) DRESSAG
+According to the Report, which of the following are prohibited or required by law?
+RANGE: 0 to 5
+	N	Mean	Std. Deviation
+Total	198	0.268	0.92
+0) None	173	87.4
+1) Scarves for women	17	8.6
+2) Beards for men	0	0.0
+3) Both 1&2	0	0.0
+4) Any religiously worn symbol like a cross	4	2.0
+5) Other	4	2.0
+
+
+192) SECTSAG
+According to the Report, has there been any harassment of minority religious groups? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	1.801	1.172
+0) No	40	20.2
+0.333)	2	1.0
+0.667)	3	1.5
+1) Yes, but not been recently reported	27	13.6
+1.333)	4	2.0
+1.5)	1	0.5
+1.667)	11	5.6
+2) Reported and resolved	22	11.1
+2.66696296296296)	19	9.6
+3) Reported and unresolved	69	34.8
+
+
+193) REFUGEAG
+According to the Report, is there a returning refugee situation? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.14	0.41
+0) No	171	86.4
+0.333)	3	1.5
+0.667)	13	6.6
+1) Yes and refugees return with no regard to religion	1	0.5
+1.333)	4	2.0
+1.667)	1	0.5
+2) Yes and refugees from certain religions are discriminated against by policy or practice	5	2.5
+
+
+194) CAMPAIAG
+According to the Report, is there a Government campaign against religion or certain religions? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.728	0.888
+0) No	96	48.5
+0.333)	11	5.6
+0.5)	1	0.5
+0.667)	16	8.1
+1) Yes, but non-coercive	14	7.1
+1.333)	17	8.6
+1.667)	9	4.5
+2) Yes, and coercive	20	10.1
+2.333)	4	2.0
+2.66696296296296)	5	2.5
+3) Yes, lethal	5	2.5
+
+
+195) BUREAUAG
+According to the Report, is there a Government bureau that supervises religions? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	1.497	0.926
+0) No	22	11.1
+0.333)	2	1.0
+0.667)	40	20.2
+1) No, but consults a non-government religious advisory board	9	4.5
+1.333)	32	16.2
+1.667)	13	6.6
+2) Yes, but non-coercive	32	16.2
+2.333)	11	5.6
+2.66696296296296)	15	7.6
+3) Yes and coercive	22	11.1
+
+
+196) LETHALAG
+According to the Report, are killings based on religion reported? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.356	0.501
+0) No	117	59.1
+0.333)	17	8.6
+0.5)	1	0.5
+0.667)	19	9.6
+1) Yes	28	14.1
+1.333)	11	5.6
+1.667)	3	1.5
+2) Massacres, armed conflict, or warfare	2	1.0
+
+
+197) HARASSAG
+According to the Report, do Government or security authorities harass or allow harassment based on religious brand? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.747	0.738
+0) No	68	34.3
+0.333)	30	15.2
+0.5)	1	0.5
+0.667)	18	9.1
+1) Yes, but isolated or confined to certain locales	20	10.1
+1.333)	14	7.1
+1.667)	22	11.1
+2) Yes	25	12.6
+
+
+198) THREATAG
+If the Report indicates that the Government or security authorities harass or allow harassment based on religious brand, does the permitted harassment take the form of: threats?  Answered only if HARASSAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.689	1.011
+0) No	114	57.6
+0.333)	6	3.0
+0.5)	1	0.5
+0.667)	23	11.6
+1) This happens but it is opposed by all levels of Government and security authorities.	7	3.5
+1.333)	2	1.0
+1.667)	5	2.5
+2) Yes, with Government complicity, but isolated or only in certain regions	12	6.1
+2.333)	7	3.5
+2.66696296296296)	8	4.0
+3) Yes, with Government complicity, and happens throughout the country.	13	6.6
+
+
+199) DEMOLAG
+If the Report indicates that the Government or security authorities harass or allow harassment based on religious brand, does the permitted harassment take the form of: demolition or confiscation of property?  Answered only if HARASSAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.639	0.943
+0) No	115	58.1
+0.333)	5	2.5
+0.5)	1	0.5
+0.667)	22	11.1
+1) This happens but it is opposed by all levels of Government and security authorities.	12	6.1
+1.333)	6	3.0
+1.667)	1	0.5
+2) Yes, with Government complicity, but isolated or only in certain regions	11	5.6
+2.333)	9	4.5
+2.66696296296296)	9	4.5
+3) Yes, with Government complicity, and happens throughout the country.	7	3.5
+
+
+200) FINESAG
+If the Report indicates that the Government or security authorities harass or allow harassment based on religious brand, does the permitted harassment take the form of: extortion of fines?  Answered only if HARASSAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2.66696296296296
+	N	Mean	Std. Deviation
+Total	198	0.244	0.536
+0) No	154	77.8
+0.667)	22	11.1
+1) This happens but it is opposed by all levels of Government and security authorities.	9	4.5
+1.333)	3	1.5
+1.667)	4	2.0
+2) Yes, with Government complicity, but isolated or only in certain regions	2	1.0
+2.333)	2	1.0
+2.66696296296296)	2	1.0
+3) Yes, with Government complicity, and happens throughout the country.	0	0.0
+
+
+201) INTERRAG
+If the Report indicates that the Government or security authorities harass or allow harassment based on religious brand, does the permitted harassment take the form of: interrogation or surveillance or inspections?  Answered only if HARASSAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.709	0.952
+0) No	109	55.1
+0.333)	2	1.0
+0.667)	21	10.6
+1) This happens but it is opposed by all levels of Government and security authorities.	12	6.1
+1.333)	7	3.5
+1.667)	14	7.1
+2) Yes, with Government complicity, but isolated or only in certain regions	15	7.6
+2.66696296296296)	9	4.5
+3) Yes, with Government complicity, and happens throughout the country.	9	4.5
+
+
+202) DETENTAG
+If the Report indicates that the Government or security authorities harass or allow harassment based on religious brand, does the permitted harassment take the form of: detention/jail?  Answered only if HARASSAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.818	1.032
+0) No	101	51.0
+0.333)	2	1.0
+0.667)	25	12.6
+1) This happens but it is opposed by all levels of Government and security authorities.	8	4.0
+1.333)	12	6.1
+1.667)	7	3.5
+2) Yes, with Government complicity, but isolated or only in certain regions	8	4.0
+2.333)	14	7.1
+2.66696296296296)	8	4.0
+3) Yes, with Government complicity, and happens throughout the country.	13	6.6
+
+
+203) BEATNGAG
+If the Report indicates that the Government or security authorities harass or allow harassment based on religious brand, does the permitted harassment take the form of: beatings?  Answered only if HARASSAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.393	0.792
+0) No	146	73.7
+0.333)	3	1.5
+0.5)	1	0.5
+0.667)	15	7.6
+1) This happens but it is opposed by all levels of Government and security authorities.	4	2.0
+1.333)	3	1.5
+1.667)	8	4.0
+2) Yes, with Government complicity, but isolated or only in certain regions	5	2.5
+2.333)	5	2.5
+2.66696296296296)	2	1.0
+3) Yes, with Government complicity, and happens throughout the country.	6	3.0
+
+
+204) TORTURAG
+If the Report indicates that the Government or security authorities harass or allow harassment based on religious brand, does the permitted harassment take the form of: torture?  Answered only if HARASSAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.207	0.59
+0) No	171	86.4
+0.333)	1	0.5
+0.667)	5	2.5
+1) This happens but it is opposed by all levels of Government and security authorities.	4	2.0
+1.333)	4	2.0
+1.667)	5	2.5
+2) Yes, with Government complicity, but isolated or only in certain regions	3	1.5
+2.333)	1	0.5
+2.66696296296296)	2	1.0
+3) Yes, with Government complicity, and happens throughout the country.	2	1.0
+
+
+205) EXFORCAG
+If the Report indicates that the Government or security authorities harass or allow harassment based on religious brand, does the permitted harassment take the form of: excessive force?  Answered only if HARASSAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.507	0.857
+0) No	134	67.7
+0.333)	4	2.0
+0.667)	12	6.1
+1) This happens but it is opposed by all levels of Government and security authorities.	3	1.5
+1.333)	12	6.1
+1.667)	11	5.6
+2) Yes, with Government complicity, but isolated or only in certain regions	9	4.5
+2.333)	3	1.5
+2.66696296296296)	4	2.0
+3) Yes, with Government complicity, and happens throughout the country.	6	3.0
+
+
+206) PSYCHAG
+If the Report indicates that the Government or security authorities harass or allow harassment based on religious brand, does the permitted harassment take the form of: psychiatric treatment?  Answered only if HARASSAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.035	0.213
+0) No	192	97.0
+0.667)	1	0.5
+1) This happens but it is opposed by all levels of Government and security authorities.	3	1.5
+1.333)	1	0.5
+2) Yes, with Government complicity, but isolated or only in certain regions	1	0.5
+3) Yes, with Government complicity, and happens throughout the country.	0	0.0
+
+
+207) MOBLTYAG
+If the Report indicates that the Government or security authorities harass or allow harassment based on religious brand, does the permitted harassment take the form of: restricting the movement of certain persons?  Answered only if HARASSAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.66	0.878
+0) No	107	54.0
+0.333)	1	0.5
+0.667)	28	14.1
+1) This happens but it is opposed by all levels of Government and security authorities.	12	6.1
+1.333)	13	6.6
+1.667)	7	3.5
+2) Yes, with Government complicity, but isolated or only in certain regions	15	7.6
+2.333)	3	1.5
+2.66696296296296)	7	3.5
+3) Yes, with Government complicity, and happens throughout the country.	5	2.5
+
+
+208) FAMILYAG
+If the Report indicates that the Government or security authorities harass or allow harassment based on religious brand, does the permitted harassment take the form of: pressuring the family and/or social/job networks of religious believers?  Answered only if HARASSAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.338	0.708
+0) No	154	77.8
+0.333)	3	1.5
+0.667)	3	1.5
+1) This happens but it is opposed by all levels of Government and security authorities.	12	6.1
+1.333)	2	1.0
+1.667)	6	3.0
+2) Yes, with Government complicity, but isolated or only in certain regions	12	6.1
+2.333)	3	1.5
+2.66696296296296)	2	1.0
+3) Yes, with Government complicity, and happens throughout the country.	1	0.5
+
+
+209) ANECDOAG
+According to the Report, is the evidence of abuses from this country largely anecdotal or documented? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0.333 to 3
+	N	Mean	Std. Deviation
+Total	198	2.004	0.989
+0) No evidence
+0.333)	26	13.1
+0.667)	6	3.0
+1) Anecdotal	10	5.1
+1.333)	38	19.2
+1.5)	1	0.5
+1.667)	1	0.5
+2) Report presents abuses that are only alleged	11	5.6
+2.333)	23	11.6
+2.66696296296296)	4	2.0
+3) Report presents abuses with clear factual references.	78	39.4
+
+
+210) DESECRAG
+According to the Report, does the Government (or military) confiscate, desecrate or destroy religious sites or facilities? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.383	0.571
+0) No reports	114	57.6
+0.333)	27	13.6
+0.5)	1	0.5
+0.667)	17	8.6
+1) Isolated reports	13	6.6
+1.333)	10	5.1
+1.667)	10	5.1
+2) Yes, frequently	6	3.0
+
+
+211) CENSORAG
+According to the Report, does the Government censor the content of religious sermons, publications and/or broadcasts? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.303	0.379
+0) No	106	53.5
+0.333)	35	17.7
+0.667)	26	13.1
+1) Yes	31	15.7
+
+
+212) LITERAAG
+According to the Report, does the Government control availability of religious scriptures? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.379	0.65
+0) No	138	69.7
+0.333)	6	3.0
+0.667)	13	6.6
+1) Yes	5	2.5
+1.333)	12	6.1
+1.667)	14	7.1
+2) Yes and confiscation, destruction or banning occurs	10	5.1
+
+
+213) COERCRAG
+According to the Report, does the Government coerce people to change their religion or forbid changing of religion? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.303	0.699
+0) No reports	155	78.3
+0.333)	8	4.0
+0.667)	7	3.5
+1) Coerce	4	2.0
+1.333)	6	3.0
+1.667)	3	1.5
+2) Forbid	7	3.5
+2.333)	3	1.5
+2.66696296296296)	1	0.5
+3) Both coerce and forbid	4	2.0
+
+
+214) EXPELAG
+According to the Report, does the Government expel, exile, deport or deny entry to people based on their religious brand?  Note: 'isolated' means less than 3 different cases reported, and not part of a strategy that involves ongoing cases. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.333	0.515
+0) No reports	119	60.1
+0.333)	27	13.6
+0.667)	18	9.1
+1) Isolated reports	13	6.6
+1.333)	13	6.6
+1.667)	4	2.0
+2) Ongoing activities	4	2.0
+
+
+215) ABUSEAG
+Considering the entire Report, estimate the number of people who were physically abused due to religion in this country.
+RANGE: 0 to 5
+	N	Mean	Std. Deviation
+Total	198	0.566	0.903
+0) None	129	65.2
+1) Less than 10	36	18.2
+2) 10 to 200	25	12.6
+3) 201 to 1000	7	3.5
+4) 1,001 to 10,000	0	0.0
+5) 10,000 to 99,999	1	0.5
+6) 100,000 to 999,999	0	0.0
+7) More than 1 million	0	0.0
+
+
+216) DISPLAAG
+Considering the entire Report, estimate the number of people who were displaced from home due to religion in this country.
+RANGE: 0 to 7
+	N	Mean	Std. Deviation
+Total	198	0.652	1.572
+0) None	154	77.8
+1) Less than 10	15	7.6
+2) 10 to 200	13	6.6
+3) 201 to 1,000	1	0.5
+4) 1,001 to 10,000	2	1.0
+5) 10,000 to 99,999	4	2.0
+6) 100,000 to 999,999	6	3.0
+7) More than 1 million	3	1.5
+
+
+217) IMPRISAG
+Considering the entire Report, estimate the number of people who were imprisoned due to religion in this country.
+RANGE: 0 to 6
+	N	Mean	Std. Deviation
+Total	198	0.813	1.14
+0) None	114	57.6
+1) Less than 10	31	15.7
+2) 10 to 200	37	18.7
+3) 201 to 1,000	11	5.6
+4) 1,001 to 10,000	3	1.5
+5) 10,000 to 99,999	1	0.5
+6) 100,000 to 999,999	1	0.5
+7) More than 1 million	0	0.0
+
+
+218) KILLEDAG
+Considering the entire Report, estimate the number of people who were killed due to religion in this country.
+RANGE: 0 to 7
+	N	Mean	Std. Deviation
+Total	198	0.566	1.159
+0) None	141	71.2
+1) Less than 10	28	14.1
+2) 10 to 200	18	9.1
+3) 201 to 1,000	4	2.0
+4) 1,001 to 10,000	2	1.0
+5) 10,000 to 99,999	3	1.5
+6) 100,000 to 999,999	1	0.5
+7) More than 1 million	1	0.5
+
+
+219) ABUS_AG
+Considering the entire Report, estimate the actual number of people who were physically abused due to religion in this country.
+RANGE: 0 to 3051
+	N	Mean	Std. Deviation
+Total	198	37.318	235.843
+0)	132	66.7
+1)	9	4.5
+2)	9	4.5
+3)	5	2.5
+4)	8	4.0
+5)	2	1.0
+6)	2	1.0
+7)	1	0.5
+8)	1	0.5
+9)	2	1.0
+11)	1	0.5
+17)	1	0.5
+18)	1	0.5
+19)	1	0.5
+20)	1	0.5
+21)	1	0.5
+24)	1	0.5
+25)	1	0.5
+37)	1	0.5
+40)	2	1.0
+54)	1	0.5
+62)	1	0.5
+66)	1	0.5
+77)	1	0.5
+117)	1	0.5
+136)	1	0.5
+150)	1	0.5
+165)	1	0.5
+200)	1	0.5
+227)	1	0.5
+252)	1	0.5
+407)	1	0.5
+451)	1	0.5
+619)	1	0.5
+954)	1	0.5
+3051)	1	0.5
+
+
+220) IMPRI_AG
+Considering the entire Report, estimate the actual number of people who were imprisoned due to religion in this country.
+RANGE: 0 to 133000
+	N	Mean	Std. Deviation
+Total	198	887.323	9638.782
+
+
+221) DISPL_AG
+Considering the entire Report, estimate the actual number of people who were displaced from home due to religion in this country.
+RANGE: 0 to 10000017
+	N	Mean	Std. Deviation
+Total	198	96207.596	854675.324
+0)	157	79.3
+1)	7	3.5
+3)	1	0.5
+5)	3	1.5
+6)	2	1.0
+7)	2	1.0
+8)	1	0.5
+9)	1	0.5
+11)	1	0.5
+34)	1	0.5
+36)	1	0.5
+39)	1	0.5
+100)	1	0.5
+114)	1	0.5
+162)	1	0.5
+170)	1	0.5
+382)	1	0.5
+1090)	1	0.5
+1800)	1	0.5
+10001)	1	0.5
+20001)	1	0.5
+30395)	1	0.5
+46000)	1	0.5
+76000)	1	0.5
+100000)	1	0.5
+156246)	1	0.5
+186138)	1	0.5
+200000)	1	0.5
+200300)	1	0.5
+1420000)	1	0.5
+6600000)	1	0.5
+10000017)	1	0.5
+
+
+222) KILLE_AG
+Considering the entire Report, estimate the actual number of people who were killed due to religion in this country.
+RANGE: 0 to 2000000
+	N	Mean	Std. Deviation
+Total	198	11377.939	142513.133
+0)	145	73.2
+1)	12	6.1
+2)	10	5.1
+4)	3	1.5
+8)	1	0.5
+9)	1	0.5
+12)	1	0.5
+13)	1	0.5
+14)	1	0.5
+15)	1	0.5
+19)	1	0.5
+24)	1	0.5
+25)	1	0.5
+26)	1	0.5
+35)	1	0.5
+61)	1	0.5
+67)	1	0.5
+68)	1	0.5
+70)	1	0.5
+85)	1	0.5
+118)	1	0.5
+184)	1	0.5
+215)	1	0.5
+297)	1	0.5
+500)	1	0.5
+2008)	1	0.5
+6666)	1	0.5
+12222)	1	0.5
+20004)	1	0.5
+60023)	1	0.5
+150000)	1	0.5
+2000000)	1	0.5
+
+
+223) IMPRVAG
+In the Report, is an improvement in respect for religious freedom reported? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.195	0.306
+0) No	127	64.1
+0.333)	40	20.2
+0.667)	17	8.6
+1) Yes	14	7.1
+
+
+224) AMNESAG
+If the Report indicates that there has been an improvement, how did the following contribute to the improvement: amnesty granted to religious persons?  Answered only if IMPRVAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1.333
+	N	Mean	Std. Deviation
+Total	198	0.022	0.126
+0) Not mentioned in the Report	190	96.0
+0.333)	5	2.5
+0.667)	2	1.0
+1) Mentioned in the Report as a contributing factor	0	0.0
+1.333)	1	0.5
+2) Mentioned in the Report as a highly significant factor	0	0.0
+
+
+225) DECLINAG
+If the Report indicates that there has been an improvement, how did the following contribute to the improvement: decline in abuses, arrests, etc.?  Answered only if IMPRVAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.061	0.177
+0) Not mentioned in the Report	172	86.9
+0.333)	19	9.6
+0.667)	4	2.0
+1) Mentioned in the Report as a contributing factor	3	1.5
+2) Mentioned in the Report as a highly significant factor	0	0.0
+
+
+226) GVCOMAG
+If the Report indicates that there has been an improvement, how did the following contribute to the improvement: Government commission set up to investigate the abuses?  Answered only if IMPRVAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1.667
+	N	Mean	Std. Deviation
+Total	198	0.053	0.207
+0) Not mentioned in the Report	180	90.9
+0.333)	11	5.6
+0.667)	4	2.0
+1) Mentioned in the Report as a contributing factor	1	0.5
+1.5)	1	0.5
+1.667)	1	0.5
+2) Mentioned in the Report as a highly significant factor	0	0.0
+
+
+227) PROSECAG
+If the Report indicates that there has been an improvement, how did the following contribute to the improvement: prosecution of those who abuse religious freedom?  Answered only if IMPRVAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.048	0.163
+0) Not mentioned in the Report	178	89.9
+0.333)	14	7.1
+0.5)	1	0.5
+0.667)	2	1.0
+1) Mentioned in the Report as a contributing factor	3	1.5
+2) Mentioned in the Report as a highly significant factor	0	0.0
+
+
+228) GVADMAG
+If the Report indicates that there has been an improvement, how did the following contribute to the improvement: the Government admission of past abuses?  Answered only if IMPRVAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.025	0.125
+0) Not mentioned in the Report	188	94.9
+0.333)	7	3.5
+0.667)	1	0.5
+1) Mentioned in the Report as a contributing factor	2	1.0
+2) Mentioned in the Report as a highly significant factor	0	0.0
+
+
+229) TRANSAG
+If the Report indicates that there has been an improvement, how did the following contribute to the improvement: translation of key laws or publications into strategic languages promoting religious freedom?  Answered only if IMPRVAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.024	0.104
+0) Not mentioned in the Report	187	94.4
+0.333)	8	4.0
+0.667)	3	1.5
+1) Mentioned in the Report as a contributing factor	0	0.0
+2) Mentioned in the Report as a highly significant factor	0	0.0
+
+
+230) DISTRIAG
+If the Report indicates that there has been an improvement, how did the following contribute to the improvement: distribution of literature promoting religious freedom?  Answered only if IMPRVAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.02	0.093
+0) Not mentioned in the Report	188	94.9
+0.333)	8	4.0
+0.667)	2	1.0
+1) Mentioned in the Report as a contributing factor	0	0.0
+2) Mentioned in the Report as a highly significant factor	0	0.0
+
+
+231) WORKSHAG
+If the Report indicates that there has been an improvement, how did the following contribute to the improvement: workshops or other programs promoting religious freedom?  Answered only if IMPRVAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1.333
+	N	Mean	Std. Deviation
+Total	198	0.091	0.209
+0) Not mentioned in the Report	157	79.3
+0.333)	33	16.7
+0.667)	4	2.0
+1) Mentioned in the Report as a contributing factor	3	1.5
+1.333)	1	0.5
+2) Mentioned in the Report as a highly significant factor	0	0.0
+
+
+232) EVENTSAG
+If the Report indicates that there has been an improvement, how did the following contribute to the improvement: high profile events promoting religious freedom?  Answered only if IMPRVAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.064	0.159
+0) Not mentioned in the Report	167	84.3
+0.333)	24	12.1
+0.667)	7	3.5
+1) Mentioned in the Report as a contributing factor	0	0.0
+2) Mentioned in the Report as a highly significant factor	0	0.0
+
+
+233) UNAG
+If the Report indicates that there has been an improvement, how did the following contribute to the improvement: UN or NGO activities advocating or promoting religious freedom? Answered only if IMPRVAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.062	0.245
+0) Not mentioned in the Report	178	89.9
+0.333)	12	6.1
+0.667)	5	2.5
+1) Mentioned in the Report as a contributing factor	1	0.5
+2) Mentioned in the Report as a highly significant factor	2	1.0
+
+
+234) DIALOGAG
+If the Report indicates that there has been an improvement, how did the following contribute to the improvement: dialogues promoting religious freedom?  Answered only if IMPRVAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.114	0.233
+0) Not mentioned in the Report	150	75.8
+0.333)	34	17.2
+0.667)	8	4.0
+1) Mentioned in the Report as a contributing factor	6	3.0
+2) Mentioned in the Report as a highly significant factor	0	0.0
+
+
+235) LAWAG
+If the Report indicates that there has been an improvement, how did the following contribute to the improvement: changes in laws or government policies promoting religious freedom?  Answered only if IMPRVAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.147	0.313
+0) Not mentioned in the Report	146	73.7
+0.333)	33	16.7
+0.5)	1	0.5
+0.667)	8	4.0
+1) Mentioned in the Report as a contributing factor	5	2.5
+1.333)	4	2.0
+2) Mentioned in the Report as a highly significant factor	1	0.5
+
+
+236) REGIMEAG
+If the Report indicates that there has been an improvement, how did the following contribute to the improvement: changes in leadership or regime that result in greater religious freedom? Answered only if IMPRVAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.066	0.244
+0) Not mentioned in the Report	178	89.9
+0.333)	11	5.6
+0.667)	4	2.0
+1) Mentioned in the Report as a contributing factor	2	1.0
+1.333)	2	1.0
+2) Mentioned in the Report as a highly significant factor	1	0.5
+
+
+237) SOCATTAG
+If the Report indicates that there has been an improvement, how did the following contribute to the improvement: changes in social attitudes promoting religious freedom?  Answered only if IMPRVAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.02	0.093
+0) Not mentioned in the Report	188	94.9
+0.333)	8	4.0
+0.667)	2	1.0
+1) Mentioned in the Report as a contributing factor	0	0.0
+2) Mentioned in the Report as a highly significant factor	0	0.0
+
+
+238) DEMOGAG
+If the Report indicates that there has been an improvement, how did the following contribute to the improvement: changes in religious demographics or land borders that contribute to religious freedom? Answered only if IMPRVAG = 1. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.333
+	N	Mean	Std. Deviation
+Total	198	0.003	0.033
+0) Not mentioned in the Report	196	99.0
+0.333)	2	1.0
+1) Mentioned in the Report as a contributing factor	0	0.0
+2) Mentioned in the Report as a highly significant factor	0	0.0
+
+
+239) CONVR3AG
+According to the Report, were there any reports of forced religious conversion? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.064	0.205
+0) No	176	88.9
+0.333)	12	6.1
+0.667)	4	2.0
+1) Yes	6	3.0
+
+
+240) MINORSAG
+According to the Report, were there any reports of U.S. minors being moved or held illegally due to religion? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1.333
+	N	Mean	Std. Deviation
+Total	198	0.019	0.131
+0) No	193	97.5
+0.333)	2	1.0
+0.667)	1	0.5
+1) Yes	1	0.5
+1.333)	1	0.5
+
+
+241) REPORTAG
+According to the Report, were there any reported abuses targeted at specific religions by terrorist organizations? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.039	0.126
+0) No	179	90.4
+0.333)	15	7.6
+0.667)	4	2.0
+1) Yes	0	0.0
+
+
+242) KILLD2AG
+According to the Report, how many people are reported to have been killed in the section on terrorism?  [Listed actual number, or actual minimum number]
+RANGE: 0 to 83333.332962963
+	N	Mean	Std. Deviation
+Total	198	543.628	6088.477
+0)	183	92.4
+0.667)	1	0.5
+2.333)	1	0.5
+3.66696296296296)	1	0.5
+7.66696296296296)	1	0.5
+9.66696296296296)	2	1.0
+10.333)	1	0.5
+20.667)	1	0.5
+23.332962962963)	1	0.5
+28.332962962963)	1	0.5
+53.667)	1	0.5
+61.332962962963)	1	0.5
+4068.333)	1	0.5
+20005.332962963)	1	0.5
+83333.332962963)	1	0.5
+
+
+243) INJUREAG
+According to the Report, how many people are reported to have been injured or accosted (but not killed) in the section on terrorism?  [Listed actual number, or actual minimum number]
+RANGE: 0 to 206.332962962963
+	N	Mean	Std. Deviation
+Total	198	3.453	20.612
+0)	186	93.9
+0.333)	2	1.0
+2)	1	0.5
+2.66696296296296)	1	0.5
+16.667)	1	0.5
+40.332962962963)	1	0.5
+43.332962962963)	1	0.5
+53)	1	0.5
+61.332962962963)	1	0.5
+126.667)	1	0.5
+130.667)	1	0.5
+206.332962962963)	1	0.5
+
+
+244) DISPLCAG
+According to the Report, how many people are reported to have been displaced or forced to move (but not killed) in the section on terrorism?  [Listed actual number, or actual minimum number]
+RANGE: 0 to 66666.667
+	N	Mean	Std. Deviation
+Total	198	666.712	5509.869
+0)	193	97.5
+2.333)	1	0.5
+15333.333)	1	0.5
+16673.332962963)	1	0.5
+33333.332962963)	1	0.5
+66666.667)	1	0.5
+
+
+245) STATEMAG
+According to the Report, were anti-religious statements issued following terrorist attacks by the terrorists or their sympathizers? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.017	0.087
+0) No	190	96.0
+0.333)	6	3.0
+0.667)	2	1.0
+1) Terrorists only	0	0.0
+2) Terrorists and sympathizers	0	0.0
+
+
+246) PROPT2AG
+According to the Report, was property damaged or destroyed by terrorists? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.064	0.185
+0) No	174	87.9
+0.333)	11	5.6
+0.667)	12	6.1
+1) Damaged/defaced	1	0.5
+2) Destroyed	0	0.0
+
+
+247) TARGETAG
+According to the Report, who did the terrorists target? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1.333
+	N	Mean	Std. Deviation
+Total	198	0.061	0.212
+0) Indiscriminate	180	90.9
+0.333)	6	3.0
+0.667)	7	3.5
+1) More than one religious brand	4	2.0
+1.333)	1	0.5
+2) One religious brand in particular	0	0.0
+
+
+248) MSSY_AG
+According to the Report, were missionaries targeted by terrorists? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1.333
+	N	Mean	Std. Deviation
+Total	198	0.015	0.113
+0) No	193	97.5
+0.333)	3	1.5
+0.667)	1	0.5
+1) Yes	0	0.0
+1.333)	1	0.5
+2) Yes, and they were killed.	0	0.0
+
+
+249) CLERGYAG
+According to the Report, were non-missionary clergy targeted by terrorists? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.024	0.119
+0) No	190	96.0
+0.333)	2	1.0
+0.667)	6	3.0
+1) Yes	0	0.0
+2) Yes, and they were killed	0	0.0
+
+
+250) KIDNAPAG
+According to the Report, did terrorists use kidnapping? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.015	0.091
+0) No	192	97.0
+0.333)	3	1.5
+0.667)	3	1.5
+1) Yes	0	0.0
+2) Yes, and those kidnapped were killed.	0	0.0
+
+
+251) FALSEAG
+According to the Report, does the Government falsely accuse religious groups (e.g., engaged in legitimate protests) of engaging in terrorism?
+RANGE: 0 to 2.66696296296296
+	N	Mean	Std. Deviation
+Total	198	0.013	0.19
+0) No	197	99.5
+1) Yes	0	0.0
+2) Yes, and they accost members of the group (threaten).	0	0.0
+2.66696296296296)	1	0.5
+3) Yes, and they arrest, detain or exile members of the group.	0	0.0
+4) Yes, and they kill members of the group.	0	0.0
+
+
+252) TYPE1AG
+According to the Report, did terrorists use graffiti as a tactic?
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	198	0	0
+0) No	198	100.0
+1) Yes	0	0.0
+
+
+253) TYPE2AG
+According to the Report, did terrorists use vandalism or damage to property as a tactic? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.333
+	N	Mean	Std. Deviation
+Total	198	0.037	0.105
+0) No	176	88.9
+0.333)	22	11.1
+1) Yes	0	0.0
+
+
+254) TYPE3AG
+According to the Report, did terrorists use printed materials, speeches or broadcasts as tactics? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.019	0.084
+0) No	188	94.9
+0.333)	9	4.5
+0.667)	1	0.5
+1) Yes	0	0.0
+
+
+255) TYPE4AG
+According to the Report, did terrorists use bombing or burning property as a tactic? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.049	0.127
+0) No	171	86.4
+0.333)	25	12.6
+0.667)	2	1.0
+1) Yes	0	0.0
+
+
+256) TYPE5AG
+According to the Report, did terrorists use beating, rape or physical assault (but not death) as a tactic? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.029	0.105
+0) No	183	92.4
+0.333)	13	6.6
+0.667)	2	1.0
+1) Yes	0	0.0
+
+
+257) TYPE6AG
+According to the Report, did terrorists use torture or killing of person(s) as a tactic? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.034	0.111
+0) No	180	90.9
+0.333)	16	8.1
+0.667)	2	1.0
+1) Yes	0	0.0
+
+
+258) TYPE7AG
+According to the Report, did terrorists use massacre and/or war as a tactic? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.333
+	N	Mean	Std. Deviation
+Total	198	0.007	0.047
+0) No	194	98.0
+0.333)	4	2.0
+1) Yes	0	0.0
+
+
+259) GVTAG
+According to the Report, is there evidence that the Government supports terrorist activities?
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	198	0	0
+0) No	198	100.0
+1) Yes, but undocumented	0	0.0
+2) Yes, but within its own borders	0	0.0
+3) Yes, sponsor of terrorism beyond its borders	0	0.0
+
+
+260) OTHRELAG
+According to the Report, societal attitudes toward other or nontraditional religions are reported to be open and tolerant, having isolated discrimination, negative just in certain regions or just towards certain religious brands or hostile. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	1.423	0.97
+0) Open and tolerant	31	15.7
+0.333)	18	9.1
+0.667)	13	6.6
+1) Isolated discrimination	19	9.6
+1.333)	22	11.1
+1.667)	12	6.1
+2) Negative just in certain regions or just towards certain religious brands	31	15.7
+2.333)	18	9.1
+2.5)	1	0.5
+2.66696296296296)	20	10.1
+3) Hostile	13	6.6
+
+
+261) RELATEAG
+According to the Report, relations between various religious communities are reported to be generally amicable, sometimes strained, negative just in certain regions or towards certain religious brands, or hostile. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	1.21	0.952
+0) Generally amicable	40	20.2
+0.333)	19	9.6
+0.667)	25	12.6
+1) Sometimes strained	15	7.6
+1.333)	23	11.6
+1.667)	16	8.1
+2) Negative just in certain regions or just towards certain religious brands	22	11.1
+2.333)	14	7.1
+2.5)	1	0.5
+2.66696296296296)	12	6.1
+3) Hostile	11	5.6
+
+
+262) TOLERAG
+According to the Report, are there activities reported that promote tolerance and understanding between adherents of different religions? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.63	0.375
+0) No	32	16.2
+0.333)	41	20.7
+0.667)	42	21.2
+1) Yes	83	41.9
+
+
+263) SOCMVAG
+According to the Report, are social movements reported that have religious agendas? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	1.008	0.762
+0) No	47	23.7
+0.333)	1	0.5
+0.667)	57	28.8
+1) Yes but inactive	3	1.5
+1.333)	31	15.7
+1.667)	3	1.5
+2) Yes and active	56	28.3
+
+
+264) MVFIN1AG
+If the Report indicates that there are social movements that have religious agendas, how are social movements financed: local donations?  Answered if SOCMVAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.068	0.144
+0) No	160	80.8
+0.333)	35	17.7
+0.5)	1	0.5
+0.667)	2	1.0
+1) Yes	0	0.0
+
+
+265) MVFIN2AG
+If the Report indicates that there are social movements that have religious agendas, how are social movements financed: foreign donations?  Answered if SOCMVAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.07	0.157
+0) No	162	81.8
+0.333)	30	15.2
+0.5)	1	0.5
+0.667)	5	2.5
+1) Yes	0	0.0
+
+
+266) MVFIN3AG
+If the Report indicates that there are social movements that have religious agendas, how are social movements financed: government funds?  Answered if SOCMVAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.044	0.122
+0) No	174	87.9
+0.333)	22	11.1
+0.667)	2	1.0
+1) Yes	0	0.0
+
+
+267) MVLED1AG
+If the Report indicates that there are social movements that have religious agendas, how are social movements led: by a religious person?  Answered if SOCMVAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.304	0.288
+0) No	77	38.9
+0.333)	67	33.8
+0.5)	1	0.5
+0.667)	47	23.7
+1) Yes	6	3.0
+
+
+268) MVLED2AG
+If the Report indicates that there are social movements that have religious agendas, how are social movements led: by a lay activist?  Answered if SOCMVAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.12	0.213
+0) No	143	72.2
+0.333)	39	19.7
+0.5)	1	0.5
+0.667)	14	7.1
+1) Yes	1	0.5
+
+
+269) MVLED3AG
+If the Report indicates that there are social movements that have religious agendas, how are social movements led: by a political party?  Answered if SOCMVAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.164	0.256
+0) No	131	66.2
+0.333)	39	19.7
+0.5)	1	0.5
+0.667)	24	12.1
+1) Yes	3	1.5
+
+
+270) MVLED4AG
+If the Report indicates that there are social movements that have religious agendas, how are social movements led: other (explain in notes)?  Answered if SOCMVAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.034	0.116
+0) No	181	91.4
+0.333)	14	7.1
+0.667)	3	1.5
+1) Yes	0	0.0
+
+
+271) MVID1AG
+If the Report indicates that there are social movements that have religious agendas, what is the motivating force or identity of social movements: nationalistic?  Answered if SOCMVAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.213	0.269
+0) No	110	55.6
+0.333)	52	26.3
+0.5)	1	0.5
+0.667)	32	16.2
+1) Yes	3	1.5
+
+
+272) MVID2AG
+If the Report indicates that there are social movements that have religious agendas, what is the motivating force or identity of social movements: international?  Answered if SOCMVAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 0.667
+	N	Mean	Std. Deviation
+Total	198	0.05	0.137
+0) No	172	86.9
+0.333)	22	11.1
+0.667)	4	2.0
+1) Yes	0	0.0
+
+
+273) MVID3AG
+If the Report indicates that there are social movements that have religious agendas, what is the motivating force or identity of social movements: ethnic?  Answered if SOCMVAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.137	0.25
+0) No	145	73.2
+0.333)	27	13.6
+0.5)	1	0.5
+0.667)	22	11.1
+1) Yes	3	1.5
+
+
+274) MVID4AG
+If the Report indicates that there are social movements that have religious agendas, what is the motivating force or identity of social movements: religious?  Answered if SOCMVAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.402	0.336
+0) No	57	28.8
+0.333)	69	34.8
+0.5)	2	1.0
+0.667)	43	21.7
+1) Yes	27	13.6
+
+
+275) MVID5AG
+If the Report indicates that there are social movements that have religious agendas, what is the motivating force or identity of social movements: other (specify in notes)?  Answered if SOCMVAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.07	0.167
+0) No	164	82.8
+0.333)	27	13.6
+0.5)	1	0.5
+0.667)	5	2.5
+1) Yes	1	0.5
+
+
+276) MVFINAG
+If the Report indicates that there are social movements that have religious agendas, how are social movements financed?  [Answered if SOCMVAG = 1 or 2.]
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	198	0.263	0.794
+0) None	173	87.4
+1) Local donations	10	5.1
+2) Local and foreign donations	7	3.5
+3) Government funding	4	2.0
+4) Local, foreign and government funding	4	2.0
+
+
+277) MVLEDAG
+If the Report indicates that there are social movements that have religious agendas, how are social movements led?  [Answered if SOCMVAG = 1 or 2.]\
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	198	0.434	1.029
+0) None	159	80.3
+1) By a cleric or religious person	17	8.6
+2) By a lay activist	5	2.5
+3) Political party	9	4.5
+4) Other	8	4.0
+
+
+278) MVIDAG
+If the Report indicates that there are social movements that have religious agendas, what is the primary motivating force or identity of social movements?  [Answered if SOCMVAG = 1 or 2.]\
+RANGE: 0 to 6
+	N	Mean	Std. Deviation
+Total	198	1.843	2.135
+0) None	106	53.5
+1) By a cleric or religious person	8	4.0
+2) By a lay activist	2	1.0
+3) Political party	7	3.5
+4) Other	45	22.7
+5) Combination of these	28	14.1
+6) Other	2	1.0
+
+
+279) MVOLDAG
+If the Report indicates that there are social movements that have religious agendas, how long have social movements been operating in the nation?  Answered if SOCMVAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.] 
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	198	0.976	1.265
+0) Unclear	105	53.0
+0.333)	1	0.5
+0.667)	8	4.0
+1) Less than 1 year	9	4.5
+1.333)	26	13.1
+2) 1 to 3 years	6	3.0
+2.333)	2	1.0
+2.66696296296296)	26	13.1
+3) 4 to 5 years	1	0.5
+3.333)	1	0.5
+3.66696296296296)	1	0.5
+4) More than 5 years	12	6.1
+
+
+280) MVTYPAG
+If the Report indicates that there are social movements that have religious agendas, are social movements violent?  Answered if SOCMVAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.453	0.586
+0) No	96	48.5
+0.333)	33	16.7
+0.667)	25	12.6
+1) Yes at times	15	7.6
+1.333)	13	6.6
+1.667)	7	3.5
+2) Yes as a regular practice	9	4.5
+
+
+281) RHETORAG
+If the Report mentions that there are social movements that have religious agendas, do their activities include: rhetoric/statements/preaching?  Answered if SOCMVAG = 1 or 2 and if MVTYPAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.515	0.646
+0) No	102	51.5
+0.333)	15	7.6
+0.667)	25	12.6
+1) Yes, but isolated or only in certain regions	15	7.6
+1.333)	18	9.1
+1.667)	14	7.1
+2) Yes, and happens throughout the country	9	4.5
+
+
+282) THREA2AG
+If the Report mentions that there are social movements that have religious agendas, do their activities include: threats?  Answered if SOCMVAG = 1 or 2 and if MVTYPAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.386	0.6
+0) No	119	60.1
+0.333)	20	10.1
+0.667)	24	12.1
+1) Yes, but isolated or only in certain regions	8	4.0
+1.333)	9	4.5
+1.667)	7	3.5
+2) Yes, and happens throughout the country	11	5.6
+
+
+283) DEMO2AG
+If the Report mentions that there are social movements that have religious agendas, do their activities include: demolition or defacement of property?  Answered if SOCMVAG = 1 or 2 and if MVTYPAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.386	0.574
+0) No	113	57.1
+0.333)	27	13.6
+0.667)	21	10.6
+1) Yes, but isolated or only in certain regions	12	6.1
+1.333)	8	4.0
+1.667)	10	5.1
+2) Yes, and happens throughout the country	7	3.5
+
+
+284) FINE2AG
+If the Report mentions that there are social movements that have religious agendas, do their activities include: extortion of fines?  Answered if SOCMVAG = 1 or 2 and if MVTYPAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1.667
+	N	Mean	Std. Deviation
+Total	198	0.045	0.193
+0) No	184	92.9
+0.333)	6	3.0
+0.5)	1	0.5
+0.667)	5	2.5
+1) Yes, but isolated or only in certain regions	0	0.0
+1.333)	1	0.5
+1.667)	1	0.5
+2) Yes, and happens throughout the country	0	0.0
+
+
+285) PROTSTAG
+If the Report mentions that there are social movements that have religious agendas, do their activities include: protest events or public demonstrations?  Answered if SOCMVAG = 1 or 2 and if MVTYPAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.236	0.433
+0) No	135	68.2
+0.333)	24	12.1
+0.667)	19	9.6
+1) Yes, but isolated or only in certain regions	12	6.1
+1.333)	1	0.5
+1.667)	4	2.0
+2) Yes, and happens throughout the country	3	1.5
+
+
+286) DETEN2AG
+If the Report mentions that there are social movements that have religious agendas, do their activities include: detention of persons?  [Answered if SOCMVAG = 1 or 2 and if MVTYPAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1.667
+	N	Mean	Std. Deviation
+Total	198	0.131	0.334
+0) No	162	81.8
+0.333)	14	7.1
+0.667)	12	6.1
+1) Yes, but isolated or only in certain regions	3	1.5
+1.333)	4	2.0
+1.667)	3	1.5
+2) Yes, and happens throughout the country	0	0.0
+
+
+287) BEATN2AG
+If the Report mentions that there are social movements that have religious agendas, do their activities include: beatings or torture of persons?  Answered if SOCMVAG = 1 or 2 and if MVTYPAG = 1 or 2.[Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.247	0.44
+0) No	130	65.7
+0.333)	30	15.2
+0.667)	17	8.6
+1) Yes, but isolated or only in certain regions	11	5.6
+1.333)	3	1.5
+1.667)	4	2.0
+2) Yes, and happens throughout the country	3	1.5
+
+
+288) INFOAG
+If the Report mentions that there are social movements that have religious agendas, do their activities include: distribution of information?  Answered if SOCMVAG = 1 or 2 and if MVTYPAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.311	0.503
+0) No	125	63.1
+0.333)	18	9.1
+0.667)	28	14.1
+1) Yes, but isolated or only in certain regions	11	5.6
+1.333)	7	3.5
+1.667)	4	2.0
+2) Yes, and happens throughout the country	5	2.5
+
+
+289) EXFOR2AG
+If the Report mentions that there are social movements that have religious agendas, do their activities include: excessive force?  Answered if SOCMVAG = 1 or 2 and if MVTYPAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.274	0.46
+0) No	122	61.6
+0.333)	36	18.2
+0.667)	15	7.6
+1) Yes, but isolated or only in certain regions	15	7.6
+1.333)	3	1.5
+1.667)	2	1.0
+2) Yes, and happens throughout the country	5	2.5
+
+
+290) MARCHAG
+If the Report mentions that there are social movements that have religious agendas, do their activities include: marching?  Answered if SOCMVAG = 1 or 2 and if MVTYPAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1.667
+	N	Mean	Std. Deviation
+Total	198	0.086	0.244
+0) No	170	85.9
+0.333)	12	6.1
+0.667)	12	6.1
+1) Yes, but isolated or only in certain regions	2	1.0
+1.333)	1	0.5
+1.667)	1	0.5
+2) Yes, and happens throughout the country	0	0.0
+
+
+291) MOBLT2AG
+If the Report mentions that there are social movements that have religious agendas, do their activities include: restricting the movement of certain persons?  Answered if SOCMVAG = 1 or 2 and if MVTYPAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.148	0.378
+0) No	159	80.3
+0.333)	15	7.6
+0.667)	15	7.6
+1) Yes, but isolated or only in certain regions	2	1.0
+1.333)	1	0.5
+1.667)	3	1.5
+2) Yes, and happens throughout the country	3	1.5
+
+
+292) FAMIL2AG
+If the Report mentions that there are social movements that have religious agendas, do their activities include: pressuring the family and/or social/job networks of religious believers?  Answered if SOCMVAG = 1 or 2 and if MVTYPAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.111	0.32
+0) No	171	86.4
+0.333)	4	2.0
+0.667)	15	7.6
+1) Yes, but isolated or only in certain regions	4	2.0
+1.333)	2	1.0
+2) Yes, and happens throughout the country	2	1.0
+
+
+293) PERSISAG
+If the Report mentions that there are social movements that have religious agendas, do their activities include: persistent activities that happen repeatedly over time?  Answered if SOCMVAG = 1 or 2 and if MVTYPAG = 1 or 2. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.274	0.501
+0) No	141	71.2
+0.333)	9	4.5
+0.667)	19	9.6
+1) Yes, but isolated or only in certain regions	11	5.6
+1.333)	11	5.6
+1.667)	3	1.5
+2) Yes, and happens throughout the country	4	2.0
+
+
+294) ISOLATAG
+If the Report mentions that there are social movements that have religious agendas, do their activities include: momentary flashes of emotion or protest?  Answered if SOCMVAG = 1 or 2 and if MVTYPAG = 1 or 2.[Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.199	0.381
+0) No	139	70.2
+0.333)	28	14.1
+0.667)	14	7.1
+1) Yes, but isolated or only in certain regions	11	5.6
+1.333)	3	1.5
+1.667)	1	0.5
+2) Yes, and happens throughout the country	2	1.0
+
+
+295) SMALLAG
+If the Report mentions that there are social movements that have religious agendas, do their activities include: collective events with a small number of persons (less than 8)?  Answered if SOCMVAG = 1 or 2 and if MVTYPAG = 1 or 2.[Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.18	0.345
+0) No	144	72.7
+0.333)	19	9.6
+0.667)	23	11.6
+1) Yes, but isolated or only in certain regions	9	4.5
+1.333)	1	0.5
+1.667)	1	0.5
+2) Yes, and happens throughout the country	1	0.5
+
+
+296) MODSZAG
+If the Report mentions that there are social movements that have religious agendas, do their activities include: collective events with moderate numbers of persons (9-20)?  Answered if SOCMVAG = 1 or 2 and if MVTYPAG = 1 or 2.[Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.158	0.337
+0) No	150	75.8
+0.333)	20	10.1
+0.667)	18	9.1
+1) Yes, but isolated or only in certain regions	5	2.5
+1.333)	3	1.5
+1.667)	1	0.5
+2) Yes, and happens throughout the country	1	0.5
+
+
+297) LGSZAG
+If the Report mentions that there are social movements that have religious agendas, do their activities include: collective events with larger numbers of persons (more than 20)?  Answered if SOCMVAG = 1 or 2 and if MVTYPAG = 1 or 2.[Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.202	0.382
+0) No	139	70.2
+0.333)	24	12.1
+0.667)	21	10.6
+1) Yes, but isolated or only in certain regions	8	4.0
+1.333)	1	0.5
+1.667)	4	2.0
+2) Yes, and happens throughout the country	1	0.5
+
+
+298) EXTEAG
+According to the Report, what influence do international religious or internationally religiously charged political situations have for people in the country?
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.364	0.481
+0) No tensions in the country	97	49.0
+0.333)	43	21.7
+0.5)	1	0.5
+0.667)	27	13.6
+1) Cause some tensions	13	6.6
+1.333)	9	4.5
+1.667)	5	2.5
+2) Cause severe tensions	3	1.5
+
+
+299) TENSAG
+According to the Report, are tensions related to religion reported? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	1.246	0.547
+0) No	10	5.1
+0.333)	20	10.1
+0.5)	1	0.5
+0.667)	16	8.1
+1) Yes, but only 1 example given	23	11.6
+1.333)	25	12.6
+1.5)	1	0.5
+1.667)	99	50.0
+2) Yes, more than 1 example of tensions given	3	1.5
+
+
+300) DRESAG
+According to the Report, are or have women been harassed for 'immodest dress?' [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.088	0.285
+0) Never	174	87.9
+0.333)	11	5.6
+0.667)	4	2.0
+1) In certain neighborhoods or parts of the country	6	3.0
+1.333)	1	0.5
+1.667)	1	0.5
+2) Throughout the country	1	0.5
+
+
+301) SAB2AG
+According to the Report, are employees discriminated against if they wish to keep their own Sabbath? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2.66696296296296
+	N	Mean	Std. Deviation
+Total	198	0.109	0.372
+0) Never	174	87.9
+0.333)	8	4.0
+0.667)	6	3.0
+1) One limited case mentioned	5	2.5
+1.333)	1	0.5
+1.667)	1	0.5
+2) More than a limited case mentioned	1	0.5
+2.333)	1	0.5
+2.66696296296296)	1	0.5
+3) Only one religion's Sabbath is protected	0	0.0
+
+
+302) MILPAG
+According to the Report, is there a correlation between religion and participation in the military? e.g., Does religious belief affect ability to participate in the military (and thus receive, e.g., veteran's benefits)? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2.66696296296296
+	N	Mean	Std. Deviation
+Total	198	0.254	0.539
+0) No	141	71.2
+0.333)	25	12.6
+0.667)	9	4.5
+1) Sometimes	7	3.5
+1.333)	6	3.0
+1.667)	3	1.5
+2) Often	4	2.0
+2.66696296296296)	3	1.5
+3) Only one religion's members are welcome in the military	0	0.0
+
+
+303) MSSNAG
+According to the Report, how are attitudes to missionary activity from other religions generally characterized? Consider hostile if the Report says 'hostile' or if any aggression is present. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.395	0.543
+0) Positive or neutral	110	55.6
+0.333)	23	11.6
+0.5)	1	0.5
+0.667)	20	10.1
+1) Negative	19	9.6
+1.333)	16	8.1
+1.667)	5	2.5
+2) Hostile	4	2.0
+
+
+304) CONVAG
+According to the Report, what are social attitudes towards conversions to other religions? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.663	0.934
+0) No problems reported	106	53.5
+0.333)	15	7.6
+0.667)	22	11.1
+1) Some tension	5	2.5
+1.333)	8	4.0
+1.667)	8	4.0
+2) Negative	12	6.1
+2.333)	7	3.5
+2.66696296296296)	8	4.0
+3) Hostile	7	3.5
+
+
+305) HARAAG
+According to the Report, are religious brands harassed by members of other religious groups? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	1.609	1.182
+0) Never	50	25.3
+0.667)	3	1.5
+1) Within past 100 years	36	18.2
+1.333)	1	0.5
+1.667)	3	1.5
+2) Not presently but within past 10 years	39	19.7
+2.66696296296296)	5	2.5
+3) Yes	61	30.8
+
+
+306) THREAG
+According to the Report, are religious brands harassed by nonreligious social movements within society? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	1.054	1.019
+0) Never	73	36.9
+0.667)	8	4.0
+1) Within past 100 years	51	25.8
+1.333)	3	1.5
+1.667)	2	1.0
+2) Not presently but within past 10 years	38	19.2
+3) Yes	23	11.6
+
+
+307) VANDAG
+According to the Report, are religious groups' properties vandalized including arson directed against their buildings or facilities? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	1.184	1.228
+0) Never	86	43.4
+0.333)	1	0.5
+0.667)	3	1.5
+1) Within past 100 years	29	14.6
+1.333)	1	0.5
+1.667)	7	3.5
+2) Not presently but within past 10 years	21	10.6
+2.333)	1	0.5
+2.66696296296296)	4	2.0
+3) Yes	45	22.7
+
+
+308) NONTRAAG
+How does the Report characterize citizens' receptivity to proselytizing by non-traditional faiths or faiths other than their own?
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	1.069	0.604
+0) Receptive	11	5.6
+0.333)	7	3.5
+0.667)	82	41.4
+1) Yes with concerns	23	11.6
+1.333)	23	11.6
+1.667)	9	4.5
+2) Negative	43	21.7
+
+
+309) INTOLEAG
+According to the Report, are citizens intolerant of 'nontraditional' faiths, i.e., what they perceive as new religions? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1.667
+	N	Mean	Std. Deviation
+Total	198	0.742	0.591
+0) No	48	24.2
+0.333)	31	15.7
+0.667)	32	16.2
+1) Yes, but only one case cited	34	17.2
+1.333)	21	10.6
+1.667)	32	16.2
+2) Yes, and more than one case cited	0	0.0
+
+
+310) IMMRELAG
+According to the Report, do immigrants or refugees encounter difficulties in practicing their faiths? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.23	0.32
+0) No	115	58.1
+0.333)	45	22.7
+0.5)	1	0.5
+0.667)	21	10.6
+1) Yes	16	8.1
+
+
+311) MORALAG
+According to the Report, does society view its social system as religiously moral? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.082	0.197
+0) No	163	82.3
+0.333)	23	11.6
+0.667)	10	5.1
+1) Yes	2	1.0
+
+
+312) CIVWARAG
+According to the Report, was there a civil war or other armed conflict (past or present)? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.45	0.628
+0) No	108	54.5
+0.333)	21	10.6
+0.5)	1	0.5
+0.667)	24	12.1
+1) Yes, no mention of religion	10	5.1
+1.333)	17	8.6
+1.667)	3	1.5
+2) Yes, with religion cited as part of it	14	7.1
+
+
+313) WARAG
+In the Report, what year is mentioned when the nation last had a war or revolution? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2003
+	N	Mean	Std. Deviation
+Total	198	446.625	641.608
+
+
+314) RELWARAG
+In the Report, what year is mentioned when the nation last had a religiously-related war or revolution? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2003
+	N	Mean	Std. Deviation
+Total	198	291.247	549.162
+0) No mention	145	73.2
+646.667)	1	0.5
+648.332962962963)	5	2.5
+649)	1	0.5
+649.332962962963)	2	1.0
+652)	1	0.5
+653.332962962963)	1	0.5
+658.332962962963)	1	0.5
+659.667)	1	0.5
+663)	1	0.5
+663.667)	1	0.5
+665.667)	1	0.5
+666.667)	1	0.5
+667)	4	2.0
+667.332962962963)	1	0.5
+667.667)	3	1.5
+668.332962962963)	3	1.5
+1295.333)	1	0.5
+1312.333)	1	0.5
+1316.333)	1	0.5
+1329.333)	1	0.5
+1330)	1	0.5
+1332.66696296296)	1	0.5
+1333)	2	1.0
+1333.66696296296)	1	0.5
+1334.333)	2	1.0
+1334.66696296296)	2	1.0
+1336)	3	1.5
+1965)	1	0.5
+1990)	1	0.5
+1991)	1	0.5
+1995)	1	0.5
+1999)	2	1.0
+2000)	1	0.5
+2001.66696296296)	1	0.5
+2003)	1	0.5
+
+
+315) TERRO2AG
+In the Report, what year is mentioned when the nation last experienced or perpetrated terrorism? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2003
+	N	Mean	Std. Deviation
+Total	198	148.2	386.832
+0) No mention	168	84.8
+646)	1	0.5
+659.667)	1	0.5
+664.667)	1	0.5
+666.667)	1	0.5
+667.332962962963)	2	1.0
+667.667)	2	1.0
+668)	2	1.0
+668.332962962963)	8	4.0
+1330)	1	0.5
+1334.333)	1	0.5
+1334.66696296296)	1	0.5
+1335)	1	0.5
+1335.333)	3	1.5
+1336)	3	1.5
+2003)	2	1.0
+
+
+316) RELTERAG
+In the Report, what year is mentioned when the nation last experienced or perpetrated religiously related terrorism? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2003
+	N	Mean	Std. Deviation
+Total	198	134.82	368.098
+0) No mention	170	85.9
+659.667)	1	0.5
+664.667)	1	0.5
+666.332962962963)	1	0.5
+666.667)	1	0.5
+667.332962962963)	3	1.5
+667.667)	2	1.0
+668)	1	0.5
+668.332962962963)	8	4.0
+1330)	1	0.5
+1335)	1	0.5
+1335.333)	3	1.5
+1336)	3	1.5
+2003)	2	1.0
+
+
+317) PROSE2AG
+According to the Report, do traditional attitudes and/or edicts of the clerical establishment strongly discourage proselytizing (trying to win converts)? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.747	1.118
+0) No	125	63.1
+0.333)	4	2.0
+0.667)	1	0.5
+1) Attitudes only	13	6.6
+1.333)	8	4.0
+1.5)	1	0.5
+1.667)	1	0.5
+2) Clerics only	12	6.1
+2.333)	6	3.0
+3) Both	27	13.6
+
+
+318) DIALO2AG
+According to the Report, is there an organized interfaith dialog? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.553	0.376
+0) No	43	21.7
+0.333)	41	20.7
+0.5)	1	0.5
+0.667)	53	26.8
+1) Yes	60	30.3
+
+
+319) VANDALAG
+According to the Report, were there cases of vandalism towards religious properties or cemeteries by citizens? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.36	0.41
+0) No	98	49.5
+0.333)	30	15.2
+0.667)	26	13.1
+1) Yes	44	22.2
+
+
+320) BOMBAG
+According to the Report, were there cases of bombings or burnings of religious buildings or murders of religious persons by citizens? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.459	0.674
+0) No	112	56.6
+0.333)	23	11.6
+0.5)	1	0.5
+0.667)	16	8.1
+1) Bombings or burnings	10	5.1
+1.333)	12	6.1
+1.667)	9	4.5
+2) Murders	14	7.1
+3) Bombings/burnings and murders	1	0.5
+
+
+321) MALITIAG
+According to the Report, are or were there religious militias/vigilante groups or is the military (including de facto structure) structured along religious lines? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.284	0.439
+0) No	121	61.1
+0.333)	26	13.1
+0.5)	1	0.5
+0.667)	26	13.1
+1) Yes, groups	14	7.1
+1.333)	5	2.5
+1.667)	3	1.5
+2) Yes, the military	2	1.0
+3) Both	0	0.0
+
+
+322) LAND_AG
+According to the Report, are certain parts of the country or its cities strongly associated with certain religions? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.783	0.75
+0) No	65	32.8
+0.333)	23	11.6
+0.667)	31	15.7
+1) Yes, but it is amicable.	16	8.1
+1.333)	18	9.1
+1.667)	10	5.1
+2) Yes, and it is a source of tension.	35	17.7
+
+
+323) ETHNI2AG
+According to the Report, do religious communities in the country reflect an ethnic identity? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.635	0.559
+0) No	44	22.2
+0.333)	51	25.8
+0.667)	34	17.2
+1) Yes, and some exceptions are mentioned.	47	23.7
+1.333)	7	3.5
+1.667)	8	4.0
+2) Yes, but just one exception is mentioned.	2	1.0
+2.333)	4	2.0
+3) Yes, and no exceptions are mentioned.	1	0.5
+
+
+324) ESTABAG
+According to the Report, do established or existing religions try to shut out other religions in any way? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.504	0.385
+0) No	54	27.3
+0.333)	41	20.7
+0.5)	1	0.5
+0.667)	49	24.7
+1) Yes	53	26.8
+
+
+325) ETHDISAG
+Does the Report mention that societal discrimination is more likely to be based upon ethnic than upon religious prejudice? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.125	0.261
+0) No	152	76.8
+0.333)	27	13.6
+0.667)	10	5.1
+1) Yes	9	4.5
+
+
+326) GRAFFIAG
+According to the Report, were there reports of derogatory graffiti being put on religious properties? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.128	0.267
+0) No	153	77.3
+0.333)	23	11.6
+0.667)	13	6.6
+1) Yes	9	4.5
+
+
+327) WITCHAG
+According to the Report, were there any hunts for 'witches' or others who were identified as being possessed or spiritually wicked? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.057	0.207
+0) No	181	91.4
+0.333)	7	3.5
+0.667)	3	1.5
+1) Yes	7	3.5
+
+
+328) DISCUSAG
+[Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]  According to the Report, the U.S. Government discusses religious freedom with...
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	1.712	0.418
+0) No discussions	3	1.5
+0.667)	2	1.0
+1) Government only	19	9.6
+1.333)	29	14.6
+1.667)	30	15.2
+2) With Government and local groups	115	58.1
+
+
+329) ENTRYAG
+[Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]  According to the Report, the U.S. Embassy objected to denying U.S. citizens entry based on religious and ethnic grounds...
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.02	0.129
+0) No objections	193	97.5
+0.667)	3	1.5
+1) One case involving one person	2	1.0
+2) One case involving more than 1 person	0	0.0
+3) More than one case	0	0.0
+
+
+330) MEETAG
+[Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]  According to the Report, U.S. Embassy officials meet with religious officials...
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	1.389	0.742
+0) No or unable	26	13.1
+0.667)	37	18.7
+1) Strictly limited	0	0.0
+1.333)	27	13.6
+1.667)	5	2.5
+2) Yes	103	52.0
+
+
+331) AMBASAG
+[Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]  According to the Report, the U.S. Ambassador meets with religious officials...
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.599	0.778
+0) No or unable	110	55.6
+0.667)	33	16.7
+1) Strictly limited	0	0.0
+1.333)	20	10.1
+2) Yes	35	17.7
+
+
+332) NGOSAG
+[Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]According to the Report, U.S. Embassy officials maintain a dialogue with human rights NGOs in the country...
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.806	0.796
+0) No or unable	77	38.9
+0.667)	49	24.7
+1) Strictly limited	2	1.0
+1.333)	22	11.1
+1.667)	1	0.5
+2) Yes	47	23.7
+
+
+333) MONEY3AG
+[Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]  According to the Report, the U.S. Government provides...
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.429	0.795
+0) Its own U.S. Government programs or brings in people from outside	151	76.3
+1) Money or grants to locals	9	4.5
+2) Both	38	19.2
+
+
+334) MONEY1AG
+Does the Report mention that the U.S. government provides money, grants, or programs/personnel? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.058	0.168
+0) No	176	88.9
+0.5)	21	10.6
+1) U.S. Government provides programs of people	1	0.5
+
+
+335) MONEY2AG
+Does the Report mention that the U.S. government provides money, grants, or programs/personnel? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	198	0.02	0.111
+0) No	191	96.5
+0.5)	6	3.0
+1) U.S. Government provides money or grants to locals	1	0.5
+
+
+336) ESTRLAG
+According to the Report, to what extent is there a Favored (or Established) Religious Brand? 0 = None or all religious brands are treated the same; 1 = Cultural or Historical legacies only, e.g., former established religious brand inherits buildings or properties; 2 = Some religious brands have privileges or government access unavailable to other religious brands; 3 = One religious brand has privileges or government access unavailable to other religions; 4 = One single State or Official (Established) Religious Brand/Religion. [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	198	2.164	1.266
+0)	15	7.6
+0.333)	10	5.1
+0.667)	13	6.6
+1)	7	3.5
+1.333)	21	10.6
+1.667)	12	6.1
+2)	24	12.1
+2.333)	13	6.6
+2.5)	1	0.5
+2.66696296296296)	16	8.1
+3)	21	10.6
+3.333)	4	2.0
+3.66696296296296)	7	3.5
+4)	34	17.2
+
+
+337) LAW_AG
+According to the Report, to what extent does the Law regulate religion? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	198	1.855	1.201
+0)	21	10.6
+0.333)	8	4.0
+0.667)	25	12.6
+1) Laws do not interfere with the free exercise of religion.	10	5.1
+1.333)	13	6.6
+1.667)	18	9.1
+2) Laws inadvertently cause difficulty to all religions equally, e.g., in registration.	29	14.6
+2.333)	13	6.6
+2.66696296296296)	14	7.1
+3) Laws cause problems, but only for some religions.	9	4.5
+3.333)	12	6.1
+3.66696296296296)	18	9.1
+4) Laws cause problems for all but one religion.	8	4.0
+5) Laws prohibit the free exercise of religion.	0	0.0
+
+
+338) SUBSDYAG
+According to the Report, how does the Government subsidize Religion, including 'in kind' to organizations run by religions, e.g., hospitals, schools, etc.? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 5
+	N	Mean	Std. Deviation
+Total	198	2.503	1.658
+0) No subsidies or equal to all (e.g., all are tax exempt)	29	14.6
+0.333)	8	4.0
+0.667)	8	4.0
+1) Subsidies not mentioned, but subsidies are implied by level of government support for a particular religion	11	5.6
+1.333)	11	5.6
+1.667)	5	2.5
+2) Cultural or historical legacies only (e.g., religion inherits cathedrals from previous Government spendin	9	4.5
+2.333)	12	6.1
+2.66696296296296)	7	3.5
+3) Only some religions are excluded from available subsidies.	17	8.6
+3.333)	8	4.0
+3.66696296296296)	11	5.6
+4) Only an approved set of religions receive government subsidies.	22	11.1
+4.333)	21	10.6
+4.66696296296296)	9	4.5
+5) Only one religion is subsidized (including 'in kind' subsidies).	10	5.1
+
+
+339) MONOPLAG
+According to the Report, to what extent does one religious brand seem to monopolize or strongly influence religiously related activities within society? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	198	2.438	1.118
+0) Religious brands do not seem to monopolize or influence society at all.	2	1.0
+0.333)	6	3.0
+0.5)	1	0.5
+0.667)	15	7.6
+1) Religious influence is shared among various religion 'brands.'	12	6.1
+1.333)	8	4.0
+1.667)	16	8.1
+2) Religious influence is shared among various religion brands that dominate in particular regions.	16	8.1
+2.333)	18	9.1
+2.5)	1	0.5
+2.66696296296296)	23	11.6
+3) One religious brand seems to dominate.	18	9.1
+3.333)	21	10.6
+3.66696296296296)	15	7.6
+4) Society is centered on one religious brand.	26	13.1
+
+
+340) OPENRLAG
+According to the Report, to what extent are societal attitudes open to all religious brands? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 6
+	N	Mean	Std. Deviation
+Total	198	2.954	1.671
+0) Benign or equal to all	11	5.6
+0.333)	7	3.5
+0.667)	8	4.0
+1) Inadvertent insensitivity to other religious brands (other than the dominant religious brand)	9	4.5
+1.333)	14	7.1
+1.667)	8	4.0
+2) Instances of discrimination towards other religious brands	7	3.5
+2.333)	16	8.1
+2.66696296296296)	12	6.1
+3) Prejudices toward other religious brands that are real but hard to document	10	5.1
+3.333)	16	8.1
+3.66696296296296)	16	8.1
+4) Instances of aggression towards other religious brands	10	5.1
+4.333)	11	5.6
+4.5)	1	0.5
+4.66696296296296)	11	5.6
+5) Instances of fatal aggression to other religious brands	11	5.6
+5.333)	7	3.5
+5.66696296296296)	9	4.5
+6) Open warfare or ongoing violent conflict along religious lines or between religious brands	4	2.0
+
+
+341) RELVIOAG
+According to the Report, to what extent is there religiously related violence in the nation (victim and/or perpetrator)? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 2.66696296296296
+	N	Mean	Std. Deviation
+Total	198	0.578	0.633
+0) Isolated acts of religiously related violence	79	39.9
+0.333)	27	13.6
+0.667)	32	16.2
+1) Widespread acts or covering several regions with religiously related violence	23	11.6
+1.333)	13	6.6
+1.5)	1	0.5
+1.667)	14	7.1
+2) Ongoing war with religiously-related violence	7	3.5
+2.333)	1	0.5
+2.66696296296296)	1	0.5
+
+
+342) LEGPOAG
+[Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]  According to the Report, the legal/policy framework of the country in regard to giving privileges, favors, resources, and/or finances is...
+RANGE: 0 to 6
+	N	Mean	Std. Deviation
+Total	198	2.609	1.832
+0) Does not give to any religion	21	10.6
+0.333)	6	3.0
+0.667)	14	7.1
+1) Gives to any religion that asks or applies	11	5.6
+1.333)	13	6.6
+1.667)	15	7.6
+2) Gives disproportionately to a select group of religions	15	7.6
+2.333)	10	5.1
+2.5)	1	0.5
+2.66696296296296)	8	4.0
+3) Gives disproportionately to only 3 religions	15	7.6
+3.333)	7	3.5
+3.66696296296296)	2	1.0
+4) Gives disproportionately to only 2 religions	9	4.5
+4.333)	4	2.0
+4.66696296296296)	5	2.5
+5) Gives disproportionately to only 1 religion	17	8.6
+5.333)	15	7.6
+5.66696296296296)	8	4.0
+6) Gives to only 1 brand of a larger religious tradition, e.g., only to one denomination or religious bran	2	1.0
+
+
+343) DEMOG_AG
+According to the Report, which best describes the religious situation in the country?
+RANGE: 0 to 2.66696296296296
+	N	Mean	Std. Deviation
+Total	198	1.146	0.375
+0) There are different religious brands, and it seems that people freely change brands.	1	0.5
+0.333)	5	2.5
+0.667)	20	10.1
+1) There are different religious brands, but people generally do not seem to change religious brands	98	49.5
+1.333)	38	19.2
+1.5)	1	0.5
+1.667)	28	14.1
+2) Theoretically, people can choose, but they all seem to prefer one religion or religious brand	5	2.5
+2.333)	1	0.5
+2.66696296296296)	1	0.5
+3) People have only one choice of religion or religious brand.	0	0.0
+
+
+344) SOCMOVAG
+According to the Report, what is the situation regarding social movements in relation to religious brands in the nation?  [Category labels are the following: 0 = Such movements are amicable and do not intimidate people from (other) religious brands.  1 =  Such movements are generally amicable but try to influence people from (other) religious brands through acts of charity or mercy.  2 = Such movements try to influence people from (other) religious brands through proselytizing or other such propagation methods, but they do so peacefully and without physical or social intimidation.  3 = Such movements are confrontative and try to influence or intimidate people from (other) religious brands, but stop short of physical violence to persons (e.g., they may cause property damage).  4 = Such movements are militant and try to influence or intimidate people from (other) religious brands using physical violence to persons and property.]
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	198	1.683	1.476
+0)	55	27.8
+0.333)	4	2.0
+0.667)	10	5.1
+1)	19	9.6
+1.333)	22	11.1
+1.667)	5	2.5
+2)	9	4.5
+2.333)	10	5.1
+2.66696296296296)	11	5.6
+3)	3	1.5
+3.333)	9	4.5
+3.66696296296296)	15	7.6
+4)	26	13.1
+
+
+345) SOCMV2AG
+According to the Report, what is the situation regarding social movements in relation to religious brands in the country?  [Category labels are the following: 0 = All social movement(s) exist that are reported either promote religious freedom or are amicable and do not intimidate people from (other) religious brands.  1 = Social movement(s) exist that seek national or regional hegemony for a religious brand, but they are uncoordinated at either national or regional levels.  (flashes of activity)  2 = Social movement(s) exist that seek national or regional hegemony for a religious brand though unconnected, but regionally coordinated means.  (regional & organized activity)  3 = Social movement(s) exist that seek national or regional hegemony for a religious brand through nationally coordinated means. (national & organized activity)]
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	198	1.283	1.274
+0)	60	30.3
+0.333)	27	13.6
+0.667)	8	4.0
+1)	9	4.5
+1.333)	5	2.5
+1.667)	23	11.6
+2)	21	10.6
+2.333)	8	4.0
+2.66696296296296)	4	2.0
+3)	10	5.1
+3.333)	8	4.0
+3.66696296296296)	7	3.5
+4)	8	4.0
+
+
+346) SOCMV3AG
+According to the Report, what is the situation regarding social movements in relation to religious brands in the country?  [Category labels are the following:  0.0 = All social movement(s) that are reported either promote religious freedom or are amicable and do not intimidate people from (other) religious brands.  1.1 = Social movement(s) exist that campaign against certain religious brands, but they are uncoordinated at either national or regional levels.  (flashes of activity)  2.1 = Social movement(s) exist that campaign against certain religious brands through unconnected, but regionally coordinated means.  (regional & organized activity)  3.1 = Social movement(s) exist that campaign against certain religious brands through nationally coordinated means.  (national & organized activity)]
+RANGE: 0 to 3.1
+	N	Mean	Std. Deviation
+Total	198	0.812	1.018
+0)	97	49.0
+0.333)	2	1.0
+0.367)	5	2.5
+0.55)	11	5.6
+0.667)	2	1.0
+0.7)	5	2.5
+1)	7	3.5
+1.03296296296296)	1	0.5
+1.05)	7	3.5
+1.1)	2	1.0
+1.367)	6	3.0
+1.39996296296296)	1	0.5
+1.55)	10	5.1
+1.6)	2	1.0
+1.7)	4	2.0
+1.733)	1	0.5
+2.03296296296296)	2	1.0
+2.067)	2	1.0
+2.1)	3	1.5
+2.39996296296296)	7	3.5
+2.6)	2	1.0
+2.733)	6	3.0
+3.067)	8	4.0
+3.1)	5	2.5
+
+
+347) SOCMV5AG
+According to the Report, what is the situation regarding social movements in relation to religious brands in the country?  [Answers to SOCMV2AG + SOCMV3AG are combined.]  [Category responses are the following: 0 = [Either A or B]: a) All social movement(s) exist that are reported either promote religious freedom or are amicable and do not intimidate people from (other) religious brands, or b) All social movement(s) that are reported either promote religious freedom or are amicable and do not intimidate people from (other) religious brands.  1 = [Either A or B]: a) Social movement(s) exist that seek national or regional hegemony for a religious brand, but they are uncoordinated at either national or regional levels. (flashes of activity), or b) Social movement(s) exist that campaign against certain religious brands, but they are uncoordinated at either national or regional levels.  (flashes of activity).  2 = [Either A or B]: a) Social movement(s) exist that seek national or regional hegemony for a religious brand through unconnected, but regionally coordinated means.  (regional & organized activity), or b) Social movement(s) exist that campaign against certain religious brands through unconnected, but regionally coordinated means.  (regional & organized activity).  3 = [Either A or B]: a) Social movement(s) exist that seek national or regional hegemony for a religious brand through nationally coordinated means.  (national & organized activity), or b) Social movement(s) exist that campaign against certain religious brands through nationally coordinated means.  (national & organized activity)]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	1.006	0.981
+0)	58	29.3
+0.333)	26	13.1
+0.667)	16	8.1
+1)	24	12.1
+1.333)	18	9.1
+1.5)	1	0.5
+1.667)	9	4.5
+2)	13	6.6
+2.333)	11	5.6
+2.66696296296296)	7	3.5
+3)	15	7.6
+
+
+348) SOCMV4AG
+According to the Report, what is the situation regarding social movements in relation to religious brands in the country? 0 = Movements are amicable; 1.10 = Hegemonic flashes of activity; 3.1 = hegemonic national and organized activity
+RANGE: 0 to 3.1
+	N	Mean	Std. Deviation
+Total	198	0.827	1.18
+0)	120	60.6
+1.1)	33	16.7
+2.1)	12	6.1
+3.1)	33	16.7
+
+
+349) MSSY2AG
+[Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]  The Report mentions the following about foreign religious missionaries and/or clergy from minority religious brands in this country...
+RANGE: 0 to 6
+	N	Mean	Std. Deviation
+Total	198	2.308	1.992
+0) Only positive observations are mentioned.	49	24.7
+0.333)	6	3.0
+0.667)	11	5.6
+1) They have similar visa or residency problems as other expatriates.	12	6.1
+1.333)	6	3.0
+1.667)	6	3.0
+1.7)	1	0.5
+2) They experience bureaucratic delays because of their religious brand.	10	5.1
+2.333)	7	3.5
+2.66696296296296)	7	3.5
+3) They experience concrete restrictions on their activities.	14	7.1
+3.333)	9	4.5
+3.66696296296296)	7	3.5
+4) They are harassed.	14	7.1
+4.333)	6	3.0
+4.66696296296296)	3	1.5
+5) They are physically abused or imprisoned.	9	4.5
+5.333)	4	2.0
+5.66696296296296)	3	1.5
+6) They are killed, banished, or completely prevented from entering the country due to their religious capacity.	14	7.1
+
+
+350) RELVI2AG
+According to the Report, what is the highest level of religious violence reported? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 6
+	N	Mean	Std. Deviation
+Total	198	2.294	2.071
+0) None	61	30.8
+0.333)	3	1.5
+0.667)	5	2.5
+1) Anti-religious brand graffiti	6	3.0
+1.333)	7	3.5
+1.667)	13	6.6
+2) Vandalism to religious brand property	13	6.6
+2.333)	9	4.5
+2.66696296296296)	5	2.5
+3) Bombing or burning of religious brand property	2	1.0
+3.333)	13	6.6
+3.66696296296296)	3	1.5
+4) Beating, rape or physical assault of person(s) due to religious brand	5	2.5
+4.333)	6	3.0
+4.5)	1	0.5
+4.66696296296296)	5	2.5
+5) Torture or killing of person(s) due to religious brand	20	10.1
+5.333)	9	4.5
+5.66696296296296)	5	2.5
+6) Massacre of and/or war between religious brands	7	3.5
+
+
+351) RELREGAG
+According to the Report, what is the highest level of restrictions reported?  [Category labels are the following: 0 = None reported.  1 = Difficulties for certain religious brands, e.g., registering or having legally recognized status, but these difficulties do not proscribe those religious brands.  2 = Restrictions on certain religious brands e.g., the use and/or ownership of property which are not equitable for all religious brands, and/or, e.g., 'national patrimony' care or Government ownership of religious buildings.  3 = The Government targets certain religious brands to be controlled or proscribed.  4 = Government involvement in the internal and/or international affairs of religious brands.  5 = Prohibition of religious practice except for that which is approved by the Government.] [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 5
+	N	Mean	Std. Deviation
+Total	198	2.344	1.575
+0)	21	10.6
+0.333)	6	3.0
+0.667)	18	9.1
+1)	12	6.1
+1.333)	14	7.1
+1.667)	9	4.5
+2)	19	9.6
+2.333)	11	5.6
+2.5)	1	0.5
+2.66696296296296)	11	5.6
+3)	8	4.0
+3.333)	6	3.0
+3.66696296296296)	15	7.6
+4)	14	7.1
+4.333)	12	6.1
+4.66696296296296)	9	4.5
+5)	12	6.1
+
+
+352) LAWRE1AG
+[Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.] According to the Report, the religious legal/policy framework primarily responds to...
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	1.271	1.039
+0) The ideal of assuring that no religion is established by regulations, subsidies or favoritism.	41	20.7
+0.333)	23	11.6
+0.667)	22	11.1
+1) Concerns that certain religious brands cause violence, instability or perceived threats to the well-being of some citizens.	13	6.6
+1.333)	17	8.6
+1.667)	17	8.6
+2) Concerns that certain religious brands cause violence, instability or perceived threats to the order of society.	14	7.1
+2.333)	15	7.6
+2.66696296296296)	17	8.6
+3) Concerns that certain religious brands cause violence, instability or perceived threats to the legitimacy of the Government.	19	9.6
+
+
+353) LAWRE2AG
+[Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]  According to the Report, the religious legal/policy framework primarily responds to... [Category labels are the following: 0.0 = The ideal of assuring that no religion is established by regulations, subsidies or favoritism.  0.1 = The needs and aims of most religious brands.  0.2 = The needs and aims of the historically established religious brand(s) of the country.  0.3 = The needs and aims of one religious brand above all others.]
+RANGE: 0 to 3.1
+	N	Mean	Std. Deviation
+Total	198	1.423	0.886
+0)	18	9.1
+0.367)	19	9.6
+0.55)	1	0.5
+0.7)	6	3.0
+0.733)	22	11.1
+1.03296296296296)	2	1.0
+1.06696296296296)	12	6.1
+1.1)	6	3.0
+1.39996296296296)	18	9.1
+1.433)	6	3.0
+1.733)	9	4.5
+1.767)	10	5.1
+2.067)	26	13.1
+2.1)	15	7.6
+2.43296296296296)	9	4.5
+2.767)	2	1.0
+3.067)	1	0.5
+3.1)	16	8.1
+
+
+354) RELAW1AG
+Considering the Report, what best describes the position of religious law (e.g., Shari'a, Cannon Law, The Decalogue) in the country? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.384	0.78
+0) It does not rule the country in whole or part.	147	74.2
+0.333)	9	4.5
+0.667)	5	2.5
+1) Political or social movements advocate its adoption for the entire country.	5	2.5
+1.333)	8	4.0
+1.367)	1	0.5
+1.667)	3	1.5
+2) It is the law in all regions in the country, but some groups are exempt from certain applications of the law.	8	4.0
+2.333)	4	2.0
+2.66696296296296)	5	2.5
+3) It is the unqualified law in all regions in the country.	3	1.5
+
+
+355) RELAW2AG
+Considering the Report, what best describes the position of religious law (e.g., Shari'a, Cannon Law, The Decalogue) in the country?  [Category labels are the following: 0.0 = It does not rule the country in whole or part.  1.1 = Political or social movements advocate its adoption for some regions of the country.  2.1 = It is the law in some regions in the country, but some groups in those regions are exempt from certain applications of the law.  3.1 = It is the unqualified law in some regions in the country.]
+RANGE: 0 to 3.1
+	N	Mean	Std. Deviation
+Total	198	0.418	0.772
+0)	143	72.2
+0.367)	10	5.1
+0.7)	3	1.5
+1.03296296296296)	3	1.5
+1.06696296296296)	2	1.0
+1.39996296296296)	3	1.5
+1.733)	15	7.6
+1.767)	2	1.0
+2.067)	8	4.0
+2.1)	3	1.5
+2.43296296296296)	5	2.5
+3.1)	1	0.5
+
+
+356) RLETH1AG
+What best describes how people are religiously identified in the Report?
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.591	1.056
+0) Ethnic tensions are not related to abuses or conflict.	144	72.7
+1) Ethnic tensions difficult to separate from religious identities have resulted in occasional tensions that have not triggered serious abuses.	14	7.1
+2) Ethnic tensions difficult to separate from religious identities have resulted in serious abuses (bombing/burning or worse) that fall short of war, massacre or lethal conflict.	17	8.6
+3) Ethnic tensions difficult to separate from religious identities have resulted in war, massacre or lethal conflict that is mentioned in the Report.	23	11.6
+
+
+357) RLETH2AG
+What best describes how people are religiously identified in the Report? 0 = Ethnicity does not determine religious brand choice; 1 = Religious identity and ethnic identity are mostly synonymous (51-84%); 2 = Religious identity and ethnic identity are overwhelmingly synonymous (85-95%); 3 =Religious identity and ethnic identity are virtually synonymous (less than 95%).
+RANGE: 0 to 3.1
+	N	Mean	Std. Deviation
+Total	198	0.998	1.182
+0)	102	51.5
+1.1)	35	17.7
+2.1)	30	15.2
+3.1)	31	15.7
+
+
+358) LAND1AG
+According to the Report, what best describes the relationship between land and religion in the nation?  [A holy site is often a place of religious pilgrimage (e.g.,  the site itself is associated with religious power) to e.g., a shrine, a holy person's mausoleum, a religion's holy (sacred) location. It is more than a local meeting place or religious school/seminary. It is a place (building or location) that is viewed as having religious power.] [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3
+	N	Mean	Std. Deviation
+Total	198	0.163	0.475
+0) There are no holy sites mentioned, the defilement of which would result in violence.	167	84.3
+0.333)	6	3.0
+0.367)	1	0.5
+0.667)	7	3.5
+1) There is a local holy site(s), the defilement of which would result in certain but limited violence.	10	5.1
+1.333)	1	0.5
+2) There is a national holy site(s), the defilement of which would result in certain and uncontrollable national violence	4	2.0
+3) There is an international holy site(s), the defilement of which would result in certain and uncontrollable international violence.	2	1.0
+
+
+359) LAND2AG
+According to the Report, what best describes the relationship between land and religion in the nation?  [Category labels are the following: 0 = There are no land or property disputes related to religion.  1.1 = There is an unresolved property dispute(s) with religious significance.  2.1 = There is an unresolved internal land or border dispute with religious significance.  3.1 = There is an unresolved international land or border dispute with religious significance.] [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 3.1
+	N	Mean	Std. Deviation
+Total	198	0.507	0.686
+0)	99	50.0
+0.367)	28	14.1
+0.55)	1	0.5
+0.7)	6	3.0
+0.733)	16	8.1
+1.03296296296296)	1	0.5
+1.06696296296296)	7	3.5
+1.1)	14	7.1
+1.39996296296296)	3	1.5
+1.433)	5	2.5
+1.767)	8	4.0
+2.067)	1	0.5
+2.1)	5	2.5
+2.39996296296296)	1	0.5
+3.1)	3	1.5
+
+
+360) RELMONAG
+According to the Report, what best describes the religious coverage of the country?
+RANGE: 0 to 3.333
+	N	Mean	Std. Deviation
+Total	198	2.213	1.176
+0) No single religious brand dominates the population.	19	9.6
+0.333)	9	4.5
+0.667)	9	4.5
+1) The two leading religious brands dominate the population.	10	5.1
+1.333)	10	5.1
+1.667)	11	5.6
+2) One religious brand dominates the population.	9	4.5
+2.333)	10	5.1
+2.5)	1	0.5
+2.66696296296296)	24	12.1
+3)	21	10.6
+3.333)	65	32.8
+
+
+361) PARTICAG
+According to the Report, what best descries religious participation in the country? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1.333
+	N	Mean	Std. Deviation
+Total	198	0.756	0.432
+0) The population does not participate widely.	22	11.1
+0.333)	31	15.7
+0.667)	66	33.3
+1) The population participates somewhat (e.g., mostly as part of a historical tradition).	30	15.2
+1.333)	49	24.7
+2) Participation is high.	0	0.0
+
+
+362) RELGRWAG
+[Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.] Considering the Report, characterize this country's religious participation [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]:
+RANGE: 0 to 2
+	N	Mean	Std. Deviation
+Total	198	0.106	0.432
+0) Very low	186	93.9
+1) Moderate	3	1.5
+2) Very high	9	4.5
+
+
+363) INCRESAG
+According to the Report, what is the direction of religious participation in the country? [Non-integer responses indicate that the response to this question changed in one or more of the IRF Reports.]
+RANGE: 0 to 1.333
+	N	Mean	Std. Deviation
+Total	198	0.141	0.275
+0) Participation is stable, neither increasing nor decreasing.	147	74.2
+0.333)	25	12.6
+0.667)	22	11.1
+1) Participation is increasing.	1	0.5
+1.333)	3	1.5
+2) Participation is decreasing.	0	0.0
+
+
+364) MININCAG
+According to the Report, what is the direction of religious participation in religions other than the main religion of the country? 
+RANGE: 0 to 1.333
+	N	Mean	Std. Deviation
+Total	198	0.214	0.283
+0) Participation is stable, neither increasing nor decreasing.	113	57.1
+0.333)	48	24.2
+0.667)	33	16.7
+1) Participation is increasing.	3	1.5
+1.333)	1	0.5
+2) Participation is decreasing.	0	0.0
+
+
+365) RSTRCTAG
+According to the Report, to what extent do the official laws, policies, or administrative actions of the state restrict the practice, profession, or selection of religion?
+RANGE: 0 to 6.66696296296296
+	N	Mean	Std. Deviation
+Total	198	2.473	2.023
+0) None	18	9.1
+0.333)	18	9.1
+0.5)	1	0.5
+0.667)	19	9.6
+1)	17	8.6
+1.333)	14	7.1
+1.667)	8	4.0
+2)	11	5.6
+2.333)	9	4.5
+2.5)	1	0.5
+2.66696296296296)	11	5.6
+3)	4	2.0
+3.333)	4	2.0
+3.66696296296296)	4	2.0
+4)	6	3.0
+4.333)	9	4.5
+4.66696296296296)	4	2.0
+5)	12	6.1
+5.333)	9	4.5
+5.66696296296296)	5	2.5
+6)	4	2.0
+6.333)	6	3.0
+6.66696296296296)	4	2.0
+10) Extensive restrictions by government	0	0.0
+
+
+366) FAVORAG
+According to the Report, to what extent does the state provide a select religion or small group of religions with privileges, financial support, or favorable sanctions?
+RANGE: 0 to 6.66696296296296
+	N	Mean	Std. Deviation
+Total	198	3.038	1.95
+0) None	10	5.1
+0.333)	12	6.1
+0.667)	7	3.5
+1)	17	8.6
+1.333)	9	4.5
+1.667)	12	6.1
+2)	9	4.5
+2.333)	11	5.6
+2.5)	1	0.5
+2.66696296296296)	7	3.5
+3)	12	6.1
+3.333)	8	4.0
+3.66696296296296)	9	4.5
+4)	7	3.5
+4.333)	14	7.1
+4.66696296296296)	10	5.1
+5)	7	3.5
+5.333)	8	4.0
+5.66696296296296)	10	5.1
+6)	7	3.5
+6.333)	5	2.5
+6.66696296296296)	6	3.0
+10) Extensive provisions by government	0	0.0
+
+
+367) PROTECAG
+According to the Report, to what extent do the society's religious groups, associations, or the culture at large restrict the practice, profession, or selection of religion?  [Society includes religious groups, movements, associations, culture, etc.]
+RANGE: 0 to 10
+	N	Mean	Std. Deviation
+Total	198	2.646	1.804
+0) None	8	4.0
+0.333)	14	7.1
+0.5)	1	0.5
+0.667)	13	6.6
+1)	15	7.6
+1.333)	9	4.5
+1.667)	14	7.1
+2)	13	6.6
+2.333)	15	7.6
+2.66696296296296)	11	5.6
+3)	13	6.6
+3.333)	16	8.1
+3.66696296296296)	9	4.5
+4)	5	2.5
+4.333)	9	4.5
+4.66696296296296)	7	3.5
+5)	5	2.5
+5.333)	4	2.0
+5.66696296296296)	8	4.0
+6)	6	3.0
+6.66696296296296)	1	0.5
+8)	1	0.5
+10) Extensive restrictions by society	1	0.5
+
+
+368) I-GVTFAV
+GFI: Government Favoritism Index (Recoded for use with online analysis)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	198	2.056	0.826
+1) Low government favoritism	62	31.3
+2) Medium government favoritism	63	31.8
+3) High government favoritism	73	36.9
+
+
+369) I-GVTREG
+GRI: Government Regulation Index. (Recoded for use with online analysis)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	198	1.636	0.818
+1) Low government regulation	115	58.1
+2) Medium government regulation	40	20.2
+3) High government regulation	43	21.7
+
+
+370) I-SOCREG
+SRI: Social Regulation Index (Recoded for use with online analysis)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	198	1.687	0.776
+1) Low social regulation	100	50.5
+2) Medium social regulation	60	30.3
+3) High social regulation	38	19.2
+
+
+371) I-REGION
+State Department Reporting Region (for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	198	3.04	1.721
+1) Africa	48	24.2
+2) East Asia and Pacific	34	17.2
+3) Europe and Eurasia	54	27.3
+4) Near East and North Africa	20	10.1
+5) South Asia	8	4.0
+6) Western Hemisphere	34	17.2
+
+
