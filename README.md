@@ -14,7 +14,7 @@ Raw-URL reads only work for files under 100 MB.
 | `vsg` | Democracy Fund VOTER Survey panel | 2011-2020 |
 | `ns_19_21` | Nationscape weekly files | Jul 2019-Jan 2021 |
 | `uas2020` | Understanding America Study 2020 election waves (Stata) | 2020 |
-| `spae` | Survey of the Performance of American Elections | 2007-2024 |
+| `spae` | Survey of the Performance of American Elections; `spae_stacked.rds` (+ `spae_stacked_vars.rds` column map) | 2007-2024 |
 | `cses` | Comparative Study of Electoral Systems modules 5-6 and IMD | 1996-2021 |
 | `wev` | West European Voter file | 1961-2020 |
 | `exit_polls` | Election-day polls: CBS/NYT, ABC, NBC, LAT, VNS, NEP, Edison 2020/2022 (national + states), AP VoteCast 2018-2024, harmonized midterm file, NORC Civic Health 2026 | 1972-2026 |
