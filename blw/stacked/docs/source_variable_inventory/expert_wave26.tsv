@@ -1,0 +1,539 @@
+var	class	n	label	values
+StartDate	POSIXct	703		[579 uniq] 1757091540 | 1757094780 | 1757097360 | 1757098620 | 1757101260 | 1757155620 | 1757155440 | 1757164500
+EndDate	character	703		[591 uniq] 9/5/2025 17:07 | 9/5/2025 18:03 | 9/5/2025 18:53 | 9/5/2025 19:05 | 9/5/2025 19:59 | 9/6/2025 11:09 | 9/6/2025 11:25 | 9/6/2025 13:27
+Status	character	703		IP Address
+Progress	numeric	703		[22 uniq] 100 | 97 | 10 | 98 | 81 | 58 | 89 | 16
+Duration__in_seconds_	numeric	703		[568 uniq] 447 | 653 | 967 | 478 | 1049 | 1306 | 2453 | 728
+Finished	numeric	703		1 | 0
+RecordedDate	character	703		[606 uniq] 9/5/2025 17:07 | 9/5/2025 18:03 | 9/5/2025 18:53 | 9/5/2025 19:05 | 9/5/2025 23:59 | 9/6/2025 11:09 | 9/6/2025 11:25 | 9/6/2025 13:27
+ResponseId	character	703		[703 uniq] R_1HOBMETMuytd6lv | R_6nezatay7ZK3lm1 | R_50Q1sRwyLLYS8XT | R_8c6HW0Nc8bQgCwk | R_3ktdumrVKALXb3j | R_6dLkwO2TPwk0El2 | R_1H7ccheSHfyUIIY | R_657dENrqmqjITnj
+DistributionChannel	character	703		anonymous
+UserLanguage	character	703		EN
+Q1_1	character	703		I agree to continue
+Q479_First_Click	numeric	703		[695 uniq] 6.497 | 40.109 | 15.376 | 10.355 | 37.512 | 15.896 | 3.919 | 9.208
+Q479_Last_Click	numeric	703		[702 uniq] 30.612 | 74.738 | 52.355 | 50.378 | 77.397 | 76.855 | 143.471 | 52.308
+Q479_Page_Submit	numeric	703		[699 uniq] 32.401 | 76.05 | 53.351 | 51.646 | 79.101 | 78.668 | 144.731 | 53.286
+Q479_Click_Count	numeric	703		[27 uniq] 24 | 9 | 11 | 19 | 17 | 10 | 12 | 13
+PERF_1	character	178		| The U.S. does not meet this standard | The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. fully meets this standard
+PERF_2	character	156		| The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. mostly meets this standard
+PERF_3	character	184		The U.S. does not meet this standard | | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+PERF_4	character	172		| The U.S. fully meets this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. does not meet this standard
+PERF_5	character	175		The U.S. does not meet this standard | The U.S. partly meets this standard | | The U.S. mostly meets this standard | The U.S. fully meets this standard
+PERF_6	character	149		| The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. fully meets this standard | Not sure
+PERF_7	character	167		| The U.S. does not meet this standard | The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. fully meets this standard
+PERF_8	character	178		| The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+PERF_9	character	189		| The U.S. mostly meets this standard | The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. fully meets this standard | Not sure
+PERF_10	character	197		The U.S. does not meet this standard | | The U.S. mostly meets this standard | The U.S. fully meets this standard | The U.S. partly meets this standard | Not sure
+PERF_11	character	173		The U.S. does not meet this standard | | The U.S. fully meets this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard
+PERF_12	character	178		| The U.S. does not meet this standard | The U.S. fully meets this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | Not sure
+PERF_13	character	201		| The U.S. mostly meets this standard | The U.S. fully meets this standard | The U.S. does not meet this standard | The U.S. partly meets this standard | Not sure
+PERF_14	character	160		| The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard
+PERF_15	character	191		| The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+PERF_16	character	177		| The U.S. fully meets this standard | The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | Not sure
+PERF_17	character	168		| The U.S. does not meet this standard | The U.S. fully meets this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard
+PERF_18	character	182		| The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard
+PERF_19	character	208		| The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | The U.S. does not meet this standard | Not sure
+PERF_20	character	163		| The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. mostly meets this standard | Not sure | The U.S. fully meets this standard
+PERF_21	character	175		| The U.S. partly meets this standard | The U.S. fully meets this standard | The U.S. mostly meets this standard | The U.S. does not meet this standard
+PERF_22	character	196		| The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard
+PERF_23	character	192		The U.S. does not meet this standard | | The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. fully meets this standard
+PERF_24	character	194		| The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard
+PERF_25	character	172		| The U.S. mostly meets this standard | The U.S. fully meets this standard | The U.S. does not meet this standard | The U.S. partly meets this standard
+PERF_26	character	193		The U.S. does not meet this standard | | The U.S. fully meets this standard | The U.S. mostly meets this standard | The U.S. partly meets this standard
+PERF_27	character	177		| The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+PERF_28	character	182		| The U.S. mostly meets this standard | The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. fully meets this standard | Not sure
+PERF_29	character	157		| The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard
+PERF_30	character	178		The U.S. does not meet this standard | | The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. fully meets this standard
+PERF_31	character	196		| The U.S. fully meets this standard | The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. mostly meets this standard
+PERF_32	character	183		The U.S. does not meet this standard | | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+PERF_33	character	207		| The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard
+PERF_34	character	173		| The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard
+PERF_35	character	202		The U.S. does not meet this standard | | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard
+ratingusa_timer_First_Click	numeric	703		[692 uniq] 5.718 | 12.232 | 10.79 | 6.958 | 14.767 | 17.499 | 5.027 | 5.234
+ratingusa_timer_Last_Click	numeric	703		[688 uniq] 5.718 | 12.232 | 10.79 | 6.958 | 23.312 | 17.499 | 5.027 | 5.234
+ratingusa_timer_Page_Submit	numeric	703		[687 uniq] 6.401 | 14.465 | 11.733 | 7.701 | 29.817 | 19.001 | 6.202 | 6.414
+ratingusa_timer_Click_Count	numeric	703		[12 uniq] 1 | 6 | 5 | 3 | 2 | 4 | 7 | 15
+rusa_now_1	numeric	703		[82 uniq] 18 | 25 | 90 | 66 | 20 | 60 | 40 | 50
+Q962_First_Click	numeric	698		[683 uniq] 10.328 | 8.831 | 8.542 | 11.799 | 10.824 | 13.183 | 17.554 | 13.613
+Q962_Last_Click	numeric	698		[687 uniq] 14.281 | 8.831 | 8.542 | 11.799 | 10.824 | 13.183 | 17.554 | 16.213
+Q962_Page_Submit	numeric	698		[683 uniq] 15.437 | 10.148 | 8.544 | 12.936 | 12.688 | 13.185 | 18.884 | 18.036
+Q962_Click_Count	numeric	698		[13 uniq] 2 | 1 | 12 | 3 | 6 | 4 | 8 | 9
+rusa_2027_1	numeric	697		[89 uniq] 4 | 20 | 90 | 76 | 10 | 40 | 9 | 69
+Q1203_First_Click	numeric	571		[569 uniq] 8.052 | 14.818 | 9.906 | 12.747 | 9.731 | 28.144 | 10.399 | 13.953
+Q1203_Last_Click	numeric	571		[567 uniq] 18.419 | 23.42 | 16.782 | 21.459 | 30.661 | 34.284 | 16.198 | 24.825
+Q1203_Page_Submit	numeric	571		[566 uniq] 19.001 | 24.606 | 17.72 | 22.386 | 32.701 | 40.925 | 16.623 | 24.826
+Q1203_Click_Count	numeric	571		[20 uniq] 6 | 2 | 3 | 4 | 9 | 5 | 11 | 10
+rusa_2027_TX_redist_1	numeric	567		[87 uniq] 5 | 20 | 91 | 57 | 15 | 30 | 40 | 50
+rusa_2027_CA_redist_1	numeric	564		[82 uniq] 27 | 20 | 90 | 62 | 18 | 40 | 50 | 51
+Q1306_First_Click	numeric	131		[131 uniq] 13.495 | 18.708 | 37.077 | 21.357 | 26.427 | 25.67 | 15.88 | 14.025
+Q1306_Last_Click	numeric	131		[129 uniq] 21.519 | 43.653 | 62.99 | 30.211 | 48.901 | 27.477 | 24.169 | 23.291
+Q1306_Page_Submit	numeric	131		[131 uniq] 22.436 | 44.514 | 66.572 | 30.969 | 49.422 | 31.702 | 25.357 | 24.264
+Q1306_Click_Count	numeric	131		[10 uniq] 3 | 5 | 8 | 4 | 2 | 6 | 7 | 1
+rusa_2027_TX_redist2_1	numeric	130		[45 uniq] 30 | 66 | 40 | 35 | 0 | 10 | 29 | 20
+rusa_2027_CA_redist2_1	numeric	130		[40 uniq] 25 | 68 | 60 | 50 | 39 | 55 | 40 | 22
+Q1206_First_Click	numeric	703		[665 uniq] 4.78 | 5.533 | 7.967 | 4.695 | 16.492 | 6.758 | 10.045 | 4.807
+Q1206_Last_Click	numeric	703		[671 uniq] 4.78 | 5.533 | 7.967 | 4.695 | 16.492 | 6.758 | 10.045 | 4.807
+Q1206_Page_Submit	numeric	703		[674 uniq] 5.516 | 8.416 | 11.73 | 5.342 | 17.988 | 7.984 | 11.137 | 5.603
+Q1206_Click_Count	numeric	703		1 | 2 | 3 | 11 | 4 | 5 | 14
+redraw_approve	character	703		Somewhat disapprove | Strongly disapprove | Somewhat approve | Strongly approve
+redraw_2_approve	character	699		Somewhat approve | Somewhat disapprove | Strongly approve | Strongly disapprove |
+violate_acceptable	character	697		Sometimes acceptable – only to restore balance | Never acceptable – two wrongs don't make a right | Always acceptable – you have to fight fire with fire |
+Q1211_First_Click	numeric	656		[655 uniq] 1.084 | 27.659 | 21.276 | 1.296 | 67.501 | 232.689 | 53.47 | 58.987
+Q1211_Last_Click	numeric	656		[654 uniq] 39.002 | 49.562 | 53.768 | 43.589 | 114.367 | 282.861 | 95.863 | 141.15
+Q1211_Page_Submit	numeric	656		[654 uniq] 40.479 | 57.012 | 55.321 | 43.501 | 115.588 | 284.14 | 101.925 | 142.517
+Q1211_Click_Count	numeric	656		[53 uniq] 40 | 3 | 23 | 14 | 5 | 4 | 7 | 6
+country_a_1	numeric	637		[42 uniq] 90 | 93 | 100 | 80 | 82 | 92 | 95 | 89
+country_b_1	numeric	638		[73 uniq] 28 | 70 | 19 | 39 | 25 | 68 | 50 | 35
+country_c_1	numeric	639		[56 uniq] 22 | 30 | 9 | 0 | 20 | 29 | 5 | 15
+Q860_First_Click	numeric	143		[142 uniq] 8.145 | 9.873 | 2.697 | 7.769 | 6.688 | 11.549 | 13.612 | 7.518
+Q860_Last_Click	numeric	143		[142 uniq] 8.145 | 9.873 | 4.764 | 7.769 | 6.688 | 11.549 | 13.612 | 7.518
+Q860_Page_Submit	numeric	143		[143 uniq] 9.074 | 11.074 | 4.78 | 8.567 | 8.164 | 12.585 | 20.219 | 8.733
+Q860_Click_Count	numeric	143		1 | 2 | 4 | 3
+threat_bin_columbia	character	142		| Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+Q862_First_Click	numeric	155		[153 uniq] 4.055 | 3.872 | 5.232 | 14.471 | 6.892 | 3.249 | 6.648 | 2.047
+Q862_Last_Click	numeric	155		[153 uniq] 4.055 | 3.872 | 5.232 | 14.471 | 6.892 | 3.249 | 6.648 | 2.047
+Q862_Page_Submit	numeric	155		[151 uniq] 5.44 | 4.401 | 5.951 | 14.472 | 9.359 | 4.074 | 7.729 | 3.101
+Q862_Click_Count	numeric	155		1 | 2 | 3
+threat_bin_UCLA	character	153		Threat to American democracy | | Benefit to American democracy | Will not affect American democracy
+Q858_First_Click	numeric	156		[153 uniq] 4.397 | 1.823 | 1.758 | 5.1 | 11.974 | 4.98 | 2.244 | 2.799
+Q858_Last_Click	numeric	156		[154 uniq] 4.397 | 1.823 | 1.758 | 5.1 | 11.974 | 4.98 | 2.244 | 2.799
+Q858_Page_Submit	numeric	156		[153 uniq] 5.345 | 3.087 | 2.37 | 6.552 | 12.951 | 12.288 | 3.743 | 3.642
+Q858_Click_Count	numeric	156		1 | 2 | 3 | 7 | 4 | 10
+threat_bin_cook_fire	character	154		| Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+threat_bin_cook_sue	character	155		| Benefit to American democracy | Will not affect American democracy | Threat to American democracy
+Q859_First_Click	numeric	163		[161 uniq] 3.184 | 2.187 | 7.362 | 2.441 | 4.732 | 4.916 | 2.16 | 4.269
+Q859_Last_Click	numeric	163		[162 uniq] 3.184 | 2.187 | 7.362 | 2.441 | 4.732 | 4.916 | 2.16 | 4.816
+Q859_Page_Submit	numeric	163		[162 uniq] 4.087 | 2.8 | 8.68 | 3.363 | 6.632 | 6.06 | 2.901 | 4.831
+Q859_Click_Count	numeric	163		1 | 2 | 4 | 6 | 3
+threat_bin_TX	character	163		Threat to American democracy | | Will not affect American democracy | Benefit to American democracy
+Q861_First_Click	numeric	153		[150 uniq] 6.836 | 5.857 | 11.979 | 2.205 | 13.521 | 1.976 | 22.834 | 5.905
+Q861_Last_Click	numeric	153		[150 uniq] 6.836 | 5.857 | 11.979 | 2.205 | 13.521 | 1.976 | 22.834 | 5.905
+Q861_Page_Submit	numeric	153		[153 uniq] 7.883 | 6.923 | 13.645 | 3.296 | 16.476 | 2.848 | 24.549 | 7.094
+Q861_Click_Count	numeric	153		1 | 3 | 2 | 4 | 5
+threat_bin_CA	character	152		| Will not affect American democracy | Benefit to American democracy | Threat to American democracy
+Q1201_First_Click	numeric	160		[156 uniq] 2.382 | 2.641 | 3.161 | 4.073 | 2.386 | 2.787 | 2.481 | 2.874
+Q1201_Last_Click	numeric	160		[155 uniq] 2.382 | 2.641 | 3.161 | 4.073 | 2.386 | 2.787 | 2.481 | 2.874
+Q1201_Page_Submit	numeric	160		[157 uniq] 2.844 | 3.529 | 5.932 | 5.245 | 3.261 | 4.057 | 4.156 | 3.873
+Q1201_Click_Count	numeric	160		1 | 2 | 4 | 3
+threat_bin_DC_fed	character	160		| Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+Q1238_First_Click	numeric	156		[154 uniq] 4.473 | 5.909 | 4.881 | 5.345 | 6.384 | 3.82 | 3.747 | 1.759
+Q1238_Last_Click	numeric	156		[154 uniq] 4.473 | 5.909 | 4.881 | 5.345 | 6.384 | 4.871 | 3.747 | 3.413
+Q1238_Page_Submit	numeric	156		[155 uniq] 5.315 | 7.201 | 6.256 | 6.137 | 7.241 | 7.422 | 4.566 | 4.631
+Q1238_Click_Count	numeric	156		1 | 2 | 4 | 3
+threat_bin_DC_state	character	156		| Threat to American democracy | Benefit to American democracy | Will not affect American democracy
+Q963_First_Click	numeric	149		[148 uniq] 5.159 | 6.179 | 1.487 | 2.286 | 6.997 | 2.333 | 4.833 | 3.937
+Q963_Last_Click	numeric	149		[148 uniq] 5.159 | 6.179 | 1.836 | 2.286 | 6.997 | 2.333 | 4.833 | 3.937
+Q963_Page_Submit	numeric	149		[148 uniq] 6.684 | 7.453 | 2.711 | 3.187 | 9.247 | 3.235 | 6.02 | 7.327
+Q963_Click_Count	numeric	149		1 | 2 | 4 | 3
+threat_bin_BLS	character	149		| Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+Q964_First_Click	numeric	139		[137 uniq] 5.048 | 8.341 | 7.373 | 4.098 | 9.886 | 4.198 | 4.612 | 7.755
+Q964_Last_Click	numeric	139		[136 uniq] 5.048 | 8.341 | 7.373 | 4.098 | 9.886 | 4.198 | 4.612 | 7.755
+Q964_Page_Submit	numeric	139		[136 uniq] 5.733 | 9.801 | 12.582 | 5.09 | 10.646 | 4.878 | 5.924 | 9.096
+Q964_Click_Count	numeric	139		1 | 3 | 2 | 4
+threat_bin_grants	character	141		Threat to American democracy | | Benefit to American democracy | Will not affect American democracy
+Q965_First_Click	numeric	163		[162 uniq] 6.477 | 5.755 | 4.487 | 4.593 | 8.916 | 4.236 | 6.3 | 12.935
+Q965_Last_Click	numeric	163		[162 uniq] 6.477 | 5.755 | 4.487 | 4.593 | 8.916 | 4.236 | 6.3 | 12.935
+Q965_Page_Submit	numeric	163		[160 uniq] 7.442 | 6.428 | 5.508 | 5.17 | 9.975 | 5.876 | 7.543 | 13.677
+Q965_Click_Count	numeric	163		1 | 4 | 2 | 3 | 8 | 7
+threat_bin_letitia_j	character	165		Threat to American democracy | | Benefit to American democracy | Will not affect American democracy
+Q966_First_Click	numeric	155		[154 uniq] 10.875 | 3.563 | 2.6 | 2.976 | 3.701 | 2.412 | 4.109 | 3.047
+Q966_Last_Click	numeric	155		[154 uniq] 10.875 | 3.563 | 3.134 | 2.976 | 3.701 | 2.412 | 4.109 | 3.047
+Q966_Page_Submit	numeric	155		[151 uniq] 11.926 | 4.493 | 3.149 | 3.941 | 4.614 | 5.792 | 5.169 | 4.076
+Q966_Click_Count	numeric	155		1 | 2 | 4 | 3
+threat_bin_ICE	character	155		| Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+Q967_First_Click	numeric	159		[153 uniq] 7.386 | 3.87 | 2.372 | 3.167 | 8.796 | 5.578 | 2.06 | 4.124
+Q967_Last_Click	numeric	159		[153 uniq] 16.243 | 3.87 | 2.372 | 3.167 | 15.775 | 6.282 | 2.06 | 4.124
+Q967_Page_Submit	numeric	159		[159 uniq] 17.219 | 4.794 | 3.283 | 4.29 | 16.688 | 7.538 | 3.013 | 4.892
+Q967_Click_Count	numeric	159		4 | 1 | 2 | 3
+threat_bin_CBS_suit	character	160		| Will not affect American democracy | Threat to American democracy | Benefit to American democracy
+Q968_First_Click	numeric	163		[161 uniq] 5.97 | 19.235 | 4.924 | 3.978 | 7.836 | 4.896 | 2.95 | 10.179
+Q968_Last_Click	numeric	163		[161 uniq] 5.97 | 19.235 | 5.441 | 3.978 | 11.09 | 4.896 | 2.95 | 10.179
+Q968_Page_Submit	numeric	163		[161 uniq] 6.919 | 20.773 | 5.457 | 4.929 | 11.832 | 5.592 | 3.605 | 11.56
+Q968_Click_Count	numeric	163		1 | 2 | 3 | 7 | 4 | 6
+threat_bin_CBS_merge	character	162		| Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+Q969_First_Click	numeric	158		[157 uniq] 5.297 | 6.632 | 5.716 | 13.536 | 5.182 | 8.425 | 4.588 | 7.698
+Q969_Last_Click	numeric	158		[157 uniq] 6.227 | 6.632 | 5.716 | 13.536 | 5.983 | 8.425 | 4.588 | 7.698
+Q969_Page_Submit	numeric	158		[157 uniq] 7.519 | 7.668 | 6.559 | 14.102 | 6.321 | 9.5 | 5.501 | 10.196
+Q969_Click_Count	numeric	158		2 | 1 | 3 | 5 | 6
+threat_bin_deport	character	159		| Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+Q970_First_Click	numeric	166		[166 uniq] 5.757 | 12.577 | 4.7 | 11.061 | 4.806 | 5.912 | 1.253 | 5.253
+Q970_Last_Click	numeric	166		[166 uniq] 5.757 | 12.577 | 4.7 | 11.061 | 4.806 | 5.912 | 3.186 | 5.253
+Q970_Page_Submit	numeric	166		[164 uniq] 8.151 | 13.892 | 6.313 | 14.414 | 6.05 | 7.75 | 18.384 | 8.055
+Q970_Click_Count	numeric	166		1 | 4 | 3 | 2
+threat_bin_khalil	character	167		| Benefit to American democracy | Will not affect American democracy | Threat to American democracy
+Q971_First_Click	numeric	154		[154 uniq] 5.414 | 2.472 | 4.201 | 22.763 | 3.378 | 2.588 | 4.05 | 2.199
+Q971_Last_Click	numeric	154		[154 uniq] 5.414 | 2.472 | 4.201 | 22.763 | 3.378 | 2.588 | 4.05 | 2.199
+Q971_Page_Submit	numeric	154		[152 uniq] 6.999 | 3.233 | 5.069 | 23.644 | 4.374 | 3.363 | 5.56 | 3.395
+Q971_Click_Count	numeric	154		1 | 2 | 3 | 6
+threat_bin_fire_feds	character	154		| Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+Q972_First_Click	numeric	185		[183 uniq] 5.473 | 15.304 | 16.972 | 7.43 | 5.255 | 7.14 | 9.737 | 13.26
+Q972_Last_Click	numeric	185		[183 uniq] 5.473 | 15.304 | 16.972 | 7.43 | 5.255 | 7.14 | 9.737 | 13.26
+Q972_Page_Submit	numeric	185		[185 uniq] 6.82 | 15.306 | 16.973 | 8.631 | 6.431 | 7.798 | 11.947 | 14.389
+Q972_Click_Count	numeric	185		1 | 2 | 3 | 7
+threat_bin_arrests	character	180		| Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+Q973_First_Click	numeric	153		[153 uniq] 3.824 | 7.675 | 2.903 | 3.27 | 2.463 | 3.501 | 4.866 | 1.644
+Q973_Last_Click	numeric	153		[153 uniq] 3.824 | 7.675 | 2.903 | 3.27 | 2.463 | 3.501 | 4.866 | 20.224
+Q973_Page_Submit	numeric	153		[153 uniq] 4.486 | 8.732 | 4.234 | 4.219 | 3.235 | 4.447 | 7.267 | 21.588
+Q973_Click_Count	numeric	153		1 | 4 | 2 | 3
+threat_bin_boeing	character	155		| Threat to American democracy | Will not affect American democracy
+Q974_First_Click	numeric	138		[137 uniq] 2.258 | 6.037 | 5.189 | 3.572 | 3.802 | 3.437 | 3.725 | 4.416
+Q974_Last_Click	numeric	138		[137 uniq] 2.258 | 6.037 | 5.189 | 3.572 | 3.802 | 3.437 | 3.725 | 4.416
+Q974_Page_Submit	numeric	138		[138 uniq] 3.101 | 6.702 | 5.782 | 4.62 | 5.186 | 4.465 | 5.498 | 5.188
+Q974_Click_Count	numeric	138		1 | 3 | 2 | 4 | 5
+threat_bin_layoffs	character	139		| Benefit to American democracy | Threat to American democracy | Will not affect American democracy
+Q975_First_Click	numeric	141		[139 uniq] 3.14 | 2.304 | 2.615 | 1.81 | 3.38 | 1.895 | 2.481 | 3.995
+Q975_Last_Click	numeric	141		[139 uniq] 3.14 | 2.304 | 2.615 | 1.81 | 3.38 | 1.895 | 2.481 | 3.995
+Q975_Page_Submit	numeric	141		[139 uniq] 4.153 | 3.482 | 3.302 | 2.583 | 4.486 | 2.841 | 3.309 | 5.739
+Q975_Click_Count	numeric	141		1 | 2 | 3 | 6
+threat_bin_LA	character	141		Threat to American democracy | | Benefit to American democracy | Will not affect American democracy
+Q976_First_Click	numeric	141		[141 uniq] 6.224 | 4.13 | 4.017 | 2.006 | 5.63 | 4.899 | 3.926 | 6.114
+Q976_Last_Click	numeric	141		[141 uniq] 6.224 | 4.13 | 4.017 | 2.006 | 5.63 | 4.899 | 3.926 | 6.114
+Q976_Page_Submit	numeric	141		[140 uniq] 7.054 | 5.941 | 5.878 | 3.132 | 6.777 | 6.766 | 5.055 | 8.501
+Q976_Click_Count	numeric	141		1 | 2 | 3 | 4 | 10 | 7
+threat_bin_injunct	character	141		| Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+Q977_First_Click	numeric	181		[180 uniq] 5.617 | 3.796 | 8.314 | 10.15 | 1.187 | 3.151 | 3.988 | 1.755
+Q977_Last_Click	numeric	181		[179 uniq] 5.617 | 3.796 | 8.314 | 10.15 | 12.925 | 3.151 | 3.988 | 1.755
+Q977_Page_Submit	numeric	181		[179 uniq] 6.397 | 8.356 | 9.469 | 11.04 | 14.61 | 3.652 | 5.439 | 2.485
+Q977_Click_Count	numeric	181		1 | 6 | 2 | 4 | 3 | 7
+threat_bin_NPR_PBS	character	185		Threat to American democracy | | Benefit to American democracy | Will not affect American democracy
+Q978_First_Click	numeric	149		[149 uniq] 8.714 | 9.667 | 10.472 | 8.944 | 4.038 | 7.863 | 4.151 | 4.892
+Q978_Last_Click	numeric	149		[149 uniq] 8.714 | 9.667 | 10.472 | 8.944 | 4.038 | 7.863 | 4.151 | 4.892
+Q978_Page_Submit	numeric	149		[148 uniq] 10.156 | 10.682 | 11.459 | 11.669 | 5.372 | 9.395 | 5.558 | 6.565
+Q978_Click_Count	numeric	149		1 | 2 | 4
+threat_bin_dems_kill	character	149		| Will not affect American democracy | Threat to American democracy
+Q979_First_Click	numeric	164		[163 uniq] 6.693 | 7.486 | 2.216 | 7.82 | 12.213 | 3.051 | 3.174 | 2.864
+Q979_Last_Click	numeric	164		[164 uniq] 6.693 | 7.486 | 2.766 | 7.82 | 12.213 | 3.051 | 3.174 | 2.864
+Q979_Page_Submit	numeric	164		[164 uniq] 7.8 | 8.496 | 2.782 | 8.516 | 13.423 | 3.719 | 4.251 | 4.099
+Q979_Click_Count	numeric	164		1 | 2 | 3 | 6 | 4
+threat_bin_bolton	character	163		| Threat to American democracy | Will not affect American democracy
+Q982_First_Click	numeric	183		[183 uniq] 2.831 | 9.914 | 16.936 | 3.804 | 6.072 | 8.713 | 9.327 | 2.307
+Q982_Last_Click	numeric	183		[183 uniq] 2.831 | 9.914 | 16.936 | 3.804 | 6.072 | 8.713 | 9.327 | 3.051
+Q982_Page_Submit	numeric	183		[181 uniq] 3.402 | 10.722 | 18.092 | 4.601 | 7.289 | 10.828 | 11.944 | 3.392
+Q982_Click_Count	numeric	183		1 | 2 | 3 | 7 | 5
+threat_bin_NatGuard	character	184		| Will not affect American democracy | Threat to American democracy | Benefit to American democracy
+Q980_First_Click	numeric	139		[139 uniq] 3.873 | 4.315 | 5.001 | 3.432 | 9.329 | 3.531 | 5.784 | 5.062
+Q980_Last_Click	numeric	139		[138 uniq] 3.873 | 4.315 | 5.001 | 3.432 | 9.329 | 3.531 | 5.784 | 5.062
+Q980_Page_Submit	numeric	139		[139 uniq] 5.094 | 6.287 | 6.871 | 4.313 | 11.08 | 4.233 | 8.025 | 6.546
+Q980_Click_Count	numeric	139		1 | 2 | 3
+threat_bin_smugglers	character	138		| Threat to American democracy | Will not affect American democracy
+Q981_First_Click	numeric	146		[143 uniq] 14.385 | 5.055 | 5.072 | 4.144 | 5.208 | 9.577 | 1.109 | 3.156
+Q981_Last_Click	numeric	146		[145 uniq] 14.385 | 5.055 | 6.669 | 4.144 | 5.208 | 9.577 | 28.947 | 3.156
+Q981_Page_Submit	numeric	146		[146 uniq] 15.648 | 7.62 | 6.686 | 5.227 | 6.554 | 11.683 | 29.312 | 6.636
+Q981_Click_Count	numeric	146		1 | 2 | 10 | 3 | 4
+threat_bin_harvard	character	144		| Benefit to American democracy | Will not affect American democracy | Threat to American democracy
+Q1293_First_Click	numeric	154		[154 uniq] 3.408 | 5.719 | 6.969 | 3.639 | 12.428 | 3.42 | 10.119 | 4.185
+Q1293_Last_Click	numeric	154		[154 uniq] 3.408 | 5.719 | 6.969 | 3.639 | 12.428 | 3.42 | 10.119 | 4.185
+Q1293_Page_Submit	numeric	154		[153 uniq] 4.48 | 7.128 | 9.237 | 4.348 | 14.035 | 4.164 | 11.393 | 6.075
+Q1293_Click_Count	numeric	154		1 | 2 | 4 | 5 | 3
+threat_bin_DC_sues	character	154		| Benefit to American democracy | Threat to American democracy | Will not affect American democracy
+Q1304_First_Click	numeric	122		[122 uniq] 2.734 | 2.871 | 3.813 | 4.949 | 3.225 | 4.149 | 3.944 | 4.411
+Q1304_Last_Click	numeric	122		[121 uniq] 12.698 | 7.167 | 18.503 | 5.883 | 3.225 | 4.149 | 3.944 | 5.852
+Q1304_Page_Submit	numeric	122		[122 uniq] 13.534 | 9.438 | 19.479 | 6.39 | 8.251 | 9.442 | 4.643 | 13.16
+Q1304_Click_Count	numeric	122		5 | 2 | 6 | 1 | 8
+threat_bin_kirk	character	122		| Benefit to American democracy | Threat to American democracy | Will not affect American democracy
+Q863_First_Click	numeric	409		[403 uniq] 12.795 | 8.881 | 28.195 | 15.507 | 9.346 | 19.159 | 18.37 | 7.458
+Q863_Last_Click	numeric	409		[406 uniq] 12.795 | 16.193 | 28.195 | 15.507 | 9.346 | 29.047 | 18.37 | 14.378
+Q863_Page_Submit	numeric	409		[405 uniq] 13.766 | 17.098 | 30.301 | 16.823 | 10.055 | 30.641 | 19.259 | 15.221
+Q863_Click_Count	numeric	409		[12 uniq] 1 | 5 | 3 | 2 | 6 | 4 | 7 | 10
+benefits_1	character	6		| Moderate benefit to American democracy | Serious benefit to American democracy | Little benefit to American democracy
+benefits_2	character	5		| Moderate benefit to American democracy | Extraordinary benefit to American democracy | Serious benefit to American democracy
+benefits_3	character	1		| Serious benefit to American democracy
+benefits_4	character	106		| Moderate benefit to American democracy | Little benefit to American democracy | Serious benefit to American democracy | Extraordinary benefit to American democracy
+benefits_5	character	2		| Extraordinary benefit to American democracy | Moderate benefit to American democracy
+benefits_6	character	48		| Serious benefit to American democracy | Moderate benefit to American democracy | Little benefit to American democracy | Extraordinary benefit to American democracy
+benefits_7	numeric	0		
+benefits_8	character	3		| Moderate benefit to American democracy | Serious benefit to American democracy
+benefits_9	character	1		| Moderate benefit to American democracy
+benefits_10	character	3		| Little benefit to American democracy | Serious benefit to American democracy
+benefits_11	character	5		| Little benefit to American democracy | Serious benefit to American democracy | Moderate benefit to American democracy
+benefits_12	character	3		| Extraordinary benefit to American democracy | Moderate benefit to American democracy
+benefits_13	character	5		| Serious benefit to American democracy | Extraordinary benefit to American democracy | Little benefit to American democracy | Moderate benefit to American democracy
+benefits_14	character	2		| Moderate benefit to American democracy
+benefits_15	character	6		| Moderate benefit to American democracy | Serious benefit to American democracy | Extraordinary benefit to American democracy
+benefits_16	character	130		| Serious benefit to American democracy | Extraordinary benefit to American democracy | Moderate benefit to American democracy | Little benefit to American democracy
+benefits_17	character	1		| Extraordinary benefit to American democracy
+benefits_18	character	3		| Serious benefit to American democracy | Little benefit to American democracy | Moderate benefit to American democracy
+benefits_19	numeric	0		
+benefits_20	character	2		| Serious benefit to American democracy | Extraordinary benefit to American democracy
+benefits_21	character	4		| Moderate benefit to American democracy | Serious benefit to American democracy | Little benefit to American democracy
+benefits_22	character	12		| Moderate benefit to American democracy | Serious benefit to American democracy | Little benefit to American democracy
+benefits_23	character	8		| Serious benefit to American democracy | Extraordinary benefit to American democracy | Moderate benefit to American democracy | Little benefit to American democracy
+benefits_24	numeric	0		
+benefits_25	numeric	0		
+benefits_26	character	2		| Moderate benefit to American democracy
+benefits_27	numeric	0		
+benefits_28	character	116		| Moderate benefit to American democracy | Serious benefit to American democracy | Little benefit to American democracy | Extraordinary benefit to American democracy
+benefits_29	character	113		| Serious benefit to American democracy | Extraordinary benefit to American democracy | Little benefit to American democracy | Moderate benefit to American democracy
+benefits_30	character	11		| Little benefit to American democracy | Serious benefit to American democracy
+threats_1	character	125		| Moderate threat to American democracy | Little threat to American democracy | Extraordinary threat to American democracy | Serious threat to American democracy
+threats_2	character	140		Serious threat to American democracy | | Moderate threat to American democracy | Little threat to American democracy | Extraordinary threat to American democracy
+threats_3	character	137		| Serious threat to American democracy | Moderate threat to American democracy | Extraordinary threat to American democracy | Little threat to American democracy
+threats_4	character	3		| Little threat to American democracy | Moderate threat to American democracy
+threats_5	character	149		Serious threat to American democracy | | Moderate threat to American democracy | Little threat to American democracy | Extraordinary threat to American democracy
+threats_6	character	57		| Moderate threat to American democracy | Serious threat to American democracy | Little threat to American democracy | Extraordinary threat to American democracy
+threats_7	character	138		| Serious threat to American democracy | Extraordinary threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+threats_8	character	133		| Extraordinary threat to American democracy | Moderate threat to American democracy | Serious threat to American democracy | Little threat to American democracy
+threats_9	character	139		| Moderate threat to American democracy | Extraordinary threat to American democracy | Serious threat to American democracy | Little threat to American democracy
+threats_10	character	114		Extraordinary threat to American democracy | | Serious threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+threats_11	character	136		Serious threat to American democracy | | Extraordinary threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+threats_12	character	123		| Serious threat to American democracy | Extraordinary threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+threats_13	character	135		| Moderate threat to American democracy | Little threat to American democracy | Serious threat to American democracy | Extraordinary threat to American democracy
+threats_14	character	141		| Moderate threat to American democracy | Serious threat to American democracy | Extraordinary threat to American democracy | Little threat to American democracy
+threats_15	character	137		| Serious threat to American democracy | Extraordinary threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+threats_16	character	5		| Extraordinary threat to American democracy | Serious threat to American democracy | Little threat to American democracy
+threats_17	character	139		| Serious threat to American democracy | Extraordinary threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+threats_18	character	140		| Extraordinary threat to American democracy | Serious threat to American democracy | Little threat to American democracy | Moderate threat to American democracy
+threats_19	character	99		| Serious threat to American democracy | Moderate threat to American democracy | Extraordinary threat to American democracy | Little threat to American democracy
+threats_20	character	111		| Extraordinary threat to American democracy | Serious threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+threats_21	character	126		Extraordinary threat to American democracy | | Serious threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+threats_22	character	84		| Extraordinary threat to American democracy | Serious threat to American democracy | Little threat to American democracy | Moderate threat to American democracy
+threats_23	character	117		Serious threat to American democracy | | Moderate threat to American democracy | Little threat to American democracy | Extraordinary threat to American democracy
+threats_24	character	142		| Extraordinary threat to American democracy | Moderate threat to American democracy | Little threat to American democracy | Serious threat to American democracy
+threats_25	character	140		| Serious threat to American democracy | Extraordinary threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+threats_26	character	153		| Extraordinary threat to American democracy | Serious threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+threats_27	character	106		| Extraordinary threat to American democracy | Serious threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+threats_28	character	7		| Serious threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+threats_29	character	6		| Extraordinary threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+threats_30	character	103		| Serious threat to American democracy | Moderate threat to American democracy | Extraordinary threat to American democracy | Little threat to American democracy
+Q867_First_Click	numeric	635		[632 uniq] 0.982 | 27.094 | 2.533 | 4.132 | 16.05 | 29.67 | 23.081 | 14.197
+Q867_Last_Click	numeric	635		[635 uniq] 23.087 | 55.262 | 56.526 | 37.348 | 83.11 | 186.842 | 45.52 | 118.32
+Q867_Page_Submit	numeric	635		[634 uniq] 23.557 | 55.889 | 59.809 | 38.201 | 83.934 | 188.712 | 47 | 119.321
+Q867_Click_Count	numeric	635		[66 uniq] 21 | 5 | 15 | 14 | 10 | 12 | 9 | 8
+percentage_forecast_170	numeric	140		[40 uniq] 50 | 64 | 40 | 61 | 90 | 25 | 75 | 74
+percentage_forecast_171	numeric	175		[50 uniq] 67 | 100 | 70 | 80 | 79 | 50 | 76 | 90
+percentage_forecast_172	numeric	142		[34 uniq] 82 | 100 | 50 | 87 | 78 | 70 | 75 | 95
+percentage_forecast_173	numeric	145		[54 uniq] 71 | 70 | 5 | 45 | 65 | 78 | 40 | 30
+percentage_forecast_174	numeric	152		[45 uniq] 64 | 15 | 49 | 85 | 70 | 11 | 60 | 50
+percentage_forecast_175	numeric	143		[53 uniq] 75 | 34 | 41 | 45 | 60 | 50 | 0 | 10
+percentage_forecast_176	numeric	134		[50 uniq] 60 | 30 | 90 | 61 | 75 | 50 | 23 | 20
+percentage_forecast_178	numeric	129		[43 uniq] 75 | 20 | 0 | 60 | 30 | 10 | 56 | 5
+percentage_forecast_179	numeric	153		[60 uniq] 30 | 70 | 75 | 50 | 90 | 62 | 56 | 15
+percentage_forecast_180	numeric	147		[45 uniq] 50 | 90 | 80 | 69 | 30 | 100 | 75 | 40
+percentage_forecast_182	numeric	159		[53 uniq] 25 | 35 | 50 | 75 | 90 | 65 | 45 | 20
+percentage_forecast_183	numeric	138		[50 uniq] 65 | 15 | 75 | 100 | 43 | 70 | 33 | 99
+percentage_forecast_184	numeric	126		[46 uniq] 60 | 70 | 97 | 80 | 69 | 75 | 30 | 52
+percentage_forecast_185	numeric	123		[44 uniq] 1 | 71 | 20 | 83 | 50 | 75 | 90 | 95
+percentage_forecast_186	numeric	138		[50 uniq] 62 | 30 | 50 | 75 | 60 | 5 | 65 | 51
+percentage_forecast_187	numeric	134		[45 uniq] 30 | 60 | 50 | 55 | 65 | 10 | 40 | 31
+percentage_forecast_188	numeric	135		[43 uniq] 70 | 30 | 80 | 47 | 65 | 50 | 75 | 100
+percentage_forecast_189	numeric	125		[39 uniq] 100 | 90 | 95 | 75 | 36 | 97 | 74 | 71
+percentage_forecast_192	numeric	135		[42 uniq] 70 | 75 | 98 | 100 | 72 | 85 | 78 | 35
+percentage_forecast_193	numeric	149		[49 uniq] 65 | 70 | 55 | 90 | 50 | 25 | 60 | 0
+percentage_forecast_194	numeric	150		[49 uniq] 70 | 80 | 65 | 96 | 60 | 95 | 85 | 98
+percentage_forecast_195	numeric	133		[45 uniq] 65 | 55 | 75 | 35 | 25 | 30 | 50 | 43
+percentage_forecast_197	numeric	138		[44 uniq] 50 | 60 | 51 | 87 | 70 | 82 | 10 | 81
+percentage_forecast_198	numeric	147		[47 uniq] 76 | 5 | 99 | 66 | 55 | 100 | 63 | 10
+percentage_forecast_199	numeric	144		[44 uniq] 34 | 95 | 98 | 1 | 100 | 50 | 70 | 60
+percentage_forecast_200	numeric	130		[39 uniq] 100 | 95 | 75 | 67 | 71 | 52 | 90 | 72
+percentage_forecast_201	numeric	137		[48 uniq] 80 | 30 | 25 | 90 | 100 | 20 | 70 | 60
+percentage_forecast_202	numeric	141		[44 uniq] 40 | 58 | 15 | 75 | 85 | 27 | 46 | 70
+percentage_forecast_203	numeric	150		[53 uniq] 51 | 15 | 67 | 70 | 50 | 5 | 60 | 20
+percentage_forecast_204	numeric	133		[42 uniq] 57 | 30 | 75 | 80 | 55 | 70 | 40 | 95
+percentage_forecast_206	numeric	137		[53 uniq] 10 | 28 | 21 | 90 | 70 | 76 | 80 | 100
+percentage_forecast_207	numeric	140		[44 uniq] 4 | 52 | 91 | 95 | 10 | 39 | 50 | 32
+percentage_forecast_208	numeric	118		[36 uniq] 90 | 100 | 75 | 50 | 77 | 72 | 60 | 40
+percentage_forecast_210	numeric	154		[49 uniq] 97 | 70 | 77 | 90 | 95 | 100 | 75 | 18
+percentage_forecast_211	numeric	135		[43 uniq] 90 | 98 | 50 | 100 | 70 | 76 | 40 | 75
+percentage_forecast_212	numeric	129		[44 uniq] 50 | 100 | 61 | 91 | 79 | 85 | 75 | 80
+percentage_forecast_213	numeric	146		[42 uniq] 60 | 99 | 70 | 53 | 80 | 85 | 95 | 75
+percentage_forecast_214	numeric	133		[47 uniq] 50 | 20 | 55 | 100 | 76 | 60 | 51 | 40
+percentage_forecast_215	numeric	115		[41 uniq] 45 | 50 | 62 | 20 | 30 | 11 | 10 | 40
+Q994_First_Click	numeric	142		[141 uniq] 10.775 | 11.292 | 10.809 | 9.683 | 29.583 | 7.558 | 7.794 | 14.493
+Q994_Last_Click	numeric	142		[140 uniq] 10.775 | 14.716 | 10.809 | 9.683 | 29.583 | 9.31 | 22.252 | 14.493
+Q994_Page_Submit	numeric	142		[142 uniq] 11.514 | 15.373 | 11.719 | 10.957 | 30.65 | 11.058 | 23.001 | 17.165
+Q994_Click_Count	numeric	142		[11 uniq] 1 | 2 | 3 | 4 | 5 | 6 | 0 | 8
+Q995_1	numeric	138		[41 uniq] 65 | 70 | 75 | 60 | 19 | 61 | 71 | 40
+Q864_First_Click	numeric	254		[250 uniq] 3.315 | 2.534 | 4.246 | 4.117 | 2.438 | 1.758 | 2.017 | 3.591
+Q864_Last_Click	numeric	254		[248 uniq] 3.315 | 2.534 | 4.246 | 4.117 | 2.438 | 1.758 | 2.017 | 3.591
+Q864_Page_Submit	numeric	254		[252 uniq] 3.794 | 3.294 | 5.273 | 5.086 | 3.173 | 2.553 | 2.872 | 4.57
+Q864_Click_Count	numeric	254		1 | 2 | 4 | 8 | 5 | 3
+f_threat_bin_habeas	character	253		| Threat to American democracy | Will not affect American democracy
+Q865_First_Click	numeric	257		[253 uniq] 1.022 | 6.622 | 10.409 | 5.812 | 7.431 | 6.722 | 3.946 | 7.182
+Q865_Last_Click	numeric	257		[254 uniq] 8.438 | 6.622 | 10.409 | 5.812 | 7.431 | 7.943 | 3.946 | 7.182
+Q865_Page_Submit	numeric	257		[255 uniq] 9.6 | 7.185 | 11.524 | 10.351 | 8.56 | 7.96 | 4.746 | 8.294
+Q865_Click_Count	numeric	257		3 | 1 | 2 | 5 | 15 | 4
+f_threat_bin_natural	character	256		Will not affect American democracy | | Threat to American democracy | Benefit to American democracy
+Q1186_First_Click	numeric	254		[251 uniq] 4.944 | 2.793 | 8.551 | 3.907 | 5.755 | 8.918 | 2.739 | 2.771
+Q1186_Last_Click	numeric	254		[251 uniq] 4.944 | 9.416 | 8.551 | 3.907 | 5.755 | 8.918 | 2.739 | 2.771
+Q1186_Page_Submit	numeric	254		[254 uniq] 5.497 | 9.904 | 13.362 | 6.503 | 6.392 | 9.855 | 3.754 | 3.414
+Q1186_Click_Count	numeric	254		1 | 3 | 4 | 2
+f_threat_bin_abroad	character	254		Threat to American democracy | | Will not affect American democracy | Benefit to American democracy
+Q1188_First_Click	numeric	256		[252 uniq] 1.769 | 9.594 | 4.151 | 9.177 | 15.474 | 3.273 | 2.594 | 75.87
+Q1188_Last_Click	numeric	256		[252 uniq] 1.769 | 9.594 | 4.151 | 9.177 | 15.474 | 3.273 | 2.594 | 75.87
+Q1188_Page_Submit	numeric	256		[254 uniq] 3.571 | 17.223 | 6.731 | 10.643 | 16.988 | 4.955 | 3.331 | 77.072
+Q1188_Click_Count	numeric	256		1 | 2 | 3 | 12
+f_threat_bin_denat	character	254		Threat to American democracy | | Will not affect American democracy | Benefit to American democracy
+Q1190_First_Click	numeric	256		[250 uniq] 3.362 | 2.233 | 1.901 | 3.136 | 3.246 | 1.519 | 2.325 | 3.32
+Q1190_Last_Click	numeric	256		[250 uniq] 3.362 | 2.233 | 1.901 | 3.136 | 3.246 | 1.519 | 2.325 | 3.32
+Q1190_Page_Submit	numeric	256		[245 uniq] 4.069 | 2.729 | 2.86 | 4.048 | 4.595 | 2.261 | 13.58 | 3.867
+Q1190_Click_Count	numeric	256		1 | 3 | 2 | 6
+f_threat_bin_InsAct	character	255		| Threat to American democracy | Will not affect American democracy
+Q1192_First_Click	numeric	257		[253 uniq] 6.067 | 13.77 | 5.141 | 6.351 | 6.818 | 5.971 | 2.714 | 4.247
+Q1192_Last_Click	numeric	257		[254 uniq] 6.067 | 14.221 | 5.141 | 6.351 | 6.818 | 6.484 | 2.714 | 4.247
+Q1192_Page_Submit	numeric	257		[250 uniq] 6.846 | 15.466 | 6.252 | 7.35 | 7.9 | 6.4 | 3.387 | 4.896
+Q1192_Click_Count	numeric	257		1 | 2 | 3 | 5 | 10 | 4
+f_threat_bin_court	character	256		| Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+Q1194_First_Click	numeric	255		[250 uniq] 4.13 | 5.213 | 6.136 | 5.636 | 3.413 | 4.517 | 5.992 | 54.116
+Q1194_Last_Click	numeric	255		[249 uniq] 4.962 | 5.213 | 6.136 | 5.636 | 4.129 | 4.517 | 5.992 | 54.116
+Q1194_Page_Submit	numeric	255		[250 uniq] 6.316 | 6.549 | 6.941 | 6.567 | 4.146 | 5.035 | 7.002 | 54.746
+Q1194_Click_Count	numeric	255		2 | 1 | 3 | 9 | 4
+f_threat_bin_OppCase	character	255		Threat to American democracy | | Will not affect American democracy
+Q1196_First_Click	numeric	257		[254 uniq] 0.588 | 4.169 | 5.663 | 9.198 | 5.925 | 24.54 | 9.788 | 7.308
+Q1196_Last_Click	numeric	257		[254 uniq] 11.559 | 4.169 | 5.663 | 9.198 | 9.814 | 28.835 | 9.788 | 7.308
+Q1196_Page_Submit	numeric	257		[255 uniq] 12.465 | 4.65 | 6.845 | 14.009 | 10.879 | 30.279 | 10.982 | 8.586
+Q1196_Click_Count	numeric	257		3 | 1 | 2 | 5 | 14 | 11 | 4
+f_threat_bin_AlyCase	character	257		| Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+Q1198_First_Click	numeric	254		[253 uniq] 15.269 | 11.609 | 13.856 | 111.968 | 9.042 | 7.547 | 7.136 | 8.07
+Q1198_Last_Click	numeric	254		[253 uniq] 15.269 | 11.609 | 13.856 | 111.968 | 9.042 | 7.547 | 7.136 | 8.07
+Q1198_Page_Submit	numeric	254		[253 uniq] 15.271 | 11.61 | 13.857 | 113.716 | 9.883 | 9.709 | 8.209 | 20.913
+Q1198_Click_Count	numeric	254		1 | 2 | 4 | 3 | 9 | 5
+f_threat_bin_byrd	character	238		| Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+Q1241_First_Click	numeric	256		[255 uniq] 8.606 | 6.434 | 9.75 | 9.558 | 3.893 | 5.402 | 7.154 | 4.575
+Q1241_Last_Click	numeric	256		[255 uniq] 8.606 | 6.434 | 9.75 | 10.674 | 3.893 | 5.402 | 7.154 | 4.575
+Q1241_Page_Submit	numeric	256		[253 uniq] 9.415 | 7.291 | 10.677 | 11.351 | 5.757 | 6.447 | 8.449 | 5.308
+Q1241_Click_Count	numeric	256		1 | 2 | 3 | 5 | 9
+f_threat_bin_EconInd	character	255		| Will not affect American democracy | Threat to American democracy
+Q1243_First_Click	numeric	255		[252 uniq] 4.466 | 4.98 | 3.965 | 5.962 | 3.748 | 2.743 | 6.766 | 2.535
+Q1243_Last_Click	numeric	255		[252 uniq] 4.466 | 4.98 | 3.965 | 5.962 | 3.748 | 3.26 | 6.766 | 2.535
+Q1243_Page_Submit	numeric	255		[252 uniq] 5.349 | 6.695 | 5.07 | 6.829 | 5.44 | 3.275 | 7.765 | 3.634
+Q1243_Click_Count	numeric	255		1 | 2 | 3 | 4 | 12
+f_threat_bin_obama	character	255		| Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+Q1245_First_Click	numeric	256		[250 uniq] 2.442 | 6.699 | 3.527 | 5.273 | 6.06 | 2.833 | 3.787 | 4.43
+Q1245_Last_Click	numeric	256		[253 uniq] 4.862 | 6.699 | 3.527 | 5.273 | 6.06 | 2.833 | 3.787 | 4.43
+Q1245_Page_Submit	numeric	256		[252 uniq] 5.638 | 7.94 | 4.401 | 6.201 | 7.448 | 3.557 | 4.526 | 4.993
+Q1245_Click_Count	numeric	256		2 | 1 | 4 | 7 | 3
+f_threat_bin_NGuard	character	256		| Will not affect American democracy | Threat to American democracy | Benefit to American democracy
+Q1247_First_Click	numeric	254		[251 uniq] 4.17 | 2.865 | 3.619 | 4.968 | 5.248 | 5.681 | 4.936 | 6.104
+Q1247_Last_Click	numeric	254		[249 uniq] 4.17 | 2.865 | 3.619 | 4.968 | 7.043 | 5.681 | 4.936 | 6.104
+Q1247_Page_Submit	numeric	254		[252 uniq] 5.223 | 3.311 | 4.645 | 6.307 | 8.728 | 6.479 | 7.314 | 7.241
+Q1247_Click_Count	numeric	254		1 | 2 | 4 | 3
+f_threat_bin_census	character	253		| Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+Q1249_First_Click	numeric	257		[251 uniq] 4.636 | 4.391 | 1444.492 | 2.83 | 4.574 | 7.847 | 4.753 | 3.462
+Q1249_Last_Click	numeric	257		[253 uniq] 4.636 | 4.391 | 1444.492 | 2.83 | 4.574 | 7.847 | 4.753 | 3.932
+Q1249_Page_Submit	numeric	257		[252 uniq] 6.139 | 5.758 | 1446.494 | 3.83 | 5.942 | 9.588 | 5.719 | 4.277
+Q1249_Click_Count	numeric	257		1 | 2 | 4 | 3 | 11
+f_threat_bin_fraud	character	256		Threat to American democracy | | Benefit to American democracy | Will not affect American democracy
+Q1251_First_Click	numeric	256		[250 uniq] 3.247 | 6.421 | 3.288 | 16.849 | 9.912 | 2.767 | 6.189 | 3.931
+Q1251_Last_Click	numeric	256		[253 uniq] 3.914 | 6.421 | 3.288 | 16.849 | 9.912 | 2.767 | 6.189 | 4.171
+Q1251_Page_Submit	numeric	256		[253 uniq] 5.099 | 7.602 | 3.948 | 18.282 | 9.913 | 3.641 | 7.53 | 5.229
+Q1251_Click_Count	numeric	256		2 | 1 | 4 | 3 | 5
+f_threat_bin_harvard	character	253		Threat to American democracy | | Will not affect American democracy | Benefit to American democracy
+Q1253_First_Click	numeric	257		[247 uniq] 1.998 | 1.98 | 5.113 | 5.378 | 7.484 | 3.921 | 3.091 | 29.107
+Q1253_Last_Click	numeric	257		[246 uniq] 1.998 | 1.98 | 5.113 | 5.378 | 7.484 | 3.921 | 3.78 | 29.107
+Q1253_Page_Submit	numeric	257		[251 uniq] 2.989 | 2.425 | 6.951 | 6.62 | 8.975 | 4.99 | 3.802 | 29.979
+Q1253_Click_Count	numeric	257		1 | 2 | 3 | 4
+f_threat_bin_VRA	character	256		| Benefit to American democracy | Threat to American democracy | Will not affect American democracy
+Q1255_First_Click	numeric	256		[245 uniq] 3.561 | 4.959 | 4.618 | 5.932 | 7.706 | 2.273 | 2.311 | 5.377
+Q1255_Last_Click	numeric	256		[247 uniq] 5.27 | 4.959 | 4.618 | 5.932 | 7.706 | 2.806 | 2.311 | 5.377
+Q1255_Page_Submit	numeric	256		[247 uniq] 5.758 | 6.279 | 5.591 | 7.12 | 8.82 | 2.822 | 3.635 | 6.624
+Q1255_Click_Count	numeric	256		2 | 1 | 4
+f_threat_bin_3Term	character	255		| Threat to American democracy | Will not affect American democracy
+Q866_First_Click	numeric	24		[24 uniq] 3.03 | 4.105 | 14.598 | 10.403 | 2.749 | 7.702 | 2.153 | 3.539
+Q866_Last_Click	numeric	24		[24 uniq] 3.03 | 16.596 | 18.022 | 19.803 | 2.749 | 7.702 | 16.701 | 5.774
+Q866_Page_Submit	numeric	24		[24 uniq] 4.525 | 17.239 | 19.529 | 21.592 | 4.483 | 10.559 | 17.636 | 6.547
+Q866_Click_Count	numeric	24		1 | 4 | 2 | 3 | 6 | 10
+f_benefits_1	numeric	0		
+f_benefits_2	character	1		| Serious benefit to American democracy
+f_benefits_3	character	1		| Moderate benefit to American democracy
+f_benefits_4	character	2		| Moderate benefit to American democracy
+f_benefits_5	numeric	0		
+f_benefits_6	character	2		| Serious benefit to American democracy | Little benefit to American democracy
+f_benefits_7	numeric	0		
+f_benefits_8	character	1		| Moderate benefit to American democracy
+f_benefits_9	character	3		| Little benefit to American democracy | Moderate benefit to American democracy
+f_benefits_10	numeric	0		
+f_benefits_11	character	4		| Serious benefit to American democracy | Extraordinary benefit to American democracy | Moderate benefit to American democracy
+f_benefits_12	character	5		| Little benefit to American democracy | Extraordinary benefit to American democracy | Serious benefit to American democracy | Moderate benefit to American democracy
+f_benefits_13	character	4		| Serious benefit to American democracy | Little benefit to American democracy
+f_benefits_14	character	3		| Extraordinary benefit to American democracy | Serious benefit to American democracy | Moderate benefit to American democracy
+f_benefits_15	character	10		| Serious benefit to American democracy | Moderate benefit to American democracy | Extraordinary benefit to American democracy | Little benefit to American democracy
+f_benefits_16	character	2		| Moderate benefit to American democracy | Serious benefit to American democracy
+f_benefits_17	numeric	0		
+f_threats_1	character	245		| Extraordinary threat to American democracy | Serious threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+f_threats_2	character	239		| Extraordinary threat to American democracy | Serious threat to American democracy | Little threat to American democracy | Moderate threat to American democracy
+f_threats_3	character	238		Extraordinary threat to American democracy | | Little threat to American democracy | Moderate threat to American democracy | Serious threat to American democracy
+f_threats_4	character	235		Extraordinary threat to American democracy | | Serious threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+f_threats_5	character	246		| Serious threat to American democracy | Extraordinary threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+f_threats_6	character	247		| Extraordinary threat to American democracy | Serious threat to American democracy | Moderate threat to American democracy
+f_threats_7	character	238		Serious threat to American democracy | | Extraordinary threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+f_threats_8	character	244		| Little threat to American democracy | Serious threat to American democracy | Extraordinary threat to American democracy | Moderate threat to American democracy
+f_threats_9	character	145		| Moderate threat to American democracy | Serious threat to American democracy | Extraordinary threat to American democracy | Little threat to American democracy
+f_threats_10	character	211		| Serious threat to American democracy | Moderate threat to American democracy | Extraordinary threat to American democracy | Little threat to American democracy
+f_threats_11	character	224		| Extraordinary threat to American democracy | Serious threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+f_threats_12	character	235		| Serious threat to American democracy | Extraordinary threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+f_threats_13	character	198		| Moderate threat to American democracy | Serious threat to American democracy | Little threat to American democracy | Extraordinary threat to American democracy
+f_threats_14	character	242		Extraordinary threat to American democracy | | Serious threat to American democracy | Little threat to American democracy | Moderate threat to American democracy
+f_threats_15	character	151		Extraordinary threat to American democracy | | Serious threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+f_threats_16	character	234		| Serious threat to American democracy | Extraordinary threat to American democracy | Little threat to American democracy | Moderate threat to American democracy
+f_threats_17	character	249		| Moderate threat to American democracy | Extraordinary threat to American democracy | Serious threat to American democracy | Little threat to American democracy
+imp_dem_factor_1	character	619		Very important | Not at all important | Moderately important | Extremely important | Slightly important |
+imp_dem_factor_2	character	618		Very important | Not at all important | Extremely important | Moderately important | Slightly important |
+imp_dem_factor_3	character	620		Very important | Slightly important | Extremely important | Moderately important | Not at all important |
+imp_dem_factor_4	character	620		Very important | Extremely important | Slightly important | Moderately important | | Not at all important
+imp_dem_factor_5	character	619		Extremely important | Not at all important | Moderately important | Very important | Slightly important |
+Q993_First_Click	numeric	618		[603 uniq] 12.197 | 11.216 | 13.299 | 14.042 | 5.312 | 10.468 | 11.335 | 8.946
+Q993_Last_Click	numeric	618		[614 uniq] 22.889 | 43.003 | 39.274 | 37.817 | 25.664 | 28.234 | 27.169 | 44.386
+Q993_Page_Submit	numeric	618		[615 uniq] 23.6 | 44.435 | 50.341 | 41.437 | 27.261 | 29.577 | 28.575 | 47.601
+Q993_Click_Count	numeric	618		[19 uniq] 5 | 13 | 7 | 14 | 6 | 8 | 10 | 9
+imp_dem_factor_broad	character	619		Contingent factors somewhat more important | Structural factors much more important | Structural factors somewhat more important | | Contingent factors much more important
+Q992_First_Click	numeric	617		[607 uniq] 14.205 | 15.785 | 18.861 | 15.648 | 9.623 | 9.501 | 19.333 | 17.527
+Q992_Last_Click	numeric	617		[607 uniq] 14.205 | 15.785 | 18.861 | 15.648 | 18.455 | 9.501 | 19.333 | 17.527
+Q992_Page_Submit	numeric	617		[609 uniq] 15.221 | 18.237 | 20.559 | 16.835 | 19.616 | 10.377 | 20.715 | 18.26
+Q992_Click_Count	numeric	617		1 | 4 | 2 | 5 | 3 | 11 | 6
+imp_dem_factor_spec_1	character	608		Moderately important | Not at all important | Extremely important | | Very important | Slightly important
+imp_dem_factor_spec_2	character	609		Extremely important | Slightly important | Moderately important | Very important | | Not at all important
+imp_dem_factor_spec_3	character	609		Extremely important | Not at all important | Slightly important | Moderately important | Very important |
+imp_dem_factor_spec_4	character	608		Very important | Not at all important | Moderately important | | Slightly important | Extremely important
+imp_dem_factor_spec_5	character	609		Extremely important | Slightly important | Not at all important | Very important | Moderately important |
+imp_dem_factor_spec_6	character	606		Moderately important | Slightly important | Very important | Extremely important | | Not at all important
+imp_dem_factor_spec_7	character	606		Slightly important | Moderately important | Not at all important | | Very important | Extremely important
+imp_dem_factor_spec_8	character	607		Very important | Slightly important | Extremely important | Moderately important | Not at all important |
+imp_dem_factor_spec_9	character	609		Extremely important | Slightly important | Very important | Not at all important | | Moderately important
+imp_dem_factor_spec_10	character	605		Extremely important | Moderately important | Slightly important | Very important | Not at all important |
+imp_dem_factor_spec_11	character	609		Extremely important | Slightly important | Moderately important | Very important | | Not at all important
+Q983_First_Click	numeric	617		[608 uniq] 9.232 | 7.163 | 12.51 | 6.407 | 16.433 | 43.331 | 10.056 | 4.131
+Q983_Last_Click	numeric	617		[615 uniq] 67.086 | 39.732 | 12.51 | 36.919 | 75.114 | 173.042 | 88.655 | 46.866
+Q983_Page_Submit	numeric	617		[614 uniq] 68.441 | 41.092 | 12.511 | 38.174 | 76.813 | 190.9 | 90.004 | 48.344
+Q983_Click_Count	numeric	617		[28 uniq] 13 | 1 | 12 | 11 | 16 | 14 | 22 | 21
+methods_1	character	616		Never | Very frequently | Not at all frequently | Not very frequently | Somewhat frequently |
+methods_2	character	616		Not very frequently | Never | Very frequently | Somewhat frequently | Not at all frequently |
+methods_3	character	615		Never | Not very frequently | Not at all frequently | Somewhat frequently | Very frequently |
+methods_4	character	616		Not at all frequently | Somewhat frequently | Not very frequently | Never | Very frequently |
+methods_5	character	616		Very frequently | Somewhat frequently | Not at all frequently | Never | Not very frequently |
+Q984_First_Click	numeric	617		[598 uniq] 6.199 | 5.756 | 5.515 | 8.389 | 11.944 | 8.756 | 4.266 | 8.3
+Q984_Last_Click	numeric	617		[611 uniq] 29.278 | 14.293 | 17.983 | 14.99 | 34.127 | 37.339 | 34.618 | 29.365
+Q984_Page_Submit	numeric	617		[608 uniq] 32.156 | 15.634 | 18.731 | 15.994 | 37.018 | 50.568 | 37.365 | 30.742
+Q984_Click_Count	numeric	617		[12 uniq] 5 | 7 | 6 | 11 | 13 | 10 | 8 | 1
+hedgehog_fox	character	611		Much more of a fox than a hedgehog | Much more of a hedgehog than a fox | Somewhat more of a fox than a hedgehog | | Somewhat more of a hedgehog than a fox
+tetlock_traits_1	character	605		Somewhat disagree | Strongly disagree | Somewhat agree | | Strongly agree
+tetlock_traits_2	character	605		Strongly agree | Somewhat disagree | Somewhat agree | Strongly disagree |
+tetlock_traits_3	character	590		Somewhat agree | Somewhat disagree | Strongly disagree | Strongly agree |
+tetlock_traits_4	character	608		Somewhat agree | Strongly agree | Somewhat disagree | Strongly disagree |
+tetlock_traits_5	character	605		Somewhat disagree | Strongly disagree | Strongly agree | Somewhat agree |
+tetlock_traits_6	character	606		Somewhat agree | Somewhat disagree | Strongly agree | | Strongly disagree
+Q985_First_Click	numeric	614		[606 uniq] 11.362 | 8.569 | 6.87 | 14.43 | 18.821 | 12.102 | 10.106 | 7.684
+Q985_Last_Click	numeric	614		[613 uniq] 88.79 | 40.362 | 59.494 | 52.305 | 85.413 | 76.278 | 69.451 | 55.118
+Q985_Page_Submit	numeric	614		[611 uniq] 90.577 | 42.248 | 63.906 | 53.69 | 88.057 | 76.279 | 70.599 | 56.536
+Q985_Click_Count	numeric	614		[21 uniq] 6 | 8 | 9 | 18 | 7 | 11 | 15 | 21
+Q9_1_First_Click	numeric	619		[559 uniq] 2.661 | 3.634 | 2.469 | 2.444 | 4.81 | 3.803 | 3.678 | 2.996
+Q9_1_Last_Click	numeric	619		[565 uniq] 2.661 | 3.634 | 2.469 | 2.444 | 6.49 | 3.803 | 3.678 | 2.996
+Q9_1_Page_Submit	numeric	619		[578 uniq] 3.599 | 5.19 | 3.301 | 3.219 | 6.401 | 5.692 | 5.021 | 3.832
+Q9_1_Click_Count	numeric	619		1 | 2 | 6 | 3 | 5 | 4
+occupation	character	619		Full-time faculty | Emeritus faculty | Other | Adjunct faculty | | Post-doctoral fellow | Graduate student
+field_intro_First_Click	numeric	617		[565 uniq] 2.304 | 1.595 | 1.197 | 1.979 | 3.278 | 3.64 | 1.696 | 1.505
+field_intro_Last_Click	numeric	617		[600 uniq] 14.501 | 11.339 | 4.692 | 12.719 | 19.54 | 6.8 | 10.456 | 3.665
+field_intro_Page_Submit	numeric	617		[610 uniq] 27.095 | 20.774 | 4.693 | 20.712 | 23.126 | 13.737 | 10.456 | 8.473
+field_intro_Click_Count	numeric	617		[10 uniq] 5 | 3 | 2 | 6 | 4 | 7 | 1 | 8
+field	character	616		International relations | Comparative politics | American politics | Political theory | Another field of political science | | Something other than political science
+field_text	character	538		[399 uniq] International security | Eastern Europe | | Political behavior | Elections | Environmental Policy | Immigration policy | public administration
+Q11_1_First_Click	numeric	617		[221 uniq] 1.16 | 0 | 1.709 | 2.724 | 4.69 | 5.075 | 2.01 | 1.198
+Q11_1_Last_Click	numeric	617		[224 uniq] 1.976 | 0 | 1.709 | 2.724 | 161.722 | 42.376 | 528.405 | 78.121
+Q11_1_Page_Submit	numeric	617		[581 uniq] 3.78 | 2.309 | 16.472 | 1.925 | 77.84 | 2.107 | 5.052 | 1.952
+Q11_1_Click_Count	numeric	617		[21 uniq] 3 | 0 | 1 | 5 | 6 | 26 | 8 | 2
+LuthID	character	703		[703 uniq] BLW_9403_10_IP02 | BLW_6870_17_30BX | BLW_7023_85_CH66 | BLW_4333_49_B8NZ | BLW_6375_67_L0I4 | BLW_3308_20_ZG71 | BLW_1358_19_YM8N | BLW_7803_44_6638
+Language	numeric	0		
+CountryA	character	695		| '- Elections are regular and competitive; opposition campaigns have equal access to venues and media; incumbent use of state resources for campaigns is prohibited and enforced.
+CountryB	character	695		| '- Judges are appointed through mixed procedures with executive influence; the judiciary is partly independent; courts infrequently review or annul executive acts.
+CountryC	character	695		| '- Elections are regular but not competitive; opposition campaigns face severe restrictions on access to venues and media; incumbent use of state resources for campaigns is pervasive and unconstrained.
+showBLWQ	numeric	607		[101 uniq] 85 | 70 | 12 | 77 | 89 | 67 | 75 | 59
+Q_TotalDuration	numeric	703		[568 uniq] 447 | 653 | 967 | 478 | 1049 | 1306 | 2453 | 728

@@ -1,0 +1,93 @@
+var	class	n	label	values
+caseid	character	2700	Respondent ID number	[2700 uniq] 216250582 | 136408213 | 169603924 | 173191174 | 141422509 | 159251083 | 41478334 | 219133399
+weight	numeric	2700	YouGov survey weight	[824 uniq] 1.63710290851989 | 0.917087633993237 | 0.96575412735746 | 0.952010879862631 | 0.958480322816182 | 0.995679177114876 | 0.853830665451112 | 0.764701157922805
+DART0039_waves	factor	2117	DART0039 waves ids	Wave 1
+consent	factor	2700	Consent to take survey	Yes | No | skipped | not asked
+perf_misconduct	factor	809	Statements - Government officials are legally sanctioned for misconduct	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_private_gain	factor	799	Statements - Government officials do not use public office for private gain	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_monitor_opponents	factor	800	Statements - Government agencies are not used to monitor, attack, or punish poli	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_equal_rights	factor	803	Statements - All adult citizens enjoy the same legal and political rights	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_journalists	factor	858	Statements - Government does not interfere with journalists or news organization	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_private_violence	factor	842	Statements - Government effectively prevents private actors from engaging in pol	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_free_speech	factor	808	Statements - Government protects individuals' right to engage in unpopular speec	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_patriotism	factor	812	Statements - Political competition occurs without criticism of opponents' loyalt	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_foreign	factor	802	Statements - Elections are free from foreign influence	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_ban_ideology	factor	815	Statements - Parties and candidates are not barred due to their political belief	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_voting_rights	factor	793	Statements - All adult citizens have equal opportunity to vote	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_votes_impact	factor	769	Statements - All votes have equal impact on election outcomes	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_election_fraud	factor	802	Statements - Elections are conducted, ballots counted, and winners determined wi	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_expand_executive	factor	792	Statements - Executive authority cannot be expanded beyond constitutional limits	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_legislature_check	factor	825	Statements - The legislature is able to effectively limit executive power	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_judiciary_check	factor	811	Statements - The judiciary is able to effectively limit executive power	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_judicial_ind	factor	829	Statements - The elected branches respect judicial independence	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_participation	factor	815	Statements - Voter participation in elections is generally high	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_funds_transparent	factor	828	Statements - Information about the sources of campaign funding is available to t	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_contributions	factor	827	Statements - Public policy is not determined by large campaign contributions	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_opinions	factor	781	Statements - Citizens can make their opinions heard in open debate about policie	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_districts	factor	817	Statements - The geographic boundaries of electoral districts do not systematica	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_common_und	factor	848	Statements - Even when there are disagreements about ideology or policy, politic	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_compromise	factor	759	Statements - Elected officials seek compromise with political opponents	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_candidates_disclose	factor	793	Statements - Citizens have access to information about candidates that is releva	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_protest	factor	829	Statements - Government protects individuals' right to engage in peaceful protes	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_investigations	factor	811	Statements - Law enforcement investigations of public officials or their associa	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_gov_stats	factor	783	Statements - Government statistics and data are produced by experts who are not	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_equal_enforce	factor	793	Statements - The law is enforced equally for all persons	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+perf_concede_defeat	factor	826	Statements - Politicians who lose free and fair elections will concede defeat	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+rating_USA	numeric	2700	Rating of U.S. democracy (November 2020)	[101 uniq] 68 | 44 | 1 | 50 | 75 | 56 | 93 | 53
+democracy_importance	factor	2700	Importance of democracy -- democracy_importance	1 - Not at all important | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 - Absolutely important | don't know | skipped | not asked
+vote2020	factor	2700	Vote in 2020	I did not vote in the election this November | I thought about voting this time, but didn't | I usually vote, but didn't this time | I am sure I voted | skipped | not asked
+Elect_confidence1	factor	2700	Confidence everyone who is legally entitled to vote and was able to	Very confident | Somewhat confident | Not too confident | Not at all confident | skipped | not asked
+Elect_confidence2	factor	2175	Confidence your vote was counted	Very confident | Somewhat confident | Not too confident | Not at all confident | skipped | not asked
+Elect_confidence3	factor	2700	Confidence votes in your state will be counted correctly	Very confident | Somewhat confident | Not too confident | Not at all confident | skipped | not asked
+Elect_confidence4	factor	2700	Confidence votes the nation will be counted correctly	Very confident | Somewhat confident | Not too confident | Not at all confident | skipped | not asked
+media_decl	factor	2700	Media declared a winner	Yes | No | Don’t know | skipped | not asked
+who_won	factor	2700	Result of the recent presidential election	Joe Biden | Donald Trump | Winner not yet known | Don’t know | skipped | not asked
+won_true	factor	2700	True result of the election	Joe Biden won | Donald Trump won | Winner not yet known | Don’t know | skipped | not asked
+whom_inaug	factor	2699	Whom do you expect to be inaugurated as President	Joe Biden | Donald Trump | Someone else | skipped | not asked
+biden_winner	factor	2700	Biden rightful winner	Definitely the rightful winner | Probably the rightful winner | Probably not the rightful winner | Definitely not the rightful winner | skipped | not asked
+legit_result	factor	2700	Final electoral results legitimate	Entirely legitimate | Somewhat legitimate | Not very legitimate | Not legitimate at all | skipped | not asked
+transition_1	factor	2700	Peacefully take office	Strongly agree | Somewhat agree | Somewhat disagree | Strongly disagree | Not sure | skipped | not asked
+transition_2	factor	2699	The loser must concede defeat	Strongly agree | Somewhat agree | Somewhat disagree | Strongly disagree | Not sure | skipped | not asked
+Elect_college	factor	2700	For future presidential elections would you support changes to the electoral col	Support strongly | Support somewhat | Neither support nor oppose | Oppose somewhat | Oppose strongly | skipped | not asked
+Fraud_1	factor	2700	Fraud occur -- Voting more than once in an election	A million or more | Hundreds of thousands | Tens of thousands | Thousands | Hundreds | Less than a hundred | Less than ten | skipped | not asked
+Fraud_2	factor	2700	Fraud occur -- Stealing or tampering with ballots	A million or more | Hundreds of thousands | Tens of thousands | Thousands | Hundreds | Less than a hundred | Less than ten | skipped | not asked
+Fraud_3	factor	2700	Fraud occur -- Pretending to be someone else when voting	A million or more | Hundreds of thousands | Tens of thousands | Thousands | Hundreds | Less than a hundred | Less than ten | skipped | not asked
+Fraud_4	factor	2700	Fraud occur -- People voting who are not U.S. citizens	A million or more | Hundreds of thousands | Tens of thousands | Thousands | Hundreds | Less than a hundred | Less than ten | skipped | not asked
+Fraud_5	factor	2697	Fraud occur -- Voting with an absentee ballot intended for another person	A million or more | Hundreds of thousands | Tens of thousands | Thousands | Hundreds | Less than a hundred | Less than ten | skipped | not asked
+Violence_1	factor	2700	Violence -- When, if ever, is it OK for $OwnParty_pl to send threatening and int	Always | Frequently | Occasionally | Never | skipped | not asked
+Violence_2	factor	2697	Violence -- When, if ever, is it OK for an ordinary $OwnParty in the public to h	Always | Frequently | Occasionally | Never | skipped | not asked
+Violence_3	factor	2700	Violence -- How often do you feel it is justified for $OwnParty_pl to use violen	Always | Frequently | Occasionally | Never | skipped | not asked
+Violence_5	factor	2699	Violence -- If the $OppParty_pl engage in violence during an election, how often	Always | Frequently | Occasionally | Never | skipped | not asked
+Violence_4	factor	2695	Violence -- What if the $OppParty_pl win an election? How often is it justified	Always | Frequently | Occasionally | Never | skipped | not asked
+polinterest	factor	2700	Level of interest in politics	Extremely interested | Very interested | Somewhat interested | Not very interested | Not at all interested | skipped | not asked
+approve_trmp	factor	2700	Approval of President Trump	Strongly approve | Somewhat approve | Somewhat disapprove | Strongly disapprove | skipped | not asked
+pres_vote	factor	2173	Vote for President	Donald Trump | Joe Biden | Someone else | skipped | not asked
+lookup_info_admit	factor	2699	Did you look up infomration	Yes, I looked up information | No, I did not look up information | skipped | not asked
+take_serious	factor	2700	Frequency of answering surveys insincerely	Never | Rarely | Some of the time | Most of the time | Always | skipped | not asked
+comments	character	1226	comments	[816 uniq] N/A | Thank you for sending. I had no help | no | | I wish you asked why the president is doing good or bad or if we trust him in the job. Basically what criteria do we base our opinion on. | Sometimes, I have found, that only a few of the questions were a little confusing but overall...
+birthyr	numeric	2700	Birth Year	[74 uniq] 2000 | 1955 | 1991 | 1988 | 1961 | 1964 | 1971 | 1980
+age	numeric	2700	Age (numerical)	[74 uniq] 20 | 65 | 29 | 32 | 59 | 56 | 49 | 40
+age9	factor	2700	Age (categorical)	Under 18 | 18 - 24 | 25 - 34 | 35 - 44 | 45 - 54 | 55 - 64 | 65 - 74 | 75 - 84 | 85 or older | skipped | not asked
+gender	factor	2700	Gender	Male | Female | skipped | not asked
+marstat	factor	2700	Marital Status	Married | Separated | Divorced | Widowed | Never married | Domestic / civil partnership | skipped | not asked
+employ	factor	2700	Employment Status	Full-time | Part-time | Temporarily laid off | Unemployed | Retired | Permanently disabled | Homemaker | Student | Other | skipped | not asked
+faminc_new	factor	2700	Family income	Less than $10,000 | $10,000 - $19,999 | $20,000 - $29,999 | $30,000 - $39,999 | $40,000 - $49,999 | $50,000 - $59,999 | $60,000 - $69,999 | $70,000 - $79,999 | $80,000 - $99,999 | $100,000 - $119,999 | $120,000 - $149,999 | $150,000 - $199,999 | $200,000 - $249,999 | $250,000 - $349,999 | $350,00...
+pid3	factor	2700	3 point party ID	Democrat | Republican | Independent | Other | Not sure | skipped | not asked
+pid7	factor	2700	7 point Party ID	Strong Democrat | Not very strong Democrat | Lean Democrat | Independent | Lean Republican | Not very strong Republican | Strong Republican | Not sure | Don't know | skipped | not asked
+presvote16post	factor	2694	2016 President Vote Post Election	Hillary Clinton | Donald Trump | Gary Johnson | Jill Stein | Evan McMullin | Other | Did not vote for President
+inputzip	character	2699	Zip Input	[2361 uniq] 32837 | 79072 | 14228 | 76207 | 32817 | 68131 | 64064 | 72501
+inputstate	factor	2700	State of Residence	Alabama | Alaska | Arizona | Arkansas | California | Colorado | Connecticut | Delaware | District of Columbia | Florida | Georgia | Hawaii | Idaho | Illinois | Indiana | Iowa | Kansas | Kentucky | Louisiana | Maine | Maryland | Massachusetts | Michigan | Minnesota | Mississippi | Missouri | Monta...
+ideo7	factor	2698	Politcal ideology	Very conservative | Somewhat conservative | Slightly conservative | Moderate; middle of the road | Slightly liberal | Somewhat liberal | Very liberal | skipped | not asked
+educ7	factor	2700	Highest level of education completed	Did not graduate from high school | High school diploma or the equivalent (GED) | Some college | Associate's degree | Bachelor's degree | Master's degree | Professional or doctorate degree | skipped | not asked
+hispanic	factor	2700	Hispanic	Yes | No | skipped | not asked
+ethnicity	factor	2699	Race/Ethnicity	White | Black or African American | American Indian or Alaska Native | Asian/Pacific Islander | Multi-racial | Hispanic/Latino/Chicano/a | Other | skipped | not asked
+votereg	factor	2700	Voter Registration Status	Yes | No | Don't know | skipped | not asked
+newsint	factor	2700	Political Interest	Most of the time | Some of the time | Only now and then | Hardly at all | Don't know | skipped | not asked
+religpew	factor	2700	Religion	Protestant | Roman Catholic | Mormon | Eastern or Greek Orthodox | Jewish | Muslim | Buddhist | Hindu | Atheist | Agnostic | Nothing in particular | Something else | skipped | not asked
+pew_churatd	factor	2700	Church attendance (Pew version)	More than once a week | Once a week | Once or twice a month | A few times a year | Seldom | Never | Don't know | skipped | not asked
+pew_bornagain	factor	2700	Born Again (Pew version)	Yes | No | skipped | not asked
+pew_religimp	factor	2700	Importance of religion (Pew version)	Very important | Somewhat important | Not too important | Not at all important | skipped | not asked
+pew_prayer	factor	2700	Frequency of Prayer (Pew version)	Several times a day | Once a day | A few times a week | Once a week | A few times a month | Seldom | Never | Don't know | skipped | not asked
+starttime	POSIXct	2700	Questionnaire Start Time	[2674 uniq] 1605317464 | 1605317106 | 1605318172 | 1605317801 | 1605316980 | 1605318005 | 1605320804 | 1605320549
+endtime	POSIXct	2700	Questionnaire End Time	[2684 uniq] 1605317814 | 1605317848 | 1605318403 | 1605319144 | 1605319887 | 1605320272 | 1605321423 | 1605321526
+wave	numeric	2700		13

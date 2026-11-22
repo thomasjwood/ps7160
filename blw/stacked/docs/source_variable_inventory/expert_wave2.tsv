@@ -1,0 +1,79 @@
+var	class	n	label	values
+caseid	character	1126	Respondent ID number	[1126 uniq] W2BLW0002550 | W2BLW0000592 | W2BLW0001096 | W2BLW0001171 | W2BLW0001493 | W2BLW0000185 | W2BLW0001462 | W2BLW0001547
+start	character	1126	StartDate	[1099 uniq] 2017-05-11 14:11:56 | 2017-05-11 14:12:18 | 2017-05-11 14:12:14 | 2017-05-11 14:12:05 | 2017-05-11 14:13:11 | 2017-05-11 14:13:05 | 2017-05-11 14:13:33 | 2017-05-11 14:11:21
+end	character	1126	EndDate	[1111 uniq] 2017-05-11 14:14:37 | 2017-05-11 14:15:37 | 2017-05-11 14:16:06 | 2017-05-11 14:16:09 | 2017-05-11 14:17:05 | 2017-05-11 14:17:28 | 2017-05-11 14:17:49 | 2017-05-11 14:17:57
+imp_misconduct	factor	0	Sanctions for misconduct	Not relevant | Beneficial | Important | Essential
+imp_private_gain	factor	0	No private gains from office	Not relevant | Beneficial | Important | Essential
+imp_monitor_opponents	factor	0	Agencies do not punish	Not relevant | Beneficial | Important | Essential
+imp_equal_rights	factor	0	Equal political/legal rights	Not relevant | Beneficial | Important | Essential
+imp_journalists	factor	0	No interference with press	Not relevant | Beneficial | Important | Essential
+imp_private_violence	factor	0	No political violence	Not relevant | Beneficial | Important | Essential
+imp_free_speech	factor	0	Free speech	Not relevant | Beneficial | Important | Essential
+imp_patriotism	factor	0	Patriotism not questioned	Not relevant | Beneficial | Important | Essential
+imp_foreign_influence	factor	0	No foreign influence	Not relevant | Beneficial | Important | Essential
+imp_ban_ideology	factor	0	All parties allowed	Not relevant | Beneficial | Important | Essential
+imp_voting_rights	factor	0	Equal voting rights	Not relevant | Beneficial | Important | Essential
+imp_votes_impact	factor	0	Votes have equal impact	Not relevant | Beneficial | Important | Essential
+imp_election_fraud	factor	0	Fraud-free elections	Not relevant | Beneficial | Important | Essential
+imp_expand_executive	factor	0	Constitution limits executive	Not relevant | Beneficial | Important | Essential
+imp_legislature_check	factor	0	Legislature can limit executive	Not relevant | Beneficial | Important | Essential
+imp_judiciary_check	factor	0	Judiciary can limit executive	Not relevant | Beneficial | Important | Essential
+imp_judicial_ind	factor	0	Judicial independence	Not relevant | Beneficial | Important | Essential
+imp_participation	factor	0	Participation high	Not relevant | Beneficial | Important | Essential
+imp_funds_transparent	factor	0	Campaign funds transparent	Not relevant | Beneficial | Important | Essential
+imp_contributions	factor	0	Contribs not determine policy	Not relevant | Beneficial | Important | Essential
+imp_opinions	factor	0	Opinions heard on policy	Not relevant | Beneficial | Important | Essential
+imp_districts	factor	0	Districts not biased	Not relevant | Beneficial | Important | Essential
+imp_common_und	factor	0	Common understanding of facts	Not relevant | Beneficial | Important | Essential
+imp_compromise	factor	0	Compromise sought	Not relevant | Beneficial | Important | Essential
+imp_candidates_disclose	factor	0	Candidates disclose info	Not relevant | Beneficial | Important | Essential
+imp_protest	factor	0	Protest tolerated	Not relevant | Beneficial | Important | Essential
+imp_investigations	factor	0	Investigations not compromised	Not relevant | Beneficial | Important | Essential
+perf_misconduct	factor	575	Sanctions for misconduct	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_private_gain	factor	548	No private gains from office	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_monitor_opponents	factor	574	Agencies do not punish	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_equal_rights	factor	567	Equal political/legal rights	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_journalists	factor	600	No interference with press	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_private_violence	factor	577	No political violence	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_free_speech	factor	564	Free speech	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_patriotism	factor	588	Patriotism not questioned	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_foreign_influence	factor	577	No foreign influence	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_ban_ideology	factor	558	All parties allowed	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_voting_rights	factor	572	Equal voting rights	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_votes_impact	factor	570	Votes have equal impact	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_election_fraud	factor	577	Fraud-free elections	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_expand_executive	factor	520	Constitution limits executive	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_legislature_check	factor	580	Legislature can limit executive	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_judiciary_check	factor	592	Judiciary can limit executive	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_judicial_ind	factor	0	Judicial independence	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_participation	factor	579	Participation high	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_funds_transparent	factor	581	Campaign funds transparent	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_contributions	factor	608	Contribs not determine policy	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_opinions	factor	574	Opinions heard on policy	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_districts	factor	583	Districts not biased	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_common_und	factor	582	Common understanding of facts	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_compromise	factor	583	Compromise sought	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_candidates_disclose	factor	579	Candidates disclose info	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_protest	factor	556	Protest tolerated	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_investigations	factor	572	Investigations not compromised	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+US_2017_SEPT	numeric	0	Rating of U.S. democracy in September 2017	
+faculty_rank	factor	1126	Faculty rank	Grad Student | Post-doc | Adjunct | Faculty | Emeritus | Other
+field	factor	1123	Field of expertise	American | Comparative | IR | Theory | Other (PS) | Other (not PS)
+wave	numeric	1126	Survey wave (1=February 2017, 2=May 2017, 3=September 2017)	2
+imp_science	factor	0	Policy consensus recognized	Not relevant | Beneficial | Important | Essential
+imp_restraint	factor	0	Restraint/reciprocity	Not relevant | Beneficial | Important | Essential
+perf_science	factor	590	Policy consensus recognized	Not sure | Does not meet | Partly meets | Mostly meets | Fully meets
+perf_restraint	factor	580	Restraint/reciprocity	Not sure | Does not meet | Partly meets | Mostly meets | Fully meets
+US_2017_FEB	numeric	0	Rating of U.S. democracy in February 2017 (asked on 1=10 scale, multiplied by 10	
+US_2017_MAY	numeric	1101	Rating of U.S. democracy in May 2017	[82 uniq] 30 | 76 | 70 | 87 | 85 | 81 | 60 | 22
+US_2015	numeric	1060	Rating of U.S. democracy in 2015	[75 uniq] 81 | 85 | 90 | 91 | 80 | 30 | 88 | 60
+US_2005	numeric	1059	Rating of U.S. democracy in 2005	[72 uniq] 81 | 90 | 85 | 80 | 40 | 72 | 65 | 95
+US_1995	numeric	1028	Rating of U.S. democracy in 1995	[74 uniq] 90 | 95 | 85 | 80 | 50 | 68 | 60 | 81
+US_1985	numeric	997	Rating of U.S. democracy in 1985	[74 uniq] 95 | 90 | 81 | 80 | 64 | 50 | 85 | 74
+US_1975	numeric	968	Rating of U.S. democracy in 1975	[73 uniq] 71 | 85 | 90 | 66 | 91 | 80 | 40 | 69
+US_1950	numeric	950	Rating of U.S. democracy in 1950	[88 uniq] 96 | 75 | 80 | 65 | 70 | 0 | 30 | 50
+US_1900	numeric	917	Rating of U.S. democracy in 1900	[85 uniq] 79 | 70 | 61 | 0 | 30 | 40 | 43 | 29
+US_1850	numeric	915	Rating of U.S. democracy in 1850	[83 uniq] 61 | 54 | 56 | 70 | 0 | 30 | 29 | 17
+US_1800	numeric	907	Rating of U.S. democracy in 1800	[81 uniq] 61 | 45 | 70 | 0 | 30 | 29 | 14 | 18
+democracy_importance	numeric	0	Importance of living in a democracy	
+US_democracy_rating	numeric	1101	Rating of U.S. democracy (September 2017)	[82 uniq] 30 | 76 | 70 | 87 | 85 | 81 | 60 | 22

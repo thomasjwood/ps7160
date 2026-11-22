@@ -1,0 +1,205 @@
+var	class	n	label	values
+caseid	numeric	2400	Case ID	[2400 uniq] 1013603793 | 1013252373 | 1013564951 | 1013310767 | 1013326071 | 1013327847 | 1013340621 | 1013230315
+weight	numeric	2400	Gen Pop Weight	[1550 uniq] 1.10605373589591 | 1.0896903683641 | 1.48934040636573 | 1.39462187956848 | 0.313124546401048 | 1.33413177116613 | 0.845427091636553 | 0.70252707508798
+Q_Norms_pick	factor	2400	Norms question version	Norms & Behavior | Reverse Norms & Behavior | skipped | not asked
+Q_Institutions_pick	factor	2400	Institutions question version	Institutions, Accountability, Rule of law | Reverse Institutions, Accountability, Rule of law | skipped | not asked
+Q_Rights_pick	factor	2400	Rights question version	Rights, Protections & Freedom | Reverse Rights, Protections & Freedom | skipped | not asked
+Q_Elections_pick	factor	2400	Elections question version	Elections & Voting | Reverse Elections & Voting | skipped | not asked
+Q1_1	factor	833	US today statements -- Government officials are legally sanctioned for misconduc	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_2	factor	862	US today statements -- Government officials do not use public office for private	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_3	factor	871	US today statements -- Government agencies are not used to monitor, attack, or p	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_4	factor	832	US today statements -- All adult citizens enjoy the same legal and political rig	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_5	factor	805	US today statements -- Government does not interfere with journalists or news or	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_6	factor	810	US today statements -- Government effectively prevents private actors from engag	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_7	factor	836	US today statements -- Government protects individuals’ right to engage in unpop	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_8	factor	801	US today statements -- Political competition occurs without criticism of opponen	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_9	factor	847	US today statements -- Elections are free from foreign influence	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_10	factor	855	US today statements -- Parties and candidates are not barred due to their politi	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_11	factor	820	US today statements -- All adult citizens have equal opportunity to vote	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_12	factor	877	US today statements -- All votes have equal impact on election outcomes	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_13	factor	869	US today statements -- Elections are conducted, ballots counted, and winners det	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_14	factor	834	US today statements -- Executive authority cannot be expanded beyond constitutio	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_15	factor	822	US today statements -- The legislature is able to effectively limit executive po	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_16	factor	865	US today statements -- The judiciary is able to effectively limit executive powe	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_17	factor	832	US today statements -- The elected branches respect judicial independence	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_18	factor	849	US today statements -- Voter participation in elections is generally high	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_19	factor	835	US today statements -- Information about the sources of campaign funding is avai	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_20	factor	830	US today statements -- Public policy is not determined by large campaign contrib	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_21	factor	817	US today statements -- Citizens can make their opinions heard in open debate abo	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_22	factor	824	US today statements -- The geographic boundaries of electoral districts do not s	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_23	factor	838	US today statements -- Even when there are disagreements about ideology or polic	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_24	factor	874	US today statements -- Elected officials seek compromise with political opponent	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_25	factor	829	US today statements -- Citizens have access to information about candidates that	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_26	factor	819	US today statements -- Government protects individuals’ right to engage in peace	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_27	factor	831	US today statements -- Law enforcement investigations of public officials or the	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+Q1_28	factor	854	US today statements -- Government statistics and data are produced by experts wh	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure | skipped | not asked
+rating_USA	factor	2360	Rating of how democratic US politcal system is	0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47 | 48 | 49 | 50 | 51 | 52 | 53 | 54 | 55 | 56 | 57 | 58 | 59 | 60 | 61...
+democracy_importance	factor	2378	Importance of democracy -- democracy_importance	1 - Not at all important | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 - Absolutely important | don't know | skipped | not asked
+NormsR_1	factor	1168	Reverse Norms and Behavior -- A president acknowledges the right of political op	Very undemocratic | Moderately undemocratic | Moderately democratic | Very democratic | Not sure | skipped | not asked
+NormsR_2	factor	1166	Reverse Norms and Behavior -- A president endorses the legitimacy of an election	Very undemocratic | Moderately undemocratic | Moderately democratic | Very democratic | Not sure | skipped | not asked
+NormsR_3	factor	1168	Reverse Norms and Behavior -- A president respects established boundaries betwee	Very undemocratic | Moderately undemocratic | Moderately democratic | Very democratic | Not sure | skipped | not asked
+Norms_4	factor	1195	Norms and Behavior -- A president says political opponents who criticize his or	Very undemocratic | Moderately undemocratic | Moderately democratic | Very democratic | Not sure | skipped | not asked
+Norms_5	factor	1192	Norms and Behavior -- A president attacks the legitimacy of an election in which	Very undemocratic | Moderately undemocratic | Moderately democratic | Very democratic | Not sure | skipped | not asked
+Norms_6	factor	1192	Norms and Behavior -- A president compels active-duty military officers to promo	Very undemocratic | Moderately undemocratic | Moderately democratic | Very democratic | Not sure | skipped | not asked
+InstitutionsR_1	factor	1189	Reverse Institutions, Accountability and Rule of law -- Prosecutors decide wheth	Very undemocratic | Moderately undemocratic | Moderately democratic | Very democratic | Not sure | skipped | not asked
+InstitutionsR_2	factor	1189	Reverse Institutions, Accountability and Rule of law -- A government cooperates	Very undemocratic | Moderately undemocratic | Moderately democratic | Very democratic | Not sure | skipped | not asked
+InstitutionsR_3	factor	1191	Reverse Institutions, Accountability and Rule of law -- A president respects ins	Very undemocratic | Moderately undemocratic | Moderately democratic | Very democratic | Not sure | skipped | not asked
+Institutions_4	factor	1181	Institutions, Accountability and Rule of law -- A president intervenes in prosec	Very undemocratic | Moderately undemocratic | Moderately democratic | Very democratic | Not sure | skipped | not asked
+Institutions_5	factor	1181	Institutions, Accountability and Rule of law -- A government blocks an independe	Very undemocratic | Moderately undemocratic | Moderately democratic | Very democratic | Not sure | skipped | not asked
+Institutions_6	factor	1179	Institutions, Accountability and Rule of law -- A president uses emergency power	Very undemocratic | Moderately undemocratic | Moderately democratic | Very democratic | Not sure | skipped | not asked
+RightsR_1	factor	1198	Reverse Rights, Protections and Freedom -- A government agency renews the broadc	Very undemocratic | Moderately undemocratic | Moderately democratic | Very democratic | Not sure | skipped | not asked
+RightsR_2	factor	1197	Reverse Rights, Protections and Freedom -- A president engages respectfully with	Very undemocratic | Moderately undemocratic | Moderately democratic | Very democratic | Not sure | skipped | not asked
+RightsR_3	factor	1201	Reverse Rights, Protections and Freedom -- A government allows peaceful protests	Very undemocratic | Moderately undemocratic | Moderately democratic | Very democratic | Not sure | skipped | not asked
+Rights_4	factor	1171	Rights, Protections and Freedom -- A government agency refuses to renew the broa	Very undemocratic | Moderately undemocratic | Moderately democratic | Very democratic | Not sure | skipped | not asked
+Rights_5	factor	1170	Rights, Protections and Freedom -- A president threatens to imprison journalists	Very undemocratic | Moderately undemocratic | Moderately democratic | Very democratic | Not sure | skipped | not asked
+Rights_6	factor	1170	Rights, Protections and Freedom -- A government blocks peaceful protests by its	Very undemocratic | Moderately undemocratic | Moderately democratic | Very democratic | Not sure | skipped | not asked
+ElectionR_1	factor	1192	Reverse Elections and Voting -- Voter registration and ballot access rules allow	Very undemocratic | Moderately undemocratic | Moderately democratic | Very democratic | Not sure | skipped | not asked
+ElectionR_2	factor	1191	Reverse Elections and Voting -- The votes of every citizen carry equal weight in	Very undemocratic | Moderately undemocratic | Moderately democratic | Very democratic | Not sure | skipped | not asked
+ElectionR_3	factor	1195	Reverse Elections and Voting -- Every citizen is allowed to vote regardless of w	Very undemocratic | Moderately undemocratic | Moderately democratic | Very democratic | Not sure | skipped | not asked
+Elections_4	factor	1171	Elections and Voting -- Voter registration and ballot access rules place a great	Very undemocratic | Moderately undemocratic | Moderately democratic | Very democratic | Not sure | skipped | not asked
+Elections_5	factor	1171	Elections and Voting -- The votes of citizens in states with small populations c	Very undemocratic | Moderately undemocratic | Moderately democratic | Very democratic | Not sure | skipped | not asked
+Elections_6	factor	1175	Elections and Voting -- Only native-born citizens are allowed to vote	Very undemocratic | Moderately undemocratic | Moderately democratic | Very democratic | Not sure | skipped | not asked
+Q173_1	factor	1894	Congress and Divided Government -- A majority party in either chamber of Congres	Entirely inappropriate | Mostly inappropriate | Mostly appropriate | Entirely appropriate | Not sure | skipped | not asked
+Q173_2	factor	1899	Congress and Divided Government -- The majority party in the Senate abolishing t	Entirely inappropriate | Mostly inappropriate | Mostly appropriate | Entirely appropriate | Not sure | skipped | not asked
+Q173_3	factor	1890	Congress and Divided Government -- The minority party in the Senate routinely us	Entirely inappropriate | Mostly inappropriate | Mostly appropriate | Entirely appropriate | Not sure | skipped | not asked
+Q161_1	factor	1908	Executive powers -- A president pardoning himself or herself	Entirely inappropriate | Mostly inappropriate | Mostly appropriate | Entirely appropriate | Not sure | skipped | not asked
+Q161_2	factor	1907	Executive powers -- A president establishing important new government policy by	Entirely inappropriate | Mostly inappropriate | Mostly appropriate | Entirely appropriate | Not sure | skipped | not asked
+Q161_3	factor	1905	Executive powers -- A president directing the Department of Justice to open inve	Entirely inappropriate | Mostly inappropriate | Mostly appropriate | Entirely appropriate | Not sure | skipped | not asked
+Q175_1	factor	1941	Courts -- The majority party in the Senate refusing to consider any nomination b	Entirely inappropriate | Mostly inappropriate | Mostly appropriate | Entirely appropriate | Not sure | skipped | not asked
+Q175_2	factor	1947	Courts -- The majority party in the Senate abolishing the filibuster rule so the	Entirely inappropriate | Mostly inappropriate | Mostly appropriate | Entirely appropriate | Not sure | skipped | not asked
+Q175_3	factor	1945	Courts -- A party that controls Congress and the presidency creating and filling	Entirely inappropriate | Mostly inappropriate | Mostly appropriate | Entirely appropriate | Not sure | skipped | not asked
+Q174_1	factor	1847	Impeachment -- A majority of the House of Representatives seeking to impeach a p	Entirely inappropriate | Mostly inappropriate | Mostly appropriate | Entirely appropriate | Not sure | skipped | not asked
+Q174_2	factor	1847	Impeachment -- A majority of the House of Representatives impeaching a president	Entirely inappropriate | Mostly inappropriate | Mostly appropriate | Entirely appropriate | Not sure | skipped | not asked
+Q174_3	factor	1846	Impeachment -- A majority of the House of Representatives impeaching a president	Entirely inappropriate | Mostly inappropriate | Mostly appropriate | Entirely appropriate | Not sure | skipped | not asked
+Q176_1	factor	1866	Elections, Voting Rights and Representation -- A party that controls both chambe	Entirely inappropriate | Mostly inappropriate | Mostly appropriate | Entirely appropriate | Not sure | skipped | not asked
+Q176_2	factor	1866	Elections, Voting Rights and Representation -- State governments signing a pact	Entirely inappropriate | Mostly inappropriate | Mostly appropriate | Entirely appropriate | Not sure | skipped | not asked
+Q176_3	factor	1870	Elections, Voting Rights and Representation -- A state political party drawing C	Entirely inappropriate | Mostly inappropriate | Mostly appropriate | Entirely appropriate | Not sure | skipped | not asked
+Q176_4	factor	1870	Elections, Voting Rights and Representation -- A state political party proposing	Entirely inappropriate | Mostly inappropriate | Mostly appropriate | Entirely appropriate | Not sure | skipped | not asked
+polinterest	factor	2397	Level of interest in politics	Extremely interested | Very interested | Somewhat interested | Not very interested | Not at all interested | skipped | not asked
+approve_trmp	factor	2376	Approval of President Trump	Strongly approve | Somewhat approve | Somewhat disapprove | Strongly disapprove | skipped | not asked
+agreement	factor	2386	Agreement to not search the internet for the correct answer	Yes | No | skipped | not asked
+senator_term	factor	2232	Length of US Senator term	Two years | Four years | Six years | Eight years | None of these | Don't know | skipped | not asked
+prestimes	factor	2328	Number of times an individual can serve as President	Once | Twice | Four times | Unlimited number of terms | Don't know | skipped | not asked
+num_senators	factor	2327	Number of US Senators from each state	One | Two | Four | Depends on which state | Don't know | skipped | not asked
+prime_minister	factor	2302	Current Prime Minister of the UK	Richard Branson | Nick Clegg | Boris Johnson | Theresa May | Margaret Thatcher | Don't know | skipped | not asked
+houserep_term	factor	2269	Length of US member of the House term	Two years | Four years | Six years | Eight years | For life | Don't know | skipped | not asked
+answer_lookup	factor	2388	Respondent looked up information online to answer questions	Yes, I looked up information | No, I did not look up information | skipped | not asked
+take_serious	factor	2395	Frequency of answering surveys insincerely	Never | Rarely | Some of the time | Most of the time | Always | skipped | not asked
+comments	character	1088	comments	[763 uniq] Donald Trump deserves prison. | some questions especially on gerrymandering and funding issues are very complex and cannot be answered very simply on the Likert-like scale. | | The survey was very interesting. I only wish I was more aware of the workings of our government because I wa...
+page_Q1_grid_timing	numeric	2400	Timing Data for Page Q1_grid	[2386 uniq] 38.403 | 95.106 | 30.5 | 73.996 | 80.384 | 69.326 | 68.54 | 66.101
+page_rating_USA_timing	numeric	2400	Timing Data for Page rating_USA	[2317 uniq] 3.666 | 10.776 | 11.036 | 13.459 | 26.547 | 11.311 | 23.675 | 17.266
+page_democracy_importance_scale_	numeric	2400	Timing Data for Page democracy_importance_scale	[2228 uniq] 3.751 | 7.918 | 8.813 | 5.714 | 7.372 | 9.902 | 8.721 | 6.199
+page_Norms_grid_timing	numeric	2400	Timing Data for Page Norms_grid	[1193 uniq] 8.04 | 21.209 | 0 | 39.982 | 18.439 | 20.487 | 24.573 | 16.038
+page_NormsR_grid_timing	numeric	2400	Timing Data for Page NormsR_grid	[1184 uniq] 0 | 6.021 | 41.93 | 20.652 | 12.563 | 16.924 | 46.811 | 22.837
+page_Institutions_grid_timing	numeric	2400	Timing Data for Page Institutions_grid	[1189 uniq] 0 | 15.542 | 20.757 | 14.266 | 32.356 | 26.02 | 18.71 | 22.654
+page_InstitutionsR_grid_timing	numeric	2400	Timing Data for Page InstitutionsR_grid	[1189 uniq] 16.78 | 0 | 27.538 | 14.32 | 30.054 | 20.002 | 21.325 | 114.587
+page_Rights_grid_timing	numeric	2400	Timing Data for Page Rights_grid	[1174 uniq] 7.917 | 9.56 | 5.706 | 0 | 16.571 | 12.382 | 15.319 | 30.181
+page_RightsR_grid_timing	numeric	2400	Timing Data for Page RightsR_grid	[1201 uniq] 0 | 30.029 | 25.817 | 22.356 | 12.899 | 23.55 | 13.326 | 32.589
+page_Election_grid_timing	numeric	2400	Timing Data for Page Election_grid	[1187 uniq] 9.909 | 0 | 5.095 | 32.573 | 69.807 | 136.241 | 24.552 | 21.932
+page_ElectionR_grid_timing	numeric	2400	Timing Data for Page ElectionR_grid	[1191 uniq] 0 | 23.455 | 21.987 | 19.652 | 25.082 | 27.303 | 33.307 | 18.794
+page_Q173_grid_timing	numeric	2400	Timing Data for Page Q173_grid	[1907 uniq] 13.801 | 34.004 | 4.339 | 0 | 33.757 | 28.53 | 23.155 | 35.027
+page_Q161_grid_timing	numeric	2400	Timing Data for Page Q161_grid	[1911 uniq] 8.385 | 13.25 | 5.099 | 18.843 | 19.689 | 15.938 | 0 | 26.234
+page_Q175_grid_timing	numeric	2400	Timing Data for Page Q175_grid	[1954 uniq] 0 | 40.033 | 5.215 | 31.874 | 31.624 | 25.168 | 32.107 | 26.192
+page_Q174_grid_timing	numeric	2400	Timing Data for Page Q174_grid	[1854 uniq] 17.708 | 0 | 4.564 | 36.693 | 52.344 | 37.564 | 34.532 | 61.507
+page_Q176_grid_timing	numeric	2400	Timing Data for Page Q176_grid	[1876 uniq] 17.999 | 45.14 | 0 | 28.241 | 44.741 | 30.372 | 43.924 | 46.227
+page_inputstate_timing	numeric	2400	Timing Data for Page inputstate	[85 uniq] 0 | 9.294 | 10.159 | 3.801 | 7.919 | 9.877 | 6.763 | 5.858
+page_ideo7_timing	numeric	2400	Timing Data for Page ideo7	[2188 uniq] 2.937 | 8.079 | 23.418 | 6.478 | 6.578 | 6.732 | 4.302 | 6.089
+page_page_pid3_timing	numeric	2400	Timing Data for Page page_pid3	[2005 uniq] 2.154 | 4.159 | 17.054 | 2.326 | 3.79 | 4.36 | 3.711 | 4.367
+page_page_pid7_timing	numeric	2400	Timing Data for Page page_pid7	[1931 uniq] 1.817 | 4.295 | 7.283 | 3.495 | 3.576 | 4.135 | 3.482 | 4.362
+page_educ7_timing	numeric	2400	Timing Data for Page educ7	[2067 uniq] 2.001 | 3.315 | 9.112 | 7.132 | 4.665 | 4.808 | 7.336 | 2.928
+page_ethnicity_timing	numeric	2400	Timing Data for Page ethnicity	[2028 uniq] 2.852 | 3.596 | 4.476 | 3.945 | 4.298 | 6.716 | 5.551 | 3.16
+page_polinterest_timing	numeric	2400	Timing Data for Page polinterest	[2041 uniq] 2.081 | 4.773 | 35.37 | 3.64 | 4.517 | 5.758 | 4.657 | 3.612
+page_approve_trmp_timing	numeric	2400	Timing Data for Page approve_trmp	[2081 uniq] 2.104 | 3.279 | 6.141 | 5.088 | 4.552 | 7.177 | 5.504 | 2.894
+page_next_intro_pg_timing	numeric	2400	Timing Data for Page next_intro_pg	[2299 uniq] 3.843 | 11.121 | 12.795 | 8.381 | 20.297 | 21.316 | 9.526 | 10.851
+page_senterm_pg_timing	numeric	2400	Timing Data for Page senterm_pg	[2111 uniq] 4.252 | 4.567 | 7.632 | 8.963 | 7.458 | 10.263 | 7.306 | 5.303
+page_presterm_pg_timing	numeric	2400	Timing Data for Page presterm_pg	[2106 uniq] 2.899 | 10.025 | 7.075 | 4.349 | 6.169 | 6.178 | 6.194 | 5.281
+page_primemin_pg_timing	numeric	2400	Timing Data for Page primemin_pg	[2151 uniq] 3.923 | 5.11 | 8.114 | 8.79 | 22.075 | 7.573 | 7.455 | 4.554
+page_houseterm_pg_timing	numeric	2400	Timing Data for Page houseterm_pg	[2142 uniq] 3.701 | 4.168 | 6.462 | 7.619 | 11.92 | 7.369 | 5.376 | 9.829
+page_cheaters_pg_timing	numeric	2400	Timing Data for Page cheaters_pg	[2235 uniq] 2.254 | 4.516 | 6.105 | 10.233 | 11.607 | 14.22 | 6.995 | 5.449
+page_serious_pg_timing	numeric	2400	Timing Data for Page serious_pg	[2230 uniq] 8.643 | 10.56 | 4.971 | 9.172 | 8.912 | 16.514 | 17.693 | 7.05
+page_comments_timing	numeric	2400	Timing Data for Page comments	[2244 uniq] 8.927 | 96.299 | 2.59 | 2.914 | 119.444 | 5.017 | 97.043 | 7.083
+Q1_order_1	factor	2400	Q1_grid row order - First	Q1_1 | Q1_2 | Q1_3 | Q1_4 | Q1_5 | Q1_6 | Q1_7 | Q1_8 | Q1_9 | Q1_10 | Q1_11 | Q1_12 | Q1_13 | Q1_14 | Q1_15 | Q1_16 | Q1_17 | Q1_18 | Q1_19 | Q1_20 | Q1_21 | Q1_22 | Q1_23 | Q1_24 | Q1_25 | Q1_26 | Q1_27 | Q1_28
+Q1_order_2	factor	2400	Q1_grid row order - Second	Q1_1 | Q1_2 | Q1_3 | Q1_4 | Q1_5 | Q1_6 | Q1_7 | Q1_8 | Q1_9 | Q1_10 | Q1_11 | Q1_12 | Q1_13 | Q1_14 | Q1_15 | Q1_16 | Q1_17 | Q1_18 | Q1_19 | Q1_20 | Q1_21 | Q1_22 | Q1_23 | Q1_24 | Q1_25 | Q1_26 | Q1_27 | Q1_28
+Q1_order_3	factor	2400	Q1_grid row order - Third	Q1_1 | Q1_2 | Q1_3 | Q1_4 | Q1_5 | Q1_6 | Q1_7 | Q1_8 | Q1_9 | Q1_10 | Q1_11 | Q1_12 | Q1_13 | Q1_14 | Q1_15 | Q1_16 | Q1_17 | Q1_18 | Q1_19 | Q1_20 | Q1_21 | Q1_22 | Q1_23 | Q1_24 | Q1_25 | Q1_26 | Q1_27 | Q1_28
+Q1_order_4	factor	2400	Q1_grid row order - Fouth	Q1_1 | Q1_2 | Q1_3 | Q1_4 | Q1_5 | Q1_6 | Q1_7 | Q1_8 | Q1_9 | Q1_10 | Q1_11 | Q1_12 | Q1_13 | Q1_14 | Q1_15 | Q1_16 | Q1_17 | Q1_18 | Q1_19 | Q1_20 | Q1_21 | Q1_22 | Q1_23 | Q1_24 | Q1_25 | Q1_26 | Q1_27 | Q1_28
+Q1_order_5	factor	2400	Q1_grid row order - Fifth	Q1_1 | Q1_2 | Q1_3 | Q1_4 | Q1_5 | Q1_6 | Q1_7 | Q1_8 | Q1_9 | Q1_10 | Q1_11 | Q1_12 | Q1_13 | Q1_14 | Q1_15 | Q1_16 | Q1_17 | Q1_18 | Q1_19 | Q1_20 | Q1_21 | Q1_22 | Q1_23 | Q1_24 | Q1_25 | Q1_26 | Q1_27 | Q1_28
+Q1_order_6	factor	2400	Q1_grid row order - Sixth	Q1_1 | Q1_2 | Q1_3 | Q1_4 | Q1_5 | Q1_6 | Q1_7 | Q1_8 | Q1_9 | Q1_10 | Q1_11 | Q1_12 | Q1_13 | Q1_14 | Q1_15 | Q1_16 | Q1_17 | Q1_18 | Q1_19 | Q1_20 | Q1_21 | Q1_22 | Q1_23 | Q1_24 | Q1_25 | Q1_26 | Q1_27 | Q1_28
+Q1_order_7	factor	2400	Q1_grid row order - Seventh	Q1_1 | Q1_2 | Q1_3 | Q1_4 | Q1_5 | Q1_6 | Q1_7 | Q1_8 | Q1_9 | Q1_10 | Q1_11 | Q1_12 | Q1_13 | Q1_14 | Q1_15 | Q1_16 | Q1_17 | Q1_18 | Q1_19 | Q1_20 | Q1_21 | Q1_22 | Q1_23 | Q1_24 | Q1_25 | Q1_26 | Q1_27 | Q1_28
+Q1_order_8	factor	2400	Q1_grid row order - Eighth	Q1_1 | Q1_2 | Q1_3 | Q1_4 | Q1_5 | Q1_6 | Q1_7 | Q1_8 | Q1_9 | Q1_10 | Q1_11 | Q1_12 | Q1_13 | Q1_14 | Q1_15 | Q1_16 | Q1_17 | Q1_18 | Q1_19 | Q1_20 | Q1_21 | Q1_22 | Q1_23 | Q1_24 | Q1_25 | Q1_26 | Q1_27 | Q1_28
+Q1_order_9	factor	2400	Q1_grid row order - Ninth	Q1_1 | Q1_2 | Q1_3 | Q1_4 | Q1_5 | Q1_6 | Q1_7 | Q1_8 | Q1_9 | Q1_10 | Q1_11 | Q1_12 | Q1_13 | Q1_14 | Q1_15 | Q1_16 | Q1_17 | Q1_18 | Q1_19 | Q1_20 | Q1_21 | Q1_22 | Q1_23 | Q1_24 | Q1_25 | Q1_26 | Q1_27 | Q1_28
+Q1_order_10	factor	2400	Q1_grid row order - Tenth	Q1_1 | Q1_2 | Q1_3 | Q1_4 | Q1_5 | Q1_6 | Q1_7 | Q1_8 | Q1_9 | Q1_10 | Q1_11 | Q1_12 | Q1_13 | Q1_14 | Q1_15 | Q1_16 | Q1_17 | Q1_18 | Q1_19 | Q1_20 | Q1_21 | Q1_22 | Q1_23 | Q1_24 | Q1_25 | Q1_26 | Q1_27 | Q1_28
+dad_order_1	factor	2400	DAD_mod grid order - First	Norms_grid | Institutions_grid | Election_grid | ElectionR_grid | RightsR_grid | Rights_grid | NormsR_grid | InstitutionsR_grid
+dad_order_2	factor	2400	DAD_mod grid order - Second	InstitutionsR_grid | Rights_grid | NormsR_grid | RightsR_grid | Institutions_grid | Norms_grid | Election_grid | ElectionR_grid
+dad_order_3	factor	2400	DAD_mod grid order - Third	Rights_grid | Norms_grid | RightsR_grid | Institutions_grid | ElectionR_grid | InstitutionsR_grid | NormsR_grid | Election_grid
+dad_order_4	factor	2400	DAD_mod grid order - Fourth	Election_grid | ElectionR_grid | Institutions_grid | InstitutionsR_grid | Norms_grid | Rights_grid | RightsR_grid | NormsR_grid
+Norms_1_order	factor	2400	Norms row order - First	Norms_4 | Norms_5 | Norms_6 | Did not see
+Norms_2_order	factor	2400	Norms row order - Second	Norms_4 | Norms_5 | Norms_6 | Did not see
+Norms_3_order	factor	2400	Norms row order - Third	Norms_4 | Norms_5 | Norms_6 | Did not see
+NormsR_1_order	factor	2400	NormsR row order - First	NormsR_1 | NormsR_2 | NormsR_3 | Did not see
+NormsR_2_order	factor	2400	NormsR row order - Second	NormsR_1 | NormsR_2 | NormsR_3 | Did not see
+NormsR_3_order	factor	2400	NormsR row order - Third	NormsR_1 | NormsR_2 | NormsR_3 | Did not see
+Institutions_1_order	factor	2400	Institutions row order - First	Institutions_4 | Institutions_5 | Institutions_6 | Did not see
+Institutions_2_order	factor	2400	Institutions row order - Second	Institutions_4 | Institutions_5 | Institutions_6 | Did not see
+Institutions_3_order	factor	2400	Institutions row order - Third	Institutions_4 | Institutions_5 | Institutions_6 | Did not see
+InstitutionsR_1_order	factor	2400	InstitutionsR row order - First	InstitutionsR_1 | InstitutionsR_2 | InstitutionsR_3 | Did not see
+InstitutionsR_2_order	factor	2400	InstitutionsR row order - Second	InstitutionsR_1 | InstitutionsR_2 | InstitutionsR_3 | Did not see
+InstitutionsR_3_order	factor	2400	InstitutionsR row order - Third	InstitutionsR_1 | InstitutionsR_2 | InstitutionsR_3 | Did not see
+Election_1_order	factor	2400	Election row order - First	Election_4 | Election_5 | Election_6 | Did not see
+Election_2_order	factor	2400	Election row order - Second	Election_4 | Election_5 | Election_6 | Did not see
+Election_3_order	factor	2400	Election row order - Third	Election_4 | Election_5 | Election_6 | Did not see
+ElectionR_1_order	factor	2400	ElectionR row order - First	ElectionR_1 | ElectionR_2 | ElectionR_3 | Did not see
+ElectionR_2_order	factor	2400	ElectionR row order - Second	ElectionR_1 | ElectionR_2 | ElectionR_3 | Did not see
+ElectionR_3_order	factor	2400	ElectionR row order - Third	ElectionR_1 | ElectionR_2 | ElectionR_3 | Did not see
+Rights_1_order	factor	2400	Rights row order - First	Rights_6 | Rights_5 | Did not see
+Rights_2_order	factor	2400	Rights row order - Second	Rights_6 | Rights_5 | Did not see
+Rights_3_order	factor	2400	Rights row order - Third	Rights_6 | Rights_5 | Did not see
+RightsR_1_order	factor	2400	RightsR row order - First	RightsR_1 | RightsR_2 | RightsR_3 | Did not see
+RightsR_2_order	factor	2400	RightsR row order - Second	RightsR_1 | RightsR_2 | RightsR_3 | Did not see
+RightsR_3_order	factor	2400	RightsR row order - Third	RightsR_1 | RightsR_2 | RightsR_3 | Did not see
+Scenario_order_1	factor	2400	Scenario_mod grid order - First	Q174_grid | Q161_grid | Q175_grid | Q173_grid | Q176_grid
+Scenario_order_2	factor	2400	Scenario_mod grid order - Second	Q173_grid | Q175_grid | Q174_grid | Q176_grid | Q161_grid
+Scenario_order_3	factor	2400	Scenario_mod grid order - Third	Q161_grid | Q175_grid | Q176_grid | Q173_grid | Q174_grid
+Scenario_order_4	factor	2400	Scenario_mod grid order - Fourth	Q176_grid | Q173_grid | Q174_grid | Q175_grid | Q161_grid
+Q161_1_order	factor	2400	Q161_grid row order - First	Q161_1 | Q161_2 | Q161_3 | Did not see
+Q161_2_order	factor	2400	Q161_grid row order - Second	Q161_1 | Q161_2 | Q161_3 | Did not see
+Q161_3_order	factor	2400	Q161_grid row order - Third	Q161_1 | Q161_2 | Q161_3 | Did not see
+Q173_1_order	factor	2400	Q173_grid row order - First	Q173_1 | Q173_2 | Q173_3 | Did not see
+Q173_2_order	factor	2400	Q173_grid row order - Second	Q173_1 | Q173_2 | Q173_3 | Did not see
+Q173_3_order	factor	2400	Q173_grid row order - Third	Q173_1 | Q173_2 | Q173_3 | Did not see
+Q174_1_order	factor	2400	Q174_grid row order - First	Q174_1 | Q174_2 | Q173_3 | Did not see
+Q174_2_order	factor	2400	Q174_grid row order - Second	Q174_1 | Q174_2 | Q173_3 | Did not see
+Q174_3_order	factor	2400	Q174_grid row order - Third	Q174_1 | Q174_2 | Q173_3 | Did not see
+Q175_1_order	factor	2400	Q175_grid row order - First	Q175_1 | Q175_2 | Q175_3 | Did not see
+Q175_2_order	factor	2400	Q175_grid row order - Second	Q175_1 | Q175_2 | Q175_3 | Did not see
+Q175_3_order	factor	2400	Q175_grid row order - Third	Q175_1 | Q175_2 | Q175_3 | Did not see
+Q176_1_order	factor	2400	Q176_grid row order - First	Q176_1 | Q176_2 | Q176_3 | Q176_4 | Did not see
+Q176_2_order	factor	2400	Q176_grid row order - Second	Q176_1 | Q176_2 | Q176_3 | Q176_4 | Did not see
+Q176_3_order	factor	2400	Q176_grid row order - Third	Q176_1 | Q176_2 | Q176_3 | Q176_4 | Did not see
+Q176_4_order	factor	2400	Q176_grid row order - Fourth	Q176_1 | Q176_2 | Q176_3 | Q176_4 | Did not see
+age	numeric	2400	Age (numerical)	[75 uniq] 42 | 69 | 67 | 72 | 66 | 59 | 64 | 52
+age9	factor	2400	Age (categorical)	Under 18 | 18 - 24 | 25 - 34 | 35 - 44 | 45 - 54 | 55 - 64 | 65 - 74 | 75 - 84 | 85 or older | skipped | not asked
+ideo7	factor	2384	Politcal ideology	Very conservative | Somewhat conservative | Slightly conservative | Moderate; middle of the road | Slightly liberal | Somewhat liberal | Very liberal | skipped | not asked
+educ7	factor	2400	Highest level of education completed	Did not graduate from high school | High school diploma or the equivalent (GED) | Some college | Associate's degree | Bachelor's degree | Master's degree | Professional or doctorate degree | skipped | not asked
+hispanic	factor	2399	Hispanic	Yes | No | skipped | not asked
+ethnicity	factor	2394	Race/Ethnicity	White | Black or African American | American Indian or Alaska Native | Asian/Pacific Islander | Multi-racial | Hispanic/Latino/Chicano/a | Other | skipped | not asked
+birthyr	numeric	2400	Birth Year	[75 uniq] 1977 | 1950 | 1952 | 1947 | 1953 | 1960 | 1955 | 1967
+gender	factor	2400	Gender	Male | Female | skipped | not asked
+race	factor	2400	Race	White | Black | Hispanic | Asian | Native American | Mixed | Other | Middle Eastern | skipped | not asked
+educ	factor	2400	Education	No HS | High school graduate | Some college | 2-year | 4-year | Post-grad | skipped | not asked
+marstat	factor	2400	Marital Status	Married | Separated | Divorced | Widowed | Never married | Domestic / civil partnership | skipped | not asked
+employ	factor	2400	Employment Status - transitional	Full-time | Part-time | Temporarily laid off | Unemployed | Retired | Permanently disabled | Homemaker | Student | Other | skipped | not asked
+faminc_new	factor	2400	Family income - transitional	Less than $10,000 | $10,000 - $19,999 | $20,000 - $29,999 | $30,000 - $39,999 | $40,000 - $49,999 | $50,000 - $59,999 | $60,000 - $69,999 | $70,000 - $79,999 | $80,000 - $99,999 | $100,000 - $119,999 | $120,000 - $149,999 | $150,000 - $199,999 | $200,000 - $249,999 | $250,000 - $349,999 | $350,00...
+pid3	factor	2400	3 point party ID	Democrat | Republican | Independent | Other | Not sure | skipped | not asked
+pid7	factor	2400	7 point Party ID	Strong Democrat | Not very strong Democrat | Lean Democrat | Independent | Lean Republican | Not very strong Republican | Strong Republican | Not sure | Don't know | skipped | not asked
+presvote16post	factor	2396	2016 President Vote Post Election	Hillary Clinton | Donald Trump | Gary Johnson | Jill Stein | Evan McMullin | Other | Did not vote for President | skipped | not asked
+inputstate	factor	2400	State of Residence	Alabama | Alaska | Arizona | Arkansas | California | Colorado | Connecticut | Delaware | District of Columbia | Florida | Georgia | Hawaii | Idaho | Illinois | Indiana | Iowa | Kansas | Kentucky | Louisiana | Maine | Maryland | Massachusetts | Michigan | Minnesota | Mississippi | Missouri | Monta...
+votereg	factor	2400	Voter Registration Status	Yes | No | Don't know | skipped | not asked
+ideo5	factor	2396	Ideology	Very liberal | Liberal | Moderate | Conservative | Very conservative | Not sure | skipped | not asked
+newsint	factor	2397	Political Interest	Most of the time | Some of the time | Only now and then | Hardly at all | Don't know | skipped | not asked
+religpew	factor	2398	Religion	Protestant | Roman Catholic | Mormon | Eastern or Greek Orthodox | Jewish | Muslim | Buddhist | Hindu | Atheist | Agnostic | Nothing in particular | Something else | skipped | not asked
+pew_churatd	factor	2399	Church attendance (Pew version)	More than once a week | Once a week | Once or twice a month | A few times a year | Seldom | Never | Don't know | skipped | not asked
+pew_bornagain	factor	2397	Born Again (Pew version)	Yes | No | skipped | not asked
+pew_religimp	factor	2399	Importance of religion (Pew version)	Very important | Somewhat important | Not too important | Not at all important | skipped | not asked
+pew_prayer	factor	2396	Frequency of Prayer (Pew version)	Several times a day | Once a day | A few times a week | Once a week | A few times a month | Seldom | Never | Don't know | skipped | not asked
+starttime	POSIXct	2400	Questionnaire Start Time	[2356 uniq] 1570557531 | 1570557126 | 1570557505 | 1570557263 | 1570557131 | 1570557117 | 1570557387 | 1570557526
+endtime	POSIXct	2400	Questionnaire End Time	[2357 uniq] 1570557846 | 1570557870 | 1570557879 | 1570557895 | 1570557920 | 1570557921 | 1570558065 | 1570558107

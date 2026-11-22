@@ -1,0 +1,124 @@
+var	class	n	label	values
+start	POSIXct	1066	Start Date	[1043 uniq] 1515588513 | 1515588586 | 1515588797 | 1515589047 | 1515589532 | 1515589317 | 1515589871 | 1515589799
+end	POSIXct	1066	End Date	[1051 uniq] 1515588886 | 1515588889 | 1515589005 | 1515589291 | 1515589848 | 1515590062 | 1515590200 | 1515590219
+status	factor	1066	Response Type	IP Address | Survey Preview | Survey Test | Imported | Spam | Survey Preview Spam | Imported Spam | Offline | Offline Survey Preview
+progress	numeric	1066	Progress	100
+duration	numeric	1066	Duration (in seconds)	[425 uniq] 373 | 302 | 208 | 243 | 316 | 744 | 329 | 420
+finished	factor	1066	Finished	False | True
+recorded_date	POSIXct	1066	Recorded Date	[1056 uniq] 1515588888 | 1515588890 | 1515589005 | 1515589291 | 1515589849 | 1515590062 | 1515590201 | 1515590219
+record_id	character	1066	Response ID	[1066 uniq] R_PzjQik8gJdkz9a9 | R_3s4xhsFtBwEGNtm | R_2WApmzCjQeLvSqS | R_26auHhk0LClUyi9 | R_2OTjeExjl0VRifJ | R_2tfcF2oDFsrm2cb | R_2OV0hv9owyNm2lT | R_2wo7fQHvrBxdzcZ
+distribution_channel	character	1066	Distribution Channel	anonymous
+language	character	1064	User Language	EN |
+thanks	factor	1066	Thank you for participating in the Bright Line Watch survey of political scienti	I agree to continue | I do not agree to continue
+perf_misconduct	factor	556	How well do the following statements describe the United States as of today? - G	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_private_gain	factor	538	How well do the following statements describe the United States as of today? - G	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_monitor_opponents	factor	552	How well do the following statements describe the United States as of today? - G	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_equal_rights	factor	561	How well do the following statements describe the United States as of today? - A	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_journalists	factor	550	How well do the following statements describe the United States as of today? - G	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_private_violence	factor	563	How well do the following statements describe the United States as of today? - G	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_free_speech	factor	566	How well do the following statements describe the United States as of today? - G	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_patriotism	factor	545	How well do the following statements describe the United States as of today? - P	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_foreign_influence	factor	547	How well do the following statements describe the United States as of today? - E	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_ban_ideology	factor	532	How well do the following statements describe the United States as of today? - P	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_voting_rights	factor	544	How well do the following statements describe the United States as of today? - A	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_votes_impact	factor	573	How well do the following statements describe the United States as of today? - A	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_election_fraud	factor	563	How well do the following statements describe the United States as of today? - E	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_expand_executive	factor	550	How well do the following statements describe the United States as of today? - E	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_legislature_check	factor	547	How well do the following statements describe the United States as of today? - T	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_judiciary_check	factor	534	How well do the following statements describe the United States as of today? - T	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_judicial_ind	factor	537	How well do the following statements describe the United States as of today? - T	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_participation	factor	556	How well do the following statements describe the United States as of today? - V	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_funds_transparent	factor	557	How well do the following statements describe the United States as of today? - I	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_contributions	factor	528	How well do the following statements describe the United States as of today? - P	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_opinions	factor	555	How well do the following statements describe the United States as of today? - C	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_districts	factor	562	How well do the following statements describe the United States as of today? - T	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_common_und	factor	568	How well do the following statements describe the United States as of today? - E	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_compromise	factor	545	How well do the following statements describe the United States as of today? - E	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_candidates_disclose	factor	537	How well do the following statements describe the United States as of today? - C	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_protest	factor	580	How well do the following statements describe the United States as of today? - G	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_investigations	factor	554	How well do the following statements describe the United States as of today? - L	Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+rating_USA	numeric	1044	On a scale from 0 to 100, where 0 is least democratic and 100 is most democratic	[81 uniq] 80 | 75 | 59 | 85 | 70 | 81 | 30 | 90
+rating_CAN	numeric	525	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[42 uniq] 100 | 90 | 81 | 71 | 91 | 40 | 83 | 94
+rating_CHN	numeric	519	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[46 uniq] 20 | 0 | 10 | 37 | 9 | 6 | 18 | 24
+rating_GBR	numeric	514	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[52 uniq] 90 | 80 | 76 | 72 | 81 | 70 | 39 | 88
+rating_IRQ	numeric	410	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[65 uniq] 40 | 19 | 25 | 20 | 44 | 49 | 10 | 30
+rating_ISR	numeric	468	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[81 uniq] 40 | 65 | 70 | 69 | 90 | 15 | 80 | 6
+rating_MEX	numeric	470	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[72 uniq] 50 | 60 | 70 | 65 | 30 | 80 | 32 | 55
+rating_PRK	numeric	540	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[21 uniq] 0 | 1 | 2 | 5 | 4 | 3 | 8 | 9
+rating_PHL	numeric	431	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[69 uniq] 40 | 19 | 50 | 30 | 14 | 20 | 28 | 31
+rating_RUS	numeric	491	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[53 uniq] 55 | 30 | 18 | 20 | 19 | 10 | 26 | 7
+rating_SAU	numeric	519	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[44 uniq] 10 | 9 | 0 | 20 | 13 | 6 | 31 | 16
+rating_TUR	numeric	476	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[62 uniq] 60 | 55 | 35 | 41 | 44 | 15 | 5 | 28
+rating_VEN	numeric	487	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[54 uniq] 40 | 19 | 20 | 30 | 0 | 4 | 22 | 25
+expert_none	factor	356	Which of the following countries, if any, have you studied, taught, or researche	None of these
+expert_CAN	factor	204	Which of the following countries, if any, have you studied, taught, or researche	Canada
+expert_CHN	factor	218	Which of the following countries, if any, have you studied, taught, or researche	China
+expert_GBR	factor	305	Which of the following countries, if any, have you studied, taught, or researche	Great Britain
+expert_IRQ	factor	117	Which of the following countries, if any, have you studied, taught, or researche	Iraq
+expert_ISR	factor	152	Which of the following countries, if any, have you studied, taught, or researche	Israel
+expert_MEX	factor	193	Which of the following countries, if any, have you studied, taught, or researche	Mexico
+expert_PRK	factor	99	Which of the following countries, if any, have you studied, taught, or researche	North Korea
+expert_PHL	factor	66	Which of the following countries, if any, have you studied, taught, or researche	Philippines
+expert_RUS	factor	203	Which of the following countries, if any, have you studied, taught, or researche	Russia
+expert_SAU	factor	95	Which of the following countries, if any, have you studied, taught, or researche	Saudi Arabia
+expert_TUR	factor	152	Which of the following countries, if any, have you studied, taught, or researche	Turkey
+expert_VEN	factor	120	Which of the following countries, if any, have you studied, taught, or researche	Venezuela
+rank	factor	1066	Finally, we have just a few questions about you. Which of the following best des	Grad Student | Post-doc | Adjunct | Faculty | Emeritus | Other
+field	factor	1065	What is your primary field of study?	American | Comparative | IR | Theory | Other (PS) | Other (not PS)
+field_text	character	954	What is your specific area of study?	[738 uniq] Eastern Europe & Latin America, Parties & Elections | Civil-military relations | International Conflict, Political Violence, Terrorism | Regime and regime change in Latin America | political behavior | Public Administration, Political Philosophy, US National Security | War, Security, ...
+comments	character	209	Do you have any comments about this survey?	[180 uniq] | thank you for doing this | No | I am glad this survey is being done periodically and I am very glad to be part of it. It provides a glimpse into how political scientists perceive our democracy at this point in time. | Good survey, although items testing pseudo-democracy should be ad...
+luth_id	character	1066	luthID	[1066 uniq] BLW0000688 | BLW0000744 | BLW0000459 | BLW0000151 | BLW0000176 | BLW0000682 | BLW0000771 | BLW0000197
+wave	numeric	1066		4
+imp_misconduct	factor	0	Q3_1	Not relevant | Beneficial | Important | Essential
+imp_private_gain	factor	0	Q3_2	Not relevant | Beneficial | Important | Essential
+imp_monitor_opponents	factor	0	Q3_3	Not relevant | Beneficial | Important | Essential
+imp_equal_rights	factor	0	Q3_4	Not relevant | Beneficial | Important | Essential
+imp_journalists	factor	0	Q3_5	Not relevant | Beneficial | Important | Essential
+imp_private_violence	factor	0	Q3_6	Not relevant | Beneficial | Important | Essential
+imp_free_speech	factor	0	Q3_7	Not relevant | Beneficial | Important | Essential
+imp_patriotism	factor	0	Q3_8	Not relevant | Beneficial | Important | Essential
+imp_foreign_influence	factor	0	Q3_9	Not relevant | Beneficial | Important | Essential
+imp_ban_ideology	factor	0	Q3_10	Not relevant | Beneficial | Important | Essential
+imp_voting_rights	factor	0	Q3_11	Not relevant | Beneficial | Important | Essential
+imp_votes_impact	factor	0	Q3_12	Not relevant | Beneficial | Important | Essential
+imp_election_fraud	factor	0	Q3_13	Not relevant | Beneficial | Important | Essential
+imp_expand_executive	factor	0	Q3_14	Not relevant | Beneficial | Important | Essential
+imp_legislature_check	factor	0	Q3_15	Not relevant | Beneficial | Important | Essential
+imp_judiciary_check	factor	0	Q3_16	Not relevant | Beneficial | Important | Essential
+imp_judicial_ind	factor	0	Q3_17	Not relevant | Beneficial | Important | Essential
+imp_participation	factor	0	Q3_18	Not relevant | Beneficial | Important | Essential
+imp_funds_transparent	factor	0	Q3_19	Not relevant | Beneficial | Important | Essential
+imp_contributions	factor	0	Q3_20	Not relevant | Beneficial | Important | Essential
+imp_opinions	factor	0	Q3_21	Not relevant | Beneficial | Important | Essential
+imp_districts	factor	0	Q3_22	Not relevant | Beneficial | Important | Essential
+imp_common_und	factor	0	Q3_23	Not relevant | Beneficial | Important | Essential
+imp_compromise	factor	0	Q3_24	Not relevant | Beneficial | Important | Essential
+imp_candidates_disclose	factor	0	Q3_25	Not relevant | Beneficial | Important | Essential
+imp_protest	factor	0	Q3_26	Not relevant | Beneficial | Important | Essential
+imp_investigations	factor	0	Q3_27	Not relevant | Beneficial | Important | Essential
+us_2017_sept	numeric	0	Q5_1	
+how_imp_dem	numeric	0	Q10	
+record_date	character	0		
+recordID	character	0		
+distrib_channel	character	0		
+agree_to_continue	character	0		
+imp_science	factor	0		Not relevant | Beneficial | Important | Essential
+imp_restraint	factor	0		Not relevant | Beneficial | Important | Essential
+imp_judicial_independence	factor	0		Not relevant | Beneficial | Important | Essential
+perf_science	factor	0		Not sure | Does not meet | Partly meets | Mostly meets | Fully meets
+perf_restraint	factor	0		Not sure | Does not meet | Partly meets | Mostly meets | Fully meets
+perf_judicial_independence	factor	0		Not sure | Does not meet | Partly meets | Mostly meets | Fully meets
+perf_democracy_today	numeric	0		
+perf_contributions_determine	factor	0		Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_common_understanding	factor	0		Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+US_2017	numeric	0		
+US_2015	numeric	0		
+US_2005	numeric	0		
+US_1995	numeric	0		
+US_1985	numeric	0		
+US_1975	numeric	0		
+US_1950	numeric	0		
+US_1900	numeric	0		
+US_1850	numeric	0		
+US_1800	numeric	0		
+US_democracy_rating	numeric	1044	Rating of U.S. democracy (January 2018)	[81 uniq] 80 | 75 | 59 | 85 | 70 | 81 | 30 | 90

@@ -1,0 +1,341 @@
+var	class	n	label	values
+StartDate	POSIXct	738	Start Date	[734 uniq] 1570538306 | 1570538794 | 1570542042 | 1570542288 | 1570542310 | 1570542320 | 1570542349 | 1570542616
+EndDate	POSIXct	738	End Date	[732 uniq] 1570538410 | 1570538868 | 1570542274 | 1570542573 | 1570542611 | 1570542614 | 1570542810 | 1570542872
+Status	haven_labelled	738	Response Type	0=IP Address | 1=Survey Preview | 2=Survey Test | 4=Imported | 8=Spam | 9=Survey Preview Spam | 12=Imported Spam | 16=Offline | 17=Offline Survey Preview | 32=ex | 40=EX Spam | 48=EX Offline
+Progress	numeric	738	Progress	[13 uniq] 100 | 2 | 55 | 68 | 59 | 3 | 93 | 8
+Duration__in_seconds_	numeric	738	Duration (in seconds)	[522 uniq] 104 | 73 | 231 | 284 | 300 | 294 | 461 | 255
+Finished	haven_labelled	738	Finished	0=False | 1=True
+RecordedDate	POSIXct	738	Recorded Date	[733 uniq] 1570538411 | 1570538868 | 1570542274 | 1570542573 | 1570542611 | 1570542615 | 1570542811 | 1570542873
+ResponseId	character	738	Response ID	[738 uniq] R_2ASisEjRN9YrMkv | R_2dyYdf6cLsxfUiP | R_3J94iXJGa6RxMy1 | R_3MLNNYwQPISHwff | R_RUpaegkS5UKDst3 | R_tVEP7yzJznsuQut | R_sL2hPgZWvMh45vr | R_3kFlP2S6pPdG69l
+DistributionChannel	character	738	Distribution Channel	anonymous
+UserLanguage	character	738	User Language	EN
+Q1_1	haven_labelled	738	Thank you for participating in the Bright Line Watch survey of political scienti	1=I agree to continue. | 2=I do not agree to continue.
+Q2_1_First_Click	numeric	732	Timing - First Click	[32 uniq] 0 | 1.567 | 13.431 | 1.232 | 5.898 | 2.514 | 2.662 | 5.262
+Q2_1_Last_Click	numeric	732	Timing - Last Click	[32 uniq] 0 | 1.567 | 13.431 | 1.232 | 8.61 | 6.786 | 2.662 | 5.262
+Q2_1_Page_Submit	numeric	732	Timing - Page Submit	[703 uniq] 1.534 | 1.4 | 6.862 | 1.402 | 1.604 | 2.357 | 17.701 | 2.666
+Q2_1_Click_Count	numeric	732	Timing - Click Count	0 | 1 | 3 | 2
+Q158_1	haven_labelled	231	How well do the following statements describe the United States as of today? - G	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_2	haven_labelled	237	How well do the following statements describe the United States as of today? - G	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_3	haven_labelled	255	How well do the following statements describe the United States as of today? - G	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_4	haven_labelled	255	How well do the following statements describe the United States as of today? - A	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_5	haven_labelled	264	How well do the following statements describe the United States as of today? - G	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_6	haven_labelled	247	How well do the following statements describe the United States as of today? - G	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_7	haven_labelled	258	How well do the following statements describe the United States as of today? - G	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_8	haven_labelled	254	How well do the following statements describe the United States as of today? - P	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_9	haven_labelled	270	How well do the following statements describe the United States as of today? - E	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_10	haven_labelled	256	How well do the following statements describe the United States as of today? - P	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_11	haven_labelled	253	How well do the following statements describe the United States as of today? - A	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_12	haven_labelled	237	How well do the following statements describe the United States as of today? - A	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_13	haven_labelled	256	How well do the following statements describe the United States as of today? - E	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_14	haven_labelled	233	How well do the following statements describe the United States as of today? - E	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_15	haven_labelled	271	How well do the following statements describe the United States as of today? - T	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_16	haven_labelled	256	How well do the following statements describe the United States as of today? - T	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_17	haven_labelled	229	How well do the following statements describe the United States as of today? - T	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_18	haven_labelled	261	How well do the following statements describe the United States as of today? - V	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_19	haven_labelled	251	How well do the following statements describe the United States as of today? - I	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_20	haven_labelled	250	How well do the following statements describe the United States as of today? - P	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_21	haven_labelled	234	How well do the following statements describe the United States as of today? - C	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_22	haven_labelled	233	How well do the following statements describe the United States as of today? - T	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_23	haven_labelled	255	How well do the following statements describe the United States as of today? - E	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_24	haven_labelled	252	How well do the following statements describe the United States as of today? - E	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_25	haven_labelled	238	How well do the following statements describe the United States as of today? - C	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_26	haven_labelled	238	How well do the following statements describe the United States as of today? - G	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_27	haven_labelled	224	How well do the following statements describe the United States as of today? - L	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_28	haven_labelled	242	How well do the following statements describe the United States as of today? - G	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q158_DO_1	numeric	231	How well do the following statements describe the United States as of today? - D	[10 uniq] 3 | 4 | 9 | 5 | 8 | 2 | 1 | 10
+Q158_DO_2	numeric	238	How well do the following statements describe the United States as of today? - D	[10 uniq] 7 | 4 | 1 | 8 | 3 | 6 | 10 | 9
+Q158_DO_3	numeric	255	How well do the following statements describe the United States as of today? - D	[10 uniq] 8 | 2 | 7 | 3 | 1 | 4 | 9 | 10
+Q158_DO_4	numeric	255	How well do the following statements describe the United States as of today? - D	[10 uniq] 4 | 3 | 6 | 9 | 2 | 7 | 1 | 5
+Q158_DO_5	numeric	264	How well do the following statements describe the United States as of today? - D	[10 uniq] 9 | 4 | 5 | 10 | 8 | 7 | 1 | 6
+Q158_DO_6	numeric	247	How well do the following statements describe the United States as of today? - D	[10 uniq] 1 | 8 | 7 | 10 | 2 | 4 | 3 | 6
+Q158_DO_7	numeric	258	How well do the following statements describe the United States as of today? - D	[10 uniq] 10 | 1 | 6 | 8 | 9 | 7 | 3 | 4
+Q158_DO_8	numeric	255	How well do the following statements describe the United States as of today? - D	[10 uniq] 5 | 8 | 1 | 9 | 7 | 3 | 2 | 6
+Q158_DO_9	numeric	271	How well do the following statements describe the United States as of today? - D	[10 uniq] 6 | 3 | 9 | 4 | 8 | 7 | 2 | 1
+Q158_DO_10	numeric	256	How well do the following statements describe the United States as of today? - D	[10 uniq] 3 | 7 | 8 | 1 | 5 | 4 | 10 | 6
+Q158_DO_11	numeric	253	How well do the following statements describe the United States as of today? - D	[10 uniq] 2 | 1 | 5 | 6 | 3 | 8 | 9 | 7
+Q158_DO_12	numeric	237	How well do the following statements describe the United States as of today? - D	[10 uniq] 1 | 6 | 9 | 10 | 2 | 4 | 5 | 7
+Q158_DO_13	numeric	257	How well do the following statements describe the United States as of today? - D	[10 uniq] 7 | 9 | 5 | 4 | 8 | 10 | 1 | 3
+Q158_DO_14	numeric	233	How well do the following statements describe the United States as of today? - D	[10 uniq] 5 | 7 | 10 | 6 | 1 | 3 | 2 | 9
+Q158_DO_15	numeric	271	How well do the following statements describe the United States as of today? - D	[10 uniq] 6 | 4 | 2 | 9 | 10 | 7 | 5 | 3
+Q158_DO_16	numeric	256	How well do the following statements describe the United States as of today? - D	[10 uniq] 3 | 6 | 2 | 9 | 1 | 7 | 5 | 10
+Q158_DO_17	numeric	230	How well do the following statements describe the United States as of today? - D	[10 uniq] 3 | 4 | 9 | 2 | 5 | 1 | 10 | 8
+Q158_DO_18	numeric	263	How well do the following statements describe the United States as of today? - D	[10 uniq] 10 | 2 | 5 | 8 | 3 | 1 | 7 | 6
+Q158_DO_19	numeric	252	How well do the following statements describe the United States as of today? - D	[10 uniq] 8 | 1 | 10 | 5 | 4 | 7 | 9 | 3
+Q158_DO_20	numeric	250	How well do the following statements describe the United States as of today? - D	[10 uniq] 3 | 5 | 4 | 6 | 2 | 9 | 8 | 10
+Q158_DO_21	numeric	234	How well do the following statements describe the United States as of today? - D	[10 uniq] 7 | 1 | 5 | 6 | 2 | 4 | 8 | 10
+Q158_DO_22	numeric	234	How well do the following statements describe the United States as of today? - D	[10 uniq] 9 | 4 | 6 | 3 | 2 | 10 | 1 | 5
+Q158_DO_23	numeric	255	How well do the following statements describe the United States as of today? - D	[10 uniq] 4 | 8 | 1 | 5 | 3 | 10 | 9 | 2
+Q158_DO_24	numeric	252	How well do the following statements describe the United States as of today? - D	[10 uniq] 2 | 10 | 5 | 1 | 6 | 7 | 9 | 8
+Q158_DO_25	numeric	239	How well do the following statements describe the United States as of today? - D	[10 uniq] 2 | 10 | 5 | 4 | 3 | 9 | 6 | 1
+Q158_DO_26	numeric	238	How well do the following statements describe the United States as of today? - D	[10 uniq] 10 | 7 | 8 | 5 | 6 | 4 | 1 | 9
+Q158_DO_27	numeric	224	How well do the following statements describe the United States as of today? - D	[10 uniq] 5 | 3 | 8 | 7 | 6 | 9 | 10 | 4
+Q158_DO_28	numeric	242	How well do the following statements describe the United States as of today? - D	[10 uniq] 9 | 10 | 6 | 2 | 4 | 5 | 7 | 8
+Q3_1_First_Click	numeric	693	Timing - First Click	[675 uniq] 1.949 | 1.494 | 3.192 | 7.296 | 5.744 | 13.721 | 8.024 | 4.303
+Q3_1_Last_Click	numeric	693	Timing - Last Click	[687 uniq] 1.949 | 1.494 | 3.192 | 7.296 | 12.827 | 13.721 | 8.024 | 4.303
+Q3_1_Page_Submit	numeric	693	Timing - Page Submit	[685 uniq] 2.664 | 2.854 | 5.716 | 7.947 | 13.739 | 15.536 | 8.776 | 6.191
+Q3_1_Click_Count	numeric	693	Timing - Click Count	[15 uniq] 1 | 2 | 3 | 4 | 5 | 6 | 43 | 13
+Q3_2_1	numeric	690	On a scale from 0 to 100, where 0 is least democratic and 100 is most democratic	[78 uniq] 100 | 57 | 73 | 90 | 74 | 70 | 65 | 30
+Q4_1	haven_labelled	690	Now we'd like to ask you a question about democracy in your state. In which stat	1=Alabama | 2=Alaska | 3=Arizona | 4=Arkansas | 5=California | 6=Colorado | 7=Connecticut | 8=Delaware | 9=District of Columbia | 10=Florida | 11=Georgia | 12=Hawaii | 13=Idaho | 14=Illinois | 15=Indiana | 16=Iowa | 17=Kansas | 18=Kentucky | 19=Louisiana | 20=Maine | 21=Maryland | 22=Massachusett...
+Q5_1_1	numeric	685	Now using the same 0 to 100 scale as previously, how would you rate the politica	[81 uniq] 100 | 83 | 99 | 70 | 65 | 31 | 80 | 76
+Q5_2	haven_labelled	691	How important is it for you to live in a country that is governed democratically	1=Not at all important1 | 2=2 | 3=3 | 4=4 | 5=5 | 6=6 | 7=7 | 8=8 | 9=9 | 10=Absolutely important10
+Q6_1_First_Click	numeric	690	Timing - First Click	[96 uniq] 0 | 3.316 | 4.355 | 6.779 | 5.424 | 1.062 | 2.464 | 2.157
+Q6_1_Last_Click	numeric	690	Timing - Last Click	[96 uniq] 0 | 13.949 | 5.299 | 57.303 | 22.439 | 2.335 | 2.464 | 2.157
+Q6_1_Page_Submit	numeric	690	Timing - Page Submit	[684 uniq] 2.04 | 1.258 | 5.312 | 30.45 | 7.915 | 16.159 | 8.324 | 9.84
+Q6_1_Click_Count	numeric	690	Timing - Click Count	[12 uniq] 0 | 3 | 2 | 5 | 11 | 1 | 10 | 50
+Q7_1_First_Click	numeric	247	Timing - First Click	[245 uniq] 1.07 | 9.731 | 4.475 | 2.412 | 8.112 | 4.535 | 4.386 | 8.688
+Q7_1_Last_Click	numeric	247	Timing - Last Click	[247 uniq] 4.591 | 11.777 | 62.445 | 3.899 | 16.137 | 8.753 | 51.993 | 12.44
+Q7_1_Page_Submit	numeric	247	Timing - Page Submit	[247 uniq] 5.654 | 15.351 | 63.292 | 17.061 | 17.718 | 10.317 | 57.189 | 22.001
+Q7_1_Click_Count	numeric	247	Timing - Click Count	[10 uniq] 5 | 2 | 3 | 4 | 6 | 10 | 9 | 7
+Q7_3	haven_labelled	247	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q7_4	haven_labelled	247	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q7_5	character	75	Please comment on your responses above (optional).	[76 uniq] test | | Joking about previously agreed-upon norms and Constitutional amendments is another example of authoritarian populism, and undermines the rule of law. | There's no good reason for a democratic officer to make such ""jokes."" | It's not a funny joke - given that peaceful transitio...
+Q8_1_First_Click	numeric	232	Timing - First Click	[230 uniq] 2.129 | 5.076 | 15.076 | 3.769 | 6.256 | 8.936 | 9.538 | 7.527
+Q8_1_Last_Click	numeric	232	Timing - Last Click	[232 uniq] 2.129 | 10.16 | 16.838 | 5.935 | 106.236 | 25.473 | 62.722 | 9.39
+Q8_1_Page_Submit	numeric	232	Timing - Page Submit	[231 uniq] 2.132 | 12.372 | 18.247 | 7.611 | 107.141 | 82.601 | 73.787 | 18.685
+Q8_1_Click_Count	numeric	232	Timing - Click Count	[12 uniq] 1 | 2 | 6 | 4 | 3 | 14 | 39 | 5
+Q8_3	haven_labelled	230	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q8_4	haven_labelled	230	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q8_5	character	59	Please comment on your responses above (optional).	[60 uniq] | In itself, this could be construed as one branch of government jealously protecting its ""turf"". In the current context, however, it appears to be more of a pattern of obfuscation to protect a president in a manner that violates principles of the rule of law. | Strikes at heart of Con...
+Q10_1_First_Click	numeric	234	Timing - First Click	[232 uniq] 4.445 | 5.141 | 9.637 | 8.553 | 6.368 | 5.991 | 5.432 | 5.434
+Q10_1_Last_Click	numeric	234	Timing - Last Click	[233 uniq] 8.18 | 7.94 | 11.246 | 15.621 | 15.768 | 7.976 | 7.832 | 15.762
+Q10_1_Page_Submit	numeric	234	Timing - Page Submit	[234 uniq] 10.436 | 9.771 | 13.042 | 48.137 | 110.797 | 9.913 | 31.488 | 18.105
+Q10_1_Click_Count	numeric	234	Timing - Click Count	[12 uniq] 2 | 3 | 5 | 4 | 7 | 15 | 6 | 8
+Q10_3	haven_labelled	233	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q10_4	haven_labelled	234	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q10_5	character	58	Please comment on your responses above (optional).	[59 uniq] | What's abnormal (and important) is the motivation for adding the question. | Motivation aside, census should collect as much information at 10 year snap shots as possible and this is a legitimate inquiry in a changing society in terms of information needed for sound programming. Imp...
+Q12_1_First_Click	numeric	252	Timing - First Click	[246 uniq] 0.895 | 3.519 | 5.104 | 5.957 | 5.394 | 5.098 | 4.115 | 3.827
+Q12_1_Last_Click	numeric	252	Timing - Last Click	[249 uniq] 3.888 | 5.004 | 152.348 | 12.183 | 7.699 | 13.388 | 7.563 | 5.248
+Q12_1_Page_Submit	numeric	252	Timing - Page Submit	[251 uniq] 14.708 | 6.831 | 153.813 | 14.942 | 12.123 | 17.961 | 43.426 | 6.73
+Q12_1_Click_Count	numeric	252	Timing - Click Count	[14 uniq] 5 | 2 | 10 | 3 | 8 | 6 | 4 | 9
+Q12_3	haven_labelled	251	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q12_4	haven_labelled	251	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q12_5	character	65	Please comment on your responses above (optional).	[66 uniq] test | | The comment was both ignorant and nativist. It's the action of a demagogue rather than a democratic leader. | Implicitly racist and un-American, every American but natives are immigrants. | In the context of the President's other actions and words, this statement's importances...
+Q18_1_First_Click	numeric	248	Timing - First Click	[244 uniq] 1.246 | 7.459 | 4.231 | 12.486 | 49.444 | 7.947 | 14.959 | 4.663
+Q18_1_Last_Click	numeric	248	Timing - Last Click	[245 uniq] 3.147 | 9.095 | 7.078 | 13.502 | 52.692 | 15.179 | 30.593 | 8.574
+Q18_1_Page_Submit	numeric	248	Timing - Page Submit	[245 uniq] 4.265 | 10.139 | 8.795 | 14.819 | 55.329 | 46.635 | 35.353 | 10.473
+Q18_1_Click_Count	numeric	248	Timing - Click Count	[13 uniq] 3 | 2 | 6 | 4 | 8 | 5 | 16 | 15
+Q18_3	haven_labelled	244	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q18_4	haven_labelled	245	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q18_5	character	49	Please comment on your responses above (optional).	[50 uniq] test | | Executive-congressional clashes over foreign policy are normal; Trump's misuse/expansion of emergency power statutes (themselves poorly written) is troubling. | This may be a bit abnormal, but who cares what Congress thinks if they aren't expressly forbidding him from doing so...
+Q19_1_First_Click	numeric	222	Timing - First Click	[221 uniq] 3.843 | 8.812 | 4.079 | 9.802 | 3.894 | 8.249 | 5.624 | 2.691
+Q19_1_Last_Click	numeric	222	Timing - Last Click	[221 uniq] 5.641 | 10.196 | 5.886 | 100.722 | 9.715 | 18.225 | 170.782 | 5.059
+Q19_1_Page_Submit	numeric	222	Timing - Page Submit	[219 uniq] 7.674 | 11.912 | 8.501 | 100.728 | 15.226 | 18.229 | 170.811 | 9.867
+Q19_1_Click_Count	numeric	222	Timing - Click Count	[14 uniq] 2 | 6 | 3 | 12 | 4 | 7 | 26 | 8
+Q19_3	haven_labelled	220	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q19_4	haven_labelled	220	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q19_5	character	47	Please comment on your responses above (optional).	[48 uniq] | I don't know how important this is. Perhaps it is very important. Perhaps not. | Crazy. | Don't like use of terms ""normal"" and ""abnormal"" Who defines ""normal"" Would prefer to use ""usual"" and ""unusual"" | Suggests that the president cannot be trusted with classified information. Lea...
+Q20_1_First_Click	numeric	230	Timing - First Click	[226 uniq] 1.264 | 7.275 | 5.505 | 3.639 | 8.72 | 2.534 | 5.561 | 4.086
+Q20_1_Last_Click	numeric	230	Timing - Last Click	[229 uniq] 4.864 | 8.266 | 7.946 | 4.886 | 36.329 | 4.19 | 7.138 | 7.991
+Q20_1_Page_Submit	numeric	230	Timing - Page Submit	[229 uniq] 7.02 | 9.387 | 9.595 | 7.893 | 37.073 | 13.143 | 8.464 | 9.621
+Q20_1_Click_Count	numeric	230	Timing - Click Count	[11 uniq] 5 | 2 | 6 | 3 | 4 | 18 | 10 | 11
+Q20_3	haven_labelled	230	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q20_4	haven_labelled	230	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q20_5	character	68	Please comment on your responses above (optional).	[69 uniq] test | | Another corruption of the rule of law, which is fundamental to functioning democratic governance. | Shows complete contempt for the Constitution. | There could be exceptions under certain circumstances but the facts do not warrant it in this case. | This is a breakdown in the ...
+Q22_1_First_Click	numeric	261	Timing - First Click	[257 uniq] 5.502 | 7.384 | 4.503 | 5.779 | 12.18 | 5.22 | 4.925 | 8.453
+Q22_1_Last_Click	numeric	261	Timing - Last Click	[255 uniq] 10.665 | 9.758 | 12.112 | 9.223 | 16.189 | 123.051 | 6.885 | 16.484
+Q22_1_Page_Submit	numeric	261	Timing - Page Submit	[259 uniq] 19.138 | 11.519 | 14.687 | 12.11 | 19.943 | 127.602 | 8.987 | 21.073
+Q22_1_Click_Count	numeric	261	Timing - Click Count	[14 uniq] 2 | 3 | 6 | 7 | 13 | 4 | 5 | 17
+Q22_3	haven_labelled	259	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q22_4	haven_labelled	260	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q22_5	character	40	Please comment on your responses above (optional).	[41 uniq] | Most experts agreed that NAFTA needed to be updated, but Trump's methods for getting to that signing, his insistence on renaming the deal, as well as his overall ineptitude with Congress turned the process into a liability for the administration and the US rather than a win. | Presid...
+Q24_1_First_Click	numeric	249	Timing - First Click	[245 uniq] 4.756 | 8.135 | 6.578 | 4.005 | 6.874 | 14.89 | 10.522 | 6.321
+Q24_1_Last_Click	numeric	249	Timing - Last Click	[247 uniq] 7.017 | 9.433 | 32.638 | 6.948 | 71.213 | 23.467 | 13.068 | 14.815
+Q24_1_Page_Submit	numeric	249	Timing - Page Submit	[247 uniq] 8.406 | 12.453 | 34.124 | 9.728 | 71.97 | 118.146 | 14.542 | 15.483
+Q24_1_Click_Count	numeric	249	Timing - Click Count	[14 uniq] 2 | 4 | 3 | 5 | 8 | 13 | 37 | 11
+Q24_3	haven_labelled	248	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q24_4	haven_labelled	249	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q24_5	character	68	Please comment on your responses above (optional).	[69 uniq] | Climate change is a big deal, but the exercise of power itself wasn't that unusual. | It's not unusual for a political party to act in ways that protect their constituents. Given the rate of climate change, this is an unfortunate part of the democratic process, though. | Normal in se...
+Q27_1_First_Click	numeric	256	Timing - First Click	[252 uniq] 2.683 | 8.57 | 5.086 | 2.793 | 7.564 | 10.976 | 4.51 | 7.164
+Q27_1_Last_Click	numeric	256	Timing - Last Click	[255 uniq] 2.683 | 10.909 | 6.973 | 4.097 | 9.926 | 36.265 | 7.973 | 9.089
+Q27_1_Page_Submit	numeric	256	Timing - Page Submit	[255 uniq] 2.686 | 12.826 | 8.983 | 6.229 | 11.604 | 68.601 | 9.665 | 11.156
+Q27_1_Click_Count	numeric	256	Timing - Click Count	[12 uniq] 1 | 2 | 4 | 3 | 6 | 5 | 11 | 9
+Q27_3	haven_labelled	254	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q27_4	haven_labelled	254	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q27_5	character	61	Please comment on your responses above (optional).	[62 uniq] | We have to have accurate information that the people trust to have a democracy. | Undermines the idea of there being any ""truth"" - which is damaging to the democracy in itself. | The president isn't a meteorologist. He needs to leave the weather to the experts. It's abnormal and impo...
+Q30_1_First_Click	numeric	251	Timing - First Click	[241 uniq] 2.089 | 2.671 | 3.08 | 4.392 | 3.275 | 4.029 | 3.797 | 3.48
+Q30_1_Last_Click	numeric	251	Timing - Last Click	[249 uniq] 2.089 | 4.734 | 4.138 | 25.06 | 4.499 | 7.949 | 71.533 | 5.799
+Q30_1_Page_Submit	numeric	251	Timing - Page Submit	[251 uniq] 2.092 | 7.961 | 7.029 | 36.725 | 6.258 | 13.195 | 129.006 | 63.79
+Q30_1_Click_Count	numeric	251	Timing - Click Count	[12 uniq] 1 | 2 | 5 | 3 | 10 | 4 | 6 | 8
+Q30_3	haven_labelled	250	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q30_4	haven_labelled	250	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q30_5	character	76	Please comment on your responses above (optional).	[76 uniq] | This is impeachable behavior by any historical standard. | it is an abuse of power, even apart from the fact that it's a foreign country and even it is not technically ""quid pro quo."" Presidents have NO business stirring up investigations/prosecutions of American systems. Weaponizing...
+Q32_1_First_Click	numeric	229	Timing - First Click	[227 uniq] 2.269 | 5.01 | 5.514 | 4.864 | 5.688 | 10.236 | 193.236 | 21.083
+Q32_1_Last_Click	numeric	229	Timing - Last Click	[228 uniq] 2.269 | 6.473 | 16.205 | 44.607 | 6.874 | 13.524 | 195.449 | 25.668
+Q32_1_Page_Submit	numeric	229	Timing - Page Submit	[227 uniq] 2.273 | 10.979 | 35.524 | 66.201 | 9.709 | 15.22 | 197.21 | 26.867
+Q32_1_Click_Count	numeric	229	Timing - Click Count	[11 uniq] 1 | 2 | 4 | 6 | 3 | 8 | 5 | 12
+Q32_3	haven_labelled	224	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q32_4	haven_labelled	226	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q32_5	character	35	Please comment on your responses above (optional).	[36 uniq] | Seemingly normal, but it was clearly tied to Trump's personal political agenda at the time. | My understanding is giving such medals to those who have done well in their careers is normal. | Once again, you are begging the question | Depends on the worth of their accomplishment to th...
+Q33_1_First_Click	numeric	241	Timing - First Click	[240 uniq] 1.092 | 2.264 | 3.969 | 7.724 | 15.323 | 7.485 | 3.557 | 3.419
+Q33_1_Last_Click	numeric	241	Timing - Last Click	[240 uniq] 3.274 | 2.264 | 6.908 | 8.941 | 112.306 | 65.614 | 6.253 | 7.139
+Q33_1_Page_Submit	numeric	241	Timing - Page Submit	[240 uniq] 4.506 | 2.267 | 8.771 | 10.893 | 114.517 | 69.075 | 7.539 | 8.966
+Q33_1_Click_Count	numeric	241	Timing - Click Count	[9 uniq] 4 | 1 | 2 | 3 | 6 | 5 | 22 | 9
+Q33_3	haven_labelled	240	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q33_4	haven_labelled	240	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q33_5	character	42	Please comment on your responses above (optional).	[43 uniq] test | | Falls into line with current health thinking, especially re marketing to young. Could be very important but studies still recent on effects of e-cigs in general, so marked only mostly here | An arbitrary an abrupt decision rather than the end point of a policy process. | It's...
+Q501_First_Click	numeric	224	Timing - First Click	[221 uniq] 2.041 | 6.694 | 7.451 | 6.293 | 4.499 | 6.926 | 6.627 | 9.386
+Q501_Last_Click	numeric	224	Timing - Last Click	[223 uniq] 2.041 | 8.71 | 10.533 | 9.485 | 8.939 | 77.633 | 19.384 | 26.225
+Q501_Page_Submit	numeric	224	Timing - Page Submit	[224 uniq] 2.044 | 10.547 | 12.957 | 11.004 | 10.326 | 126.425 | 20.375 | 74.836
+Q501_Click_Count	numeric	224	Timing - Click Count	[14 uniq] 1 | 2 | 3 | 18 | 4 | 5 | 12 | 9
+Q503	haven_labelled	223	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q504	haven_labelled	223	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q505	character	50	Please comment on your responses above (optional).	[51 uniq] | It is not unacceptable for American elected officials to participate in a military parade but for the president to hold one under these circumstances is not only unusual but sends a potentially dangerous message about the relationship of the military with civilian government. | Quest...
+Q495_First_Click	numeric	231	Timing - First Click	[231 uniq] 4.18 | 9.947 | 7.028 | 4.305 | 10.78 | 12.388 | 4.224 | 7.017
+Q495_Last_Click	numeric	231	Timing - Last Click	[231 uniq] 6.026 | 62.266 | 11.316 | 5.825 | 81.959 | 21.122 | 8.395 | 10
+Q495_Page_Submit	numeric	231	Timing - Page Submit	[229 uniq] 7.877 | 64.2 | 13.597 | 8.119 | 83.438 | 23.02 | 9.204 | 10.823
+Q495_Click_Count	numeric	231	Timing - Click Count	[15 uniq] 2 | 5 | 14 | 4 | 3 | 7 | 12 | 6
+Q497	haven_labelled	230	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q498	haven_labelled	231	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q499	character	60	Please comment on your responses above (optional).	[61 uniq] | Importance attached given ideological shift in direction of lower coursts and long term effort of these appointees. | It is acceptable from a procedural and constitutional acceptable but the overall political trend is a little disturbing. | Once more - Do not like use of terms ""norma...
+Q506_First_Click	numeric	243	Timing - First Click	[238 uniq] 1.295 | 6.346 | 4.262 | 6.895 | 3.959 | 10.32 | 5.883 | 14.506
+Q506_Last_Click	numeric	243	Timing - Last Click	[239 uniq] 4.783 | 7.618 | 7.916 | 11.922 | 5.207 | 20.356 | 8.722 | 16.861
+Q506_Page_Submit	numeric	243	Timing - Page Submit	[243 uniq] 7.186 | 8.705 | 9.673 | 74.434 | 6.533 | 21.485 | 10.311 | 18.28
+Q506_Click_Count	numeric	243	Timing - Click Count	[11 uniq] 5 | 2 | 3 | 4 | 6 | 9 | 8 | 7
+Q508	haven_labelled	243	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q509	haven_labelled	243	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q510	character	54	Please comment on your responses above (optional).	[55 uniq] test | | In itself, a minor episode, but it the bald effort to cover up the facts of the situation and the refusal to acknowledge a mistake are alarming. | Did I mention that the guy is an idiot? | That was dangerous, a threat to 1) straight public safety 2) damages the trust necessar...
+Q516_First_Click	numeric	242	Timing - First Click	[240 uniq] 3.69 | 4.407 | 4.191 | 6.226 | 7.425 | 5.948 | 5.366 | 6.68
+Q516_Last_Click	numeric	242	Timing - Last Click	[238 uniq] 37.976 | 5.983 | 53.936 | 17.547 | 23.917 | 8.26 | 12.124 | 216.448
+Q516_Page_Submit	numeric	242	Timing - Page Submit	[241 uniq] 75.155 | 8.668 | 55.486 | 35.599 | 25.54 | 9.467 | 14.228 | 217.687
+Q516_Click_Count	numeric	242	Timing - Click Count	[12 uniq] 9 | 2 | 6 | 3 | 14 | 4 | 5 | 11
+Q518	haven_labelled	242	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q519	haven_labelled	242	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q520	character	59	Please comment on your responses above (optional).	[60 uniq] | The only reason it isn't fully ""important"" is because most people (though not everyone) don't take such Tweets from Trump literally or seriously. | Yet another subversion of rule of law and demonizing of political opponents. This action smacks of a weak authoritarian ruler. | No comm...
+Q182_First_Click	numeric	359	Timing - First Click	[15 uniq] 0 | 5.184 | 4.979 | 1.633 | 1.419 | 23.224 | 1.183 | 4.811
+Q182_Last_Click	numeric	359	Timing - Last Click	[15 uniq] 0 | 5.184 | 4.979 | 1.633 | 1.419 | 23.224 | 1.183 | 4.811
+Q182_Page_Submit	numeric	359	Timing - Page Submit	[344 uniq] 1.641 | 1.684 | 1.579 | 1.755 | 3.529 | 3.841 | 4.721 | 4.736
+Q182_Click_Count	numeric	359	Timing - Click Count	0 | 1
+Q522_1	haven_labelled	153	How democratic or undemocratic are these scenarios? - A president acknowledges t	1=Veryundemocratic | 2=Moderatelyundemocratic | 4=Moderatelydemocratic | 5=Verydemocratic | 7=Not sure
+Q522_2	haven_labelled	153	How democratic or undemocratic are these scenarios? - A president endorses the l	1=Veryundemocratic | 2=Moderatelyundemocratic | 4=Moderatelydemocratic | 5=Verydemocratic | 7=Not sure
+Q522_3	haven_labelled	154	How democratic or undemocratic are these scenarios? - A president respects estab	1=Veryundemocratic | 2=Moderatelyundemocratic | 4=Moderatelydemocratic | 5=Verydemocratic | 7=Not sure
+Q522_DO_1	numeric	154	How democratic or undemocratic are these scenarios? - Display Order A president	2 | 3 | 1
+Q522_DO_2	numeric	154	How democratic or undemocratic are these scenarios? - Display Order A president	3 | 1 | 2
+Q522_DO_3	numeric	154	How democratic or undemocratic are these scenarios? - Display Order A president	1 | 3 | 2
+Q181_1	haven_labelled	135	How democratic or undemocratic are these scenarios? - A president says political	1=Veryundemocratic | 2=Moderatelyundemocratic | 4=Moderatelydemocratic | 5=Verydemocratic | 7=Not sure
+Q181_2	haven_labelled	135	How democratic or undemocratic are these scenarios? - A president attacks the le	1=Veryundemocratic | 2=Moderatelyundemocratic | 4=Moderatelydemocratic | 5=Verydemocratic | 7=Not sure
+Q181_3	haven_labelled	135	How democratic or undemocratic are these scenarios? - A president compels active	1=Veryundemocratic | 2=Moderatelyundemocratic | 4=Moderatelydemocratic | 5=Verydemocratic | 7=Not sure
+Q181_DO_1	numeric	136	How democratic or undemocratic are these scenarios? - Display Order A president	1
+Q181_DO_2	numeric	136	How democratic or undemocratic are these scenarios? - Display Order A president	2
+Q181_DO_3	numeric	136	How democratic or undemocratic are these scenarios? - Display Order A president	3
+Q180_1	haven_labelled	132	How democratic or undemocratic are these scenarios? - A president intervenes in	1=Veryundemocratic | 2=Moderatelyundemocratic | 4=Moderatelydemocratic | 5=Verydemocratic | 7=Not sure
+Q180_2	haven_labelled	132	How democratic or undemocratic are these scenarios? - A government blocks an ind	1=Veryundemocratic | 2=Moderatelyundemocratic | 4=Moderatelydemocratic | 5=Verydemocratic | 7=Not sure
+Q180_3	haven_labelled	132	How democratic or undemocratic are these scenarios? - A president uses emergency	1=Veryundemocratic | 2=Moderatelyundemocratic | 4=Moderatelydemocratic | 5=Verydemocratic | 7=Not sure
+Q180_DO_1	numeric	132	How democratic or undemocratic are these scenarios? - Display Order A president	1 | 2 | 3
+Q180_DO_2	numeric	132	How democratic or undemocratic are these scenarios? - Display Order A government	2 | 1 | 3
+Q180_DO_3	numeric	132	How democratic or undemocratic are these scenarios? - Display Order A president	3 | 2 | 1
+Q530_1	haven_labelled	135	How democratic or undemocratic are these scenarios? - Prosecutors decide whether	1=Veryundemocratic | 2=Moderatelyundemocratic | 4=Moderatelydemocratic | 5=Verydemocratic | 7=Not sure
+Q530_2	haven_labelled	135	How democratic or undemocratic are these scenarios? - A government cooperates wi	1=Veryundemocratic | 2=Moderatelyundemocratic | 4=Moderatelydemocratic | 5=Verydemocratic | 7=Not sure
+Q530_3	haven_labelled	135	How democratic or undemocratic are these scenarios? - A president respects insti	1=Veryundemocratic | 2=Moderatelyundemocratic | 4=Moderatelydemocratic | 5=Verydemocratic | 7=Not sure
+Q530_DO_1	numeric	136	How democratic or undemocratic are these scenarios? - Display Order Prosecutors	2 | 3 | 1
+Q530_DO_2	numeric	136	How democratic or undemocratic are these scenarios? - Display Order A government	1 | 2 | 3
+Q530_DO_3	numeric	136	How democratic or undemocratic are these scenarios? - Display Order A president	3 | 2 | 1
+Q185_1	haven_labelled	110	How democratic or undemocratic are these scenarios? - A government agency renews	1=Veryundemocratic | 2=Moderatelyundemocratic | 4=Moderatelydemocratic | 5=Verydemocratic | 7=Not sure
+Q185_2	haven_labelled	110	How democratic or undemocratic are these scenarios? - A president engages respec	1=Veryundemocratic | 2=Moderatelyundemocratic | 4=Moderatelydemocratic | 5=Verydemocratic | 7=Not sure
+Q185_3	haven_labelled	110	How democratic or undemocratic are these scenarios? - A government allows peacef	1=Veryundemocratic | 2=Moderatelyundemocratic | 4=Moderatelydemocratic | 5=Verydemocratic | 7=Not sure
+Q185_DO_1	numeric	111	How democratic or undemocratic are these scenarios? - Display Order A government	3 | 2 | 1
+Q185_DO_2	numeric	111	How democratic or undemocratic are these scenarios? - Display Order A president	2 | 1 | 3
+Q185_DO_3	numeric	111	How democratic or undemocratic are these scenarios? - Display Order A government	1 | 3 | 2
+Q179_1	haven_labelled	144	How democratic or undemocratic are these scenarios? - A government agency refuse	1=Veryundemocratic | 2=Moderatelyundemocratic | 4=Moderatelydemocratic | 5=Verydemocratic | 7=Not sure
+Q179_2	haven_labelled	144	How democratic or undemocratic are these scenarios? - A president threatens to i	1=Veryundemocratic | 2=Moderatelyundemocratic | 4=Moderatelydemocratic | 5=Verydemocratic | 7=Not sure
+Q179_3	haven_labelled	144	How democratic or undemocratic are these scenarios? - A government blocks peacef	1=Veryundemocratic | 2=Moderatelyundemocratic | 4=Moderatelydemocratic | 5=Verydemocratic | 7=Not sure
+Q179_DO_1	numeric	144	How democratic or undemocratic are these scenarios? - Display Order A government	3 | 2 | 1
+Q179_DO_2	numeric	144	How democratic or undemocratic are these scenarios? - Display Order A president	2 | 1 | 3
+Q179_DO_3	numeric	144	How democratic or undemocratic are these scenarios? - Display Order A government	1 | 3 | 2
+Q184_1	haven_labelled	132	How democratic or undemocratic are these scenarios? - Voter registration and bal	1=Veryundemocratic | 2=Moderatelyundemocratic | 4=Moderatelydemocratic | 5=Verydemocratic | 7=Not sure
+Q184_2	haven_labelled	132	How democratic or undemocratic are these scenarios? - The votes of every citizen	1=Veryundemocratic | 2=Moderatelyundemocratic | 4=Moderatelydemocratic | 5=Verydemocratic | 7=Not sure
+Q184_3	haven_labelled	132	How democratic or undemocratic are these scenarios? - Every citizen is allowed t	1=Veryundemocratic | 2=Moderatelyundemocratic | 4=Moderatelydemocratic | 5=Verydemocratic | 7=Not sure
+Q184_DO_1	numeric	132	How democratic or undemocratic are these scenarios? - Display Order Voter regist	3 | 2 | 1
+Q184_DO_2	numeric	132	How democratic or undemocratic are these scenarios? - Display Order The votes of	1 | 2 | 3
+Q184_DO_3	numeric	132	How democratic or undemocratic are these scenarios? - Display Order Every citize	2 | 1 | 3
+Q178_1	haven_labelled	130	How democratic or undemocratic are these scenarios? - Voter registration and bal	1=Veryundemocratic | 2=Moderatelyundemocratic | 4=Moderatelydemocratic | 5=Verydemocratic | 7=Not sure
+Q178_2	haven_labelled	130	How democratic or undemocratic are these scenarios? - The votes of citizens in s	1=Veryundemocratic | 2=Moderatelyundemocratic | 4=Moderatelydemocratic | 5=Verydemocratic | 7=Not sure
+Q178_3	haven_labelled	130	How democratic or undemocratic are these scenarios? - Only native-born citizens	1=Veryundemocratic | 2=Moderatelyundemocratic | 4=Moderatelydemocratic | 5=Verydemocratic | 7=Not sure
+Q178_DO_1	numeric	131	How democratic or undemocratic are these scenarios? - Display Order Voter regist	3 | 2 | 1
+Q178_DO_2	numeric	131	How democratic or undemocratic are these scenarios? - Display Order The votes of	2 | 1 | 3
+Q178_DO_3	numeric	131	How democratic or undemocratic are these scenarios? - Display Order Only native-	1 | 3 | 2
+Q173_1	haven_labelled	179	Are the following actions appropriate or inappropriate? - A majority party in ei	1=Entirelyinappropriate | 2=Mostlyinappropriate | 3=Mostlyappropriate | 8=Entirely appropriate | 9=Not sure
+Q173_2	haven_labelled	179	Are the following actions appropriate or inappropriate? - The majority party in	1=Entirelyinappropriate | 2=Mostlyinappropriate | 3=Mostlyappropriate | 8=Entirely appropriate | 9=Not sure
+Q173_3	haven_labelled	179	Are the following actions appropriate or inappropriate? - The minority party in	1=Entirelyinappropriate | 2=Mostlyinappropriate | 3=Mostlyappropriate | 8=Entirely appropriate | 9=Not sure
+Q173_DO_1	numeric	179	Are the following actions appropriate or inappropriate? - Display Order A majori	3 | 2 | 1
+Q173_DO_2	numeric	179	Are the following actions appropriate or inappropriate? - Display Order The majo	2 | 1 | 3
+Q173_DO_3	numeric	179	Are the following actions appropriate or inappropriate? - Display Order The mino	1 | 3 | 2
+Q161_1	haven_labelled	206	Are the following actions appropriate or inappropriate? - A President pardoning	1=Entirelyinappropriate | 2=Mostlyinappropriate | 3=Mostlyappropriate | 4=Entirelyappropriate
+Q161_2	haven_labelled	200	Are the following actions appropriate or inappropriate? - A President establishi	1=Entirelyinappropriate | 2=Mostlyinappropriate | 3=Mostlyappropriate | 4=Entirelyappropriate
+Q161_3	haven_labelled	207	Are the following actions appropriate or inappropriate? - A President directing	1=Entirelyinappropriate | 2=Mostlyinappropriate | 3=Mostlyappropriate | 4=Entirelyappropriate
+Q161_DO_1	numeric	208	Are the following actions appropriate or inappropriate? - Display Order A Presid	2 | 3 | 1
+Q161_DO_2	numeric	208	Are the following actions appropriate or inappropriate? - Display Order A Presid	1 | 2 | 3
+Q161_DO_3	numeric	208	Are the following actions appropriate or inappropriate? - Display Order A Presid	3 | 2 | 1
+Q175_1	haven_labelled	173	Are the following actions appropriate or inappropriate? - The majority party in	1=Entirelyinappropriate | 2=Mostlyinappropriate | 3=Mostlyappropriate | 4=Entirelyappropriate
+Q175_2	haven_labelled	166	Are the following actions appropriate or inappropriate? - The majority party in	1=Entirelyinappropriate | 2=Mostlyinappropriate | 3=Mostlyappropriate | 4=Entirelyappropriate
+Q175_3	haven_labelled	168	Are the following actions appropriate or inappropriate? - A party that controls	1=Entirelyinappropriate | 2=Mostlyinappropriate | 3=Mostlyappropriate | 4=Entirelyappropriate
+Q175_DO_1	numeric	174	Are the following actions appropriate or inappropriate? - Display Order The majo	3 | 1 | 2
+Q175_DO_2	numeric	174	Are the following actions appropriate or inappropriate? - Display Order The majo	2 | 3 | 1
+Q175_DO_3	numeric	174	Are the following actions appropriate or inappropriate? - Display Order A party	1 | 2 | 3
+Q174_1	haven_labelled	195	Please carefully read the information below, then indicate whether the actions t	1=Entirelyinappropriate | 2=Mostlyinappropriate | 3=Mostlyappropriate | 4=Entirelyappropriate
+Q174_2	haven_labelled	200	Please carefully read the information below, then indicate whether the actions t	1=Entirelyinappropriate | 2=Mostlyinappropriate | 3=Mostlyappropriate | 4=Entirelyappropriate
+Q174_3	haven_labelled	201	Please carefully read the information below, then indicate whether the actions t	1=Entirelyinappropriate | 2=Mostlyinappropriate | 3=Mostlyappropriate | 4=Entirelyappropriate
+Q174_DO_1	numeric	202	Please carefully read the information below, then indicate whether the actions t	3 | 1 | 2
+Q174_DO_2	numeric	202	Please carefully read the information below, then indicate whether the actions t	2 | 1 | 3
+Q174_DO_3	numeric	202	Please carefully read the information below, then indicate whether the actions t	1 | 2 | 3
+Q176_1	haven_labelled	177	Are the following actions appropriate or inappropriate? - A party that controls	1=Entirelyinappropriate | 2=Mostlyinappropriate | 3=Mostlyappropriate | 4=Entirelyappropriate
+Q176_2	haven_labelled	181	Are the following actions appropriate or inappropriate? - State governments sign	1=Entirelyinappropriate | 2=Mostlyinappropriate | 3=Mostlyappropriate | 4=Entirelyappropriate
+Q176_3	haven_labelled	193	Are the following actions appropriate or inappropriate? - A state political part	1=Entirelyinappropriate | 2=Mostlyinappropriate | 3=Mostlyappropriate | 4=Entirelyappropriate
+Q176_4	haven_labelled	195	Are the following actions appropriate or inappropriate? - A state political part	1=Entirelyinappropriate | 2=Mostlyinappropriate | 3=Mostlyappropriate | 4=Entirelyappropriate
+Q176_DO_1	numeric	197	Are the following actions appropriate or inappropriate? - Display Order A party	2 | 1 | 3 | 4
+Q176_DO_2	numeric	197	Are the following actions appropriate or inappropriate? - Display Order State go	3 | 2 | 4 | 1
+Q176_DO_3	numeric	197	Are the following actions appropriate or inappropriate? - Display Order A state	1 | 3 | 4 | 2
+Q176_DO_4	numeric	197	Are the following actions appropriate or inappropriate? - Display Order A state	4 | 2 | 3 | 1
+Q34_1_First_Click	numeric	678	Timing - First Click	[631 uniq] 1.11 | 1.594 | 3.772 | 2.887 | 1.993 | 2.962 | 2.97 | 2.303
+Q34_1_Last_Click	numeric	678	Timing - Last Click	[628 uniq] 1.11 | 1.594 | 3.772 | 2.887 | 1.993 | 2.962 | 2.97 | 2.303
+Q34_1_Page_Submit	numeric	678	Timing - Page Submit	[652 uniq] 2.064 | 2.596 | 5.196 | 3.701 | 3.378 | 4.06 | 4.639 | 3.874
+Q34_1_Click_Count	numeric	678	Timing - Click Count	1 | 2 | 3 | 26
+Q34_3	haven_labelled	676	Which of the following best describes your occupation?	1=Graduate student | 2=Post-doctoral fellow | 3=Adjunct faculty | 4=Full-time faculty | 5=Emeritus faculty | 6=Other
+Q35_1_First_Click	numeric	667	Timing - First Click	[615 uniq] 3.254 | 2.232 | 1.562 | 1.81 | 2.811 | 1.368 | 1.934 | 2.003
+Q35_1_Last_Click	numeric	667	Timing - Last Click	[657 uniq] 5.482 | 4.528 | 6.57 | 3.031 | 5.105 | 4.418 | 3.261 | 3.602
+Q35_1_Page_Submit	numeric	667	Timing - Page Submit	[660 uniq] 5.814 | 7.639 | 6.882 | 11.555 | 16.532 | 8.11 | 8.662 | 12.27
+Q35_1_Click_Count	numeric	667	Timing - Click Count	[10 uniq] 3 | 2 | 5 | 4 | 6 | 23 | 8 | 7
+Q35_2	haven_labelled	664	What is your primary field of study?	1=American politics | 2=Comparative politics | 3=International relations | 4=Political theory | 5=Another field of political science | 6=Something other than political science
+Q35_3	character	572	What is your specific area of study?	[456 uniq] test | | JMC | State Politics | Armed conflict; armed group institutions | human rights | judicial politics | institutions
+Q36_1_First_Click	numeric	677	Timing - First Click	[187 uniq] 1.499 | 1.073 | 1.304 | 1.148 | 0.936 | 0 | 1.241 | 3.01
+Q36_1_Last_Click	numeric	677	Timing - Last Click	[188 uniq] 1.893 | 1.073 | 1.304 | 1.148 | 0.936 | 0 | 1.624 | 3.01
+Q36_1_Page_Submit	numeric	677	Timing - Page Submit	[620 uniq] 3.149 | 14.449 | 4.347 | 14.006 | 73.161 | 2.313 | 2.892 | 1.303
+Q36_1_Click_Count	numeric	677	Timing - Click Count	[14 uniq] 2 | 1 | 0 | 3 | 10 | 8 | 4 | 12
+Q36_2	character	135	Do you have any comments about this survey?	[128 uniq] test | Mitch test 10/8/19 12:47 PM Eastern Time. | JMC | | I'm not clear on the purpose of the ""very democratic"" to ""very undemocratic"" ratings (last module). Is the question whether the scenario/action is very important to democracy, whether it clearly indicates something about the l...
+Q_TotalDuration	character	738	Q_TotalDuration	[522 uniq] 104 | 73 | 231 | 284 | 300 | 294 | 461 | 255
+LuthID	character	737	LuthID	[720 uniq] TESTr11w8x5 | TESTr8w8x5 | TESTr10w8x5 | BLW0201640 | BLW0005095 | BLW0008404 | BLW0200487 | BLW0002330
+FL_65_DO_Section7a__Ab_normal__u	numeric	251	FL_65 - Block Randomizer - Display Order Section7a:(Ab)normal/(un)importantbatte	5 | 1 | 6 | 3 | 2 | 4
+FL_65_DO_Section7b__Ab_normal__u	numeric	235	FL_65 - Block Randomizer - Display Order Section7b:(Ab)normal/(un)importantbatte	3 | 2 | 5 | 6 | 1 | 4
+FL_65_DO_Section7d__Ab_normal__u	numeric	238	FL_65 - Block Randomizer - Display Order Section7d:(Ab)normal/(un)importantbatte	6 | 3 | 2 | 1 | 5 | 4
+FL_65_DO_Section7f__Ab_normal__u	numeric	255	FL_65 - Block Randomizer - Display Order Section7f:(Ab)normal/(un)importantbatte	2 | 3 | 1 | 4 | 6 | 5
+FL_65_DO_Section7l__Ab_normal__u	numeric	250	FL_65 - Block Randomizer - Display Order Section7l:(Ab)normal/(un)importantbatte	4 | 5 | 6 | 2 | 3 | 1
+FL_65_DO_Section7m__Ab_normal__u	numeric	225	FL_65 - Block Randomizer - Display Order Section7m:(Ab)normal/(un)importantbatte	2 | 3 | 4 | 5 | 1 | 6
+FL_65_DO_Section7n__Ab_normal__u	numeric	233	FL_65 - Block Randomizer - Display Order Section7n:(Ab)normal/(un)importantbatte	3 | 4 | 2 | 6 | 1 | 5
+FL_65_DO_Section7p__Ab_normal__u	numeric	263	FL_65 - Block Randomizer - Display Order Section7p:(Ab)normal/(un)importantbatte	1 | 5 | 3 | 4 | 6 | 2
+FL_65_DO_Section7r__Ab_normal__u	numeric	252	FL_65 - Block Randomizer - Display Order Section7r:(Ab)normal/(un)importantbatte	2 | 1 | 3 | 4 | 6 | 5
+FL_65_DO_Section7u__Ab_normal__u	numeric	259	FL_65 - Block Randomizer - Display Order Section7u:(Ab)normal/(un)importantbatte	1 | 4 | 3 | 6 | 2 | 5
+FL_65_DO_Section7x__Ab_normal__u	numeric	253	FL_65 - Block Randomizer - Display Order Section7x:(Ab)normal/(un)importantbatte	6 | 1 | 3 | 4 | 2 | 5
+FL_65_DO_Section7z__Ab_normal__u	numeric	231	FL_65 - Block Randomizer - Display Order Section7z:(Ab)normal/(un)importantbatte	5 | 4 | 3 | 1 | 2 | 6
+FL_65_DO_Section7aa__Ab_normal__	numeric	243	FL_65 - Block Randomizer - Display Order Section7aa:(Ab)normal/(un)importantbatt	6 | 2 | 3 | 4 | 5 | 1
+FL_65_DO_Section7ab__Ab_normal__	numeric	232	FL_65 - Block Randomizer - Display Order Section7ab:(Ab)normal/(un)importantbatt	4 | 5 | 1 | 6 | 2 | 3
+FL_65_DO_Section7ac__Ab_normal__	numeric	233	FL_65 - Block Randomizer - Display Order Section7ac:(Ab)normal/(un)importantbatt	5 | 1 | 2 | 6 | 3 | 4
+FL_65_DO_Section7ad__Ab_normal__	numeric	243	FL_65 - Block Randomizer - Display Order Section7ad:(Ab)normal/(un)importantbatt	1 | 6 | 3 | 5 | 4 | 2
+FL_65_DO_Section7ae__Ab_normal__	numeric	244	FL_65 - Block Randomizer - Display Order Section7ae:(Ab)normal/(un)importantbatt	6 | 2 | 5 | 1 | 3 | 4
+FL_111_DO_FL_113	numeric	359	FL_111 - Block Randomizer - Display Order FL_113	1
+FL_111_DO_FL_114	numeric	321	FL_111 - Block Randomizer - Display Order FL_114	1
+FL_73_DO_FL_115	numeric	290	FL_73 - Block Randomizer - Display Order FL_115	1 | 3 | 2
+FL_73_DO_FL_116	numeric	268	FL_73 - Block Randomizer - Display Order FL_116	3 | 2 | 1
+FL_73_DO_FL_117	numeric	256	FL_73 - Block Randomizer - Display Order FL_117	3 | 1 | 2
+FL_73_DO_FL_118	numeric	263	FL_73 - Block Randomizer - Display Order FL_118	2 | 1 | 3
+FL_97_DO_D_ADNorms_BehaviorPosit	numeric	154	FL_97 - Block Randomizer - Display Order D/ADNorms&BehaviorPositive	1
+FL_97_DO_D_ADNorms_BehaviorViola	numeric	136	FL_97 - Block Randomizer - Display Order D/ADNorms&BehaviorViolation	1
+FL_98_DO_D_ADInstitutions_Accoun	numeric	132	FL_98 - Block Randomizer - Display Order D/ADInstitutions,Accountability,RuleofL	1
+FL_98_DO_D_ADInstitutions_Accou0	numeric	136	FL_98 - Block Randomizer - Display Order D/ADInstitutions,Accountability,RuleofL	1
+FL_119_DO_D_ADRights_Protections	numeric	112	FL_119 - Block Randomizer - Display Order D/ADRights,Protections&FreedomPositive	1
+FL_119_DO_D_ADRights_Protection0	numeric	144	FL_119 - Block Randomizer - Display Order D/ADRights,Protections&FreedomViolatio	1
+FL_123_DO_D_ADElections_VotingPo	numeric	132	FL_123 - Block Randomizer - Display Order D/ADElections&VotingPositive	1
+FL_123_DO_D_ADElections_VotingVi	numeric	131	FL_123 - Block Randomizer - Display Order D/ADElections&VotingViolation	1
+FL_86_DO_CHBCongress_DividedGove	numeric	179	FL_86 - Block Randomizer - Display Order CHBCongress&DividedGovernment	2 | 1 | 3
+FL_86_DO_CHBExecutivepowers	numeric	208	FL_86 - Block Randomizer - Display Order CHBExecutivepowers	1 | 3 | 2
+FL_86_DO_CHBCourts	numeric	174	FL_86 - Block Randomizer - Display Order CHBCourts	3 | 2 | 1
+FL_86_DO_CHBImpeachment	numeric	202	FL_86 - Block Randomizer - Display Order CHBImpeachment	1 | 3 | 2
+FL_86_DO_CHBElections_VotingRigh	numeric	197	FL_86 - Block Randomizer - Display Order CHBElections,VotingRights&Representatio	1 | 2 | 3

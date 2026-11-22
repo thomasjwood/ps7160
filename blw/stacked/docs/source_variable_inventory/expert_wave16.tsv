@@ -1,0 +1,350 @@
+var	class	n	label	values
+record_id	character	564		[564 uniq] R_0d0UJZR04ptLAI1 | R_0dnfJEoV1y8mBiN | R_0epID8d6HKhGAxz | R_0jo8f09kEZTsTaV | R_0JrIpwy6LMKXXQB | R_0lI0j7xpmOcSjm1 | R_0rkcvPPwFGHciEF | R_0UJm7cZuhALejER
+start	POSIXct	564		[559 uniq] 1636964963 | 1636474013 | 1636541479 | 1636316557 | 1636969732 | 1636563215 | 1636298623 | 1636985911
+end	POSIXct	564		[563 uniq] 1636965866 | 1636481531 | 1636542243 | 1636317557 | 1636971894 | 1636564547 | 1636299388 | 1636987196
+status	factor	564	Response Type	IP Address | Survey Preview | Survey Test | Imported | Spam | Survey Preview Spam | Imported Spam | Offline | Offline Survey Preview | EX | EX Spam | EX Offline
+progress	numeric	564		100
+duration	numeric	564		[464 uniq] 903 | 7518 | 763 | 999 | 2161 | 1331 | 765 | 1284
+finished	factor	564	Finished	False | True
+recorded_date	POSIXct	564		[564 uniq] 1636965867 | 1636481531 | 1636542243 | 1636317557 | 1636971894 | 1636564547 | 1636299388 | 1636987196
+distribution_channel	character	564		anonymous
+language	character	564		EN
+consent	factor	564	Thank you for participating in the Bright Line Watch survey of political scientists. The purpose of this survey is to measure expert opinions about the state of American democracy. Your responses will be anonymous. Your participation in this study is voluntary, and you are free to skip any questi...	I agree to continue | I do not agree to continue
+Q2_5_First_Click	numeric	564		[554 uniq] 20.001 | 5.886 | 10.978 | 11.342 | 5.436 | 57.67 | 5.719 | 12.034
+Q2_5_Last_Click	numeric	564		[562 uniq] 105.243 | 89.664 | 56.727 | 180.074 | 44.338 | 196.502 | 112.973 | 94.578
+Q2_5_Page_Submit	numeric	564		[563 uniq] 107.525 | 90.877 | 57.735 | 181.227 | 45.19 | 199.999 | 115.286 | 96.123
+Q2_5_Click_Count	numeric	564		[26 uniq] 15 | 9 | 10 | 11 | 33 | 12 | 13 | 35
+Q2_6_1	factor	178	How well do the following statements describe the United States as of today? - Government officials are legally sanctioned for misconduct	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_2	factor	156	How well do the following statements describe the United States as of today? - Government officials do not use public office for private gain	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_3	factor	184	How well do the following statements describe the United States as of today? - Government agencies are not used to monitor, attack, or punish political opponents	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_4	factor	159	How well do the following statements describe the United States as of today? - All adult citizens enjoy the same legal and political rights	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_5	factor	167	How well do the following statements describe the United States as of today? - Government does not interfere with journalists or news organizations	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_6	factor	177	How well do the following statements describe the United States as of today? - Government effectively prevents private actors from engaging in politically-motivated violence or intimidation	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_7	factor	154	How well do the following statements describe the United States as of today? - Government protects individuals’ right to engage in unpopular speech or expression	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_8	factor	204	How well do the following statements describe the United States as of today? - Political competition occurs without criticism of opponents’ loyalty or patriotism	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_9	factor	179	How well do the following statements describe the United States as of today? - Elections are free from foreign influence	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_10	factor	157	How well do the following statements describe the United States as of today? - Parties and candidates are not barred due to their political beliefs and ideologies	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_11	factor	171	How well do the following statements describe the United States as of today? - All adult citizens have equal opportunity to vote	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_12	factor	136	How well do the following statements describe the United States as of today? - All votes have equal impact on election outcomes	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_13	factor	162	How well do the following statements describe the United States as of today? - Elections are conducted, ballots counted, and winners determined without pervasive fraud or manipulation	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_14	factor	180	How well do the following statements describe the United States as of today? - Executive authority cannot be expanded beyond constitutional limits	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_15	factor	152	How well do the following statements describe the United States as of today? - The legislature is able to effectively limit executive power	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_16	factor	145	How well do the following statements describe the United States as of today? - The judiciary is able to effectively limit executive power	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_17	factor	180	How well do the following statements describe the United States as of today? - The elected branches respect judicial independence	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_18	factor	185	How well do the following statements describe the United States as of today? - Voter participation in elections is generally high	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_19	factor	178	How well do the following statements describe the United States as of today? - Information about the sources of campaign funding is available to the public	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_20	factor	170	How well do the following statements describe the United States as of today? - Public policy is not determined by large campaign contributions	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_21	factor	165	How well do the following statements describe the United States as of today? - Citizens can make their opinions heard in open debate about policies that are under consideration	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_22	factor	174	How well do the following statements describe the United States as of today? - The geographic boundaries of electoral districts do not systematically advantage any particular political party	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_23	factor	173	How well do the following statements describe the United States as of today? - Even when there are disagreements about ideology or policy, political leaders generally share a common understanding of relevant facts	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_24	factor	161	How well do the following statements describe the United States as of today? - Elected officials seek compromise with political opponents	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_25	factor	162	How well do the following statements describe the United States as of today? - Citizens have access to information about candidates that is relevant to how they would govern	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_26	factor	179	How well do the following statements describe the United States as of today? - Government protects individuals’ right to engage in peaceful protest	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_27	factor	182	How well do the following statements describe the United States as of today? - Law enforcement investigations of public officials or their associates are free from political influence or interference	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_28	factor	182	How well do the following statements describe the United States as of today? - Government statistics and data are produced by experts who are not influenced by political considerations	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_29	factor	161	How well do the following statements describe the United States as of today? - The law is enforced equally for all persons	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_30	factor	162	How well do the following statements describe the United States as of today? - Incumbent politicians who lose elections publicly concede defeat	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q3_1_First_Click	numeric	564		[553 uniq] 14.914 | 11.932 | 4.303 | 12.311 | 12.988 | 35.2 | 7.217 | 12.131
+Q3_1_Last_Click	numeric	564		[555 uniq] 17.392 | 11.932 | 6.133 | 12.311 | 15.48 | 35.2 | 7.217 | 12.131
+Q3_1_Page_Submit	numeric	564		[561 uniq] 18.997 | 15.589 | 7.013 | 13.765 | 16.45 | 43.616 | 9.257 | 13.336
+Q3_1_Click_Count	numeric	564		[11 uniq] 3 | 1 | 2 | 4 | 73 | 12 | 10 | 5
+rating_USA	numeric	563		[74 uniq] 91 | 70 | 82 | 80 | 60 | 19 | 61 | 66
+Q3_3_1_First_Click	numeric	564		[550 uniq] 11.428 | 7.236 | 6.276 | 13.728 | 5.371 | 30.867 | 8.019 | 16.622
+Q3_3_1_Last_Click	numeric	564		[549 uniq] 11.428 | 7.236 | 7.6 | 13.728 | 5.371 | 30.867 | 8.019 | 16.622
+Q3_3_1_Page_Submit	numeric	564		[556 uniq] 12.582 | 33.653 | 8.505 | 15.269 | 6.306 | 32.508 | 10.156 | 17.988
+Q3_3_1_Click_Count	numeric	564		1 | 2 | 9 | 4 | 3 | 0 | 6 | 5
+Q3_3_1_1	factor	559	Fundamental Change	Significant changes to the design and structure are needed to make it work for current times | The design and structure serves the country well and does not need significant changes
+Q3_3_2_First_Click	numeric	441		[437 uniq] 13.861 | 11.838 | 6.131 | 20.072 | 7.684 | 12.138 | 18.562 | 6.69
+Q3_3_2_Last_Click	numeric	441		[437 uniq] 16.726 | 11.838 | 6.131 | 20.072 | 7.684 | 12.138 | 18.562 | 6.69
+Q3_3_2_Page_Submit	numeric	441		[440 uniq] 17.788 | 16.003 | 8.501 | 21.428 | 8.478 | 14.084 | 19.951 | 8.527
+Q3_3_2_Click_Count	numeric	441		2 | 1 | 4 | 3 | 8 | 0 | 5
+Q3_3_2_1	factor	439	Fundamental Change - Follow Up	Seeking to create a new constitution | Seeking to amend the Constitution | Pursuing policy and rule changes that don’t require constitutional amendments
+Q3_3_3_First_Click	numeric	564		[555 uniq] 6.697 | 10.853 | 6.847 | 10.081 | 18.053 | 49.336 | 6.973 | 20.568
+Q3_3_3_Last_Click	numeric	564		[555 uniq] 14.246 | 10.853 | 10.646 | 10.081 | 18.053 | 49.336 | 7.907 | 20.568
+Q3_3_3_Page_Submit	numeric	564		[557 uniq] 15.892 | 12.58 | 12.099 | 14.159 | 19.186 | 51.627 | 9.293 | 21.73
+Q3_3_3_Click_Count	numeric	564		2 | 1 | 4 | 7 | 3 | 0 | 6
+Q3_3_3_1	factor	561	Senate	Definitely prefer Senate based on population | Probably prefer Senate based on population | Probably prefer two senators for every state | Definitely prefer two senators for every state | Don’t know
+state	factor	563	In which state is the academic institution where you work located? This information will not be used to identify you.	Alabama | Alaska | Arizona | Arkansas | California | Colorado | Connecticut | Delaware | District of Columbia | Florida | Georgia | Hawaii | Idaho | Illinois | Indiana | Iowa | Kansas | Kentucky | Louisiana | Maine | Maryland | Massachusetts | Michigan | Minnesota | Mississippi | Missouri | Monta...
+Ranking_Comments	character	215		[216 uniq] | If we are illiberal, then nothing else matters. We will not protect any minority rights and no longer value dissent, which is critical for democratic decision-making. | All are important to some extent, some are interrelated and difficult to differentiate | Racial inequality is at t...
+Q4_2_1_First_Click	numeric	564		[561 uniq] 21.772 | 76.32 | 10.455 | 16.451 | 20.613 | 45.253 | 3.58 | 14.602
+Q4_2_1_Last_Click	numeric	564		[562 uniq] 83.986 | 140.303 | 124.049 | 130.046 | 140.79 | 167.648 | 43.851 | 127.401
+Q4_2_1_Page_Submit	numeric	564		[563 uniq] 85.433 | 146.661 | 125.609 | 131.289 | 142.804 | 170.205 | 46.665 | 128.793
+Q4_2_1_Click_Count	numeric	564		[36 uniq] 17 | 9 | 16 | 10 | 19 | 13 | 12 | 22
+Q4_2_1_1	factor	553	Enlarge the House of Representatives Substantially enlarge the House of Representatives through federal legislation to make it and the Electoral College more representative of the nation’s population.	Benefit to American democracy | Will not affect American democracy | Threat to American democracy
+Q4_2_1_2	factor	550	Ranked-choice voting Introduce ranked-choice voting in presidential and congressional elections.	Benefit to American democracy | Will not affect American democracy | Threat to American democracy
+Q4_2_1_3	factor	550	Multi-member districts Repeal the 1967 law that mandates single-member districts for the House so that states have the option to use multi-member districts on the condition that they adopt a non-winner-take-all election model.	Benefit to American democracy | Will not affect American democracy | Threat to American democracy
+Q4_2_1_4	factor	560	Redistricting commissions Pass federal legislation requiring fair congressional districts to be determined by state-established independent citizen-redistricting commissions.	Benefit to American democracy | Will not affect American democracy | Threat to American democracy
+Q4_2_1_5	factor	555	Public funding of campaigns Pass “clean election laws” for federal elections that would create mechanisms such as public matching donation systems and democracy vouchers.	Benefit to American democracy | Will not affect American democracy | Threat to American democracy
+Q4_2_1_6	factor	559	National popular vote Establish an interstate compact that would allow presidents to be elected by direct popular vote instead of the Electoral College.	Benefit to American democracy | Will not affect American democracy | Threat to American democracy
+Q4_2_1_7	factor	554	Eliminate filibuster Change US Senate rules to eliminate the filibuster, allowing a simple majority of senators to bring any proposal to the floor for a vote.	Benefit to American democracy | Will not affect American democracy | Threat to American democracy
+Q4_2_1_8	factor	553	Non-partisan primaries and two-round elections Choose members of Congress in two-round elections in which all voters pick from a common set of candidates and the “top X” (two, four, five, etc.) advance to a run-off if none wins a majority in the first round.	Benefit to American democracy | Will not affect American democracy | Threat to American democracy
+Q4_2_1_9	factor	559	Expand the Senate Admit Washington, DC and Puerto Rico as states, expanding the Senate to 104 senators.	Benefit to American democracy | Will not affect American democracy | Threat to American democracy
+Q4_2_2_First_Click	numeric	549		[534 uniq] 102.569 | 11.628 | 8.305 | 21.049 | 4.271 | 23.487 | 6.185 | 11.02
+Q4_2_2_Last_Click	numeric	549		[545 uniq] 135.774 | 31.364 | 14.393 | 35.855 | 18.875 | 37.628 | 51.203 | 52.601
+Q4_2_2_Page_Submit	numeric	549		[548 uniq] 137.178 | 32.618 | 17.146 | 37.499 | 19.247 | 40.56 | 52.342 | 53.935
+Q4_2_2_Click_Count	numeric	549		[31 uniq] 11 | 6 | 4 | 21 | 7 | 5 | 10 | 13
+Q4_2_2_1	factor	298	Enlarge the House of Representatives Substantially enlarge the House of Representatives through federal legislation to make it and the Electoral College more representative of the nation’s population.	Little benefit to American democracy | Moderate benefit to American democracy | Extraordinary benefit to American democracy | Serious benefit to American democracy
+Q4_2_2_2	factor	346	Ranked-choice voting Introduce ranked-choice voting in presidential and congressional elections.	Little benefit to American democracy | Serious benefit to American democracy | Extraordinary benefit to American democracy | Moderate benefit to American democracy
+Q4_2_2_3	factor	351	Multi-member districts Repeal the 1967 law that mandates single-member districts for the House so that states have the option to use multi-member districts on the condition that they adopt a non-winner-take-all election model.	Little benefit to American democracy | Serious benefit to American democracy | Extraordinary benefit to American democracy | Moderate benefit to American democracy
+Q4_2_2_4	factor	484	Redistricting commissions Pass federal legislation requiring fair congressional districts to be determined by state-established independent citizen-redistricting commissions.	Little benefit to American democracy | Moderate benefit to American democracy | Extraordinary benefit to American democracy | Serious benefit to American democracy
+Q4_2_2_5	factor	391	Public funding of campaigns Pass “clean election laws” for federal elections that would create mechanisms such as public matching donation systems and democracy vouchers.	Little benefit to American democracy | Moderate benefit to American democracy | Extraordinary benefit to American democracy | Serious benefit to American democracy
+Q4_2_2_6	factor	450	National popular vote Establish an interstate compact that would allow presidents to be elected by direct popular vote instead of the Electoral College.	Little benefit to American democracy | Moderate benefit to American democracy | Extraordinary benefit to American democracy | Serious benefit to American democracy
+Q4_2_2_7	factor	399	Eliminate filibuster Change US Senate rules to eliminate the filibuster, allowing a simple majority of senators to bring any proposal to the floor for a vote.	Little benefit to American democracy | Moderate benefit to American democracy | Extraordinary benefit to American democracy | Serious benefit to American democracy
+Q4_2_2_8	factor	235	Non-partisan primaries and two-round elections Choose members of Congress in two-round elections in which all voters pick from a common set of candidates and the “top X” (two, four, five, etc.) advance to a run-off if none wins a majority in the first round.	Little benefit to American democracy | Serious benefit to American democracy | Extraordinary benefit to American democracy | Moderate benefit to American democracy
+Q4_2_2_9	factor	423	Expand the Senate Admit Washington, DC and Puerto Rico as states, expanding the Senate to 104 senators.	Little benefit to American democracy | Moderate benefit to American democracy | Extraordinary benefit to American democracy | Serious benefit to American democracy
+Q4_2_3_First_Click	numeric	198		[198 uniq] 4.926 | 11.812 | 10.99 | 4.354 | 5.186 | 3.999 | 7.351 | 5.898
+Q4_2_3_Last_Click	numeric	198		[198 uniq] 10.952 | 101.698 | 12.91 | 6.167 | 17.856 | 3.999 | 7.351 | 5.898
+Q4_2_3_Page_Submit	numeric	198		[198 uniq] 12.598 | 102.704 | 13.416 | 7.001 | 19.04 | 5.185 | 9.839 | 7.468
+Q4_2_3_Click_Count	numeric	198		[16 uniq] 3 | 5 | 1 | 2 | 4 | 6 | 8 | 13
+Q4_2_3_1	factor	50	Enlarge the House of Representatives Substantially enlarge the House of Representatives through federal legislation to make it and the Electoral College more representative of the nation’s population.	Little threat to American democracy | Moderate threat to American democracy | Grave threat to American democracy | Serious threat to American democracy
+Q4_2_3_2	factor	38	Ranked-choice voting Introduce ranked-choice voting in presidential and congressional elections.	Little threat to American democracy | Moderate threat to American democracy | Serious threat to American democracy | Grave threat to American democracy
+Q4_2_3_3	factor	60	Multi-member districts Repeal the 1967 law that mandates single-member districts for the House so that states have the option to use multi-member districts on the condition that they adopt a non-winner-take-all election model.	Little threat to American democracy | Serious threat to American democracy | Grave threat to American democracy | Moderate threat to American democracy
+Q4_2_3_4	factor	16	Redistricting commissions Pass federal legislation requiring fair congressional districts to be determined by state-established independent citizen-redistricting commissions.	Little threat to American democracy | Moderate threat to American democracy | Grave threat to American democracy | Serious threat to American democracy
+Q4_2_3_5	factor	26	Public funding of campaigns Pass “clean election laws” for federal elections that would create mechanisms such as public matching donation systems and democracy vouchers.	Little threat to American democracy | Serious threat to American democracy | Grave threat to American democracy | Moderate threat to American democracy
+Q4_2_3_6	factor	61	National popular vote Establish an interstate compact that would allow presidents to be elected by direct popular vote instead of the Electoral College.	Little threat to American democracy | Moderate threat to American democracy | Grave threat to American democracy | Serious threat to American democracy
+Q4_2_3_7	factor	71	Eliminate filibuster Change US Senate rules to eliminate the filibuster, allowing a simple majority of senators to bring any proposal to the floor for a vote.	Little threat to American democracy | Moderate threat to American democracy | Grave threat to American democracy | Serious threat to American democracy
+Q4_2_3_8	factor	85	Non-partisan primaries and two-round elections Choose members of Congress in two-round elections in which all voters pick from a common set of candidates and the “top X” (two, four, five, etc.) advance to a run-off if none wins a majority in the first round.	Little threat to American democracy | Serious threat to American democracy | Grave threat to American democracy | Moderate threat to American democracy
+Q4_2_3_9	factor	41	Expand the Senate Admit Washington, DC and Puerto Rico as states, expanding the Senate to 104 senators.	Little threat to American democracy | Moderate threat to American democracy | Grave threat to American democracy | Serious threat to American democracy
+Q4_3_First_Click	numeric	564		[558 uniq] 28.504 | 25.559 | 29.362 | 15.47 | 10.429 | 25.581 | 4.552 | 21.761
+Q4_3_Last_Click	numeric	564		[564 uniq] 89.93 | 97.511 | 81.643 | 91.148 | 53.666 | 180.609 | 78.582 | 102.396
+Q4_3_Page_Submit	numeric	564		[563 uniq] 91.874 | 98.663 | 83.496 | 92.501 | 55.055 | 189.147 | 80.1 | 103.471
+Q4_3_Click_Count	numeric	564		[47 uniq] 22 | 9 | 10 | 32 | 20 | 13 | 16 | 18
+Q6_1_First_Click	numeric	564		[55 uniq] 16.24 | 0 | 3.733 | 6.146 | 3.29 | 4.493 | 22.667 | 5.695
+Q6_1_Last_Click	numeric	564		[55 uniq] 16.24 | 0 | 3.733 | 7.861 | 12.108 | 4.493 | 22.667 | 6.297
+Q6_1_Page_Submit	numeric	564		[561 uniq] 16.271 | 8.48 | 24.646 | 15.735 | 4.371 | 54.163 | 9.399 | 19.079
+Q6_1_Click_Count	numeric	564		[9 uniq] 1 | 0 | 3 | 10 | 2 | 8 | 4 | 5
+Q7_1_First_Click	numeric	145		[145 uniq] 5.646 | 7.433 | 8.347 | 6.58 | 15.035 | 14.756 | 14.557 | 5.247
+Q7_1_Last_Click	numeric	145		[144 uniq] 8.69 | 10.625 | 12.848 | 9.406 | 17.346 | 325.896 | 33.889 | 11.833
+Q7_1_Page_Submit	numeric	145		[144 uniq] 43.364 | 12.461 | 14.309 | 10.278 | 21.627 | 367.991 | 35.425 | 12.855
+Q7_1_Click_Count	numeric	145		[10 uniq] 3 | 4 | 2 | 8 | 5 | 7 | 6 | 17
+Q7_3	factor	145	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q7_4	factor	145	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q7_5	character	34		[35 uniq] | Almost completely cynical and on balance bad for US democracy but standard behavior. | I realize there may seem to be a contradiction between an event best described as ""borderline normal"" and its ""importance"". What is abnormal is how the Senate operates these days. It is basically a...
+Q8_1_First_Click	numeric	155		[154 uniq] 8.835 | 6.999 | 9.555 | 4.598 | 23.182 | 8.703 | 9.638 | 7.652
+Q8_1_Last_Click	numeric	155		[154 uniq] 13.104 | 32.371 | 10.372 | 5.494 | 36.966 | 12.919 | 11.733 | 25.303
+Q8_1_Page_Submit	numeric	155		[154 uniq] 14.29 | 44.551 | 13.906 | 12.266 | 38.402 | 14.752 | 13.299 | 41.241
+Q8_1_Click_Count	numeric	155		3 | 5 | 2 | 8 | 6 | 4 | 12 | 9
+Q8_3	factor	154	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q8_4	factor	154	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q8_5	character	39		[40 uniq] | Dismantling the democratic process for partisan political ends. | Part of a wider trend to politicize election management; only ""mostly abnormal because going on a fair amount. | This is important because it diminishes subnational democracy for that state and undermines institutions....
+Q9_1_First_Click	numeric	0		
+Q9_1_Last_Click	numeric	0		
+Q9_1_Page_Submit	numeric	0		
+Q9_1_Click_Count	numeric	0		
+Q9_3	factor	153	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q9_4	factor	153	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q9_5	character	37		[38 uniq] | terrorist | Fuck you and fucked up survey. You've written bias into your questions and the whole thing is leftist propaganda. | Smacks of ""stabbed in the back"" or lost cause rhetoric. Don't valorize her! | Am tempted to say it is normal; after all, this is Trump. But from a presiden...
+Q10_1_First_Click	numeric	157		[154 uniq] 12.812 | 5.744 | 5.577 | 5.649 | 6.889 | 6.465 | 4.83 | 6.879
+Q10_1_Last_Click	numeric	157		[156 uniq] 35.446 | 6.648 | 8.71 | 8.399 | 8.961 | 8.937 | 6.696 | 17.291
+Q10_1_Page_Submit	numeric	157		[157 uniq] 38.611 | 7.769 | 28.832 | 9.863 | 10.874 | 13.392 | 26.178 | 63.367
+Q10_1_Click_Count	numeric	157		[13 uniq] 2 | 3 | 4 | 6 | 9 | 8 | 5 | 11
+Q10_3	factor	156	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q10_4	factor	156	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q10_5	character	47		[48 uniq] | There's also a plan in the Pentagon to invade Canada. Thought experiments are normal. | This was a direct threat to the US Constitution and democracy. | The memo outlines what amounts to plan for an attempted coup. Very abnormal and very important | Existential threat to democracy |...
+Q11_1_First_Click	numeric	161		[158 uniq] 5.804 | 4.616 | 6.195 | 6.139 | 7.795 | 5.668 | 3.403 | 4.109
+Q11_1_Last_Click	numeric	161		[161 uniq] 15.014 | 5.496 | 8.835 | 8.553 | 14.138 | 11.543 | 4.435 | 7.827
+Q11_1_Page_Submit	numeric	161		[161 uniq] 50.987 | 6.662 | 10.237 | 9.562 | 32.654 | 15.457 | 8.332 | 8.685
+Q11_1_Click_Count	numeric	161		[11 uniq] 3 | 2 | 4 | 5 | 7 | 14 | 8 | 9
+Q11_3	factor	161	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q11_4	factor	161	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q11_5	character	46		[47 uniq] | The willingness to accept electoral outcomes is a critical component of our democracy. What they are doing is extremely dangerous for American democracy. | More propoganda. Horrible instrument you have. | This is a symptom of US democratic decline. | Existential threat to democracy...
+Q12_1_First_Click	numeric	160		[158 uniq] 8.708 | 6.825 | 20.865 | 8.507 | 5.222 | 316.385 | 4.315 | 16.58
+Q12_1_Last_Click	numeric	160		[160 uniq] 12.192 | 10.013 | 30.739 | 11.171 | 14.837 | 317.264 | 6.728 | 17.301
+Q12_1_Page_Submit	numeric	160		[160 uniq] 13.247 | 51.651 | 39.96 | 12.407 | 16.226 | 318.679 | 35.08 | 19.824
+Q12_1_Click_Count	numeric	160		[14 uniq] 3 | 2 | 5 | 9 | 4 | 11 | 14 | 22
+Q12_3	factor	159	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q12_4	factor	159	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q12_5	character	45		[46 uniq] | Both sides exaggerating the respective threats to democracy and elections. | It's bad on values, but not sure how bad the impact will be. But a fairly regular if bad feature of American democracy. | It's normal because voter suppression is normal. It's alarming and anti-democratic al...
+Q13_1_First_Click	numeric	158		[157 uniq] 22.909 | 3.547 | 4.157 | 5.363 | 5.438 | 3.86 | 7.06 | 3.964
+Q13_1_Last_Click	numeric	158		[157 uniq] 28.235 | 4.433 | 8.472 | 27.8 | 8.658 | 4.802 | 17.66 | 4.887
+Q13_1_Page_Submit	numeric	158		[158 uniq] 29.813 | 11.407 | 10.022 | 29.029 | 10.919 | 6.673 | 19.102 | 6.267
+Q13_1_Click_Count	numeric	158		[11 uniq] 3 | 2 | 6 | 4 | 9 | 8 | 5 | 12
+Q13_3	factor	156	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q13_4	factor	157	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q13_5	character	44		[45 uniq] | Existential threat to democracy | Again, pure subversion of political institutions, but not necessarily illegal. It’s also comical and stupid because they’re saying they can’t run their own elections | Elected officials should say what they believe about the corruption or lack thereo...
+Q14_1_First_Click	numeric	155		[155 uniq] 8.085 | 4.289 | 10.485 | 6.177 | 5.581 | 14.083 | 4.32 | 4.752
+Q14_1_Last_Click	numeric	155		[155 uniq] 12.194 | 5.253 | 12.997 | 13.479 | 11.949 | 20.193 | 6.008 | 7.115
+Q14_1_Page_Submit	numeric	155		[154 uniq] 13.925 | 6.827 | 16.325 | 14.649 | 12.873 | 26.215 | 8.223 | 9.977
+Q14_1_Click_Count	numeric	155		[14 uniq] 2 | 4 | 3 | 5 | 8 | 6 | 15 | 7
+Q14_3	factor	154	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q14_4	factor	154	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q14_5	character	43		[44 uniq] | It's Tucker Carlson, so it shouldn't be important what he says, but....I guess I have to admit that it is. | the man has a large audience who believes him. | In addition to the falsity of the assertion, its maker and the network that magnifies his voice are clear and present dangers ...
+Q15_1_First_Click	numeric	156		[154 uniq] 10.368 | 9.374 | 2.985 | 2.744 | 15.219 | 8.983 | 7.384 | 3.965
+Q15_1_Last_Click	numeric	156		[156 uniq] 15.455 | 237.46 | 3.903 | 4.896 | 25.347 | 11.873 | 11.136 | 6.252
+Q15_1_Page_Submit	numeric	156		[156 uniq] 16.799 | 248.599 | 5.689 | 5.907 | 26.864 | 43.739 | 12.396 | 7.988
+Q15_1_Click_Count	numeric	156		[9 uniq] 3 | 10 | 2 | 9 | 4 | 6 | 8 | 5
+Q15_3	factor	156	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q15_4	factor	156	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q15_5	character	47		[48 uniq] | Allowing the teaching of historic fact is critical to democracy, even when it may be painful. Using labels or catch words to evoke fear and polarization (CRT, Defund Police, Wokeness) is detrimental to honest conversation. | All states should ban the teaching of racist propaganda, l...
+Q16_1_First_Click	numeric	145		[144 uniq] 4.598 | 5.807 | 6.997 | 4.301 | 7.946 | 6.858 | 13.357 | 7.198
+Q16_1_Last_Click	numeric	145		[145 uniq] 9.64 | 10.176 | 12.389 | 9.087 | 11.186 | 9.26 | 16.835 | 31.912
+Q16_1_Page_Submit	numeric	145		[144 uniq] 12.141 | 13.267 | 13.809 | 10.777 | 12.894 | 11.059 | 20.098 | 33.001
+Q16_1_Click_Count	numeric	145		[9 uniq] 2 | 3 | 5 | 9 | 4 | 7 | 10 | 61
+Q16_3	factor	144	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q16_4	factor	144	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q16_5	character	26		[27 uniq] | Reflects tribalization of politics as well as age bias. | What a classic case of ageism! Wonder why it didn't apply to Ronald Reagan. When you don't have real world issue, you either manufacture them or make them up from whole cloth. It's pathetic. But pathetic is increasingly the no...
+Q17_1_First_Click	numeric	177		[175 uniq] 10.732 | 8.226 | 143.122 | 4.768 | 9.132 | 11.352 | 15.208 | 6.945
+Q17_1_Last_Click	numeric	177		[176 uniq] 12.866 | 9.236 | 143.783 | 26.593 | 12.016 | 12.816 | 24.095 | 9.488
+Q17_1_Page_Submit	numeric	177		[177 uniq] 15.327 | 10.642 | 146.222 | 27.715 | 13.395 | 14.438 | 36.472 | 10.294
+Q17_1_Click_Count	numeric	177		[13 uniq] 2 | 5 | 3 | 4 | 16 | 6 | 13 | 9
+Q17_3	factor	176	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q17_4	factor	176	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q17_5	character	43		[44 uniq] | Not sure there is a firm commitment to abiding by elections anymore, particularly in the Trump camp. | Part of wider disinformation campaign, but within government; red herring. | Existential threat to democracy | The White House should not seek to erode trust in elections. | Well, w...
+Q18_1_First_Click	numeric	176		[175 uniq] 6.567 | 10.889 | 6.525 | 2.745 | 7.997 | 11.199 | 14.925 | 11.585
+Q18_1_Last_Click	numeric	176		[174 uniq] 16.027 | 15.524 | 11.102 | 4.158 | 35.296 | 16.663 | 21.574 | 13.809
+Q18_1_Page_Submit	numeric	176		[175 uniq] 59.23 | 23.376 | 11.802 | 5.234 | 52.917 | 19.415 | 22.115 | 17.161
+Q18_1_Click_Count	numeric	176		[11 uniq] 3 | 4 | 2 | 5 | 6 | 7 | 8 | 1
+Q18_3	factor	173	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q18_4	factor	174	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q18_5	character	31		[32 uniq] | The clearly obese president was declared to be in fantastic health, so...I don't think these things really matter. It is just a stunt to pump up the viewership. | Mostly just stupid | When the race is between two geriatrics, this should be compulsory... | Nothing worth commenting on...
+Q19_1_First_Click	numeric	146		[145 uniq] 18.067 | 5.972 | 5.846 | 4.136 | 9.94 | 10.787 | 6.586 | 16.967
+Q19_1_Last_Click	numeric	146		[146 uniq] 28.904 | 7.353 | 35.254 | 5.945 | 13.384 | 44.932 | 9.639 | 21.51
+Q19_1_Page_Submit	numeric	146		[146 uniq] 30.128 | 9.273 | 36.538 | 6.989 | 17.469 | 50.574 | 12.143 | 23.221
+Q19_1_Click_Count	numeric	146		4 | 2 | 6 | 3 | 7 | 5 | 8 | 14
+Q19_3	factor	145	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q19_4	factor	145	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q19_5	character	34		[35 uniq] | Pretty despicable way to treat a public servant. | It's abnormal to want to arrest a public health official. | He probably should be charged with something, given his admission that he lied to the American public on a regular basis. | Because there is no real ""conservatism"" represent...
+Q20_1_First_Click	numeric	173		[172 uniq] 5.08 | 279.56 | 11.791 | 5.688 | 6.492 | 25.355 | 10.892 | 13.098
+Q20_1_Last_Click	numeric	173		[173 uniq] 10.376 | 293.204 | 14.79 | 6.805 | 12.556 | 168.875 | 14.492 | 19.517
+Q20_1_Page_Submit	numeric	173		[172 uniq] 32.702 | 308.475 | 15.992 | 7.926 | 13.848 | 221.954 | 35.413 | 35.442
+Q20_1_Click_Count	numeric	173		[10 uniq] 3 | 5 | 4 | 2 | 6 | 7 | 8 | 11
+Q20_3	factor	171	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q20_4	factor	171	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q20_5	character	43		[44 uniq] | Celebrities say idiotic nonsense all of the time. | There's so much media and social media that any single burst of ""news"" is swallowed up in the noise. | Just more of the standard misinformation but semi-important because of following... | mostly normal in the sense that I'm not sur...
+Q21_1_First_Click	numeric	0		
+Q21_1_Last_Click	numeric	0		
+Q21_1_Page_Submit	numeric	0		
+Q21_1_Click_Count	numeric	0		
+Q21_3	factor	170	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q21_4	factor	170	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q21_5	character	46		[47 uniq] | This is mostly banal, but the motivation for investigating it is very abnormal: a political devotion to questioning reliable voting results. | It's normal/unimportant insofar as of course there was little evidence for voter fraud, but abnormal/important insofar as the investigation t...
+Q22_1_First_Click	numeric	161		[157 uniq] 5.671 | 11.565 | 13.202 | 5.398 | 4.055 | 3.797 | 3.32 | 2.899
+Q22_1_Last_Click	numeric	161		[160 uniq] 8.871 | 19.53 | 22.023 | 8.161 | 6.837 | 6.422 | 7.288 | 4.74
+Q22_1_Page_Submit	numeric	161		[161 uniq] 10.967 | 21.912 | 86.58 | 10.105 | 25.887 | 8.763 | 9.036 | 7.999
+Q22_1_Click_Count	numeric	161		[10 uniq] 3 | 2 | 7 | 5 | 4 | 19 | 8 | 10
+Q22_3	factor	160	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q22_4	factor	160	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q22_5	character	32		[33 uniq] | McConnell has been willing to distance himself from the conspiracy theory wing of the party in the past, so this isn't totally surprising, especially given his personal health situation. | Nonpartisan issue. | Mostly normal be cause we'd most often think that public figures want Amer...
+Q23_1_First_Click	numeric	165		[163 uniq] 7.297 | 11.82 | 4.477 | 11.21 | 4.337 | 4.547 | 10.654 | 4.609
+Q23_1_Last_Click	numeric	165		[164 uniq] 10.132 | 17.344 | 6.711 | 142.616 | 7.047 | 6.299 | 283.883 | 7.248
+Q23_1_Page_Submit	numeric	165		[165 uniq] 11.625 | 20.89 | 8.315 | 144.936 | 40.906 | 7.72 | 287.325 | 9.52
+Q23_1_Click_Count	numeric	165		[12 uniq] 2 | 3 | 5 | 6 | 4 | 9 | 13 | 8
+Q23_3	factor	163	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q23_4	factor	164	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q23_5	character	38		[39 uniq] | Can't be normal--just one time in 20 years. Important for that reason--the end of the seemingly endless. | The act was a normal part of being commander-in-chief and abiding by the former president's international commitment. However, it's important for US history. | The issue here r...
+Q24_1_First_Click	numeric	145		[145 uniq] 9.693 | 23.751 | 4.921 | 3.621 | 3.188 | 5.391 | 8.236 | 58.674
+Q24_1_Last_Click	numeric	145		[145 uniq] 11.097 | 29.963 | 7.321 | 5.565 | 5.953 | 6.734 | 12.828 | 71.793
+Q24_1_Page_Submit	numeric	145		[143 uniq] 13.398 | 33.448 | 8.799 | 7.308 | 42.69 | 12.076 | 22.598 | 76.066
+Q24_1_Click_Count	numeric	145		[15 uniq] 2 | 3 | 9 | 16 | 5 | 7 | 4 | 6
+Q24_3	factor	144	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q24_4	factor	144	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q24_5	character	43		[44 uniq] | The Court has not been consistent in the use of its shadow docket or its treatment of such lawsuits, and it's undermining its reputation even further. | I suppose the real question: ""what is normal?"" Given the many battles over abortion rights, this is not particularly abnormal, alth...
+Q25_1_First_Click	numeric	162		[160 uniq] 8.115 | 8.983 | 5.842 | 15.75 | 4.234 | 4.349 | 3.968 | 3.975
+Q25_1_Last_Click	numeric	162		[161 uniq] 15.266 | 54.333 | 28.083 | 27.558 | 7.349 | 9.511 | 10.155 | 15.135
+Q25_1_Page_Submit	numeric	162		[161 uniq] 16.607 | 67.31 | 31.417 | 29.497 | 9.146 | 10.684 | 11.662 | 28.699
+Q25_1_Click_Count	numeric	162		[9 uniq] 3 | 8 | 2 | 4 | 6 | 5 | 7 | 1
+Q25_3	factor	161	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q25_4	factor	161	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q25_5	character	31		[32 uniq] | Hard to say what is 'normal' or not in the middle of a pandemic! | Somewhat unusual step but with positive public health benefits. | This is a good example of tyrannical government. | Unprecedented times, so can't really say this is normal--but action is not outside of executive auth...
+Q26_1_First_Click	numeric	166		[165 uniq] 5.261 | 5.139 | 5.434 | 4.571 | 2.964 | 10.652 | 3.423 | 8.268
+Q26_1_Last_Click	numeric	166		[164 uniq] 12.33 | 10.94 | 38.072 | 7.461 | 23.292 | 12.451 | 10.15 | 17.296
+Q26_1_Page_Submit	numeric	166		[166 uniq] 41.303 | 13.385 | 70.743 | 7.852 | 25.772 | 16.499 | 12.571 | 31.669
+Q26_1_Click_Count	numeric	166		[9 uniq] 3 | 6 | 4 | 2 | 7 | 5 | 13 | 10
+Q26_3	factor	166	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q26_4	factor	164	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q26_5	character	30		[31 uniq] | Major implications for legislation but fits both Biden and traditional senate positions. | The filibuster is a problem because it adds to the impression that Congress can not and does not govern. Most voters don't care about these arcane rules; they just want the party in power to g...
+Q27_1_First_Click	numeric	144		[140 uniq] 25.492 | 6.908 | 4.995 | 3.265 | 6.794 | 3.625 | 5.672 | 9.117
+Q27_1_Last_Click	numeric	144		[144 uniq] 28.536 | 17.227 | 7.942 | 5.265 | 17.982 | 5.027 | 31.446 | 12.573
+Q27_1_Page_Submit	numeric	144		[144 uniq] 31.154 | 20.207 | 9.736 | 26.369 | 158.922 | 6.777 | 32.627 | 17.109
+Q27_1_Click_Count	numeric	144		2 | 3 | 4 | 11 | 5 | 8 | 12 | 6
+Q27_3	factor	143	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q27_4	factor	144	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q27_5	character	31		[32 uniq] | Control of the Court is important; geriatric elites hanging on forever is normal if regrettable behavior. | Justices and other public figures often conceal their intentions. Important because at his age the end is certain. | Obviously timing will determine who makes judicial appoint...
+Q28_1_First_Click	numeric	163		[163 uniq] 6.823 | 6.133 | 4.662 | 4.741 | 10.139 | 4.346 | 6.85 | 13.166
+Q28_1_Last_Click	numeric	163		[161 uniq] 9.804 | 8.118 | 5.486 | 5.945 | 14.884 | 7.438 | 16.666 | 82.334
+Q28_1_Page_Submit	numeric	163		[163 uniq] 51.245 | 9.2 | 6.921 | 7.395 | 15.866 | 8.331 | 19.409 | 86.797
+Q28_1_Click_Count	numeric	163		[11 uniq] 3 | 2 | 4 | 5 | 6 | 13 | 7 | 11
+Q28_3	factor	160	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q28_4	factor	160	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q28_5	character	40		[41 uniq] | Health and safety should have no political party. | Existential threat to democracy | Democrats already believe it, and Mitt's star seems to be setting in the Republican Party. | Romney's comment is normal. The deep polarization is abnormal. | Just the comments of 1 Senator, albeit ...
+Q29_1_First_Click	numeric	164		[163 uniq] 15.839 | 2.441 | 4.159 | 6.378 | 4.549 | 5.398 | 6.982 | 5.846
+Q29_1_Last_Click	numeric	164		[162 uniq] 19.612 | 3.625 | 7.924 | 8.347 | 7.765 | 7.479 | 13.393 | 8.229
+Q29_1_Page_Submit	numeric	164		[163 uniq] 132.968 | 5.458 | 8.818 | 9.954 | 8.723 | 9.895 | 16.052 | 12.16
+Q29_1_Click_Count	numeric	164		[11 uniq] 3 | 2 | 4 | 14 | 6 | 5 | 7 | 8
+Q29_3	factor	164	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q29_4	factor	164	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q29_5	character	27		[28 uniq] | Federal holidays have been signed into law throughout our history. If the Emancipation Proclamation had actually be enacted, Juneteenth would not have been necessary. It's about time to right that wrong. | The answer to this question clearly depends on how strictly the reader interp...
+Q30_1_First_Click	numeric	161		[160 uniq] 7.308 | 12.567 | 4.928 | 4.004 | 8.052 | 3.155 | 4.702 | 9.048
+Q30_1_Last_Click	numeric	161		[161 uniq] 10.397 | 40.873 | 9.531 | 6.94 | 19.487 | 6.116 | 7.59 | 25.555
+Q30_1_Page_Submit	numeric	161		[161 uniq] 12.204 | 59.671 | 13.265 | 9.429 | 26.546 | 6.692 | 17.802 | 55.99
+Q30_1_Click_Count	numeric	161		[9 uniq] 2 | 5 | 3 | 4 | 7 | 8 | 10 | 6
+Q30_3	factor	160	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q30_4	factor	160	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q30_5	character	37		[38 uniq] | Important given the refusal to concede will likely be a GOP tactic. Elder didn't have much choice given that he got clobbered, but the real test will be for an important election that is close. | This is how these things should work. | Important in the sense that Elder actually conc...
+Q31_1_First_Click	numeric	161		[160 uniq] 7.233 | 4.101 | 3.971 | 4.566 | 7.234 | 7.872 | 2.497 | 2.287
+Q31_1_Last_Click	numeric	161		[161 uniq] 9.389 | 17.078 | 5.691 | 10.393 | 10.534 | 10.699 | 5.233 | 3.235
+Q31_1_Page_Submit	numeric	161		[161 uniq] 13.659 | 30.181 | 7.852 | 11.891 | 12.155 | 24.467 | 6.433 | 4.652
+Q31_1_Click_Count	numeric	161		[10 uniq] 2 | 3 | 6 | 5 | 4 | 14 | 45 | 8
+Q31_3	factor	161	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q31_4	factor	161	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q31_5	character	44		[45 uniq] | Dramatic but not unusual. | It's about time. | Not unusual for public figures tainted by accusations to leave office. Semi-important as a signal to the rest of us of the wisdom to behave. | An example of a powerful governor being held to account. | Again, what is normal? Individuals...
+Q32_1_First_Click	numeric	169		[168 uniq] 4.201 | 5.296 | 17.195 | 5.345 | 5.3 | 5.124 | 5.4 | 3.861
+Q32_1_Last_Click	numeric	169		[168 uniq] 6.694 | 7.784 | 31.731 | 27.906 | 7.401 | 7.838 | 36.588 | 5.349
+Q32_1_Page_Submit	numeric	169		[169 uniq] 8.236 | 26.308 | 33.6 | 39.094 | 10.098 | 56.402 | 37.559 | 6.905
+Q32_1_Click_Count	numeric	169		[11 uniq] 3 | 2 | 5 | 6 | 4 | 11 | 7 | 9
+Q32_3	factor	169	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q32_4	factor	169	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q32_5	character	45		[46 uniq] | This has been a common tactic since the dawn of the Cold War (if not earlier). What makes it stand out, if at all, is the fact that US infrastructure is in such bad shape that even conservatives should strongly support it as a boon to US businesses. | Reinforces the tribalization of ...
+Q648_First_Click	numeric	181		[177 uniq] 10.529 | 24.039 | 6.008 | 4.952 | 10.215 | 2.727 | 3.621 | 2.33
+Q648_Last_Click	numeric	181		[180 uniq] 13.949 | 27.941 | 9.68 | 8.218 | 20.519 | 4.119 | 9.405 | 6.156
+Q648_Page_Submit	numeric	181		[178 uniq] 15.635 | 28.348 | 14.654 | 13.713 | 49.821 | 6.276 | 11.458 | 7.345
+Q648_Click_Count	numeric	181		3 | 2 | 4 | 8 | 6 | 5 | 7 | 10
+Q33_3	factor	180	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q33_4	factor	180	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q33_5	character	27		[28 uniq] | The Whitehouse has hosted nonpartisan events throughout history. | Fuck you and your shitty survey. It should say, Biden hosts party during COVID. Fuck you, you hacks. | A holiday, a party, new president, publicity. | It beats jabbering about how the American revolutionaries seized a...
+Q663_First_Click	numeric	177		[176 uniq] 11.667 | 32.002 | 5.461 | 5.31 | 6.965 | 5.131 | 15.303 | 4.55
+Q663_Last_Click	numeric	177		[174 uniq] 19.128 | 55.556 | 14.19 | 6.679 | 16.3 | 16.214 | 171.836 | 6.286
+Q663_Page_Submit	numeric	177		[177 uniq] 20.355 | 58.213 | 15.024 | 7.796 | 23.09 | 17.697 | 200.019 | 8.647
+Q663_Click_Count	numeric	177		[15 uniq] 4 | 3 | 6 | 2 | 7 | 5 | 12 | 8
+Q34_3	factor	176	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q34_4	factor	176	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q34_5	character	49		[50 uniq] | First Amendment is paramount. | A naked a dismissal of the importance, and the right, of free expression as one could imagine. If I don't shut up you'll come after my property right? | Simply appalling. | It's a violation of all sorts of norms, but not one that has any tangible im...
+Q37_1_First_Click	numeric	564		[525 uniq] 8.061 | 14.524 | 3.455 | 5.3 | 3.585 | 6.438 | 4.737 | 8.039
+Q37_1_Last_Click	numeric	564		[519 uniq] 8.061 | 14.524 | 3.455 | 5.3 | 3.585 | 6.438 | 6.404 | 8.039
+Q37_1_Page_Submit	numeric	564		[548 uniq] 9.429 | 15.841 | 5.007 | 6.754 | 4.711 | 7.937 | 6.425 | 13.272
+Q37_1_Click_Count	numeric	564		1 | 2 | 3 | 4
+rank	factor	564	Which of the following best describes your occupation?	Graduate student | Post-doctoral fellow | Adjunct faculty | Full-time faculty | Emeritus faculty | Other
+Q38_1_First_Click	numeric	564		[522 uniq] 3.364 | 3.098 | 1.6 | 6.097 | 1.362 | 2.362 | 2.082 | 9.701
+Q38_1_Last_Click	numeric	564		[556 uniq] 25.389 | 8.21 | 4.256 | 21.801 | 15.484 | 3.854 | 10.549 | 21.322
+Q38_1_Page_Submit	numeric	564		[562 uniq] 25.302 | 14.028 | 9.015 | 50.324 | 28.322 | 39.55 | 26.445 | 23.189
+Q38_1_Click_Count	numeric	564		3 | 4 | 5 | 7 | 2 | 1 | 6
+field	factor	561	What is your primary field of study?	American politics | Comparative politics | International relations | Political theory | Another field of political science | Something other than political science
+field_text	character	469		[377 uniq] | foreign policy | Gender | Conflict, War, and International Law | comparative politics of social and political citizenship in liberal democracies | National legislatures, election systems and representation | The developed countries | Public Administration
+Q39_1_First_Click	numeric	564		[150 uniq] 0 | 1.532 | 3.495 | 3.754 | 13.483 | 2.322 | 1.131 | 1.483
+Q39_1_Last_Click	numeric	564		[154 uniq] 0 | 1.532 | 3.495 | 4.165 | 13.483 | 2.322 | 1.131 | 1.483
+Q39_1_Page_Submit	numeric	564		[521 uniq] 2.911 | 2.372 | 52.087 | 7.681 | 1.483 | 2.359 | 1.939 | 1.867
+Q39_1_Click_Count	numeric	564		[14 uniq] 0 | 1 | 2 | 10 | 8 | 7 | 20 | 4
+comments	character	125		[120 uniq] | more creative ideas to reform governance needed that do not lean towards populism, majority rules kind of programs. | thank you | the question about the AP investigation was ambiguous | long but interesting | Populism = illiberalism? The questions are all stupid and misinformed by ...
+Q_TotalDuration	character	564		[464 uniq] 903 | 7518 | 763 | 999 | 2161 | 1331 | 765 | 1284
+statement1	character	0		
+statement2	character	0		
+statement3	character	0		
+statement4	character	0		
+luth_id	character	564		[564 uniq] BLW0004922 | BLW0001205 | BLW0001497 | BLW0002519 | BLW1120548 | BLW0201289 | BLW0006581 | BLW0200188
+SectionOrder	character	564		[563 uniq] QID680,QID610,QID617,QID618,QID612,QID615,QID619,QID613,QID611,QID614,QID616 | QID680,QID610,QID618,QID616,QID617,QID614,QID612,QID613,QID615,QID619,QID611 | QID680,QID610,QID613,QID617,QID611,QID618,QID614,QID619,QID616,QID615,QID612 | QID680,QID610,QID615,QID619,QID612,QID614,QID611,...
+Ranking_EconomicInequality	numeric	564		3 | 2 | 1 | 4 | 6 | 5 | 7
+Ranking_RacialInequality	numeric	564		4 | 5 | 7 | 3 | 1 | 6 | 2
+Ranking_UnrepresentativePoliticalInstitutions	numeric	564		5 | 1 | 4 | 6 | 3 | 2 | 7
+Ranking_PartisanPolarization	numeric	564		2 | 6 | 1 | 5 | 4 | 3 | 7
+Ranking_MisinformationAndUncivilDebate	numeric	564		1 | 6 | 3 | 4 | 5 | 7 | 2
+Ranking_PopulismIlliberalism	numeric	564		6 | 5 | 1 | 4 | 2 | 3 | 7
+Ranking_WokenessIdentityPolitics	numeric	564		7 | 5 | 4 | 6 | 3 | 2 | 1
+Q4_3_1_1	character	552		[58 uniq] 9 | 1 | 50 | 10 | 5 | 69 | 30 | 3
+Q4_3_1_2	character	550		[80 uniq] 22 | 40 | 7 | 30 | 20 | 25 | 29 | 19
+Q4_3_1_3	character	551		[57 uniq] 26 | 1 | 20 | 50 | 10 | 5 | 21 | 18
+Q4_3_1_4	character	555		[78 uniq] 51 | 50 | 60 | 30 | 40 | 14 | 5 | 33
+Q4_3_1_5	character	553		[73 uniq] 18 | 10 | 70 | 50 | 15 | 73 | 19 | 2
+Q4_3_1_6	character	553		[72 uniq] 20 | 50 | 30 | 1 | 5 | 64 | 19 | 33
+Q4_3_1_7	character	557		[84 uniq] 67 | 75 | 19 | 30 | 40 | 25 | 71 | 50
+Q4_3_1_8	character	548		[68 uniq] 16 | 5 | 12 | 30 | 10 | 80 | 40 | 20
+Q4_3_1_9	character	557		[73 uniq] 20 | 10 | 3 | 30 | 15 | 43 | 2 | 25

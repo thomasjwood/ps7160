@@ -1,0 +1,350 @@
+var	class	n	label	values
+start	POSIXct	776	Start Date	[766 uniq] 1595867057 | 1595867235 | 1595867205 | 1595867439 | 1595867733 | 1595867350 | 1595867162 | 1595869121
+end	POSIXct	776	End Date	[772 uniq] 1595867688 | 1595867698 | 1595867978 | 1595868302 | 1595868409 | 1595868577 | 1595869291 | 1595869709
+status	factor	776	Response Type	IP Address | Survey Preview | Survey Test | Imported | Spam | Survey Preview Spam | Imported Spam | Offline | Offline Survey Preview | ex | EX Spam | EX Offline
+progress	numeric	776	Progress	100
+duration	numeric	776	Duration (in seconds)	[642 uniq] 630 | 463 | 772 | 862 | 675 | 1226 | 2128 | 587
+finished	factor	776	Finished	False | True
+recorded_date	POSIXct	776	Recorded Date	[774 uniq] 1595867688 | 1595867698 | 1595867978 | 1595868302 | 1595868409 | 1595868577 | 1595869291 | 1595869709
+record_id	character	776	Response ID	[776 uniq] R_1Fb25OuzP5t0pag | R_3sziBV41vPuCiho | R_28OGfXHvJ5Is4oK | R_3fvZcnItjklFQ2a | R_2zhXXEDjUTAhfGR | R_1r6TYtZTGAoDQl5 | R_uh2skXozr82uEKZ | R_1j9ufuZtz88dkGp
+distribution_channel	character	776	Distribution Channel	anonymous
+language	character	776	User Language	EN
+consent	factor	776	Thank you for participating in the Bright Line Watch survey of political scienti	I agree to continue. | I do not agree to continue.
+Q2_1_First_Click	numeric	776	Timing - First Click	[44 uniq] 0 | 277.098 | 1.701 | 1.512 | 2.995 | 1.277 | 9.937 | 1.323
+Q2_1_Last_Click	numeric	776	Timing - Last Click	[44 uniq] 0 | 277.098 | 9.332 | 1.512 | 2.995 | 1.277 | 9.937 | 1.323
+Q2_1_Page_Submit	numeric	776	Timing - Page Submit	[761 uniq] 14.641 | 4.215 | 364.638 | 2.299 | 1.844 | 4.143 | 5.726 | 4.484
+Q2_1_Click_Count	numeric	776	Timing - Click Count	0 | 1 | 16 | 8 | 2 | 3 | 4
+Q2_3_First_Click	numeric	776	Timing - First Click	[757 uniq] 4.396 | 15.276 | 7.516 | 18.163 | 11.176 | 14.826 | 6.331 | 33.938
+Q2_3_Last_Click	numeric	776	Timing - Last Click	[772 uniq] 89.261 | 71.948 | 55.989 | 149.451 | 103.621 | 144.686 | 180.033 | 135.726
+Q2_3_Page_Submit	numeric	776	Timing - Page Submit	[769 uniq] 90.683 | 72.987 | 56.95 | 150.322 | 105.148 | 146.576 | 182.301 | 138.143
+Q2_3_Click_Count	numeric	776	Timing - Click Count	[40 uniq] 14 | 15 | 17 | 20 | 25 | 29 | 77 | 21
+imp_misconduct	factor	381	How important are these characteristics for democratic government? - Government	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_private_gain	factor	404	How important are these characteristics for democratic government? - Government	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_monitor_opponents	factor	385	How important are these characteristics for democratic government? - Government	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_equal_rights	factor	397	How important are these characteristics for democratic government? - All adult c	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_journalists	factor	391	How important are these characteristics for democratic government? - Government	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_private_violence	factor	399	How important are these characteristics for democratic government? - Government	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_free_speech	factor	381	How important are these characteristics for democratic government? - Government	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_patriotism	factor	384	How important are these characteristics for democratic government? - Political c	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_foreign	factor	398	How important are these characteristics for democratic government? - Elections a	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_ban_ideology	factor	388	How important are these characteristics for democratic government? - Parties and	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_voting_rights	factor	396	How important are these characteristics for democratic government? - All adult c	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_votes_impact	factor	373	How important are these characteristics for democratic government? - All votes h	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_election_fraud	factor	414	How important are these characteristics for democratic government? - Elections a	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_expand_executive	factor	371	How important are these characteristics for democratic government? - Executive a	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_legislature_check	factor	383	How important are these characteristics for democratic government? - The legisla	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_judiciary_check	factor	356	How important are these characteristics for democratic government? - The judicia	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_judicial_ind	factor	400	How important are these characteristics for democratic government? - The elected	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_participation	factor	383	How important are these characteristics for democratic government? - Voter parti	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_funds_transparent	factor	367	How important are these characteristics for democratic government? - Information	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_contributions	factor	401	How important are these characteristics for democratic government? - Public poli	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_opinions	factor	398	How important are these characteristics for democratic government? - Citizens ca	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_districts	factor	407	How important are these characteristics for democratic government? - The geograp	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_common_und	factor	383	How important are these characteristics for democratic government? - Even when t	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_compromise	factor	389	How important are these characteristics for democratic government? - Elected off	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_candidates_disclose	factor	403	How important are these characteristics for democratic government? - Citizens ha	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_protest	factor	383	How important are these characteristics for democratic government? - Government	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_investigations	factor	365	How important are these characteristics for democratic government? - Law enforce	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+imp_gov_stats	factor	369	How important are these characteristics for democratic government? - Government	Not relevant This has no impact on democracy | Beneficial This enhances democracy, but is not required for democracy | ImportantIf this is absent, democracy is compromised | EssentialA country cannot be considered democratic without this
+Q2_4_DO_1	numeric	382	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 13 | 10 | 1 | 4 | 9 | 12 | 7 | 11
+Q2_4_DO_2	numeric	405	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 7 | 5 | 1 | 4 | 3 | 6 | 9 | 2
+Q2_4_DO_3	numeric	386	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 3 | 4 | 9 | 10 | 8 | 5 | 2 | 12
+Q2_4_DO_4	numeric	397	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 9 | 4 | 10 | 6 | 14 | 5 | 1 | 13
+Q2_4_DO_5	numeric	391	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 3 | 14 | 5 | 9 | 2 | 1 | 7 | 4
+Q2_4_DO_6	numeric	400	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 3 | 4 | 5 | 8 | 2 | 10 | 11 | 9
+Q2_4_DO_7	numeric	381	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 14 | 3 | 10 | 5 | 4 | 7 | 8 | 12
+Q2_4_DO_8	numeric	384	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 13 | 7 | 9 | 2 | 14 | 6 | 4 | 12
+Q2_4_DO_9	numeric	398	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 10 | 6 | 7 | 11 | 9 | 5 | 3 | 13
+Q2_4_DO_10	numeric	388	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 14 | 4 | 7 | 2 | 6 | 5 | 9 | 3
+Q2_4_DO_11	numeric	396	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 2 | 5 | 8 | 6 | 4 | 7 | 3 | 11
+Q2_4_DO_12	numeric	374	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 11 | 6 | 14 | 13 | 2 | 10 | 7 | 8
+Q2_4_DO_13	numeric	414	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 6 | 8 | 11 | 12 | 7 | 2 | 9 | 4
+Q2_4_DO_14	numeric	372	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 11 | 13 | 14 | 4 | 12 | 10 | 2 | 5
+Q2_4_DO_15	numeric	384	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 10 | 3 | 8 | 1 | 14 | 9 | 12 | 11
+Q2_4_DO_16	numeric	356	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 13 | 12 | 3 | 6 | 4 | 8 | 11 | 2
+Q2_4_DO_17	numeric	401	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 4 | 11 | 12 | 14 | 3 | 5 | 6 | 9
+Q2_4_DO_18	numeric	383	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 1 | 9 | 12 | 14 | 5 | 10 | 13 | 8
+Q2_4_DO_19	numeric	368	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 8 | 10 | 7 | 14 | 13 | 3 | 2 | 9
+Q2_4_DO_20	numeric	402	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 1 | 3 | 8 | 5 | 10 | 7 | 13 | 14
+Q2_4_DO_21	numeric	398	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 7 | 11 | 1 | 2 | 6 | 9 | 12 | 14
+Q2_4_DO_22	numeric	408	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 2 | 1 | 14 | 6 | 3 | 8 | 11 | 5
+Q2_4_DO_23	numeric	384	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 4 | 12 | 13 | 10 | 8 | 6 | 3 | 1
+Q2_4_DO_24	numeric	390	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 8 | 12 | 10 | 7 | 11 | 3 | 14 | 1
+Q2_4_DO_25	numeric	403	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 6 | 9 | 11 | 12 | 10 | 13 | 14 | 7
+Q2_4_DO_26	numeric	383	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 5 | 11 | 2 | 9 | 14 | 12 | 13 | 8
+Q2_4_DO_27	numeric	366	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 12 | 2 | 5 | 1 | 4 | 10 | 6 | 11
+Q2_4_DO_28	numeric	370	How important are these characteristics for democratic government? - Display Ord	[14 uniq] 1 | 5 | 13 | 8 | 6 | 3 | 14 | 9
+Q2_5_First_Click	numeric	776	Timing - First Click	[758 uniq] 7.468 | 9.369 | 6.428 | 12.76 | 7.553 | 10.716 | 19.833 | 6.913
+Q2_5_Last_Click	numeric	776	Timing - Last Click	[775 uniq] 89.629 | 68.602 | 59.723 | 94.875 | 82.222 | 108.907 | 157.668 | 117.912
+Q2_5_Page_Submit	numeric	776	Timing - Page Submit	[773 uniq] 90.609 | 69.692 | 60.703 | 95.778 | 83.354 | 110.368 | 159.846 | 119.958
+Q2_5_Click_Count	numeric	776	Timing - Click Count	[40 uniq] 18 | 14 | 16 | 19 | 25 | 15 | 28 | 82
+perf_misconduct	factor	381	How well do the following statements describe the United States as of today? - G	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_private_gain	factor	404	How well do the following statements describe the United States as of today? - G	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_monitor_opponents	factor	385	How well do the following statements describe the United States as of today? - G	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_equal_rights	factor	397	How well do the following statements describe the United States as of today? - A	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_journalists	factor	391	How well do the following statements describe the United States as of today? - G	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_private_violence	factor	399	How well do the following statements describe the United States as of today? - G	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_free_speech	factor	381	How well do the following statements describe the United States as of today? - G	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_patriotism	factor	384	How well do the following statements describe the United States as of today? - P	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_foreign	factor	398	How well do the following statements describe the United States as of today? - E	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_ban_ideology	factor	387	How well do the following statements describe the United States as of today? - P	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_voting_rights	factor	396	How well do the following statements describe the United States as of today? - A	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_votes_impact	factor	373	How well do the following statements describe the United States as of today? - A	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_election_fraud	factor	414	How well do the following statements describe the United States as of today? - E	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_expand_executive	factor	371	How well do the following statements describe the United States as of today? - E	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_legislature_check	factor	382	How well do the following statements describe the United States as of today? - T	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_judiciary_check	factor	356	How well do the following statements describe the United States as of today? - T	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_judicial_ind	factor	400	How well do the following statements describe the United States as of today? - T	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_participation	factor	383	How well do the following statements describe the United States as of today? - V	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_funds_transparent	factor	367	How well do the following statements describe the United States as of today? - I	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_contributions	factor	401	How well do the following statements describe the United States as of today? - P	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_opinions	factor	398	How well do the following statements describe the United States as of today? - C	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_districts	factor	407	How well do the following statements describe the United States as of today? - T	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_common_und	factor	383	How well do the following statements describe the United States as of today? - E	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_compromise	factor	389	How well do the following statements describe the United States as of today? - E	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_candidates_disclose	factor	403	How well do the following statements describe the United States as of today? - C	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_protest	factor	383	How well do the following statements describe the United States as of today? - G	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_investigations	factor	365	How well do the following statements describe the United States as of today? - L	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_gov_stats	factor	369	How well do the following statements describe the United States as of today? - G	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q3_1_First_Click	numeric	776	Timing - First Click	[760 uniq] 8.319 | 9.852 | 4.136 | 4.593 | 5.165 | 9.752 | 21.951 | 13.001
+Q3_1_Last_Click	numeric	776	Timing - Last Click	[765 uniq] 8.319 | 9.852 | 6.311 | 4.593 | 12.579 | 9.752 | 21.951 | 13.001
+Q3_1_Page_Submit	numeric	776	Timing - Page Submit	[762 uniq] 13.339 | 10.889 | 7.186 | 6.076 | 14.204 | 11.492 | 29.892 | 13.931
+Q3_1_Click_Count	numeric	776	Timing - Click Count	[15 uniq] 1 | 2 | 4 | 15 | 3 | 5 | 6 | 7
+rating_USA	numeric	772	On a scale from 0 to 100, where 0 is least democratic and 100 is most democratic	[80 uniq] 60 | 70 | 71 | 80 | 95 | 72 | 64 | 90
+US_2015	numeric	739	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[68 uniq] 70 | 86 | 90 | 85 | 93 | 80 | 76 | 92
+US_2005	numeric	733	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[65 uniq] 70 | 86 | 90 | 82 | 84 | 93 | 80 | 74
+US_1995	numeric	726	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[63 uniq] 70 | 90 | 91 | 84 | 93 | 80 | 78 | 75
+US_1985	numeric	718	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[64 uniq] 75 | 89 | 90 | 87 | 84 | 93 | 80 | 74
+US_1975	numeric	710	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[68 uniq] 80 | 89 | 90 | 69 | 82 | 72 | 85 | 46
+US_1950	numeric	695	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[79 uniq] 55 | 75 | 36 | 74 | 80 | 40 | 70 | 85
+US_1900	numeric	671	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[79 uniq] 40 | 70 | 20 | 75 | 37 | 30 | 80 | 50
+US_1850	numeric	695	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[80 uniq] 30 | 40 | 11 | 64 | 50 | 37 | 20 | 45
+US_1800	numeric	688	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[80 uniq] 30 | 40 | 11 | 57 | 33 | 37 | 20 | 45
+Q162_First_Click	numeric	776	Timing - First Click	[750 uniq] 10.905 | 15.373 | 6.807 | 9.2 | 21.322 | 19.266 | 41.799 | 17.04
+Q162_Last_Click	numeric	776	Timing - Last Click	[762 uniq] 153.245 | 73.82 | 45.968 | 65.399 | 85.753 | 140.565 | 127.346 | 97.323
+Q162_Page_Submit	numeric	776	Timing - Page Submit	[775 uniq] 156.384 | 74.842 | 48.955 | 67.293 | 86.761 | 143.238 | 129.654 | 98.33
+Q162_Click_Count	numeric	776	Timing - Click Count	[50 uniq] 32 | 9 | 10 | 13 | 18 | 17 | 27 | 48
+Q159	character	651	In previous questions about the political system of the United States, using a s	[646 uniq] Problems associated with voting access have only deteriorated further between 2015 and today, as well as all the problems associated with the Trump administration's descent into authoritarianism. | President Trump has systematically demolished many of the democratic safeguards that wer...
+Q161_First_Click	numeric	776	Timing - First Click	[661 uniq] 8.741 | 9.379 | 9.063 | 11.24 | 9.817 | 15.728 | 22.972 | 15.944
+Q161_Last_Click	numeric	776	Timing - Last Click	[675 uniq] 8.741 | 38.035 | 9.063 | 95.355 | 121.272 | 189.306 | 240.462 | 15.944
+Q161_Page_Submit	numeric	776	Timing - Page Submit	[776 uniq] 83.406 | 42.148 | 39.909 | 134.606 | 180.861 | 195.051 | 253.156 | 17.842
+Q161_Click_Count	numeric	776	Timing - Click Count	[32 uniq] 1 | 2 | 5 | 7 | 22 | 6 | 57 | 3
+state	factor	772	Now we'd like to ask you a question about democracy in your state. In which stat	Alabama | Alaska | Arizona | Arkansas | California | Colorado | Connecticut | Delaware | District of Columbia | Florida | Georgia | Hawaii | Idaho | Illinois | Indiana | Iowa | Kansas | Kentucky | Louisiana | Maine | Maryland | Massachusetts | Michigan | Minnesota | Mississippi | Missouri | Monta...
+rating_state	numeric	761	Now using the same 0 to 100 scale as previously, how would you rate the politica	[82 uniq] 85 | 80 | 81 | 86 | 95 | 93 | 70 | 65
+importance_democ	factor	774	How important is it for you to live in a country that is governed democratically	Not at all important1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | Absolutely important10
+Q6_1_First_Click	numeric	776	Timing - First Click	[109 uniq] 0 | 7.218 | 8.943 | 2.947 | 14.38 | 4.62 | 4.294 | 2.157
+Q6_1_Last_Click	numeric	776	Timing - Last Click	[109 uniq] 0 | 7.218 | 8.943 | 32.319 | 16.265 | 4.62 | 4.294 | 2.157
+Q6_1_Page_Submit	numeric	776	Timing - Page Submit	[767 uniq] 17.745 | 11.632 | 13.14 | 10.002 | 3.375 | 32.669 | 41.304 | 16.767
+Q6_1_Click_Count	numeric	776	Timing - Click Count	[14 uniq] 0 | 1 | 24 | 2 | 4 | 5 | 3 | 7
+Q7_1_First_Click	numeric	316	Timing - First Click	[303 uniq] 4.277 | 2.304 | 3.467 | 14.042 | 6.753 | 3.421 | 4.309 | 4.226
+Q7_1_Last_Click	numeric	316	Timing - Last Click	[314 uniq] 7.557 | 4.956 | 4.51 | 17.338 | 29.127 | 8.204 | 5.317 | 7.481
+Q7_1_Page_Submit	numeric	316	Timing - Page Submit	[316 uniq] 8.321 | 6.215 | 6.223 | 41.781 | 33.408 | 11.3 | 6.265 | 19.791
+Q7_1_Click_Count	numeric	316	Timing - Click Count	[15 uniq] 3 | 2 | 5 | 4 | 6 | 12 | 11 | 8
+Q7_3	factor	315	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q7_4	factor	315	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q7_5	character	119	Please comment on your responses above (optional).	[120 uniq] | One riot...one ranger. That's the better way. | Risky for all concerned and politically motivated | Uh, federalism! State police power.... | This is a fundamental rule of law problem IF we define the ""deployment"" to include those officers' own illegal behavior, as I've done here. |...
+Q8_1_First_Click	numeric	325	Timing - First Click	[322 uniq] 2.974 | 8.801 | 4.667 | 6.248 | 6.667 | 3.898 | 9.034 | 9.065
+Q8_1_Last_Click	numeric	325	Timing - Last Click	[321 uniq] 4.494 | 18.984 | 76.182 | 10.9 | 13.828 | 7.938 | 14.01 | 11.828
+Q8_1_Page_Submit	numeric	325	Timing - Page Submit	[324 uniq] 6.394 | 88.937 | 119.44 | 25.534 | 16.553 | 10.491 | 19.331 | 13.622
+Q8_1_Click_Count	numeric	325	Timing - Click Count	[15 uniq] 2 | 3 | 5 | 4 | 7 | 8 | 17 | 9
+Q8_3	factor	325	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q8_4	factor	325	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q8_5	character	119	Please comment on your responses above (optional).	[120 uniq] | ... suggests that the President's political friends are exempt for duty to obey the law. | Stone is disgraced, guilty, but also a relatively harmless oddball. The reason I rated it semi-important is that he could have been involved in a quid pro quo not to implicate Trump, but that...
+Q9_1_First_Click	numeric	300	Timing - First Click	[293 uniq] 3.57 | 3.6 | 7.968 | 6.735 | 4.05 | 16.223 | 4.211 | 11.39
+Q9_1_Last_Click	numeric	300	Timing - Last Click	[297 uniq] 4.628 | 4.792 | 13.998 | 16.953 | 7.117 | 56.949 | 5.475 | 14.639
+Q9_1_Page_Submit	numeric	300	Timing - Page Submit	[298 uniq] 5.812 | 6.274 | 14.518 | 35.845 | 9.262 | 59.123 | 6.209 | 25.939
+Q9_1_Click_Count	numeric	300	Timing - Click Count	[13 uniq] 2 | 5 | 3 | 4 | 6 | 8 | 7 | 10
+Q9_3	factor	298	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q9_4	factor	298	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q9_5	character	100	Please comment on your responses above (optional).	[101 uniq] | An empty threat | I never have heard of any other President doing such a thing. | Subvert democracy. | The general threat to federalism, and the specific threat to electoral integrity, combine for this rating. | President undermining legitimacy of elections. Extremely worrying. | Tr...
+Q10_1_First_Click	numeric	344	Timing - First Click	[340 uniq] 9.779 | 2.692 | 15.98 | 4.911 | 18.867 | 96.517 | 3.902 | 4.731
+Q10_1_Last_Click	numeric	344	Timing - Last Click	[339 uniq] 12.699 | 4.587 | 30.408 | 7.195 | 24.806 | 339.94 | 5.726 | 7.869
+Q10_1_Page_Submit	numeric	344	Timing - Page Submit	[340 uniq] 13.481 | 5.942 | 47.35 | 7.893 | 67.795 | 339.947 | 6.477 | 8.295
+Q10_1_Click_Count	numeric	344	Timing - Click Count	[13 uniq] 3 | 2 | 4 | 12 | 5 | 6 | 7 | 1
+Q10_3	factor	340	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q10_4	factor	341	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q10_5	character	91	Please comment on your responses above (optional).	[92 uniq] | Consolidation of executive power. | This indicates that the President will retaliate against career officials and professionals who seek to hold him accountable for actions that may be illegal. | How normal is it for Presidents to engage in impeachable acts? How normal is it for any...
+Q11_1_First_Click	numeric	320	Timing - First Click	[313 uniq] 5.428 | 4.072 | 13.788 | 6.29 | 3.593 | 4.345 | 7.293 | 7.915
+Q11_1_Last_Click	numeric	320	Timing - Last Click	[318 uniq] 6.384 | 5.199 | 44.174 | 11.064 | 6.009 | 5.679 | 15.117 | 9.219
+Q11_1_Page_Submit	numeric	320	Timing - Page Submit	[319 uniq] 7.5 | 6.626 | 48.697 | 85.62 | 7.398 | 7.397 | 39.244 | 11.023
+Q11_1_Click_Count	numeric	320	Timing - Click Count	[13 uniq] 2 | 5 | 3 | 4 | 9 | 8 | 7 | 6
+Q11_3	factor	320	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q11_4	factor	320	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q11_5	character	123	Please comment on your responses above (optional).	[124 uniq] | The original case against him collapsed. | Because Flynn had both pleaded guilty and been convicted, this action signifies the full-blown politicization of the Justice Department. It is at least as threatening to lawful government as the commutation of Roger Stone's sentence. | Th...
+Q12_1_First_Click	numeric	316	Timing - First Click	[308 uniq] 3.271 | 3.467 | 4.375 | 50.493 | 4.805 | 18.063 | 5.019 | 3.184
+Q12_1_Last_Click	numeric	316	Timing - Last Click	[311 uniq] 8.347 | 5.38 | 7.097 | 292.579 | 8.589 | 34.943 | 6.196 | 7.368
+Q12_1_Page_Submit	numeric	316	Timing - Page Submit	[316 uniq] 9.815 | 7.675 | 8.363 | 297.723 | 15.115 | 39.347 | 7.406 | 8.495
+Q12_1_Click_Count	numeric	316	Timing - Click Count	[11 uniq] 2 | 11 | 3 | 5 | 4 | 8 | 7 | 6
+Q12_3	factor	315	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q12_4	factor	315	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q12_5	character	115	Please comment on your responses above (optional).	[116 uniq] | It's hardly unusual for individual Americans to favor their own identity group. And there have been many cases of influential politicians advocating various forms of racial hierarchy and separation. But it is profoundly unusual in the country's post-1865 history for a President ...
+Q13_1_First_Click	numeric	316	Timing - First Click	[311 uniq] 6.677 | 3.63 | 6.153 | 10.652 | 6.327 | 5.272 | 4.817 | 6.703
+Q13_1_Last_Click	numeric	316	Timing - Last Click	[313 uniq] 9.421 | 6.845 | 7.158 | 53.932 | 19.163 | 13.667 | 6.3 | 7.965
+Q13_1_Page_Submit	numeric	316	Timing - Page Submit	[313 uniq] 10.535 | 8.233 | 8.245 | 55.582 | 19.885 | 16.236 | 8.088 | 9.862
+Q13_1_Click_Count	numeric	316	Timing - Click Count	[14 uniq] 3 | 2 | 6 | 8 | 4 | 9 | 7 | 5
+Q13_3	factor	315	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q13_4	factor	315	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q13_5	character	99	Please comment on your responses above (optional).	[100 uniq] | This is the action of a man with no scruples. | Did you know that the Clinton Administration fired Linda Tripp on its last day in office? This kind of retaliation is not unheard of. | Attacks on civil servants is extreme and undermines neutral competency and whistleblower protectio...
+Q14_1_First_Click	numeric	311	Timing - First Click	[308 uniq] 4.464 | 5.132 | 12.224 | 10.448 | 1.485 | 7.101 | 4.257 | 8.357
+Q14_1_Last_Click	numeric	311	Timing - Last Click	[309 uniq] 9.309 | 8.057 | 18.985 | 57.085 | 367.876 | 12.041 | 6.576 | 21.045
+Q14_1_Page_Submit	numeric	311	Timing - Page Submit	[311 uniq] 18.637 | 9.772 | 38.232 | 78.73 | 368.881 | 14.193 | 7.543 | 30.2
+Q14_1_Click_Count	numeric	311	Timing - Click Count	[14 uniq] 3 | 2 | 5 | 17 | 6 | 4 | 7 | 15
+Q14_3	factor	310	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q14_4	factor	310	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q14_5	character	110	Please comment on your responses above (optional).	[111 uniq] | Who owns the streets? | Needless use of force against peaceful protest violates constitutional provisions that guarantee freedom of expression and freedom of association. | Appalling. | Violation of US constitution and international law. Dictator like behavior | Excessive use of for...
+Q15_1_First_Click	numeric	329	Timing - First Click	[325 uniq] 5.412 | 5.629 | 6.782 | 10.564 | 11.935 | 16.034 | 8.667 | 8.613
+Q15_1_Last_Click	numeric	329	Timing - Last Click	[325 uniq] 6.607 | 7.029 | 16.538 | 63.327 | 22.069 | 43.403 | 10.33 | 15.682
+Q15_1_Page_Submit	numeric	329	Timing - Page Submit	[328 uniq] 8.535 | 8.996 | 19.495 | 72.02 | 29.875 | 45.458 | 11.841 | 17.1
+Q15_1_Click_Count	numeric	329	Timing - Click Count	[17 uniq] 2 | 3 | 4 | 5 | 6 | 8 | 20 | 13
+Q15_3	factor	327	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q15_4	factor	327	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q15_5	character	109	Please comment on your responses above (optional).	[110 uniq] | Silly bluster from the bully pulpit is an American tradition. | Nixonian rhetoric | The president of the United States is actually encouraging violence against its citizens. I can't think of a president who has stooped that low. | Again, rhetoric matters, and this is the president ...
+Q16_1_First_Click	numeric	322	Timing - First Click	[314 uniq] 3.514 | 4.138 | 12.448 | 9.108 | 2.547 | 2.198 | 4.958 | 3.6
+Q16_1_Last_Click	numeric	322	Timing - Last Click	[318 uniq] 6.399 | 6.705 | 19.949 | 71.659 | 5.047 | 13.83 | 12.141 | 14.278
+Q16_1_Page_Submit	numeric	322	Timing - Page Submit	[320 uniq] 7.788 | 7.7 | 21.791 | 90.549 | 7.581 | 14.786 | 27.253 | 15.518
+Q16_1_Click_Count	numeric	322	Timing - Click Count	[13 uniq] 2 | 3 | 5 | 4 | 7 | 8 | 6 | 9
+Q16_3	factor	322	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q16_4	factor	322	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q16_5	character	100	Please comment on your responses above (optional).	[101 uniq] | Assertive nationalism is healthy, once in a while. | Presidents often limit US participation in UN and other organizations, esp. over family planning. The motives here are cynical, not principled, so it is not normal in that sense. | US criticism of the UN and its agencies has been...
+Q17_1_First_Click	numeric	342	Timing - First Click	[333 uniq] 3.172 | 8.43 | 11.883 | 6.557 | 11.115 | 15.755 | 6.523 | 4.391
+Q17_1_Last_Click	numeric	342	Timing - Last Click	[341 uniq] 4.964 | 11.794 | 190.306 | 10.34 | 101.028 | 62.916 | 9.26 | 5.551
+Q17_1_Page_Submit	numeric	342	Timing - Page Submit	[341 uniq] 6.369 | 13.071 | 193.043 | 11.074 | 105.532 | 64.583 | 12.022 | 6.62
+Q17_1_Click_Count	numeric	342	Timing - Click Count	[15 uniq] 2 | 3 | 5 | 4 | 6 | 7 | 8 | 10
+Q17_3	factor	340	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q17_4	factor	340	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q17_5	character	122	Please comment on your responses above (optional).	[123 uniq] | This is the Trump administration placing economic considerations above public health concerns because it serves his electoral interests. | Very unusual for the country's chief executive officer to encourage militant protest against subnational officials whom he dislikes. This actio...
+Q18_1_First_Click	numeric	317	Timing - First Click	[315 uniq] 8.469 | 3.321 | 4.189 | 469.608 | 3.847 | 11.453 | 4.145 | 3.801
+Q18_1_Last_Click	numeric	317	Timing - Last Click	[314 uniq] 11.037 | 5.08 | 6.637 | 472.919 | 7.249 | 43.342 | 5.682 | 6.318
+Q18_1_Page_Submit	numeric	317	Timing - Page Submit	[317 uniq] 12.647 | 6.462 | 7.995 | 524.413 | 8.935 | 44.098 | 7.089 | 7.253
+Q18_1_Click_Count	numeric	317	Timing - Click Count	[13 uniq] 2 | 3 | 6 | 4 | 8 | 5 | 7 | 12
+Q18_3	factor	317	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q18_4	factor	317	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q18_5	character	112	Please comment on your responses above (optional).	[113 uniq] | Free speech/ free press?? | Presidents have long hated the 'media,' in whatever form. Following through on this threat would make it rise in importance. | More important as an indication of how little Trump knows about American government. | Serious threat to free speech | Not so im...
+Q19_1_First_Click	numeric	315	Timing - First Click	[311 uniq] 5.267 | 5.13 | 7.844 | 23.351 | 9.752 | 4.545 | 28.011 | 3.923
+Q19_1_Last_Click	numeric	315	Timing - Last Click	[312 uniq] 7.992 | 7.136 | 9.576 | 88.399 | 15.608 | 7.077 | 63.534 | 10.748
+Q19_1_Page_Submit	numeric	315	Timing - Page Submit	[315 uniq] 9.484 | 11.225 | 10.886 | 89.94 | 42.532 | 8.163 | 63.544 | 13.262
+Q19_1_Click_Count	numeric	315	Timing - Click Count	[15 uniq] 2 | 5 | 3 | 4 | 8 | 6 | 13 | 7
+Q19_3	factor	313	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q19_4	factor	313	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q19_5	character	106	Please comment on your responses above (optional).	[107 uniq] | This is the president using the pandemic to forward his political agenda. | Not in principle abnormal but obviously opportunistic given Trump's agenda. | Nothing is normal about the covid 19 virus. | He would have likely done this without COVID, but with the crisis, he takes less he...
+Q20_1_First_Click	numeric	300	Timing - First Click	[295 uniq] 12.088 | 10.007 | 12.613 | 5.642 | 4.427 | 5.846 | 11.446 | 5.501
+Q20_1_Last_Click	numeric	300	Timing - Last Click	[299 uniq] 44.871 | 74.256 | 17.275 | 8.155 | 5.769 | 7.856 | 12.63 | 7.633
+Q20_1_Page_Submit	numeric	300	Timing - Page Submit	[299 uniq] 48.424 | 76.17 | 108.956 | 12.777 | 7.932 | 13.441 | 18.248 | 8.702
+Q20_1_Click_Count	numeric	300	Timing - Click Count	[15 uniq] 4 | 5 | 3 | 2 | 6 | 7 | 8 | 14
+Q20_3	factor	299	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q20_4	factor	299	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q20_5	character	93	Please comment on your responses above (optional).	[94 uniq] | Everyone has forgotten about it...except you. | The president, again, placing his electoral interests above public health. | Important because it's part of this President's concerted campaign to undermine trust in recognized scientific authorities. Such recognition is not a formal ...
+Q21_1_First_Click	numeric	309	Timing - First Click	[301 uniq] 5.879 | 2.624 | 6.225 | 3.936 | 6.95 | 3.451 | 3.801 | 2.883
+Q21_1_Last_Click	numeric	309	Timing - Last Click	[307 uniq] 104.862 | 6.033 | 14.015 | 6.636 | 8.484 | 18.181 | 8.84 | 3.755
+Q21_1_Page_Submit	numeric	309	Timing - Page Submit	[307 uniq] 107.264 | 7.546 | 26.546 | 7.74 | 11.15 | 18.989 | 10.135 | 5.154
+Q21_1_Click_Count	numeric	309	Timing - Click Count	[13 uniq] 8 | 3 | 4 | 2 | 6 | 5 | 10 | 13
+Q21_3	factor	307	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q21_4	factor	307	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q21_5	character	109	Please comment on your responses above (optional).	[109 uniq] | strange but harmless | Embarrassing more than important | Goya will now learn why it is better for certain types of business to stay out of politics. | I believe the President is exempt from the Hatch Act. But he still should not be endorsing products from the Oval Office. | another...
+Q22_1_First_Click	numeric	313	Timing - First Click	[309 uniq] 7.503 | 10.973 | 2.599 | 12.773 | 7.908 | 3.42 | 10.395 | 10.449
+Q22_1_Last_Click	numeric	313	Timing - Last Click	[312 uniq] 12.118 | 98.094 | 4.262 | 26.258 | 12.141 | 14.028 | 12.091 | 17.512
+Q22_1_Page_Submit	numeric	313	Timing - Page Submit	[311 uniq] 12.929 | 111.143 | 7.041 | 84.385 | 14.516 | 33.362 | 14.199 | 19.835
+Q22_1_Click_Count	numeric	313	Timing - Click Count	[15 uniq] 3 | 8 | 4 | 7 | 2 | 5 | 11 | 6
+Q22_3	factor	308	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q22_4	factor	308	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q22_5	character	94	Please comment on your responses above (optional).	[95 uniq] | This is important to degree that the Navy command was acting to please Trump. | The military has its own practices, but preserving human life ought to be an exception to them. | The military seems to be very inflexible about chain of command. | Murky story, unclear why he was really ...
+Q23_1_First_Click	numeric	342	Timing - First Click	[333 uniq] 4.133 | 4.445 | 3.616 | 7.952 | 10.292 | 4.762 | 9.075 | 8.811
+Q23_1_Last_Click	numeric	342	Timing - Last Click	[340 uniq] 5.465 | 7.269 | 9.384 | 10.483 | 20.513 | 12.377 | 10.578 | 14.114
+Q23_1_Page_Submit	numeric	342	Timing - Page Submit	[342 uniq] 6.883 | 8.359 | 10.362 | 16.439 | 35.719 | 13.28 | 13.23 | 32.2
+Q23_1_Click_Count	numeric	342	Timing - Click Count	[14 uniq] 2 | 3 | 4 | 21 | 7 | 5 | 6 | 15
+Q23_3	factor	341	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q23_4	factor	341	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q23_5	character	115	Please comment on your responses above (optional).	[116 uniq] | He prattles on about everything, so why not this? | Except for what this reveals about Trump, this is trivial. | It is somehow meant to be a campaign technique. Unfortunately, we've seen the same or worse... | Person, man, woman, camera, TV. Nothing compares with a stable genius. |...
+Q24_1_First_Click	numeric	325	Timing - First Click	[315 uniq] 5.691 | 7.448 | 5.166 | 4.76 | 6.109 | 5.185 | 3.984 | 6.634
+Q24_1_Last_Click	numeric	325	Timing - Last Click	[325 uniq] 10.061 | 16.031 | 6.338 | 8.749 | 11.934 | 7.622 | 29.481 | 7.771
+Q24_1_Page_Submit	numeric	325	Timing - Page Submit	[325 uniq] 10.905 | 72.288 | 9.245 | 13.866 | 33.188 | 8.969 | 30.734 | 9.556
+Q24_1_Click_Count	numeric	325	Timing - Click Count	[15 uniq] 5 | 8 | 2 | 4 | 3 | 7 | 16 | 6
+Q24_3	factor	325	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q24_4	factor	325	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q24_5	character	104	Please comment on your responses above (optional).	[105 uniq] | Trump spews threats that he has no authority to enact. | If education was largely federally funded, it would matter. That is not the case however. | Again, a bully pulpit put to pathetic use. | Not a serious threat but, again, an appeal to an already-solidified base | Beware! | Tha...
+Q25_1_First_Click	numeric	321	Timing - First Click	[309 uniq] 3.417 | 20.043 | 3.314 | 3.397 | 3.398 | 10.99 | 3.502 | 4.686
+Q25_1_Last_Click	numeric	321	Timing - Last Click	[319 uniq] 41.421 | 238.202 | 9.762 | 11.269 | 5.145 | 739.284 | 7.328 | 5.934
+Q25_1_Page_Submit	numeric	321	Timing - Page Submit	[321 uniq] 45.42 | 243.926 | 23.574 | 62.15 | 7.153 | 739.194 | 10.316 | 7.019
+Q25_1_Click_Count	numeric	321	Timing - Click Count	[11 uniq] 5 | 10 | 7 | 2 | 6 | 4 | 3 | 1
+Q25_3	factor	319	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q25_4	factor	319	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q25_5	character	114	Please comment on your responses above (optional).	[115 uniq] | It's not more important because it is an absurd claim that isn't going anywhere. | This is partisan nonsense from an individual who lacks decency. | We have never seen this before. | Pres.. Trump assiduously undermines institutions and legality. | Again, this is normal for Trump but...
+Q26_1_First_Click	numeric	330	Timing - First Click	[327 uniq] 8.258 | 4.33 | 6.572 | 8.428 | 5.559 | 16.987 | 4.473 | 4.709
+Q26_1_Last_Click	numeric	330	Timing - Last Click	[328 uniq] 9.558 | 5.548 | 9.787 | 10.326 | 9.444 | 491.901 | 6.961 | 6.083
+Q26_1_Page_Submit	numeric	330	Timing - Page Submit	[329 uniq] 11.574 | 7.049 | 10.502 | 12.403 | 36.801 | 496.669 | 8.43 | 7.271
+Q26_1_Click_Count	numeric	330	Timing - Click Count	[13 uniq] 2 | 4 | 6 | 16 | 3 | 5 | 7 | 12
+Q26_3	factor	330	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q26_4	factor	330	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q26_5	character	105	Please comment on your responses above (optional).	[106 uniq] | This type of thing we would normally see in an economic crisis. | I do not like being asked to classify emergency acts as normal or abnormal. The corona virus is not normal. The response of the government to an emergency such as the corona virus is a normal response of the govern...
+Q27_1_First_Click	numeric	322	Timing - First Click	[317 uniq] 6.95 | 5.097 | 15.036 | 26.586 | 89.945 | 6.109 | 10.959 | 3.827
+Q27_1_Last_Click	numeric	322	Timing - Last Click	[321 uniq] 10.862 | 6.907 | 24.182 | 141.219 | 97.006 | 7.89 | 26.942 | 5.779
+Q27_1_Page_Submit	numeric	322	Timing - Page Submit	[322 uniq] 11.729 | 8.507 | 42.225 | 156.549 | 114.433 | 9.026 | 57.298 | 6.824
+Q27_1_Click_Count	numeric	322	Timing - Click Count	[13 uniq] 3 | 2 | 6 | 15 | 4 | 5 | 8 | 11
+Q27_3	factor	322	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q27_4	factor	322	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q27_5	character	132	Please comment on your responses above (optional).	[133 uniq] | Won't last long. | This is an ideological difference. Republicans are pro-business and see regulations as harming the economy. | Important regulatory activity by the executive, for good or ill | It is within normal executive authority but bad policy. | Sadly, not that unusual. | The...
+Q28_1_First_Click	numeric	367	Timing - First Click	[362 uniq] 6.694 | 5.6 | 6.371 | 3.344 | 21.15 | 16.823 | 7.019 | 4.073
+Q28_1_Last_Click	numeric	367	Timing - Last Click	[365 uniq] 8.819 | 8.744 | 62.539 | 4.84 | 24.132 | 106.427 | 18.436 | 5.495
+Q28_1_Page_Submit	numeric	367	Timing - Page Submit	[364 uniq] 10.867 | 9.839 | 81.199 | 6.286 | 44.018 | 108.513 | 88.447 | 7.417
+Q28_1_Click_Count	numeric	367	Timing - Click Count	[15 uniq] 2 | 3 | 6 | 4 | 5 | 11 | 9 | 7
+Q28_3	factor	366	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q28_4	factor	366	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q28_5	character	118	Please comment on your responses above (optional).	[119 uniq] | This was actually very close to the previous policy regarding international students and online credits, though enforcing it during a pandemic is unusual. | No longer the policy. Read the papers. | This is the Trump administration trying to force the hand of university leaders to op...
+Q29_1_First_Click	numeric	326	Timing - First Click	[323 uniq] 7.744 | 7.437 | 8.754 | 7.451 | 4.247 | 2.623 | 6.309 | 5.356
+Q29_1_Last_Click	numeric	326	Timing - Last Click	[325 uniq] 9.724 | 21.252 | 13.927 | 11.618 | 7.984 | 3.695 | 11.628 | 8.092
+Q29_1_Page_Submit	numeric	326	Timing - Page Submit	[323 uniq] 11.158 | 29.959 | 14.71 | 14.668 | 10.337 | 4.764 | 24.306 | 11.968
+Q29_1_Click_Count	numeric	326	Timing - Click Count	[13 uniq] 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+Q29_3	factor	326	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q29_4	factor	326	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q29_5	character	107	Please comment on your responses above (optional).	[108 uniq] | Ho hum,,, | It's symbolic. | Constant campaigning. | Usurpation of imagery for personal aggrandizement and overtly political purposes that divides rather than unifies is unprecedented. | Of course, what he SAID was abnormal and important | Only the circumstances of the pandemic make...
+Q30_1_First_Click	numeric	332	Timing - First Click	[329 uniq] 6.176 | 6.293 | 7.569 | 5.334 | 6.344 | 5.033 | 4.918 | 37.212
+Q30_1_Last_Click	numeric	332	Timing - Last Click	[328 uniq] 18.574 | 16.009 | 11.878 | 9.636 | 10.706 | 14.14 | 14.95 | 62.519
+Q30_1_Page_Submit	numeric	332	Timing - Page Submit	[332 uniq] 21 | 17.041 | 29.133 | 10.351 | 28.328 | 28.004 | 16.915 | 66.777
+Q30_1_Click_Count	numeric	332	Timing - Click Count	[10 uniq] 3 | 4 | 2 | 6 | 5 | 7 | 10 | 8
+Q30_3	factor	332	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q30_4	factor	332	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q30_5	character	63	Please comment on your responses above (optional).	[64 uniq] | Old news. How normal can you get? | drab day-to-day foreign relations | Routine | Hey, did we get him to pay for the wall, or what? | This is what a president does | Happens all the time, usually just for show. | Like a wayward child, do we praise him when he occasionally does what h...
+Q34_1_First_Click	numeric	776	Timing - First Click	[716 uniq] 2.63 | 4.664 | 2.763 | 3.25 | 4.309 | 4.694 | 6.834 | 2.585
+Q34_1_Last_Click	numeric	776	Timing - Last Click	[716 uniq] 2.63 | 4.664 | 2.763 | 3.25 | 4.309 | 4.694 | 6.834 | 2.585
+Q34_1_Page_Submit	numeric	776	Timing - Page Submit	[722 uniq] 3.49 | 5.649 | 3.796 | 4.41 | 6.429 | 6.784 | 9.693 | 3.421
+Q34_1_Click_Count	numeric	776	Timing - Click Count	1 | 2 | 3 | 4 | 5 | 6 | 12
+rank	factor	776	Which of the following best describes your occupation?	Graduate student | Post-doctoral fellow | Adjunct faculty | Full-time faculty | Emeritus faculty | Other
+Q35_1_First_Click	numeric	776	Timing - First Click	[705 uniq] 1.62 | 2.635 | 1.463 | 9.291 | 4.327 | 2.438 | 3.884 | 1.232
+Q35_1_Last_Click	numeric	776	Timing - Last Click	[758 uniq] 7.286 | 10.642 | 8.559 | 20.202 | 6.185 | 7.039 | 13.65 | 7.313
+Q35_1_Page_Submit	numeric	776	Timing - Page Submit	[769 uniq] 15.725 | 22.14 | 8.563 | 31.184 | 14.223 | 21.258 | 103.629 | 7.331
+Q35_1_Click_Count	numeric	776	Timing - Click Count	[9 uniq] 3 | 4 | 2 | 5 | 6 | 8 | 9 | 1
+field	factor	772	What is your primary field of study?	American politics | Comparative politics | International relations | Political theory | Another field of political science | Something other than political science
+field_text	character	688	What is your specific area of study?	[553 uniq] Public Law | Middle East/Institutionalism | | Conflict processes | Law and public policy | Con Lawe | Impact of electoral rules on (foreign) policy. | west European politics
+Q36_1_First_Click	numeric	776	Timing - First Click	[221 uniq] 0 | 2.916 | 3.853 | 8.196 | 3.374 | 5.968 | 4.569 | 2.301
+Q36_1_Last_Click	numeric	776	Timing - Last Click	[222 uniq] 0 | 2.916 | 3.853 | 20.682 | 3.374 | 310.047 | 4.569 | 2.301
+Q36_1_Page_Submit	numeric	776	Timing - Page Submit	[722 uniq] 2.064 | 1.763 | 1.616 | 2.018 | 1.774 | 10.836 | 9.843 | 1.335
+Q36_1_Click_Count	numeric	776	Timing - Click Count	[15 uniq] 0 | 1 | 2 | 27 | 5 | 14 | 4 | 3
+comments	character	184	Do you have any comments about this survey?	[176 uniq] | Thanks. Fun. | No. It seems clear. Thanks for doing it. | I really found that the ""what's normal"" part of this survey was not a good question. It could be interpreted in too many ways. It is good that you had a space for comments. | ""Mostly Important"" is an ambiguous characteri...
+Q_TotalDuration	character	776	Q_TotalDuration	[642 uniq] 630 | 463 | 772 | 862 | 675 | 1226 | 2128 | 587
+luth_id	character	776	LuthID	[776 uniq] BLW0009492 | BLW0200237 | BLW0007596 | BLW0008398 | BLW0002701 | BLW0002884 | BLW0006012 | BLW0009018
+FL_65_DO_Section7a__Ab_normal__u	numeric	316	FL_65 - Block Randomizer - Display Order Section7a:(Ab)normal/(un)importantbatte	[10 uniq] 6 | 10 | 3 | 8 | 5 | 4 | 2 | 9
+FL_65_DO_Section7b__Ab_normal__u	numeric	325	FL_65 - Block Randomizer - Display Order Section7b:(Ab)normal/(un)importantbatte	[10 uniq] 2 | 9 | 5 | 4 | 1 | 3 | 7 | 8
+FL_65_DO_Section7c__Ab_normal__u	numeric	300	FL_65 - Block Randomizer - Display Order Section7c:(Ab)normal/(un)importantbatte	[10 uniq] 7 | 9 | 3 | 2 | 10 | 4 | 5 | 8
+FL_65_DO_Section7d__Ab_normal__u	numeric	344	FL_65 - Block Randomizer - Display Order Section7d:(Ab)normal/(un)importantbatte	[10 uniq] 9 | 7 | 5 | 4 | 1 | 3 | 6 | 10
+FL_65_DO_Section7e__Ab_normal__u	numeric	320	FL_65 - Block Randomizer - Display Order Section7e:(Ab)normal/(un)importantbatte	[10 uniq] 10 | 5 | 9 | 6 | 2 | 1 | 8 | 7
+FL_65_DO_Section7f__Ab_normal__u	numeric	316	FL_65 - Block Randomizer - Display Order Section7f:(Ab)normal/(un)importantbatte	[10 uniq] 6 | 1 | 5 | 9 | 10 | 8 | 7 | 4
+FL_65_DO_Section7g__Ab_normal__u	numeric	316	FL_65 - Block Randomizer - Display Order Section7g:(Ab)normal/(un)importantbatte	[10 uniq] 10 | 8 | 7 | 5 | 3 | 2 | 9 | 1
+FL_65_DO_Section7h__Ab_normal__u	numeric	311	FL_65 - Block Randomizer - Display Order Section7h:(Ab)normal/(un)importantbatte	[10 uniq] 2 | 8 | 10 | 3 | 1 | 9 | 6 | 4
+FL_65_DO_Section7i__Ab_normal__u	numeric	329	FL_65 - Block Randomizer - Display Order Section7i:(Ab)normal/(un)importantbatte	[10 uniq] 9 | 3 | 5 | 4 | 7 | 2 | 8 | 1
+FL_65_DO_Section7j__Ab_normal__u	numeric	322	FL_65 - Block Randomizer - Display Order Section7j:(Ab)normal/(un)importantbatte	[10 uniq] 4 | 8 | 3 | 2 | 9 | 5 | 10 | 6
+FL_65_DO_Section7k__Ab_normal__u	numeric	342	FL_65 - Block Randomizer - Display Order Section7k:(Ab)normal/(un)importantbatte	[10 uniq] 9 | 10 | 4 | 6 | 3 | 8 | 1 | 2
+FL_65_DO_Section7l__Ab_normal__u	numeric	317	FL_65 - Block Randomizer - Display Order Section7l:(Ab)normal/(un)importantbatte	[10 uniq] 1 | 3 | 5 | 7 | 2 | 10 | 4 | 9
+FL_65_DO_Section7m__Ab_normal__u	numeric	315	FL_65 - Block Randomizer - Display Order Section7m:(Ab)normal/(un)importantbatte	[10 uniq] 2 | 10 | 9 | 8 | 4 | 7 | 6 | 3
+FL_65_DO_Section7n__Ab_normal__u	numeric	300	FL_65 - Block Randomizer - Display Order Section7n:(Ab)normal/(un)importantbatte	[10 uniq] 6 | 7 | 5 | 10 | 1 | 8 | 9 | 3
+FL_65_DO_Section7o__Ab_normal__u	numeric	309	FL_65 - Block Randomizer - Display Order Section7o:(Ab)normal/(un)importantbatte	[10 uniq] 1 | 8 | 6 | 5 | 3 | 4 | 2 | 10
+FL_65_DO_Section7p__Ab_normal__u	numeric	313	FL_65 - Block Randomizer - Display Order Section7p:(Ab)normal/(un)importantbatte	[10 uniq] 4 | 6 | 10 | 5 | 8 | 3 | 2 | 1
+FL_65_DO_Section7q__Ab_normal__u	numeric	342	FL_65 - Block Randomizer - Display Order Section7q:(Ab)normal/(un)importantbatte	[10 uniq] 8 | 5 | 1 | 10 | 7 | 6 | 2 | 9
+FL_65_DO_Section7r__Ab_normal__u	numeric	325	FL_65 - Block Randomizer - Display Order Section7r:(Ab)normal/(un)importantbatte	[10 uniq] 8 | 7 | 4 | 3 | 10 | 9 | 2 | 6
+FL_65_DO_Section7s__Ab_normal__u	numeric	321	FL_65 - Block Randomizer - Display Order Section7s:(Ab)normal/(un)importantbatte	[10 uniq] 3 | 2 | 1 | 4 | 9 | 7 | 6 | 8
+FL_65_DO_Section7t__Ab_normal__u	numeric	330	FL_65 - Block Randomizer - Display Order Section7t:(Ab)normal/(un)importantbatte	[10 uniq] 5 | 6 | 3 | 8 | 10 | 9 | 4 | 1
+FL_65_DO_Section7u__Ab_normal__u	numeric	322	FL_65 - Block Randomizer - Display Order Section7u:(Ab)normal/(un)importantbatte	[10 uniq] 7 | 4 | 1 | 9 | 10 | 6 | 5 | 2
+FL_65_DO_Section7v__Ab_normal__u	numeric	367	FL_65 - Block Randomizer - Display Order Section7v:(Ab)normal/(un)importantbatte	[10 uniq] 1 | 2 | 4 | 6 | 7 | 3 | 9 | 5
+FL_65_DO_Section7w__Ab_normal__u	numeric	326	FL_65 - Block Randomizer - Display Order Section7w:(Ab)normal/(un)importantbatte	[10 uniq] 4 | 1 | 2 | 7 | 8 | 5 | 6 | 3
+FL_65_DO_Section7x__Ab_normal__u	numeric	332	FL_65 - Block Randomizer - Display Order Section7x:(Ab)normal/(un)importantbatte	[10 uniq] 3 | 9 | 10 | 6 | 1 | 2 | 5 | 8
+dupe	numeric	776		0
+wave	numeric	776		11

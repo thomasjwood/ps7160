@@ -1,0 +1,460 @@
+var	class	n	label	values
+StartDate	POSIXct	557	Start Date	[554 uniq] 1718870442 | 1718870628 | 1718870438 | 1718870714 | 1718870575 | 1718870944 | 1718870876 | 1718870684
+EndDate	POSIXct	557	End Date	[557 uniq] 1718870879 | 1718871099 | 1718871180 | 1718871327 | 1718871368 | 1718871403 | 1718871504 | 1718871507
+Status	numeric	557	Response Type	0=IP Address | 1=Survey Preview | 2=Survey Test | 4=Imported | 8=Spam | 9=Survey Preview Spam | 12=Imported Spam | 16=Offline | 17=Offline Survey Preview | 32=EX | 40=EX Spam | 48=EX Offline
+Progress	numeric	557	Progress	[15 uniq] 100 | 32 | 36 | 31 | 23 | 42 | 38 | 35
+Duration__in_seconds_	numeric	557	Duration (in seconds)	[475 uniq] 436 | 471 | 741 | 612 | 792 | 459 | 627 | 822
+Finished	numeric	557	Finished	0=False | 1=True
+RecordedDate	POSIXct	557	Recorded Date	[557 uniq] 1718870880 | 1718871100 | 1718871180 | 1718871328 | 1718871368 | 1718871404 | 1718871504 | 1718871507
+ResponseId	character	557	Response ID	[557 uniq] R_7YVPwEeLR3ISM1N | R_1CfCfGgLwUiGwOT | R_5jBwgbTgm4zMT7m | R_1hDF8r9SbQa5DKp | R_6rCxtcxPiqHT1EP | R_3oTH730fuu5ybSg | R_63qDikCWWamKTf1 | R_3zpZX3O56IOif2p
+DistributionChannel	character	557	Distribution Channel	anonymous
+UserLanguage	character	557	User Language	EN
+Q1_1	numeric	557	Thank you for participating in the Bright Line Watch survey of political scientists. The purpose of this survey is to measure expert opinions about the state of American democracy. Your responses will be anonymous. Your participation in this study is voluntary, and you are free to skip any questi...	1=I agree to continue | 2=I do not agree to continue
+Q479_First_Click	numeric	557	Timing - First Click	[550 uniq] 8.169 | 6.073 | 6.012 | 2.444 | 19.119 | 8.509 | 7.81 | 25.711
+Q479_Last_Click	numeric	557	Timing - Last Click	[555 uniq] 48.031 | 39.742 | 62.6 | 78.021 | 116.833 | 51.059 | 62.688 | 106.104
+Q479_Page_Submit	numeric	557	Timing - Page Submit	[556 uniq] 49.758 | 41.153 | 63.738 | 79.301 | 119.148 | 54.833 | 63.293 | 108.963
+Q479_Click_Count	numeric	557	Timing - Click Count	[28 uniq] 18 | 9 | 20 | 39 | 17 | 15 | 10 | 12
+Q2_6_1	numeric	180	How well do the following statements describe the United States as of today? - Government officials are legally sanctioned for misconduct	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_2	numeric	165	How well do the following statements describe the United States as of today? - Government officials do not use public office for private gain	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_3	numeric	155	How well do the following statements describe the United States as of today? - Government agencies are not used to monitor, attack, or punish political opponents	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_4	numeric	178	How well do the following statements describe the United States as of today? - All adult citizens enjoy the same legal and political rights	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_5	numeric	166	How well do the following statements describe the United States as of today? - Government does not interfere with journalists or news organizations	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_6	numeric	150	How well do the following statements describe the United States as of today? - Government effectively prevents private actors from engaging in politically-motivated violence or intimidation	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_7	numeric	170	How well do the following statements describe the United States as of today? - Government protects individuals’ right to engage in unpopular speech or expression	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_8	numeric	154	How well do the following statements describe the United States as of today? - Political competition occurs without criticism of opponents’ loyalty or patriotism	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_9	numeric	173	How well do the following statements describe the United States as of today? - Elections are free from foreign influence	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_10	numeric	160	How well do the following statements describe the United States as of today? - Parties and candidates are not barred due to their political beliefs and ideologies	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_11	numeric	162	How well do the following statements describe the United States as of today? - All adult citizens have equal opportunity to vote	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_12	numeric	144	How well do the following statements describe the United States as of today? - All votes have equal impact on election outcomes	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_13	numeric	168	How well do the following statements describe the United States as of today? - Elections are conducted, ballots counted, and winners determined without pervasive fraud or manipulation	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_14	numeric	158	How well do the following statements describe the United States as of today? - Executive authority cannot be expanded beyond constitutional limits	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_15	numeric	168	How well do the following statements describe the United States as of today? - The legislature is able to effectively limit executive power	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_16	numeric	181	How well do the following statements describe the United States as of today? - The judiciary is able to effectively limit executive power	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_17	numeric	168	How well do the following statements describe the United States as of today? - The elected branches respect judicial independence	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_18	numeric	166	How well do the following statements describe the United States as of today? - Voter participation in elections is generally high	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_19	numeric	156	How well do the following statements describe the United States as of today? - Information about the sources of campaign funding is available to the public	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_20	numeric	165	How well do the following statements describe the United States as of today? - Public policy is not determined by large campaign contributions	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_21	numeric	147	How well do the following statements describe the United States as of today? - Citizens can make their opinions heard in open debate about policies that are under consideration	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_22	numeric	178	How well do the following statements describe the United States as of today? - The geographic boundaries of electoral districts do not systematically advantage any particular political party	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_23	numeric	183	How well do the following statements describe the United States as of today? - Even when there are disagreements about ideology or policy, political leaders generally share a common understanding of relevant facts	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_24	numeric	149	How well do the following statements describe the United States as of today? - Elected officials seek compromise with political opponents	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_25	numeric	164	How well do the following statements describe the United States as of today? - Citizens have access to information about candidates that is relevant to how they would govern	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_26	numeric	185	How well do the following statements describe the United States as of today? - Government protects individuals’ right to engage in peaceful protest	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_27	numeric	175	How well do the following statements describe the United States as of today? - Law enforcement investigations of public officials or their associates are free from political influence or interference	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_28	numeric	170	How well do the following statements describe the United States as of today? - Government statistics and data are produced by experts who are not influenced by political considerations	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_29	numeric	172	How well do the following statements describe the United States as of today? - The law is enforced equally for all persons	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+Q2_6_30	numeric	199	How well do the following statements describe the United States as of today? - Politicians who lose free and fair elections publicly concede defeat	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+ratingusa_timer_First_Click	numeric	557	Timing - First Click	[547 uniq] 7.074 | 4.172 | 10.401 | 10.669 | 11.46 | 4.7 | 10.54 | 15.2
+ratingusa_timer_Last_Click	numeric	557	Timing - Last Click	[550 uniq] 7.074 | 4.172 | 14.146 | 22.776 | 11.46 | 4.7 | 18.66 | 15.2
+ratingusa_timer_Page_Submit	numeric	557	Timing - Page Submit	[545 uniq] 7.644 | 5.066 | 15.063 | 23.731 | 12.885 | 8.888 | 19.613 | 23.448
+ratingusa_timer_Click_Count	numeric	557	Timing - Click Count	[14 uniq] 1 | 4 | 2 | 6 | 8 | 5 | 3 | 10
+rusa_now_1	numeric	557	On a scale from 0 to 100, where 0 is least democratic and 100 is most democratic, how would you rate the political system of the United States as of today? - United States today	[62 uniq] 88 | 80 | 70 | 40 | 50 | 75 | 87 | 76
+rusa_trump_1	numeric	297	Assuming that Donald Trump wins the 2024 presidential election, what rating would you expect to give the political system of the United States in 2027? You rated the US now as [QID714-ChoiceNumericEntryValue-1] - 1	[63 uniq] 65 | 60 | 10 | 55 | 91 | 39 | 30 | 15
+rusa_biden_1	numeric	258	Assuming that Joe Biden wins the 2024 presidential election, what rating would you expect to give the political system of the United States in 2027? You rated the US now as [QID714-ChoiceNumericEntryValue-1]. - 1	[52 uniq] 88 | 60 | 75 | 81 | 80 | 61 | 65 | 76
+Q529_First_Click	numeric	557	Timing - First Click	[129 uniq] 1.572 | 0 | 4.989 | 30.721 | 10.467 | 6.851 | 2.661 | 21.197
+Q529_Last_Click	numeric	557	Timing - Last Click	[131 uniq] 2.872 | 0 | 4.989 | 30.721 | 12.794 | 15.484 | 2.661 | 21.197
+Q529_Page_Submit	numeric	557	Timing - Page Submit	[553 uniq] 3.91 | 16.302 | 5.758 | 30.756 | 13.677 | 5.028 | 24.821 | 15.871
+Q529_Click_Count	numeric	557	Timing - Click Count	[15 uniq] 3 | 0 | 1 | 2 | 4 | 11 | 30 | 6
+Q5a_1_First_Click	numeric	179	Timing - First Click	[179 uniq] 6.079 | 5.316 | 2.045 | 19.581 | 6.739 | 8.333 | 8.08 | 20.944
+Q5a_1_Last_Click	numeric	179	Timing - Last Click	[178 uniq] 8.728 | 16.93 | 21.094 | 24.366 | 9.462 | 13.09 | 15.2 | 38.487
+Q5a_1_Page_Submit	numeric	179	Timing - Page Submit	[179 uniq] 9.834 | 30.109 | 22.859 | 25.383 | 11.16 | 13.933 | 16.263 | 55.882
+Q5a_1_Click_Count	numeric	179	Timing - Click Count	[12 uniq] 4 | 14 | 2 | 5 | 3 | 6 | 10 | 7
+Q5a_3	numeric	179	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q5a_4	numeric	179	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q5a_5	character	52	Please comment on your responses above (optional).	[53 uniq] | The clearly partisan nature of the coverage was unusual. | It's important because those pushing that narrative have an impact on the election | Questions about a presidential candidates' mental acuity are pretty normal - but it matters. | Ther eis a need for more medical confirmation...
+Q5b_1_First_Click	numeric	180	Timing - First Click	[178 uniq] 3.609 | 2.437 | 4.005 | 8.862 | 7.8 | 9.415 | 6.101 | 9.783
+Q5b_1_Last_Click	numeric	180	Timing - Last Click	[177 uniq] 5.301 | 10.477 | 5.904 | 12.021 | 12.398 | 12.082 | 9.335 | 15.021
+Q5b_1_Page_Submit	numeric	180	Timing - Page Submit	[179 uniq] 6.821 | 12.091 | 7.468 | 13.033 | 14.137 | 13.209 | 20.212 | 19.841
+Q5b_1_Click_Count	numeric	180	Timing - Click Count	[15 uniq] 2 | 7 | 4 | 3 | 5 | 8 | 15 | 16
+Q5b_3	numeric	179	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q5b_4	numeric	179	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q5b_5	character	40	Please comment on your responses above (optional).	[41 uniq] | It reflects poorly on the president | This is the court system operating as usual to convict someone of a crime. | Crime and punishment | While it is not terribly common to be charged with this crime his record of illegal behavior while falsifying a gun record is well documented and ...
+Q5c_1_First_Click	numeric	0	Timing - First Click	
+Q5c_1_Last_Click	numeric	0	Timing - Last Click	
+Q5c_1_Page_Submit	numeric	0	Timing - Page Submit	
+Q5c_1_Click_Count	numeric	0	Timing - Click Count	
+Q5c_3	numeric	174	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q5c_4	numeric	174	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q5c_5	character	54	Please comment on your responses above (optional).	[55 uniq] | Speaks volumes about the type of person representing one of the two parties in the US | Obviously, it is unprecedented that a former president is found guilty of a felony, or any other crime. But Trump is no ordinary ex-president. He is likely guilty of a lot more than he will face t...
+Q5d_1_First_Click	numeric	174	Timing - First Click	[174 uniq] 7.584 | 11.38 | 9.241 | 4.227 | 8.56 | 4.931 | 10.159 | 22.101
+Q5d_1_Last_Click	numeric	174	Timing - Last Click	[174 uniq] 9.55 | 13.754 | 11.475 | 5.804 | 13.656 | 6.068 | 24.809 | 131.728
+Q5d_1_Page_Submit	numeric	174	Timing - Page Submit	[173 uniq] 10.54 | 20.117 | 12.627 | 6.534 | 15.885 | 7.427 | 73.676 | 132.101
+Q5d_1_Click_Count	numeric	174	Timing - Click Count	[11 uniq] 3 | 2 | 6 | 4 | 5 | 7 | 11 | 9
+Q5d_3	numeric	174	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q5d_4	numeric	174	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q5d_5	character	50	Please comment on your responses above (optional).	[51 uniq] | Fewer things are more important to democracy, or more worrisome for the next year, than having candidates accept the results of an election. | ""no matter what happens"" is one of those weasely phrases that candidates can use to say, well I wouldn't accept the results if &lt;insert ext...
+Q5e_1_First_Click	numeric	179	Timing - First Click	[178 uniq] 5.107 | 6.624 | 10.736 | 11.145 | 7.324 | 6.522 | 10.389 | 3.373
+Q5e_1_Last_Click	numeric	179	Timing - Last Click	[179 uniq] 7.908 | 10.257 | 14.23 | 13.528 | 11.367 | 12.482 | 58.148 | 8.357
+Q5e_1_Page_Submit	numeric	179	Timing - Page Submit	[178 uniq] 10.053 | 11.366 | 15.418 | 17.036 | 12.478 | 13.648 | 65.325 | 11.651
+Q5e_1_Click_Count	numeric	179	Timing - Click Count	[13 uniq] 2 | 4 | 3 | 5 | 9 | 7 | 6 | 11
+Q5e_3	numeric	178	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q5e_4	numeric	178	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q5e_5	character	38	Please comment on your responses above (optional).	[39 uniq] | He is being attacked because he upheld th elaw in he last election in terms of his role in counting the vote. | Pretty uncommon, but only marginally important in that Pence has a vanishingly small independent consistency | Personal integrity must be paramount over partisan commitment...
+Q5f_1_First_Click	numeric	179	Timing - First Click	[178 uniq] 5.98 | 12.72 | 2.098 | 5.906 | 4.898 | 6.23 | 7.824 | 5.383
+Q5f_1_Last_Click	numeric	179	Timing - Last Click	[178 uniq] 14.564 | 20.234 | 3.393 | 8.448 | 8.358 | 13.557 | 9.39 | 44.971
+Q5f_1_Page_Submit	numeric	179	Timing - Page Submit	[179 uniq] 15.86 | 21.672 | 4.205 | 11.507 | 10.791 | 14.887 | 11.2 | 74.362
+Q5f_1_Click_Count	numeric	179	Timing - Click Count	[10 uniq] 3 | 4 | 2 | 7 | 5 | 6 | 10 | 9
+Q5f_3	numeric	179	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q5f_4	numeric	179	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q5f_5	character	43	Please comment on your responses above (optional).	[44 uniq] | This represents similar, if not the same, kind of rhetoric used by National Socialists in pre-Nazi Germany and should be widely recognized as a threat to democracy and democratic rule. | Negative attacks are as old as political parties. While this term is not that prevalent in the m...
+Q5g_1_First_Click	numeric	173	Timing - First Click	[171 uniq] 4.317 | 6.479 | 5.91 | 6.561 | 5.333 | 5.044 | 6.413 | 4.062
+Q5g_1_Last_Click	numeric	173	Timing - Last Click	[173 uniq] 8.934 | 13.568 | 9.711 | 10.449 | 11.981 | 12.916 | 9.131 | 7.646
+Q5g_1_Page_Submit	numeric	173	Timing - Page Submit	[171 uniq] 10.205 | 15.319 | 14.019 | 13.461 | 63.849 | 15.119 | 10.671 | 10.655
+Q5g_1_Click_Count	numeric	173	Timing - Click Count	[11 uniq] 4 | 5 | 2 | 3 | 18 | 8 | 7 | 11
+Q5g_3	numeric	172	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q5g_4	numeric	172	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q5g_5	character	26	Please comment on your responses above (optional).	[27 uniq] | The U.S. sells weapons to many nations, and has for a long time. Like it or not, the U.S. is a major arms supplier. Ukraine is not unique in this matter. Nor is Israel. | I struggle a bit with this question. Asking about aid and the amount of aid are bit different. | Ukraine's defens...
+Q5h_1_First_Click	numeric	180	Timing - First Click	[174 uniq] 2.485 | 2.437 | 2.174 | 4.068 | 4.052 | 3.216 | 5.515 | 7.433
+Q5h_1_Last_Click	numeric	180	Timing - Last Click	[179 uniq] 3.678 | 8.361 | 3.988 | 30.607 | 8.291 | 6.663 | 22.148 | 22.194
+Q5h_1_Page_Submit	numeric	180	Timing - Page Submit	[180 uniq] 4.9 | 9.338 | 7.1 | 45.168 | 60.047 | 8.842 | 24.16 | 59.04
+Q5h_1_Click_Count	numeric	180	Timing - Click Count	[10 uniq] 2 | 4 | 3 | 7 | 8 | 6 | 5 | 9
+Q5h_3	numeric	180	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q5h_4	numeric	180	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q5h_5	character	37	Please comment on your responses above (optional).	[38 uniq] | Candidates drop out all the time | Important because was the last challenger to Donald Trump and thus confirmed that the Republican Party today is all in for Trump, and may well face serious consequences for drifting way too far out of the mainstream for the nation. | She provided a ...
+Q5i_1_First_Click	numeric	145	Timing - First Click	[145 uniq] 3.071 | 19.194 | 5.209 | 11.53 | 3.242 | 10.564 | 12.488 | 4.177
+Q5i_1_Last_Click	numeric	145	Timing - Last Click	[145 uniq] 7.038 | 23.979 | 18.514 | 14.845 | 5.421 | 14.93 | 23.923 | 6.397
+Q5i_1_Page_Submit	numeric	145	Timing - Page Submit	[145 uniq] 8.525 | 28.333 | 24.716 | 95.166 | 7.061 | 18.189 | 29.876 | 8.98
+Q5i_1_Click_Count	numeric	145	Timing - Click Count	[15 uniq] 2 | 4 | 3 | 5 | 6 | 15 | 7 | 16
+Q5i_3	numeric	144	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q5i_4	numeric	144	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q5i_5	character	39	Please comment on your responses above (optional).	[40 uniq] | The fact that this case has not gone to trial is very abnormal. The fact that Mr. Trump remains on the ballot despite his transgressions against the 14th Amendment to the Constitution is very abnormal. This, and all of Mr. Trump's trials, should have been decided by now so that the ...
+Q5j_1_First_Click	numeric	192	Timing - First Click	[190 uniq] 2.229 | 2.838 | 3.301 | 5.729 | 4.468 | 4.501 | 139.63 | 2.253
+Q5j_1_Last_Click	numeric	192	Timing - Last Click	[191 uniq] 13.831 | 23.46 | 12.154 | 9.017 | 9.54 | 17.133 | 141.494 | 4.42
+Q5j_1_Page_Submit	numeric	192	Timing - Page Submit	[192 uniq] 14.878 | 24.69 | 15.249 | 10.596 | 69.432 | 42.731 | 143.26 | 5.946
+Q5j_1_Click_Count	numeric	192	Timing - Click Count	[13 uniq] 6 | 9 | 2 | 3 | 5 | 4 | 7 | 16
+Q5j_3	numeric	192	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q5j_4	numeric	192	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q5j_5	character	47	Please comment on your responses above (optional).	[48 uniq] | Mike Johnson does not reflect traditional Republican values. He is much more conservative than the national party has been historically. But given the MAGA-dominated Republican Party today, he is likely reflective of where the party has been heading. | In today's polarized House with...
+Q5k_1_First_Click	numeric	157	Timing - First Click	[156 uniq] 3.079 | 3.405 | 5.116 | 4.158 | 7.551 | 7.525 | 6.152 | 3.367
+Q5k_1_Last_Click	numeric	157	Timing - Last Click	[157 uniq] 8.12 | 5.294 | 7.905 | 10.726 | 13.527 | 15.515 | 12.967 | 6.368
+Q5k_1_Page_Submit	numeric	157	Timing - Page Submit	[157 uniq] 8.98 | 6.641 | 9.658 | 12.978 | 14.59 | 19.42 | 14.401 | 8.159
+Q5k_1_Click_Count	numeric	157	Timing - Click Count	[15 uniq] 5 | 2 | 4 | 7 | 3 | 9 | 10 | 19
+Q5k_3	numeric	157	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q5k_4	numeric	157	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q5k_5	character	32	Please comment on your responses above (optional).	[33 uniq] | Routine, even if the underlying demands of personal fealty are more akin to patronage politics and authoritarian dynamics. | It’s only important if Trump dies otherwise it’s like watching an episode of the apprentice | A V-P choice matters, especially with an old candidate like Trump...
+Q5l_1_First_Click	numeric	186	Timing - First Click	[185 uniq] 8.678 | 2.556 | 3.657 | 6.002 | 7.44 | 8.768 | 23.637 | 5.973
+Q5l_1_Last_Click	numeric	186	Timing - Last Click	[185 uniq] 10.974 | 9.289 | 5.487 | 7.97 | 9.495 | 10.055 | 34.557 | 14.373
+Q5l_1_Page_Submit	numeric	186	Timing - Page Submit	[186 uniq] 13.053 | 10.831 | 6.984 | 11.164 | 21.736 | 11.53 | 35.811 | 85.787
+Q5l_1_Click_Count	numeric	186	Timing - Click Count	[14 uniq] 2 | 6 | 4 | 3 | 5 | 14 | 8 | 21
+Q5l_3	numeric	186	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q5l_4	numeric	186	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q5l_5	character	46	Please comment on your responses above (optional).	[47 uniq] | Gross violation of international law and human rights | Important only in the sense that the nation needs to do much more to rationalize the immigration system, but there is little bipartisan agreeement to do so, esp., in an election year. Hence, Biden does what he can by executive a...
+Q5m_1_First_Click	numeric	160	Timing - First Click	[156 uniq] 3.589 | 4.506 | 4.578 | 5.732 | 3.517 | 2.587 | 6.742 | 4.024
+Q5m_1_Last_Click	numeric	160	Timing - Last Click	[159 uniq] 6.107 | 7.928 | 6.722 | 8.444 | 6.175 | 5.62 | 8.674 | 10.648
+Q5m_1_Page_Submit	numeric	160	Timing - Page Submit	[160 uniq] 7.879 | 8.794 | 7.9 | 10.324 | 8.36 | 7.32 | 10.095 | 44.488
+Q5m_1_Click_Count	numeric	160	Timing - Click Count	[11 uniq] 4 | 2 | 3 | 5 | 6 | 9 | 10 | 7
+Q5m_3	numeric	160	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q5m_4	numeric	160	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q5m_5	character	32	Please comment on your responses above (optional).	[33 uniq] | It is a presidential administration conducting policy business. This has been tried unsuccessfully throughout ME history by various presidents. | The US is often involved in the Israeli-Palestinian conflict | The US is ill prepared to negotiate this conflict. | It's our role as worl...
+Q5n_1_First_Click	numeric	167	Timing - First Click	[166 uniq] 5.956 | 5.496 | 10.59 | 9.364 | 8.584 | 7.446 | 709.306 | 6.066
+Q5n_1_Last_Click	numeric	167	Timing - Last Click	[166 uniq] 9.365 | 8.249 | 13.044 | 29.649 | 11.741 | 9.43 | 713.387 | 10.999
+Q5n_1_Page_Submit	numeric	167	Timing - Page Submit	[167 uniq] 10.468 | 9.884 | 18.082 | 31.101 | 36.045 | 11.269 | 741.433 | 12.222
+Q5n_1_Click_Count	numeric	167	Timing - Click Count	[13 uniq] 3 | 2 | 5 | 4 | 7 | 6 | 9 | 18
+Q5n_3	numeric	166	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q5n_4	numeric	165	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q5n_5	character	38	Please comment on your responses above (optional).	[39 uniq] | The most abnormal thing about this is the fact that Judge Cannon refuses to move the case forward in a timely manner. | Former leaders are periodically prosecuted in democracies, but for this many cases to be brought is pretty uncommon. | Document control is gov 101. It took a massiv...
+Q5o_1_First_Click	numeric	0	Timing - First Click	
+Q5o_1_Last_Click	numeric	0	Timing - Last Click	
+Q5o_1_Page_Submit	numeric	0	Timing - Page Submit	
+Q5o_1_Click_Count	numeric	0	Timing - Click Count	
+Q5o_3	numeric	171	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q5o_4	numeric	171	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q5o_5	character	49	Please comment on your responses above (optional).	[50 uniq] | Undermines integrity of the Supreme Court | Hard to overstate just how bad the media reporting on this story is - Alito played no part in the flag controversy. | It's abnormal and important mostly in that it shows how untouchable some justices feel they are (and they're right about t...
+Q5p_1_First_Click	numeric	173	Timing - First Click	[172 uniq] 4.7 | 6.01 | 8.635 | 8.3 | 9.729 | 16.236 | 3.515 | 11.693
+Q5p_1_Last_Click	numeric	173	Timing - Last Click	[173 uniq] 7.159 | 31.647 | 16.996 | 21.346 | 11.696 | 26.699 | 6.612 | 14.895
+Q5p_1_Page_Submit	numeric	173	Timing - Page Submit	[173 uniq] 8.982 | 32.817 | 20.246 | 25.877 | 13.729 | 50.01 | 8.276 | 17.07
+Q5p_1_Click_Count	numeric	173	Timing - Click Count	[15 uniq] 4 | 9 | 2 | 10 | 8 | 5 | 6 | 3
+Q5p_3	numeric	173	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+Q5p_4	numeric	173	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+Q5p_5	character	61	Please comment on your responses above (optional).	[62 uniq] | This confirms a recurring pattern of disrespect for the law. | Trump has been a fraud that breaks the rules his whole life. It's only ""abnormal"" because he is a former president and current nominee for president. It's semi-important because he could once again be commander in chief, ...
+threats_binary_1	numeric	549	Former president Donald Trump is convicted of falsifying business records in his New York state trial.	1=Benefit to American democracy | 2=Will not affect American democracy | 3=Threat to American democracy
+threats_binary_2	numeric	546	Trump and Biden agree to hold two debates, bypassing the Commission on Presidential Debates.	1=Benefit to American democracy | 2=Will not affect American democracy | 3=Threat to American democracy
+threats_binary_3	numeric	545	Trump repeatedly attacks the legal cases against him as interference by the Biden administration in the 2024 election.	1=Benefit to American democracy | 2=Will not affect American democracy | 3=Threat to American democracy
+benefit_detail_1_1	numeric	284	You indicated that the following are benefits to American democracy. We would now like you to rate the degree to which they are a benefit to democracy. - Former president Donald Trump is convicted of falsifying business records in his New York state trial.	2=Little benefit to American democracy | 3=Moderate benefit to American democracy | 4=Serious benefit to American democracy | 5=Extraordinary benefit to American democracy
+benefit_detail_1_2	numeric	141	You indicated that the following are benefits to American democracy. We would now like you to rate the degree to which they are a benefit to democracy. - Trump and Biden agree to hold two debates, bypassing the Commission on Presidential Debates.	2=Little benefit to American democracy | 3=Moderate benefit to American democracy | 4=Serious benefit to American democracy | 5=Extraordinary benefit to American democracy
+benefit_detail_1_3	numeric	21	You indicated that the following are benefits to American democracy. We would now like you to rate the degree to which they are a benefit to democracy. - Trump repeatedly attacks the legal cases against him as interference by the Biden administration in the 2024 election.	2=Little benefit to American democracy | 3=Moderate benefit to American democracy | 4=Serious benefit to American democracy | 5=Extraordinary benefit to American democracy
+threat_detail_1_1	numeric	88	You indicated that the following are threats to American democracy. We would now like you to rate the degree to which they are a threat to democracy. - Former president Donald Trump is convicted of falsifying business records in his New York state trial.	2=Little threat to American democracy | 3=Moderate threat to American democracy | 4=Serious threat to American democracy | 5=Extraordinary threat to American democracy
+threat_detail_1_2	numeric	31	You indicated that the following are threats to American democracy. We would now like you to rate the degree to which they are a threat to democracy. - Trump and Biden agree to hold two debates, bypassing the Commission on Presidential Debates.	2=Little threat to American democracy | 3=Moderate threat to American democracy | 4=Serious threat to American democracy | 5=Extraordinary threat to American democracy
+threat_detail_1_3	numeric	465	You indicated that the following are threats to American democracy. We would now like you to rate the degree to which they are a threat to democracy. - Trump repeatedly attacks the legal cases against him as interference by the Biden administration in the 2024 election.	2=Little threat to American democracy | 3=Moderate threat to American democracy | 4=Serious threat to American democracy | 5=Extraordinary threat to American democracy
+threats_binary_4	numeric	548	The U.S. Supreme Court upholds Donald Trump’s claim of immunity from prosecution for former presidents.	1=Benefit to American democracy | 2=Will not affect American democracy | 3=Threat to American democracy
+threats_binary_5	numeric	545	The U.S. Supreme Court decides that people who entered the Capitol on January 6, 2021 can’t be charged with obstruction of an official proceeding.	1=Benefit to American democracy | 2=Will not affect American democracy | 3=Threat to American democracy
+threats_binary_6	numeric	546	Donald Trump follows through on his threats to initiate prosecutions of his political enemies if elected in November.	1=Benefit to American democracy | 2=Will not affect American democracy | 3=Threat to American democracy
+threats_binary_7	numeric	544	No decisions are reached before the 2024 election in the ongoing trials involving Donald Trump (the Florida documents case and the Georgia and Washington, DC election interference cases).	1=Benefit to American democracy | 2=Will not affect American democracy | 3=Threat to American democracy
+benefit_detail_2_1	numeric	14	You indicated that the following would be benefits to American democracy. We would now like you to rate the degree to which they are a benefit to democracy. - The U.S. Supreme Court upholds Donald Trump’s claim of immunity from prosecution for former presidents.	2=Little benefit to American democracy | 3=Moderate benefit to American democracy | 4=Serious benefit to American democracy | 5=Extraordinary benefit to American democracy
+benefit_detail_2_2	numeric	17	You indicated that the following would be benefits to American democracy. We would now like you to rate the degree to which they are a benefit to democracy. - The U.S. Supreme Court decides that people who entered the Capitol on January 6, 2021 can’t be charged with obstruction of an official pro...	2=Little benefit to American democracy | 3=Moderate benefit to American democracy | 4=Serious benefit to American democracy | 5=Extraordinary benefit to American democracy
+benefit_detail_2_3	numeric	5	You indicated that the following would be benefits to American democracy. We would now like you to rate the degree to which they are a benefit to democracy. - Donald Trump follows through on his threats to initiate prosecutions of his political enemies if elected in November.	2=Little benefit to American democracy | 3=Moderate benefit to American democracy | 4=Serious benefit to American democracy | 5=Extraordinary benefit to American democracy
+benefit_detail_2_4	numeric	9	You indicated that the following would be benefits to American democracy. We would now like you to rate the degree to which they are a benefit to democracy. - No decisions are reached before the 2024 election in the ongoing trials involving Donald Trump (the Florida documents case and the Georgia...	2=Little benefit to American democracy | 3=Moderate benefit to American democracy | 4=Serious benefit to American democracy | 5=Extraordinary benefit to American democracy
+threat_detail_2_1	numeric	508	You indicated that the following would be threats to American democracy. We would now like you to rate the degree to which they are a threat to democracy. - The U.S. Supreme Court upholds Donald Trump’s claim of immunity from prosecution for former presidents.	2=Little threat to American democracy | 3=Moderate threat to American democracy | 4=Serious threat to American democracy | 5=Extraordinary threat to American democracy
+threat_detail_2_2	numeric	458	You indicated that the following would be threats to American democracy. We would now like you to rate the degree to which they are a threat to democracy. - The U.S. Supreme Court decides that people who entered the Capitol on January 6, 2021 can’t be charged with obstruction of an official proce...	2=Little threat to American democracy | 3=Moderate threat to American democracy | 4=Serious threat to American democracy | 5=Extraordinary threat to American democracy
+threat_detail_2_3	numeric	524	You indicated that the following would be threats to American democracy. We would now like you to rate the degree to which they are a threat to democracy. - Donald Trump follows through on his threats to initiate prosecutions of his political enemies if elected in November.	2=Little threat to American democracy | 3=Moderate threat to American democracy | 4=Serious threat to American democracy | 5=Extraordinary threat to American democracy
+threat_detail_2_4	numeric	387	You indicated that the following would be threats to American democracy. We would now like you to rate the degree to which they are a threat to democracy. - No decisions are reached before the 2024 election in the ongoing trials involving Donald Trump (the Florida documents case and the Georgia a...	2=Little threat to American democracy | 3=Moderate threat to American democracy | 4=Serious threat to American democracy | 5=Extraordinary threat to American democracy
+hush_crime	numeric	544	In thinking about former President Trump’s payment of hush money to an adult film actress, do you think he committed a crime, or not?	1=Yes | 2=No | 3=Don't know
+hush_crime_y	numeric	438	You said former president Trump’s payment of hush money to an adult film actress is a crime. In your view, what is the appropriate punishment for this conduct?	1=No punishment should be imposed | 2=A fine and/or probation but not prison time | 3=Up to one year in prison | 4=One to five years in prison | 5=More than five years in prison
+hush_crime_n	numeric	51	You said former president Trump's payment of hush money to an adult film actress is not a crime. Which of the following best describes your view of these allegations?	1=Trump did not take the alleged actions | 2=Trump took the alleged actions but these actions were not a crime
+hush_indict	numeric	537	How much do you agree or disagree with following statement? Trump would not have been prosecuted for paying hush money to an adult film actress if he were someone else.	1=Strongly agree | 2=Somewhat agree | 3=Somewhat disagree | 4=Strongly disagree
+scotus_confidence	numeric	544	How confident are you that the U.S. Supreme Court will make impartial decisions in legal cases regarding Donald Trump?	1=Very confident | 2=Somewhat confident | 3=Not very confident | 4=Not at all confident
+term2_intro_47	numeric	538	As we approach the 2024 presidential election, observers have discussed possible actions that might be taken during a second Trump administration. In this portion of the survey, we will ask you to assess the likelihood of different scenarios assuming that Trump wins the 2024 election. We ask...	[85 uniq] 100 | 35 | 30 | 75 | 20 | 10 | 50 | 40
+term2_intro_49	numeric	537	As we approach the 2024 presidential election, observers have discussed possible actions that might be taken during a second Trump administration. In this portion of the survey, we will ask you to assess the likelihood of different scenarios assuming that Trump wins the 2024 election. We ask...	[81 uniq] 22 | 50 | 70 | 25 | 40 | 30 | 21 | 2
+term2_intro_51	numeric	361	As we approach the 2024 presidential election, observers have discussed possible actions that might be taken during a second Trump administration. In this portion of the survey, we will ask you to assess the likelihood of different scenarios assuming that Trump wins the 2024 election. We ask...	[52 uniq] 70 | 95 | 100 | 80 | 85 | 75 | 89 | 71
+term2_intro_52	numeric	370	As we approach the 2024 presidential election, observers have discussed possible actions that might be taken during a second Trump administration. In this portion of the survey, we will ask you to assess the likelihood of different scenarios assuming that Trump wins the 2024 election. We ask...	[42 uniq] 100 | 60 | 71 | 90 | 70 | 91 | 86 | 95
+term2_intro_54	numeric	363	As we approach the 2024 presidential election, observers have discussed possible actions that might be taken during a second Trump administration. In this portion of the survey, we will ask you to assess the likelihood of different scenarios assuming that Trump wins the 2024 election. We ask...	[36 uniq] 87 | 90 | 100 | 95 | 70 | 61 | 80 | 50
+term2_intro_55	numeric	358	As we approach the 2024 presidential election, observers have discussed possible actions that might be taken during a second Trump administration. In this portion of the survey, we will ask you to assess the likelihood of different scenarios assuming that Trump wins the 2024 election. We ask...	[57 uniq] 60 | 50 | 100 | 70 | 23 | 93 | 90 | 40
+term2_intro_56	numeric	336	As we approach the 2024 presidential election, observers have discussed possible actions that might be taken during a second Trump administration. In this portion of the survey, we will ask you to assess the likelihood of different scenarios assuming that Trump wins the 2024 election. We ask...	[74 uniq] 58 | 80 | 35 | 100 | 24 | 1 | 43 | 30
+term2_intro_59	numeric	357	As we approach the 2024 presidential election, observers have discussed possible actions that might be taken during a second Trump administration. In this portion of the survey, we will ask you to assess the likelihood of different scenarios assuming that Trump wins the 2024 election. We ask...	[36 uniq] 100 | 65 | 95 | 72 | 80 | 90 | 93 | 81
+recuse_merchan	numeric	266	Judge Juan Merchan oversaw the trial in New York of Donald Trump for falsifying business records in making a hush money payment to an adult film actress. Merchan donated $35 to the Democratic group ActBlue and his daughter is the president of a political marketing firm that frequently works with ...	1=Definitely should recuse | 2=Probably should recuse | 3=Probably should not recuse | 4=Definitely should not recuse
+recuse_merchan_2nd	numeric	272	We now turn to Judge Juan Merchan, who oversaw the trial in New York of Donald Trump for falsifying business records in making a hush money payment to an adult film actress. Merchan donated $35 to the Democratic group ActBlue and his daughter is the president of a political marketing firm that f...	1=Definitely should recuse | 2=Probably should recuse | 3=Probably should not recuse | 4=Definitely should not recuse
+recuse_alito	numeric	538	News outlets have reported that flags associated with the “Stop the steal” movement to overturn the 2020 election were flown at two of Justice Samuel Alito’s properties. In your view, should Justice Alito recuse himself from the pending U.S. Supreme Court cases involving Trump and January 6?	1=Definitely should recuse | 2=Probably should recuse | 3=Probably should not recuse | 4=Definitely should not recuse
+recuse_thomas	numeric	537	The wife of Justice Clarence Thomas, Ginni Thomas, was in contact with White House officials following the 2020 election and supported efforts to overturn the results. She also attended the January 6, 2021 rally near the White House, though she did not march to the Capitol. In your view, should...	1=Definitely should recuse | 2=Probably should recuse | 3=Probably should not recuse | 4=Definitely should not recuse
+prosecute_1	numeric	261	Last year, the Justice Department indicted Hunter Biden for allegedly lying on his application to purchase a handgun. Do you believe this prosecution has been conducted in a fair and impartial manner or do you believe it is motivated by politics?	1=Definitely fair and impartial | 2=Mostly fair and impartial | 3=Probably motivated by politics | 6=Definitely motivated by politics
+prosecute_2	numeric	273	Last year, the Justice Department indicted Hunter Biden for allegedly committing tax evasion. Do you believe this prosecution has been conducted in a fair and impartial manner or do you believe it is motivated by politics?	1=Definitely fair and impartial | 2=Mostly fair and impartial | 3=Probably motivated by politics | 6=Definitely motivated by politics
+prosecute_3	numeric	248	This year, the Justice Department indicted Democratic Congressman Henry Cuellar (TX) for allegedly accepting bribes. Do you believe this prosecution has been conducted in a fair and impartial manner or do you believe it is motivated by politics?	1=Definitely fair and impartial | 2=Mostly fair and impartial | 3=Probably motivated by politics | 6=Definitely motivated by politics
+prosecute_4_	numeric	271	Last year, the Justice Department indicted Democratic Senator Robert Menendez (NJ) for allegedly accepting bribes. Do you believe this prosecution has been conducted in a fair and impartial manner or do you believe it is motivated by politics?	1=Definitely fair and impartial | 2=Mostly fair and impartial | 3=Probably motivated by politics | 6=Definitely motivated by politics
+prosecute_5	numeric	265	Last year, New York state prosecutor Alvin Bragg indicted Donald Trump for allegedly falsifying business records in order to influence the 2016 presidential election. Do you believe this prosecution has been conducted in a fair and impartial manner or do you believe it is motivated by politics?	1=Definitely fair and impartial | 2=Mostly fair and impartial | 3=Probably motivated by politics | 6=Definitely motivated by politics
+prosecute_6	numeric	261	Last year, Justice Department Special Counsel Jack Smith indicted Donald Trump for allegedly retaining classified documents after leaving the presidency in 2021. Do you believe this prosecution has been conducted in a fair and impartial manner or do you believe it is motivated by politics?	1=Definitely fair and impartial | 2=Mostly fair and impartial | 3=Probably motivated by politics | 6=Definitely motivated by politics
+prosecute_7	numeric	243	Last year, Georgia state prosecutor Fani Willis indicted Donald Trump for allegedly conspiring to overturn the result of the 2020 presidential election in Georgia. Do you believe this prosecution has been conducted in a fair and impartial manner or do you believe it is motivated by politics?	1=Definitely fair and impartial | 2=Mostly fair and impartial | 3=Probably motivated by politics | 6=Definitely motivated by politics
+prosecute_8	numeric	295	Last year, Justice Department Special Counsel Jack Smith indicted Donald Trump for allegedly participating in criminal conspiracies in his efforts to overturn the 2020 presidential election. Do you believe this prosecution has been conducted in a fair and impartial manner or do you believe it is...	1=Definitely fair and impartial | 2=Mostly fair and impartial | 3=Probably motivated by politics | 6=Definitely motivated by politics
+biden_direct	numeric	535	Please indicate whether you believe the following statement is accurate or not: Joe Biden ordered the prosecution of Donald Trump in New York.	1=Very accurate | 2=Somewhat accurate | 3=Not very accurate | 4=Not at all accurate
+events_h1_a_First_Click	numeric	150	Timing - First Click	[149 uniq] 3.361 | 2.261 | 2.152 | 4.23 | 3.187 | 3.969 | 4.071 | 4.481
+events_h1_a_Last_Click	numeric	150	Timing - Last Click	[149 uniq] 5.73 | 3.606 | 6.405 | 6.8 | 5.451 | 5.305 | 6.733 | 6.314
+events_h1_a_Page_Submit	numeric	150	Timing - Page Submit	[149 uniq] 7.62 | 5.516 | 9.297 | 8.954 | 7.553 | 7.677 | 9.071 | 7.747
+events_h1_a_Click_Count	numeric	150	Timing - Click Count	[13 uniq] 4 | 2 | 6 | 3 | 5 | 8 | 14 | 7
+events_h1_c	numeric	150	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h1_d	numeric	150	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h1_e	character	34	Please comment on your responses above (optional).	[35 uniq] | Trump indicates disrespect for ur Bill of Rights. | A president attacking the foundations of freedom of the press is incredibly abnormal and antithetical to American ideals | When a high-profile figure like Trump consistently derides the press and its role in democracy, many people -...
+events_h2_a_First_Click	numeric	131	Timing - First Click	[131 uniq] 3.033 | 4.3 | 7.11 | 10.43 | 3.928 | 4.197 | 9.281 | 4.512
+events_h2_a_Last_Click	numeric	131	Timing - Last Click	[131 uniq] 7.261 | 16.413 | 9.81 | 12.561 | 10.64 | 5.876 | 13.616 | 9.768
+events_h2_a_Page_Submit	numeric	131	Timing - Page Submit	[131 uniq] 8.023 | 16.437 | 10.923 | 20.016 | 14.45 | 7.53 | 17.22 | 57.06
+events_h2_a_Click_Count	numeric	131	Timing - Click Count	[11 uniq] 6 | 5 | 3 | 2 | 4 | 11 | 7 | 10
+events_h2_c	numeric	128	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h2_d	numeric	128	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h2_e	character	20	Please comment on your responses above (optional).	[21 uniq] | Inhumane and cruel | There is much discretion in enforcement actions by any White House. In this case, however, Trump likely exceeded his authority and caused serious damage to the families involved. | This was obviously a terrible policy, but I have to admit that I could imagine oth...
+events_h3_a_First_Click	numeric	138	Timing - First Click	[136 uniq] 4 | 1.585 | 7.271 | 3.309 | 7.866 | 9.07 | 6.183 | 6.753
+events_h3_a_Last_Click	numeric	138	Timing - Last Click	[138 uniq] 13.19 | 7.062 | 9.807 | 4.854 | 10.015 | 11.352 | 8.142 | 8.497
+events_h3_a_Page_Submit	numeric	138	Timing - Page Submit	[138 uniq] 14.549 | 8.698 | 10.848 | 5.994 | 13.038 | 13.794 | 9.345 | 10.809
+events_h3_a_Click_Count	numeric	138	Timing - Click Count	[10 uniq] 6 | 4 | 2 | 3 | 7 | 5 | 10 | 15
+events_h3_c	numeric	137	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h3_d	numeric	137	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h3_e	character	26	Please comment on your responses above (optional).	[27 uniq] | Unfortunately, the lines have been blurred in American politics for both presidents, congress and the courts regarding business entanglements. | This did not occur. | Unique situation for an American president. There should be laws against this. | If all politicians were condemned fo...
+events_h4_a_First_Click	numeric	154	Timing - First Click	[154 uniq] 2.662 | 6.083 | 3.468 | 2.897 | 7.486 | 3.443 | 7.376 | 3.346
+events_h4_a_Last_Click	numeric	154	Timing - Last Click	[153 uniq] 7.364 | 9.435 | 4.989 | 7.342 | 10.387 | 8.175 | 8.191 | 4.917
+events_h4_a_Page_Submit	numeric	154	Timing - Page Submit	[154 uniq] 8.615 | 10.496 | 6.954 | 9.029 | 18.628 | 9.101 | 9.333 | 6.174
+events_h4_a_Click_Count	numeric	154	Timing - Click Count	[13 uniq] 7 | 4 | 2 | 6 | 3 | 5 | 12 | 8
+events_h4_c	numeric	154	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h4_d	numeric	154	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h4_e	character	15	Please comment on your responses above (optional).	[16 uniq] | Political persecution | I reject the statement as untrue. There has been a president who has repeatedly encouraged the prosecution of his political enemies, and he currently occupies the White House. | ""Look her up"" both implied serious crimes (untrue, and unproven). | Harassment of...
+events_h5_a_First_Click	numeric	135	Timing - First Click	[135 uniq] 9.612 | 5.784 | 10.087 | 7.243 | 26.731 | 8.525 | 7.373 | 8.071
+events_h5_a_Last_Click	numeric	135	Timing - Last Click	[135 uniq] 11.541 | 8.382 | 17.228 | 11.475 | 31.581 | 13.33 | 13.307 | 9.073
+events_h5_a_Page_Submit	numeric	135	Timing - Page Submit	[135 uniq] 12.445 | 9.508 | 51.777 | 13.245 | 34.899 | 16.136 | 59.928 | 10.405
+events_h5_a_Click_Count	numeric	135	Timing - Click Count	4 | 7 | 2 | 3 | 11 | 5 | 6 | 10
+events_h5_c	numeric	134	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h5_d	numeric	135	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h5_e	character	23	Please comment on your responses above (optional).	[24 uniq] | Makes a weather emergency about himself and undermines confidence in science | To play politics with the lives of US citizens is wrong. This example shows clearly that Mr. Trump cares more about himself than those he is asking to serve. | Misplaced political rhetoric in this case. | ...
+events_h6_a_First_Click	numeric	136	Timing - First Click	[135 uniq] 2.875 | 4.328 | 2.84 | 2.746 | 14.286 | 6.75 | 3.524 | 4.013
+events_h6_a_Last_Click	numeric	136	Timing - Last Click	[136 uniq] 7.562 | 7.02 | 5.136 | 9.25 | 18.673 | 13.398 | 5.52 | 5.813
+events_h6_a_Page_Submit	numeric	136	Timing - Page Submit	[136 uniq] 9.6 | 8.165 | 6.32 | 11.156 | 21.314 | 49.755 | 7.222 | 7.289
+events_h6_a_Click_Count	numeric	136	Timing - Click Count	[12 uniq] 2 | 3 | 4 | 6 | 5 | 12 | 9 | 7
+events_h6_c	numeric	133	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h6_d	numeric	133	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h6_e	character	25	Please comment on your responses above (optional).	[26 uniq] | Justices have timed their retirement previously. Nothing very unusual or imporant here. | Kennedy's swing vote is gone and SCOTUS is now firmly right-wing | Kennedy was living out a philosophy many scholars and people in politics have recommended: retiring from the court at a reasona...
+events_h7_a_First_Click	numeric	136	Timing - First Click	[132 uniq] 5.123 | 4.263 | 2.821 | 5.206 | 2.846 | 8.327 | 7.327 | 6.15
+events_h7_a_Last_Click	numeric	136	Timing - Last Click	[135 uniq] 7.987 | 6.082 | 8.371 | 6.814 | 4.677 | 12.371 | 11.476 | 8.13
+events_h7_a_Page_Submit	numeric	136	Timing - Page Submit	[135 uniq] 9.142 | 6.939 | 9.432 | 8.673 | 6 | 15.859 | 127.883 | 9.969
+events_h7_a_Click_Count	numeric	136	Timing - Click Count	[10 uniq] 5 | 3 | 2 | 4 | 7 | 9 | 6 | 19
+events_h7_c	numeric	136	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h7_d	numeric	136	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h7_e	character	20	Please comment on your responses above (optional).	[21 uniq] | As Mr. Trump's civil prosecutions show, he has broken many tax laws. It is clear that with his tax records, as with his educational records, Mr. Trump has something to hide. At the very least, this makes him dishonest and unfit for office. At the very most, it makes him a potential t...
+events_h8_a_First_Click	numeric	135	Timing - First Click	[134 uniq] 3.022 | 31.038 | 5.173 | 2.94 | 4.44 | 5.073 | 6.466 | 10.886
+events_h8_a_Last_Click	numeric	135	Timing - Last Click	[134 uniq] 6.937 | 33.611 | 6.839 | 6.029 | 5.753 | 6.569 | 26.586 | 13.554
+events_h8_a_Page_Submit	numeric	135	Timing - Page Submit	[135 uniq] 9.309 | 35.237 | 7.972 | 11.9 | 7.13 | 7.917 | 28.373 | 14.507
+events_h8_a_Click_Count	numeric	135	Timing - Click Count	[11 uniq] 3 | 2 | 5 | 7 | 4 | 19 | 6 | 10
+events_h8_c	numeric	134	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h8_d	numeric	134	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h8_e	character	21	Please comment on your responses above (optional).	[22 uniq] | Undermines confidence in administration | This is just partisan politics and there is over exaggerated claims for crowd size to employment numbers, etc from every administration. | Press secretaries lie all the time. | The lie was risible. Palpably untrue. | in and of itself, it was ...
+events_h9_a_First_Click	numeric	148	Timing - First Click	[146 uniq] 4.943 | 12.312 | 19.006 | 13.277 | 7.166 | 8.505 | 7.263 | 7.255
+events_h9_a_Last_Click	numeric	148	Timing - Last Click	[148 uniq] 8.078 | 15.238 | 22.973 | 14.077 | 9.676 | 14.177 | 13.428 | 20.04
+events_h9_a_Page_Submit	numeric	148	Timing - Page Submit	[148 uniq] 9.783 | 17.086 | 22.976 | 15.624 | 12.01 | 81.277 | 14.057 | 20.766
+events_h9_a_Click_Count	numeric	148	Timing - Click Count	[10 uniq] 4 | 2 | 3 | 5 | 6 | 11 | 7 | 24
+events_h9_c	numeric	146	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h9_d	numeric	148	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h9_e	character	19	Please comment on your responses above (optional).	[20 uniq] | Not a major action, but indicative of Trump and his appointees not behaviing in an appropriate way and respecting well-established norms of governance. I would expect to see much, much worse actions should we have a second Trump administration. | The question is misstated. | It's so ...
+events_h10_a_First_Click	numeric	138	Timing - First Click	[136 uniq] 8.008 | 2.454 | 5.433 | 22.111 | 3.29 | 7.94 | 3.214 | 8.387
+events_h10_a_Last_Click	numeric	138	Timing - Last Click	[138 uniq] 9.899 | 11.969 | 13.412 | 27.358 | 9.961 | 10.876 | 4.583 | 11.283
+events_h10_a_Page_Submit	numeric	138	Timing - Page Submit	[137 uniq] 12.041 | 12.628 | 20.489 | 31.499 | 12.037 | 13.701 | 6.515 | 12.711
+events_h10_a_Click_Count	numeric	138	Timing - Click Count	[9 uniq] 2 | 7 | 6 | 3 | 4 | 5 | 9 | 14
+events_h10_c	numeric	138	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h10_d	numeric	138	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h10_e	character	19	Please comment on your responses above (optional).	[20 uniq] | These are symbolic | Stupid question | Unilateral bullying of neighboring allies is imprudent and unwise. | Signing trade agreements is business as usual and the benefits these agreements bring are important for the US | trade agreements are normal and even restructuring trade agreem...
+events_h11_a_First_Click	numeric	137	Timing - First Click	[134 uniq] 7.176 | 2.5 | 4.111 | 5.827 | 9.59 | 6.654 | 5.873 | 6.508
+events_h11_a_Last_Click	numeric	137	Timing - Last Click	[137 uniq] 10.059 | 3.742 | 5.891 | 9.622 | 12.136 | 10.79 | 19.843 | 8.476
+events_h11_a_Page_Submit	numeric	137	Timing - Page Submit	[137 uniq] 10.698 | 5.07 | 7.289 | 10.65 | 13.763 | 12.86 | 22.017 | 9.721
+events_h11_a_Click_Count	numeric	137	Timing - Click Count	[11 uniq] 5 | 2 | 4 | 3 | 6 | 8 | 7 | 1
+events_h11_c	numeric	135	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h11_d	numeric	135	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h11_e	character	12	Please comment on your responses above (optional).	[13 uniq] | War-criminals should not be pardoned. | A challenge to existing practice but apparently a trend | He has no ethical or moral compass and no commitment to process | Show me a President who hasn't made controversial pardons. Maybe the better question is if Presidents should have this p...
+events_h12_a_First_Click	numeric	148	Timing - First Click	[147 uniq] 3.974 | 21.962 | 6.984 | 15.024 | 11.144 | 11.082 | 6.559 | 6.801
+events_h12_a_Last_Click	numeric	148	Timing - Last Click	[147 uniq] 6.055 | 25.444 | 9.725 | 17.347 | 13.344 | 17.578 | 9.182 | 12.016
+events_h12_a_Page_Submit	numeric	148	Timing - Page Submit	[148 uniq] 7.649 | 26.425 | 11.67 | 18.382 | 14.894 | 18.487 | 10.864 | 80.17
+events_h12_a_Click_Count	numeric	148	Timing - Click Count	[14 uniq] 2 | 4 | 3 | 7 | 10 | 5 | 8 | 6
+events_h12_c	numeric	147	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h12_d	numeric	147	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h12_e	character	22	Please comment on your responses above (optional).	[23 uniq] | Political assassination is against US law (or at least it used to be). When the US engages in this kind of activity (including Pres. Obama's use of the 'disposition matrix' it loses the kind of moral authority and soft power that has underpinned our strength in the past. | Unfortunat...
+events_h13_a_First_Click	numeric	128	Timing - First Click	[128 uniq] 1.713 | 16.596 | 3.88 | 4.753 | 6.416 | 3.7 | 3.555 | 4.776
+events_h13_a_Last_Click	numeric	128	Timing - Last Click	[128 uniq] 5.001 | 25.056 | 6.83 | 7.658 | 12.101 | 13.983 | 6.413 | 6.809
+events_h13_a_Page_Submit	numeric	128	Timing - Page Submit	[127 uniq] 6.512 | 48.409 | 8.422 | 8.618 | 13.223 | 16.493 | 7.625 | 7.917
+events_h13_a_Click_Count	numeric	128	Timing - Click Count	[12 uniq] 5 | 3 | 2 | 4 | 8 | 10 | 9 | 6
+events_h13_c	numeric	126	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h13_d	numeric	126	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h13_e	character	22	Please comment on your responses above (optional).	[23 uniq] | Presidents have addressed civil discord before. | This was one of the most underappreciated stories of that year: the administration attempted to create a kind of Praetorian Guard for the president to use anywhere he likes with only hazy jurisdiction and legal standing. A second Trum...
+events_h14_a__First_Click	numeric	149	Timing - First Click	[149 uniq] 4.005 | 4.087 | 2.614 | 4.629 | 9.804 | 12.358 | 3.342 | 3.934
+events_h14_a__Last_Click	numeric	149	Timing - Last Click	[149 uniq] 5.534 | 6.678 | 4.467 | 11.628 | 35.739 | 14.452 | 4.473 | 5.735
+events_h14_a__Page_Submit	numeric	149	Timing - Page Submit	[148 uniq] 7.501 | 8.817 | 5.797 | 18.822 | 102.929 | 18.811 | 5.5 | 7.527
+events_h14_a__Click_Count	numeric	149	Timing - Click Count	[12 uniq] 2 | 3 | 6 | 5 | 4 | 11 | 7 | 9
+events_h14_c	numeric	146	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h14_d	numeric	147	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h14_e	character	28	Please comment on your responses above (optional).	[29 uniq] | the video of him speaking shows that he was referring to both sides of the discussion about removing confederate monuments. | At the time, I gave Trump the benefit of the doubt, thinking he didn't have a lot of facts yet about what had happened and was, in a clumsy way, trying to def...
+events_h15_a_First_Click	numeric	142	Timing - First Click	[139 uniq] 4.783 | 9.089 | 5.554 | 2.619 | 12.751 | 3.481 | 3.895 | 6.591
+events_h15_a_Last_Click	numeric	142	Timing - Last Click	[140 uniq] 6.884 | 12.566 | 9.198 | 7.519 | 18.906 | 8.765 | 7.777 | 10.51
+events_h15_a_Page_Submit	numeric	142	Timing - Page Submit	[141 uniq] 8.387 | 13.89 | 10.027 | 8.66 | 36.691 | 10.424 | 59.187 | 34.959
+events_h15_a_Click_Count	numeric	142	Timing - Click Count	[9 uniq] 4 | 6 | 5 | 3 | 2 | 10 | 7 | 8
+events_h15_c	numeric	141	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h15_d	numeric	141	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h15_e	character	25	Please comment on your responses above (optional).	[26 uniq] | Ours is a democracy not a monarchy. | That this wasn't disqualifying all by itself is a comment on the Republican Party -- and on the people of the U.S. | While there were uncertainties surrounding Covid-19, there was no reason to delay elections. | This would undermine the constitut...
+events_h16_a_First_Click	numeric	139	Timing - First Click	[136 uniq] 3.449 | 5.974 | 4.166 | 10.937 | 8.337 | 4.763 | 18.377 | 3.25
+events_h16_a_Last_Click	numeric	139	Timing - Last Click	[137 uniq] 6.551 | 14.689 | 6.441 | 15.91 | 12.271 | 6.383 | 29.436 | 4.853
+events_h16_a_Page_Submit	numeric	139	Timing - Page Submit	[138 uniq] 7.63 | 17.96 | 7.536 | 58.525 | 13.088 | 7.816 | 30.452 | 6.579
+events_h16_a_Click_Count	numeric	139	Timing - Click Count	[11 uniq] 4 | 3 | 5 | 2 | 7 | 11 | 8 | 19
+events_h16_c	numeric	137	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h16_d	numeric	138	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h16_e	character	19	Please comment on your responses above (optional).	[20 uniq] | Trump's narcissism limits his ability to understand and respect our democracy. He thinks he is a monarch. | This did not occur. | Nobody can commit to such a thing before it happens. | It's hard to rate this as normal or not because it's generally implicit. We don't have other presi...
+events_h17_a_First_Click	numeric	141	Timing - First Click	[139 uniq] 3.237 | 6.056 | 5.747 | 3.887 | 8.082 | 12.004 | 2.933 | 2.588
+events_h17_a_Last_Click	numeric	141	Timing - Last Click	[140 uniq] 5.335 | 7.656 | 15.562 | 5.591 | 14.349 | 17.45 | 5.318 | 4.12
+events_h17_a_Page_Submit	numeric	141	Timing - Page Submit	[140 uniq] 6.763 | 9.98 | 19.242 | 7.313 | 15.935 | 45.102 | 29.468 | 6.026
+events_h17_a_Click_Count	numeric	141	Timing - Click Count	[9 uniq] 4 | 2 | 3 | 5 | 6 | 7 | 8 | 9
+events_h17_c	numeric	140	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h17_d	numeric	140	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h17_e	character	27	Please comment on your responses above (optional).	[28 uniq] | Trump indicated a disrespect for our election laws and the orderly change of power. | See my earlier comment. This refusal, and the lead up to this refusal, is a serious threat to democracy in this country. | As I mentioned earlier, there are few things more important than losers of ...
+events_h18_a_First_Click	numeric	147	Timing - First Click	[142 uniq] 2.375 | 2.248 | 4.424 | 5.565 | 7.593 | 4.394 | 3.644 | 2.831
+events_h18_a_Last_Click	numeric	147	Timing - Last Click	[143 uniq] 5.634 | 4.249 | 5.8 | 7.857 | 12.981 | 113.751 | 6.477 | 4.247
+events_h18_a_Page_Submit	numeric	147	Timing - Page Submit	[146 uniq] 6.133 | 4.57 | 7.284 | 11.306 | 73.553 | 120.451 | 7.251 | 5.483
+events_h18_a_Click_Count	numeric	147	Timing - Click Count	[10 uniq] 6 | 3 | 2 | 13 | 4 | 7 | 14 | 5
+events_h18_c	numeric	146	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h18_d	numeric	146	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h18_e	character	25	Please comment on your responses above (optional).	[26 uniq] | It was one of the most upsetting days I remember. Out temple of democracy was being desecrated by thugs who lacked respect for our laws. | Insurrection against the government is, alongside treason, one of the most serious crimes that can be committed. All who were prosecuted and con...
+events_h19_a_First_Click	numeric	140	Timing - First Click	[139 uniq] 2.245 | 2.672 | 5.517 | 4.401 | 6.271 | 4.088 | 5.448 | 4.251
+events_h19_a_Last_Click	numeric	140	Timing - Last Click	[139 uniq] 3.757 | 4.27 | 11.565 | 11.607 | 13.743 | 4.743 | 29.511 | 6.039
+events_h19_a_Page_Submit	numeric	140	Timing - Page Submit	[140 uniq] 4.538 | 5.411 | 13.023 | 12.616 | 14.734 | 5.668 | 68.517 | 7.956
+events_h19_a_Click_Count	numeric	140	Timing - Click Count	2 | 3 | 4 | 5 | 8 | 7 | 6
+events_h19_c	numeric	138	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h19_d	numeric	139	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h19_e	character	24	Please comment on your responses above (optional).	[25 uniq] | The likelihood that this will not come to trial before the election is one of the biggest failures of democracy in recent years | Fundamental threat to democracy and constitutional order if current president actively pressures state election officials. | They all do it! ""Do what you ...
+events_h20_a_First_Click	numeric	160	Timing - First Click	[158 uniq] 3.541 | 3.896 | 6.094 | 11.346 | 5.108 | 5.352 | 4.009 | 3.01
+events_h20_a_Last_Click	numeric	160	Timing - Last Click	[160 uniq] 5.375 | 6.251 | 8.037 | 16.319 | 9.312 | 8.842 | 6.345 | 4.676
+events_h20_a_Page_Submit	numeric	160	Timing - Page Submit	[159 uniq] 6.554 | 7.186 | 9.233 | 20.576 | 11.342 | 11.189 | 8.165 | 6.236
+events_h20_a_Click_Count	numeric	160	Timing - Click Count	[9 uniq] 4 | 2 | 3 | 5 | 7 | 6 | 8 | 9
+events_h20_c	numeric	159	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h20_d	numeric	159	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h20_e	character	22	Please comment on your responses above (optional).	[23 uniq] | Trump did not try to ""overturn the election."" One more fake claim. | Again, he wants to be a dictator. He's rigging the game. | It again goes back to the established pattern of narcissistic and conspiratorial behavior on Trump's part. This kind of rhetoric and pressure is a direct t...
+events_h21_a_First_Click	numeric	147	Timing - First Click	[146 uniq] 4.916 | 13 | 10.309 | 13.452 | 6.171 | 7 | 7.218 | 5.512
+events_h21_a_Last_Click	numeric	147	Timing - Last Click	[146 uniq] 6.568 | 24.488 | 11.901 | 15.954 | 21.645 | 11.343 | 8.916 | 7.746
+events_h21_a_Page_Submit	numeric	147	Timing - Page Submit	[147 uniq] 7.667 | 47.902 | 14.263 | 18.407 | 27.412 | 69.995 | 10.706 | 9.673
+events_h21_a_Click_Count	numeric	147	Timing - Click Count	[10 uniq] 3 | 7 | 2 | 5 | 4 | 6 | 9 | 27
+events_h21_c	numeric	145	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h21_d	numeric	146	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h21_e	character	36	Please comment on your responses above (optional).	[37 uniq] | Expression of an objection and active efforts to stop the certification are different | This is an abrogation of their duty to accept the judgment of the American people. If members of Congress cannot do this, then they should resign. | The Republican Party’s essentially unconditiona...
+events_h22_a_First_Click	numeric	147	Timing - First Click	[147 uniq] 17.237 | 3.53 | 8.443 | 6.842 | 5.687 | 5.801 | 21.897 | 3.989
+events_h22_a_Last_Click	numeric	147	Timing - Last Click	[147 uniq] 22.453 | 5.851 | 10.075 | 12.76 | 8.52 | 15.475 | 25.664 | 9.676
+events_h22_a_Page_Submit	numeric	147	Timing - Page Submit	[147 uniq] 22.481 | 9.075 | 11.51 | 13.809 | 10.591 | 17.07 | 27.24 | 11.35
+events_h22_a_Click_Count	numeric	147	Timing - Click Count	[12 uniq] 6 | 2 | 4 | 3 | 5 | 11 | 8 | 9
+events_h22_c	numeric	146	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h22_d	numeric	146	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h22_e	character	25	Please comment on your responses above (optional).	[26 uniq] | Calls into serious question the integrity of future elections. | They are perpetuating a lie. | The need to ensure election integrity has become a headline issue nationally. All Secretaries of State should be concerned. | The US should not have elected officials in charge of electio...
+events_h23_a_First_Click	numeric	145	Timing - First Click	[145 uniq] 2.819 | 3.701 | 3.469 | 4.756 | 13.368 | 2.677 | 7.038 | 3.964
+events_h23_a_Last_Click	numeric	145	Timing - Last Click	[143 uniq] 4.703 | 4.889 | 7.116 | 6.937 | 16.195 | 3.941 | 9.942 | 5.805
+events_h23_a_Page_Submit	numeric	145	Timing - Page Submit	[145 uniq] 5.709 | 6.491 | 8.176 | 7.817 | 25.852 | 5.118 | 10.514 | 6.878
+events_h23_a_Click_Count	numeric	145	Timing - Click Count	[9 uniq] 4 | 2 | 5 | 3 | 20 | 7 | 9 | 6
+events_h23_c	numeric	145	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h23_d	numeric	145	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h23_e	character	21	Please comment on your responses above (optional).	[22 uniq] | Undermines trust in election integrity | It shows that one party is substantially anti-democratic | I only say it's borderline normal because it's commonplace, not that it should be accepted. It is just what we've come to expect from wing nuts. | It is not unusual for people to sugg...
+events_h24_a_First_Click	numeric	141	Timing - First Click	[141 uniq] 7.398 | 6.511 | 6.609 | 9.89 | 7.161 | 8.355 | 17.223 | 14.065
+events_h24_a_Last_Click	numeric	141	Timing - Last Click	[140 uniq] 9.961 | 10.524 | 7.999 | 11.996 | 10.55 | 11.655 | 20.648 | 17.851
+events_h24_a_Page_Submit	numeric	141	Timing - Page Submit	[141 uniq] 10.832 | 11.597 | 9.09 | 12.901 | 12.396 | 25.315 | 21.426 | 21.405
+events_h24_a_Click_Count	numeric	141	Timing - Click Count	[11 uniq] 4 | 2 | 3 | 6 | 7 | 5 | 9 | 10
+events_h24_c	numeric	141	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h24_d	numeric	141	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h24_e	character	16	Please comment on your responses above (optional).	[17 uniq] | Interference | To my knowledge, only Republicans have done this in various states, particularly when that party controls the legislature and the voters have elected a Democrat as governor or secretary of state. These kinds of actions have become all too common across the country, inc...
+events_h25_a_First_Click	numeric	129	Timing - First Click	[128 uniq] 6.578 | 3.359 | 6.5 | 7.08 | 8.006 | 20.813 | 8.837 | 9.792
+events_h25_a_Last_Click	numeric	129	Timing - Last Click	[128 uniq] 12.932 | 5.773 | 11.879 | 9.279 | 9.357 | 25.131 | 17.676 | 12.026
+events_h25_a_Page_Submit	numeric	129	Timing - Page Submit	[129 uniq] 14.026 | 7.776 | 13.359 | 10.446 | 10.962 | 29.042 | 18.401 | 13.935
+events_h25_a_Click_Count	numeric	129	Timing - Click Count	[12 uniq] 6 | 2 | 5 | 3 | 13 | 4 | 14 | 7
+events_h25_c	numeric	127	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h25_d	numeric	127	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h25_e	character	19	Please comment on your responses above (optional).	[20 uniq] | I suppose on the Trump scale, this barely registers. But if we were to go back in time and someone like GHWB or Ford did this, it would be seen as huge | I struggle with this one. This is typical behavior of Trump, but certainly not typical behavior of a president/former president. ...
+events_h26_a_First_Click	numeric	138	Timing - First Click	[137 uniq] 4.874 | 5.127 | 6.791 | 5.654 | 9.478 | 7.7 | 3.325 | 7.642
+events_h26_a_Last_Click	numeric	138	Timing - Last Click	[135 uniq] 7.226 | 8.541 | 19.47 | 7.888 | 16.599 | 9.462 | 5.8 | 10.034
+events_h26_a_Page_Submit	numeric	138	Timing - Page Submit	[138 uniq] 8.773 | 11.628 | 74.722 | 9.497 | 64.457 | 11.422 | 7.234 | 12.098
+events_h26_a_Click_Count	numeric	138	Timing - Click Count	[11 uniq] 2 | 5 | 3 | 4 | 6 | 9 | 8 | 15
+events_h26_c	numeric	138	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h26_d	numeric	138	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h26_e	character	24	Please comment on your responses above (optional).	[25 uniq] | Questioning legitimacy of elections without evidence undermines democracy, whether done by Democrats (Russia) in 2016 or Republicans in 2020. | It indicates the influence of Trump and a disrespect for the law--particularly after fifty plus courts found no merits in Trump's claims. | ...
+events_h27_a_First_Click	numeric	164	Timing - First Click	[159 uniq] 3.599 | 3.624 | 4.186 | 5.407 | 9.486 | 2.597 | 8.28 | 3.6
+events_h27_a_Last_Click	numeric	164	Timing - Last Click	[162 uniq] 10.104 | 12.477 | 7.305 | 13.967 | 10.677 | 4.981 | 13.037 | 6.742
+events_h27_a_Page_Submit	numeric	164	Timing - Page Submit	[162 uniq] 11.852 | 12.854 | 32.086 | 14.839 | 12.017 | 6.702 | 14.889 | 115.119
+events_h27_a_Click_Count	numeric	164	Timing - Click Count	[9 uniq] 5 | 7 | 3 | 4 | 2 | 8 | 6 | 9
+events_h27_c	numeric	164	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h27_d	numeric	164	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h27_e	character	36	Please comment on your responses above (optional).	[37 uniq] | Kari Lake is following the Trump pattern. Fortunately, she is not typical of Republicans losing races today. | Accepting the loss of elections is a bedrock principle of any functioning democracy. If a candidate cannot accept such a loss, then they should be disqualified from running....
+events_h28_a_First_Click	numeric	154	Timing - First Click	[154 uniq] 6.741 | 9.608 | 6.179 | 12.595 | 6.446 | 15.268 | 8.807 | 16.984
+events_h28_a_Last_Click	numeric	154	Timing - Last Click	[152 uniq] 8.732 | 10.728 | 8.274 | 13.426 | 8.137 | 20.654 | 10.671 | 20.667
+events_h28_a_Page_Submit	numeric	154	Timing - Page Submit	[154 uniq] 9.759 | 12.03 | 60.535 | 14.649 | 10.209 | 45.162 | 12.685 | 21.707
+events_h28_a_Click_Count	numeric	154	Timing - Click Count	[13 uniq] 2 | 3 | 6 | 4 | 9 | 16 | 5 | 7
+events_h28_c	numeric	153	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h28_d	numeric	153	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h28_e	character	26	Please comment on your responses above (optional).	[27 uniq] | Again, what to say. Obviously, Trump is abnormal is much of what he says and promises to do. One can only hope that the few serious voices that remain in the Republican Party can constrain him should be be reelected. | This is abnormal for American democracy, but Typical of Trump. | ...
+events_h29_a_First_Click	numeric	132	Timing - First Click	[132 uniq] 5.082 | 4.502 | 5.855 | 19.214 | 4.218 | 4.637 | 3.486 | 3.652
+events_h29_a_Last_Click	numeric	132	Timing - Last Click	[132 uniq] 7.304 | 9.373 | 10.183 | 30.993 | 17.367 | 6.406 | 5.756 | 5.454
+events_h29_a_Page_Submit	numeric	132	Timing - Page Submit	[131 uniq] 9.297 | 10.877 | 135.588 | 64.948 | 102.591 | 7.464 | 6.965 | 6.578
+events_h29_a_Click_Count	numeric	132	Timing - Click Count	[12 uniq] 2 | 3 | 8 | 5 | 4 | 6 | 57 | 13
+events_h29_c	numeric	132	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h29_d	numeric	132	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h29_e	character	18	Please comment on your responses above (optional).	[19 uniq] | Important largely because it reflects the consequences of sharp partisan divisions today and the animosity that media coverage and political behavior of ""elites"" can foster. We will always have deranged citizens who are tempted to engage in such actions, but today they are encouraged...
+events_h30_a_First_Click	numeric	151	Timing - First Click	[150 uniq] 6.949 | 7.793 | 6.942 | 5.312 | 10.833 | 8.914 | 6.56 | 8.507
+events_h30_a_Last_Click	numeric	151	Timing - Last Click	[151 uniq] 13.302 | 14.285 | 10.838 | 6.402 | 12.12 | 10.767 | 7.977 | 10.254
+events_h30_a_Page_Submit	numeric	151	Timing - Page Submit	[150 uniq] 14.212 | 15.511 | 69.035 | 8.367 | 13.675 | 11.9 | 9.588 | 14.519
+events_h30_a_Click_Count	numeric	151	Timing - Click Count	[10 uniq] 4 | 3 | 2 | 6 | 7 | 5 | 8 | 21
+events_h30_c	numeric	149	Is this normal or abnormal?	1=Normal | 2=Mostly normal | 3=Borderline normal | 4=Mostly abnormal | 5=Abnormal
+events_h30_d	numeric	149	Is this unimportant or important?	1=Unimportant | 2=Mostly unimportant | 3=Semi-important | 4=Mostly important | 5=Important
+events_h30_e	character	21	Please comment on your responses above (optional).	[22 uniq] | What else to say. Trump is unique in violating nearly every guideline for serving as president and leader of the nation. One can only hope he is defeated in November and is never heard from again. The Republican Party can return to something approaching normality after that. | Politi...
+Q9_1_First_Click	numeric	534	Timing - First Click	[499 uniq] 3.27 | 3.187 | 2.84 | 1.299 | 3.177 | 2.682 | 4.617 | 2.829
+Q9_1_Last_Click	numeric	534	Timing - Last Click	[501 uniq] 3.27 | 3.187 | 2.84 | 2.807 | 5.053 | 2.682 | 4.617 | 2.829
+Q9_1_Page_Submit	numeric	534	Timing - Page Submit	[511 uniq] 3.857 | 4.34 | 5.206 | 3.712 | 5.857 | 4.083 | 5.487 | 4.334
+Q9_1_Click_Count	numeric	534	Timing - Click Count	1 | 2 | 3 | 4 | 11 | 5
+Q9_3	numeric	534	Which of the following best describes your occupation?	1=Graduate student | 2=Post-doctoral fellow | 3=Adjunct faculty | 4=Full-time faculty | 5=Emeritus faculty | 6=Other
+Q10_1_First_Click	numeric	524	Timing - First Click	[482 uniq] 1.508 | 1.946 | 1.902 | 4.777 | 1.547 | 1.567 | 3.465 | 3.035
+Q10_1_Last_Click	numeric	524	Timing - Last Click	[520 uniq] 7.444 | 5.965 | 3.419 | 6.981 | 12.158 | 7.59 | 26.195 | 4.336
+Q10_1_Page_Submit	numeric	524	Timing - Page Submit	[519 uniq] 14.599 | 5.967 | 7.67 | 15.735 | 30.804 | 13.01 | 45 | 16.365
+Q10_1_Click_Count	numeric	524	Timing - Click Count	[14 uniq] 3 | 2 | 4 | 6 | 14 | 1 | 10 | 5
+Q10_2	numeric	522	What is your primary field of study?	1=American politics | 2=Comparative politics | 3=International relations | 4=Political theory | 5=Another field of political science | 6=Something other than political science
+Q10_3	character	456	What is your specific area of study?	[339 uniq] Elections | | Political behavior | Right wing populism | History of political thought | American political development | Regimes | Law and courts
+Q11_1_First_Click	numeric	533	Timing - First Click	[138 uniq] 0 | 1.335 | 1.688 | 1.177 | 4.051 | 1.745 | 59.274 | 8.942
+Q11_1_Last_Click	numeric	533	Timing - Last Click	[139 uniq] 0 | 1.335 | 32.562 | 1.177 | 4.051 | 1.745 | 93.532 | 8.942
+Q11_1_Page_Submit	numeric	533	Timing - Page Submit	[504 uniq] 1.293 | 1.822 | 1.121 | 1.945 | 2.067 | 1.355 | 2.357 | 114.212
+Q11_1_Click_Count	numeric	533	Timing - Click Count	[14 uniq] 0 | 1 | 2 | 4 | 8 | 3 | 121 | 6
+Q11_2	character	107	Do you have any comments about this survey?	[103 uniq] | Very interesting, with lots of excellent questions. One quibble: Trump was not prosecuted for paying hush money; he was prosecuted for falsifying records related to those payments. | Looking forward to the findings! | Glad to see you are still doing it, and that the press often cove...
+Q_TotalDuration	character	557	Q_TotalDuration	[475 uniq] 436 | 471 | 741 | 612 | 792 | 459 | 627 | 822
+LuthID	character	557	LuthID	[557 uniq] BLW0002044 | BLW0002627 | BLW0201519 | BLW0009239 | BLW0003134 | BLW0004091 | BLW0200491 | BLW0200781
+norm1	character	0	norm1	
+norm2	character	0	norm2	
+norm3	character	0	norm3	
+norm4	character	0	norm4	
+norm5	character	0	norm5	
+norm6	character	0	norm6	
+norm7	character	0	norm7	
+norm8	character	0	norm8	
+filler1	character	0	filler1	
+filler2	character	0	filler2	
+filler3	character	0	filler3	
+filler4	character	0	filler4	
+Language	character	0	Language	
+term2_included	character	557	term2_included	[285 uniq] norm6|norm2|norm3|norm5 | norm4|norm3|norm1|norm5 | norm6|norm4|norm5|norm2 | norm4|norm6|norm1|norm3 | norm1|norm3|norm5|norm2 | norm6|norm1|norm3|norm4 | norm4|norm3|norm6|norm1 | norm6|norm5|norm1|norm3
+prosecute_included	character	557	prosecute_included	[140 uniq] prosecute2|prosecute1|prosecute8|prosecute6 | prosecute2|prosecute4|prosecute5|prosecute7 | prosecute2|prosecute4|prosecute6|prosecute8 | prosecute2|prosecute4|prosecute7|prosecute8 | prosecute1|prosecute2|prosecute8|prosecute5 | prosecute2|prosecute4|prosecute7|prosecute6 | prosecute4...
+seen_scotus_recusal_q	character	557	seen_scotus_recusal_q	1 | 0

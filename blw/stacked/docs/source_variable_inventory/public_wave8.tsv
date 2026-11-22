@@ -1,0 +1,100 @@
+var	class	n	label	values
+caseid	character	2000	Respondent ID number	[2000 uniq] 444851359 | 444763264 | 444856785 | 444854463 | 444850832 | 444769139 | 444809092 | 444854485
+weight	numeric	2000	YouGov survey weight	[685 uniq] 0.649658807006198 | 0.800053115064207 | 1.01544458537784 | 1.18182290129122 | 1.12192261144228 | 0.514950022130621 | 0.872979819970113 | 0.993225594146477
+consent	factor	2000	Consent to take survey	Yes | No | skipped | not asked
+birthyr	numeric	2000	Birth Year	[73 uniq] 1977 | 1970 | 1964 | 1980 | 1990 | 1979 | 1942 | 1997
+age	numeric	2000	Age (numerical)	[73 uniq] 41 | 48 | 54 | 38 | 28 | 39 | 76 | 21
+age9	factor	2000	Age (categorical)	Under 18 | 18 - 24 | 25 - 34 | 35 - 44 | 45 - 54 | 55 - 64 | 65 - 74 | 75 - 84 | 85 or older | skipped | not asked
+imp_misconduct	factor	1053	Democracy - Government officials are legally sanctioned for misconduct	Not relevant | Beneficial | Important | Essential
+imp_private_gain	factor	1006	Democracy - Government officials do not use public office for private gain	Not relevant | Beneficial | Important | Essential
+imp_monitor_opponents	factor	1035	Democracy - Government agencies are not used to monitor, attack, or punish polit	Not relevant | Beneficial | Important | Essential
+imp_equal_rights	factor	1044	Democracy - All adult citizens enjoy the same legal and political rights	Not relevant | Beneficial | Important | Essential
+imp_journalists	factor	1022	Democracy - Government does not interfere with journalists or news organizations	Not relevant | Beneficial | Important | Essential
+imp_private_violence	factor	1048	Democracy - Government effectively prevents private actors from engaging in poli	Not relevant | Beneficial | Important | Essential
+imp_free_speech	factor	1019	Democracy - Government protects individuals’ right to engage in unpopular speech	Not relevant | Beneficial | Important | Essential
+imp_patriotism	factor	1013	Democracy - Political competition occurs without criticism of opponents’ loyalty	Not relevant | Beneficial | Important | Essential
+imp_foreign	factor	1058	Democracy - Elections are free from foreign influence	Not relevant | Beneficial | Important | Essential
+imp_ban_ideology	factor	1041	Democracy - Parties and candidates are not barred due to their political beliefs	Not relevant | Beneficial | Important | Essential
+imp_voting_rights	factor	1066	Democracy - All adult citizens have equal opportunity to vote	Not relevant | Beneficial | Important | Essential
+imp_votes_impact	factor	1032	Democracy - All votes have equal impact on election outcomes	Not relevant | Beneficial | Important | Essential
+imp_election_fraud	factor	1027	Democracy - Elections are conducted, ballots counted, and winners determined wit	Not relevant | Beneficial | Important | Essential
+imp_expand_executive	factor	1055	Democracy - Executive authority cannot be expanded beyond constitutional limits	Not relevant | Beneficial | Important | Essential
+imp_legislature_check	factor	1035	Democracy - The legislature is able to effectively limit executive power	Not relevant | Beneficial | Important | Essential
+imp_judiciary_check	factor	1036	Democracy - The judiciary is able to effectively limit executive power	Not relevant | Beneficial | Important | Essential
+imp_judicial_ind	factor	1035	Democracy - The elected branches respect judicial independence	Not relevant | Beneficial | Important | Essential
+imp_participation	factor	1055	Democracy - Voter participation in elections is generally high	Not relevant | Beneficial | Important | Essential
+imp_funds_transparent	factor	1043	Democracy - Information about the sources of campaign funding is available to th	Not relevant | Beneficial | Important | Essential
+imp_contributions	factor	1013	Democracy - Public policy is not determined by large campaign contributions	Not relevant | Beneficial | Important | Essential
+imp_opinions	factor	1007	Democracy - Citizens can make their opinions heard in open debate about policies	Not relevant | Beneficial | Important | Essential
+imp_districts	factor	1034	Democracy - The geographic boundaries of electoral districts do not systematical	Not relevant | Beneficial | Important | Essential
+imp_common_und	factor	1038	Democracy - Even when there are disagreements about ideology or policy, politica	Not relevant | Beneficial | Important | Essential
+imp_compromise	factor	998	Democracy - Elected officials seek compromise with political opponents	Not relevant | Beneficial | Important | Essential
+imp_candidates_disclose	factor	1040	Democracy - Citizens have access to information about candidates that is relevan	Not relevant | Beneficial | Important | Essential
+imp_protest	factor	1041	Democracy - Government protects individuals’ right to engage in peaceful protest	Not relevant | Beneficial | Important | Essential
+imp_investigations	factor	1047	Democracy - Law enforcement investigations of public officials or their associat	Not relevant | Beneficial | Important | Essential
+perf_misconduct	factor	1052	Statements - Government officials are legally sanctioned for misconduct	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_private_gain	factor	1008	Statements - Government officials do not use public office for private gain	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_monitor_opponents	factor	1033	Statements - Government agencies are not used to monitor, attack, or punish poli	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_equal_rights	factor	1043	Statements - All adult citizens enjoy the same legal and political rights	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_journalists	factor	1022	Statements - Government does not interfere with journalists or news organization	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_private_violence	factor	1050	Statements - Government effectively prevents private actors from engaging in pol	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_free_speech	factor	1019	Statements - Government protects individuals' right to engage in unpopular speec	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_patriotism	factor	1016	Statements - Political competition occurs without criticism of opponents' loyalt	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_foreign	factor	1058	Statements - Elections are free from foreign influence	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_ban_ideology	factor	1043	Statements - Parties and candidates are not barred due to their political belief	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_voting_rights	factor	1070	Statements - All adult citizens have equal opportunity to vote	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_votes_impact	factor	1029	Statements - All votes have equal impact on election outcomes	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_election_fraud	factor	1026	Statements - Elections are conducted, ballots counted, and winners determined wi	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_expand_executive	factor	1056	Statements - Executive authority cannot be expanded beyond constitutional limits	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_legislature_check	factor	1037	Statements - The legislature is able to effectively limit executive power	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_judiciary_check	factor	1037	Statements - The judiciary is able to effectively limit executive power	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_judicial_ind	factor	1036	Statements - The elected branches respect judicial independence	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_participation	factor	1055	Statements - Voter participation in elections is generally high	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_funds_transparent	factor	1045	Statements - Information about the sources of campaign funding is available to t	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_contributions	factor	1015	Statements - Public policy is not determined by large campaign contributions	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_opinions	factor	1009	Statements - Citizens can make their opinions heard in open debate about policie	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_districts	factor	1036	Statements - The geographic boundaries of electoral districts do not systematica	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_common_und	factor	1038	Statements - Even when there are disagreements about ideology or policy, politic	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_compromise	factor	998	Statements - Elected officials seek compromise with political opponents	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_candidates_disclose	factor	1043	Statements - Citizens have access to information about candidates that is releva	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_protest	factor	1041	Statements - Government protects individuals' right to engage in peaceful protes	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+perf_investigations	factor	1050	Statements - Law enforcement investigations of public officials or their associa	Does not meet | Partly meets | Mostly meets | Fully meets | 5
+rating_USA	factor	1987	Rating of U.S. democracy (March 2019)	0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47 | 48 | 49 | 50 | 51 | 52 | 53 | 54 | 55 | 56 | 57 | 58 | 59 | 60 | 61...
+democracy_importance	factor	2000	Importance of democracy -- democracy_importance	1 - Not at all important | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 - Absolutely important | don't know | skipped | not asked
+inputstate	factor	2000	State of Residence	Alabama | Alaska | Arizona | Arkansas | California | Colorado | Connecticut | Delaware | District of Columbia | Florida | Georgia | Hawaii | Idaho | Illinois | Indiana | Iowa | Kansas | Kentucky | Louisiana | Maine | Maryland | Massachusetts | Michigan | Minnesota | Mississippi | Missouri | Monta...
+gender	factor	2000	Gender	Male | Female | skipped | not asked
+ideo7	factor	1998	Politcal ideology	Very conservative | Somewhat conservative | Slightly conservative | Moderate; middle of the road | Slightly liberal | Somewhat liberal | Very liberal | skipped | not asked
+pid3	factor	2000	3 point party ID	Democrat | Republican | Independent | Other | Not sure | skipped | not asked
+pid3_t	character	2000	3 point party ID - other	[59 uniq] __NA__ | trumper | anti-democrat | Conservative | Socialist | Leftist | Democratic Socialist | Radical feminist socialist
+pid7	factor	2000	7 point Party ID	Strong Democrat | Not very strong Democrat | Lean Democrat | Independent | Lean Republican | Not very strong Republican | Strong Republican | Not sure | Don't know | skipped | not asked
+educ7	factor	2000	Highest level of education completed	Did not graduate from high school | High school diploma or the equivalent (GED) | Some college | Associate's degree | Bachelor's degree | Master's degree | Professional or doctorate degree | skipped | not asked
+ethnicity	factor	2000	Race/Ethnicity	White | Black or African American | American Indian or Alaska Native | Asian/Pacific Islander | Multi-racial | Hispanic/Latino/Chicano/a | Other | skipped | not asked
+polinterest	factor	2000	Level of interest in politics	Extremely interested | Very interested | Somewhat interested | Not very interested | Not at all interested | skipped | not asked
+approve_trmp	factor	1999	Approval of President Trump	Strongly approve | Somewhat approve | Somewhat disapprove | Strongly disapprove | skipped | not asked
+agreement	factor	1999	Agreement to not search the internet for the correct answer	Yes | No | skipped | not asked
+senator_term	factor	1971	Length of US Senator term	Two years | Four years | Six years | Eight years | None of these | Don't know | skipped | not asked
+prestimes	factor	1984	Number of times an individual can serve as President	Once | Twice | Four times | Unlimited number of terms | Don't know | skipped | not asked
+num_senators	factor	1988	Number of US Senators from each state	One | Two | Four | Depends on which state | Don't know | skipped | not asked
+prime_minister	factor	1985	Current Prime Minister of the UK	Richard Branson | Nick Clegg | David Cameron | Theresa May | Margaret Thatcher | Don't know | skipped | not asked
+houserep_term	factor	1967	Length of US member of the House term	Two years | Four years | Six years | Eight years | For life | Don't know | skipped | not asked
+answer_lookup	factor	2000	Respondent looked up information online to answer questions	Yes, I looked up information | No, I did not look up information | skipped | not asked
+take_serious	factor	2000	Frequency of answering surveys insincerely	Never | Rarely | Some of the time | Most of the time | Always | skipped | not asked
+comments	character	886	Comments	[589 uniq] none | | n/a | no | None | i am a true fan of MAGA i also am a elected republican committee man in south nj i follow politics daily and will attend local republican meeting on wednesday 3/13/19 | I wish the survey gave a little more explaining space | None - I found it very interesting!
+marstat	factor	2000	Marital Status	Married | Separated | Divorced | Widowed | Never married | Domestic / civil partnership | skipped | not asked
+child18	factor	2000	Children under age 18 in household	Yes | No | skipped | not asked
+employ	factor	2000	Employment Status	Full-time | Part-time | Temporarily laid off | Unemployed | Retired | Permanently disabled | Homemaker | Student | Other | skipped | not asked
+faminc_new	factor	2000	Family income	Less than $10,000 | $10,000 - $19,999 | $20,000 - $29,999 | $30,000 - $39,999 | $40,000 - $49,999 | $50,000 - $59,999 | $60,000 - $69,999 | $70,000 - $79,999 | $80,000 - $99,999 | $100,000 - $119,999 | $120,000 - $149,999 | $150,000 - $199,999 | $200,000 - $249,999 | $250,000 - $349,999 | $350,00...
+votereg	factor	2000	Voter Registration Status	Yes | No | Don't know | skipped | not asked
+presvote16post	factor	1674	presvote16post	Hillary Clinton | Donald Trump | Gary Johnson | Jill Stein | Evan McMullin | Other | Did not vote for President
+newsint	factor	2000	Political Interest	Most of the time | Some of the time | Only now and then | Hardly at all | Don't know | skipped | not asked
+pew_bornagain	factor	2000	Born Again (Pew version)	Yes | No | skipped | not asked
+pew_religimp	factor	2000	Importance of religion (Pew version)	Very important | Somewhat important | Not too important | Not at all important | skipped | not asked
+pew_churatd	factor	2000	Church attendance (Pew version)	More than once a week | Once a week | Once or twice a month | A few times a year | Seldom | Never | Don't know | skipped | not asked
+pew_prayer	factor	1999	Frequency of Prayer (Pew version)	Several times a day | Once a day | A few times a week | Once a week | A few times a month | Seldom | Never | Don't know | skipped | not asked
+religpew	factor	2000	Religion	Protestant | Roman Catholic | Mormon | Eastern or Greek Orthodox | Jewish | Muslim | Buddhist | Hindu | Atheist | Agnostic | Nothing in particular | Something else | skipped | not asked
+religpew_t	character	1999	religpew_t	[17 uniq] __NA__ | CHRISTIAN | Christian Scientist | Science of the Mind | Baptist | | Quaker | Native American
+religpew_protestant	factor	846	Protestant Church	Baptist | Methodist | Nondenominational or Independent Church | Lutheran | Presbyterian | Pentecostal | Episcopalian | Church of Christ or Disciples of Christ | Congregational or United Church of Christ | Holiness | Reformed | Adventist | Jehovah's Witness | Something else | skipped | not asked
+starttime	POSIXct	2000	Questionnaire Start Time	[1969 uniq] 1552412542 | 1552412447 | 1552412709 | 1552412511 | 1552412784 | 1552412637 | 1552412442 | 1552412549
+endtime	POSIXct	2000	Questionnaire End Time	[1986 uniq] 1552412765 | 1552412843 | 1552412941 | 1552412989 | 1552413008 | 1552413010 | 1552413026 | 1552413054
+wave	numeric	2000		8
+know	numeric	2000		3 | 5 | 0 | 1 | 4 | 2

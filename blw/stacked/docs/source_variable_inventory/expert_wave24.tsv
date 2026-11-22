@@ -1,0 +1,234 @@
+var	class	n	label	values
+StartDate	POSIXct	459		[367 uniq] 1738324980 | 1738328820 | 1738338660 | 1738346760 | 1738361460 | 1738361580 | 1738361880 | 1738361520
+EndDate	character	459		[377 uniq] 1/31/2025 7:13 | 1/31/2025 8:19 | 1/31/2025 10:59 | 1/31/2025 13:15 | 1/31/2025 17:18 | 1/31/2025 17:22 | 1/31/2025 17:30 | 1/31/2025 17:31
+Status	character	459		IP Address
+Progress	numeric	459		[12 uniq] 100 | 52 | 55 | 67 | 57 | 81 | 95 | 59
+Duration__in_seconds_	numeric	459		[359 uniq] 617 | 704 | 435 | 583 | 464 | 466 | 542 | 751
+Finished	logical	459		TRUE | FALSE
+RecordedDate	character	459		[377 uniq] 1/31/2025 7:13 | 1/31/2025 8:19 | 1/31/2025 10:59 | 1/31/2025 13:15 | 1/31/2025 17:18 | 1/31/2025 17:22 | 1/31/2025 17:30 | 1/31/2025 17:31
+ResponseId	character	459		[459 uniq] R_7QGGL8Hd7QYgCPg | R_3ig3jWrv3lU7nf3 | R_1cjiyrcONunvAGJ | R_1WtVWxwMw8VWAaR | R_6JyZPsF49w97Bj2 | R_6olhaubWeGyv6gN | R_7OcVbEhXhlbGR40 | R_31YFOqpVecgN5XM
+DistributionChannel	character	459		anonymous
+UserLanguage	character	459		EN
+Q1_1	character	459		I agree to continue
+Q479_First_Click	numeric	459		[452 uniq] 8.106 | 8.478 | 8.129 | 14.582 | 4.507 | 14.338 | 6.504 | 9.814
+Q479_Last_Click	numeric	459		[454 uniq] 49.157 | 70.586 | 64.167 | 57.239 | 51.586 | 62.723 | 43.374 | 69.206
+Q479_Page_Submit	numeric	459		[454 uniq] 50.422 | 72.224 | 65.03 | 58.282 | 52.405 | 64.07 | 44.626 | 70.865
+Q479_Click_Count	numeric	459		[27 uniq] 14 | 17 | 15 | 13 | 9 | 28 | 19 | 10
+PERF_1	character	130		The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+PERF_2	character	146		The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard
+PERF_3	character	126		The U.S. mostly meets this standard | The U.S. does not meet this standard | The U.S. partly meets this standard | Not sure | The U.S. fully meets this standard
+PERF_4	character	139		The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. does not meet this standard | The U.S. fully meets this standard
+PERF_5	character	134		The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. fully meets this standard | Not sure
+PERF_6	character	143		The U.S. mostly meets this standard | The U.S. does not meet this standard | The U.S. partly meets this standard | Not sure | The U.S. fully meets this standard
+PERF_7	character	111		The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | The U.S. does not meet this standard | Not sure
+PERF_8	character	133		The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard
+PERF_9	character	136		The U.S. fully meets this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. does not meet this standard
+PERF_10	character	128		The U.S. fully meets this standard | The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. does not meet this standard
+PERF_11	character	143		The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. fully meets this standard
+PERF_12	character	144		The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. fully meets this standard
+PERF_13	character	129		The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. fully meets this standard | The U.S. does not meet this standard
+PERF_14	character	118		The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+PERF_15	character	135		The U.S. does not meet this standard | The U.S. mostly meets this standard | The U.S. partly meets this standard | Not sure | The U.S. fully meets this standard
+PERF_16	character	126		The U.S. partly meets this standard | The U.S. fully meets this standard | The U.S. mostly meets this standard | The U.S. does not meet this standard | Not sure
+PERF_17	character	132		The U.S. mostly meets this standard | The U.S. fully meets this standard | The U.S. partly meets this standard | The U.S. does not meet this standard | Not sure
+PERF_18	character	120		The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. does not meet this standard | The U.S. fully meets this standard
+PERF_19	character	134		The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. fully meets this standard | Not sure
+PERF_20	character	128		The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. does not meet this standard | Not sure | The U.S. fully meets this standard
+PERF_21	character	135		The U.S. fully meets this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. does not meet this standard | Not sure
+PERF_22	character	127		The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard
+PERF_23	character	135		The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard
+PERF_24	character	124		The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. mostly meets this standard
+PERF_25	character	130		The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. fully meets this standard
+PERF_26	character	143		The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. does not meet this standard | The U.S. fully meets this standard | Not sure
+PERF_27	character	131		The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. mostly meets this standard | Not sure | The U.S. fully meets this standard
+PERF_28	character	130		The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. fully meets this standard | Not sure
+PERF_29	character	158		The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard
+PERF_30	character	128		The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. fully meets this standard
+PERF_31	character	127		The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard
+ratingusa_timer_First_Click	numeric	459		[454 uniq] 5.667 | 7.531 | 11.077 | 4.343 | 6.412 | 8.38 | 10.967 | 13.36
+ratingusa_timer_Last_Click	numeric	459		[453 uniq] 9.272 | 7.531 | 11.077 | 4.343 | 7.495 | 8.38 | 10.967 | 17.376
+ratingusa_timer_Page_Submit	numeric	459		[449 uniq] 10.899 | 8.967 | 12.035 | 5.96 | 8.228 | 9.369 | 12.151 | 18.644
+ratingusa_timer_Click_Count	numeric	459		[12 uniq] 4 | 1 | 2 | 3 | 6 | 14 | 11 | 5
+rusa_now_1	numeric	455		[70 uniq] 53 | 43 | 51 | 85 | 59 | 35 | 71 | 90
+rusa_2027_1	numeric	453		[81 uniq] 53 | 51 | 29 | 85 | 38 | 25 | 90 | 80
+threat_bin_hunter	character	161		Will not affect American democracy | Threat to American democracy | Benefit to American democracy
+threat_bin_family	character	154		Will not affect American democracy | Threat to American democracy | Benefit to American democracy
+threat_bin_fauci	character	160		Will not affect American democracy | Benefit to American democracy | Threat to American democracy
+threat_bin_era	character	147		Will not affect American democracy | Threat to American democracy | Benefit to American democracy
+threat_bin_jan6	character	146		Threat to American democracy | Benefit to American democracy | Will not affect American democracy
+threat_bin_citizen	character	171		Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+threat_bin_aea	character	158		Will not affect American democracy | Threat to American democracy | Benefit to American democracy
+threat_bin_emergency	character	152		Will not affect American democracy | Threat to American democracy | Benefit to American democracy
+threat_bin_factcheck	character	141		Will not affect American democracy | Benefit to American democracy | Threat to American democracy
+threat_bin_content	character	156		Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+threat_bin_tiktok	character	155		Will not affect American democracy | Threat to American democracy | Benefit to American democracy
+threat_bin_donate	character	156		Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+threat_bin_crypto	character	167		Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+threat_bin_doge	character	183		Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+threat_bin_ai	character	133		Will not affect American democracy | Threat to American democracy | Benefit to American democracy
+threat_bin_hegseth	character	160		Threat to American democracy | Benefit to American democracy | Will not affect American democracy
+threat_bin_fire_ig	character	153		Will not affect American democracy | Threat to American democracy | Benefit to American democracy
+threat_bin_fire_doj	character	166		Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+threat_bin_fed_grant	character	144		Will not affect American democracy | Threat to American democracy | Benefit to American democracy
+threat_bin_fire_eeoc	character	149		Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+threat_bin_security	character	144		Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+threat_bin_menendez	character	165		Will not affect American democracy | Benefit to American democracy | Threat to American democracy
+threat_bin_migrants	character	155		Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+threat_bin_usaid	character	38		Threat to American democracy | Will not affect American democracy
+threat_bin_paysystem	character	32		Threat to American democracy | Benefit to American democracy | Will not affect American democracy
+benefits_1	character	2		Moderate benefit to American democracy | Extraordinary benefit to American democracy
+benefits_2	character	6		Little benefit to American democracy | Serious benefit to American democracy | Moderate benefit to American democracy | Extraordinary benefit to American democracy
+benefits_3	character	43		Moderate benefit to American democracy | Serious benefit to American democracy | Extraordinary benefit to American democracy | Little benefit to American democracy
+benefits_4	character	29		Little benefit to American democracy | Extraordinary benefit to American democracy | Serious benefit to American democracy | Moderate benefit to American democracy
+benefits_5	character	4		Serious benefit to American democracy | Extraordinary benefit to American democracy
+benefits_6	character	9		Serious benefit to American democracy | Extraordinary benefit to American democracy | Moderate benefit to American democracy
+benefits_7	character	14		Extraordinary benefit to American democracy | Moderate benefit to American democracy | Little benefit to American democracy | Serious benefit to American democracy
+benefits_8	character	5		Extraordinary benefit to American democracy | Moderate benefit to American democracy | Serious benefit to American democracy
+benefits_9	character	10		Moderate benefit to American democracy | Little benefit to American democracy | Serious benefit to American democracy | Extraordinary benefit to American democracy
+benefits_10	character	11		Moderate benefit to American democracy | Serious benefit to American democracy | Little benefit to American democracy | Extraordinary benefit to American democracy
+benefits_11	character	2		Moderate benefit to American democracy
+benefits_12	character	2		Serious benefit to American democracy | Extraordinary benefit to American democracy
+benefits_13	character	2		Serious benefit to American democracy | Extraordinary benefit to American democracy
+benefits_14	character	7		Moderate benefit to American democracy | Serious benefit to American democracy | Little benefit to American democracy
+benefits_15	character	1		Serious benefit to American democracy
+benefits_16	character	4		Moderate benefit to American democracy | Serious benefit to American democracy
+benefits_17	character	3		Moderate benefit to American democracy | Serious benefit to American democracy | Extraordinary benefit to American democracy
+benefits_18	character	5		Serious benefit to American democracy | Moderate benefit to American democracy | Extraordinary benefit to American democracy
+benefits_19	character	6		Extraordinary benefit to American democracy | Serious benefit to American democracy
+benefits_20	character	3		Serious benefit to American democracy | Extraordinary benefit to American democracy
+benefits_21	character	3		Extraordinary benefit to American democracy
+benefits_22	character	134		Moderate benefit to American democracy | Serious benefit to American democracy | Little benefit to American democracy | Extraordinary benefit to American democracy
+benefits_23	character	6		Moderate benefit to American democracy | Extraordinary benefit to American democracy | Serious benefit to American democracy
+benefits_24	logical	0		
+benefits_25	character	3		Moderate benefit to American democracy | Little benefit to American democracy | Extraordinary benefit to American democracy
+threats_1	character	76		Moderate threat to American democracy | Little threat to American democracy | Serious threat to American democracy | Extraordinary threat to American democracy
+threats_2	character	65		Little threat to American democracy | Moderate threat to American democracy | Serious threat to American democracy | Extraordinary threat to American democracy
+threats_3	character	36		Little threat to American democracy | Serious threat to American democracy | Moderate threat to American democracy | Extraordinary threat to American democracy
+threats_4	character	20		Moderate threat to American democracy | Serious threat to American democracy | Little threat to American democracy | Extraordinary threat to American democracy
+threats_5	character	138		Serious threat to American democracy | Moderate threat to American democracy | Extraordinary threat to American democracy | Little threat to American democracy
+threats_6	character	140		Extraordinary threat to American democracy | Moderate threat to American democracy | Serious threat to American democracy | Little threat to American democracy
+threats_7	character	57		Extraordinary threat to American democracy | Moderate threat to American democracy | Little threat to American democracy | Serious threat to American democracy
+threats_8	character	82		Extraordinary threat to American democracy | Little threat to American democracy | Moderate threat to American democracy | Serious threat to American democracy
+threats_9	character	89		Little threat to American democracy | Moderate threat to American democracy | Serious threat to American democracy | Extraordinary threat to American democracy
+threats_10	character	93		Moderate threat to American democracy | Little threat to American democracy | Serious threat to American democracy | Extraordinary threat to American democracy
+threats_11	character	64		Moderate threat to American democracy | Little threat to American democracy | Serious threat to American democracy | Extraordinary threat to American democracy
+threats_12	character	133		Serious threat to American democracy | Moderate threat to American democracy | Extraordinary threat to American democracy | Little threat to American democracy
+threats_13	character	120		Extraordinary threat to American democracy | Moderate threat to American democracy | Serious threat to American democracy | Little threat to American democracy
+threats_14	character	159		Extraordinary threat to American democracy | Moderate threat to American democracy | Serious threat to American democracy
+threats_15	character	58		Little threat to American democracy | Moderate threat to American democracy | Serious threat to American democracy | Extraordinary threat to American democracy
+threats_16	character	119		Extraordinary threat to American democracy | Moderate threat to American democracy | Serious threat to American democracy | Little threat to American democracy
+threats_17	character	140		Extraordinary threat to American democracy | Moderate threat to American democracy | Serious threat to American democracy | Little threat to American democracy
+threats_18	character	153		Extraordinary threat to American democracy | Moderate threat to American democracy | Serious threat to American democracy
+threats_19	character	118		Extraordinary threat to American democracy | Serious threat to American democracy | Moderate threat to American democracy
+threats_20	character	122		Moderate threat to American democracy | Extraordinary threat to American democracy | Little threat to American democracy | Serious threat to American democracy
+threats_21	character	115		Serious threat to American democracy | Moderate threat to American democracy | Extraordinary threat to American democracy | Little threat to American democracy
+threats_22	character	1		Serious threat to American democracy
+threats_23	character	95		Moderate threat to American democracy | Serious threat to American democracy | Extraordinary threat to American democracy | Little threat to American democracy
+threats_24	character	33		Serious threat to American democracy | Moderate threat to American democracy | Extraordinary threat to American democracy
+threats_25	character	27		Little threat to American democracy | Extraordinary threat to American democracy | Serious threat to American democracy | Moderate threat to American democracy
+p_future_scenarios_114	numeric	285		[68 uniq] 65 | 75 | 60 | 33 | 100 | 28 | 20 | 50
+p_future_scenarios_146	numeric	284		[55 uniq] 24 | 15 | 90 | 50 | 25 | 20 | 55 | 2
+p_future_scenarios_161	numeric	290		[64 uniq] 50 | 91 | 70 | 75 | 25 | 35 | 5 | 85
+p_future_scenarios_77	numeric	295		[65 uniq] 50 | 27 | 35 | 30 | 65 | 60 | 51 | 70
+p_future_scenarios_78	numeric	304		[52 uniq] 60 | 95 | 70 | 75 | 74 | 89 | 80 | 69
+p_future_scenarios_79	numeric	303		[62 uniq] 60 | 50 | 51 | 100 | 90 | 20 | 70 | 95
+p_future_scenarios_80	numeric	302		[68 uniq] 54 | 79 | 15 | 20 | 2 | 50 | 56 | 25
+p_future_scenarios_81	numeric	286		[67 uniq] 50 | 20 | 75 | 1 | 0 | 45 | 14 | 51
+p_future_scenarios_82	numeric	300		[61 uniq] 73 | 20 | 30 | 75 | 10 | 50 | 60 | 67
+p_future_scenarios_84	numeric	301		[62 uniq] 64 | 98 | 76 | 90 | 45 | 50 | 20 | 30
+p_future_scenarios_85	numeric	279		[56 uniq] 52 | 50 | 51 | 25 | 70 | 1 | 20 | 40
+p_future_scenarios_91	numeric	295		[50 uniq] 60 | 99 | 50 | 100 | 90 | 70 | 49 | 81
+p_future_scenarios_149	numeric	298		[43 uniq] 60 | 36 | 20 | 15 | 10 | 13 | 5 | 1
+p_future_scenarios_150	numeric	299		[53 uniq] 20 | 14 | 10 | 1 | 0 | 25 | 9 | 40
+p_future_scenarios_162	numeric	288		[58 uniq] 76 | 96 | 95 | 67 | 53 | 90 | 70 | 80
+np_future_scenarios_151	numeric	161		[41 uniq] 52 | 50 | 10 | 1 | 20 | 7 | 30 | 11
+np_future_scenarios_152	numeric	164		[49 uniq] 85 | 80 | 40 | 20 | 65 | 60 | 48 | 50
+np_future_scenarios_153	numeric	187		[50 uniq] 77 | 80 | 30 | 10 | 50 | 74 | 69 | 25
+np_future_scenarios_154	numeric	152		[47 uniq] 66 | 60 | 50 | 30 | 20 | 65 | 51 | 47
+np_future_scenarios_155	numeric	182		[56 uniq] 33 | 3 | 80 | 83 | 73 | 50 | 90 | 67
+np_future_scenarios_156	numeric	178		[44 uniq] 49 | 40 | 50 | 30 | 0 | 60 | 10 | 31
+np_future_scenarios_157	numeric	189		[44 uniq] 93 | 99 | 80 | 86 | 50 | 88 | 90 | 75
+np_future_scenarios_158	numeric	156		[42 uniq] 43 | 34 | 40 | 39 | 10 | 30 | 50 | 15
+np_future_scenarios_159	numeric	166		[52 uniq] 30 | 25 | 65 | 0 | 68 | 50 | 79 | 63
+np_future_scenarios_160	numeric	159		[40 uniq] 31 | 60 | 30 | 40 | 51 | 9 | 25 | 50
+f_threat_bin_impound	character	294		Benefit to American democracy | Threat to American democracy | Will not affect American democracy
+f_threat_bin_patel	character	296		Threat to American democracy | Benefit to American democracy | Will not affect American democracy
+f_threat_bin_voting	character	291		Threat to American democracy | Benefit to American democracy | Will not affect American democracy
+f_threat_bin_foia	character	288		Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+f_threat_bin_adjourn	character	294		Threat to American democracy | Will not affect American democracy
+f_threat_bin_ins_act	character	291		Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+f_threat_bin_dem_inv	character	289		Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+f_threat_bin_parlia	character	285		Will not affect American democracy | Threat to American democracy | Benefit to American democracy
+f_threat_bin_media	character	295		Will not affect American democracy | Threat to American democracy | Benefit to American democracy
+f_threat_bin_era	character	291		Benefit to American democracy | Will not affect American democracy | Threat to American democracy
+f_threat_bin_gland	character	295		Will not affect American democracy | Threat to American democracy | Benefit to American democracy
+f_threat_bin_harvard	character	291		Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+f_benefits_1	character	241		Moderate benefit to American democracy | Serious benefit to American democracy | Extraordinary benefit to American democracy | Little benefit to American democracy
+f_benefits_2	character	10		Moderate benefit to American democracy | Serious benefit to American democracy | Extraordinary benefit to American democracy
+f_benefits_3	character	18		Serious benefit to American democracy | Moderate benefit to American democracy | Little benefit to American democracy | Extraordinary benefit to American democracy
+f_benefits_4	character	1		Moderate benefit to American democracy
+f_benefits_5	logical	0		
+f_benefits_6	character	3		Little benefit to American democracy | Extraordinary benefit to American democracy | Moderate benefit to American democracy
+f_benefits_7	character	4		Extraordinary benefit to American democracy | Little benefit to American democracy
+f_benefits_8	character	2		Moderate benefit to American democracy
+f_benefits_9	character	3		Extraordinary benefit to American democracy | Moderate benefit to American democracy
+f_benefits_10	character	138		Moderate benefit to American democracy | Serious benefit to American democracy | Extraordinary benefit to American democracy | Little benefit to American democracy
+f_benefits_11	character	6		Serious benefit to American democracy | Little benefit to American democracy | Extraordinary benefit to American democracy
+f_benefits_12	character	20		Moderate benefit to American democracy | Extraordinary benefit to American democracy | Little benefit to American democracy | Serious benefit to American democracy
+f_threats_1	character	28		Moderate threat to American democracy | Little threat to American democracy | Serious threat to American democracy | Extraordinary threat to American democracy
+f_threats_2	character	259		Extraordinary threat to American democracy | Moderate threat to American democracy | Serious threat to American democracy | Little threat to American democracy
+f_threats_3	character	238		Extraordinary threat to American democracy | Serious threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+f_threats_4	character	266		Moderate threat to American democracy | Serious threat to American democracy | Little threat to American democracy | Extraordinary threat to American democracy
+f_threats_5	character	263		Serious threat to American democracy | Extraordinary threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+f_threats_6	character	268		Serious threat to American democracy | Extraordinary threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+f_threats_7	character	259		Serious threat to American democracy | Extraordinary threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+f_threats_8	character	164		Serious threat to American democracy | Moderate threat to American democracy | Extraordinary threat to American democracy | Little threat to American democracy
+f_threats_9	character	244		Little threat to American democracy | Serious threat to American democracy | Moderate threat to American democracy | Extraordinary threat to American democracy
+f_threats_10	character	50		Little threat to American democracy | Extraordinary threat to American democracy | Serious threat to American democracy | Moderate threat to American democracy
+f_threats_11	character	70		Extraordinary threat to American democracy | Little threat to American democracy | Moderate threat to American democracy | Serious threat to American democracy
+f_threats_12	character	144		Serious threat to American democracy | Little threat to American democracy | Moderate threat to American democracy | Extraordinary threat to American democracy
+Q9_1_First_Click	numeric	441		[412 uniq] 3.358 | 4.7 | 4.301 | 2.643 | 4.624 | 2.8 | 4.034 | 5.429
+Q9_1_Last_Click	numeric	441		[416 uniq] 5.841 | 10.172 | 4.301 | 5.323 | 4.624 | 2.8 | 4.034 | 5.429
+Q9_1_Page_Submit	numeric	441		[424 uniq] 6.74 | 11.564 | 6.194 | 6.193 | 5.424 | 4.38 | 5.725 | 7.058
+Q9_1_Click_Count	numeric	441		2 | 4 | 1 | 3 | 9 | 5
+Q9_3	character	440		Emeritus faculty | Full-time faculty | Post-doctoral fellow | Other | Adjunct faculty | Graduate student
+Q10_1_First_Click	numeric	436		[416 uniq] 11.477 | 1.797 | 1.588 | 1.896 | 1.39 | 5.083 | 2.066 | 11.204
+Q10_1_Last_Click	numeric	436		[429 uniq] 13.094 | 5.928 | 3.596 | 5.101 | 3.29 | 13.378 | 11.5 | 29.365
+Q10_1_Page_Submit	numeric	436		[431 uniq] 32.819 | 19.37 | 9.1 | 8.339 | 24.95 | 26.094 | 17.355 | 34.837
+Q10_1_Click_Count	numeric	436		[10 uniq] 2 | 4 | 3 | 6 | 5 | 8 | 9 | 1
+Q10_2	character	434		Another field of political science | American politics | Political theory | Comparative politics | International relations | Something other than political science
+Q10_3	character	379		[289 uniq] Public law and political theory | State Environmental Policy | Global justice | Europe | Democratization; Ethnic conflict; civil war | Global Far Right | European politics | U. S. public administration
+Q11_1_First_Click	numeric	440		[131 uniq] 0 | 1.569 | 5.915 | 2.844 | 123.252 | 3.318 | 1.428 | 5.459
+Q11_1_Last_Click	numeric	440		[131 uniq] 0 | 1.569 | 5.915 | 4.871 | 123.252 | 3.318 | 1.428 | 15.595
+Q11_1_Page_Submit	numeric	440		[418 uniq] 3.252 | 2.607 | 38.563 | 2.183 | 19.601 | 5.559 | 2.331 | 2.898
+Q11_1_Click_Count	numeric	440		[13 uniq] 0 | 1 | 2 | 22 | 3 | 4 | 30 | 10
+Q11_2	character	94		[92 uniq] I think the last substantive question was screwed up - it showed me the impoundment question as though I had answered that it was both a benefit AND threat to American democracy and then didn't show me survey questions about the other threats | Getting up in arms about the ""ratification...
+LuthID	character	459		[459 uniq] BLW_8348_82_56EJ | BLW_5079_86_G4OB | BLW_4605_65_I6D3 | BLW_8598_59_2L0E | BLW_6534_52_K4GB | BLW_7630_32_R4UL | BLW_7029_44_JCX2 | BLW_4149_26_I7RC
+Language	logical	0		
+forecast1	numeric	459		0
+forecast2	logical	0		
+forecast3	logical	0		
+forecast4	logical	0		
+forecast5	logical	0		
+forecast6	logical	0		
+forecast7	logical	0		
+forecast8	logical	0		
+forecast9	logical	0		
+forecast10	logical	0		
+forecast11	logical	0		
+forecast12	logical	0		
+forecast13	logical	0		
+forecast14	logical	0		
+forecast15	logical	0		
+forecast16	logical	0		
+mForecast1	logical	0		
+mForecast2	logical	0		
+mForecast3	logical	0		
+mForecast4	logical	0		
+mForecast5	logical	0		
+mForecast6	logical	0		
+mForecast7	logical	0		
+mForecast8	logical	0		
+mForecast9	logical	0		
+mForecast10	logical	0		
+Q_TotalDuration	numeric	459		[359 uniq] 617 | 704 | 435 | 583 | 464 | 466 | 542 | 751

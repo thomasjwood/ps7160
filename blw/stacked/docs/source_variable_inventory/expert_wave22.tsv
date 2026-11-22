@@ -1,0 +1,358 @@
+var	class	n	label	values
+StartDate	character	515		[512 uniq] 2024-09-24 06:27:32 | 2024-09-24 06:50:15 | 2024-09-24 06:56:21 | 2024-09-24 07:57:26 | 2024-09-24 13:19:33 | 2024-09-25 07:09:06 | 2024-09-25 07:09:18 | 2024-09-25 07:10:10
+EndDate	character	515		[513 uniq] 2024-09-24 06:45:01 | 2024-09-24 07:02:19 | 2024-09-24 07:08:42 | 2024-09-24 09:28:02 | 2024-09-24 13:29:02 | 2024-09-25 07:15:13 | 2024-09-25 07:16:40 | 2024-09-25 07:20:46
+Status	character	515		IP Address
+Progress	character	515		[17 uniq] 100 | 81 | 11 | 6 | 73 | 3 | 94 | 10
+Finished	character	515		True | False
+RecordedDate	character	515		[513 uniq] 2024-09-24 06:45:02 | 2024-09-24 07:02:20 | 2024-09-24 07:08:43 | 2024-09-24 09:28:03 | 2024-09-24 13:29:03 | 2024-09-25 07:15:14 | 2024-09-25 07:16:41 | 2024-09-25 07:20:47
+ResponseId	character	515		[515 uniq] R_6iKeaUFQKYpfmXv | R_3R50DJMj4yBA02T | R_3erZlZu8lYlrTMs | R_7R3G94cEJFZfYVu | R_3GP0OPiaJlGhZ2b | R_3oXeyXU18w6FFET | R_7PpYVlMt2j15k8p | R_3AHJYrLbiBFiu15
+DistributionChannel	character	515		anonymous
+UserLanguage	character	515		EN
+Q1_1	character	515		I agree to continue | I do not agree to continue
+Q479_First_Click	character	514		[506 uniq] 12.633 | 20.238 | 10.323 | 26.38 | 11.582 | 5.459 | 2.919 | 10.083
+Q479_Last_Click	character	514		[511 uniq] 121.348 | 88.381 | 72.506 | 132.671 | 71.768 | 41.667 | 46.777 | 64.614
+Q479_Page_Submit	character	514		[512 uniq] 124.48 | 90.175 | 73.584 | 146.108 | 72.897 | 42.411 | 47.979 | 67.019
+Q479_Click_Count	character	514		[28 uniq] 16 | 23 | 13 | 9 | 12 | 10 | 20 | 17
+Q2_6_1	character	178		| The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | The U.S. does not meet this standard | Not sure
+Q2_6_2	character	147		The U.S. fully meets this standard | | The U.S. mostly meets this standard | The U.S. does not meet this standard | The U.S. partly meets this standard
+Q2_6_3	character	130		| The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. fully meets this standard | The U.S. does not meet this standard
+Q2_6_4	character	156		| The U.S. fully meets this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. does not meet this standard
+Q2_6_5	character	163		| The U.S. mostly meets this standard | The U.S. fully meets this standard | The U.S. partly meets this standard | The U.S. does not meet this standard
+Q2_6_6	character	156		| The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. fully meets this standard | The U.S. does not meet this standard
+Q2_6_7	character	163		| The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. fully meets this standard | The U.S. does not meet this standard
+Q2_6_8	character	154		The U.S. does not meet this standard | The U.S. partly meets this standard | | The U.S. fully meets this standard | The U.S. mostly meets this standard
+Q2_6_9	character	161		| The U.S. mostly meets this standard | The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_10	character	163		The U.S. fully meets this standard | | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. does not meet this standard | Not sure
+Q2_6_11	character	159		| The U.S. fully meets this standard | The U.S. mostly meets this standard | The U.S. does not meet this standard | The U.S. partly meets this standard
+Q2_6_12	character	137		| The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. fully meets this standard | The U.S. does not meet this standard
+Q2_6_13	character	156		| The U.S. fully meets this standard | The U.S. mostly meets this standard | The U.S. does not meet this standard | The U.S. partly meets this standard
+Q2_6_14	character	153		| The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | The U.S. does not meet this standard | Not sure
+Q2_6_15	character	157		| The U.S. fully meets this standard | The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. mostly meets this standard | Not sure
+Q2_6_16	character	147		Not sure | The U.S. mostly meets this standard | | The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. fully meets this standard
+Q2_6_17	character	168		| The U.S. mostly meets this standard | The U.S. partly meets this standard | Not sure | The U.S. fully meets this standard | The U.S. does not meet this standard
+Q2_6_18	character	163		| The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard
+Q2_6_19	character	164		The U.S. does not meet this standard | | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q2_6_20	character	154		| The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. does not meet this standard | Not sure | The U.S. fully meets this standard
+Q2_6_21	character	164		| The U.S. fully meets this standard | The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. does not meet this standard | Not sure
+Q2_6_22	character	159		The U.S. does not meet this standard | | The U.S. partly meets this standard | The U.S. fully meets this standard | The U.S. mostly meets this standard | Not sure
+Q2_6_23	character	148		| The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. mostly meets this standard | Not sure | The U.S. fully meets this standard
+Q2_6_24	character	144		| The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. does not meet this standard
+Q2_6_25	character	138		The U.S. fully meets this standard | | The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. mostly meets this standard
+Q2_6_26	character	151		| The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. fully meets this standard | The U.S. does not meet this standard
+Q2_6_27	character	127		The U.S. fully meets this standard | | The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. does not meet this standard
+Q2_6_28	character	154		| The U.S. fully meets this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. does not meet this standard
+Q2_6_29	character	144		| The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard
+Q2_6_30	character	156		The U.S. does not meet this standard | The U.S. mostly meets this standard | | The U.S. partly meets this standard | The U.S. fully meets this standard
+ratingusa_timer_First_Click	character	514		[509 uniq] 7.625 | 6.507 | 11.44 | 9.253 | 9.263 | 4.085 | 2.629 | 7.595
+ratingusa_timer_Last_Click	character	514		[509 uniq] 15.759 | 11.441 | 11.44 | 21.434 | 17.889 | 4.085 | 4.528 | 7.595
+ratingusa_timer_Page_Submit	character	514		[505 uniq] 18.754 | 13.317 | 12.36 | 23.083 | 18.902 | 4.72 | 5.422 | 10.432
+ratingusa_timer_Click_Count	character	514		[12 uniq] 3 | 1 | 2 | 4 | 5 | 8 | 7 | 6
+rusa_now_1	character	510		[67 uniq] 30 | 82 | 85 | 75 | 66 | 60 | 80 | 92
+rusa_trump_1	character	260		[68 uniq] | 40 | 35 | 31 | 27 | 25 | 99 | 75
+rusa_biden_1	character	250		[50 uniq] 29 | | 85 | 77 | 60 | 90 | 94 | 37
+threats_binary_1	character	352		Benefit to American democracy | | Will not affect American democracy | Threat to American democracy
+threats_binary_2	character	331		Will not affect American democracy | Benefit to American democracy | | Threat to American democracy
+threats_binary_3	character	341		| Threat to American democracy | Benefit to American democracy | Will not affect American democracy
+Q1001	character	336		Threat to American democracy | | Will not affect American democracy | Benefit to American democracy
+Q1002	character	346		| Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+Q1003	character	336		Will not affect American democracy | | Benefit to American democracy | Threat to American democracy
+Q1004	character	316		| Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+Q1005	character	336		Will not affect American democracy | Benefit to American democracy | | Threat to American democracy
+Q1020	character	355		Threat to American democracy | | Will not affect American democracy | Benefit to American democracy
+benefit_detail_1_1	character	187		Serious benefit to American democracy | | Moderate benefit to American democracy | Little benefit to American democracy | Extraordinary benefit to American democracy
+benefit_detail_1_2	character	103		| Serious benefit to American democracy | Moderate benefit to American democracy | Little benefit to American democracy | Extraordinary benefit to American democracy
+benefit_detail_1_3	character	15		| Extraordinary benefit to American democracy | Serious benefit to American democracy | Moderate benefit to American democracy | Little benefit to American democracy
+benefit_detail_1_4	character	18		| Serious benefit to American democracy | Moderate benefit to American democracy | Little benefit to American democracy | Extraordinary benefit to American democracy
+benefit_detail_1_5	character	7		| Extraordinary benefit to American democracy | Little benefit to American democracy | Serious benefit to American democracy | Moderate benefit to American democracy
+benefit_detail_1_6	character	81		| Moderate benefit to American democracy | Serious benefit to American democracy | Little benefit to American democracy | Extraordinary benefit to American democracy
+benefit_detail_1_7	character	35		| Moderate benefit to American democracy | Little benefit to American democracy | Serious benefit to American democracy
+benefit_detail_1_8	character	227		| Extraordinary benefit to American democracy | Serious benefit to American democracy | Moderate benefit to American democracy | Little benefit to American democracy
+benefit_detail_1_9	character	29		| Serious benefit to American democracy | Moderate benefit to American democracy | Extraordinary benefit to American democracy | Little benefit to American democracy
+threat_detail_1_1	character	9		| Serious threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+threat_detail_1_2	character	23		| Serious threat to American democracy | Extraordinary threat to American democracy | Little threat to American democracy | Moderate threat to American democracy
+threat_detail_1_3	character	295		| Moderate threat to American democracy | Serious threat to American democracy | Extraordinary threat to American democracy | Little threat to American democracy
+threat_detail_1_4	character	253		Serious threat to American democracy | Moderate threat to American democracy | Little threat to American democracy | | Extraordinary threat to American democracy
+threat_detail_1_5	character	164		| Serious threat to American democracy | Moderate threat to American democracy | Little threat to American democracy | Extraordinary threat to American democracy
+threat_detail_1_6	character	7		| Moderate threat to American democracy | Extraordinary threat to American democracy | Serious threat to American democracy | Little threat to American democracy
+threat_detail_1_7	character	121		| Moderate threat to American democracy | Little threat to American democracy | Serious threat to American democracy | Extraordinary threat to American democracy
+threat_detail_1_8	character	22		| Serious threat to American democracy | Moderate threat to American democracy | Extraordinary threat to American democracy | Little threat to American democracy
+threat_detail_1_9	character	226		Extraordinary threat to American democracy | | Little threat to American democracy | Serious threat to American democracy | Moderate threat to American democracy
+Campaign_Strategies_1	character	502		Not very effective | Somewhat effective | Not at all effective | Very effective |
+Campaign_Strategies_2	character	503		Not very effective | Somewhat effective | Very effective | Not at all effective |
+Campaign_Strategies_3	character	503		Not very effective | Somewhat effective | Very effective | Not at all effective |
+Campaign_Strategies_4	character	503		Not very effective | Somewhat effective | Very effective | Not at all effective |
+Campaign_Strategies_5	character	502		Not very effective | Very effective | Somewhat effective | | Not at all effective
+Campaign_Strategies_6	character	502		Not very effective | Very effective | Not at all effective | Somewhat effective |
+Campaign_Strategies_7	character	503		Not very effective | Somewhat effective | Very effective | Not at all effective |
+Q702_1	character	503		Somewhat effective | Not very effective | Very effective | Not at all effective |
+Q702_2	character	503		Not very effective | Very effective | Somewhat effective | Not at all effective |
+Q702_3	character	503		Not very effective | Somewhat effective | Very effective | Not at all effective |
+Q702_4	character	503		Not at all effective | Somewhat effective | Very effective | Not very effective |
+Q702_5	character	502		Somewhat effective | Very effective | Not very effective | Not at all effective |
+Q702_6	character	503		Not very effective | Somewhat effective | Very effective | Not at all effective |
+Q702_7	character	503		Not very effective | Somewhat effective | Very effective | Not at all effective |
+Q711_74	character	494		[51 uniq] 50 | 40 | 53 | | 55 | 61 | 51 | 60
+Q711_73	character	494		[60 uniq] 50 | 60 | 47 | | 45 | 41 | 49 | 33
+Q711_75	character	497		[56 uniq] 50 | 60 | 47 | 45 | 39 | 49 | 40 | 51
+Q711_76	character	497		[52 uniq] 50 | 40 | 53 | 55 | 51 | 67 | 47 | 45
+Q711_47	character	192		[52 uniq] 20 | | 40 | 5 | 35 | 25 | 86 | 50
+Q711_49	character	166		[42 uniq] | 50 | 80 | 70 | 90 | 40 | 76 | 60
+Q711_51	character	165		[43 uniq] 0 | 1 | | 5 | 40 | 25 | 37 | 50
+Q711_52	character	173		[48 uniq] | 80 | 60 | 70 | 90 | 78 | 64 | 100
+Q711_56	character	190		[57 uniq] 60 | | 80 | 55 | 20 | 65 | 3 | 95
+Q711_59	character	161		[49 uniq] | 80 | 50 | 30 | 10 | 20 | 12 | 60
+Q711_60	character	175		[42 uniq] | 5 | 15 | 9 | 0 | 51 | 40 | 10
+Q711_61	character	173		[37 uniq] 10 | | 9 | 50 | 30 | 1 | 19 | 29
+Q711_62	character	167		[38 uniq] | 1 | 5 | 30 | 15 | 10 | 14 | 55
+Q711_63	character	178		[56 uniq] 33 | 11 | 20 | | 79 | 65 | 5 | 25
+Q711_64	character	171		[49 uniq] | 100 | 50 | 20 | 10 | 75 | 30 | 60
+Q711_65	character	187		[59 uniq] | 50 | 40 | 81 | 61 | 60 | 25 | 15
+Q711_66	character	167		[49 uniq] | 100 | 70 | 67 | 75 | 41 | 85 | 20
+Q711_67	character	181		[54 uniq] | 35 | 75 | 79 | 94 | 65 | 25 | 60
+Q711_68	character	175		[55 uniq] | 75 | 80 | 40 | 60 | 35 | 70 | 25
+Q711_69	character	162		[50 uniq] 0 | | 11 | 20 | 5 | 77 | 36 | 30
+Q711_70	character	187		[52 uniq] | 15 | 66 | 10 | 45 | 35 | 40 | 60
+Trump_winner_47	character	491		[75 uniq] 0 | 50 | 5 | 15 | 70 | 30 | 40 | 20
+Harris_winner_47	character	492		[45 uniq] 90 | 92 | 100 | 80 | 60 | 85 | 95 | 98
+events_h1_a_First_Click	character	198		[195 uniq] 13.286 | | 6.254 | 5.908 | 3.12 | 12.448 | 4.298 | 5.079
+events_h1_a_Last_Click	character	198		[199 uniq] 27.258 | | 9.582 | 8.173 | 4.73 | 14.702 | 5.792 | 12.366
+events_h1_a_Page_Submit	character	198		[199 uniq] 30.446 | | 10.086 | 10.411 | 7.367 | 16.502 | 7.016 | 55.276
+events_h1_a_Click_Count	character	198		[14 uniq] 4 | | 2 | 3 | 6 | 22 | 5 | 10
+events_h1_c	character	198		Mostly abnormal | | Abnormal | Borderline normal | Mostly normal | Normal
+events_h1_d	character	198		Mostly unimportant | | Mostly important | Important | Semi-important | Unimportant
+events_h1_e	character	41		[42 uniq] | Mostly abnormal now, but not unprecedented. Calls back to previous state mobilization of private violence to promote white supremacy in the late 19th/early 20th century. | It debunks the myth that Trump perpetrated the January 6 violence. | threat to democracy | Demonstrates that Tru...
+events_h2_a_First_Click	character	178		[176 uniq] | 29.051 | 3.52 | 13.387 | 5.167 | 6.811 | 6.018 | 4.701
+events_h2_a_Last_Click	character	178		[178 uniq] | 36.07 | 5.189 | 23.968 | 10.39 | 12.473 | 10.918 | 7.227
+events_h2_a_Page_Submit	character	178		[177 uniq] | 37.876 | 7.151 | 63.378 | 11.352 | 13.914 | 13.112 | 8.369
+events_h2_a_Click_Count	character	178		[15 uniq] | 4 | 2 | 5 | 3 | 10 | 26 | 8
+events_h2_c	character	177		| Borderline normal | Abnormal | Mostly abnormal | Mostly normal | Normal
+events_h2_d	character	177		| Unimportant | Important | Mostly important | Mostly unimportant | Semi-important
+events_h2_e	character	28		[29 uniq] | Historically this should not matter, but all that has changed. It us part of executive power run amok. | The president is authorized by the US Constitution to appoint members of the US Supreme Court when there is a vacancy. | Other presidents were not allowed to do so. | This move do...
+events_h3_a_First_Click	character	177		[175 uniq] 8.908 | | 4.643 | 4.23 | 7.891 | 3.499 | 4.706 | 5.02
+events_h3_a_Last_Click	character	177		[178 uniq] 23.144 | | 8.471 | 6.657 | 11.565 | 8.142 | 8.557 | 6.819
+events_h3_a_Page_Submit	character	177		[176 uniq] 26.11 | | 18.263 | 8.038 | 14.836 | 9.164 | 17.971 | 8.133
+events_h3_a_Click_Count	character	177		[11 uniq] 4 | | 2 | 3 | 5 | 8 | 6 | 7
+events_h3_c	character	177		Abnormal | | Mostly abnormal | Mostly normal | Borderline normal | Normal
+events_h3_d	character	177		Mostly unimportant | | Semi-important | Important | Mostly important | Unimportant
+events_h3_e	character	39		[40 uniq] | Undermines democratic norms. | I do not recall this, but if it happened as described, I would understand it within the context of Trump's established authoritarian tendencies, which makes it difficult to discount this as a mere joke. | It was a joke, like Harris saying she wanted to ...
+events_h4_a_First_Click	character	177		[177 uniq] 9.859 | | 9.601 | 6.462 | 6.085 | 4.366 | 6.499 | 12.932
+events_h4_a_Last_Click	character	177		[177 uniq] 23.224 | | 15.096 | 38.227 | 13.122 | 7.473 | 8.013 | 15.308
+events_h4_a_Page_Submit	character	177		[177 uniq] 26.615 | | 16.257 | 39.297 | 39.721 | 8.914 | 9.557 | 17.166
+events_h4_a_Click_Count	character	177		[10 uniq] 4 | | 5 | 2 | 3 | 6 | 7 | 8
+events_h4_c	character	177		Abnormal | | Mostly abnormal | Borderline normal | Mostly normal
+events_h4_d	character	177		Mostly important | | Mostly unimportant | Semi-important | Important | Unimportant
+events_h4_e	character	33		[34 uniq] | Sadly, since at least the 1950s, this is not that rare | The coarsening of speech in US elections, including the use of antidemocratic and hostile, aggressive language towards one's opponents is again a sign of the erosion of democratic norms. | Part of a process of incremental norm ...
+events_h5_a_First_Click	character	201		[199 uniq] | 10.372 | 3.61 | 13.08 | 5.895 | 3.981 | 3.493 | 5.967
+events_h5_a_Last_Click	character	201		[201 uniq] | 15.381 | 5.247 | 17.008 | 6.779 | 7.226 | 36.847 | 8.825
+events_h5_a_Page_Submit	character	201		[201 uniq] | 16.408 | 6.572 | 19.573 | 8.132 | 13.738 | 37.357 | 10.344
+events_h5_a_Click_Count	character	201		[14 uniq] | 4 | 2 | 3 | 9 | 7 | 5 | 19
+events_h5_c	character	200		| Abnormal | Borderline normal | Mostly normal | Mostly abnormal | Normal
+events_h5_d	character	200		| Mostly unimportant | Important | Mostly important | Semi-important | Unimportant
+events_h5_e	character	46		[47 uniq] | Undermines freedom of the press. | They are fellow citizens, not adversaries | Protesters and journalists in 2020 were most likely to be Trump deranged individuals such as Black Lives Matter, Antifa and other anarchists, and various ecozealots. | I do not recall this, but if it happe...
+events_h6_a_First_Click	character	226		[224 uniq] 7.852 | | 2.273 | 8.122 | 7.519 | 2.768 | 6.5 | 3.425
+events_h6_a_Last_Click	character	226		[224 uniq] 21.551 | | 3.492 | 11.589 | 12.556 | 12.106 | 13.15 | 7.806
+events_h6_a_Page_Submit	character	226		[227 uniq] 24.401 | | 4.845 | 13.448 | 14.461 | 37.063 | 18.556 | 8.891
+events_h6_a_Click_Count	character	226		[11 uniq] 5 | | 2 | 3 | 6 | 4 | 9 | 12
+events_h6_c	character	225		Borderline normal | | Abnormal | Mostly abnormal | Normal
+events_h6_d	character	225		Unimportant | | Mostly important | Important | Semi-important | Mostly unimportant
+events_h6_e	character	53		[54 uniq] | This is a Russian disinformation campaign. For a candidate not to disavow it suggests support if not collusion with Russia. | Undermines democratic norms. | It was a fringe group elevated for publicity | Normal for Trump -- although not traditional norms. Incremental norm violation...
+events_h7_a_First_Click	character	205		[205 uniq] 5.347 | | 16.145 | 6 | 3.581 | 2.886 | 4.108 | 11.961
+events_h7_a_Last_Click	character	205		[205 uniq] 16.449 | | 20.878 | 7.857 | 4.559 | 4.377 | 6.752 | 14.646
+events_h7_a_Page_Submit	character	205		[206 uniq] 19.38 | | 21.701 | 8.927 | 5.519 | 5.47 | 8.335 | 16.252
+events_h7_a_Click_Count	character	205		[10 uniq] 4 | | 2 | 3 | 5 | 10 | 6 | 12
+events_h7_c	character	204		Abnormal | | Borderline normal | Mostly abnormal | Mostly normal | Normal
+events_h7_d	character	204		Important | | Semi-important | Mostly important | Unimportant | Mostly unimportant
+events_h7_e	character	36		[37 uniq] | Normally I am OK with the idea of making it easier to fire civil servants but the motivation matters. And Trump's motivation is that people exist to praise and obey him. Plus, it reeks of that autistic creep Curtis Yarvin. | Federal employees perform important roles. However, their ...
+events_h8_a_First_Click	character	191		[190 uniq] 9.813 | 8.745 | | 9.389 | 4.05 | 9.741 | 3.575 | 3.824
+events_h8_a_Last_Click	character	191		[190 uniq] 24.69 | 20.72 | | 12.643 | 6.168 | 21.448 | 46.097 | 5.157
+events_h8_a_Page_Submit	character	191		[192 uniq] 27.994 | 21.801 | | 15.949 | 7.79 | 22.431 | 47.137 | 6.477
+events_h8_a_Click_Count	character	191		[12 uniq] 4 | 9 | | 2 | 6 | 5 | 3 | 7
+events_h8_c	character	190		Normal | Abnormal | | Mostly normal | Mostly abnormal | Borderline normal
+events_h8_d	character	190		Unimportant | | Mostly unimportant | Semi-important | Mostly important | Important
+events_h8_e	character	40		[40 uniq] | but so funny | It is startling to see the gross incompetence of our elected leaders, and to see that the media and public opinion are unwilling to call out that incompetence. When incompetence is called out it seems to be done so in a partisan manner. | It was normal for Rudy Giulia...
+events_h9_a_First_Click	character	202		[202 uniq] 12.527 | | 9.403 | 2.973 | 5.718 | 6.048 | 7.005 | 5.021
+events_h9_a_Last_Click	character	202		[203 uniq] 32.958 | | 14.288 | 4.58 | 9.669 | 10.753 | 8.226 | 75.216
+events_h9_a_Page_Submit	character	202		[203 uniq] 36.084 | | 15.443 | 8.92 | 11.831 | 11.464 | 10.197 | 76.913
+events_h9_a_Click_Count	character	202		[10 uniq] 5 | | 4 | 2 | 6 | 3 | 7 | 22
+events_h9_c	character	201		Mostly abnormal | | Borderline normal | Abnormal | Normal | Mostly normal
+events_h9_d	character	201		Semi-important | | Mostly unimportant | Important | Mostly important | Unimportant
+events_h9_e	character	37		[38 uniq] | Senate Democrats were being virtue signalling crybabies due to Justice Ruth Bader Ginsburg's death during the Trump Administration and Trump's superlative nomination of Justice Barrett who's jurisprudential quality is far higher than Ginsburg's. | The Senate GOP had gone against its ...
+events_h10_a_First_Click	character	216		[217 uniq] 24.439 | | 13.999 | 5.272 | 13.794 | 6.905 | 3.979 | 4.763
+events_h10_a_Last_Click	character	216		[216 uniq] 38.028 | | 20.467 | 7.187 | 15.051 | 12.459 | 14.081 | 7.884
+events_h10_a_Page_Submit	character	216		[216 uniq] 41.28 | | 30.191 | 8.967 | 16.149 | 13.731 | 16.147 | 8.778
+events_h10_a_Click_Count	character	216		[10 uniq] 4 | | 3 | 2 | 7 | 6 | 5 | 8
+events_h10_c	character	213		Normal | | Mostly normal | Abnormal | Borderline normal | Mostly abnormal
+events_h10_d	character	212		Semi-important | | Unimportant | Important | Mostly unimportant | Mostly important
+events_h10_e	character	29		[30 uniq] | Surrogates are necessary in national election. | This is not ideal, but a president should be able to deploy cabinet members as election surrogates to promote the policymaking accomplishments of their administration. | Who cares? | It's part of an overall trend of Cabinet members get...
+events_h11_a_First_Click	character	193		[191 uniq] | 9.343 | 8.65 | 8.609 | 9.333 | 7.948 | 7.018 | 3.27
+events_h11_a_Last_Click	character	193		[194 uniq] | 18.808 | 11.564 | 12.453 | 16.116 | 9.582 | 8.446 | 8.696
+events_h11_a_Page_Submit	character	193		[194 uniq] | 19.941 | 18.446 | 14.146 | 17.328 | 11.463 | 9.926 | 9.609
+events_h11_a_Click_Count	character	193		[13 uniq] | 5 | 3 | 2 | 6 | 7 | 4 | 21
+events_h11_c	character	193		| Normal | Mostly abnormal | Mostly normal | Borderline normal | Abnormal
+events_h11_d	character	193		| Mostly important | Semi-important | Important | Unimportant | Mostly unimportant
+events_h11_e	character	30		[31 uniq] | This was reflected by the acute emergency situation stemming from the pandemic in 2020. However, it would have been better if the emergency use authorization had been delayed due to some adverse impacts of these vaccines. | happens with other drugs and health emergencies, shows that...
+events_h12_a_First_Click	character	202		[201 uniq] | 3.174 | 2.23 | 2.507 | 4.192 | 3.325 | 3.517 | 2.905
+events_h12_a_Last_Click	character	202		[199 uniq] | 4.561 | 3.613 | 4.957 | 20.527 | 4.531 | 5.394 | 6.475
+events_h12_a_Page_Submit	character	202		[202 uniq] | 6.221 | 4.976 | 7.129 | 21.352 | 5.882 | 7.156 | 28.71
+events_h12_a_Click_Count	character	202		[11 uniq] | 2 | 5 | 3 | 4 | 10 | 7 | 6
+events_h12_c	character	202		| Abnormal | Mostly abnormal | Borderline normal | Mostly normal
+events_h12_d	character	202		| Important | Mostly unimportant | Mostly important | Semi-important | Unimportant
+events_h12_e	character	50		[51 uniq] | peaceful transition, yadda yadda yadda | Indicative of Trump's rejection of the peaceful transfer of power. Trump uber alles. | He should have attended but also expressed concern over the adverse consequences which Biden Administration policies have had on the American public and on ...
+events_h13_a_First_Click	character	187		[187 uniq] | 7.044 | 2.433 | 13.652 | 7.167 | 6.942 | 3.9 | 3.384
+events_h13_a_Last_Click	character	187		[188 uniq] | 12.924 | 3.905 | 15.532 | 9.469 | 36.528 | 5.085 | 17.85
+events_h13_a_Page_Submit	character	187		[186 uniq] | 14.249 | 4.941 | 18.042 | 10.707 | 37.202 | 6.404 | 20.744
+events_h13_a_Click_Count	character	187		[14 uniq] | 3 | 2 | 7 | 5 | 4 | 6 | 14
+events_h13_c	character	187		| Mostly normal | Abnormal | Mostly abnormal | Normal | Borderline normal
+events_h13_d	character	187		| Unimportant | Mostly important | Important | Semi-important | Mostly unimportant
+events_h13_e	character	34		[35 uniq] | We are slowly seeing the erosion of democratic accountability and the rule of law. If a president can pardon his 'cronies' then there IS no rule of law. | Criminal acts tied to Trump presidency in most cases. | Important signal sent to anti democratic forces. | There is no law but t...
+events_h14_a__First_Click	character	198		[197 uniq] | 7.873 | 6.873 | 6.435 | 5.803 | 11.498 | 6.283 | 5.445
+events_h14_a__Last_Click	character	198		[198 uniq] | 9.02 | 11.25 | 8.437 | 7.996 | 14.867 | 13.389 | 12.794
+events_h14_a__Page_Submit	character	198		[198 uniq] | 38.688 | 12.916 | 13.766 | 10.256 | 17.272 | 36.159 | 13.966
+events_h14_a__Click_Count	character	198		[13 uniq] | 2 | 3 | 5 | 10 | 8 | 6 | 4
+events_h14_c	character	197		| Mostly abnormal | Mostly normal | Borderline normal | Normal | Abnormal
+events_h14_d	character	196		| Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+events_h14_e	character	25		[26 uniq] | Bad business...civilian control of the military is critical for all concerned. | Better not to have ex-military in this role. | Many government officials have received military waivers to serve in civilian policymaking positions. | I'm not well informed about the precedents here. Bu...
+events_h15_a_First_Click	character	190		[187 uniq] | 4.578 | 3.408 | 7.247 | 9.297 | 3.836 | 4.116 | 4.189
+events_h15_a_Last_Click	character	190		[190 uniq] | 8.896 | 6.075 | 9.546 | 11.905 | 6.052 | 8.343 | 8.536
+events_h15_a_Page_Submit	character	190		[190 uniq] | 13.817 | 7.643 | 11.688 | 13.36 | 9.247 | 10.638 | 210.079
+events_h15_a_Click_Count	character	190		[13 uniq] | 2 | 4 | 3 | 7 | 5 | 6 | 20
+events_h15_c	character	188		| Abnormal | Borderline normal | Mostly normal | Mostly abnormal | Normal
+events_h15_d	character	188		| Semi-important | Mostly unimportant | Unimportant | Important | Mostly important
+events_h15_e	character	30		[31 uniq] | 1. As a rhetorical move, it indicates that Trump's base is detached from common communication fora and only allows reality to be determined by Trump. 2. The purpose of the platform is (or was) to evade even rudimentary requirements on Twitter or Facebook to make statements that are ...
+events_h16_a_First_Click	character	169		[170 uniq] | 9.165 | 9.747 | 4.707 | 4.75 | 10.097 | 3.5 | 3.318
+events_h16_a_Last_Click	character	169		[170 uniq] | 11.967 | 17.539 | 8.532 | 15.599 | 13.112 | 5.204 | 8.288
+events_h16_a_Page_Submit	character	169		[168 uniq] | 13.622 | 28.328 | 9.097 | 16.174 | 33.856 | 7.173 | 9.482
+events_h16_a_Click_Count	character	169		[13 uniq] | 2 | 5 | 4 | 3 | 6 | 20 | 7
+events_h16_c	character	168		| Mostly normal | Mostly abnormal | Normal | Borderline normal
+events_h16_d	character	169		| Mostly important | Semi-important | Mostly unimportant | Important | Unimportant
+events_h16_e	character	31		[32 uniq] | pathetic | Withdrawal from the accord was abnormal, rejoining was predictable. I don't have much hope that the Paris agreements will actually affect the environment, but its much better to have the US in than out. | typical policy stuff | Expected move. Important for the US to regai...
+events_h17_a_First_Click	character	183		[182 uniq] | 5.396 | 3.303 | 5.496 | 3.271 | 5.03 | 5.828 | 3.009
+events_h17_a_Last_Click	character	183		[184 uniq] | 16.231 | 11.712 | 13.471 | 5.067 | 10.794 | 37.291 | 5.389
+events_h17_a_Page_Submit	character	183		[183 uniq] | 17.526 | 22.126 | 15.479 | 6.117 | 14.771 | 39.94 | 7.094
+events_h17_a_Click_Count	character	183		[12 uniq] | 4 | 2 | 3 | 5 | 21 | 6 | 7
+events_h17_c	character	183		| Normal | Mostly normal | Borderline normal | Mostly abnormal
+events_h17_d	character	183		| Important | Mostly important | Semi-important | Mostly unimportant | Unimportant
+events_h17_e	character	30		[31 uniq] | Aligns with ongoing US foreign policy even though many disagree | typical off the pro-Israel relationship of the US with Israel for decades | Israel, like every other state, has a right to defend itself. | Israel has a right to defend itself but does not have a right to use military ...
+events_h18_a_First_Click	character	196		[196 uniq] | 7.736 | 4.731 | 4.444 | 4.201 | 7.899 | 6.416 | 8.435
+events_h18_a_Last_Click	character	196		[194 uniq] | 11.205 | 6.004 | 6.024 | 5.739 | 9.819 | 36.606 | 9.872
+events_h18_a_Page_Submit	character	196		[197 uniq] | 12.415 | 12.333 | 7.95 | 6.545 | 11.858 | 37.575 | 11.352
+events_h18_a_Click_Count	character	196		[10 uniq] | 3 | 2 | 6 | 4 | 5 | 1 | 20
+events_h18_c	character	195		| Abnormal | Mostly abnormal | Borderline normal
+events_h18_d	character	195		| Important | Semi-important | Mostly important | Mostly unimportant | Unimportant
+events_h18_e	character	33		[34 uniq] | just complete and utter bullshit aided and abetted by politicians and the media | It is indicative that Trump is stupid and believes that if he doesn't win he is allowed to destroy the system until people just surrender and give him what he wants. | His constant baseless attacks on p...
+events_h19_a_First_Click	character	203		[202 uniq] | 6.511 | 10.926 | 5.863 | 6.036 | 6.094 | 3.157 | 11.606
+events_h19_a_Last_Click	character	203		[204 uniq] | 12.611 | 19.111 | 14.256 | 7.755 | 8.033 | 6.057 | 13.74
+events_h19_a_Page_Submit	character	203		[203 uniq] | 14.221 | 20.401 | 18.008 | 8.882 | 9.671 | 8.007 | 16.196
+events_h19_a_Click_Count	character	203		[15 uniq] | 3 | 4 | 2 | 7 | 9 | 44 | 5
+events_h19_c	character	202		| Mostly abnormal | Borderline normal | Abnormal | Mostly normal | Normal
+events_h19_d	character	202		| Mostly important | Important | Mostly unimportant | Unimportant | Semi-important
+events_h19_e	character	43		[44 uniq] | Unfortunately not surprising and part and parcel of elite Republican suppression of dissent concerning Trump. | Not that important who leads House parties. | I don't understand the concept of ""normal"" vs. ""abnormal."" Does it mean ""common"" vs. ""uncommon""? Does it mean ""not bad"" or ""...
+events_h20_a_First_Click	character	180		[180 uniq] 16.078 | 23.641 | | 10.478 | 6.731 | 6.499 | 9.764 | 10.725
+events_h20_a_Last_Click	character	180		[180 uniq] 30.085 | 29.028 | | 12.664 | 42.632 | 11.165 | 12.371 | 19.748
+events_h20_a_Page_Submit	character	180		[181 uniq] 32.845 | 30.272 | | 13.586 | 43.735 | 38.56 | 14.064 | 40.869
+events_h20_a_Click_Count	character	180		[13 uniq] 4 | 3 | | 5 | 2 | 21 | 9 | 6
+events_h20_c	character	180		Mostly normal | | Borderline normal | Abnormal | Normal | Mostly abnormal
+events_h20_d	character	180		Mostly important | Unimportant | | Semi-important | Important | Mostly unimportant
+events_h20_e	character	32		[33 uniq] | stare decisis | It goes against decades of past practice. This should have been an easy and uncontroversial smackdown. | This is normal in the context of US politics over the past 40 years | Typically legal due process | The SC has ruled that there is no constitutional right to kill ...
+events_h21_a_First_Click	character	199		[199 uniq] 7.686 | | 9.906 | 7.174 | 3.77 | 6.256 | 7.724 | 4.417
+events_h21_a_Last_Click	character	199		[199 uniq] 23.361 | | 16.235 | 10.161 | 4.817 | 8.043 | 12.88 | 5.872
+events_h21_a_Page_Submit	character	199		[200 uniq] 25.995 | | 17.264 | 13.7 | 5.855 | 9.592 | 14.262 | 10.271
+events_h21_a_Click_Count	character	199		[13 uniq] 4 | | 2 | 3 | 5 | 7 | 8 | 6
+events_h21_c	character	199		Normal | | Mostly abnormal | Mostly normal | Borderline normal | Abnormal
+events_h21_d	character	199		Unimportant | | Mostly important | Semi-important | Mostly unimportant | Important
+events_h21_e	character	42		[43 uniq] | A normalish event signifying the erosion of democratic norms among Republican voters. | Clear indicator of radical shift in the Republican Party. | Not unexpected, then or now. | When a member of Congress (representing a safe state) defects from their party and attacks a popular pres...
+events_h22_a_First_Click	character	198		[195 uniq] | 4.695 | 3.678 | 13.835 | 2.574 | 6.783 | 2.865 | 9.386
+events_h22_a_Last_Click	character	198		[197 uniq] | 7.623 | 5.2 | 16.811 | 3.875 | 11.351 | 4.784 | 11.608
+events_h22_a_Page_Submit	character	198		[196 uniq] | 9.001 | 6.28 | 19.3 | 5.348 | 24.291 | 6.115 | 13.566
+events_h22_a_Click_Count	character	198		[14 uniq] | 3 | 2 | 4 | 5 | 11 | 19 | 9
+events_h22_c	character	198		| Abnormal | Mostly normal | Normal | Mostly abnormal | Borderline normal
+events_h22_d	character	198		| Important | Mostly important | Mostly unimportant | Semi-important
+events_h22_e	character	37		[38 uniq] | Dangerous support for insurrectionists. | while presidents are allowed to pardon, trump would be pardoning people who carried out his orders (would be like Hitler trying to pardon Goebbels) | January 6 was unique. So, both the conviction of rioters and a pardon for them would be abn...
+events_h23_a_First_Click	character	208		[204 uniq] | 6.121 | 7.383 | 3.795 | 7.694 | 6.329 | 5.365 | 9.584
+events_h23_a_Last_Click	character	208		[209 uniq] | 10.364 | 9.99 | 4.989 | 9.761 | 34.474 | 11.49 | 13.85
+events_h23_a_Page_Submit	character	208		[208 uniq] | 12.047 | 11.723 | 5.987 | 11.885 | 44.428 | 12.549 | 16.728
+events_h23_a_Click_Count	character	208		[16 uniq] | 3 | 2 | 6 | 4 | 22 | 5 | 7
+events_h23_c	character	207		| Abnormal | Borderline normal | Mostly normal | Mostly abnormal | Normal
+events_h23_d	character	207		| Important | Semi-important | Mostly unimportant | Mostly important | Unimportant
+events_h23_e	character	42		[43 uniq] | elections--and Supreme Court appointments--have consequences, y'all | I am not well informed about the norms or judicial history on this issue, but I do assume that the litigation of presidential decrees is mostly normal. I disagree with the substance of the decision and believe tha...
+events_h24_a_First_Click	character	184		[183 uniq] | 14.218 | 5.455 | 7.269 | 7.271 | 4.191 | 7.083 | 4.55
+events_h24_a_Last_Click	character	184		[184 uniq] | 21.786 | 12.583 | 9.337 | 10.882 | 20.327 | 17.032 | 7.999
+events_h24_a_Page_Submit	character	184		[185 uniq] | 23.376 | 13.156 | 11.559 | 31.083 | 21.831 | 89.458 | 9.815
+events_h24_a_Click_Count	character	184		[9 uniq] | 4 | 5 | 2 | 3 | 6 | 13 | 7
+events_h24_c	character	184		| Borderline normal | Mostly normal | Mostly abnormal | Abnormal | Normal
+events_h24_d	character	184		| Semi-important | Mostly unimportant | Mostly important | Important | Unimportant
+events_h24_e	character	35		[36 uniq] | Politically important routine exercise of executive authority. | created a moral hazard with broad implications and set up further increases in cost of higer ed. | SCOTUS rendered it less important | Continued bipartisan trend of expanding boundaries of rule by Executive Order | norm...
+events_h25_a_First_Click	character	205		[203 uniq] | 6.273 | 7.784 | 2.85 | 6.177 | 5.543 | 2.961 | 10.395
+events_h25_a_Last_Click	character	205		[206 uniq] | 19.65 | 9.699 | 5.841 | 11.932 | 18.739 | 10.982 | 13.378
+events_h25_a_Page_Submit	character	205		[206 uniq] | 20.861 | 12.921 | 7.901 | 12.802 | 58.137 | 13.3 | 86.216
+events_h25_a_Click_Count	character	205		[12 uniq] | 6 | 2 | 3 | 5 | 4 | 7 | 33
+events_h25_c	character	205		| Mostly normal | Normal | Mostly abnormal | Borderline normal | Abnormal
+events_h25_d	character	205		| Important | Mostly unimportant | Mostly important | Semi-important | Unimportant
+events_h25_e	character	32		[33 uniq] | It is not only to help Ukraine but also to play a role in NATO | Go back in time 30 years and imagine the U.S. sending a constituent member of the USSR weapons needed to kill Russian soldiers. It is proper to send the arms since Putin isn't going to stop at Ukraine, but it is abnor...
+events_h26_a_First_Click	character	197		[197 uniq] | 7.081 | 3.047 | 4.336 | 5.375 | 3.721 | 7.992 | 5.058
+events_h26_a_Last_Click	character	197		[198 uniq] | 20.665 | 9.396 | 6.155 | 8.942 | 5.552 | 9.29 | 55.132
+events_h26_a_Page_Submit	character	197		[198 uniq] | 21.926 | 14.731 | 7.667 | 11.123 | 6.855 | 10.613 | 57.007
+events_h26_a_Click_Count	character	197		[11 uniq] | 4 | 3 | 2 | 8 | 5 | 6 | 7
+events_h26_c	character	197		| Normal | Mostly normal | Borderline normal | Abnormal
+events_h26_d	character	197		| Semi-important | Mostly important | Important | Unimportant | Mostly unimportant
+events_h26_e	character	24		[25 uniq] | It's normal for presidential administrations to change the policies of previous administrations. However, talks with China on climate are destined to fail. | The US and China share concerns about climate change, which creates incentives for a meeting. But given strained relations b...
+events_h27_a_First_Click	character	201		[201 uniq] 6.495 | | 6.755 | 5.263 | 6.452 | 5.708 | 4.76 | 7.089
+events_h27_a_Last_Click	character	201		[200 uniq] 19.357 | | 9.231 | 12.85 | 9.182 | 8.013 | 8.326 | 10.558
+events_h27_a_Page_Submit	character	201		[200 uniq] 23.267 | | 11.735 | 23.737 | 17.9 | 9.378 | 12.693 | 57.365
+events_h27_a_Click_Count	character	201		[10 uniq] 4 | | 2 | 5 | 3 | 6 | 8 | 7
+events_h27_c	character	200		Normal | | Mostly normal | Abnormal | Borderline normal | Mostly abnormal
+events_h27_d	character	200		Unimportant | | Mostly unimportant | Important | Semi-important | Mostly important
+events_h27_e	character	32		[33 uniq] | Trump being Trump and part of the new normal | It indicates that Trump sees the GOP as his business and not as a mechanism for political expression. Not that DeSantis sees it any differently from Trump. I need a drink. | Parties destroy their own, like Bernie | Childlike behavior fr...
+events_h28_a_First_Click	character	198		[198 uniq] 22.187 | | 11.939 | 8.367 | 20.991 | 4.826 | 30.566 | 14.586
+events_h28_a_Last_Click	character	198		[197 uniq] 33.998 | | 18.662 | 9.408 | 23.428 | 9.531 | 31.777 | 17.969
+events_h28_a_Page_Submit	character	198		[199 uniq] 37.356 | | 19.561 | 10.345 | 26.034 | 10.556 | 33.564 | 33.53
+events_h28_a_Click_Count	character	198		[13 uniq] 4 | | 2 | 3 | 9 | 7 | 6 | 50
+events_h28_c	character	198		Normal | | Borderline normal | Mostly normal | Mostly abnormal | Abnormal
+events_h28_d	character	197		Important | | Semi-important | Mostly important | Mostly unimportant | Unimportant
+events_h28_e	character	53		[54 uniq] | Election deniers as SOS is quite dangerous for democracy. | It indicates that majorities in these states reject misinformation and still believe that their consent is necessary to be governed. | It's not normal to have candidates for secy of state denying election results, but a norm...
+events_h29_a_First_Click	character	196		[196 uniq] | 5.393 | 5.108 | 25.544 | 8.072 | 6.044 | 9.008 | 5.672
+events_h29_a_Last_Click	character	196		[197 uniq] | 10.878 | 10.187 | 31.588 | 14.313 | 6.991 | 15.309 | 27.212
+events_h29_a_Page_Submit	character	196		[195 uniq] | 12.345 | 11.227 | 39.753 | 16.411 | 8.826 | 17.676 | 28.29
+events_h29_a_Click_Count	character	196		[12 uniq] | 3 | 4 | 2 | 6 | 5 | 21 | 7
+events_h29_c	character	196		| Abnormal | Mostly normal | Mostly abnormal | Borderline normal | Normal
+events_h29_d	character	196		| Semi-important | Unimportant | Mostly unimportant | Mostly important | Important
+events_h29_e	character	31		[32 uniq] | it got loose...w/e | Demonstrated that China is a hostile power intent on gathering intelligence information on the U.S. and exploiting U.S. vulnerabilities. What was bizarre about this was that China already has Beidou satellites which are far more capable of gathering such intelli...
+events_h30_a_First_Click	character	203		[202 uniq] | 5.138 | 3.072 | 4.795 | 5.024 | 5.686 | 3.5 | 5.236
+events_h30_a_Last_Click	character	203		[204 uniq] | 8.328 | 4.351 | 50.524 | 7.633 | 24.592 | 54.483 | 6.5
+events_h30_a_Page_Submit	character	203		[204 uniq] | 9.749 | 6.761 | 51.602 | 8.415 | 25.985 | 66.677 | 7.747
+events_h30_a_Click_Count	character	203		[12 uniq] | 3 | 2 | 7 | 4 | 5 | 8 | 25
+events_h30_c	character	203		| Abnormal | Mostly abnormal | Borderline normal | Mostly normal | Normal
+events_h30_d	character	203		| Important | Mostly important | Semi-important | Mostly unimportant | Unimportant
+events_h30_e	character	58		[59 uniq] | his delusional fantasies become ""normal."" Not that Politicians haven't and don't do this sorta shit. | Not based on rule of law. | It is evidence of the proposition known as Wilhoit's Law: Modern conservatism consists of exactly one proposition, to wit: There must be in-groups whom ...
+Q707	character	482		Oppose | Support | Don't know |
+Q708	character	174		| 75 years old | 70 years old | Don't know | 80 years old
+Q9_1_First_Click	character	484		[465 uniq] 4.336 | 3.908 | 3.865 | 2.436 | 2.76 | 2.672 | 2.698 | 4.763
+Q9_1_Last_Click	character	484		[466 uniq] 8.016 | 3.908 | 5.377 | 2.436 | 2.76 | 2.672 | 2.698 | 4.763
+Q9_1_Page_Submit	character	484		[462 uniq] 11.215 | 5.24 | 6.248 | 4.247 | 3.878 | 3.362 | 3.934 | 6.321
+Q9_1_Click_Count	character	484		2 | 1 | 3 | 5 |
+Q9_3	character	484		Emeritus faculty | Full-time faculty | | Adjunct faculty | Other
+Q10_1_First_Click	character	482		[438 uniq] 4.371 | 2.461 | 2.39 | 1.393 | 1.808 | 1.563 | 1.451 | 1.702
+Q10_1_Last_Click	character	482		[476 uniq] 15.317 | 15.002 | 9.238 | 7.284 | 6.842 | 3.551 | 3.104 | 3.835
+Q10_1_Page_Submit	character	482		[478 uniq] 15.325 | 24.07 | 13.543 | 7.286 | 13.24 | 5.758 | 7.477 | 12.014
+Q10_1_Click_Count	character	482		[11 uniq] 3 | 5 | 4 | 2 | 14 | 7 | | 11
+Q10_2	character	482		Comparative politics | American politics | International relations | Another field of political science | Something other than political science | Political theory |
+Q10_3	character	416		[317 uniq] | policy | Congress | European Politics | IPE | CPE | US foreign policy | Regimes
+Q11_1_First_Click	character	482		[114 uniq] 5.903 | 0 | 2.192 | 3.473 | 2.825 | 1.453 | 1.786 | 4.126
+Q11_1_Last_Click	character	482		[117 uniq] 5.903 | 0 | 2.192 | 3.473 | 2.825 | 1.453 | 81.772 | 81.259
+Q11_1_Page_Submit	character	482		[457 uniq] 8.82 | 2.913 | 2.616 | 1.3 | 1.799 | 1.26 | 1.416 | 2.38
+Q11_1_Click_Count	character	482		[12 uniq] 1 | 0 | 3 | 9 | 17 | 5 | | 2
+Q11_2	character	69		[69 uniq] | Y'all are stalwart, but sometimes it wears a little thin and I am grasping for how you think you are measuring what you are measuring. I also think you need a little mor eattention to state/society stuff, but I would, wouldn;t I (as a political sociologist). Appreciate y'all. | Surve...
+LuthID	character	515		[508 uniq] BLWQ3Y2400126 | BLWQ3Y2400159 | BLWQ3Y2400090 | BLWQ3Y2400202 | BLWQ3Y2400156 | BLWQ3Y2401412 | BLWQ3Y2403207 | BLWQ3Y2400999
+norm1	character	0		
+norm2	character	0		
+norm3	character	0		
+norm4	character	0		
+norm5	character	0		
+norm6	character	0		
+norm7	character	0		
+norm8	character	0		
+filler1	character	0		
+filler2	character	0		
+filler3	character	0		
+filler4	character	0		
+Language	character	0		

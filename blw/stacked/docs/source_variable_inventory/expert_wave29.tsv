@@ -1,0 +1,127 @@
+var	class	n	label	values
+luthid	character	568	Deidentified expert panel identifier	[568 uniq] BLW_0039_07_70JE | BLW_0040_05_M32Q | BLW_0041_16_L251 | BLW_0045_34_G4R5 | BLW_0055_54_S513 | BLW_0067_28_TE3P | BLW_0116_25_WKFT | BLW_0174_35_R69A
+start_date	character	568	Survey start date and time (UTC)	[563 uniq] 2026-07-11 12:53:20 | 2026-07-16 15:08:21 | 2026-07-12 18:17:15 | 2026-07-13 13:53:42 | 2026-07-10 20:13:51 | 2026-07-13 15:10:05 | 2026-07-16 15:05:37 | 2026-07-11 02:40:11
+end_date	character	568	Survey end date and time (UTC)	[568 uniq] 2026-07-11 12:57:56 | 2026-07-16 15:13:21 | 2026-07-12 18:26:14 | 2026-07-13 14:08:04 | 2026-07-10 20:15:16 | 2026-07-13 15:21:15 | 2026-07-16 15:10:26 | 2026-07-11 02:42:38
+progress	numeric	568	Qualtrics survey progress (percent)	[23 uniq] 15 | 11 | 76 | 100 | 12 | 8 | 9 | 3
+finished	haven_labelled	568	Qualtrics survey completion indicator	0=No | 1=Yes
+expert_occupation_code	haven_labelled	456	Expert occupation (numeric code)	2=Post-doctoral fellow | 3=Adjunct faculty | 4=Full-time faculty | 5=Emeritus faculty | 6=Other
+expert_occupation	character	456	Expert occupation (text label)	| Full-time faculty | Other | Emeritus faculty | Adjunct faculty | Post-doctoral fellow
+expert_field_code	haven_labelled	449	Expert field (numeric code)	1=American politics | 2=Comparative politics | 3=International relations | 4=Political theory | 5=Another field of political science | 6=Something other than political science
+expert_field	character	449	Expert field (text label)	| American politics | Comparative politics | Something other than political science | International relations | Another field of political science | Political theory
+expert_institution_type_code	haven_labelled	450	Expert institution type (numeric code)	1=Public | 2=Private nonprofit | 3=Private for-profit | 4=None of the above
+expert_institution_type	character	450	Expert institution type (text label)	| Public | Private nonprofit | None of the above | Private for-profit
+expert_age_code	haven_labelled	444	Expert age group (numeric code)	2=18 - 24 | 3=25 - 34 | 4=35 - 44 | 5=45 - 54 | 6=55 - 64 | 7=65 - 74 | 8=75 - 84 | 9=85 or older
+expert_age	character	444	Expert age group (text label)	| 55 - 64 | 45 - 54 | 35 - 44 | 75 - 84 | 65 - 74 | 85 or older | 25 - 34
+perf_source_branch	character	474	Qualtrics performance-question branch	| PERF_FORCED_DISTRICT | PERF | PERF_WEIGHTED_NORMAL_DUP
+perf_branch_count	numeric	568	Number of performance-question branches encountered	0 | 1
+rating_USA	numeric	555	Rating of U.S. political system today (0 least to 100 most democratic)	[78 uniq] 61 | 70 | 54 | 40 | 85 | 20 | 75 | 60
+future_scenario	character	552	Randomly assigned 2032 democracy-rating scenario	Non-Trump Republican winner | Democratic winner | Trump-endorsed Republican winner |
+future_rating	numeric	552	Expected 2032 U.S. political-system rating under assigned scenario	[81 uniq] 71 | 40 | 42 | 60 | 65 | 85 | 100 | 75
+current_system	haven_labelled	549	Description that best fits the U.S. political system today	1=Free/fair elections and strong checks | 2=Free/fair elections and moderate checks | 3=Unfair/tilted elections and weak checks | 4=Rulers cannot be voted out and face no real checks
+future_system_1	numeric	511	Probability in 2032: free/fair elections and strong checks	[70 uniq] 0 | 15 | 10 | 20 | 45 | 35 | 50 | 32
+future_system_2	numeric	511	Probability in 2032: free/fair elections and moderate checks	[76 uniq] 0 | 17 | 15 | 10 | 75 | 70 | 35 | 50
+future_system_3	numeric	511	Probability in 2032: unfair/tilted elections and weak checks	[77 uniq] 100 | 68 | 75 | 2 | 10 | 15 | 13 | 30
+future_system_4	numeric	511	Probability in 2032: rulers cannot be voted out and face no checks	[37 uniq] 0 | 5 | 3 | 2 | 7 | 6 | 10 | 17
+future_system_sum	numeric	511	Sum of four 2032 political-system probabilities	100
+future_system_auto_summed	haven_labelled	568	2032 political-system probabilities were auto-normalized	0=No | 1=Yes
+perf_foreign	haven_labelled	76	U.S. performance: elections free from foreign influence	1=Does not meet standard | 2=Partly meets standard | 3=Mostly meets standard | 4=Fully meets standard | 5=Not sure
+perf_ban_ideology	haven_labelled	59	U.S. performance: candidates not barred for beliefs or ideology	1=Does not meet standard | 2=Partly meets standard | 3=Mostly meets standard | 4=Fully meets standard | 5=Not sure
+perf_voting_rights	haven_labelled	75	U.S. performance: equal opportunity for adult citizens to vote	1=Does not meet standard | 2=Partly meets standard | 3=Mostly meets standard | 4=Fully meets standard | 5=Not sure
+perf_votes_impact	haven_labelled	69	U.S. performance: all votes have equal impact	1=Does not meet standard | 2=Partly meets standard | 3=Mostly meets standard | 4=Fully meets standard | 5=Not sure
+perf_election_fraud	haven_labelled	69	U.S. performance: election outcomes free of pervasive fraud	1=Does not meet standard | 2=Partly meets standard | 3=Mostly meets standard | 4=Fully meets standard | 5=Not sure
+perf_districts_state_excluded	haven_labelled	568	State-worded district-boundaries response excluded	0=No | 1=Yes
+perf_districts	haven_labelled	159	U.S. performance: district boundaries not systematically favor one party	1=Does not meet standard | 2=Partly meets standard | 3=Mostly meets standard | 4=Fully meets standard | 5=Not sure
+perf_concede_defeat	haven_labelled	79	U.S. performance: losing politicians publicly concede defeat	1=Does not meet standard | 2=Partly meets standard | 3=Mostly meets standard | 4=Fully meets standard | 5=Not sure
+perf_legislature_check	haven_labelled	474	U.S. performance: legislature effectively limits executive power	1=Does not meet standard | 2=Partly meets standard | 3=Mostly meets standard | 4=Fully meets standard | 5=Not sure
+perf_judiciary_check_lwr	haven_labelled	474	U.S. performance: lower courts effectively limit executive power	1=Does not meet standard | 2=Partly meets standard | 3=Mostly meets standard | 4=Fully meets standard | 5=Not sure
+perf_judiciary_check_scotus	haven_labelled	474	U.S. performance: Supreme Court effectively limits executive power	1=Does not meet standard | 2=Partly meets standard | 3=Mostly meets standard | 4=Fully meets standard | 5=Not sure
+perf_district_wording	character	475	Assigned district-boundaries wording variant	| state | no_state
+executive_powers_1	haven_labelled	159	Appropriateness: president pardoning themself	1=Entirely inappropriate | 2=Mostly inappropriate | 3=Mostly appropriate | 4=Entirely appropriate | 5=Not sure
+executive_powers_2	haven_labelled	158	Appropriateness: major policy by executive order without Congress	1=Entirely inappropriate | 2=Mostly inappropriate | 3=Mostly appropriate | 4=Entirely appropriate | 5=Not sure
+executive_powers_3	haven_labelled	159	Appropriateness: president directing DOJ probes of opponents	1=Entirely inappropriate | 2=Mostly inappropriate | 3=Mostly appropriate | 4=Entirely appropriate | 5=Not sure
+courts_1	haven_labelled	139	Appropriateness: Senate majority refusing all Supreme Court nominees	1=Entirely inappropriate | 2=Mostly inappropriate | 3=Mostly appropriate | 4=Entirely appropriate | 5=Not sure
+courts_2	haven_labelled	139	Appropriateness: unified party adding Supreme Court seats	1=Entirely inappropriate | 2=Mostly inappropriate | 3=Mostly appropriate | 4=Entirely appropriate | 5=Not sure
+elections_voting_1	haven_labelled	170	Appropriateness: Congress granting statehood to DC and Puerto Rico	1=Entirely inappropriate | 2=Mostly inappropriate | 3=Mostly appropriate | 4=Entirely appropriate | 5=Not sure
+elections_voting_2	haven_labelled	170	Appropriateness: states guaranteeing popular-vote winner	1=Entirely inappropriate | 2=Mostly inappropriate | 3=Mostly appropriate | 4=Entirely appropriate | 5=Not sure
+elections_voting_3	haven_labelled	170	Appropriateness: partisan congressional gerrymandering	1=Entirely inappropriate | 2=Mostly inappropriate | 3=Mostly appropriate | 4=Entirely appropriate | 5=Not sure
+elections_voting_4	haven_labelled	170	Appropriateness: measures making voting harder for opposing party	1=Entirely inappropriate | 2=Mostly inappropriate | 3=Mostly appropriate | 4=Entirely appropriate | 5=Not sure
+redistricting	haven_labelled	455	Approval of mid-decade redistricting to favor one party	1=Strongly approve | 2=Somewhat approve | 3=Somewhat disapprove | 4=Strongly disapprove
+election_confidence	haven_labelled	454	Confidence votes will be counted accurately in 2026 election	1=Very confident | 2=Somewhat confident | 3=Not very confident | 4=Not at all confident
+election_confidence_scope	character	456	Assigned 2026 election-confidence geographic scope	| state | nationwide
+scotus_assessment_1	haven_labelled	156	SCOTUS ruling 1: benefit, no effect, or threat	1=Benefit to American democracy | 2=Will not affect American democracy | 3=Threat to American democracy
+scotus_assessment_2	haven_labelled	159	SCOTUS ruling 2: benefit, no effect, or threat	1=Benefit to American democracy | 2=Will not affect American democracy | 3=Threat to American democracy
+scotus_assessment_3	haven_labelled	159	SCOTUS ruling 3: benefit, no effect, or threat	1=Benefit to American democracy | 2=Will not affect American democracy | 3=Threat to American democracy
+scotus_assessment_4	haven_labelled	157	SCOTUS ruling 4: benefit, no effect, or threat	1=Benefit to American democracy | 2=Will not affect American democracy | 3=Threat to American democracy
+scotus_assessment_5	haven_labelled	155	SCOTUS ruling 5: benefit, no effect, or threat	1=Benefit to American democracy | 2=Will not affect American democracy | 3=Threat to American democracy
+scotus_assessment_6	haven_labelled	158	SCOTUS ruling 6: benefit, no effect, or threat	1=Benefit to American democracy | 2=Will not affect American democracy | 3=Threat to American democracy
+scotus_benefit_degree_1	haven_labelled	6	SCOTUS ruling 1: degree of benefit to democracy	1=Little benefit | 2=Moderate benefit | 3=Serious benefit | 4=Extraordinary benefit
+scotus_benefit_degree_2	haven_labelled	118	SCOTUS ruling 2: degree of benefit to democracy	1=Little benefit | 2=Moderate benefit | 3=Serious benefit | 4=Extraordinary benefit
+scotus_benefit_degree_3	haven_labelled	125	SCOTUS ruling 3: degree of benefit to democracy	1=Little benefit | 2=Moderate benefit | 3=Serious benefit | 4=Extraordinary benefit
+scotus_benefit_degree_4	haven_labelled	130	SCOTUS ruling 4: degree of benefit to democracy	1=Little benefit | 2=Moderate benefit | 3=Serious benefit | 4=Extraordinary benefit
+scotus_benefit_degree_5	haven_labelled	12	SCOTUS ruling 5: degree of benefit to democracy	1=Little benefit | 2=Moderate benefit | 3=Serious benefit | 4=Extraordinary benefit
+scotus_benefit_degree_6	haven_labelled	9	SCOTUS ruling 6: degree of benefit to democracy	1=Little benefit | 2=Moderate benefit | 3=Serious benefit | 4=Extraordinary benefit
+scotus_threat_degree_1	haven_labelled	140	SCOTUS ruling 1: degree of threat to democracy	1=Little threat | 2=Moderate threat | 3=Serious threat | 4=Extraordinary threat
+scotus_threat_degree_2	haven_labelled	14	SCOTUS ruling 2: degree of threat to democracy	1=Little threat | 2=Moderate threat | 3=Serious threat | 4=Extraordinary threat
+scotus_threat_degree_3	haven_labelled	3	SCOTUS ruling 3: degree of threat to democracy	1=Little threat | 2=Moderate threat | 3=Serious threat | 4=Extraordinary threat
+scotus_threat_degree_4	haven_labelled	8	SCOTUS ruling 4: degree of threat to democracy	1=Little threat | 2=Moderate threat | 3=Serious threat | 4=Extraordinary threat
+scotus_threat_degree_5	haven_labelled	115	SCOTUS ruling 5: degree of threat to democracy	1=Little threat | 2=Moderate threat | 3=Serious threat | 4=Extraordinary threat
+scotus_threat_degree_6	haven_labelled	135	SCOTUS ruling 6: degree of threat to democracy	1=Little threat | 2=Moderate threat | 3=Serious threat | 4=Extraordinary threat
+house_majority	haven_labelled	456	Expected U.S. House majority after November 2026 election	1=Democratic Party | 2=Republican Party | 3=Not sure
+senate_majority	haven_labelled	456	Expected U.S. Senate majority after November 2026 election	1=Democratic Party | 2=Republican Party | 3=Not sure
+forecast_selected_item	character	453	Randomly assigned three-stage forecast topic	| ignore_court_order | espionage_act | nominee_block | habeas | indict_opponent | concede
+forecast_selected_title	character	453	Randomly assigned three-stage forecast topic title	| Direct to ignore court order | Espionage Act | Nominee block | Habeas | Indict opponent | Concede
+forecast_indict_stage1_prob	numeric	79	Forecast probability: DOJ investigation/prosecution of high-profile opposing-par	[29 uniq] 90 | 70 | 100 | 30 | 81 | 60 | 35 | 75
+forecast_indict_stage1b_1	numeric	85	Forecast count distribution: 0 events (indict)	[24 uniq] 10 | 0 | 70 | 11 | 60 | 30 | 85 | 1
+forecast_indict_stage1b_2	numeric	85	Forecast count distribution: 1 event (indict)	[32 uniq] 16 | 0 | 7 | 20 | 22 | 30 | 50 | 36
+forecast_indict_stage1b_3	numeric	85	Forecast count distribution: 2-5 events (indict)	[34 uniq] 65 | 100 | 37 | 80 | 10 | 0 | 40 | 50
+forecast_indict_stage1b_4	numeric	85	Forecast count distribution: 6 or more events (indict)	[30 uniq] 9 | 0 | 56 | 20 | 100 | 27 | 35 | 4
+forecast_indict_stage2_1	numeric	85	Forecast conditional outcome 1 (indict)	[27 uniq] 10 | 0 | 70 | 9 | 30 | 90 | 1 | 40
+forecast_indict_stage2_2	numeric	85	Forecast conditional outcome 2 (indict)	[30 uniq] 21 | 0 | 84 | 50 | 10 | 40 | 29 | 25
+forecast_indict_stage2_3	numeric	85	Forecast conditional outcome 3 (indict)	[34 uniq] 40 | 20 | 16 | 50 | 15 | 35 | 55 | 30
+forecast_indict_stage2_4	numeric	85	Forecast conditional outcome 4 (indict)	[29 uniq] 19 | 80 | 0 | 5 | 50 | 20 | 6 | 15
+forecast_indict_stage2_5	numeric	85	Forecast conditional outcome 5 (indict)	[16 uniq] 10 | 0 | 5 | 1 | 13 | 20 | 15 | 23
+forecast_concede_stage1_prob	numeric	78	Forecast probability: losing major-party candidates refusing to concede	[35 uniq] 55 | 99 | 70 | 76 | 80 | 61 | 10 | 56
+forecast_concede_stage1b_1	numeric	82	Forecast count distribution: 0 events (concede)	[34 uniq] 8 | 0 | 68 | 20 | 60 | 90 | 11 | 37
+forecast_concede_stage1b_2	numeric	82	Forecast count distribution: 1 event (concede)	[37 uniq] 17 | 12 | 28 | 11 | 51 | 20 | 7 | 29
+forecast_concede_stage1b_3	numeric	82	Forecast count distribution: 2-5 events (concede)	[35 uniq] 64 | 58 | 20 | 29 | 19 | 3 | 60 | 32
+forecast_concede_stage1b_4	numeric	82	Forecast count distribution: 6 or more events (concede)	[18 uniq] 11 | 24 | 6 | 1 | 0 | 30 | 8 | 10
+forecast_concede_stage2_1	numeric	82	Forecast conditional outcome 1 (concede)	[33 uniq] 32 | 16 | 50 | 81 | 65 | 80 | 90 | 79
+forecast_concede_stage2_2	numeric	82	Forecast conditional outcome 2 (concede)	[23 uniq] 34 | 2 | 9 | 19 | 15 | 10 | 5 | 0
+forecast_concede_stage2_3	numeric	82	Forecast conditional outcome 3 (concede)	[27 uniq] 34 | 82 | 41 | 0 | 20 | 10 | 5 | 21
+forecast_nominee_stage1_prob	numeric	68	Forecast probability: opposing-party authority blocking statewide nominee	[23 uniq] 51 | 65 | 5 | 75 | 10 | 15 | 20 | 24
+forecast_nominee_stage1b_1	numeric	74	Forecast count distribution: 0 events (nominee)	[36 uniq] 26 | 39 | 95 | 0 | 100 | 98 | 65 | 25
+forecast_nominee_stage1b_2	numeric	74	Forecast count distribution: 1 event (nominee)	[31 uniq] 47 | 40 | 3 | 0 | 1 | 10 | 30 | 25
+forecast_nominee_stage1b_3	numeric	74	Forecast count distribution: 2-5 events (nominee)	[24 uniq] 27 | 11 | 1 | 0 | 50 | 5 | 25 | 8
+forecast_nominee_stage1b_4	numeric	74	Forecast count distribution: 6 or more events (nominee)	[14 uniq] 0 | 10 | 1 | 100 | 40 | 25 | 5 | 3
+forecast_nominee_stage2_1	numeric	74	Forecast conditional outcome 1 (nominee)	[26 uniq] 76 | 30 | 19 | 100 | 0 | 5 | 25 | 50
+forecast_nominee_stage2_2	numeric	74	Forecast conditional outcome 2 (nominee)	[23 uniq] 20 | 0 | 5 | 65 | 40 | 25 | 10 | 30
+forecast_nominee_stage2_3	numeric	74	Forecast conditional outcome 3 (nominee)	[25 uniq] 4 | 40 | 20 | 0 | 5 | 10 | 25 | 12
+forecast_nominee_stage2_4	numeric	74	Forecast conditional outcome 4 (nominee)	[27 uniq] 0 | 10 | 41 | 100 | 85 | 25 | 70 | 20
+forecast_espionage_stage1_prob	numeric	64	Forecast probability: DOJ Espionage Act charges against journalists	[29 uniq] 50 | 30 | 90 | 70 | 8 | 81 | 95 | 55
+forecast_espionage_stage1b_1	numeric	69	Forecast count distribution: 0 events (espionage)	[30 uniq] 81 | 0 | 92 | 90 | 9 | 5 | 24 | 6
+forecast_espionage_stage1b_2	numeric	69	Forecast count distribution: 1 event (espionage)	[32 uniq] 10 | 0 | 41 | 50 | 8 | 6 | 40 | 12
+forecast_espionage_stage1b_3	numeric	69	Forecast count distribution: 2-5 events (espionage)	[32 uniq] 7 | 100 | 49 | 50 | 0 | 4 | 40 | 70
+forecast_espionage_stage1b_4	numeric	69	Forecast count distribution: 6 or more events (espionage)	[19 uniq] 2 | 0 | 10 | 11 | 13 | 14 | 20 | 25
+forecast_espionage_stage2_1	numeric	69	Forecast conditional outcome 1 (espionage)	[23 uniq] 40 | 0 | 60 | 100 | 61 | 30 | 10 | 68
+forecast_espionage_stage2_2	numeric	69	Forecast conditional outcome 2 (espionage)	[32 uniq] 54 | 100 | 78 | 30 | 0 | 80 | 27 | 74
+forecast_espionage_stage2_3	numeric	69	Forecast conditional outcome 3 (espionage)	[25 uniq] 5 | 0 | 21 | 10 | 9 | 29 | 6 | 4
+forecast_espionage_stage2_4	numeric	69	Forecast conditional outcome 4 (espionage)	[16 uniq] 1 | 0 | 11 | 4 | 25 | 5 | 15 | 10
+forecast_ignore_court_stage1_pro	numeric	63	Forecast probability: executive directive not to enforce federal court order	[25 uniq] 70 | 30 | 20 | 0 | 98 | 50 | 60 | 100
+forecast_ignore_court_stage1b_1	numeric	66	Forecast count distribution: 0 events (ignore_court)	[25 uniq] 25 | 20 | 100 | 0 | 50 | 2 | 60 | 7
+forecast_ignore_court_stage1b_2	numeric	66	Forecast count distribution: 1 event (ignore_court)	[25 uniq] 25 | 15 | 50 | 0 | 20 | 36 | 51 | 41
+forecast_ignore_court_stage1b_3	numeric	66	Forecast count distribution: 2-5 events (ignore_court)	[24 uniq] 25 | 50 | 20 | 0 | 30 | 40 | 41 | 15
+forecast_ignore_court_stage1b_4	numeric	66	Forecast count distribution: 6 or more events (ignore_court)	[18 uniq] 25 | 10 | 0 | 20 | 37 | 9 | 8 | 5
+forecast_ignore_court_stage2_1	numeric	66	Forecast conditional outcome 1 (ignore_court)	[23 uniq] 34 | 20 | 100 | 0 | 30 | 10 | 35 | 3
+forecast_ignore_court_stage2_2	numeric	66	Forecast conditional outcome 2 (ignore_court)	[26 uniq] 33 | 60 | 0 | 80 | 50 | 40 | 20 | 30
+forecast_ignore_court_stage2_3	numeric	66	Forecast conditional outcome 3 (ignore_court)	[28 uniq] 33 | 20 | 0 | 30 | 100 | 60 | 70 | 50
+forecast_habeas_stage1_prob	numeric	69	Forecast probability: habeas corpus suspension for an identifiable group	[32 uniq] 60 | 55 | 20 | 15 | 40 | 30 | 10 | 88
+forecast_habeas_stage1b_1	numeric	76	Forecast count distribution: 0 events (habeas)	[27 uniq] 20 | 50 | 82 | 85 | 0 | 30 | 90 | 100
+forecast_habeas_stage1b_2	numeric	76	Forecast count distribution: 1 event (habeas)	[29 uniq] 30 | 10 | 12 | 15 | 50 | 100 | 55 | 0
+forecast_habeas_stage1b_3	numeric	76	Forecast count distribution: 2-5 events (habeas)	[26 uniq] 40 | 3 | 0 | 20 | 45 | 10 | 25 | 15
+forecast_habeas_stage1b_4	numeric	76	Forecast count distribution: 6 or more events (habeas)	[15 uniq] 10 | 0 | 3 | 25 | 2 | 40 | 7 | 95
+forecast_habeas_stage2_1	numeric	76	Forecast conditional outcome 1 (habeas)	[28 uniq] 40 | 83 | 80 | 0 | 20 | 88 | 45 | 90
+forecast_habeas_stage2_2	numeric	76	Forecast conditional outcome 2 (habeas)	[29 uniq] 40 | 50 | 14 | 15 | 80 | 12 | 55 | 5
+forecast_habeas_stage2_3	numeric	76	Forecast conditional outcome 3 (habeas)	[26 uniq] 20 | 10 | 3 | 5 | 30 | 0 | 33 | 50
+final_comments	character	154	Final open-ended survey comments	[154 uniq] | I did not answer the questions that asked for predictions, because of how miserably predictions have fared in recent years. Trump is so volatile and amassed enough power, and the system so damaged, anything can happen. | Straightforward, I think. | I found the final probability scen...
+wave	numeric	568	Bright Line Watch survey wave	29
+sample	character	568	Survey sample	expert

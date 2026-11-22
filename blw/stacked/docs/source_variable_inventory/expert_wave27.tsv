@@ -1,0 +1,407 @@
+var	class	n	label	values
+StartDate	POSIXct	513		[456 uniq] 1766066400 | 1766386920 | 1766387340 | 1766387280 | 1766387640 | 1766387940 | 1766386980 | 1766388000
+EndDate	character	513		[466 uniq] 12/18/2025 14:14 | 12/22/2025 7:15 | 12/22/2025 7:23 | 12/22/2025 7:28 | 12/22/2025 7:29 | 12/22/2025 7:30 | 12/22/2025 7:31 | 12/22/2025 7:35
+Status	character	513		IP Address
+Progress	numeric	513		[24 uniq] 100 | 36 | 97 | 53 | 67 | 71 | 98 | 59
+Duration__in_seconds_	numeric	513		[427 uniq] 848 | 732 | 793 | 903 | 833 | 617 | 1564 | 646
+Finished	numeric	513		1 | 0
+RecordedDate	character	513		[469 uniq] 12/18/2025 14:14 | 12/22/2025 7:15 | 12/22/2025 7:23 | 12/22/2025 7:28 | 12/22/2025 7:29 | 12/22/2025 7:30 | 12/22/2025 7:31 | 12/22/2025 7:35
+ResponseId	character	513		[513 uniq] R_5IQ4bh41fxH3bgp | R_3tJVHqyi9Gwy6W2 | R_6MBEnpj0WfNKw7v | R_5EBj5uNUbdI3BZd | R_7JfPu43jI7267Px | R_6VESKQp3zNjbBx7 | R_3CIJzUh1TvdvlXv | R_5Vx3jEv1u6Eu9r4
+DistributionChannel	character	513		anonymous
+UserLanguage	character	513		EN
+Q1_1	character	513		I agree to continue
+Q479_First_Click	numeric	513		[509 uniq] 13.819 | 15.246 | 5.744 | 10.901 | 12.415 | 5.373 | 8.851 | 4.724
+Q479_Last_Click	numeric	513		[513 uniq] 45.691 | 46.416 | 45.935 | 50.165 | 53.646 | 35.938 | 53.701 | 32.39
+Q479_Page_Submit	numeric	513		[513 uniq] 47.573 | 47.905 | 46.6 | 51.031 | 55.357 | 37.055 | 55.359 | 33.545
+Q479_Click_Count	numeric	513		[19 uniq] 7 | 6 | 12 | 13 | 15 | 8 | 10 | 9
+PERF_now_1	character	88		The U.S. partly meets this standard | | The U.S. does not meet this standard | The U.S. mostly meets this standard | Not sure | The U.S. fully meets this standard
+PERF_now_2	character	83		The U.S. partly meets this standard | | The U.S. does not meet this standard | The U.S. mostly meets this standard
+PERF_now_3	character	82		| The U.S. does not meet this standard | The U.S. mostly meets this standard | The U.S. partly meets this standard
+PERF_now_4	character	93		| The U.S. fully meets this standard | The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. does not meet this standard
+PERF_now_5	character	105		| The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard
+PERF_now_6	character	66		| The U.S. mostly meets this standard | The U.S. fully meets this standard | The U.S. partly meets this standard | The U.S. does not meet this standard
+PERF_now_7	character	91		The U.S. mostly meets this standard | | The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. fully meets this standard
+PERF_now_8	character	75		| The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. does not meet this standard
+PERF_now_9	character	85		| The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | The U.S. does not meet this standard | Not sure
+PERF_now_10	character	84		| The U.S. fully meets this standard | The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. does not meet this standard
+PERF_now_11	character	95		| The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard
+PERF_now_12	character	80		| The U.S. fully meets this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. does not meet this standard | Not sure
+PERF_now_13	character	90		| Not sure | The U.S. mostly meets this standard | The U.S. fully meets this standard | The U.S. partly meets this standard | The U.S. does not meet this standard
+PERF_now_14	character	102		| The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. fully meets this standard | The U.S. mostly meets this standard
+PERF_now_15	character	84		| The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard
+PERF_now_16	character	85		| The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | The U.S. does not meet this standard
+PERF_now_17	character	83		| Not sure | The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. fully meets this standard | The U.S. does not meet this standard
+PERF_now_18	character	89		The U.S. partly meets this standard | | The U.S. mostly meets this standard | The U.S. does not meet this standard | The U.S. fully meets this standard | Not sure
+PERF_now_19	character	85		| The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. mostly meets this standard
+PERF_now_20	character	83		The U.S. does not meet this standard | The U.S. partly meets this standard | | The U.S. fully meets this standard | The U.S. mostly meets this standard
+PERF_now_21	character	80		| The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. fully meets this standard | The U.S. does not meet this standard
+PERF_now_22	character	79		| The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+PERF_now_23	character	100		| The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard
+PERF_now_24	character	82		The U.S. partly meets this standard | | The U.S. does not meet this standard | The U.S. mostly meets this standard | Not sure | The U.S. fully meets this standard
+PERF_now_25	character	92		| The U.S. fully meets this standard | Not sure | The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard
+PERF_now_26	character	96		| The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. fully meets this standard | The U.S. does not meet this standard
+PERF_now_27	character	85		| The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard
+PERF_now_28	character	94		| The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard
+PERF_now_29	character	104		| The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard
+PERF_now_30	character	93		| The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard
+PERF_now_31	character	101		| The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard
+PERF_now_32	character	80		| The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. fully meets this standard | The U.S. does not meet this standard | Not sure
+PERF_now_33	character	86		| The U.S. mostly meets this standard | The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. fully meets this standard
+PERF_now_34	character	99		| The U.S. does not meet this standard | The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. fully meets this standard | Not sure
+PERF_now_35	character	79		| The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard
+Q1004_First_Click	numeric	513		[507 uniq] 7.7 | 5.389 | 4.337 | 10.839 | 9.436 | 3.735 | 57.409 | 8.597
+Q1004_Last_Click	numeric	513		[509 uniq] 36.089 | 34.101 | 35.309 | 46.063 | 38.132 | 27.318 | 283.187 | 59.626
+Q1004_Page_Submit	numeric	513		[508 uniq] 39.5 | 36.52 | 35.837 | 47.081 | 40.162 | 29.098 | 284.72 | 60.464
+Q1004_Click_Count	numeric	513		[17 uniq] 7 | 9 | 11 | 6 | 10 | 14 | 8 | 12
+PERF_2027_1	character	98		| The U.S. will partly meet this standard | The U.S. will mostly meet this standard | The U.S. will not meet this standard | The U.S. will fully meet this standard | Not sure
+PERF_2027_2	character	101		| The U.S. will not meet this standard | The U.S. will mostly meet this standard | The U.S. will partly meet this standard
+PERF_2027_3	character	82		| The U.S. will partly meet this standard | The U.S. will not meet this standard | The U.S. will mostly meet this standard
+PERF_2027_4	character	72		| The U.S. will partly meet this standard | The U.S. will mostly meet this standard | The U.S. will not meet this standard | The U.S. will fully meet this standard
+PERF_2027_5	character	89		| The U.S. will partly meet this standard | The U.S. will not meet this standard | The U.S. will mostly meet this standard | The U.S. will fully meet this standard
+PERF_2027_6	character	83		| The U.S. will partly meet this standard | The U.S. will mostly meet this standard | The U.S. will not meet this standard | The U.S. will fully meet this standard | Not sure
+PERF_2027_7	character	84		The U.S. will partly meet this standard | | The U.S. will mostly meet this standard | The U.S. will not meet this standard | The U.S. will fully meet this standard
+PERF_2027_8	character	94		| The U.S. will not meet this standard | The U.S. will partly meet this standard | The U.S. will mostly meet this standard
+PERF_2027_9	character	77		The U.S. will not meet this standard | | The U.S. will partly meet this standard | The U.S. will fully meet this standard | The U.S. will mostly meet this standard
+PERF_2027_10	character	87		| The U.S. will mostly meet this standard | The U.S. will not meet this standard | The U.S. will fully meet this standard | The U.S. will partly meet this standard | Not sure
+PERF_2027_11	character	93		| The U.S. will partly meet this standard | The U.S. will mostly meet this standard | The U.S. will fully meet this standard | The U.S. will not meet this standard
+PERF_2027_12	character	87		| The U.S. will not meet this standard | The U.S. will partly meet this standard | The U.S. will mostly meet this standard | The U.S. will fully meet this standard | Not sure
+PERF_2027_13	character	89		| The U.S. will fully meet this standard | The U.S. will not meet this standard | Not sure | The U.S. will partly meet this standard | The U.S. will mostly meet this standard
+PERF_2027_14	character	80		| The U.S. will partly meet this standard | The U.S. will not meet this standard | Not sure | The U.S. will mostly meet this standard | The U.S. will fully meet this standard
+PERF_2027_15	character	93		| The U.S. will partly meet this standard | The U.S. will not meet this standard | The U.S. will fully meet this standard | The U.S. will mostly meet this standard | Not sure
+PERF_2027_16	character	84		| The U.S. will partly meet this standard | The U.S. will not meet this standard | The U.S. will mostly meet this standard | Not sure | The U.S. will fully meet this standard
+PERF_2027_17	character	101		| The U.S. will partly meet this standard | The U.S. will mostly meet this standard | The U.S. will not meet this standard | Not sure | The U.S. will fully meet this standard
+PERF_2027_18	character	104		The U.S. will partly meet this standard | | The U.S. will not meet this standard | The U.S. will mostly meet this standard | The U.S. will fully meet this standard
+PERF_2027_19	character	105		| The U.S. will not meet this standard | The U.S. will partly meet this standard | The U.S. will mostly meet this standard | The U.S. will fully meet this standard | Not sure
+PERF_2027_20	character	84		| The U.S. will not meet this standard | The U.S. will partly meet this standard | Not sure | The U.S. will fully meet this standard | The U.S. will mostly meet this standard
+PERF_2027_21	character	94		| The U.S. will fully meet this standard | The U.S. will partly meet this standard | The U.S. will mostly meet this standard | Not sure | The U.S. will not meet this standard
+PERF_2027_22	character	82		| The U.S. will not meet this standard | The U.S. will partly meet this standard | The U.S. will mostly meet this standard | The U.S. will fully meet this standard | Not sure
+PERF_2027_23	character	84		| The U.S. will partly meet this standard | The U.S. will not meet this standard | The U.S. will mostly meet this standard
+PERF_2027_24	character	102		| The U.S. will not meet this standard | The U.S. will partly meet this standard | The U.S. will mostly meet this standard | Not sure
+PERF_2027_25	character	79		| The U.S. will fully meet this standard | The U.S. will partly meet this standard | The U.S. will not meet this standard | The U.S. will mostly meet this standard | Not sure
+PERF_2027_26	character	87		| The U.S. will mostly meet this standard | The U.S. will fully meet this standard | The U.S. will not meet this standard | The U.S. will partly meet this standard | Not sure
+PERF_2027_27	character	80		The U.S. will not meet this standard | | The U.S. will partly meet this standard | The U.S. will mostly meet this standard | The U.S. will fully meet this standard
+PERF_2027_28	character	96		| The U.S. will not meet this standard | The U.S. will partly meet this standard | The U.S. will mostly meet this standard | The U.S. will fully meet this standard | Not sure
+PERF_2027_29	character	86		| The U.S. will not meet this standard | The U.S. will fully meet this standard | The U.S. will mostly meet this standard | The U.S. will partly meet this standard | Not sure
+PERF_2027_30	character	84		| The U.S. will partly meet this standard | The U.S. will not meet this standard | The U.S. will mostly meet this standard | Not sure | The U.S. will fully meet this standard
+PERF_2027_31	character	82		The U.S. will not meet this standard | | The U.S. will partly meet this standard | The U.S. will mostly meet this standard | Not sure
+PERF_2027_32	character	87		| The U.S. will not meet this standard | The U.S. will partly meet this standard | The U.S. will mostly meet this standard | The U.S. will fully meet this standard | Not sure
+PERF_2027_33	character	78		| The U.S. will not meet this standard | The U.S. will partly meet this standard | The U.S. will fully meet this standard | The U.S. will mostly meet this standard | Not sure
+PERF_2027_34	character	82		| The U.S. will partly meet this standard | The U.S. will not meet this standard | The U.S. will mostly meet this standard | Not sure | The U.S. will fully meet this standard
+PERF_2027_35	character	88		The U.S. will partly meet this standard | | The U.S. will not meet this standard | The U.S. will mostly meet this standard | The U.S. will fully meet this standard | Not sure
+ratingusa_timer_First_Click	numeric	513		[500 uniq] 6.538 | 8.783 | 11.766 | 14.663 | 15.144 | 6.786 | 4.941 | 8.155
+ratingusa_timer_Last_Click	numeric	513		[506 uniq] 6.538 | 8.783 | 15.876 | 14.663 | 19.768 | 10.038 | 12.985 | 8.155
+ratingusa_timer_Page_Submit	numeric	513		[506 uniq] 11.738 | 10.227 | 16.532 | 15.385 | 21.139 | 10.731 | 13.722 | 9.191
+ratingusa_timer_Click_Count	numeric	513		[13 uniq] 1 | 3 | 2 | 5 | 8 | 4 | 11 | 6
+rusa_now_1	numeric	511		[74 uniq] 70 | 34 | 46 | 40 | 66 | 75 | 20 | 67
+rusa_2027_1	numeric	263		[69 uniq] 45 | 20 | 35 | 43 | 55 | 95 | 71 | 70
+rusa_2032_1	numeric	243		[56 uniq] 80 | 40 | 65 | 72 | 60 | 44 | 76 | 92
+Q1211_First_Click	numeric	505		[504 uniq] 45.978 | 29.316 | 10.594 | 9.922 | 32.957 | 4.587 | 7.758 | 1.469
+Q1211_Last_Click	numeric	505		[505 uniq] 85.905 | 73.775 | 79.529 | 152.152 | 47.017 | 41.208 | 82.273 | 86.274
+Q1211_Page_Submit	numeric	505		[501 uniq] 88.267 | 75.401 | 80.411 | 155.401 | 48.337 | 41.837 | 89.038 | 88.132
+Q1211_Click_Count	numeric	505		[30 uniq] 5 | 4 | 42 | 22 | 24 | 7 | 16 | 18
+country_a_1	numeric	497		[36 uniq] 90 | 95 | 97 | 100 | 54 | 74 | 30 | 92
+Q1426_First_Click	numeric	409		[409 uniq] 41.201 | 30.703 | 34.83 | 30 | 23.984 | 5.36 | 2.691 | 20.377
+Q1426_Last_Click	numeric	409		[409 uniq] 43.021 | 30.703 | 34.83 | 36.552 | 23.984 | 5.912 | 28.035 | 22.609
+Q1426_Page_Submit	numeric	409		[407 uniq] 44.248 | 32.531 | 35.914 | 43.237 | 25.293 | 10.276 | 29.4 | 25.678
+Q1426_Click_Count	numeric	409		[20 uniq] 2 | 1 | 5 | 4 | 9 | 3 | 7 | 6
+Q1431_1	numeric	402		[65 uniq] 86 | 35 | 52 | 61 | 60 | 84 | 42 | 50
+Q1434_First_Click	numeric	406		[405 uniq] 7.57 | 24.341 | 15.811 | 15.721 | 13.127 | 3.731 | 1.487 | 16.967
+Q1434_Last_Click	numeric	406		[403 uniq] 7.57 | 24.341 | 15.811 | 15.721 | 13.127 | 4.864 | 21.479 | 16.967
+Q1434_Page_Submit	numeric	406		[406 uniq] 8.401 | 25.913 | 17.708 | 18.843 | 14.349 | 6.925 | 22.377 | 18.545
+Q1434_Click_Count	numeric	406		[17 uniq] 1 | 2 | 7 | 5 | 3 | 9 | 8 | 4
+Q1441_1	numeric	399		[59 uniq] 85 | 10 | 42 | 19 | 29 | 69 | 5 | 20
+Q860_First_Click	numeric	208		[202 uniq] 3.691 | 22.135 | 2.984 | 3.849 | 6.507 | 3.164 | 2.891 | 4.301
+Q860_Last_Click	numeric	208		[203 uniq] 3.691 | 22.135 | 2.984 | 3.849 | 9.472 | 4.564 | 2.891 | 4.301
+Q860_Page_Submit	numeric	208		[207 uniq] 4.988 | 22.762 | 4.197 | 4.826 | 12.659 | 5.935 | 3.401 | 5.594
+Q860_Click_Count	numeric	208		1 | 2 | 4 | 3
+threat_bin_orlando_h	character	208		Will not affect American democracy | | Threat to American democracy
+Q858_First_Click	numeric	202		[199 uniq] 14.728 | 4.381 | 8.16 | 3.381 | 3.311 | 4.409 | 2.236 | 6.228
+Q858_Last_Click	numeric	202		[198 uniq] 14.728 | 4.381 | 9.628 | 3.381 | 3.311 | 4.409 | 2.236 | 6.228
+Q858_Page_Submit	numeric	202		[201 uniq] 15.626 | 5.485 | 10.943 | 4.094 | 4.186 | 5.155 | 3.418 | 7.934
+Q858_Click_Count	numeric	202		1 | 2 | 3 | 20 | 9
+threat_bin_prosecute	character	202		Will not affect American democracy | Threat to American democracy | | Benefit to American democracy
+Q859_First_Click	numeric	199		[195 uniq] 5.954 | 6.129 | 4.977 | 3.327 | 13.505 | 14.138 | 2.399 | 3.878
+Q859_Last_Click	numeric	199		[195 uniq] 5.954 | 6.129 | 5.644 | 3.327 | 13.505 | 14.138 | 2.399 | 3.878
+Q859_Page_Submit	numeric	199		[197 uniq] 12.045 | 7.505 | 5.66 | 4.16 | 14.917 | 14.648 | 3.13 | 4.797
+Q859_Click_Count	numeric	199		1 | 2 | 3
+threat_bin_DOD	character	199		Will not affect American democracy | | Threat to American democracy | Benefit to American democracy
+Q861_First_Click	numeric	199		[196 uniq] 4.592 | 5.528 | 6.655 | 3.363 | 5.553 | 2.628 | 5.424 | 2.884
+Q861_Last_Click	numeric	199		[196 uniq] 4.592 | 5.528 | 6.655 | 3.363 | 6.521 | 2.628 | 5.424 | 2.884
+Q861_Page_Submit	numeric	199		[198 uniq] 5.766 | 6.072 | 7.335 | 3.94 | 6.538 | 3.336 | 6.602 | 3.885
+Q861_Click_Count	numeric	199		1 | 2 | 3 | 8 | 5
+threat_bin_uni_ask	character	199		| Threat to American democracy | Benefit to American democracy | Will not affect American democracy
+threat_bin_uni_deny	character	199		| Benefit to American democracy | Threat to American democracy | Will not affect American democracy
+Q1201_First_Click	numeric	194		[189 uniq] 3.862 | 5.004 | 9.077 | 4.728 | 2.397 | 2.758 | 2.624 | 5.217
+Q1201_Last_Click	numeric	194		[190 uniq] 3.862 | 10.833 | 10.174 | 4.728 | 2.397 | 2.758 | 2.624 | 5.217
+Q1201_Page_Submit	numeric	194		[191 uniq] 5.364 | 12.455 | 10.189 | 5.521 | 3.51 | 3.841 | 4.749 | 5.764
+Q1201_Click_Count	numeric	194		1 | 2 | 4 | 3 | 5
+threat_bin_drug_boat	character	194		| Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+threat_bin_drug_kill	character	194		| Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+Q963_First_Click	numeric	213		[210 uniq] 3.754 | 3.183 | 5.878 | 3.35 | 3.393 | 3.369 | 3.218 | 3.566
+Q963_Last_Click	numeric	213		[210 uniq] 3.754 | 3.183 | 6.757 | 4.086 | 5.559 | 10.8 | 3.218 | 3.566
+Q963_Page_Submit	numeric	213		[211 uniq] 4.692 | 4.013 | 6.774 | 4.001 | 6.25 | 14.813 | 4.059 | 4.956
+Q963_Click_Count	numeric	213		1 | 2 | 3 | 4 | 8
+threat_bin_term	character	213		Will not affect American democracy | | Benefit to American democracy
+Q964_First_Click	numeric	220		[217 uniq] 4.938 | 6.562 | 20.913 | 5.888 | 5.046 | 3.069 | 7.958 | 3.337
+Q964_Last_Click	numeric	220		[218 uniq] 4.938 | 14.34 | 25.736 | 5.888 | 5.046 | 3.069 | 7.958 | 3.337
+Q964_Page_Submit	numeric	220		[217 uniq] 6.341 | 16.351 | 26.647 | 7.134 | 6.775 | 3.868 | 8.874 | 4.31
+Q964_Click_Count	numeric	220		1 | 2 | 3 | 4 | 7
+threat_bin_dem_video	character	220		| Benefit to American democracy | Will not affect American democracy | Threat to American democracy
+threat_bin_dem_trump	character	219		| Threat to American democracy | Will not affect American democracy
+Q966_First_Click	numeric	196		[195 uniq] 3.023 | 6.842 | 5.958 | 5.661 | 2.651 | 2.564 | 2.798 | 2.913
+Q966_Last_Click	numeric	196		[196 uniq] 3.023 | 6.842 | 6.754 | 5.661 | 2.651 | 2.564 | 3.909 | 2.913
+Q966_Page_Submit	numeric	196		[192 uniq] 3.675 | 10.137 | 6.771 | 6.651 | 3.946 | 3.583 | 4.979 | 3.639
+Q966_Click_Count	numeric	196		1 | 2 | 3 | 7 | 4
+threat_bin_dismissal	character	196		| Benefit to American democracy | Will not affect American democracy | Threat to American democracy
+Q967_First_Click	numeric	190		[190 uniq] 10.45 | 3.764 | 4.446 | 0.445 | 4.127 | 2.219 | 3.253 | 3.394
+Q967_Last_Click	numeric	190		[190 uniq] 10.45 | 3.764 | 4.446 | 13.686 | 4.127 | 2.219 | 3.253 | 3.394
+Q967_Page_Submit	numeric	190		[189 uniq] 11.548 | 4.257 | 6.844 | 16.461 | 4.902 | 3.524 | 4.065 | 3.99
+Q967_Click_Count	numeric	190		1 | 4 | 2 | 5 | 3
+threat_bin_pardons	character	190		Will not affect American democracy | | Threat to American democracy
+Q968_First_Click	numeric	223		[220 uniq] 4.565 | 3.331 | 3.456 | 4.447 | 7.498 | 4.067 | 2.377 | 2.289
+Q968_Last_Click	numeric	223		[220 uniq] 4.565 | 3.331 | 3.456 | 4.447 | 7.498 | 4.067 | 2.377 | 2.289
+Q968_Page_Submit	numeric	223		[222 uniq] 5.471 | 3.966 | 3.927 | 5.891 | 8.899 | 5.267 | 3.295 | 3.306
+Q968_Click_Count	numeric	223		1 | 2 | 4 | 3 | 11
+threat_bin_DOJ_suit	character	222		Will not affect American democracy | | Threat to American democracy | Benefit to American democracy
+Q969_First_Click	numeric	203		[201 uniq] 6.417 | 4.954 | 5.35 | 3.081 | 5.271 | 3.018 | 2.029 | 4.998
+Q969_Last_Click	numeric	203		[201 uniq] 6.417 | 4.954 | 5.35 | 3.081 | 10.832 | 3.018 | 2.029 | 4.998
+Q969_Page_Submit	numeric	203		[202 uniq] 7.306 | 6.581 | 5.985 | 4.859 | 14.52 | 4.076 | 2.821 | 5.84
+Q969_Click_Count	numeric	203		1 | 2 | 3
+threat_bin_FBI	character	203		Will not affect American democracy | Threat to American democracy | | Benefit to American democracy
+Q970_First_Click	numeric	200		[197 uniq] 7.564 | 15.744 | 23.771 | 7.272 | 6.16 | 4.681 | 7.028 | 5.901
+Q970_Last_Click	numeric	200		[196 uniq] 7.564 | 15.744 | 24.526 | 7.272 | 6.16 | 4.681 | 7.028 | 5.901
+Q970_Page_Submit	numeric	200		[200 uniq] 8.545 | 17.926 | 24.542 | 8.214 | 9.242 | 5.334 | 8.176 | 6.69
+Q970_Click_Count	numeric	200		1 | 2 | 5 | 4 | 3
+threat_bin_visas	character	199		| Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+Q971_First_Click	numeric	204		[201 uniq] 5.589 | 7.053 | 5.14 | 6.723 | 5.678 | 3.081 | 5.405 | 3.615
+Q971_Last_Click	numeric	204		[200 uniq] 7.26 | 7.053 | 6.373 | 6.723 | 5.678 | 3.685 | 5.405 | 3.615
+Q971_Page_Submit	numeric	204		[203 uniq] 8.661 | 7.531 | 7.534 | 7.558 | 7.834 | 4.832 | 6.652 | 4.4
+Q971_Click_Count	numeric	204		3 | 1 | 2 | 4 | 14 | 5
+threat_bin_harvard	character	204		| Benefit to American democracy | Threat to American democracy | Will not affect American democracy
+Q972_First_Click	numeric	200		[198 uniq] 3.939 | 6.704 | 10.533 | 2.555 | 3.405 | 5.799 | 9.092 | 4.905
+Q972_Last_Click	numeric	200		[199 uniq] 3.939 | 6.704 | 14.068 | 2.555 | 3.405 | 5.799 | 9.092 | 4.905
+Q972_Page_Submit	numeric	200		[198 uniq] 4.574 | 7.515 | 14.788 | 4 | 4.55 | 6.778 | 10.625 | 9.419
+Q972_Click_Count	numeric	200		1 | 2 | 4 | 6 | 3
+threat_bin_kilmar_ag	character	200		| Will not affect American democracy | Benefit to American democracy | Threat to American democracy
+Q973_First_Click	numeric	205		[203 uniq] 4.242 | 3.815 | 5.292 | 2.382 | 3.976 | 3.456 | 4.109 | 5.746
+Q973_Last_Click	numeric	205		[203 uniq] 4.242 | 3.815 | 6.072 | 2.382 | 3.976 | 3.456 | 4.109 | 5.746
+Q973_Page_Submit	numeric	205		[201 uniq] 7.279 | 4.6 | 6.086 | 3.585 | 5.2 | 4.569 | 5.001 | 9.581
+Q973_Click_Count	numeric	205		1 | 2 | 3 | 5
+threat_bin_no_kings	character	205		| Benefit to American democracy | Will not affect American democracy | Threat to American democracy
+Q974_First_Click	numeric	196		[193 uniq] 4.152 | 3.523 | 7.973 | 2.555 | 1.966 | 5.44 | 3.571 | 5.664
+Q974_Last_Click	numeric	196		[193 uniq] 4.152 | 3.523 | 7.973 | 2.555 | 1.966 | 5.44 | 3.571 | 5.664
+Q974_Page_Submit	numeric	196		[195 uniq] 5.06 | 4.051 | 9.337 | 3.2 | 2.649 | 7.348 | 4.748 | 6.655
+Q974_Click_Count	numeric	196		1 | 3 | 2 | 4
+threat_bin_kirk	character	194		| Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+Q1447_First_Click	numeric	188		[186 uniq] 4.013 | 14.64 | 3.146 | 5.317 | 4.474 | 6.663 | 1.569 | 4.787
+Q1447_Last_Click	numeric	188		[186 uniq] 4.013 | 15.681 | 3.146 | 5.317 | 4.474 | 6.663 | 2.871 | 4.787
+Q1447_Page_Submit	numeric	188		[186 uniq] 4.674 | 16.245 | 4.2 | 6.041 | 6.322 | 7.291 | 3.244 | 5.894
+Q1447_Click_Count	numeric	188		1 | 2 | 3
+threat_bin_maduro	character	188		| Threat to American democracy | Will not affect American democracy | Benefit to American democracy
+Q1449_First_Click	numeric	71		[71 uniq] 4.699 | 3.82 | 6.153 | 10.793 | 12.987 | 7.781 | 7.427 | 5.041
+Q1449_Last_Click	numeric	71		[71 uniq] 4.699 | 3.82 | 6.153 | 10.793 | 12.987 | 7.781 | 7.427 | 5.041
+Q1449_Page_Submit	numeric	71		[71 uniq] 22.881 | 4.913 | 10.083 | 11.796 | 14.303 | 8.93 | 8.452 | 5.94
+Q1449_Click_Count	numeric	71		1 | 2 | 4
+threat_bin_kelly	character	71		| Will not affect American democracy | Threat to American democracy
+Q863_First_Click	numeric	479		[471 uniq] 11.471 | 14.884 | 5.579 | 25.515 | 5.831 | 0.831 | 4.406 | 6.553
+Q863_Last_Click	numeric	479		[477 uniq] 15.18 | 17.473 | 30.113 | 32.481 | 11.24 | 15.741 | 17.869 | 17.953
+Q863_Page_Submit	numeric	479		[476 uniq] 18.201 | 21.128 | 31.001 | 34.315 | 12.101 | 18.329 | 18.603 | 18.873
+Q863_Click_Count	numeric	479		[15 uniq] 3 | 2 | 9 | 4 | 6 | 1 | 8 | 5
+benefits_1	numeric	0		
+benefits_2	character	1		| Serious benefit to American democracy
+benefits_3	character	1		| Serious benefit to American democracy
+benefits_4	character	7		| Moderate benefit to American democracy | Serious benefit to American democracy
+benefits_5	character	168		| Serious benefit to American democracy | Little benefit to American democracy | Moderate benefit to American democracy | Extraordinary benefit to American democracy
+benefits_6	character	4		| Little benefit to American democracy | Moderate benefit to American democracy | Serious benefit to American democracy
+benefits_7	character	1		| Serious benefit to American democracy
+benefits_8	character	169		| Serious benefit to American democracy | Extraordinary benefit to American democracy | Moderate benefit to American democracy | Little benefit to American democracy
+benefits_9	character	153		| Serious benefit to American democracy | Moderate benefit to American democracy | Little benefit to American democracy | Extraordinary benefit to American democracy
+benefits_10	numeric	0		
+benefits_11	character	167		| Serious benefit to American democracy | Extraordinary benefit to American democracy | Little benefit to American democracy | Moderate benefit to American democracy
+benefits_12	numeric	0		
+benefits_13	character	7		| Extraordinary benefit to American democracy | Moderate benefit to American democracy | Serious benefit to American democracy
+benefits_14	character	2		| Moderate benefit to American democracy | Extraordinary benefit to American democracy
+benefits_15	character	6		| Extraordinary benefit to American democracy | Serious benefit to American democracy | Little benefit to American democracy | Moderate benefit to American democracy
+benefits_16	character	172		| Serious benefit to American democracy | Moderate benefit to American democracy | Little benefit to American democracy | Extraordinary benefit to American democracy
+benefits_17	character	167		| Serious benefit to American democracy | Little benefit to American democracy | Moderate benefit to American democracy | Extraordinary benefit to American democracy
+benefits_18	character	182		| Extraordinary benefit to American democracy | Serious benefit to American democracy | Moderate benefit to American democracy | Little benefit to American democracy
+benefits_19	character	5		| Moderate benefit to American democracy | Serious benefit to American democracy | Little benefit to American democracy
+benefits_20	character	3		| Extraordinary benefit to American democracy | Moderate benefit to American democracy
+benefits_21	numeric	0		
+threats_1	character	132		| Serious threat to American democracy | Little threat to American democracy | Moderate threat to American democracy | Extraordinary threat to American democracy
+threats_2	character	193		| Extraordinary threat to American democracy | Moderate threat to American democracy | Serious threat to American democracy | Little threat to American democracy
+threats_3	character	183		| Moderate threat to American democracy | Extraordinary threat to American democracy | Serious threat to American democracy | Little threat to American democracy
+threats_4	character	176		| Serious threat to American democracy | Moderate threat to American democracy | Extraordinary threat to American democracy | Little threat to American democracy
+threats_5	character	8		| Moderate threat to American democracy | Little threat to American democracy
+threats_6	character	123		| Serious threat to American democracy | Little threat to American democracy | Moderate threat to American democracy | Extraordinary threat to American democracy
+threats_7	character	139		| Serious threat to American democracy | Little threat to American democracy | Moderate threat to American democracy | Extraordinary threat to American democracy
+threats_8	numeric	0		
+threats_9	character	9		| Serious threat to American democracy | Little threat to American democracy | Moderate threat to American democracy
+threats_10	character	204		| Extraordinary threat to American democracy | Serious threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+threats_11	character	6		| Extraordinary threat to American democracy | Little threat to American democracy | Serious threat to American democracy
+threats_12	character	181		| Serious threat to American democracy | Extraordinary threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+threats_13	character	187		| Serious threat to American democracy | Moderate threat to American democracy | Extraordinary threat to American democracy | Little threat to American democracy
+threats_14	character	193		| Extraordinary threat to American democracy | Serious threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+threats_15	character	168		| Serious threat to American democracy | Moderate threat to American democracy | Little threat to American democracy | Extraordinary threat to American democracy
+threats_16	character	14		| Extraordinary threat to American democracy | Moderate threat to American democracy | Serious threat to American democracy | Little threat to American democracy
+threats_17	character	9		| Little threat to American democracy | Moderate threat to American democracy | Extraordinary threat to American democracy | Serious threat to American democracy
+threats_18	character	2		| Moderate threat to American democracy | Extraordinary threat to American democracy
+threats_19	character	172		| Extraordinary threat to American democracy | Serious threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+threats_20	character	136		| Serious threat to American democracy | Moderate threat to American democracy | Little threat to American democracy | Extraordinary threat to American democracy
+threats_21	character	62		| Extraordinary threat to American democracy | Serious threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+Q1050_First_Click	numeric	499		[48 uniq] 0 | 3.346 | 5 | 0.106 | 5.185 | 1.021 | 5.33 | 1.846
+Q1050_Last_Click	numeric	499		[48 uniq] 0 | 3.346 | 5 | 0.106 | 5.185 | 1.021 | 5.33 | 1.846
+Q1050_Page_Submit	numeric	499		[491 uniq] 5.344 | 2.401 | 9.399 | 10.546 | 4.7 | 3.881 | 22.218 | 24.559
+Q1050_Click_Count	numeric	499		0 | 1 | 2 | 3 | 6
+Q1048_First_Click	numeric	499		[485 uniq] 6.461 | 4.912 | 4.607 | 2.373 | 11.951 | 3.095 | 2.494 | 5.39
+Q1048_Last_Click	numeric	499		[495 uniq] 7.917 | 7.122 | 15.179 | 14.888 | 14.759 | 6.028 | 51.581 | 18.626
+Q1048_Page_Submit	numeric	499		[492 uniq] 12.368 | 8.684 | 15.991 | 15.691 | 15.803 | 6.04 | 52.624 | 19.523
+Q1048_Click_Count	numeric	499		3 | 5 | 4 | 7 | 6 | 2 | 1 | 9
+aca_freedom_1	character	497		A great deal | Quite a bit | Some | A little | | None
+aca_freedom_2	character	497		A great deal | Quite a bit | Some | | A little
+aca_freedom_3	character	496		A great deal | Quite a bit | Some | A little | | None
+Q1049_First_Click	numeric	499		[481 uniq] 4.819 | 5.165 | 3.955 | 6.065 | 6.118 | 3.513 | 1.114 | 5.82
+Q1049_Last_Click	numeric	499		[482 uniq] 4.819 | 5.165 | 3.955 | 6.065 | 6.118 | 3.513 | 9.679 | 5.82
+Q1049_Page_Submit	numeric	499		[484 uniq] 6.509 | 6.722 | 4.54 | 6.746 | 7.283 | 4.475 | 10.852 | 6.917
+Q1049_Click_Count	numeric	499		1 | 3 | 2 | 5 | 4 | 8 | 10
+institution_support	character	497		A great deal | Quite a bit | Somewhat | A little | Not at all |
+Q867_First_Click	numeric	492		[486 uniq] 21.368 | 10.834 | 2.408 | 3.911 | 30.158 | 5.946 | 7.637 | 1.856
+Q867_Last_Click	numeric	492		[491 uniq] 148.752 | 231.539 | 88.926 | 230.86 | 87.111 | 182.254 | 363.284 | 112.013
+Q867_Page_Submit	numeric	492		[492 uniq] 149.897 | 233.003 | 89.856 | 232.077 | 87.114 | 183.307 | 363.285 | 112.824
+Q867_Click_Count	numeric	492		[63 uniq] 11 | 13 | 24 | 35 | 56 | 42 | 22 | 25
+percentage_forecast_170	numeric	109		[31 uniq] 10 | 14 | 70 | 4 | 40 | 82 | 60 | 30
+percentage_forecast_171	numeric	112		[41 uniq] 90 | 70 | 10 | 65 | 79 | 54 | 80 | 50
+percentage_forecast_172	numeric	117		[41 uniq] 35 | 68 | 41 | 90 | 50 | 81 | 100 | 54
+percentage_forecast_173	numeric	111		[40 uniq] 25 | 23 | 13 | 45 | 60 | 11 | 40 | 67
+percentage_forecast_174	numeric	123		[46 uniq] 70 | 72 | 75 | 54 | 40 | 4 | 5 | 100
+percentage_forecast_175	numeric	126		[43 uniq] 50 | 5 | 10 | 18 | 25 | 70 | 46 | 35
+percentage_forecast_176	numeric	118		[51 uniq] 50 | 68 | 44 | 31 | 40 | 2 | 10 | 72
+percentage_forecast_178	numeric	105		[35 uniq] 50 | 70 | 52 | 20 | 30 | 10 | 95 | 2
+percentage_forecast_179	numeric	98		[41 uniq] 40 | 50 | 100 | 35 | 70 | 73 | 45 | 10
+percentage_forecast_180	numeric	115		[46 uniq] 61 | 80 | 69 | 70 | 10 | 25 | 62 | 41
+percentage_forecast_182	numeric	119		[43 uniq] 10 | 60 | 16 | 5 | 27 | 40 | 50 | 11
+percentage_forecast_183	numeric	96		[42 uniq] 35 | 50 | 51 | 19 | 30 | 80 | 64 | 100
+percentage_forecast_184	numeric	119		[39 uniq] 25 | 51 | 94 | 10 | 75 | 80 | 71 | 100
+percentage_forecast_185	numeric	118		[37 uniq] 69 | 20 | 50 | 11 | 90 | 80 | 70 | 76
+percentage_forecast_186	numeric	95		[44 uniq] 50 | 60 | 40 | 48 | 66 | 90 | 81 | 56
+percentage_forecast_187	numeric	102		[38 uniq] 4 | 85 | 80 | 93 | 52 | 49 | 30 | 51
+percentage_forecast_188	numeric	117		[46 uniq] 79 | 25 | 50 | 14 | 90 | 60 | 37 | 65
+percentage_forecast_189	numeric	115		[46 uniq] 50 | 35 | 80 | 5 | 75 | 40 | 41 | 90
+percentage_forecast_192	numeric	103		[37 uniq] 10 | 95 | 90 | 60 | 80 | 100 | 75 | 57
+percentage_forecast_193	numeric	103		[40 uniq] 1 | 0 | 61 | 40 | 20 | 3 | 64 | 52
+percentage_forecast_194	numeric	102		[39 uniq] 1 | 52 | 90 | 2 | 100 | 70 | 50 | 80
+percentage_forecast_195	numeric	90		[38 uniq] 46 | 70 | 5 | 50 | 40 | 20 | 71 | 82
+percentage_forecast_197	numeric	132		[39 uniq] 60 | 30 | 32 | 65 | 95 | 45 | 80 | 63
+percentage_forecast_198	numeric	102		[40 uniq] 70 | 80 | 49 | 22 | 60 | 50 | 90 | 75
+percentage_forecast_199	numeric	118		[41 uniq] 80 | 50 | 27 | 3 | 55 | 20 | 65 | 0
+percentage_forecast_200	numeric	130		[38 uniq] 82 | 50 | 75 | 68 | 90 | 96 | 100 | 95
+percentage_forecast_201	numeric	97		[33 uniq] 90 | 50 | 25 | 60 | 75 | 8 | 77 | 67
+percentage_forecast_202	numeric	106		[43 uniq] 51 | 21 | 35 | 80 | 20 | 0 | 50 | 5
+percentage_forecast_203	numeric	92		[37 uniq] 30 | 61 | 16 | 15 | 25 | 51 | 62 | 72
+percentage_forecast_204	numeric	124		[41 uniq] 35 | 50 | 52 | 20 | 58 | 71 | 75 | 18
+percentage_forecast_206	numeric	109		[39 uniq] 58 | 20 | 60 | 25 | 1 | 50 | 95 | 2
+percentage_forecast_207	numeric	102		[38 uniq] 15 | 60 | 4 | 3 | 28 | 25 | 91 | 48
+percentage_forecast_208	numeric	104		[38 uniq] 40 | 70 | 100 | 25 | 80 | 64 | 51 | 60
+percentage_forecast_210	numeric	118		[27 uniq] 96 | 95 | 85 | 67 | 90 | 99 | 100 | 80
+percentage_forecast_211	numeric	92		[34 uniq] 75 | 81 | 85 | 93 | 2 | 80 | 30 | 65
+percentage_forecast_212	numeric	100		[38 uniq] 61 | 30 | 98 | 80 | 2 | 90 | 35 | 75
+percentage_forecast_213	numeric	113		[43 uniq] 80 | 90 | 50 | 35 | 95 | 65 | 96 | 92
+percentage_forecast_214	numeric	121		[42 uniq] 100 | 31 | 55 | 66 | 20 | 61 | 10 | 5
+percentage_forecast_215	numeric	106		[41 uniq] 10 | 25 | 75 | 17 | 15 | 50 | 51 | 28
+Q994_First_Click	numeric	0		
+Q994_Last_Click	numeric	0		
+Q994_Page_Submit	numeric	0		
+Q994_Click_Count	numeric	0		
+fs_blw_2025_1	numeric	23		[12 uniq] 50 | 56 | 60 | 40 | 64 | 70 | 35 | 55
+fs_blw_2026_1	numeric	38		[18 uniq] 65 | 49 | 60 | 80 | 39 | 30 | 55 | 40
+fs_blw_2027_1	numeric	19		[14 uniq] 37 | 56 | 34 | 50 | 51 | 20 | 41 | 55
+fs_blw_2028_1	numeric	21		[16 uniq] 30 | 39 | 55 | 56 | 60 | 61 | 40 | 45
+Q1253_First_Click	numeric	489		[475 uniq] 5.96 | 5.856 | 5.056 | 5.808 | 7.529 | 3.308 | 4.985 | 4.244
+Q1253_Last_Click	numeric	489		[478 uniq] 5.96 | 5.856 | 7.065 | 5.808 | 7.529 | 3.308 | 15.954 | 5.068
+Q1253_Page_Submit	numeric	489		[484 uniq] 7.049 | 7.054 | 7.583 | 6.533 | 8.902 | 3.701 | 18.096 | 5.084
+Q1253_Click_Count	numeric	489		1 | 2 | 5 | 4 | 3 | 24 | 9 | 6
+f_threat_bin_humphry	character	487		Will not affect American democracy | Threat to American democracy | Benefit to American democracy |
+Q1334_First_Click	numeric	490		[486 uniq] 3.145 | 6.012 | 3.973 | 7.975 | 3.634 | 5.38 | 0.33 | 7.093
+Q1334_Last_Click	numeric	490		[488 uniq] 7.289 | 6.012 | 147.005 | 7.975 | 6.161 | 5.38 | 10.623 | 8.344
+Q1334_Page_Submit	numeric	490		[481 uniq] 8.187 | 7.024 | 147.55 | 8.475 | 6.163 | 6.074 | 16.347 | 8.361
+Q1334_Click_Count	numeric	490		2 | 1 | 3 | 4 | 5 | 7 | 6
+f_threat_bin_VRA	character	484		Will not affect American democracy | Threat to American democracy | | Benefit to American democracy
+Q1336_First_Click	numeric	489		[478 uniq] 6.556 | 6.467 | 9.368 | 8.987 | 6.499 | 3.423 | 0.316 | 5.748
+Q1336_Last_Click	numeric	489		[479 uniq] 6.556 | 6.467 | 9.368 | 8.987 | 6.499 | 3.423 | 8.986 | 6.528
+Q1336_Page_Submit	numeric	489		[478 uniq] 7.854 | 7.875 | 9.846 | 9.476 | 7.704 | 3.951 | 10.027 | 6.544
+Q1336_Click_Count	numeric	489		1 | 3 | 2 | 5 | 4 | 10
+f_threat_bin_mail_in	character	489		Will not affect American democracy | Threat to American democracy | Benefit to American democracy |
+Q1338_First_Click	numeric	490		[473 uniq] 5.801 | 8.615 | 6.401 | 8.252 | 10.074 | 4.064 | 0.276 | 7.957
+Q1338_Last_Click	numeric	490		[475 uniq] 8.98 | 8.615 | 6.401 | 8.252 | 10.074 | 4.064 | 4.618 | 8.773
+Q1338_Page_Submit	numeric	490		[479 uniq] 9.941 | 11.217 | 6.975 | 9.101 | 11.557 | 4.942 | 5.515 | 8.791
+Q1338_Click_Count	numeric	490		2 | 1 | 5 | 3 | 4 | 12 | 6
+f_threat_bin_tariffs	character	489		Benefit to American democracy | Will not affect American democracy | Threat to American democracy |
+Q1340_First_Click	numeric	489		[469 uniq] 11.711 | 4.977 | 7.934 | 7.571 | 6.528 | 2.563 | 3.545 | 5.488
+Q1340_Last_Click	numeric	489		[471 uniq] 11.711 | 4.977 | 7.934 | 7.571 | 6.528 | 2.563 | 8.447 | 6.136
+Q1340_Page_Submit	numeric	489		[476 uniq] 14.121 | 5.94 | 8.687 | 9.653 | 8.085 | 3.074 | 9.279 | 6.152
+Q1340_Click_Count	numeric	489		1 | 2 | 3 | 5 | 4
+f_threat_bin_fedfund	character	487		Threat to American democracy | | Will not affect American democracy
+Q866_First_Click	numeric	439		[435 uniq] 11.793 | 7.218 | 6.463 | 13.423 | 15.236 | 1.705 | 0.148 | 5.463
+Q866_Last_Click	numeric	439		[431 uniq] 11.793 | 7.218 | 10.81 | 13.423 | 15.236 | 4.247 | 8.627 | 6.332
+Q866_Page_Submit	numeric	439		[432 uniq] 13.795 | 8.698 | 11.2 | 15.101 | 17.056 | 4.876 | 9.822 | 6.346
+Q866_Click_Count	numeric	439		1 | 2 | 3 | 4 | 5 | 20 | 6
+f_benefits_1	character	28		| Little benefit to American democracy | Extraordinary benefit to American democracy | Serious benefit to American democracy | Moderate benefit to American democracy
+f_benefits_2	character	37		| Moderate benefit to American democracy | Little benefit to American democracy | Extraordinary benefit to American democracy | Serious benefit to American democracy
+f_benefits_3	character	21		| Serious benefit to American democracy | Moderate benefit to American democracy | Extraordinary benefit to American democracy | Little benefit to American democracy
+f_benefits_4	character	425		Moderate benefit to American democracy | Serious benefit to American democracy | | Extraordinary benefit to American democracy | Little benefit to American democracy
+f_benefits_5	numeric	0		
+f_threats_1	character	414		| Extraordinary threat to American democracy | Moderate threat to American democracy | Serious threat to American democracy | Little threat to American democracy
+f_threats_2	character	368		| Extraordinary threat to American democracy | Moderate threat to American democracy | Serious threat to American democracy | Little threat to American democracy
+f_threats_3	character	399		| Extraordinary threat to American democracy | Serious threat to American democracy | Moderate threat to American democracy | Little threat to American democracy
+f_threats_4	character	10		| Moderate threat to American democracy | Extraordinary threat to American democracy | Serious threat to American democracy | Little threat to American democracy
+f_threats_5	character	477		Serious threat to American democracy | Extraordinary threat to American democracy | | Moderate threat to American democracy | Little threat to American democracy
+crux_humphry_1	numeric	201		[67 uniq] 30 | 40 | 64 | 54 | 69 | 5 | 65 | 80
+crux_vra_1	numeric	192		[63 uniq] 70 | 35 | 51 | 55 | 66 | 17 | 60 | 9
+crux_mail_in_1	numeric	199		[65 uniq] 70 | 84 | 46 | 10 | 82 | 30 | 100 | 60
+crux_tariffs_1	numeric	187		[60 uniq] 32 | 79 | 56 | 69 | 87 | 91 | 49 | 68
+crux_fed_fund_1	numeric	196		[59 uniq] 15 | 83 | 18 | 89 | 43 | 40 | 90 | 71
+crux_ins_act_1	numeric	179		[53 uniq] 47 | 1 | 21 | 64 | 2 | 30 | 48 | 60
+crux_state_concede_1	numeric	192		[66 uniq] 70 | 60 | 42 | 95 | 74 | 61 | 88 | 40
+crux_birthright_1	numeric	193		[59 uniq] 70 | 35 | 46 | 10 | 80 | 95 | 72 | 30
+crux_abroad_1	numeric	197		[53 uniq] 15 | 25 | 55 | 14 | 88 | 10 | 56 | 20
+crux_courtorder_1	numeric	175		[55 uniq] 25 | 100 | 12 | 40 | 85 | 72 | 62 | 60
+Q9_1_First_Click	numeric	484		[446 uniq] 2.95 | 2.466 | 3.428 | 2.233 | 3.619 | 3.227 | 4.756 | 3.237
+Q9_1_Last_Click	numeric	484		[449 uniq] 2.95 | 2.466 | 3.428 | 2.233 | 3.619 | 3.227 | 6.84 | 3.237
+Q9_1_Page_Submit	numeric	484		[454 uniq] 4.321 | 3.62 | 4.439 | 2.914 | 5.592 | 3.801 | 7.736 | 4.366
+Q9_1_Click_Count	numeric	484		1 | 3 | 2 | 4
+occupation	character	484		Full-time faculty | Post-doctoral fellow | Adjunct faculty | Emeritus faculty | | Graduate student | Other
+field_intro_First_Click	numeric	482		[448 uniq] 1.91 | 1.552 | 1.945 | 2.365 | 1.618 | 3.391 | 2.34 | 1.318
+field_intro_Last_Click	numeric	482		[476 uniq] 9.301 | 3.484 | 8.591 | 9.306 | 10.387 | 9.509 | 12.574 | 3.138
+field_intro_Page_Submit	numeric	482		[476 uniq] 9.302 | 10.341 | 33.367 | 19.501 | 19.728 | 13.088 | 12.575 | 12.03
+field_intro_Click_Count	numeric	482		[16 uniq] 3 | 2 | 4 | 6 | 5 | 9 | 8 | 1
+field	character	480		American politics | Comparative politics | International relations | Political theory | Another field of political science | | Something other than political science
+field_text	character	405		[312 uniq] | Middle East Politics | State building | US judicial politics | comparative politics | IGOs | Judicial politics | Democratization
+Q1009_First_Click	numeric	482		[462 uniq] 2.138 | 2.611 | 1.985 | 2.641 | 2.255 | 2.482 | 0.742 | 5.709
+Q1009_Last_Click	numeric	482		[465 uniq] 2.138 | 2.611 | 1.985 | 2.641 | 2.255 | 2.482 | 4.893 | 5.709
+Q1009_Page_Submit	numeric	482		[465 uniq] 3.355 | 3.81 | 3.23 | 3.93 | 4.091 | 3.578 | 6.218 | 6.589
+Q1009_Click_Count	numeric	482		1 | 2 | 3 | 4 | 7
+institution	character	479		Public | Private nonprofit | Private for-profit |
+Q1010_First_Click	numeric	482		[397 uniq] 5.043 | 2.132 | 1.884 | 1.474 | 5.592 | 1.136 | 3.865 | 1.464
+Q1010_Last_Click	numeric	482		[411 uniq] 5.043 | 4.998 | 1.884 | 1.474 | 11.522 | 1.136 | 11.69 | 6.341
+Q1010_Page_Submit	numeric	482		[471 uniq] 5.043 | 6.441 | 4.598 | 5.656 | 13.452 | 5.818 | 11.691 | 6.361
+Q1010_Click_Count	numeric	482		1 | 2 | 4 | 6 | 0 | 3 | 5 | 9
+location	character	461		[49 uniq] | Rhode Island | California | Vermont | Michigan | Pennsylvania | South Carolina | Mississippi
+forecast_suggestions	character	49		[50 uniq] While some of the items are bad for our political system, they do not strike me as ""democratic."" What definition of democracy are we assuming here? Liberal democracy? Majoritarian? | | The survey is too long. | Many questions remain highly contextual. For example - transferring a US c...
+Q11_1_First_Click	numeric	469		[130 uniq] 0 | 1.455 | 1.09 | 2.576 | 1.48 | 3.22 | 1.868 | 4.186
+Q11_1_Last_Click	numeric	469		[131 uniq] 0 | 1.455 | 35.608 | 3.96 | 1.48 | 3.22 | 1.868 | 4.186
+Q11_1_Page_Submit	numeric	469		[440 uniq] 12.773 | 1.864 | 1.601 | 2.459 | 2.853 | 1.156 | 38.819 | 3.973
+Q11_1_Click_Count	numeric	469		[16 uniq] 0 | 1 | 2 | 26 | 3 | 7 | 8 | 9
+LuthID	character	513		[513 uniq] BLW_1858_73_AD63 | BLW_2625_00_7K20 | BLW_5549_72_L2D5 | BLW_2192_97_0AXL | BLW_7658_76_OX88 | BLW_3644_62_XZV4 | BLW_6981_12_GL26 | BLW_8165_26_DTP3
+Language	numeric	0		
+CountryA	character	513		'- Elections are regular and competitive; opposition campaigns have equal access to venues and media; incumbent use of state resources for campaigns is prohibited and enforced.
+CountryB	character	513		'- Judges are appointed through mixed procedures with executive influence; the judiciary is partly independent; courts infrequently review or annul executive acts.
+CountryC	character	513		'- Elections are regular but not competitive; opposition campaigns face severe restrictions on access to venues and media; incumbent use of state resources for campaigns is pervasive and unconstrained.
+showBLWQ	numeric	513		[100 uniq] 49 | 64 | 14 | 38 | 1 | 50 | 65 | 20
+hypo_country	numeric	415		3 | 5 | 1 | 6 | 2 | 4
+first_country	character	415		| Country B | Country A | Country C
+second_country	character	415		| Country A | Country C | Country B
+third_country	character	415		| Country C | Country A | Country B
+hypo_country_intro	numeric	244		2 | 1
+intro_1	character	244		| You’ll see short descriptions of democratic systems in hypothetical countries. Using the same 0–100 scale you use for the United States, please rate how well each country meets the standards of democracy overall, where 0 is least democratic and 100 is most democratic. | You’ll see short descri...
+intro_2	character	244		| Using the same 0–100 scale you use for the United States, please rate how well each country meets the standards of democracy overall, where 0 is least democratic and 100 is most democratic. | Using the same 0–100 scale you use for the United States, please rate how well this country meets the ...
+Q_TotalDuration	numeric	513		[427 uniq] 848 | 732 | 793 | 903 | 833 | 617 | 1564 | 646

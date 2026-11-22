@@ -1,0 +1,208 @@
+var	class	n	label	values
+start	POSIXct	3539	Start Date	[3489 uniq] 1540385791 | 1540385835 | 1540385428 | 1540387408 | 1540386918 | 1540388867 | 1540385339 | 1540390299
+end	POSIXct	3539	End Date	[3505 uniq] 1540386134 | 1540386231 | 1540386666 | 1540387635 | 1540387942 | 1540389165 | 1540389622 | 1540390750
+status	factor	3539	Response Type	IP Address | Survey Preview | Survey Test | Imported | Spam | Survey Preview Spam | Imported Spam | Offline | Offline Survey Preview | ex | EX Spam | EX Offline
+progress	numeric	5108	Progress	100 | 13 | 25 | 38 | 88 | 50
+duration	numeric	5108	Duration (in seconds)	[1168 uniq] 342 | 395 | 1238 | 226 | 1023 | 298 | 4283 | 451
+finished	factor	3539	Finished	False | True
+recorded_date	POSIXct	3539	Recorded Date	[3511 uniq] 1540386134 | 1540386231 | 1540386667 | 1540387636 | 1540387943 | 1540389165 | 1540389622 | 1540390751
+record_id	character	3539	Response ID	[3540 uniq] R_XiIp71iLsLPdbnX | R_29hpRDRD3BGKCr7 | R_31SJ5IkL19w1N6o | R_1ePowNXj76ktvHX | R_2fIm4ByrP8jLUDX | R_416oTSapeUZwYQ9 | R_2691IqJ6xKLiPfu | R_3KC2CYhmmK6M1c1
+distribution_channel	character	3539	Distribution Channel	anonymous | preview |
+language	character	3537	User Language	EN |
+thanks	factor	3539	Thank you for participating in the Bright Line Watch survey of political scienti	I agree to continue | I do not agree to continue
+perf_misconduct	factor	4352	How well do the following statements describe the United States as of today? - G	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_private_gain	factor	4334	How well do the following statements describe the United States as of today? - G	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_monitor_opponents	factor	4344	How well do the following statements describe the United States as of today? - G	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_equal_rights	factor	4393	How well do the following statements describe the United States as of today? - A	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_journalists	factor	4373	How well do the following statements describe the United States as of today? - G	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_private_violence	factor	4342	How well do the following statements describe the United States as of today? - G	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_free_speech	factor	4373	How well do the following statements describe the United States as of today? - G	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_patriotism	factor	4408	How well do the following statements describe the United States as of today? - P	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_foreign_influence	factor	4330	How well do the following statements describe the United States as of today? - E	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_ban_ideology	factor	4328	How well do the following statements describe the United States as of today? - P	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_voting_rights	factor	4369	How well do the following statements describe the United States as of today? - A	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_votes_impact	factor	4374	How well do the following statements describe the United States as of today? - A	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_election_fraud	factor	4380	How well do the following statements describe the United States as of today? - E	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_expand_executive	factor	4270	How well do the following statements describe the United States as of today? - E	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_legislature_check	factor	4335	How well do the following statements describe the United States as of today? - T	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_judiciary_check	factor	4346	How well do the following statements describe the United States as of today? - T	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_judicial_ind	factor	2291	How well do the following statements describe the United States as of today? - T	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_participation	factor	2850	How well do the following statements describe the United States as of today? - V	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_funds_transparent	factor	2868	How well do the following statements describe the United States as of today? - I	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_contributions	factor	2234	How well do the following statements describe the United States as of today? - P	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_opinions	factor	2834	How well do the following statements describe the United States as of today? - C	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_districts	factor	2870	How well do the following statements describe the United States as of today? - T	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_common_und	factor	2258	How well do the following statements describe the United States as of today? - E	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_compromise	factor	2876	How well do the following statements describe the United States as of today? - E	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_candidates_disclose	factor	2827	How well do the following statements describe the United States as of today? - C	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_protest	factor	2839	How well do the following statements describe the United States as of today? - G	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_investigations	factor	2769	How well do the following statements describe the United States as of today? - L	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+rating_USA	numeric	3380	On a scale from 0 to 100, where 0 is least democratic and 100 is most democratic	[94 uniq] 80 | 60 | 70 | 30 | 85 | 69 | 90 | 87
+G1b	factor	558	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+G1c	factor	556	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+G1d	character	103	Please comment on your responses above (optional).	[104 uniq] | Whomever drafted this question either has not read the plea or is not a lawyer. | Anything involving charges against the president is major. Hopefully this is not normal | What research question could this possibly be answering? Of course it isn't normal, but what is the point? | Un...
+G2b	factor	555	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+G2c	factor	555	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+G2d	character	104	Please comment on your responses above (optional).	[105 uniq] | The fact that the feud is public is what is abnormal. It makes the US look dysfunctional. | I wonder why we have so many abnormal things occurring with this president. | More of the personality/media circus ""trumping"" the serious business of governing. | While formally under the exe...
+G3b	factor	538	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+G3c	factor	538	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+G3d	character	110	Please comment on your responses above (optional).	[111 uniq] | Any thing the federal courts due are important, but this is not abnormal, the federal courts are perfectly within their rights to check the executive. | Not up on law here but I would think action is normal in assuring due process but also not very important given numbers involved a...
+G4b	factor	551	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+G4c	factor	551	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+G4d	character	89	Please comment on your responses above (optional).	[90 uniq] | Canada, though a close ally, is a sovereign nation in economic competition with the United States. The exercise of hedgemonic power in trade negotiations is as old as political order. | U.S. publicly threatening allies with sanctions is not normal. | Presidents are responsible for th...
+G5b	factor	506	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+G5c	factor	505	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+G5d	character	93	Please comment on your responses above (optional).	[94 uniq] | The ""deal"" is barely different from NAFTA. | It is rare for one President to disavow an executive agreement of a predecessor, much less one in treaty form and involving relations with neighbors. | trade agreement modification is normal. | Trade agreements are in the purview of the ex...
+G6b	factor	549	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+G6c	factor	549	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+G6d	character	92	Please comment on your responses above (optional).	[93 uniq] | This might seem like President Trump has something to hide, it also seems a little petty, or spiteful. | Brennan’s public conduct is beyond the pale. Though it is technically inconsequential that he holds a ‘security clearance,’ the vulgar partisanship of his rhetoric should not be ...
+G7b	factor	532	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+G7c	factor	532	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+G7d	character	106	Please comment on your responses above (optional).	[107 uniq] | If Media is supposed to give citizens information and that information is viewed as false, or malicious then people are only getting their information from Elites, specifically Donald Trump in the instance, who have an agenda and use the information they provide to push that agenda ...
+G8b	factor	592	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+G8c	factor	591	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+G8d	character	124	Please comment on your responses above (optional).	[125 uniq] | The claim itself is not important but the pattern of which it is a part is enormously important. | Trump has done a lot to hurt American democracy so my responses refer to the current incumbent, not to Obama. | Behavior can destroys credibility of office over time. | Lies of this sc...
+G9b	factor	549	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+G9c	factor	550	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+G9d	character	110	Please comment on your responses above (optional).	[111 uniq] | Not first time for such a hearing and handled about as well as in Clarence Thomas case. But also mishandled by Feinstein in waiting until the 11th hour when no real investigation could precede a follow up hearing. Important in light sheds on -- again -- partisanism trumping delibe...
+G10b	factor	603	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+G10c	factor	603	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+G10d	character	102	Please comment on your responses above (optional).	[103 uniq] | The US has always carried a large amount of Power in the UN, and that does not appear to be the case anymore | You can like and agree with the specific point the President made during the speech, and still find it humorous because it is so ‘in-character’ for him to brag about his ac...
+G11b	factor	570	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+G11c	factor	571	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+G11d	character	138	Please comment on your responses above (optional).	[139 uniq] | Judicial confirmations have long been ugly. This was was only slightly uglier than usual. It is very important because of its lasting impact on the balance of the Supreme Court. | Justices are increasingly confirmed by small majorities resulting from absence of bi-partisanship in se...
+G12b	factor	532	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+G12c	factor	532	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+G12d	character	98	Please comment on your responses above (optional).	[99 uniq] | Although it is normal for Presidents to call countries out as enemies to the public, calling a major ally a foe could have a major impact internationally! | Context. There is no context provided. If he was referring to them as an economic competitor this is completely normal in the b...
+Q162	factor	285	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q163	factor	284	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q164	character	35	Please comment on your responses above (optional).	[36 uniq] | It was a stupid comment about an unimportant event. The media coverage which made Khashoggi’s disapperance a popular issue reflects tacit moral relativism at best, and, at worst, willful blindness to how common such events are under autocratic regimes. The desultory logic of the Pres...
+G14b	factor	553	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+G14c	factor	553	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+G14d	character	107	Please comment on your responses above (optional).	[108 uniq] | Exerting one's will and power is rogue and potentially dangerous to democratic rule. | The fact that aides need to prevent a president from undermining US power and policy vis-a-vis other countries is astounding and troubling. | It's not clear if this ""reported"" action actually caus...
+G15b	factor	572	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+G15c	factor	570	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+G15d	character	98	Please comment on your responses above (optional).	[99 uniq] | Presidential Administrations have taken measures to secure the White House since the fence was built in 1801, and continue to respond to various threats. | Restricting people rights is important, but typical | Actions that suggest the democratically-elected leaders of a country are r...
+G16b	factor	517	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+G16c	factor	516	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+G16d	character	86	Please comment on your responses above (optional).	[87 uniq] | Expected. Not news | This is what every President should do after a significant hurricane. | It's important for a president to do more than ""inspect."" The situation is unacceptable with regard to Florence, and horrendous with regard to Maria in Puerto Rico. | It's what presidents do ...
+G17b	factor	552	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+G17c	factor	552	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+G17d	character	89	Please comment on your responses above (optional).	[90 uniq] | Straightforward exercise of Article II powers. | Wilkie would not have been nominated had Ronny Jackson not been such an unusual and unsuitable nominee. So Jackson's abnormal nomination means Wilkie's was too. | Again, Senate confirmations are a normal part of the political process. ...
+G18b	factor	537	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+G18c	factor	537	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+G18d	character	100	Please comment on your responses above (optional).	[101 uniq] | It’s only abnormal in the sense that it represents a deeply consequential victory for conservatives. | This is the responsibility of the POTUS, even if one does not favor the choices. | Partisan packing of inferior as well as superior courts is now normal. | Mitch McConnell's manipu...
+G19b	factor	542	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+G19c	factor	541	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+G19d	character	96	Please comment on your responses above (optional).	[97 uniq] | important because somebody has to replace him and a demagogue gets to decide who | Supreme Court justices do not retire every year. That said, the role of the Supreme Court justices should be unchanging, namely to interpret the US Constitution. However, as the SC has become increas...
+G20b	factor	553	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+G20c	factor	553	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+G20d	character	103	Please comment on your responses above (optional).	[104 uniq] | The amount of cash, the public's inability to determine all sources make this abnormal and important | It's become normal, but it's not a healthy sign. The increased role of money in elections (especially dark money) is corrupting the democratic process -- and both parties are guil...
+G21b	factor	561	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+G21c	factor	561	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+G21d	character	91	Please comment on your responses above (optional).	[92 uniq] | Pro forma. | Keeping in mind a horrible event seems like an important thing for a leader of a country to do. | Again, it is not so much that the President speaks or meets with people, but what he says that is abnormal and important. | Presidents glorifying the fallen for 9/11 is now,...
+G22b	factor	426	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+G22c	factor	425	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+G22d	character	50	Please comment on your responses above (optional).	[51 uniq] | Maybe I am missing something but heads of state dinners are part of job. | Meeting with heads of state/government is the normal business of the POTUS. | Leaders of countries meeting seems normal. | haven't followed this | Not very familiar | Not familiar with this or why it might be ...
+G23b	factor	448	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+G23c	factor	448	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+G23d	character	67	Please comment on your responses above (optional).	[68 uniq] | There have been Government shutdowns before, but a President encouraging one seems irresponsible, especially when the topic or reason behind the shut down is so divisive | Trump not first president to play politics with shutdowns but on this issue commitment seems more to promise in ...
+Q150	factor	260	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q151	factor	260	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q152	character	46	Please comment on your responses above (optional).	[47 uniq] | One of roles of President is being head of party. As for importance, that will be seen on November 6th. | Are they really to campaign for Republican congressional candidates or to campaign for himself? | The content of those rallies in which the Presidents stokes racism, xenophobia ...
+Q154	factor	281	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q155	factor	281	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q156	character	47	Please comment on your responses above (optional).	[48 uniq] | Meeting with celebrities is primarily a marketing gimmick that attempts to garner support through the proxy celebrity. | presidents meet with all sorts of people/celebrities. The topics of discussion might not be normal. | Two idiots | Far too many more important things happening in...
+Q158	factor	275	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q159	factor	275	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q160	character	48	Please comment on your responses above (optional).	[48 uniq] | Our leaders should be capable of thumotic passion. It is possible to praise thumos while also condemning the precise nature of its expression. Think: why does Socrates attempt to teach the warlike Glaucon in the Republic? Why not educate a flat-souled Athenian? Cephalus, for instance...
+Q166	factor	259	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q167	factor	259	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q168	character	53	Please comment on your responses above (optional).	[54 uniq] | Breadth of action distinguishes it from not infrequent grievance driven terrorism directed by an individual against a perceived ""enemy"". Here terrorism is class oriented, partisan, and perhaps product of collapse of civility in public discourses of late. | This is important because ...
+rank	factor	5640	Finally, we have just a few questions about you. Which of the following best des	Graduate student | Post-doctoral fellow | Adjunct faculty | Full-time faculty | Emeritus faculty | Other
+field	factor	5610	What is your primary field of study?	American politics | Comparative politics | International relations | Political theory | Another field of political science | Something other than political science
+field_text	character	3033	What is your specific area of study?	[1900 uniq] Judicial politics | Domestic politics of foreign policy | Political Psychology | | NA | Presidents and Executive Politics | Public Opinion, American Political Thought | political behavior
+comments	character	656	Do you have any comments about this survey?	[568 uniq] | It should ask about partisanship and ideology; and the last item on the first page is gobbledegook. | Questions are poorly constructed if their purpose is to identify specific content as abnormal or important. As a general survey of attitudes of professional political scientists...i...
+luth_id	character	7280	luthID	[4963 uniq] BLW0200487 | BLW0006513 | BLW0005080 | BLW0005248 | BLW0007696 | BLW0201523 | BLW0201512 | BLW0003058
+dupe	numeric	1426		0
+wave	numeric	7289		7 | 6 | 5 | 4 | 3 | 1 | 2
+rating_CAN	numeric	525	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[42 uniq] 100 | 90 | 81 | 71 | 91 | 40 | 83 | 94
+rating_CHN	numeric	519	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[46 uniq] 20 | 0 | 10 | 37 | 9 | 6 | 18 | 24
+rating_GBR	numeric	514	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[52 uniq] 90 | 80 | 76 | 72 | 81 | 70 | 39 | 88
+rating_IRQ	numeric	410	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[65 uniq] 40 | 19 | 25 | 20 | 44 | 49 | 10 | 30
+rating_ISR	numeric	468	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[81 uniq] 40 | 65 | 70 | 69 | 90 | 15 | 80 | 6
+rating_MEX	numeric	470	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[72 uniq] 50 | 60 | 70 | 65 | 30 | 80 | 32 | 55
+rating_PRK	numeric	540	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[21 uniq] 0 | 1 | 2 | 5 | 4 | 3 | 8 | 9
+rating_PHL	numeric	431	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[69 uniq] 40 | 19 | 50 | 30 | 14 | 20 | 28 | 31
+rating_RUS	numeric	491	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[53 uniq] 55 | 30 | 18 | 20 | 19 | 10 | 26 | 7
+rating_SAU	numeric	519	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[44 uniq] 10 | 9 | 0 | 20 | 13 | 6 | 31 | 16
+rating_TUR	numeric	476	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[62 uniq] 60 | 55 | 35 | 41 | 44 | 15 | 5 | 28
+rating_VEN	numeric	487	Now using the same 0 to 100 scale, where 0 is least democratic and 100 is most d	[54 uniq] 40 | 19 | 20 | 30 | 0 | 4 | 22 | 25
+expert_none	factor	356	Which of the following countries, if any, have you studied, taught, or researche	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+expert_CAN	factor	204	Which of the following countries, if any, have you studied, taught, or researche	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+expert_CHN	factor	218	Which of the following countries, if any, have you studied, taught, or researche	China
+expert_GBR	factor	305	Which of the following countries, if any, have you studied, taught, or researche	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+expert_IRQ	factor	117	Which of the following countries, if any, have you studied, taught, or researche	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+expert_ISR	factor	152	Which of the following countries, if any, have you studied, taught, or researche	Israel
+expert_MEX	factor	193	Which of the following countries, if any, have you studied, taught, or researche	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+expert_PRK	factor	99	Which of the following countries, if any, have you studied, taught, or researche	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+expert_PHL	factor	66	Which of the following countries, if any, have you studied, taught, or researche	Philippines
+expert_RUS	factor	203	Which of the following countries, if any, have you studied, taught, or researche	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+expert_SAU	factor	95	Which of the following countries, if any, have you studied, taught, or researche	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+expert_TUR	factor	152	Which of the following countries, if any, have you studied, taught, or researche	Turkey
+expert_VEN	factor	120	Which of the following countries, if any, have you studied, taught, or researche	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+imp_misconduct	factor	2038	Q3_1	Not relevant | Beneficial | Important | Essential
+imp_private_gain	factor	2042	Q3_2	Not relevant | Beneficial | Important | Essential
+imp_monitor_opponents	factor	2040	Q3_3	Not relevant | Beneficial | Important | Essential
+imp_equal_rights	factor	2025	Q3_4	Not relevant | Beneficial | Important | Essential
+imp_journalists	factor	2015	Q3_5	Not relevant | Beneficial | Important | Essential
+imp_private_violence	factor	2017	Q3_6	Not relevant | Beneficial | Important | Essential
+imp_free_speech	factor	2030	Q3_7	Not relevant | Beneficial | Important | Essential
+imp_patriotism	factor	2065	Q3_8	Not relevant | Beneficial | Important | Essential
+imp_foreign_influence	factor	2028	Q3_9	Not relevant | Beneficial | Important | Essential
+imp_ban_ideology	factor	2043	Q3_10	Not relevant | Beneficial | Important | Essential
+imp_voting_rights	factor	2024	Q3_11	Not relevant | Beneficial | Important | Essential
+imp_votes_impact	factor	2057	Q3_12	Not relevant | Beneficial | Important | Essential
+imp_election_fraud	factor	2006	Q3_13	Not relevant | Beneficial | Important | Essential
+imp_expand_executive	factor	2000	Q3_14	Not relevant | Beneficial | Important | Essential
+imp_legislature_check	factor	2021	Q3_15	Not relevant | Beneficial | Important | Essential
+imp_judiciary_check	factor	2028	Q3_16	Not relevant | Beneficial | Important | Essential
+imp_judicial_ind	factor	508	Q3_17	Not relevant | Beneficial | Important | Essential
+imp_participation	factor	468	Q3_18	Not relevant | Beneficial | Important | Essential
+imp_funds_transparent	factor	480	Q3_19	Not relevant | Beneficial | Important | Essential
+imp_contributions	factor	441	Q3_20	Not relevant | Beneficial | Important | Essential
+imp_opinions	factor	471	Q3_21	Not relevant | Beneficial | Important | Essential
+imp_districts	factor	464	Q3_22	Not relevant | Beneficial | Important | Essential
+imp_common_und	factor	471	Q3_23	Not relevant | Beneficial | Important | Essential
+imp_compromise	factor	487	Q3_24	Not relevant | Beneficial | Important | Essential
+imp_candidates_disclose	factor	459	Q3_25	Not relevant | Beneficial | Important | Essential
+imp_protest	factor	473	Q3_26	Not relevant | Beneficial | Important | Essential
+imp_investigations	factor	458	Q3_27	Not relevant | Beneficial | Important | Essential
+us_2017_sept	numeric	1036	Q5_1	[78 uniq] 60 | 87 | 80 | 34 | 88 | 65 | 72 | 75
+how_imp_dem	numeric	1053	Q10	[10 uniq] 10 | 4 | 9 | 5 | 8 | 1 | 3 | 7
+record_date	character	1569		[1551 uniq] | 2017-02-13 14:54:36 | 2017-02-13 15:06:35 | 2017-02-13 15:28:07 | 2017-02-13 15:53:41 | 2017-02-13 16:03:28 | 2017-02-13 16:07:19 | 2017-02-13 16:32:20
+recordID	character	1569		[1570 uniq] | R_2Pp6oMIFPWoYwaX | R_1rMRjpHkQ0ZqAw3 | R_z7NAzn0MPyerGO5 | R_3PsLIeOPdVHuehG | R_2sZ74yom32CmJCz | R_2fHF8QstvOvGUws | R_1QGdpBfZeBzKCM4
+distrib_channel	character	1569		| anonymous
+agree_to_continue	character	1569		| I agree to continue
+imp_science	factor	1563		Not relevant | Beneficial | Important | Essential
+imp_restraint	factor	1559		Not relevant | Beneficial | Important | Essential
+imp_judicial_independence	factor	1566		Not relevant | Beneficial | Important | Essential
+perf_science	factor	2132		Not sure | Does not meet | Partly meets | Mostly meets | Fully meets
+perf_restraint	factor	2115		Not sure | Does not meet | Partly meets | Mostly meets | Fully meets
+perf_judicial_independence	factor	2141		Not sure | Does not meet | Partly meets | Mostly meets | Fully meets
+perf_democracy_today	numeric	1558		[10 uniq] 6 | 7 | 8 | 9 | 5 | 4 | 3 | 10
+expert	numeric	2695		1
+perf_contributions_determine	factor	608		Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+perf_common_understanding	factor	582		Does not meet | Partly meets | Mostly meets | Fully meets | Not sure
+US_2017	numeric	1101		[82 uniq] 30 | 76 | 70 | 87 | 85 | 81 | 60 | 22
+US_2015	numeric	1060		[75 uniq] 81 | 85 | 90 | 91 | 80 | 30 | 88 | 60
+US_2005	numeric	1059		[72 uniq] 81 | 90 | 85 | 80 | 40 | 72 | 65 | 95
+US_1995	numeric	1028		[74 uniq] 90 | 95 | 85 | 80 | 50 | 68 | 60 | 81
+US_1985	numeric	997		[74 uniq] 95 | 90 | 81 | 80 | 64 | 50 | 85 | 74
+US_1975	numeric	968		[73 uniq] 71 | 85 | 90 | 66 | 91 | 80 | 40 | 69
+US_1950	numeric	950		[88 uniq] 96 | 75 | 80 | 65 | 70 | 0 | 30 | 50
+US_1900	numeric	917		[85 uniq] 79 | 70 | 61 | 0 | 30 | 40 | 43 | 29
+US_1850	numeric	915		[83 uniq] 61 | 54 | 56 | 70 | 0 | 30 | 29 | 17
+US_1800	numeric	907		[81 uniq] 61 | 45 | 70 | 0 | 30 | 29 | 14 | 18
+explain_current	character	837		[838 uniq] | Obama centralized too much power in the White House; Trump has gone even further. | Erosion over Obama and Trump administrations of norms of compromise, erosion of commitment to public policy on the basis of science/reason over ideology. | Erosion in some democratic norms, but not y...
+USrating	numeric	7075		[95 uniq] 80 | 60 | 70 | 30 | 85 | 69 | 90 | 87

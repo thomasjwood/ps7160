@@ -1,0 +1,221 @@
+var	class	n	label	values
+luthid	character	492	Stable Luth Research respondent ID for cross-wave linkage; not a name	[492 uniq] BLW_5798_58_S3LW | BLW_6234_30_PU62 | BLW_5590_29_6313 | BLW_8734_73_17J1 | BLW_2234_35_B48W | BLW_0624_36_JH66 | BLW_7010_33_VJ95 | BLW_4476_91_BGM0
+expert_field	character	398	Broad field of political science or other field	Comparative politics | | American politics | Political theory | International relations | Another field of political science | Something other than political science
+expert_age	character	392	Age bracket, not exact age	35 - 44 | | 55 - 64 | 45 - 54 | 65 - 74 | 75 - 84 | 25 - 34 | 85 or older
+irregularities_wording	character	432	Randomized fraud/barrier question stem assigned to this respondent	This November | A typical midterm |
+finished	numeric	492	Completed survey indicator	0 | 1
+analysis_weight	numeric	492	Equal expert analysis weight (all one)	1
+rating_USA	numeric	479	Current 0-100 rating of U.S. democracy	[68 uniq] 65 | 75 | 50 | 35 | 70 | 64 | 45 | 71
+rating_USA_exposed	numeric	492	Shown current democracy rating question	1 | 0
+future_rating	numeric	432	Future 0-100 rating of U.S. democracy	[74 uniq] 60 | 70 | 45 | 25 | 75 | 73 | 78 | 65
+future_rating_exposed	numeric	492	Shown future democracy rating question	1 | 0
+forecast_year	numeric	441	Year assigned for future democracy rating	2027 | 2032
+retro_2017	numeric	440	Retrospective 0-100 U.S. democracy rating for 2017	[56 uniq] 75 | 85 | 80 | 90 | 83 | 55 | 86 | 91
+retro_2017_exposed	numeric	492	Shown retrospective rating for 2017	1 | 0
+retro_2019	numeric	439	Retrospective 0-100 U.S. democracy rating for 2019	[56 uniq] 75 | 85 | 78 | 82 | 80 | 65 | 60 | 84
+retro_2019_exposed	numeric	492	Shown retrospective rating for 2019	1 | 0
+retro_2020	numeric	439	Retrospective 0-100 U.S. democracy rating for 2020	[65 uniq] 70 | 80 | 75 | 83 | 78 | 55 | 65 | 85
+retro_2020_exposed	numeric	492	Shown retrospective rating for 2020	1 | 0
+retro_2021	numeric	439	Retrospective 0-100 U.S. democracy rating for 2021	[68 uniq] 75 | 77 | 67 | 83 | 85 | 78 | 80 | 70
+retro_2021_exposed	numeric	492	Shown retrospective rating for 2021	1 | 0
+retro_2024	numeric	440	Retrospective 0-100 U.S. democracy rating for 2024	[66 uniq] 75 | 76 | 73 | 83 | 85 | 78 | 80 | 60
+retro_2024_exposed	numeric	492	Shown retrospective rating for 2024	1 | 0
+consent	haven_labelled	492	Thank you for participating in the Bright Line Watch survey of political scienti	1=Yes | 2=No
+rusa_now_1	numeric	479	United States today	[68 uniq] 65 | 75 | 50 | 35 | 70 | 64 | 45 | 71
+rusa_retrospective_1	numeric	440	United States in 2017	[56 uniq] 75 | 85 | 80 | 90 | 83 | 55 | 86 | 91
+rusa_retrospective_2	numeric	439	United States in 2019	[56 uniq] 75 | 85 | 78 | 82 | 80 | 65 | 60 | 84
+rusa_retrospective_3	numeric	439	United States in 2020	[65 uniq] 70 | 80 | 75 | 83 | 78 | 55 | 65 | 85
+rusa_retrospective_4	numeric	439	United States in 2021	[68 uniq] 75 | 77 | 67 | 83 | 85 | 78 | 80 | 70
+rusa_retrospective_5	numeric	440	United States in 2024	[66 uniq] 75 | 76 | 73 | 83 | 85 | 78 | 80 | 60
+rusa_future_1	numeric	432	United States	[74 uniq] 60 | 70 | 45 | 25 | 75 | 73 | 78 | 65
+PERF_1	haven_labelled	435	The legislature is able to effectively limit executive power	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+PERF_10	haven_labelled	73	Politicians who lose free and fair elections publicly concede defeat	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+PERF_11	haven_labelled	68	Government does not interfere with journalists or news organizations	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+PERF_12	haven_labelled	72	Officeholders do not use the military to advance political agendas or intimidate	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+PERF_13	haven_labelled	51	Officeholders do not use law enforcement to advance political agendas or intimid	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+PERF_14	haven_labelled	63	Government effectively prevents private actors from engaging in politically-moti	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+PERF_15	haven_labelled	74	Government protects individuals’ right to engage in unpopular speech or expressi	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+PERF_16	haven_labelled	52	Citizens have access to information about candidates that is relevant to how the	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+PERF_2	haven_labelled	435	Lower courts are able to effectively limit executive power	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+PERF_3	haven_labelled	435	The Supreme Court is able to effectively limit executive power	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+PERF_4	haven_labelled	91	Elections are free from foreign influence	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+PERF_5	haven_labelled	71	Parties and candidates are not barred due to their political beliefs and ideolog	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+PERF_6	haven_labelled	56	All adult citizens have equal opportunity to vote	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+PERF_7	haven_labelled	64	All votes have equal impact on election outcomes	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+PERF_8	haven_labelled	68	Elections are conducted, ballots counted, and winners determined without pervasi	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+PERF_9	haven_labelled	67	The geographic boundaries of electoral districts do not systematically advantage	1=The U.S. does not meet this standard | 2=The U.S. partly meets this standard | 3=The U.S. mostly meets this standard | 4=The U.S. fully meets this standard | 5=Not sure
+election_confidence_2026	haven_labelled	435	How confident are you that votes nationwide will be counted as voters intend in	1=Very confident | 2=Somewhat confident | 3=Not very confident | 4=Not at all confident
+eligible_voter_access	haven_labelled	433	How confident are you that everyone who is legally entitled to vote and seeks to	1=Very confident | 2=Somewhat confident | 3=Not too confident | 4=Not at all confident
+election_administrators	haven_labelled	431	How confident are you that election administrators nationwide will count votes f	1=Very confident | 2=Somewhat confident | 3=Not very confident | 4=Not at all confident
+majority_house	haven_labelled	432	Next, we would like to ask about a different issue related to elections in the U	1=Democratic Party | 2=Republican Party | 3=Not sure
+majority_senate	haven_labelled	432	Next, we would like to ask about a different issue related to elections in the U	1=Democratic Party | 2=Republican Party | 3=Not sure
+irregularities_fraud_1	haven_labelled	424	Voting more than once in an election	1=A million or more | 2=A few thousand | 3=A few hundred | 4=A few dozen | 5=Fewer than a dozen | 6=Never
+irregularities_fraud_2	haven_labelled	421	Stealing or tampering with ballots	1=A million or more | 2=A few thousand | 3=A few hundred | 4=A few dozen | 5=Fewer than a dozen | 6=Never
+irregularities_fraud_3	haven_labelled	424	Pretending to be someone else when voting	1=A million or more | 2=A few thousand | 3=A few hundred | 4=A few dozen | 5=Fewer than a dozen | 6=Never
+irregularities_fraud_4	haven_labelled	424	People voting who are not U.S. citizens	1=A million or more | 2=A few thousand | 3=A few hundred | 4=A few dozen | 5=Fewer than a dozen | 6=Never
+irregularities_fraud_5	haven_labelled	423	Voting with an absentee ballot intended for another person	1=A million or more | 2=A few thousand | 3=A few hundred | 4=A few dozen | 5=Fewer than a dozen | 6=Never
+irregularities_fraud_6	haven_labelled	422	Vote changed by manipulation of voter machine software	1=A million or more | 2=A few thousand | 3=A few hundred | 4=A few dozen | 5=Fewer than a dozen | 6=Never
+irregularities_access_1	haven_labelled	418	Eligible voters being prevented from voting by election officials	1=A million or more | 2=A few thousand | 3=A few hundred | 4=A few dozen | 5=Fewer than a dozen | 6=Never
+irregularities_access_2	haven_labelled	419	Ineligible voters being prevented from voting by election officials	1=A million or more | 2=A few thousand | 3=A few hundred | 4=A few dozen | 5=Fewer than a dozen | 6=Never
+irregularities_access_3	haven_labelled	420	Eligible voters being deterred from voting by poll watchers or other people in o	1=A million or more | 2=A few thousand | 3=A few hundred | 4=A few dozen | 5=Fewer than a dozen | 6=Never
+irregularities_access_4	haven_labelled	418	Ineligible voters being deterred from voting by poll watchers or other people in	1=A million or more | 2=A few thousand | 3=A few hundred | 4=A few dozen | 5=Fewer than a dozen | 6=Never
+irregularities_access_5	haven_labelled	418	Eligible voters being deterred from voting by law enforcement, immigration offic	1=A million or more | 2=A few thousand | 3=A few hundred | 4=A few dozen | 5=Fewer than a dozen | 6=Never
+irregularities_access_6	haven_labelled	416	Ineligible voters being deterred from voting by law enforcement, immigration off	1=A million or more | 2=A few thousand | 3=A few hundred | 4=A few dozen | 5=Fewer than a dozen | 6=Never
+forecast_01_1	numeric	416	Probability (%)	[71 uniq] 75 | 80 | 50 | 95 | 40 | 25 | 10 | 55
+forecast_02_1	numeric	148	Probability (%)	[41 uniq] 0 | 9 | 15 | 18 | 10 | 89 | 20 | 61
+forecast_03_1	numeric	166	Probability (%)	[45 uniq] 0 | 30 | 1 | 20 | 25 | 5 | 70 | 3
+forecast_04_1	numeric	135	Probability (%)	[31 uniq] 1 | 50 | 8 | 3 | 20 | 0 | 2 | 5
+forecast_05_1	numeric	144	Probability (%)	[46 uniq] 80 | 90 | 25 | 53 | 81 | 75 | 51 | 10
+forecast_06_1	numeric	142	Probability (%)	[25 uniq] 30 | 5 | 0 | 15 | 1 | 25 | 4 | 40
+forecast_07_1	numeric	136	Probability (%)	[47 uniq] 71 | 50 | 80 | 15 | 0 | 10 | 5 | 25
+forecast_08_1	numeric	163	Probability (%)	[40 uniq] 1 | 10 | 5 | 66 | 50 | 3 | 15 | 60
+forecast_09_1	numeric	145	Probability (%)	[38 uniq] 0 | 50 | 5 | 10 | 9 | 3 | 19 | 15
+forecast_10_1	numeric	145	Probability (%)	[29 uniq] 95 | 70 | 15 | 80 | 92 | 100 | 71 | 97
+forecast_11_1	numeric	77	Probability (%)	[31 uniq] 1 | 5 | 20 | 45 | 70 | 35 | 10 | 0
+forecast_12_1	numeric	64	Probability (%)	[25 uniq] 25 | 3 | 20 | 5 | 10 | 2 | 70 | 100
+forecast_13_1	numeric	155	Probability (%)	[40 uniq] 50 | 5 | 3 | 71 | 4 | 20 | 30 | 35
+forecast_14_1	numeric	156	Probability (%)	[48 uniq] 70 | 50 | 67 | 75 | 55 | 86 | 69 | 25
+conditional_02_1	numeric	145	Probability (%)	[53 uniq] 45 | 96 | 0 | 20 | 39 | 40 | 1 | 19
+conditional_03_1	numeric	159	Probability (%)	[51 uniq] 90 | 20 | 25 | 75 | 50 | 10 | 80 | 30
+conditional_04_1	numeric	131	Probability (%)	[49 uniq] 1 | 50 | 56 | 95 | 25 | 90 | 35 | 30
+conditional_05_1	numeric	136	Probability (%)	[44 uniq] 20 | 70 | 25 | 36 | 10 | 75 | 50 | 83
+conditional_06_1	numeric	139	Probability (%)	[47 uniq] 0 | 85 | 3 | 9 | 50 | 70 | 55 | 81
+conditional_07_1	numeric	128	Probability (%)	[50 uniq] 65 | 15 | 80 | 75 | 11 | 10 | 51 | 56
+conditional_08_1	numeric	157	Probability (%)	[51 uniq] 10 | 20 | 50 | 19 | 25 | 28 | 1 | 44
+conditional_09_1	numeric	139	Probability (%)	[49 uniq] 45 | 50 | 40 | 0 | 20 | 83 | 2 | 62
+conditional_10_1	numeric	141	Probability (%)	[44 uniq] 95 | 80 | 50 | 90 | 85 | 74 | 30 | 97
+conditional_11_1	numeric	71	Probability (%)	[29 uniq] 51 | 10 | 40 | 50 | 80 | 20 | 55 | 0
+conditional_12_1	numeric	62	Probability (%)	[31 uniq] 30 | 40 | 25 | 66 | 5 | 60 | 0 | 38
+conditional_13_1	numeric	146	Probability (%)	[48 uniq] 30 | 10 | 15 | 50 | 16 | 66 | 95 | 1
+conditional_14_1	numeric	154	Probability (%)	[51 uniq] 20 | 30 | 5 | 0 | 24 | 35 | 61 | 33
+political_scientist_role	haven_labelled	399	Which of these statements comes closer to your own view, even if neither is exac	1=Political scientists should take an active role in public debates about issues r | 2=Political scientists should focus on establishing sound scientific facts and sta
+pol_sci_communication_1	haven_labelled	401	Political scientists should communicate about threats to democracy with the gene	1=Strongly disagree | 2=Disagree | 3=Neither agree nor disagree | 4=Agree | 5=Strongly agree
+pol_sci_communication_2	haven_labelled	401	Political scientists should communicate their findings to politicians.	1=Strongly disagree | 2=Disagree | 3=Neither agree nor disagree | 4=Agree | 5=Strongly agree
+forecast_15_1	numeric	145	Probability (%)	[40 uniq] 20 | 5 | 30 | 1 | 25 | 70 | 35 | 10
+conditional_15_1	numeric	142	Probability (%)	[50 uniq] 10 | 60 | 61 | 50 | 40 | 85 | 2 | 58
+forecast_16_1	numeric	137	Probability (%)	[41 uniq] 40 | 80 | 100 | 60 | 65 | 90 | 50 | 95
+conditional_16_1	numeric	132	Probability (%)	[47 uniq] 90 | 100 | 70 | 95 | 66 | 25 | 50 | 85
+forecast_01	numeric	416	We ask you to provide your answers using numeric percentages. If you think the s	[71 uniq] 75 | 80 | 50 | 95 | 40 | 25 | 10 | 55
+forecast_01_exposed	numeric	492	Shown question: We ask you to provide your answers using numeric percentages. If	1 | 0
+forecast_01_selected	numeric	492	Selected question: We ask you to provide your answers using numeric percentages.	1
+forecast_01_rank	numeric	492	Question order: We ask you to provide your answers using numeric percentages. If	2 | 0 | 5 | 3 | 1 | 4 | 6
+forecast_02	numeric	148	We ask you to provide your answers using numeric percentages. If you think the s	[41 uniq] 0 | 9 | 15 | 18 | 10 | 89 | 20 | 61
+forecast_02_exposed	numeric	492	Shown question: We ask you to provide your answers using numeric percentages. If	0 | 1
+forecast_02_selected	numeric	492	Selected question: We ask you to provide your answers using numeric percentages.	0 | 1
+forecast_02_rank	numeric	492	Question order: We ask you to provide your answers using numeric percentages. If	0 | 1 | 4 | 6 | 2 | 5 | 3
+forecast_03	numeric	166	We ask you to provide your answers using numeric percentages. If you think the s	[45 uniq] 0 | 30 | 1 | 20 | 25 | 5 | 70 | 3
+forecast_03_exposed	numeric	492	Shown question: We ask you to provide your answers using numeric percentages. If	0 | 1
+forecast_03_selected	numeric	492	Selected question: We ask you to provide your answers using numeric percentages.	0 | 1
+forecast_03_rank	numeric	492	Question order: We ask you to provide your answers using numeric percentages. If	0 | 1 | 3 | 4 | 2 | 5 | 6
+forecast_04	numeric	135	We ask you to provide your answers using numeric percentages. If you think the s	[31 uniq] 1 | 50 | 8 | 3 | 20 | 0 | 2 | 5
+forecast_04_exposed	numeric	492	Shown question: We ask you to provide your answers using numeric percentages. If	0 | 1
+forecast_04_selected	numeric	492	Selected question: We ask you to provide your answers using numeric percentages.	0 | 1
+forecast_04_rank	numeric	492	Question order: We ask you to provide your answers using numeric percentages. If	0 | 5 | 3 | 1 | 4 | 6 | 2
+forecast_05	numeric	144	We ask you to provide your answers using numeric percentages. If you think the s	[46 uniq] 80 | 90 | 25 | 53 | 81 | 75 | 51 | 10
+forecast_05_exposed	numeric	492	Shown question: We ask you to provide your answers using numeric percentages. If	1 | 0
+forecast_05_selected	numeric	492	Selected question: We ask you to provide your answers using numeric percentages.	1 | 0
+forecast_05_rank	numeric	492	Question order: We ask you to provide your answers using numeric percentages. If	3 | 0 | 4 | 1 | 5 | 2 | 6
+forecast_06	numeric	142	We ask you to provide your answers using numeric percentages. If you think the s	[25 uniq] 30 | 5 | 0 | 15 | 1 | 25 | 4 | 40
+forecast_06_exposed	numeric	492	Shown question: We ask you to provide your answers using numeric percentages. If	0 | 1
+forecast_06_selected	numeric	492	Selected question: We ask you to provide your answers using numeric percentages.	0 | 1
+forecast_06_rank	numeric	492	Question order: We ask you to provide your answers using numeric percentages. If	0 | 2 | 6 | 1 | 3 | 4 | 5
+forecast_07	numeric	136	We ask you to provide your answers using numeric percentages. If you think the s	[47 uniq] 71 | 50 | 80 | 15 | 0 | 10 | 5 | 25
+forecast_07_exposed	numeric	492	Shown question: We ask you to provide your answers using numeric percentages. If	0 | 1
+forecast_07_selected	numeric	492	Selected question: We ask you to provide your answers using numeric percentages.	0 | 1
+forecast_07_rank	numeric	492	Question order: We ask you to provide your answers using numeric percentages. If	0 | 2 | 1 | 5 | 6 | 4 | 3
+forecast_08	numeric	163	We ask you to provide your answers using numeric percentages. If you think the s	[40 uniq] 1 | 10 | 5 | 66 | 50 | 3 | 15 | 60
+forecast_08_exposed	numeric	492	Shown question: We ask you to provide your answers using numeric percentages. If	0 | 1
+forecast_08_selected	numeric	492	Selected question: We ask you to provide your answers using numeric percentages.	0 | 1
+forecast_08_rank	numeric	492	Question order: We ask you to provide your answers using numeric percentages. If	0 | 4 | 6 | 3 | 2 | 1 | 5
+forecast_09	numeric	145	We ask you to provide your answers using numeric percentages. If you think the s	[38 uniq] 0 | 50 | 5 | 10 | 9 | 3 | 19 | 15
+forecast_09_exposed	numeric	492	Shown question: We ask you to provide your answers using numeric percentages. If	0 | 1
+forecast_09_selected	numeric	492	Selected question: We ask you to provide your answers using numeric percentages.	0 | 1
+forecast_09_rank	numeric	492	Question order: We ask you to provide your answers using numeric percentages. If	0 | 3 | 2 | 6 | 1 | 5 | 4
+forecast_10	numeric	145	We ask you to provide your answers using numeric percentages. If you think the s	[29 uniq] 95 | 70 | 15 | 80 | 92 | 100 | 71 | 97
+forecast_10_exposed	numeric	492	Shown question: We ask you to provide your answers using numeric percentages. If	1 | 0
+forecast_10_selected	numeric	492	Selected question: We ask you to provide your answers using numeric percentages.	1 | 0
+forecast_10_rank	numeric	492	Question order: We ask you to provide your answers using numeric percentages. If	4 | 0 | 6 | 3 | 2 | 5 | 1
+forecast_11	numeric	77	We ask you to provide your answers using numeric percentages. If you think the s	[31 uniq] 1 | 5 | 20 | 45 | 70 | 35 | 10 | 0
+forecast_11_exposed	numeric	492	Shown question: We ask you to provide your answers using numeric percentages. If	0 | 1
+forecast_11_selected	numeric	492	Selected question: We ask you to provide your answers using numeric percentages.	0 | 1
+forecast_11_rank	numeric	492	Question order: We ask you to provide your answers using numeric percentages. If	0 | 2 | 5 | 3 | 1 | 4 | 6
+forecast_12	numeric	64	We ask you to provide your answers using numeric percentages. If you think the s	[25 uniq] 25 | 3 | 20 | 5 | 10 | 2 | 70 | 100
+forecast_12_exposed	numeric	492	Shown question: We ask you to provide your answers using numeric percentages. If	0 | 1
+forecast_12_selected	numeric	492	Selected question: We ask you to provide your answers using numeric percentages.	0 | 1
+forecast_12_rank	numeric	492	Question order: We ask you to provide your answers using numeric percentages. If	0 | 5 | 6 | 1 | 2 | 3 | 4
+forecast_13	numeric	155	We ask you to provide your answers using numeric percentages. If you think the s	[40 uniq] 50 | 5 | 3 | 71 | 4 | 20 | 30 | 35
+forecast_13_exposed	numeric	492	Shown question: We ask you to provide your answers using numeric percentages. If	0 | 1
+forecast_13_selected	numeric	492	Selected question: We ask you to provide your answers using numeric percentages.	0 | 1
+forecast_13_rank	numeric	492	Question order: We ask you to provide your answers using numeric percentages. If	0 | 6 | 2 | 1 | 5 | 3 | 4
+forecast_14	numeric	156	We ask you to provide your answers using numeric percentages. If you think the s	[48 uniq] 70 | 50 | 67 | 75 | 55 | 86 | 69 | 25
+forecast_14_exposed	numeric	492	Shown question: We ask you to provide your answers using numeric percentages. If	1 | 0
+forecast_14_selected	numeric	492	Selected question: We ask you to provide your answers using numeric percentages.	1 | 0
+forecast_14_rank	numeric	492	Question order: We ask you to provide your answers using numeric percentages. If	5 | 0 | 6 | 3 | 2 | 4 | 1
+forecast_15	numeric	145	We ask you to provide your answers using numeric percentages. If you think the s	[40 uniq] 20 | 5 | 30 | 1 | 25 | 70 | 35 | 10
+forecast_15_exposed	numeric	492	Shown question: We ask you to provide your answers using numeric percentages. If	1 | 0
+forecast_15_selected	numeric	492	Selected question: We ask you to provide your answers using numeric percentages.	1 | 0
+forecast_15_rank	numeric	492	Question order: We ask you to provide your answers using numeric percentages. If	1 | 0 | 3 | 6 | 2 | 4 | 5
+forecast_16	numeric	137	We ask you to provide your answers using numeric percentages. If you think the s	[41 uniq] 40 | 80 | 100 | 60 | 65 | 90 | 50 | 95
+forecast_16_exposed	numeric	492	Shown question: We ask you to provide your answers using numeric percentages. If	1 | 0
+forecast_16_selected	numeric	492	Selected question: We ask you to provide your answers using numeric percentages.	1 | 0
+forecast_16_rank	numeric	492	Question order: We ask you to provide your answers using numeric percentages. If	6 | 0 | 1 | 2 | 5 | 3 | 4
+conditional_02	numeric	145	You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}% probability that	[53 uniq] 45 | 96 | 0 | 20 | 39 | 40 | 1 | 19
+conditional_02_exposed	numeric	492	Shown question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	0 | 1
+conditional_02_selected	numeric	492	Selected question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1	0 | 1
+conditional_02_rank	numeric	492	Question order: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	0 | 1 | 4 | 5 | 2 | 3
+conditional_03	numeric	159	You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}% probability that	[51 uniq] 90 | 20 | 25 | 75 | 50 | 10 | 80 | 30
+conditional_03_exposed	numeric	492	Shown question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	0 | 1
+conditional_03_selected	numeric	492	Selected question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1	0 | 1
+conditional_03_rank	numeric	492	Question order: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	0 | 1 | 3 | 2 | 4 | 5
+conditional_04	numeric	131	You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}% probability that	[49 uniq] 1 | 50 | 56 | 95 | 25 | 90 | 35 | 30
+conditional_04_exposed	numeric	492	Shown question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	0 | 1
+conditional_04_selected	numeric	492	Selected question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1	0 | 1
+conditional_04_rank	numeric	492	Question order: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	0 | 4 | 3 | 1 | 2 | 5
+conditional_05	numeric	136	You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}% probability that	[44 uniq] 20 | 70 | 25 | 36 | 10 | 75 | 50 | 83
+conditional_05_exposed	numeric	492	Shown question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	1 | 0
+conditional_05_selected	numeric	492	Selected question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1	1 | 0
+conditional_05_rank	numeric	492	Question order: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	2 | 0 | 3 | 1 | 4 | 5
+conditional_06	numeric	139	You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}% probability that	[47 uniq] 0 | 85 | 3 | 9 | 50 | 70 | 55 | 81
+conditional_06_exposed	numeric	492	Shown question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	0 | 1
+conditional_06_selected	numeric	492	Selected question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1	0 | 1
+conditional_06_rank	numeric	492	Question order: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	0 | 1 | 5 | 3 | 4 | 2
+conditional_07	numeric	128	You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}% probability that	[50 uniq] 65 | 15 | 80 | 75 | 11 | 10 | 51 | 56
+conditional_07_exposed	numeric	492	Shown question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	0 | 1
+conditional_07_selected	numeric	492	Selected question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1	0 | 1
+conditional_07_rank	numeric	492	Question order: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	0 | 2 | 1 | 4 | 5 | 3
+conditional_08	numeric	157	You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}% probability that	[51 uniq] 10 | 20 | 50 | 19 | 25 | 28 | 1 | 44
+conditional_08_exposed	numeric	492	Shown question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	0 | 1
+conditional_08_selected	numeric	492	Selected question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1	0 | 1
+conditional_08_rank	numeric	492	Question order: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	0 | 3 | 5 | 4 | 2 | 1
+conditional_09	numeric	139	You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}% probability that	[49 uniq] 45 | 50 | 40 | 0 | 20 | 83 | 2 | 62
+conditional_09_exposed	numeric	492	Shown question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	0 | 1
+conditional_09_selected	numeric	492	Selected question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1	0 | 1
+conditional_09_rank	numeric	492	Question order: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	0 | 3 | 2 | 5 | 1 | 4
+conditional_10	numeric	141	You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}% probability that	[44 uniq] 95 | 80 | 50 | 90 | 85 | 74 | 30 | 97
+conditional_10_exposed	numeric	492	Shown question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	1 | 0
+conditional_10_selected	numeric	492	Selected question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1	1 | 0
+conditional_10_rank	numeric	492	Question order: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	3 | 0 | 5 | 2 | 4 | 1
+conditional_11	numeric	71	You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}% probability that	[29 uniq] 51 | 10 | 40 | 50 | 80 | 20 | 55 | 0
+conditional_11_exposed	numeric	492	Shown question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	0 | 1
+conditional_11_selected	numeric	492	Selected question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1	0 | 1
+conditional_11_rank	numeric	492	Question order: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	0 | 2 | 4 | 3 | 1 | 5
+conditional_12	numeric	62	You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}% probability that	[31 uniq] 30 | 40 | 25 | 66 | 5 | 60 | 0 | 38
+conditional_12_exposed	numeric	492	Shown question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	0 | 1
+conditional_12_selected	numeric	492	Selected question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1	0 | 1
+conditional_12_rank	numeric	492	Question order: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	0 | 4 | 5 | 1 | 2 | 3
+conditional_13	numeric	146	You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}% probability that	[48 uniq] 30 | 10 | 15 | 50 | 16 | 66 | 95 | 1
+conditional_13_exposed	numeric	492	Shown question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	0 | 1
+conditional_13_selected	numeric	492	Selected question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1	0 | 1
+conditional_13_rank	numeric	492	Question order: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	0 | 5 | 1 | 4 | 2 | 3
+conditional_14	numeric	154	You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}% probability that	[51 uniq] 20 | 30 | 5 | 0 | 24 | 35 | 61 | 33
+conditional_14_exposed	numeric	492	Shown question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	1 | 0
+conditional_14_selected	numeric	492	Selected question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1	1 | 0
+conditional_14_rank	numeric	492	Question order: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	4 | 0 | 5 | 3 | 2 | 1
+conditional_15	numeric	142	You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}% probability that	[50 uniq] 10 | 60 | 61 | 50 | 40 | 85 | 2 | 58
+conditional_15_exposed	numeric	492	Shown question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	1 | 0
+conditional_15_selected	numeric	492	Selected question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1	1 | 0
+conditional_15_rank	numeric	492	Question order: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	1 | 0 | 2 | 5 | 4 | 3
+conditional_16	numeric	132	You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}% probability that	[47 uniq] 90 | 100 | 70 | 95 | 66 | 25 | 50 | 85
+conditional_16_exposed	numeric	492	Shown question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	1 | 0
+conditional_16_selected	numeric	492	Selected question: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1	1 | 0
+conditional_16_rank	numeric	492	Question order: You previously gave a ${q://QID1464/ChoiceNumericEntryValue/1}%	5 | 0 | 1 | 2 | 4 | 3

@@ -1,0 +1,530 @@
+var	class	n	label	values
+start	POSIXct	734	Start Date	[721 uniq] 1601892264 | 1601892277 | 1601892376 | 1601892275 | 1601892329 | 1601892445 | 1601892265 | 1601892590
+end	POSIXct	734	End Date	[728 uniq] 1601892594 | 1601892630 | 1601892648 | 1601892753 | 1601892762 | 1601892778 | 1601892907 | 1601892988
+status	factor	734	Response Type	IP Address | Survey Preview | Survey Test | Imported | Spam | Survey Preview Spam | Imported Spam | Offline | Offline Survey Preview | ex | EX Spam | EX Offline
+progress	numeric	734	Progress	100
+duration	numeric	734	Duration (in seconds)	[533 uniq] 329 | 352 | 272 | 477 | 433 | 514 | 461 | 723
+finished	factor	734	Finished	False | True
+recorded_date	POSIXct	734	Recorded Date	[732 uniq] 1601892594 | 1601892630 | 1601892649 | 1601892753 | 1601892762 | 1601892778 | 1601892908 | 1601892989
+record_id	character	734	Response ID	[734 uniq] R_56IxYBFRbcUazwR | R_xnfq6WeuQuZe0IF | R_1FrDZUIa4Bi68UP | R_RIaWtrypsFQsSEF | R_Zf96MuYZZ959xWV | R_2ZDEAQ9ru6DyJqf | R_9GNBUpjYFcnucFj | R_Rs5MTXnkDJD4nDP
+distribution_channel	character	734	Distribution Channel	anonymous
+language	character	734	User Language	EN
+consent	factor	734	Thank you for participating in the Bright Line Watch survey of political scienti	I agree to continue. | I do not agree to continue.
+Q2_1_First_Click	numeric	734	Timing - First Click	[26 uniq] 0 | 9.373 | 5.784 | 6.792 | 2.761 | 2.241 | 1.157 | 6.098
+Q2_1_Last_Click	numeric	734	Timing - Last Click	[26 uniq] 0 | 13.725 | 5.784 | 6.792 | 2.761 | 2.241 | 1.157 | 6.098
+Q2_1_Page_Submit	numeric	734	Timing - Page Submit	[705 uniq] 1.519 | 4.608 | 2.947 | 2.143 | 2.53 | 1.447 | 3.427 | 2.185
+Q2_1_Click_Count	numeric	734	Timing - Click Count	0 | 3 | 1 | 2 | 4
+Q2_5_First_Click	numeric	734	Timing - First Click	[721 uniq] 3.97 | 7.74 | 5.831 | 4.98 | 10.376 | 9.56 | 7.63 | 8.882
+Q2_5_Last_Click	numeric	734	Timing - Last Click	[732 uniq] 56.609 | 43.58 | 40.744 | 48.127 | 50.734 | 62.223 | 90.682 | 51.664
+Q2_5_Page_Submit	numeric	734	Timing - Page Submit	[731 uniq] 57.359 | 45.404 | 41.733 | 49.424 | 51.647 | 63.301 | 92.423 | 52.826
+Q2_5_Click_Count	numeric	734	Timing - Click Count	[30 uniq] 19 | 9 | 10 | 13 | 17 | 15 | 16 | 21
+perf_misconduct	factor	203	How well do the following statements describe the United States as of today? - G	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_private_gain	factor	211	How well do the following statements describe the United States as of today? - G	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_monitor_opponents	factor	211	How well do the following statements describe the United States as of today? - G	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_equal_rights	factor	224	How well do the following statements describe the United States as of today? - A	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_journalists	factor	209	How well do the following statements describe the United States as of today? - G	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_private_violence	factor	204	How well do the following statements describe the United States as of today? - G	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_free_speech	factor	231	How well do the following statements describe the United States as of today? - G	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_patriotism	factor	197	How well do the following statements describe the United States as of today? - P	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_foreign	factor	227	How well do the following statements describe the United States as of today? - E	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_ban_ideology	factor	213	How well do the following statements describe the United States as of today? - P	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_voting_rights	factor	249	How well do the following statements describe the United States as of today? - A	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_votes_impact	factor	220	How well do the following statements describe the United States as of today? - A	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_election_fraud	factor	214	How well do the following statements describe the United States as of today? - E	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_expand_executive	factor	208	How well do the following statements describe the United States as of today? - E	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_legislature_check	factor	221	How well do the following statements describe the United States as of today? - T	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_judiciary_check	factor	225	How well do the following statements describe the United States as of today? - T	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_judicial_ind	factor	239	How well do the following statements describe the United States as of today? - T	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_participation	factor	220	How well do the following statements describe the United States as of today? - V	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_funds_transparent	factor	231	How well do the following statements describe the United States as of today? - I	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_contributions	factor	233	How well do the following statements describe the United States as of today? - P	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_opinions	factor	223	How well do the following statements describe the United States as of today? - C	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_districts	factor	215	How well do the following statements describe the United States as of today? - T	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_common_und	factor	200	How well do the following statements describe the United States as of today? - E	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_compromise	factor	226	How well do the following statements describe the United States as of today? - E	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_candidates_disclose	factor	202	How well do the following statements describe the United States as of today? - C	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_protest	factor	228	How well do the following statements describe the United States as of today? - G	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_investigations	factor	238	How well do the following statements describe the United States as of today? - L	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_gov_stats	factor	221	How well do the following statements describe the United States as of today? - G	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_equal_enforce	factor	229	How well do the following statements describe the United States as of today? - T	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+perf_concede_defeat	factor	222	How well do the following statements describe the United States as of today? - I	The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+Q3_1_First_Click	numeric	734	Timing - First Click	[706 uniq] 4.36 | 11.05 | 2.325 | 9.236 | 5.262 | 6.407 | 4.576 | 4.414
+Q3_1_Last_Click	numeric	734	Timing - Last Click	[721 uniq] 10.311 | 12.535 | 5.077 | 9.236 | 5.262 | 6.407 | 6.812 | 4.414
+Q3_1_Page_Submit	numeric	734	Timing - Page Submit	[722 uniq] 10.946 | 13.633 | 5.929 | 11.347 | 6.163 | 11.601 | 7.976 | 5.703
+Q3_1_Click_Count	numeric	734	Timing - Click Count	[14 uniq] 4 | 2 | 3 | 1 | 5 | 7 | 11 | 6
+rating_USA	numeric	733	On a scale from 0 to 100, where 0 is least democratic and 100 is most democratic	[85 uniq] 83 | 47 | 65 | 50 | 55 | 56 | 78 | 30
+Q4_timer_First_Click	numeric	734	Timing - First Click	[700 uniq] 3 | 4.857 | 2.293 | 6.647 | 2.606 | 3.813 | 2.798 | 3.1
+Q4_timer_Last_Click	numeric	734	Timing - Last Click	[712 uniq] 3 | 4.857 | 4.598 | 6.647 | 2.606 | 3.813 | 7.318 | 3.1
+Q4_timer_Page_Submit	numeric	734	Timing - Page Submit	[708 uniq] 4.02 | 6.036 | 5.316 | 9.541 | 4.338 | 5.821 | 8.491 | 6.245
+Q4_timer_Click_Count	numeric	734	Timing - Click Count	[10 uniq] 1 | 2 | 4 | 6 | 3 | 5 | 8 | 15
+Q4_1	factor	734	Now we'd like to ask you a question about democracy in your state. In which stat	Alabama | Alaska | Arizona | Arkansas | California | Colorado | Connecticut | Delaware | District of Columbia | Florida | Georgia | Hawaii | Idaho | Illinois | Indiana | Iowa | Kansas | Kentucky | Louisiana | Maine | Maryland | Massachusetts | Michigan | Minnesota | Mississippi | Missouri | Monta...
+Q5_0_First_Click	numeric	734	Timing - First Click	[722 uniq] 8.929 | 5.591 | 4.009 | 8.216 | 15.258 | 17.393 | 7.797 | 2.619
+Q5_0_Last_Click	numeric	734	Timing - Last Click	[727 uniq] 8.929 | 5.591 | 4.009 | 8.216 | 15.258 | 27.689 | 7.797 | 6.026
+Q5_0_Page_Submit	numeric	734	Timing - Page Submit	[719 uniq] 9.685 | 6.455 | 4.805 | 9.58 | 16.04 | 29.14 | 8.864 | 7.588
+Q5_0_Click_Count	numeric	734	Timing - Click Count	[10 uniq] 1 | 2 | 3 | 4 | 5 | 8 | 6 | 7
+Q5_1_1	numeric	730	Now using the same 0 to 100 scale as previously, how would you rate the politica	[82 uniq] 85 | 61 | 75 | 60 | 84 | 80 | 79 | 35
+Q5_2_1	factor	0	Next, still thinking about the performance of democracy at the state level, we'd	Alabama
+Q5_2_4	factor	1	Next, still thinking about the performance of democracy at the state level, we'd	Alaska
+Q5_2_5	factor	5	Next, still thinking about the performance of democracy at the state level, we'd	Arizona
+Q5_2_6	factor	0	Next, still thinking about the performance of democracy at the state level, we'd	Arkansas
+Q5_2_7	factor	241	Next, still thinking about the performance of democracy at the state level, we'd	California
+Q5_2_8	factor	58	Next, still thinking about the performance of democracy at the state level, we'd	Colorado
+Q5_2_9	factor	24	Next, still thinking about the performance of democracy at the state level, we'd	Connecticut
+Q5_2_10	factor	1	Next, still thinking about the performance of democracy at the state level, we'd	Delaware
+Q5_2_12	factor	5	Next, still thinking about the performance of democracy at the state level, we'd	Florida
+Q5_2_13	factor	1	Next, still thinking about the performance of democracy at the state level, we'd	Georgia
+Q5_2_14	factor	19	Next, still thinking about the performance of democracy at the state level, we'd	Hawaii
+Q5_2_15	factor	2	Next, still thinking about the performance of democracy at the state level, we'd	Idaho
+Q5_2_16	factor	2	Next, still thinking about the performance of democracy at the state level, we'd	Illinois
+Q5_2_17	factor	0	Next, still thinking about the performance of democracy at the state level, we'd	Indiana
+Q5_2_18	factor	5	Next, still thinking about the performance of democracy at the state level, we'd	Iowa
+Q5_2_19	factor	0	Next, still thinking about the performance of democracy at the state level, we'd	Kansas
+Q5_2_20	factor	1	Next, still thinking about the performance of democracy at the state level, we'd	Kentucky
+Q5_2_21	factor	1	Next, still thinking about the performance of democracy at the state level, we'd	Louisiana
+Q5_2_22	factor	62	Next, still thinking about the performance of democracy at the state level, we'd	Maine
+Q5_2_23	factor	18	Next, still thinking about the performance of democracy at the state level, we'd	Maryland
+Q5_2_24	factor	149	Next, still thinking about the performance of democracy at the state level, we'd	Massachusetts
+Q5_2_25	factor	7	Next, still thinking about the performance of democracy at the state level, we'd	Michigan
+Q5_2_26	factor	62	Next, still thinking about the performance of democracy at the state level, we'd	Minnesota
+Q5_2_27	factor	0	Next, still thinking about the performance of democracy at the state level, we'd	Mississippi
+Q5_2_28	factor	0	Next, still thinking about the performance of democracy at the state level, we'd	Missouri
+Q5_2_29	factor	8	Next, still thinking about the performance of democracy at the state level, we'd	Montana
+Q5_2_30	factor	11	Next, still thinking about the performance of democracy at the state level, we'd	Nebraska
+Q5_2_31	factor	2	Next, still thinking about the performance of democracy at the state level, we'd	Nevada
+Q5_2_32	factor	34	Next, still thinking about the performance of democracy at the state level, we'd	New Hampshire
+Q5_2_33	factor	8	Next, still thinking about the performance of democracy at the state level, we'd	New Jersey
+Q5_2_34	factor	7	Next, still thinking about the performance of democracy at the state level, we'd	New Mexico
+Q5_2_35	factor	78	Next, still thinking about the performance of democracy at the state level, we'd	New York
+Q5_2_36	factor	0	Next, still thinking about the performance of democracy at the state level, we'd	North Carolina
+Q5_2_37	factor	5	Next, still thinking about the performance of democracy at the state level, we'd	North Dakota
+Q5_2_38	factor	9	Next, still thinking about the performance of democracy at the state level, we'd	Ohio
+Q5_2_39	factor	0	Next, still thinking about the performance of democracy at the state level, we'd	Oklahoma
+Q5_2_40	factor	69	Next, still thinking about the performance of democracy at the state level, we'd	Oregon
+Q5_2_41	factor	2	Next, still thinking about the performance of democracy at the state level, we'd	Pennsylvania
+Q5_2_42	factor	10	Next, still thinking about the performance of democracy at the state level, we'd	Rhode Island
+Q5_2_43	factor	0	Next, still thinking about the performance of democracy at the state level, we'd	South Carolina
+Q5_2_44	factor	7	Next, still thinking about the performance of democracy at the state level, we'd	South Dakota
+Q5_2_45	factor	0	Next, still thinking about the performance of democracy at the state level, we'd	Tennessee
+Q5_2_46	factor	6	Next, still thinking about the performance of democracy at the state level, we'd	Texas
+Q5_2_47	factor	12	Next, still thinking about the performance of democracy at the state level, we'd	Utah
+Q5_2_48	factor	100	Next, still thinking about the performance of democracy at the state level, we'd	Vermont
+Q5_2_49	factor	19	Next, still thinking about the performance of democracy at the state level, we'd	Viriginia
+Q5_2_50	factor	112	Next, still thinking about the performance of democracy at the state level, we'd	Washington
+Q5_2_51	factor	2	Next, still thinking about the performance of democracy at the state level, we'd	West Virigina
+Q5_2_52	factor	4	Next, still thinking about the performance of democracy at the state level, we'd	Wisconsin
+Q5_2_53	factor	6	Next, still thinking about the performance of democracy at the state level, we'd	Wyoming
+Q5_4_1	factor	169	Lowest: Alabama	Alabama
+Q5_4_4	factor	0	Lowest: Alaska	Alaska
+Q5_4_5	factor	2	Lowest: Arizona	Arizona
+Q5_4_6	factor	4	Lowest: Arkansas	Arkansas
+Q5_4_7	factor	25	Lowest: California	California
+Q5_4_8	factor	0	Lowest: Colorado	Colorado
+Q5_4_9	factor	0	Lowest: Connecticut	Connecticut
+Q5_4_10	factor	0	Lowest: Delaware	Delaware
+Q5_4_11	factor	12	Lowest: District of Columbia	District of Columbia
+Q5_4_12	factor	167	Lowest: Florida	Florida
+Q5_4_13	factor	192	Lowest: Georgia	Georgia
+Q5_4_14	factor	0	Lowest: Hawaii	Hawaii
+Q5_4_15	factor	6	Lowest: Idaho	Idaho
+Q5_4_16	factor	17	Lowest: Illinois	Illinois
+Q5_4_17	factor	2	Lowest: Indiana	Indiana
+Q5_4_18	factor	2	Lowest: Iowa	Iowa
+Q5_4_19	factor	6	Lowest: Kansas	Kansas
+Q5_4_20	factor	13	Lowest: Kentucky	Kentucky
+Q5_4_21	factor	36	Lowest: Louisiana	Louisiana
+Q5_4_22	factor	1	Lowest: Maine	Maine
+Q5_4_23	factor	0	Lowest: Maryland	Maryland
+Q5_4_24	factor	1	Lowest: Massachusetts	Massachusetts
+Q5_4_25	factor	3	Lowest: Michigan	Michigan
+Q5_4_26	factor	3	Lowest: Minnesota	Minnesota
+Q5_4_27	factor	139	Lowest: Mississippi	Mississippi
+Q5_4_28	factor	6	Lowest: Missouri	Missouri
+Q5_4_29	factor	1	Lowest: Montana	Montana
+Q5_4_30	factor	0	Lowest: Nebraska	Nebraska
+Q5_4_31	factor	0	Lowest: Nevada	Nevada
+Q5_4_32	factor	0	Lowest: New Hampshire	New Hampshire
+Q5_4_33	factor	5	Lowest: New Jersey	New Jersey
+Q5_4_34	factor	0	Lowest: New Mexico	New Mexico
+Q5_4_35	factor	21	Lowest: New York	New York
+Q5_4_36	factor	67	Lowest: North Carolina	North Carolina
+Q5_4_37	factor	4	Lowest: North Dakota	North Dakota
+Q5_4_38	factor	3	Lowest: Ohio	Ohio
+Q5_4_39	factor	5	Lowest: Oklahoma	Oklahoma
+Q5_4_40	factor	5	Lowest: Oregon	Oregon
+Q5_4_41	factor	5	Lowest: Pennsylvania	Pennsylvania
+Q5_4_42	factor	0	Lowest: Rhode Island	Rhode Island
+Q5_4_43	factor	25	Lowest: South Carolina	South Carolina
+Q5_4_44	factor	6	Lowest: South Dakota	South Dakota
+Q5_4_45	factor	7	Lowest: Tennessee	Tennessee
+Q5_4_46	factor	141	Lowest: Texas	Texas
+Q5_4_47	factor	6	Lowest: Utah	Utah
+Q5_4_48	factor	0	Lowest: Vermont	Vermont
+Q5_4_49	factor	1	Lowest: Viriginia	Viriginia
+Q5_4_50	factor	3	Lowest: Washington	Washington
+Q5_4_51	factor	13	Lowest: West Virigina	West Virigina
+Q5_4_52	factor	86	Lowest: Wisconsin	Wisconsin
+Q5_4_53	factor	0	Lowest: Wyoming	Wyoming
+Q5_2_a_1	numeric	0	You rated the political system of the United States today as [QID520-ChoiceNumer	
+Q5_2_a_4	numeric	1	You rated the political system of the United States today as [QID520-ChoiceNumer	90
+Q5_2_a_5	numeric	4	You rated the political system of the United States today as [QID520-ChoiceNumer	80 | 95 | 70 | 60
+Q5_2_a_6	numeric	0	You rated the political system of the United States today as [QID520-ChoiceNumer	
+Q5_2_a_7	numeric	238	You rated the political system of the United States today as [QID520-ChoiceNumer	[41 uniq] 81 | 80 | 85 | 89 | 82 | 61 | 95 | 90
+Q5_2_a_8	numeric	58	You rated the political system of the United States today as [QID520-ChoiceNumer	[25 uniq] 69 | 94 | 65 | 91 | 81 | 78 | 80 | 90
+Q5_2_a_9	numeric	24	You rated the political system of the United States today as [QID520-ChoiceNumer	[16 uniq] 91 | 92 | 85 | 81 | 75 | 94 | 100 | 93
+Q5_2_a_10	numeric	1	You rated the political system of the United States today as [QID520-ChoiceNumer	91
+Q5_2_a_12	numeric	5	You rated the political system of the United States today as [QID520-ChoiceNumer	100 | 94 | 99 | 90
+Q5_2_a_13	numeric	1	You rated the political system of the United States today as [QID520-ChoiceNumer	100
+Q5_2_a_14	numeric	19	You rated the political system of the United States today as [QID520-ChoiceNumer	[10 uniq] 86 | 90 | 74 | 94 | 85 | 92 | 91 | 93
+Q5_2_a_15	numeric	2	You rated the political system of the United States today as [QID520-ChoiceNumer	84 | 90
+Q5_2_a_16	numeric	2	You rated the political system of the United States today as [QID520-ChoiceNumer	75 | 93
+Q5_2_a_17	numeric	0	You rated the political system of the United States today as [QID520-ChoiceNumer	
+Q5_2_a_18	numeric	5	You rated the political system of the United States today as [QID520-ChoiceNumer	75 | 99 | 85 | 95 | 88
+Q5_2_a_19	numeric	0	You rated the political system of the United States today as [QID520-ChoiceNumer	
+Q5_2_a_20	numeric	1	You rated the political system of the United States today as [QID520-ChoiceNumer	92
+Q5_2_a_21	numeric	1	You rated the political system of the United States today as [QID520-ChoiceNumer	100
+Q5_2_a_22	numeric	62	You rated the political system of the United States today as [QID520-ChoiceNumer	[21 uniq] 82 | 77 | 97 | 85 | 92 | 100 | 80 | 83
+Q5_2_a_23	numeric	18	You rated the political system of the United States today as [QID520-ChoiceNumer	[12 uniq] 51 | 90 | 87 | 81 | 80 | 85 | 70 | 83
+Q5_2_a_24	numeric	148	You rated the political system of the United States today as [QID520-ChoiceNumer	[33 uniq] 91 | 81 | 90 | 85 | 51 | 80 | 95 | 88
+Q5_2_a_25	numeric	7	You rated the political system of the United States today as [QID520-ChoiceNumer	85 | 70 | 76 | 93
+Q5_2_a_26	numeric	61	You rated the political system of the United States today as [QID520-ChoiceNumer	[24 uniq] 82 | 85 | 95 | 80 | 94 | 90 | 70 | 91
+Q5_2_a_27	numeric	0	You rated the political system of the United States today as [QID520-ChoiceNumer	
+Q5_2_a_28	numeric	0	You rated the political system of the United States today as [QID520-ChoiceNumer	
+Q5_2_a_29	numeric	8	You rated the political system of the United States today as [QID520-ChoiceNumer	90 | 95 | 91 | 74 | 97
+Q5_2_a_30	numeric	11	You rated the political system of the United States today as [QID520-ChoiceNumer	92 | 100 | 88 | 80 | 95 | 85 | 98 | 94
+Q5_2_a_31	numeric	2	You rated the political system of the United States today as [QID520-ChoiceNumer	80 | 87
+Q5_2_a_32	numeric	34	You rated the political system of the United States today as [QID520-ChoiceNumer	[15 uniq] 84 | 90 | 100 | 97 | 96 | 87 | 82 | 95
+Q5_2_a_33	numeric	8	You rated the political system of the United States today as [QID520-ChoiceNumer	80 | 95 | 79 | 89 | 97 | 70 | 85
+Q5_2_a_34	numeric	7	You rated the political system of the United States today as [QID520-ChoiceNumer	47 | 91 | 70 | 92 | 95
+Q5_2_a_35	numeric	76	You rated the political system of the United States today as [QID520-ChoiceNumer	[30 uniq] 80 | 61 | 65 | 90 | 85 | 96 | 95 | 71
+Q5_2_a_36	numeric	0	You rated the political system of the United States today as [QID520-ChoiceNumer	
+Q5_2_a_37	numeric	5	You rated the political system of the United States today as [QID520-ChoiceNumer	77 | 93 | 100 | 94 | 95
+Q5_2_a_38	numeric	9	You rated the political system of the United States today as [QID520-ChoiceNumer	100 | 97 | 90 | 95 | 89 | 85
+Q5_2_a_39	numeric	0	You rated the political system of the United States today as [QID520-ChoiceNumer	
+Q5_2_a_40	numeric	69	You rated the political system of the United States today as [QID520-ChoiceNumer	[25 uniq] 95 | 91 | 85 | 97 | 81 | 75 | 90 | 84
+Q5_2_a_41	numeric	2	You rated the political system of the United States today as [QID520-ChoiceNumer	100 | 95
+Q5_2_a_42	numeric	10	You rated the political system of the United States today as [QID520-ChoiceNumer	[10 uniq] 85 | 95 | 89 | 75 | 62 | 92 | 67 | 93
+Q5_2_a_43	numeric	0	You rated the political system of the United States today as [QID520-ChoiceNumer	
+Q5_2_a_44	numeric	6	You rated the political system of the United States today as [QID520-ChoiceNumer	100 | 96 | 93 | 95
+Q5_2_a_45	numeric	0	You rated the political system of the United States today as [QID520-ChoiceNumer	
+Q5_2_a_46	numeric	6	You rated the political system of the United States today as [QID520-ChoiceNumer	100 | 95 | 90 | 88 | 99
+Q5_2_a_47	numeric	12	You rated the political system of the United States today as [QID520-ChoiceNumer	[11 uniq] 75 | 88 | 90 | 95 | 85 | 89 | 82 | 80
+Q5_2_a_48	numeric	100	You rated the political system of the United States today as [QID520-ChoiceNumer	[28 uniq] 93 | 90 | 95 | 91 | 86 | 100 | 61 | 70
+Q5_2_a_49	numeric	19	You rated the political system of the United States today as [QID520-ChoiceNumer	[12 uniq] 91 | 89 | 83 | 95 | 90 | 80 | 78 | 99
+Q5_2_a_50	numeric	112	You rated the political system of the United States today as [QID520-ChoiceNumer	[27 uniq] 90 | 95 | 86 | 100 | 80 | 92 | 75 | 70
+Q5_2_a_51	numeric	2	You rated the political system of the United States today as [QID520-ChoiceNumer	92 | 85
+Q5_2_a_52	numeric	4	You rated the political system of the United States today as [QID520-ChoiceNumer	90 | 91 | 78
+Q5_2_a_53	numeric	6	You rated the political system of the United States today as [QID520-ChoiceNumer	98 | 99 | 97 | 100 | 91 | 80
+Q5_4_a_1	numeric	150	You rated the political system of the United States today as [QID520-ChoiceNumer	[51 uniq] 35 | 25 | 45 | 63 | 60 | 9 | 79 | 50
+Q5_4_a_4	numeric	0	You rated the political system of the United States today as [QID520-ChoiceNumer	
+Q5_4_a_5	numeric	2	You rated the political system of the United States today as [QID520-ChoiceNumer	40 | 45
+Q5_4_a_6	numeric	4	You rated the political system of the United States today as [QID520-ChoiceNumer	30 | 27 | 10 | 40
+Q5_4_a_7	numeric	20	You rated the political system of the United States today as [QID520-ChoiceNumer	[14 uniq] 30 | 2 | 8 | 25 | 88 | 9 | 20 | 15
+Q5_4_a_8	numeric	0	You rated the political system of the United States today as [QID520-ChoiceNumer	
+Q5_4_a_9	numeric	0	You rated the political system of the United States today as [QID520-ChoiceNumer	
+Q5_4_a_10	numeric	0	You rated the political system of the United States today as [QID520-ChoiceNumer	
+Q5_4_a_11	numeric	12	You rated the political system of the United States today as [QID520-ChoiceNumer	90 | 20 | 10 | 32 | 40 | 42 | 15 | 18
+Q5_4_a_12	numeric	157	You rated the political system of the United States today as [QID520-ChoiceNumer	[51 uniq] 70 | 30 | 35 | 40 | 22 | 5 | 10 | 29
+Q5_4_a_13	numeric	175	You rated the political system of the United States today as [QID520-ChoiceNumer	[56 uniq] 65 | 45 | 70 | 38 | 20 | 50 | 60 | 35
+Q5_4_a_14	numeric	0	You rated the political system of the United States today as [QID520-ChoiceNumer	
+Q5_4_a_15	numeric	5	You rated the political system of the United States today as [QID520-ChoiceNumer	55 | 8 | 39 | 60 | 33
+Q5_4_a_16	numeric	15	You rated the political system of the United States today as [QID520-ChoiceNumer	[13 uniq] 57 | 65 | 40 | 20 | 30 | 24 | 70 | 0
+Q5_4_a_17	numeric	2	You rated the political system of the United States today as [QID520-ChoiceNumer	40 | 43
+Q5_4_a_18	numeric	1	You rated the political system of the United States today as [QID520-ChoiceNumer	30
+Q5_4_a_19	numeric	6	You rated the political system of the United States today as [QID520-ChoiceNumer	45 | 65 | 35 | 55 | 30
+Q5_4_a_20	numeric	13	You rated the political system of the United States today as [QID520-ChoiceNumer	[12 uniq] 55 | 70 | 30 | 28 | 40 | 27 | 24 | 45
+Q5_4_a_21	numeric	35	You rated the political system of the United States today as [QID520-ChoiceNumer	[22 uniq] 78 | 30 | 43 | 63 | 25 | 40 | 62 | 70
+Q5_4_a_22	numeric	1	You rated the political system of the United States today as [QID520-ChoiceNumer	86
+Q5_4_a_23	numeric	0	You rated the political system of the United States today as [QID520-ChoiceNumer	
+Q5_4_a_24	numeric	1	You rated the political system of the United States today as [QID520-ChoiceNumer	10
+Q5_4_a_25	numeric	3	You rated the political system of the United States today as [QID520-ChoiceNumer	60 | 33 | 40
+Q5_4_a_26	numeric	1	You rated the political system of the United States today as [QID520-ChoiceNumer	75
+Q5_4_a_27	numeric	122	You rated the political system of the United States today as [QID520-ChoiceNumer	[53 uniq] 40 | 65 | 45 | 60 | 6 | 50 | 10 | 8
+Q5_4_a_28	numeric	6	You rated the political system of the United States today as [QID520-ChoiceNumer	55 | 20 | 45 | 70
+Q5_4_a_29	numeric	1	You rated the political system of the United States today as [QID520-ChoiceNumer	21
+Q5_4_a_30	numeric	0	You rated the political system of the United States today as [QID520-ChoiceNumer	
+Q5_4_a_31	numeric	0	You rated the political system of the United States today as [QID520-ChoiceNumer	
+Q5_4_a_32	numeric	0	You rated the political system of the United States today as [QID520-ChoiceNumer	
+Q5_4_a_33	numeric	4	You rated the political system of the United States today as [QID520-ChoiceNumer	27 | 95 | 38 | 48
+Q5_4_a_34	numeric	0	You rated the political system of the United States today as [QID520-ChoiceNumer	
+Q5_4_a_35	numeric	16	You rated the political system of the United States today as [QID520-ChoiceNumer	[16 uniq] 20 | 2 | 9 | 58 | 70 | 17 | 95 | 15
+Q5_4_a_36	numeric	64	You rated the political system of the United States today as [QID520-ChoiceNumer	[33 uniq] 39 | 29 | 52 | 68 | 62 | 17 | 27 | 20
+Q5_4_a_37	numeric	3	You rated the political system of the United States today as [QID520-ChoiceNumer	3 | 40 | 66
+Q5_4_a_38	numeric	3	You rated the political system of the United States today as [QID520-ChoiceNumer	45 | 32
+Q5_4_a_39	numeric	5	You rated the political system of the United States today as [QID520-ChoiceNumer	35 | 65 | 30 | 42 | 80
+Q5_4_a_40	numeric	5	You rated the political system of the United States today as [QID520-ChoiceNumer	70 | 89 | 50 | 40 | 80
+Q5_4_a_41	numeric	5	You rated the political system of the United States today as [QID520-ChoiceNumer	60 | 35 | 40 | 30 | 41
+Q5_4_a_42	numeric	0	You rated the political system of the United States today as [QID520-ChoiceNumer	
+Q5_4_a_43	numeric	23	You rated the political system of the United States today as [QID520-ChoiceNumer	[15 uniq] 35 | 60 | 16 | 70 | 55 | 50 | 20 | 10
+Q5_4_a_44	numeric	6	You rated the political system of the United States today as [QID520-ChoiceNumer	20 | 69 | 41 | 51 | 60 | 66
+Q5_4_a_45	numeric	7	You rated the political system of the United States today as [QID520-ChoiceNumer	9 | 30 | 64 | 20 | 36 | 45
+Q5_4_a_46	numeric	132	You rated the political system of the United States today as [QID520-ChoiceNumer	[48 uniq] 40 | 47 | 34 | 35 | 29 | 21 | 10 | 28
+Q5_4_a_47	numeric	6	You rated the political system of the United States today as [QID520-ChoiceNumer	35 | 65 | 45 | 49 | 5 | 17
+Q5_4_a_48	numeric	0	You rated the political system of the United States today as [QID520-ChoiceNumer	
+Q5_4_a_49	numeric	1	You rated the political system of the United States today as [QID520-ChoiceNumer	70
+Q5_4_a_50	numeric	2	You rated the political system of the United States today as [QID520-ChoiceNumer	80 | 92
+Q5_4_a_51	numeric	11	You rated the political system of the United States today as [QID520-ChoiceNumer	[10 uniq] 20 | 10 | 34 | 87 | 44 | 40 | 70 | 39
+Q5_4_a_52	numeric	83	You rated the political system of the United States today as [QID520-ChoiceNumer	[35 uniq] 65 | 20 | 10 | 25 | 30 | 41 | 66 | 48
+Q5_4_a_53	numeric	0	You rated the political system of the United States today as [QID520-ChoiceNumer	
+Q5_6	factor	733	How important is it for you to live in a country that is governed democratically	Not at all important1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | Absolutely important10
+Q6_1_First_Click	numeric	734	Timing - First Click	[78 uniq] 3.721 | 0 | 5.156 | 4.034 | 15.879 | 30.513 | 8.856 | 1.451
+Q6_1_Last_Click	numeric	734	Timing - Last Click	[78 uniq] 3.721 | 0 | 9.612 | 4.034 | 16.385 | 32.107 | 8.856 | 10.056
+Q6_1_Page_Submit	numeric	734	Timing - Page Submit	[720 uniq] 5.617 | 2.101 | 5.548 | 6.403 | 9.965 | 4.908 | 3.085 | 5.365
+Q6_1_Click_Count	numeric	734	Timing - Click Count	[12 uniq] 1 | 0 | 5 | 2 | 4 | 30 | 7 | 3
+Q7_1_First_Click	numeric	212	Timing - First Click	[207 uniq] 7.273 | 3.267 | 4.643 | 4.129 | 3.235 | 5.165 | 3.024 | 5.616
+Q7_1_Last_Click	numeric	212	Timing - Last Click	[212 uniq] 10.365 | 6.631 | 6.468 | 9.621 | 6.956 | 9.004 | 4.306 | 8.449
+Q7_1_Page_Submit	numeric	212	Timing - Page Submit	[212 uniq] 12.001 | 7.814 | 8.128 | 10.599 | 30.191 | 11.053 | 5.79 | 9.795
+Q7_1_Click_Count	numeric	212	Timing - Click Count	[10 uniq] 2 | 3 | 4 | 5 | 9 | 6 | 7 | 8
+Q7_3	factor	211	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q7_4	factor	211	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q7_5	character	49	Please comment on your responses above (optional).	[50 uniq] | This was destructive to the debate as an institution. | How many times did Joe Biden interrupt Paul Ryan in the 2012 VP debate ? Almost 100 wasn't it ? And Biden interrupted Trump first. Now was it normal for a challenger to call a sitting President of any party a ""clown"" in such a d...
+Q8_1_First_Click	numeric	193	Timing - First Click	[190 uniq] 2.238 | 7.705 | 7.228 | 5.603 | 11.63 | 12.094 | 5.242 | 8.823
+Q8_1_Last_Click	numeric	193	Timing - Last Click	[193 uniq] 3.213 | 9.461 | 9.765 | 171.187 | 14.34 | 17.384 | 7.249 | 131.745
+Q8_1_Page_Submit	numeric	193	Timing - Page Submit	[192 uniq] 4.98 | 17.7 | 92.412 | 198.959 | 16.136 | 19.812 | 8.561 | 251.64
+Q8_1_Click_Count	numeric	193	Timing - Click Count	[11 uniq] 2 | 3 | 7 | 8 | 5 | 4 | 13 | 6
+Q8_3	factor	191	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q8_4	factor	191	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q8_5	character	56	Please comment on your responses above (optional).	[57 uniq] | Trump seemingly makes clear that he will not or cannot denounce right-wing groups that are widely considered to be, by his own administration, the leading domestic terrorism threats. Another example of flagrant disregard of core principles of a free and democratic government. | Proud...
+Q9_1_First_Click	numeric	185	Timing - First Click	[184 uniq] 3.194 | 3.268 | 5.582 | 2.502 | 2.99 | 4.035 | 6.365 | 39.984
+Q9_1_Last_Click	numeric	185	Timing - Last Click	[183 uniq] 4.367 | 4.78 | 10.29 | 4.741 | 4.326 | 7.669 | 9.189 | 42.921
+Q9_1_Page_Submit	numeric	185	Timing - Page Submit	[184 uniq] 6.185 | 6.042 | 19.856 | 5.481 | 6.057 | 10.819 | 41.748 | 43.77
+Q9_1_Click_Count	numeric	185	Timing - Click Count	[10 uniq] 2 | 3 | 4 | 5 | 10 | 6 | 8 | 12
+Q9_3	factor	184	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q9_4	factor	184	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q9_5	character	50	Please comment on your responses above (optional).	[51 uniq] | erodes long-term trust in electoral process | Againi, one of the most dangerous things a presidient can say, undermining public confidence in the election and therefore in representative government. | Again, this is fundamentally anti-democratic... and also incredibly stupid. If the...
+Q10_1_First_Click	numeric	174	Timing - First Click	[172 uniq] 3.339 | 5.122 | 5.251 | 5.263 | 3.175 | 4.081 | 8.702 | 5.834
+Q10_1_Last_Click	numeric	174	Timing - Last Click	[173 uniq] 5.566 | 6.482 | 7.939 | 6.309 | 3.825 | 17.628 | 10.58 | 18.887
+Q10_1_Page_Submit	numeric	174	Timing - Page Submit	[174 uniq] 7 | 7.745 | 47.856 | 7.647 | 5.436 | 67.045 | 12.396 | 22.093
+Q10_1_Click_Count	numeric	174	Timing - Click Count	2 | 3 | 5 | 4 | 6 | 9 | 1 | 7
+Q10_3	factor	168	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q10_4	factor	169	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q10_5	character	31	Please comment on your responses above (optional).	[32 uniq] | The JOD is not the president's attorney. This is a misuse of a public institution and set a bad precedent for the future. | No one is above the law. Those in power must be held to higher standards to ensure rule of law. | Why are they intervening in such a case? | The Justice Depar...
+Q11_1_First_Click	numeric	197	Timing - First Click	[193 uniq] 10.936 | 3.336 | 4.742 | 4.034 | 6.256 | 8.026 | 0.647 | 3.27
+Q11_1_Last_Click	numeric	197	Timing - Last Click	[195 uniq] 12.812 | 4.932 | 6.984 | 6.286 | 8.053 | 12.863 | 5.925 | 6.48
+Q11_1_Page_Submit	numeric	197	Timing - Page Submit	[197 uniq] 15.202 | 7.237 | 7.963 | 8.769 | 9.289 | 62.761 | 6.232 | 8.241
+Q11_1_Click_Count	numeric	197	Timing - Click Count	[11 uniq] 2 | 3 | 5 | 4 | 8 | 6 | 1 | 7
+Q11_3	factor	196	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q11_4	factor	196	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q11_5	character	46	Please comment on your responses above (optional).	[47 uniq] | It is a clear violation of the Hatch amendment allowing the incumbent to mingle the powers of office with the election, violating the equal opportunity norms in democratic elections. | The Pres. fails to distinguish between politics and governance. | This is an abuse of the system. |...
+Q12_1_First_Click	numeric	192	Timing - First Click	[188 uniq] 2.849 | 3.734 | 2.577 | 8.119 | 4.214 | 4.496 | 2.013 | 3.322
+Q12_1_Last_Click	numeric	192	Timing - Last Click	[189 uniq] 4.011 | 5.423 | 4.47 | 11.438 | 6.188 | 95.108 | 4.295 | 4.896
+Q12_1_Page_Submit	numeric	192	Timing - Page Submit	[190 uniq] 6.241 | 6.684 | 6 | 13.093 | 7.101 | 96.924 | 6.522 | 45.251
+Q12_1_Click_Count	numeric	192	Timing - Click Count	[12 uniq] 2 | 3 | 6 | 20 | 5 | 4 | 14 | 8
+Q12_3	factor	191	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q12_4	factor	191	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q12_5	character	59	Please comment on your responses above (optional).	[60 uniq] | If people do not believe the system is fair they do not participate in the system. This is the antithesis of democratic government | This is a clear move to suppress voting by mail and to create and excuse to remain in office if he loses the election. | This is a strategy of voter su...
+Q13_1_First_Click	numeric	190	Timing - First Click	[189 uniq] 4.318 | 3.963 | 5.613 | 4.655 | 16.642 | 5.362 | 6.725 | 7.64
+Q13_1_Last_Click	numeric	190	Timing - Last Click	[189 uniq] 5.871 | 7.253 | 7.636 | 12.502 | 21.446 | 21.475 | 10.156 | 16.348
+Q13_1_Page_Submit	numeric	190	Timing - Page Submit	[190 uniq] 7.418 | 9.817 | 8.879 | 46.266 | 23.388 | 35.752 | 11.3 | 18.425
+Q13_1_Click_Count	numeric	190	Timing - Click Count	2 | 4 | 7 | 3 | 5 | 6 | 9 | 12
+Q13_3	factor	189	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q13_4	factor	189	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q13_5	character	42	Please comment on your responses above (optional).	[43 uniq] | It is rather common for Congress to lard bills with pork etc. | Legislative spending priorities must be respected | Given that we need $$ for actual relief, it seems incredibly nonsensical. At the same time, the process of reallocating funds is not abnormal. It's just strange on thi...
+Q14_1_First_Click	numeric	190	Timing - First Click	[186 uniq] 2.892 | 5.364 | 8.305 | 6.764 | 6.676 | 4.535 | 7.431 | 42.874
+Q14_1_Last_Click	numeric	190	Timing - Last Click	[188 uniq] 4.508 | 6.874 | 9.7 | 48.189 | 8.939 | 5.973 | 8.567 | 44.876
+Q14_1_Page_Submit	numeric	190	Timing - Page Submit	[190 uniq] 5.161 | 10.016 | 11.335 | 61.802 | 9.753 | 8.508 | 9.818 | 47.163
+Q14_1_Click_Count	numeric	190	Timing - Click Count	3 | 2 | 6 | 5 | 4 | 7 | 9
+Q14_3	factor	187	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q14_4	factor	187	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q14_5	character	46	Please comment on your responses above (optional).	[47 uniq] | Executive orders should be sparingly used and not to replace legislative powers | This is nothing new. It's not a great trend and it's something Congress might try doing it's actual job by taking more difficult positions than it's reelection minded members seem to want to. Plus, was...
+Q15_1_First_Click	numeric	209	Timing - First Click	[207 uniq] 3.91 | 4.741 | 3.215 | 3.873 | 3.769 | 10.394 | 12.388 | 3.316
+Q15_1_Last_Click	numeric	209	Timing - Last Click	[209 uniq] 7.519 | 9.709 | 4.499 | 5.617 | 7.549 | 8.173 | 14.125 | 16.291
+Q15_1_Page_Submit	numeric	209	Timing - Page Submit	[208 uniq] 8.487 | 36.963 | 7.201 | 7.193 | 27.294 | 9.41 | 15.836 | 18.142
+Q15_1_Click_Count	numeric	209	Timing - Click Count	[9 uniq] 3 | 2 | 4 | 5 | 7 | 6 | 8 | 16
+Q15_3	factor	209	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q15_4	factor	209	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q15_5	character	54	Please comment on your responses above (optional).	[55 uniq] | Having a president advocate that his supporters vote more than once erodes democratic norms and values. | It is not normal to ask followers to commit a felony | Felony | This undermines the legitimacy of the electoral process | In fairness, it is not clear to me that he was actually ...
+Q16_1_First_Click	numeric	207	Timing - First Click	[200 uniq] 2.431 | 6.028 | 3.355 | 6.2 | 3.429 | 3.123 | 4.282 | 4.245
+Q16_1_Last_Click	numeric	207	Timing - Last Click	[204 uniq] 26.403 | 7.017 | 4.963 | 8.937 | 5.196 | 9.193 | 75.401 | 6.061
+Q16_1_Page_Submit	numeric	207	Timing - Page Submit	[206 uniq] 27.15 | 9.177 | 6.348 | 11.193 | 7.093 | 20.822 | 104.892 | 7.513
+Q16_1_Click_Count	numeric	207	Timing - Click Count	[10 uniq] 4 | 2 | 3 | 5 | 6 | 8 | 1 | 7
+Q16_3	factor	206	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q16_4	factor	206	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q16_5	character	58	Please comment on your responses above (optional).	[59 uniq] | Not important unless he takes action to make that happen. | Textbook authoritarianism | This President places his own interests above his pledge to defend the Constitution. That's pretty abnormal and pretty important! | He does not have the authority to do this. | The U.S. aspires to...
+Q17_1_First_Click	numeric	201	Timing - First Click	[196 uniq] 5.108 | 5.259 | 5.762 | 5.056 | 7.364 | 5.049 | 7.343 | 9.327
+Q17_1_Last_Click	numeric	201	Timing - Last Click	[200 uniq] 6.986 | 10.739 | 9.302 | 6.958 | 11.854 | 6.871 | 25.244 | 11.142
+Q17_1_Page_Submit	numeric	201	Timing - Page Submit	[201 uniq] 8.804 | 13.026 | 10.364 | 8.882 | 25.403 | 8.102 | 50.414 | 12.233
+Q17_1_Click_Count	numeric	201	Timing - Click Count	[12 uniq] 2 | 3 | 4 | 8 | 7 | 5 | 6 | 26
+Q17_3	factor	200	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q17_4	factor	200	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q17_5	character	56	Please comment on your responses above (optional).	[57 uniq] | Threatens first amendment freedoms | The military cannot impede the first amendment outside of major war. | As bad as American media is (and it is pretty bad) it is the only outside system that allows the electorate to evaluate the performance of the government. Undermining that syst...
+Q18_1_First_Click	numeric	194	Timing - First Click	[192 uniq] 3.694 | 3.577 | 1.701 | 2.868 | 2.373 | 5.514 | 2.83 | 4.137
+Q18_1_Last_Click	numeric	194	Timing - Last Click	[192 uniq] 5.383 | 4.461 | 2.881 | 157.677 | 4.745 | 8.625 | 3.704 | 5.251
+Q18_1_Page_Submit	numeric	194	Timing - Page Submit	[193 uniq] 6.966 | 6.374 | 3.613 | 278.888 | 5.697 | 10.087 | 5.87 | 7.226
+Q18_1_Click_Count	numeric	194	Timing - Click Count	2 | 3 | 6 | 4 | 5 | 8 | 7 | 11
+Q18_3	factor	194	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q18_4	factor	194	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q18_5	character	47	Please comment on your responses above (optional).	[48 uniq] | As Adam Przeworski put it, ""democracy is a system in which parties lose elections."" The president claiming he won't concede when he loses is the very definition of anti-democratic behavior. What is most important, here, however, is that pundits stop asking him this question. If he lo...
+Q19_1_First_Click	numeric	209	Timing - First Click	[206 uniq] 3.939 | 11.884 | 4.43 | 3.646 | 7.123 | 9.948 | 17.023 | 9.828
+Q19_1_Last_Click	numeric	209	Timing - Last Click	[206 uniq] 5.456 | 17.558 | 7.337 | 5.263 | 9.452 | 17.132 | 20.443 | 11.703
+Q19_1_Page_Submit	numeric	209	Timing - Page Submit	[208 uniq] 7.551 | 18.912 | 8.621 | 6.9 | 25.545 | 123.925 | 22.222 | 13.332
+Q19_1_Click_Count	numeric	209	Timing - Click Count	2 | 6 | 4 | 3 | 7 | 5 | 18 | 9
+Q19_3	factor	209	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q19_4	factor	209	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q19_5	character	47	Please comment on your responses above (optional).	[48 uniq] | It's a threat against the principle of legislative oversight over the executive. It also may undermine faith in electoral results and conceal real threats to the integrity of the coming election. | The relationship between the Intelligence Community and the elected officials of the c...
+Q20_1_First_Click	numeric	192	Timing - First Click	[190 uniq] 4.411 | 8.24 | 4.88 | 9.074 | 3.837 | 8.54 | 9.454 | 4.034
+Q20_1_Last_Click	numeric	192	Timing - Last Click	[191 uniq] 6.139 | 10.314 | 9.968 | 14.173 | 6.165 | 12.459 | 13.763 | 6.182
+Q20_1_Page_Submit	numeric	192	Timing - Page Submit	[192 uniq] 7.679 | 12.881 | 37.262 | 15.297 | 41.692 | 14.277 | 14.308 | 54.052
+Q20_1_Click_Count	numeric	192	Timing - Click Count	[11 uniq] 2 | 3 | 4 | 6 | 5 | 7 | 14 | 8
+Q20_3	factor	189	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q20_4	factor	189	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q20_5	character	44	Please comment on your responses above (optional).	[45 uniq] | The president is advocating the use of force against the press. This undermines the 1st amendment. | Yet another instance of Trump violating common sense and decency. But then he has waged war on the press since his first week in power. | Akin to his advocacy of torture and war crim...
+Q21_1_First_Click	numeric	203	Timing - First Click	[198 uniq] 4.927 | 3.7 | 8.097 | 6.977 | 7.211 | 4.253 | 4.638 | 20.575
+Q21_1_Last_Click	numeric	203	Timing - Last Click	[200 uniq] 8.24 | 5.172 | 11.049 | 10.569 | 17.833 | 11.419 | 17.434 | 151.455
+Q21_1_Page_Submit	numeric	203	Timing - Page Submit	[203 uniq] 28.422 | 5.835 | 12.139 | 94.849 | 18.727 | 13.114 | 101.749 | 155.282
+Q21_1_Click_Count	numeric	203	Timing - Click Count	3 | 9 | 2 | 6 | 4 | 7 | 5 | 8
+Q21_3	factor	203	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q21_4	factor	203	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q21_5	character	41	Please comment on your responses above (optional).	[42 uniq] | This undermines civility in the election and that the opposition is loyal. | Trump says and does a lot of things that are odd. Not all are that important. He lives to run against convention, but maybe he doesn't realize the damage he is doing to governing institutions and culture. | ...
+Q22_1_First_Click	numeric	198	Timing - First Click	[196 uniq] 11.758 | 4.026 | 3.195 | 10.25 | 5.424 | 5.46 | 4.262 | 8.172
+Q22_1_Last_Click	numeric	198	Timing - Last Click	[198 uniq] 14.142 | 5.866 | 4.511 | 11.913 | 6.61 | 13.891 | 6.658 | 9.956
+Q22_1_Page_Submit	numeric	198	Timing - Page Submit	[198 uniq] 16.388 | 7.604 | 7.567 | 66.027 | 9.199 | 15.377 | 8.276 | 12.272
+Q22_1_Click_Count	numeric	198	Timing - Click Count	[9 uniq] 2 | 6 | 3 | 4 | 11 | 5 | 7 | 9
+Q22_3	factor	198	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q22_4	factor	198	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q22_5	character	40	Please comment on your responses above (optional).	[41 uniq] | It is completely unacceptable but I rated it less than completely important because it deals with a corporate entity (vs. rights of individual citizens). | There was no boycott organized | Such interference in private sector economic decisions is very unusually from a president. | Th...
+Q23_1_First_Click	numeric	209	Timing - First Click	[208 uniq] 3.599 | 5.262 | 4.784 | 8.608 | 7.586 | 8.675 | 13.182 | 5.542
+Q23_1_Last_Click	numeric	209	Timing - Last Click	[207 uniq] 6.896 | 6.534 | 9.919 | 14.932 | 10.818 | 9.955 | 16.99 | 7.452
+Q23_1_Page_Submit	numeric	209	Timing - Page Submit	[209 uniq] 8.768 | 7.844 | 11.137 | 16.829 | 61.097 | 11.393 | 20.337 | 9.001
+Q23_1_Click_Count	numeric	209	Timing - Click Count	[12 uniq] 3 | 2 | 5 | 4 | 1 | 6 | 7 | 10
+Q23_3	factor	204	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q23_4	factor	204	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q23_5	character	45	Please comment on your responses above (optional).	[46 uniq] | HHS is simply not to be trusted along longer, or Homeland Security either for that matter. Far too much political interference from the White House. Ditto for the Census. | Again, subordinating public health to partisan ends | As per Bachner and Ginsberg, unelected bureaucrats issue ...
+Q24_1_First_Click	numeric	198	Timing - First Click	[197 uniq] 3.153 | 9.684 | 4.379 | 9.822 | 5.422 | 5.964 | 7.671 | 5.149
+Q24_1_Last_Click	numeric	198	Timing - Last Click	[198 uniq] 4.627 | 14.154 | 9.061 | 13.697 | 6.914 | 12.174 | 44.182 | 6.848
+Q24_1_Page_Submit	numeric	198	Timing - Page Submit	[197 uniq] 6.308 | 16.162 | 75.319 | 14.769 | 8.849 | 12.904 | 84.451 | 8.272
+Q24_1_Click_Count	numeric	198	Timing - Click Count	[11 uniq] 2 | 3 | 4 | 6 | 7 | 5 | 9 | 1
+Q24_3	factor	193	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q24_4	factor	193	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q24_5	character	44	Please comment on your responses above (optional).	[45 uniq] | The lack of a clear process for banning WeChat raises questions about the protection of property rights in the US. If a president can arbitrarily restrict access to WeChat - he can do the same to other apps etc. | The administration's actual motives notwithstanding, this is a somewh...
+Q25_1_First_Click	numeric	192	Timing - First Click	[191 uniq] 4.345 | 9.639 | 7.697 | 4.827 | 8.532 | 3.582 | 4.134 | 10.054
+Q25_1_Last_Click	numeric	192	Timing - Last Click	[190 uniq] 5.328 | 11.494 | 9.521 | 20.002 | 11.029 | 4.648 | 6.125 | 12.575
+Q25_1_Page_Submit	numeric	192	Timing - Page Submit	[190 uniq] 7.124 | 13.521 | 10.859 | 22.029 | 45.027 | 6.066 | 7.683 | 14.466
+Q25_1_Click_Count	numeric	192	Timing - Click Count	[13 uniq] 2 | 4 | 3 | 8 | 5 | 6 | 9 | 7
+Q25_3	factor	191	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q25_4	factor	191	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q25_5	character	46	Please comment on your responses above (optional).	[47 uniq] | While a full court is needed, the purpose to which the president wishes to apply the court's power is suspect | He cannot win an election decided by the people, so he expects the courts to install him in office. | Unsurprisingly, Pres. Trump displays his ignorance of governance. | He...
+Q26_1_First_Click	numeric	197	Timing - First Click	[193 uniq] 6.625 | 4.204 | 5.524 | 4.277 | 6.185 | 10.602 | 4.712 | 4.331
+Q26_1_Last_Click	numeric	197	Timing - Last Click	[197 uniq] 11.822 | 6.188 | 8.209 | 7.311 | 17.055 | 13.094 | 6.712 | 357.015
+Q26_1_Page_Submit	numeric	197	Timing - Page Submit	[196 uniq] 13.481 | 7.493 | 9.973 | 8.389 | 24.737 | 15.164 | 8.142 | 363.742
+Q26_1_Click_Count	numeric	197	Timing - Click Count	[12 uniq] 4 | 2 | 3 | 11 | 7 | 6 | 5 | 8
+Q26_3	factor	197	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q26_4	factor	197	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q26_5	character	52	Please comment on your responses above (optional).	[53 uniq] | Trump consistently demonstrates that he knows nothing about the pressing issues of the day. Moreover, he is uninterested in learning. He instead listens to poisonous voices from foreign sources and obvious profiteering disinformation campaigns for his ""information"" and digests it unc...
+Q27_1_First_Click	numeric	176	Timing - First Click	[173 uniq] 4.549 | 1.901 | 3.123 | 5.005 | 3.205 | 13.577 | 4.493 | 3.577
+Q27_1_Last_Click	numeric	176	Timing - Last Click	[175 uniq] 8.894 | 3.426 | 4.665 | 9.925 | 5.949 | 20.035 | 7.593 | 5.512
+Q27_1_Page_Submit	numeric	176	Timing - Page Submit	[176 uniq] 104.355 | 3.976 | 6.42 | 67.485 | 75.699 | 23.16 | 14.864 | 7.198
+Q27_1_Click_Count	numeric	176	Timing - Click Count	[10 uniq] 3 | 2 | 5 | 22 | 4 | 7 | 6 | 9
+Q27_3	factor	175	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q27_4	factor	175	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q27_5	character	53	Please comment on your responses above (optional).	[54 uniq] | It appears this is tied to the election. As such it is abnormal and important. More importantly, we can no longer trust the explanations for these types of decisions. The level of lying and deceit from the current administration makes one distrust any action by leaders of organiz...
+Q28_1_First_Click	numeric	193	Timing - First Click	[188 uniq] 4.14 | 2.398 | 4.554 | 4.614 | 5.435 | 6.879 | 3.501 | 5.424
+Q28_1_Last_Click	numeric	193	Timing - Last Click	[192 uniq] 10.777 | 4.663 | 11.035 | 12.496 | 159.883 | 11.799 | 9.325 | 9.52
+Q28_1_Page_Submit	numeric	193	Timing - Page Submit	[193 uniq] 13.301 | 8.217 | 23.184 | 13.68 | 161.574 | 13.005 | 10.917 | 11.185
+Q28_1_Click_Count	numeric	193	Timing - Click Count	[12 uniq] 4 | 3 | 9 | 2 | 8 | 10 | 5 | 6
+Q28_3	factor	191	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q28_4	factor	191	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q28_5	character	42	Please comment on your responses above (optional).	[43 uniq] | It should have come much sooner. | Puerto Rico presents a challenge to American democracy, because its citizens do not have federal representation.The United States has a responsibility to the citizens of Puerto Rico, and although this aid package is pitifully inadequate it at least ...
+Q29_1_First_Click	numeric	188	Timing - First Click	[186 uniq] 2.041 | 7.453 | 8.386 | 5.444 | 2.632 | 6.705 | 3.296 | 8.021
+Q29_1_Last_Click	numeric	188	Timing - Last Click	[187 uniq] 3.288 | 9.857 | 11.379 | 9.194 | 3.58 | 14.847 | 4.367 | 17.077
+Q29_1_Page_Submit	numeric	188	Timing - Page Submit	[186 uniq] 4.851 | 12.284 | 13.06 | 10.359 | 4.544 | 73.098 | 5.822 | 19.006
+Q29_1_Click_Count	numeric	188	Timing - Click Count	[10 uniq] 2 | 3 | 4 | 7 | 5 | 6 | 9 | 8
+Q29_3	factor	188	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q29_4	factor	188	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q29_5	character	46	Please comment on your responses above (optional).	[47 uniq] | He's just signaling to those who don't like the demographic changes that are occurring in the US that he will work to maintain their view of the world. | I don't believe the training works. Bias remains. | The man is not subtle. | A stupid and insensitive idea, but not abnormal. | R...
+Q30_1_First_Click	numeric	183	Timing - First Click	[181 uniq] 4.444 | 9.755 | 4.81 | 6.962 | 3.677 | 3.814 | 6.838 | 5.07
+Q30_1_Last_Click	numeric	183	Timing - Last Click	[183 uniq] 5.727 | 14.255 | 7.386 | 13.922 | 6.289 | 7.934 | 10.562 | 10.206
+Q30_1_Page_Submit	numeric	183	Timing - Page Submit	[183 uniq] 7.743 | 15.953 | 9.072 | 16.342 | 8.427 | 281.94 | 13.191 | 12.759
+Q30_1_Click_Count	numeric	183	Timing - Click Count	[12 uniq] 2 | 4 | 7 | 3 | 6 | 5 | 8 | 9
+Q30_3	factor	183	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q30_4	factor	183	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q30_5	character	68	Please comment on your responses above (optional).	[69 uniq] | The blatant hypocrisy of this is galling even by political standards. When a conservative party shreds the political fabric and trashes traditions, it's a sign that the Constitution as we know it is doomed. In 2016, it was baldly wrong to oppose Garland (moderate, qualified) 8 mont...
+Q31_1_First_Click	numeric	216	Timing - First Click	[214 uniq] 2.43 | 3.71 | 7.292 | 2.201 | 7.816 | 14.673 | 3.585 | 5.327
+Q31_1_Last_Click	numeric	216	Timing - Last Click	[213 uniq] 3.195 | 4.782 | 9.474 | 3.595 | 13.822 | 16.078 | 7.489 | 8.27
+Q31_1_Page_Submit	numeric	216	Timing - Page Submit	[213 uniq] 4.449 | 6.027 | 10.976 | 4.159 | 14.839 | 17.936 | 8.906 | 40.285
+Q31_1_Click_Count	numeric	216	Timing - Click Count	2 | 4 | 3 | 10 | 7 | 5 | 6 | 9
+Q31_3	factor	215	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q31_4	factor	215	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q31_5	character	55	Please comment on your responses above (optional).	[55 uniq] | Likely an idle threat, but even so, saying such things can undermine public confidence in the election, never a good outcome. | Potentially, this would function to intimidate members of racial minorities and more generally poor people. | Yet again, very abnormal and very important. T...
+Q32_1_First_Click	numeric	185	Timing - First Click	[184 uniq] 4.186 | 3.794 | 6.144 | 4.74 | 3.216 | 8.92 | 6.518 | 8.443
+Q32_1_Last_Click	numeric	185	Timing - Last Click	[184 uniq] 6.539 | 7.911 | 9.177 | 8.73 | 6.495 | 129.387 | 55.851 | 12.898
+Q32_1_Page_Submit	numeric	185	Timing - Page Submit	[183 uniq] 7.645 | 10.669 | 10.796 | 9.838 | 7.626 | 133.884 | 67.883 | 14.33
+Q32_1_Click_Count	numeric	185	Timing - Click Count	[9 uniq] 3 | 2 | 4 | 6 | 5 | 9 | 7 | 8
+Q32_3	factor	185	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q32_4	factor	185	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q32_5	character	45	Please comment on your responses above (optional).	[46 uniq] | Health officials have to be able to freely and publicly voice the likely consequences of policies. Whether political actors choose some consequences or others is a political decision above the pay grade of health officials. | Science is not political. Government should protect its c...
+Q33_1_First_Click	numeric	209	Timing - First Click	[208 uniq] 6.534 | 4.682 | 3.001 | 3.647 | 4.534 | 4.006 | 3.7 | 26.304
+Q33_1_Last_Click	numeric	209	Timing - Last Click	[206 uniq] 8.042 | 10.872 | 4.191 | 4.971 | 6.416 | 8.576 | 9.698 | 28.464
+Q33_1_Page_Submit	numeric	209	Timing - Page Submit	[208 uniq] 10.132 | 11.865 | 4.797 | 6.958 | 8.503 | 9.337 | 10.925 | 30.269
+Q33_1_Click_Count	numeric	209	Timing - Click Count	[11 uniq] 2 | 3 | 6 | 4 | 5 | 8 | 10 | 7
+Q33_3	factor	209	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q33_4	factor	209	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q33_5	character	53	Please comment on your responses above (optional).	[54 uniq] | Secretary of state using a diplomatic trip to further his party's electoral fortunes is illegal and unprecedented. | Again this is a clear abuse of the powers of office for re-election. | Hardly the first time there's been a remote speech at a convention. Certainly won't be the last....
+Q34_1_First_Click	numeric	186	Timing - First Click	[185 uniq] 9.007 | 13.647 | 3.901 | 5.048 | 8.78 | 6.227 | 39.85 | 4.238
+Q34_1_Last_Click	numeric	186	Timing - Last Click	[185 uniq] 12.477 | 16.271 | 9.144 | 192.477 | 56.956 | 9.594 | 40.93 | 9.428
+Q34_1_Page_Submit	numeric	186	Timing - Page Submit	[184 uniq] 13.585 | 43.755 | 10.121 | 196.995 | 58.213 | 10.865 | 42.592 | 51.355
+Q34_1_Click_Count	numeric	186	Timing - Click Count	[11 uniq] 3 | 7 | 2 | 4 | 6 | 1 | 5 | 9
+Q34_3	factor	184	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q34_4	factor	184	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q34_5	character	38	Please comment on your responses above (optional).	[39 uniq] | This rating is for the collaboration, not for the committee's investigation or finding | Cheating, like germs, is common. Not punishing cheating, like not defending against germs, is dangerous. The United States, as a political body, has AIDS. If you cannot condemn such brazen col...
+Q35_1_First_Click	numeric	204	Timing - First Click	[203 uniq] 2.68 | 2.346 | 2.381 | 2.496 | 3.967 | 4.195 | 3.743 | 2.595
+Q35_1_Last_Click	numeric	204	Timing - Last Click	[202 uniq] 3.816 | 3.354 | 3.188 | 4.354 | 4.957 | 55.767 | 6.847 | 4.147
+Q35_1_Page_Submit	numeric	204	Timing - Page Submit	[204 uniq] 5.274 | 6.09 | 4.624 | 6.316 | 5.537 | 65.877 | 45.878 | 5.789
+Q35_1_Click_Count	numeric	204	Timing - Click Count	[11 uniq] 2 | 3 | 4 | 5 | 7 | 11 | 6 | 8
+Q35_3	factor	203	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q35_4	factor	203	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q35_5	character	45	Please comment on your responses above (optional).	[46 uniq] | Census must be carefully and fully performed and because of COVID that requires additional time to complete | As noted, this is one of the astonishing actions by the Trump administration, and has been rejected repeatedly by the courts. | This is absolutely playing politics. Dirty. | ...
+Q36_1_First_Click	numeric	190	Timing - First Click	[188 uniq] 6.805 | 3.798 | 7.419 | 6.844 | 7.838 | 7.469 | 6.047 | 13.687
+Q36_1_Last_Click	numeric	190	Timing - Last Click	[190 uniq] 9.097 | 25.413 | 13.694 | 7.813 | 9.244 | 8.476 | 8.819 | 17.958
+Q36_1_Page_Submit	numeric	190	Timing - Page Submit	[190 uniq] 15.585 | 26.517 | 14.686 | 9.323 | 10.56 | 10.185 | 29.157 | 19.696
+Q36_1_Click_Count	numeric	190	Timing - Click Count	[11 uniq] 2 | 8 | 6 | 3 | 4 | 5 | 9 | 7
+Q36_3	factor	188	Is this normal or abnormal?	Normal | Mostly normal | Borderline normal | Mostly abnormal | Abnormal
+Q36_4	factor	188	Is this unimportant or important?	Unimportant | Mostly unimportant | Semi-important | Mostly important | Important
+Q36_5	character	46	Please comment on your responses above (optional).	[47 uniq] | Another effort to undermine the election. | DOJ has obviously and explicitly been subordinated to partisan ends | An example of using government agencies to attack opponents and undermine faith in elections. Authoritarian regimes do this, not democratic ones. | It would be a really ...
+Qnightmares_1	numeric	299	Some invisible text - Russian hackers cripple voter registration and election sy	[62 uniq] 20 | 48 | 1 | 7 | 70 | 12 | 40 | 18
+Qnightmares_2	numeric	313	Some invisible text - Stay-at-home orders prevent voters from going to the polls	[65 uniq] 5 | 1 | 29 | 40 | 0 | 8 | 34 | 10
+Qnightmares_3	numeric	323	Some invisible text - Millions of Americans are exposed to false claims about vo	[55 uniq] 80 | 5 | 100 | 90 | 93 | 52 | 87 | 75
+Qnightmares_4	numeric	341	Some invisible text - One or both presidential candidates declare victory before	[77 uniq] 58 | 82 | 40 | 29 | 45 | 50 | 48 | 85
+Qnightmares_5	numeric	290	Some invisible text - More than one thousand planned polling locations consolida	[73 uniq] 58 | 5 | 8 | 77 | 100 | 16 | 32 | 75
+Qnightmares_6	numeric	327	Some invisible text - Tens of thousands of voters are still in line when polls a	[63 uniq] 100 | 97 | 5 | 90 | 91 | 83 | 50 | 10
+Qnightmares_7	numeric	324	Some invisible text - Postal service delays cause more than one million mail bal	[73 uniq] 38 | 8 | 80 | 60 | 70 | 65 | 36 | 50
+Qnightmares_8	numeric	330	Some invisible text - President Trump attacks the ""blue shift"" toward Democrats	[59 uniq] 41 | 100 | 99 | 71 | 80 | 78 | 85 | 95
+Qnightmares_9	numeric	302	Some invisible text - Interim election night totals understate Democratic votes,	[73 uniq] 75 | 25 | 100 | 56 | 65 | 70 | 90 | 9
+Qnightmares_10	numeric	317	Some invisible text - President Trump is declared the loser of the election by t	[64 uniq] 86 | 80 | 40 | 65 | 95 | 90 | 93 | 50
+Qnightmares_11	numeric	300	Some invisible text - President Trump makes statements or posts tweets encouragi	[61 uniq] 60 | 90 | 95 | 100 | 51 | 80 | 2 | 30
+Qnightmares_12	numeric	304	Some invisible text - President Trump deploys federal law enforcement or the mil	[72 uniq] 8 | 62 | 50 | 60 | 15 | 30 | 70 | 40
+Qnightmares_13	numeric	297	Some invisible text - The Department of Justice seeks to block the counting of m	[69 uniq] 29 | 70 | 52 | 80 | 10 | 40 | 100 | 75
+Qnightmares_14	numeric	324	Some invisible text - President Trump attempts to negotiate legal amnesty for hi	[76 uniq] 30 | 3 | 25 | 1 | 26 | 55 | 75 | 80
+Qnightmares_15	numeric	293	Some invisible text - One or more states switch from the winner-take-all format	[60 uniq] 0 | 5 | 1 | 40 | 60 | 33 | 50 | 10
+Qnightmares_16	numeric	293	Some invisible text - One or more states send competing slates of electors to th	[65 uniq] 10 | 35 | 2 | 30 | 55 | 5 | 50 | 25
+Qnightmares_17	numeric	287	Some invisible text - One or more states are unable to resolve an election dispu	[72 uniq] 72 | 54 | 70 | 50 | 73 | 30 | 51 | 75
+Qnightmares_18	numeric	318	Some invisible text - A dispute over the results of the election creates a confl	[79 uniq] 46 | 30 | 3 | 5 | 13 | 21 | 50 | 25
+Qnightmares_19	numeric	317	Some invisible text - A conflict over Electoral College votes causes the appoint	[57 uniq] 5 | 49 | 3 | 20 | 1 | 40 | 10 | 19
+Qnightmares_20	numeric	294	Some invisible text - One or more legal disputes over the election are decided b	[68 uniq] 18 | 61 | 40 | 12 | 73 | 29 | 30 | 63
+Qnightmares_21	numeric	295	Some invisible text - One or more state legislatures enact a bill that would ove	[60 uniq] 10 | 60 | 20 | 1 | 5 | 40 | 70 | 50
+Qnightmares_22	numeric	312	Some invisible text - 5% or more of ballots cast by mail are rejected in one or	[77 uniq] 50 | 40 | 45 | 33 | 66 | 0 | 74 | 49
+Qnightmares_23	numeric	306	Some invisible text - Biden seeks to overturn an apparent defeat in the Electora	[56 uniq] 41 | 1 | 35 | 4 | 12 | 50 | 5 | 10
+Qnightmares_24	numeric	332	Some invisible text - Millions of counterfeit ballots are mailed to Americans fr	[44 uniq] 20 | 12 | 5 | 1 | 0 | 10 | 70 | 21
+Qnightmares_25	numeric	314	Some invisible text - A faithless elector decides the presidency.	[51 uniq] 1 | 2 | 16 | 5 | 3 | 65 | 10 | 14
+Qnightmares_26	numeric	330	Some invisible text - The presidential election is decided by the House of Repre	[54 uniq] 30 | 1 | 0 | 4 | 8 | 25 | 36 | 10
+Qnightmares_28	numeric	308	Some invisible text - The RNC or DNC selects a replacement candidate for preside	[50 uniq] 15 | 5 | 0 | 30 | 14 | 10 | 25 | 13
+Qnightmares_29	numeric	320	Some invisible text - President Trump temporarily turns over duties to Vice Pres	[54 uniq] 30 | 2 | 0 | 50 | 5 | 20 | 15 | 10
+Q37_1_First_Click	numeric	734	Timing - First Click	[673 uniq] 2.055 | 2.856 | 2.533 | 3.273 | 2.181 | 5.617 | 2.99 | 3.41
+Q37_1_Last_Click	numeric	734	Timing - Last Click	[672 uniq] 2.055 | 2.856 | 2.533 | 3.273 | 2.181 | 5.617 | 2.99 | 3.41
+Q37_1_Page_Submit	numeric	734	Timing - Page Submit	[676 uniq] 2.961 | 3.863 | 3.351 | 4.618 | 3.007 | 6.893 | 4.368 | 5.081
+Q37_1_Click_Count	numeric	734	Timing - Click Count	1 | 2 | 6 | 3 | 5
+rank	factor	734	Which of the following best describes your occupation?	Graduate student | Post-doctoral fellow | Adjunct faculty | Full-time faculty | Emeritus faculty | Other
+Q38_1_First_Click	numeric	734	Timing - First Click	[675 uniq] 1.137 | 1.269 | 1.482 | 8.703 | 1.541 | 2.132 | 1.74 | 2.108
+Q38_1_Last_Click	numeric	734	Timing - Last Click	[716 uniq] 2.205 | 4.33 | 4.37 | 9.845 | 2.071 | 3.353 | 8.563 | 3.908
+Q38_1_Page_Submit	numeric	734	Timing - Page Submit	[726 uniq] 9.727 | 4.332 | 4.374 | 22.324 | 12.37 | 10.262 | 13.504 | 20.969
+Q38_1_Click_Count	numeric	734	Timing - Click Count	[10 uniq] 2 | 3 | 4 | 5 | 6 | 1 | 7 | 14
+field	factor	732	What is your primary field of study?	American politics | Comparative politics | International relations | Political theory | Another field of political science | Something other than political science
+field_text	character	632	What is your specific area of study?	[465 uniq] Comparative judicial institutions | | Policy analysis | foreign policy/ political psychology | Democracy | State politics | War, US Defense Policy, US Foreign Policy | Global Governance
+Q39_1_First_Click	numeric	734	Timing - First Click	[175 uniq] 1.259 | 0 | 1.519 | 3.922 | 1.79 | 19.371 | 5.687 | 1.932
+Q39_1_Last_Click	numeric	734	Timing - Last Click	[177 uniq] 1.259 | 0 | 1.519 | 3.922 | 61.054 | 19.371 | 5.687 | 1.932
+Q39_1_Page_Submit	numeric	734	Timing - Page Submit	[657 uniq] 1.623 | 1.366 | 1.196 | 2.016 | 1.846 | 2.237 | 2.073 | 1.648
+Q39_1_Click_Count	numeric	734	Timing - Click Count	[11 uniq] 1 | 0 | 4 | 2 | 7 | 3 | 17 | 6
+comments	character	143	Do you have any comments about this survey?	[137 uniq] | No | This survey is becoming more and more partisan each time I take it, and that is not meant to be a compliment. | You are doing important work. Thank you. | I love this survey and believe it to be incredibly valuable. Thank you. | These questions were incredibly skewed in an ant...
+Q_TotalDuration	character	734	Q_TotalDuration	[533 uniq] 329 | 352 | 272 | 477 | 433 | 514 | 461 | 723
+luth_id	character	734	LuthID	[734 uniq] BLW0008539 | BLW0002139 | BLW0000326 | BLW0007723 | BLW0200413 | BLW0001622 | BLW0004707 | BLW0000771
+dupe	numeric	734		0
+wave	numeric	734		12

@@ -1,0 +1,189 @@
+var	class	n	label	values
+caseid	numeric	2750		[2750 uniq] 2982512246 | 2982510814 | 2982513188 | 2981029240 | 2982516300 | 2982516060 | 2979827508 | 2982515554
+rating_USA	numeric	2750		[101 uniq] 20 | 60 | 5 | 51 | 1 | 61 | 100 | 30
+rating_USA_why	character	2744		[2698 uniq] Democratic rule is still technically available but has been twisted in many instances particularly in federal offices to be more oligarchic | We have a corrupt government. | Trump dictatorship | If the democrats don't get their way they claim that democracy is failing. | corruption | ...
+future_rating	numeric	2750		[101 uniq] 40 | 81 | 56 | 50 | 49 | 89 | 30 | 45
+forecast_year	numeric	2750		2032 | 2027
+partisan	character	2750		Democrat | Independent | Republican
+pid7	character	2750		Lean Democrat | Not very strong Democrat | Independent | Not very strong Republican | Strong Democrat | Lean Republican | Strong Republican | Not sure
+start_date	character	2750		[2750 uniq] 2026-10-06T16:43:47.126 | 2026-10-06T16:40:54.832 | 2026-10-06T16:45:32.122 | 2026-10-06T16:44:16.324 | 2026-10-06T16:48:24.694 | 2026-10-06T16:48:02.670 | 2026-10-06T16:46:16.502 | 2026-10-06T16:47:11.614
+end_date	character	2750		[2750 uniq] 2026-10-06T16:50:38.526 | 2026-10-06T16:51:48.037 | 2026-10-06T16:51:54.190 | 2026-10-06T16:52:33.061 | 2026-10-06T16:53:44.086 | 2026-10-06T16:54:43.432 | 2026-10-06T16:54:57.750 | 2026-10-06T16:55:15.957
+wave	numeric	2750		30
+sample	character	2750		public
+weight	numeric	2750		[1913 uniq] 0.805564052433733 | 0.793782895861381 | 1.36814802939486 | 1.43983369605522 | 0.601949292227295 | 1.35557223363395 | 1.13353106403018 | 0.64315764786252
+raw_weight	numeric	2750		[1913 uniq] 0.805564052433733 | 0.793782895861381 | 1.36814802939486 | 1.43983369605522 | 0.601949292227295 | 1.35557223363395 | 1.13353106403018 | 0.64315764786252
+raw_rating_treat	numeric	2750		2032 | 2027
+raw_PERF_treat	character	2750		Option B | Option A
+raw_battery_treat	character	2750		Show Battery B first | Show Battery A first
+raw_elect_irreg_treat	character	2750		Option A: To the best of your knowledge, how many times do you expect each of these to occur in the midterm elections this November? | Option B: To the best of your knowledge, how many times does each of these occur in a midterm election?
+raw_headline_treat	character	2750		No article | Show headline article
+raw_elect_belief_m_treat_1	character	2750		selected
+raw_elect_belief_m_treat_2	character	561		selected |
+raw_elect_belief_m_treat_3	character	588		selected |
+raw_elect_belief_m_treat_4	character	564		| selected
+raw_elect_belief_m_treat_5	character	621		| selected
+raw_elect_belief_m_treat_6	character	570		| selected
+raw_elect_belief_m_treat_7	character	581		| selected
+raw_elect_belief_m_treat_8	character	609		| selected
+raw_elect_belief_m_treat_9	character	614		selected |
+raw_elect_belief_m_treat_10	character	566		| selected
+raw_elect_belief_m_treat_11	character	578		| selected
+raw_elect_belief_m_treat_12	character	600		| selected
+raw_elect_belief_m_treat_13	character	586		| selected
+raw_elect_belief_m_treat_14	character	623		| selected
+raw_elect_belief_m_treat_15	character	603		| selected
+raw_consent	character	2750		Yes
+raw_rating_USA	numeric	2750		[101 uniq] 20 | 60 | 5 | 51 | 1 | 61 | 100 | 30
+raw_rating_USA_open	character	2744		[2698 uniq] Democratic rule is still technically available but has been twisted in many instances particularly in federal offices to be more oligarchic | We have a corrupt government. | Trump dictatorship | If the democrats don't get their way they claim that democracy is failing. | corruption | ...
+raw_future_rating_USA	numeric	2750		[101 uniq] 40 | 81 | 56 | 50 | 49 | 89 | 30 | 45
+raw_statements_US_1	character	489		| Not sure | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. does not meet this standard | The U.S. fully meets this standard
+raw_statements_US_2	character	469		| The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. fully meets this standard | The U.S. mostly meets this standard | Not sure
+raw_statements_US_3	character	434		| The U.S. does not meet this standard | Not sure | The U.S. fully meets this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard
+raw_statements_US_4	character	1358		The U.S. does not meet this standard | | The U.S. mostly meets this standard | Not sure | The U.S. partly meets this standard | The U.S. fully meets this standard | skipped
+raw_statements_US_5	character	203		| Not sure | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. does not meet this standard | The U.S. fully meets this standard
+raw_statements_US_6	character	230		| The U.S. does not meet this standard | The U.S. mostly meets this standard | The U.S. partly meets this standard | Not sure | The U.S. fully meets this standard
+raw_statements_US_7	character	239		| The U.S. does not meet this standard | The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. fully meets this standard | Not sure
+raw_statements_US_8	character	231		| The U.S. does not meet this standard | The U.S. fully meets this standard | Not sure | The U.S. partly meets this standard | The U.S. mostly meets this standard
+raw_statements_US_9	character	261		The U.S. does not meet this standard | | The U.S. mostly meets this standard | Not sure | The U.S. fully meets this standard | The U.S. partly meets this standard
+raw_statements_US_10	character	247		| The U.S. does not meet this standard | The U.S. mostly meets this standard | Not sure | The U.S. partly meets this standard | The U.S. fully meets this standard
+raw_statements_US_11	character	268		| The U.S. does not meet this standard | Not sure | The U.S. fully meets this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard
+raw_statements_US_12	character	261		| The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. fully meets this standard | The U.S. mostly meets this standard | Not sure
+raw_statements_US_13	character	261		| The U.S. does not meet this standard | The U.S. fully meets this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | Not sure
+raw_statements_US_14	character	242		| The U.S. does not meet this standard | The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. fully meets this standard | Not sure | skipped
+raw_statements_US_15	character	234		| The U.S. fully meets this standard | The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. does not meet this standard | Not sure | skipped
+raw_statements_US_16	character	273		| The U.S. mostly meets this standard | The U.S. does not meet this standard | The U.S. fully meets this standard | The U.S. partly meets this standard | Not sure
+raw_statements_US_17	character	259		| The U.S. does not meet this standard | The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. fully meets this standard | Not sure
+raw_statements_US_18	character	258		| The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. mostly meets this standard | Not sure | The U.S. fully meets this standard
+raw_statements_US_19	character	251		The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. does not meet this standard | | Not sure | The U.S. fully meets this standard
+raw_statements_US_20	character	256		| The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. fully meets this standard | The U.S. mostly meets this standard | Not sure
+raw_statements_US_21	character	225		| The U.S. partly meets this standard | The U.S. does not meet this standard | Not sure | The U.S. mostly meets this standard | The U.S. fully meets this standard
+raw_statements_US_22	character	251		| The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | Not sure
+raw_statements_US_23	character	263		| The U.S. does not meet this standard | Not sure | The U.S. fully meets this standard | The U.S. mostly meets this standard | The U.S. partly meets this standard
+raw_statements_US_24	character	253		The U.S. mostly meets this standard | | The U.S. does not meet this standard | Not sure | The U.S. partly meets this standard | The U.S. fully meets this standard
+raw_statements_US_25	character	254		| Not sure | The U.S. does not meet this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard | The U.S. partly meets this standard
+raw_statements_US_26	character	251		| Not sure | The U.S. partly meets this standard | The U.S. fully meets this standard | The U.S. mostly meets this standard | The U.S. does not meet this standard
+raw_statements_US_27	character	266		| Not sure | The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. fully meets this standard
+raw_statements_US_28	character	230		| Not sure | The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. mostly meets this standard | The U.S. fully meets this standard
+raw_statements_US_29	character	229		| The U.S. fully meets this standard | The U.S. does not meet this standard | Not sure | The U.S. partly meets this standard | The U.S. mostly meets this standard
+raw_statements_US_30	character	258		| The U.S. partly meets this standard | The U.S. mostly meets this standard | Not sure | The U.S. does not meet this standard | The U.S. fully meets this standard
+raw_statements_US_31	character	252		| The U.S. mostly meets this standard | The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. fully meets this standard | Not sure
+raw_statements_US_32	character	253		| The U.S. does not meet this standard | Not sure | The U.S. partly meets this standard | The U.S. fully meets this standard | The U.S. mostly meets this standard
+raw_statements_US_33	character	273		| The U.S. mostly meets this standard | The U.S. does not meet this standard | The U.S. partly meets this standard | The U.S. fully meets this standard | Not sure
+raw_statements_US_34	character	260		| The U.S. mostly meets this standard | The U.S. partly meets this standard | The U.S. does not meet this standard | Not sure | The U.S. fully meets this standard
+raw_statements_US_35	character	242		| The U.S. mostly meets this standard | Not sure | The U.S. partly meets this standard | The U.S. does not meet this standard | The U.S. fully meets this standard
+raw_statements_US_36	character	266		| The U.S. mostly meets this standard | The U.S. does not meet this standard | The U.S. fully meets this standard | Not sure | The U.S. partly meets this standard
+raw_statements_US_37	character	250		| The U.S. does not meet this standard | The U.S. mostly meets this standard | The U.S. partly meets this standard | Not sure | The U.S. fully meets this standard
+raw_attn_check_a	character	2750		Strongly disagree | Strongly agree | Somewhat disagree | Neither agree nor disagree | Somewhat agree
+raw_attn_check_b	character	2750		Strongly disagree | Strongly agree | Neither agree nor disagree | Somewhat disagree | Somewhat agree
+raw_attn_check_c	character	2750		Somewhat agree | Strongly agree | Strongly disagree | Somewhat disagree | Neither agree nor disagree
+raw_attn_check_d	character	2750		Somewhat agree | Strongly agree | Strongly disagree | Neither agree nor disagree | Somewhat disagree
+raw_attn_check_e	character	2750		Strongly agree | Strongly disagree | Somewhat agree | Neither agree nor disagree | Somewhat disagree
+raw_attn_check_f	character	2750		Strongly disagree | Neither agree nor disagree | Somewhat disagree | Strongly agree | Somewhat agree
+raw_polinterest	character	2750		Very interested | Extremely interested | Somewhat interested | Not very interested | Not at all interested
+raw_rightful_win	character	2750		Definitely the rightful winner | Probably not the rightful winner | Definitely not the rightful winner | Probably the rightful winner
+raw_elect_conf	character	2750		Somewhat confident | Very confident | Not at all confident | Not very confident
+raw_elect_conf_open	character	2745		[2686 uniq] I know the ones in Alabama will be counted well because I'm an election worker. I don't know how it works in other states. | The voting system is sound. Criticism is it is politically motivated and another example of current government corruption. | Current administration will and is ...
+raw_elect_conf_2026	character	1358		Somewhat confident | | Not at all confident | Very confident | Not too confident
+raw_admin_conf_2026	character	1392		| Very confident | Not very confident | Somewhat confident | Not at all confident
+raw_congress_expect_a	character	1369		| Republican Party | Democratic Party | Not sure
+raw_congress_expect_b	character	1381		Republican Party | Democratic Party | Not sure |
+raw_attention_check2_a	character	2750		Somewhat disagree | Strongly disagree | Neither agree nor disagree | Strongly agree | Somewhat agree
+raw_attention_check2_b	character	2750		Strongly disagree | Neither agree nor disagree | Strongly agree | Somewhat disagree | Somewhat agree | skipped
+raw_attention_check2_c	character	2750		Strongly agree | Somewhat agree | Strongly disagree | Neither agree nor disagree | Somewhat disagree
+raw_attention_check2_d	character	2750		Somewhat agree | Neither agree nor disagree | Strongly agree | Strongly disagree | Somewhat disagree
+raw_attention_check2_e	character	2750		Strongly disagree | Strongly agree | Neither agree nor disagree | Somewhat disagree | Somewhat agree
+raw_elect_irreg_aa	character	1397		| Fewer than a dozen | A few dozen | A few thousand | Never | A few hundred | A million or more
+raw_elect_irreg_ab	character	1397		| Fewer than a dozen | A few dozen | A million or more | A few thousand | Never | A few hundred
+raw_elect_irreg_ac	character	1397		| Fewer than a dozen | A few dozen | A few thousand | Never | A few hundred | A million or more
+raw_elect_irreg_ad	character	1397		| Fewer than a dozen | Never | A million or more | A few hundred | A few thousand | A few dozen
+raw_elect_irreg_ae	character	1397		| Fewer than a dozen | A few dozen | A few thousand | Never | A million or more | A few hundred
+raw_elect_irreg_af	character	1397		| Never | Fewer than a dozen | A few thousand | A few dozen | A few hundred | A million or more | skipped
+raw_elect_irreg_ba	character	1353		A few hundred | | Never | Fewer than a dozen | A few dozen | A few thousand | A million or more | skipped
+raw_elect_irreg_bb	character	1353		A few thousand | | Fewer than a dozen | A few hundred | Never | A few dozen | A million or more | skipped
+raw_elect_irreg_bc	character	1353		A few hundred | | Never | Fewer than a dozen | A million or more | A few thousand | A few dozen | skipped
+raw_elect_irreg_bd	character	1353		A few dozen | | Fewer than a dozen | A few hundred | Never | A few thousand | A million or more | skipped
+raw_elect_irreg_be	character	1353		A few hundred | | A few thousand | Never | Fewer than a dozen | A million or more | A few dozen | skipped
+raw_elect_irreg_bf	character	1353		A few hundred | | Fewer than a dozen | Never | A few dozen | A few thousand | A million or more | skipped
+raw_elect_belief_a	numeric	2750		[101 uniq] 80 | 90 | 49 | 53 | 41 | 50 | 70 | 51
+raw_elect_belief_a_button	character	2750		Not clicked | Clicked
+raw_elect_belief_b	numeric	561		[98 uniq] 10 | 50 | 20 | 21 | 51 | 18 | 0 | 40
+raw_elect_belief_b_button	character	2750		Not clicked | Clicked
+raw_elect_belief_c	numeric	588		[96 uniq] 16 | 100 | 0 | 50 | 51 | 1 | 8 | 44
+raw_elect_belief_c_button	character	2750		Clicked | Not clicked
+raw_elect_belief_d	numeric	564		[84 uniq] 48 | 25 | 43 | 2 | 31 | 70 | 49 | 1
+raw_elect_belief_d_button	character	2750		Not clicked | Clicked
+raw_elect_belief_e	numeric	621		[97 uniq] 15 | 79 | 34 | 51 | 55 | 72 | 100 | 90
+raw_elect_belief_e_button	character	2750		Not clicked | Clicked
+raw_elect_belief_f	numeric	570		[95 uniq] 20 | 8 | 1 | 52 | 10 | 0 | 50 | 96
+raw_elect_belief_f_button	character	2750		Not clicked | Clicked
+raw_elect_belief_g	numeric	581		[94 uniq] 64 | 22 | 11 | 25 | 19 | 5 | 8 | 30
+raw_elect_belief_g_button	character	2750		Not clicked | Clicked
+raw_elect_belief_h	numeric	609		[95 uniq] 53 | 0 | 70 | 25 | 20 | 1 | 15 | 29
+raw_elect_belief_h_button	character	2750		Not clicked | Clicked
+raw_elect_belief_i	numeric	614		[97 uniq] 10 | 60 | 40 | 80 | 24 | 30 | 3 | 25
+raw_elect_belief_i_button	character	2750		Not clicked | Clicked
+raw_elect_belief_j	numeric	566		[79 uniq] 100 | 65 | 50 | 89 | 70 | 90 | 91 | 51
+raw_elect_belief_j_button	character	2750		Not clicked | Clicked
+raw_elect_belief_k	numeric	280		[79 uniq] 20 | 75 | 70 | 5 | 80 | 81 | 91 | 10
+raw_elect_belief_k_button	character	2750		Not clicked | Clicked
+raw_elect_belief_l	numeric	298		[79 uniq] 49 | 10 | 4 | 55 | 60 | 23 | 61 | 0
+raw_elect_belief_l_button	character	2750		Not clicked | Clicked
+raw_elect_belief_m	numeric	600		[92 uniq] 1 | 0 | 60 | 3 | 30 | 7 | 25 | 95
+raw_elect_belief_m_button	character	2750		Not clicked | Clicked
+raw_elect_belief_n	numeric	586		[98 uniq] 60 | 77 | 80 | 45 | 5 | 50 | 63 | 65
+raw_elect_belief_n_button	character	2750		Not clicked | Clicked
+raw_elect_belief_o	numeric	623		[94 uniq] 44 | 100 | 30 | 49 | 79 | 20 | 55 | 0
+raw_elect_belief_o_button	character	2750		Not clicked | Clicked
+raw_elect_belief_p	numeric	603		[96 uniq] 90 | 32 | 50 | 80 | 41 | 25 | 100 | 3
+raw_elect_belief_p_button	character	2750		Not clicked | Clicked
+raw_elect_belief_b_2	numeric	561		[91 uniq] 50 | 100 | 12 | 30 | 92 | 10 | 90 | 55
+raw_elect_belief_c_2	numeric	588		[95 uniq] 39 | 29 | 0 | 41 | 30 | 99 | 51 | 38
+raw_elect_belief_d_2	numeric	564		[98 uniq] 46 | 30 | 43 | 12 | 37 | 69 | 70 | 80
+raw_elect_belief_e_2	numeric	621		[94 uniq] 10 | 77 | 80 | 4 | 21 | 50 | 100 | 90
+raw_elect_belief_f_2	numeric	570		[100 uniq] 0 | 20 | 38 | 100 | 50 | 1 | 40 | 82
+raw_elect_belief_g_2	numeric	581		[96 uniq] 30 | 73 | 10 | 50 | 77 | 39 | 54 | 75
+raw_elect_belief_h_2	numeric	609		[95 uniq] 72 | 0 | 62 | 25 | 60 | 48 | 75 | 6
+raw_elect_belief_i_2	numeric	614		[98 uniq] 62 | 65 | 18 | 72 | 89 | 77 | 90 | 3
+raw_elect_belief_j_2	numeric	566		[91 uniq] 50 | 45 | 40 | 79 | 100 | 60 | 80 | 49
+raw_elect_belief_k_2	numeric	280		[83 uniq] 30 | 50 | 4 | 70 | 20 | 86 | 79 | 75
+raw_elect_belief_l_2	numeric	298		[85 uniq] 50 | 12 | 90 | 49 | 76 | 96 | 100 | 78
+raw_elect_belief_m_2	numeric	600		[95 uniq] 90 | 0 | 60 | 16 | 11 | 7 | 25 | 78
+raw_elect_belief_n_2	numeric	586		[99 uniq] 85 | 96 | 40 | 70 | 99 | 90 | 47 | 31
+raw_elect_belief_o_2	numeric	623		[96 uniq] 46 | 91 | 31 | 40 | 35 | 50 | 51 | 95
+raw_elect_belief_p_2	numeric	603		[97 uniq] 100 | 72 | 59 | 40 | 50 | 30 | 90 | 97
+raw_rating_USA_experiment	numeric	2750		[101 uniq] 39 | 60 | 16 | 57 | 43 | 61 | 48 | 25
+raw_pol_sci_conf	character	2750		Some confidence | A great deal of confidence | No confidence at all | A fair amount of confidence | Little confidence
+raw_pol_sci_role	character	2750		Political scientists should take an active role in public debates about issues related to democracy. | Political scientists should focus on establishing sound scientific facts and stay out of public debates.
+raw_poli_sci_2	character	2750		Agree | Strongly agree | Neither agree nor disagree | Strongly disagree | Disagree
+raw_trump_appr	character	2750		Strongly disapprove | Somewhat approve | Somewhat disapprove | Strongly approve
+raw_trump_v_party	character	1224		| Supporter of the Republican Party | Supporter of Donald Trump
+raw_looked_up	character	2750		No, I did not look up information | Yes, I looked up information | skipped
+raw_insincere	character	2750		Rarely | Never | Some of the time | skipped | Always | Most of the time
+raw_birthyr	numeric	2750		[74 uniq] 1990 | 1957 | 1961 | 1975 | 1976 | 1981 | 1967 | 2003
+raw_age	numeric	2750		[74 uniq] 36 | 69 | 65 | 51 | 50 | 45 | 59 | 23
+raw_age9	character	2750		35 - 44 | 65 - 74 | 45 - 54 | 55 - 64 | 18 - 24 | 75 - 84 | 25 - 34 | 85 or older
+raw_gender_o	character	2750		Female | Male | Other | Prefer not to answer
+raw_race	character	2750		White | Black | Hispanic | Asian | Native American | Two or more races | Other | Middle Eastern
+raw_ethnicity	character	2750		White | Black or African American | Hispanic/Latino/Chicano/a | Asian/Pacific Islander | American Indian or Alaska Native | Multi–racial | Other
+raw_hispanic	character	2750		No | Yes
+raw_educ7	character	2750		Master's degree | Some college | Associate's degree | Bachelor's degree | Professional or doctorate degree | High school diploma or the equivalent (GED) | Did not graduate from high school
+raw_marstat	character	2750		Married | Never married | Divorced | Widowed | Separated | Domestic / civil partnership
+raw_employ	character	2750		[9 uniq] Full-time | Retired | Homemaker | Unemployed | Part-time | Permanently disabled | Student | Other
+raw_faminc_new	character	2750		[17 uniq] $200,000 - $249,999 | $150,000 - $199,999 | $100,000 - $119,999 | $30,000 - $39,999 | $50,000 - $59,999 | $120,000 - $149,999 | $40,000 - $49,999 | $10,000 - $19,999
+raw_child18	character	2750		Yes | No
+raw_inputstate	character	2750		[51 uniq] Alabama | Missouri | Arizona | New York | Georgia | Iowa | Florida | Texas
+raw_ownhome	character	2750		Own | Rent | Other
+raw_pid3	character	2750		Independent | Democrat | Republican | Other | Not sure
+raw_pid7	character	2750		Lean Democrat | Not very strong Democrat | Independent | Not very strong Republican | Strong Democrat | Lean Republican | Strong Republican | Not sure
+raw_presvote20post	character	2750		Joe Biden | Did not vote for President | Donald Trump | Howie Hawkins | Other | Jo Jorgensen
+raw_presvote24post	character	2750		Kamala Harris | Did not vote for President | Donald Trump | Other | Chase Oliver | Cornel West | Jill Stein | Robert F. Kennedy, Jr.
+raw_votereg	character	2750		Yes | No | Don't know
+raw_ideo7	character	2750		Somewhat liberal | Very liberal | Moderate; middle of the road | Very conservative | Somewhat conservative | Slightly liberal | Slightly conservative | skipped
+raw_newsint	character	2750		Some of the time | Most of the time | Only now and then | Hardly at all | Don't know
+raw_religpew	character	2750		[12 uniq] Protestant | Atheist | Nothing in particular | Agnostic | Roman Catholic | Jewish | Buddhist | Mormon
+raw_pew_churatd	character	2750		A few times a year | Never | Seldom | Once a week | Once or twice a month | More than once a week | Don't know
+raw_pew_bornagain	character	2750		No | Yes
+raw_pew_religimp	character	2750		Somewhat important | Not at all important | Very important | Not too important
+raw_pew_prayer	character	2750		A few times a month | Never | Several times a day | A few times a week | Seldom | Once a day | Don't know | Once a week
+raw_starttime	character	2750		[2750 uniq] 2026-10-06T16:43:47.126 | 2026-10-06T16:40:54.832 | 2026-10-06T16:45:32.122 | 2026-10-06T16:44:16.324 | 2026-10-06T16:48:24.694 | 2026-10-06T16:48:02.670 | 2026-10-06T16:46:16.502 | 2026-10-06T16:47:11.614
+raw_endtime	character	2750		[2750 uniq] 2026-10-06T16:50:38.526 | 2026-10-06T16:51:48.037 | 2026-10-06T16:51:54.190 | 2026-10-06T16:52:33.061 | 2026-10-06T16:53:44.086 | 2026-10-06T16:54:43.432 | 2026-10-06T16:54:57.750 | 2026-10-06T16:55:15.957
