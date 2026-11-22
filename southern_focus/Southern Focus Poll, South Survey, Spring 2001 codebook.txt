@@ -1,0 +1,2309 @@
+Data File: SFPSS01 (Full Data Codebook)
+
+1) RESP
+Respondent's number
+RANGE: 1001 to 3796
+	N	Mean	Std. Deviation
+Total	852	2347.248	800.559
+
+
+2) STATE
+Which state am I calling?
+RANGE: 1 to 47
+	N	Mean	Std. Deviation
+Total	852	27.852	15.832
+1) Alabama	45	5.3
+4) Arkansas	21	2.5
+10) Florida	141	16.5
+11) Georgia	71	8.3
+18) Kentucky	43	5.0
+19) Louisiana	46	5.4
+25) Mississippi	27	3.2
+34) North Carolina	76	8.9
+37) Oklahoma	43	5.0
+41) South Carolina	44	5.2
+43) Tennessee	73	8.6
+44) Texas	155	18.2
+47) Virginia	67	7.9
+
+
+3) YRBORN
+In which year were you born?
+RANGE: 1891 to 1983
+	N	Mean	Std. Deviation
+Total	852	1955.6	18.77
+
+
+4) COMSOUTH
+ASKED ONLY OF SOUTHERN RESPONDENTS AND THOSE WHO LIVE IN BORDER STATES: Just for the record, would you say that your community is in the South?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	852	1.101	0.338
+1) Yes	776	91.1
+2) No	66	7.7
+3) Don't know/No Answer	10	1.2
+
+
+5) LIVESOU
+[ASKED ONLY IF COMSOUTH=1 'YES']Not counting time spent away at school and for other temporary reasons, have you lived in the South all your life or not?  How long have you lived in the South?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	776	3.482	0.85
+1) 5 years or less	46	5.9
+2) 6 to 10 years	42	5.4
+3) More than 10 years	183	23.6
+4) All my life	502	64.7
+5) Don't know/No answer	3	0.4
+Missing	76
+
+
+6) TRAVOUT
+[ASKED ONLY IF LIVESOU=4 'ALL MY LIFE']Have you ever traveled or visited outside the South?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	502	1.122	0.327
+1) Yes	441	87.8
+2) No	61	12.2
+Missing	350
+
+
+7) STATE16
+Which state did you live in when you were 16?
+RANGE: 1 to 53
+	N	Mean	Std. Deviation
+Total	852	28.384	15.544
+1) Alabama	45	5.3
+3) Arizona	1	0.1
+4) Arkansas	20	2.3
+5) California	14	1.6
+6) Colorado	2	0.2
+7) Connecticut	2	0.2
+10) Florida	67	7.9
+11) Georgia	64	7.5
+13) Idaho	2	0.2
+14) Illinois	12	1.4
+15) Indiana	11	1.3
+16) Iowa	4	0.5
+17) Kansas	3	0.4
+18) Kentucky	35	4.1
+19) Louisiana	46	5.4
+20) Maine	3	0.4
+21) Maryland	9	1.1
+22) Massachusetts	4	0.5
+23) Michigan	8	0.9
+24) Minnesota	1	0.1
+25) Mississippi	28	3.3
+26) Missouri	5	0.6
+27) Montana	2	0.2
+28) Nebraska	1	0.1
+29) Nevada	1	0.1
+31) New Jersey	8	0.9
+32) New Mexico	3	0.4
+33) New York	27	3.2
+34) North Carolina	60	7.0
+36) Ohio	23	2.7
+37) Oklahoma	31	3.6
+38) Oregon	1	0.1
+39) Pennsylvania	12	1.4
+41) South Carolina	35	4.1
+43) Tennessee	58	6.8
+44) Texas	114	13.4
+46) Vermont	1	0.1
+47) Virginia	41	4.8
+48) Washington	5	0.6
+49) West Virginia	9	1.1
+50) Wisconsin	3	0.4
+52) Foreign country	27	3.2
+53) Don't know	4	0.5
+
+
+8) LIVSTAT1
+Not counting time spent away at school and for other temporary reasons, have you lived in [respondent's state] all your life?
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	528	5.564	0.938
+1) Less than five years	6	1.1
+2) Five to nine years	6	1.1
+3) Ten to fourteen years	19	3.6
+4) Fifteen to nineteen years	11	2.1
+5) Twenty or more years	100	18.9
+6) All my life	383	72.5
+7) Don't know/No answer	3	0.6
+Missing	324
+
+
+9) LIVSTAT2
+Not counting time spent away at school and for other temporary reasons, how long have you lived in [respondent's state]?
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	324	3.244	1.711
+1) Less than five years	83	25.6
+2) Five to nine years	43	13.3
+3) Ten to fourteen years	43	13.3
+4) Fifteen to nineteen years	37	11.4
+5) Twenty or more years	106	32.7
+6) All my life	9	2.8
+7) Don't know/No answer	3	0.9
+Missing	528
+
+
+10) SOUTHERN
+[ASK ONLY IF COMSOUTH=1 'YES']Do you consider yourself a Southerner, or not?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	852	1.315	0.508
+1) Yes	602	70.7
+2) No	232	27.2
+3) Don't know/No Answer	18	2.1
+
+
+11) SIDIMP
+[ASK ONLY IF SOUTHERN= 1 'YES' OR SOUFAM= 1 'YES, SELF' OR 3 'BOTH SELF AND FAMILY']Would you say that being a Southerner is very important, somewhat important, not very important, or not at all important to you?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	602	2.292	1.168
+1) Very important	183	30.4
+2) Somewhat important	203	33.7
+3) Not very important	95	15.8
+4) Not at all important	99	16.4
+5) Don't know/No answer	22	3.7
+Missing	250
+
+
+12) SGLOBL1
+[ASK ON IF SOUTHERN= 1 'YES]Some Southerners pay more attention to how they are different from non-Southerners. Other Southerners pay more attention to how connected they are with people around the world. For you personally, would you say you pay more attention to how Southerners are different, or how they are connected?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	311	2.125	1.142
+1) Different than non-Southerners	91	29.3
+2) Connected to people around the world	155	49.8
+3) Neither	29	9.3
+4) Both	7	2.3
+5) Don't know/No answer	29	9.3
+Missing	541
+
+
+13) SGLOBL2
+[ASK ON IF SOUTHERN= 1 'YES]Some Southerners pay more attention to how connected they are with people around the world. Other Southerners pay more attention to how they are different from non-Southerners. For you personally, would you say you pay more attention to how Southerners are connected, or how they are different?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	291	2.062	1.312
+1) Connected to people around the world	130	44.7
+2) Different than non-Southerners	88	30.2
+3) Neither	34	11.7
+4) Both	3	1.0
+5) Don't know/No answer	36	12.4
+Missing	561
+
+
+14) ZIPCODE
+What is your zip code?
+RANGE: 168 to 99999
+	N	Mean	Std. Deviation
+Total	852	47798.839	23117.443
+
+
+15) LIVEWH
+Do you live in a city, a suburban community, a small town, or a rural area?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	852	2.325	1.193
+1) City	312	36.6
+2) Suburbs	147	17.3
+3) Small Town	201	23.6
+4) Rural	188	22.1
+5) Refused/Not sure	4	0.5
+
+
+16) GENDER
+Code the gender of respondent
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	852	1.582	0.493
+1) Male	356	41.8
+2) Female	496	58.2
+
+
+17) EDUC
+How many years of school have you completed?
+RANGE: 1 to 16
+	N	Mean	Std. Deviation
+Total	852	12.845	1.62
+1) 1st Grade (or less)	1	0.1
+2) 2nd Grade	1	0.1
+4) 4th Grade	1	0.1
+5) 5th Grade	2	0.2
+6) 6th Grade	1	0.1
+7) 7th Grade	4	0.5
+8) 8th Grade	9	1.1
+9) 9th Grade	13	1.5
+10) 10th Grade	16	1.9
+11) 11th Grade	34	4.0
+12) 12th Grade (High school)	241	28.3
+13) Some college (Two year degree)	239	28.1
+14) 4 year college graduate	184	21.6
+15) Advanced degree (Ma, Phd, Lld, Md)	101	11.9
+16) No answer	5	0.6
+
+
+18) RELIG
+How often do you attend church or other religious services?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	852	2.977	1.359
+1) More than once a week	133	15.6
+2) Once a week	242	28.4
+3) Two to three times a month	139	16.3
+4) Several times a year	193	22.7
+5) Never	140	16.4
+6) Refused	5	0.6
+
+
+19) RELIGIMP
+How important would you say your religious faith is in your own life these days -- extremely important, very important, somewhat important, or not important?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	852	1.87	0.953
+1) Extremely important	367	43.1
+2) Very important	300	35.2
+3) Somewhat important	125	14.7
+4) Not important	49	5.8
+5) Don't know/No answer	11	1.3
+
+
+20) RELAFFL
+What is your religious affiliation -- Protestant, Catholic, Jewish, some other religion, or no religion?
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	852	1.849	1.616
+1) Protestant	581	68.2
+2) Catholic	135	15.8
+3) Jewish	7	0.8
+4) Some other religion (Specify)	26	3.1
+5) No Religion [Not Religious/Agnostic/Atheist]	37	4.3
+6) Christian or just a Christian	48	5.6
+7) Don't know/No answer	18	2.1
+
+
+21) NORELIG
+Do you consider yourself to be an agnostic, an atheist, or just not religious?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	37	2.784	0.886
+1) Agnostic	5	13.5
+2) Atheist	4	10.8
+3) Just not religious	22	59.5
+4) Don't know/No answer	6	16.2
+Missing	815
+
+
+22) RELAFCHK
+[ASK ONLY IF RELAFFL= 4 'SOME OTHER RELIGION']'What other religion are you?' Does the response include any of the following words?  Anglican, Holiness, Adventist, Lutheran, Apostolic, Methodist, Assembly of God, Nazarene, Baptist, Non-Denominational, Bible, Pentecostal, Born-Again, Presbyterian, Christ/Christian, Prophetic, Church of God, Quaker/Friends, Episcopalian, Seventh-Day Adventist, or Greek/Serb Orthodox
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	117	1.222	0.418
+1) Yes	91	77.8
+2) No	26	22.2
+Missing	735
+
+
+23) DMETHDST
+[ASK ONLY IF DENOM= 36 'METHODIST']Is that the United Methodist Church, African Methodist Episcopal Church, the Free Methodist Church, or some other Methodist group?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	103	3.971	1.052
+1) African Methodist Episcopal	6	5.8
+2) African Methodist Episcopal Zion	3	2.9
+3) Free Methodist Church	2	1.9
+4) United Methodist	80	77.7
+5) Other (Specify)	1	1.0
+6) Don't know; 'Just Methodist'	11	10.7
+Missing	749
+
+
+24) DPRESBY
+[ASK ONLY IF DENOM= 40 'PRESBYTERIAN']Is that the Presbyterian Church in the U.S.A., the Presbyterian Church in America, the Orthodox Presbyterian Church, the Evangelical Presbyterian Church, or some other Presbyterian group?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	21	4.286	1.309
+1) Evangelical Presbyterian Church	1	4.8
+2) Orthodox Presbyterian Church	1	4.8
+3) Presbyterian Church in America	1	4.8
+4) Presbyterian Church in The USA	11	52.4
+5) Other (Specify)	2	9.5
+6) Don't know; 'Just Presbyterian'	5	23.8
+Missing	831
+
+
+25) DLUTHRAN
+[ASK ONLY IF DENOM= 34 'LUTHERAN']Is that the Evangelical Lutheran Church in America, the Missouri Synod, the Wisconsin Synod, or some other Lutheran group?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	24	2.583	1.863
+1) Evangelical Lutheran Church in America (ELCA; Formerly the Lutheran Church in America, American Lutheran Church)	12	50.0
+2) Missouri Synod	3	12.5
+3) Wisconsin Synod	0	0.0
+4) Other (Specify)	1	4.2
+5) Don't know; 'Just Lutheran'	8	33.3
+Missing	828
+
+
+26) DDISCIPL
+[ASK ONLY IF DENOM= 17 'CHRISTIAN OR JUST CHRISTIAN']When you say 'Christian,' does that mean the denomination called the 'Christian Church (Disciples of Christ),' or some other Christian denomination, or do you mean to say 'I am just a Christian?'
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	23	2.13	0.757
+1) Disciples of Christ	3	13.0
+2) 'Just A Christian'	16	69.6
+3) Other Christian Denomination (Specify)	2	8.7
+4) Don't know	2	8.7
+Missing	829
+
+
+27) DCHRIST
+[ASK ONLY IF DENOM= 20 'CHURCH(ES) OF CHRIST']Is that the Church of Christ or the United Church of Christ?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	12	1.5	1.168
+1) Church(es) of Christ	10	83.3
+4) Don't know	2	16.7
+Missing	840
+
+
+28) DCHGOD
+[ASK ONLY IF DENOM= 21 'CHURCH OF GOD']Is that the Church of God of Anderson, Indiana; the Church of God of Cleveland, Tennessee; the Church of God in Christ; or some other Church of God?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	5	3	1.581
+1) Anderson, IN	1	20.0
+2) Cleveland, TN	1	20.0
+3) In Christ	1	20.0
+4) Other (Specify)	1	20.0
+5) Don't know	1	20.0
+Missing	847
+
+
+29) DHOLINES
+[ASK ONLY IF DENOM= 30 'HOLINESS']Is that the Christian and Missionary Alliance, the Church of the Nazarene, the Salvation Army, the Wesleyan Church, the Free Methodist Church, the Church of God (Anderson, IN), or some other Holiness group?
+RANGE: 6 to 8
+	N	Mean	Std. Deviation
+Total	6	7	0.632
+6) Church of God (Anderson, Indiana)	1	16.7
+7) Other (Specify)	4	66.7
+8) Don't know; 'Just Holiness'	1	16.7
+Missing	846
+
+
+30) DANABAPT
+[ASK ONLY IF DENOM= 10 'ANABAPTIST']What kind of Anabaptist church is that? [If need prompts:]What is it called exactly? Is that part of a larger church or denomination? What is that church called?
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1	1	0
+1) Amish	1	100.0
+Missing	851
+
+
+31) DANY
+[ASK ONLY IF DENOM= 33 'JUST PROTESTANT']Does your church have any denominational affiliation at all?
+RANGE: 3 to 3
+	N	Mean	Std. Deviation
+Total	1	3	0
+3) Don't know	1	100.0
+Missing	851
+
+
+32) DINDEP
+[ASK ONLY IF DENOM= 31 'INDEPENDENT OR 38 'NON/INTER-DENOMINATIONAL PROTESTANT']Is that an independent fundamentalist church, independent charismatic church, independent Pentecostal church, independent Evangelical church, or what?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	22	4.818	1.918
+1) Independent Fundamentalist	2	9.1
+2) Independent Charismatic	3	13.6
+3) Independent Pentecostal	1	4.5
+5) Other (Specify)	1	4.5
+6) Don't know/'Just Independent'	15	68.2
+Missing	830
+
+
+33) RELID97S
+[ASK ONLY IF RELAFFL= 1 'PROTESTANT OR 6 'CHRISTIAN OR JUST  CHRISTIAN' AND DENOM= 10, 11, 12, 13, 14, 16, 17, 18, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 44, 45, 46, 47, 48, 49, 50, OR 52]When it comes to your religious faith, would you say you are Pentecostal, fundamentalist, evangelical, mainline Protestant, or theologically liberal?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	649	5.123	2.329
+1) Pentecostal	69	10.6
+2) Fundamentalist	37	5.7
+3) Evangelical	47	7.2
+4) Mainline Protestant	112	17.3
+5) Theologically Liberal	119	18.3
+6) Other (Specify)	7	1.1
+7) None of the above	108	16.6
+8) Don't know/No Answer	150	23.1
+Missing	203
+
+
+34) RELCATH
+[ASK ONLY IF RELAFFL= 2 'CATHOLIC' AND DENOM= 15 'CATHOLIC' OR 43 'ROMAN CATHOLIC']Do you consider yourself a traditionalist Catholic, a progressive Catholic, or none of these?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	141	2.234	1.223
+1) Traditionalist	52	36.9
+2) Progressive	31	22.0
+3) None of these	44	31.2
+4) Other (Specify)	1	0.7
+5) Don't know/No answer	13	9.2
+Missing	711
+
+
+35) RELIGRT
+[ASK ONLY IF RELAFFL= 1 'PROTESTANT' OR 2 'CATHOLIC' OR 6 'CHRISTIAN OR JUST A CHRISTIAN']Do you consider yourself to be part of the religious right political movement?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	673	1.979	0.5
+1) Yes	91	13.5
+2) No	505	75.0
+3) Don't know/No answer	77	11.4
+Missing	179
+
+
+36) WOMCLERG
+[ASK ONLY IF RELAFFL= 1 'PROTESTANT' OR 2 'CATHOLIC' OR 6 'CHRISTIAN OR JUST A CHRISTIAN' AND RELIG= 1 'MORE THAN ONCE A WEEK' OR 2 'ONCE A WEEK' OR 3 'TWO TO THREE TIMES A MONTH' OR 4 'SEVERAL TIMES A YEAR']Are there any women among your church's ordained clergy?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	580	1.717	0.541
+1) Yes	190	32.8
+2) No	364	62.8
+3) Don't know/Does not apply	26	4.5
+Missing	272
+
+
+37) WOMBIBLE
+[ASK ONLY IF RELAFFL= 1 'PROTESTANT' OR 2 'CATHOLIC' OR 6 'CHRISTIAN OR JUST A CHRISTIAN' AND RELIG= 1 'MORE THAN ONCE A WEEK' OR 2 'ONCE A WEEK' OR 3 'TWO TO THREE TIMES A MONTH' OR 4 'SEVERAL TIMES A YEAR']How comfortable would you feel having a woman read the Bible from the pulpit in your church: very comfortable, fairly comfortable, not too comfortable, or not at all comfortable?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	580	1.49	0.959
+1) Very comfortable	422	72.8
+2) Fairly comfortable	89	15.3
+3) Not too comfortable	23	4.0
+4) Not at all comfortable	35	6.0
+5) Don't know/No answer	11	1.9
+Missing	272
+
+
+38) WOMPRECH
+[ASK ONLY IF RELAFFL= 1 'PROTESTANT' OR 2 'CATHOLIC' OR 6 'CHRISTIAN OR JUST A CHRISTIAN' AND RELIG= 1 'MORE THAN ONCE A WEEK' OR 2 'ONCE A WEEK' OR 3 'TWO TO THREE TIMES A MONTH' OR 4 'SEVERAL TIMES A YEAR']How comfortable would you feel having a woman preach a sermon in your church: very comfortable, fairly comfortable, not too comfortable, or not at all comfortable?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	580	1.707	1.174
+1) Very comfortable	392	67.6
+2) Fairly comfortable	68	11.7
+3) Not too comfortable	33	5.7
+4) Not at all comfortable	72	12.4
+5) Don't know/No answer	15	2.6
+Missing	272
+
+
+39) WOMWED
+[ASK ONLY IF RELAFFL= 1 'PROTESTANT' OR 2 'CATHOLIC' OR 6 'CHRISTIAN OR JUST A CHRISTIAN' AND RELIG= 1 'MORE THAN ONCE A WEEK' OR 2 'ONCE A WEEK' OR 3 'TWO TO THREE TIMES A MONTH' OR 4 'SEVERAL TIMES A YEAR']How comfortable would you feel having a woman perform a funeral or a wedding in your church: very comfortable, fairly comfortable, not too comfortable, or not at all comfortable?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	580	1.784	1.226
+1) Very comfortable	374	64.5
+2) Fairly comfortable	74	12.8
+3) Not too comfortable	35	6.0
+4) Not at all comfortable	77	13.3
+5) Don't know/No answer	20	3.4
+Missing	272
+
+
+40) READROMN
+[ASK ONLY IF RELAFFL= 1 'PROTESTANT' OR 2 'CATHOLIC' OR 6 'CHRISTIAN OR JUST A CHRISTIAN']Have you ever read any romance novels?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	673	1.495	0.515
+1) Yes	345	51.3
+2) No	323	48.0
+3) Don't know/No Answer	5	0.7
+Missing	179
+
+
+41) CHRSTROM
+[ASK ONLY IF READROMN= 1 'YES']Have you ever read any Christian romance novels, by authors like Janette Oke, Lori Wick, Francine Rivers, or Grace Livingston Hill--or any other Christian romance author?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	345	1.762	0.501
+1) Yes	94	27.2
+2) No	239	69.3
+3) Don't know/No Answer	12	3.5
+Missing	507
+
+
+42) MARITAL
+Are you currently
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	852	2.474	1.739
+1) Married	427	50.1
+2) Divorced	111	13.0
+3) Separated	26	3.1
+4) Widowed	66	7.7
+5) Never been married	215	25.2
+6) No answer	7	0.8
+
+
+43) MARBFOR
+[ASK ONLY IF MARITAL= 1 'MARRIED']Is this your first marriage, or have you been married before?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	427	1.319	0.471
+1) First marriage	292	68.4
+2) Have been married before	134	31.4
+3) Refused/No answer	1	0.2
+Missing	425
+
+
+44) AGEMARR1
+[ASK ONLY IF MARBFOR= 1 'FIRST MARRIAGE']How old were you when you first got married?
+RANGE: 10 to 46
+	N	Mean	Std. Deviation
+Total	292	22.257	4.545
+10) Don't know/No Answer	1	0.3
+15) 	1	0.3
+16) 	5	1.7
+17) 	16	5.5
+18) 	34	11.6
+19) 	28	9.6
+20) 	28	9.6
+21) 	48	16.4
+22) 	18	6.2
+23) 	22	7.5
+24) 	19	6.5
+25) 	17	5.8
+26) 	9	3.1
+27) 	12	4.1
+28) 	9	3.1
+29) 	7	2.4
+30) 	5	1.7
+31) 	2	0.7
+33) 	1	0.3
+34) 	1	0.3
+35) 	4	1.4
+36) 	2	0.7
+37) 	1	0.3
+40) 	1	0.3
+46) 	1	0.3
+Missing	560
+
+
+45) AGEMARR2
+[ASK ONLY IF MARBFOR= 2 'HAVE BEEN MARRIED BEFORE']How old were you when you got married for the first time?
+RANGE: 10 to 34
+	N	Mean	Std. Deviation
+Total	134	20.821	3.856
+10) Don't know/No Answer	1	0.7
+13) 	1	0.7
+15) 	4	3.0
+16) 	5	3.7
+17) 	10	7.5
+18) 	20	14.9
+19) 	11	8.2
+20) 	18	13.4
+21) 	18	13.4
+22) 	9	6.7
+23) 	13	9.7
+24) 	3	2.2
+25) 	4	3.0
+26) 	4	3.0
+27) 	2	1.5
+28) 	5	3.7
+29) 	1	0.7
+30) 	4	3.0
+34) 	1	0.7
+Missing	718
+
+
+46) PARENT
+Are you a parent?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	852	1.299	0.468
+1) Yes	601	70.5
+2) No	247	29.0
+3) Don't know/No Answer	4	0.5
+
+
+47) STEPPRNT
+Are you a step-parent?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	852	1.866	0.354
+1) Yes	118	13.8
+2) No	730	85.7
+3) Don't know/No Answer	4	0.5
+
+
+48) EMPLOYED
+Last week were you primarily:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	852	2.387	1.845
+1) Working full-time	487	57.2
+2) Working part-time	54	6.3
+3) Going to school	59	6.9
+4) Keeping house	69	8.1
+5) Retired	137	16.1
+6) Unemployed	25	2.9
+7) Or what	17	2.0
+8) No answer	4	0.5
+
+
+49) HWEMPLOY
+[ASL ONLY IF MARITAL= 1 'MARRIED']What about your spouse?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	427	2.206	1.885
+1) Working full-time	286	67.0
+2) Working part-time	18	4.2
+3) Going to school	2	0.5
+4) Keeping house	30	7.0
+5) Retired	66	15.5
+6) Unemployed	13	3.0
+7) Or what	10	2.3
+8) No answer	2	0.5
+Missing	425
+
+
+50) INCOMEF9
+I am going to read you a list of income categories. Please stop me when a category best describes your total household income before taxes:
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	852	5.451	2.949
+1) Less than $20,000	91	10.7
+2) $20,000 up to $29,999	98	11.5
+3) $30,000 up to $39,999	102	12.0
+4) $40,000 up to $49,999	89	10.4
+5) $50,000 up to $59,999	61	7.2
+6) $60,000 up to $69,999	43	5.0
+7) $70,000 up to $79,999	34	4.0
+8) More than $80,000	112	13.1
+9) No answer	222	26.1
+
+
+51) AMERINDN
+[ASK ONLY IF RACES01= 1, 2, 3, 4, 5, 7, 10, 11, OR 12]As far as you know, were any of your ancestors American Indians?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	852	1.647	0.564
+1) Yes, were	339	39.8
+2) No, were not	475	55.8
+3) Don't know	38	4.5
+
+
+52) HISPNS01
+[ASK ONLY IF RACES01= 1, 2, 3, 4, 5, 8, 9, 10, 11, OR 12]Are you of Hispanic origin?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	815	1.971	0.236
+1) Yes, Hispanic	35	4.3
+2) No, not Hispanic	769	94.4
+3) Don't know/No answer	11	1.3
+Missing	37
+
+
+53) CHILD18
+How many people under 18 live in this house?
+RANGE: 0 to 12
+	N	Mean	Std. Deviation
+Total	852	0.809	1.306
+0) None	499	58.6
+1) One	155	18.2
+2) Two	123	14.4
+3) Three	46	5.4
+4) Four	20	2.3
+5) Five	3	0.4
+6) Six	2	0.2
+7) Seven	1	0.1
+12) Refused	3	0.4
+
+
+54) CHILD12
+How many of those are under 12 years old?
+RANGE: 0 to 6
+	N	Mean	Std. Deviation
+Total	350	1.06	1.01
+0) None	115	32.9
+1) One	138	39.4
+2) Two	68	19.4
+3) Three	22	6.3
+4) Four	5	1.4
+5) Five	1	0.3
+6) Six	1	0.3
+Missing	502
+
+
+55) PEOPLE
+Including yourself, how many people 18 or older live at this telephone number?
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	852	2.065	1.398
+0) None
+1) One	250	29.3
+2) Two	442	51.9
+3) Three	112	13.1
+4) Four	31	3.6
+5) Five	5	0.6
+8) Eight	1	0.1
+12) Refused	11	1.3
+
+
+56) PARTYID
+Regardless of how you vote, when it comes to national politics, do you usually think of yourself as a Republican, a Democrat, an Independent, or what?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	852	2.188	1.2
+1) Republican	291	34.2
+2) Democrat	295	34.6
+3) Independent	153	18.0
+4) Other	41	4.8
+5) Don't know/No answer	72	8.5
+
+
+57) STRDEM
+[ASK ONLY IF PARTYID= 2 'DEMOCRAT']Would you call yourself a strong Democrat or a not very strong Democrat?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	295	1.478	0.564
+1) Strong Democrat	164	55.6
+2) Not very strong Democrat	121	41.0
+3) Don't know/No answer	10	3.4
+Missing	557
+
+
+58) STRREP
+[ASK ONLY IF PARTYID= 1 'REPUBLICAN']Would you call yourself a strong Republican or a not very strong Republican?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	291	1.454	0.564
+1) Strong Republican	169	58.1
+2) Not very strong Republican	112	38.5
+3) Don't know/No answer	10	3.4
+Missing	561
+
+
+59) INDEP
+[ASK ONLY IF PARTYID= 3 'INDEPENDENT']Do you usually think of yourself as closer to the Republican party or as closer to the Democratic party?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	153	2.085	0.819
+1) Closer to Republican party	45	29.4
+2) Closer to Democratic party	50	32.7
+3) Don't know/No answer/Neither	58	37.9
+Missing	699
+
+
+60) LIBCON
+In general, when it comes to politics, do you usually think of yourself as a Liberal, a Conservative, a Moderate, or what?
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	852	2.623	1.34
+1) Liberal	173	20.3
+2) Moderate (Middle of the road)	266	31.2
+3) Conservative	266	31.2
+4) Never think of self in these terms (No preference)	52	6.1
+5) Don't know	53	6.2
+6) No answer	35	4.1
+7) R insists that he/she has no understanding of these terms	7	0.8
+
+
+61) STRLIB
+[ASK ONLY IF LIBCON= 1 'LIBERAL']Do you think of yourself as a strong Liberal, or a not very strong Liberal?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	173	1.566	0.531
+1) Strong liberal	78	45.1
+2) Not very strong liberal	92	53.2
+3) Don't know	3	1.7
+Missing	679
+
+
+62) STRCON
+[ASK ONLY IF LIBCON= 3 'CONSERVATIVE']Do you think of yourself as a strong Conservative, or a not very strong Conservative?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	266	1.568	0.682
+1) Strong conservative	139	52.3
+2) Not very strong conservative	108	40.6
+3) Don't know	14	5.3
+4) No answer	5	1.9
+Missing	586
+
+
+63) MODERATE
+[ASK ONLY IF LIBCON= 2 'MODERATE']Do you think of yourself as more like a Liberal, or more like a Conservative?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	266	2.391	0.997
+1) More liberal	71	26.7
+2) Neither/Refuses to choose	45	16.9
+3) More conservative	129	48.5
+4) Don't know	17	6.4
+5) No answer	4	1.5
+Missing	586
+
+
+64) MARUPDAT
+These days, about half of all marriages end in divorce.  Do you think that it still makes sense for couples to promise a lifelong commitment when they marry?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	852	1.154	0.451
+1) Yes	752	88.3
+2) No	69	8.1
+3) Don't know/No Answer	31	3.6
+
+
+65) LEGMARR
+Do you agree or disagree with this statement: To have a fulfilling life, most people need to be legally married.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	852	1.609	0.549
+1) Agree	360	42.3
+2) Disagree	465	54.6
+3) Don't know/No Answer	27	3.2
+
+
+66) MAGEWOM
+What do you think is the ideal age for a woman to marry?
+RANGE: 0 to 212
+	N	Mean	Std. Deviation
+Total	852	19.784	12.296
+0) Don't know/It depends/No answer	158	18.5
+1) Other (Specify)	17	2.0
+15) 	1	0.1
+16) 	2	0.2
+18) 	27	3.2
+19) 	2	0.2
+20) 	47	5.5
+21) 	57	6.7
+22) 	43	5.0
+23) 	43	5.0
+24) 	55	6.5
+25) 	226	26.5
+26) 	27	3.2
+27) 	26	3.1
+28) 	37	4.3
+29) 	4	0.5
+30) 	62	7.3
+31) 	2	0.2
+32) 	1	0.1
+33) 	2	0.2
+35) 	8	0.9
+38) 	1	0.1
+40) 	3	0.4
+212) 	1	0.1
+
+
+67) MAGEMAN
+And what is the ideal age for a man to marry?
+RANGE: 0 to 60
+	N	Mean	Std. Deviation
+Total	852	21.37	11.171
+0) Don't know/It depends/No answer	148	17.4
+1) Other (Specify)	16	1.9
+16) 	3	0.4
+18) 	11	1.3
+19) 	1	0.1
+20) 	28	3.3
+21) 	46	5.4
+22) 	31	3.6
+23) 	25	2.9
+24) 	43	5.0
+25) 	187	21.9
+26) 	32	3.8
+27) 	39	4.6
+28) 	45	5.3
+29) 	7	0.8
+30) 	122	14.3
+31) 	4	0.5
+32) 	10	1.2
+33) 	6	0.7
+34) 	2	0.2
+35) 	32	3.8
+38) 	1	0.1
+40) 	10	1.2
+50) 	2	0.2
+60) 	1	0.1
+
+
+68) LOWSTAGE
+What is the very youngest age that you think it is appropriate for someone to get married?
+RANGE: 0 to 253
+	N	Mean	Std. Deviation
+Total	852	18.879	10.69
+0) Don't know/It depends/No answer	76	8.9
+1) Other (Specify)	4	0.5
+13) 	1	0.1
+14) 	4	0.5
+15) 	6	0.7
+16) 	22	2.6
+17) 	23	2.7
+18) 	230	27.0
+19) 	38	4.5
+20) 	108	12.7
+21) 	142	16.7
+22) 	50	5.9
+23) 	19	2.2
+24) 	21	2.5
+25) 	75	8.8
+26) 	1	0.1
+27) 	7	0.8
+28) 	9	1.1
+30) 	11	1.3
+33) 	1	0.1
+35) 	1	0.1
+65) 	1	0.1
+76) 	1	0.1
+253) 	1	0.1
+
+
+69) WORRY30
+Some people say that a woman should worry if she is not married by the time she reaches age 30.  Other people say that these days a woman does not need to worry about that kind of thing.  Which comes closest to your opinion?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	852	1.984	0.353
+1) Should worry	60	7.0
+2) Should not worry	746	87.6
+3) Don't know/Depends/No answer	46	5.4
+
+
+70) INLOVE
+I'm going to read you a list of reasons why people select their particular mates.  I'd like to know how important each reason is for you, personally.  Would you say that for you, being in love is a very important, somewhat important, not too important, or not at all important reason to marry someone?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	852	1.157	0.577
+1) Very important	769	90.3
+2) Somewhat important	57	6.7
+3) Not too important	10	1.2
+4) Not at all important	7	0.8
+5) Don't know/Depends/No answer	9	1.1
+
+
+71) SHAREVAL
+I'm going to read you a list of reasons why people select their particular mates.  I'd like to know how important each reason is for you, personally.  Would you say that for you, sharing the same interests and values is a very important, somewhat important, not too important, or not at all important reason to marry someone?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	852	1.381	0.738
+1) Very important	608	71.4
+2) Somewhat important	199	23.4
+3) Not too important	23	2.7
+4) Not at all important	8	0.9
+5) Don't know/Depends/No answer	14	1.6
+
+
+72) RAISEFAM
+I'm going to read you a list of reasons why people select their particular mates.  I'd like to know how important each reason is for you, personally.  Would you say that for you, wanting to raise a family together is a very important, somewhat important, not too important, or not at all important reason to marry someone?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	852	1.495	0.952
+1) Very important	606	71.1
+2) Somewhat important	148	17.4
+3) Not too important	45	5.3
+4) Not at all important	28	3.3
+5) Don't know/Depends/No answer	25	2.9
+
+
+73) FINSECUR
+I'm going to read you a list of reasons why people select their particular mates.  I'd like to know how important each reason is for you, personally.  Would you say that for you, having greater financial security is a very important, somewhat important, not too important, or not at all important reason to marry someone?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	852	2.27	1.066
+1) Very important	226	26.5
+2) Somewhat important	324	38.0
+3) Not too important	168	19.7
+4) Not at all important	114	13.4
+5) Don't know/Depends/No answer	20	2.3
+
+
+74) SIMBKG
+I'm going to read you a list of reasons why people select their particular mates.  I'd like to know how important each reason is for you, personally.  Would you say that for you, coming from similar backgrounds is a very important, somewhat important, not too important, or not at all important reason to marry someone?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	852	2.238	1.05
+1) Very important	242	28.4
+2) Somewhat important	300	35.2
+3) Not too important	190	22.3
+4) Not at all important	105	12.3
+5) Don't know/Depends/No answer	15	1.8
+
+
+75) EASYDIV
+Which of the following statements comes closest to your point of view? 1. In general, laws making divorce easier to obtain are good for children because it gets them out of a bad situation. OR 2. In general, laws making divorce easier to obtain are bad for children because it breaks up families.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	852	1.919	0.723
+1) Easier divorce is good	260	30.5
+2) Easier divorce is bad	401	47.1
+3) Don't know/Depends/No answer	191	22.4
+
+
+76) WORSTAGE
+If divorce seems unavoidable, what do you think is the worst possible age for children to be when their parents get a divorce: pre-school, elementary school, junior high, high school, college age, or older?
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	852	3.099	1.923
+1) Pre-school	138	16.2
+2) Elementary school	283	33.2
+3) Junior high school	219	25.7
+4) High school	55	6.5
+5) College age	16	1.9
+6) Older	8	0.9
+7) Don't know/All are bad/Depends/No answer	133	15.6
+
+
+77) THKDEATH
+How often do you think about dying? Would you say you think about it very often, fairly often, occasionally, hardly ever, or never?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	852	3.225	1.169
+1) Very often	91	10.7
+2) Fairly often	95	11.2
+3) Occasionally	323	37.9
+4) Hardly ever	230	27.0
+5) Never	100	11.7
+6) Don't know/No answer	13	1.5
+
+
+78) CAREFAM
+[ASK ONLY IF THKDEATH= 1 'VERY OFTEN' OR 2 'FAIRLY OFTEN' OR 3 'OCCASIONALLY' OR 4 'HARDLY EVER']I'm going to read a list of things that people sometimes worry about when they think about their own death. For each one, please tell me whether it worries you a great deal, somewhat, not too much, or not at all when you think about your own death.  When you think about your own death, how much do you worry about how your family or loved ones will be cared for?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	752	2.033	1.233
+1) A great deal	374	49.7
+2) Somewhat	145	19.3
+3) Not too much	86	11.4
+4) Not at all	128	17.0
+5) Don't know/No answer	19	2.5
+Missing	100
+
+
+79) LIFEWK
+[ASK ONLY IF THKDEATH= 1 'VERY OFTEN' OR 2 'FAIRLY OFTEN' OR 3 'OCCASIONALLY' OR 4 'HARDLY EVER']I'm going to read a list of things that people sometimes worry about when they think about their own death. For each one, please tell me whether it worries you a great deal, somewhat, not too much, or not at all when you think about your own death.  When you think about your own death, how much do you worry about not having completed your life's work?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	752	2.725	1.186
+1) A great deal	141	18.8
+2) Somewhat	211	28.1
+3) Not too much	140	18.6
+4) Not at all	234	31.1
+5) Don't know/No answer	26	3.5
+Missing	100
+
+
+80) DIEALONE
+[ASK ONLY IF THKDEATH= 1 'VERY OFTEN' OR 2 'FAIRLY OFTEN' OR 3 'OCCASIONALLY' OR 4 'HARDLY EVER']I'm going to read a list of things that people sometimes worry about when they think about their own death. For each one, please tell me whether it worries you a great deal, somewhat, not too much, or not at all when you think about your own death.  When you think about your own death, how much do you worry about the possibility of being alone when you are dying?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	752	2.868	1.185
+1) A great deal	132	17.6
+2) Somewhat	164	21.8
+3) Not too much	150	19.9
+4) Not at all	283	37.6
+5) Don't know/No answer	23	3.1
+Missing	100
+
+
+81) NOGOODBY
+[ASK ONLY IF THKDEATH= 1 'VERY OFTEN' OR 2 'FAIRLY OFTEN' OR 3 'OCCASIONALLY' OR 4 'HARDLY EVER']I'm going to read a list of things that people sometimes worry about when they think about their own death. For each one, please tell me whether it worries you a great deal, somewhat, not too much, or not at all when you think about your own death.  When you think about your own death, how much do you worry about not having the chance to say goodbye to someone?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	752	2.211	1.204
+1) A great deal	284	37.8
+2) Somewhat	204	27.1
+3) Not too much	104	13.8
+4) Not at all	141	18.8
+5) Don't know/No answer	19	2.5
+Missing	100
+
+
+82) PHYSPAIN
+[ASK ONLY IF THKDEATH= 1 'VERY OFTEN' OR 2 'FAIRLY OFTEN' OR 3 'OCCASIONALLY' OR 4 'HARDLY EVER']I'm going to read a list of things that people sometimes worry about when they think about their own death. For each one, please tell me whether it worries you a great deal, somewhat, not too much, or not at all when you think about your own death.  When you think about your own death, how much do you worry about the possibility of great physical pain before you die?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	752	2.6	1.191
+1) A great deal	167	22.2
+2) Somewhat	217	28.9
+3) Not too much	143	19.0
+4) Not at all	200	26.6
+5) Don't know/No answer	25	3.3
+Missing	100
+
+
+83) OUTTOUCH
+[ASK ONLY IF THKDEATH= 1 'VERY OFTEN' OR 2 'FAIRLY OFTEN' OR 3 'OCCASIONALLY' OR 4 'HARDLY EVER']I'm going to read a list of things that people sometimes worry about when they think about their own death. For each one, please tell me whether it worries you a great deal, somewhat, not too much, or not at all when you think about your own death.  When you think about your own death, how much do you worry about dying when you are out of touch with God or a higher power?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	752	2.548	1.358
+1) A great deal	265	35.2
+2) Somewhat	115	15.3
+3) Not too much	96	12.8
+4) Not at all	247	32.8
+5) Don't know/No answer	29	3.9
+Missing	100
+
+
+84) GODNOTFG
+[ASK ONLY IF THKDEATH= 1 'VERY OFTEN' OR 2 'FAIRLY OFTEN' OR 3 'OCCASIONALLY' OR 4 'HARDLY EVER']I'm going to read a list of things that people sometimes worry about when they think about their own death. For each one, please tell me whether it worries you a great deal, somewhat, not too much, or not at all when you think about your own death.  When you think about your own death, how much do you worry about not being forgiven by God?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	752	2.598	1.368
+1) A great deal	260	34.6
+2) Somewhat	105	14.0
+3) Not too much	93	12.4
+4) Not at all	265	35.2
+5) Don't know/No answer	29	3.9
+Missing	100
+
+
+85) UNFRGIVN
+[ASK ONLY IF THKDEATH= 1 'VERY OFTEN' OR 2 'FAIRLY OFTEN' OR 3 'OCCASIONALLY' OR 4 'HARDLY EVER']I'm going to read a list of things that people sometimes worry about when they think about their own death. For each one, please tell me whether it worries you a great deal, somewhat, not too much, or not at all when you think about your own death.  When you think about your own death, how much do you worry about not being forgiven by someone for something you did?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	752	2.884	1.181
+1) A great deal	127	16.9
+2) Somewhat	164	21.8
+3) Not too much	157	20.9
+4) Not at all	277	36.8
+5) Don't know/No answer	27	3.6
+Missing	100
+
+
+86) AFTERDIE
+[ASK ONLY IF THKDEATH= 1 'VERY OFTEN' OR 2 'FAIRLY OFTEN' OR 3 'OCCASIONALLY' OR 4 'HARDLY EVER']I'm going to read a list of things that people sometimes worry about when they think about their own death. For each one, please tell me whether it worries you a great deal, somewhat, not too much, or not at all when you think about your own death.  When you think about your own death, how much do you worry about what it will be like for you after you die?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	752	2.935	1.204
+1) A great deal	134	17.8
+2) Somewhat	142	18.9
+3) Not too much	141	18.8
+4) Not at all	309	41.1
+5) Don't know/No answer	26	3.5
+Missing	100
+
+
+87) BURCREM1
+When you die, would you prefer to be buried or cremated?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	852	1.554	0.718
+1) Buried	494	58.0
+2) Cremated	244	28.6
+3) Don't know/No answer	114	13.4
+
+
+88) ARNGMNTS
+[ASK ONLY IF BURCREM1= 1 'BURIED' OR 2 'CREMATED']Have you made any arrangements for that?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	738	1.675	0.486
+1) Yes	246	33.3
+2) No	486	65.9
+3) Don't know/No answer	6	0.8
+Missing	114
+
+
+89) LIFESUPR
+Have you discussed with family members whether or not you should be kept on life support systems if you become terminally ill or have a debilitating injury?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	852	1.442	0.551
+1) Yes	499	58.6
+2) No	329	38.6
+3) Don't know/No answer	24	2.8
+
+
+90) FUNERAL
+In the past 12 months, have you attended a funeral?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	852	1.411	0.527
+1) Yes	517	60.7
+2) No	320	37.6
+3) Don't know/No answer	15	1.8
+
+
+91) RWHOIAM
+[ASK ONLY IF RACES01= 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, OR 11]In answer to an earlier question you said that you consider your race to be [respondent's race].  Next, I'm going to read a statement about race. For each one, please tell me if you strongly agree, agree, are neutral, disagree, or strongly disagree with the statement, as it applies to you. My race is an important part of who I am.
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	839	2.571	1.359
+1) Strongly agree	218	26.0
+2) Agree	240	28.6
+3) Neutral	171	20.4
+4) Disagree	135	16.1
+5) Strongly disagree	44	5.2
+6) Don't know/No answer	31	3.7
+Missing	13
+
+
+92) RIDENTIF
+[ASK ONLY IF RACES01= 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, OR 11] In answer to an earlier question you said that you consider your race to be [respondent's race].  Next, I'm going to read a statement about race. For each one, please tell me if you strongly agree, agree, are neutral, disagree, or strongly disagree with the statement as it applies to you:  I identify closely with my race.
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	839	2.561	1.313
+1) Strongly agree	178	21.2
+2) Agree	299	35.6
+3) Neutral	188	22.4
+4) Disagree	102	12.2
+5) Strongly disagree	31	3.7
+6) Don't know/No answer	41	4.9
+Missing	13
+
+
+93) RAWARE
+[ASK ONLY IF RACES01= 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, OR 11] In answer to an earlier question you said that you consider your race to be [respondent's race].  Next, I'm going to read a statement about race. For each one, please tell me if you strongly agree, agree, are neutral, disagree, or strongly disagree with the statement as it applies to you:  In most of my day-to-day interactions with other people I am very aware of being [respondent's race].
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	839	3.159	1.371
+1) Strongly agree	125	14.9
+2) Agree	171	20.4
+3) Neutral	140	16.7
+4) Disagree	287	34.2
+5) Strongly disagree	81	9.7
+6) Don't know/No answer	35	4.2
+Missing	13
+
+
+94) RHAPPY2B
+[ASK ONLY IF RACES01= 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, OR 11] In answer to an earlier question you said that you consider your race to be [respondent's race].  Next, I'm going to read a statement about race. For each one, please tell me if you strongly agree, agree, are neutral, disagree, or strongly disagree with the statement as it applies to you:  I am happy to be [respondent's race].
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	204	1.456	0.867
+1) Strongly agree	137	67.2
+2) Agree	54	26.5
+3) Neutral	8	3.9
+4) Disagree	1	0.5
+6) Don't know/No answer	4	2.0
+Missing	648
+
+
+95) RPROUD2B
+[ASK ONLY IF RACES01= 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, OR 11] In answer to an earlier question you said that you consider your race to be [respondent's race].  Next, I'm going to read a statement about race. For each one, please tell me if you strongly agree, agree, are neutral, disagree, or strongly disagree with the statement as it applies to you:  It makes me proud to be [respondent's race].
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	204	1.51	0.907
+1) Strongly agree	135	66.2
+2) Agree	48	23.5
+3) Neutral	13	6.4
+4) Disagree	5	2.5
+6) Don't know/No answer	3	1.5
+Missing	648
+
+
+96) RLUCKY2B
+[ASK ONLY IF RACES01= 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, OR 11] In answer to an earlier question you said that you consider your race to be [respondent's race].  Next, I'm going to read a statement about race. For each one, please tell me if you strongly agree, agree, are neutral, disagree, or strongly disagree with the statement as it applies to you:  I feel lucky to be [respondent's race].
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	204	1.946	1.212
+1) Strongly agree	105	51.5
+2) Agree	41	20.1
+3) Neutral	32	15.7
+4) Disagree	20	9.8
+5) Strongly disagree	2	1.0
+6) Don't know/No answer	4	2.0
+Missing	648
+
+
+97) USEINET
+And finally, just a few questions about the Internet. How often, if at all, do you yourself use the Internet: every day, most days, once or twice a week, less than that, or never?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	852	3.023	1.676
+1) Every day	269	31.6
+2) Most days	95	11.2
+3) Once or twice a week	114	13.4
+4) Less than once a week	99	11.6
+5) Never	271	31.8
+6) Don't know/No answer	4	0.5
+
+
+98) USEMAIL
+[ASK ONLY IF USEINET= 1 'EVERY DAY' OR 2 'MOST DAYS' OR 3 'ONCE OR TWICE A WEEK']How important is email in your everyday life? Would you say it is very important, somewhat important, not too important, or not at all important?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	478	1.918	0.969
+1) Very important	207	43.3
+2) Somewhat important	140	29.3
+3) Not too important	95	19.9
+4) Not at all important	35	7.3
+5) Don't know/No answer	1	0.2
+Missing	374
+
+
+99) INETNEWS
+[ASK ONLY IF USEINET= 1 'EVERY DAY' OR 2 'MOST DAYS' OR 3 'ONCE OR TWICE A WEEK']How important is the Internet in your daily life for keeping up with current news? Would you say the Internet is very important, somewhat important, not too important or not at all important for that?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	478	2.617	1.069
+1) Very important	84	17.6
+2) Somewhat important	146	30.5
+3) Not too important	118	24.7
+4) Not at all important	129	27.0
+5) Don't know/No answer	1	0.2
+Missing	374
+
+
+100) INETREC
+[ASK ONLY IF USEINET= 1 'EVERY DAY' OR 2 'MOST DAYS' OR 3 'ONCE OR TWICE A WEEK']And what about for recreation, such as humor or games? For you, is the Internet very important, somewhat important, not too important or not at all important for that?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	478	2.837	1.023
+1) Very important	51	10.7
+2) Somewhat important	139	29.1
+3) Not too important	128	26.8
+4) Not at all important	157	32.8
+5) Don't know/No answer	3	0.6
+Missing	374
+
+
+101) INETTASK
+[ASK ONLY IF USEINET= 1 'EVERY DAY' OR 2 'MOST DAYS' OR 3 'ONCE OR TWICE A WEEK']How important is the Internet in your life for doing everyday tasks, such as shopping, getting directions, banking, or checking the weather? Would you say the Internet is very important, somewhat important, not too important or not at all important for that?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	478	2.619	1.047
+1) Very important	76	15.9
+2) Somewhat important	157	32.8
+3) Not too important	120	25.1
+4) Not at all important	123	25.7
+5) Don't know/No answer	2	0.4
+Missing	374
+
+
+102) NOTSEP
+Finally, do you agree or disagree that: The South is better off as part of the United States than it would be as a separate country.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	852	1.185	0.516
+1) Agree	743	87.2
+2) Disagree	60	7.0
+3) Don't know/No answer	49	5.8
+
+
+103) CALLBACK
+Some of the questions on this survey will be used by reporters for the Atlanta Journal-Constitution to write stories for the newspaper. Would you be willing to have a reporter call you back to see if you would be willing to discuss some of these matters in greater detail?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	852	1.603	0.569
+1) Yes	374	43.9
+2) No	442	51.9
+3) No Answer	36	4.2
+
+
+104) GOODINT
+Do you think this person would be good to call back for more information? (Was this a good interview?)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	852	1.268	0.443
+1) Yes	624	73.2
+2) No	228	26.8
+
+
+105) ACCENTS
+Respondent's accent:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	852	2.146	0.777
+1) Strong Southern accent	204	23.9
+2) Detectable Southern accent, but not strong	320	37.6
+3) No Southern accent	328	38.5
+
+
+106) COUNTY
+The code for the respondent's county
+RANGE: 1 to 998
+	N	Mean	Std. Deviation
+Total	823	168.812	218.4
+Missing	29
+
+
+107) RACEORD
+Which 'I am' questions mentioned race?
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	852	0.103	0.562
+0) No, none of the three answers has anything to do with race	816	95.8
+1) Yes, race was mentioned first	13	1.5
+2) Yes, race was mentioned second	8	0.9
+3) Yes, race was mentioned third	1	0.1
+4) Not sure	14	1.6
+
+
+108) IAMRACE
+[ASK ONLY IF RACEORD= 1 'YES, RACE WAS MENTIONED FIRST' OR 2 'YES, RACE WAS MENTIONED SECOND' OR 3 'YES, RACE WAS MENTIONED THIRD']Racial category coded by the interviewer.
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	22	2.955	2.627
+1) White	9	40.9
+2) Caucasian	2	9.1
+3) Black	6	27.3
+4) African-American	2	9.1
+7) Hispanic	1	4.5
+8) Native American	1	4.5
+11) Other	1	4.5
+Missing	830
+
+
+109) DATE
+The date of poll
+RANGE: 130 to 325
+	N	Mean	Std. Deviation
+Total	852	215.657	39.149
+130) 	35	4.1
+131) 	35	4.1
+201) 	46	5.4
+203) 	29	3.4
+204) 	30	3.5
+205) 	43	5.0
+206) 	29	3.4
+207) 	39	4.6
+208) 	29	3.4
+210) 	41	4.8
+211) 	47	5.5
+212) 	38	4.5
+213) 	38	4.5
+214) 	47	5.5
+215) 	20	2.3
+217) 	27	3.2
+218) 	23	2.7
+219) 	20	2.3
+220) 	19	2.2
+221) 	22	2.6
+222) 	23	2.7
+224) 	22	2.6
+225) 	8	0.9
+226) 	27	3.2
+227) 	18	2.1
+228) 	10	1.2
+301) 	7	0.8
+303) 	10	1.2
+304) 	7	0.8
+305) 	12	1.4
+306) 	10	1.2
+307) 	13	1.5
+308) 	10	1.2
+309) 	1	0.1
+319) 	4	0.5
+320) 	3	0.4
+321) 	4	0.5
+322) 	2	0.2
+324) 	3	0.4
+325) 	1	0.1
+
+
+110) TIMEINT
+The time of poll
+RANGE: 200 to 8855
+	N	Mean	Std. Deviation
+Total	852	634.428	346.231
+
+
+111) INTNUM
+Interviewer number
+RANGE: 1 to 56
+	N	Mean	Std. Deviation
+Total	852	26.353	16.72
+1) 	4	0.5
+5) 	28	3.3
+6) 	29	3.4
+8) 	34	4.0
+9) 	43	5.0
+10) 	50	5.9
+11) 	23	2.7
+13) 	40	4.7
+14) 	65	7.6
+15) 	47	5.5
+16) 	44	5.2
+17) 	36	4.2
+22) 	16	1.9
+30) 	5	0.6
+32) 	31	3.6
+33) 	54	6.3
+37) 	17	2.0
+38) 	25	2.9
+40) 	45	5.3
+41) 	27	3.2
+42) 	16	1.9
+43) 	8	0.9
+44) 	33	3.9
+50) 	23	2.7
+52) 	22	2.6
+53) 	21	2.5
+54) 	23	2.7
+55) 	15	1.8
+56) 	28	3.3
+
+
+112) MINUTES
+Interview length in minutes
+RANGE: -201 to 64
+	N	Mean	Std. Deviation
+Total	852	13.128	8.724
+-201) 	1	0.1
+-39) 	1	0.1
+2) 	1	0.1
+4) 	3	0.4
+5) 	2	0.2
+6) 	6	0.7
+7) 	13	1.5
+8) 	17	2.0
+9) 	35	4.1
+10) 	63	7.4
+11) 	123	14.4
+12) 	143	16.8
+13) 	114	13.4
+14) 	90	10.6
+15) 	62	7.3
+16) 	54	6.3
+17) 	29	3.4
+18) 	27	3.2
+19) 	13	1.5
+20) 	14	1.6
+21) 	8	0.9
+22) 	3	0.4
+23) 	7	0.8
+24) 	4	0.5
+25) 	4	0.5
+26) 	4	0.5
+27) 	2	0.2
+28) 	1	0.1
+30) 	2	0.2
+32) 	1	0.1
+34) 	1	0.1
+36) 	1	0.1
+38) 	1	0.1
+41) 	1	0.1
+64) 	1	0.1
+
+
+113) OTHRELID
+Verbatim for RELID97S
+RANGE: 0 to 0
+	N	Mean	Std. Deviation
+Total	7	0	0
+
+
+114) SHEET
+Sheet
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	852	1	0
+1) White (south)	852	100.0
+
+
+115) SAMPLE
+Sample
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	852	1	0
+1) South	852	100.0
+
+
+116) REGSTATE
+Test to verify sample origin
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	852	1	0
+1) Southern state residence	852	100.0
+
+
+117) DENOM
+[ASK ONLY IF RELAFFL= 1 'PROTESTANT' OR 6 'CHRISTIAN OR JUST A CHRISTIAN' OR RELAFCHK= 1 'YES'] With what church denomination, if any, are you most closely affiliated?
+RANGE: 10 to 52
+	N	Mean	Std. Deviation
+Total	655	25.589	13.683
+10) Anabaptist	1	0.2
+11) Anglican/Church of England	1	0.2
+12) Assembly of God	7	1.1
+13) Baptist	287	43.8
+15) Catholic	6	0.9
+17) 'Christian' or 'Just Christian'	23	3.5
+18) Christian and Missionary Alliance	1	0.2
+20) Church(es) of Christ	12	1.8
+21) Church of God	5	0.8
+22) Church of the Nazarene	1	0.2
+24) Disciples of Christ	4	0.6
+25) Episcopalian/Angl'cn/Chrch England	23	3.5
+27) Evangelical Free Church	2	0.3
+30) Holiness	6	0.9
+31) Independent	4	0.6
+32) Jehovah's Witness	2	0.3
+33) 'Just Protestant'	1	0.2
+34) Lutheran	24	3.7
+36) Methodist	103	15.7
+37) Mormon/Latter-Day Saints	1	0.2
+38) Non/Inter-Denominational Protestant	18	2.7
+39) Pentecostal	24	3.7
+40) Presbyterian	21	3.2
+45) Unitarian-Universalist	5	0.8
+46) United Church of Christ (UCC)	1	0.2
+48) Other (Specify)	19	2.9
+49) Don't know	5	0.8
+50) Refused	6	0.9
+52) None (Not affiliated with a church)	42	6.4
+Missing	197
+
+
+118) DBAPTIST
+[ASK ONLY IF DENOM= 13 'BAPTIST']With which Baptist group is your church associated? Is it Southern Baptist Convention, the American Baptist Churches in the USA, the American Baptist Association, the National Baptist Convention USA, an independent Baptist church, or some other Baptist group?
+RANGE: 10 to 27
+	N	Mean	Std. Deviation
+Total	287	22.188	5.695
+10) American Baptist Association	38	13.2
+11) American Baptist USA	6	2.1
+16) Free Will Baptist	6	2.1
+19) Independent Baptist (No denominational ties)	19	6.6
+20) Missionary Baptist	11	3.8
+21) National Baptist Convention USA	10	3.5
+25) Southern Baptist	139	48.4
+26) Other (Specify)	6	2.1
+27) Don't know; 'Just Baptist'	52	18.1
+Missing	565
+
+
+119) DPENTE
+[ASK ONLY IF DENOM= 39 'PENTECOSTAL' OR DCHARIS= 2 'PENTECOSTAL']What kind of church is that? What is it called exactly? Is that part of a larger church or denomination? What is that church called?
+RANGE: 10 to 24
+	N	Mean	Std. Deviation
+Total	24	16.75	6.038
+10) Apostolic Pentecostal	5	20.8
+11) Assemblies of God	5	20.8
+14) Church of God in Christ	2	8.3
+18) Full Gospel	1	4.2
+20) Pentecostal Holiness Church	2	8.3
+22) United Pentecostal Church International	1	4.2
+23) Other (Specify)	3	12.5
+24) Don't know; 'Just Pentecostal'	5	20.8
+Missing	828
+
+
+120) AGE
+YRBORN recoded in age of the respondent
+RANGE: -9 to 88
+	N	Mean	Std. Deviation
+Total	852	43.165	18.014
+
+
+121) AGECAT
+Recode of AGE in categories
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	852	2.513	0.966
+1) 18-24 years old	127	14.9
+2) 25-44 years old	309	36.3
+3) 45-64 years old	284	33.3
+4) 65 years or older	116	13.6
+5) Don't know or refused	16	1.9
+
+
+122) RACES01
+What race do you consider yourself?
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	852	2.479	2.615
+1) White	434	50.9
+2) Caucasian	201	23.6
+3) Black	83	9.7
+4) African American	39	4.6
+5) Negro	4	0.5
+7) Hispanic	37	4.3
+8) Native American	2	0.2
+9) American Indian	2	0.2
+10) Asian	5	0.6
+11) Other	32	3.8
+12) Refused/None/Human/Don't know/No answer	13	1.5
+
+
+123) RACE
+Respondent's race
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	852	1.479	0.982
+1) White	635	74.5
+2) Black/African American	126	14.8
+3) Native American/American Indian	4	0.5
+4) Other	74	8.7
+5) No answer	13	1.5
+
+
+124) HISPANIC
+Is respondent of Hispanic origin?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	852	1.928	0.304
+1) Yes, Hispanic	72	8.5
+2) No, not Hispanic	769	90.3
+3) Don't know/No answer	11	1.3
+
+
+125) RCMIN
+Interview's length in categories
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	850	1.356	0.63
+1) Less than 15 minutes	610	71.8
+2) 15-19 minutes	185	21.8
+3) 20-29 minutes	47	5.5
+4) 30 and more minutes	8	0.9
+Missing	2
+
+
+126) STATCALL
+Old code for US States
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	852	7.562	3.922
+1) Alabama	45	5.3
+2) Arkansas	21	2.5
+3) Florida	141	16.5
+4) Georgia	71	8.3
+5) Kentucky	43	5.0
+6) Louisiana	46	5.4
+7) Mississippi	27	3.2
+8) North Carolina	76	8.9
+9) Oklahoma	43	5.0
+10) South Carolina	44	5.2
+11) Tennessee	73	8.6
+12) Texas	155	18.2
+13) Virginia	67	7.9
+
+
+127) STAT16FP
+Recode of STATE16 to FIPS codes
+RANGE: 1 to 77
+	N	Mean	Std. Deviation
+Total	848	31.901	17.848
+1) Alabama	45	5.3
+4) Arizona	1	0.1
+5) Arkansas	20	2.4
+6) California	14	1.7
+8) Colorado	2	0.2
+9) Connecticut	2	0.2
+12) Florida	67	7.9
+13) Georgia	64	7.5
+16) Idaho	2	0.2
+17) Illinois	12	1.4
+18) Indiana	11	1.3
+19) Iowa	4	0.5
+20) Kansas	3	0.4
+21) Kentucky	35	4.1
+22) Louisiana	46	5.4
+23) Maine	3	0.4
+24) Maryland	9	1.1
+25) Massachusetts	4	0.5
+26) Michigan	8	0.9
+27) Minnesota	1	0.1
+28) Mississippi	28	3.3
+29) Missouri	5	0.6
+30) Montana	2	0.2
+31) Nebraska	1	0.1
+32) Nevada	1	0.1
+34) New Jersey	8	0.9
+35) New Mexico	3	0.4
+36) New York	27	3.2
+37) North Carolina	60	7.1
+39) Ohio	23	2.7
+40) Oklahoma	31	3.7
+41) Oregon	1	0.1
+42) Pennsylvania	12	1.4
+45) South Carolina	35	4.1
+47) Tennessee	58	6.8
+48) Texas	114	13.4
+50) Vermont	1	0.1
+51) Virginia	41	4.8
+53) Washington	5	0.6
+54) West Virginia	9	1.1
+55) Wisconsin	3	0.4
+77) Foreign country	27	3.2
+Missing	4
+
+
+128) GALREG
+Gallup organization regionalized
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	852	1	0
+1) South	852	100.0
+
+
+129) AJCREGN
+AJC Regionalization
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	852	1	0
+1) South	852	100.0
+
+
+130) GRADE
+Educational attainment
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	852	3.849	1.056
+1) Less than grade 9	19	2.2
+2) 9-11 Grade	63	7.4
+3) High school grad	241	28.3
+4) Some college	239	28.1
+5) College grad or more	285	33.5
+6) No answer	5	0.6
+
+
+131) LCRECODE
+Liberal/conservative recode
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	852	5.16	2.449
+1) Strong liberal	78	9.2
+2) Not strong liberal	95	11.2
+3) Moderate liberal	71	8.3
+4) Moderate	66	7.7
+5) Moderate conservative	129	15.1
+6) Not strong conservative	127	14.9
+7) Strong conservative	139	16.3
+8) No preference	52	6.1
+9) Don't know/No answer	95	11.2
+
+
+132) DEEPSOU
+Residence in deep south
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	852	1.727	0.446
+1) Deep south	233	27.3
+2) Peripheral south	619	72.7
+
+
+133) RESIDENT
+Resident in North/South
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	821	1.403	0.785
+1) South	644	78.4
+2) Border	23	2.8
+3) Non-south	154	18.8
+Missing	31
+
+
+134) WHSTATE
+Regional recode: State of residence
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	852	1	0
+1) South	852	100.0
+
+
+135) PIDRCODE
+Recode for Party Identification
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	852	4.606	2.709
+1) Strong Democrat	164	19.2
+2) Not very strong Democrat	131	15.4
+3) Independent, close to Democrats	50	5.9
+4) Independent	58	6.8
+5) Independent close to Republicans	45	5.3
+6) Not very strong Republican	122	14.3
+7) Strong Republican	169	19.8
+8) Other Party	41	4.8
+9) Don't know/No answer	72	8.5
+
+
+136) STATEFPS
+States FIPS codes
+RANGE: 1 to 51
+	N	Mean	Std. Deviation
+Total	852	30.793	16.862
+1) Alabama	45	5.3
+5) Arkansas	21	2.5
+12) Florida	141	16.5
+13) Georgia	71	8.3
+21) Kentucky	43	5.0
+22) Louisiana	46	5.4
+28) Mississippi	27	3.2
+37) North Carolina	76	8.9
+40) Oklahoma	43	5.0
+45) South Carolina	44	5.2
+47) Tennessee	73	8.6
+48) Texas	155	18.2
+51) Virginia	67	7.9
+
+
+137) ST_CNTY
+State-county fips codes (numeric)
+RANGE: 1003 to 51810
+	N	Mean	Std. Deviation
+Total	790	30750.639	16895.87
+
+
+138) FAITH97X
+Respondent's religious pref5- recode of DENOM and RELAFFL
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	852	4.658	3.485
+1) Baptist	287	33.7
+2) Methodist	103	12.1
+3) Lutheran	24	2.8
+4) Presbyterian	21	2.5
+5) Episcopalian	24	2.8
+6) Church of Christ	13	1.5
+7) Other Protestant	154	18.1
+8) Catholic	141	16.5
+9) Jewish	7	0.8
+10) Other	23	2.7
+11) None	37	4.3
+12) Don't know/No answer	18	2.1
+
+
+139) FAITH
+Religious preference RECODE (DENOM and RELAFFL)
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	852	1.988	1.49
+1) Mainline Protestant	472	55.4
+2) Other Protestant	154	18.1
+3) Catholic	141	16.5
+4) Jewish	7	0.8
+5) Other	23	2.7
+6) None	37	4.3
+7) Don't know/No answer	18	2.1
+
+
+140) SGLOBL
+South and globalization (aggregate of the two versions with statements in different orders)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	602	2.164	1.19
+1) Different that non-Southerners	179	29.7
+2) Connected to people around the world	285	47.3
+3) Neither	63	10.5
+4) Both	10	1.7
+5) Don't know/No answer	65	10.8
+Missing	250
+
+
+141) SGLOBQ
+Which question the respondent was asked (SGLOBL1 or SGLOBL2)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	602	1.483	0.5
+1) Respondent was asked SGLOBL1	311	51.7
+2) Respondent was asked SGLOBL2	291	48.3
+Missing	250
+
+
+142) AGEMARR
+Combination of AGEMARR1 and AGEMARR2
+RANGE: 10 to 46
+	N	Mean	Std. Deviation
+Total	426	21.805	4.387
+10) Don't know/No answer	2	0.5
+13) 	1	0.2
+15) 	5	1.2
+16) 	10	2.3
+17) 	26	6.1
+18) 	54	12.7
+19) 	39	9.2
+20) 	46	10.8
+21) 	66	15.5
+22) 	27	6.3
+23) 	35	8.2
+24) 	22	5.2
+25) 	21	4.9
+26) 	13	3.1
+27) 	14	3.3
+28) 	14	3.3
+29) 	8	1.9
+30) 	9	2.1
+31) 	2	0.5
+33) 	1	0.2
+34) 	2	0.5
+35) 	4	0.9
+36) 	2	0.5
+37) 	1	0.2
+40) 	1	0.2
+46) 	1	0.2
+Missing	426
+
+
+143) AGEMCAT
+Collapsed version of AGEMARR
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	426	2.817	1.049
+1) 15 or younger	6	1.4
+2) 16-20	175	41.1
+3) 21-25	171	40.1
+4) 26-30	58	13.6
+5) 31-35	9	2.1
+6) 36-40	4	0.9
+8) 46-50	1	0.2
+11) Don't know/No answer	2	0.5
+Missing	426
+
+
+144) MAWOCAT
+Collapsed version of MAGEWOM
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	852	4.764	3.189
+1) 15 or younger	1	0.1
+2) 16-20	78	9.2
+3) 21-25	424	49.8
+4) 26-30	156	18.3
+5) 31-35	13	1.5
+6) 36-40	4	0.5
+9) 51 or older	1	0.1
+10) Other	17	2.0
+11) Don't know/No answer	158	18.5
+
+
+145) MAMNCAT
+Collapsed version of MAGEMAN
+RANGE: 2 to 11
+	N	Mean	Std. Deviation
+Total	852	4.942	3.014
+2) 16-20	43	5.0
+3) 21-25	332	39.0
+4) 26-30	245	28.8
+5) 31-35	54	6.3
+6) 36-40	11	1.3
+8) 46-50	2	0.2
+9) 51 or older	1	0.1
+10) Other	16	1.9
+11) Don't know/No answer	148	17.4
+
+
+146) LOWCAT
+Collapsed version of LOWSTAGE
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	852	4.664	2.45
+1) 15 or younger	11	1.3
+2) 16-17	45	5.3
+3) 18-19	268	31.5
+4) 20-21	250	29.3
+5) 22-23	69	8.1
+6) 24-25	96	11.3
+7) 26-27	8	0.9
+8) 28-29	9	1.1
+9) 30 or older	16	1.9
+10) Other	4	0.5
+11) Don't know/No answer	76	8.9
+
+
+147) MSACMSA
+Census (Consolidated) Metro Statistical Area
+RANGE: 40 to 9999
+	N	Mean	Std. Deviation
+Total	775	5671.305	3369.831
+
+
+148) ST_CNTY2
+State-county FIPS codes (string var)
+RANGE: 1003 to 51810
+	N	Mean	Std. Deviation
+Total	788	30703.511	16891.098
+
+
+149) NSMETRO
+Respondent lives in Metro or Non-metro county
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	788	0.732	0.443
+0) Non-metro	211	26.8
+1) Metro	577	73.2
+Missing	64
+
+
+150) WTVARS
+Weight for South (PEOPLE/mean HH size for South)
+RANGE: 0.5 to 4.13521819299324
+	N	Mean	Std. Deviation
+Total	852	0.995	0.424
+0.5) 	9	1.1
+0.516902274124155) 	250	29.3
+1) 	2	0.2
+1.03380454824831) 	442	51.9
+1.55070682237247) 	112	13.1
+2.06760909649662) 	31	3.6
+2.58451137062077) 	5	0.6
+4.13521819299324) 	1	0.1
+
+
+151) INTGEN
+Interviewer's gender
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	852	1.838	0.369
+1) Male	138	16.2
+2) Female	714	83.8
+
+
+152) INTRACE
+Interviewer's race
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	852	1.709	0.984
+1) White	464	54.5
+2) Black/African American	280	32.9
+4) Other	108	12.7
+
+
+153) INTACC
+Interviewer's accent
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	852	2.171	0.669
+1) Strong Southern accent	130	15.3
+2) Detectable Southern accent	446	52.3
+3) No Southern accent	276	32.4
+
+
+154) INTNSACC
+Interviewer Non-Southern accent
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	852	0.324	0.468
+0) No non-Southern accent	576	67.6
+1) Interviewer had a non-Southern accent	276	32.4
+
+
+155) COUNTYX2
+[NOTE: Not asked of respondents in Washington D.C. County FIPS codes are assigned to these responses in COUNTY. COUNTY is recoded into NSMETRO in the dataset.] In which county do you now live?
+RANGE: 1 to 567
+	N	Mean	Std. Deviation
+Total	852	278.056	163.316
+
+
+156) OTHRACE2
+Verbatim for RACES01
+RANGE: 2 to 27
+	N	Mean	Std. Deviation
+Total	30	14.2	7.928
+2) Afro American	1	3.3
+3) American	3	10.0
+4) Anglo-Germanic American	1	3.3
+5) Black American	1	3.3
+6) Black and Native American	1	3.3
+7) Cherokee	1	3.3
+8) Cherokee and Caucasian	1	3.3
+9) Chicano	1	3.3
+10) Englishman	1	3.3
+11) Euro-Mediterranean-anglo	1	3.3
+12) European Mutt	1	3.3
+13) Half white, half Cuban	1	3.3
+14) Hispanic and Jewish	1	3.3
+15) Human	1	3.3
+16) Indian	1	3.3
+17) Indian, Anglo	1	3.3
+18) Irish American	1	3.3
+19) Italian	1	3.3
+20) Little Indian and white	1	3.3
+21) Mexican American	2	6.7
+22) Mixed	2	6.7
+23) Native American Mix	1	3.3
+24) Puerto Rican	1	3.3
+25) White and Hispanic	1	3.3
+26) White and Indian	1	3.3
+27) White Hispanic	1	3.3
+Missing	822
+
+
+157) IAM12
+Suppose you are going to be working on a project with another person whom you have never met. All of your communication will be by mail. The other person doesn't know anything at all about you. I'd like for you to tell me the three most important things about yourself that the other person should know.  Please tell me what the first thing would be by completing the sentence: I am __________.
+RANGE: 2 to 361
+	N	Mean	Std. Deviation
+Total	742	169.093	97.84
+Missing	110
+
+
+158) IAM22
+Suppose you are going to be working on a project with another person whom you have never met. All of your communication will be by mail. The other person doesn't know anything at all about you. I'd like for you to tell me the three most important things about yourself that the other person should know.  Please tell me what the first thing would be by completing the sentence: And second, I am __________.
+RANGE: 2 to 419
+	N	Mean	Std. Deviation
+Total	692	199.345	111.535
+Missing	160
+
+
+159) IAM32
+Suppose you are going to be working on a project with another person whom you have never met. All of your communication will be by mail. The other person doesn't know anything at all about you. I'd like for you to tell me the three most important things about yourself that the other person should know.  Please tell me what the first thing would be by completing the sentence: And third, I am __________.
+RANGE: 2 to 450
+	N	Mean	Std. Deviation
+Total	650	223.498	123.469
+Missing	202
+
+
+160) I-AGE
+YRBORN recoded in age of the respondent (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	836	2.081	1.094
+1) Under 40	352	42.1
+2) 40-49	180	21.5
+3) 50-64	188	22.5
+4) Over 65	116	13.9
+Missing	16
+
+
+161) I-EDUC
+How many years of school have you completed? (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	847	2.978	1.169
+1) Less than high school	82	9.7
+2) High school graduate	241	28.5
+3) Some college	239	28.2
+4) College graduate	184	21.7
+5) Advanced degree	101	11.9
+Missing	5
+
+
+162) I-GENDER
+Code the gender of respondent (for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	852	1.582	0.493
+1) Male	356	41.8
+2) Female	496	58.2
+
+
+163) I-INCOME
+I am going to read you a list of income categories. Please stop me when a category best describes your total household income before taxes: (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	630	2.43	0.944
+1) Less than $20,000	91	14.4
+2) $20,000 up to $49,999	289	45.9
+3) $50,000 up to $79,999	138	21.9
+4) Over $80,000	112	17.8
+Missing	222
+
+
+164) I-MARITAL
+Are you currently (Recoded for use with online analysis)
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	845	1.986	0.704
+1) Never married	215	25.4
+2) Married	427	50.5
+3) Widowed, divorced, and separated	203	24.0
+Missing	7
+
+
+165) I-RACE
+Respondent's race (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	839	1.424	0.885
+1) White	635	75.7
+2) Black/African American	126	15.0
+3) Native American/American Indian	4	0.5
+4) Other	74	8.8
+Missing	13
+
+

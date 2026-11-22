@@ -1,0 +1,2829 @@
+Data File: SFPF99NS (Full Data Codebook)
+
+1) RESPNUM
+RESPONDENT ID NUMBER INITIAL SCREENING 
+RANGE: 5000 to 6551
+	N	Mean	Std. Deviation
+Total	402	5763.714	463.446
+
+
+2) RESP
+RESPONDENT'S NUMBER 
+RANGE: 5000 to 6551
+	N	Mean	Std. Deviation
+Total	402	5763.714	463.446
+
+
+3) STATE
+[STATE IS RECODED INTO DEEPSOU AND GALREG IN THE DATASET.] Which state am I calling? 
+RANGE: 3 to 50
+	N	Mean	Std. Deviation
+Total	402	24.627	14.133
+3) Arizona	14	3.5
+5) California	59	14.7
+6) Colorado	9	2.2
+7) Connecticut	6	1.5
+8) Delaware	4	1.0
+13) Idaho	3	0.7
+14) Illinois	21	5.2
+15) Indiana	10	2.5
+16) Iowa	6	1.5
+17) Kansas	8	2.0
+20) Maine	2	0.5
+21) Maryland	10	2.5
+22) Massachusetts	24	6.0
+23) Michigan	19	4.7
+24) Minnesota	17	4.2
+26) Missouri	8	2.0
+27) Montana	3	0.7
+28) Nebraska	5	1.2
+29) Nevada	2	0.5
+31) New Jersey	15	3.7
+32) New Mexico	5	1.2
+33) New York	42	10.4
+35) North Dakota	4	1.0
+36) Ohio	23	5.7
+38) Oregon	10	2.5
+39) Pennsylvania	27	6.7
+40) Rhode Island	3	0.7
+42) South Dakota	1	0.2
+45) Utah	4	1.0
+46) Vermont	1	0.2
+48) Washington	18	4.5
+49) West Virginia	4	1.0
+50) Wisconsin	15	3.7
+
+
+4) STATE2
+Verify the state of the respondent
+RANGE: 3 to 50
+	N	Mean	Std. Deviation
+Total	402	24.627	14.133
+3) Arizona	14	3.5
+5) California	59	14.7
+6) Colorado	9	2.2
+7) Connecticut	6	1.5
+8) Delaware	4	1.0
+13) Idaho	3	0.7
+14) Illinois	21	5.2
+15) Indiana	10	2.5
+16) Iowa	6	1.5
+17) Kansas	8	2.0
+20) Maine	2	0.5
+21) Maryland	10	2.5
+22) Massachusetts	24	6.0
+23) Michigan	19	4.7
+24) Minnesota	17	4.2
+26) Missouri	8	2.0
+27) Montana	3	0.7
+28) Nebraska	5	1.2
+29) Nevada	2	0.5
+31) New Jersey	15	3.7
+32) New Mexico	5	1.2
+33) New York	42	10.4
+35) North Dakota	4	1.0
+36) Ohio	23	5.7
+38) Oregon	10	2.5
+39) Pennsylvania	27	6.7
+40) Rhode Island	3	0.7
+42) South Dakota	1	0.2
+45) Utah	4	1.0
+46) Vermont	1	0.2
+48) Washington	18	4.5
+49) West Virginia	4	1.0
+50) Wisconsin	15	3.7
+
+
+5) YRBORN
+[THIS VARIABLE IS RECODED INTO AGE, AND COLLAPSED IN AGECAT.] In which year were you born? [IF DON'T KNOW OR REFUSED ENTER 1891.] 
+RANGE: 1891 to 1981
+	N	Mean	Std. Deviation
+Total	402	1954.169	18.685
+
+
+6) COMSOUTH
+[ASKED OF SOUTHERN RESPONDENTS AND THOSE IN BORDER STATES ONLY] Just for the record, would you say that your community is in the South, or not? 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	26	1.654	0.629
+1) Yes	11	42.3
+2) No	13	50.0
+3) Don't know / No answer	2	7.7
+Missing	376
+
+
+7) LIVESOU
+[ASKED OF RESPONDENTS WHO ANSWERED "YES" TO COMSOUTH] Not counting time spent away at school and for other temporary reasons, have you lived in the South all your life or not? [IF YES, TYPE "4 ALL MY LIFE." IF NO, THEN ASK:] How long have you lived in the South? 
+RANGE: 3 to 5
+	N	Mean	Std. Deviation
+Total	11	3.818	0.603
+1) 5 years or less2) 6 to 10 years
+3) More than 10 years	3	27.3
+4) All my life	7	63.6
+5) Don't know / No answer	1	9.1
+Missing	391
+
+
+8) TRAVOUT
+[ASKED OF RESPONDENTS WHO ANSWERED "ALL MY LIFE" TO LIVESOU] Have you ever traveled or visited outside the South? 
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	7	1	0
+1) Yes	7	100.0
+2) No	0	0.0
+3) Don't know / No answer	0	0.0
+Missing	395
+
+
+9) SOULIV
+[ASKED OF NON-SOUTHERN RESPONDENTS ONLY] Have you ever lived in a Southern state? 
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	376	1.785	0.412
+1) Yes	81	21.5
+2) No	295	78.5
+3) Don't know / No answer	0	0.0
+Missing	26
+
+
+10) TRAVIN
+[ASKED OF RESPONDENTS WHO ANSWERED "NO" OR "DON'T KNOW / NO ANSWER" TO SOULIV] Have you ever traveled or visited in the South? 
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	295	1.264	0.442
+1) Yes	217	73.6
+2) No	78	26.4
+3) Don't know / No answer	0	0.0
+Missing	107
+
+
+11) STATE16
+[STATE16 IS RECODED INTO THE VARIABLE RESIDENT IN THE DATASET.] Which state did you live in when you were 16? 
+RANGE: 3 to 53
+	N	Mean	Std. Deviation
+Total	402	27.679	14.462
+3) Arizona	5	1.2
+5) California	39	9.7
+6) Colorado	9	2.2
+7) Connecticut	8	2.0
+8) Delaware	4	1.0
+10) Florida	4	1.0
+13) Idaho	3	0.7
+14) Illinois	19	4.7
+15) Indiana	8	2.0
+16) Iowa	6	1.5
+17) Kansas	9	2.2
+18) Kentucky	2	0.5
+19) Louisiana	1	0.2
+20) Maine	2	0.5
+21) Maryland	8	2.0
+22) Massachusetts	18	4.5
+23) Michigan	19	4.7
+24) Minnesota	19	4.7
+26) Missouri	8	2.0
+27) Montana	4	1.0
+28) Nebraska	8	2.0
+31) New Jersey	16	4.0
+32) New Mexico	4	1.0
+33) New York	40	10.0
+34) North Carolina	3	0.7
+35) North Dakota	5	1.2
+36) Ohio	22	5.5
+37) Oklahoma	1	0.2
+38) Oregon	7	1.7
+39) Pennsylvania	27	6.7
+40) Rhode Island	3	0.7
+42) South Dakota	2	0.5
+43) Tennessee	1	0.2
+44) Texas	5	1.2
+45) Utah	5	1.2
+46) Vermont	1	0.2
+47) Virginia	2	0.5
+48) Washington	13	3.2
+49) West Virginia	4	1.0
+50) Wisconsin	14	3.5
+51) Wyoming	1	0.2
+52) Foreign country	22	5.5
+53) Don't Know	1	0.2
+
+
+12) LIVSTAT1
+[ASKED ONLY IF STATE=STATE16] Not counting time spent away at school and for other temporary reasons, have you lived in [R's state] all your life?  [IF ALL MY LIFE = YES, CODE 6. IF NO, ASK:] How long have you lived in [R's state]? 
+RANGE: 2 to 7
+	N	Mean	Std. Deviation
+Total	281	5.669	0.713
+1) Less than five years
+2) Five to nine years	3	1.1
+3) Ten to fourteen years	4	1.4
+4) Fifteen to nineteen years	9	3.2
+5) Twenty or more years	52	18.5
+6) All my life	212	75.4
+7) Don't know / No answer	1	0.4
+Missing	121
+
+
+13) LIVSTAT2
+[ASKED ONLY IF STATE=STATE16] Not counting time spent away at school and for other temporary reasons, how long have you lived in [R's state]? 
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	121	3.331	1.695
+1) Less than five years	29	24.0
+2) Five to nine years	15	12.4
+3) Ten to fourteen years	17	14.0
+4) Fifteen to nineteen years	11	9.1
+5) Twenty or more years	45	37.2
+6) All my life	4	3.3
+7) Don't know / No answer	0	0.0
+Missing	281
+
+
+14) SOUFAM
+[ASKED OF NON-SOUTHERN RESPONDENTS ONLY] Do you consider yourself or anyone in your family a Southerner? 
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	402	3.634	0.825
+1) Yes, self	10	2.5
+2) Yes, family	56	13.9
+3) Yes, both self and family	9	2.2
+4) No	323	80.3
+5) Don't know / No answer	4	1.0
+
+
+15) NINCOMMN
+[ASKED OF NON-SOUTHERN RESPONDENTS WHO ANSWERED "YES" TO SOUFAM] Some Southerners feel they have a lot in common with other Southerners, but others we talk to don't feel this way.  How about you?  Would you say you feel pretty close to Southerners in general, or that you don't feel much closer to them than you do to other people? 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	19	1.632	0.597
+1) Feel close to other southerners	8	42.1
+2) Don't feel closer than to others	10	52.6
+3) Don?t Know / Can?t Say / No Answer	1	5.3
+Missing	383
+
+
+16) SIDIMP
+[ASKED OF RESPONDENTS WHO ANSWERED "YES" TO SOUTHERN, "YES, SELF" TO SOUFAM, OR "YES, BOTH SELF AND FAMILY" TO SOUFAM] Would you say that being a Southerner is very important, somewhat important, not very important, or not at all important to you? 
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	19	3.316	1.204
+1) Very important	3	15.8
+2) Somewhat important	1	5.3
+3) Not very important	3	15.8
+4) Not at all important	11	57.9
+5) Don't know / No answer	1	5.3
+Missing	383
+
+
+17) ZIPCODE
+[USED FOR CHECKING STATE] What is your zip code? [99999=DON'T KNOW] 
+RANGE: 1005 to 99999
+	N	Mean	Std. Deviation
+Total	402	52786.744	33247.423
+
+
+18) LIVEWH
+Do you live in a city, a suburban community, a small town, or a rural area? 
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	402	2.313	1.135
+1) City	135	33.6
+2) Suburbs	86	21.4
+3) Small town	101	25.1
+4) Rural	80	19.9
+5) Refused / Not sure	0	0.0
+
+
+19) GENDER
+[CODE THE GENDER OF RESPONDENT] 
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	402	1.57	0.496
+1) Male	173	43.0
+2) Female	229	57.0
+
+
+20) EDUC
+[THIS VARIABLE IS COLLAPSED INTO CATEGORIES IN THE DATA SET AND IS CALLED GRADE.] How many years of school have you completed? [IF R SAYS MORE THAN 12, READ CHOICES 13 TO 15 IF NECESSARY] 
+RANGE: 4 to 15
+	N	Mean	Std. Deviation
+Total	402	13.045	1.443
+1) 1st grade (or less)2) 2nd grade3) 3rd grade
+4) 4th grade	1	0.2
+5) 5th grade	0	0.0
+6) 6th grade	0	0.0
+7) 7th grade	4	1.0
+8) 8th grade	2	0.5
+9) 9th grade	1	0.2
+10) 10th grade	8	2.0
+11) 11th grade	6	1.5
+12) 12th grade (High school)	113	28.1
+13) Some college (Two year degree)	114	28.4
+14) 4 year college graduate	92	22.9
+15) Advanced degree (MA, PhD, LLD, MD)	61	15.2
+16) No answer	0	0.0
+
+
+21) RACE94
+[OPEN-ENDED RESPONSES FROM THOSE WHO ANSWERED "OTHER OR MIXED" ARE CODED IN DATASET AS OTHRACE. IN THE DATASHEET RACE94 IS RECODED INTO THE VARIABLE RACE.] What race do you consider yourself? 
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	402	1.881	2.04
+1) White / Caucasian	323	80.3
+2) Black	16	4.0
+3) African-American	9	2.2
+4) Negro, colored, etc.	0	0.0
+5) Native American / American Indian	3	0.7
+6) Asian / Oriental	9	2.2
+7) Other or mixed (Specify)	31	7.7
+8) No answer	11	2.7
+
+
+22) RELIGF99
+[THIS VARIABLE WAS CALLED RELIG PRIOR TO THE SPRING 1999 ADMINISTRATION OF THIS POLL. CATEGORIES INCREASED FROM 6 TO 10 IN FALL 1999.] How often do you attend church or other religious services? 
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	402	3.848	2.861
+0) Never	80	19.9
+1) Less than once or twice a year	33	8.2
+2) About once or twice a year	42	10.4
+3) Several times a year	41	10.2
+4) About once a month	29	7.2
+5) Two to three times a month	36	9.0
+6) Nearly every week	10	2.5
+7) Every week	103	25.6
+8) Several times a week	22	5.5
+9) Don't know / No answer	6	1.5
+
+
+23) RELATT7
+[ASKED IF RELIGF99= "NEVER" OR RELIGF99= "DON'T KNOW / NO ANSWER"] Did you, yourself, happen to attend religious services in the past seven days? 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	322	1.528	0.506
+1) Yes	153	47.5
+2) No	168	52.2
+3) Not sure / Refused	1	0.3
+Missing	80
+
+
+24) RELIGIMP
+How important would you say your religious faith is in your own life these days: Extremely important, very important, somewhat important, or not important? 
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	402	2.216	1.087
+1) Extremely important	129	32.1
+2) Very important	122	30.3
+3) Somewhat important	95	23.6
+4) Not important	47	11.7
+5) Don't know / No answer	9	2.2
+
+
+25) RELAFFL
+[OPEN-ENDED RESPONSES FROM THOSE WHO ANSWERED "SOME OTHER RELIGION" AND PASSED THE SCREEN IN RELAFCHK ARE CODED IN THE DATA SET AS OTHRELAF.] What is your religious affiliation: Protestant, Catholic, Jewish, some other religion, or no religion? 
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	402	2.211	1.58
+1) Protestant	182	45.3
+2) Catholic	119	29.6
+3) Jewish	15	3.7
+4) Some other religion (Specify)	36	9.0
+5) No religion (Not religious / Agnostic / Atheist)	29	7.2
+6) Christian or just a Christian (Volunteered)	12	3.0
+7) Don't know / No answer	9	2.2
+
+
+26) NORELIG
+[ASKED IF RELAFFL= "NO RELIGION" ONLY] Do you consider yourself to be an agnostic, an atheist, or just not religious? 
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	29	2.759	0.872
+1) Agnostic	4	13.8
+2) Atheist	3	10.3
+3) Just not religious	18	62.1
+4) Don't know / No answer	4	13.8
+Missing	373
+
+
+27) RELAFCHK
+What other religion are you? [Interviewer marks YES if the response includes any of the following words: Anglican; Adventist; Apostolic; Assembly of God; Baptist; Bible; Born-Again; Christ / Christian; Church of God; Episcopalian; Greek / Serb Orthodox; Holiness; Lutheran; Methodist; Nazarene; Non-Denominational; Pentecostal; Presbyterian; Prophetic; Quaker / Friends; Seventh-Day Adventist] [Note: This is a filter to make sure that a verbatim "some other religion" answer is only taken from non-Protestants. Interviewers see this screen only if respondents answered "some other religion" to RELAFFL. If the interviewer codes this question as "yes," the Respondent is recoded as "Protestant" in #28. If the interviewer codes "no," then a verbatim response is taken.]  
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	84	1.429	0.498
+1) Yes	48	57.1
+2) No	36	42.9
+Missing	318
+
+
+28) RELAUTH1
+[RANDOMLY ASSIGNED TO HALF OF RESPONDENTS IN WHICH RELAFFL=JEWISH, OR RELAFFL=NO RELIGION, OR RELAFFL=CHRISTIAN OR JUST A CHRISTIAN.] People have told us that they have various ways of knowing how God wants them to live.  For you, personally, would you say the most important way that you know how God wants you to live is 1) from church teachings, 2) from the Bible, 3) through human reason, 4) through the Holy Spirit, or 5) do you just know in your heart? 
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	151	3.94	1.613
+1) Church teachings	10	6.6
+2) The Bible	31	20.5
+3) Through human reason	18	11.9
+4) The Holy Spirit	14	9.3
+5) Just know in heart	61	40.4
+6) Other (Specify)	11	7.3
+7) Don't know / No answer	6	4.0
+Missing	251
+
+
+29) RELAUTH2
+[RANDOMLY ASSIGNED TO HALF OF RESPONDENTS IN WHICH RELAFFL=JEWISH, OR RELAFFL=NO RELIGION, OR RELAFFL=CHRISTIAN OR JUST A CHRISTIAN.] People have told us that they have various ways of knowing how God wants them to live.  For you, personally, would you say the most important way that you know how God wants you to live is 1) you just know in your heart, 2) through the Holy Spirit, 3) through human reason, 4) from the Bible, or 5) from church teachings? 
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	162	2.778	2.006
+1) Just know in heart	71	43.8
+2) The Holy Spirit	21	13.0
+3) Through human reason	12	7.4
+4) The Bible	24	14.8
+5) Church teachings	7	4.3
+6) Other (Specify)	19	11.7
+7) Don't know / No answer	8	4.9
+Missing	240
+
+
+30) WSHPRACE
+[ASKED IF RELIGF99= "ABOUT ONCE A MONTH", OR "2 TO 3 TIMES A MONTH", OR "NEARLY EVERY WEEK", OR "EVERY WEEK", OR "SEVERAL TIMES A WEEK".] Though hard to know for sure, would you say that R's race the worship service you normally attend at your place of worship? 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	198	1.247	0.518
+1) Yes, more than 80%	157	79.3
+2) No, less than or equal to 80%	33	16.7
+3) Don't know / No answer	8	4.0
+Missing	204
+
+
+31) PCNTRSRC
+[ASKED  IF WSHPRACE="LESS THAN OR EQUAL TO 80%" ONLY] About what percent of the people who attend the same worship service that you normally attend would you say are [R's race, taken from RACE94]?
+RANGE: 1 to 81
+	N	Mean	Std. Deviation
+Total	33	44.848	20.361
+1) 	3	9.1
+5) 	1	3.0
+20) 	1	3.0
+30) 	1	3.0
+33) 	2	6.1
+40) 	4	12.1
+50) 	11	33.3
+60) 	6	18.2
+65) 	2	6.1
+75) 	1	3.0
+81) Don't know / No answer	1	3.0
+Missing	369
+
+
+32) DMETHDST
+[ASKED OF RESPONDENTS WHO ANSWERED "METHODIST" TO DENOM. OPEN-ENDED RESPONSES OF THOSE WHO ANSWERED "OTHER" ARE CODED IN THE DATA SET AS OTHMETH.] Is that the United Methodist Church, African Methodist Episcopal Church, the Free Methodist Church, or some other Methodist group? 
+RANGE: 2 to 6
+	N	Mean	Std. Deviation
+Total	21	4.048	0.669
+1) African Methodist Episcopal
+2) African Methodist Episcopal Zion	1	4.8
+3) Free Methodist Church	0	0.0
+4) United Methodist	18	85.7
+5) Other (Specify)	1	4.8
+6) Don't know / Just Methodist	1	4.8
+Missing	381
+
+
+33) DPRESBY
+[ASKED OF RESPONDENTS WHO ANSWERED "PRESBYTERIAN" TO DENOM. OPEN-ENDED RESPONSES OF THOSE WHO ANSWERED "OTHER" ARE CODED IN THE DATA SET AS OTHPRESB.] Is that the Presbyterian Church in the U.S.A., the Presbyterian Church in America, the Orthodox Presbyterian Church, the Evangelical Presbyterian Church, or some other Presbyterian group? 
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	11	4.636	1.567
+1) Evangelical Presbyterian Church (EPC)	1	9.1
+2) Orthodox Presbyterian Church (OPC)	0	0.0
+3) Presbyterian Church in America (PCA)	0	0.0
+4) Presbyterian Church in the USA (PCUSA)	5	45.5
+5) Other (Specify)	0	0.0
+6) Don't know / Just Presbyterian	5	45.5
+Missing	391
+
+
+34) DLUTHRAN
+[ASKED OF RESPONDENTS WHO ANSWERED "LUTHERAN" TO DENOM. OPEN-ENDED RESPONSES OF THOSE WHO ANSWERED "OTHER" ARE CODED IN THE DATA SET AS OTHLUTHR.] Is that the Evangelical Lutheran Church in America, the Missouri Synod, the Wisconsin Synod, or some other Lutheran group? 
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	37	2.676	1.617
+1) Evangelical Lutheran Church in America (ELCA; formerly the Lutheran Church in America, American Lutheran Church)	13	35.1
+2) Missouri Synod	8	21.6
+3) Wisconsin Synod	2	5.4
+4) Other (Specify)	6	16.2
+5) Don't know / Just Lutheran	8	21.6
+Missing	365
+
+
+35) DBRETHEN
+[ASKED OF RESPONDENTS WHO ANSWERED "BRETHREN" TO DENOM. OPEN-ENDED RESPONSES OF THOSE WHO ANSWERED "OTHER" ARE CODED IN THE DATA SET AS OTHBRETH.] Is that the Church of the Brethren, the Plymouth Brethren, United Brethren in Christ, or some other Brethren group?
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1	1	0
+1) Church of the Brethren	1	100.0
+2) Plymouth Brethren	0	0.0
+3) United Brethren in Christ	0	0.0
+4) Other (Specify)	0	0.0
+5) Don't know / Just Brethren	0	0.0
+Missing	401
+
+
+36) DUCC
+[ASKED OF RESPONDENTS WHO ANSWERED "CONGREGATIONALIST" TO DENOM.] Is that the United Church of Christ or just a Congregational church? 
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	5	1.6	0.548
+1) United Church of Christ (UCC)	2	40.0
+2) Just Congregational	3	60.0
+3) Don't know	0	0.0
+Missing	397
+
+
+37) DDISCIPL
+[ASKED OF RESPONDENTS WHO ANSWERED "CHRISTIAN" OR "JUST CHRISTIAN" TO DENOM. OPEN-ENDED RESPONSES OF THOSE WHO ANSWERED "OTHER" ARE CODED IN THE DATA SET AS OTHCHRST.] When you say "Christian," does that mean the denomination called the "Christian Church (Disciples of Christ)," or some other Christian denomination, or do you mean to say "I am just a Christian?" 
+RANGE: 2 to 3
+	N	Mean	Std. Deviation
+Total	10	2.1	0.316
+1) Disciples of Christ
+2) Just a Christian	9	90.0
+3) Other Christian Denomination (Specify)	1	10.0
+4) Don't know	0	0.0
+Missing	392
+
+
+38) DCHRIST
+[ASKED OF RESPONDENTS WHO ANSWERED "CHURCH(ES) OF CHRIST" TO DENOM. OPEN-ENDED RESPONSES OF THOSE WHO ANSWERED "OTHER" ARE CODED IN THE DATA SET AS OTHCHCHR.] Is that the Church of Christ or the United Church of Christ? 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	4	1.5	1
+1) Church(es) of Christ	3	75.0
+2) United Church of Christ	0	0.0
+3) Other (Specify)	1	25.0
+4) Don't know	0	0.0
+Missing	398
+
+
+39) DCHGOD
+[ASKED OF RESPONDENTS WHO ANSWERED "CHURCH OF GOD" TO DENOM. OPEN-ENDED RESPONSES OF THOSE WHO ANSWERED "OTHER" ARE CODED IN THE DATA SET AS OTHCOGOD.] Is that the Church of God of Anderson, Indiana; the Church of God of Cleveland, Tennessee; the Church of God in Christ; or some other Church of God? 
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	1	1	0
+1) Anderson, IN	1	100.0
+2) Cleveland, TN	0	0.0
+3) In Christ	0	0.0
+4) Other (Specify)	0	0.0
+5) Don't know	0	0.0
+Missing	401
+
+
+40) DANABAPT
+[ASKED OF RESPONDENTS WHO ANSWERED "ANABAPTIST" TO DENOM.] What kind of Anabaptist church is that? [IF PROMPTS ARE NEEDED, USE THE FOLLOWING:] What is it called exactly? Is that part of a larger church or denomination? What is that church called? 
+RANGE: 7 to 7
+	N	Mean	Std. Deviation
+Total	3	7	0
+1) Amish2) Brethren; Brethren in Christ3) Church of the Brethren4) Mennonite Church; Mennonite Brethren5) Moravian6) Quaker / Friends
+7) Don't know; Just Anabaptist	3	100.0
+Missing	399
+
+
+41) DANY
+[ASKED OF RESPONDENTS WHO ANSWERED "JUST PROTESTANT" TO DENOM. RESPONDENTS WHO ANSWERED "YES, IT DOES" WERE THEN ASKED DENOM AGAIN.] Does your church have any denominational affiliation at all? 
+RANGE: 2 to 2
+	N	Mean	Std. Deviation
+Total	1	2	0
+1) Yes, it does
+2) No, it doesnt	1	100.0
+3) Don't know	0	0.0
+Missing	401
+
+
+42) DINDEP
+[ASKED OF RESPONDENTS WHO ANSWERED "INDEPENDENT" OR "NON / INTER-DENOMINATIONAL" TO DENOM. OPEN-ENDED RESPONSES OF THOSE WHO ANSWERED "OTHER" ARE CODED IN THE DATA SET AS OTHINDEP.] Is that an Independent Fundamentalist Church, Independent Charismatic Church, Independent Pentecostal Church, Independent Evangelical Church, or what? 
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	6	4.667	1.966
+1) Independent Fundamentalist	1	16.7
+2) Independent Charismatic	0	0.0
+3) Independent Pentecostal	0	0.0
+4) Independent Evangelical	1	16.7
+5) Other (Specify)	1	16.7
+6) Don't know / Just Independent	3	50.0
+7) Refused	0	0.0
+Missing	396
+
+
+43) RELID97S
+[ASKED ONLY OF RESPONDENTS WHO ANSWERED "PROTESTANT" OR "CHRISTIAN OR JUST A CHRISTIAN" TO RELAFFL AND DID NOT ANSWER "CHRISTIAN SCIENCE", "CATHOLIC", "ROMAN CATHOLIC", OR "NOT RELIGIOUS" TO DENOM. OPEN-ENDED RESPONSES FROM THOSE WHO ANSWERED "OTHER" ARE CODED IN THE DATASET AS OTHRELID.] When it comes to your religious faith, would you say you are Pentecostal, Fundamentalist, Evangelical, Mainline Protestant, or theologically liberal? 
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	227	5.004	2.142
+1) Pentecostal	16	7.0
+2) Fundamentalist	14	6.2
+3) Evangelical	25	11.0
+4) Mainline Protestant	40	17.6
+5) Theologically liberal	51	22.5
+6) Other (Specify)	8	3.5
+7) None of the above	30	13.2
+8) Don't know / No answer	43	18.9
+Missing	175
+
+
+44) RELCATH
+[ASKED OF THOSE WHO ANSWERED "CATHOLIC" TO RELAFFL AND OF RESPONDENTS WHO ANSWERED "CATHOLIC" OR "ROMAN CATHOLIC" TO DENOM. OPEN-ENDED RESPONSES FROM THOSE WHO ANSWERED "OTHER" ARE CODED IN THE DATA SET AS OTHCATH.] Do you consider yourself a traditionalist Catholic, a progressive Catholic, or none of these? 
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	120	2.275	0.995
+1) Traditionalist	33	27.5
+2) Progressive	31	25.8
+3) None of these	50	41.7
+4) Other (Specify)	2	1.7
+5) Don't know / No answer	4	3.3
+Missing	282
+
+
+45) MARITAL
+Are you currently 
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	402	2.453	1.778
+1) Married	213	53.0
+2) Divorced	44	10.9
+3) Separated	9	2.2
+4) Widowed	29	7.2
+5) Have you never been married?	100	24.9
+6) No answer	7	1.7
+
+
+46) PARENT
+Are you a parent? [IF RESPONDENT SAYS THEY ARE A STEP-PARENT CODE AS YES.] 
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	402	1.296	0.457
+1) Yes	283	70.4
+2) No	119	29.6
+3) Don't know / No answer	0	0.0
+
+
+47) EMPLOYED
+Last week were you primarily: 
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	402	2.254	1.819
+1) Working full-time	243	60.4
+2) Working part-time	32	8.0
+3) Going to school	22	5.5
+4) Keeping house	27	6.7
+5) Retired	58	14.4
+6) Unemployed	6	1.5
+7) Or what?	13	3.2
+8) No answer	1	0.2
+
+
+48) WKLSTWK
+[ASKED IF EMPLOYED= "WORKING FULL-TIME" OR "WORKING PART-TIME" ONLY.] Last week, how many hours did you work at all jobs? 
+RANGE: 0 to 999
+	N	Mean	Std. Deviation
+Total	275	47.971	60.272
+0) 	5	1.8
+6) 	2	0.7
+8) 	1	0.4
+10) 	2	0.7
+12) 	1	0.4
+14) 	1	0.4
+15) 	1	0.4
+18) 	1	0.4
+20) 	6	2.2
+21) 	1	0.4
+24) 	3	1.1
+25) 	3	1.1
+27) 	1	0.4
+30) 	5	1.8
+32) 	5	1.8
+33) 	1	0.4
+34) 	1	0.4
+35) 	10	3.6
+36) 	3	1.1
+37) 	4	1.5
+38) 	2	0.7
+40) 	83	30.2
+42) 	3	1.1
+43) 	1	0.4
+44) 	3	1.1
+45) 	29	10.5
+46) 	4	1.5
+48) 	6	2.2
+50) 	32	11.6
+51) 	1	0.4
+52) 	3	1.1
+53) 	1	0.4
+55) 	3	1.1
+56) 	2	0.7
+60) 	23	8.4
+67) 	1	0.4
+70) 	8	2.9
+72) 	1	0.4
+75) 	1	0.4
+80) 	5	1.8
+105) 	1	0.4
+120) 	1	0.4
+126) 	1	0.4
+140) 	2	0.7
+999) Don't know / No answer	1	0.4
+Missing	127
+
+
+49) NITESHFT
+[ASKED IF EMPLOYED= "WORKING FULL-TIME" OR "WORKING PART-TIME" ONLY.] Last week, how many hours did you work at night, that is between 6 PM in the evening and 6 AM in the morning? 
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	274	7.872	16.296
+0) 	152	55.5
+1) 	3	1.1
+2) 	6	2.2
+3) 	9	3.3
+4) 	11	4.0
+5) 	10	3.6
+6) 	7	2.6
+8) 	11	4.0
+9) 	2	0.7
+10) 	9	3.3
+12) 	5	1.8
+14) 	3	1.1
+15) 	5	1.8
+18) 	2	0.7
+20) 	9	3.3
+21) 	1	0.4
+24) 	2	0.7
+25) 	2	0.7
+28) 	2	0.7
+30) 	3	1.1
+32) 	1	0.4
+35) 	1	0.4
+36) 	2	0.7
+40) 	4	1.5
+45) 	1	0.4
+48) 	1	0.4
+50) 	2	0.7
+52) 	1	0.4
+60) 	1	0.4
+70) 	2	0.7
+84) 	1	0.4
+99) Don't know / No answer	3	1.1
+Missing	128
+
+
+50) WORKWEEK
+[ASKED IF EMPLOYED= "WORKING FULL-TIME" OR "WORKING PART-TIME" ONLY.] Last week, how many hours did you work on Saturday or Sunday? 
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	271	4.413	8.651
+0) 	160	59.0
+1) 	3	1.1
+2) 	5	1.8
+3) 	1	0.4
+4) 	11	4.1
+5) 	4	1.5
+6) 	13	4.8
+7) 	2	0.7
+8) 	30	11.1
+9) 	2	0.7
+10) 	6	2.2
+11) 	2	0.7
+12) 	6	2.2
+14) 	1	0.4
+16) 	9	3.3
+20) 	4	1.5
+23) 	1	0.4
+24) 	7	2.6
+26) 	1	0.4
+28) 	1	0.4
+30) 	1	0.4
+99) Don't know / No answer	1	0.4
+Missing	131
+
+
+51) HWEMPLOY
+[ASKED ONLY IF "MARRIED" TO MARITAL.] What about your wife's / husband's working status? 
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	213	2.263	1.845
+1) Working full-time	131	61.5
+2) Working part-time	16	7.5
+3) Going to school	7	3.3
+4) Keeping house	14	6.6
+5) Retired	35	16.4
+6) Unemployed	5	2.3
+7) Or what?	3	1.4
+8) No answer	2	0.9
+Missing	189
+
+
+52) HWWKLST
+[ASKED IF HWEMPLOY= "WORKING FULL-TIME" OR "WORKING PART-TIME" ONLY AND MARITAL= "MARRIED" ONLY.] Last week, how many hours did your [wife / husband] work at all of his/her jobs? 
+RANGE: 0 to 999
+	N	Mean	Std. Deviation
+Total	147	69.755	156.541
+0) 	1	0.7
+8) 	1	0.7
+10) 	2	1.4
+12) 	1	0.7
+14) 	1	0.7
+15) 	2	1.4
+16) 	1	0.7
+20) 	3	2.0
+24) 	1	0.7
+25) 	1	0.7
+30) 	2	1.4
+35) 	1	0.7
+36) 	2	1.4
+40) 	64	43.5
+42) 	1	0.7
+43) 	1	0.7
+45) 	7	4.8
+48) 	5	3.4
+50) 	19	12.9
+55) 	2	1.4
+60) 	15	10.2
+65) 	2	1.4
+70) 	4	2.7
+72) 	1	0.7
+80) 	3	2.0
+999) Don't know / No answer	4	2.7
+Missing	255
+
+
+53) HWNTSHFT
+[ASKED IF HWEMPLOY= "WORKING FULL-TIME" OR "WORKING PART-TIME" ONLY AND MARITAL= "MARRIED" ONLY.]  Last week, how many hours did your [wife / husband] work at night, that is between 6 PM in the evening and 6 AM in the morning? 
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	143	8.664	16.801
+0) 	80	55.9
+1) 	1	0.7
+2) 	4	2.8
+3) 	6	4.2
+4) 	4	2.8
+5) 	3	2.1
+6) 	2	1.4
+7) 	2	1.4
+8) 	5	3.5
+10) 	5	3.5
+12) 	2	1.4
+14) 	1	0.7
+15) 	4	2.8
+20) 	2	1.4
+24) 	2	1.4
+25) 	2	1.4
+30) 	3	2.1
+36) 	2	1.4
+40) 	7	4.9
+45) 	1	0.7
+48) 	3	2.1
+99) Don't know / No answer	2	1.4
+Missing	259
+
+
+54) HWWKWEEK
+[ASKED IF HWEMPLOY= "WORKING FULL-TIME" OR "WORKING PART-TIME" ONLY AND MARITAL= "MARRIED" ONLY.]  Last week, how many hours did your [wife or husband] work on Saturday or Sunday? 
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	141	4.475	10.041
+0) 	87	61.7
+2) 	3	2.1
+3) 	4	2.8
+4) 	2	1.4
+5) 	5	3.5
+6) 	1	0.7
+7) 	1	0.7
+8) 	12	8.5
+9) 	1	0.7
+10) 	4	2.8
+12) 	7	5.0
+13) 	1	0.7
+14) 	1	0.7
+15) 	1	0.7
+16) 	4	2.8
+20) 	3	2.1
+24) 	2	1.4
+25) 	1	0.7
+99) Don't know / No answer	1	0.7
+Missing	261
+
+
+55) INCOMEF9
+[THIS VARIABLE IS CALLED INCOME PRIOR TO THE SPRING 1999. CATEGORIES INCREASED FROM 8 TO 9.] I am going to read you a list of income categories.  Please stop me when a category best describes your total household income before taxes: 
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	402	5.092	2.818
+1) Less than $20,000	44	10.9
+2) $20,000 up to $29,999	53	13.2
+3) $30,000 up to $39,999	48	11.9
+4) $40,000 up to $49,999	51	12.7
+5) $50,000 up to $59,999	35	8.7
+6) $60,000 up to $69,999	25	6.2
+7) $70,000 up to $79,999	16	4.0
+8) More than 80,000	58	14.4
+9) No answer	72	17.9
+
+
+56) AMERINDN
+[NOT ASKED IF RACE94= "NATIVE AMERICAN / INDIAN." THESE RESPONDENTS WERE RECODED AS "YES" FOR THAT QUESTION IN THE FINAL DATA SET.] As far as you know, were any of your ancestors American Indians? 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	402	1.796	0.493
+1) Yes, were	98	24.4
+2) No, were not	288	71.6
+3) Don't know	16	4.0
+
+
+57) HISPANIC
+Are you of Hispanic origin? 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	402	1.958	0.266
+1) Yes, Hispanic	23	5.7
+2) No, not Hispanic	373	92.8
+3) Don't know / No answer	6	1.5
+
+
+58) CHILD18
+How many people under 18 live in this house? [ENTER 11 IF MORE THAN 10; ENTER 12 IF REFUSED.] 
+RANGE: 0 to 7
+	N	Mean	Std. Deviation
+Total	402	0.796	1.145
+0) None	233	58.0
+1) One	70	17.4
+2) Two	65	16.2
+3) Three	22	5.5
+4) Four	8	2.0
+5) Five	3	0.7
+7) Seven	1	0.2
+
+
+59) CHILD12
+How many of those are under 12 years old? [ENTER 11 IF MORE THAN 10; ENTER 12 IF REFUSED.] 
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	169	1.284	0.952
+0) None	36	21.3
+1) One	68	40.2
+2) Two	50	29.6
+3) Three	11	6.5
+4) Four	4	2.4
+Missing	233
+
+
+60) PEOPLE
+Including yourself, how many people 18 or older live at this telephone number? [ENTER 11 IF MORE THAN 10; ENTER 12 IF REFUSED.] 
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	402	2.09	1.027
+1) One	101	25.1
+2) Two	213	53.0
+3) Three	54	13.4
+4) Four	28	7.0
+5) Five	3	0.7
+6) Six	2	0.5
+12) Refused	1	0.2
+
+
+61) PARTYID
+Regardless of how you vote, when it comes to national politics, do you usually think of yourself as a Republican, a Democrat, an Independent, or what? 
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	402	2.303	1.206
+1) Republican	120	29.9
+2) Democrat	135	33.6
+3) Independent	86	21.4
+4) Other	27	6.7
+5) Don't know / No answer	34	8.5
+
+
+62) STRDEM
+[IF PARTYID= "DEMOCRAT"] Would you call yourself a strong Democrat or a not very strong Democrat? 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	135	1.659	0.562
+1) Strong Democrat	52	38.5
+2) Not very strong Democrat	77	57.0
+3) Don't know / No answer	6	4.4
+Missing	267
+
+
+63) STRREP
+IF PARTYID= "REPUBLICAN"] Would you call yourself a strong Republican or a not very strong Republican? 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	120	1.625	0.609
+1) Strong Republican	53	44.2
+2) Not very strong Republican	59	49.2
+3) Don't know / No answer	8	6.7
+Missing	282
+
+
+64) INDEP
+[IF PARTYID= "INDEPENDENT"] Do you usually think of yourself as closer to the Republican party or as closer to the Democratic party? 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	86	2.07	0.748
+1) Closer to Republican party	21	24.4
+2) Closer to Democratic party	38	44.2
+3) Don't know / No answer / Neither	27	31.4
+Missing	316
+
+
+65) LIBCON
+In general, when it comes to politics, do you usually think of yourself as a liberal, a conservative, a moderate, or what? 
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	402	2.6	1.37
+1) Liberal	92	22.9
+2) Moderate (Middle of the road)	126	31.3
+3) Conservative	103	25.6
+4) Never think of self in these terms (No preference)	31	7.7
+5) Don't know	33	8.2
+6) No answer	16	4.0
+7) R insists that he/she has no understanding of these terms	1	0.2
+
+
+66) STRLIB
+[IF LIBCON = "LIBERAL"] Do you think of yourself as a strong liberal, or a not very strong liberal? 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	92	1.674	0.631
+1) Strong liberal	38	41.3
+2) Not very strong liberal	46	50.0
+3) Don't know	8	8.7
+4) No answer	0	0.0
+Missing	310
+
+
+67) STRCON
+[IF LIBCON = "CONSERVATIVE"] Do you think of yourself as a strong conservative, or a not very strong conservative? 
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	103	1.66	0.722
+1) Strong conservative	47	45.6
+2) Not very strong conservative	47	45.6
+3) Don't know	6	5.8
+4) No answer	3	2.9
+Missing	299
+
+
+68) MODERATE
+[IF LIBCON = "MODERATE"] Do you think of yourself as more like a liberal, or more like a conservative? 
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	126	2.214	0.968
+1) More liberal	45	35.7
+2) Neither / R refuses to choose	12	9.5
+3) More conservative	66	52.4
+4) Don't know	3	2.4
+5) No answer	0	0.0
+Missing	276
+
+
+69) FAVSTATE
+If you could live anywhere in the United States that you wanted to, which state would you choose? 
+RANGE: 1 to 52
+	N	Mean	Std. Deviation
+Total	402	24.448	16.394
+1) Alabama	1	0.2
+2) Alaska	5	1.2
+3) Arizona	19	4.7
+4) Arkansas	1	0.2
+5) California	55	13.7
+6) Colorado	25	6.2
+7) Connecticut	3	0.7
+8) Delaware	2	0.5
+9) D.C.	1	0.2
+10) Florida	14	3.5
+11) Georgia	6	1.5
+12) Hawaii	12	3.0
+13) Idaho	2	0.5
+14) Illinois	4	1.0
+15) Indiana	2	0.5
+16) Iowa	3	0.7
+17) Kansas	3	0.7
+18) Kentucky	3	0.7
+20) Maine	5	1.2
+21) Maryland	7	1.7
+22) Massachusetts	15	3.7
+23) Michigan	13	3.2
+24) Minnesota	12	3.0
+26) Missouri	4	1.0
+27) Montana	13	3.2
+28) Nebraska	2	0.5
+29) Nevada	6	1.5
+30) New Hampshire	1	0.2
+31) New Jersey	7	1.7
+32) New Mexico	4	1.0
+33) New York	24	6.0
+34) North Carolina	8	2.0
+35) North Dakota	2	0.5
+36) Ohio	10	2.5
+37) Oklahoma	1	0.2
+38) Oregon	9	2.2
+39) Pennsylvania	17	4.2
+40) Rhode Island	1	0.2
+41) South Carolina	1	0.2
+42) South Dakota	2	0.5
+43) Tennessee	2	0.5
+44) Texas	5	1.2
+45) Utah	6	1.5
+46) Vermont	2	0.5
+47) Virginia	9	2.2
+48) Washington	17	4.2
+49) West Virginia	3	0.7
+50) Wisconsin	11	2.7
+51) Wyoming	3	0.7
+52) Don't know	19	4.7
+
+
+70) DRINK
+Do you, yourself, ever have occasion to use alcoholic beverages such as liquor, wine, or beer-or are you a total abstainer?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	402	1.701	0.464
+1) Total abstainer	121	30.1
+2) Drink	280	69.7
+3) Refused to answer	1	0.2
+
+
+71) HAVEGUN
+Do you happen to have any guns or revolvers in your home? 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	402	1.679	0.518
+1) Yes	139	34.6
+2) No	253	62.9
+3) Don't know / No answer	10	2.5
+
+
+72) HERO
+[OPEN-ENDED RESPONSES ARE STORED AS OHERO IN THE DATASET.] What man or woman that you have heard or read about, living today in any part of the world, do you admire the most? 
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	402	1.502	0.501
+1) Record exact answer	200	49.8
+2) Don't know / Can't say / No answer	202	50.2
+
+
+73) FAVCOLLG
+[OPEN-ENDED RESPONSES FROM THOSE WHO ANSWERED A DETAILED COLLEGE NAME ARE STORED AS OFAVCOLL IN THE DATASET.]  If you had a child of college age who could enter any college or university in the United States and you had enough money so that wasn't a problem, which college would you most want your child to attend? 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	402	1.423	0.734
+1) Record exact answer, if a college is named	291	72.4
+2) It depends on the child / Wherever child wants to go / Up to child	52	12.9
+3) Don't know / Can?t say / No answer	59	14.7
+
+
+74) HOMOLAW
+In your opinion, should it be legal or not legal for homosexuals to marry? 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	402	1.818	0.702
+1) Legal	142	35.3
+2) Illegal	191	47.5
+3) Don't know / No answer	69	17.2
+
+
+75) RELRSNL
+[ASKED OF RESPONDENTS WHO ANSWERED "LEGAL" TO HOMOLAW.]  Is your view that homosexual marriage should be legal based at all on your religious beliefs, such as what the Bible or church teaches? 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	142	1.958	0.334
+1) Yes	11	7.7
+2) No	126	88.7
+3) Don't know / No answer	5	3.5
+Missing	260
+
+
+76) LRELONLY
+[ASKED OF RESPONDENTS WHO ANSWERED "YES" TO RELRSNL.] Would you say that your religious beliefs are one of several reasons you think that homosexual marriage should be legal, or the only reason you think that homosexual marriage should be legal? 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	11	1.636	0.924
+1) One of several	7	63.6
+2) The only reason	1	9.1
+3) Don't know / No answer	3	27.3
+Missing	391
+
+
+77) RELRSNNL
+[ASKED OF RESPONDENTS WHO ANSWERED "ILLEGAL" TO HOMOLAW.] Is your view that homosexual marriage should not be legal based at all on your religious beliefs, such as what the Bible or church teaches? 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	191	1.314	0.487
+1) Yes	133	69.6
+2) No	56	29.3
+3) Don't know / No answer	2	1.0
+Missing	211
+
+
+78) NRELONLY
+[ASKED OF RESPONDENTS WHO ANSWERED "YES" TO RELRSNNL.]  Would you say your religious beliefs are one of several reasons you think that homosexual marriage should not be legal, or the only reason you think that homosexual marriage should not be legal? 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	133	1.376	0.531
+1) One of several	86	64.7
+2) The only reason	44	33.1
+3) Don't know / No answer	3	2.3
+Missing	269
+
+
+79) JESUS
+[JESUS, LIFEAFTR, BIBLEPD, AND RELIGEXP ARE ONE GROUP OF RANDOMLY ASSIGNED QUESTIONS.]  I believe that Jesus is the son of God. 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	402	1.197	0.508
+1) Agree	343	85.3
+2) Disagree	39	9.7
+3) Don't know / Can't say / No answer	20	5.0
+
+
+80) LIFEAFTR
+[JESUS, LIFEAFTR, BIBLEPD, AND RELIGEXP ARE ONE GROUP OF RANDOMLY ASSIGNED QUESTIONS.]  I believe that there is life after death. 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	402	1.289	0.588
+1) Agree	314	78.1
+2) Disagree	60	14.9
+3) Don't know / Can't say / No answer	28	7.0
+
+
+81) BIBLEPD
+[JESUS, LIFEAFTR, BIBLEPD, AND RELIGEXP ARE ONE GROUP OF RANDOMLY ASSIGNED QUESTIONS.]  The Bible predicts major changes for the world in the year 2000. 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	402	1.846	0.652
+1) Agree	121	30.1
+2) Disagree	222	55.2
+3) Don't know / Can't say / No answer	59	14.7
+
+
+82) RELIGEXP
+[JESUS, LIFEAFTR, BIBLEPD, AND RELIGEXP ARE A GROUP OF RANDOMLY ASSIGNED QUESTIONS.]  I've had at least one religious experience - that is, a particularly powerful religious insight or awakening that changed the direction of my life. 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	402	1.55	0.55
+1) Agree	192	47.8
+2) Disagree	199	49.5
+3) Don't know / Can't say / No answer	11	2.7
+
+
+83) LOOKDWN
+[LOOKDWN, DISLIKE, AND NOTFAIR ARE A GROUP OF RANDOMLY ASSIGNED QUESTIONS.]  Most non-Southerners look down on Southerners. 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	402	1.945	0.53
+1) Agree	68	16.9
+2) Disagree	288	71.6
+3) Don't know / Can't say / No answer	46	11.4
+
+
+84) DISLIKE
+[LOOKDWN, DISLIKE, AND NOTFAIR ARE A GROUP OF RANDOMLY ASSIGNED QUESTIONS.]  Most non-Southerners dislike Southerners. 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	402	2.052	0.457
+1) Agree	32	8.0
+2) Disagree	317	78.9
+3) Don't know / Can't say / No answer	53	13.2
+
+
+85) NOTFAIR
+[LOOKDWN, DISLIKE, AND NOTFAIR ARE A GROUP OF RANDOMLY ASSIGNED QUESTIONS.]  Books and magazine articles about the South play up its bad points and don?t give a fair picture. 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	402	1.993	0.708
+1) Agree	102	25.4
+2) Disagree	201	50.0
+3) Don't know / Can't say / No answer	99	24.6
+
+
+86) GUNPERM
+[GUNPERM AND AUTHGUN ARE A GROUP OF RANDOMLY ASSIGNED QUESTIONS.]  People should be required to obtain a police permit before they can buy a gun. 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	402	1.231	0.467
+1) Agree	317	78.9
+2) Disagree	77	19.2
+3) Don't know / Can't say / No answer	8	2.0
+
+
+87) AUTHGUN
+[GUNPERM AND AUTHGUN ARE A GROUP OF RANDOMLY ASSIGNED QUESTIONS.]  Only the police and other authorized persons should be allowed to have handguns. 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	402	1.639	0.58
+1) Agree	166	41.3
+2) Disagree	215	53.5
+3) Don't know / Can't say / No answer	21	5.2
+
+
+88) DRYUS
+There should be a law forbidding the sale of all beer, wine, and liquor throughout the nation. 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	402	1.925	0.359
+1) Agree	42	10.4
+2) Disagree	348	86.6
+3) Don't know / Can't say / No answer	12	3.0
+
+
+89) TIME24
+Next, we have some questions about how much time people spend at home.  We're going to ask you about how much time you spent at home yesterday.  We're purposely asking about only one day so as not to interfere too much with your privacy.  We'll summarize this information across all of the people we talk to in order to get a general picture of how much time people spend at home these days.  So, thinking about yesterday, of the 24 hours between midnight the day before yesterday and midnight last night, about how many hours did you spend away from the house or apartment where this telephone is located? 
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	402	9.537	10.733
+0) 	32	8.0
+1) 	11	2.7
+2) 	21	5.2
+3) 	22	5.5
+4) 	31	7.7
+5) 	20	5.0
+6) 	26	6.5
+7) 	8	2.0
+8) 	34	8.5
+9) 	15	3.7
+10) 	48	11.9
+11) 	8	2.0
+12) 	39	9.7
+13) 	6	1.5
+14) 	18	4.5
+15) 	11	2.7
+16) 	14	3.5
+17) 	4	1.0
+18) 	7	1.7
+19) 	1	0.2
+20) 	4	1.0
+22) 	1	0.2
+23) 	2	0.5
+24) 	15	3.7
+99) Don't know / No answer	4	1.0
+
+
+90) TIME12
+Of the 12 hours between 10 AM yesterday morning and 10 PM yesterday evening, about how many hours did you spend away from the house or apartment where this telephone is located? 
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	366	7.361	10.273
+0) 	16	4.4
+1) 	15	4.1
+2) 	31	8.5
+3) 	31	8.5
+4) 	30	8.2
+5) 	29	7.9
+6) 	45	12.3
+7) 	16	4.4
+8) 	46	12.6
+9) 	18	4.9
+10) 	31	8.5
+11) 	7	1.9
+12) 	47	12.8
+99) Don't know / No answer	4	1.1
+Missing	36
+
+
+91) EATATHM
+Please think about where you ate your evening meals each day last week and tell me how many days last week you ate your evening meal at home? [INTERVIEWER: IF R ASKS WHETHER GETTING TAKEOUT OR DELIVERY AND EATING AT HOME COUNTS, IT DOES. WE WANT TO KNOW WHERE THEY ATE, NOT WHERE THE FOOD WAS PREPARED.] 
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	402	4.998	2.167
+0) None	30	7.5
+1) One	10	2.5
+2) Two	16	4.0
+3) Three	28	7.0
+4) Four	49	12.2
+5) Five	78	19.4
+6) Six	48	11.9
+7) Seven	139	34.6
+9) Don't know / No answer	4	1.0
+
+
+92) WKSAWAY
+In the last twelve months, about how many weeks did you spend away from home for vacation, travel, work or other reasons? 
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	402	5.522	14.831
+0) 	88	21.9
+1) 	52	12.9
+2) 	71	17.7
+3) 	58	14.4
+4) 	36	9.0
+5) 	13	3.2
+6) 	24	6.0
+7) 	8	2.0
+8) 	12	3.0
+9) 	4	1.0
+10) 	10	2.5
+12) 	6	1.5
+14) 	1	0.2
+15) 	2	0.5
+16) 	1	0.2
+20) 	3	0.7
+28) 	1	0.2
+30) 	2	0.5
+40) 	1	0.2
+99) Refused / No answer	9	2.2
+
+
+93) Y2KHEARD
+Have you heard of the Y2K, or Year 2000, computer problem? 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	402	1.035	0.197
+1) Yes, have heard	389	96.8
+2) No, have not heard	12	3.0
+3) Don't know / Not sure / No answer	1	0.2
+
+
+94) Y2KPLANS
+Have you made, or do you plan to make, any preparations for the Y2K problem? 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	389	1.635	0.513
+1) Yes, have made preparations	148	38.0
+2) No, have not made preparations	235	60.4
+3) Don't know / Not sure / No answer	6	1.5
+Missing	13
+
+
+95) Y2KRESLT
+For you personally, would you say that you expect the Y2K problem to cause no difficulties at all, only minor difficulties, serious difficulties, or a real disaster? 
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	389	1.977	0.594
+1) No difficulties at all	54	13.9
+2) Only minor difficulties	305	78.4
+3) Serious difficulties	19	4.9
+4) A real disaster	7	1.8
+5) Don't know / No answer	4	1.0
+Missing	13
+
+
+96) MWHTNON
+Now I have some questions about relationships between various groups of people and I'd like to know how you feel about these.  Do you approve or disapprove of marriage between Whites and nonwhites? 
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	402	1.4	0.812
+1) Approve	301	74.9
+2) Disapprove	65	16.2
+3) Depends (Volunteered)	12	3.0
+4) Don't know / No answer	24	6.0
+
+
+97) MJEWNON
+How about marriage between Jews and non-Jews do you approve or disapprove of those? 
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	402	1.341	0.865
+1) Approve	338	84.1
+2) Disapprove	23	5.7
+3) Depends (Volunteered)	9	2.2
+4) Don't know / No answer	32	8.0
+
+
+98) MCATHNON
+And marriage between Catholics and Protestants: do you approve or disapprove? 
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	402	1.306	0.832
+1) Approve	346	86.1
+2) Disapprove	18	4.5
+3) Depends (Volunteered)	9	2.2
+4) Don't know / No Answer	29	7.2
+
+
+99) SCHBLK
+[ASKED OF RESPONDENTS WHO ARE WHITE] Would you, yourself, have any objection to sending your children to a school where more than half of the children are Black?  [INTERVIEWER: IF R SAYS THEY DON'T HAVE CHILDREN OR CHILDREN ARE GROWN, ASK:] Well if you had school-aged children, would you have any objection to sending them to a school where more than half of the children are Black? 
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	323	1.96	0.542
+1) Would object	44	13.6
+2) Would not	258	79.9
+3) Depends (Volunteered)	11	3.4
+4) Don't know / Can't say / No answer	10	3.1
+Missing	79
+
+
+100) SCHWHT
+[ASKED OF RESPONDENTS WHO ARE NON-WHITE:] Would you, yourself, have any objection to sending your children to a school where more than half of the children are White?  [INTERVIEWER: IF R SAYS THEY DON'T HAVE CHILDREN OR CHILDREN ARE GROWN, ASK:] Well if you had school aged children, would you have any objection to sending them to a school where more than half of the children are White? 
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	79	2.013	0.408
+1) Would object	4	5.1
+2) Would not	72	91.1
+3) Depends [volunteered]	1	1.3
+4) Don't know / Can't say / No answer	2	2.5
+Missing	323
+
+
+101) VOTEBLK
+[VOTEBLK, VOTEJEW, VOTECTH, AND VOTEWOM ARE A GROUP OF RANDOMLY ASSIGNED QUESTIONS. THE ORDER OF THIS QUESTION IS RECORDED IN VARIABLE ODVTBLK.]  If your party nominated someone for president who was generally well qualified and happened to be Black, would you vote for that candidate?  [INTERVIEWER: IF R SAYS THEY DON'T HAVE A PARTY, SAY:] Well, if the major parties nominated someone for president who was generally well qualified and happened to be Black, would you vote for that candidate?  [IF THEY STILL OBJECT TO THE QUESTION, CODE AS DON'T KNOW.] 
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	402	1.134	0.54
+1) Would vote for candidate	374	93.0
+2) Would not vote for candidate	11	2.7
+3) Depends (Volunteered)	8	2.0
+4) Don't know / Can't say / No answer	9	2.2
+
+
+102) VOTEJEW
+[VOTEBLK, VOTEJEW, VOTECTH, AND VOTEWOM ARE A GROUP OF RANDOMLY ASSIGNED QUESTIONS. THE ORDER OF THIS QUESTION IS RECORDED IN VARIABLE ODVTBLK.]  If your party nominated someone for president who was generally well qualified and happened to be Jewish, would you vote for that candidate?  [INTERVIEWER: IF R SAYS THEY DON'T HAVE A PARTY, SAY:] Well, if the major parties nominated someone for president who was generally well qualified and happened to be Jewish, would you vote for that candidate?  [IF THEY STILL OBJECT TO THE QUESTION, CODE AS DON'T KNOW.] 
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	402	1.149	0.593
+1) Would vote for candidate	375	93.3
+2) Would not vote for candidate	6	1.5
+3) Depends (Volunteered)	9	2.2
+4) Don't know / Can't say / No answer	12	3.0
+
+
+103) VOTECTH
+[VOTEBLK, VOTEJEW, VOTECTH, AND VOTEWOM ARE A GROUP OF RANDOMLY ASSIGNED QUESTIONS. THE ORDER OF THIS QUESTION IS RECORDED IN VARIABLE ODVTBLK.]  If your party nominated someone for president who was generally well qualified and happened to be Catholic, would you vote for that candidate?  [INTERVIEWER: IF R SAYS THEY DON'T HAVE A PARTY, SAY:] Well, if the major parties nominated someone for president who was generally well qualified and happened to be Catholic, would you vote for that candidate?  [IF THEY STILL OBJECT TO THE QUESTION, CODE AS DON'T KNOW.] 
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	402	1.132	0.552
+1) Would vote for candidate	378	94.0
+2) Would not vote for candidate	4	1.0
+3) Depends (Volunteered)	11	2.7
+4) Don't know / Can't say / No answer	9	2.2
+
+
+104) VOTEWOM
+[VOTEBLK, VOTEJEW, VOTECTH, AND VOTEWOM ARE A GROUP OF RANDOMLY ASSIGNED QUESTIONS. THE ORDER OF THIS QUESTION IS RECORDED IN VARIABLE ODVTBLK.]  If your party nominated someone for president who was generally well qualified and happened to be a woman, would you vote for that candidate?  [INTERVIEWER: IF R SAYS THEY DON'T HAVE A PARTY, SAY:] Well, if the major parties nominated someone for president who was generally well qualified and happened to be a woman, would you vote for that candidate?  [IF THEY STILL OBJECT TO THE QUESTION, CODE AS DON'T KNOW.] 
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	402	1.147	0.557
+1) Would vote for candidate	371	92.3
+2) Would not vote for candidate	12	3.0
+3) Depends (Volunteered)	10	2.5
+4) Don't know / Can't say / No answer	9	2.2
+
+
+105) INDEPSOU
+[THIS IS THE QUESTION THAT ALTERNATES FALL AND SPRING. FALL VERSION, CALLED INDEPSOU. SPRING VERSION CALLED NOTSEP.]  Do you agree or disagree that: if it could be done without war, the South would be better off as a separate country today? 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	402	2.042	0.394
+1) Agree	23	5.7
+2) Disagree	339	84.3
+3) Don't know / No answer	40	10.0
+
+
+106) CALLBACK
+Some of the questions on this survey will be used by researchers who are studying American religion. Would you be willing to have a researcher call you back to see if you would be willing to discuss some of these matters in greater detail? 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	402	1.572	0.505
+1) Yes	174	43.3
+2) No	226	56.2
+3) No answer	2	0.5
+
+
+107) GOODINT
+[INTERVIEWER: DO YOU THINK THIS PERSON WOULD BE GOOD TO CALL BACK FOR MORE INFORMATION? (WAS THIS A GOOD INTERVIEW?)] 
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	402	1.264	0.441
+1) Yes	296	73.6
+2) No	106	26.4
+
+
+108) ACCENTS
+[INTERVIEWER: CODE RESPONDENT'S ACCENT]
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	401	2.948	0.264
+1) Strong Southern accent	4	1.0
+2) Detectable Southern accent, but not strong	13	3.2
+3) No Southern accent	384	95.8
+Missing	1
+
+
+109) RESP3
+RESPONDENT NUMBER AGAIN 
+RANGE: 5000 to 6551
+	N	Mean	Std. Deviation
+Total	402	5763.714	463.446
+
+
+110) RESP4
+VERIFY RESPONDENT NUMBER AGAIN 
+RANGE: 5059 to 6496
+	N	Mean	Std. Deviation
+Total	9	5672.111	576.428
+5059) 	1	11.1
+5095) 	1	11.1
+5138) 	1	11.1
+5235) 	1	11.1
+5708) 	1	11.1
+5798) 	1	11.1
+6053) 	1	11.1
+6467) 	1	11.1
+6496) 	1	11.1
+Missing	393
+
+
+111) STCHK1
+VERIFY THE STATE OF THE RESPONDENT YOU INTERVIEWED. 
+RANGE: 3 to 50
+	N	Mean	Std. Deviation
+Total	402	24.627	14.133
+3) Arizona	14	3.5
+5) California	59	14.7
+6) Colorado	9	2.2
+7) Connecticut	6	1.5
+8) Delaware	4	1.0
+13) Idaho	3	0.7
+14) Illinois	21	5.2
+15) Indiana	10	2.5
+16) Iowa	6	1.5
+17) Kansas	8	2.0
+20) Maine	2	0.5
+21) Maryland	10	2.5
+22) Massachusetts	24	6.0
+23) Michigan	19	4.7
+24) Minnesota	17	4.2
+26) Missouri	8	2.0
+27) Montana	3	0.7
+28) Nebraska	5	1.2
+29) Nevada	2	0.5
+31) New Jersey	15	3.7
+32) New Mexico	5	1.2
+33) New York	42	10.4
+35) North Dakota	4	1.0
+36) Ohio	23	5.7
+38) Oregon	10	2.5
+39) Pennsylvania	27	6.7
+40) Rhode Island	3	0.7
+42) South Dakota	1	0.2
+45) Utah	4	1.0
+46) Vermont	1	0.2
+48) Washington	18	4.5
+49) West Virginia	4	1.0
+50) Wisconsin	15	3.7
+51) Wyoming	0	0.0
+
+
+112) COUNTY
+PLEASE ENTER THE CODE FOR THE RESPONDENT'S COUNTY BELOW. IF DON'T KNOW OR REFUSED ENTER 999. IF THE COUNTY IS NOT ON LIST, ENTER 998. IF R GAVE A CITY OR TOWNSHIP, ENTER 997. 
+RANGE: 1 to 998
+	N	Mean	Std. Deviation
+Total	381	93.682	188.54
+
+
+113) DATE
+DATE OF POLL: MMDD 
+RANGE: 922 to 1117
+	N	Mean	Std. Deviation
+Total	402	1017	63.224
+922) 	5	1.2
+923) 	16	4.0
+925) 	14	3.5
+926) 	16	4.0
+927) 	16	4.0
+928) 	10	2.5
+929) 	8	2.0
+930) 	9	2.2
+1002) 	8	2.0
+1003) 	8	2.0
+1004) 	19	4.7
+1005) 	9	2.2
+1006) 	9	2.2
+1007) 	7	1.7
+1009) 	14	3.5
+1010) 	9	2.2
+1011) 	9	2.2
+1012) 	13	3.2
+1018) 	5	1.2
+1019) 	20	5.0
+1020) 	17	4.2
+1021) 	7	1.7
+1023) 	11	2.7
+1024) 	3	0.7
+1025) 	11	2.7
+1026) 	7	1.7
+1027) 	12	3.0
+1028) 	3	0.7
+1030) 	7	1.7
+1101) 	19	4.7
+1102) 	15	3.7
+1103) 	9	2.2
+1104) 	5	1.2
+1106) 	4	1.0
+1107) 	4	1.0
+1108) 	8	2.0
+1109) 	4	1.0
+1110) 	5	1.2
+1111) 	6	1.5
+1114) 	6	1.5
+1115) 	6	1.5
+1116) 	7	1.7
+1117) 	2	0.5
+
+
+114) TIMEINT
+TIME OF POLL: HHMM 
+RANGE: 210 to 1055
+	N	Mean	Std. Deviation
+Total	402	716.254	212.317
+
+
+115) INTNUM
+[THIS VARIABLE IS USED TO CREATE INTGEN (THE INTERVIEWER'S GENDER), INTRACE (THE INTERVIEWER'S RACE), AND INTACC (INTERVIEWER'S ACCENT). 
+RANGE: 5 to 59
+	N	Mean	Std. Deviation
+Total	402	23.323	11.607
+5) 	7	1.7
+7) 	19	4.7
+8) 	12	3.0
+9) 	15	3.7
+10) 	2	0.5
+11) 	11	2.7
+12) 	2	0.5
+13) 	28	7.0
+14) 	18	4.5
+17) 	7	1.7
+18) 	6	1.5
+19) 	12	3.0
+20) 	25	6.2
+21) 	23	5.7
+22) 	25	6.2
+23) 	4	1.0
+24) 	20	5.0
+25) 	11	2.7
+26) 	26	6.5
+27) 	18	4.5
+28) 	13	3.2
+29) 	5	1.2
+31) 	11	2.7
+32) 	16	4.0
+35) 	21	5.2
+40) 	13	3.2
+41) 	13	3.2
+50) 	3	0.7
+55) 	10	2.5
+58) 	5	1.2
+59) 	1	0.2
+
+
+116) ODVTBLK
+ORDER TO ASK TO VOTE BLACK FOR PRESIDENT 
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	402	2.405	1.14
+1) 	117	29.1
+2) 	99	24.6
+3) 	93	23.1
+4) 	92	22.9
+5) 	1	0.2
+
+
+117) ODVTJEW
+ORDER TO ASK VOTE JEWISH FOR PRESIDENT 
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	402	2.627	1.128
+1) 	79	19.7
+2) 	113	28.1
+3) 	95	23.6
+4) 	111	27.6
+5) 	2	0.5
+6) 	2	0.5
+
+
+118) ODVTCTH
+ORDER TO ASK TO VOTE CATHOLIC FOR PRESIDENT 
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	402	2.473	1.141
+1) 	109	27.1
+2) 	95	23.6
+3) 	98	24.4
+4) 	99	24.6
+5) 	1	0.2
+
+
+119) ODVTWOM
+ORDER TO ASK TO VOTE WOMAN FOR PRESIDENT 
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	402	2.527	1.112
+1) 	97	24.1
+2) 	94	23.4
+3) 	115	28.6
+4) 	95	23.6
+6) 	1	0.2
+
+
+120) TOTIME
+TOTAL TIME
+RANGE: 25 to 5136
+	N	Mean	Std. Deviation
+Total	402	768.973	332.384
+
+
+121) MINUTES
+INTERVIEW LENGTH IN MINUTES 
+RANGE: 0 to 86
+	N	Mean	Std. Deviation
+Total	402	12.836	5.546
+0) 	1	0.2
+1) 	3	0.7
+3) 	1	0.2
+7) 	1	0.2
+8) 	10	2.5
+9) 	36	9.0
+10) 	57	14.2
+11) 	73	18.2
+12) 	56	13.9
+13) 	45	11.2
+14) 	32	8.0
+15) 	26	6.5
+16) 	18	4.5
+17) 	7	1.7
+18) 	10	2.5
+19) 	5	1.2
+20) 	4	1.0
+21) 	2	0.5
+22) 	3	0.7
+23) 	1	0.2
+24) 	3	0.7
+25) 	1	0.2
+26) 	1	0.2
+30) 	1	0.2
+31) 	1	0.2
+35) 	1	0.2
+36) 	1	0.2
+41) 	1	0.2
+86) 	1	0.2
+
+
+122) DENOM
+CHRISTIAN DENOMINATION 
+RANGE: 10 to 52
+	N	Mean	Std. Deviation
+Total	230	33.57	13.397
+10) Anabaptist	3	1.3
+12) Assembly of God	4	1.7
+13) Baptist	32	13.9
+14) Brethren	1	0.4
+15) Catholic	1	0.4
+17) Christian or just Christian	10	4.3
+18) Christian and Missionary Alliance	1	0.4
+19) Christian Science	1	0.4
+20) Church(es) of Christ	4	1.7
+21) Church of God	1	0.4
+23) Congregationalist	5	2.2
+25) Episcopalian; Anglican; Church of England	8	3.5
+27) Evangelical Free Church	2	0.9
+31) Independent	1	0.4
+32) Jehovahs Witness	3	1.3
+33) Just Protestant	1	0.4
+34) Lutheran	37	16.1
+35) Mennonite	1	0.4
+36) Methodist	21	9.1
+37) Mormon / Latter-day Saints	6	2.6
+38) Non / Inter-Denominational Protestant	5	2.2
+39) Pentecostal	5	2.2
+40) Presbyterian	11	4.8
+41) Quaker / Friends	1	0.4
+45) Unitarian-Universalist	3	1.3
+46) United Church of Christ (UCC)	2	0.9
+48) Other (Specify)	25	10.9
+49) Don't know	4	1.7
+50) Refused	5	2.2
+51) Not religious / Atheist / Agnostic	1	0.4
+52) None (Not affiliated with a church)	25	10.9
+Missing	172
+
+
+123) DBAPTIST
+Which Baptist denomination 
+RANGE: 10 to 27
+	N	Mean	Std. Deviation
+Total	32	20.656	6.563
+10) American Baptist Association	6	18.8
+11) American Baptist USA	2	6.3
+19) Independent Baptist (No Denom Ties)	5	15.6
+25) Southern Baptist	14	43.8
+26) Other	1	3.1
+27) Don't Know/Just Baptist	4	12.5
+Missing	370
+
+
+124) DPENTE
+Which Pentecostal denomination 
+RANGE: 10 to 20
+	N	Mean	Std. Deviation
+Total	5	15.6	5.128
+10) Apostolic Pentecostal	2	40.0
+19) Pentecostal Church of God	2	40.0
+20) Pentecostal Holiness Church	1	20.0
+Missing	397
+
+
+125) AGE
+Age of respondent 
+RANGE: -9 to 99
+	N	Mean	Std. Deviation
+Total	402	42.794	18.052
+
+
+126) AGECAT
+Recode of age in categories 
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	402	2.48	0.943
+1) 18 to 24 years old	54	13.4
+2) 25 to 44 years old	168	41.8
+3) 45 to 64 years old	120	29.9
+4) 65 years or older	53	13.2
+5) Don't know / Refused	7	1.7
+
+
+127) RACE
+Respondent's race 
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	402	1.485	1.092
+1) White	323	80.3
+2) Black / African American	25	6.2
+3) Native American / American Indian	3	0.7
+4) Other	40	10.0
+5) No answer	11	2.7
+
+
+128) RCMIN
+Interview's length in categories 
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	400	1.278	0.593
+1) Less than 15 minutes	314	78.5
+2) 15-19 minutes	66	16.5
+3) 20-29 minutes	15	3.8
+4) 30 minutes or more	5	1.3
+Missing	2
+
+
+129) STATCALL
+Old code for US states 
+RANGE: 14 to 50
+	N	Mean	Std. Deviation
+Total	402	32.672	10.158
+14) Delaware	4	1.0
+16) Maryland	10	2.5
+17) Missouri	8	2.0
+18) West Virginia	4	1.0
+20) Arizona	14	3.5
+21) California	59	14.7
+22) Colorado	9	2.2
+23) Connecticut	6	1.5
+25) Idaho	3	0.7
+26) Illinois	21	5.2
+27) Indiana	10	2.5
+28) Iowa	6	1.5
+29) Kansas	8	2.0
+30) Maine	2	0.5
+31) Massachusetts	24	6.0
+32) Michigan	19	4.7
+33) Minnesota	17	4.2
+34) Montana	3	0.7
+35) Nebraska	5	1.2
+36) Nevada	2	0.5
+38) New Jersey	15	3.7
+39) New Mexico	5	1.2
+40) New York	42	10.4
+41) North Dakota	4	1.0
+42) Ohio	23	5.7
+43) Oregon	10	2.5
+44) Pennsylvania	27	6.7
+45) Rhode Island	3	0.7
+46) South Dakota	1	0.2
+47) Utah	4	1.0
+48) Vermont	1	0.2
+49) Washington	18	4.5
+50) Wisconsin	15	3.7
+
+
+130) STAT16FP
+Recode of STATE16 to FIPS codes 
+RANGE: 4 to 77
+	N	Mean	Std. Deviation
+Total	401	31.748	17.728
+4) Arizona	5	1.2
+6) California	39	9.7
+8) Colorado	9	2.2
+9) Connecticut	8	2.0
+10) Delaware	4	1.0
+12) Florida	4	1.0
+16) Idaho	3	0.7
+17) Illinois	19	4.7
+18) Indiana	8	2.0
+19) Iowa	6	1.5
+20) Kansas	9	2.2
+21) Kentucky	2	0.5
+22) Louisiana	1	0.2
+23) Maine	2	0.5
+24) Maryland	8	2.0
+25) Massachusetts	18	4.5
+26) Michigan	19	4.7
+27) Minnesota	19	4.7
+29) Missouri	8	2.0
+30) Montana	4	1.0
+31) Nebraska	8	2.0
+34) New Jersey	16	4.0
+35) New Mexico	4	1.0
+36) New York	40	10.0
+37) North Carolina	3	0.7
+38) North Dakota	5	1.2
+39) Ohio	22	5.5
+40) Oklahoma	1	0.2
+41) Oregon	7	1.7
+42) Pennsylvania	27	6.7
+44) Rhode Island	3	0.7
+46) South Dakota	2	0.5
+47) Tennessee	1	0.2
+48) Texas	5	1.2
+49) Utah	5	1.2
+50) Vermont	1	0.2
+51) Virginia	2	0.5
+53) Washington	13	3.2
+54) West Virginia	4	1.0
+55) Wisconsin	14	3.5
+56) Wyoming	1	0.2
+77) Foreign country	22	5.5
+Missing	1
+
+
+131) GALREG
+Gallup Org. Regionalization 
+RANGE: 2 to 7
+	N	Mean	Std. Deviation
+Total	402	4.896	1.675
+2) New England	36	9.0
+3) East Central	73	18.2
+4) West Central	64	15.9
+5) Mountain States	40	10.0
+6) Middle Atlantic	102	25.4
+7) Pacific Coast	87	21.6
+
+
+132) AJCREGN
+AJC Regionalization 
+RANGE: 2 to 4
+	N	Mean	Std. Deviation
+Total	402	2.973	0.812
+2) Northeast	138	34.3
+3) Midwest	137	34.1
+4) Far West	127	31.6
+
+
+133) GRADE
+Educational attainment 
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	402	3.973	0.985
+1) Less than Grade 9	7	1.7
+2) Ninth to eleventh grade	15	3.7
+3) HS grad	113	28.1
+4) Some college	114	28.4
+5) College grad or more	153	38.1
+
+
+134) LCRECODE
+Liberal / Conservative recode 
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	402	5.06	2.551
+1) Strong Liberal	38	9.5
+2) Not Strong Liberal	54	13.4
+3) Moderate Liberal	45	11.2
+4) Moderate	15	3.7
+5) Moderate Conservative	66	16.4
+6) Not Strong Conservative	56	13.9
+7) Strong Conservative	47	11.7
+8) No preference	31	7.7
+9) Don't know / No answer	50	12.4
+
+
+135) RESIDENT
+Residence North / South 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	379	2.836	0.488
+1) South	19	5.0
+2) Border	24	6.3
+3) Non-South	336	88.7
+Missing	23
+
+
+136) WHSTATE
+Regional recode: State of residence 
+RANGE: 2 to 3
+	N	Mean	Std. Deviation
+Total	402	2.935	0.246
+2) Border	26	6.5
+3) Non-South	376	93.5
+
+
+137) PIDRCODE
+Recode for party identification 
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	402	4.577	2.62
+1) Strong Democrat	52	12.9
+2) Not very strong Democrat	83	20.6
+3) Independent, close to Democrats	38	9.5
+4) Independent	27	6.7
+5) Independent, close to Republicans	21	5.2
+6) Not very strong Republican	67	16.7
+7) Strong Republican	53	13.2
+8) Other party	27	6.7
+9) Don't know / No answer	34	8.5
+
+
+138) STATEFPS
+States FIPS codes 
+RANGE: 4 to 55
+	N	Mean	Std. Deviation
+Total	402	27.423	15.064
+4) Arizona	14	3.5
+6) California	59	14.7
+8) Colorado	9	2.2
+9) Connecticut	6	1.5
+10) Delaware	4	1.0
+16) Idaho	3	0.7
+17) Illinois	21	5.2
+18) Indiana	10	2.5
+19) Iowa	6	1.5
+20) Kansas	8	2.0
+23) Maine	2	0.5
+24) Maryland	10	2.5
+25) Massachusetts	24	6.0
+26) Michigan	19	4.7
+27) Minnesota	17	4.2
+29) Missouri	8	2.0
+30) Montana	3	0.7
+31) Nebraska	5	1.2
+32) Nevada	2	0.5
+34) New Jersey	15	3.7
+35) New Mexico	5	1.2
+36) New York	42	10.4
+38) North Dakota	4	1.0
+39) Ohio	23	5.7
+41) Oregon	10	2.5
+42) Pennsylvania	27	6.7
+44) Rhode Island	3	0.7
+46) South Dakota	1	0.2
+49) Utah	4	1.0
+50) Vermont	1	0.2
+53) Washington	18	4.5
+54) West Virginia	4	1.0
+55) Wisconsin	15	3.7
+
+
+139) ST_CNTY
+State-county FIPS codes (numeric) 
+RANGE: 4005 to 55133
+	N	Mean	Std. Deviation
+Total	366	27283.41	14939.205
+
+
+140) FAITH97X
+RESPONDENT'S RELIGIOUS PREFERENCE RECODE OF DENOM AND RELAFFL 
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	402	6.786	2.984
+1) Baptist	32	8.0
+2) Methodist	21	5.2
+3) Lutheran	37	9.2
+4) Presbyterian	11	2.7
+5) Episcopalian	8	2.0
+6) Church of Christ	6	1.5
+7) Other Protestant	80	19.9
+8) Catholic	120	29.9
+9) Jewish	15	3.7
+10) Other	33	8.2
+11) None	30	7.5
+12) Don't know / No answer	9	2.2
+
+
+141) FAITH
+RELIGIOUS PREFERENCE RECODE DENOM AND RELAFFL 
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	402	2.744	1.637
+1) Mainline Protestant	115	28.6
+2) Other Protestant	80	19.9
+3) Catholic	120	29.9
+4) Jewish	15	3.7
+5) Other	33	8.2
+6) None	30	7.5
+7) Don't know / No answer	9	2.2
+
+
+142) RELAUTH
+MOST IMPORTANT WAY YOU KNOW HOW GOD WANTS YOU TO LIVE 
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	313	4.137	1.576
+1) Church teachings	17	5.4
+2) The Bible	55	17.6
+3) Through human reason	30	9.6
+4) The Holy Spirit	35	11.2
+5) Just know in heart	132	42.2
+6) Other (Specify)	30	9.6
+7) Don't know / No answer	14	4.5
+Missing	89
+
+
+143) OPCNTRSR
+WHAT % PEOPLE ATTENDING R'S WORSHIP SERVICE ARE R'S RACE 
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	33	5.394	2.045
+1) Less than 10%	4	12.1
+3) 20-29%	1	3.0
+4) 30-39%	3	9.1
+5) 40-49%	4	12.1
+6) 50-59%	11	33.3
+7) 60-69%	8	24.2
+8) 70-80%	1	3.0
+9) Don't know / No answer	1	3.0
+Missing	369
+
+
+144) OWKLSTWK
+LAST WEEK, HOW MANY HOURS DID YOU WORK AT ALL JOBS? 
+RANGE: 0 to 8
+	N	Mean	Std. Deviation
+Total	275	5.069	1.403
+0) Less than 1 hour	5	1.8
+1) 1-9 hours	3	1.1
+2) 10-19 hours	6	2.2
+3) 20-29 hours	14	5.1
+4) 30-39 hours	31	11.3
+5) 40-49 hours	129	46.9
+6) 50-59 hours	42	15.3
+7) 60 or more hours	44	16.0
+8) Don't know / No answer	1	0.4
+Missing	127
+
+
+145) ONITESHF
+LAST WEEK, HOW MANY HOURS DID YOU WORK AT NIGHT BETWEEN 6 PM IN THE EVENING AND 6 AM IN THE MORNING? 
+RANGE: 0 to 10
+	N	Mean	Std. Deviation
+Total	274	1.069	1.829
+0) Less than 1 hour	152	55.5
+1) 1-9 hours	59	21.5
+2) 10-19 hours	24	8.8
+3) 20-29 hours	16	5.8
+4) 30-39 hours	7	2.6
+5) 40-49 hours	6	2.2
+6) 50-59 hours	3	1.1
+7) 60-69 hours	1	0.4
+8) 70-79 hours	2	0.7
+9) 80-84 hours	1	0.4
+10) Don't know / No answer	3	1.1
+Missing	128
+
+
+146) OWORKWEE
+LAST WEEK, HOW MANY HOURS DID YOU WORK ON SATURDAY OR SUNDAY? 
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	271	0.642	1.015
+0) Less than 1 hour	160	59.0
+1) 1-9 hours	71	26.2
+2) 10-19 hours	24	8.9
+3) 20-29 hours	14	5.2
+4) 30-39 hours	1	0.4
+9) Don't know / No answer	1	0.4
+Missing	131
+
+
+147) OHWWKLST
+LAST WEEK, HOW MANY HOURS DID SPOUSE WORK AT ALL OF HIS OR HER JOBS? 
+RANGE: 0 to 8
+	N	Mean	Std. Deviation
+Total	147	5.259	1.375
+0) Less than 1 hour	1	0.7
+1) 1-9 hours	1	0.7
+2) 10-19 hours	7	4.8
+3) 20-29 hours	5	3.4
+4) 30-39 hours	5	3.4
+5) 40-49 hours	78	53.1
+6) 50-59 hours	21	14.3
+7) 60 or more hours	25	17.0
+8) Don't know / No answer	4	2.7
+Missing	255
+
+
+148) OHWNTSHF
+LAST WEEK, HOW MANY HOURS DID SPOUSE WORK AT NIGHT? 
+RANGE: 0 to 10
+	N	Mean	Std. Deviation
+Total	143	1.147	1.869
+0) Less than 1 hour	80	55.9
+1) 1-9 hours	27	18.9
+2) 10-19 hours	12	8.4
+3) 20-29 hours	6	4.2
+4) 30-39 hours	5	3.5
+5) 40-49 hours	11	7.7
+10) Don't know / No answer	2	1.4
+Missing	259
+
+
+149) OHWWKWEE
+LAST WEEK, HOW MANY HOURS DID SPOUSE WORK ON SATURDAY OR SUNDAY? 
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	141	0.652	1.121
+0) Less than 1 hour	87	61.7
+1) 1-9 hours	29	20.6
+2) 10-19 hours	18	12.8
+3) 20-29 hours	6	4.3
+9) Don't know / No answer	1	0.7
+Missing	261
+
+
+150) SFAVSTAT
+SOUTHERNER ANSWER FAVORABLE STATE TO LIVE 
+RANGE: 1 to 88
+	N	Mean	Std. Deviation
+Total	402	61.159	36.161
+1) Alabama	1	0.2
+5) California	55	13.7
+6) Colorado	25	6.2
+10) Florida	14	3.5
+11) Georgia	6	1.5
+12) Hawaii	12	3.0
+34) North Carolina	8	2.0
+41) South Carolina	1	0.2
+43) Tennessee	2	0.5
+47) Virginia	9	2.2
+52) Don't know	19	4.7
+88) Others	250	62.2
+
+
+151) NFAVSTAT
+NORTHERNER ANSWER FAVORABLE STATE TO LIVE 
+RANGE: 3 to 88
+	N	Mean	Std. Deviation
+Total	402	48.485	35.01
+3) Arizona	19	4.7
+5) California	55	13.7
+6) Colorado	25	6.2
+10) Florida	14	3.5
+22) Massachusetts	15	3.7
+23) Michigan	13	3.2
+27) Montana	13	3.2
+33) New York	24	6.0
+39) Pennsylvania	17	4.2
+48) Washington	17	4.2
+50) Wisconsin	11	2.7
+52) Don't know	19	4.7
+88) Others	160	39.8
+
+
+152) OTIME24
+YESTERDAY, OF THE 24 HOURS, HOW MANY HOURS SPENT AWAY FROM HOME 
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	402	3.239	9.696
+0) 0 hour	32	8.0
+1) 1-4 hours	85	21.1
+2) 5-9 hours	103	25.6
+3) 10-14 hours	119	29.6
+4) 15-19 hours	37	9.2
+5) 20-24 hours	22	5.5
+99) Don't know	4	1.0
+
+
+153) OTIME12
+YESTERDAY BETWEEN 10 AM AND 10 PM, HOW MANY HOURS SPENT AWAY FROM HOME 
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	366	2.913	10.148
+0) 0 hour	16	4.4
+1) 1-4 hours	107	29.2
+2) 5-9 hours	154	42.1
+3) 10-12 hours	85	23.2
+99) Don't know	4	1.1
+Missing	36
+
+
+154) OWKSAWAY
+HOW MANY WEEKS SPENT AWAY 
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	402	3.299	14.53
+0) 0 week	88	21.9
+1) 1-4 weeks	217	54.0
+2) 5-9 weeks	61	15.2
+3) 10-14 weeks	17	4.2
+4) 15-24 weeks	6	1.5
+5) 25-34 weeks	3	0.7
+6) 35-44 weeks	1	0.2
+99) Refused / No answer	9	2.2
+
+
+155) INTDAY
+THE DATE IN A WEEK OF POLL 
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	402	3.348	2.071
+1) Monday	93	23.1
+2) Tuesday	85	21.1
+3) Wednesday	67	16.7
+4) Thursday	53	13.2
+6) Saturday	58	14.4
+7) Sunday	46	11.4
+
+
+156) MSACMSA
+CENSUS (CONSOLIDATED) METRO STATISTICAL AREA 
+RANGE: 160 to 9999
+	N	Mean	Std. Deviation
+Total	366	6417.23	3047.81
+
+
+157) ST_CNTY2
+STATE-COUNTY FIPS CODES (STRING VAR) 
+RANGE: 4005 to 55133
+	N	Mean	Std. Deviation
+Total	366	27283.41	14939.205
+
+
+158) NSMETRO
+R LIVES IN METRO OR NON-METRO COUNTY 
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	366	0.784	0.412
+0) Non-metro	79	21.6
+1) Metro	287	78.4
+Missing	36
+
+
+159) INTGEN
+INTERVIEWER'S GENDER 
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	402	1.828	0.378
+1) Male	69	17.2
+2) Female	333	82.8
+
+
+160) INTRACE
+INTERVIEWER'S RACE 
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	402	1.44	0.816
+1) White	281	69.9
+2) Black / African American	93	23.1
+4) Other	28	7.0
+
+
+161) INTACC
+INTERVIEWER'S ACCENT 
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	402	2.308	0.677
+1) Strong Southern accent	49	12.2
+2) Detectable Southern accent	180	44.8
+3) No Southern accent	173	43.0
+
+
+162) INTNSACC
+INTERVIEWER NON-SOUTHERN ACCENT 
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	402	0.43	0.496
+0) No non-Southern accent	229	57.0
+1) Interviewer had a non-Southern accent	173	43.0
+
+
+163) WTVARN
+WEIGHT FOR NON-SOUTH (PEOPLE / MEAN HH SIZE FOR NON-SOUTH) 
+RANGE: 0.484299516908212 to 2.90579710144927
+	N	Mean	Std. Deviation
+Total	402	1	0.436
+0.484299516908212) 	101	25.1
+0.968599033816425) 	213	53.0
+1) 	1	0.2
+1.45289855072464) 	54	13.4
+1.93719806763285) 	28	7.0
+2.42149758454106) 	3	0.7
+2.90579710144927) 	2	0.5
+
+
+164) TOTWT
+WEIGHT FOR NATIONAL ESTIMATES (ACCOUNTS FOR SOUTHERN OVERSAMPLE AND HH SIZE) 
+RANGE: 1.04526643568266 to 6.27159861409598
+	N	Mean	Std. Deviation
+Total	402	2.158	0.94
+1.04526643568266) 	101	25.1
+2.09053287136533) 	213	53.0
+2.15830575746944) 	1	0.2
+3.13579930704799) 	54	13.4
+4.18106574273065) 	28	7.0
+5.22633217841332) 	3	0.7
+6.27159861409598) 	2	0.5
+
+
+165) COUNTYX
+THE NAME OF THE COUNTY 
+RANGE: 5 to 999
+	N	Mean	Std. Deviation
+Total	402	182.98	161.702
+
+
+166) OHERO
+VERBATIM FOR HERO 
+RANGE: 3 to 999
+	N	Mean	Std. Deviation
+Total	402	550.59	463.496
+
+
+167) OFAVCOLL
+VERBATIM FOR FAVCOLLG 
+RANGE: 3 to 999
+	N	Mean	Std. Deviation
+Total	402	347.264	414.898
+
+
+168) OTHRELAF
+VERBATIM FOR RELAFFL AND RELAFCHK 
+RANGE: 3 to 999
+	N	Mean	Std. Deviation
+Total	402	918.398	269.873
+3) All of them	1	0.2
+4) Amish	1	0.2
+5) Baptist	1	0.2
+7) Buddhist	4	1.0
+9) Christian	1	0.2
+10) Christian Heritage	1	0.2
+11) Church of Jesus Christ of Latter-day Saints	1	0.2
+12) Congregational	1	0.2
+13) Deist	1	0.2
+14) Dutch Christian Reformed	1	0.2
+15) First Christian	1	0.2
+16) Greek Orthodox	1	0.2
+17) Hindu	1	0.2
+18) Interdenominational	1	0.2
+19) Jehovah's Witness	1	0.2
+20) Just God	1	0.2
+21) LDS	2	0.5
+23) Mormon	3	0.7
+25) Muslim	4	1.0
+26) New Age	1	0.2
+27) Rocky Mountains	1	0.2
+28) Sanctified	1	0.2
+29) Unitarian	1	0.2
+30) United Church of Christ	1	0.2
+999) Missing	369	91.8
+
+
+169) ORELAUT
+VERBATIM FOR RELAUTH1 
+RANGE: 3 to 999
+	N	Mean	Std. Deviation
+Total	402	974.276	154.989
+3) All	4	1.0
+4) All especially baptism and holy spirit	1	0.2
+5) All but human reason	1	0.2
+6) From the Bible and through the holy spirit	1	0.2
+7) Holy spirit, church teachings, from the Bible	1	0.2
+8) How you were raised and in heart	1	0.2
+9) In heart, and human reason - she believes in Bible and God	1	0.2
+999) Missing	392	97.5
+
+
+170) ORELAUT2
+VERBATIM FOR RELAUTH2 
+RANGE: 2 to 999
+	N	Mean	Std. Deviation
+Total	402	952.259	210.12
+2) 1 and 4	1	0.2
+4) All five, especially baptism and Holy Spirit	1	0.2
+5) All but human reason	1	0.2
+10) All the above	10	2.5
+11) Bible and Holy Spirit	2	0.5
+12) Bible, teachings, heart	1	0.2
+13) Combination of 4 and 5	1	0.2
+16) The Bible and church teachings	1	0.2
+17) Through experiences	1	0.2
+999) Missing	383	95.3
+
+
+171) OTHDENOM
+VERBATIM FOR DENOM 
+RANGE: 2 to 999
+	N	Mean	Std. Deviation
+Total	402	940.144	233.873
+2) Apostolic	1	0.2
+3) Buddhist	2	0.5
+5) Christian Reform	1	0.2
+6) Christian	1	0.2
+7) Church of Christ	1	0.2
+8) Dutch Christian Reformed	1	0.2
+9) Episcopal	1	0.2
+10) First Christian	1	0.2
+11) Friends	1	0.2
+12) Hindu Church	1	0.2
+13) Independent Fundamental	1	0.2
+14) Latter-day Saints	1	0.2
+15) Mennonite	1	0.2
+16) Muhammed's Mosque	1	0.2
+17) 48 muslim mosque	1	0.2
+18) Muslim	1	0.2
+19) Nondenomination	1	0.2
+20) PCA	1	0.2
+21) Protestant	3	0.7
+22) Presbyterian	1	0.2
+23) Redeeming Love Church	1	0.2
+999) Missing	378	94.0
+
+
+172) OTHBAPT
+VERBATIM FOR TYPE OF BAPTIST 
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	402	1.002	0.05
+1) 	401	99.8
+2) 26	1	0.2
+
+
+173) OTHMETH
+VERBATIM FOR TYPE OF METHODIST 
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	402	1.002	0.05
+1) 	401	99.8
+2) Southern	1	0.2
+
+
+174) OTHLUTHR
+VERBATIM FOR TYPE OF LUTHERAN 
+RANGE: 2 to 999
+	N	Mean	Std. Deviation
+Total	402	986.624	110.413
+2) Central Synod of E Pennsylvania	1	0.2
+3) Not any of the ones mentioned	1	0.2
+4) St. Paul's Lutheran	1	0.2
+5) The ASLC	1	0.2
+6) Zion	1	0.2
+999) Missing	397	98.8
+
+
+175) OTHCHCHR
+VERBATIM FOR TYPE OF CHURCH OF CHRIST 
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	402	1.002	0.05
+1) 	401	99.8
+2) Church of Jesus Christ of Latter-day Saints	1	0.2
+
+
+176) OTHINDEP
+VERBATIM FOR TYPE OF INDEPENDENT 
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	402	1.002	0.05
+1) 	401	99.8
+2) Independent Fundamental Church	1	0.2
+
+
+177) OTHRELID
+VERBATIM FOR RELID97S 
+RANGE: 2 to 999
+	N	Mean	Std. Deviation
+Total	402	979.229	138.924
+2) Conservative Baptist	1	0.2
+3) Eucharist	1	0.2
+4) Hindu	1	0.2
+5) Jehovah's Witness	1	0.2
+6) Liberal Protestant	1	0.2
+7) Orthodox	1	0.2
+8) Pentecostal/Evangelical	1	0.2
+9) Protestant	1	0.2
+999) Missing	394	98.0
+
+
+178) OTHRCATH
+VERBATIM FOR RELCATH 
+RANGE: 3 to 999
+	N	Mean	Std. Deviation
+Total	402	994.045	70.165
+3) Mixture of both	2	0.5
+999) 	400	99.5
+
+
+179) OTHRACE
+VERBATIM FOR RACE94 
+RANGE: 2 to 999
+	N	Mean	Std. Deviation
+Total	402	922.888	263.637
+2) American	2	0.5
+3) American Indian and White	1	0.2
+4) Asian American	1	0.2
+5) England and Indian	1	0.2
+6) Ethnic	1	0.2
+7) Everything	1	0.2
+8) Fenn and English	1	0.2
+9) French	1	0.2
+10) German-Lithuanian	1	0.2
+11) Greek	1	0.2
+12) Half Puerto Rican, Half American	1	0.2
+14) Hispanic	12	3.0
+15) Italian	1	0.2
+16) Jewish	1	0.2
+17) Korean and White	1	0.2
+18) Native	1	0.2
+19) Portuguese	1	0.2
+20) Spanish	2	0.5
+999) Missing	371	92.3
+
+
+180) I-AGE
+Recode of age in categories  (for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	402	2.48	0.943
+1) 18 to 24 years old	54	13.4
+2) 25 to 44 years old	168	41.8
+3) 45 to 64 years old	120	29.9
+4) 65 years or older	53	13.2
+5) Don't know / Refused	7	1.7
+
+
+181) I-EDUC
+Educational attainment  (for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	402	3.973	0.985
+1) Less than Grade 9	7	1.7
+2) Ninth to eleventh grade	15	3.7
+3) HS grad	113	28.1
+4) Some college	114	28.4
+5) College grad or more	153	38.1
+
+
+182) I-PARTYID
+Recode for party identification  (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	341	2.959	1.294
+1) Strong Democrat	52	15.2
+2) Not very strong Democrat	83	24.3
+3) Independent	86	25.2
+4) Not very strong Republican	67	19.6
+5) Strong Republican	53	15.5
+Missing	61
+
+
+183) I-RACE
+[OPEN-ENDED RESPONSES FROM THOSE WHO ANSWERED "OTHER OR MIXED" ARE CODED IN DATASET AS OTHRACE. IN THE DATASHEET RACE94 IS RECODED INTO THE VARIABLE RACE.] What race do you consider yourself?  (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	360	1.219	0.757
+1) White / Caucasian	323	89.7
+2) Black	16	4.4
+3) African-American	9	2.5
+4) Native American / American Indian	3	0.8
+5) Asian / Oriental	9	2.5
+Missing	42
+
+
+184) I-REGION
+Gallup Org. Regionalization  (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	402	3.896	1.675
+1) New England	36	9.0
+2) East Central	73	18.2
+3) West Central	64	15.9
+4) Mountain States	40	10.0
+5) Middle Atlantic	102	25.4
+6) Pacific Coast	87	21.6
+
+
+185) I-RELIGION
+[OPEN-ENDED RESPONSES FROM THOSE WHO ANSWERED "SOME OTHER RELIGION" AND PASSED THE SCREEN IN RELAFCHK ARE CODED IN THE DATA SET AS OTHRELAF.] What is your religious affiliation: Protestant, Catholic, Jewish, some other religion, or no religion?  (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	393	2.102	1.42
+1) Protestant	182	46.3
+2) Catholic	119	30.3
+3) Jewish	15	3.8
+4) Some other religion (Specify)	36	9.2
+5) No religion (Not religious / Agnostic / Atheist)	29	7.4
+6) Christian or just a Christian (Volunteered)	12	3.1
+Missing	9
+
+

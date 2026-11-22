@@ -1,0 +1,1465 @@
+Data File: MAS99 (Full Data Codebook)
+
+1) RESPNUM
+Respondent number 
+RANGE: 2 to 1002
+	N	Mean	Std. Deviation
+Total	408	468.846	318.099
+
+
+2) AGE
+What is your age?
+RANGE: 19 to 95
+	N	Mean	Std. Deviation
+Total	408	63.578	16.551
+
+
+3) MARITAL
+Are you currently married, widowed, separated, divorced, or have you never been married?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	408	2.056	1.355
+1) Married	197	48.3
+2) Widowed	118	28.9
+3) Separated	5	1.2
+4) Divorced	49	12.0
+5) Never been married	39	9.6
+
+
+4) SPEDUC
+[IF MARITAL = 1]What was the last grade your spouse completed in school?
+RANGE: 6 to 18
+	N	Mean	Std. Deviation
+Total	196	13.143	2.548
+6) 	1	0.5
+8) 	8	4.1
+9) 	3	1.5
+10) 	12	6.1
+11) 	6	3.1
+12) High School Graduate	85	43.4
+13) 	9	4.6
+14) 	11	5.6
+15) 	4	2.0
+16) College Graduate	30	15.3
+17) Graduate/Professional	24	12.2
+18) Trade School	3	1.5
+Missing	212
+
+
+5) EDUC
+What was the last grade you completed in school?
+RANGE: 6 to 18
+	N	Mean	Std. Deviation
+Total	319	13.078	2.351
+6) 	1	0.3
+7) 	3	0.9
+8) 	7	2.2
+9) 	3	0.9
+10) 	17	5.3
+11) 	18	5.6
+12) High School Graduate	128	40.1
+13) 	32	10.0
+14) 	21	6.6
+15) 	15	4.7
+16) College Graduate	38	11.9
+17) Graduate/Professional	33	10.3
+18) Trade School	3	0.9
+Missing	89
+
+
+6) NUMKIDS
+Including step and adopted children, how many *living* children do you have? (If someone objects, state 'I'm sorry but we must ask this of everyone.')
+RANGE: 0 to 8
+	N	Mean	Std. Deviation
+Total	407	2.862	1.96
+0) 	48	11.8
+1) 	42	10.3
+2) 	104	25.6
+3) 	87	21.4
+4) 	62	15.2
+5) 	20	4.9
+6) 	18	4.4
+7) 	10	2.5
+8) 8 or more children	16	3.9
+Missing	1
+
+
+7) DELAWARE
+Were you born in Delaware County, some other county in Indiana, or outside Indiana?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	408	1.983	0.828
+1) Delaware County	143	35.0
+2) Other Indiana County	129	31.6
+3) Outside Indiana	136	33.3
+
+
+8) MUNCIE2
+[IF VARIABLE DELAWARE = 1] Were you born in Muncie?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	142	1.197	0.399
+1) Yes	114	80.3
+2) No	28	19.7
+Missing	266
+
+
+9) STATE
+[IF VARIABLE DELAWARE = 3] Where were you born? (State or Country)
+RANGE: 1 to 52
+	N	Mean	Std. Deviation
+Total	135	26.519	14.359
+1) Alabama	4	3.0
+4) Arkansas	2	1.5
+5) California	4	3.0
+6) Colorado	1	0.7
+7) Connecticut	1	0.7
+9) Florida	3	2.2
+10) Georgia	2	1.5
+13) Illinois	15	11.1
+15) Iowa	2	1.5
+17) Kentucky	21	15.6
+18) Louisiana	3	2.2
+20) Maryland	1	0.7
+21) Massachusetts	1	0.7
+22) Michigan	5	3.7
+23) Minnesota	3	2.2
+24) Mississippi	1	0.7
+25) Missouri	3	2.2
+30) New Jersey	2	1.5
+32) New York	4	3.0
+33) North Carolina	3	2.2
+34) North Dakota	1	0.7
+35) Ohio	17	12.6
+36) Oklahoma	1	0.7
+38) Pennsylvania	3	2.2
+39) Rhode Island	1	0.7
+42) Tennessee	13	9.6
+43) Texas	1	0.7
+46) Virginia	3	2.2
+48) West Virginia	6	4.4
+49) Wisconsin	1	0.7
+52) Other Countries	7	5.2
+Missing	273
+
+
+10) WORKSTAT
+Last week, were you working full-time, part-time, going to school, keeping house, or are you retired?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	407	4.324	1.911
+1) Working full time	75	18.4
+2) Working part-time and not in school	26	6.4
+3) With job, not at work (temp. ill, vac, strike, maternity l	3	0.7
+4) Unemployed, laid off, looking for work	2	0.5
+5) Retired	239	58.7
+6) In school	19	4.7
+7) Keeping house	37	9.1
+8) Other	6	1.5
+Missing	1
+
+
+11) GENOCC
+What kind of work do you do?  (Or what is your job title?) Please, be as specific as possible. - General occupational code
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	101	3.832	2.437
+1) Professional and technical	25	24.8
+2) Managers and administrators	12	11.9
+3) Sales workers	9	8.9
+4) Clerical	21	20.8
+5) Craftsmen	12	11.9
+6) Operatives except transport	5	5.0
+7) Laborers except farm	1	1.0
+8) Service workers	14	13.9
+9) Private household workers	2	2.0
+Missing	307
+
+
+12) OCCUP
+What kind of work do you do?
+RANGE: 5 to 99
+	N	Mean	Std. Deviation
+Total	101	55.168	25.562
+5) Child Care Workers	1	1.0
+7) Chambermaids and Maids, Except Private Household/Cleaners and Charwomen/Maids and Servants	2	2.0
+8) Flight Engineers/Stock Handlers/Cooks, Except Private Households	3	3.0
+10) Not Specified Laborers	1	1.0
+14) Shoe Repairmen/Farm Laborers, Unpaid Family Workers/Food Service Workers, n.e.c., Except Private Households	3	3.0
+15) Janitors and Sextons/Waiters	2	2.0
+21) Messengers and Office Boys/Tailors/Attendants, Personal Service, n.e.c.	1	1.0
+28) Demonstrators/Hucksters and Peddlers/Taxicab Drivers and Chauffeurs	1	1.0
+29) Sales Clerks, Retail Trade/Counter Clerks, Except Food/Telegraph Messengers/Painters, Construction and Maintenance/Hairdressers and Cosmetologists	3	3.0
+32) File Clerks/Miscellaneous Clerical Workers/Bookbinders/Assembles	2	2.0
+34) Mail Handlers, Except Post Office/Bakers/Freight and Material Handlers	1	1.0
+36) Teacher Aides, Except School Monitors/Carpenter Apprentices/Specified Craft Apprentices, n.e.c./Health Aides, Except Nursing	4	4.0
+38) Library Attendants and Assistants/Receptionists/Carpet Installers/Sign Painters and Letterers/Deliverymen and Routemen	3	3.0
+40) Salesmen, Retail Trade/Bank Tellers/Dispatchers and Starters, Vehicle/Weighers/Brickmasons and Stonemasons/Cabinetmakers/Printing Trade Apprentices, Except Pressmen/Forgemen and Hammermen/Farmers (Owners and Tenants)/Guards and Watchmen	3	3.0
+42) Telephone Operators/Carpenters/Automobile Mechanics/Farm Implement Mechanics/Pressman Apprentices/Motormen; Mine, Factory, Logging Camp, etc./Truck Drivers/School Monitors	4	4.0
+43) Billing Clerks/Farm Foremen	1	1.0
+45) Bookkeeping/Cashiers/Bookkeeping and Billing Machine Operators, n.e.c./Key Punch Operators, n.e.c./Tabulation Machine Operators, n.e.c./Stock Clerks and Storekeepers/Motion Picture Projectionists/Rollers and Finishers, Metal/Fork Lift and Tow Motor Operatives	6	5.9
+49) Prekindergarten and Kindergarten (Public)/Office Machine Operators, n.e.c./Secretaries, n.e.c./Heat Treaters, Annealers, and Temperers/Plumber and Pipefitter Apprentices	5	5.0
+51) Usicians and Composers/Clerical Assistants, Social Welfare/Pressmen and Plate Printers, Printing	1	1.0
+54) Restaurant, Cafeteria, and Bar Managers/Calculating Machine Operators, n.e.c./Household Appliance and Accessory Installers and Mechanics/Opticians, Lens Grinders and Polishers/Farm Managers/Practical Nurses	1	1.0
+56) Teaching, except college and university	3	3.0
+57) Health Technologists and Technicians, n.e.c./Radio Operators/Dental Laboratory Technicians/Jewelers and Watchmakers/Machinists	7	6.9
+58) Plumbers and Pipe Fitters	1	1.0
+59) Secretaries, Legal/Stenographers/Pattern and Model Makers, Except Paper/Sheetmetal Workers and Tinsmiths/Tool and Die Maker Apprentices	1	1.0
+61) Auctioneers/Electricians	1	1.0
+63) Agriculture and Biological Technicians, Except Health/Painters and Sculptors/Marshals and Constables	1	1.0
+64) Dieticians/Surveyors/Photographers/Enumerators and Interviewers/Estimators and Investigators, n.e.c./Insurance Adjusters, Examiners, and Investigators	1	1.0
+69) Tool and Die Makers	2	2.0
+72) Librarians/Foremen, n.e.c./Sheriffs and Bailiffs	2	2.0
+73) Registered Nurses/Therapists/Draftsmen/Ticket, Station, and Express Agents/Telephone Linemen and Splicers	2	2.0
+75) Social Workers/Electrical and Electronic Engineering Technicians/Industrial Engineering Technicians/Salesmen of Services and Construction/Mail Carriers, Post Office/Postal Clerks/Electrical Power Linemen and Cablemen/Telephone Installers and Repairmen/Firemen, Fire Protection	3	3.0
+76) Clergymen/Chemical Technicians/Technicians, n.e.c./Actors	1	1.0
+77) Archivists and Curators/Purchasing Agents and Buyers, n.e.c./Real Estate Agents and Brokers	1	1.0
+78) Elementary School (Public)/Airline Stewardesses	2	2.0
+79) Personnel and Labor Relations Workers/Art, Drama, and Music Teachers/English Teachers/Policemen and Detectives	1	1.0
+81) Miscellaneous Teachers, College and University/Mathematical Technicians/Funeral Directors/Insurance Agents, Brokers, and Underwriters/Sales Representatives, Manufacturing/Sales Representatives, Wholesale Trade/Real Estate Appraisers	2	2.0
+82) Secondary School (Public)/Editors and Reporters/Public Relations and Publicity Workers/Managers and Administrators, n.e.c./Data Processing Machine Repairmen	10	9.9
+84) Accountants/Computer programmers/Foresters and Conservationists/Agricultural Scientist/Assessors, Controllers, and Treasurers: Local Public Admin.	2	2.0
+89) Biological Scientist/Life and Physical Scientists, n.e.c./Psychologists/Theology Teachers/Officials and Administrators; Public Administration, n.e.c.	1	1.0
+91) Teaching, college and university, subject not specified	2	2.0
+92) Computer Specialists, n.e.c./Farm Management Advisers/Education Teachers/Bank Officers and Financial	1	1.0
+95) Architects/Civil Engineers/Electrical and Electronic Engineers/Mechanical Engineers/Mining/Pharmacists/Economists/Air Traffic Controllers	4	4.0
+99) Judges/Lawyers/Physicists and Astronomers/Optometrists/Podiatrists/Veterinarians/Law Teachers	2	2.0
+Missing	307
+
+
+13) RETIRSAT
+[IF VARIABLE WORKSTAT = 5] How would you describe your satisfaction with retirement in general?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	238	4.319	1.035
+1) Not at all satisfied	7	2.9
+2) Not too satisfied	19	8.0
+3) Don't know/Not sure	2	0.8
+4) Somewhat satisfied	73	30.7
+5) Very satisfied	137	57.6
+Missing	170
+
+
+14) RETIRCHO
+[IF VARIABLE WORKSTAT = 5] How much choice did you have in deciding to retire? Was it:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	236	2.085	1.375
+1) A Complete choice	129	54.7
+2) A great deal of choice	22	9.3
+3) Some choice	29	12.3
+4) No choice at all	54	22.9
+8) Don't know/not sure	2	0.8
+Missing	172
+
+
+15) RETIRLEV
+[IF VARIABLE WORKSTAT = 5] Did you leave your job earlier, later, or just about the time you wanted to?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	234	2.406	1.247
+1) Earlier	78	33.3
+2) Later	8	3.4
+3) Just About The Time I Wanted To	143	61.1
+8) Don't know/not sure	5	2.1
+Missing	174
+
+
+16) RETIROFF
+Not having to work gives a person time to do important things that they have put off.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	405	2.353	1.451
+1) Strongly agree	55	13.6
+2) Agree	266	65.7
+3) Disagree	54	13.3
+4) Strongly disagree	9	2.2
+8) Don't know	21	5.2
+Missing	3
+
+
+17) RETIRTIM
+Not having to work for pay leaves too much time on one's hands.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	403	2.891	1.412
+1) Strongly agree	33	8.2
+2) Agree	116	28.8
+3) Disagree	200	49.6
+4) Strongly disagree	33	8.2
+8) Don't know	21	5.2
+Missing	5
+
+
+18) POLVIEWS
+How would you describe your political views? Would you say you are:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	398	3.595	1.48
+1) Very Liberal	12	3.0
+2) Somewhat Liberal	57	14.3
+3) Middle-of-the-road	149	37.4
+4) Somewhat Conservative	120	30.2
+5) Very Conservative	34	8.5
+8) Don't know/not sure	26	6.5
+Missing	10
+
+
+19) PARTYID
+Have you usually thought of yourself:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	397	3.03	1.736
+1) As a Republican	114	28.7
+2) As an Independent	42	10.6
+3) As a Democrat	112	28.2
+4) As a member of some other party	3	0.8
+5) Sometimes a Republican, sometimes a Democrat	117	29.5
+8) Don't know/not sure	9	2.3
+Missing	11
+
+
+20) ABORSS
+In deciding for whom you are going to vote for in next year's presidential election, which issue would be more important to you?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	402	2.264	1.055
+1) The abortion issue	37	9.2
+2) Protecting Social Security	279	69.4
+3) Both	65	16.2
+4) Neither	12	3.0
+8) Don't know/not sure	9	2.2
+Missing	6
+
+
+21) RELPREF
+What is your religious preference? Would you say you are...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	407	2.3	1.024
+1) Catholic	41	10.1
+2) Protestant (Christian)	298	73.2
+3) Jewish	1	0.2
+4) Other : Like Muslim, Buddhism, Mormon, etc.	42	10.3
+5) None	24	5.9
+8) Don't know/not sure	1	0.2
+Missing	1
+
+
+22) DENOM
+[Note: APPENDIX B, CONTAINING DENOMINATION CODES, IS NOT CURRENTLY AVAILABLE] Church Code
+RANGE: 2 to 999
+	N	Mean	Std. Deviation
+Total	407	557.609	306.705
+
+
+23) ATTEND
+How often do you attend church?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	405	4.481	2.169
+1) Never	74	18.3
+2) About once a year	15	3.7
+3) A few times a year	55	13.6
+4) About once a month	30	7.4
+5) More than once a month	39	9.6
+6) Once a week	119	29.4
+7) More than once a week	67	16.5
+8) Don't know/not sure	6	1.5
+Missing	3
+
+
+24) RELIMP
+To what extent do you consider yourself a religious person? Are you...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	405	3.156	0.992
+1) Not religious at all	16	4.0
+2) Slightly religious	54	13.3
+3) Moderately religious	214	52.8
+4) Very religious	114	28.1
+8) Don't know/not sure	7	1.7
+Missing	3
+
+
+25) RELPROV
+Religion provides me with certainties in a rapidly changing world.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	398	3.995	1.211
+1) Strongly disagree	12	3.0
+2) Disagree	29	7.3
+3) Neutral	61	15.3
+4) Agree	179	45.0
+5) Strongly Agree	105	26.4
+8) Don't know/not sure	12	3.0
+Missing	10
+
+
+26) BIBLE
+Which of the following statements comes closest to describing your feelings about the Bible?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	400	2.54	1.461
+1) The Bible is an ancient book of stories, legend, history, and moral principles	61	15.3
+2) The Bible is the inspired word of God but not everything in it should be taken literally, word for word	167	41.8
+3) The Bible is the actual word of God and is to be taken literally, word for word	151	37.8
+8) Don't know/not sure	21	5.3
+Missing	8
+
+
+27) TOOMUCH
+People with very strong religious beliefs have too much influence on politics today.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	405	2.923	1.468
+1) Strongly Disagree	39	9.6
+2) Disagree	163	40.2
+3) Neutral	75	18.5
+4) Agree	91	22.5
+5) Strongly Agree	22	5.4
+8) Don't know/not sure	15	3.7
+Missing	3
+
+
+28) FRIENDS
+How important to you is your church as a place where you can be with your friends? Is it...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	399	2.218	1.158
+1) Not important at all	113	28.3
+2) Somewhat important, or is it	126	31.6
+3) Very important	152	38.1
+8) Don't know/not sure	8	2.0
+Missing	9
+
+
+29) LUVDIE
+When a loved one dies, should people...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	394	2.33	1.652
+1) Try to keep the person alive in their memory so that the relationship is never replaced, or	88	22.3
+2) Grieve for the lost loved one, and try to develop new relationships	223	56.6
+3) Both	56	14.2
+8) Don't know/not sure	27	6.9
+Missing	14
+
+
+30) HEVLIF
+Do you believe that after death, or in heaven, we have a social life with the same people we had as friends and family in this life?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	398	2.033	0.887
+1) Yes	150	37.7
+2) No	85	21.4
+3) Not sure	163	41.0
+Missing	10
+
+
+31) SPECPROG
+Does your church have special programs for the elderly?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	372	2.379	2.571
+1) Yes	237	63.7
+2) No	72	19.4
+8) Don't know/not sure	63	16.9
+Missing	36
+
+
+32) WISH
+[IF NO FOR VARIABLE SPECPROG] Have you ever wished that your congregation did have special programs for the elderly?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	69	2.725	2.351
+1) Yes	16	23.2
+2) No	42	60.9
+8) Don't know/not sure	11	15.9
+Missing	339
+
+
+33) RELVIEWS
+In terms of your overall religious beliefs and values, would you consider yourself:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	395	3.033	1.594
+1) Very conservative	28	7.1
+2) Conservative	143	36.2
+3) An equal measure of conservative and liberal	129	32.7
+4) Liberal	53	13.4
+5) Very liberal	17	4.3
+8) Don't know/not sure	25	6.3
+Missing	13
+
+
+34) AVOIDPC
+I want to avoid computers if at all possible.  Do you...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	403	3.774	1.458
+1) Strongly agree	31	7.7
+2) Agree	64	15.9
+3) No Opinion	9	2.2
+4) Disagree	208	51.6
+5) Strongly disagree	75	18.6
+8) Don't know/not sure	16	4.0
+Missing	5
+
+
+35) COMPEZ
+Computers are easy to learn about and to use.  Do you...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	403	3.432	2.044
+1) Strongly agree	26	6.5
+2) Agree	172	42.7
+3) No Opinion	29	7.2
+4) Disagree	113	28.0
+5) Strongly disagree	10	2.5
+8) Don't know/not sure	53	13.2
+Missing	5
+
+
+36) PCIMP1
+Computer skills are very important in everyday life, not just in specific occupations and professions. Do you...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	402	2.49	1.649
+1) Strongly agree	78	19.4
+2) Agree	231	57.5
+3) No Opinion	8	2.0
+4) Disagree	57	14.2
+5) Strongly disagree	5	1.2
+8) Don't know/not sure	23	5.7
+Missing	6
+
+
+37) NOPC
+Some people simply cannot be taught computer skills. Do you...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	404	3.614	1.818
+1) Strongly agree	20	5.0
+2) Agree	134	33.2
+3) No Opinion	12	3.0
+4) Disagree	174	43.1
+5) Strongly disagree	24	5.9
+8) Don't know/not sure	40	9.9
+Missing	4
+
+
+38) WIDELY
+I look forward to a time when computers are more widely used. Do you...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	399	3.431	1.878
+1) Strongly agree	27	6.8
+2) Agree	145	36.3
+3) No Opinion	37	9.3
+4) Disagree	132	33.1
+5) Strongly disagree	17	4.3
+8) Don't know/not sure	41	10.3
+Missing	9
+
+
+39) TOOMANY
+I feel there are too many computers around now. Do you....
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	400	3.6	1.726
+1) Strongly agree	30	7.5
+2) Agree	107	26.8
+3) No Opinion	13	3.3
+4) Disagree	189	47.3
+5) Strongly disagree	29	7.3
+8) Don't know/not sure	32	8.0
+Missing	8
+
+
+40) NOLEARN
+I will probably never learn to use a computer. Do you....
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	401	3.888	1.859
+1) Strongly agree	45	11.2
+2) Agree	83	20.7
+3) No Opinion	5	1.2
+4) Disagree	127	31.7
+5) Strongly disagree	85	21.2
+7) Already know how to use	48	12.0
+8) Don't know/not sure	8	2.0
+Missing	7
+
+
+41) ISOLATE
+Computers isolate people by preventing normal social contact. Do you...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	403	3.112	1.633
+1) Strongly agree	39	9.7
+2) Agree	164	40.7
+3) No Opinion	16	4.0
+4) Disagree	147	36.5
+5) Strongly disagree	15	3.7
+8) Don't know/not sure	22	5.5
+Missing	5
+
+
+42) RENTOWN
+Do you own or rent a personal computer?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	399	2.238	1.059
+1) Own	157	39.3
+3) Neither	240	60.2
+8) Don't know/not sure	2	0.5
+Missing	9
+
+
+43) USEPC
+Do you use a personal computer?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	396	1.563	0.497
+1) Yes	173	43.7
+2) No	223	56.3
+Missing	12
+
+
+44) INTERNET
+In what ways do you use the computer? - Internet or the web
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	173	0.613	0.489
+0) Not selected	67	38.7
+1) Selected	106	61.3
+Missing	235
+
+
+45) EMAIL
+In what ways do you use the computer? - E-mail
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	173	0.647	0.479
+0) Not selected	61	35.3
+1) Selected	112	64.7
+Missing	235
+
+
+46) WORDPRO
+In what ways do you use the computer? - Word processing
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	173	0.642	0.481
+0) Not selected	62	35.8
+1) Selected	111	64.2
+Missing	235
+
+
+47) TAXPREP
+In what ways do you use the computer? - Income tax preparation
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	173	0.185	0.389
+0) Not selected	141	81.5
+1) Selected	32	18.5
+Missing	235
+
+
+48) GAMES
+In what ways do you use the computer? - Games/entertainment (includes adult entertainment)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	173	0.572	0.496
+0) Not selected	74	42.8
+1) Selected	99	57.2
+Missing	235
+
+
+49) JOB
+In what ways do you use the computer? - Use in my job or employment
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	173	0.434	0.497
+0) Not selected	98	56.6
+1) Selected	75	43.4
+Missing	235
+
+
+50) PERSONAL
+In what ways do you use the computer? - Special or personal interests (recipes, genealogy)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	173	0.497	0.501
+0) Not selected	87	50.3
+1) Selected	86	49.7
+Missing	235
+
+
+51) HHBUDGET
+In what ways do you use the computer? - Household budget (checking account activities)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	173	0.197	0.399
+0) Not selected	139	80.3
+1) Selected	34	19.7
+Missing	235
+
+
+52) USENR
+In what ways do you use the computer? - I do not use computer
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	173	0.012	0.107
+0) Not selected	171	98.8
+1) Selected	2	1.2
+Missing	235
+
+
+53) MEDINFO
+[IF SELECTED FOR VARIABLE INTERNET] For what reasons do you use the internet (or the web)? - Obtain medical or health information
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	106	0.321	0.469
+0) Not selected	72	67.9
+1) Selected	34	32.1
+Missing	302
+
+
+54) MEDADV
+[IF SELECTED FOR VARIABLE INTERNET] For what reasons do you use the internet (or the web)? - Obtain medical or health advice
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	106	0.217	0.414
+0) Not selected	83	78.3
+1) Selected	23	21.7
+Missing	302
+
+
+55) SHOPPING
+[IF SELECTED FOR VARIABLE INTERNET] For what reasons do you use the internet (or the web)? - On-line shopping
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	106	0.387	0.489
+0) Not selected	65	61.3
+1) Selected	41	38.7
+Missing	302
+
+
+56) TRAVEL
+[IF SELECTED FOR VARIABLE INTERNET] For what reasons do you use the internet (or the web)? - Travel arrangements (airfare, maps, schedules)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	106	0.481	0.502
+0) Not selected	55	51.9
+1) Selected	51	48.1
+Missing	302
+
+
+57) GENINFO
+[IF SELECTED FOR VARIABLE INTERNET] For what reasons do you use the internet (or the web)? - General information (car prices, weather, news)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	106	0.849	0.36
+0) Not selected	16	15.1
+1) Selected	90	84.9
+Missing	302
+
+
+58) STOCKACT
+[IF SELECTED FOR VARIABLE INTERNET] For what reasons do you use the internet (or the web)? - Stock market activity (buy and sell stocks, check portfolio)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	106	0.217	0.414
+0) Not selected	83	78.3
+1) Selected	23	21.7
+Missing	302
+
+
+59) EBAYAUCT
+[IF SELECTED FOR VARIABLE INTERNET] For what reasons do you use the internet (or the web)? - E-Bay (online auction)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	106	0.198	0.4
+0) Not selected	85	80.2
+1) Selected	21	19.8
+Missing	302
+
+
+60) CONORGAN
+[IF SELECTED FOR VARIABLE INTERNET] For what reasons do you use the internet (or the web)? - Contact organizations (AARP, Alzheimer's)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	106	0.33	0.473
+0) Not selected	71	67.0
+1) Selected	35	33.0
+Missing	302
+
+
+61) BUYPRESC
+[IF SELECTED FOR VARIABLE INTERNET] For what reasons do you use the internet (or the web)? - Buy prescriptions
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	106	0.057	0.232
+0) Not selected	100	94.3
+1) Selected	6	5.7
+Missing	302
+
+
+62) ELECITAX
+[IF SELECTED FOR VARIABLE INTERNET] For what reasons do you use the internet (or the web)? - Electronic filing of income tax
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	106	0.179	0.385
+0) Not selected	87	82.1
+1) Selected	19	17.9
+Missing	302
+
+
+63) FINDADPH
+[IF SELECTED FOR VARIABLE INTERNET] For what reasons do you use the internet (or the web)? - Find addresses/phone numbers
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	106	0.406	0.493
+0) Not selected	63	59.4
+1) Selected	43	40.6
+Missing	302
+
+
+64) ENTERTAI
+[IF SELECTED FOR VARIABLE INTERNET] For what reasons do you use the internet (or the web)? - Entertainment
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	106	0.528	0.502
+0) Not selected	50	47.2
+1) Selected	56	52.8
+Missing	302
+
+
+65) WEBNO
+[IF SELECTED FOR VARIABLE INTERNET] For what reasons do you use the internet (or the web)? - Do not use the web
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	106	0.028	0.167
+0) Not selected	103	97.2
+1) Selected	3	2.8
+Missing	302
+
+
+66) STRESCAR
+Generally speaking, do you feel that those who provide care for someone who can't look after themselves experience:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	403	4.313	0.934
+1) Little or no stress	14	3.5
+2) Not very much stress	8	2.0
+3) Don't know/not sure	24	6.0
+4) Some stress	149	37.0
+5) A great deal of stress	208	51.6
+Missing	5
+
+
+67) YESCARE
+Do you presently have or have you ever had caregiving responsibilities for anyone age 18 or older?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	408	1.412	0.493
+1) Yes	240	58.8
+2) No	168	41.2
+
+
+68) GIVECARE
+[IF YES TO VARIABLE YESCARE] How many such persons do (did) you look after?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	238	1.702	0.836
+1) One	129	54.2
+2) Two	51	21.4
+3) Three +	58	24.4
+Missing	170
+
+
+69) CARELIVE
+[IF YES TO VARIABLE YESCARE] Where does (did) the person for whom you provide(d) care live?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	235	2.085	1.318
+1) In your home	102	43.4
+2) In their home, near yours	70	29.8
+3) In their home, some distance from yours	29	12.3
+4) In a nursing home locally	17	7.2
+5) In a nursing home some distance from your home	9	3.8
+6) Somewhere else	8	3.4
+Missing	173
+
+
+70) HOWFAR
+[IF YES TO VARIABLE YESCARE] How many minutes does (did) it take for you to drive from your home to reach this person? (RECORDED IN MINUTES)
+RANGE: 1 to 998
+	N	Mean	Std. Deviation
+Total	53	78.358	195.408
+1) 	2	3.8
+3) 	3	5.7
+5) 	6	11.3
+7) 	1	1.9
+8) 	1	1.9
+10) 	17	32.1
+15) 	3	5.7
+20) 	1	1.9
+30) 	3	5.7
+35) 	3	5.7
+45) 	1	1.9
+50) 	1	1.9
+120) 	3	5.7
+140) 	1	1.9
+150) 	1	1.9
+180) 	2	3.8
+270) 	1	1.9
+300) 	1	1.9
+994) 	1	1.9
+998) 	1	1.9
+Missing	355
+
+
+71) OFTCARE
+[IF YES TO VARIABLE YESCARE] How often do (did) you have to provide care or assistance for the person you look(ed) after?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	232	4.03	1.133
+1) At least once a month	6	2.6
+2) Several times a month	20	8.6
+3) Several times a week	49	21.1
+4) At least once a day	43	18.5
+5) Several times a day	114	49.1
+Missing	176
+
+
+72) SEXCARE
+[IF YES TO VARIABLE YESCARE] Is (Was) the person you care(d) for male or female?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	230	1.609	0.489
+1) Male	90	39.1
+2) Female	140	60.9
+Missing	178
+
+
+73) CAREAGE
+[IF YES TO VARIABLE YESCARE] What is (was) (his/her) age?
+RANGE: 8 to 98
+	N	Mean	Std. Deviation
+Total	240	71.388	18.92
+Missing	168
+
+
+74) MOCARE
+[IF YES TO VARIABLE YESCARE] How long have you been caring (did you care) for this person?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	237	4.059	2.018
+1) 6 months or less	38	16.0
+2) 6 months to 1 year	34	14.3
+3) 1 to 2 years	30	12.7
+4) 2 to 3 years	17	7.2
+5) 3 to 4 years	14	5.9
+6) 4 years or more	102	43.0
+8) Don't know/not sure	2	0.8
+Missing	171
+
+
+75) ACTIVITY
+[IF YES TO VARIABLE YESCARE] How often do (did) your caregiving responsibilities interfere with your activities such as going out to dinner, shopping, or a show?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	238	2.916	1.605
+1) Never or not often at all	61	25.6
+2) Not very often	69	29.0
+3) Don't know/not sure	1	0.4
+4) Fairly often	43	18.1
+5) Very often	64	26.9
+Missing	170
+
+
+76) FAMOB
+[IF YES TO VARIABLE YESCARE] How often do (did) your caregiving responsibilities interferes with other family obligations?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	238	2.433	1.49
+1) Never or not often at all	85	35.7
+2) Not very often	76	31.9
+3) Don't know/not sure	4	1.7
+4) Fairly often	35	14.7
+5) Very often	38	16.0
+Missing	170
+
+
+77) FRUSTR
+[IF YES TO VARIABLE YESCARE] How often do (did) you experience anger or frustration because of your caregiving responsibilities?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	236	2.254	1.316
+1) Never or not often at all	81	34.3
+2) Not very often	93	39.4
+3) Don't know/not sure	4	1.7
+4) Fairly often	37	15.7
+5) Very often	21	8.9
+Missing	172
+
+
+78) FINANSTR
+[IF YES TO VARIABLE YESCARE] How much financial strain is (was) caused by your caregiving responsibilities?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	234	2.205	1.48
+1) None at all	115	49.1
+2) Not very much	50	21.4
+3) Don't know/not sure	2	0.9
+4) Some	40	17.1
+5) A great deal	27	11.5
+Missing	174
+
+
+79) FAMSTRES
+[IF YES TO VARIABLE YESCARE] How much stress is (was) placed on your family life by your caregiving responsibilities?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	236	3.008	1.56
+1) None at all	58	24.6
+2) Not very much	56	23.7
+3) Don't know/not sure	3	1.3
+4) Some	64	27.1
+5) A great deal	55	23.3
+Missing	172
+
+
+80) LONELY
+How often do you find yourself feeling lonely?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	407	2.27	0.955
+1) Never	95	23.3
+2) Almost never	147	36.1
+3) Sometimes	135	33.2
+4) Almost always	20	4.9
+5) Always	10	2.5
+Missing	1
+
+
+81) SEEFAM
+Last week, how often did you visit in person with a member of your family who does not live in your household?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	402	2.749	1.545
+1) Not at all	92	22.9
+2) Once	76	18.9
+3) A few times	151	37.6
+4) Every day	64	15.9
+8) Does not apply, no family close enough to visit	19	4.7
+Missing	6
+
+
+82) SEEFREND
+Last week, how often did you visit in person with friends or neighbors? Was it...
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	404	2.698	0.983
+1) Not at all	68	16.8
+2) Once	70	17.3
+3) A few times	182	45.0
+4) Every day	84	20.8
+Missing	4
+
+
+83) SOCACT
+How would you describe your current level of social activity? Are you:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	406	2.791	0.931
+1) Not at all active	34	8.4
+2) Not too active	115	28.3
+3) Somewhat active	163	40.1
+4) Very active	93	22.9
+8) Don't know/not sure	1	0.2
+Missing	2
+
+
+84) RELACT
+How active are you in religious or church-related groups? Are you:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	407	2.155	1.12
+1) Not at all active	154	37.8
+2) Not too active	100	24.6
+3) Somewhat active	93	22.9
+4) Very active	59	14.5
+8) Don't know/not sure	1	0.2
+Missing	1
+
+
+85) PHYSACT
+How would you describe your current level of physical activity?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	408	2.917	0.857
+1) Not at all active	26	6.4
+2) Not too active	80	19.6
+3) Somewhat active	208	51.0
+4) Very active	93	22.8
+8) Don't know/not sure	1	0.2
+
+
+86) MOPHYS
+What is your single most frequent physical activity?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	301	13.452	24.679
+1) Walking	146	48.5
+2) Stationary bicycling/treadmill	11	3.7
+3) Swimming/water exercises	3	1.0
+4) Bowling	7	2.3
+5) Dancing	3	1.0
+6) Hunting, fishing, sailing, power boating	2	0.7
+7) Golf	7	2.3
+8) Jogging (running)	7	2.3
+9) Bicycling	10	3.3
+10) Aerobic exercises	12	4.0
+11) Organized sports/games (Senior Olympics, baseball, softball)	1	0.3
+12) Body recall	3	1.0
+13) Sex	1	0.3
+15) Rollerblading (skating)	1	0.3
+16) Rowboating or canoeing	1	0.3
+19) Gardening	44	14.6
+20) Housework	13	4.3
+21) Hobbies	6	2.0
+88) Other	8	2.7
+99) No response	15	5.0
+Missing	107
+
+
+87) SATLIFE
+How would you describe your general satisfaction with life at present?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	408	3.093	0.729
+1) Poor	10	2.5
+2) Fair	61	15.0
+3) Good	218	53.4
+4) Excellent	119	29.2
+
+
+88) FEELAGE
+When you compare yourself to others your age, do you feel...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	408	2.907	1.207
+1) Very old for your age	19	4.7
+2) About the same as others	140	34.3
+3) Young for your age	157	38.5
+4) Very young for your age	80	19.6
+8) Don't know/not sure	12	2.9
+
+
+89) HELTHNOW
+Would you say that your health today is...
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	407	2.813	0.812
+1) Poor	29	7.1
+2) Fair	92	22.6
+3) Good	212	52.1
+4) Excellent	74	18.2
+Missing	1
+
+
+90) SATMON
+Now, how well do you think your income and assets meet your financial needs?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	400	3.403	1.057
+1) Barely	17	4.3
+2) Not very well	50	12.5
+3) Adequately	162	40.5
+4) Well	97	24.3
+5) Very well	74	18.5
+Missing	8
+
+
+91) LIFENOW
+Looking back, would you say that you are more or less satisfied with life now than when you were a young adult?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	406	2.712	1.541
+1) Less satisfied	74	18.2
+2) About the same	94	23.2
+3) More satisfied	212	52.2
+7) Not applicable	5	1.2
+8) Don't know/not sure	21	5.2
+Missing	2
+
+
+92) EXCLIFE
+For the most part, I find life to be very interesting and exciting
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	405	4.138	0.901
+1) Strongly Disagree	2	0.5
+2) Disagree	30	7.4
+3) No opinion	8	2.0
+4) Agree	250	61.7
+5) Strongly agree	110	27.2
+8) Don't know/not sure	5	1.2
+Missing	3
+
+
+93) PORTTV
+Older adults are part of the cast on some television shows. Do you think the image of older adults on television is portrayed accurately?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	391	1.98	0.81
+1) Yes	132	33.8
+2) Don't know/not sure	135	34.5
+3) No	124	31.7
+Missing	17
+
+
+94) GENVAL
+Compared to older generations, do the young people of today have personal values that are:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	402	2.955	1.486
+1) Better than older generations	14	3.5
+2) About the same	130	32.3
+3) Worse than older generations	230	57.2
+8) Don't know/not sure	28	7.0
+Missing	6
+
+
+95) DISLIVW
+Have you discussed the matter of a living will with anyone?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	406	1.382	0.486
+1) Yes	251	61.8
+2) No	155	38.2
+Missing	2
+
+
+96) WHODIS
+[IF YES TO VARIABLE DISLIV] With whom did you discuss it?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	248	4.117	3.1
+1) Spouse	73	29.4
+2) Children	61	24.6
+3) Siblings	5	2.0
+4) Other relatives	9	3.6
+5) Friends or neighbors	5	2.0
+6) Clergy	1	0.4
+7) Doctor	15	6.0
+8) Attorney	72	29.0
+9) Other non-relative	7	2.8
+Missing	160
+
+
+97) LIVWIL
+If a person has a living will, should doctors and hospitals be bound be their wishes?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	402	1.137	0.462
+1) Yes, they should	366	91.0
+2) No, they should not	17	4.2
+3) Not sure	19	4.7
+Missing	6
+
+
+98) HAVLIVW
+Do you have a living will?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	405	1.573	0.495
+1) Yes, I do	173	42.7
+2) No, I do not	232	57.3
+Missing	3
+
+
+99) OBTAINLW
+[IF NO TO VARIABLE HAVLIVW] Do you plan to obtain a living will sometime in the future?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	232	1.703	0.844
+1) Yes	127	54.7
+2) No	47	20.3
+3) Not sure	58	25.0
+Missing	176
+
+
+100) POWER
+Have you given power of attorney over health decisions concerning you to anyone?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	401	1.594	0.492
+1) Yes	163	40.6
+2) No	238	59.4
+Missing	7
+
+
+101) WHOPOWER
+[IF YES TO VARIABLE POWER] Who has your power of attorney?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	160	2.3	1.589
+1) Spouse	47	29.4
+2) Children	78	48.8
+3) Siblings	8	5.0
+4) Other relatives	15	9.4
+5) Friends or neighbors	5	3.1
+7) Doctor	2	1.3
+8) Attorney	3	1.9
+9) Other non-relatives	2	1.3
+Missing	248
+
+
+102) TAKELIFE
+When the suffering becomes too great, those who have a terminal illness should have the right to choose to end their own life.  Do you:
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	398	3.299	1.324
+1) Strongly Disagree	41	10.3
+2) Disagree	101	25.4
+3) Don't know/not sure	36	9.0
+4) Agree	138	34.7
+5) Strongly agree	82	20.6
+Missing	10
+
+
+103) DRJACK
+Dr. Jack Kevorkian was criminally prosecuted and convicted for directly assisting terminally ill people to commit suicide.  Do you agree with his conviction?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	396	2.902	1.232
+1) Strongly Disagree	43	10.9
+2) Disagree	150	37.9
+3) Don't know/not sure	48	12.1
+4) Agree	113	28.5
+5) Strongly agree	42	10.6
+Missing	12
+
+
+104) RACE
+May I ask, to which racial group do you belong? (If necessary, read responses)
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	399	1.268	1.15
+1) White	365	91.5
+2) Black	18	4.5
+3) Latino/Hispanic	1	0.3
+4) Asian/Pacific Islander	1	0.3
+5) Native American	2	0.5
+6) Other	4	1.0
+8) Don't know/not sure	8	2.0
+Missing	9
+
+
+105) HHINCOME
+Last year, was your total household income, from all sources, before taxes? (If a respondent reports an amount listed in two categories, click the higher category.)
+RANGE: 1 to 88
+	N	Mean	Std. Deviation
+Total	338	16.068	28.706
+1) Less than $5,000	14	4.1
+2) $5,000 - $10,000	34	10.1
+3) $10,000 - $20,000	62	18.3
+4) $20,000 - $30,000	70	20.7
+5) $30,000 - $40,000	32	9.5
+6) $40,000 - $50,000	20	5.9
+7) $50,000 - $60,000	20	5.9
+8) $60,000 - $70,000	10	3.0
+9) $70,000 - $80,000	4	1.2
+10) $80,000 - $90,000	3	0.9
+11) $90,000 - $100,000	7	2.1
+12) $100,000 or more	16	4.7
+88) Don't know/not sure	46	13.6
+Missing	70
+
+
+106) WWF
+Professional wrestling has become very popular on TV. In your opinion is professional wrestling a genuine sporting event or a show strictly for entertainment?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	405	2.232	0.781
+1) Genuine sporting event	7	1.7
+2) Strictly for entertainment	354	87.4
+3) Both	10	2.5
+4) Don't know/not sure	11	2.7
+5) Don't know/don't watch	23	5.7
+Missing	3
+
+
+107) SEX
+Sex [RECORD BY VOICE IDENTIFICATION]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	404	1.7	0.459
+1) Male	121	30.0
+2) Female	283	70.0
+Missing	4
+
+
+108) I-SEX
+Sex (for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	404	1.7	0.459
+1) Male	121	30.0
+2) Female	283	70.0
+Missing	4
+
+
+109) I-MARITAL
+Are you currently married, widowed, separated, divorced, or have you never been married?  (for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	408	1.841	0.987
+1) Married	197	48.3
+2) Widowed	118	28.9
+3) Separated or divorced	54	13.2
+4) Never been married	39	9.6
+
+
+110) I-AGE
+What is your age?  (recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	408	2.87	1.204
+1) 19-39	49	12.0
+2) 40-64	127	31.1
+3) 65-72	111	27.2
+4) 73-79	70	17.2
+5) 80+	51	12.5
+
+
+111) I-RELIGION
+What is your religious preference? Would you say you are...  (recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	406	2.123	0.655
+1) Catholic	41	10.1
+2) Protestant	298	73.4
+3) Jewish or other	43	10.6
+4) None	24	5.9
+Missing	2
+
+
+112) I-ATTEND
+How often do you attend church?  (recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	399	3.088	1.373
+1) Never	74	18.5
+2) Few times a year	70	17.5
+3) Once a month	69	17.3
+4) Once a week	119	29.8
+5) More than once a week	67	16.8
+Missing	9
+
+

@@ -120,9 +120,13 @@ Raw-URL reads only work for files under 100 MB.
 | `project_canada` | Project Canada and Project Teen Canada, cross-sections and panels (ARDA) | 1975-2008 |
 | `taiwan_scs` | Taiwan Social Change Survey religion modules (ARDA) | 1985-2018 |
 | `arda_single_nation` | single-country religion surveys: Religion in Dutch Society, Korean GSS, Northern Ireland Life and Times, Survey of the Afghan People, Pew India/Israel and more (ARDA) | 1977-2023 |
+| `gss` | General Social Survey cumulative file, release 3a (July 2026), with codebook and release notes; recommended weight `wtssps`; GSS panels 2006-2010 and 2016-2020 from the ARDA (`gss/arda_manifest.tsv`) | 1972-2024 |
+| `southern_focus` | Southern Focus Polls (UNC Odum Institute): South, non-South and oversample surveys (ARDA) | 1992-2001 |
+| `nebraska_nasis` | Nebraska Annual Social Indicators Survey (ARDA) | 1988-2022 |
+| `middletown` | Middletown Area Studies, Muncie, Indiana (ARDA) | 1978-2004 |
+| `arda_regional` | other regional and local surveys: American Values Scale, Detroit Area Study, Houston Area Survey, Buckeye State Poll, Eagleton Poll, Little Rock Congregations Study, Longitudinal Study of Generations, Chicago Catholics, Indianapolis and Tulsa surveys, religiosity scale validation samples and more (ARDA) | 1855-2020 |
 
 ARDA folders hold one labelled gzip `.rds` per dataset (variable labels = question wording; value labels including ARDA's missing codes such as 777/888/999, which are left as values), the ARDA full codebook (`... codebook.txt`), and `manifest.tsv` (ARDA file ID, title, md5, source URL). ARDA asks that publications cite it and the original collectors: "The data were downloaded from the Association of Religion Data Archives, www.theARDA.com, and were collected by [PIs]." Not included: Add Health (its terms bar AI processing), the Australian Survey of Social Attitudes and the Philanthropy Panel Study (ARDA links out to registration-only archives).
-| `gss` | General Social Survey cumulative file, release 3a (July 2026), with codebook and release notes; recommended weight `wtssps`; GSS panels 2006-2010 and 2016-2020 from the ARDA (`gss/arda_manifest.tsv`) | 1972-2024 |
 
 ## Course materials
 

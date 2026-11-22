@@ -1,0 +1,1386 @@
+Data File: SFPS92S(Full Data Codebook)
+
+1) RESP
+Resp
+RANGE: 1 to 999992
+	N	Mean	Std. Deviation
+Total	819	7632.181	77705.364
+
+
+2) STATCALL
+Which state am I calling?
+RANGE: 1 to 13
+	N	Mean	Std. Deviation
+Total	819	7.438	3.924
+1) Alabama	54	6.6
+2) Arkansas	27	3.3
+3) Florida	115	14.0
+4) Georgia	64	7.8
+5) Kentucky	48	5.9
+6) Louisiana	51	6.2
+7) Mississippi	26	3.2
+8) North Carolina	97	11.8
+9) Oklahoma	34	4.2
+10) South Carolina	42	5.1
+11) Tennessee	55	6.7
+12) Texas	130	15.9
+13) Virginia	76	9.3
+
+
+3) BESTCOMM
+We would like to begin by asking you some questions that tell us how people feel about the places where they live.  Just tell me for each of the statements I'll read whether you tend to agree or disagree.  All things considered, my community is the best one in **** to live in.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	819	1.408	0.583
+1) Agree	525	64.1
+2) Disagree	254	31.0
+3) Not sure/No answer	40	4.9
+
+
+4) BESTSTAT
+We would like to begin by asking you some questions that tell us how people feel about the places where they live.  Just tell me for each of the statements I'll read whether you tend to agree or disagree.  All things considered, **** is the best state in the United States to live in.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	819	1.486	0.622
+1) Agree	477	58.2
+2) Disagree	286	34.9
+3) Not sure/No answer	56	6.8
+
+
+5) WHSTATE
+[If R answered disagree for BESTSTAT, R was asked WHSTATE] What state do you think is best?
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	819	15.512	29.911
+0) Not asked	533	65.1
+1) Alabama	5	0.6
+2) Alaska	4	0.5
+4) Arizona	7	0.9
+5) Arkansas	1	0.1
+6) California	17	2.1
+8) Colorado	22	2.7
+9) Connecticut	3	0.4
+12) Florida	26	3.2
+13) Georgia	5	0.6
+15) Hawaii	7	0.9
+16) Idaho	3	0.4
+17) Illinois	3	0.4
+19) Iowa	1	0.1
+21) Kentucky	2	0.2
+22) Louisiana	3	0.4
+23) Maine	3	0.4
+24) Maryland	1	0.1
+25) Massachusetts	3	0.4
+26) Michigan	1	0.1
+27) Minnesota	4	0.5
+28) Mississippi	2	0.2
+29) Missouri	2	0.2
+30) Montana	2	0.2
+31) Nebraska	1	0.1
+32) Nevada	3	0.4
+33) New Hampshire	1	0.1
+34) New Jersey	2	0.2
+35) New Mexico	2	0.2
+37) North Carolina	13	1.6
+39) Ohio	2	0.2
+40) Oklahoma	1	0.1
+41) Oregon	4	0.5
+42) Pennsylvania	2	0.2
+44) Rhode Island	3	0.4
+45) South Carolina	2	0.2
+46) South Dakota	1	0.1
+47) Tennessee	9	1.1
+48) Texas	11	1.3
+49) Utah	2	0.2
+50) Vermont	1	0.1
+51) Virginia	6	0.7
+53) Washington	11	1.3
+54) West Virginia	2	0.2
+55) Wisconsin	2	0.2
+56) Wyoming	4	0.5
+99) Don't know	74	9.0
+
+
+6) BESTUSA
+All things considered, the United States is the best country in the world to live in.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	819	1.099	0.385
+1) Agree	762	93.0
+2) Disagree	33	4.0
+3) Not sure/No answer	24	2.9
+
+
+7) BESTCOUN
+[If R answered disagree for BESTUSA, R was asked BESTCOUN] What country do you think is best?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	819	0.039	0.194
+0) No Answer	787	96.1
+1) Answer	32	3.9
+
+
+8) SOUTHCH
+What do you think has been the most important change in the South in your lifetime?
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	819	0.994	0.078
+0) No Answer	5	0.6
+1) Answer	814	99.4
+
+
+9) BUSICON
+How would you rate the present general business conditions in your area? Good, normal, or bad?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	819	2.089	0.779
+1) Good	205	25.0
+2) Normal	346	42.2
+3) Bad	258	31.5
+4) Don't know/No answer	10	1.2
+
+
+10) BUSICON6
+Six months from now, do you think they will be better, same, or worse?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	819	1.725	0.776
+1) Better	369	45.1
+2) Same	327	39.9
+3) Worse	102	12.5
+4) Don't know/No answer	21	2.6
+
+
+11) JOBAVA
+What would you say about available jobs in your area right now? Plenty, not so many, or hard to get?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	819	2.418	0.731
+1) Plenty	94	11.5
+2) Not so many	314	38.3
+3) Hard to get	386	47.1
+4) Don't know/No answer	25	3.1
+
+
+12) JOBAVA6
+Six months from now, will there be more, same or fewer?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	819	1.89	0.823
+1) More	298	36.4
+2) Same	342	41.8
+3) Fewer	150	18.3
+4) Don't know/No answer	29	3.5
+
+
+13) FAMINCOM
+How would you guess your total family income to be six months from now? Higher, the same, lower?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	819	1.758	0.673
+1) Higher	292	35.7
+2) The same	449	54.8
+3) Lower	62	7.6
+4) Don't know/No answer	16	2.0
+
+
+14) STATEFIN
+Lots of states are having financial problems right now. Do you think that **** is better off, worse off, or about the same as most other states?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	819	2.281	0.901
+1) Better off	232	28.3
+2) Worse off	142	17.3
+3) About the same	428	52.3
+4) Don't know/No answer	17	2.1
+
+
+15) COMSOUTH
+We're talking to people all over the South and in several border states. Just for the record, would you say that your community is in the South, or not?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	819	1.142	0.392
+1) Yes	716	87.4
+2) No	90	11.0
+3) Don't know/No answer	13	1.6
+
+
+16) STATESOU
+How about your state as a whole? Is it a Southern state, or not?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	819	1.149	0.419
+1) Yes	717	87.5
+2) No	82	10.0
+3) Don't know/No answer	20	2.4
+
+
+17) SOUTHDIF
+Do you think the South today has a lot of qualities that make it special and different from the rest of the United States, or is the South pretty much like any other part of the U.S.?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	819	1.339	0.532
+1) South is special	565	69.0
+2) Like other parts of U.S.	230	28.1
+3) No opinion/No answer	24	2.9
+
+
+18) SOUBEST
+Do you think that, all things considered, the South is the best region in the United States to live in, or do you think other parts of the country are as good or better?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	819	1.486	0.547
+1) South is best	441	53.8
+2) Others as good	358	43.7
+3) No opinion/No answer	20	2.4
+
+
+19) SOUTHERN
+Do you consider yourself a Southerner, or not?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	819	1.277	0.456
+1) Yes	595	72.6
+2) No	221	27.0
+3) Don't know/No answer	3	0.4
+
+
+20) SOUACC
+Do you agree or disagree with the following statement: These days, speaking with a Southern accent is often a drawback.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	819	1.818	0.65
+1) Agree	247	30.2
+2) Disagree	488	59.6
+3) It depends (vol)	70	8.5
+4) No opinion/No answer	14	1.7
+
+
+21) INTEGRA
+Overall, what kind of effect do you think racial integration has had on the quality of life in the South? Has integration generally had a positive effect, a negative effect, or hasn't it made much difference?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	819	1.871	0.955
+1) Positive effect	403	49.2
+2) Negative effect	149	18.2
+3) Not much difference	237	28.9
+4) No opinion/No answer	30	3.7
+
+
+22) FLAG
+Some people say the Confederate flag reminds them of white supremacy and racial conflict. Other people say the Confederate flag is a symbol of Southern heritage and pride. Do you think the flag is more a symbol of racial conflict or southern pride?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	819	1.905	0.515
+1) Racial conflict	151	18.4
+2) Southern pride	595	72.6
+3) No opinion/No answer	73	8.9
+
+
+23) DIXIE
+People get into the same argument about the song, "Dixie." Do you think the song "Dixie" is more a symbol of racial conflict, or of southern pride?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	819	2.032	0.415
+1) Racial conflict	58	7.1
+2) Southern pride	677	82.7
+3) No opinion/No answer	84	10.3
+
+
+24) SOUFEM
+Do you think opportunities for women are better in the South than in other parts of the country, worse, or about the same?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	819	2.72	0.695
+1) Better	56	6.8
+2) Worse	176	21.5
+3) About the same	528	64.5
+4) No opinion/No answer	59	7.2
+
+
+25) SOUMIN
+Do you think opportunities for minorities are better in the South than in other parts of the country, worse, or about the same?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	819	2.474	0.835
+1) Better	147	17.9
+2) Worse	173	21.1
+3) About the same	463	56.5
+4) No opinion/No answer	36	4.4
+
+
+26) SEGREGAT
+There's a lot of talk about race relations these days, and it's important to know how people really feel about these things. Are you in favor of integration of the races, strict segregation, or something in-between?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	819	1.884	1.034
+1) Favor of integration	458	55.9
+2) Strict segregation	30	3.7
+3) Something in-between	299	36.5
+4) No answer/Not sure	32	3.9
+
+
+27) INTEREST
+How much interest would you say you have in how Southerners as a whole are getting along in this country? Do you have a good deal of interest in it, some interest, or not much interest at all?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	819	1.839	0.816
+1) Good deal of interest	325	39.7
+2) Some interest	325	39.7
+3) Not much interest at all	145	17.7
+4) Don't know/No answer	24	2.9
+
+
+28) COOKING
+Cooking
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	819	1	0
+1) Answer	819	100.0
+
+
+29) ACCENT
+Do you like the Southern accent?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	819	1.254	0.582
+1) Yes, do like Southern accent	672	82.1
+2) No, don't like Southern accent	86	10.5
+3) Don't know/No answer	61	7.4
+
+
+30) WOMEN
+Generally speaking, would you say that Southern women are prettier than those from other sections of the country, or not?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	819	1.662	0.552
+1) Yes, Southern women are prettier	310	37.9
+2) No, Southern women are not prettier	476	58.1
+3) Don't know/No answer	33	4.0
+
+
+31) CIVILWAR
+Do you know if any of your family fought in the War between the States?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	819	2.043	0.845
+1) Yes, did fight	275	33.6
+2) No, did not fight	234	28.6
+3) Don't know/No answer	310	37.9
+
+
+32) CIVFIGHT
+On which side did they fight - for the Confederacy, for the Union, or did members of your family fight on both sides?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	275	1.942	1.112
+1) Confederacy	144	52.4
+2) Union	37	13.5
+3) Both sides	60	21.8
+4) Don't know/No answer	34	12.4
+Missing	544
+
+
+33) CLOSESOU
+Some people in the South feel they have a lot in common with other Southerners, but others we talk to don't feel this way. How about you? Would you say you feel pretty close to Southerners in general, or that you don't feel much closer to them than you do to other people?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	819	1.589	0.614
+1) Feel closer to Southerners	383	46.8
+2) No closer than to others	399	48.7
+3) Feel closer non-Southerners	28	3.4
+4) Don't know, can't say/No answer	9	1.1
+
+
+34) MOVENS
+Do you agree or disagree that: People who move to the South from the North never really become Southerners.
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	819	1.584	0.638
+1) Agree	408	49.8
+2) Disagree	344	42.0
+3) Not sure	67	8.2
+
+
+35) AGGMOVE
+[If R answered agree for MOVENS, R was asked AGGMOVE] Would you say you strongly agree, agree or slightly agree?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	408	1.855	0.815
+1) Strongly agree	169	41.4
+2) Agree	129	31.6
+3) Slightly agree	110	27.0
+Missing	411
+
+
+36) DAGGMOVE
+[If R answered disagree for MOVENS, R was asked DAGGMOVE] Would you say you strongly disagree, disagree or slightly disagree?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	344	2.125	0.774
+1) Strongly disagree	84	24.4
+2) Disagree	133	38.7
+3) Slightly disagree	127	36.9
+Missing	475
+
+
+37) SOUTHWIN
+Do you agree or disagree that: The South would be a lot better off if it had won the War Between the States?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	819	2.02	0.587
+1) Agree	133	16.2
+2) Disagree	537	65.6
+3) Not sure	149	18.2
+
+
+38) AGGWIN
+[If R answered agree for SOUTHWIN, R was asked AGGWIN] Would you say you strongly agree, agree or slightly agree?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	133	1.932	0.828
+1) Strongly agree	50	37.6
+2) Agree	42	31.6
+3) Slightly agree	41	30.8
+Missing	686
+
+
+39) DAGGWIN
+[If R answered disagree for SOUTHWIN, R was asked DAGGWIN] Would you say you strongly disagree, disagree or slightly disagree?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	537	1.577	0.742
+1) Strongly disagree	309	57.5
+2) Disagree	146	27.2
+3) Slightly disagree	82	15.3
+Missing	282
+
+
+40) INDEPSOU
+Do you agree or disagree that: If it could be done without war, the South would be better off as a separate country today?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	819	1.972	0.371
+1) Agree	68	8.3
+2) Disagree	706	86.2
+3) Not sure	45	5.5
+
+
+41) AGGINDEP
+[If R answered agree for INDEPSOU, R was asked AGGINDEP] Would you say you strongly agree, agree or slightly agree?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	68	1.971	0.863
+1) Strongly agree	26	38.2
+2) Agree	18	26.5
+3) Slightly agree	24	35.3
+Missing	751
+
+
+42) DAGINDEP
+[If R answered disagree for INDEPSOU, R was asked DAGINDEP] Would you say that you strongly disagree, disagree or slightly disagree?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	706	1.329	0.578
+1) Strongly disagree	514	72.8
+2) Disagree	152	21.5
+3) Slightly disagree	40	5.7
+Missing	113
+
+
+43) COURTESY
+Now I'm going to read to you some words that people use to describe other people. I'm going to ask you whether each word applies more to Northerners or to Southerners: Courteous.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	819	1.418	0.834
+1) Southerners	641	78.3
+2) Northerners	35	4.3
+3) No difference	122	14.9
+4) Don't know/No answer	21	2.6
+
+
+44) RELIGSOU
+Now I'm going to read to you some words that people use to describe other people. I'm going to ask you whether each word applies more to Northerners or to Southerners: Religious.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	819	1.497	0.914
+1) Southerners	621	75.8
+2) Northerners	19	2.3
+3) No difference	149	18.2
+4) Don't know/No answer	30	3.7
+
+
+45) INDUSTRI
+Now I'm going to read to you some words that people use to describe other people. I'm going to ask you whether each word applies more to Northerners or to Southerners: Industrious (hard-working).
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	819	2.084	0.881
+1) Southerners	255	31.1
+2) Northerners	271	33.1
+3) No difference	262	32.0
+4) Don't know/No answer	31	3.8
+
+
+46) AGGRESS
+Now I'm going to read to you some words that people use to describe other people. I'm going to ask you whether each word applies more to Northerners or to Southerners: Aggressive (go-getter/pushy).
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	819	2.103	0.693
+1) Southerners	131	16.0
+2) Northerners	501	61.2
+3) No difference	159	19.4
+4) Don't know/No answer	28	3.4
+
+
+47) PATRIOT
+Now I'm going to read to you some words that people use to describe other people. I'm going to ask you whether each word applies more to Northerners or to Southerners: Patriotic (love of one's country).
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	819	1.921	1.023
+1) Southerners	427	52.1
+2) Northerners	66	8.1
+3) No difference	290	35.4
+4) Don't know/No answer	36	4.4
+
+
+48) SOPHISTI
+Now I'm going to read to you some words that people use to describe other people. I'm going to ask you whether each word applies more to Northerners or to Southerners: Sophisticated.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	819	2.217	0.718
+1) Southerners	106	12.9
+2) Northerners	464	56.7
+3) No difference	214	26.1
+4) Don't know/No answer	35	4.3
+
+
+49) SLOW
+Now I'm going to read to you some words that people use to describe other people. I'm going to ask you whether each word applies more to Northerners or to Southerners: Slow.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	819	1.716	1.023
+1) Southerners	522	63.7
+2) Northerners	64	7.8
+3) No difference	177	21.6
+4) Don't know/No answer	56	6.8
+
+
+50) MATERIAL
+Now I'm going to read to you some words that people use to describe other people. I'm going to ask you whether each word applies more to Northerners or to Southerners: Materialistic.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	819	2.248	0.749
+1) Southerners	110	13.4
+2) Northerners	439	53.6
+3) No difference	227	27.7
+4) Don't know/No answer	43	5.3
+
+
+51) GENEROUS
+Now I'm going to read to you some words that people use to describe other people. I'm going to ask you whether each word applies more to Northerners or to Southerners: Generous.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	819	1.62	0.954
+1) Southerners	556	67.9
+2) Northerners	49	6.0
+3) No difference	183	22.3
+4) Don't know/No answer	31	3.8
+
+
+52) LOYAL
+Now I'm going to read to you some words that people use to describe other people. I'm going to ask you whether each word applies more to Northerners or to Southerners: Loyal to family.
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	819	1.759	1.009
+1) Southerners	505	61.7
+2) Northerners	40	4.9
+3) No difference	240	29.3
+4) Don't know/No answer	34	4.2
+
+
+53) THINKSOU
+How much thought would you say you have given to the South and to Southerners before today? Quite a lot, some, only a little, or almost none?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	819	2.062	1.106
+1) Quite a lot	342	41.8
+2) Some	205	25.0
+3) Only a little	164	20.0
+4) Almost none	95	11.6
+5) Don't know	13	1.6
+
+
+54) YRBORN
+Finally, here are some questions to help us tabulate the results. In which year were you born?
+RANGE: 1891 to 1974
+	N	Mean	Std. Deviation
+Total	819	1946.874	16.756
+
+
+55) LIVESOU
+Not counting time spent away at school and for other temporary reasons, have you lived in the South all your life or not? [If not, ask:] How long have you lived in the South?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	819	3.422	0.872
+1) Less than 5 years	52	6.3
+2) 6 to 10 years	52	6.3
+3) More than 10 years	216	26.4
+4) All my life	496	60.6
+5) Don't know/No answer	3	0.4
+
+
+56) STATE
+Which state did you live in when you were 16?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	818	32.17	18.849
+1) Alabama	50	6.1
+2) Alaska	1	0.1
+4) Arizona	3	0.4
+5) Arkansas	21	2.6
+6) California	8	1.0
+8) Colorado	2	0.2
+9) Connecticut	3	0.4
+11) D.C.	4	0.5
+12) Florida	48	5.9
+13) Georgia	51	6.2
+16) Idaho	1	0.1
+17) Illinois	20	2.4
+18) Indiana	9	1.1
+19) Iowa	4	0.5
+20) Kansas	3	0.4
+21) Kentucky	41	5.0
+22) Louisiana	46	5.6
+23) Maine	1	0.1
+24) Maryland	2	0.2
+25) Massachusetts	5	0.6
+26) Michigan	12	1.5
+27) Minnesota	2	0.2
+28) Mississippi	23	2.8
+29) Missouri	3	0.4
+30) Montana	3	0.4
+32) Nevada	1	0.1
+33) New Hampshire	1	0.1
+34) New Jersey	13	1.6
+35) New Mexico	3	0.4
+36) New York	28	3.4
+37) North Carolina	76	9.3
+39) Ohio	14	1.7
+40) Oklahoma	29	3.5
+41) Oregon	1	0.1
+42) Pennsylvania	12	1.5
+44) Rhode Island	1	0.1
+45) South Carolina	35	4.3
+46) South Dakota	2	0.2
+47) Tennessee	46	5.6
+48) Texas	101	12.3
+49) Utah	1	0.1
+50) Vermont	2	0.2
+51) Virginia	50	6.1
+53) Washington	2	0.2
+54) West Virginia	9	1.1
+55) Wisconsin	7	0.9
+99) Don't know	18	2.2
+Missing	1
+
+
+57) COUNTY
+In what county do you now live?
+RANGE: 1 to 999
+	N	Mean	Std. Deviation
+Total	819	130.37	156.479
+
+
+58) LIVEWH
+Do you live in a city, a suburban community, a small town, or a rural area?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	819	2.468	1.134
+1) City	226	27.6
+2) Suburbs	178	21.7
+3) Town	225	27.5
+4) Rural	186	22.7
+5) Refused/Not sure	4	0.5
+
+
+59) EDUC
+How many years of school have you completed?
+RANGE: 1 to 22
+	N	Mean	Std. Deviation
+Total	819	13.921	2.947
+1) 1st grade or less	3	0.4
+2) 2nd grade	1	0.1
+4) 4th grade	3	0.4
+6) 6th grade	5	0.6
+7) 7th grade	8	1.0
+8) 8th grade	12	1.5
+9) 9th grade	7	0.9
+10) 10th grade	24	2.9
+11) 11th grade	32	3.9
+12) 12th grade	214	26.1
+13) 1st year coll	66	8.1
+14) 2nd year	116	14.2
+15) 3rd year	56	6.8
+16) 4th year	135	16.5
+17) 5th year	45	5.5
+18) 6th year	49	6.0
+19) 7th year	21	2.6
+20) 8th year	12	1.5
+21) 9 or more	9	1.1
+22) No answer	1	0.1
+
+
+60) STPARTY
+I'd like to ask you a few questions about your political party affiliations. First, I'd like to ask you about your party affiliation in state politics, then about your party affiliation in national politics. Regardless of how you vote, when it comes to politics here in **** do you usually think of yourself as a Republican, a Democrat, an Independent or what?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	819	2.209	1.031
+1) Republican	229	28.0
+2) Democrat	291	35.5
+3) Independent	235	28.7
+4) Other	27	3.3
+5) Don't know/No answer	37	4.5
+
+
+61) STRDEMS
+[If R answered Democrat for STPARTY, R was asked STRDEMS] Would you call yourself a strong Democrat or a not very strong Democrat?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	291	1.605	0.543
+1) Strong democrat	123	42.3
+2) Not very strong democrat	160	55.0
+3) Don't know/No answer	8	2.7
+Missing	528
+
+
+62) STRREPS
+[If R answered Republican for STPARTY, R was asked STRREPS] Would you call yourself a strong Republican or a not very strong Republican?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	229	1.537	0.517
+1) Strong republican	108	47.2
+2) Not very strong republican	119	52.0
+3) Don't know/No answer	2	0.9
+Missing	590
+
+
+63) INDEPS
+[If R answered Independent for STPARTY, R was asked INDEPS] Do you usually think of yourself as closer to the Republican Party or as closer to the Democratic Party?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	235	1.868	0.814
+1) Closer to Republican Party	95	40.4
+2) Closer to Democratic Party	76	32.3
+3) Don't know/No answer	64	27.2
+Missing	584
+
+
+64) NATPARTY
+Again, regardless of how you vote, when it comes to national politics, do you usually think of yourself as a Republican, a Democrat, an Independent or what?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	819	2.127	1.034
+1) Republican	264	32.2
+2) Democrat	280	34.2
+3) Independent	217	26.5
+4) Other	23	2.8
+5) Don't know/No answer	35	4.3
+
+
+65) STRDEMN
+[If R answered Democrat for NATPARTY, R was asked STRDEMN] Would you call yourself a strong Democrat or a not very strong Democrat?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	280	1.564	0.518
+1) Strong democrat	125	44.6
+2) Not very strong democrat	152	54.3
+3) Don't know/No answer	3	1.1
+Missing	539
+
+
+66) STRREPN
+[If R answered Republican for NATPARTY, R was asked STRREPN] Would you call yourself a strong Republican or a not very strong Republican?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	264	1.549	0.528
+1) Strong republican	123	46.6
+2) Not very strong republican	137	51.9
+3) Don't know/No answer	4	1.5
+Missing	555
+
+
+67) INDEPN
+[If R answered Independent for NATPARTY, R was asked INDEPN] Do you usually think of yourself as closer to the Republican Party or as closer to the Democratic Party?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	217	1.954	0.826
+1) Closer to Republican Party	79	36.4
+2) Closer to Democratic Party	69	31.8
+3) Don't know/No answer	69	31.8
+Missing	602
+
+
+68) VOTE
+Right now do you think you'll be voting for the Democratic candidate in the November Presidential election, or for the Republican candidate?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	819	2.525	1.44
+1) For Democratic candidate	228	27.8
+2) For Republican candidate	312	38.1
+3) Other (vol)	39	4.8
+4) It depends on who the candidates are (vol)	101	12.3
+5) Don't know/No answer	139	17.0
+
+
+69) LIBCON
+In general, when it comes to politics, do you usually think of yourself as a liberal, a conservative, a moderate or what?
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	819	2.471	1.041
+1) Liberal	127	15.5
+2) Moderate (middle of the road)	316	38.6
+3) Conservative	298	36.4
+4) Never think of self in these terms (no preference)	36	4.4
+5) Don't know	26	3.2
+6) No answer	15	1.8
+7) R insists that he/she has no understanding of these terms	1	0.1
+
+
+70) STRLIB
+[If R answered Liberal for LIBCON, R was asked STRLIB] Do you think of yourself as a strong liberal, or a not very strong liberal?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	127	1.63	0.501
+1) Strong liberal	48	37.8
+2) Not very strong liberal	78	61.4
+3) Don't know	1	0.8
+Missing	692
+
+
+71) STRCON
+[If R answered Conservative for LIBCON, R was asked STRCON] Do you think of yourself as a strong conservative, or a not very strong conservative?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	298	1.507	0.552
+1) Strong conservative	154	51.7
+2) Not very strong conservative	138	46.3
+3) Don't know	5	1.7
+4) No answer	1	0.3
+Missing	521
+
+
+72) MODERATE
+[If R answered Moderate for LIBCON, R was asked MODERATE] Do you think of yourself as more like a liberal, or more like a conservative?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	316	2.25	0.975
+1) More liberal	111	35.1
+2) Neither - R refuses to choose	24	7.6
+3) More conservative	172	54.4
+4) Don't know	9	2.8
+Missing	503
+
+
+73) RELIG
+How often do you attend church or other religious services?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	819	2.774	1.303
+1) More than once a week	133	16.2
+2) Once a week	298	36.4
+3) 2-3 times a month	117	14.3
+4) Several times a year	166	20.3
+5) Never	102	12.5
+6) Refused	3	0.4
+
+
+74) FAITH
+What is your religious affiliation? [If Protestant, ask:] What denomination?
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	819	4.12	3.216
+1) Baptist	319	38.9
+2) Methodist	81	9.9
+3) Lutheran	28	3.4
+4) Presbyterian	39	4.8
+5) Episcopalian	28	3.4
+6) Other Protestant	63	7.7
+7) Catholic	128	15.6
+8) Jewish	9	1.1
+9) Other	78	9.5
+10) None	41	5.0
+11) Don't know/No Answer	5	0.6
+
+
+75) MARITAL
+Are you currently...
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	819	2.089	1.586
+1) Married	502	61.3
+2) Divorced	93	11.4
+3) Separated	14	1.7
+4) Widowed	70	8.5
+5) Single	139	17.0
+6) No answer	1	0.1
+
+
+76) EMPLOYED
+Last week were you primarily:
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	819	2.341	1.809
+1) Working full time	479	58.5
+2) Working part time	59	7.2
+3) Going to school	35	4.3
+4) Keeping house	62	7.6
+5) Retired	150	18.3
+6) Unemployed	21	2.6
+7) Or what?	13	1.6
+
+
+77) INCOME
+I am going to read you a list of income categories. Please stop me when a category best describes your total household income before taxes:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	819	4.106	2.075
+1) Less than 10,000	71	8.7
+2) 10,000 to 19,999	141	17.2
+3) 20,000 to 29,999	167	20.4
+4) 30,000 to 39,999	136	16.6
+5) 40,000 to 49,999	76	9.3
+6) 50,000 to 59,999	55	6.7
+7) More than 60,000	129	15.8
+8) No answer	44	5.4
+
+
+78) RACE
+What race do you consider yourself?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	819	1.253	0.693
+1) White	687	83.9
+2) Black	95	11.6
+3) Native American/Indian	5	0.6
+4) Other	26	3.2
+5) No Answer	6	0.7
+
+
+79) HISPANIC
+Are you of Hispanic origin?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	819	1.963	0.212
+1) Hispanic	34	4.2
+2) Not Hispanic	781	95.4
+3) Don't know/No answer	4	0.5
+
+
+80) CHILD18
+How many people under 18 live in this house?
+RANGE: 0 to 12
+	N	Mean	Std. Deviation
+Total	819	0.886	1.317
+0)	442	54.0
+1)	155	18.9
+2)	151	18.4
+3)	46	5.6
+4)	21	2.6
+11)	1	0.1
+12)	3	0.4
+
+
+81) PEOPLE
+Let's see, including yourself, how many people 18 or older live at this telephone number?
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	819	2.079	1.118
+1)	184	22.5
+2)	488	59.6
+3)	97	11.8
+4)	36	4.4
+5)	8	1.0
+9)	1	0.1
+11)	1	0.1
+12)	4	0.5
+
+
+82) GENDER
+Respondent's sex
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	819	1.516	0.5
+1) Male	396	48.4
+2) Female	423	51.6
+
+
+83) INTNUM
+Interviewer's number
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	819	4.535	2.838
+1)	129	15.8
+2)	83	10.1
+3)	157	19.2
+4)	141	17.2
+6)	57	7.0
+7)	174	21.2
+10)	34	4.2
+11)	44	5.4
+
+
+84) INTDATE
+Date of interview
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	819	1	0
+1)	819	100.0
+
+
+85) INTTIME
+Time of interview
+RANGE: 500 to 1057
+	N	Mean	Std. Deviation
+Total	819	769.915	122.818
+
+
+86) MINUTES
+Minutes/length of interview
+RANGE: 5 to 59
+	N	Mean	Std. Deviation
+Total	819	14.963	4.918
+5)	1	0.1
+9)	6	0.7
+10)	31	3.8
+11)	89	10.9
+12)	125	15.3
+13)	123	15.0
+14)	124	15.1
+15)	84	10.3
+16)	49	6.0
+17)	44	5.4
+18)	30	3.7
+19)	24	2.9
+20)	16	2.0
+21)	11	1.3
+22)	17	2.1
+23)	6	0.7
+24)	7	0.9
+25)	2	0.2
+26)	2	0.2
+27)	4	0.5
+28)	1	0.1
+29)	2	0.2
+30)	3	0.4
+31)	1	0.1
+32)	7	0.9
+33)	2	0.2
+36)	3	0.4
+37)	1	0.1
+46)	2	0.2
+50)	1	0.1
+59)	1	0.1
+
+
+87) AGE
+Age
+RANGE: 18 to 94
+	N	Mean	Std. Deviation
+Total	817	44.989	16.547
+
+
+88) AGECAT
+Age of respondent by categories
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	817	2.517	0.869
+1) 18 to 24	73	8.9
+2) 25 to 44	382	46.8
+3) 45 to 64	229	28.0
+4) 65 or older	133	16.3
+Missing	2
+
+
+89) GRADE
+Educational attainment
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	818	3.798	1.102
+1) Less than grade 9	32	3.9
+2) 9th to 11th grade	63	7.7
+3) High school graduate	214	26.2
+4) Some college	238	29.1
+5) College graduate or more	271	33.1
+Missing	1
+
+
+90) WTVAR
+Weight variable computed as: People/2.03
+RANGE: 0.492610837438424 to 5.41871921182264
+	N	Mean	Std. Deviation
+Total	819	0.999	0.432
+0.492610837438424)	184	22.5
+0.5)	2	0.2
+0.985221674876848)	488	59.6
+1)	2	0.2
+1.47783251231525)	97	11.8
+1.9704433497537)	36	4.4
+2.46305418719209)	8	1.0
+4.43349753694579)	1	0.1
+5.41871921182264)	1	0.1
+
+
+91) LCRECODE
+Liberal-Conservative total (RC)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	803	5.042	2.13
+1) Strong liberal	48	6.0
+2) Not very strong liberal	78	9.7
+3) Moderate-liberal	111	13.8
+4) Moderate	24	3.0
+5) Moderate-conservative	172	21.4
+6) Not very strong conservative	154	19.2
+7) Strong conservative	138	17.2
+8) No preference	36	4.5
+9) Don't know/No answer	42	5.2
+Missing	16
+
+
+92) SPRCODE
+State party ID (recode)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	809	4.229	2.407
+1) Strong Democrat	123	15.2
+2) Not very strong Democrat	160	19.8
+3) Independent, closer to Democrat	76	9.4
+4) Independent	64	7.9
+5) Independent, closer to Republican	95	11.7
+6) Not very strong Republican	119	14.7
+7) Strong Republican	108	13.3
+8) Other party	27	3.3
+9) Don't know/No answer	37	4.6
+Missing	10
+
+
+93) NPRCODE
+National party ID (recode)
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	812	4.297	2.409
+1) Strong Democrat	125	15.4
+2) Not very strong Democrat	152	18.7
+3) Independent, closer to Democrat	69	8.5
+4) Independent	69	8.5
+5) Independent, closer to Republican	79	9.7
+6) Not very strong Republican	137	16.9
+7) Strong Republican	123	15.1
+8) Other party	23	2.8
+9) Don't know/No answer	35	4.3
+Missing	7
+
+
+94) MOVSOU
+Yanks don't become Southerners (recode)
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	819	3.719	2.068
+1) Strongly agree	169	20.6
+2) Agree	129	15.8
+3) Slightly agree	110	13.4
+4) Not sure	67	8.2
+5) Slightly disagree	127	15.5
+6) Disagree	133	16.2
+7) Strongly disagree	84	10.3
+
+
+95) WINCIV
+South better off won Civil War (recode)
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	819	5.253	1.857
+1) Strongly agree	50	6.1
+2) Agree	42	5.1
+3) Slightly agree	41	5.0
+4) Not sure	149	18.2
+5) Slightly disagree	82	10.0
+6) Disagree	146	17.8
+7) Strongly disagree	309	37.7
+
+
+96) INDEPEN
+South better off independent (recode)
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	819	6.134	1.513
+1) Strongly agree	26	3.2
+2) Agree	18	2.2
+3) Slightly agree	24	2.9
+4) Not sure	45	5.5
+5) Slightly disagree	40	4.9
+6) Disagree	152	18.6
+7) Strongly disagree	514	62.8
+
+
+97) METRO
+R live in metro/non-metro area
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	819	1.381	0.486
+1) Metropolitan	507	61.9
+2) Non-metropolitan	312	38.1
+
+
+98) DEEPSOU
+Called state deep South or not
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	819	1.711	0.454
+1) Deep South	237	28.9
+2) Peripheral South	582	71.1
+
+
+99) RESIDENT
+Residence at age 16: South/Non-South
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	819	1.247	0.431
+1) South	617	75.3
+2) Non-South	202	24.7
+
+
+100) ANS6
+Recode of open-ended question 6: best country
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	33	5.879	2.434
+1) Canada	2	6.1
+2) Australia	3	9.1
+3) Germany	3	9.1
+4) New Zealand	1	3.0
+5) Japan	3	9.1
+6) Sweden	2	6.1
+7) Other	6	18.2
+8) Don't know	13	39.4
+Missing	786
+
+
+101) ANS7
+Recode of open-ended question 7: change South
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	812	2.039	2.523
+0) Don't know	237	29.2
+1) Racial questions	290	35.7
+2) Economic growth	108	13.3
+3) Crime, drugs	10	1.2
+4) Liberalization	3	0.4
+5) Influx of northerners	35	4.3
+6) Environment	9	1.1
+7) Other	89	11.0
+8) Education	23	2.8
+9) Women	8	1.0
+Missing	7
+
+
+102) ANS27
+Recode of open-ended question 27: South cooking
+RANGE: 1 to 7
+	N	Mean	Std. Deviation
+Total	816	1.679	1.437
+1) Like it	626	76.7
+2) Like it, but not good for you	35	4.3
+3) Okay, no different	59	7.2
+4) Not good for you	33	4.0
+5) Don't like it	29	3.6
+6) Other	18	2.2
+7) Don't know	16	2.0
+Missing	3
+
+
+103) I-AGE
+Age of respondent by categories (for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	817	2.517	0.869
+1) 18 to 24	73	8.9
+2) 25 to 44	382	46.8
+3) 45 to 64	229	28.0
+4) 65 or older	133	16.3
+Missing	2
+
+
+104) I-GENDER
+Respondent's sex (for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	819	1.516	0.5
+1) Male	396	48.4
+2) Female	423	51.6
+
+
+105) I-EDUC
+Educational attainment (for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	818	3.798	1.102
+1) Less than grade 9	32	3.9
+2) 9th to 11th grade	63	7.7
+3) High school graduate	214	26.2
+4) Some college	238	29.1
+5) College graduate or more	271	33.1
+Missing	1
+
+
+106) I-RELIGION
+What is your religious affiliation? [If Protestant, ask:] What denomination? (Recoded for use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	814	2.276	1.479
+1) Baptist	319	39.2
+2) Other Protestant	239	29.4
+3) Catholic	128	15.7
+4) Jewish	9	1.1
+5) Other	78	9.6
+6) None	41	5.0
+Missing	5
+
+
+107) I-ATTEND
+How often do you attend church or other religious services? (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	816	2.762	1.291
+1) More than once a week	133	16.3
+2) Once a week	298	36.5
+3) 2-3 times a month	117	14.3
+4) Several times a year	166	20.3
+5) Never	102	12.5
+Missing	3
+
+
+108) I-RACE
+What race do you consider yourself? (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	813	1.225	0.616
+1) White	687	84.5
+2) Black	95	11.7
+3) Native American/Indian	5	0.6
+4) Other	26	3.2
+Missing	6
+
+
+109) I-PARTYID
+National party ID (recode) (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	777	2.037	0.9
+1) Democrat	277	35.6
+2) Independent	217	27.9
+3) Republican	260	33.5
+4) Other party	23	3.0
+Missing	42
+
+

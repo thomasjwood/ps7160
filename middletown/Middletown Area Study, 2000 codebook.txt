@@ -1,0 +1,1243 @@
+Data File: MAS00 (Full Data Codebook)
+
+1) RESPNUM
+Respondent Number
+RANGE: 1 to 999
+	N	Mean	Std. Deviation
+Total	621	217.296	139.112
+
+
+2) SEX
+[RECORD RESPONDENT'S SEX BY VOICE IDENTIFICATION]
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	621	1.517	0.5
+1) Male	300	48.3
+2) Female	321	51.7
+
+
+3) MARITAL
+Are you currently married, widowed, separated, divorced, or have you never been married? 
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	620	2.135	1.625
+1) Married	377	60.8
+2) Widowed	68	11.0
+3) Separated	7	1.1
+4) Divorced	50	8.1
+5) Never been married	118	19.0
+Missing	1
+
+
+4) EDUC
+What was the last grade you completed in school?
+RANGE: 1 to 98
+	N	Mean	Std. Deviation
+Total	619	14.814	9.191
+1) 	1	0.2
+5) 	1	0.2
+6) 	1	0.2
+8) 	7	1.1
+9) 	6	1.0
+10) 	9	1.5
+11) 	11	1.8
+12) High School Graduate	214	34.6
+13) 	49	7.9
+14) 	57	9.2
+15) 	39	6.3
+16) College Graduate	126	20.4
+17) Graduate/Professional	91	14.7
+98) Trade School	7	1.1
+Missing	2
+
+
+5) SPEDUC
+[IF MARITAL = 1]What was the last grade your spouse completed in school?
+RANGE: 5 to 99
+	N	Mean	Std. Deviation
+Total	377	15.239	11.651
+5) 	1	0.3
+7) 	1	0.3
+8) 	2	0.5
+9) 	4	1.1
+10) 	8	2.1
+11) 	10	2.7
+12) High School Graduate	151	40.1
+13) 	20	5.3
+14) 	35	9.3
+15) 	13	3.4
+16) College Graduate	79	21.0
+17) Graduate/Professional	46	12.2
+98) Trade School	5	1.3
+99) No response	2	0.5
+Missing	244
+
+
+6) WORKSTAT
+Last week, were you working full-time, part-time, going to school, keeping house, or are you retired?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	619	3.142	2.356
+1) Working full time	298	48.1
+2) Working part-time and not in school	42	6.8
+3) With job, not at work (temp. ill, vac, strike, maternity)	7	1.1
+4) Unemployed, laid off, looking for work	9	1.5
+5) Retired	154	24.9
+6) In school	42	6.8
+7) Keeping house	52	8.4
+8) Other	15	2.4
+Missing	2
+
+
+7) DEPEND
+How many children do you have? [IF RESPONDENT ASKS IF HE/SHE SHOULD INCLUDE STEPCHILDREN OR ADOPTED CHILDREN, SAY YES]
+RANGE: 0 to 8
+	N	Mean	Std. Deviation
+Total	621	2.002	1.64
+0) 	157	25.3
+1) 	75	12.1
+2) 	169	27.2
+3) 	121	19.5
+4) 	59	9.5
+5) 	21	3.4
+6) 	10	1.6
+7) 	6	1.0
+8) Eight or more children	3	0.5
+
+
+8) DELAWARE
+Were you born in Delaware County, some other county in Indiana, or outside Indiana?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	620	1.892	0.843
+1) Delaware County	257	41.5
+2) Other Indiana County	173	27.9
+3) Outside Indiana	190	30.6
+Missing	1
+
+
+9) MUNCIE2
+[IF VARIABLE DELAWARE = 1] Were you born in Muncie?
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	257	1.093	0.292
+1) Yes	233	90.7
+2) No	24	9.3
+Missing	364
+
+
+10) STATE
+[IF VARIABLE DELAWARE = 3] Where were you born? (State or Country)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	189	26.704	16.161
+1) Alabama	3	1.6
+2) Alaska	1	0.5
+3) Arizona	1	0.5
+4) Arkansas	3	1.6
+5) California	6	3.2
+7) Connecticut	3	1.6
+9) Florida	2	1.1
+10) Georgia	1	0.5
+11) Hawail	1	0.5
+12) Idaho	1	0.5
+13) Illinois	19	10.1
+14) Indiana	2	1.1
+15) Iowa	5	2.6
+16) Kansas	5	2.6
+17) Kentucky	23	12.2
+18) Louisiana	2	1.1
+19) Maine	1	0.5
+20) Maryland	3	1.6
+22) Michigan	15	7.9
+23) Minnesota	1	0.5
+24) Mississippi	4	2.1
+25) Missouri	2	1.1
+26) Montana	1	0.5
+27) Nebraska	1	0.5
+28) Nevada	1	0.5
+30) New Jersey	4	2.1
+32) New York	4	2.1
+33) North Carolina	2	1.1
+34) North Dakota	2	1.1
+35) Ohio	18	9.5
+36) Oklahoma	4	2.1
+38) Pennsylvania	8	4.2
+40) South Carolina	1	0.5
+42) Tennessee	18	9.5
+43) Texas	2	1.1
+44) Utah	2	1.1
+45) Vermont	1	0.5
+46) Virginia	1	0.5
+47) Washington	2	1.1
+48) West Virginia	5	2.6
+49) Wisconsin	1	0.5
+52) Other countries	4	2.1
+99) No response	3	1.6
+Missing	432
+
+
+11) RACE
+To which racial group do you belong? (If necessary, read responses)
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	618	1.146	0.756
+1) White	581	94.0
+2) Black	22	3.6
+3) Latino/Hispanic	2	0.3
+4) Asian/Pacific Islander	3	0.5
+5) Native American	1	0.2
+6) Other	4	0.6
+7) Mixed	4	0.6
+8) Don't know/not sure	1	0.2
+Missing	3
+
+
+12) AGE
+What is your age, please?
+RANGE: 18 to 99
+	N	Mean	Std. Deviation
+Total	621	49.063	19.034
+18) 	3	0.5
+19) 	5	0.8
+20) 	14	2.3
+21) 	12	1.9
+22) 	18	2.9
+23) 	9	1.4
+24) 	4	0.6
+25) 	10	1.6
+26) 	15	2.4
+27) 	8	1.3
+28) 	9	1.4
+29) 	7	1.1
+30) 	11	1.8
+31) 	8	1.3
+32) 	9	1.4
+33) 	11	1.8
+34) 	12	1.9
+35) 	7	1.1
+36) 	10	1.6
+37) 	8	1.3
+38) 	8	1.3
+39) 	20	3.2
+40) 	11	1.8
+41) 	13	2.1
+42) 	10	1.6
+43) 	10	1.6
+44) 	8	1.3
+45) 	7	1.1
+46) 	12	1.9
+47) 	15	2.4
+48) 	12	1.9
+49) 	10	1.6
+50) 	17	2.7
+51) 	14	2.3
+52) 	10	1.6
+53) 	10	1.6
+54) 	12	1.9
+55) 	8	1.3
+56) 	10	1.6
+57) 	16	2.6
+58) 	12	1.9
+59) 	7	1.1
+60) 	9	1.4
+61) 	8	1.3
+62) 	7	1.1
+63) 	9	1.4
+64) 	10	1.6
+65) 	9	1.4
+66) 	8	1.3
+67) 	9	1.4
+68) 	8	1.3
+69) 	5	0.8
+70) 	4	0.6
+71) 	4	0.6
+72) 	5	0.8
+73) 	5	0.8
+74) 	6	1.0
+75) 	11	1.8
+76) 	2	0.3
+77) 	5	0.8
+78) 	6	1.0
+79) 	9	1.4
+80) 	7	1.1
+81) 	4	0.6
+82) 	2	0.3
+83) 	3	0.5
+84) 	1	0.2
+85) 	2	0.3
+86) 	1	0.2
+87) 	3	0.5
+88) 	3	0.5
+89) 	2	0.3
+90) 	1	0.2
+91) 	1	0.2
+99) 	10	1.6
+
+
+13) HHINCOME
+I'm going to read you a series of income categories.  Please stop me when I get to the category that includes your total household income last year, from all sources, before taxes?  (IF RESPONDENT GIVES EXACT INCOME, CHOOSE FIRST CATEGORY THAT INCLUDES THAT AMOUNT.)
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	621	18.324	31.088
+1) Less than $5,000	22	3.5
+2) $5,000 - $10,000	33	5.3
+3) $10,000 - $20,000	53	8.5
+4) $20,000 - $30,000	86	13.8
+5) $30,000 - $40,000	55	8.9
+6) $40,000 - $50,000	73	11.8
+7) $50,000 - $60,000	62	10.0
+8) $60,000 - $70,000	39	6.3
+9) $70,000 - $80,000	42	6.8
+10) $80,000 - $90,000	15	2.4
+11) $90,000 - $100,000	22	3.5
+12) $100,000 or more	34	5.5
+88) Don't know/not sure	24	3.9
+99) No response	61	9.8
+
+
+14) PARTYID
+Have you usually thought of yourself:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	616	2.58	1.323
+1) As a Republican	180	29.2
+2) As an Independent	90	14.6
+3) As a Democrat	193	31.3
+4) As a member of some other party	142	23.1
+5) Sometimes a Republican, sometimes a Democrat	2	0.3
+8) Don't know/not sure	9	1.5
+Missing	5
+
+
+15) POLVIEWS
+How would you describe your political views? Would you say you are:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	616	3.334	1.174
+1) Very Liberal	19	3.1
+2) Liberal	106	17.2
+3) Middle-of-the-road	243	39.4
+4) Conservative	191	31.0
+5) Very Conservative	42	6.8
+8) Don't know/not sure	15	2.4
+Missing	5
+
+
+16) ISSUES
+Turning to the issues in this year's election, let me slowly read a short list of ten issues in this year's presidential campaign.  Of these issues, please tell me which one you consider to be the most important.  The list is:
+RANGE: 1 to 11
+	N	Mean	Std. Deviation
+Total	621	4.541	2.746
+1) Social Security	108	17.4
+2) Healthcare	86	13.8
+3) The Economy	50	8.1
+4) Taxes	54	8.7
+5) Education	138	22.2
+6) The Environment	32	5.2
+7) National Defense	39	6.3
+8) The Gun Issue	38	6.1
+9) Abortion	58	9.3
+10) Capital Punishment	5	0.8
+11) Don't Know/No Response	13	2.1
+
+
+17) HEARDCC
+Have you heard of an organization called the Christian Coalition?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	621	1.211	0.464
+1) Yes	505	81.3
+2) No	101	16.3
+3) Are you not sure	15	2.4
+
+
+18) CHRISTCO
+[IF 'YES' TO VARIABLE HEARDCC] To what extent do you support the Christian Coalition?  Do you:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	500	3.52	1.746
+1) Strongly support this group	30	6.0
+2) Generally support this group	86	17.2
+3) Neutral about this group	224	44.8
+4) Generally against this group	52	10.4
+5) Strongly against this group	62	12.4
+8) Don't Know	46	9.2
+Missing	121
+
+
+19) ECONSIT
+How satisfied or dissatisfied are you with your present economic situation?  Are you:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	619	2.903	0.848
+1) Very dissatisfied	36	5.8
+2) Dissatisfied	97	15.7
+3) Satisfied	397	64.1
+4) Very satisfied	84	13.6
+8) Don't Know	5	0.8
+Missing	2
+
+
+20) AMERECON
+How would you judge the American economy?  Would you say the American economy today is in:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	618	3.526	0.953
+1) Terrible shape	11	1.8
+2) Not very good shape	61	9.9
+3) OK shape	217	35.1
+4) Good shape	265	42.9
+5) Excellent shape	59	9.5
+8) Don't Know	5	0.8
+Missing	3
+
+
+21) JOBS
+Please indicate how much you agree or disagree with the following two statements - If there are not enough jobs for all the people who want to work, the government should create jobs.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	618	3.065	1.314
+1) Strongly disagree	55	8.9
+2) Disagree	188	30.4
+3) Neutral about this statement	132	21.4
+4) Agree	181	29.3
+5) Strongly agree with this statement	51	8.3
+8) Don't Know	11	1.8
+Missing	3
+
+
+22) INCOMDIF
+Please indicate how much you agree or disagree with the following two statements - The government ought to reduce the income differences between rich and poor.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	618	2.95	1.542
+1) Strongly disagree	100	16.2
+2) Disagree	187	30.3
+3) Neutral about this statement	118	19.1
+4) Agree	130	21.0
+5) Strongly agree with this statement	63	10.2
+8) Don't Know	20	3.2
+Missing	3
+
+
+23) RELPREF
+What is your religious preference? Would you say you are...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	620	2.371	1.092
+1) Catholic	69	11.1
+2) Protestant (Christian)	421	67.9
+3) Jewish	2	0.3
+4) Other : Like Muslim, Buddhism, Mormon, etc.	96	15.5
+5) None	29	4.7
+8) Don't know/not sure	3	0.5
+Missing	1
+
+
+24) ATTEND
+How often do you attend church?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	538	4.602	2.083
+1) Never	72	13.4
+2) About once a year	27	5.0
+3) A few times a year	89	16.5
+4) About once a month	45	8.4
+5) More than once a month	44	8.2
+6) Once a week	148	27.5
+7) More than once a week	109	20.3
+8) Don't know/not sure	4	0.7
+Missing	83
+
+
+25) EDPROB
+Please tell me to what extent you agree or disagree with the following statements. - The major problem with education today is that religion has been taken out of the classroom.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	619	3.246	1.398
+1) Strongly disagree	81	13.1
+2) Disagree	132	21.3
+3) Neutral about this statement	108	17.4
+4) Agree	162	26.2
+5) Strongly agree with this statement	132	21.3
+8) Don't Know	4	0.6
+Missing	2
+
+
+26) BIBLE
+Please tell me to what extent you agree or disagree with the following statements. - Every word of the Bible is true.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	616	3.49	1.51
+1) Strongly disagree	75	12.2
+2) Disagree	109	17.7
+3) Neutral about this statement	89	14.4
+4) Agree	161	26.1
+5) Strongly agree with this statement	170	27.6
+8) Don't Know	12	1.9
+Missing	5
+
+
+27) RELMORAL
+Please tell me to what extent you agree or disagree with the following statements. - A person can be moral without being religious.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	621	4.192	0.969
+1) Strongly disagree	9	1.4
+2) Disagree	38	6.1
+3) Neutral about this statement	27	4.3
+4) Agree	322	51.9
+5) Strongly agree with this statement	217	34.9
+8) Don't Know	8	1.3
+
+
+28) RELTV
+How often do you watch religious TV?
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	621	2.415	1.479
+1) Never	205	33.0
+2) Rarely	211	34.0
+3) One to three times a month	58	9.3
+4) Once a week	65	10.5
+5) Several times a week	53	8.5
+6) Every day	29	4.7
+
+
+29) JEWISH
+Would you vote for a candidate for President of the United States who was Jewish?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	610	4.469	0.901
+1) No	14	2.3
+2) Probably No	9	1.5
+3) Not Sure	60	9.8
+4) Probably Yes	121	19.8
+5) Yes	406	66.6
+Missing	11
+
+
+30) VOUCHER
+To what extent do you support or oppose a government school voucher program which would include funding to help parents send their children to private religious schools?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	619	2.809	1.571
+1) Strongly support	108	17.4
+2) Somewhat support	199	32.1
+3) Somewhat oppose	139	22.5
+4) Strongly oppose	142	22.9
+8) Don't know	31	5.0
+Missing	2
+
+
+31) LIEBERMN
+Joseph Lieberman, the Democratic candidate for Vice President in this year's election, has been criticized for bringing too much religion into his political speeches.  To what extent do you agree or disagree with this criticism?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	618	2.911	1.586
+1) Strongly disagree	74	12.0
+2) Disagree	195	31.6
+3) Neutral about this statement	228	36.9
+4) Agree	65	10.5
+5) Strongly agree with this statement	19	3.1
+8) Don't Know	37	6.0
+Missing	3
+
+
+32) GODCHOSE
+'America is God's chosen nation today.'  Do you:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	618	2.822	1.376
+1) Strongly disagree	93	15.0
+2) Disagree	196	31.7
+3) Neutral about this statement	153	24.8
+4) Agree	119	19.3
+5) Strongly agree with this statement	44	7.1
+8) Don't Know	13	2.1
+Missing	3
+
+
+33) MINSPOK
+'One's minister, priest, or rabbi should come out in support of a presidential candidate.'  Do you:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	617	2.932	1.289
+1) Strongly disagree	60	9.7
+2) Disagree	184	29.8
+3) Neutral about this statement	197	31.9
+4) Agree	132	21.4
+5) Strongly agree with this statement	30	4.9
+8) Don't Know	14	2.3
+Missing	4
+
+
+34) CHRPUBO
+'Elected officials have an obligation to be directed by the moral teachings of their church or synagogue.'  Do you:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	618	3.212	1.225
+1) Strongly disagree	45	7.3
+2) Disagree	143	23.1
+3) Neutral about this statement	157	25.4
+4) Agree	203	32.8
+5) Strongly agree with this statement	63	10.2
+8) Don't Know	7	1.1
+Missing	3
+
+
+35) VOTEINT
+I would now like to ask you some questions about how you plan to vote on Tuesday, November 7.  First, how would you describe your intention to vote?  Are you:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	620	1.134	0.398
+1) Definitely going to the polls and vote on November 7	550	88.7
+2) Probably going to vote	57	9.2
+3) Not sure whether you will vote	13	2.1
+Missing	1
+
+
+36) VOTE1
+[IF R ANSWERED '1' TO VARIABLE VOTEINT] Ok, which candidate for President of the United States will you vote for on Tuesday, November 7?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	575	1.988	0.985
+1) Gore	203	35.3
+2) Bush	255	44.3
+3) Some other candidate	38	6.6
+4) Don't Know Yet	79	13.7
+Missing	46
+
+
+37) VOTE2
+[IF R ANSWERED '2' TO VARIABLE VOTEINT] Well, even though you don't know for sure how you will vote, which presidential candidate are you leaning toward?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	78	2.218	1.202
+1) Gore	28	35.9
+2) Bush	26	33.3
+3) Some other candidate	3	3.8
+4) Don't Know Yet	21	26.9
+Missing	543
+
+
+38) VOTE3
+[IF R ANSWERED '3' TO VARIABLE VOTEINT] Ok, if you decide to vote on Tuesday, November 7, which presidential candidate will you vote for?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	13	2.692	1.032
+1) Gore	2	15.4
+2) Bush	3	23.1
+3) Some other candidate	5	38.5
+4) Don't Know Yet	3	23.1
+Missing	608
+
+
+39) VOTE4
+[IF R ANSWERED '4' FOR VARIABLE VOTE3] Well, even though you don't know for sure how you will vote, which presidential candidate are you leaning toward?
+RANGE: 4 to 4
+	N	Mean	Std. Deviation
+Total	3	4	0
+4) Don't Know Yet	3	100.0
+Missing	618
+
+
+40) CAPPUN
+To what extent do you favor or oppose the death penalty for persons convicted of murder?  Do you
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	619	2.436	1.162
+1) Oppose it, or	101	16.3
+2) Do you sometimes favor it and sometimes oppose it	227	36.7
+3) Favor it	275	44.4
+8) Don't Know	16	2.6
+Missing	2
+
+
+41) HOMOSEX
+Should there be a law protecting homosexuals from being dismissed from their jobs as teachers in public schools?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	614	1.844	0.86
+1) Yes	282	45.9
+2) Not sure	146	23.8
+3) No	186	30.3
+Missing	7
+
+
+42) ABORTION
+Which of the following four statements best describes your opinion about abortion?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	606	2.759	1.362
+1) Abortion should never be permitted	71	11.7
+2) Abortion should be permitted only if the life of the woman is in danger	249	41.1
+3) Abortion should be permitted if, due to her particular situation, the woman would have difficulty in caring for the child	117	19.3
+4) Abortion should never be forbidden	150	24.8
+8) Don't Know	19	3.1
+Missing	15
+
+
+43) MOVMAKER
+The motion-picture industry is a threat to true American values.  Do you:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	619	3.21	1.38
+1) Strongly disagree	66	10.7
+2) Disagree	166	26.8
+3) Neutral about this statement	90	14.5
+4) Agree	187	30.2
+5) Strongly agree with this statement	103	16.6
+8) Don't Know	7	1.1
+Missing	2
+
+
+44) LEWINSKY
+What is your opinion of President Clinton's behavior during the Monica Lewinsky affair?  Would you say it was:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	603	2.711	1.596
+1) Unforgivable	143	23.7
+2) Forgivable, but he should have faced more punishment	200	33.2
+3) Forgivable since he apologized	48	8.0
+4) Not relevant, since it was only his own personal behavior	187	31.0
+8) Don't Know	25	4.1
+Missing	18
+
+
+45) GUNCONTR
+What is your position on gun control?  Do you believe that:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	617	2.05	1.658
+1) There should be more gun control laws	262	42.5
+2) The number of gun control laws now is about right	252	40.8
+3) Fewer gun control laws	65	10.5
+8) Don't Know/Not Sure	38	6.2
+Missing	4
+
+
+46) USEINTNT
+How often do you use the Internet?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	621	3.238	1.803
+1) Never	213	34.3
+2) Rarely	42	6.8
+3) Monthly	20	3.2
+4) Weekly	76	12.2
+5) Daily	270	43.5
+
+
+47) RELINFO
+How often do you use the Internet to get religious or spiritual information?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	408	1.721	1.093
+1) Never	240	58.8
+2) Rarely	102	25.0
+3) Monthly	22	5.4
+4) Weekly	28	6.9
+5) Daily	16	3.9
+Missing	213
+
+
+48) MEETREL
+How often do you use the Internet to meet people of similar religious or spiritual interests?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	408	1.221	0.665
+1) Never	347	85.0
+2) Rarely	47	11.5
+3) Monthly	4	1.0
+4) Weekly	8	2.0
+5) Daily	1	0.2
+8) Don't Know	1	0.2
+Missing	213
+
+
+49) SHAREREL
+How often do you use the Internet to share your religious or spiritual beliefs with others?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	408	1.36	0.856
+1) Never	325	79.7
+2) Rarely	50	12.3
+3) Monthly	9	2.2
+4) Weekly	17	4.2
+5) Daily	7	1.7
+Missing	213
+
+
+50) RELADVSR
+How often do you use the Internet to seek counseling from a religious or spiritual advisor?
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	408	1.076	0.316
+1) Never	382	93.6
+2) Rarely	22	5.4
+3) Monthly	3	0.7
+4) Weekly	1	0.2
+Missing	213
+
+
+51) RELEXPER
+How often do you use the Internet to help you meditate, pray, or worship?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	408	1.12	0.541
+1) Never	376	92.2
+2) Rarely	25	6.1
+3) Monthly	2	0.5
+4) Weekly	3	0.7
+5) Daily	1	0.2
+8) Don't Know	1	0.2
+Missing	213
+
+
+52) SUBRELIG
+In the next five years, do you expect to use the Internet instead of going to church?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	400	1.175	1.045
+1) No	384	96.0
+2) Yes	7	1.8
+8) Don't Know/Maybe	9	2.3
+Missing	221
+
+
+53) WHYSUB
+If you did use the Internet instead of going to church, what do you suppose would be your primary reason?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	318	4.358	2.647
+1) Internet is more convenient than going to church	89	28.0
+2) You can worship without fear of embarrassment	13	4.1
+3) There is more religious choice	15	4.7
+4) There is no religious authority, or	22	6.9
+5) Is there another reason?	98	30.8
+8) Don't Know	81	25.5
+Missing	303
+
+
+54) HCATT
+First, let me give you a general definition of a hate crime law. It is a law which states that if a major reason a defendant in a trial committed a criminal act was because he or she was prejudiced toward the victim, the defendant shall receive a more severe sentence.  To what extent would you support such a hate crime law in the state of Indiana?  Would you:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	614	3.184	1.359
+1) Strongly oppose such a law	83	13.5
+2) Somewhat oppose such a law	61	9.9
+3) Somewhat support such a law	214	34.9
+4) Strongly support such a law	235	38.3
+8) Don't Know	21	3.4
+Missing	7
+
+
+55) HCHOMOSX
+Do you believe that crimes against homosexuals should be included in hate crime laws?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	607	2.474	0.793
+1) No	115	18.9
+2) Not sure	89	14.7
+3) Yes	403	66.4
+Missing	14
+
+
+56) HCINCR
+'Hate crimes have increased in recent years.'  Do you:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	615	3.719	1.451
+1) Strongly disagree	14	2.3
+2) Disagree	118	19.2
+3) Neutral about this statement	127	20.7
+4) Agree	220	35.8
+5) Strongly agree with this statement	104	16.9
+8) Don't Know	32	5.2
+Missing	6
+
+
+57) HCSLUR
+If an individual yelled a racial or ethnic slur at a member of a minority group, should this be a violation of a hate crime law?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	615	1.61	0.777
+1) No	352	57.2
+2) Not sure	151	24.6
+3) Yes	112	18.2
+Missing	6
+
+
+58) HCFEAR
+Do you think hate crimes create fear in other minorities that they too might experience the same fate?  Would you say:
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	616	2.623	0.651
+1) No	58	9.4
+2) Not sure	116	18.8
+3) Yes	442	71.8
+Missing	5
+
+
+59) RESPPOOR
+How often do you think poor people are treated by financially comfortable people with the ordinary, everyday respect that they deserve?  Would you say just about:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	618	2.919	1.348
+1) Almost never	76	12.3
+2) Only now and then	138	22.3
+3) Some of the time	260	42.1
+4) Most of the time	111	18.0
+5) All the time	12	1.9
+8) Don't Know	21	3.4
+Missing	3
+
+
+60) DSRVPOOR
+Some people say that over the last few years poor people have gotten more than they deserve in this world.  Do you:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	616	2.45	1.252
+1) Strongly disagree	108	17.5
+2) Disagree	278	45.1
+3) Neutral about this statement	140	22.7
+4) Agree	64	10.4
+5) Strongly agree with this statement	13	2.1
+8) Don't Know	13	2.1
+Missing	5
+
+
+61) ENMYPOOR
+Some people say that poor people are their own worst enemy, that through their own actions they make their lives worse than they should be.  Do you:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	614	2.977	1.254
+1) Strongly disagree	54	8.8
+2) Disagree	195	31.8
+3) Neutral about this statement	148	24.1
+4) Agree	175	28.5
+5) Strongly agree with this statement	32	5.2
+8) Don't Know	10	1.6
+Missing	7
+
+
+62) PREFPOOR
+Some people say that because of past discrimination poor people should be given preference in hiring and promotion.  Do you:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	619	2.249	1.15
+1) Strongly disagree	123	19.9
+2) Disagree	330	53.3
+3) Neutral about this statement	106	17.1
+4) Agree	42	6.8
+5) Strongly agree with this statement	7	1.1
+8) Don't Know	11	1.8
+Missing	2
+
+
+63) PAYATTN
+When reading, watching, or listening to the news, how often do you pay attention to issues that especially affect women?  Would you say:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	618	1.972	1.036
+1) Very often	201	32.5
+2) Fairly often	292	47.2
+3) Not too often	98	15.9
+4) Never	19	3.1
+8) Don't Know	8	1.3
+Missing	3
+
+
+64) JOBOPPS
+In general, when comparing job opportunities for men and women who have the same education and experience, do you think that women have:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	620	3.587	0.981
+1) Much better job opportunities than men	10	1.6
+2) Better job opportunities than men	33	5.3
+3) About the same job opportunities as men	242	39.0
+4) Worse job opportunities than men	292	47.1
+5) Much worse job opportunities than men	30	4.8
+8) Don't Know	13	2.1
+Missing	1
+
+
+65) PAY
+In general, when comparing men and women who have similar jobs and education, do you think women are paid:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	619	3.889	0.911
+1) Much better than men	1	0.2
+2) Better than men	4	0.6
+3) About the same as men	169	27.3
+4) Worse than men	388	62.7
+5) Much worse than men	39	6.3
+8) Don't Know	18	2.9
+Missing	2
+
+
+66) FEMINIST
+Do you think of yourself as a feminist?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	617	1.457	0.78
+1) No	446	72.3
+2) Not sure	60	9.7
+3) Yes	111	18.0
+Missing	4
+
+
+67) RESPWOMN
+How often do you think women are treated by men with the ordinary, everyday respect that they deserve?  Would you say just about:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	619	3.525	1.103
+1) Almost never	18	2.9
+2) Only now and then	50	8.1
+3) Some of the time	233	37.6
+4) Most of the time	276	44.6
+5) All the time	25	4.0
+8) Don't Know	17	2.7
+Missing	2
+
+
+68) DSRVWOMN
+Some people say that over the last few years women have gotten more than they deserve in this world.  Do you:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	616	2.135	1.001
+1) Strongly disagree	125	20.3
+2) Disagree	354	57.5
+3) Neutral about this statement	100	16.2
+4) Agree	24	3.9
+5) Strongly agree with this statement	6	1.0
+8) Don't Know	7	1.1
+Missing	5
+
+
+69) ENMYWOMN
+Some people say that women are their own worst enemy, that through their own actions they make their lives worse than they should be.  Do you:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	616	2.571	1.217
+1) Strongly disagree	88	14.3
+2) Disagree	280	45.5
+3) Neutral about this statement	108	17.5
+4) Agree	112	18.2
+5) Strongly agree with this statement	20	3.2
+8) Don't Know	8	1.3
+Missing	5
+
+
+70) PREFWOMN
+Some people say that because of past discrimination women should be given preference in hiring and promotion.  Do you:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	620	2.198	0.968
+1) Strongly disagree	110	17.7
+2) Disagree	363	58.5
+3) Neutral about this statement	82	13.2
+4) Agree	56	9.0
+5) Strongly agree with this statement	5	0.8
+8) Don't Know	4	0.6
+Missing	1
+
+
+71) ROLESHAR
+In general, men and women should share equally in the role of being the breadwinner for the family.  Do you:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	618	3.489	1.19
+1) Strongly disagree	21	3.4
+2) Disagree	128	20.7
+3) Neutral about this statement	112	18.1
+4) Agree	269	43.5
+5) Strongly agree with this statement	79	12.8
+8) Don't Know	9	1.5
+Missing	3
+
+
+72) BREADWIN
+Even if a wife works outside the home, the husband should be the main breadwinner and the wife should have the responsibility for the home and children.  Do you:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	620	2.561	1.35
+1) Strongly disagree	115	18.5
+2) Disagree	278	44.8
+3) Neutral about this statement	68	11.0
+4) Agree	112	18.1
+5) Strongly agree with this statement	37	6.0
+8) Don't Know	10	1.6
+Missing	1
+
+
+73) JOBSFEW
+If jobs are scarce, a woman should not have a job if her husband can support her.  Do you:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	619	2.633	1.242
+1) Strongly disagree	86	13.9
+2) Disagree	269	43.5
+3) Neutral about this statement	107	17.3
+4) Agree	124	20.0
+5) Strongly agree with this statement	25	4.0
+8) Don't Know	8	1.3
+Missing	2
+
+
+74) RESPBLCK
+How often do you think black people are treated by white people with the ordinary, everyday respect that they deserve?  Would you say just about:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	614	3.433	1.227
+1) Almost never	17	2.8
+2) Only now and then	75	12.2
+3) Some of the time	263	42.8
+4) Most of the time	215	35.0
+5) All the time	20	3.3
+8) Don't Know	24	3.9
+Missing	7
+
+
+75) DSRVBLCK
+Some people say that over the last few years black people have gotten more than they deserve in this world.  Do you:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	614	2.526	1.117
+1) Strongly disagree	66	10.7
+2) Disagree	313	51.0
+3) Neutral about this statement	125	20.4
+4) Agree	87	14.2
+5) Strongly agree with this statement	16	2.6
+8) Don't Know	7	1.1
+Missing	7
+
+
+76) ENMYBLCK
+Some people say that black people are their own worst enemy, that through their own actions they make their lives worse than they should be.  Do you:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	617	3.019	1.246
+1) Strongly disagree	49	7.9
+2) Disagree	200	32.4
+3) Neutral about this statement	129	20.9
+4) Agree	195	31.6
+5) Strongly agree with this statement	35	5.7
+8) Don't Know	9	1.5
+Missing	4
+
+
+77) PREFBLCK
+Some people say that because of past discrimination black people should be given preference in hiring and promotion.  Do you:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	619	2.026	0.955
+1) Strongly disagree	153	24.7
+2) Disagree	364	58.8
+3) Neutral about this statement	59	9.5
+4) Agree	34	5.5
+5) Strongly agree with this statement	4	0.6
+8) Don't Know	5	0.8
+Missing	2
+
+
+78) BLAME
+Some people say that all people have to take responsibility for what happens to them in this world and not blame society if they wind up with less than they hoped for.  Do you:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	619	4.22	0.957
+1) Strongly disagree	7	1.1
+2) Disagree	34	5.5
+3) Neutral about this statement	44	7.1
+4) Agree	286	46.2
+5) Strongly agree with this statement	241	38.9
+8) Don't Know	7	1.1
+Missing	2
+
+
+79) TOUGHEST
+When you think about blacks, women, and poor people in general terms, which group do you think usually has it the toughest in this society these days?  Is it:
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	603	2.831	1.638
+1) Blacks	135	22.4
+2) Women	42	7.0
+3) The poor	384	63.7
+8) Don't Know	42	7.0
+Missing	18
+
+
+80) I-SEX
+[RECORD RESPONDENT'S SEX BY VOICE IDENTIFICATION] (for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	621	1.517	0.5
+1) Male	300	48.3
+2) Female	321	51.7
+
+
+81) I-MARITAL
+Are you currently married, widowed, separated, divorced, or have you never been married?  (for use with online analysis) 
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	620	2.135	1.625
+1) Married	377	60.8
+2) Widowed	68	11.0
+3) Separated	7	1.1
+4) Divorced	50	8.1
+5) Never been married	118	19.0
+Missing	1
+
+
+82) I-AGE
+What is your age, please?  (recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	611	3.268	1.278
+1) 18-24	65	10.6
+2) 25-36	117	19.1
+3) 37-49	144	23.6
+4) 50-64	159	26.0
+5) 65+	126	20.6
+Missing	10
+
+
+83) I-INCOME
+I'm going to read you a series of income categories.  Please stop me when I get to the category that includes your total household income last year, from all sources, before taxes?  (IF RESPONDENT GIVES EXACT INCOME, CHOOSE FIRST CATEGORY THAT INCLUDES THAT AMOUNT.)  (recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	536	2.545	1.037
+1) 0-20K	108	20.1
+2) 20-40K	141	26.3
+3) 40-70K	174	32.5
+4) 70K+	113	21.1
+Missing	85
+
+
+84) I-RELIGION
+What is your religious preference? Would you say you are...  (recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	617	2.141	0.663
+1) Catholic	69	11.2
+2) Protestant	421	68.2
+3) Jewish or other	98	15.9
+4) None	29	4.7
+Missing	4
+
+
+85) I-EDUC
+What was the last grade you completed in school?  (recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	612	3.036	1.178
+1) Less than high school	36	5.9
+2) High school	214	35.0
+3) Some college	145	23.7
+4) College	126	20.6
+5) Graduate degree	91	14.9
+Missing	9
+
+

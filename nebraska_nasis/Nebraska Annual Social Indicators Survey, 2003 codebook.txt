@@ -1,0 +1,6837 @@
+Data File: NASIS03 (Full Data Codebook)
+
+1) RESPID
+Respondent identification number
+RANGE: 1001 to 3426
+	N	Mean	Std. Deviation
+Total	2426	2213.5	700.47
+
+
+2) SEXR
+What is your sex?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2426	3.265	1.985
+1) Male	1053	43.4
+5) Female	1372	56.6
+8) Don't know	1	0.0
+
+
+3) INTRO2
+Have I reached [telephone number]? [IF (ANSWER equals 5) skip to 'nonqual2']
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	2426	1	0
+1) Yes	2426	100.0
+
+
+4) INTRO2A
+Have I reached you on your HOME phone? I mean that this is NOT a teen line or a second line used for a home business. [IF (ANSWER equals 5) skip to 'nonqual2']
+RANGE: 1 to 1
+	N	Mean	Std. Deviation
+Total	2426	1	0
+1) Yes	2426	100.0
+
+
+5) AGER
+Please tell me how old you were on your last birthday.
+RANGE: 19 to 999
+	N	Mean	Std. Deviation
+Total	2426	55.638	77.704
+19) 	32	1.3
+20) 	22	0.9
+21) 	24	1.0
+22) 	26	1.1
+23) 	30	1.2
+24) 	41	1.7
+25) 	26	1.1
+26) 	26	1.1
+27) 	36	1.5
+28) 	28	1.2
+29) 	28	1.2
+30) 	44	1.8
+31) 	40	1.6
+32) 	44	1.8
+33) 	31	1.3
+34) 	49	2.0
+35) 	52	2.1
+36) 	32	1.3
+37) 	42	1.7
+38) 	38	1.6
+39) 	49	2.0
+40) 	62	2.6
+41) 	46	1.9
+42) 	53	2.2
+43) 	54	2.2
+44) 	50	2.1
+45) 	63	2.6
+46) 	51	2.1
+47) 	50	2.1
+48) 	53	2.2
+49) 	41	1.7
+50) 	54	2.2
+51) 	43	1.8
+52) 	54	2.2
+53) 	51	2.1
+54) 	44	1.8
+55) 	52	2.1
+56) 	49	2.0
+57) 	41	1.7
+58) 	46	1.9
+59) 	37	1.5
+60) 	43	1.8
+61) 	49	2.0
+62) 	25	1.0
+63) 	34	1.4
+64) 	26	1.1
+65) 	25	1.0
+66) 	27	1.1
+67) 	22	0.9
+68) 	25	1.0
+69) 	24	1.0
+70) 	37	1.5
+71) 	36	1.5
+72) 	18	0.7
+73) 	26	1.1
+74) 	26	1.1
+75) 	23	0.9
+76) 	26	1.1
+77) 	26	1.1
+78) 	16	0.7
+79) 	15	0.6
+80) 	16	0.7
+81) 	23	0.9
+82) 	15	0.6
+83) 	13	0.5
+84) 	14	0.6
+85) 	12	0.5
+86) 	10	0.4
+87) 	5	0.2
+88) 	5	0.2
+89) 	6	0.2
+90) 	2	0.1
+91) 	1	0.0
+92) 	2	0.1
+93) 	2	0.1
+95) 	1	0.0
+888) Don't know	2	0.1
+999) Refused	14	0.6
+
+
+6) MARR
+Are you married, never married, divorced, widowed, or separated? [if (marr equals 1) skip to pier]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.773	1.127
+1) Married	1467	60.5
+2) Never married	370	15.3
+3) Divorced	311	12.8
+4) Widowed	242	10.0
+5) Separated	31	1.3
+6) Married, living apart	2	0.1
+9) Refused	3	0.1
+
+
+7) COHA
+Are you currently living with someone in a marriage-like relationship?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	959	4.503	1.354
+1) Yes	122	12.7
+5) No	834	87.0
+8) Don't know	1	0.1
+9) Refused	2	0.2
+Missing	1467
+
+
+8) PIER
+How are you related to the principal income earner in your household?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.537	1.012
+1) Principal Income Earner (P.I.E.)	1587	65.4
+2) Spouse of P.I.E.	646	26.6
+3) Child/Stepchild of P.I.E.	63	2.6
+4) Relative of P.I.E. (SPECIFY)	22	0.9
+5) Other (SPECIFY)	98	4.0
+8) Don't know	8	0.3
+9) Refused	2	0.1
+
+
+9) EDR
+How many years of schooling have you completed? [if (answer is less than or equal to 10) skip to gedr] [if (answer is less than or equal to 22) skip to degr_1]
+RANGE: 2 to 88
+	N	Mean	Std. Deviation
+Total	2426	14.249	3.391
+2) Second grade	2	0.1
+6) Sixth grade	6	0.2
+7) Seventh grade	1	0.0
+8) Eighth grade/Elementary only	25	1.0
+9) Ninth grade	16	0.7
+10) 10th grade	28	1.2
+11) 11th grade	28	1.2
+12) 12th grade	737	30.4
+13) College freshman	262	10.8
+14) College sophomore/Associate's degree	406	16.7
+15) College junior	135	5.6
+16) College senior/Bachelor's degree	421	17.4
+17) First year of graduate school	69	2.8
+18) Second year of graduate school/Master's degree	160	6.6
+19) Third year of graduate school	25	1.0
+20) Fourth year of graduate school	36	1.5
+21) Fifth year of graduate school	11	0.5
+22) Sixth year of graduate school/Doctorate degree (Ph.D.)	50	2.1
+23) GED/GED equivalent	6	0.2
+88) Don't know	2	0.1
+
+
+10) GEDR
+Do you have a high school diploma or GED certificate? [if (answer is greater than 0) skip to hisp1]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	80	4.3	1.657
+1) Yes	15	18.8
+5) No	64	80.0
+9) Refused	1	1.3
+Missing	2346
+
+
+11) DEGR_1
+What is the highest degree you have attained?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2346	3.521	1.423
+1) No diploma	26	1.1
+2) High school diploma/G.E.D.	787	33.5
+3) Some college, but no degree	447	19.1
+4) Technical/Associate/Junior college (two year, LPN)	347	14.8
+5) Bachelor's degree (four year, BA, BS, RN)	506	21.6
+6) Graduate degree (Master's, MA, Doctorate, Ph.D.)	232	9.9
+9) Refused	1	0.0
+Missing	80
+
+
+12) HISP1
+Do you consider yourself to be Hispanic or Latino?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	4.911	0.62
+1) Yes	57	2.3
+5) No	2366	97.5
+8) Don't know	1	0.0
+9) Refused	2	0.1
+
+
+13) RACE_1
+What race or races do you consider yourself to be? White (Caucasian)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.944	0.23
+0) Not checked	136	5.6
+1) Checked	2290	94.4
+
+
+14) RACE_2
+What race or races do you consider yourself to be? Black or African American
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.025	0.155
+0) Not checked	2366	97.5
+1) Checked	60	2.5
+
+
+15) RACE_3
+What race or races do you consider yourself to be? Asian
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.007	0.086
+0) Not checked	2408	99.3
+1) Checked	18	0.7
+
+
+16) RACE_4
+What race or races do you consider yourself to be? American Indian or Alaska Native
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.009	0.097
+0) Not checked	2403	99.1
+1) Checked	23	0.9
+
+
+17) RACE_5
+What race or races do you consider yourself to be? Native Hawaiian or other Pacific Islander
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.002	0.045
+0) Not checked	2421	99.8
+1) Checked	5	0.2
+
+
+18) RACE_6
+What race or races do you consider yourself to be? Some other national origin / OTHER-SPECIFY
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.004	0.064
+0) Not checked	2416	99.6
+1) Checked	10	0.4
+
+
+19) RACE_7
+What race or races do you consider yourself to be? Don't know
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.003	0.054
+0) Not checked	2419	99.7
+1) Checked	7	0.3
+
+
+20) RACE_8
+What race or races do you consider yourself to be? Refused
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.005	0.07
+0) Not checked	2414	99.5
+1) Checked	12	0.5
+
+
+21) GP1
+Have you visited any public parks or recreation sites in Nebraska in the previous year? [if (group is smaller than 3) skip to GPQ1a] [if (answer is greater than 1) skip to GP3a]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	606	2.32	1.896
+1) Yes	407	67.2
+5) No	198	32.7
+9) Refused	1	0.2
+Missing	1820
+
+
+22) GP2
+Which did you visit the most frequently - federal, state or local sites in Nebraska?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	407	2.474	0.89
+1) Federal	11	2.7
+2) State	231	56.8
+3) Local	150	36.9
+4) Other [specify]	9	2.2
+8) Don't know	6	1.5
+Missing	2019
+
+
+23) GP3A
+Do you generally participate in outdoor activities by yourself, with friends, with family, or with both friends and family?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	606	3.731	1.522
+1) Alone/self	44	7.3
+2) Friends	39	6.4
+3) Family	133	21.9
+4) Both friends and family	347	57.3
+8) Don't know	35	5.8
+9) Refused	8	1.3
+Missing	1820
+
+
+24) GP23
+Overall, during the past 12 months, have you participated in outdoor activities more, less, or about the same as in previous years?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	606	2.558	1.022
+1) More	70	11.6
+2) Less	184	30.4
+3) About the same	341	56.3
+8) Don't know	10	1.7
+9) Refused	1	0.2
+Missing	1820
+
+
+25) GP22_2
+During the last 12 months, (that is, from December 2002 to December 2003), how many days did you... visit *State Parks* or *Recreation Areas* which required you to have a Nebraska Park Entry Permit (purchased for $2.50 per day or $14 for an annual permit)? [if (answer is equal to 0) skip to GP34] [if (answer is greater than 365) skip to GP34]
+RANGE: 0 to 888
+	N	Mean	Std. Deviation
+Total	606	11.757	80.598
+0) None - Zero days	262	43.2
+1) 	54	8.9
+2) 	58	9.6
+3) 	40	6.6
+4) 	32	5.3
+5) 	38	6.3
+6) 	18	3.0
+7) 	12	2.0
+8) 	3	0.5
+9) 	1	0.2
+10) 	19	3.1
+11) 	1	0.2
+12) 	9	1.5
+14) 	8	1.3
+15) 	9	1.5
+17) 	1	0.2
+20) 	6	1.0
+21) 	1	0.2
+24) 	2	0.3
+25) 	5	0.8
+30) 	11	1.8
+35) 	1	0.2
+36) 	1	0.2
+40) 	3	0.5
+50) 	1	0.2
+52) 	2	0.3
+90) 	1	0.2
+100) 	2	0.3
+888) Don't know	5	0.8
+Missing	1820
+
+
+26) GP30
+You mentioned that you visited state parks or recreation areas which require you to have a Nebraska Park Entry Permit. On average, how much do you estimate you spent for gasoline during each trip? Would you say...
+RANGE: 1 to 88
+	N	Mean	Std. Deviation
+Total	339	5.566	14.459
+1) $0 - Nothing	13	3.8
+2) $1 to $10 ($.01-$9.99)	141	41.6
+3) $10 to $20 ($10-19.99)	82	24.2
+4) $20 to $30 ($20-29.99)	36	10.6
+5) $30 to $40 ($30-39.99)	20	5.9
+6) $40 or more ($40+)	37	10.9
+88) Don't know	10	2.9
+Missing	2087
+
+
+27) GP31
+On average, how much money would you say you spent for food, that is, for groceries or restaurant dining during each trip? Would you say...
+RANGE: 1 to 88
+	N	Mean	Std. Deviation
+Total	339	5.717	12.916
+1) $0 - Nothing	38	11.2
+2) $1 to $10 ($.01-$9.99)	48	14.2
+3) $10 to $20 ($10-19.99)	66	19.5
+4) $20 to $30 ($20-29.99)	70	20.6
+5) $30 to $40 ($30-39.99)	32	9.4
+6) $40 or more ($40+)	77	22.7
+88) Don't know	8	2.4
+Missing	2087
+
+
+28) GP32
+How much money would you say you spent on average for lodging - camping, cabins, or motels - during each trip? Would you say...
+RANGE: 1 to 88
+	N	Mean	Std. Deviation
+Total	339	3.894	11.473
+1) $0 - Nothing	199	58.7
+2) $1 to $10 ($.01-$9.99)	21	6.2
+3) $10 to $20 ($10-19.99)	30	8.8
+4) $20 to $30 ($20-29.99)	15	4.4
+5) $30 to $40 ($30-39.99)	7	2.1
+6) $40 or more ($40+)	61	18.0
+88) Don't know	6	1.8
+Missing	2087
+
+
+29) GP33
+How much money would you say you spent for all other trip related expenses - this might include permits, entertainment or souvenirs on average for each trip? Would you say...
+RANGE: 1 to 88
+	N	Mean	Std. Deviation
+Total	339	5.522	12.959
+1) $0 - Nothing	43	12.7
+2) $1 to $10 ($.01-$9.99)	69	20.4
+3) $10 to $20 ($10-19.99)	78	23.0
+4) $20 to $30 ($20-29.99)	37	10.9
+5) $30 to $40 ($30-39.99)	19	5.6
+6) $40 or more ($40+)	85	25.1
+88) Don't know	8	2.4
+Missing	2087
+
+
+30) GP34
+Now I'd like to ask you some questions about your recreational equipment and gear. Do you own or have you owned items such as recreational vehicles, tents, or other related camping gear or have you owned such gear during the last year? [if (answer is greater than 1) skip to GP36]
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	606	3.018	2.01
+1) Yes	301	49.7
+5) No	304	50.2
+8) Don't know	1	0.2
+Missing	1820
+
+
+31) GP35
+Approximately how much money did you spend during the past year either purchasing or upgrading camping items such as recreational vehicles, tents, or other related camping gear? Would you say...
+RANGE: 1 to 88
+	N	Mean	Std. Deviation
+Total	301	4.628	9.968
+1) $0 - Nothing	129	42.9
+2) $1 to $10 ($.01-$9.99)	5	1.7
+3) $10 to $20 ($10-19.99)	11	3.7
+4) $20 to $30 ($20-29.99)	16	5.3
+5) $30 to $40 ($30-39.99)	11	3.7
+6) $40 or more ($40+)	125	41.5
+88) Don't know	4	1.3
+Missing	2125
+
+
+32) GP36
+Do you own or have you owned boating items such as boats, boating motors, boat trailers, or related recreational boating gear during the past year?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	606	4.365	1.475
+1) Yes	97	16.0
+5) No	508	83.8
+8) Don't know	1	0.2
+Missing	1820
+
+
+33) GPP9A
+How satisfied are you with the following Nebraska Game and Parks Commission programs and activities... Enforcement of fishing, hunting, boating and state park regulations...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	606	2.988	2.643
+1) Very satisfied	204	33.7
+2) Somewhat satisfied	239	39.4
+3) Somewhat dissatisfied	28	4.6
+4) Very dissatisfied	9	1.5
+8) Don't know	125	20.6
+9) Refused	1	0.2
+Missing	1820
+
+
+34) GPP9J
+How satisfied are you with the following Nebraska Game and Parks Commission programs and activities... Acquisition of additional land and water for public use through purchase, lease, and easement...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	606	3.726	2.792
+1) Very satisfied	91	15.0
+2) Somewhat satisfied	269	44.4
+3) Somewhat dissatisfied	56	9.2
+4) Very dissatisfied	15	2.5
+8) Don't know	174	28.7
+9) Refused	1	0.2
+Missing	1820
+
+
+35) GPP9M
+How satisfied are you with the following Nebraska Game and Parks Commission programs and activities... Information on fishing, hunting, and park opportunities...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	606	2.81	2.522
+1) Very satisfied	213	35.1
+2) Somewhat satisfied	249	41.1
+3) Somewhat dissatisfied	25	4.1
+4) Very dissatisfied	9	1.5
+8) Don't know	109	18.0
+9) Refused	1	0.2
+Missing	1820
+
+
+36) GPP9N
+How satisfied are you with the following Nebraska Game and Parks Commission programs and activities... Information on fisheries, wildlife and park programs and projects...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	606	3.21	2.718
+1) Very satisfied	171	28.2
+2) Somewhat satisfied	247	40.8
+3) Somewhat dissatisfied	41	6.8
+4) Very dissatisfied	5	0.8
+8) Don't know	141	23.3
+9) Refused	1	0.2
+Missing	1820
+
+
+37) GPQ1A
+For the next few questions, please indicate how important each of the following resources is to your quality of life (health, family, well-being, environment, community) in Nebraska... Natural areas... [if (group equals 3) skip to GPBF1]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1820	1.588	0.907
+1) Very important	966	53.1
+2) Somewhat important	759	41.7
+3) Somewhat unimportant	48	2.6
+4) Not at all important	29	1.6
+8) Don't know	16	0.9
+9) Refused	2	0.1
+Missing	606
+
+
+38) GPQ1C
+For the next few questions, please indicate how important each of the following resources is to your quality of life (health, family, well-being, environment, community) in Nebraska... Prairies (grasslands)...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1820	1.703	0.971
+1) Very important	892	49.0
+2) Somewhat important	734	40.3
+3) Somewhat unimportant	101	5.5
+4) Not at all important	77	4.2
+8) Don't know	16	0.9
+Missing	606
+
+
+39) GPQ1D
+For the next few questions, please indicate how important each of the following resources is to your quality of life (health, family, well-being, environment, community) in Nebraska... Wetlands...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1820	1.971	1.291
+1) Very important	729	40.1
+2) Somewhat important	762	41.9
+3) Somewhat unimportant	166	9.1
+4) Not at all important	117	6.4
+8) Don't know	45	2.5
+9) Refused	1	0.1
+Missing	606
+
+
+40) GPQ1E
+For the next few questions, please indicate how important each of the following resources is to your quality of life (health, family, well-being, environment, community) in Nebraska... Rivers and streams...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1820	1.319	0.691
+1) Very important	1345	73.9
+2) Somewhat important	427	23.5
+3) Somewhat unimportant	20	1.1
+4) Not at all important	21	1.2
+8) Don't know	6	0.3
+9) Refused	1	0.1
+Missing	606
+
+
+41) GPQ1F
+For the next few questions, please indicate how important each of the following resources is to your quality of life (health, family, well-being, environment, community) in Nebraska... Lakes and reservoirs...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1820	1.346	0.714
+1) Very important	1312	72.1
+2) Somewhat important	447	24.6
+3) Somewhat unimportant	29	1.6
+4) Not at all important	25	1.4
+8) Don't know	6	0.3
+9) Refused	1	0.1
+Missing	606
+
+
+42) GPQ1G
+For the next few questions, please indicate how important each of the following resources is to your quality of life (health, family, well-being, environment, community) in Nebraska... Clean water...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1820	1.044	0.262
+1) Very important	1748	96.0
+2) Somewhat important	70	3.8
+4) Not at all important	1	0.1
+8) Don't know	1	0.1
+Missing	606
+
+
+43) GPQ1J
+For the next few questions, please indicate how important each of the following resources is to your quality of life (health, family, well-being, environment, community) in Nebraska... State Parks...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1820	1.484	0.753
+1) Very important	1064	58.5
+2) Somewhat important	696	38.2
+3) Somewhat unimportant	34	1.9
+4) Not at all important	17	0.9
+8) Don't know	7	0.4
+9) Refused	2	0.1
+Missing	606
+
+
+44) GPQ2C
+For the next few questions, please indicate how important each of the following resources is to your quality of life (health, family, well-being, environment, community) in Nebraska... Fishing...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1820	2.028	1.102
+1) Very important	661	36.3
+2) Somewhat important	726	39.9
+3) Somewhat unimportant	208	11.4
+4) Not at all important	212	11.6
+8) Don't know	11	0.6
+9) Refused	2	0.1
+Missing	606
+
+
+45) GPQ2D
+For the next few questions, please indicate how important each of the following resources is to your quality of life (health, family, well-being, environment, community) in Nebraska... Hiking and biking...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1820	2.113	1.028
+1) Very important	506	27.8
+2) Somewhat important	877	48.2
+3) Somewhat unimportant	199	10.9
+4) Not at all important	229	12.6
+8) Don't know	9	0.5
+Missing	606
+
+
+46) GPQ2E
+For the next few questions, please indicate how important each of the following resources is to your quality of life (health, family, well-being, environment, community) in Nebraska... Power boating and skiing in lakes...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1820	2.662	1.118
+1) Very important	246	13.5
+2) Somewhat important	695	38.2
+3) Somewhat unimportant	352	19.3
+4) Not at all important	516	28.4
+8) Don't know	10	0.5
+9) Refused	1	0.1
+Missing	606
+
+
+47) GPQ2F
+For the next few questions, please indicate how important each of the following resources is to your quality of life (health, family, well-being, environment, community) in Nebraska... Observing wildlife...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1820	1.672	0.846
+1) Very important	869	47.7
+2) Somewhat important	783	43.0
+3) Somewhat unimportant	93	5.1
+4) Not at all important	68	3.7
+8) Don't know	6	0.3
+9) Refused	1	0.1
+Missing	606
+
+
+48) GPQ2G
+For the next few questions, please indicate how important each of the following resources is to your quality of life (health, family, well-being, environment, community) in Nebraska... Farming...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1820	1.362	0.795
+1) Very important	1385	76.1
+2) Somewhat important	304	16.7
+3) Somewhat unimportant	59	3.2
+4) Not at all important	67	3.7
+8) Don't know	5	0.3
+Missing	606
+
+
+49) GPQ2H
+For the next few questions, please indicate how important each of the following resources is to your quality of life (health, family, well-being, environment, community) in Nebraska... Boating and floating in rivers...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1820	2.427	1.109
+1) Very important	302	16.6
+2) Somewhat important	873	48.0
+3) Somewhat unimportant	273	15.0
+4) Not at all important	357	19.6
+8) Don't know	13	0.7
+9) Refused	2	0.1
+Missing	606
+
+
+50) GPQ2I
+For the next few questions, please indicate how important each of the following resources is to your quality of life (health, family, well-being, environment, community) in Nebraska... Hunting...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1820	2.419	1.207
+1) Very important	454	24.9
+2) Somewhat important	669	36.8
+3) Somewhat unimportant	230	12.6
+4) Not at all important	454	24.9
+8) Don't know	13	0.7
+Missing	606
+
+
+51) GPQ2J
+For the next few questions, please indicate how important each of the following resources is to your quality of life (health, family, well-being, environment, community) in Nebraska... Camping...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1820	2.121	1.072
+1) Very important	559	30.7
+2) Somewhat important	802	44.1
+3) Somewhat unimportant	167	9.2
+4) Not at all important	285	15.7
+8) Don't know	7	0.4
+Missing	606
+
+
+52) GP6
+During the last 12 months, (that is, from December 2002 to December 2003), how many days did you... go boating?
+RANGE: 0 to 180
+	N	Mean	Std. Deviation
+Total	1820	4.779	14.822
+0) None - Zero days	1163	63.9
+1) 	95	5.2
+2) 	100	5.5
+3) 	74	4.1
+4) 	37	2.0
+5) 	56	3.1
+6) 	27	1.5
+7) 	19	1.0
+8) 	11	0.6
+9) 	2	0.1
+10) 	43	2.4
+11) 	2	0.1
+12) 	18	1.0
+14) 	13	0.7
+15) 	14	0.8
+17) 	2	0.1
+18) 	1	0.1
+20) 	25	1.4
+21) 	3	0.2
+24) 	3	0.2
+25) 	16	0.9
+27) 	1	0.1
+30) 	30	1.6
+35) 	9	0.5
+36) 	1	0.1
+40) 	17	0.9
+45) 	4	0.2
+50) 	9	0.5
+55) 	1	0.1
+60) 	3	0.2
+63) 	1	0.1
+90) 	5	0.3
+100) 	5	0.3
+104) 	1	0.1
+110) 	1	0.1
+120) 	2	0.1
+135) 	1	0.1
+150) 	4	0.2
+180) 	1	0.1
+Missing	606
+
+
+53) GP9
+During the last 12 months, (that is, from December 2002 to December 2003), how many days did you... go hunting?
+RANGE: 0 to 888
+	N	Mean	Std. Deviation
+Total	1820	4.088	31.802
+0) None - Zero days	1455	79.9
+1) 	27	1.5
+2) 	43	2.4
+3) 	30	1.6
+4) 	19	1.0
+5) 	25	1.4
+6) 	16	0.9
+7) 	23	1.3
+8) 	4	0.2
+10) 	30	1.6
+11) 	1	0.1
+12) 	14	0.8
+14) 	11	0.6
+15) 	15	0.8
+16) 	1	0.1
+20) 	28	1.5
+21) 	2	0.1
+24) 	2	0.1
+25) 	1	0.1
+27) 	1	0.1
+28) 	1	0.1
+30) 	32	1.8
+35) 	3	0.2
+36) 	1	0.1
+40) 	6	0.3
+42) 	1	0.1
+45) 	4	0.2
+50) 	5	0.3
+60) 	8	0.4
+75) 	1	0.1
+80) 	1	0.1
+90) 	3	0.2
+100) 	2	0.1
+150) 	1	0.1
+300) 	1	0.1
+888) Don't know	2	0.1
+Missing	606
+
+
+54) GP50
+During the last 12 months, (that is, from December 2002 to December 2003), how many days did you... go canoeing?
+RANGE: 0 to 30
+	N	Mean	Std. Deviation
+Total	1820	0.363	1.772
+0) None - Zero days	1623	89.2
+1) 	79	4.3
+2) 	46	2.5
+3) 	20	1.1
+4) 	10	0.5
+5) 	18	1.0
+6) 	4	0.2
+7) 	4	0.2
+10) 	6	0.3
+12) 	2	0.1
+14) 	2	0.1
+15) 	2	0.1
+20) 	1	0.1
+25) 	1	0.1
+30) 	2	0.1
+Missing	606
+
+
+55) GP10
+During the last 12 months, (that is, from December 2002 to December 2003), how many days did you... go swimming?
+RANGE: 0 to 888
+	N	Mean	Std. Deviation
+Total	1820	12.982	36.303
+0) None - Zero days	813	44.7
+1) 	46	2.5
+2) 	106	5.8
+3) 	56	3.1
+4) 	37	2.0
+5) 	90	4.9
+6) 	52	2.9
+7) 	18	1.0
+8) 	13	0.7
+9) 	2	0.1
+10) 	122	6.7
+11) 	2	0.1
+12) 	45	2.5
+13) 	3	0.2
+14) 	17	0.9
+15) 	23	1.3
+16) 	3	0.2
+17) 	1	0.1
+20) 	85	4.7
+21) 	3	0.2
+23) 	1	0.1
+24) 	4	0.2
+25) 	17	0.9
+26) 	1	0.1
+27) 	1	0.1
+28) 	1	0.1
+30) 	76	4.2
+33) 	1	0.1
+35) 	9	0.5
+36) 	5	0.3
+40) 	25	1.4
+45) 	10	0.5
+50) 	35	1.9
+55) 	1	0.1
+59) 	1	0.1
+60) 	27	1.5
+65) 	4	0.2
+70) 	1	0.1
+72) 	1	0.1
+75) 	2	0.1
+80) 	3	0.2
+90) 	22	1.2
+100) 	13	0.7
+120) 	5	0.3
+150) 	4	0.2
+170) 	1	0.1
+200) 	3	0.2
+250) 	2	0.1
+255) 	1	0.1
+300) 	1	0.1
+365) Every day	4	0.2
+888) Don't know	1	0.1
+Missing	606
+
+
+56) GP51
+During the last 12 months, (that is, from December 2002 to December 2003), how many days did you... go RV camping?
+RANGE: 0 to 888
+	N	Mean	Std. Deviation
+Total	1820	3.502	31.07
+0) None - Zero days	1478	81.2
+1) 	51	2.8
+2) 	50	2.7
+3) 	24	1.3
+4) 	17	0.9
+5) 	23	1.3
+6) 	18	1.0
+7) 	17	0.9
+8) 	3	0.2
+10) 	30	1.6
+11) 	1	0.1
+12) 	4	0.2
+14) 	16	0.9
+15) 	6	0.3
+16) 	2	0.1
+20) 	20	1.1
+21) 	4	0.2
+24) 	1	0.1
+25) 	3	0.2
+28) 	1	0.1
+30) 	17	0.9
+35) 	3	0.2
+36) 	1	0.1
+40) 	3	0.2
+45) 	2	0.1
+50) 	4	0.2
+55) 	1	0.1
+60) 	6	0.3
+70) 	1	0.1
+75) 	1	0.1
+90) 	5	0.3
+100) 	1	0.1
+104) 	1	0.1
+110) 	1	0.1
+120) 	2	0.1
+888) Don't know	2	0.1
+Missing	606
+
+
+57) GP52
+During the last 12 months, (that is, from December 2002 to December 2003), how many days did you... go for a recreational walk?
+RANGE: 0 to 888
+	N	Mean	Std. Deviation
+Total	1820	75.116	133.007
+0) None - Zero days	324	17.8
+1) 	16	0.9
+2) 	76	4.2
+3) 	48	2.6
+4) 	22	1.2
+5) 	83	4.6
+6) 	42	2.3
+7) 	16	0.9
+8) 	7	0.4
+10) 	94	5.2
+11) 	2	0.1
+12) 	58	3.2
+13) 	4	0.2
+14) 	6	0.3
+15) 	38	2.1
+16) 	2	0.1
+20) 	99	5.4
+21) 	3	0.2
+24) 	8	0.4
+25) 	32	1.8
+26) 	2	0.1
+27) 	1	0.1
+28) 	1	0.1
+30) 	134	7.4
+31) 	1	0.1
+35) 	8	0.4
+36) 	4	0.2
+40) 	41	2.3
+45) 	7	0.4
+48) 	2	0.1
+50) 	82	4.5
+52) 	15	0.8
+55) 	1	0.1
+56) 	1	0.1
+60) 	50	2.7
+65) 	3	0.2
+70) 	4	0.2
+75) 	13	0.7
+80) 	4	0.2
+88) 	2	0.1
+90) 	26	1.4
+95) 	2	0.1
+100) 	95	5.2
+104) 	6	0.3
+110) 	2	0.1
+120) 	8	0.4
+125) 	1	0.1
+130) 	2	0.1
+135) 	8	0.4
+140) 	1	0.1
+150) 	41	2.3
+155) 	1	0.1
+156) 	2	0.1
+160) 	1	0.1
+165) 	1	0.1
+166) 	1	0.1
+170) 	1	0.1
+175) 	4	0.2
+180) 	8	0.4
+182) 	1	0.1
+183) 	1	0.1
+185) 	1	0.1
+200) 	53	2.9
+208) 	1	0.1
+240) 	2	0.1
+247) 	1	0.1
+250) 	16	0.9
+253) 	1	0.1
+260) 	3	0.2
+275) 	2	0.1
+280) 	1	0.1
+300) 	26	1.4
+325) 	2	0.1
+340) 	1	0.1
+350) 	3	0.2
+365) Every day	118	6.5
+888) Don't know	20	1.1
+Missing	606
+
+
+58) GP53
+During the last 12 months, (that is, from December 2002 to December 2003), how many days did you... walk a pet?
+RANGE: 0 to 888
+	N	Mean	Std. Deviation
+Total	1820	49.147	112.437
+0) None - Zero days	1124	61.8
+1) 	10	0.5
+2) 	21	1.2
+3) 	20	1.1
+4) 	7	0.4
+5) 	34	1.9
+6) 	5	0.3
+7) 	3	0.2
+8) 	5	0.3
+9) 	1	0.1
+10) 	43	2.4
+11) 	1	0.1
+12) 	17	0.9
+14) 	3	0.2
+15) 	19	1.0
+20) 	37	2.0
+24) 	6	0.3
+25) 	7	0.4
+26) 	2	0.1
+27) 	1	0.1
+30) 	45	2.5
+35) 	4	0.2
+36) 	3	0.2
+40) 	18	1.0
+45) 	3	0.2
+48) 	2	0.1
+50) 	35	1.9
+52) 	8	0.4
+55) 	1	0.1
+60) 	14	0.8
+65) 	3	0.2
+70) 	2	0.1
+75) 	5	0.3
+80) 	2	0.1
+90) 	11	0.6
+99) 	1	0.1
+100) 	47	2.6
+104) 	1	0.1
+112) 	1	0.1
+120) 	6	0.3
+125) 	1	0.1
+128) 	1	0.1
+150) 	30	1.6
+156) 	2	0.1
+160) 	3	0.2
+175) 	2	0.1
+180) 	5	0.3
+182) 	1	0.1
+187) 	1	0.1
+199) 	1	0.1
+200) 	29	1.6
+208) 	1	0.1
+247) 	1	0.1
+250) 	13	0.7
+260) 	1	0.1
+280) 	1	0.1
+290) 	1	0.1
+300) 	15	0.8
+320) 	1	0.1
+325) 	1	0.1
+330) 	1	0.1
+350) 	1	0.1
+359) 	1	0.1
+360) 	3	0.2
+362) 	1	0.1
+365) Every day	118	6.5
+888) Don't know	6	0.3
+Missing	606
+
+
+59) GP16
+During the last 12 months, (that is, from December 2002 to December 2003), how many days did you... run or jog?
+RANGE: 0 to 888
+	N	Mean	Std. Deviation
+Total	1820	22.357	83.265
+0) None - Zero days	1362	74.8
+1) 	7	0.4
+2) 	29	1.6
+3) 	16	0.9
+4) 	7	0.4
+5) 	16	0.9
+6) 	11	0.6
+7) 	5	0.3
+8) 	3	0.2
+10) 	35	1.9
+11) 	1	0.1
+12) 	12	0.7
+14) 	2	0.1
+15) 	13	0.7
+16) 	1	0.1
+20) 	36	2.0
+21) 	1	0.1
+24) 	2	0.1
+25) 	9	0.5
+30) 	37	2.0
+36) 	1	0.1
+40) 	9	0.5
+45) 	1	0.1
+50) 	34	1.9
+52) 	4	0.2
+56) 	1	0.1
+60) 	12	0.7
+65) 	1	0.1
+75) 	2	0.1
+80) 	4	0.2
+88) 	1	0.1
+90) 	2	0.1
+95) 	1	0.1
+100) 	44	2.4
+104) 	1	0.1
+120) 	6	0.3
+125) 	1	0.1
+135) 	1	0.1
+144) 	1	0.1
+150) 	17	0.9
+156) 	1	0.1
+175) 	2	0.1
+180) 	2	0.1
+200) 	17	0.9
+208) 	1	0.1
+250) 	3	0.2
+252) 	1	0.1
+260) 	2	0.1
+300) 	11	0.6
+340) 	1	0.1
+350) 	1	0.1
+362) 	1	0.1
+365) Every day	19	1.0
+888) Don't know	9	0.5
+Missing	606
+
+
+60) GP17
+During the last 12 months, (that is, from December 2002 to December 2003), how many days did you... ride a bicycle?
+RANGE: 0 to 888
+	N	Mean	Std. Deviation
+Total	1820	17.099	72.354
+0) None - Zero days	1159	63.7
+1) 	21	1.2
+2) 	54	3.0
+3) 	32	1.8
+4) 	16	0.9
+5) 	43	2.4
+6) 	23	1.3
+7) 	7	0.4
+8) 	1	0.1
+10) 	76	4.2
+12) 	30	1.6
+14) 	5	0.3
+15) 	22	1.2
+20) 	62	3.4
+21) 	1	0.1
+24) 	2	0.1
+25) 	16	0.9
+27) 	1	0.1
+30) 	47	2.6
+35) 	5	0.3
+36) 	1	0.1
+40) 	17	0.9
+45) 	7	0.4
+48) 	1	0.1
+50) 	37	2.0
+52) 	5	0.3
+54) 	1	0.1
+55) 	1	0.1
+56) 	1	0.1
+60) 	23	1.3
+75) 	3	0.2
+78) 	1	0.1
+80) 	6	0.3
+85) 	1	0.1
+88) 	1	0.1
+90) 	20	1.1
+100) 	20	1.1
+106) 	1	0.1
+120) 	5	0.3
+124) 	1	0.1
+150) 	17	0.9
+160) 	1	0.1
+200) 	11	0.6
+250) 	1	0.1
+300) 	3	0.2
+320) 	1	0.1
+888) Don't know	10	0.5
+Missing	606
+
+
+61) GP55
+During the last 12 months, (that is, from December 2002 to December 2003), how many days did you... picnic in public areas?
+RANGE: 0 to 888
+	N	Mean	Std. Deviation
+Total	1820	8.481	47.864
+0) None - Zero days	598	32.9
+1) 	80	4.4
+2) 	231	12.7
+3) 	130	7.1
+4) 	92	5.1
+5) 	188	10.3
+6) 	83	4.6
+7) 	22	1.2
+8) 	8	0.4
+9) 	2	0.1
+10) 	128	7.0
+11) 	1	0.1
+12) 	53	2.9
+13) 	1	0.1
+14) 	4	0.2
+15) 	38	2.1
+17) 	2	0.1
+18) 	1	0.1
+20) 	57	3.1
+21) 	3	0.2
+24) 	7	0.4
+25) 	14	0.8
+30) 	39	2.1
+35) 	2	0.1
+36) 	1	0.1
+40) 	3	0.2
+45) 	1	0.1
+50) 	8	0.4
+60) 	2	0.1
+75) 	1	0.1
+90) 	8	0.4
+100) 	3	0.2
+120) 	1	0.1
+150) 	1	0.1
+156) 	1	0.1
+200) 	1	0.1
+888) Don't know	5	0.3
+Missing	606
+
+
+62) GP14
+During the last 12 months, (that is, from December 2002 to December 2003), how many days did you... participate in non-game wildlife activities such as observing, photographing, or feeding wildlife?
+RANGE: 0 to 888
+	N	Mean	Std. Deviation
+Total	1820	48.669	127.091
+0) None - Zero days	739	40.6
+1) 	58	3.2
+2) 	122	6.7
+3) 	88	4.8
+4) 	42	2.3
+5) 	120	6.6
+6) 	46	2.5
+7) 	21	1.2
+8) 	4	0.2
+10) 	96	5.3
+11) 	1	0.1
+12) 	35	1.9
+14) 	9	0.5
+15) 	19	1.0
+16) 	1	0.1
+17) 	2	0.1
+20) 	52	2.9
+21) 	2	0.1
+24) 	4	0.2
+25) 	13	0.7
+26) 	2	0.1
+30) 	43	2.4
+35) 	5	0.3
+40) 	7	0.4
+45) 	3	0.2
+48) 	2	0.1
+50) 	13	0.7
+52) 	7	0.4
+54) 	1	0.1
+60) 	13	0.7
+65) 	1	0.1
+75) 	3	0.2
+80) 	1	0.1
+90) 	14	0.8
+100) 	23	1.3
+104) 	1	0.1
+120) 	4	0.2
+135) 	4	0.2
+150) 	5	0.3
+175) 	2	0.1
+180) 	5	0.3
+183) 	1	0.1
+200) 	12	0.7
+240) 	2	0.1
+250) 	4	0.2
+260) 	1	0.1
+270) 	1	0.1
+300) 	7	0.4
+325) 	1	0.1
+350) 	1	0.1
+356) 	1	0.1
+360) 	1	0.1
+364) 	1	0.1
+365) Every day	139	7.6
+888) Don't know	15	0.8
+Missing	606
+
+
+63) GP19
+During the last 12 months, (that is, from December 2002 to December 2003), how many days did you... ride horseback?
+RANGE: 0 to 888
+	N	Mean	Std. Deviation
+Total	1820	5.208	35.871
+0) None - Zero days	1555	85.4
+1) 	46	2.5
+2) 	56	3.1
+3) 	22	1.2
+4) 	7	0.4
+5) 	15	0.8
+6) 	5	0.3
+7) 	4	0.2
+8) 	1	0.1
+9) 	1	0.1
+10) 	12	0.7
+12) 	7	0.4
+14) 	3	0.2
+15) 	7	0.4
+20) 	10	0.5
+21) 	3	0.2
+24) 	1	0.1
+25) 	4	0.2
+27) 	1	0.1
+30) 	12	0.7
+35) 	2	0.1
+36) 	1	0.1
+40) 	1	0.1
+45) 	1	0.1
+50) 	4	0.2
+52) 	2	0.1
+60) 	1	0.1
+70) 	1	0.1
+75) 	1	0.1
+80) 	1	0.1
+90) 	2	0.1
+100) 	7	0.4
+104) 	1	0.1
+150) 	5	0.3
+160) 	2	0.1
+175) 	1	0.1
+180) 	1	0.1
+200) 	3	0.2
+250) 	1	0.1
+300) 	4	0.2
+365) Every day	5	0.3
+888) Don't know	1	0.1
+Missing	606
+
+
+64) GP56
+During the last 12 months, (that is, from December 2002 to December 2003), how many days did you... go tent camping?
+RANGE: 0 to 888
+	N	Mean	Std. Deviation
+Total	1820	2.508	21.714
+0) None - Zero days	1380	75.8
+1) 	64	3.5
+2) 	75	4.1
+3) 	40	2.2
+4) 	26	1.4
+5) 	40	2.2
+6) 	25	1.4
+7) 	30	1.6
+8) 	9	0.5
+10) 	37	2.0
+12) 	8	0.4
+14) 	11	0.6
+15) 	16	0.9
+16) 	1	0.1
+17) 	1	0.1
+18) 	3	0.2
+20) 	16	0.9
+21) 	4	0.2
+25) 	5	0.3
+30) 	12	0.7
+35) 	3	0.2
+36) 	1	0.1
+40) 	6	0.3
+50) 	2	0.1
+60) 	2	0.1
+80) 	1	0.1
+90) 	1	0.1
+888) Don't know	1	0.1
+Missing	606
+
+
+65) GP21
+During the last 12 months, (that is, from December 2002 to December 2003), how many days did you... visit any historic sites?
+RANGE: 0 to 888
+	N	Mean	Std. Deviation
+Total	1820	7.649	55.622
+0) None - Zero days	641	35.2
+1) 	136	7.5
+2) 	247	13.6
+3) 	204	11.2
+4) 	103	5.7
+5) 	144	7.9
+6) 	59	3.2
+7) 	33	1.8
+8) 	11	0.6
+10) 	96	5.3
+11) 	3	0.2
+12) 	25	1.4
+14) 	6	0.3
+15) 	28	1.5
+16) 	1	0.1
+17) 	1	0.1
+20) 	26	1.4
+21) 	1	0.1
+22) 	1	0.1
+24) 	1	0.1
+25) 	9	0.5
+30) 	15	0.8
+35) 	1	0.1
+40) 	1	0.1
+50) 	8	0.4
+52) 	2	0.1
+60) 	3	0.2
+63) 	1	0.1
+75) 	1	0.1
+90) 	1	0.1
+100) 	2	0.1
+180) 	1	0.1
+200) 	1	0.1
+888) Don't know	7	0.4
+Missing	606
+
+
+66) GP20
+During the last 12 months, (that is, from December 2002 to December 2003), how many days did you... ride an off-road motorcycle, an off-highway vehicle (OHV) or all-terrain vehicle (ATV)?
+RANGE: 0 to 888
+	N	Mean	Std. Deviation
+Total	1820	11.039	51.761
+0) None - Zero days	1423	78.2
+1) 	37	2.0
+2) 	43	2.4
+3) 	28	1.5
+4) 	12	0.7
+5) 	24	1.3
+6) 	11	0.6
+7) 	7	0.4
+8) 	4	0.2
+10) 	30	1.6
+11) 	1	0.1
+12) 	11	0.6
+14) 	4	0.2
+15) 	6	0.3
+20) 	26	1.4
+21) 	2	0.1
+24) 	1	0.1
+25) 	7	0.4
+30) 	28	1.5
+35) 	1	0.1
+40) 	6	0.3
+45) 	5	0.3
+50) 	13	0.7
+53) 	1	0.1
+56) 	1	0.1
+60) 	12	0.7
+70) 	4	0.2
+72) 	1	0.1
+75) 	1	0.1
+80) 	2	0.1
+90) 	10	0.5
+100) 	15	0.8
+104) 	1	0.1
+120) 	2	0.1
+150) 	4	0.2
+163) 	1	0.1
+175) 	1	0.1
+200) 	10	0.5
+250) 	4	0.2
+300) 	3	0.2
+350) 	1	0.1
+360) 	1	0.1
+365) Every day	13	0.7
+888) Don't know	2	0.1
+Missing	606
+
+
+67) GP22
+During the last 12 months, (that is, from December 2002 to December 2003), how many days did you... visit *State Parks* or *Recreation Areas* which required you to have a Nebraska Park Entry Permit (purchased for $2.50 per day or $14 for an annual permit)?
+RANGE: 0 to 888
+	N	Mean	Std. Deviation
+Total	1820	8.669	30.445
+0) None - Zero days	651	35.8
+1) 	138	7.6
+2) 	191	10.5
+3) 	130	7.1
+4) 	74	4.1
+5) 	106	5.8
+6) 	71	3.9
+7) 	23	1.3
+8) 	14	0.8
+10) 	91	5.0
+11) 	3	0.2
+12) 	46	2.5
+14) 	12	0.7
+15) 	45	2.5
+16) 	2	0.1
+18) 	1	0.1
+20) 	57	3.1
+21) 	3	0.2
+24) 	7	0.4
+25) 	21	1.2
+28) 	1	0.1
+30) 	51	2.8
+35) 	5	0.3
+36) 	1	0.1
+40) 	12	0.7
+45) 	5	0.3
+48) 	1	0.1
+50) 	15	0.8
+55) 	1	0.1
+60) 	10	0.5
+75) 	1	0.1
+90) 	10	0.5
+100) 	8	0.4
+104) 	1	0.1
+120) 	2	0.1
+150) 	4	0.2
+180) 	1	0.1
+250) 	1	0.1
+365) Every day	3	0.2
+888) Don't know	1	0.1
+Missing	606
+
+
+68) GP57
+During the last 12 months, (that is, from December 2002 to December 2003) how many days did you... drive for leisure (touring and/or sightseeing)?
+RANGE: 0 to 888
+	N	Mean	Std. Deviation
+Total	1820	29.758	100.251
+0) None - Zero days	466	25.6
+1) 	46	2.5
+2) 	128	7.0
+3) 	82	4.5
+4) 	56	3.1
+5) 	141	7.7
+6) 	83	4.6
+7) 	29	1.6
+8) 	4	0.2
+9) 	2	0.1
+10) 	160	8.8
+12) 	73	4.0
+13) 	1	0.1
+14) 	18	1.0
+15) 	52	2.9
+16) 	1	0.1
+17) 	1	0.1
+18) 	2	0.1
+20) 	101	5.5
+21) 	5	0.3
+24) 	8	0.4
+25) 	31	1.7
+30) 	90	4.9
+35) 	4	0.2
+36) 	2	0.1
+40) 	19	1.0
+45) 	6	0.3
+50) 	48	2.6
+52) 	12	0.7
+56) 	1	0.1
+60) 	15	0.8
+70) 	1	0.1
+75) 	2	0.1
+80) 	1	0.1
+88) 	2	0.1
+90) 	14	0.8
+96) 	1	0.1
+100) 	29	1.6
+101) 	1	0.1
+104) 	2	0.1
+120) 	1	0.1
+150) 	8	0.4
+180) 	3	0.2
+200) 	20	1.1
+250) 	1	0.1
+300) 	6	0.3
+362) 	1	0.1
+365) Every day	22	1.2
+888) Don't know	18	1.0
+Missing	606
+
+
+69) GPP9B
+The next few questions are going to ask you about your level of satisfaction with a few Nebraska Game and Parks Commission programs and activities... How satisfied are you with... Operation of state parks and state recreation areas...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1820	2.297	1.869
+1) Very satisfied	574	31.5
+2) Somewhat satisfied	950	52.2
+3) Somewhat dissatisfied	114	6.3
+4) Very dissatisfied	23	1.3
+8) Don't know	158	8.7
+9) Refused	1	0.1
+Missing	606
+
+
+70) GPP9C
+How satisfied are you with the following Nebraska Game and Parks Commission programs and activities... Operation of state historical parks...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1820	2.826	2.483
+1) Very satisfied	528	29.0
+2) Somewhat satisfied	913	50.2
+3) Somewhat dissatisfied	43	2.4
+4) Very dissatisfied	7	0.4
+8) Don't know	328	18.0
+9) Refused	1	0.1
+Missing	606
+
+
+71) GPP9D
+How satisfied are you with the following Nebraska Game and Parks Commission programs and activities... Operation of state trails...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1820	3.781	2.961
+1) Very satisfied	391	21.5
+2) Somewhat satisfied	760	41.8
+3) Somewhat dissatisfied	58	3.2
+4) Very dissatisfied	23	1.3
+8) Don't know	587	32.3
+9) Refused	1	0.1
+Missing	606
+
+
+72) GPP9E
+How satisfied are you with the following Nebraska Game and Parks Commission programs and activities... Recreational fisheries management...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1820	4.555	3.111
+1) Very satisfied	298	16.4
+2) Somewhat satisfied	628	34.5
+3) Somewhat dissatisfied	64	3.5
+4) Very dissatisfied	24	1.3
+8) Don't know	805	44.2
+9) Refused	1	0.1
+Missing	606
+
+
+73) GPC39_1
+Are there any services and/or amenities you want to see added to the state's outdoor recreational opportunities? No services should be added to recreational opportunities
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.588	0.492
+0) Not checked	750	41.2
+1) Checked	1070	58.8
+Missing	606
+
+
+74) GPC39_2
+Are there any services and/or amenities you want to see added to the state's outdoor recreational opportunities? Tent camping areas should be added to recreational opportunities
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.007	0.084
+0) Not checked	1807	99.3
+1) Checked	13	0.7
+Missing	606
+
+
+75) GPC39_3
+Are there any services and/or amenities you want to see added to the state's outdoor recreational opportunities? RV camping areas should be added to recreational opportunities
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.01	0.099
+0) Not checked	1802	99.0
+1) Checked	18	1.0
+Missing	606
+
+
+76) GPC39_4
+Are there any services and/or amenities you want to see added to the state's outdoor recreational opportunities? Cabins should be added to recreational opportunities
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.01	0.099
+0) Not checked	1802	99.0
+1) Checked	18	1.0
+Missing	606
+
+
+77) GPC39_5
+Are there any services and/or amenities you want to see added to the state's outdoor recreational opportunities? Modern restrooms should be added to recreational opportunities
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.015	0.121
+0) Not checked	1793	98.5
+1) Checked	27	1.5
+Missing	606
+
+
+78) GPC39_6
+Are there any services and/or amenities you want to see added to the state's outdoor recreational opportunities? Trails should be added to recreational opportunities
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.038	0.191
+0) Not checked	1751	96.2
+1) Checked	69	3.8
+Missing	606
+
+
+79) GPC39_7
+Are there any services and/or amenities you want to see added to the state's outdoor recreational opportunities? Recreational fishing should be added to recreational opportunities
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.007	0.084
+0) Not checked	1807	99.3
+1) Checked	13	0.7
+Missing	606
+
+
+80) GPC39_8
+Are there any services and/or amenities you want to see added to the state's outdoor recreational opportunities? Naturalist programs should be added to recreational opportunities
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.003	0.057
+0) Not checked	1814	99.7
+1) Checked	6	0.3
+Missing	606
+
+
+81) GPC39_9
+Are there any services and/or amenities you want to see added to the state's outdoor recreational opportunities? Wildlife viewing areas should be added to recreational opportunities
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.005	0.074
+0) Not checked	1810	99.5
+1) Checked	10	0.5
+Missing	606
+
+
+82) GPC39_10
+Are there any services and/or amenities you want to see added to the state's outdoor recreational opportunities? Other opportunities should be added to recreational opportunities
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.191	0.393
+0) Not checked	1473	80.9
+1) Checked	347	19.1
+Missing	606
+
+
+83) GPC39_11
+Are there any services and/or amenities you want to see added to the state's outdoor recreational opportunities? Don't know what opportunities should be added
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.163	0.37
+0) Not checked	1523	83.7
+1) Checked	297	16.3
+Missing	606
+
+
+84) GPC39_12
+Are there any services and/or amenities you want to see added to the state's outdoor recreational opportunities? Refused what opportunities should be added
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.002	0.041
+0) Not checked	1817	99.8
+1) Checked	3	0.2
+Missing	606
+
+
+85) GPC40_1
+If cutbacks have to occur within the outdoor recreation system in Nebraska, what should those cutbacks be? No cutbacks should occur within our outdoor recreation system
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.238	0.426
+0) Not checked	1387	76.2
+1) Checked	433	23.8
+Missing	606
+
+
+86) GPC40_2
+If cutbacks have to occur within the outdoor recreation system in Nebraska, what should those cutbacks be? Advertising cutbacks could occur within our outdoor recreation system
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.029	0.167
+0) Not checked	1768	97.1
+1) Checked	52	2.9
+Missing	606
+
+
+87) GPC40_3
+If cutbacks have to occur within the outdoor recreation system in Nebraska, what should those cutbacks be? Snow removal cutbacks could occur within our outdoor recreation system
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.005	0.074
+0) Not checked	1810	99.5
+1) Checked	10	0.5
+Missing	606
+
+
+88) GPC40_4
+If cutbacks have to occur within the outdoor recreation system in Nebraska, what should those cutbacks be? Maintenance cutbacks could occur within our outdoor recreation system
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.018	0.131
+0) Not checked	1788	98.2
+1) Checked	32	1.8
+Missing	606
+
+
+89) GPC40_5
+If cutbacks have to occur within the outdoor recreation system in Nebraska, what should those cutbacks be? Shower facility cutbacks could occur within our outdoor recreation system
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.003	0.052
+0) Not checked	1815	99.7
+1) Checked	5	0.3
+Missing	606
+
+
+90) GPC40_6
+If cutbacks have to occur within the outdoor recreation system in Nebraska, what should those cutbacks be? RV facility cutbacks could occur within our outdoor recreation system
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.008	0.09
+0) Not checked	1805	99.2
+1) Checked	15	0.8
+Missing	606
+
+
+91) GPC40_7
+If cutbacks have to occur within the outdoor recreation system in Nebraska, what should those cutbacks be? Camping area cutbacks could occur within our outdoor recreation system
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.009	0.093
+0) Not checked	1804	99.1
+1) Checked	16	0.9
+Missing	606
+
+
+92) GPC40_8
+If cutbacks have to occur within the outdoor recreation system in Nebraska, what should those cutbacks be? Cabin facility cutbacks could occur within our outdoor recreation system
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.002	0.041
+0) Not checked	1817	99.8
+1) Checked	3	0.2
+Missing	606
+
+
+93) GPC40_9
+If cutbacks have to occur within the outdoor recreation system in Nebraska, what should those cutbacks be? Staffed program cutbacks could occur within our outdoor recreation system
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.005	0.07
+0) Not checked	1811	99.5
+1) Checked	9	0.5
+Missing	606
+
+
+94) GPC40_10
+If cutbacks have to occur within the outdoor recreation system in Nebraska, what should those cutbacks be? Swimming pool cutbacks could occur within our outdoor recreation system
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.002	0.047
+0) Not checked	1816	99.8
+1) Checked	4	0.2
+Missing	606
+
+
+95) GPC40_11
+If cutbacks have to occur within the outdoor recreation system in Nebraska, what should those cutbacks be? Restaurant cutbacks could occur within our outdoor recreation system
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.004	0.066
+0) Not checked	1812	99.6
+1) Checked	8	0.4
+Missing	606
+
+
+96) GPC40_12
+If cutbacks have to occur within the outdoor recreation system in Nebraska, what should those cutbacks be? Visitor center cutbacks could occur within our outdoor recreation system
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.004	0.062
+0) Not checked	1813	99.6
+1) Checked	7	0.4
+Missing	606
+
+
+97) GPC40_13
+If cutbacks have to occur within the outdoor recreation system in Nebraska, what should those cutbacks be? Playground cutbacks could occur within our outdoor recreation system
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.003	0.052
+0) Not checked	1815	99.7
+1) Checked	5	0.3
+Missing	606
+
+
+98) GPC40_14
+If cutbacks have to occur within the outdoor recreation system in Nebraska, what should those cutbacks be? Staff landscaping cutbacks could occur within our outdoor recreation system
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.013	0.112
+0) Not checked	1797	98.7
+1) Checked	23	1.3
+Missing	606
+
+
+99) GPC40_15
+If cutbacks have to occur within the outdoor recreation system in Nebraska, what should those cutbacks be? Stocking fishing areas cutbacks could occur within our outdoor recreation system
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.011	0.104
+0) Not checked	1800	98.9
+1) Checked	20	1.1
+Missing	606
+
+
+100) GPC40_16
+If cutbacks have to occur within the outdoor recreation system in Nebraska, what should those cutbacks be? Other cutbacks could occur within our outdoor recreation system
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.225	0.418
+0) Not checked	1411	77.5
+1) Checked	409	22.5
+Missing	606
+
+
+101) GPC40_17
+If cutbacks have to occur within the outdoor recreation system in Nebraska, what should those cutbacks be? Increase fees as an alternative to cutbacks
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.059	0.235
+0) Not checked	1713	94.1
+1) Checked	107	5.9
+Missing	606
+
+
+102) GPC40_18
+If cutbacks have to occur within the outdoor recreation system in Nebraska, what should those cutbacks be? Don't know what cutbacks could occur in the outdoor recreation system
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.427	0.495
+0) Not checked	1043	57.3
+1) Checked	777	42.7
+Missing	606
+
+
+103) GPC40_19
+If cutbacks have to occur within the outdoor recreation system in Nebraska, what should those cutbacks be? Refused to answer about cutbacks to outdoor recreation system
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	1820	0.002	0.041
+0) Not checked	1817	99.8
+1) Checked	3	0.2
+Missing	606
+
+
+104) GPC41
+Several states have initiated a sales tax increase with the money specifically going for natural resources, parks, green space initiatives and other outdoor recreational means. The State of Missouri, one of our neighboring states for example, has one eighth (1/8) of one percent of their sales tax going towards outdoor recreation and natural preservation. Would you be supportive of an effort like this occurring in Nebraska?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	1820	2.477	2.154
+1) Yes	1207	66.3
+5) No	534	29.3
+8) Don't know	79	4.3
+Missing	606
+
+
+105) GPBF1
+During the past year, did you purchase a permit of any sort from the Nebraska Game and Parks Commission? [if (group is less than 3) skip to GPQ3] [if (answer is larger than 2) skip to GPBF5]
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	606	3.053	2.001
+1) Yes	295	48.7
+5) No	311	51.3
+Missing	1820
+
+
+106) GPBF2_1
+What type of permit did you purchase? SELECT ALL THAT APPLY... Annual park entry permit
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	295	0.431	0.496
+0) Not checked	168	56.9
+1) Checked	127	43.1
+Missing	2131
+
+
+107) GPBF2_2
+What type of permit did you purchase? SELECT ALL THAT APPLY... Duplicate park entry permit
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	295	0.044	0.206
+0) Not checked	282	95.6
+1) Checked	13	4.4
+Missing	2131
+
+
+108) GPBF2_3
+What type of permit did you purchase? SELECT ALL THAT APPLY... Daily park entry permit
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	295	0.18	0.385
+0) Not checked	242	82.0
+1) Checked	53	18.0
+Missing	2131
+
+
+109) GPBF2_4
+What type of permit did you purchase? SELECT ALL THAT APPLY... Resident fish permit
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	295	0.454	0.499
+0) Not checked	161	54.6
+1) Checked	134	45.4
+Missing	2131
+
+
+110) GPBF2_5
+What type of permit did you purchase? SELECT ALL THAT APPLY... Resident hunting permit
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	295	0.264	0.442
+0) Not checked	217	73.6
+1) Checked	78	26.4
+Missing	2131
+
+
+111) GPBF2_6
+What type of permit did you purchase? SELECT ALL THAT APPLY... Habitat stamp
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	295	0.071	0.258
+0) Not checked	274	92.9
+1) Checked	21	7.1
+Missing	2131
+
+
+112) GPBF2_7
+What type of permit did you purchase? SELECT ALL THAT APPLY... Aquatic habitat stamp
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	295	0.034	0.181
+0) Not checked	285	96.6
+1) Checked	10	3.4
+Missing	2131
+
+
+113) GPBF2_8
+What type of permit did you purchase? SELECT ALL THAT APPLY... Lifetime hunt permit
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	295	0.014	0.116
+0) Not checked	291	98.6
+1) Checked	4	1.4
+Missing	2131
+
+
+114) GPBF2_9
+What type of permit did you purchase? SELECT ALL THAT APPLY... Lifetime fish permit
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	295	0.02	0.141
+0) Not checked	289	98.0
+1) Checked	6	2.0
+Missing	2131
+
+
+115) GPBF2_10
+What type of permit did you purchase? SELECT ALL THAT APPLY... Lifetime hunt/fish permit
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	295	0.014	0.116
+0) Not checked	291	98.6
+1) Checked	4	1.4
+Missing	2131
+
+
+116) GPBF2_11
+What type of permit did you purchase? SELECT ALL THAT APPLY... Other
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	295	0.068	0.252
+0) Not checked	275	93.2
+1) Checked	20	6.8
+Missing	2131
+
+
+117) GPBF2_12
+What type of permit did you purchase? SELECT ALL THAT APPLY... Don't know
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	295	0.003	0.058
+0) Not checked	294	99.7
+1) Checked	1	0.3
+Missing	2131
+
+
+118) GPBF2_13
+What type of permit did you purchase? SELECT ALL THAT APPLY... Refused
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	295	0.003	0.058
+0) Not checked	294	99.7
+1) Checked	1	0.3
+Missing	2131
+
+
+119) GPBF3
+Where did you purchase your permit?
+RANGE: 1 to 88
+	N	Mean	Std. Deviation
+Total	295	3.82	5.086
+1) Internet	23	7.8
+2) Game and Parks headquarters	26	8.8
+3) Game and Parks facility	94	31.9
+4) Permit agent (any facility other than Game and Parks)	111	37.6
+5) Nebraskaland Magazine	2	0.7
+6) Other	38	12.9
+88) Don't know	1	0.3
+Missing	2131
+
+
+120) GPBF4
+How satisfied are you with the experience of purchasing your permit?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	295	1.424	0.983
+1) Very satisfied	212	71.9
+2) Somewhat satisfied	65	22.0
+3) Somewhat dissatisfied	10	3.4
+4) Very dissatisfied	4	1.4
+8) Don't know	4	1.4
+Missing	2131
+
+
+121) GPBF5
+In the past, increases in the cost of state hunting, fishing, and park entry permits have not occurred very frequently. As a result, when these increases occur, they tend to be quite large. An alternative is to adjust the fees more frequently based on a formula (as the federal government does with social security benefits), resulting in smaller, but more frequent increases. If the overall amount of the increase were the same, which would you prefer?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	606	2.213	2.424
+1) A small increase in the cost of permits each year, or	397	65.5
+2) A larger increase in the cost of permits about every five years	122	20.1
+8) Don't know	83	13.7
+9) Refused	4	0.7
+Missing	1820
+
+
+122) GPQ3
+How important do you think healthy fish and wildlife populations are to the economy of Nebraska and the well-being of its residents? Would you say... [if (group is greater than 1) skip to GPIE1]
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	909	1.691	1.102
+1) Very important	487	53.6
+2) Somewhat important	344	37.8
+3) Neutral/No opinion	10	1.1
+4) Somewhat unimportant	38	4.2
+5) Not at all important	20	2.2
+8) Don't know	10	1.1
+Missing	1517
+
+
+123) GPQ4
+When choosing a location to live, how important is having nearby fish and wildlife resources in making that decision? Would you say...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	909	2.408	1.238
+1) Very important	238	26.2
+2) Somewhat important	310	34.1
+3) Somewhat unimportant	153	16.8
+4) Not at all important	198	21.8
+8) Don't know	10	1.1
+Missing	1517
+
+
+124) GPQ5
+How much more in annual income would it take for you to move to a place where fish and wildlife resources were less abundant than where you currently live? Would you say...
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	909	16.085	31.548
+0) None - No pay	290	31.9
+1) Less than 10% more	130	14.3
+2) 10% to 19% more	68	7.5
+3) 20% to 29% more	81	8.9
+4) 30% to 39% more	39	4.3
+5) 40% to 49% more	27	3.0
+6) 50% to 59% more	45	5.0
+7) 60% to 69% more	8	0.9
+8) 70% to 79% more	11	1.2
+9) 80% to 89% more	5	0.6
+10) 90% to 99% more	3	0.3
+11) 100% more	59	6.5
+88) Don't know	134	14.7
+99) Refused	9	1.0
+Missing	1517
+
+
+125) GPQ6
+If fish and wildlife resources became less abundant in Nebraska, how likely would that cause you to move away from Nebraska? Would you say...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	909	4.122	1.339
+1) Very likely	68	7.5
+2) Somewhat likely	110	12.1
+3) Neutral/No opinion	15	1.7
+4) Somewhat unlikely	172	18.9
+5) Very unlikely	542	59.6
+8) Don't know	2	0.2
+Missing	1517
+
+
+126) GPQ7
+How much additional would you be willing to pay in fees and taxes annually for conservation measures to maintain or improve the abundance of fish and wildlife resources in Nebraska?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	909	2.41	1.537
+1) $0 (None)	254	27.9
+2) $1 to $10	339	37.3
+3) $11 to $50	183	20.1
+4) $51 to $100	61	6.7
+5) More than $100	38	4.2
+8) Don't know	30	3.3
+9) Refused	4	0.4
+Missing	1517
+
+
+127) GPQ8
+Would you approve of a proposed Nebraska Constitutional Amendment to protect the right of Nebraskans to hunt, fish and trap?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	909	2.244	2.161
+1) Yes	666	73.3
+5) No	191	21.0
+8) Don't know	49	5.4
+9) Refused	3	0.3
+Missing	1517
+
+
+128) GPW1
+In 1989, the Nebraska Game and Parks Commission was issued an in-stream flow right for Long Pine Creek in Brown County to ensure that enough water is present to support naturally-reproducing rainbow and brown trout populations. The right will be reviewed by the Nebraska Department of Natural Resources in 2004. Do you support retaining the water right at Long Pine Creek for trout or should the water be diverted from the stream for other uses?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	909	2.699	2.583
+1) Yes, it should be retained for trout	620	68.2
+5) No, it should be cancelled so the water can be used for other purposes	124	13.6
+7) No response - Respondent was unfamiliar with the topic or unclear of the question	109	12.0
+8) Don't know	54	5.9
+9) Refused	2	0.2
+Missing	1517
+
+
+129) GPW2
+The Nebraska Game and Parks Commission should lease water from irrigators to maintain higher water levels in reservoirs, lakes, and rivers for fish, wildlife, and recreational use. Would you say you...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	909	2.905	1.703
+1) Strongly agree	119	13.1
+2) Agree	418	46.0
+3) Neutral/No opinion	75	8.3
+4) Disagree	181	19.9
+5) Strongly disagree	64	7.0
+8) Don't know	51	5.6
+9) Refused	1	0.1
+Missing	1517
+
+
+130) GPW3
+Farmers should receive federal payments to raise crops that require less irrigation water so higher water levels are maintained in reservoirs, lakes, and rivers for fish, wildlife, and recreational use. Would you say you...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	909	2.81	1.578
+1) Strongly agree	138	15.2
+2) Agree	407	44.8
+3) Neutral/No opinion	53	5.8
+4) Disagree	218	24.0
+5) Strongly disagree	58	6.4
+8) Don't know	34	3.7
+9) Refused	1	0.1
+Missing	1517
+
+
+131) GPW4
+Use of state taxes on gas bought for motorboats should be changed from funding highway construction to improve boating safety. Would you say you...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	909	2.875	1.516
+1) Strongly agree	148	16.3
+2) Agree	349	38.4
+3) Neutral/No opinion	52	5.7
+4) Disagree	261	28.7
+5) Strongly disagree	75	8.3
+8) Don't know	24	2.6
+Missing	1517
+
+
+132) GPW5
+Use of state taxes on gas bought for motorboats should be changed from funding highway construction to improving boating access such as keeping boat ramps wet with water leased from irrigators. Would you say you...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	909	3.177	1.652
+1) Strongly agree	92	10.1
+2) Agree	334	36.7
+3) Neutral/No opinion	69	7.6
+4) Disagree	297	32.7
+5) Strongly disagree	68	7.5
+8) Don't know	48	5.3
+9) Refused	1	0.1
+Missing	1517
+
+
+133) GP4
+From January 1, 2003 to (today or December 31, 2003) how many days did you... go fishing in Nebraska?
+RANGE: 0 to 999
+	N	Mean	Std. Deviation
+Total	909	8.391	39.121
+0) None - Zero days	564	62.0
+1) 	30	3.3
+2) 	30	3.3
+3) 	32	3.5
+4) 	11	1.2
+5) 	42	4.6
+6) 	21	2.3
+7) 	8	0.9
+8) 	3	0.3
+9) 	1	0.1
+10) 	25	2.8
+11) 	1	0.1
+12) 	14	1.5
+13) 	2	0.2
+14) 	3	0.3
+15) 	15	1.7
+16) 	2	0.2
+17) 	1	0.1
+20) 	18	2.0
+25) 	7	0.8
+30) 	27	3.0
+35) 	1	0.1
+40) 	13	1.4
+50) 	7	0.8
+52) 	1	0.1
+60) 	9	1.0
+65) 	2	0.2
+70) 	2	0.2
+75) 	1	0.1
+80) 	1	0.1
+90) 	2	0.2
+100) 	4	0.4
+120) 	1	0.1
+135) 	1	0.1
+150) 	3	0.3
+160) 	1	0.1
+240) 	1	0.1
+250) 	1	0.1
+999) Refused	1	0.1
+Missing	1517
+
+
+134) GP4A
+From January 1, 2003 to (today or December 31, 2003) how many days did you... go fishing outside the state of Nebraska?
+RANGE: 0 to 999
+	N	Mean	Std. Deviation
+Total	909	2.923	33.904
+0) None - Zero days	752	82.7
+1) 	18	2.0
+2) 	30	3.3
+3) 	13	1.4
+4) 	8	0.9
+5) 	12	1.3
+6) 	8	0.9
+7) 	10	1.1
+8) 	3	0.3
+10) 	9	1.0
+12) 	6	0.7
+14) 	6	0.7
+15) 	9	1.0
+20) 	3	0.3
+25) 	5	0.6
+30) 	6	0.7
+36) 	1	0.1
+40) 	3	0.3
+45) 	1	0.1
+50) 	1	0.1
+60) 	2	0.2
+70) 	1	0.1
+120) 	1	0.1
+999) Refused	1	0.1
+Missing	1517
+
+
+135) F1
+Have you ever fished in Nebraska? [if (answer is larger than 1) skip to F5]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	565	2.179	1.861
+1) Yes	401	71.0
+5) No	161	28.5
+8) Don't know	2	0.4
+9) Refused	1	0.2
+Missing	1861
+
+
+136) F2
+What is the *main* reason you chose not to fish in Nebraska in 2003? [Interviewer: Don't read responses.] [skip to N14]
+RANGE: 1 to 888
+	N	Mean	Std. Deviation
+Total	401	279.973	372.977
+1) Don't like to fish	101	25.2
+2) Other things I would rather do with my spare time	80	20.0
+3) Health problems/Disability	37	9.2
+4) No one to fish with	13	3.2
+5) Lack skills	2	0.5
+6) Lack equipment	3	0.7
+7) Fishing permit and aquatic habitat stamp are too costly	1	0.2
+8) Going fishing is too costly	3	0.7
+10) Too many regulations or too few fish	6	1.5
+12) Fish are too small	3	0.7
+13) Pollution, poor water quality, litter	3	0.7
+16) Poor access to water because of the drought	6	1.5
+777) Other	139	34.7
+888) Don't know	4	1.0
+Missing	2025
+
+
+137) F6
+Overall, how satisfied were you with your fishing experiences in Nebraska in 2003? [if (answer is less than 3) skip to N14] [if (answer is greater than 4) skip to N14]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	344	1.936	0.999
+1) Very satisfied	117	34.0
+2) Somewhat satisfied	163	47.4
+3) Somewhat dissatisfied	46	13.4
+4) Very dissatisfied	15	4.4
+8) Don't know	2	0.6
+9) Refused	1	0.3
+Missing	2082
+
+
+138) F6A
+Why were you dissatisfied with your fishing experiences in Nebraska in 2003? [Interviewer: Don't read responses.]
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	61	5.82	4.433
+1) Too few fish	21	34.4
+2) Fish too small	2	3.3
+3) Too many regulations	1	1.6
+6) Poor access to water because of the drought	17	27.9
+7) Poor facilities	3	4.9
+12) Other	17	27.9
+Missing	2365
+
+
+139) N14
+Did you have a Nebraska fishing permit in 2003? [if (answer is greater than 1) skip to f9]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	745	3.419	1.982
+1) Yes	297	39.9
+5) No	445	59.7
+8) Don't know	2	0.3
+9) Refused	1	0.1
+Missing	1681
+
+
+140) N15
+What type of Nebraska fishing permit did you have in 2003?
+RANGE: 0 to 88
+	N	Mean	Std. Deviation
+Total	297	4.593	14.874
+0) None	2	0.7
+1) Resident Annual Fish	184	62.0
+2) Resident 3-day Fish	25	8.4
+3) Resident Hunt/Fish combination	38	12.8
+4) Lifetime Fish	12	4.0
+5) Lifetime Hunt and Fish	14	4.7
+7) Fee-exempt age 70+	5	1.7
+8) Fee-exempt age 65+ veteran	5	1.7
+9) Fee-exempt disabled veteran	1	0.3
+10) Physically/developmentally disabled	1	0.3
+12) Non-resident 3-day Fish	1	0.3
+88) Don't know	9	3.0
+Missing	2129
+
+
+141) F9
+Did you have a Nebraska fishing permit in 2002?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	745	3.599	1.979
+1) Yes	268	36.0
+5) No	468	62.8
+8) Don't know	8	1.1
+9) Refused	1	0.1
+Missing	1681
+
+
+142) F10
+Did you have a Nebraska fishing permit in 2001?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	745	3.682	1.966
+1) Yes	254	34.1
+5) No	480	64.4
+8) Don't know	10	1.3
+9) Refused	1	0.1
+Missing	1681
+
+
+143) F11
+Did you have a Nebraska fishing permit in 2000?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	745	3.752	2.026
+1) Yes	250	33.6
+5) No	472	63.4
+8) Don't know	22	3.0
+9) Refused	1	0.1
+Missing	1681
+
+
+144) F12
+Did you have a Nebraska fishing permit in 1999?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	745	3.91	2.03
+1) Yes	228	30.6
+5) No	484	65.0
+8) Don't know	32	4.3
+9) Refused	1	0.1
+Missing	1681
+
+
+145) F13
+Did you have a Nebraska fishing permit in 1998?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	745	3.913	2.07
+1) Yes	232	31.1
+5) No	474	63.6
+8) Don't know	38	5.1
+9) Refused	1	0.1
+Missing	1681
+
+
+146) F5
+Please tell me if you agree or disagree with the following statement: The Nebraska Game and Parks Commission has worked to promote fishing in my community.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	909	3.369	2.339
+1) Strongly agree	86	9.5
+2) Agree	404	44.4
+3) Disagree	193	21.2
+4) Strongly disagree	55	6.1
+8) Don't know	170	18.7
+9) Refused	1	0.1
+Missing	1517
+
+
+147) F5A
+Do you recall any projects that the Nebraska Game and Parks Commission has undertaken to improve fishing in your community?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	909	4.113	2.124
+1) Yes	258	28.4
+5) No	576	63.4
+8) Don't know	74	8.1
+9) Refused	1	0.1
+Missing	1517
+
+
+148) F7
+During the past year, have you seen any television, newspaper, or magazine advertisements that promoted fishing?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	909	2.942	2.159
+1) Yes	489	53.8
+5) No	392	43.1
+8) Don't know	27	3.0
+9) Refused	1	0.1
+Missing	1517
+
+
+149) F14
+During the past year, do you recall seeing a TV commercial for an activity called 'Water Works Wonders'? [if (answer is not equal to 1) skip to GPIE1]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	909	4.795	1.109
+1) Yes	61	6.7
+5) No	829	91.2
+8) Don't know	18	2.0
+9) Refused	1	0.1
+Missing	1517
+
+
+150) F15
+In that commercial there is an adult in the background and a child looking into the camera. Do you recall what the child is asking to do? [Interviewer: Don't read responses.]
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	61	7.328	1.981
+1) Go fishing	5	8.2
+5) Any other activity besides fishing	2	3.3
+8) Don't know	54	88.5
+Missing	2365
+
+
+151) GPIE1
+If you had the time, skill, and resources, what outdoor activities would you do or do more often? [if (group is less than 3) skip to PPC1] [if (answer equals 0) skip to GPIE2] [if (answer is greater than 13) skip to GPIE2]
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	606	9.404	17.727
+0) None, no activities	41	6.8
+1) Backpacking or hiking	30	5.0
+2) Boating	72	11.9
+3) Canoeing	7	1.2
+4) Camping	89	14.7
+5) Fishing	102	16.8
+6) Horseback riding	12	2.0
+7) Hunting	37	6.1
+8) Sightseeing	19	3.1
+9) Other - Specify	106	17.5
+10) Photography	3	0.5
+11) Walking	39	6.4
+12) Wildlife viewing	6	1.0
+13) Visiting a park	15	2.5
+88) Don't know	27	4.5
+99) Refused	1	0.2
+Missing	1820
+
+
+152) GPIE1A
+What limits you from participating in more of these activities?
+RANGE: 1 to 88
+	N	Mean	Std. Deviation
+Total	540	4.615	12.779
+1) Lack of time	296	54.8
+2) Lack of a companion	13	2.4
+3) Lack of money or equipment/Can't afford to	73	13.5
+4) Lack of skill, know-how	4	0.7
+5) Lack of places to do activities	29	5.4
+6) Physically unable	57	10.6
+7) Other - Specify	56	10.4
+88) Don't know	12	2.2
+Missing	1886
+
+
+153) GPIE2_1
+Where do you get most of your outdoor information? [Read all responses. Click on the items in order of the way the respondent ranks them. If respondent answers 'don't know' or refused, rank all the items, and in the next question indicate that the respondent said 'don't know' or refused this item.] First most important?
+RANGE: 74 to 79
+	N	Mean	Std. Deviation
+Total	606	77.058	1.814
+74) Internet	93	15.3
+75) Radio	32	5.3
+76) Newspaper	113	18.6
+77) Television	89	14.7
+78) Magazines	67	11.1
+79) Word of mouth	212	35.0
+Missing	1820
+
+
+154) GPIE2_2
+Where do you get most of your outdoor information? [Read all responses. Click on the items in order of the way the respondent ranks them. If respondent answers 'don't know' or refused, rank all the items, and in the next question indicate that the respondent said 'don't know' or refused this item.] And second most important?
+RANGE: 74 to 79
+	N	Mean	Std. Deviation
+Total	606	76.536	1.605
+74) Internet	79	13.0
+75) Radio	89	14.7
+76) Newspaper	142	23.4
+77) Television	122	20.1
+78) Magazines	72	11.9
+79) Word of mouth	102	16.8
+Missing	1820
+
+
+155) GPIE2_3
+Where do you get most of your outdoor information? [Read all responses. Click on the items in order of the way the respondent ranks them. If respondent answers 'don't know' or refused, rank all the items, and in the next question indicate that the respondent said 'don't know' or refused to this item.] And third most important?
+RANGE: 74 to 79
+	N	Mean	Std. Deviation
+Total	606	76.507	1.589
+74) Internet	80	13.2
+75) Radio	102	16.8
+76) Newspaper	120	19.8
+77) Television	120	19.8
+78) Magazines	103	17.0
+79) Word of mouth	81	13.4
+Missing	1820
+
+
+156) GPIE2_4
+Where do you get most of your outdoor information? [Read all responses. Click on the items in order of the way the respondent ranks them. If respondent answers 'don't know' or refused, rank all the items, and in the next question indicate that the respondent said 'don't know' or refused this item.] And fourth most important?
+RANGE: 74 to 79
+	N	Mean	Std. Deviation
+Total	606	76.619	1.628
+74) Internet	56	9.2
+75) Radio	144	23.8
+76) Newspaper	93	15.3
+77) Television	95	15.7
+78) Magazines	118	19.5
+79) Word of mouth	100	16.5
+Missing	1820
+
+
+157) GPIE2_5
+Where do you get most of your outdoor information? [Read all responses. Click on the items in order of the way the respondent ranks them. If respondent answers 'don't know' or refused, rank all the items, and in the next question indicate that the respondent said 'don't know' or refused this item.] And fifth most important?
+RANGE: 74 to 79
+	N	Mean	Std. Deviation
+Total	606	76.482	1.583
+74) Internet	72	11.9
+75) Radio	136	22.4
+76) Newspaper	92	15.2
+77) Television	104	17.2
+78) Magazines	138	22.8
+79) Word of mouth	64	10.6
+Missing	1820
+
+
+158) GPIE2_6
+Where do you get most of your outdoor information? [Read all responses. Click on the items in order of the way the respondent ranks them. If respondent answers 'don't know' or refused, rank all the items, and in the next question indicate that the respondent said 'don't know' or refused this item.] And sixth most important?
+RANGE: 74 to 79
+	N	Mean	Std. Deviation
+Total	606	75.799	1.778
+74) Internet	226	37.3
+75) Radio	103	17.0
+76) Newspaper	46	7.6
+77) Television	76	12.5
+78) Magazines	108	17.8
+79) Word of mouth	47	7.8
+Missing	1820
+
+
+159) GPIE2A
+[On the previous question about getting outdoor information, the respondent:]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	606	4.672	1.965
+1) Ranked only one item	63	10.4
+2) Ranked only two items	80	13.2
+3) Ranked only three items	41	6.8
+4) Ranked only four items	25	4.1
+5) Ranked only five items	23	3.8
+6) Ranked all of the items	362	59.7
+8) Said 'don't know' and you ranked all of the items	10	1.7
+9) 'Refused' and you ranked all of the items	2	0.3
+Missing	1820
+
+
+160) GPIE3A
+The Nebraska Game and Parks Commission has a website to provide public information. Have you ever used this website? [if (answer is greater than 1) skip to GPIE6a]
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	606	3.909	1.831
+1) Yes	169	27.9
+5) No	432	71.3
+8) Don't know	5	0.8
+Missing	1820
+
+
+161) GPIE3B
+How often do you visit this website? Would you say...
+RANGE: 1 to 88
+	N	Mean	Std. Deviation
+Total	169	11.716	26.199
+1) 1 to 2 times a year	105	62.1
+2) 1 to 2 times a month	33	19.5
+3) Once a week	6	3.6
+4) 3 to 5 times a week	1	0.6
+5) Once a day	1	0.6
+77) Only seasonally (during deer season, for example)	22	13.0
+88) Don't know	1	0.6
+Missing	2257
+
+
+162) GPIE4
+How easy do you find the Nebraska Game and Parks Commission website to use? Would you say...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	169	1.905	1.444
+1) Very easy	76	45.0
+2) Somewhat easy	71	42.0
+3) Somewhat difficult	12	7.1
+4) Very difficult	3	1.8
+8) Don't know	7	4.1
+Missing	2257
+
+
+163) GPIE5
+How useful is the information contained on the Nebraska Game and Parks Commission website to yourself and/or your family? Would you say it is...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	169	1.621	0.931
+1) Very useful	85	50.3
+2) Somewhat useful	75	44.4
+3) Not very useful	5	3.0
+4) Not at all useful	2	1.2
+8) Don't know	2	1.2
+Missing	2257
+
+
+164) GPIE6A
+The Nebraska Game and Parks Commission produces a radio show called 'Outdoor Nebraska.' Are you familiar with this radio show? [if (answer is greater than 1) skip to GPIE7]
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	606	3.389	1.963
+1) Yes	244	40.3
+5) No	362	59.7
+Missing	1820
+
+
+165) GPIE6B
+Which of the following statements best describes when you listen to the 'Outdoor Nebraska' radio broadcasts?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	244	3.459	1.082
+1) I make a special attempt to listen to 'Outdoor Nebraska'	14	5.7
+3) I listen to 'Outdoor Nebraska' when I catch it by chance	160	65.6
+5) I have rarely or never listened to 'Outdoor Nebraska'	70	28.7
+Missing	2182
+
+
+166) GPIE7
+The following question is strictly for planning purposes with the Game and Parks Commission. You will not be asked any type of follow up question based on your answer. Would you say you would agree or disagree with this statement? If asked, I would agree to make a $25 dollar donation to maintain and improve non-game wildlife and natural areas in Nebraska.
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	606	3.715	2.038
+1) Agree	209	34.5
+5) Disagree	378	62.4
+8) Don't know	19	3.1
+Missing	1820
+
+
+167) GPIE8
+Which of the following best describes how familiar you are with NEBRASKAland Magazine? [if (answer equals 1) skip to gpie10]
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	606	2.84	0.994
+1) I or someone in my household is currently a subscriber	43	7.1
+2) I read it once in a while, but don't subscribe	196	32.3
+3) I have seen it occasionally, but do not read it	194	32.0
+4) I am not familiar with the magazine	170	28.1
+8) Don't know	3	0.5
+Missing	1820
+
+
+168) GPIE9A
+Would you consider subscribing to NEBRASKAland Magazine if it contained more stories and information about... hunting and fishing?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	563	4.504	1.583
+1) Yes	85	15.1
+5) No	458	81.3
+8) Don't know	19	3.4
+9) Refused	1	0.2
+Missing	1863
+
+
+169) GPIE9B
+Would you consider subscribing to NEBRASKAland Magazine if it contained more stories and information about... parks and other outdoor activities?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	563	3.613	2.137
+1) Yes	214	38.0
+5) No	324	57.5
+8) Don't know	25	4.4
+Missing	1863
+
+
+170) GPIE9C
+Would you consider subscribing to NEBRASKAland Magazine if it contained more stories and information about... nature and wildlife?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	563	3.696	2.084
+1) Yes	200	35.5
+5) No	341	60.6
+8) Don't know	22	3.9
+Missing	1863
+
+
+171) GPIE9D
+Would you consider subscribing to NEBRASKAland Magazine if it contained more stories and information about... life and history of Nebraska?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	563	3.487	2.16
+1) Yes	231	41.0
+5) No	308	54.7
+8) Don't know	24	4.3
+Missing	1863
+
+
+172) GPIE10
+How likely would you be to purchase a photographic print of wildlife if they were offered by NEBRASKAland magazine at a price of $40 per print? Would you say... [if (answer is greater than 3) skip to GPIE11]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	606	3.48	0.961
+1) Very likely	12	2.0
+2) Somewhat likely	83	13.7
+3) Not very likely	146	24.1
+4) Not at all likely	357	58.9
+8) Don't know	7	1.2
+9) Refused	1	0.2
+Missing	1820
+
+
+173) GPIE10A
+Which type of prints would you be most likely to purchase? Would you say...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	241	2.988	2.263
+1) Landscapes (scenic photos)	102	42.3
+2) Large game animals (such as deer, elk, or bighorn sheep)	36	14.9
+3) Non-game wildlife (such as sandhill cranes, songbirds)	14	5.8
+4) Waterfowl (such as ducks and geese)	25	10.4
+5) Outdoor activities (such as hunting, fishing, camping, hiking)	7	2.9
+6) Wildflowers or plant life	44	18.3
+8) Don't know	12	5.0
+9) Refused	1	0.4
+Missing	2185
+
+
+174) GPIE11
+Do you think there are adequate shooting range facilities in your area?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	606	5.398	2.97
+1) Yes	168	27.7
+5) No	134	22.1
+8) Don't know	303	50.0
+9) Refused	1	0.2
+Missing	1820
+
+
+175) GPP2
+Please tell me if you agree or disagree with the following statement: The Nebraska Game and Parks Commission does a good job of making the public aware of outdoor opportunities and agency programs. Do you...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	606	2.842	1.977
+1) Strongly agree	54	8.9
+2) Agree	366	60.4
+3) Disagree	92	15.2
+4) Strongly disagree	23	3.8
+8) Don't know	71	11.7
+Missing	1820
+
+
+176) GPP91
+How satisfied are you with the Nebraska Game and Parks Commission programs and activities for aquatic education and outdoor education?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	606	3.911	2.825
+1) Very satisfied	65	10.7
+2) Somewhat satisfied	284	46.9
+3) Somewhat dissatisfied	55	9.1
+4) Very dissatisfied	11	1.8
+8) Don't know	191	31.5
+Missing	1820
+
+
+177) PPC2_1
+Which of the following five problems do you think is the most important issue Nebraska will face during the next five years? [Read all responses. Click on the items in order of the way the respondent ranks them. If respondent answers 'don't know' or refused, rank all the items, and in the next question indicate that the respondent said 'don't know' or refused this item.] First most important?
+RANGE: 43 to 47
+	N	Mean	Std. Deviation
+Total	1820	45.527	1.318
+43) Economic development	258	14.2
+44) Environmental quality	125	6.9
+45) Family farm viability	290	15.9
+46) K-12 school quality	693	38.1
+47) State and local taxation	454	24.9
+Missing	606
+
+
+178) PPC2_2
+Which of the following five problems do you think is the most important issue Nebraska will face during the next five years? [Read all responses. Click on the items in order of the way the respondent ranks them. If respondent answers 'don't know' or refused, rank all the items, and in the next question indicate that the respondent said 'don't know' or refused this item.] And second most important?
+RANGE: 43 to 47
+	N	Mean	Std. Deviation
+Total	1820	45.093	1.379
+43) Economic development	378	20.8
+44) Environmental quality	200	11.0
+45) Family farm viability	436	24.0
+46) K-12 school quality	487	26.8
+47) State and local taxation	319	17.5
+Missing	606
+
+
+179) PPC2_3
+Which of the following five problems do you think is the most important issue Nebraska will face during the next five years? [Read all responses. Click on the items in order of the way the respondent ranks them. If respondent answers 'don't know' or refused, rank all the items, and in the next question indicate that the respondent said 'don't know' or refused this item.] And third most important?
+RANGE: 43 to 47
+	N	Mean	Std. Deviation
+Total	1820	44.931	1.376
+43) Economic development	355	19.5
+44) Environmental quality	396	21.8
+45) Family farm viability	417	22.9
+46) K-12 school quality	323	17.7
+47) State and local taxation	329	18.1
+Missing	606
+
+
+180) PPC2_4
+Which of the following five problems do you think is the most important issue Nebraska will face during the next five years? [Read all responses. Click on the items in order of the way the respondent ranks them. If respondent answers 'don't know' or refused, rank all the items, and in the next question indicate that the respondent said 'don't know' or refused this item.] And fourth most important?
+RANGE: 43 to 47
+	N	Mean	Std. Deviation
+Total	1820	44.705	1.419
+43) Economic development	454	24.9
+44) Environmental quality	486	26.7
+45) Family farm viability	355	19.5
+46) K-12 school quality	193	10.6
+47) State and local taxation	332	18.2
+Missing	606
+
+
+181) PPC2_5
+Which of the following five problems do you think is the most important issue Nebraska will face during the next five years? [Read all responses. Click on the items in order of the way the respondent ranks them. If respondent answers 'don't know' or refused, rank all the items, and in the next question indicate that the respondent said 'don't know' or refused this item.] And fifth most important?
+RANGE: 43 to 47
+	N	Mean	Std. Deviation
+Total	1820	44.743	1.419
+43) Economic development	375	20.6
+44) Environmental quality	613	33.7
+45) Family farm viability	322	17.7
+46) K-12 school quality	124	6.8
+47) State and local taxation	386	21.2
+Missing	606
+
+
+182) PPC2A
+[On the previous question about problems facing Nebraska, the respondent:]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1820	4.765	1.05
+1) Ranked only one item	59	3.2
+2) Ranked only two items	63	3.5
+3) Ranked only three items	55	3.0
+4) Ranked only four items	8	0.4
+5) Ranked all of the items	1598	87.8
+8) Said 'don't know' and you ranked all of the items	32	1.8
+9) 'Refused' and you ranked all of the items	5	0.3
+Missing	606
+
+
+183) PPC3
+Would you be willing to be contacted at a later date to answer follow-up questions regarding problems facing Nebraska?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1820	2.01	1.824
+1) Yes	1380	75.8
+5) No	414	22.7
+8) Don't know	25	1.4
+9) Refused	1	0.1
+Missing	606
+
+
+184) NXT2
+Now I'd like to know a little bit about your household. Does anyone else live in your household? [if (answer is greater than 1) skip to rurb]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.968	1.729
+1) Yes	1843	76.0
+5) No	579	23.9
+9) Refused	4	0.2
+
+
+185) SEX2
+Is [person] male or female?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1843	2.956	2.013
+1) Male	945	51.3
+5) Female	895	48.6
+9) Refused	3	0.2
+Missing	583
+
+
+186) PIE2
+How is [person] related to the principal income earner in your household?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1843	1.958	1.178
+1) Principal Income Earner (P.I.E.)	762	41.3
+2) Spouse of P.I.E.	728	39.5
+3) Child/Stepchild of P.I.E.	183	9.9
+4) Relative of P.I.E. - Specify	37	2.0
+5) Other - Specify	125	6.8
+8) Don't know	4	0.2
+9) Refused	4	0.2
+Missing	583
+
+
+187) AGE2
+What was [person]'s age on his/her last birthday?
+RANGE: 0 to 999
+	N	Mean	Std. Deviation
+Total	1843	62.978	129.207
+0) Less than one year	3	0.2
+1) 	5	0.3
+2) 	3	0.2
+3) 	3	0.2
+4) 	2	0.1
+5) 	6	0.3
+6) 	4	0.2
+7) 	9	0.5
+8) 	5	0.3
+9) 	6	0.3
+10) 	10	0.5
+11) 	10	0.5
+12) 	3	0.2
+13) 	8	0.4
+14) 	7	0.4
+15) 	13	0.7
+16) 	19	1.0
+17) 	19	1.0
+18) 	10	0.5
+19) 	9	0.5
+20) 	9	0.5
+21) 	18	1.0
+22) 	16	0.9
+23) 	23	1.2
+24) 	21	1.1
+25) 	18	1.0
+26) 	28	1.5
+27) 	19	1.0
+28) 	26	1.4
+29) 	19	1.0
+30) 	40	2.2
+31) 	30	1.6
+32) 	28	1.5
+33) 	32	1.7
+34) 	29	1.6
+35) 	34	1.8
+36) 	39	2.1
+37) 	35	1.9
+38) 	39	2.1
+39) 	38	2.1
+40) 	38	2.1
+41) 	24	1.3
+42) 	46	2.5
+43) 	35	1.9
+44) 	41	2.2
+45) 	33	1.8
+46) 	39	2.1
+47) 	37	2.0
+48) 	43	2.3
+49) 	36	2.0
+50) 	52	2.8
+51) 	34	1.8
+52) 	47	2.6
+53) 	39	2.1
+54) 	28	1.5
+55) 	30	1.6
+56) 	34	1.8
+57) 	29	1.6
+58) 	28	1.5
+59) 	31	1.7
+60) 	27	1.5
+61) 	37	2.0
+62) 	24	1.3
+63) 	26	1.4
+64) 	16	0.9
+65) 	18	1.0
+66) 	16	0.9
+67) 	20	1.1
+68) 	13	0.7
+69) 	16	0.9
+70) 	13	0.7
+71) 	15	0.8
+72) 	19	1.0
+73) 	16	0.9
+74) 	15	0.8
+75) 	13	0.7
+76) 	10	0.5
+77) 	19	1.0
+78) 	6	0.3
+79) 	10	0.5
+80) 	8	0.4
+81) 	6	0.3
+82) 	5	0.3
+83) 	5	0.3
+84) 	6	0.3
+85) 	2	0.1
+88) 	2	0.1
+89) 	1	0.1
+90) 	2	0.1
+92) 	2	0.1
+888) Don't know	10	0.5
+999) Refused	26	1.4
+Missing	583
+
+
+188) NXT3
+Now I'd like to know a little bit about your household. Does anyone else live in your household? [if (answer is greater than 1) skip to rurb]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1843	2.919	2.038
+1) Yes	968	52.5
+5) No	866	47.0
+9) Refused	9	0.5
+Missing	583
+
+
+189) SEX3
+Is [person] male or female?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	968	2.93	2.008
+1) Male	502	51.9
+5) Female	465	48.0
+9) Refused	1	0.1
+Missing	1458
+
+
+190) PIE3
+How is [person] related to the principal income earner in your household?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	968	3.018	0.65
+1) Principal Income Earner (P.I.E.)	29	3.0
+2) Spouse of P.I.E.	40	4.1
+3) Child/Stepchild of P.I.E.	823	85.0
+4) Relative of P.I.E. - Specify	49	5.1
+5) Other - Specify	24	2.5
+9) Refused	3	0.3
+Missing	1458
+
+
+191) AGE3
+What was [person]'s age on his/her last birthday?
+RANGE: 0 to 999
+	N	Mean	Std. Deviation
+Total	968	29.339	110.94
+0) Less than one year	23	2.4
+1) 	29	3.0
+2) 	28	2.9
+3) 	36	3.7
+4) 	38	3.9
+5) 	25	2.6
+6) 	32	3.3
+7) 	31	3.2
+8) 	34	3.5
+9) 	32	3.3
+10) 	30	3.1
+11) 	27	2.8
+12) 	40	4.1
+13) 	38	3.9
+14) 	42	4.3
+15) 	50	5.2
+16) 	67	6.9
+17) 	75	7.7
+18) 	70	7.2
+19) 	23	2.4
+20) 	23	2.4
+21) 	15	1.5
+22) 	10	1.0
+23) 	9	0.9
+24) 	7	0.7
+25) 	7	0.7
+26) 	8	0.8
+27) 	5	0.5
+28) 	1	0.1
+29) 	3	0.3
+30) 	2	0.2
+31) 	2	0.2
+32) 	3	0.3
+33) 	3	0.3
+34) 	3	0.3
+35) 	2	0.2
+36) 	3	0.3
+38) 	2	0.2
+39) 	4	0.4
+40) 	1	0.1
+41) 	5	0.5
+42) 	4	0.4
+43) 	5	0.5
+44) 	2	0.2
+45) 	2	0.2
+46) 	1	0.1
+47) 	1	0.1
+48) 	5	0.5
+49) 	2	0.2
+50) 	4	0.4
+51) 	2	0.2
+52) 	3	0.3
+53) 	3	0.3
+54) 	2	0.2
+55) 	1	0.1
+56) 	2	0.2
+57) 	2	0.2
+58) 	3	0.3
+59) 	3	0.3
+63) 	1	0.1
+65) 	1	0.1
+67) 	2	0.2
+68) 	1	0.1
+70) 	1	0.1
+71) 	1	0.1
+72) 	1	0.1
+73) 	1	0.1
+77) 	1	0.1
+82) 	1	0.1
+83) 	1	0.1
+87) 	2	0.2
+88) 	1	0.1
+89) 	1	0.1
+90) 	1	0.1
+91) 	1	0.1
+94) 	1	0.1
+888) Don't know	8	0.8
+999) Refused	6	0.6
+Missing	1458
+
+
+192) NXT4
+Now I'd like to know a little bit about your household. Does anyone else live in your household? [if (answer is greater than 1) skip to rurb]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	968	2.558	1.96
+1) Yes	592	61.2
+5) No	375	38.7
+9) Refused	1	0.1
+Missing	1458
+
+
+193) SEX4
+Is [person] male or female?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	592	2.851	1.996
+1) Male	318	53.7
+5) Female	274	46.3
+Missing	1834
+
+
+194) PIE4
+How is [person] related to the principal income earner in your household?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	592	3.044	0.495
+1) Principal Income Earner (P.I.E.)	8	1.4
+2) Spouse of P.I.E.	10	1.7
+3) Child/Stepchild of P.I.E.	538	90.9
+4) Relative of P.I.E. - Specify	24	4.1
+5) Other - Specify	11	1.9
+9) Refused	1	0.2
+Missing	1834
+
+
+195) AGE4
+What was [person]'s age on his/her last birthday?
+RANGE: 0 to 999
+	N	Mean	Std. Deviation
+Total	592	21.091	95.982
+0) Less than one year	25	4.2
+1) 	29	4.9
+2) 	29	4.9
+3) 	36	6.1
+4) 	28	4.7
+5) 	27	4.6
+6) 	20	3.4
+7) 	13	2.2
+8) 	28	4.7
+9) 	24	4.1
+10) 	27	4.6
+11) 	27	4.6
+12) 	38	6.4
+13) 	31	5.2
+14) 	35	5.9
+15) 	40	6.8
+16) 	27	4.6
+17) 	24	4.1
+18) 	15	2.5
+19) 	13	2.2
+20) 	5	0.8
+21) 	8	1.4
+22) 	7	1.2
+23) 	2	0.3
+24) 	2	0.3
+25) 	1	0.2
+26) 	1	0.2
+27) 	2	0.3
+29) 	1	0.2
+36) 	1	0.2
+38) 	1	0.2
+40) 	1	0.2
+41) 	1	0.2
+42) 	1	0.2
+43) 	1	0.2
+45) 	1	0.2
+46) 	1	0.2
+48) 	1	0.2
+50) 	4	0.7
+53) 	3	0.5
+55) 	1	0.2
+62) 	1	0.2
+69) 	1	0.2
+75) 	1	0.2
+99) 	1	0.2
+888) Don't know	2	0.3
+999) Refused	4	0.7
+Missing	1834
+
+
+196) NXT5
+Now I'd like to know a little bit about your household. Does anyone else live in your household? [if (answer is greater than 1) skip to rurb]
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	592	3.257	1.985
+1) Yes	258	43.6
+5) No	334	56.4
+Missing	1834
+
+
+197) SEX5
+Is [person] male or female?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	258	2.938	2.003
+1) Male	133	51.6
+5) Female	125	48.4
+Missing	2168
+
+
+198) PIE5
+How is [person] related to the principal income earner in your household?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	258	3.093	0.598
+1) Principal Income Earner (P.I.E.)	2	0.8
+3) Child/Stepchild of P.I.E.	241	93.4
+4) Relative of P.I.E. - Specify	9	3.5
+5) Other - Specify	4	1.6
+8) Don't know	1	0.4
+9) Refused	1	0.4
+Missing	2168
+
+
+199) AGE5
+What was [person]'s age on his/her last birthday?
+RANGE: 0 to 999
+	N	Mean	Std. Deviation
+Total	258	20.202	106.545
+0) Less than one year	10	3.9
+1) 	13	5.0
+2) 	16	6.2
+3) 	23	8.9
+4) 	12	4.7
+5) 	9	3.5
+6) 	11	4.3
+7) 	20	7.8
+8) 	18	7.0
+9) 	18	7.0
+10) 	14	5.4
+11) 	13	5.0
+12) 	14	5.4
+13) 	16	6.2
+14) 	13	5.0
+15) 	4	1.6
+16) 	10	3.9
+17) 	9	3.5
+18) 	3	1.2
+19) 	1	0.4
+20) 	3	1.2
+21) 	1	0.4
+22) 	1	0.4
+23) 	1	0.4
+30) 	1	0.4
+53) 	1	0.4
+999) Refused	3	1.2
+Missing	2168
+
+
+200) NXT6
+Now I'd like to know a little bit about your household. Does anyone else live in your household? [if (answer is greater than 1) skip to rurb]
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	258	3.543	1.929
+1) Yes	94	36.4
+5) No	164	63.6
+Missing	2168
+
+
+201) SEX6
+Is [person] male or female?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	94	2.617	1.974
+1) Male	56	59.6
+5) Female	38	40.4
+Missing	2332
+
+
+202) PIE6
+How is [person] related to the principal income earner in your household?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	94	3.213	0.828
+1) Principal Income Earner (P.I.E.)	1	1.1
+3) Child/Stepchild of P.I.E.	82	87.2
+4) Relative of P.I.E. - Specify	4	4.3
+5) Other - Specify	6	6.4
+9) Refused	1	1.1
+Missing	2332
+
+
+203) AGE6
+What was [person]'s age on his/her last birthday?
+RANGE: 0 to 999
+	N	Mean	Std. Deviation
+Total	94	28.298	144.035
+0) Less than one year	7	7.4
+1) 	9	9.6
+2) 	7	7.4
+3) 	8	8.5
+4) 	7	7.4
+5) 	7	7.4
+6) 	4	4.3
+7) 	3	3.2
+8) 	4	4.3
+9) 	6	6.4
+10) 	7	7.4
+11) 	4	4.3
+12) 	4	4.3
+13) 	4	4.3
+14) 	2	2.1
+15) 	4	4.3
+17) 	2	2.1
+19) 	2	2.1
+47) 	1	1.1
+999) Refused	2	2.1
+Missing	2332
+
+
+204) NXT7
+Now I'd like to know a little bit about your household. Does anyone else live in your household? [if (answer is greater than 1) skip to rurb]
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	94	3.979	1.754
+1) Yes	24	25.5
+5) No	70	74.5
+Missing	2332
+
+
+205) SEX7
+Is [person] male or female?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	24	2.167	1.857
+1) Male	17	70.8
+5) Female	7	29.2
+Missing	2402
+
+
+206) PIE7
+How is [person] related to the principal income earner in your household?
+RANGE: 3 to 9
+	N	Mean	Std. Deviation
+Total	24	3.5	1.319
+3) Child/Stepchild of P.I.E.	19	79.2
+4) Relative of P.I.E. - Specify	2	8.3
+5) Other - Specify	2	8.3
+9) Refused	1	4.2
+Missing	2402
+
+
+207) AGE7
+What was [person]'s age on his/her last birthday?
+RANGE: 1 to 999
+	N	Mean	Std. Deviation
+Total	24	49.292	202.439
+1) 	2	8.3
+2) 	2	8.3
+4) 	3	12.5
+5) 	4	16.7
+6) 	2	8.3
+7) 	2	8.3
+9) 	2	8.3
+11) 	3	12.5
+12) 	1	4.2
+17) 	1	4.2
+40) 	1	4.2
+999) Refused	1	4.2
+Missing	2402
+
+
+208) NXT8
+Now I'd like to know a little bit about your household. Does anyone else live in your household? [if (answer is greater than 1) skip to rurb]
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	24	4.167	1.659
+1) Yes	5	20.8
+5) No	19	79.2
+Missing	2402
+
+
+209) SEX8
+Is [person] male or female?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	5	3.4	2.191
+1) Male	2	40.0
+5) Female	3	60.0
+Missing	2421
+
+
+210) PIE8
+How is [person] related to the principal income earner in your household?
+RANGE: 3 to 4
+	N	Mean	Std. Deviation
+Total	5	3.2	0.447
+3) Child/Stepchild of P.I.E.	4	80.0
+4) Relative of P.I.E.- Specify	1	20.0
+Missing	2421
+
+
+211) AGE8
+What was [person]'s age on his/her last birthday?
+RANGE: 0 to 10
+	N	Mean	Std. Deviation
+Total	5	5	4
+0) Less than one year	1	20.0
+3) 	1	20.0
+4) 	1	20.0
+8) 	1	20.0
+10) 	1	20.0
+Missing	2421
+
+
+212) RURB
+Do you live on a farm, in open country but not on a farm, or in a town or city?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.695	0.706
+1) Farm	275	11.3
+2) Open country, but not a farm	213	8.8
+3) Town or city	1934	79.7
+8) Don't know	2	0.1
+9) Refused	2	0.1
+
+
+213) COMM
+Do you live in or near [city]?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2426	1.069	0.522
+1) Yes	2384	98.3
+5) No - Please specify what town/city	42	1.7
+
+
+214) LIVE
+How many years have you lived here? (In this county)
+RANGE: 0 to 888
+	N	Mean	Std. Deviation
+Total	2426	26.462	36.38
+0) Less than one year	79	3.3
+1) 	80	3.3
+2) 	86	3.5
+3) 	80	3.3
+4) 	68	2.8
+5) 	95	3.9
+6) 	59	2.4
+7) 	57	2.3
+8) 	59	2.4
+9) 	30	1.2
+10) 	73	3.0
+11) 	26	1.1
+12) 	38	1.6
+13) 	40	1.6
+14) 	33	1.4
+15) 	68	2.8
+16) 	33	1.4
+17) 	26	1.1
+18) 	31	1.3
+19) 	26	1.1
+20) 	84	3.5
+21) 	26	1.1
+22) 	28	1.2
+23) 	34	1.4
+24) 	29	1.2
+25) 	55	2.3
+26) 	30	1.2
+27) 	36	1.5
+28) 	34	1.4
+29) 	23	0.9
+30) 	103	4.2
+31) 	25	1.0
+32) 	39	1.6
+33) 	20	0.8
+34) 	27	1.1
+35) 	43	1.8
+36) 	28	1.2
+37) 	23	0.9
+38) 	26	1.1
+39) 	21	0.9
+40) 	61	2.5
+41) 	17	0.7
+42) 	19	0.8
+43) 	25	1.0
+44) 	25	1.0
+45) 	39	1.6
+46) 	14	0.6
+47) 	18	0.7
+48) 	18	0.7
+49) 	21	0.9
+50) 	55	2.3
+51) 	11	0.5
+52) 	22	0.9
+53) 	20	0.8
+54) 	12	0.5
+55) 	21	0.9
+56) 	18	0.7
+57) 	14	0.6
+58) 	6	0.2
+59) 	7	0.3
+60) 	22	0.9
+61) 	8	0.3
+62) 	10	0.4
+63) 	7	0.3
+64) 	5	0.2
+65) 	4	0.2
+66) 	4	0.2
+67) 	4	0.2
+68) 	2	0.1
+69) 	7	0.3
+70) 	10	0.4
+71) 	8	0.3
+72) 	3	0.1
+73) 	3	0.1
+74) 	6	0.2
+75) 	5	0.2
+76) 	7	0.3
+77) 	3	0.1
+78) 	7	0.3
+79) 	4	0.2
+80) 	5	0.2
+81) 	3	0.1
+82) 	8	0.3
+83) 	1	0.0
+84) 	4	0.2
+85) 	4	0.2
+86) 	2	0.1
+87) 	2	0.1
+92) 	1	0.0
+888) Don't know	3	0.1
+
+
+215) BORN1
+Were you born in Nebraska, another state, or a foreign country?
+RANGE: 1 to 3
+	N	Mean	Std. Deviation
+Total	2426	1.351	0.53
+1) Nebraska	1639	67.6
+2) Another state	723	29.8
+3) Foreign country	64	2.6
+
+
+216) RESI
+Are you still living in the same residence as you were two years ago? [if (answer equals 1) skip to safe]
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2426	1.73	1.548
+1) Yes	1984	81.8
+5) No	441	18.2
+8) Don't know	1	0.0
+
+
+217) C123_1
+Two years ago were you living in the same community, the same county, a different county in Nebraska, or in another state?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	442	2.292	1.21
+1) Same community	156	35.3
+2) Same county	105	23.8
+3) Different county in Nebraska	88	19.9
+4) Another state	85	19.2
+5) Another country (foreign country or territory)	7	1.6
+8) Don't know	1	0.2
+Missing	1984
+
+
+218) MOVE1
+How many times have you moved in the last two years? By move, we mean take all of one's belongings as if for a permanent move. [if (c123_1 is not equal to 1) skip to fina]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	442	2.034	6.299
+1) 	301	68.1
+2) 	67	15.2
+3) 	44	10.0
+4) 	12	2.7
+5) 	8	1.8
+6) 	5	1.1
+8) 	1	0.2
+9) 	1	0.2
+10) 	1	0.2
+88) Don't know	1	0.2
+99) Refused	1	0.2
+Missing	1984
+
+
+219) SAFE
+All things considered, would you say that your community is safer from crime, about as safe, or not as safe as it was two years ago?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2140	2.156	0.719
+1) Safer from crime	220	10.3
+2) About as safe	1429	66.8
+3) Not as safe	479	22.4
+8) Don't know	10	0.5
+9) Refused	2	0.1
+Missing	286
+
+
+220) FINA
+Overall, how satisfied are you with your current financial situation? Would you say you are...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.237	0.896
+1) Very satisfied	326	13.4
+2) Satisfied	1470	60.6
+3) Dissatisfied or	423	17.4
+4) Very dissatisfied	184	7.6
+5) Neither satisfied nor dissatisfied [Don't read this]	11	0.5
+8) Don't know	7	0.3
+9) Refused	5	0.2
+
+
+221) PROS
+What about your financial prospects? Do you feel that you are better off this year than you were two years ago at this time, about the same, or worse off?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.89	0.887
+1) Better	892	36.8
+2) Same	975	40.2
+3) Worse	547	22.5
+8) Don't know	7	0.3
+9) Refused	5	0.2
+
+
+222) FS1
+The following statements concern your family's financial situation. For each statement, please tell me if you strongly agree, agree, disagree, or strongly disagree. My family has enough money to afford the kind of home we need.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.137	1.076
+1) Strongly agree	471	19.4
+2) Agree	1462	60.3
+3) Disagree	353	14.6
+4) Strongly disagree	103	4.2
+8) Don't know	15	0.6
+9) Refused	22	0.9
+
+
+223) FS2
+The following statements concern your family's financial situation. For each statement, please tell me if you strongly agree, agree, disagree, or strongly disagree. We have enough money to afford the kind of clothing we need.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.961	0.891
+1) Strongly agree	502	20.7
+2) Agree	1696	69.9
+3) Disagree	162	6.7
+4) Strongly disagree	42	1.7
+8) Don't know	6	0.2
+9) Refused	18	0.7
+
+
+224) FS3
+The following statements concern your family's financial situation. For each statement, please tell me if you strongly agree, agree, disagree, or strongly disagree. We have enough money to afford the kind of food we need.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.876	0.814
+1) Strongly agree	560	23.1
+2) Agree	1745	71.9
+3) Disagree	76	3.1
+4) Strongly disagree	26	1.1
+8) Don't know	2	0.1
+9) Refused	17	0.7
+
+
+225) FS4
+The following statements concern your family's financial situation. For each statement, please tell me if you strongly agree, agree, disagree, or strongly disagree. We have enough money to afford the kind of medical care we need.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.245	1.087
+1) Strongly agree	426	17.6
+2) Agree	1336	55.1
+3) Disagree	462	19.0
+4) Strongly disagree	167	6.9
+8) Don't know	20	0.8
+9) Refused	15	0.6
+
+
+226) FS5
+During the past 12 months, how much difficulty have you had paying your bills? Would you say...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	4.089	1.251
+1) A great deal of difficulty	109	4.5
+2) Quite a bit of difficulty	112	4.6
+3) Some difficulty	522	21.5
+4) A little difficulty	511	21.1
+5) Or no difficulty at all	1141	47.0
+8) Don't know	6	0.2
+9) Refused	25	1.0
+
+
+227) FS6
+Think again over the past 12 months. Generally, at the end of each month did you end up with...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.682	1.358
+1) More than enough money left	315	13.0
+2) Some money left over	917	37.8
+3) Just enough to make ends meet	831	34.3
+4) Almost enough to make ends meet	147	6.1
+5) Or not enough to make ends meet	163	6.7
+8) Don't know	15	0.6
+9) Refused	38	1.6
+
+
+228) GHAP
+Taking all things together, how would you say you are these days? Would you say you are...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.783	0.789
+1) Very happy	796	32.8
+2) Pretty happy	1445	59.6
+3) Not too happy	170	7.0
+8) Don't know	6	0.2
+9) Refused	9	0.4
+
+
+229) MHAP
+Taking all things together, how would you describe your marriage? Would you say that your marriage is... [if (marr is not equal to 1) skip to sad]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1467	1.436	0.896
+1) Very happy	953	65.0
+2) Pretty happy	470	32.0
+3) Not too happy	30	2.0
+8) Don't know	2	0.1
+9) Refused	12	0.8
+Missing	959
+
+
+230) MCOM
+How do you feel about the way you can confide in your spouse and discuss anything that comes up? Do you feel that communication is...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	1467	1.405	0.952
+1) Very good	1030	70.2
+2) Okay	375	25.6
+3) Not so good	46	3.1
+8) Don't know	1	0.1
+9) Refused	15	1.0
+Missing	959
+
+
+231) SAD
+Now, I am going to read some statements about how you might have felt during the past week. Please tell me the number of days in the past week including today that... You felt sad. [if (group equals 1) skip to TACT]
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1517	1.253	2.045
+0) 0 days (none)	824	54.3
+1) 1 day	283	18.7
+2) 2 days	170	11.2
+3) 3 days	68	4.5
+4) 4 days	38	2.5
+5) 5 days	28	1.8
+6) 6 days	7	0.5
+7) 7 days (every day, all week)	68	4.5
+8) Don't know	15	1.0
+9) Refused	16	1.1
+Missing	909
+
+
+232) HOPE
+Now, I am going to read some statements about how you might have felt during the past week. Please tell me the number of days in the past week including today that... You felt hopeful about the future.
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1517	5.253	2.446
+0) 0 days (none)	107	7.1
+1) 1 day	62	4.1
+2) 2 days	106	7.0
+3) 3 days	139	9.2
+4) 4 days	79	5.2
+5) 5 days	112	7.4
+6) 6 days	71	4.7
+7) 7 days (every day, all week)	767	50.6
+8) Don't know	59	3.9
+9) Refused	15	1.0
+Missing	909
+
+
+233) GOOD
+Now, I am going to read some statements about how you might have felt during the past week. Please tell me the number of days in the past week including today that... You felt you were as good as other people.
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1517	6.341	1.662
+0) 0 days (none)	37	2.4
+1) 1 day	15	1.0
+2) 2 days	38	2.5
+3) 3 days	39	2.6
+4) 4 days	48	3.2
+5) 5 days	86	5.7
+6) 6 days	49	3.2
+7) 7 days (every day, all week)	1159	76.4
+8) Don't know	31	2.0
+9) Refused	15	1.0
+Missing	909
+
+
+234) BOTHER
+Now, I am going to read some statements about how you might have felt during the past week. Please tell me the number of days in the past week including today that... You felt bothered by things that usually don't bother you.
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1517	1.18	2.039
+0) 0 days (none)	889	58.6
+1) 1 day	237	15.6
+2) 2 days	158	10.4
+3) 3 days	74	4.9
+4) 4 days	30	2.0
+5) 5 days	27	1.8
+6) 6 days	4	0.3
+7) 7 days (every day, all week)	61	4.0
+8) Don't know	24	1.6
+9) Refused	13	0.9
+Missing	909
+
+
+235) LONELY
+Now, I am going to read some statements about how you might have felt during the past week. Please tell me the number of days in the past week including today that... You felt lonely.
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1517	0.844	1.942
+0) 0 days (none)	1141	75.2
+1) 1 day	109	7.2
+2) 2 days	100	6.6
+3) 3 days	34	2.2
+4) 4 days	21	1.4
+5) 5 days	14	0.9
+6) 6 days	8	0.5
+7) 7 days (every day, all week)	66	4.4
+8) Don't know	10	0.7
+9) Refused	14	0.9
+Missing	909
+
+
+236) MIND
+Now, I am going to read some statements about how you might have felt during the past week. Please tell me the number of days in the past week including today that... You had trouble keeping your mind on what you were doing.
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1517	1.591	2.459
+0) 0 days (none)	876	57.7
+1) 1 day	132	8.7
+2) 2 days	160	10.5
+3) 3 days	82	5.4
+4) 4 days	34	2.2
+5) 5 days	41	2.7
+6) 6 days	13	0.9
+7) 7 days (every day, all week)	149	9.8
+8) Don't know	16	1.1
+9) Refused	14	0.9
+Missing	909
+
+
+237) EFFORT
+Now, I am going to read some statements about how you might have felt during the past week. Please tell me the number of days in the past week including today that... You felt that everything you did was an effort.
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1517	1.957	2.654
+0) 0 days (none)	759	50.0
+1) 1 day	163	10.7
+2) 2 days	170	11.2
+3) 3 days	85	5.6
+4) 4 days	30	2.0
+5) 5 days	58	3.8
+6) 6 days	11	0.7
+7) 7 days (every day, all week)	207	13.6
+8) Don't know	20	1.3
+9) Refused	14	0.9
+Missing	909
+
+
+238) FEARFUL
+Now, I am going to read some statements about how you might have felt during the past week. Please tell me the number of days in the past week including today that... You felt fearful.
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1517	0.572	1.695
+0) 0 days (none)	1264	83.3
+1) 1 day	96	6.3
+2) 2 days	42	2.8
+3) 3 days	22	1.5
+4) 4 days	15	1.0
+5) 5 days	8	0.5
+6) 6 days	5	0.3
+7) 7 days (every day, all week)	43	2.8
+8) Don't know	7	0.5
+9) Refused	15	1.0
+Missing	909
+
+
+239) TALK
+Now, I am going to read some statements about how you might have felt during the past week. Please tell me the number of days in the past week including today that... You talked less than usual.
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1517	0.755	1.857
+0) 0 days (none)	1160	76.5
+1) 1 day	127	8.4
+2) 2 days	87	5.7
+3) 3 days	30	2.0
+4) 4 days	17	1.1
+5) 5 days	18	1.2
+6) 6 days	7	0.5
+7) 7 days (every day, all week)	27	1.8
+8) Don't know	30	2.0
+9) Refused	14	0.9
+Missing	909
+
+
+240) FELT
+Now, I am going to read some statements about how you might have felt during the past week. Please tell me the number of days in the past week including today that... You felt depressed.
+RANGE: 0 to 9
+	N	Mean	Std. Deviation
+Total	1517	0.752	1.749
+0) 0 days (none)	1130	74.5
+1) 1 day	143	9.4
+2) 2 days	85	5.6
+3) 3 days	55	3.6
+4) 4 days	21	1.4
+5) 5 days	18	1.2
+6) 6 days	3	0.2
+7) 7 days (every day, all week)	39	2.6
+8) Don't know	9	0.6
+9) Refused	14	0.9
+Missing	909
+
+
+241) TACT
+How fearful are you that you personally could become a victim of a terrorist act? Would you say you are very fearful, somewhat fearful, not too fearful, or not at all fearful?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	3.283	0.865
+1) Very fearful	41	1.7
+2) Somewhat fearful	377	15.5
+3) Not too fearful	922	38.0
+4) Not at all fearful	1072	44.2
+8) Don't know	10	0.4
+9) Refused	4	0.2
+
+
+242) PAUL1A
+Researchers at the university are interested in the local impact of the growing number of religions in the United States. How comfortable would you be if one of your neighbors joined a cult? [if (rn1 is greater than 33) skip to PAUL2a]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	811	3.429	1.199
+1) Very comfortable	36	4.4
+2) Somewhat comfortable	80	9.9
+3) Somewhat uncomfortable	310	38.2
+4) Very uncomfortable	357	44.0
+8) Don't know	25	3.1
+9) Refused	3	0.4
+Missing	1615
+
+
+243) PAUL1B
+How much do you agree with the following statement? The government should be able to regulate the activities and practices of cults. Do you... [skip to empl]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	811	2.8	1.962
+1) Strongly agree	200	24.7
+2) Agree	256	31.6
+3) Disagree	179	22.1
+4) Strongly disagree	97	12.0
+8) Don't know	77	9.5
+9) Refused	2	0.2
+Missing	1615
+
+
+244) PAUL2A
+Researchers at the university are interested in the local impact of the growing number of religions in the United States. How comfortable would you be if one of your neighbors joined a new religious movement? [if (rn1 is greater than 66) skip to PAUL3a]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	833	2.543	1.797
+1) Very comfortable	228	27.4
+2) Somewhat comfortable	297	35.7
+3) Somewhat uncomfortable	186	22.3
+4) Very uncomfortable	61	7.3
+8) Don't know	55	6.6
+9) Refused	6	0.7
+Missing	1593
+
+
+245) PAUL2B
+How much do you agree with the following statement? The government should be able to regulate the activities and practices of new religious movements. Do you... [skip to empl]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	833	3.36	1.496
+1) Strongly agree	43	5.2
+2) Agree	151	18.1
+3) Disagree	317	38.1
+4) Strongly disagree	270	32.4
+8) Don't know	45	5.4
+9) Refused	7	0.8
+Missing	1593
+
+
+246) PAUL3A
+Researchers at the university are interested in the local impact of the growing number of religions in the United States. How comfortable would you be if one of your neighbors joined a new Christian church?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	769	1.796	1.599
+1) Very comfortable	459	59.7
+2) Somewhat comfortable	220	28.6
+3) Somewhat uncomfortable	37	4.8
+4) Very uncomfortable	14	1.8
+8) Don't know	36	4.7
+9) Refused	3	0.4
+Missing	1657
+
+
+247) PAUL3B
+How much do you agree with the following statement? The government should be able to regulate the activities and practices of new Christian churches. Do you...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	769	3.564	1.303
+1) Strongly agree	16	2.1
+2) Agree	79	10.3
+3) Disagree	295	38.4
+4) Strongly disagree	339	44.1
+8) Don't know	34	4.4
+9) Refused	6	0.8
+Missing	1657
+
+
+248) EMPL
+Do you typically work full-time, part-time, go to school, keep house, or something else? [if (empl is less than or equal to 2) skip to stud]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2426	2.542	3.523
+1) Working a full-time job (35 hours or more)	1465	60.4
+2) Working a part-time job(s)	258	10.6
+4) Unemployed, laid off, looking for work	33	1.4
+5) Retired	430	17.7
+6) In school	40	1.6
+7) Keeping house	136	5.6
+8) Disabled	43	1.8
+9) Other [specify]	19	0.8
+99) Refused	2	0.1
+
+
+249) WORK
+Do you currently work at all for a wage? [if (answer equals 1) skip to stud]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	710	4.587	1.248
+1) Yes	75	10.6
+5) No	633	89.2
+8) Don't know	1	0.1
+9) Refused	1	0.1
+Missing	1716
+
+
+250) SEEK
+Are you currently seeking employment?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.928	1.693
+1) Yes	1864	76.8
+5) No	561	23.1
+9) Refused	1	0.0
+
+
+251) STUD
+Are you currently taking courses for college credit? [if (answer is greater than 1) skip to ret]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	4.685	1.088
+1) Yes	193	8.0
+5) No	2231	92.0
+8) Don't know	1	0.0
+9) Refused	1	0.0
+
+
+252) COLL
+What kind of school are you enrolled in? Are you enrolled in a...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2426	1.091	0.477
+1) Community college	2314	95.4
+2) A state university (like UNL, UNO, UNMC, or UNK)	47	1.9
+3) A four-year private college or university, or	37	1.5
+4) A four-year state college (like Peru, Chadron, or Wayne State)	15	0.6
+5) Other - Specify	12	0.5
+8) Don't know	1	0.0
+
+
+253) RET
+Do you consider yourself to be permanently retired? [if (empl equals 1) skip to eemp]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.756	1.6
+1) Yes	1976	81.5
+5) No	439	18.1
+8) Don't know	9	0.4
+9) Refused	2	0.1
+
+
+254) EEMP
+Were you ever employed for as long as one year? [if (empl is less than 3) skip to whrs]
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2426	1.084	0.574
+1) Yes	2375	97.9
+5) No	51	2.1
+
+
+255) WHRS
+During the average week, how many hours do you usually work, NOT including the time you travel to and from work? [if (empl is greater than 2) skip to wtyp]
+RANGE: 1 to 999
+	N	Mean	Std. Deviation
+Total	2426	36.279	71.414
+1) 	708	29.2
+4) 	1	0.0
+5) 	4	0.2
+6) 	2	0.1
+8) 	9	0.4
+9) 	1	0.0
+10) 	13	0.5
+11) 	2	0.1
+12) 	7	0.3
+13) 	1	0.0
+14) 	3	0.1
+15) 	15	0.6
+16) 	6	0.2
+17) 	1	0.0
+18) 	3	0.1
+19) 	2	0.1
+20) 	56	2.3
+21) 	1	0.0
+22) 	4	0.2
+23) 	1	0.0
+24) 	14	0.6
+25) 	30	1.2
+27) 	3	0.1
+28) 	5	0.2
+30) 	66	2.7
+31) 	1	0.0
+32) 	25	1.0
+33) 	2	0.1
+34) 	4	0.2
+35) 	53	2.2
+36) 	19	0.8
+37) 	10	0.4
+38) 	12	0.5
+39) 	3	0.1
+40) 	521	21.5
+41) 	7	0.3
+42) 	27	1.1
+43) 	17	0.7
+44) 	11	0.5
+45) 	165	6.8
+46) 	2	0.1
+47) 	7	0.3
+48) 	22	0.9
+49) 	1	0.0
+50) 	215	8.9
+52) 	8	0.3
+53) 	3	0.1
+54) 	6	0.2
+55) 	68	2.8
+56) 	4	0.2
+57) 	2	0.1
+58) 	2	0.1
+60) 	116	4.8
+61) 	1	0.0
+63) 	2	0.1
+65) 	30	1.2
+69) 	1	0.0
+70) 	42	1.7
+72) 	6	0.2
+74) 	1	0.0
+75) 	9	0.4
+76) 	1	0.0
+78) 	1	0.0
+80) 	11	0.5
+84) 	1	0.0
+85) 	2	0.1
+87) 	1	0.0
+90) 	4	0.2
+91) 	1	0.0
+100) 100 hours or more	6	0.2
+888) Don't know	14	0.6
+999) Refused	1	0.0
+
+
+256) WNUM
+Could you tell me approximately how many people are employed where you work? (The company or corp., not just the department) [If R. doesn't know, probe: Would you say over 25 but less than 50, over 50 but less than 100, over 100 but less than 500?]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.511	2.045
+1) Less than 25	1350	55.6
+2) 25 to 50	212	8.7
+3) 51 to 100	161	6.6
+4) 101 to 250	182	7.5
+5) 251 to 500	120	4.9
+6) Over 500	355	14.6
+8) Don't know	37	1.5
+9) Refused	9	0.4
+
+
+257) JSAT
+How satisfied are you with your job? Would you say you are...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2426	1.51	0.704
+1) Very satisfied	1411	58.2
+2) Satisfied	852	35.1
+3) Dissatisfied	114	4.7
+4) Very dissatisfied	42	1.7
+5) Neither satisfied nor dissatisfied	6	0.2
+8) Don't know	1	0.0
+
+
+258) WJOB
+How many jobs are you employed at? (At the same time - for how many employers do you work...how many jobs do you work?)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2426	1.115	0.379
+
+
+259) SE
+Are you self-employed or do you work for a wage?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2426	1.632	0.596
+1) Self-employed	982	40.5
+2) Work for a wage	1375	56.7
+3) Both (for example: farmer who works at a factory)	65	2.7
+8) Don't know	4	0.2
+
+
+260) DOL6
+How long have you worked for your current employer? [This is asking about their primary employer if they have more than one.]
+RANGE: 0 to 88
+	N	Mean	Std. Deviation
+Total	2426	6.06	9.732
+0) Less than one year	131	5.4
+1) 	1236	50.9
+2) 	119	4.9
+3) 	103	4.2
+4) 	71	2.9
+5) 	82	3.4
+6) 	58	2.4
+7) 	40	1.6
+8) 	47	1.9
+9) 	23	0.9
+10) 	54	2.2
+11) 	30	1.2
+12) 	28	1.2
+13) 	25	1.0
+14) 	30	1.2
+15) 	37	1.5
+16) 	22	0.9
+17) 	18	0.7
+18) 	17	0.7
+19) 	9	0.4
+20) 	27	1.1
+21) 	17	0.7
+22) 	11	0.5
+23) 	17	0.7
+24) 	9	0.4
+25) 	25	1.0
+26) 	7	0.3
+27) 	20	0.8
+28) 	14	0.6
+29) 	6	0.2
+30) 	16	0.7
+31) 	4	0.2
+32) 	6	0.2
+33) 	7	0.3
+34) 	5	0.2
+35) 	9	0.4
+36) 	2	0.1
+37) 	1	0.0
+38) 	7	0.3
+39) 	2	0.1
+40) 	6	0.2
+41) 	1	0.0
+42) 	2	0.1
+43) 	3	0.1
+44) 	1	0.0
+45) 	5	0.2
+46) 	1	0.0
+50) 	10	0.4
+88) Don't know	5	0.2
+
+
+261) DOL7
+Not including the time you travel to and from work, during the average week, how many hours do you usually work at your primary job? [if (WJOB is greater than 1) skip to DOL8_1]
+RANGE: 0 to 888
+	N	Mean	Std. Deviation
+Total	2426	22.275	51.614
+0) Less than one hour	9	0.4
+1) 	1306	53.8
+4) 	2	0.1
+5) 	2	0.1
+6) 	2	0.1
+7) 	2	0.1
+8) 	6	0.2
+9) 	2	0.1
+10) 	9	0.4
+11) 	2	0.1
+12) 	5	0.2
+13) 	1	0.0
+14) 	2	0.1
+15) 	8	0.3
+16) 	3	0.1
+17) 	1	0.0
+18) 	1	0.0
+20) 	38	1.6
+21) 	1	0.0
+22) 	4	0.2
+24) 	13	0.5
+25) 	22	0.9
+26) 	1	0.0
+27) 	2	0.1
+28) 	2	0.1
+30) 	41	1.7
+32) 	17	0.7
+33) 	1	0.0
+34) 	3	0.1
+35) 	34	1.4
+36) 	13	0.5
+37) 	7	0.3
+38) 	10	0.4
+39) 	1	0.0
+40) 	363	15.0
+41) 	6	0.2
+42) 	16	0.7
+43) 	12	0.5
+44) 	6	0.2
+45) 	114	4.7
+46) 	2	0.1
+47) 	1	0.0
+48) 	13	0.5
+50) 	133	5.5
+51) 	1	0.0
+52) 	4	0.2
+53) 	1	0.0
+54) 	3	0.1
+55) 	42	1.7
+56) 	2	0.1
+57) 	1	0.0
+58) 	2	0.1
+60) 	73	3.0
+65) 	13	0.5
+70) 	23	0.9
+72) 	4	0.2
+75) 	3	0.1
+80) 	4	0.2
+90) 	1	0.0
+91) 	1	0.0
+100) 	2	0.1
+888) Don't know	7	0.3
+
+
+262) DOL8_1
+What is the annual wage rate of your primary job? [Annual wage: $]
+RANGE: 0 to 999999
+	N	Mean	Std. Deviation
+Total	2426	157479.44	335924.9
+0) 	45	1.9
+1) 	1139	46.9
+2) 	1	0.0
+6) 	1	0.0
+7) 	2	0.1
+8) 	4	0.2
+9) 	7	0.3
+10) 	8	0.3
+11) 	5	0.2
+12) 	2	0.1
+14) 	1	0.0
+15) 	1	0.0
+18) 	2	0.1
+19) 	1	0.0
+20) 	4	0.2
+25) 	2	0.1
+30) 	4	0.2
+35) 	4	0.2
+36) 	1	0.0
+38) 	1	0.0
+40) 	2	0.1
+45) 	1	0.0
+48) 	1	0.0
+50) 	3	0.1
+55) 	2	0.1
+56) 	1	0.0
+60) 	1	0.0
+62) 	1	0.0
+65) 	1	0.0
+550) 	1	0.0
+565) 	1	0.0
+600) 	1	0.0
+650) 	1	0.0
+700) 	1	0.0
+735) 	1	0.0
+750) 	1	0.0
+765) 	1	0.0
+825) 	1	0.0
+850) 	2	0.1
+900) 	1	0.0
+925) 	1	0.0
+1000) 	1	0.0
+1050) 	1	0.0
+1400) 	1	0.0
+1550) 	1	0.0
+2100) 	1	0.0
+2200) 	1	0.0
+2300) 	1	0.0
+2792) 	1	0.0
+2880) 	1	0.0
+3000) 	2	0.1
+3600) 	1	0.0
+4000) 	2	0.1
+5000) 	5	0.2
+5400) 	1	0.0
+6000) 	8	0.3
+6200) 	1	0.0
+6250) 	1	0.0
+7000) 	6	0.2
+7200) 	2	0.1
+7500) 	1	0.0
+8000) 	8	0.3
+8500) 	1	0.0
+8700) 	1	0.0
+8900) 	1	0.0
+9000) 	4	0.2
+9600) 	1	0.0
+9999) 	1	0.0
+10000) 	11	0.5
+10800) 	1	0.0
+11000) 	4	0.2
+11520) 	1	0.0
+12000) 	15	0.6
+12500) 	1	0.0
+13000) 	3	0.1
+13500) 	1	0.0
+14000) 	8	0.3
+14400) 	1	0.0
+15000) 	12	0.5
+15959) 	1	0.0
+16000) 	10	0.4
+17000) 	3	0.1
+17500) 	2	0.1
+18000) 	11	0.5
+18500) 	1	0.0
+18720) 	1	0.0
+19000) 	7	0.3
+19800) 	1	0.0
+20000) 	28	1.2
+21000) 	12	0.5
+22000) 	10	0.4
+22500) 	1	0.0
+23000) 	15	0.6
+23900) 	1	0.0
+24000) 	15	0.6
+25000) 	33	1.4
+26000) 	12	0.5
+26500) 	2	0.1
+27000) 	11	0.5
+27900) 	1	0.0
+28000) 	11	0.5
+28500) 	1	0.0
+29000) 	13	0.5
+30000) 	52	2.1
+31000) 	3	0.1
+31200) 	1	0.0
+31500) 	1	0.0
+32000) 	22	0.9
+33000) 	4	0.2
+34000) 	2	0.1
+35000) 	27	1.1
+36000) 	9	0.4
+37000) 	9	0.4
+38000) 	16	0.7
+39000) 	7	0.3
+40000) 	41	1.7
+41000) 	3	0.1
+42000) 	14	0.6
+42500) 	1	0.0
+43000) 	9	0.4
+44000) 	6	0.2
+45000) 	28	1.2
+46000) 	3	0.1
+47000) 	3	0.1
+48000) 	8	0.3
+49000) 	2	0.1
+50000) 	46	1.9
+51000) 	1	0.0
+52000) 	5	0.2
+53000) 	3	0.1
+54000) 	2	0.1
+55000) 	5	0.2
+56000) 	3	0.1
+57000) 	1	0.0
+58000) 	3	0.1
+60000) 	24	1.0
+61000) 	1	0.0
+62000) 	5	0.2
+65000) 	11	0.5
+66000) 	1	0.0
+67000) 	4	0.2
+68000) 	1	0.0
+70000) 	9	0.4
+71500) 	1	0.0
+72000) 	2	0.1
+73000) 	2	0.1
+74000) 	1	0.0
+75000) 	6	0.2
+77000) 	1	0.0
+78000) 	1	0.0
+80000) 	9	0.4
+85000) 	1	0.0
+87000) 	1	0.0
+88888) 	11	0.5
+90000) 	6	0.2
+95000) 	2	0.1
+99999) 	11	0.5
+100000) 	8	0.3
+110000) 	2	0.1
+120000) 	3	0.1
+135000) 	1	0.0
+150000) 	3	0.1
+160000) 	1	0.0
+166000) 	1	0.0
+200000) 	2	0.1
+220000) 	1	0.0
+350000) 	2	0.1
+380000) 	1	0.0
+450000) 	1	0.0
+460000) 	1	0.0
+500000) 	1	0.0
+888888) Don't know	181	7.5
+999999) Refused	188	7.7
+
+
+263) DOL9
+How long (in minutes) does it normally take you to travel one way to your primary job?
+RANGE: 0 to 999
+	N	Mean	Std. Deviation
+Total	2426	17.735	92.307
+0) 	84	3.5
+1) 	1163	47.9
+2) 	42	1.7
+3) 	43	1.8
+4) 	14	0.6
+5) 	175	7.2
+6) 	10	0.4
+7) 	36	1.5
+8) 	24	1.0
+9) 	1	0.0
+10) 	192	7.9
+11) 	4	0.2
+12) 	21	0.9
+13) 	6	0.2
+14) 	4	0.2
+15) 	171	7.0
+17) 	5	0.2
+18) 	5	0.2
+20) 	157	6.5
+22) 	2	0.1
+23) 	1	0.0
+24) 	3	0.1
+25) 	69	2.8
+27) 	1	0.0
+28) 	1	0.0
+30) 	76	3.1
+32) 	2	0.1
+35) 	15	0.6
+37) 	1	0.0
+40) 	17	0.7
+45) 	24	1.0
+50) 	8	0.3
+60) 	14	0.6
+65) 	1	0.0
+75) 	1	0.0
+80) 	1	0.0
+90) 	3	0.1
+110) 	1	0.0
+120) 	2	0.1
+888) Don't know	24	1.0
+999) Refused	2	0.1
+
+
+264) DOL10
+Next I am going to read you a list of employee benefits. For each one, please tell me if you are currently offered that benefit through your primary employer. Are you currently offered life insurance (where you work)? [if (SE equals 1) skip to DOL27] [if (answer equals 7) skip to DOL27]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.609	1.481
+1) Yes	2067	85.2
+5) No	346	14.3
+8) Don't know	10	0.4
+9) Refused	3	0.1
+
+
+265) DOL11
+Next I am going to read you a list of employee benefits. For each one, please tell me if you are currently offered that benefit through your primary employer. Are you currently offered health insurance (where you work)?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.425	1.263
+1) Yes	2174	89.6
+5) No	245	10.1
+8) Don't know	4	0.2
+9) Refused	3	0.1
+
+
+266) DOL12
+Next I am going to read you a list of employee benefits. For each one, please tell me if you are currently offered that benefit through your primary employer. Are you currently offered health insurance for your spouse or dependents (where you work)?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.502	1.375
+1) Yes	2133	87.9
+5) No	279	11.5
+8) Don't know	11	0.5
+9) Refused	3	0.1
+
+
+267) DOL13
+Next I am going to read you a list of employee benefits. For each one, please tell me if you are currently offered that benefit through your primary employer. Are you currently offered dental insurance (where you work)?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.664	1.536
+1) Yes	2035	83.9
+5) No	376	15.5
+8) Don't know	12	0.5
+9) Refused	3	0.1
+
+
+268) DOL14
+Next I am going to read you a list of employee benefits. For each one, please tell me if you are currently offered that benefit through your primary employer. Are you currently offered paid sick leave (where you work)?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.664	1.536
+1) Yes	2035	83.9
+5) No	376	15.5
+8) Don't know	12	0.5
+9) Refused	3	0.1
+
+
+269) DOL15
+Next I am going to read you a list of employee benefits. For each one, please tell me if you are currently offered that benefit through your primary employer. Are you currently offered paid vacation (where you work)?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.442	1.297
+1) Yes	2167	89.3
+5) No	248	10.2
+8) Don't know	8	0.3
+9) Refused	3	0.1
+
+
+270) DOL16
+Next I am going to read you a list of employee benefits. For each one, please tell me if you are currently offered that benefit through your primary employer. Are you currently offered paid holidays (where you work)?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.46	1.316
+1) Yes	2155	88.8
+5) No	261	10.8
+8) Don't know	7	0.3
+9) Refused	3	0.1
+
+
+271) DOL17
+Next I am going to read you a list of employee benefits. For each one, please tell me if you are currently offered that benefit through your primary employer. Are you currently offered child care assistance (where you work)?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.706	2.215
+1) Yes	1477	60.9
+5) No	836	34.5
+8) Don't know	110	4.5
+9) Refused	3	0.1
+
+
+272) DOL18
+Next I am going to read you a list of employee benefits. For each one, please tell me if you are currently offered that benefit through your primary employer. Are you currently offered a retirement program (where you work)?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.509	1.392
+1) Yes	2131	87.8
+5) No	278	11.5
+8) Don't know	14	0.6
+9) Refused	3	0.1
+
+
+273) DOL19
+Next I am going to read you a list of employee benefits. For each one, please tell me if you are currently offered that benefit through your primary employer. Are you currently offered disability insurance (where you work)?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.782	1.749
+1) Yes	1998	82.4
+5) No	367	15.1
+8) Don't know	58	2.4
+9) Refused	3	0.1
+
+
+274) DOL20
+Next I am going to read you a list of employee benefits. For each one, please tell me if you are currently offered that benefit through your primary employer. Are you currently offered a prescription drug plan (where you work)?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.648	1.547
+1) Yes	2052	84.6
+5) No	350	14.4
+8) Don't know	21	0.9
+9) Refused	3	0.1
+
+
+275) DOL21
+Next I am going to read you a list of employee benefits. For each one, please tell me if you are currently offered that benefit through your primary employer. Are you currently offered profit sharing (where you work)?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.324	1.968
+1) Yes	1651	68.1
+5) No	739	30.5
+8) Don't know	32	1.3
+9) Refused	4	0.2
+
+
+276) DOL22
+Next I am going to read you a list of employee benefits. For each one, please tell me if you are currently offered that benefit through your primary employer. Are you currently offered discounts (where you work)?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.186	1.871
+1) Yes	1720	70.9
+5) No	689	28.4
+8) Don't know	14	0.6
+9) Refused	3	0.1
+
+
+277) DOL23
+Next I am going to read you a list of employee benefits. For each one, please tell me if you are currently offered that benefit through your primary employer. Are you currently offered tuition assistance (where you work)?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.192	1.996
+1) Yes	1758	72.5
+5) No	596	24.6
+8) Don't know	69	2.8
+9) Refused	3	0.1
+
+
+278) DOL24
+How do you rate the overall benefits package offered to you by your (primary) employer? Would you rate it as... [if (answer equals 0) skip to DOL26]
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2426	2.01	7.192
+0) No benefit package offered	89	3.7
+1) Very good	1684	69.4
+2) Good	354	14.6
+3) Fair	145	6.0
+4) Poor	71	2.9
+5) Very poor	67	2.8
+88) Don't know	14	0.6
+99) Refused	2	0.1
+
+
+279) DOL25
+Which benefit offered by your current (primary) employer is *most* important to you?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2426	4.011	12.227
+1) Life insurance	1419	58.5
+2) Health insurance	613	25.3
+3) Health insurance for spouses or dependents	42	1.7
+4) Dental insurance	11	0.5
+5) Paid vacation	52	2.1
+6) Paid holidays	14	0.6
+7) Paid sick leave	23	0.9
+8) Child care assistance	3	0.1
+9) Retirement program	115	4.7
+10) Disability insurance	7	0.3
+11) Profit sharing	9	0.4
+12) Prescription drug plan	4	0.2
+13) Discounts	12	0.5
+14) Tuition assistance	4	0.2
+15) Other - specify	51	2.1
+88) Don't know	45	1.9
+99) Refused	2	0.1
+
+
+280) DOL26
+What benefit not currently offered to you would you most like to receive from your (primary) employer?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2426	15.173	28.99
+1) Life insurance	1343	55.4
+2) Health insurance	129	5.3
+3) Health insurance for spouses or dependents	16	0.7
+4) Dental insurance	75	3.1
+5) Paid vacation	20	0.8
+6) Paid holidays	17	0.7
+7) Paid sick leave	39	1.6
+8) Child care assistance	54	2.2
+9) Retirement program	53	2.2
+10) Disability insurance	14	0.6
+11) Profit sharing	51	2.1
+12) Prescription drug plan	12	0.5
+13) Discounts	7	0.3
+14) Tuition assistance	34	1.4
+15) Other [specify]	239	9.9
+88) Don't know	318	13.1
+99) Refused	5	0.2
+
+
+281) DOL27
+Assuming the same number of hours currently worked at your (primary) job, how much pay per hour would you need to change employment? [Ask until the respondent says 'no,' starting with $20 per hour. Read the annual equivalent only if they ask.] [skip to DOL29] [if (answer is greater than 8) skip to DOL29]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2426	15.991	30.714
+1) $20 per hour [$41,600 annually]	1550	63.9
+2) $18 per hour [$37,440 annually]	44	1.8
+3) $16 per hour [$33,280 annually]	71	2.9
+4) $14 per hour [$29,120 annually]	79	3.3
+5) $12 per hour [$24,960 annually]	62	2.6
+6) $10 per hour [$20,800 annually]	107	4.4
+7) $8 per hour [$16.640 annually]	36	1.5
+8) $6 per hour [$12,480 annually]	50	2.1
+77) Other - something else	267	11.0
+88) Don't know	125	5.2
+99) Refused	35	1.4
+
+
+282) DOL29
+Would you be willing to accept a SECOND job? [if (WJOB is greater than 1) skip to DOL32] [if (answer is greater than 1) skip to DOL35]
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2426	2.22	1.881
+1) Yes	1699	70.0
+5) No	710	29.3
+8) Don't know	17	0.7
+
+
+283) DOL30
+About how many hours would you like to work at a second job each week?
+RANGE: 0 to 888
+	N	Mean	Std. Deviation
+Total	2426	8.115	64.926
+0) None	5	0.2
+1) 	2041	84.1
+2) 	2	0.1
+4) 	7	0.3
+5) 	11	0.5
+6) 	1	0.0
+8) 	11	0.5
+10) 	89	3.7
+11) 	1	0.0
+12) 	14	0.6
+15) 	65	2.7
+16) 	4	0.2
+18) 	1	0.0
+20) 	117	4.8
+23) 	1	0.0
+24) 	3	0.1
+25) 	14	0.6
+28) 	1	0.0
+30) 	9	0.4
+40) 	13	0.5
+45) 	1	0.0
+60) 	1	0.0
+88) 	1	0.0
+888) Don't know	13	0.5
+
+
+284) DOL31
+How much would an employer have to pay you per hour in order for you to accept a second job? [if (WJOB equals 1) skip to DOL35] [if (WJOB is greater than 5) skip to DOL35]
+RANGE: 0 to 99
+	N	Mean	Std. Deviation
+Total	2426	3.834	10.529
+0) None	3	0.1
+1) 	2041	84.1
+2) 	1	0.0
+5) 	4	0.2
+6) 	9	0.4
+7) 	13	0.5
+8) 	45	1.9
+9) 	29	1.2
+10) 	75	3.1
+11) 	5	0.2
+12) 	33	1.4
+13) 	6	0.2
+14) 	9	0.4
+15) 	48	2.0
+16) 	4	0.2
+17) 	1	0.0
+18) 	7	0.3
+20) 	34	1.4
+23) 	1	0.0
+25) 	11	0.5
+27) 	1	0.0
+28) 	1	0.0
+30) 	9	0.4
+35) 	2	0.1
+40) 	2	0.1
+50) 	3	0.1
+75) 	2	0.1
+88) Don't know	26	1.1
+99) Refused	1	0.0
+
+
+285) DOL32
+What is the main reason you are working multiple jobs?
+RANGE: 1 to 88
+	N	Mean	Std. Deviation
+Total	2426	1.296	3.192
+1) Meet regular expenses	2313	95.3
+2) Pay off debt	11	0.5
+3) Increase savings	13	0.5
+4) Buy something special	5	0.2
+5) Enjoyment	39	1.6
+6) Unable to find regular, full-time employment	3	0.1
+7) Other - specify	39	1.6
+88) Don't know	3	0.1
+
+
+286) DOL33
+During the average week, how many hours do you usually work at your second job, not including the time you travel to and from work? [skip to DOL35]
+RANGE: 0 to 888
+	N	Mean	Std. Deviation
+Total	2426	5.711	57.021
+0) None	3	0.1
+1) 	2255	93.0
+2) 	3	0.1
+3) 	2	0.1
+4) 	7	0.3
+5) 	16	0.7
+6) 	7	0.3
+7) 	2	0.1
+8) 	7	0.3
+10) 	17	0.7
+11) 	1	0.0
+12) 	12	0.5
+14) 	2	0.1
+15) 	16	0.7
+16) 	5	0.2
+17) 	1	0.0
+20) 	20	0.8
+22) 	2	0.1
+24) 	2	0.1
+25) 	9	0.4
+26) 	1	0.0
+28) 	2	0.1
+30) 	8	0.3
+35) 	3	0.1
+36) 	2	0.1
+40) 	4	0.2
+43) 	1	0.0
+45) 	1	0.0
+55) 	2	0.1
+60) 	1	0.0
+65) 	1	0.0
+100) 	1	0.0
+888) Don't know	10	0.4
+
+
+287) DOL34
+During the average week, how many hours do you usually work at your third job, not including the time you travel to and from work? [if (wjob is less than 3) skip to DOL35]
+RANGE: 0 to 888
+	N	Mean	Std. Deviation
+Total	2426	1.786	25.473
+0) None	1	0.0
+1) 	2402	99.0
+2) 	2	0.1
+3) 	3	0.1
+4) 	2	0.1
+5) 	5	0.2
+6) 	2	0.1
+10) 	2	0.1
+12) 	2	0.1
+15) 	1	0.0
+19) 	1	0.0
+20) 	1	0.0
+888) Don't know	2	0.1
+
+
+288) DOL35
+Do you see yourself working in Nebraska two years from now? [if (answer is less than 3) skip to nh]
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2426	1.319	0.886
+1) Definitely yes	1983	81.7
+2) Probably yes	291	12.0
+3) Undecided	64	2.6
+4) Probably no	43	1.8
+5) Definitely no	30	1.2
+8) Don't know	15	0.6
+
+
+289) DOL36
+What is your primary reason for thinking you won't be working in Nebraska two years from now?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2426	1.119	0.647
+1) Will be retired	2309	95.2
+2) Will relocate to another state/location	61	2.5
+3) Will be going to school	5	0.2
+4) Will be staying at home/caregiving to children or elders	2	0.1
+5) Other - specify	44	1.8
+8) Don't know	5	0.2
+
+
+290) NH1
+Next, I'd like to read a series of statements about nursing homes. [if (ager is less than 35) skip to vote1] [if (group equals 3) skip to semp] Based on what you know or have heard, how would you evaluate the overall quality of care in nursing homes? Would you say the care provided is:
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.2	1.9
+1) Very high quality	1137	46.9
+2) Moderately high quality	717	29.6
+3) Moderately low quality	313	12.9
+4) Very low quality	63	2.6
+8) Don't know	189	7.8
+9) Refused	7	0.3
+
+
+291) NH2
+Next, I'd like to read a series of statements about nursing homes. [if (ager is less than 35) skip to vote1] [if (group equals 3) skip to semp] Do you think that the care provided in nursing homes today is better than, worse than, or about the same as it was five years ago?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.023	2.038
+1) Better than	1487	61.3
+2) About the same as	567	23.4
+3) Worse than	138	5.7
+8) Don't know	232	9.6
+9) Refused	2	0.1
+
+
+292) NH3
+Next, I'd like to read a series of statements about nursing homes. [if (ager is less than 35) skip to vote1] [if (group equals 3) skip to semp] If a loved one became chronically ill or disabled, how willing would you be to have that person cared for in a nursing home? Would you be...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.864	1.324
+1) Very willing	1326	54.7
+2) Somewhat willing	559	23.0
+3) Somewhat unwilling	298	12.3
+4) Very unwilling	191	7.9
+8) Don't know	49	2.0
+9) Refused	3	0.1
+
+
+293) NH4
+Next I'd like to read a series of statements about nursing homes. Please tell me if you agree or disagree with each statement. The nursing home in your local community provides higher quality care than those in other parts of the country. Do you...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.88	2.61
+1) Strongly agree	1116	46.0
+2) Agree	541	22.3
+3) Neither agree or disagree/neutral	108	4.5
+4) Disagree or	191	7.9
+5) Strongly disagree	21	0.9
+8) Don't know	444	18.3
+9) Refused	5	0.2
+
+
+294) NH5
+Next I'd like to read a series of statements about nursing homes. Please tell me if you agree or disagree with each statement. If I ever need 24-hour nursing care, I would rather receive care by trained staff in a nursing home than to be dependent upon family members to take care of me.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.058	1.563
+1) Strongly agree	1248	51.4
+2) Agree	642	26.5
+3) Neither agree or disagree/neutral	61	2.5
+4) Disagree or	302	12.4
+5) Strongly disagree	107	4.4
+8) Don't know	60	2.5
+9) Refused	6	0.2
+
+
+295) NH6
+Next I'd like to read a series of statements about nursing homes. Please tell me if you agree or disagree with each statement. Nursing homes are usually treated fairly by newspaper and television reports.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.418	2.03
+1) Strongly agree	1064	43.9
+2) Agree	728	30.0
+3) Neither agree or disagree/neutral	86	3.5
+4) Disagree or	297	12.2
+5) Strongly disagree	38	1.6
+8) Don't know	208	8.6
+9) Refused	5	0.2
+
+
+296) NH7
+Next I'd like to read a series of statements about nursing homes. Please tell me if you agree or disagree with each statement. Once a person enters a nursing home, he or she is there for life.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.303	1.596
+1) Strongly agree	1111	45.8
+2) Agree	525	21.6
+3) Neither agree or disagree/neutral	56	2.3
+4) Disagree or	580	23.9
+5) Strongly disagree	99	4.1
+8) Don't know	52	2.1
+9) Refused	3	0.1
+
+
+297) NH8
+Next I'd like to read a series of statements about nursing homes. Please tell me if you agree or disagree with each statement. Patients lose many of their rights, such as the right to vote or to make choices, when they move into the nursing home.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.849	2.138
+1) Strongly agree	1059	43.7
+2) Agree	265	10.9
+3) Neither agree or disagree/neutral	97	4.0
+4) Disagree or	634	26.1
+5) Strongly disagree	160	6.6
+8) Don't know	203	8.4
+9) Refused	8	0.3
+
+
+298) NH11
+How familiar are you with assisted living facilities? Would you say... [if (answer equals 4) skip to VOTE1]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.741	1.027
+1) Very familiar	1298	53.5
+2) Somewhat familiar	640	26.4
+3) Not too familiar, or	380	15.7
+4) You have never heard of assisted living facilities	91	3.8
+8) Don't know	12	0.5
+9) Refused	5	0.2
+
+
+299) NH12
+Compared to nursing home residents, would you say most people living in assisted living facilities are healthier, about the same as, or sicker than nursing home residents?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.466	1.56
+1) Healthier than nursing home residents	2055	84.7
+2) About the same as nursing home residents	236	9.7
+3) Sicker than nursing home residents	11	0.5
+8) Don't know	119	4.9
+9) Refused	5	0.2
+
+
+300) NH13
+Based on what you know or have heard, how would you evaluate the overall quality of assisted living facilities? Would you say the care provided is...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.908	1.802
+1) Very high quality	1356	55.9
+2) Moderately high quality	836	34.5
+3) Moderately low quality	51	2.1
+4) Very low quality	6	0.2
+8) Don't know	170	7.0
+9) Refused	7	0.3
+
+
+301) NH14
+How involved are people who live in assisted living facilities in their community? Would you say they are very involved, somewhat involved, not too involved, or not at all involved in the community in which they live?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.204	1.933
+1) Very involved	1173	48.4
+2) Somewhat involved	662	27.3
+3) Not too involved	343	14.1
+4) Not at all involved	42	1.7
+8) Don't know	201	8.3
+9) Refused	5	0.2
+
+
+302) NH15
+Based on what you know or have heard, would you be very willing, somewhat willing, somewhat unwilling, or very unwilling to have a loved one cared for in an assisted living facility?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.589	1.277
+1) Very willing	1565	64.5
+2) Somewhat willing	682	28.1
+3) Somewhat unwilling	77	3.2
+4) Very unwilling	32	1.3
+8) Don't know	64	2.6
+9) Refused	6	0.2
+
+
+303) VOTE1
+Are you currently registered to vote? [if (group equals 3) skip to semp] [if (answer equals 1) skip to vote4]
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2426	1.389	1.229
+1) Yes	2199	90.6
+5) No	215	8.9
+8) Don't know	12	0.5
+
+
+304) VOTE2
+Have you ever been registered to vote? [if (answer equals 1) skip to vote4]
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2426	1.218	0.919
+1) Yes	2295	94.6
+5) No	129	5.3
+8) Don't know	2	0.1
+
+
+305) VOTE3
+Which of the following best describes why you have not registered to vote? [if (answer is greater than 0) skip to vote13]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.105	0.661
+1) No interest	2354	97.0
+2) No opportunity	9	0.4
+3) Don't know how	9	0.4
+4) Don't want to have to do jury duty	10	0.4
+5) Other - something else - specify	37	1.5
+8) Don't know	6	0.2
+9) Refused	1	0.0
+
+
+306) VOTE4
+Have you ever voted? [if (answer is greater than 1) skip to vote13]
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2426	1.147	0.752
+1) Yes	2337	96.3
+5) No	89	3.7
+
+
+307) VOTE5
+Have you ever voted by absentee ballot? [if (answer is greater than 1) skip to vote7]
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2426	3.005	2.015
+1) Yes	1215	50.1
+5) No	1204	49.6
+8) Don't know	7	0.3
+
+
+308) VOTE6
+What was the determining factor that led you to vote absentee?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2426	1.096	0.596
+1) I was out of town	2344	96.6
+2) Health reasons	22	0.9
+3) Polling place location	20	0.8
+4) Polling place hours	8	0.3
+5) Ease of voting by mail	26	1.1
+8) Don't know	6	0.2
+
+
+309) VOTE7
+Which of the following best describes your voting habits?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2426	1.527	0.813
+1) I vote in all elections	1514	62.4
+2) I vote in most elections	648	26.7
+3) I sometimes vote	181	7.5
+4) I rarely vote	70	2.9
+5) I never vote	11	0.5
+8) Don't know	2	0.1
+
+
+310) VOTE8
+Which of the following best describes the type of election in which you are MOST likely to vote? Would you say...
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	3.041	1.918
+1) Presidential primaries	976	40.2
+2) Presidential generals	255	10.5
+3) Other statewide primaries or generals	24	1.0
+4) Special or local elections, or	81	3.3
+5) All elections, regardless of the type of election	1076	44.4
+8) Don't know	11	0.5
+9) Refused	3	0.1
+
+
+311) VOTE12
+Which of the following best describes why you vote? [if (answer is greater than 0) skip to vote20] [if (vote4 equals 1) skip to vote20]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2426	2.388	5.627
+1) It is my civic duty	1472	60.7
+2) I'm interested in a particular issue or candidate	412	17.0
+3) My family or friends vote	13	0.5
+4) I'm loyal to a political party	36	1.5
+5) I was taught by parents or family that it was important	403	16.6
+6) Other - specify	81	3.3
+88) Don't know	7	0.3
+99) Refused	2	0.1
+
+
+312) VOTE13_1
+Which of the following best describes why you don't vote? It's too time consuming
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.913	0.281
+0) Not checked	210	8.7
+1) Checked	2216	91.3
+
+
+313) VOTE13_2
+Which of the following best describes why you don't vote? I have no interest
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.932	0.251
+0) Not checked	164	6.8
+1) Checked	2262	93.2
+
+
+314) VOTE13_3
+Which of the following best describes why you don't vote? I don't have enough information on candidates and/or issues
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.931	0.253
+0) Not checked	167	6.9
+1) Checked	2259	93.1
+
+
+315) VOTE13_4
+Which of the following best describes why you don't vote? The polling place is inconvenient or not accessible
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.912	0.284
+0) Not checked	214	8.8
+1) Checked	2212	91.2
+
+
+316) VOTE13_5
+Which of the following best describes why you don't vote? I have no political party affiliation
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.916	0.278
+0) Not checked	204	8.4
+1) Checked	2222	91.6
+
+
+317) VOTE13_6
+Which of the following best describes why you don't vote? I do not feel my vote makes a difference
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.922	0.269
+0) Not checked	190	7.8
+1) Checked	2236	92.2
+
+
+318) VOTE13_7
+Which of the following best describes why you don't vote? The time when polls are open is inconvenient
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.915	0.279
+0) Not checked	207	8.5
+1) Checked	2219	91.5
+
+
+319) VOTE13_8
+Which of the following best describes why you don't vote? Other - specify
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.934	0.249
+0) Not checked	161	6.6
+1) Checked	2265	93.4
+
+
+320) VOTE13_9
+Which of the following best describes why you don't vote? Don't know
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.914	0.28
+0) Not checked	208	8.6
+1) Checked	2218	91.4
+
+
+321) VOTE1310
+Which of the following best describes why you don't vote? Refused
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.91	0.287
+0) Not checked	219	9.0
+1) Checked	2207	91.0
+
+
+322) VOTE20
+What do you think is the main reason other people do not vote? [if (vote3 is greater than 0) skip to r1] [if (vote4 is greater than 1) skip to r1]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2426	5.836	14.335
+1) It's too time consuming	672	27.7
+2) They have no interest	615	25.4
+3) They don't have enough information on candidates and/or issues	164	6.8
+4) The polling place is inconvenient or not accessible	13	0.5
+5) They have no political party affiliation	12	0.5
+6) They do not feel their vote makes a difference	740	30.5
+7) The time when polls are open is inconvenient	20	0.8
+8) Other - specify	121	5.0
+88) Don't know	66	2.7
+99) Refused	3	0.1
+
+
+323) VOTE21
+Which of the following *best* describes where you receive information concerning candidates or issues?
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2426	2.518	6.951
+1) Newspaper	1345	55.4
+2) Television or radio	790	32.6
+3) Voter guides or other publications	50	2.1
+4) Civic or community forums	11	0.5
+5) Family or friends	38	1.6
+6) Candidates themselves	46	1.9
+7) Government sources	1	0.0
+8) Political parties	14	0.6
+9) Churches	19	0.8
+10) Other - specify	98	4.0
+88) Don't know	12	0.5
+99) Refused	2	0.1
+
+
+324) VOTE22
+Please tell me if you strongly agree, agree, disagree, or strongly disagree on the following statements regarding information on voting. I received information concerning when, where, or how to vote from newspapers or the internet.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2426	2.566	7.702
+1) Strongly agree	1218	50.2
+2) Agree	716	29.5
+3) Neutral	48	2.0
+4) Disagree	328	13.5
+5) Strongly disagree	98	4.0
+88) Don't know	14	0.6
+99) Refused	4	0.2
+
+
+325) VOTE23
+Please tell me if you strongly agree, agree, disagree, or strongly disagree on the following statements regarding information on voting. I received information concerning when, where, or how to vote from television or radio.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2426	2.551	7.028
+1) Strongly agree	1105	45.5
+2) Agree	764	31.5
+3) Neutral	39	1.6
+4) Disagree	429	17.7
+5) Strongly disagree	74	3.1
+88) Don't know	12	0.5
+99) Refused	3	0.1
+
+
+326) VOTE24
+Please tell me if you strongly agree, agree, disagree, or strongly disagree on the following statements regarding information on voting. I received information concerning when, where, or how to vote from voter guides or other publications.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2426	3.545	10.137
+1) Strongly agree	950	39.2
+2) Agree	558	23.0
+3) Neutral	44	1.8
+4) Disagree	741	30.5
+5) Strongly disagree	100	4.1
+88) Don't know	30	1.2
+99) Refused	3	0.1
+
+
+327) VOTE25
+Please tell me if you strongly agree, agree, disagree, or strongly disagree on the following statements regarding information on voting. I received information concerning when, where, or how to vote from civic or community forums.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2426	3.57	9.68
+1) Strongly agree	888	36.6
+2) Agree	491	20.2
+3) Neutral	45	1.9
+4) Disagree	876	36.1
+5) Strongly disagree	96	4.0
+88) Don't know	27	1.1
+99) Refused	3	0.1
+
+
+328) VOTE26
+Please tell me if you strongly agree, agree, disagree, or strongly disagree on the following statements regarding information on voting. I received information concerning when, where, or how to vote from family or friends.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2426	2.756	6.585
+1) Strongly agree	937	38.6
+2) Agree	684	28.2
+3) Neutral	37	1.5
+4) Disagree	681	28.1
+5) Strongly disagree	74	3.1
+88) Don't know	10	0.4
+99) Refused	3	0.1
+
+
+329) VOTE27
+Please tell me if you strongly agree, agree, disagree, or strongly disagree on the following statements regarding information on voting. I received information concerning when, where, or how to vote from candidates themselves.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2426	3.248	8.197
+1) Strongly agree	893	36.8
+2) Agree	512	21.1
+3) Neutral	38	1.6
+4) Disagree	842	34.7
+5) Strongly disagree	120	4.9
+88) Don't know	18	0.7
+99) Refused	3	0.1
+
+
+330) VOTE28
+Please tell me if you strongly agree, agree, disagree, or strongly disagree on the following statements regarding information on voting. I received information concerning when, where, or how to vote from government sources.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2426	3.817	10.585
+1) Strongly agree	877	36.2
+2) Agree	470	19.4
+3) Neutral	37	1.5
+4) Disagree	909	37.5
+5) Strongly disagree	97	4.0
+88) Don't know	32	1.3
+99) Refused	4	0.2
+
+
+331) VOTE29
+Please tell me if you strongly agree, agree, disagree, or strongly disagree on the following statements regarding information on voting. I received information concerning when, where, or how to vote from political parties.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2426	3.147	8.013
+1) Strongly agree	888	36.6
+2) Agree	583	24.0
+3) Neutral	41	1.7
+4) Disagree	806	33.2
+5) Strongly disagree	88	3.6
+88) Don't know	17	0.7
+99) Refused	3	0.1
+
+
+332) VOTE30
+Please tell me if you strongly agree, agree, disagree, or strongly disagree on the following statements regarding information on voting. I received information concerning when, where, or how to vote from churches or other non-profit organizations.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2426	3.313	7.682
+1) Strongly agree	865	35.7
+2) Agree	357	14.7
+3) Neutral	42	1.7
+4) Disagree	1015	41.8
+5) Strongly disagree	129	5.3
+88) Don't know	14	0.6
+99) Refused	4	0.2
+
+
+333) VOTE31_1
+Who should be responsible for providing information concerning candidates or issues? SELECT ALL THAT APPLY. None
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.343	0.475
+0) Not checked	1594	65.7
+1) Checked	832	34.3
+
+
+334) VOTE31_2
+Who should be responsible for providing information concerning candidates or issues? SELECT ALL THAT APPLY. Newspaper
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.581	0.494
+0) Not checked	1017	41.9
+1) Checked	1409	58.1
+
+
+335) VOTE31_3
+Who should be responsible for providing information concerning candidates or issues? SELECT ALL THAT APPLY. Television or radio
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.556	0.497
+0) Not checked	1076	44.4
+1) Checked	1350	55.6
+
+
+336) VOTE31_4
+Who should be responsible for providing information concerning candidates or issues? SELECT ALL THAT APPLY. Voter guides or other publications
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.399	0.49
+0) Not checked	1457	60.1
+1) Checked	969	39.9
+
+
+337) VOTE31_5
+Who should be responsible for providing information concerning candidates or issues? SELECT ALL THAT APPLY. Civic or community forums
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.408	0.492
+0) Not checked	1436	59.2
+1) Checked	990	40.8
+
+
+338) VOTE31_6
+Who should be responsible for providing information concerning candidates or issues? SELECT ALL THAT APPLY. Family or friends
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.381	0.486
+0) Not checked	1501	61.9
+1) Checked	925	38.1
+
+
+339) VOTE31_7
+Who should be responsible for providing information concerning candidates or issues? SELECT ALL THAT APPLY. Candidates themselves
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.651	0.477
+0) Not checked	846	34.9
+1) Checked	1580	65.1
+
+
+340) VOTE31_8
+Who should be responsible for providing information concerning candidates or issues? SELECT ALL THAT APPLY. Government sources
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.441	0.497
+0) Not checked	1355	55.9
+1) Checked	1071	44.1
+
+
+341) VOTE31_9
+Who should be responsible for providing information concerning candidates or issues? SELECT ALL THAT APPLY. Political parties
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.456	0.498
+0) Not checked	1319	54.4
+1) Checked	1107	45.6
+
+
+342) VOTE3110
+Who should be responsible for providing information concerning candidates or issues? SELECT ALL THAT APPLY. Churches
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.378	0.485
+0) Not checked	1510	62.2
+1) Checked	916	37.8
+
+
+343) VOTE3111
+Who should be responsible for providing information concerning candidates or issues? SELECT ALL THAT APPLY. Other - specify
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.393	0.488
+0) Not checked	1473	60.7
+1) Checked	953	39.3
+
+
+344) VOTE3112
+Who should be responsible for providing information concerning candidates or issues? SELECT ALL THAT APPLY. Don't know
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.399	0.49
+0) Not checked	1457	60.1
+1) Checked	969	39.9
+
+
+345) VOTE3113
+Who should be responsible for providing information concerning candidates or issues? SELECT ALL THAT APPLY. Refused
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.343	0.475
+0) Not checked	1593	65.7
+1) Checked	833	34.3
+
+
+346) VOTE32
+Please tell me if you think the following items would be highly effective, somewhat effective, somewhat ineffective, or highly ineffective at making it more likely for you or others to vote. Public service ads encouraging voting
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2426	2.707	9.502
+1) Highly effective	1165	48.0
+2) Somewhat effective	938	38.7
+3) Somewhat ineffective	224	9.2
+4) Highly ineffective	70	2.9
+88) Don't know	27	1.1
+99) Refused	2	0.1
+
+
+347) VOTE33
+Please tell me if you think the following items would be highly effective, somewhat effective, somewhat ineffective, or highly ineffective at making it more likely for you or others to vote. Reminder cards prior to Election Day
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2426	2.276	7.567
+1) Highly effective	1308	53.9
+2) Somewhat effective	777	32.0
+3) Somewhat ineffective	239	9.9
+4) Highly ineffective	84	3.5
+88) Don't know	16	0.7
+99) Refused	2	0.1
+
+
+348) VOTE34
+Please tell me if you think the following items would be highly effective, somewhat effective, somewhat ineffective, or highly ineffective at making it more likely for you or others to vote. Voter guides on candidates and issues
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2426	3.236	11.88
+1) Highly effective	1293	53.3
+2) Somewhat effective	827	34.1
+3) Somewhat ineffective	207	8.5
+4) Highly ineffective	53	2.2
+88) Don't know	44	1.8
+99) Refused	2	0.1
+
+
+349) VOTE35
+Please tell me if you think the following items would be highly effective, somewhat effective, somewhat ineffective, or highly ineffective at making it more likely for you or others to vote. Increased contact with candidates
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2426	3.115	11.271
+1) Highly effective	1253	51.6
+2) Somewhat effective	819	33.8
+3) Somewhat ineffective	228	9.4
+4) Highly ineffective	85	3.5
+88) Don't know	38	1.6
+99) Refused	3	0.1
+
+
+350) VOTE36
+Please tell me if you strongly agree, agree, disagree, or strongly disagree with the following statements. Citizens would be more likely to vote if the voting process were made easier.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.036	1.243
+1) Strongly agree	1070	44.1
+2) Agree	555	22.9
+3) Disagree	604	24.9
+4) Strongly disagree	158	6.5
+8) Don't know	36	1.5
+9) Refused	3	0.1
+
+
+351) VOTE37
+Please tell me if you strongly agree, agree, disagree, or strongly disagree with the following statements. People would be more likely to vote if they had more information on candidates or issues.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.818	1.069
+1) Strongly agree	1168	48.1
+2) Agree	737	30.4
+3) Disagree	423	17.4
+4) Strongly disagree	72	3.0
+8) Don't know	23	0.9
+9) Refused	3	0.1
+
+
+352) VOTE38
+Please tell me if you strongly agree, agree, disagree, or strongly disagree with the following statements. More people would vote if they were able to vote at home via the internet.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.921	1.435
+1) Strongly agree	1203	49.6
+2) Agree	731	30.1
+3) Disagree	323	13.3
+4) Strongly disagree	82	3.4
+8) Don't know	85	3.5
+9) Refused	2	0.1
+
+
+353) VOTE39
+Please tell me if you strongly agree, agree, disagree, or strongly disagree with the following statements. More people would vote if they were able to vote somewhere other than at their polling site.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.121	1.451
+1) Strongly agree	1015	41.8
+2) Agree	625	25.8
+3) Disagree	614	25.3
+4) Strongly disagree	85	3.5
+8) Don't know	84	3.5
+9) Refused	3	0.1
+
+
+354) VOTE40
+Please tell me if you strongly agree, agree, disagree, or strongly disagree with the following statements. More people would vote if Election Day was a holiday.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.296	1.24
+1) Strongly agree	911	37.6
+2) Agree	284	11.7
+3) Disagree	950	39.2
+4) Strongly disagree	252	10.4
+8) Don't know	27	1.1
+9) Refused	2	0.1
+
+
+355) VOTE41
+Please tell me if you strongly agree, agree, disagree, or strongly disagree with the following statements. More people would vote if they could vote over a two or three day period.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.992	1.14
+1) Strongly agree	1001	41.3
+2) Agree	698	28.8
+3) Disagree	602	24.8
+4) Strongly disagree	93	3.8
+8) Don't know	30	1.2
+9) Refused	2	0.1
+
+
+356) VOTE42
+Please tell me if you strongly agree, agree, disagree, or strongly disagree with the following statements. People would be more likely to vote if they had a publication on candidates and issues appearing on the ballot.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.082	1.285
+1) Strongly agree	973	40.1
+2) Agree	648	26.7
+3) Disagree	662	27.3
+4) Strongly disagree	88	3.6
+8) Don't know	51	2.1
+9) Refused	4	0.2
+
+
+357) VOTE43
+Please tell me if you strongly agree, agree, disagree, or strongly disagree with the following statements. More people would vote if elections were held on a weekend.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.29	1.341
+1) Strongly agree	892	36.8
+2) Agree	389	16.0
+3) Disagree	929	38.3
+4) Strongly disagree	158	6.5
+8) Don't know	56	2.3
+9) Refused	2	0.1
+
+
+358) VOTE44
+Please tell me if you strongly agree, agree, disagree, or strongly disagree with the following statements. People would be more likely to vote if all elections were conducted by mail.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.308	1.379
+1) Strongly agree	875	36.1
+2) Agree	407	16.8
+3) Disagree	941	38.8
+4) Strongly disagree	135	5.6
+8) Don't know	65	2.7
+9) Refused	3	0.1
+
+
+359) R1
+Next, I'd like to ask some questions about the Nebraska Department of Roads. Please keep in mind that I will be referring to the roads of the state highway system, not the roads of your city or county. Thinking about the highways in the state of Nebraska, how satisfied are you with the *condition* of these roads?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.87	1.012
+1) Very satisfied	936	38.6
+2) Somewhat satisfied	1079	44.5
+3) Somewhat dissatisfied	311	12.8
+4) Very dissatisfied	73	3.0
+8) Don't know	26	1.1
+9) Refused	1	0.0
+
+
+360) R2
+Next, I'd like to ask some questions about the Nebraska Department of Roads. Please keep in mind that I will be referring to the roads of the state highway system, not the roads of your city or county. Thinking of just the major highway routes of the state, how satisfied are you with snow and ice removal by the Department of Roads?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.809	1.351
+1) Very satisfied	1195	49.3
+2) Somewhat satisfied	963	39.7
+3) Somewhat dissatisfied	135	5.6
+4) Very dissatisfied	51	2.1
+8) Don't know	80	3.3
+9) Refused	2	0.1
+
+
+361) R3
+Next, I'd like to ask some questions about the Nebraska Department of Roads. Please keep in mind that I will be referring to the roads of the state highway system, not the roads of your city or county. Thinking only of the employees of the Department of Roads, not those of highway contractors, the county, or the city, what is your overall impression of the employees of the Department of Roads? **State workers do maintenance on roads** **Highway contractors do new construction**
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.189	1.872
+1) Very favorable	914	37.7
+2) Favorable	1199	49.4
+3) Unfavorable	87	3.6
+4) Very unfavorable	18	0.7
+8) Don't know	206	8.5
+9) Refused	2	0.1
+
+
+362) R4
+Next, I'd like to ask some questions about the Nebraska Department of Roads. Please keep in mind that I will be referring to the roads of the state highway system, not the roads of your city or county. Have you had contact with an employee of the Department of Roads within the past year? [if (answer is greater than 1) skip to R6]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	3.213	2.042
+1) Yes	1102	45.4
+5) No	1300	53.6
+8) Don't know	23	0.9
+9) Refused	1	0.0
+
+
+363) R5
+Next, I'd like to ask some questions about the Nebraska Department of Roads. Please keep in mind that I will be referring to the roads of the state highway system, not the roads of your city or county. Would you say the employee [of the Department of Roads] was very courteous, somewhat courteous, somewhat discourteous, or very discourteous?
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2426	1.11	0.476
+1) Very courteous	2220	91.5
+2) Courteous	177	7.3
+3) Not very courteous	20	0.8
+4) Not at all courteous	3	0.1
+8) Don't know	6	0.2
+
+
+364) R6
+Next, I would like to read some statements about the Nebraska Department of Roads. Please tell me if you strongly agree, agree, disagree, or strongly disagree with each statement. The Department of Roads is doing a good job of building and maintaining the state highway system.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.015	1.24
+1) Strongly agree	842	34.7
+2) Agree	1229	50.7
+3) Neither agree or disagree/Neutral	50	2.1
+4) Disagree or	216	8.9
+5) Strongly disagree	47	1.9
+8) Don't know	39	1.6
+9) Refused	3	0.1
+
+
+365) R10
+Next, I would like to read some statements about the Nebraska Department of Roads. Please tell me if you strongly agree, agree, disagree, or strongly disagree with each statement. All revenues collected from motor fuel taxes should be spent for transportation-related highway improvements and maintenance.
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.993	1.456
+1) Strongly agree	1014	41.8
+2) Agree	1077	44.4
+3) Neither agree or disagree/neutral	43	1.8
+4) Disagree or	186	7.7
+5) Strongly disagree	18	0.7
+8) Don't know	87	3.6
+9) Refused	1	0.0
+
+
+366) R11
+Some people in the state support higher gasoline taxes for various reasons. For example, some would support higher taxes to *maintain* the condition of the existing state highway system. Others might support higher gasoline taxes to *improve* the condition of the state highway system. Still others would support higher gasoline taxes to complete the state's 600-mile expressway system. [Probe: This would be a series of four-lane roads connecting towns and cities in Nebraska.] Would you support higher gasoline taxes to maintain the condition of the existing highway system?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.777	2.088
+1) Yes	1383	57.0
+5) No	997	41.1
+8) Don't know	44	1.8
+9) Refused	2	0.1
+
+
+367) R12
+Some people in the state support higher gasoline taxes for various reasons. For example, some would support higher taxes to *maintain* the condition of the existing state highway system. Others might support higher gasoline taxes to *improve* the condition of the state highway system. Still others would support higher gasoline taxes to complete the state's 600-mile expressway system. [Probe: This would be a series of four-lane roads connecting towns and cities in Nebraska.] Would you support higher gasoline taxes to *improve* the condition of the state highway system?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.703	2.109
+1) Yes	1439	59.3
+5) No	927	38.2
+8) Don't know	57	2.3
+9) Refused	3	0.1
+
+
+368) R13
+Some people in the state support higher gasoline taxes for various reasons. For example, some would support higher taxes to *maintain* the condition of the existing state highway system. Others might support higher gasoline taxes to *improve* the condition of the state highway system. Still others would support higher gasoline taxes to complete the state's 600-mile expressway system. [Probe: This would be a series of four-lane roads connecting towns and cities in Nebraska.] Would you support higher gasoline taxes to accelerate completion of the state's 600-mile expressway system?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	3.185	2.169
+1) Yes	1164	48.0
+5) No	1178	48.6
+8) Don't know	82	3.4
+9) Refused	2	0.1
+
+
+369) RS3
+Safety of the motoring public is a priority of the Department of Roads. Thinking only of state highways, how satisfied are you with the Department of Roads in providing you with a safe transportation system? Would you say you are...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2426	1.668	0.973
+1) Very satisfied	1131	46.6
+2) Somewhat satisfied	1161	47.9
+3) Somewhat dissatisfied	86	3.5
+4) Very dissatisfied	12	0.5
+8) Don't know	36	1.5
+
+
+370) RS2
+How safe do you feel when you have to drive through a construction work zone on Nebraska highways? Would you say you feel...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2426	1.803	1.027
+1) Very safe	1072	44.2
+2) Somewhat safe	965	39.8
+3) Somewhat unsafe	301	12.4
+4) Very unsafe	59	2.4
+8) Don't know	29	1.2
+
+
+371) RA1
+In the past 12 months, have you stopped at one of Nebraska's I-80 rest areas? [if (answer is greater than 1) skip to ra2]
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2426	2.21	1.859
+1) Yes	1699	70.0
+5) No	718	29.6
+8) Don't know	9	0.4
+
+
+372) RA1A
+How safe do you feel when using one of Nebraska's I-80 rest areas? Would you say you feel...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2426	1.332	0.7
+1) Very safe	1795	74.0
+2) Somewhat safe	516	21.3
+3) Somewhat unsafe	91	3.8
+4) Very unsafe	15	0.6
+8) Don't know	9	0.4
+
+
+373) RA1B
+While visiting Nebraska I-80 rest areas, have you used the video display that provides weather and road condition information? [if (answer is greater than 1) skip to RA2]
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2426	2.095	1.791
+1) Yes	1764	72.7
+5) No	659	27.2
+8) Don't know	3	0.1
+
+
+374) RA1B_A
+How useful was the video display to you? Would you say...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2426	1.1	0.422
+1) Very useful	2226	91.8
+2) Somewhat useful	181	7.5
+3) Not very useful	11	0.5
+4) Not at all useful	4	0.2
+8) Don't know	4	0.2
+
+
+375) RA2
+Overall, how would you compare Nebraska's Interstate 80 rest areas to rest areas in other states? Would you say Nebraska's rest areas are...
+RANGE: 1 to 8
+	N	Mean	Std. Deviation
+Total	2426	2.692	2.028
+1) Much better	879	36.2
+2) Somewhat better	347	14.3
+3) About the same	838	34.5
+4) Somewhat worse	113	4.7
+8) Don't know	249	10.3
+
+
+376) RI1
+Overall, would you say your feelings about the Department of Roads are generally very positive, somewhat positive, somewhat negative, or very negative?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.752	1.019
+1) Very positive	999	41.2
+2) Somewhat positive	1249	51.5
+3) Somewhat negative	123	5.1
+4) Very negative	14	0.6
+8) Don't know	40	1.6
+9) Refused	1	0.0
+
+
+377) SEMP
+I just have a few final questions for you. Does (your husband/your wife/the primary income earner in the household) typically work full-time, part-time, go to school, keep house, or something else? [if (pier is greater than 5) skip to home] [if (pier equals 3) skip to home]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2426	2.031	4.763
+1) Working a full-time job (35 hours or more)	1882	77.6
+2) Working a part-time job(s)	152	6.3
+3) With a job, but not at work - temporary illness/vacation/strike	1	0.0
+4) Unemployed, laid off, looking for work	13	0.5
+5) Retired	218	9.0
+6) In school	8	0.3
+7) Keeping house	122	5.0
+8) Other - specify	25	1.0
+99) Refused	5	0.2
+
+
+378) SEEM
+Was (he/she) ever employed for as long as one year? [if (semp is less than or equal to 3) skip to styp] [if (answer is greater than 1) skip to home]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.084	0.607
+1) Yes	2378	98.0
+5) No	45	1.9
+9) Refused	3	0.1
+
+
+379) HOME
+Now I would like to ask you some questions about your home. Which of the following comes closest to the kind of housing unit you now live in? [Read the list and stop when R. selects unit type.]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.275	0.756
+1) Mobile home	62	2.6
+2) Detached single family house	1969	81.2
+3) Townhouse/condominium	84	3.5
+4) Apartment/duplex	302	12.4
+5) Other - specify	5	0.2
+8) Don't know	2	0.1
+9) Refused	2	0.1
+
+
+380) OHOM
+Do you or some member of your household own your home outright, are you buying it, or do you rent?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.837	0.934
+1) Own outright	1034	42.6
+2) Buying	860	35.4
+3) Renting	491	20.2
+4) Other - specify	12	0.5
+5) Provided as part of job/wages	19	0.8
+8) Don't know	4	0.2
+9) Refused	6	0.2
+
+
+381) RELI
+Finally, I have just a few more questions about yourself. What is your religious preference? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	1.739	1.352
+1) Protestant	1499	61.8
+2) Catholic	610	25.1
+3) Jewish	8	0.3
+4) None	202	8.3
+5) Other - specify	73	3.0
+8) Don't know	3	0.1
+9) Refused	31	1.3
+
+
+382) DENO
+What specific denomination is that, if any? [if (reli is greater than 1) skip to ratt]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2426	3.735	6.443
+1) Baptist	1054	43.4
+2) Methodist	308	12.7
+3) Lutheran	487	20.1
+4) Presbyterian	96	4.0
+5) Episcopalian	38	1.6
+6) Church of Christ	18	0.7
+7) Evangelical Free Church	42	1.7
+8) Congregational	16	0.7
+9) Other - specify	80	3.3
+10) Christian	115	4.7
+11) United Church of Christ	21	0.9
+12) First Christian	9	0.4
+13) Assembly of God	28	1.2
+14) No denomination/none	106	4.4
+88) Don't know	2	0.1
+99) Refused	6	0.2
+
+
+383) RATT
+How often do you attend religious services? [Read choices if necessary]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2426	5.113	11.483
+1) Several times a week	207	8.5
+2) Once a week	876	36.1
+3) Nearly every week	236	9.7
+4) About once a month	261	10.8
+5) Several times a year	324	13.4
+6) About once a year	163	6.7
+7) Less than once a year	59	2.4
+8) Never	262	10.8
+88) Don't know	16	0.7
+99) Refused	22	0.9
+
+
+384) INCM
+Is your total family income $20,000 or more, or less than $20,000? [if (answer equals 9) skip to agyr] [if (answer equals 8) skip to AGYR] [skip to inco]
+RANGE: 1 to 9
+	N	Mean	Std. Deviation
+Total	2426	2.187	2.366
+1) $20,000 or more	1883	77.6
+5) Less than $20,000	350	14.4
+8) Don't know	64	2.6
+9) Refused	129	5.3
+
+
+385) INC
+I am going to mention a number of income categories. When I mention the category which describes your total family income in the last 12 months, please stop me. [if (answer is greater than 0) skip to agyr]
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2426	11.825	21.211
+1) 	543	22.4
+5) $20,000 to $24,999	194	8.0
+6) $25,000 to $29,999	166	6.8
+7) $30,000 to $39,999	284	11.7
+8) $40,000 to $49,999	283	11.7
+9) $50,000 to $59,999	244	10.1
+10) $60,000 to $74,999	198	8.2
+11) $75,000 to $100,000	202	8.3
+12) $100,000 or more	172	7.1
+88) Don't know	36	1.5
+99) Refused	104	4.3
+
+
+386) INCO
+I am going to mention a number of income categories. When I mention the category which describes your total family income in the last 12 months, please stop me.
+RANGE: 1 to 99
+	N	Mean	Std. Deviation
+Total	2426	2.256	9.504
+1) Under $5,000	2108	86.9
+2) $5,000 to $9,999	65	2.7
+3) $10,000 to $14,999	94	3.9
+4) $15,000 to $19,999	133	5.5
+88) Don't know	14	0.6
+99) Refused	12	0.5
+
+
+387) AGYR
+In what year were you born?
+RANGE: 1908 to 9999
+	N	Mean	Std. Deviation
+Total	2426	2038.396	816.396
+1908) 	1	0.0
+1910) 	1	0.0
+1911) 	2	0.1
+1912) 	1	0.0
+1913) 	2	0.1
+1914) 	6	0.2
+1915) 	7	0.3
+1916) 	4	0.2
+1917) 	10	0.4
+1918) 	9	0.4
+1919) 	14	0.6
+1920) 	14	0.6
+1921) 	21	0.9
+1922) 	17	0.7
+1923) 	14	0.6
+1924) 	17	0.7
+1925) 	16	0.7
+1926) 	24	1.0
+1927) 	18	0.7
+1928) 	26	1.1
+1929) 	29	1.2
+1930) 	26	1.1
+1931) 	23	0.9
+1932) 	29	1.2
+1933) 	39	1.6
+1934) 	29	1.2
+1935) 	25	1.0
+1936) 	19	0.8
+1937) 	28	1.2
+1938) 	21	0.9
+1939) 	33	1.4
+1940) 	30	1.2
+1941) 	25	1.0
+1942) 	54	2.2
+1943) 	36	1.5
+1944) 	37	1.5
+1945) 	50	2.1
+1946) 	45	1.9
+1947) 	43	1.8
+1948) 	49	2.0
+1949) 	47	1.9
+1950) 	54	2.2
+1951) 	51	2.1
+1952) 	41	1.7
+1953) 	52	2.1
+1954) 	47	1.9
+1955) 	50	2.1
+1956) 	49	2.0
+1957) 	52	2.1
+1958) 	62	2.6
+1959) 	52	2.1
+1960) 	49	2.0
+1961) 	56	2.3
+1962) 	50	2.1
+1963) 	55	2.3
+1964) 	53	2.2
+1965) 	40	1.6
+1966) 	39	1.6
+1967) 	38	1.6
+1968) 	46	1.9
+1969) 	47	1.9
+1970) 	32	1.3
+1971) 	44	1.8
+1972) 	37	1.5
+1973) 	39	1.6
+1974) 	35	1.4
+1975) 	34	1.4
+1976) 	31	1.3
+1977) 	28	1.2
+1978) 	23	0.9
+1979) 	39	1.6
+1980) 	34	1.4
+1981) 	24	1.0
+1982) 	26	1.1
+1983) 	18	0.7
+1984) 	30	1.2
+1985) 	2	0.1
+8888) Don't know	3	0.1
+9999) Refused	23	0.9
+
+
+388) F1QUAL
+[Interviewer: How would you rate the quality of the information obtained in this interview?] [IF (answer equals 1) skip to intcom]
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	2426	1.14	0.419
+1) Excellent - no problems at all	2142	88.3
+2) Good - a few problems but overall quality good	239	9.9
+3) Fair - a number of problems but overall acceptable	34	1.4
+4) Poor - many problems, overall quality open to question	11	0.5
+
+
+389) LOWQUAL1
+What were the reasons that the quality of the information was less than excellent? SELECT ALL THAT APPLY. Interview not in respondent's native language
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.885	0.319
+0) Not checked	279	11.5
+1) Checked	2147	88.5
+
+
+390) LOWQUAL2
+What were the reasons that the quality of the information was less than excellent? SELECT ALL THAT APPLY. Hearing problems (hearing loss or background noise)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.908	0.288
+0) Not checked	222	9.2
+1) Checked	2204	90.8
+
+
+391) LOWQUAL3
+What were the reasons that the quality of the information was less than excellent? SELECT ALL THAT APPLY. Interruptions or distractions
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.899	0.302
+0) Not checked	246	10.1
+1) Checked	2180	89.9
+
+
+392) LOWQUAL4
+What were the reasons that the quality of the information was less than excellent? SELECT ALL THAT APPLY. Poor phone connection
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.888	0.316
+0) Not checked	272	11.2
+1) Checked	2154	88.8
+
+
+393) LOWQUAL5
+What were the reasons that the quality of the information was less than excellent? SELECT ALL THAT APPLY. Lack of mental or physical competency
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.89	0.313
+0) Not checked	266	11.0
+1) Checked	2160	89.0
+
+
+394) LOWQUAL6
+What were the reasons that the quality of the information was less than excellent? SELECT ALL THAT APPLY. Infirm (too weak or ill)
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.883	0.321
+0) Not checked	283	11.7
+1) Checked	2143	88.3
+
+
+395) LOWQUAL7
+What were the reasons that the quality of the information was less than excellent? SELECT ALL THAT APPLY. Intoxication
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.884	0.32
+0) Not checked	281	11.6
+1) Checked	2145	88.4
+
+
+396) LOWQUAL8
+What were the reasons that the quality of the information was less than excellent? SELECT ALL THAT APPLY. Respondent was rushed
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.891	0.312
+0) Not checked	265	10.9
+1) Checked	2161	89.1
+
+
+397) LOWQUAL9
+What were the reasons that the quality of the information was less than excellent? SELECT ALL THAT APPLY. Respondent did not take interview seriously
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.889	0.314
+0) Not checked	269	11.1
+1) Checked	2157	88.9
+
+
+398) LOWQUA10
+What were the reasons that the quality of the information was less than excellent? SELECT ALL THAT APPLY. Respondent did not understand the meaning of the questions
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.908	0.289
+0) Not checked	223	9.2
+1) Checked	2203	90.8
+
+
+399) LOWQUA11
+What were the reasons that the quality of the information was less than excellent? SELECT ALL THAT APPLY. Respondent was offended by the interview
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.887	0.316
+0) Not checked	273	11.3
+1) Checked	2153	88.7
+
+
+400) LOWQUA12
+What were the reasons that the quality of the information was less than excellent? SELECT ALL THAT APPLY. Respondent may not be truthful: someone else may have been listening
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.883	0.321
+0) Not checked	283	11.7
+1) Checked	2143	88.3
+
+
+401) LOWQUA13
+What were the reasons that the quality of the information was less than excellent? SELECT ALL THAT APPLY. Respondent may not be truthful: someone was within hearing distance
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.883	0.321
+0) Not checked	283	11.7
+1) Checked	2143	88.3
+
+
+402) LOWQUA14
+What were the reasons that the quality of the information was less than excellent? SELECT ALL THAT APPLY. Other - specify
+RANGE: 0 to 1
+	N	Mean	Std. Deviation
+Total	2426	0.938	0.242
+0) Not checked	151	6.2
+1) Checked	2275	93.8
+
+
+403) F1THINK
+How would you rate the respondent's overall thinking and comprehension of everyday instructions and questions?
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2426	1.108	0.395
+1) Excellent	2224	91.7
+2) Good	153	6.3
+3) Fair	39	1.6
+4) Poor	9	0.4
+5) Inadequate	1	0.0
+
+
+404) RACE_10
+Race - Hispanic or Latino
+RANGE: 0 to 10
+	N	Mean	Std. Deviation
+Total	2426	0.019	0.235
+0) Not Checked	2390	98.5
+1) Checked	35	1.4
+10) [ARDA note: missing label]	1	0.0
+
+
+405) ADULTHH
+Number of adults in household
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2426	1.822	0.642
+
+
+406) INTRO3
+We're not selling anything. Your telephone number was generated at random by a computer to insure a scientific sample of people in our study. To make sure our study is scientific, can you tell me how many adults ages 19 and older are living in your household? [if (answer equals 0) skip to nonqual]
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2426	1.826	0.649
+
+
+407) REG
+Region
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2426	2.99	1.402
+1) Central	321	13.2
+2) Midland	818	33.7
+3) Northern	326	13.4
+4) Southeastern	626	25.8
+5) Southwestern	195	8.0
+6) Panhandle	140	5.8
+
+
+408) AGECAT
+Age category
+RANGE: -9 to 4
+	N	Mean	Std. Deviation
+Total	2426	2.64	1.287
+-9) [ARDA note: Missing label]	16	0.7
+1) 19 to 24 years old	175	7.2
+2) 25 to 44 years	830	34.2
+3) 45 to 64 years	906	37.3
+4) 65 or older	499	20.6
+
+
+409) PWEIGHT
+Individual Weight
+RANGE: 0.322868882666375 to 4.45516303863527
+	N	Mean	Std. Deviation
+Total	2426	1	0.456
+
+
+410) HWEIGHT
+HH Weight
+RANGE: 0.322868882666375 to 0.922496322090019
+	N	Mean	Std. Deviation
+Total	2426	0.546	0.128
+
+
+411) AGE0_12
+Number of household members ages 0 to 12 years old
+RANGE: 0 to 5
+	N	Mean	Std. Deviation
+Total	2426	0.461	0.878
+
+
+412) AGE13_18
+Number of household members ages 13 to 18 years old
+RANGE: 0 to 4
+	N	Mean	Std. Deviation
+Total	2426	0.271	0.626
+
+
+413) INCOME
+Total Family Income
+RANGE: 1 to 12
+	N	Mean	Std. Deviation
+Total	2426	6.601	3.49
+1) Under $5,000	391	16.1
+2) $5,000 to $9,999	65	2.7
+3) $10,000 to $14,999	94	3.9
+4) $15,000 to $19,999	133	5.5
+5) $20,000 to $24,999	194	8.0
+6) $25,000 to $29,999	166	6.8
+7) $30,000 to $39,000	284	11.7
+8) $40,000 to $49,999	283	11.7
+9) $50,000 to $59,999	244	10.1
+10) $60,000 to $69,999	198	8.2
+11) $70,000 to $79,999	202	8.3
+12) $80,000 to $89,999	172	7.1
+
+
+414) LIVCAT
+Number of years lived in county categories [-9 Don't know]
+RANGE: -9 to 11
+	N	Mean	Std. Deviation
+Total	2426	5.15	3.543
+-9) Don't know	3	0.1
+0) Less than 1 year	79	3.3
+1) 1 to 5 years	409	16.9
+2) 6 to 10 years	278	11.5
+3) 11 to 15 years	205	8.5
+4) 16 to 20 years	200	8.2
+5) 21 to 25 years	172	7.1
+6) 26 to 30 years	226	9.3
+7) 31 to 35 years	154	6.3
+8) 36 to 40 years	159	6.6
+9) 41 to 45 years	125	5.2
+10) 46 to 50 years	126	5.2
+11) 51 or more years	290	12.0
+
+
+415) I-AGE
+Age category (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	2426	2.706	0.881
+1) 19 to 24 years old	191	7.9
+2) 25 to 44 years	830	34.2
+3) 45 to 64 years	906	37.3
+4) 65 or older	499	20.6
+
+
+416) I-EDUC
+What is the highest degree you have attained? (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2426	2.479	1.407
+1) High school diploma/GED or less	894	36.9
+2) Some college, but no degree	447	18.4
+3) Technical/Associate/Junior college (two-year, LPN)	347	14.3
+4) Bachelor's degree (four-year, BA, BS, RN)	506	20.9
+5) Graduate degree (Master's, MA, Doctorate, Ph.D.)	232	9.6
+
+
+417) I-SEX
+What is your sex? (Recoded for use with online analysis)
+RANGE: 1 to 2
+	N	Mean	Std. Deviation
+Total	2426	1.566	0.496
+1) Male	1054	43.4
+2) Female	1372	56.6
+
+
+418) I-REGION
+Region (For use with online analysis)
+RANGE: 1 to 6
+	N	Mean	Std. Deviation
+Total	2426	2.99	1.402
+1) Central	321	13.2
+2) Midland	818	33.7
+3) Northern	326	13.4
+4) Southeastern	626	25.8
+5) Southwestern	195	8.0
+6) Panhandle	140	5.8
+
+
+419) I-INCOME
+Total Family Income (Recoded for use with online analysis)
+RANGE: 1 to 5
+	N	Mean	Std. Deviation
+Total	2426	2.779	1.423
+1) Under $20,000	683	28.2
+2) $20,000 to $29,999	360	14.8
+3) $30,000 to $49,999	567	23.4
+4) $50,000 to $69,999	442	18.2
+5) $70,000 to $89,999	374	15.4
+
+
+420) I-MARITAL
+Are you married, never married, divorced, widowed, or separated? [if ('marr' equals 1) skip 'pier'] (Recoded for use with online analysis)
+RANGE: 1 to 4
+	N	Mean	Std. Deviation
+Total	2426	1.735	1.038
+1) Married	1470	60.6
+2) Never married	370	15.3
+3) Divorced, separated, or married, living apart	344	14.2
+4) Widowed	242	10.0
+
+
