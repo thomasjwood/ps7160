@@ -61,7 +61,7 @@ Raw-URL reads only work for files under 100 MB.
 | `msu_soss` | Michigan State of the State Survey | 1994-2025 |
 | `rutgers_eagleton` | Rutgers-Eagleton New Jersey polls | 1971-2014 |
 | `uarkansas` | Arkansas Poll | 1999-2023 |
-| `slu_yg` | SLU/YouGov Missouri poll | 2020-2025 |
+| `slu_yg` | SLU/YouGov Missouri poll, 11 waves; `slu_stacked.rds` (+ `slu_stacked_vars.rds` column map) | 2020-2026 |
 | `quest_peoples_voice` | People's Voice Survey (multi-country) | 2024 |
 
 ## Pew Research Center
